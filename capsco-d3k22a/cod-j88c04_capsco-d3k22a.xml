@@ -1,0 +1,1205 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 4, Distinctio 17, Quaestio 2</title>
+        <author ref="#JohannesCapreolus">Johannes Capreolus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 4, Distinctio 17, Quaestio 2</title>
+          <date when="2026-11-04">Nov 4, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-j88c04">Venice, 1589, v. 4</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-04" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="210"/>
+        <cb ed="#V" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="capsco-d3k22a"><!-- l4d17q2 -->
+        <head xml:id="capsco-d3k22a-Hd1e101">Quaestio 2</head>
+        <head xml:id="capsco-d3k22a-Hd1e103" type="question-title">Utrum confessio facta ab illo qui non est contritus nec poenitens, aliquid valeat</head>
+        <p xml:id="capsco-d3k22a-d1e106">
+          <lb ed="#V" n="113"/>QVAESTIO. II.
+          <lb ed="#V" n="114"/>Vtrum confessio facta ab illo qui non est contritus nec
+          <lb ed="#V" n="115"/>poenitens, aliquid valeat.
+        </p>
+        <p xml:id="capsco-d3k22a-d1e115">
+          <lb ed="#V" n="116"/><milestone ed="#V" unit="p" rend="initial"/> TERVM circa decimamseptimam
+          di<lb ed="#V" n="117" break="no"/>stinctionem 4. sent. quaeritur. Vtrum
+          <lb ed="#V" n="118"/>confessio facta ab illo qui non est
+          con<lb ed="#V" n="119" break="no"/>tritus nec poenitens, aliquid valeat.
+        </p>
+        <p xml:id="capsco-d3k22a-d1e127">
+          <lb ed="#V" n="120"/>Et arguitur quod non, quia confessio
+          <lb ed="#V" n="121"/>distinguitur contra contritionem &amp;
+          <lb ed="#V" n="122"/>satisfactionem, sed contritio &amp;
+          satis<lb ed="#V" n="123" break="no"/>factio non valent sine charitate: ergo nec confessio.
+        </p>
+        <p xml:id="capsco-d3k22a-d1e139">
+          <lb ed="#V" n="124"/><milestone ed="#V" unit="p" rend="indent"/> In oppositum arguitur, quia contritio valet sine
+          actuali<lb ed="#V" n="125" break="no"/>confessione, dummodo habeatur in proposito: ergo
+          si<lb ed="#V" n="126" break="no"/>militer confessio valet sine actuali contritione.
+        </p>
+        <p xml:id="capsco-d3k22a-d1e149">
+          <lb ed="#V" n="127"/><milestone ed="#V" unit="p" rend="indent"/> In hac quaestione erunt tres articuli. In primo ponentur
+          <lb ed="#V" n="128"/>conclusiones. In secundo obiectiones. In tertio solut.
+        </p>
+        <div xml:id="capsco-d3k22a-Dd1e157">
+          <head xml:id="capsco-d3k22a-Hd1e159">Articulus 1</head>
+          <p xml:id="capsco-d3k22a-d1e161">
+            <lb ed="#V" n="129"/><milestone ed="#V" unit="p" rend="initial"/> QVantum ad primum articulum sit prima conclusio.
+            <lb ed="#V" n="130"/>Confessio facta sine contritione non valet pro
+            tem<lb ed="#V" n="131" break="no"/>pore quo sit ad remissionem peccati quo ad culpam
+            <lb ed="#V" n="132"/>vel poenam.
+          </p>
+          <p xml:id="capsco-d3k22a-d1e173">
+            Secunda conclusio. Talis confessio
+            receden<lb ed="#V" n="133" break="no"/>te fictione incipit esse fructifera confitenti. Tertia
+            conclu<lb ed="#V" n="134" break="no"/>sio. Taliter confessus non tenetur iterare confessionem prius
+            <lb ed="#V" n="135"/>factam, sed solum confiteri suam fictionem. Has tres
+            con<lb ed="#V" n="136" break="no"/>clusiones ponit Sanctus Thomas praesenti distin. q. 3. artic. 4. in
+            solu<lb ed="#V" n="137" break="no"/>tione primae quaestionis, ait enim sic. Confessio est actus
+            vir<lb ed="#V" n="138" break="no"/>tutis, &amp; pars sacramenti, secundum autem quod est actus
+            <lb ed="#V" n="139"/>virtutis est actus meritorius proprie, &amp; sic confessio non
+            va<lb ed="#V" n="140" break="no"/>let sine charitate quae est principium merendi, sed secundum quod est
+            <lb ed="#V" n="141"/>pars sacramenti sic ordinat confitentem ad sacerdotem qui
+            <lb ed="#V" n="142"/>habet claues Ecclesiae, qui per confessionem conscientiam
+            <lb ed="#V" n="143"/>confitentis cognoscit, &amp; secundum hoc confessio potest esse etiam
+            <lb ed="#V" n="144"/>in eo qui non est contritus, quia potest peccata sua
+            sacerdo<lb ed="#V" n="145" break="no"/>ti innotescere, &amp; clauibus Ecclesiae se subijcere. Et quamuis
+            <lb ed="#V" n="146"/>tunc non percipiat absolutionis fructum, tamen recedente
+            fictio<lb ed="#V" n="147" break="no"/>ne percipere incipiet, sicut etiam est in alijs sacramentis, vnde non
+            <pb ed="#V" n="211"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>tenetur iterare confessionem qui fictus accedit, sed tenetur
+            <lb ed="#V" n="2"/>postmodum suam fictionem confiteri. Haec ille.
+          </p>
+          <p xml:id="capsco-d3k22a-d1e217">
+            Item
+            ibi<lb ed="#V" n="3" break="no"/>dem arguit sic. Quilibet tenetur ad confessionem
+            morta<lb ed="#V" n="4" break="no"/>lium, quae si aliquis semel confessus est etiam in mortali
+            exi<lb ed="#V" n="5" break="no"/>stens non tenetur vlterius ad confitendum eadem peccata,
+            <lb ed="#V" n="6"/>quia cum nullus sciat se charitatem habere, nullus sciret se
+            <lb ed="#V" n="7"/>consessum fuisse: ergo non est de necessitate confessionis
+            <lb ed="#V" n="8"/>quod sit charitate formata Haec ille.
+          </p>
+          <p xml:id="capsco-d3k22a-d1e233">
+            Ex quibus possunt
+            forma<lb ed="#V" n="9" break="no"/>ri rationes pro qualibet cosclusione. Pro prima siquidem
+            <lb ed="#V" n="10"/>arguitur sic. Peccatum non remittitur nisi ad sit qurtra &amp;
+            cha<lb ed="#V" n="11" break="no"/>ritas, sed confessus incontritus caret charitate &amp; gratia:
+            er<lb ed="#V" n="12" break="no"/>go non consequitur remissionem peccatorum pro tunc. Pro
+            <lb ed="#V" n="13"/>secunda vero conclusione arguitur sic. Non minoris
+            effica<lb ed="#V" n="14" break="no"/>ciae est sacramentum poenitentiae quam sacramentum baptismi, sed fictus
+            su<lb ed="#V" n="15" break="no"/>scipiens sacramentum baptismi recedente fictione
+            consequi<lb ed="#V" n="16" break="no"/>tur vltimum effectum baptismi &amp; rem sacramenti: ergo similiter
+            fi<lb ed="#V" n="17" break="no"/>ctus recipiens sacramentum poenitentiae recedente fictione
+            consequi<lb ed="#V" n="18" break="no"/>tur vltimam rem sacramenti. Pro tertia conclusione arguitur
+            <lb ed="#V" n="19"/>sic. Sicut est de baptismo, sic videtur esse de sacramento poenitentiae, sed
+            <lb ed="#V" n="20"/>fictus recipiens sacramentum baptismi non tenetur iterato
+            <lb ed="#V" n="21"/>baptizari: ergo fictus recipiens sacramentum poenitentiae
+            <lb ed="#V" n="22"/>non tenetur iterum confiteri ea, quae prius confessus fuit cum
+            <lb ed="#V" n="23"/>fictione. Et in hoc primus articulus terminatur.
+          </p>
+        </div>
+        <div xml:id="capsco-d3k22a-Dd1e269">
+          <head xml:id="capsco-d3k22a-Hd1e271">Articulus 2</head>
+          <p xml:id="capsco-d3k22a-d1e273">
+            <lb ed="#V" n="24"/><milestone ed="#V" unit="p" rend="initial"/> Vantum ad secundum articulum arguendum est
+            con<lb ed="#V" n="25" break="no"/>tra conclusiones. Et quidem contra secundam arguit
+            <lb ed="#V" n="26"/>Durandus dicens. Aliquis potest dici non contritus &amp; non
+            <lb ed="#V" n="27"/>paenitens duplicitur. Vno modo quia dolet de peccatis, sed
+            <lb ed="#V" n="28"/>non sufficienter. Alio modo quia non dolet de peccatis, nec
+            <lb ed="#V" n="29"/>pro tunc abstinere proponit: primo modo confessio facta
+            <lb ed="#V" n="30"/>a non contrito valet, quia nulli potest constare de
+            sufficien<lb ed="#V" n="31" break="no"/>ti contritione, &amp; ideo ad hoc quod excusetur a transgressione
+            <lb ed="#V" n="32"/>praecepti de confessione sufficit quod reputet se contritum, &amp;
+            <lb ed="#V" n="33"/>credibile est quod Deus suppleat residuum, aut quod per
+            absolu<lb ed="#V" n="34" break="no"/>tionem praecedens dolor virtute clauium qui fuit insufficiens
+            <lb ed="#V" n="35"/>efficitur tunc sufficiens, aut postmodum superueniente
+            con<lb ed="#V" n="36" break="no"/>tritione dimittitur peccatum, nec tenetur ad iterandum
+            con<lb ed="#V" n="37" break="no"/>fessionem prius factam. Si autem sit incontritus, quia non
+            poe<lb ed="#V" n="38" break="no"/>nitet, nec pro tunc abstinere proponit, sic est difficilior quaestio.
+            <lb ed="#V" n="39"/>Circa quam sunt duo modi dicendi. Primus quod talis
+            confes<lb ed="#V" n="40" break="no"/>sio valet ad remissionem culpae, quia impoenitens quando
+            <lb ed="#V" n="41"/>confitetur &amp; absoluitur, licet tunc non recipiat fructum
+            ab<lb ed="#V" n="42" break="no"/>solutionis, tamen recedente fictione recipiet, sicut de baptismo
+            <lb ed="#V" n="43"/>dictum est. Et forte ratio huius opinionis est, quia sicut in
+            <lb ed="#V" n="44"/>baptismo imprimitur character, ad quem recedente
+            fictio<lb ed="#V" n="45" break="no"/>ne consequitur gratia, sic in poenitentia recipitur quaedam
+            <lb ed="#V" n="46"/>dispositio vel ornatus ad quem recedente fictione sequitur
+            <lb ed="#V" n="47"/>gratia, per quam est remissio peccatorum. Sed istud non vidtr
+            <lb ed="#V" n="48"/>alijs propter tria. Primo quia nullus talis ornatus
+            imprimi<lb ed="#V" n="49" break="no"/>tur a sacramento paenitentiae, sed est adinuentio ficta.
+            Secun<lb ed="#V" n="50" break="no"/>do, quia si aliquid tale imprimitur non manet nisi cum
+            gra<lb ed="#V" n="51" break="no"/>tia, alioquin multiplicaretur in eodem secundum numerum, cum
+            <lb ed="#V" n="52"/>contingat iterari confessionem &amp; absolutionem de eisdem
+            <lb ed="#V" n="53"/>peccatis, &amp; iterata causa iteratur effectus, quod est
+            inconue<lb ed="#V" n="54" break="no"/>niens. Si autem non manet nisi cum gratia, non imprimitur nisi
+            <lb ed="#V" n="55"/>per confessionem &amp; absolutionem per quam confertur
+            gra<lb ed="#V" n="56" break="no"/>tia, quod non est in proposito. Tertio, quia dato quod talis
+            or<lb ed="#V" n="57" break="no"/>natus posset esse cum gratia &amp; sine gratia, ad ipsum non
+            se<lb ed="#V" n="58" break="no"/>queretur gratia recedente fictione quacunque, cum
+            indiffe<lb ed="#V" n="59" break="no"/>renter se habeat ad gratiam &amp; ad priuationem eius, sicut prius
+            <lb ed="#V" n="60"/>dictum est de charactere baptisini.
+          </p>
+          <p xml:id="capsco-d3k22a-d1e357">
+            Quarto arguitur contra
+            <lb ed="#V" n="61"/>illum modum, &amp; pro alio scilicet quod talis confessio non valet ad
+            <lb ed="#V" n="62"/>remissionem culpae, nec pro tunc nec recedente fictione, qua
+            <lb ed="#V" n="63"/>talis impoenitens aut confitetur suam impoenitentiam quae
+            <lb ed="#V" n="64"/>est propositum non abstinendi, aut non. Si non confitetur,
+            <lb ed="#V" n="65"/>tunc est fictus fictione quae est speciale peccatum &amp;
+            contem<lb ed="#V" n="66" break="no"/>ptus sacramenti, &amp; ita confessio eius non est integra, cum
+            <lb ed="#V" n="67"/>omittat confiteri illud peccatum, confessio autem quae non est
+            <lb ed="#V" n="68"/>integra non valet, sed est iteranda: ergo &amp;c. Si vero
+            confi<lb ed="#V" n="69" break="no"/>tetur talem fictionem non debet absolui, quia minister cum
+            <lb ed="#V" n="70"/>sit instrumentum principalis agentis scilicet Dei non debet aliquem
+            ab<lb ed="#V" n="71" break="no"/>soluere, quem scit a Deo non absolui, sicut instrumenta
+            ar<lb ed="#V" n="72" break="no"/>tis non agunt nisi prout mouentur a principali mouente, sed
+            <lb ed="#V" n="73"/>sacerdos scit illum qui non poenitet a Deo non absolui:
+            er<lb ed="#V" n="74" break="no"/>go nullo modo debet talem absoluere. Et ideo dicit
+            Dio<lb ed="#V" n="75" break="no"/>nysius in fine Ecclesiasticae Hierarchiae, quod sacerdotibus
+            vten<cb ed="#V" n="b"/><lb ed="#V" n="76" break="no"/>dum est virtutibus hierarchicis quomodo diuinitas eos mouerit.
+          </p>
+          <p xml:id="capsco-d3k22a-d1e395">
+            <lb ed="#V" n="77"/>Si autem sacerdos praesumat de facto talem absoluere
+            pec<lb ed="#V" n="78" break="no"/>cat. sicut ille qui a diuino ordine auertitur, nec absolutio
+            <lb ed="#V" n="79"/>consequitur effectum aliquem, quia virtus sacramentorum
+            <lb ed="#V" n="80"/>est principaliter a Deo, non autem a sacramentis vel ministro nisi
+            si<lb ed="#V" n="81" break="no"/>cut a causa sine qua non, &amp; ideo qui sic confitetur &amp; de
+            fa<lb ed="#V" n="82" break="no"/>cto absoluitur, tenetur iterum eadem confiteri, &amp; de eis
+            ab<lb ed="#V" n="83" break="no"/>solui. Haec Durandus in forma &amp;c. Contra easdem
+            conclu<lb ed="#V" n="84" break="no"/>siones arguit Godofredus 5. quolib. q. 12. multiplici er
+            Pri<lb ed="#V" n="85" break="no"/>mo quia si aliquis virtute absolutionis factae consequatur
+            gra<lb ed="#V" n="86" break="no"/>tiam postea, &amp; non statim, hoc est quia aliqua dispositio
+            im<lb ed="#V" n="87" break="no"/>primitur in anima, ad quam sequitur gratia cessante
+            impedi<lb ed="#V" n="88" break="no"/>mento quod est fictio, quae manet transeunte absolutione,
+            <lb ed="#V" n="89"/>sicut post baptismum remanet character ad quem sequitur
+            <lb ed="#V" n="90"/>gratia recedente fictione, sed hoc non potest poni in
+            absolu<lb ed="#V" n="91" break="no"/>tione sacramentali, quia si ibi aliqua dispositio imprimitur non
+            <lb ed="#V" n="92"/>manet quandiu absolutio impeditur: ergo non potest
+            poni<lb ed="#V" n="93" break="no"/>quod in ficte confitente vi absolutionis praeteritae sequatur
+            po<lb ed="#V" n="94" break="no"/>stea gratia &amp; remissio peccatorum, minor patet, quia illa
+            di<lb ed="#V" n="95" break="no"/>spositio aut potest manere cum peccato, aut non. Si non: ergo
+            <lb ed="#V" n="96"/>nulla talis facta est in ficte confitente, cum remanserint
+            pec<lb ed="#V" n="97" break="no"/>cata.
+          </p>
+          <p xml:id="capsco-d3k22a-d1e443">
+            Si autem potest manere cum peccato, tunc habens ex vna
+            <lb ed="#V" n="98"/>absolutione talem dispositionem si iterauerit peccatum non
+            <lb ed="#V" n="99"/>tenetur iterum confiteri, quia habet dispositionem quae
+            in<lb ed="#V" n="100" break="no"/>nata est per sacramentalem absolutionem, ad quam debet sequi
+            gra<lb ed="#V" n="101" break="no"/>tia &amp; remissio peccatorum, nisi sit impedimentum ex parte
+            <lb ed="#V" n="102"/>hominis, hoc autem non videatur conueniens: ergo inconueniens est
+            <lb ed="#V" n="103"/>ponere talem dispositionem manentem in ficto per quam
+            po<lb ed="#V" n="104" break="no"/>stea sequatur remissio peccatorum. Secundo, quia de ratione
+            <lb ed="#V" n="105"/>sacramenti poenitentiae vel poenitentiae sacramentalis est habere
+            <lb ed="#V" n="106"/>istas tres partes simul saltem in proposito scilicet confessionem
+            <lb ed="#V" n="107"/>contritionem &amp; satisfactionem, nec sufficit vnum eorum
+            si<lb ed="#V" n="108" break="no"/>ne alio in re vel in proposito, sed illa non sunt in ficte
+            con<lb ed="#V" n="109" break="no"/>sitente, nec in re, nec in proposito: ergo eius confessio non
+            <lb ed="#V" n="110"/>est pars verae poenitentiae sacramentalis, nec per
+            consequen<lb ed="#V" n="111" break="no"/>siberatur nisi confitendo iterata confessione quae sit pars
+            ve<lb ed="#V" n="112" break="no"/>rae poenitentiae.
+          </p>
+          <p xml:id="capsco-d3k22a-d1e479">
+            Tertio, quia talis fictus saltem facto mentitur
+            <lb ed="#V" n="113"/>&amp; committit nouum peccatum fingendo se velle dimittere
+            <lb ed="#V" n="114"/>peccatum, quod quidem non confitetur, &amp; sic eius confessio
+            <lb ed="#V" n="115"/>non est integra. ergo debet haberi pro nullae&amp; sic non
+            tol<lb ed="#V" n="116" break="no"/>litur obligatio praecepti per talem confessionem. Quarto,
+            <lb ed="#V" n="117"/>qua ista fictio aut est falsa assertio, qua confitens asserit se
+            con<lb ed="#V" n="118" break="no"/>tritum cum non sit, vel est defectus purus displicentiae de
+            pec<lb ed="#V" n="119" break="no"/>cato, si primo modo tunc committit nouum peccatum, quod
+            <lb ed="#V" n="120"/>non confitetur, &amp; sic confessio nulla est, quia non est integra.
+            <lb ed="#V" n="121"/>Si secundo modo aut tenetur confiteri fictionem illam aut non.
+            <lb ed="#V" n="122"/>Si non, hoc est contra te qui ponis quod debet confiteri
+            fictio<lb ed="#V" n="123" break="no"/>nem. Si sic. Contra, quia non potest confiteri fictionem
+            mo<lb ed="#V" n="124" break="no"/>do quo debet nisi dicat in speciali quod talia peccata in speciali
+            <lb ed="#V" n="125"/>confessus fuit sine displicentia, quia sic solum reducuntur ad
+            <lb ed="#V" n="126"/>notitiam sacerdotis omnia peccata confessa, nisi forte
+            confite<lb ed="#V" n="127" break="no"/>retur eidem cui prius, &amp; tunc sufficeret dicere, confessus
+            fui<lb ed="#V" n="128" break="no"/>vobis sine displicentia, &amp; de hoc confiteor.
+          </p>
+          <p xml:id="capsco-d3k22a-d1e516">
+            Item cum
+            de<lb ed="#V" n="129" break="no"/>fectus talis displicentiae non dicat speciale peccatum, non va
+            <lb ed="#V" n="130"/>quod indigeat speciali confessione, si in confessione tali
+            confer<lb ed="#V" n="131" break="no"/>tur aliquid, vnde recedente fictione consequatur remissio
+            <lb ed="#V" n="132"/>peccatorum, sicut etiam baptizatus cum fictione non
+            indi<lb ed="#V" n="133" break="no"/>get alio sacramento ad tollendum reatum illius fictionis nisi quod
+            re<lb ed="#V" n="134" break="no"/>cedat quod est contra te: sic ergo sequitur quod ficte consitens
+            <lb ed="#V" n="135"/>tenetur iterum confiteri, ita quod si redit ad eum cur prius
+            con<lb ed="#V" n="136" break="no"/>fessus fuit peccata sua, si ille habeat memoriam, sufficit
+            con<lb ed="#V" n="137" break="no"/>fiteri in generali fictionem suam. Si autem alij, tenetur iterare
+            <lb ed="#V" n="138"/>in speciali. Quinto, quia rationes alterius partis non valent
+            <lb ed="#V" n="139"/>quae sunt potissime tres.
+          </p>
+          <p xml:id="capsco-d3k22a-d1e542">
+            Prima est, quia confessio quae est
+            <lb ed="#V" n="140"/>pars poenitentiae quae est sacramentum non requirit nisi quod homo
+            or<lb ed="#V" n="141" break="no"/>dinet se ad sacerdotem notificando ei peccata sua &amp;
+            subij<lb ed="#V" n="142" break="no"/>ciat se clauibus Ecclesiae, sed hoc potest facere tam fictus quod
+            <lb ed="#V" n="143"/>contritus: ergo confessio sic facta sufficit ad poenitentiam
+            <lb ed="#V" n="144"/>prout est sacramentum ita quod non oportet eam iterare, tenetur tamen
+            <lb ed="#V" n="145"/>suam fictionem confiteri: secundo quia ficte confitens
+            im<lb ed="#V" n="146" break="no"/>plet praeceptum Ecclesiae, sed non impleret nisi faceret illud
+            <lb ed="#V" n="147"/>quod requiritur ex parte confessionis: ergo &amp;c. Tertio, quia
+            <lb ed="#V" n="148"/>sacramentum nouae legis est rememoratiuum
+            demonsira<lb ed="#V" n="149" break="no"/>tiuum &amp; pronosticum, sed pronosticum est respectu
+            fu<lb ed="#V" n="150" break="no"/>turi: ergo sacramentum nouae legis respicit gratiam
+            sutu<pb ed="#V" n="212"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>ram, &amp; sic licet aliquis per confessionem praesentem dato quod
+            <lb ed="#V" n="2"/>non conteratur non habeat gratiam, tamen potest eam vi
+            confes<lb ed="#V" n="3" break="no"/>sionis factae habere in futuro: ergo &amp;c. Sed istae rationes non
+            <lb ed="#V" n="4"/>cogunt, quod patet discurrendo per singulas, quia ad primam
+            <lb ed="#V" n="5"/>diceretur quod confessio quae est pars paenitentiae sacramentalis
+            pro<lb ed="#V" n="6" break="no"/>prie accepta requirit displicentiam peccati sine qua non est
+            <lb ed="#V" n="7"/>perfectum sacramentum poenitentiae propter defectum materiae
+            con<lb ed="#V" n="8" break="no"/>uenientis quae debet esse peccator contritus vel artritus,
+            li<lb ed="#V" n="9" break="no"/>cet sit ibi aliquid pertinens ad confessionem sacramentalem, quia
+            <lb ed="#V" n="10"/>confessor tenetur celare audita sub sigillo confessionis, ad
+            <lb ed="#V" n="11"/>quod tenetur etiam si nullam absolutionem impenderit.
+          </p>
+          <p xml:id="capsco-d3k22a-d1e594">
+            Ad secundum
+            <lb ed="#V" n="12"/>dicendum quod praeceptum de consitendo absolute non est
+            prae<lb ed="#V" n="13" break="no"/>ceptum Ecclesiae sed Dei, sed confiteri tempore determinato
+            <lb ed="#V" n="14"/>est praeceptum Ecclesiae. Vnde dicendum quod simplex narratio
+            <lb ed="#V" n="15"/>peccati sufficeret ad implendum praeceptum Ecclesiae, non
+            <lb ed="#V" n="16"/>tamen ad implendum praeceptum Dei sine displicentia. Vel potest
+            <lb ed="#V" n="17"/>dici quod etiam non implet praeceptum Ecclesiae, quia eius
+            con<lb ed="#V" n="18" break="no"/>fessio vt dictum est non est integra. Item etiam non
+            satisfa<lb ed="#V" n="19" break="no"/>cit intentioni Ecclesiae quae intendit confessionem facienda
+            <lb ed="#V" n="20"/>ad receptionem Eucharistiae dignam, ad quam requiritur
+            <lb ed="#V" n="21"/>displicentia peccati.
+          </p>
+          <p xml:id="capsco-d3k22a-d1e618">
+            Ad tertium dicendum quod sacramenta nouae
+            le<lb ed="#V" n="22" break="no"/>gis non dicuntur signa pronostica respectu gratiae
+            formali<lb ed="#V" n="23" break="no"/>ter sanctificantis, sed magis demonstratiua, quia semper in
+            <lb ed="#V" n="24"/>eis confertur gratia nisi sit defectus ex parte recipientis, sed
+            <lb ed="#V" n="25"/>dcimteir signa pronostica respectu quorundam aliorum, puta
+            re<lb ed="#V" n="26" break="no"/>spectu coniunctionis Christi &amp; Ecclesiae dicitur matrimonium
+            <lb ed="#V" n="27"/>signum pronosticum, &amp; ideo argumentum procedit, ac si
+            es<lb ed="#V" n="28" break="no"/>sent signa pronostica respectu gratiae, &amp; ideo non valet. Haec
+            <lb ed="#V" n="29"/>Godofredus in forma. Et in hoc secundus artic. terminatur.
+          </p>
+        </div>
+        <div xml:id="capsco-d3k22a-Dd1e639">
+          <head xml:id="capsco-d3k22a-Hd1e641">Articulus 3</head>
+          <p xml:id="capsco-d3k22a-d1e643">
+            <lb ed="#V" n="30"/><milestone ed="#V" unit="p" rend="initial"/> QVantum ad tertium articulum respondendum est ad
+            <lb ed="#V" n="31"/>argumenta. Et quidem ad argumenta Durandi
+            re<lb ed="#V" n="32" break="no"/>spondet Petrus de Palude, vnde ad primum dicit quod licet non
+            <lb ed="#V" n="33"/>in omnibus sacramentis eodem modo ornatus imprimatur, quia
+            <lb ed="#V" n="34"/>in Eucharistia cuius essentia consistit in consecratione
+            ma<lb ed="#V" n="35" break="no"/>teriae, ornatus non imprimitur nisi in vsu, &amp; tunc in sola
+            ma<lb ed="#V" n="36" break="no"/>teria scilicetin speciebus est ista virtus, quia verba iam transierunt,
+            <lb ed="#V" n="37"/>sed qui intus continetur potest gratiam sicut vult
+            imprime<lb ed="#V" n="38" break="no"/>re, tamen cum omnia sacramenta gratiae in hoc conueniant quod
+            <lb ed="#V" n="39"/>est conferre gratiam, &amp; non conferant eam effectiue, sed
+            di<lb ed="#V" n="40" break="no"/>spositiue, probabile est quod sicut in imprimentibus
+            characte<lb ed="#V" n="41" break="no"/>rem pro dispositione imprimitur character, sic in non
+            im<lb ed="#V" n="42" break="no"/>primentibus characterem, imprimitur aliquid consimile
+            di<lb ed="#V" n="43" break="no"/>sponens. Haec Petrus.
+          </p>
+          <p xml:id="capsco-d3k22a-d1e677">
+            Ad secundum dicit quod cum talis
+            orna<lb ed="#V" n="44" break="no"/>tus non habeat contrarium, sicut character, nihil ipsum
+            cor<lb ed="#V" n="45" break="no"/>rumpit, sed indelebilis est, &amp; si iteratur idem sacramentum in specie,
+            <lb ed="#V" n="46"/>intenditur ornatus. Nec propter hoc gratia intenditur si
+            <lb ed="#V" n="47"/>deuotio minuatur, sed caeteris paribus augeretur. Vel
+            po<lb ed="#V" n="48" break="no"/>test dici quod character non solum imprimitur, vt sit
+            disposi<lb ed="#V" n="49" break="no"/>tio ad gratiam, sed vt sit signum distinctiuum &amp;
+            mancipati<lb ed="#V" n="50" break="no"/>uum ad aliquod sacramentum, vnde est indelebilis sicut &amp; caeterae
+            con<lb ed="#V" n="51" break="no"/>secrationes. Qrnatus autem solum imprimitur vt sit
+            dispo<lb ed="#V" n="52" break="no"/>sitio ad gratiam in fieri, vnde ipsa adueniente cedit, &amp;
+            quo<lb ed="#V" n="53" break="no"/>usque aduenerit non recedit, sed cum eam introduxerit vt
+            <lb ed="#V" n="54"/>seta filum, &amp; timor seruilis charitatem ei cedit. Vel
+            dicen<lb ed="#V" n="55" break="no"/>dum melius quod sicut virtus in sacramento manet quousque
+            <lb ed="#V" n="56"/>dispositionem causauerit, qua causata esse desinit, sic
+            dispo<lb ed="#V" n="57" break="no"/>sitio causata quae non est character, sed ornatus, tantum
+            du<lb ed="#V" n="58" break="no"/>rat vsque ad infusionem gratiae inclusiue, qua habita desinit
+            <lb ed="#V" n="59"/>esse sicut dispositio actualis non manet.
+          </p>
+          <p xml:id="capsco-d3k22a-d1e714">
+            Ad tertium
+            respon<lb ed="#V" n="60" break="no"/>det quod licet ornatus possit stare cum priuatione gratiae, tamen de
+            <lb ed="#V" n="61"/>se est dispositio ad gratiam, sicut diaphaneitas est dispositio
+            <lb ed="#V" n="62"/>ad lucem quae tamen luce subtracta manet in tenebris eadem
+            nu<lb ed="#V" n="63" break="no"/>mero. Haec Petus Ad quartum dicit primo quod prima pars illius
+            <lb ed="#V" n="64"/>rationis secundum rei veritatem bene concludit, quia secundum omnes
+            <lb ed="#V" n="65"/>confessio non integra est ex integro iteranda, &amp; nisi sit
+            in<lb ed="#V" n="66" break="no"/>tegra est totaliter nulla, nec est verum sacramentum, vnde nec tunc
+            <lb ed="#V" n="67"/>nec postea potest habere effectum nisi quod si confitetur eidem,
+            <lb ed="#V" n="68"/>sicut conter homines faciunt suis curatis, sufficeret dicere
+            fi<lb ed="#V" n="69" break="no"/>ctionem non dictam, &amp; recedente fictione haberet effectum
+            <lb ed="#V" n="70"/>ex contritione non ex sacramento, quia nullum fuit nisi in casu:
+            <lb ed="#V" n="71"/>secundo dicit quod concedendum est quod si confiteatur fictionem
+            <lb ed="#V" n="72"/>non est absoluendus etiam sub conditione, si prius confiteatur,
+            <lb ed="#V" n="73"/>quia primo fuit Lazarus a Dnmeoo suscitatus quam a
+            discipu<lb ed="#V" n="74" break="no"/>lis solutus: tertio dicitur quod si de facto absoluitur sicut abusus
+            ba<lb ed="#V" n="75" break="no"/>ptismi &amp; fictio non impediunt characterem, sic dato quod
+            sacer<cb ed="#V" n="b"/><lb ed="#V" n="76" break="no"/>dos erret, &amp; iste sit fictus, non impedit forte effectum
+            ora<lb ed="#V" n="77" break="no"/>tus: quarto concordant didra Durandi cum dictis Sanctus Thoa
+            <lb ed="#V" n="78"/>ponendo quatuor conclusiones.
+          </p>
+          <p xml:id="capsco-d3k22a-d1e759">
+            Prima est quod talis non
+            e<lb ed="#V" n="79" break="no"/>liberatus a praecepto diuino si non habuit intentionem
+            cons<lb ed="#V" n="80" break="no"/>tendi &amp; absoluendi sacramentaliter, sed deridendi, quia
+            si<lb ed="#V" n="81" break="no"/>ne intentione non potest suscipi essentia sacramenti quae consistit
+            <lb ed="#V" n="82"/>in vsu, &amp; tunc tenetur iterum confiteri. Et idem est si
+            inten<lb ed="#V" n="83" break="no"/>debat implere praeceptum &amp; sacramentum verum suscipere, quod
+            <lb ed="#V" n="84"/>Ecclesia dat, tamen nullam habebat poenitentiam de peccato,
+            re<lb ed="#V" n="85" break="no"/>cepisset quidem verum baptismum ordinem &amp; alia sacramenta,
+            <lb ed="#V" n="86"/>sed non poenitentiam, quia pars essentialis huius sacramenti, quod
+            <lb ed="#V" n="87"/>consistit in actu suscipientis est actus interior, vnde sine eo
+            <lb ed="#V" n="88"/>non est, sicut non esset matrimonium si quis intenderet
+            ve<lb ed="#V" n="89" break="no"/>rum sacramentum suscipere, non tamen consentiret nisi in carnalem
+            co<lb ed="#V" n="90" break="no"/>pulam &amp; ad tempus.
+          </p>
+          <p xml:id="capsco-d3k22a-d1e789">
+            Secunda conclusio est quod si fuit talis
+            pae<lb ed="#V" n="91" break="no"/>nitentia quae sine sacramento suffecisset, tunc fuisset contritio nec
+            <lb ed="#V" n="92"/>sic currit quaestio, quia non fuisset fictio.
+          </p>
+          <p xml:id="capsco-d3k22a-d1e796">
+            Tertia conclusio est quod si
+            <lb ed="#V" n="93"/>fuisset talis attritio quae non sufficeret sine sacramento sed cum ipso,
+            <lb ed="#V" n="94"/>tunc etiam facta esset contritio vi clauium &amp; fugata fictio
+            <lb ed="#V" n="95"/>nec adhuc currit quaestio: quarta conclusio est quod si fuisset talis
+            <lb ed="#V" n="96"/>poenitentia quae nec cum sacramento esset sufficiens ad gratiam,
+            <lb ed="#V" n="97"/>tunc vera est opinio Sanctus Thomas quod fictione recedente incipit
+            va<lb ed="#V" n="98" break="no"/>lere confessio, &amp; non tenetur confiteri nisi fictionem,
+            vtpu<lb ed="#V" n="99" break="no"/>ta si habuit dolorem quidem perfectum, sed non sufficienter
+            <lb ed="#V" n="100"/>conscientiam discussisset, putabat autem discussisse quantum
+            <lb ed="#V" n="101"/>suffciebat, vel si dolebat de praeterito non proponens
+            caue<lb ed="#V" n="102" break="no"/>re in suturo aut econuerso, vel non erat dolor maximus
+            si<lb ed="#V" n="103" break="no"/>cut debet, ipse tamen secundum conscientiam suam non eratita fictus,
+            <lb ed="#V" n="104"/>licet secundum veritatem esset, &amp; sic nihil celauit quod crederet
+            <lb ed="#V" n="105"/>mortale, &amp; per consequens secundum suum iudicium concurrebant
+            <lb ed="#V" n="106"/>omnia quae erant necessaria, postea autem certificatus de errore
+            <lb ed="#V" n="107"/>suae conscientiae paenitet de illo defectu, qui quia erat error
+            <lb ed="#V" n="108"/>iuris diuini, non tollit fictionem respectu vltimi effectus
+            sa<lb ed="#V" n="109" break="no"/>cramenti, quia improbabilis, &amp; non excusat, sed tamen eo ipso
+            <lb ed="#V" n="110"/>quod est error tollit fictionem quae excluderet essentiam sacramenti,
+            <lb ed="#V" n="111"/>vnde verum sacramentum fuit, propter quod fictione recedente
+            si<lb ed="#V" n="112" break="no"/>ue ex pactione siue ex ornatu remanente effectum habebit
+            <lb ed="#V" n="113"/>Et mirum est quomodo illi qui dicunt poenitentiam interiorem
+            <lb ed="#V" n="114"/>non esse partem sacramenti, negant poenitentiam valere postea, cum
+            <lb ed="#V" n="115"/>tamen omnia fuerint quae ipsi ponunt de essentia sacramenti, quibus
+            po<lb ed="#V" n="116" break="no"/>sitis omne sacramentum habet effectum suum, vel tunc vel postea
+            <lb ed="#V" n="117"/>recedente fictione. Sed ipsi dicerent quod hoc non est verum
+            <lb ed="#V" n="118"/>in sacramentis iteralibus, contra quod est, quia matrimonium quod
+            <lb ed="#V" n="119"/>non habuit consensum, sed deceptionem cum verbis, postea
+            <lb ed="#V" n="120"/>confirmatur ex solo consensu superueniente, sed supposito quod
+            <lb ed="#V" n="121"/>consensus sit de essentia matrimonij, si a principio defuit,
+            po<lb ed="#V" n="122" break="no"/>stea ad hoc quod matrimonium sit non sufficeret consensus
+            no<lb ed="#V" n="123" break="no"/>uus sine exteriori signo, nisi dicatur quod signum quod
+            praece<lb ed="#V" n="124" break="no"/>sit sufficit, quod forte non est verum, quia simul debent
+            con<lb ed="#V" n="125" break="no"/>currere hae partes sacramenti. Ex his patet quod opinio Sancti Thomae potest
+            <lb ed="#V" n="126"/>multis modis saluari. Vno modo scilicet qui dictus est loquendo
+            <lb ed="#V" n="127"/>de illo qui fictus est priuatiue non positiue, quia scilicethabet
+            do<lb ed="#V" n="128" break="no"/>lorem ita imperfectum quod nec cum sacramento actu suscepto
+            suffi<lb ed="#V" n="129" break="no"/>ceret ad contritionem, nihilominus tamen hanc imperfectionem
+            <lb ed="#V" n="130"/>quae est fictio, non confitetur, quia credit esse sufficienter
+            di<lb ed="#V" n="131" break="no"/>spositus, &amp; sic non scienter celat peccatum, quod fuit in hoc
+            <lb ed="#V" n="132"/>quod non examinauit conscientiam suam sicut debuit, tali
+            er<lb ed="#V" n="133" break="no"/>go qui verum sacramentum suscipit ornatus imprimitur, sed gratia
+            <lb ed="#V" n="134"/>non datur, sed postea quando redit ad cor &amp; recolit se non bene
+            <lb ed="#V" n="135"/>fecisse debitum suum, &amp; ex negligentia aliqua oblitum suum,
+            in<lb ed="#V" n="136" break="no"/>cipit valere confessio, &amp; non tenetur confiteri illa quae tunc
+            con<lb ed="#V" n="137" break="no"/>fessus fuit, quia non fuit dimidiata ex intentione, sed solam
+            <lb ed="#V" n="138"/>fictionem illam.
+          </p>
+          <p xml:id="capsco-d3k22a-d1e898">
+            Si autem fuisset sic tunc positiue celata, fuisset
+            con<lb ed="#V" n="139" break="no"/>fessio nulla, vel si fuisset confessa non debuisset dari
+            absolu<lb ed="#V" n="140" break="no"/>tio, sed si fuisset data, dubium est vtrum ornatum impressisset,
+            <lb ed="#V" n="141"/>in quo casu non potest Sanctus Thomas intelligi: secundo modo potest
+            in<lb ed="#V" n="142" break="no"/>telligi quando est positiua fictio quantum ad hoc quod non dolet, nec
+            <lb ed="#V" n="143"/>proponit abstinere, tamen ista fictio non occurrit sibi vt
+            confi<lb ed="#V" n="144" break="no"/>tenda, nec actu cogitat quod teneatur eam confiteri, tuncenim
+            si<lb ed="#V" n="145" break="no"/>cut de peccato quod occurrit quidem, sed non credit quod sit
+            <lb ed="#V" n="146"/>peccatum, aut quod sit mortale, est de necessitate confitendum, idem
+            <lb ed="#V" n="147"/>est ac si fuisset oblitum per negligentiam, nec secisset debitum
+            <lb ed="#V" n="148"/>suum de seruando conscientiam. In quo casu solum illud est
+            <lb ed="#V" n="149"/>confitendum &amp; est verum sacramentum, licet hic sit ignorantia iuris
+            di<lb ed="#V" n="150" break="no"/>uini, ibi facti, &amp; hoc modo potest sustineri dictum Sanctus Thomas 2. 21. dist.
+            <pb ed="#V" n="213"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>artic. 1. in solutione vltimi argumenti, quod ignorantia iuris
+            di<lb ed="#V" n="2" break="no"/>uini non excusat a fictione: ergo talem vocat fictionem:
+            ter<lb ed="#V" n="3" break="no"/>tio modo potest sustineri vt supra tactum est in illo qui
+            consi<lb ed="#V" n="4" break="no"/>teretur eidem cui prius, quantum ad hoc quod non oporteret
+            <lb ed="#V" n="5"/>reiterare etiam si non recoleret, quia nec vbi est integra oportet
+            <lb ed="#V" n="6"/>quod recolat actu de principio quando est in fine, &amp; maxime quia
+            <lb ed="#V" n="7"/>hic sufficit absoluere ab omnibus, &amp; iniungere paenitentiam
+            pro<lb ed="#V" n="8" break="no"/>fictione, &amp; pro alijs quod faciat poenitentiam sibi iniunctam
+            <lb ed="#V" n="9"/>tunc, sed tunc alia pars non videtur posse sustineri scilicet quod non habeat
+            <lb ed="#V" n="10"/>effectum tunc, sed recedente fictione, quia nullum sacramentum fuit,
+            <lb ed="#V" n="11"/>nec per consequens vllum habuit effectum nec tunc, nec
+            pose<lb ed="#V" n="12" break="no"/>habere potuit, licet quantum ad primam partem posset dic
+            <lb ed="#V" n="13"/>pbabiliter, quod Sanctus Thomas refert se ad ea quae conter &amp; de iure
+            comn<lb ed="#V" n="14" break="no"/>accidunt quod homo confiteatur curato suo. Haec Petus &amp; bene.
+            <lb ed="#V" n="15"/>Potest tamen dici breuius ad quartum argumentum quod talis fictus
+            <lb ed="#V" n="16"/>non semper in casu quo non confitetur suam fictionem
+            dimi<lb ed="#V" n="17" break="no"/>diat suam confessionem secundum suam aestimationem, nec contem
+            <lb ed="#V" n="18"/>nit sacramentum, nec semper committit in hoc speciale peccatum,
+            <lb ed="#V" n="19"/>nec semper tenetur illud pro tunc confiteri, sed aliquando, &amp;
+            <lb ed="#V" n="20"/>aliquando non, vt dictum est, &amp; latius dicetur, &amp; ideo
+            opor<lb ed="#V" n="21" break="no"/>tet distinguere de multiplici fictione, quia talis posset esse
+            fi<lb ed="#V" n="22" break="no"/>ctio, in qua dicta Durandi &amp; Godo fredi haberent locum,
+            pu<lb ed="#V" n="23" break="no"/>ta cum confitens non intendit recipere sacramentum, sed deridere
+            <lb ed="#V" n="24"/>Ecclesiam, vel cum intendit recipere sacramentum, sed non rem
+            sa<lb ed="#V" n="25" break="no"/>cramenti, vel cum intendit vtrunque suscipere tamen nullam habet
+            <lb ed="#V" n="26"/>poenitentiam de peccatis, vel licet paeniteat de praeterito
+            pro<lb ed="#V" n="27" break="no"/>ponit non cauere de futuro, vel econtra proponit cauere in
+            <lb ed="#V" n="28"/>futurum, sed non delet de praeterito, &amp; hoc ipsum actu
+            con<lb ed="#V" n="29" break="no"/>siderat, talis enim fictio totaliter euacuat essentiam sacramenti &amp;
+            con<lb ed="#V" n="30" break="no"/>sequenter omnem eius effectum, &amp; tenetur iterum confiteri
+            <lb ed="#V" n="31"/>totum. Est autem multiplex alia fictio, in qua locum habent
+            di<lb ed="#V" n="32" break="no"/>cta Sanctus Thomas vt bene dicit Petus Et haec sufficiant ad obiecta
+            Du<lb ed="#V" n="33" break="no"/>randi.
+          </p>
+          <p xml:id="capsco-d3k22a-d1e1002">
+            Ad argumenta Godofredi respondet Berndus de Ganndus
+            <lb ed="#V" n="34"/>in impugnationibus Godofredi quolibus 5. q. 14. vbi sic dicit.
+            <lb ed="#V" n="35"/>Quaestio quam Godofredus ponit &amp; tenet non est vera, qua
+            <lb ed="#V" n="36"/>qui fictus confitetur integre peccata sua, vocando fictum non
+            <lb ed="#V" n="37"/>contritum, sicut ipse vocat, non tenetur iterum confiteri
+            ea<lb ed="#V" n="38" break="no"/>dem peccata, de quibus non contritus confessus est, quod
+            pa<lb ed="#V" n="39" break="no"/>tet primo, quia nec ex obligatione diuina, nec Ecclesiastica
+            <lb ed="#V" n="40"/>obligatur quos ad id quod est impossibile ei, sed impossibile
+            <lb ed="#V" n="41"/>est quod aliquis sciat se contritum, quia contritio non est vera
+            <lb ed="#V" n="42"/>contritio sine gratia, quam nullus secundum communem cursum potest
+            <lb ed="#V" n="43"/>scire se habere: ergo si non contritus teneretur iterum
+            confi<lb ed="#V" n="44" break="no"/>teri, cum nullus sciat vtrum fuerit contritus, nullus sciret vtrum
+            <lb ed="#V" n="45"/>teneretur iterum confiteri, &amp; sic nunquam sciret absolutum
+            <lb ed="#V" n="46"/>ab illa obligatione respectu cuiuscunque peccati, de quo
+            con<lb ed="#V" n="47" break="no"/>fessus sit, quod est inconueniens, vnde cum homo non possit
+            <lb ed="#V" n="48"/>hoc scire, vtrum sit contritus non potest ad hoc determinate
+            <lb ed="#V" n="49"/>obligari vt confiteatur cum contritione, sed obligatur ad
+            <lb ed="#V" n="50"/>contritionem in confessione sicut ad alia praecepta
+            affirma<lb ed="#V" n="51" break="no"/>tiua adimplenda, ad quae obligatur absolute, sed non quod
+            im<lb ed="#V" n="52" break="no"/>pleat ex charitate, quia tunc peccaret quandocunque non
+            <lb ed="#V" n="53"/>impleret ea ex charitate, &amp; omnis peccator vel quicunque
+            <lb ed="#V" n="54"/>alius qui honoraret parentes non existens in charitate
+            pec<lb ed="#V" n="55" break="no"/>caret mortaliter honorando parentes, quia transgrederetur
+            <lb ed="#V" n="56"/>praeceptum, quod nullus diceret, non ergo absolute sumus
+            <lb ed="#V" n="57"/>obligati ad seruandum praeceptum ex charitate, sed ad
+            ser<lb ed="#V" n="58" break="no"/>uanda absolute. Vnde qui non honoraret parentes quando
+            <lb ed="#V" n="59"/>oportet, peccaret sicut transgressor praecepti. Ad hoc tamen quod
+            <lb ed="#V" n="60"/>obseruatio praeccptorum sit vtilis sumus obligati ad
+            seruan<lb ed="#V" n="61" break="no"/>dum &amp; implendum ea ex charitate, quia non sunt nobis
+            vti<lb ed="#V" n="62" break="no"/>lia ad vitam nisi cum charitate impleantur. Non sunt ergo
+            <lb ed="#V" n="63"/>obligatiua ad poenam sensus sicut non impleantur cum
+            cha<lb ed="#V" n="64" break="no"/>ritate, sed sunt priuatiua vitae aeternae id est non vtilia ad eam.
+            <lb ed="#V" n="65"/>Et similiter dicendum est in proposito, quod homo obligatus
+            <lb ed="#V" n="66"/>est ad confitendum absolute, ita quod implet praeceptum de
+            con<lb ed="#V" n="67" break="no"/>fessione confitendo integre, sed non est ei vtile ad vitam
+            aeter<lb ed="#V" n="68" break="no"/>nam sine contritione vel tunc praesente vel futura, vnde
+            di<lb ed="#V" n="69" break="no"/>cere quod confessus non contritus teneatur iterum confiteri, est
+            <lb ed="#V" n="70"/>obligare hominem ad iterum &amp; iterum consitendum omnia, de
+            <lb ed="#V" n="71"/>quibus confessus est, cum nunquam sciat se fuisse contritum.
+            <lb ed="#V" n="72"/>Sed forte dices quod non est idem nescire se esse contritum, &amp;
+            <lb ed="#V" n="73"/>scire se non esse contritum, vnde bene verum est quod nullus scit
+            <lb ed="#V" n="74"/>se esse contritum, sed bene potest scire se non esse contritum, quia
+            <lb ed="#V" n="75"/>bene potest scire, si peccata de quibus confessus est
+            displicue<cb ed="#V" n="b"/><lb ed="#V" n="76" break="no"/>runt ei, &amp; si fuit in proposito iterum committendi. In primo
+            <lb ed="#V" n="77"/>casu non tenetur homo iterum confiteri, quia scilicet non potest
+            <lb ed="#V" n="78"/>scire affirmatiuam scilicet se esse contritum, sed negatiuam potest
+            <lb ed="#V" n="79"/>scire scilicet non esse contritum propter actus contrarios
+            contri<lb ed="#V" n="80" break="no"/>tioni, qui sunt complacentia de peccato praeterito, &amp;
+            volun<lb ed="#V" n="81" break="no"/>tas committendi in futuro.
+          </p>
+          <p xml:id="capsco-d3k22a-d1e1110">
+            Dicendum quod homo obligatur
+            <lb ed="#V" n="82"/>ad confitendum peccata homini ex praecepto diuino, vt sic
+            <lb ed="#V" n="83"/>subijciat se clauibus Ecclesiae, quae debent in eo operari per
+            <lb ed="#V" n="84"/>hominem ministrum Dei &amp; Ecclesiae: vt ergo homo sciat
+            pec<lb ed="#V" n="85" break="no"/>cata &amp; paenitentiam debitam imponat ordinata est confessio
+            <lb ed="#V" n="86"/>Hoc autem totum potest fieriin illo qui scit se non esse
+            contri<lb ed="#V" n="87" break="no"/>tum, quia &amp; ipse peccata propria potest dicere, &amp; potest
+            con<lb ed="#V" n="88" break="no"/>dignam paenitentiam pro eis a sacerdote recipere, quam
+            im<lb ed="#V" n="89" break="no"/>plebit recedente fictione, &amp; sic valebit totum dummodo
+            pec<lb ed="#V" n="90" break="no"/>catum fictionis confiteatur. Tenetur ergo Deo &amp; homini,
+            <lb ed="#V" n="91"/>sed ab obligatione qua tenetur Deo reconciliari, nunquam
+            <lb ed="#V" n="92"/>deobligatur sine contritione, quia nisi habeat eam nunquam
+            <lb ed="#V" n="93"/>restituitur ad amicitiam diuinam. Homini autem non est
+            obli<lb ed="#V" n="94" break="no"/>gatus praeter eius reconciliationem, quia hominem istum non
+            <lb ed="#V" n="95"/>offendit directe, sed est obligatus ad dicendum peccata sua
+            <lb ed="#V" n="96"/>homini, &amp; recipiendum poenitentiam quam taxabit:
+            ergo<lb ed="#V" n="97" break="no"/>licet sciat se non esse contritum, absoluitur ab obligatione
+            <lb ed="#V" n="98"/>qua obligatus erat homini ex praecepto diuino &amp; ecclesiastico.
+            <lb ed="#V" n="99"/>Si tamen sacerdos aduerteret istam fictionem scilicet quod non doleret de
+            <lb ed="#V" n="100"/>peccatis praeteritis, nec proponit cauere a futuris non
+            debe<lb ed="#V" n="101" break="no"/>ret eum absoluere. In soluendo autem rationes suas apparebum
+            <lb ed="#V" n="102"/>aliae rationes. Haec Bernardus in forma.
+          </p>
+          <p xml:id="capsco-d3k22a-d1e1158">
+            Ad primum ergo
+            Go<lb ed="#V" n="103" break="no"/>dofredi dicit quod sicut per sacramenta quaedam imprimitur character
+            <lb ed="#V" n="104"/>sic &amp; per alia imprimitur quaedam dispositio in anima, vt nullum
+            <lb ed="#V" n="105"/>sacramentum sit sine aliquo effectu, dummodo rite conferatur, &amp; rite
+            <lb ed="#V" n="106"/>suscipiatur. Ad hoc autem quod absolutio sacramentalis conferatur, rite
+            <lb ed="#V" n="107"/>requiritur ex parte conferentis auctoritas &amp; notitia de
+            pec<lb ed="#V" n="108" break="no"/>catis de quibus iudicat, ex parte recipientis requiritur
+            ministra<lb ed="#V" n="109" break="no"/>tio materiae quae sunt peccata, vt fiat talis ratio. Omne sacramentum
+            <lb ed="#V" n="110"/>habens debitum ministrum &amp; debitam formam &amp; materiam
+            <lb ed="#V" n="111"/>&amp; debitum recipiens aliquid operatur, sed sic est in casu
+            no<lb ed="#V" n="112" break="no"/>stro, quia sacerdos est debitus minister, &amp; vtitur debita
+            for<lb ed="#V" n="113" break="no"/>ma.
+          </p>
+          <p xml:id="capsco-d3k22a-d1e1185">
+            Item est ibi debita materia scilicet peccata, &amp; recipiens
+            abso<lb ed="#V" n="114" break="no"/>lutionem ab homnide scilicet peccator, qui licet sit fictus &amp; non
+            reci<lb ed="#V" n="115" break="no"/>piat absolutionem a Deo, quia non infunditur ei gratia, recipit
+            <lb ed="#V" n="116"/>tamen absolutionem humanam ab homine. Ita quod sicut in baptismo
+            <lb ed="#V" n="117"/>non obstante fictione imprimitur character, &amp; non gratia, quia
+            <lb ed="#V" n="118"/>gratia opponitur fictioni &amp; non characteri, ita in absolutione
+            <lb ed="#V" n="119"/>imprimitur dispositio quaedam, &amp; non gratia, quia dispositio
+            <lb ed="#V" n="120"/>ista non contrariatur peccato sicut nec character, &amp; ideo
+            po<lb ed="#V" n="121" break="no"/>nunt doctores talem dispositionem imprimi in anima in virtute
+            <lb ed="#V" n="122"/>sacramenti, vt sacramentum habens omnia quae debet habere excepta fictione
+            <lb ed="#V" n="123"/>non careat omni effectu, sicut cum baptismus hebte omnia quae
+            de<lb ed="#V" n="124" break="no"/>bet habere non impeditur ab impressione characteris propter
+            <lb ed="#V" n="125"/>fictionem recipientis. Et est simile in naturalibus, cum ignis
+            <lb ed="#V" n="126"/>calefacit aquam non potest aliquando eam conuertere in
+            seip<lb ed="#V" n="127" break="no"/>sum, licet tamen non conuertat ita scilicet quod non imprimat formam
+            <lb ed="#V" n="128"/>substantialem in materia aquae, imprimit tamen quandam
+            dispo<lb ed="#V" n="129" break="no"/>sitionem scilicetcalorem, vnde si non possit habere totum effectum,
+            <lb ed="#V" n="130"/>habet tamen dispositionem ad principalem effectum, sicut omnino
+            <lb ed="#V" n="131"/>est in proposito, quia cum sacramentum non potest habere principalem
+            <lb ed="#V" n="132"/>effectum qui est remissio peccatorum quantum ad
+            absolu<lb ed="#V" n="133" break="no"/>tionem, imprimit tamen quandam dispositionem ad effectum
+            princi<lb ed="#V" n="134" break="no"/>palem, &amp; ideo recedente illo quod impediebat principalem
+            ef<lb ed="#V" n="135" break="no"/>fectum sacramenti, ista dispositio operabit in virtute sacramenti sicut si
+            <lb ed="#V" n="136"/>sacramentum esset praesens, &amp; fiet tunc remissio peccatorum. Quando
+            <lb ed="#V" n="137"/>ergo dicit quod illa dispositio non manet quandiu absolutio
+            im<lb ed="#V" n="138" break="no"/>peditur.
+          </p>
+          <p xml:id="capsco-d3k22a-d1e1242">
+            Dicendum quod manet quousque heat effectum suum in
+            <lb ed="#V" n="139"/>virtute sacramenti collati. Quia ergo probat quod non. Dicendum quod
+            <lb ed="#V" n="140"/>illa dispositio potest manere cum peccato sicut &amp; character, &amp;
+            <lb ed="#V" n="141"/>quod dicit quod habens talem dispositionem si iterauerit peccata
+            <lb ed="#V" n="142"/>non teneretur iterum confiteri.
+          </p>
+          <p xml:id="capsco-d3k22a-d1e1253">
+            Dicendum quod illa dispositio non
+            <lb ed="#V" n="143"/>agit nisi in virtute sacramenti collati, idest absolutionis, &amp; ideo
+            so<lb ed="#V" n="144" break="no"/>lum hatem virtutem ad illa peccata quae fuerunt materia
+            abso<lb ed="#V" n="145" break="no"/>lutionis, &amp; ideo non oportet illa, sed alia confiteriiterum, vnen
+            <lb ed="#V" n="146"/>patet quod ratio non concludit, qua illa dispositio non agit nisi virtute
+            <lb ed="#V" n="147"/>absolonis pteteritae, quam non potest se extendere ad peccata futura.
+            <lb ed="#V" n="148"/>Haec Bernardus.
+          </p>
+          <p xml:id="capsco-d3k22a-d1e1269">
+            Ad secundum dicit quod de ratione verae &amp; sacramentalis
+            paeni<lb ed="#V" n="149" break="no"/>tentiae sunt praedictae tres partes, nec habent totam suam efficaciam sine
+            <lb ed="#V" n="150"/>tribus partibus. Vnde nec in ficte confitente habebit perfectam
+            <pb ed="#V" n="214"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>efficaciam sine contritione, sed ordo inter partes licet sit
+            con<lb ed="#V" n="2" break="no"/>ueniens vt contritio praecedat, non tamen est necessarius, sed
+            <lb ed="#V" n="3"/>sufficit vt contritio sequatur, quia etiam per solam
+            contri<lb ed="#V" n="4" break="no"/>tionem remittuntur peccata quantum ad Deum cum solo
+            <lb ed="#V" n="5"/>proposito confitendi, quia homo est obligatus ad
+            confessio<lb ed="#V" n="6" break="no"/>nem, &amp; ideo facta confessione si superueniat contritio
+            habe<lb ed="#V" n="7" break="no"/>bit in virtute confessionis praeteritae suam efficaciam, vnde
+            <lb ed="#V" n="8"/>etiam potest formari alia ratio quia non minus potest
+            con<lb ed="#V" n="9" break="no"/>fessio praeterita quam futura, immo magis, quia praeterita
+            <lb ed="#V" n="10"/>habet illam dispositionem imprimere quae dicta est quam non
+            <lb ed="#V" n="11"/>imprimit futura quantumcunque habeatur in praeposito, sed
+            <lb ed="#V" n="12"/>contritio cum proposito confessionis futurae simpliciter
+            de<lb ed="#V" n="13" break="no"/>let peccatum, ita quod non tenetur confiteri nisi semel habita
+            <lb ed="#V" n="14"/>opportunitate, quam si non haberet nihilominus absolutus
+            <lb ed="#V" n="15"/>esset: ergo &amp; contritio virtute confessionis praeteritae sufficit
+            <lb ed="#V" n="16"/>ad delendum peccatum totaliter, ita vt nulla obligatio, nec
+            <lb ed="#V" n="17"/>quo ad Deum ratione praesentis contritionis, nec quo ad
+            Ec<lb ed="#V" n="18" break="no"/>clesiam ratione praeteritae confessionis &amp; absolutionis
+            rema<lb ed="#V" n="19" break="no"/>neat.
+          </p>
+          <p xml:id="capsco-d3k22a-d1e1321">
+            Confirmatur ratio, quia vnumquodque virtuosius est
+            <lb ed="#V" n="20"/>in re &amp; in esse reali quam in proposito, sed confessio
+            praete<lb ed="#V" n="21" break="no"/>rita fuit in esse reali, &amp; dimisit praedictam dispositionem:
+            ergo<lb ed="#V" n="22" break="no"/>non minus fecit quantum ad omnia quam confessio habita
+            <lb ed="#V" n="23"/>in proposito. Haec Bernaus &amp; bene Ad tertium dicit quod talis
+            fi<lb ed="#V" n="24" break="no"/>ctus non committit nouum peccatum, sed nouam
+            conditio<lb ed="#V" n="25" break="no"/>nem peccati. Non penitere enim de peccatis praeteritis, vel
+            <lb ed="#V" n="26"/>non proponere cauere a futuris, non est nisi circunstantia
+            pec<lb ed="#V" n="27" break="no"/>cati, quae potest aggrauare peccatum, quae tamen non trahit
+            <lb ed="#V" n="28"/>ad aliud genus peccati, vnde non est necessarium eam
+            confi<lb ed="#V" n="29" break="no"/>teri, licet congruum sit, &amp; ideo confessio integra est, vnde
+            <lb ed="#V" n="30"/>argumentum supponit falsum quod ista fictio sit nouum
+            pecca<lb ed="#V" n="31" break="no"/>tum Sed forte dices quod accedere indigne ad confessionem est
+            <lb ed="#V" n="32"/>nouum peccatum.
+          </p>
+          <p xml:id="capsco-d3k22a-d1e1352">
+            Dicendum quod non quia accedere ad
+            con<lb ed="#V" n="33" break="no"/>fessionem vt homo soluat obligationem, ad quam se reputat
+            <lb ed="#V" n="34"/>obligatum non est malum per se, nec non displicentia de
+            pec<lb ed="#V" n="35" break="no"/>cato de nouo aduenit, quia etiam nec prius de peccato
+            do<lb ed="#V" n="36" break="no"/>lebat, vnde nullum nouum peccatum committit, sed
+            circun<lb ed="#V" n="37" break="no"/>stantiam, quia vbi confitetur peccata, ad hoc quod confessio
+            va<lb ed="#V" n="38" break="no"/>leat ei, tunc deberet conteri de peccatis, vnde patet, quod ratio
+            <lb ed="#V" n="39"/>non concludit. Haec Bernu.
+          </p>
+          <p xml:id="capsco-d3k22a-d1e1371">
+            Ad quartum dicit quod si talis
+            affir<lb ed="#V" n="40" break="no"/>maret se contritum cum non sit, adhuc, forte non
+            impedire<lb ed="#V" n="41" break="no"/>tur fructus confessionis saltem sequens, quia tale mendacium
+            <lb ed="#V" n="42"/>non est pernitiosum, quia non fit in detrimentum alterius,
+            <lb ed="#V" n="43"/>quia de se non est mortale, vnde est officiosum. Peccatum
+            <lb ed="#V" n="44"/>autem veniale non facit confessionem non esse integram, si
+            <lb ed="#V" n="45"/>non dicatur in confessione, cum non sit absolute
+            necessa<lb ed="#V" n="46" break="no"/>rium peccata venialia confiteri. Adhuc autem minus peccat
+            <lb ed="#V" n="47"/>mentiendo facto scilicet simulando se contritum cum non sit, qua
+            <lb ed="#V" n="48"/>mendacium facti non est ita graue sicut verbi, quia factum
+            <lb ed="#V" n="49"/>non est ita ordinatum ad significandum aliquid, sicut
+            ver<lb ed="#V" n="50" break="no"/>ba, vnde etiam Doctores ponunt, quod non omnis
+            hypocrisi<lb ed="#V" n="51" break="no"/>est peccatum, &amp; ideo siue facto siue verbo dicit se contritum,
+            <lb ed="#V" n="52"/>cum non sit, non impeditur integritas confessionis. De
+            con<lb ed="#V" n="53" break="no"/>fessione autem fictionis cum non trahat in aliud genus
+            pec<lb ed="#V" n="54" break="no"/>cati non tenetur eam confiteri, si tamen confitetur, bene
+            fa<lb ed="#V" n="55" break="no"/>cit. Quando ergo dicunt doctores quod debet illam fictionem
+            <lb ed="#V" n="56"/>confiteri, verum est quod sic debet eam confiteri sicut debet
+            vi<lb ed="#V" n="57" break="no"/>tare venialia, quae quilibet vitare debet, tamen si non vitat, non
+            <lb ed="#V" n="58"/>peccat mortaliter, quia tunc peccando venialiter peccaret
+            <lb ed="#V" n="59"/>mortaliter, quod falsum est, vnde nec in speciali nec in
+            ge<lb ed="#V" n="60" break="no"/>nerali tenetur confiteri peccata prius confessa, nec etiam
+            fi<lb ed="#V" n="61" break="no"/>ctione, vnde sufficit quod recedat fictio. Sed tunc est difficultas,
+            <lb ed="#V" n="62"/>quia si fictio non est nisi venialis, vel quoddam aggrauans
+            <lb ed="#V" n="63"/>sicut veniale, cum veniale non impediat gratiam, videtur quod vel
+            ta<lb ed="#V" n="64" break="no"/>lis fictus recipiat gratiam, quod nullus ponit, vel quod talis
+            fi<lb ed="#V" n="65" break="no"/>ctio sit peccatum mortale, per quod gratia impeditur. Et
+            <lb ed="#V" n="66"/>dicendum quod in ista fictione considerantur duo, vnum
+            ma<lb ed="#V" n="67" break="no"/>teriale scilicet non paenitere de peccatis, &amp; aliud formale scilicet
+            accede<lb ed="#V" n="68" break="no"/>re ad confessionem cum ista impaenitentia, &amp; illud dicitur
+            forma<lb ed="#V" n="69" break="no"/>liter fictio. Ratione ergo primi impeditur ne absolutio
+            con<lb ed="#V" n="70" break="no"/>ferat gratiam, quia quandiu non paenitet de peccatis, non
+            con<lb ed="#V" n="71" break="no"/>fertur ei gratia, sed ratione istius actus vt sic non impeditur
+            <lb ed="#V" n="72"/>formaliter, &amp; ideo fictio formaliter loquendo non impedit
+            <lb ed="#V" n="73"/>quin conferatur ei gratia, sed illud quod est materia
+            fictio<lb ed="#V" n="74" break="no"/>nis, &amp; propter hoc quando recedit materia fictionis scilicet quod
+            pae<lb ed="#V" n="75" break="no"/>nitebit de peccatis praeteritis, tunc recedit fictio totaliter, &amp;
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="76"/>recipiet gratiam, &amp; ideo non oportet quod fictionem
+            consfitea<lb ed="#V" n="77" break="no"/>tur. Nec etiam oportet quod dicat. Confessus fui alias, &amp; non
+            <lb ed="#V" n="78"/>sui contritus, quia hoc non est nouum peccatum sed aliqua
+            <lb ed="#V" n="79"/>circunstantia peccati, quae vt admiscetur confessioni non
+            <lb ed="#V" n="80"/>mutat in aliud genus peccati, &amp; sic ex nulla parte
+            necessa<lb ed="#V" n="81" break="no"/>rium est eam confiteri. Haec Bern.
+          </p>
+          <p xml:id="capsco-d3k22a-d1e1467">
+            Ad quintum dicit quod
+            <lb ed="#V" n="82"/>Godofredus male soluit ad rationes alterius partis, licet
+            il<lb ed="#V" n="83" break="no"/>lae non sint multum efficaces, vnde quo ad solutionem
+            pri<lb ed="#V" n="84" break="no"/>mae dicit, quod paenitentia sacramentalis non habet efficaciam
+            <lb ed="#V" n="85"/>suam sine contritione vel praesente vel praeterita vel futura
+            <lb ed="#V" n="86"/>Vnde sciendum quod in sacramento poenitentiae sicut in alijs
+            <lb ed="#V" n="87"/>est aliquid quod est sacramentum tantum, sicut illud quod
+            <lb ed="#V" n="88"/>agitur exterius inter consitentem &amp; confessorem, &amp; est
+            ali<lb ed="#V" n="89" break="no"/>quid quod est res sacramenti tantum, sicut gratia per quam
+            <lb ed="#V" n="90"/>remittuntur peccata vel remissio peccatorum, quod idem
+            <lb ed="#V" n="91"/>est, &amp; est ibi aliquid quod est res &amp; sacramentum, &amp; hoc non
+            <lb ed="#V" n="92"/>potest esse nisi dispositio quaedam quae fit in anima per
+            abso<lb ed="#V" n="93" break="no"/>lutionem, sicut per baptismum character, &amp; haec dispositio
+            <lb ed="#V" n="94"/>sufficit. Quia autem sufficiat ad remissionem peccatorum,
+            <lb ed="#V" n="95"/>&amp; quod oporteat Godofredum hoc ponere probatur per ea quae
+            <lb ed="#V" n="96"/>iste dicit hic. Dicit enim quod oportet ad hoc quod sit vera confessic
+            <lb ed="#V" n="97"/>quod peccator sit contritus vel attritus. Ita quod videtur secundum eum
+            <lb ed="#V" n="98"/>sufficere ad valorem confessionis quod peccator sit attritus, sed
+            <lb ed="#V" n="99"/>attritio in hoc differt a contritione, quia contritio non est
+            <lb ed="#V" n="100"/>sine gratia, quia importat sufficientem displicentiam de peccato,
+            <lb ed="#V" n="101"/>attritio autem non est cum gratia, quia non importat sufficientem
+            di<lb ed="#V" n="102" break="no"/>splicentiam, sed aliqualem. Tunc ergo arguo. Aut confessio quae
+            <lb ed="#V" n="103"/>sit cum attritione absolutione habita valet aut non. Iste dicit
+            <lb ed="#V" n="104"/>quod valet, sed non valet pro tempore absolutionis: ergo post vel
+            <lb ed="#V" n="105"/>nunquam valet. Si postea valeat quaero per quid, oportet enim
+            <lb ed="#V" n="106"/>ponere aliquid in attrito quod remaneat post absolutionem,
+            <lb ed="#V" n="107"/>quia absolutio praeterita, vt praeterita nihil est, sed vt aliquem
+            <lb ed="#V" n="108"/>effectum dimittit qui non potest esse nisi dispositio illa quam
+            <lb ed="#V" n="109"/>ponunt alij. Et ideo etiam per dicta istius oportet ponere
+            ne<lb ed="#V" n="110" break="no"/>cessario istam dispositionem, ita quod hic sunt duae rationes quare
+            <lb ed="#V" n="111"/>oportet ponere hanc dispositionem, vna est, quia est sacramentum, &amp;
+            <lb ed="#V" n="112"/>res sacramenti. Alia quia iste dicit quod confessio valet attritis,
+            <lb ed="#V" n="113"/>&amp; certum est quod non valet eis pro tempore illo ad
+            remissio<lb ed="#V" n="114" break="no"/>nem culpae, sed pro tempore alio, quod non posset facere nisi
+            <lb ed="#V" n="115"/>aliquem effectum in attrito dimitteret.
+          </p>
+          <p xml:id="capsco-d3k22a-d1e1543">
+            Item ad maiorem
+            <lb ed="#V" n="116"/>euidentiam praedictorum oportet probare contrarium, eo
+            <lb ed="#V" n="117"/>quod iste dicit hic quodcilicet peccator fictus vel non contritus non sit
+            <lb ed="#V" n="118"/>materia conueniens confessionis vel absolutionis, quod autem
+            <lb ed="#V" n="119"/>peccator non contritus possit esse materia sacramento
+            pae<lb ed="#V" n="120" break="no"/>nitentiae, ita scilicet quod sit suscipiens inquantum peccator, patet quia
+            <lb ed="#V" n="121"/>alius non potest recipere absolutionem cum effectu nisi
+            pecca<lb ed="#V" n="122" break="no"/>tor, materia autem sunt peccata proprie, tamen non faciendo vim
+            <lb ed="#V" n="123"/>dicamus peccatorem, sicut ipse innuit materiam poenitentiae,
+            <lb ed="#V" n="124"/>Quia non sit necessarium eum esse contritum patet, qua
+            mi<lb ed="#V" n="125" break="no"/>nister cuiuslibet sacramenti debet cognoscere matenam
+            sa<lb ed="#V" n="126" break="no"/>cramenti quod ministrat, aliter male posset ei formam
+            appli<lb ed="#V" n="127" break="no"/>care, sed si peccator contritus inquantum contritus esset
+            ma<lb ed="#V" n="128" break="no"/>teria huius sacramenti, non autem peccator inquantum peccator,
+            nun<lb ed="#V" n="129" break="no"/>quam minister huius sacramenti sciret vel cognosceret materiam
+            <lb ed="#V" n="130"/>sacramenti sui, quia in eo non est scire quis sit contritus, tum quia
+            <lb ed="#V" n="131"/>contritio est de interioribus quae non subsunt iudicio hominis,
+            <lb ed="#V" n="132"/>etiam in foro poenitentiae, nisi inquantum exterius patefiunt, tum
+            <lb ed="#V" n="133"/>etiam quia ex quo sponte dicit peccata sua, &amp; non apparent
+            ex<lb ed="#V" n="134" break="no"/>terius signa in contritionis, quia tunc non deberet eum
+            ab<lb ed="#V" n="135" break="no"/>soluere, non debet iudicare eum incontritum, &amp; ideo necesse
+            <lb ed="#V" n="136"/>est ponere quod peccator inquantum sponte confitetur
+            peccat<lb ed="#V" n="137" break="no"/>sua sit materia illius sacramenti, &amp; non inquantum contritus. Ex quo
+            <lb ed="#V" n="138"/>patet causa dicti quod cum Sacerdos sit sufficiens minister &amp;
+            <lb ed="#V" n="139"/>forma debita, &amp; peccator sit materia inquantum sponte
+            con<lb ed="#V" n="140" break="no"/>fitetur peccata sua, patet quod in tali confessione est verum
+            sa<lb ed="#V" n="141" break="no"/>cramentum, &amp; ideo non tenetur iterum confiteri. Contra
+            <lb ed="#V" n="142"/>secundam solutionem sic dicit. Simplex narratio peccati
+            fa<lb ed="#V" n="143" break="no"/>cta per modum confessionis cui debet fieri, &amp; sicut confessio,
+            <lb ed="#V" n="144"/>sufficit non solum ad implendum praeceptum Ecclesiae, sed
+            <lb ed="#V" n="145"/>Dei, quia Deus licet det praeceptum de confessione per
+            laco<lb ed="#V" n="146" break="no"/>bum, confitemini alterutrum peccata vestra, tamen patet quod dat
+            <lb ed="#V" n="147"/>praeceptum vt confessio fiat homini, &amp; ideo ad nihil extendit se
+            <lb ed="#V" n="148"/>confessio nisi quod potest subesse iudicio hominis. Hominis autem iudicio
+            <lb ed="#V" n="149"/>non subest, vtrum aliquis sit contritus vel non contritus, nisi
+            <lb ed="#V" n="150"/>expresse diceret confitens se non esse contritum, ita quod diceret
+            <pb ed="#V" n="215"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>se non poenitere de peccatis, vel non velle cauerc in
+            poste<lb ed="#V" n="2" break="no"/>rum, vel etiam nisi per facta euidentia ostenderet se non esse
+            <lb ed="#V" n="3"/>contritum: in quibus casibus Sacerdos, qui non solum habet
+            <lb ed="#V" n="4"/>claues aperiendi caelum, sed etiam claudendi, non debet eum
+            <lb ed="#V" n="5"/>absoluere. Ergo dum modo offerat se Sacerdoti ad modum
+            <lb ed="#V" n="6"/>penitentis dicendo peccata sua, hoc sufficit ad omnem
+            con<lb ed="#V" n="7" break="no"/>fessionem quae debet fieri homini, siue praecepto diuino
+            si<lb ed="#V" n="8" break="no"/>ue Ecclesiastico.
+          </p>
+          <p xml:id="capsco-d3k22a-d1e1643">
+            Item quod dicit quod confessio non est
+            <lb ed="#V" n="9"/>integra in isto casu, ostensum est contrarium, quia non
+            pae<lb ed="#V" n="10" break="no"/>nitere de peccato non dicit peccatum aliquod per se, sed
+            cir<lb ed="#V" n="11" break="no"/>cunstantiam peccati, quae etiam noua non est quando
+            con<lb ed="#V" n="12" break="no"/>fitetur, cum etiam prius fuerit non penitens. Si autem
+            fuis<lb ed="#V" n="13" break="no"/>set poenitens &amp; contritus ante confessionem, &amp;
+            nihilomi<lb ed="#V" n="14" break="no"/>nus in confessione non paeniteret de peccatis de quibus prius
+            <lb ed="#V" n="15"/>paenituit, tunc ex mala voluntate sua committeret nouum
+            <lb ed="#V" n="16"/>peccatum, quia de nouo haberet complacentiam in malo,
+            <lb ed="#V" n="17"/>&amp; in tali casu bene oporteret confiteri peccatum, verbi
+            gra<lb ed="#V" n="18" break="no"/>tia, habui complacentiam &amp; in hoc &amp; in illo &amp; placuit
+            mi<lb ed="#V" n="19" break="no"/>hi quod feceram: vnde sic debet confiteri in tali casu,
+            supposi<lb ed="#V" n="20" break="no"/>to quod contritio praecessit, &amp; quod ipse sciuerit eam praecessisse,
+            <lb ed="#V" n="21"/>quod est impossibile, &amp; ideo semper regulariter dicendum
+            <lb ed="#V" n="22"/>est quod nunquam istam impoenitentiam quae non est nisi
+            cir<lb ed="#V" n="23" break="no"/>cunstantia peccati in aliud genus non trahens non tenetur
+            <lb ed="#V" n="24"/>confiteri.
+          </p>
+          <p xml:id="capsco-d3k22a-d1e1680">
+            Contra tertiam solutionem dicit quod sacramenta
+            <lb ed="#V" n="25"/>nouae legis sunt signa alicuius quod imprimitur per ea, quando
+            <lb ed="#V" n="26"/>rite susci piuntur, etiam maedod impediente fictione: vnde
+            abso<lb ed="#V" n="27" break="no"/>lutio significat illam dispositionem quae operatur
+            remissio<lb ed="#V" n="28" break="no"/>nem peccatorum, nisi sit impedimentum. Hae sunt
+            respon<lb ed="#V" n="29" break="no"/>siones Berndus ad argumenta Godofredi, in quibus licet
+            mul<lb ed="#V" n="30" break="no"/>ta bene dicta sint, tamen aliqua falsadicit.
+          </p>
+          <p xml:id="capsco-d3k22a-d1e1696">
+            Primum est quod
+            <lb ed="#V" n="31"/>fictio confitentis in nullo casu sit nonum aut speciale
+            pecca<lb ed="#V" n="32" break="no"/>tum, sed sola circunstantia quae non trahit in aliud genus
+            <lb ed="#V" n="33"/>peccati, nisi in casu quem ponit impugnando penultimam
+            <lb ed="#V" n="34"/>solutionem Godofredi. Hoc enim falsum est, quia ille qui cum
+            <lb ed="#V" n="35"/>complacentia peccati praeteriti vel cum proposito in futurum
+            <lb ed="#V" n="36"/>peccandi confitetur, dato quod tales actus interiores habuerit
+            <lb ed="#V" n="37"/>antequam confiteretur, tamen quia cum talibus actibus accedit
+            <lb ed="#V" n="38"/>ad sacramentum poenitentiae, nouum peccatum committit, quod
+            <lb ed="#V" n="39"/>potest reduci ad speciem vel genus sacrilegij, sicut dicit
+            San<lb ed="#V" n="40" break="no"/>ctus Thomas in suo simili tertia parte q. 80. arti. 4. vbi quaerit.
+            <lb ed="#V" n="41"/>Vtrum peccator sumens corpus Christi sacramentaliter
+            pec<lb ed="#V" n="42" break="no"/>cet, &amp; in principali responsione sic dicit. In hoc
+            sacramen<lb ed="#V" n="43" break="no"/>to sicut in alijs illud quod est sacramentum est signum eius
+            <lb ed="#V" n="44"/>quod est res sacramenti. Duplexautem est res huius
+            sacra<lb ed="#V" n="45" break="no"/>menti vna quidem quae est signata &amp; contenta, scilicet
+            ipse<lb ed="#V" n="46" break="no"/>Christus. Alia autem quae est signata, &amp; non contenta,
+            scili<lb ed="#V" n="47" break="no"/>cet corpus Christi mysticum, quod est societas sanctorum
+            <lb ed="#V" n="48"/>quicunque ergo hoc sacramentum sumit ex hoc ipso
+            signi<lb ed="#V" n="49" break="no"/>ficat se esse Christo vnitum &amp; membris eius incorporatum,
+            <lb ed="#V" n="50"/>quod quidem fit per fidem formatam quam nullus habet
+            <lb ed="#V" n="51"/>in peccato mortali, &amp; ideo manifestum est quod quicunque cum
+            <lb ed="#V" n="52"/>peccato mortali hoc sacramentum sumit falsitatem in hoc
+            <lb ed="#V" n="53"/>sacramento committit, &amp; ideo incurrit in hoc sacrilegium
+            <lb ed="#V" n="54"/>tanquam sacramenti violator, &amp; propter hoc mortaliter
+            <lb ed="#V" n="55"/>peccat. Haec ille.
+          </p>
+          <p xml:id="capsco-d3k22a-d1e1754">
+            Item ibidem in solutione tertij sic dicit.
+            <lb ed="#V" n="56"/>Maxima bona Augutinus intelligit virtutes animae, quibus nullus
+            <lb ed="#V" n="57"/>male vtitur quasi principijs mali vsus, vtitur tamen eis
+            ali<lb ed="#V" n="58" break="no"/>quis male quasi obiectis mali vsus, vt patet in his qui de
+            vir<lb ed="#V" n="59" break="no"/>tutibus superbiunt. Ita &amp; hoc sacramentum quantum est
+            <lb ed="#V" n="60"/>ex se non est principium mali vsus, sed obiectum, vnde Augustinus
+            <lb ed="#V" n="61"/>dicit. Multi indigne accipiunt corpus Domini, per quod
+            <lb ed="#V" n="62"/>docemur quod cauendum sit accipere bonum. Ecce enim factum
+            <lb ed="#V" n="63"/>est malum dum male accipitur bonum, sicut econuerso a
+            <lb ed="#V" n="64"/>populo factum est bonum cum bene accipitur malum,
+            scil<lb ed="#V" n="65" break="no"/>cet cum stimulus sathanae patienter portatur. Haec ille.
+          </p>
+          <p xml:id="capsco-d3k22a-d1e1778">
+            Si<lb ed="#V" n="66" break="no"/>milia dicit quaestio. 69. art. 9. in solutione tertij in materia de
+            <lb ed="#V" n="67"/>baptismo. Similia dicit 4. sent. dist. 9. q. 1. artic. 3. in
+            solutio<lb ed="#V" n="68" break="no"/>ne primae &amp; secundae q. Sic dico in proposito quod cum
+            acce<lb ed="#V" n="69" break="no"/>dens ad poenitentiae sacramentum ostendat se poenitere de
+            <lb ed="#V" n="70"/>peccatis, &amp; velle Deo reconciliari, &amp; satisfacere, si talis sit
+            <lb ed="#V" n="71"/>positiue &amp; scienter fictus, vtpote quia recolit se complacere
+            <lb ed="#V" n="72"/>in praeterita culpa, vel nullam deilla displicentiam habere,
+            <lb ed="#V" n="73"/>aut recolit &amp; actu considerat, se proponere peccare in
+            futu<lb ed="#V" n="74" break="no"/>rum mortaliter, vel non habere propositum abstinendi a
+            pec<lb ed="#V" n="75" break="no"/>cato mortali, vel nolle satisfacere Deo, nec iniunctam
+            poe<cb ed="#V" n="b"/><lb ed="#V" n="76" break="no"/>nitentiam adimplere, talis committit mendacium facti, &amp;
+            <lb ed="#V" n="77"/>sacrilegium &amp; violationem sacramenti, &amp; sic nouiter
+            pec<lb ed="#V" n="78" break="no"/>cat noua specie peccati. secundum falsum quod dicit
+            Bern<lb ed="#V" n="79" break="no"/>est quod talis ficte accedens ad sacramentum poenitentiae
+            com<lb ed="#V" n="80" break="no"/>mittat nouam circunstantiam peccati &amp; aggrauationem
+            pec<lb ed="#V" n="81" break="no"/>cati, &amp; nullo modo committat nouum peccatum, nec aliquo
+            <lb ed="#V" n="82"/>modo nouiter peccet. Istud enim videtur implicare
+            contradi<lb ed="#V" n="83" break="no"/>ctionem quod aliquis nouiter augeat peccatum suum, &amp;
+            aggra<lb ed="#V" n="84" break="no"/>uet illud, &amp; quod in tali noua aggrauatione &amp;
+            augmentatio<lb ed="#V" n="85" break="no"/>ne, nullo modo nouiter peccet, nec nouiter sit culpabilis,
+            <lb ed="#V" n="86"/>vel quod correspondeat sibi nouus gradus paenae, &amp; tamen nullo
+            <lb ed="#V" n="87"/>modo committat nouum peccatum aut culpam aut gradum
+            <lb ed="#V" n="88"/>culpae. Vnde quicunque meretur nouum gradum
+            poenae<lb ed="#V" n="89" break="no"/>committit nouum gradum culpae, &amp; consequenter nouam
+            <lb ed="#V" n="90"/>culpam, quia quilibet nouus gradus culpae est noua
+            culpa<lb ed="#V" n="91" break="no"/>aliquo modo: tertium falsum quod dicit est quod si talis fictus
+            asse<lb ed="#V" n="92" break="no"/>rat se esse non fictum, vel se esse contritum, non ideo
+            impe<lb ed="#V" n="93" break="no"/>ditur fructus confessionis, nec peccat mortaliter, quia non
+            <lb ed="#V" n="94"/>mentitur mendacio pernicioso in detrimentum alterius.
+            <lb ed="#V" n="95"/>Hoc siquidem falsum est, quia licet in tali casu suum
+            men<lb ed="#V" n="96" break="no"/>dacium non noceat alteri, tamen nocet sibiipsi &amp; cedit in
+            <lb ed="#V" n="97"/>contemptum &amp; violationem sacramenti, &amp; irreuerentiam
+            <lb ed="#V" n="98"/>Dei &amp; Ecclesiae: quartum falsum quod dicit est quod omne
+            <lb ed="#V" n="99"/>mendacium facti sit leuius quolibet mendacio verbi, hoc
+            si<lb ed="#V" n="100" break="no"/>quidem falsum est, quia multa mendacia facti sunt peccata
+            <lb ed="#V" n="101"/>mortalia, &amp; multa mendacia dicti sunt venialia: quintum
+            <lb ed="#V" n="102"/>falsum quod dicit est quod non omnis hypocrisis sit peccatum
+            <lb ed="#V" n="103"/>Hoc enim falsum est prout ostendit Sanctus Thomas secunda secundae
+            <lb ed="#V" n="104"/>q. 3. Nam in primo artic. quaestionis ostendit quod omnis
+            simu<lb ed="#V" n="105" break="no"/>latio est peccatum, &amp; in secundo ostendit quod omnis
+            hypocri<lb ed="#V" n="106" break="no"/>sis est simulatio quia peccator simulat personam iusti. Idem
+            <lb ed="#V" n="107"/>ponit 4. sent. dist. 16. q. 4. artic. 1. vbi probat quatuor
+            conclu<lb ed="#V" n="108" break="no"/>siones.
+          </p>
+          <p xml:id="capsco-d3k22a-d1e1875">
+            Prima est quod omnis hypocrisis est peccatum, secunda
+            <lb ed="#V" n="109"/>quod hypocrisis est speciale peccatum: tertia quod hypocrisis
+            <lb ed="#V" n="110"/>quandoque est peccatum mortale: quarta quod hypocrisis
+            di<lb ed="#V" n="111" break="no"/>rectius impedit effectum poenitentiae quam alia peccata, qua
+            <lb ed="#V" n="112"/>semper excludit rectam intentionem actuum poenitentiae.
+            <lb ed="#V" n="113"/>Quando autem sit mortale peccatum ostendit ibidem in
+            so<lb ed="#V" n="114" break="no"/>lutione tertiae q. dicens. Hypocrisis habet eandem rationem
+            <lb ed="#V" n="115"/>peccati sicut &amp; mendacium, mendacium autem non
+            sem<lb ed="#V" n="116" break="no"/>per est peccatum mortale, sed quando est perniciosum. Et
+            <lb ed="#V" n="117"/>similiter hypocrisis non semper est peccatum mortale, sed
+            <lb ed="#V" n="118"/>quando est pernitiosa cadens in nocumentum alterius
+            per<lb ed="#V" n="119" break="no"/>sonae, dum propter creditam sanctitatem alium defraudat
+            <lb ed="#V" n="120"/>re quam habet vel habere deberet, aut in nocumentum
+            fi<lb ed="#V" n="121" break="no"/>dei &amp; Ecclesiae, dum propter sanctitatem creditam de ipso
+            <lb ed="#V" n="122"/>ei contra fidem &amp; Ecclesiam creditur. Haec ille.
+          </p>
+          <p xml:id="capsco-d3k22a-d1e1908">
+            Sed in
+            se<lb ed="#V" n="123" break="no"/>cunda secundae q. 3. artic. 4. sic dicit in hypocrisi sunt duo scilicet
+            <lb ed="#V" n="124"/>defectus sanctitatis &amp; simulatio illius. Si ergo ille dicatur
+            <lb ed="#V" n="125"/>hypocrita, cuius intentio fertur ad vtrunque vti scilicet aliquis
+            <lb ed="#V" n="126"/>no curet sanctitatem habere, sed solum apparere, sicut
+            con<lb ed="#V" n="127" break="no"/>sueuit accipi in sacra scriptura, sic manifestum est quod est
+            pec<lb ed="#V" n="128" break="no"/>catum mortale. Nullus enim priuatur totaliter sanctitate nisi
+            <lb ed="#V" n="129"/>per peccatum mortale. Si autem dicatur hypocrita ille
+            qui<lb ed="#V" n="130" break="no"/>intendit simulare sanctitatem a qua priuatur per peccatum
+            <lb ed="#V" n="131"/>mortale, tunc quamuis sit in peccato mortali ex quo
+            priua<lb ed="#V" n="132" break="no"/>tur sanctitate vitae, non tamen semper ipsa simulatio est ei in
+            <lb ed="#V" n="133"/>peccatum mortale, sed quandoque veniale, quod
+            discernen<lb ed="#V" n="134" break="no"/>dum est ex fine qui si repugnat charitati Dei vel proximi erit
+            <lb ed="#V" n="135"/>peccatum mortale, puta cum simulat sanctitatem vt falsam
+            <lb ed="#V" n="136"/>doctrinam disseminet, vel vt adipiscatur ecclesiasticam
+            di<lb ed="#V" n="137" break="no"/>gnitatem indignus, vel quaecunque alia temporalia bona in
+            <lb ed="#V" n="138"/>quibus finem constituit. Si vero finis intentus non repugnat
+            <lb ed="#V" n="139"/>charitati erit veniale, puta cum aliquis in ipsa fictione
+            dele<lb ed="#V" n="140" break="no"/>ctatur. De quo dicit Philosophus 4. Ethic. quod magis videtur
+            <lb ed="#V" n="141"/>vanus quam malus. Eadem enim ratio est de mendacio &amp;
+            si<lb ed="#V" n="142" break="no"/>mulatione, contingit tamen quod aliquis simulat perfectionem
+            <lb ed="#V" n="143"/>sanctitatis quae non est de necessitate salutis, &amp; talis
+            simu<lb ed="#V" n="144" break="no"/>latio nec semper est pectatum mortale, nec semper est cum
+            <lb ed="#V" n="145"/>peccato mortali Haec ille.
+          </p>
+          <p xml:id="capsco-d3k22a-d1e1960">
+            Ex quibus apparet quod hypocrisis
+            <lb ed="#V" n="146"/>est peccatum mortale quando est perniciosa, puta cedens in
+            <lb ed="#V" n="147"/>detrimentum alterius personae vel Ecclesiae vel fidei vel Dei.
+            <lb ed="#V" n="148"/>cum ergo ficte confitens fictione positiua superius
+            expres<lb ed="#V" n="149" break="no"/>sa quantum in se est detrimentum inferat ministro Dei, &amp;
+            <lb ed="#V" n="150"/>sacramento Dei, cuius vel quorum effectum impedit,
+            con<pb ed="#V" n="216"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>temnat etiam Deum in suo sacramento, detrimantum etiam
+            <lb ed="#V" n="2"/>inferat sibiipsi quem tenetur plus quam proximum
+            dilige<lb ed="#V" n="3" break="no"/>re priuando vel excludendo vel impediendo habitum
+            cha<lb ed="#V" n="4" break="no"/>ritatis &amp; gratiae, &amp; peccatorum mortalium remissionem,
+            <lb ed="#V" n="5"/>sine quibus non est salus ipsi, constat quod sua fictio simulatio
+            <lb ed="#V" n="6"/>&amp; hypocrisis est peccatum mortale, vtputa mendacium
+            per<lb ed="#V" n="7" break="no"/>nitiosum existens. Nec debet dici mendacium officiosum,
+            <lb ed="#V" n="8"/>cum nulli prosit nec prodesse possit: sextum falsum est quod
+            ta<lb ed="#V" n="9" break="no"/>lis confessio est integra facta cum tali positiua fictione
+            scien<lb ed="#V" n="10" break="no"/>ter: septimum est quod taliter confessus non teneatur
+            confite<lb ed="#V" n="11" break="no"/>ri peccata prius confessa, nec ipsam fictionem plusquam
+            pec<lb ed="#V" n="12" break="no"/>cata venialia: octauum est quod taliter fictus non impediatur
+            <lb ed="#V" n="13"/>ab effectu vltimo sacramenti per formale fictionis, scilicet
+            <lb ed="#V" n="14"/>per indignum accessum ad sacramentum &amp; abusum eius, sed
+            <lb ed="#V" n="15"/>solum per materiale fictionis quod est non paenitere de
+            pec<lb ed="#V" n="16" break="no"/>catis: nonum falsum est quod attritio cum sacramento vel
+            <lb ed="#V" n="17"/>sacramenti susceptione in nullo casu sufficiat pro tempore
+            <lb ed="#V" n="18"/>susceptionis sacramenti ad remissionem peccatorum, sed
+            <lb ed="#V" n="19"/>solum post susceptionem eius. Videtur enim velle quod
+            sacramen<lb ed="#V" n="20" break="no"/>talis absolutio nunquam de attrito efficiat contritum quod
+            <lb ed="#V" n="21"/>falsum est: decimum est, quia videtur velle quod materia
+            sacra<lb ed="#V" n="22" break="no"/>menti poenitentiae sit peccator spontanee confitens
+            pecca<lb ed="#V" n="23" break="no"/>ta, &amp; quod non requiratur ad propriam materiam
+            sacramenti<lb ed="#V" n="24" break="no"/>contritio nec attritio, nec aliqua displicentia de peccato, hoc
+            <lb ed="#V" n="25"/>enim falsum est, quia licet ad veritatem sacramenti non
+            re<lb ed="#V" n="26" break="no"/>quiratur in confitente contritio, requiritur tamen aliqualis
+            <lb ed="#V" n="27"/>displicentia de peccatis quae confitetur, vel in singulari vel
+            <lb ed="#V" n="28"/>in speciali vel in generali: vndecimum falsum est quod talis
+            fi<lb ed="#V" n="29" break="no"/>cte confessus regulariter, &amp; in onini casu sit absolutus a
+            prae<lb ed="#V" n="30" break="no"/>cepto Ecclesiae &amp; Dei sine quacunque distinctione: vnde
+            su<lb ed="#V" n="31" break="no"/>per hoc Petrus de Palude ponit quinque opiniones, &amp; in
+            vl<lb ed="#V" n="32" break="no"/>tima quae est sua sic dicit. Talis liberatur a praecepto
+            Eccle<lb ed="#V" n="33" break="no"/>siae, ita quod ante annum illum non teneatur confiteri, siue
+            di<lb ed="#V" n="34" break="no"/>cat fictionem illam, siue non, dum tamen dicat omnia alia
+            <lb ed="#V" n="35"/>peccata sua, quia Ecclesia non potest praecipere nisi actum
+            <lb ed="#V" n="36"/>exteriorem, nec potest praecipere aliquam satisfactionem,
+            <lb ed="#V" n="37"/>nec poenam imponere pro actu interiori: vnde quando
+            di<lb ed="#V" n="38" break="no"/>citur quod confiteatur omnia peccata sua quo ad peccata
+            cor<lb ed="#V" n="39" break="no"/>dis est consilium, sed quo ad exteriora est praeceptum. Si
+            di<lb ed="#V" n="40" break="no"/>catur. Ecclesia non praecipit illud quod est malum, quia
+            prae<lb ed="#V" n="41" break="no"/>cepta boni legistatoris dantur de actibus virtutum.
+          </p>
+          <p xml:id="capsco-d3k22a-d1e2064">
+            Dicen<lb ed="#V" n="42" break="no"/>dum quod confessio &amp; absolutio in ficto non sunt mala de se,
+            <lb ed="#V" n="43"/>sed propter circunstantiam fictionis, &amp; ideo secundum se
+            <lb ed="#V" n="44"/>est in praecepto, &amp; quo ad substantiam facti liberatur a
+            prae<lb ed="#V" n="45" break="no"/>cepto humano, quod non potuit concludere priuationem
+            <lb ed="#V" n="46"/>fictionis, sicut nec fictionem prohibere, sicut si eleemosyna
+            <lb ed="#V" n="47"/>est in praecepto &amp; fiat propter hypocrisim, dum tamen
+            ho<lb ed="#V" n="48" break="no"/>mo velit se aquietare a praecepto, &amp; cum hoc placere
+            mun<lb ed="#V" n="49" break="no"/>do liberatur a praecepto.
+          </p>
+          <p xml:id="capsco-d3k22a-d1e2085">
+            Sciendum est autem quod praecipere
+            <lb ed="#V" n="50"/>confiteri legem condendo non est praeceptum fori
+            peniten<lb ed="#V" n="51" break="no"/>tialis effectiue, licet sit de illo foro materialiter &amp;
+            obiecti<lb ed="#V" n="52" break="no"/>ue, sicut dare indulgentias: vnde non potest intelligi
+            praece<lb ed="#V" n="53" break="no"/>ptum de confitendo quo ad potestatem ordinis, sed de
+            fo<lb ed="#V" n="54" break="no"/>ro poenitentiae potest confessor iniungere quod frequenter
+            con<lb ed="#V" n="55" break="no"/>fiteatur de interioribus, de quibus se ei submittit.
+          </p>
+          <p xml:id="capsco-d3k22a-d1e2101">
+            Ad illud
+            <lb ed="#V" n="56"/>autem quod obiicitur a quibusdam quod Ecclesia potest
+            prae<lb ed="#V" n="57" break="no"/>cipere actum interiorem ratione exterioris quando sine
+            pri<lb ed="#V" n="58" break="no"/>mo non habet effectum, sicut qui potest praecipere lectionem
+            <lb ed="#V" n="59"/>potest praecipere meditationem &amp;c.
+          </p>
+          <p xml:id="capsco-d3k22a-d1e2112">
+            Dicendum est quod non
+            <lb ed="#V" n="60"/>oportet, sed eoipso quod homo praecipit mihi lectionem Deus
+            <lb ed="#V" n="61"/>qui praecepit mihi obedire praecipit mihi meditationem,
+            <lb ed="#V" n="62"/>sine qua non possum legere. Si autem dicatur quod Ecclesia
+            prae<lb ed="#V" n="63" break="no"/>cipit alicui contrahere matrimonium, quod non est sine
+            con<lb ed="#V" n="64" break="no"/>sensu, &amp; per consequens consensum, alias ei obediret
+            qui<lb ed="#V" n="65" break="no"/>tantum per verba contraheret &amp; excommunicatronem
+            eua<lb ed="#V" n="66" break="no"/>deret.
+          </p>
+          <p xml:id="capsco-d3k22a-d1e2130">
+            Dicendum quod non est simile, quia sicut Ecclesia de
+            pec<lb ed="#V" n="67" break="no"/>catis confessis licet cordis, quia iam sibi subduntur dat
+            in<lb ed="#V" n="68" break="no"/>dulgentias, sic postquam aliquis promisit alicui ducere eam
+            <lb ed="#V" n="69"/>in vxorem obligatus est ad actum interiorem ex facto quod
+            <lb ed="#V" n="70"/>Ecclesiae subiacet: vnde de ratione contractus quo
+            obliga<lb ed="#V" n="71" break="no"/>tus est ad actum interiorem Ecclesia cogit eum ad illum,
+            si<lb ed="#V" n="72" break="no"/>cut si quis solo corde vouisset, Ecclesia ad illius voti
+            obser<lb ed="#V" n="73" break="no"/>uantiam non cogeret. Si autem ore, tunc sic. Hic autem iste
+            <lb ed="#V" n="74"/>non se obligauit ad paenitendum interius promissione quae
+            <lb ed="#V" n="75"/>subiaceat Ecclesiae, quia licet in baptismo abrenunciauerit
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="76"/>sathanae, &amp; professus sit religionem Christianam, non tamen
+            <lb ed="#V" n="77"/>obligauit se Ecclesiae ad obediendum nisi in illis quae
+            sun<lb ed="#V" n="78" break="no"/>sibi commissa, &amp; haec sunt exteriora, sicut religiosus non
+            po<lb ed="#V" n="79" break="no"/>test cogi nisi ad ea quae ex regula &amp; constitutionibus habent
+            <lb ed="#V" n="80"/>praelati imponere, ad quae se obligauit, non ad plura, nisi
+            pro<lb ed="#V" n="81" break="no"/>ut sunt in casu necessaria ad illa. Cum autem adducitur d
+            <lb ed="#V" n="82"/>ctum legis quod cum alicui aliquid committitur etiam
+            com<lb ed="#V" n="83" break="no"/>mittitur illud sine quo exequi non potest, &amp; si alias non
+            co<lb ed="#V" n="84" break="no"/>petat &amp;c.
+          </p>
+          <p xml:id="capsco-d3k22a-d1e2174">
+            Dicendum quod commissa iurisdictione tacite
+            com<lb ed="#V" n="85" break="no"/>mittuntur illa quae sunt ad hoc necessaria quando sunt
+            tali<lb ed="#V" n="86" break="no"/>quae solent alias expresse committi, talia autem non sunt actus
+            <lb ed="#V" n="87"/>interiores, quorum iudicium Deus homini prohibuit nisi
+            <lb ed="#V" n="88"/>in foro conscientiae, &amp; ideo quamuis non possit praecipere
+            <lb ed="#V" n="89"/>confessionem de peccato occulto exteriori in foro
+            exterio<lb ed="#V" n="90" break="no"/>ri, potest tamen praecipere confessionem de illo in foro
+            in<lb ed="#V" n="91" break="no"/>teriori, Ecclesia enim habet praeceptum in foro exteriori ac
+            <lb ed="#V" n="92"/>bene ordinandum vtrunque forum, sed quia actus interior
+            <lb ed="#V" n="93"/>omnino subterfugit forum exterius, etiam si de ipso
+            consta<lb ed="#V" n="94" break="no"/>ret, quia siquis confitetur se consensisse in homicidium, non
+            <lb ed="#V" n="95"/>propter hoc posset excommunicari, sicut nec decollari, inde
+            <lb ed="#V" n="96"/>est quod de actu interiori non potest Ecclesia ferre praeceptum
+            <lb ed="#V" n="97"/>nec respectu fori paenitentialis, nec iudicialis, sed de actu
+            ex<lb ed="#V" n="98" break="no"/>teriori omnino occulto, quod ipsa posset punire si ei constare
+            <lb ed="#V" n="99"/>puta per confessionem eius qui solus est sibi conscius, quod
+            <lb ed="#V" n="100"/>aliter non potest ei constare ipsa non potest facere praecepti
+            <lb ed="#V" n="101"/>in iudicio exteriori, ita scilicet vt cogatur fateri veritatem, quia
+            <lb ed="#V" n="102"/>iure diuino prohibetur de tali occulto inquirere, cum act
+            <lb ed="#V" n="103"/>cusatio vel clamosa insinuatio debeat praecedere, licet in
+            com<lb ed="#V" n="104" break="no"/>muni possit excommunicare eum, qui hoc fecerit, sed de isto
+            <lb ed="#V" n="105"/>actu potest dare praeceptum exequendi in foro
+            penitentia<lb ed="#V" n="106" break="no"/>li, sed de ipsa interio.i poenitentia nullo modo videtur
+            pos<lb ed="#V" n="107" break="no"/>se praeceptum dare, quia nullo modo cadit sub eius
+            praece<lb ed="#V" n="108" break="no"/>pto, nec quod talis interior poenitentia habeatur, nec quod aliqui
+            <lb ed="#V" n="109"/>de eius fictione confiteatur. Haec Petrus. Ex quibus patet quod
+            <lb ed="#V" n="110"/>confiteri cum poenitentia interiori non est praeceptum
+            Ec<lb ed="#V" n="111" break="no"/>clesiae, sed Christi, &amp; similiter confiteri fictionem interiorem,
+            <lb ed="#V" n="112"/>sicut &amp; alia peccata cordis, licet non sit praeceptum
+            Eccle<lb ed="#V" n="113" break="no"/>siae, est tamen praeceptum Dei. Similiter dico, quod licet
+            acce<lb ed="#V" n="114" break="no"/>dere cum fictione ad sacramentum baptismi vel paenitentia
+            <lb ed="#V" n="115"/>vel alia non sit prohibitum praecepto Ecclesiae est tamen
+            pro<lb ed="#V" n="116" break="no"/>hibitum praecepto Christi prohibentis hypocrisim quae est
+            <lb ed="#V" n="117"/>peccatum mortale, non tamen prohibet illam quae est
+            ve<lb ed="#V" n="118" break="no"/>nialis. Alia vero quae dicit Bernus possunt stare. Ideo
+            argu<lb ed="#V" n="119" break="no"/>menta quae ipse soluit inconuenienter, soluenda sunt ex
+            di<lb ed="#V" n="120" break="no"/>ctis Petrus de Palude potissime in solutione ad quartum
+            Du<lb ed="#V" n="121" break="no"/>randi superius recitatis, vt patet.
+          </p>
+          <p xml:id="capsco-d3k22a-d1e2257">
+            Ad argumentum contra
+            <lb ed="#V" n="122"/>conclusionem respondet Sanctus Thomas praesenti dist. q. 3. artic. 4.
+            <lb ed="#V" n="123"/>quaestiuncula prima, in solutione secundi, dicens quod
+            contri<lb ed="#V" n="124" break="no"/>tio &amp; satisfactio fiunt Deo, sed confestio fit homini, &amp; ideo
+            <lb ed="#V" n="125"/>de ratione contritionis &amp; satisfactionis est quod homo sit Deo
+            <lb ed="#V" n="126"/>per charitatem vnitus non autem de ratione confessionis.
+            <lb ed="#V" n="127"/>Haec ille.
+          </p>
+          <p xml:id="capsco-d3k22a-d1e2274">
+            Sed contra hoc arguit Petus de Palude dicens.
+            Con<lb ed="#V" n="128" break="no"/>tra verba quae ponit Thomas videtur, quia si contritio &amp; sa.
+            <lb ed="#V" n="129"/>tisfactio quia fiunt Deo requirunt quod homo qui ista facit sit
+            <lb ed="#V" n="130"/>vnitus Deo, sic confessio quia fit homini requirit quod sit
+            <lb ed="#V" n="131"/>vnitus homini, &amp; si prima vnio debet esse per charitatem
+            par<lb ed="#V" n="132" break="no"/>ratione secunda, nisi dicatur sic quod Deus qui videt
+            disposi<lb ed="#V" n="133" break="no"/>tionem, non inducit formam nisi in materiam bene
+            disposi<lb ed="#V" n="134" break="no"/>tam, sed homo qui non videt cor, vel si ei dicitur, facit quod
+            <lb ed="#V" n="135"/>suum est intendens facere quod facit Ecclesia, siue erret in
+            <lb ed="#V" n="136"/>facto, &amp; tunc non peccat, quia alius cui tenetur credere non
+            <lb ed="#V" n="137"/>confitetur fictionem, siue erret in iure, quia alius confitetur
+            <lb ed="#V" n="138"/>eam, &amp; iste nihilominus absoluit abutens claue, tamen ex
+            <lb ed="#V" n="139"/>quo intendit absoluere &amp; verum sacramentum conferre
+            vi<lb ed="#V" n="140" break="no"/>detur quod conferat, &amp; si tunc non habet effectum propter
+            il<lb ed="#V" n="141" break="no"/>lius indispositionem, habebit tamen postea vel ex pactione
+            <lb ed="#V" n="142"/>Dei, vel ex dispositione remanente. Et si dicatur quod non est
+            <lb ed="#V" n="143"/>sacramentum: ergo licet habeat veram formam, non tamen
+            <lb ed="#V" n="144"/>verammateriam quae est peccator contritus, sicut materia
+            <lb ed="#V" n="145"/>matrimonij homo consentiens.
+          </p>
+          <p xml:id="capsco-d3k22a-d1e2316">
+            Dicendum quod quando sua
+            <lb ed="#V" n="146"/>fictio non sibi occurrit vt confitenda, tunc non est confessic
+            <lb ed="#V" n="147"/>dimidiata, &amp; quando fictionem suam dicit cum alijs
+            pecca<lb ed="#V" n="148" break="no"/>tis est confessio integra, &amp; sic materia perfecta cui potest
+            <lb ed="#V" n="149"/>imprimi forma, quod si fiat verum sacramentum erit,
+            quam<lb ed="#V" n="150" break="no"/>uis fieri non debeat, sicut sacerdos habens Hostiam
+            super<pb ed="#V" n="217"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>Altare non pollutum non deberet quidem celebrare, sed si
+            <lb ed="#V" n="2"/>proferret verba, vera Eucharistia esset, &amp; sufficit vt quidam
+            <lb ed="#V" n="3"/>dicunt, &amp; tale sacramentum non valet ad remissionem
+            cul<lb ed="#V" n="4" break="no"/>pae nec poenae pro tunc, sed recedente fictione valet ad
+            vtrun<lb ed="#V" n="5" break="no"/>que, vel ex pactione vel ex ornatu disponente, sicut
+            chara<lb ed="#V" n="6" break="no"/>cter etiam si contritio ponatur pars essentialis paenitentiae
+            <lb ed="#V" n="7"/>Sacramenti, quia sicut satisfactio quae ordine naturae debet
+            <lb ed="#V" n="8"/>sequi confessionem, &amp; contritionem aliquando praecedit
+            <lb ed="#V" n="9"/>confessionem &amp; sufficit, ita vt non teneatur Deo amplius
+            <lb ed="#V" n="10"/>satisfacere, puta quia contritio deleuit poenam, in quo
+            casu<lb ed="#V" n="11" break="no"/>si constaret sacerdoti nullam poenitentiam iniungere
+            debe<lb ed="#V" n="12" break="no"/>ret sicut nec baptizato, vel si tantam poenitentiam fecit post
+            <lb ed="#V" n="13"/>contritionem proprio motu quod videatur satisfaciens
+            confes<lb ed="#V" n="14" break="no"/>sori, non iniunget aliam. Aliquando autem praecedit
+            contri<lb ed="#V" n="15" break="no"/>tionem, vt quando facta est in peccato mortali, &amp; est talis
+            <lb ed="#V" n="16"/>quod aliquid demit de substantia, puta quia tota paenitentia erit
+            <lb ed="#V" n="17"/>in eleemosynis quas errogauit in peccato, postea conteritur
+            <lb ed="#V" n="18"/>gratas habens eleemosynas quas fecit peccator, &amp; est
+            mate<lb ed="#V" n="19" break="no"/>ria, sed immunda nisi sit saltim attritus, vel confessio sine
+            con<lb ed="#V" n="20" break="no"/>tritione est materia immunda sic econuerso, licet contritio
+            <lb ed="#V" n="21"/>debeat praecedere confessionem &amp; absolutionem, si tamen
+            <lb ed="#V" n="22"/>sequitur sufficit ad habendum tunc fructum. Haec Petrus.
+            <lb ed="#V" n="23"/>Mihi breuiter videtur dicendum quod pro tempore absolutionis
+            <lb ed="#V" n="24"/>non sit verum sacramentum poenitentiae nec integrum, si
+            con<lb ed="#V" n="25" break="no"/>fitens non habet tempore quo confitetur nec tempore quo
+            <lb ed="#V" n="26"/>absoluitur vllam displicentiam de peccato, quia in hoc
+            ca<lb ed="#V" n="27" break="no"/>su non est vera nec integra nec sufficiens materia
+            sacramen<lb ed="#V" n="28" break="no"/>ti, vt prius dictum est. Si autem habet aliquam displicentiam
+            <lb ed="#V" n="29"/>de peccato quae tamen non attingit ad rationem
+            contritio<lb ed="#V" n="30" break="no"/>nis nec secundum se, nec cum sacramento, nihilominus est
+            <lb ed="#V" n="31"/>verum sacramentum, sed non perfectum in se, &amp; in suo
+            effe<lb ed="#V" n="32" break="no"/>ctu, quam tamen vltimatam perfectionem dabit sibi
+            con<lb ed="#V" n="33" break="no"/>tritio, si postea sequatur. Si autem nec tempore
+            confessio<lb ed="#V" n="34" break="no"/>nis, nec tempore absolutionis affuit attritio, nec
+            qualiscun<lb ed="#V" n="35" break="no"/>que displicentia de peccato, tunc nulla contritio sequens
+            <lb ed="#V" n="36"/>faciet nec integrabit nec perficiet praecedens sacramentum
+            <lb ed="#V" n="37"/>quod nullum fuit, sed aliunde poterit esse salutifera, puta
+            <lb ed="#V" n="38"/>ex desiderio futuri sacramenti. Et haec de quaestione
+            suffi<lb ed="#V" n="39" break="no"/>ciant. De qua Benedictus Deus. Amen.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

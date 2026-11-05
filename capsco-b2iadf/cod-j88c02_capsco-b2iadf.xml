@@ -1,0 +1,1118 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 2, Distinctio 41, Quaestio 1</title>
+        <author ref="#JohannesCapreolus">Johannes Capreolus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 2, Distinctio 41, Quaestio 1</title>
+          <date when="2026-11-04">Nov 4, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-j88c02">Venice, 1589, v. 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-04" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="563"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="capsco-b2iadf"><!-- l2d41q1 -->
+        <head xml:id="capsco-b2iadf-Hd1e101">Quaestio 1</head>
+        <head xml:id="capsco-b2iadf-Hd1e103" type="question-title">Utrum quaelibet actio hominis infidelis sit peccatum</head>
+        <p xml:id="capsco-b2iadf-d1e106">
+          <lb ed="#V" n="40"/>DISTINCTIO XLI.
+          <lb ed="#V" n="41"/>QVAESTIO I
+          <lb ed="#V" n="42"/>Vtrum quaelibet actio hominis infidelis sit peccatum.
+        </p>
+        <p xml:id="capsco-b2iadf-d1e115">
+          <lb ed="#V" n="43"/><milestone ed="#V" unit="p" rend="initial"/> CIRCA quadragesimam primam
+          di<lb ed="#V" n="44" break="no"/>stinctionem secundi senten.
+          Quaeri<lb ed="#V" n="45" break="no"/>tur. Vtrum quaelibet actio hominis
+          in<lb ed="#V" n="46" break="no"/>fidelis sit peccatum
+        </p>
+        <p xml:id="capsco-b2iadf-d1e127">
+          Et arguitur quod
+          <lb ed="#V" n="47"/>sic, fides intentionem dirigit, sed
+          nul<lb ed="#V" n="48" break="no"/>lum bonum est quod non est ex
+          inten<lb ed="#V" n="49" break="no"/>tione recta: ergo in infidelibus nulla
+          <lb ed="#V" n="50"/>actio potest esse bona.
+        </p>
+        <p xml:id="capsco-b2iadf-d1e139">
+          <lb ed="#V" n="51"/><milestone ed="#V" unit="p" rend="indent"/> In oppositum arguitur sic. Quia Cornelio adhuc
+          exi<lb ed="#V" n="52" break="no"/>stente infideli dictum est quod acceptae erant
+          peo<lb ed="#V" n="53" break="no"/>elemospnae eius: ergo non omnis actio infidelis est
+          pecca<lb ed="#V" n="54" break="no"/>tum, sed aliqua est bona.
+        </p>
+        <p xml:id="capsco-b2iadf-d1e151">
+          <lb ed="#V" n="55"/><milestone ed="#V" unit="p" rend="indent"/> I hac quaestione sunt tres articuli. Iu primo ponentur
+          <lb ed="#V" n="56"/>conclusiones. In secundo obiectiones. In tertio
+          solu<lb ed="#V" n="57" break="no"/>tiones.
+        </p>
+        <div xml:id="capsco-b2iadf-Dd1e161">
+          <head xml:id="capsco-b2iadf-Hd1e163">Articulus 1</head>
+          <p xml:id="capsco-b2iadf-d1e165">
+            <lb ed="#V" n="58"/><milestone ed="#V" unit="p" rend="initial"/> Vantum ad primum articulum sit talis conclusio:
+            <lb ed="#V" n="59"/>Non omnis actio hominis infidelis est peccatum
+            <lb ed="#V" n="60"/>nec culpa. Hanc ponit Sanctus Thomas secunda
+            se<lb ed="#V" n="61" break="no"/>cundae. q. 10. ar. 4. Vbi sic dicit. Peccatum mortale tollit
+            gra<lb ed="#V" n="62" break="no"/>tiam gratum facientem, non autem totaliter corrumpit
+            <lb ed="#V" n="63"/>bonum naturae. Vnde cum infidelitas sit peccatum
+            mor<lb ed="#V" n="64" break="no"/>tale, infideles quidem gratia carent, remanet tamen in eis
+            <lb ed="#V" n="65"/>aliquod bonum naturae. Vnde manifestum est quod
+            infide<lb ed="#V" n="66" break="no"/>les non possunt operari opera bona quae sunt ex gratia
+            sci<lb ed="#V" n="67" break="no"/>licet opera meritoria, tamen opera bona ad quae sufficit
+            <lb ed="#V" n="68"/>bonum naturae operari possunt. Vnde non oportet quod
+            <lb ed="#V" n="69"/>in omni opere suo peccent, sed quandocunque operantur
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="70"/>aliquod opus ex infidelitate, tunc peccant. Sicut enim
+            ha<lb ed="#V" n="71" break="no"/>bens fidem potest aliquod peccatum commitere in actu
+            <lb ed="#V" n="72"/>quem non refert ad fidei finem, venialiter vel mortaliter
+            <lb ed="#V" n="73"/>peccando, ita etiam infidelis potest aliquem actum bonum
+            <lb ed="#V" n="74"/>facere in eo quod non refert ad infidelitatis finem. Haec
+            il<lb ed="#V" n="75" break="no"/>le.
+          </p>
+          <p xml:id="capsco-b2iadf-d1e210">
+            Item secundo sen. dist. 41. q.. ar. 2. sic dicit. Sicut in
+            re<lb ed="#V" n="76" break="no"/>bus naturalibus vna perfectio alteri supradditur, sic vt
+            <lb ed="#V" n="77"/>quaedam res habeat vnam illarum, &amp; quaedam duas, &amp; sic
+            <lb ed="#V" n="78"/>deinceps, ita etiam in moralibus contingit in actu
+            consi<lb ed="#V" n="79" break="no"/>derare aliquam perfectionem alij super additam, ex quarum
+            <lb ed="#V" n="80"/>vnaquaque actus dicitur bonus. Et si aliqua illarum
+            per<lb ed="#V" n="81" break="no"/>sectiorum desit, deerit bonitas quae est secundum perfe.
+            <lb ed="#V" n="82"/>ctionem illam. Verbi gratia. Omnis actus inquantum
+            a<lb ed="#V" n="83" break="no"/>ctus est habet quandam bonitatem essentialem secundum
+            <lb ed="#V" n="84"/>quod omne ens bonum est. Sed in aliquibus actibus
+            supe<lb ed="#V" n="85" break="no"/>radditur quaedam bonitas ex proportione actus ad
+            debi<lb ed="#V" n="86" break="no"/>tum obiectum, &amp; secundum hoc dicitur actus bonus ex
+            <lb ed="#V" n="87"/>genere, &amp; vlterius ex debita commensuratione
+            cir<lb ed="#V" n="88" break="no"/>cunstantiarum, dicetur bonus ex circunstantia, &amp; sic
+            dein<lb ed="#V" n="89" break="no"/>ceps quousque perueniatur ad vltimam bonitatem, cuius
+            <lb ed="#V" n="90"/>actus humanus est susceptiuus, quae est ex ordine ad finem
+            <lb ed="#V" n="91"/>vltimum. per habitum gratiae vel charitatis. Et ideo actus
+            <lb ed="#V" n="92"/>illorum quia gratiam vel charitatem non habent hoc
+            mo<lb ed="#V" n="93" break="no"/>do bonus esse non potest. Et haec est bonitas secundum
+            <lb ed="#V" n="94"/>quam actus meritorius dicitur. Sed subtracto posteriori
+            <lb ed="#V" n="95"/>nihil ominus remanet prius vt dicitur in lib. de causis.
+            Vn<lb ed="#V" n="96" break="no"/>de quauis ab infidelium actibus subtrahatur ista bonitas
+            <lb ed="#V" n="97"/>secundum quam actus meritorius dicitur, remanet tamen
+            <lb ed="#V" n="98"/>alia bonitas vel virtutis politicae vel ex circunstantia vel
+            <lb ed="#V" n="99"/>ex genere. Et ideo non oportet quod omnis actus
+            co<lb ed="#V" n="100" break="no"/>rum sit malus, sed solum quod sit dcficientis bonitatis.
+            Si<lb ed="#V" n="101" break="no"/>cut equus quamuis deficiat rationalitate quam habet
+            ho<lb ed="#V" n="102" break="no"/>mo non tamen ideo maius est, sed tamen habet bonitatem
+            <lb ed="#V" n="103"/>deficientem a bonitate hominis. Haec ille.
+          </p>
+          <p xml:id="capsco-b2iadf-d1e273">
+            Ex quibus potest
+            <lb ed="#V" n="104"/>formari tali ratio. Illud quod non tollit nec impedit
+            prin<lb ed="#V" n="105" break="no"/>cipia sufficientia ad producendum actum moraliter
+            bo<lb ed="#V" n="106" break="no"/>num, non tolli actum bonum vel potest stare cum actu
+            <lb ed="#V" n="107"/>bono, sed infidelitas non tollit ab homine principia
+            pro<lb ed="#V" n="108" break="no"/>ductiua actus boni moraliter nec totaliter ea ligat aut
+            im<lb ed="#V" n="109" break="no"/>pedit, igitur &amp;c.
+          </p>
+          <p xml:id="capsco-b2iadf-d1e289">
+            Item arguit ibidem Sanctus Thomas. Non
+            <lb ed="#V" n="110"/>est consilium nisi de bono, sed infidelibus consulitur vt
+            ali<lb ed="#V" n="111" break="no"/>qua de generatione bonorum faciant, ergo non omnes
+            <lb ed="#V" n="112"/>actus illorum sunt moraliter mali. Et in hoc primus
+            arti<lb ed="#V" n="113" break="no"/>culus terminatur.
+          </p>
+        </div>
+        <div xml:id="capsco-b2iadf-Dd1e301">
+          <head xml:id="capsco-b2iadf-Hd1e303">Articulus 2</head>
+          <p xml:id="capsco-b2iadf-d1e305">
+            <lb ed="#V" n="114"/><milestone ed="#V" unit="p" rend="initial"/> Vantum ad secundum articulum arguit contra
+            <lb ed="#V" n="115"/>praedicta. Vnde Gregorius de ariminto nititur probare
+            <lb ed="#V" n="116"/>quod nullus actus hominium simpliciter
+            infide<lb ed="#V" n="117" break="no"/>iium est bonus moraliter. Dico autem inquit simpliciter
+            <lb ed="#V" n="118"/>infidelium ad excludendum scismaticos &amp; haereticos &amp;
+            <lb ed="#V" n="119"/>cathecuminus qui aliquo modo credunt, &amp; aliquali fide
+            <lb ed="#V" n="120"/>cognoscunt Deum. Arguit igitur primo. Nullis talis actus
+            <lb ed="#V" n="121"/>sit ex dilectione Dei autem propter Deum vltimate cum
+            ipsi<lb ed="#V" n="122" break="no"/>non cognoscant ipsum esse propter se diligendum, &amp;
+            cae<lb ed="#V" n="123" break="no"/>tera propter ipsum, igitur nnllns fit intentione recta, ac
+            <lb ed="#V" n="124"/>per hoc nec virtuose seu bene moraliter. Haec ratio quasi
+            <lb ed="#V" n="125"/>tota ponitur ad Augustinus super Salmum. 67. d. ea quippe sola
+            bo<lb ed="#V" n="126" break="no"/>na opera dicenda sunt quae fiunt per dilectionem Dei.
+            <lb ed="#V" n="127"/>Hoc autem necesse est vt antecedat fides. Vt in ista non
+            <lb ed="#V" n="128"/>ab istis incipiat illa, quoniam nullus operatur per
+            dilectio<lb ed="#V" n="129" break="no"/>nem Dei nisi prius credat in Deum.
+          </p>
+          <p xml:id="capsco-b2iadf-d1e343">
+            Item super Salm. 31.
+            <lb ed="#V" n="130"/>Nemo inquit computet bona sua ante fidem. Vbi fides non
+            <lb ed="#V" n="131"/>erat, bonum opus non erat, bonum enim opus intentio
+            <lb ed="#V" n="132"/>facit, intentionem dirigit fides. Secundo, quia si actus
+            in<lb ed="#V" n="133" break="no"/>fidelium essent vere virtuosi, vtique in eis essent verae
+            virtu<lb ed="#V" n="134" break="no"/>tes. Nam ex virtuosis actibus virtutum habitus
+            generan<lb ed="#V" n="135" break="no"/>tur, sed consequens est falsum secundum intentionem
+            bea<lb ed="#V" n="136" break="no"/>ti Augustini quarto contra Iulianum vbi per multa capitula
+            <lb ed="#V" n="137"/>probat oppositum. In ciuitate Dei etiam libu. 5. cap. 16.
+            di<lb ed="#V" n="138" break="no"/>cit quod constare debet inter nos veraciter pios neminem
+            si<lb ed="#V" n="139" break="no"/>ne vera pietate. 1. sine veri Dei cultu veram posse habere
+            <lb ed="#V" n="140"/>virtutem Et libro 9. ca. 4. dicit quod verae virtutes nisi eis
+            <lb ed="#V" n="141"/>quibus vera pietas inest, inesse non possunt. In super in
+            li<lb ed="#V" n="142" break="no"/>bro de continenia circa finem ait. Nunquam enim
+            conti<lb ed="#V" n="143" break="no"/>nentiam quam munus Dei verissime dicimus dicturi
+            su<lb ed="#V" n="144" break="no"/>mus esse peccatum, absit a nostris cordibus tam
+            detesta<pb ed="#V" n="564"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>da dementia. Beatus autem Apostolus ait. Omne quod
+            <lb ed="#V" n="2"/>non est ex fide peccatum est. Qui ergo fidem non habet,
+            <lb ed="#V" n="3"/>nec continentia nominanda est. Et sicut de continentia
+            <lb ed="#V" n="4"/>specialiter ita de qualibet virtute morali potest generaliter
+            <lb ed="#V" n="5"/>probari.
+          </p>
+          <p xml:id="capsco-b2iadf-d1e391">
+            Tertio quia in libro de vera innocentia Omnis
+            <lb ed="#V" n="6"/>inquit infidelium vita peccatum est, &amp; nihil est bonum
+            si<lb ed="#V" n="7" break="no"/>ne summo bono. Vbi enim de est agnitio aeternae, &amp;
+            incommu<lb ed="#V" n="8" break="no"/>tabilis veritatis falsa virtus est etiam in optimis moribus
+            <lb ed="#V" n="9"/>idest qui optimi videntur.
+          </p>
+          <p xml:id="capsco-b2iadf-d1e402">
+            Quarto quia cum Augustinus in libus de
+            <lb ed="#V" n="10"/>ordine huius oppositum aliqualiter innuisset postea in
+            pri<lb ed="#V" n="11" break="no"/>mo retractationum cap. 3. illud reuocans ait. Displicet
+            mi<lb ed="#V" n="12" break="no"/>hi quod philosophos non vera pietate praeditos dixi
+            virtu<lb ed="#V" n="13" break="no"/>tis lucae fulsisse.
+          </p>
+          <p xml:id="capsco-b2iadf-d1e414">
+            Quinto quia Beda contra Iulianum cap.
+            <lb ed="#V" n="14"/>23. dicit Augustinus sequens. Constat quod quicunque
+            philosopho<lb ed="#V" n="15" break="no"/>rum Christum Dei virtutem &amp; Dei sapientiam nescierunt,
+            <lb ed="#V" n="16"/>hi nullam veram virtutem sicut neque veram sapientiam
+            <lb ed="#V" n="17"/>habere vlla ratione potuerunt.
+          </p>
+          <p xml:id="capsco-b2iadf-d1e425">
+            Sexto quia Linconiensis
+            <lb ed="#V" n="18"/>in suo sermone de aduentu qui incipit. Eerunt signa in
+            <lb ed="#V" n="19"/>sole, &amp;c. ait sic. In doctrina quoque morali
+            philosopho<lb ed="#V" n="20" break="no"/>rum &amp; in conuersatioue multorum gentilium, vt
+            Sci<lb ed="#V" n="21" break="no"/>pionum &amp; Africanorum videbantur lucere huiusmodi
+            <lb ed="#V" n="22"/>splendidae stellae virtutum, sed nunc vere manifestum est
+            <lb ed="#V" n="23"/>quod sine fide Christi nulla est vera virtus non alicuius
+            do<lb ed="#V" n="24" break="no"/>ctrina seu conuersatione. Et hoc ipsum dicit sensisse Augustinus
+            <lb ed="#V" n="25"/>in suo Enche. in cap. 37. Vbi tractans de quatuor
+            virtuti<lb ed="#V" n="26" break="no"/>bus cardinalibus, &amp; quaerens an Cato &amp; Scipiones
+            virtu<lb ed="#V" n="27" break="no"/>tes habuerunt, ait sic. Concedimus cum Augustinus quod sine
+            fi<lb ed="#V" n="28" break="no"/>de Cristi Iesu nullus vnquam habuit aut habere potuit
+            <lb ed="#V" n="29"/>veram virtutem. Et probat immediate sic. Non enim
+            po<lb ed="#V" n="30" break="no"/>test esse amor ordinatus vbi contenitur aut non amatur
+            <lb ed="#V" n="31"/>quod maxime amandum est. Cum vero non amatur nisi
+            <lb ed="#V" n="32"/>quod scitur aut creditur, patet quod qui nescit, aut non
+            <lb ed="#V" n="33"/>credit dominum Iesum Christum non amat aut
+            conten<lb ed="#V" n="34" break="no"/>nit, quod maxime amandum est, quapropter in tali non
+            <lb ed="#V" n="35"/>est virtus. Quod etiam probat Augustinus talibus argumentis
+            <lb ed="#V" n="36"/>sic. d. Absit vt in aliquo sit vera virtus, nisi sit iustus. Ex
+            <lb ed="#V" n="37"/>quibus patet propositum, quoniam si sine fide Iesu
+            Chri<lb ed="#V" n="38" break="no"/>sti non potest esse amor ordinatus, vt ipse vult, igitur nec
+            <lb ed="#V" n="39"/>actus moraliter bonus quoniam omnis actus virtuosus
+            <lb ed="#V" n="40"/>est amor ordinatus, vel ipsum necessario supponens.
+          </p>
+          <p xml:id="capsco-b2iadf-d1e477">
+            <lb ed="#V" n="41"/>Septimo. Nullus infidelis potest actu vel habitu diligere
+            <lb ed="#V" n="42"/>Deus propter se idest propter ipsum Deum, igitur non
+            po<lb ed="#V" n="43" break="no"/>test habere aliquem actum moralem non culpabilem.
+            An<lb ed="#V" n="44" break="no"/>tecedens patet per Auguius libro quinto, contra Iulianum
+            <lb ed="#V" n="45"/>cap. vbi sic ait. Quando Deo donante ex vera viuitur
+            fi<lb ed="#V" n="46" break="no"/>de ipse Deus adest &amp; menti illuminandae, &amp;
+            concupiscen<lb ed="#V" n="47" break="no"/>tiae superandae, &amp; molestiae perferendae. Hoc enim totum
+            <lb ed="#V" n="48"/>recte sit quando sit propter ipsum. 1. quando gratis amatur
+            <lb ed="#V" n="49"/>ipse, qualis amor nobis esse non potest nisi ex ipso. Ecce
+            <lb ed="#V" n="50"/>hic habetur quod amor quo Deus gratis amatur, qui
+            vti<lb ed="#V" n="51" break="no"/>que ille est tantum, quo Deus diligitur propter se, non
+            po<lb ed="#V" n="52" break="no"/>test esse in nobis nisi fit ab ipso, &amp; cum fide.
+            Consequen<lb ed="#V" n="53" break="no"/>tia etiam patet ex eadem auctoritate Augustinus Per illam enim
+            <lb ed="#V" n="54"/>expositionem. 1. quando gratis amatur datur intelligi, quod
+            <lb ed="#V" n="55"/>tunc tantum aliquid sit propter Deum, quando gratis
+            a<lb ed="#V" n="56" break="no"/>matut Deus. 1 propter seipsum. Patet etiam ratione,
+            quo<lb ed="#V" n="57" break="no"/>niam aliquid diligi propter Deum non est aliud quam
+            di<lb ed="#V" n="58" break="no"/>ligi, quia diligitur Deus. Sic igitur aliquem velle vel
+            age<lb ed="#V" n="59" break="no"/>re aliquid propter Deum vltimate est ipsum illud velle,
+            <lb ed="#V" n="60"/>quia diligit Deum propter se, ergo si quis Deum diligit
+            <lb ed="#V" n="61"/>non propter se, nihil agit vel vult vltimare propter Deum.
+            <lb ed="#V" n="62"/>con sequentia etiam secunda probatur ex eadem
+            auctori<lb ed="#V" n="63" break="no"/>tate, si vadatur ad mentem Augutinus in eo quod ait. Hoc totum
+            <lb ed="#V" n="64"/>recte sit &amp;c. Vbi non est dubium eum intendere quod tunc
+            <lb ed="#V" n="65"/>solum recte sit quando fit propter Deum. Patet etiam
+            ra<lb ed="#V" n="66" break="no"/>tione, quoniam nullus actus moralis non ordinatus in
+            <lb ed="#V" n="67"/>Deum finaliter, seu non factus propter Deum, est factus
+            <lb ed="#V" n="68"/>propter illud. propter quod debet fieri, &amp; per consequens
+            <lb ed="#V" n="69"/>vituperabilis &amp; culpabilis esse censetur. Assumptum
+            pro<lb ed="#V" n="70" break="no"/>batur per Augustinum in libro de moribus ecclesiae ca. 8. Vbi a
+            pro<lb ed="#V" n="71" break="no"/>posit o inquirit, quis debet esse finis omnium actuum
+            no<lb ed="#V" n="72" break="no"/>strorum d. Vudiamus quem finem bonorum nobis
+            Chri<lb ed="#V" n="73" break="no"/>stus praescribat, nec est dubium quin is erit finis, quo
+            <lb ed="#V" n="74"/>nos summo amore tendere iubet. Diliges inquit
+            domi<lb ed="#V" n="75" break="no"/>num Deum tuum &amp;c. Et subdit. Eo est omnino
+            tenden<cb ed="#V" n="b"/><lb ed="#V" n="76" break="no"/>dum. ad id consilia nostra referenda, bonorum summum
+            <lb ed="#V" n="77"/>nobis Deus est, neque infra nobis remanendum est, neque
+            vl<lb ed="#V" n="78" break="no"/>tra quaerendum alterum nisi periculosum, alterum nullum
+            <lb ed="#V" n="79"/>est.
+          </p>
+          <p xml:id="capsco-b2iadf-d1e565">
+            Item 15. c. Non arbitror cum de moribus &amp; vita sit quomodo
+            <lb ed="#V" n="80"/>amplius esse requirendum quid sit summum hominis
+            bo<lb ed="#V" n="81" break="no"/>num, quo referenda sunt omnia. Id enim esse patuit, &amp;
+            ra<lb ed="#V" n="82" break="no"/>tione quantum valuimus, &amp; ea quae rationi nostrae
+            antecel<lb ed="#V" n="83" break="no"/>lit auctoritate diuin a nihil aliud quam ipsum Deum. Haec
+            <lb ed="#V" n="84"/>est ratio eius contra Iulianum libro quarto c. 11. Moueris
+            <lb ed="#V" n="85"/>itaque non officijs, sed finibus, a vicijs discernendas esse
+            <lb ed="#V" n="86"/>virtutes. Officium autem est quod faciendum est. Cum
+            <lb ed="#V" n="87"/>itaque aliquid facit homo vbi peccare non videtur, si non
+            <lb ed="#V" n="88"/>propter hoc facit propter quod facere debet peccare
+            con<lb ed="#V" n="89" break="no"/>uincitur. Et consequenter ostendens quis debet esse finis
+            <lb ed="#V" n="90"/>actuum nostrorum. Absit (inquit) vt verae virtutes
+            alicui<lb ed="#V" n="91" break="no"/>seruiant nisi illi cui dicitur. Domine Deus virtutum
+            con<lb ed="#V" n="92" break="no"/>uerte nos. Proinde virtutes quae in carnalibus
+            delectatio<lb ed="#V" n="93" break="no"/>nibus vel quibuscunque commodis &amp; emolumentis
+            tempe<lb ed="#V" n="94" break="no"/>ralibus seruiunt, verae prorsus esse non possunt. Quae
+            au<lb ed="#V" n="95" break="no"/>tem nulli rei seruire volunt, nec ipsae verae sunt. Verae quid
+            <lb ed="#V" n="96"/>pe virtutes Deo seruiunt in angelis. a quo donantur
+            homi<lb ed="#V" n="97" break="no"/>nibus &amp; angelis. Quicquid autem boni fit ab homine, &amp;
+            <lb ed="#V" n="98"/>non propter hoc fit propter quod fieri debere vera
+            sapien<lb ed="#V" n="99" break="no"/>tia praecipit, &amp; si officio videatur bonum, ipso non recto
+            <lb ed="#V" n="100"/>fine peccatum est. Ex his patet quod quicquid homo agat
+            <lb ed="#V" n="101"/>vltimate propter aliud quam propter deum, peccatum
+            <lb ed="#V" n="102"/>est, ac per hoc actus eius culpabilis est Octauo, quia Augsins
+            <lb ed="#V" n="103"/>19. de ciuitate dei cap. 25. sic dicit. Virtutes quas mens
+            <lb ed="#V" n="104"/>sibi habere videtur propter quas imperat corpori &amp; vicijs
+            <lb ed="#V" n="105"/>si ad quolibet concupiscendum vel tenendum retulerit
+            <lb ed="#V" n="106"/>nisi ad deum, etiam ipsae vicia sunt potius quam virtutes
+            <lb ed="#V" n="107"/>nam licet tunc verae honestaeque putentur quibusdam,
+            <lb ed="#V" n="108"/>cum referuntur ad seipsas, nec propter aliud expetuntur,
+            <lb ed="#V" n="109"/>setiam tunc inflatae atque superbae sunt, &amp; ideo non virtutes
+            <lb ed="#V" n="110"/>sed vicia iudicanda sunt. Cum igitur infidelis acus
+            quan<lb ed="#V" n="111" break="no"/>tuncunque videantur boni non sint relati in deum quem
+            <lb ed="#V" n="112"/>ignorat, sequitur tales actus quantuncunque videantur
+            bo<lb ed="#V" n="113" break="no"/>ni sint peccata.
+          </p>
+          <p xml:id="capsco-b2iadf-d1e641">
+            Nono. Quia Augustinus contra Iulianum lib. 34. c.
+            <lb ed="#V" n="114"/>15. respondens argumento Iuliani probantis gentiles
+            ha<lb ed="#V" n="115" break="no"/>buisse veras virtutes pro eo quod secundum verbum
+            apo<lb ed="#V" n="116" break="no"/>sto li naturaliter ea quae legis sunt faciunt, inter caetera
+            re<lb ed="#V" n="117" break="no"/>spondet. Esto quod verbum Apostoli acciperetur tanquam
+            <lb ed="#V" n="118"/>dictum de gentilibus non credentibus non tamen ex eo
+            <lb ed="#V" n="119"/>conuincitur quod habuerint veras virtutes, quoniam
+            fa<lb ed="#V" n="120" break="no"/>ciendo ea quae legis sunt peccabant, eo quod non propter
+            <lb ed="#V" n="121"/>debitum finem faciebant. Vnde ait. Hoc tamen peccantes
+            <lb ed="#V" n="122"/>quod homines sine fide non ad eum finem opera ista
+            retu<lb ed="#V" n="123" break="no"/>lerunt, ad quem referre debnerunt. Et nullo interposito
+            <lb ed="#V" n="124"/>addit. Minus enim Fabritius quem Catilina punietur, non
+            <lb ed="#V" n="125"/>quia iste bonus, sed quia ille magis malus, &amp; minus
+            im<lb ed="#V" n="126" break="no"/>pius quam Catilina Fabritius, non veras virtutes
+            haben<lb ed="#V" n="127" break="no"/>do, sed a veris virtutibus non plurimum deuiando.
+            Fabri<lb ed="#V" n="128" break="no"/>tium hic ponit pro his qui opera legis faciebant, Catilinam
+            <lb ed="#V" n="129"/>vero pro his qui agebant contraria legi. Et patet clare
+            pro<lb ed="#V" n="130" break="no"/>positum quod actus facti sine circunstantia debitifinis non
+            <lb ed="#V" n="131"/>sunt dicendi virtuosi, sed peccata &amp; mali, licet sint minus
+            <lb ed="#V" n="132"/>mali.
+          </p>
+          <p xml:id="capsco-b2iadf-d1e685">
+            Vnde Fabritium &amp; Catilinam dicit malos &amp;
+            punien<lb ed="#V" n="133" break="no"/>dos, &amp; Fabritium negat bonum, sed eum dicit minus
+            <lb ed="#V" n="134"/>malum. alium autem magis malum, neutrunque habuisse
+            <lb ed="#V" n="135"/>veras virtutes, sed alterum minus a veris virtutibus
+            deuias<lb ed="#V" n="136" break="no"/>se. Decimo, quia ad hoc quod actus sit malus moraliter
+            <lb ed="#V" n="137"/>sufficit carentia circunstantiae debiti finis, nec requiritur
+            <lb ed="#V" n="138"/>positio finis oppositi, quia quacunque circunstantia
+            debi<lb ed="#V" n="139" break="no"/>ta actus careat ipse est malus. Auguus enim in praemissis
+            ad<lb ed="#V" n="140" break="no"/>malitiam actus inferendam pro antecedente &amp; causa
+            as<lb ed="#V" n="141" break="no"/>sumit solam negationem seu carentiam debiti finis. Quae
+            <lb ed="#V" n="142"/>probatio nulla esset, nisi talis negatio sufficeret ad hoc &amp;o
+            <lb ed="#V" n="143"/>actus sit malus. Insuper tamen hoc probatur euidenti
+            ra<lb ed="#V" n="144" break="no"/>tione. Nam si detur oppositum sequitur quod quicunque
+            <lb ed="#V" n="145"/>agit aliquod bonum ex genere, vel officio. 1 aliquid quod
+            <lb ed="#V" n="146"/>est agendum, &amp; hoc agat propter bonum nomen
+            seu<lb ed="#V" n="147" break="no"/>famam habendam in proposito, vel propter honorem, aut
+            <lb ed="#V" n="148"/>diuitias vltimate figendo ingressum suae intentionis, nec
+            <lb ed="#V" n="149"/>vlterius referendo illam in alium finem actu nec habitu,
+            <lb ed="#V" n="150"/>virtuose agat, &amp; non male nec culpabiliter. Sed hoc
+            est<pb ed="#V" n="565"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>certissime oppositum communi doctrinae sanctorum, vt
+            cla<lb ed="#V" n="2" break="no"/>rum est, &amp; non solum doctrinae eorum immo etiam
+            philo<lb ed="#V" n="3" break="no"/>sophorum. Vnde Aristoteles 3. Ethi. c. 10. expraesse determinat
+            <lb ed="#V" n="4"/>quod ciues qui propter honoris adeptionem, vel fugam
+            <lb ed="#V" n="5"/>opprobrij substinent pericula in defensione ciuiatis non sunt
+            <lb ed="#V" n="6"/>vere fortes, quamuis magis assimilentur, quam hi qui
+            pro<lb ed="#V" n="7" break="no"/>pter alios fines minus bonos similiter agunt, quorum
+            ge<lb ed="#V" n="8" break="no"/>nera plura distinguit ibidem.
+          </p>
+          <p xml:id="capsco-b2iadf-d1e747">
+            Item quarto. Ethic. 2. dicit
+            <lb ed="#V" n="9"/>quod liberalis non honorat. 1. non amat diuitias propter
+            <lb ed="#V" n="10"/>ipsas diuitias, sed gratia dationis &amp; Paulo autem dicit quod
+            <lb ed="#V" n="11"/>ipse dabit, vti bonum. Super quo ait Eustratius quod que
+            <lb ed="#V" n="12"/>gratia honoris vel gloriae vel venatione maioris
+            lucri<lb ed="#V" n="13" break="no"/>dat non est liberalis. Sed consequentia est euidens. Nam
+            <lb ed="#V" n="14"/>nullum talium est oppositum fini vltimo, nec bono fini,
+            <lb ed="#V" n="15"/>quinimmo quodlibet est quoddam bonum quod potest
+            <lb ed="#V" n="16"/>rationabiliter appeti esse finis sub fine illo debito, &amp; vero
+            <lb ed="#V" n="17"/>vt certum est. Vnde ad agendum pro bona fama licet non
+            <lb ed="#V" n="18"/>vltimate, scriptura monet dicens. Eccle. 4. 1. Curam habe
+            <lb ed="#V" n="19"/>de bono nomine. Immo secundum Augustinum in
+            episto<lb ed="#V" n="20" break="no"/>la ad albiam. Praelatus propter eos quibus in exemplum
+            <lb ed="#V" n="21"/>esse debet, etiam corporali vitae famam praeponere debet
+            <lb ed="#V" n="22"/>Honores etiam possunt rationabiliter appeti a maioribus
+            <lb ed="#V" n="23"/>quibus oportet alios esse subiectos &amp; secundum Aristeles
+            ma<lb ed="#V" n="24" break="no"/>gnanimus in magnis &amp; studiosis honoribus moderate
+            de<lb ed="#V" n="25" break="no"/>lectatur, &amp; dicit quod honor est maximum exteriorum
+            <lb ed="#V" n="26"/>bonorum. Quia etiam diuitiae non sint malae sed bonae idem
+            <lb ed="#V" n="27"/>ponit quarto Eth. c. 1. &amp; circa ipsas ponit esse virtutem
+            libe<lb ed="#V" n="28" break="no"/>ralitatis. Secundum theologiam etiam non habet dubium.
+            <lb ed="#V" n="29"/>Alias nullus posset eas licite possidere, quod est erroneum
+            <lb ed="#V" n="30"/>&amp; damnatum. Forte dicetur quod tales male agunt quia
+            <lb ed="#V" n="31"/>agunt propter malum finem scilicet propter inanem
+            glo<lb ed="#V" n="32" break="no"/>riam vel ambitionem aut auaritiam, quae omnino sunt
+            <lb ed="#V" n="33"/>mala. Sed hoc non valet, quia licet is qui ex actu suo
+            vlti<lb ed="#V" n="34" break="no"/>mate quaerit famam peccat peccato quod dicitur inanis
+            <lb ed="#V" n="35"/>gloriae, non tamen illud finaliter intendit, sed famam
+            ip<lb ed="#V" n="36" break="no"/>sam, quae non est inanis gloria, sic loquendo de inani
+            glo<lb ed="#V" n="37" break="no"/>ria, quae est peccatum. Et magis proprie diceretur amor
+            <lb ed="#V" n="38"/>inanis gloriae seu vanae, propter seipsam, si est obiectum
+            <lb ed="#V" n="39"/>eius, licet in alio sensu posset dici inanis gloria, quia scilicet
+            <lb ed="#V" n="40"/>est instabilis &amp; transitoria. Qui etiam quaerit honorem, non
+            <lb ed="#V" n="41"/>habet pro fine ambitionem, sed potius talis appetitus est
+            <lb ed="#V" n="42"/>ambitio, nec quia quaerit diuitias habet pro fine auaritiam,
+            <lb ed="#V" n="43"/>sed eius quaestus vel desiderium vtique auaritia est.
+          </p>
+          <p xml:id="capsco-b2iadf-d1e825">
+            Vnde
+            <lb ed="#V" n="44"/>in nullo casu praedictorum potest assignari circunstatia
+            <lb ed="#V" n="45"/>alicuius mali finis ad sensum huius rationis loquendo
+            <lb ed="#V" n="46"/>de malo fine scilicet qui est oppositus vltimo fini nec
+            pos<lb ed="#V" n="47" break="no"/>sibilis rationabiliter quaeri propter illum, ita vt sit finis
+            sub<lb ed="#V" n="48" break="no"/>vero fine. Potest tamen dici quod ibi est circunstantia
+            ma<lb ed="#V" n="49" break="no"/>li finis ad hunc sensum, quod illud propter se finaliter
+            quae<lb ed="#V" n="50" break="no"/>ritur, quod deberet non peper se. sed propter aliud quaeri,
+            <lb ed="#V" n="51"/>&amp; ideo praecise dicitur malus, quia non in alium sicut
+            de<lb ed="#V" n="52" break="no"/>bet ordinatur. Vnde hoc solo posito quod ordinaretur
+            <lb ed="#V" n="53"/>in Deum, &amp; propter illum quaereretur, ille actus non
+            es<lb ed="#V" n="54" break="no"/>set malus, nec diceretur habere malum finem. Sed hoc
+            con<lb ed="#V" n="55" break="no"/>firmat propositum, quia secundum hoc omnis actus non
+            <lb ed="#V" n="56"/>relatus vltimate in debitum finem quencunque finem
+            ha<lb ed="#V" n="57" break="no"/>beat, erit cum circunstantia mali finis, ac per hoc malus, &amp;
+            <lb ed="#V" n="58"/>non virtuosus Vigesimumprimum. Nullus actus factus
+            <lb ed="#V" n="59"/>cum intentione viciosa est moraliter bonus, immo omnis
+            ta<lb ed="#V" n="60" break="no"/>lis est moraliter malus &amp; viciosus, sed quolibet actus
+            homi<lb ed="#V" n="61" break="no"/>nis infidelis est huiusmodi igitur &amp;c. Maior nota est.
+            Mi<lb ed="#V" n="62" break="no"/>nor probatur extribus fundamentis quorum primum est
+            <lb ed="#V" n="63"/>quod illa sola est recta intentio seu bona moraliter quae
+            <lb ed="#V" n="64"/>propter se diligitur, quod propter se diligendum est
+            seu<lb ed="#V" n="65" break="no"/>volendum. Vtamur enim large dilectione prout omnis
+            vo<lb ed="#V" n="66" break="no"/>litio dicitur dilectio. Quaelibet autem qua diligitur quod
+            <lb ed="#V" n="67"/>diligendum non est, vel propter se diligitur quod non
+            <lb ed="#V" n="68"/>est propter se diligendum, est mala, probatur hoc
+            fun<lb ed="#V" n="69" break="no"/>damentum, quia quaelibet talis est deformis &amp;
+            de<lb ed="#V" n="70" break="no"/>uians a recta ratione. Nam recta ratio quod non est
+            <lb ed="#V" n="71"/>diligendum dicit non esse diligendum, &amp; quod est
+            di<lb ed="#V" n="72" break="no"/>ligendum non propter se, sed propter aliud dicit non
+            <lb ed="#V" n="73"/>esse diligendum propter se, sed propter aliud, alias
+            ip<lb ed="#V" n="74" break="no"/>sa non esset recta sed errans. Cum ergo omni intentione
+            <lb ed="#V" n="75"/>aliquid propter se diligatur vt patet ex descriptione
+            inten<cb ed="#V" n="b"/><lb ed="#V" n="76" break="no"/>tionis, omnis intentio qua diligitur aliquid non propter
+            <lb ed="#V" n="77"/>se diligendum est discordans a ratione recta, ac per hoc
+            <lb ed="#V" n="78"/>mala &amp; viciosa: secundum fundamentum est quod omnis
+            <lb ed="#V" n="79"/>intentio operantis qua aliquid aliud a Deo intenditur. 1.
+            <lb ed="#V" n="80"/>propter se non propter aliud diligitur est mala &amp;
+            vicio<lb ed="#V" n="81" break="no"/>sa. Probatur sic. Omne diligibile aliud a Deo est non
+            pro<lb ed="#V" n="82" break="no"/>pter se diligendum, igitur omnis intentio operantis qua
+            <lb ed="#V" n="83"/>aliquid aliud a Deo intenditur est mala, consequentia
+            pa<lb ed="#V" n="84" break="no"/>tet, quia si omne aliud a Deo est non propter se
+            diligen<lb ed="#V" n="85" break="no"/>dum, siue ipsum sit diligendum siue non sit diligendum
+            <lb ed="#V" n="86"/>qualia sunt multa diligibilia, non enim omne diligibilc
+            <lb ed="#V" n="87"/>est diligendum omni intentione qua aliquid aliud a Deo
+            <lb ed="#V" n="88"/>intenditur, diligitur propter se aliquid non propter se
+            dili<lb ed="#V" n="89" break="no"/>gendum, igitur omnis talis intentio est mala. Et patet haec
+            <lb ed="#V" n="90"/>consequentia ex primo sundamento. Antecedens
+            proba<lb ed="#V" n="91" break="no"/>tur sic, nullum diligibile aliud a Deo est summe
+            diligen<lb ed="#V" n="92" break="no"/>dum, igitur omne diligibile aliud a Deo est non propter
+            <lb ed="#V" n="93"/>se diligendum. Antecedens patet, quia quolibet alio
+            diligi<lb ed="#V" n="94" break="no"/>bili Deus est amplius diligendus secundum omnem
+            do<lb ed="#V" n="95" break="no"/>ctrinam sanctorum &amp; catholicorum. Sed consequentiam
+            <lb ed="#V" n="96"/>probo. Si enim aliquod diligibile aliud a Deo est propter
+            <lb ed="#V" n="97"/>se diligendum, igitur aliquid quod non est summe
+            diligen<lb ed="#V" n="98" break="no"/>dum, rationabiliter poterit diligi propter se. Quia si
+            ve<lb ed="#V" n="99" break="no"/>rum sit hoc, verum est de his diligibilibus quae sunt
+            secun<lb ed="#V" n="100" break="no"/>dum se bona &amp; diligibilia, &amp; ideo praecisce quia ipsa sunt
+            <lb ed="#V" n="101"/>talia, igitur &amp; quodlibet talium potest homo
+            rationabili<lb ed="#V" n="102" break="no"/>ter diligere propter se, igitur &amp; aliquid aliud a Deo
+            po<lb ed="#V" n="103" break="no"/>test homo rationabiliter diligere propter illud vltimate.
+          </p>
+          <p xml:id="capsco-b2iadf-d1e959">
+            <lb ed="#V" n="104"/>Ex quo sequitur quod homo poterit rationabiliter agere
+            <lb ed="#V" n="105"/>aliquid vel facere propter famam vel honorem vel
+            diui<lb ed="#V" n="106" break="no"/>tias vltimate, nec peccabit sic agendo &amp; volendo. Hoc
+            <lb ed="#V" n="107"/>autem constat esse tam contra doctrinam theologicam
+            <lb ed="#V" n="108"/>quam etiam philosophicam vt supra dictum est. Dices
+            <lb ed="#V" n="109"/>forte quod vtique aliquod eorum quae sunt secundum se
+            <lb ed="#V" n="110"/>bona &amp; diligenda potest rationabiliter diligi propter se,
+            <lb ed="#V" n="111"/>&amp; aliquid aliud propter ipsum vltimate, sed non
+            quodli<lb ed="#V" n="112" break="no"/>bet talium potest sic rationabiliter diligi, sed illud tantum
+            <lb ed="#V" n="113"/>quod est ex eis praestantius, &amp; caeteris magis diligendum.
+            <lb ed="#V" n="114"/>Verbi gratia actus virtuosus, seu operatio virtuosus. Et sic
+            <lb ed="#V" n="115"/>concederent morales philosophi. Contra primo. Si
+            reli<lb ed="#V" n="116" break="no"/>qua talium non possunt sic rationabiliter diligi propter se
+            <lb ed="#V" n="117"/>sed solum illud quod est melius &amp; magis diligendum hoc
+            <lb ed="#V" n="118"/>ideo praecise est vt videtur quia ipsa sunt minus
+            diligen<lb ed="#V" n="119" break="no"/>da, quam illud. Nam si eque essent diligenda, non magis
+            <lb ed="#V" n="120"/>essent diligenda propter illud quam econtra. Igitur cum
+            quodli<lb ed="#V" n="121" break="no"/>bet diligendum, non tamen summe minus sit diligendum
+            <lb ed="#V" n="122"/>eo quod summe diligendum est sequitur quod nullum
+            <lb ed="#V" n="123"/>non summe diligendum possit rationabiliter diligi
+            pro<lb ed="#V" n="124" break="no"/>pter se.
+          </p>
+          <p xml:id="capsco-b2iadf-d1e1007">
+            Confirmatur quia si aliquod diligendum non
+            ob<lb ed="#V" n="125" break="no"/>stante quod aliquo alia sit minus diligendum, potest
+            ratio<lb ed="#V" n="126" break="no"/>nabiliter diligi propter se, non apparet quin aliquod aliud
+            <lb ed="#V" n="127"/>diligendum quamuis minus sit diligendum quam illiud
+            <lb ed="#V" n="128"/>rationabiliter possit diligi propter se. Verbi gratia, si non
+            <lb ed="#V" n="129"/>obstante quod bs diligendum sit minus diligendum quam
+            <lb ed="#V" n="130"/>a. ipsum potest rationabiliter diligi propter se, &amp; ita dic e
+            <lb ed="#V" n="131"/>dum erit de d. &amp; vniuersaliter de quolibet diligendo. Et
+            <lb ed="#V" n="132"/>ideo si quis concedat operationem virtuosam aut aliud
+            <lb ed="#V" n="133"/>quodcunque non summe diligendum posse rationabiliter
+            <lb ed="#V" n="134"/>diligi propter se, nanquam poterit rationabiliter negare quod
+            <lb ed="#V" n="135"/>bona fama &amp; honor possint rationabiliter diligi propter
+            <lb ed="#V" n="136"/>se, quamuis non possint rationabiliter diligi aeque cum
+            <lb ed="#V" n="137"/>operatione virtuosa. Sicut licet operatio virtuosa non
+            <lb ed="#V" n="138"/>possit irrationabiliter aeque diligi ipsi summe diligendo
+            <lb ed="#V" n="139"/>conceditur tamen a sic dicente quod ipsa potest
+            rationabi<lb ed="#V" n="140" break="no"/>liter diligi propter se.
+          </p>
+          <p xml:id="capsco-b2iadf-d1e1044">
+            Confirmatur quia constat quod non
+            <lb ed="#V" n="141"/>omnes operationes virtuose sunt aeque diligende, sicut nec
+            <lb ed="#V" n="142"/>aeque perfecte, sed aliqua inter ipsas est secundum speciem
+            <lb ed="#V" n="143"/>suam perfectior, igitur beatifica. Vel ergo aliae possunt
+            ra<lb ed="#V" n="144" break="no"/>tionabiliter diligi propter se non obstante quod sint
+            mi<lb ed="#V" n="145" break="no"/>nus diligendae, &amp; tunc pari ratione alia diligenda quae sunt
+            <lb ed="#V" n="146"/>minus bona, &amp; minus diligenda operationibus virtuosis
+            <lb ed="#V" n="147"/>etiam hoc non obstante poterunt rationabiliter diligi
+            <lb ed="#V" n="148"/>propter se. Vel ipsae non possunt rationabiliter diligi
+            pro<lb ed="#V" n="149" break="no"/>pter se, sed propter beatificam tantum, &amp; hoc quia sunt
+            <lb ed="#V" n="150"/>minus diligendae, &amp; tunc eadem ratione necbeatifica
+            po<pb ed="#V" n="566"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>terit propter se rationabiliter diligi, cum ipsa sit minus
+            <lb ed="#V" n="2"/>diligenda eo quod summe diligendum est scilicet ipso Deo
+            <lb ed="#V" n="3"/>Vnde apparet quod vt aliquod diligendum non possit
+            ra<lb ed="#V" n="4" break="no"/>tionabiliter diligi propter se naturalis causa videtur posse
+            <lb ed="#V" n="5"/>reddit praeter hanc qui non est summe diligendum, igitur
+            <lb ed="#V" n="6"/>nullum non summe diligendum potest rationabiliter diligi
+            pro<lb ed="#V" n="7" break="no"/>pter se, secundo quia contra hoc tendit directe auctoritas
+            <lb ed="#V" n="8"/>Augustinus 19. de ciuitate Dei c 25. dicentis Licet a quibusdam
+            <lb ed="#V" n="9"/>tunc vere atque honeste &amp;c. vt supra in octauo arg.
+            allega<lb ed="#V" n="10" break="no"/>tuim est. Quis autem dubitet quod si habitus vel actus qui
+            vir<lb ed="#V" n="11" break="no"/>tuosi putantur sunt vere viciosi, si non referuntur in aliud
+            <lb ed="#V" n="12"/>viciosum etiam sit tales actus propter se diligere non in aliud
+            <lb ed="#V" n="13"/>referendo.
+          </p>
+          <p xml:id="capsco-b2iadf-d1e1099">
+            Secundo pro illo secundo fundamento arguitur
+            <lb ed="#V" n="14"/>sic, Omne diligendum aliud a deo est diligendum finaliter propter
+            <lb ed="#V" n="15"/>Deum, igitur omnis intentio qua aliquod diligibile aliud a deo
+            <lb ed="#V" n="16"/>diligitur ppoe se est viciosa. Antecedens probatur quia
+            quili<lb ed="#V" n="17" break="no"/>bet homo &amp; quaelibet creatura rationalis debet vt ipsa sit recte
+            <lb ed="#V" n="18"/>ordinata &amp; perfecte disposita omnes actus suos ad vnum finem
+            <lb ed="#V" n="19"/>vltimate ordinare, quem constat non posse esse alium quam
+            il<lb ed="#V" n="20" break="no"/>lud quod est optimum &amp; summe diligendum. Illud autem non est
+            <lb ed="#V" n="21"/>nisi Deus. Hoc etiam patet per Augustinum in de moribus ecclesiae c.
+            <lb ed="#V" n="22"/>5. ex praecedentibus concludentem. Non arbitror cum de
+            mo<lb ed="#V" n="23" break="no"/>ribus &amp; vita sit quaestio &amp;c. vt supra, septimo arg. allegatum
+            <lb ed="#V" n="24"/>est. In primo etiam de doctrina Christiana c. 27. &amp; 83.
+            quaestio<lb ed="#V" n="25" break="no"/>num q. 30. vult quod ceteris a Deo vtendum est in Deum, consequem
+            <lb ed="#V" n="26"/>tia patet, quia omni intentione qua aliud a Deo diligitur
+            <lb ed="#V" n="27"/>propter se, vel diligitur aliquid quod non est diligendum, &amp;
+            <lb ed="#V" n="28"/>sic non est dubium ipsam esse viciosam. Vel diligitur
+            ali<lb ed="#V" n="29" break="no"/>quid quod diligendum est propter aliud, &amp; tamen non diligitur
+            pro<lb ed="#V" n="30" break="no"/>pter illud, ac per hoc caret aliqua circunstantia debiti
+            fi<lb ed="#V" n="31" break="no"/>nis.
+          </p>
+          <p xml:id="capsco-b2iadf-d1e1142">
+            Ex quo etiam concluditur ipsa esse viciosa. Tertio pro
+            il<lb ed="#V" n="32" break="no"/>lo sundamento secundo arguitur auctoritate Augustinus 9. de
+            tri<lb ed="#V" n="33" break="no"/>nitate ca. 8. d. Non quod non sit amanda creatura, sed si ad
+            <lb ed="#V" n="34"/>creatorem refertur ille amor non iam cupiditas, sed
+            chari<lb ed="#V" n="35" break="no"/>tas est. Tunc enim est cupiditas cum propter se amatur
+            creatu<lb ed="#V" n="36" break="no"/>ra, tunc non vtentem adiuuat, sed fruentem corrumpit. Non est
+            <lb ed="#V" n="37"/>dubium autem quod talis cupiditas fruentem corrumpens est
+            vi<lb ed="#V" n="38" break="no"/>ciosa. Quia vero propter se hic accipiat non proter aliud
+            <lb ed="#V" n="39"/>patet per illud quod dicit Sed si ad creatorem referatur &amp;c.
+            <lb ed="#V" n="40"/>Et sic probatum est secundum fundamentum scilicet quod omnis
+            inten<lb ed="#V" n="41" break="no"/>tio operantis qua alquid aliud a Deo intenditur. id est propter
+            <lb ed="#V" n="42"/>aliud diligitur est mala &amp; viciosa. Tertium fundamentum est
+            <lb ed="#V" n="43"/>quod nulla est cuiucunsque operantis recta intentio nisi Dei
+            <lb ed="#V" n="44"/>propter se dilectio. Hoc iam patet ex dictis. Nam omnis
+            in<lb ed="#V" n="45" break="no"/>tentio est dilectio alicuius propter se, &amp; si sit alicuius quod
+            <lb ed="#V" n="46"/>non sit Deus, ipsa est viciosa. vt patet ex secundo
+            sundamen<lb ed="#V" n="47" break="no"/>to, igitur si non est viciosa, sed recta ipsa est dilectio Dei
+            peropor<lb ed="#V" n="48" break="no"/>se Ex quibus patet minor huius. 11. argu quia cum infidelis
+            <lb ed="#V" n="49"/>non diligat verum, Deum propter se, &amp; omnia propter ipsum,
+            <lb ed="#V" n="50"/>ipse non hebtm recta intentionem ac per hoc nihil agit cum
+            re<lb ed="#V" n="51" break="no"/>cta intentione, sed omnia cum peruersa &amp; viciosa intentione.
+            <lb ed="#V" n="52"/>Vigessimosecundo, arguit sic in eadem virtute. Quia nunquam
+            <lb ed="#V" n="53"/>fit aliquid ab homine virtuoso seu bene moraliter nisi fiat ex
+            <lb ed="#V" n="54"/>dilectione Dei actuali vel habituali infusa vel acquisita,
+            <lb ed="#V" n="55"/>licet infidelis nihil facit ex tali dilectione, igitur &amp;c.
+            Ante<lb ed="#V" n="56" break="no"/>cedens probatur, quia nihil quod aliter sit, sit cum recta
+            in<lb ed="#V" n="57" break="no"/>tentione, igitur &amp;c. Assumptum patet, quia vt patet ex
+            prae<lb ed="#V" n="58" break="no"/>dictis nulla est recta intentio nisi Dei propter se dilectio.
+          </p>
+          <p xml:id="capsco-b2iadf-d1e1203">
+            <lb ed="#V" n="59"/>Confirmatur assumptum principale per Augutinus super psal.
+            <lb ed="#V" n="60"/>67. d. Ea quippe sola bona opera dicenda sunt, quae fiunt
+            <lb ed="#V" n="61"/>per dilectionem Dei. Et inde spiritu &amp; litera dicit. Non
+            <lb ed="#V" n="62"/>est fructus bonus qui de charitatis radice non surgit, quid
+            <lb ed="#V" n="63"/>autem est charitas nisi dilectio Dei propter se vel proximi
+            <lb ed="#V" n="64"/>propter Deum, quae vtique ex charitate procedit.
+            Vigesi<lb ed="#V" n="65" break="no"/>motertio in eadem virtute arguit sic. Nullus actus
+            huma<lb ed="#V" n="66" break="no"/>nus est moraliter bonus nisi immediate tendat in Deum
+            <lb ed="#V" n="67"/>vel aliud propter Deum vltimate actu vel habitu.
+            Con<lb ed="#V" n="68" break="no"/>stat autem quod nullus actus infidelium est huiusmodi, igitur
+            <lb ed="#V" n="69"/>&amp;c. Assumptum principale probatur, quia nullus alius est
+            <lb ed="#V" n="70"/>recta intentio, nec recta intentione factus, vt patet
+            exprae<lb ed="#V" n="71" break="no"/>dictis. Quod confirmatur auctoritate Augustini quae est in
+            <lb ed="#V" n="72"/>libro de nuptijs &amp; concupiscentia vbi scribit, &amp; li. 4. contra
+            <lb ed="#V" n="73"/>Iulianum cap. 7. recolit Pudicum non veraciter dici, qui non
+            <lb ed="#V" n="74"/>propter Deumveram fidem conubij seruat vxori. Qui etiam
+            <lb ed="#V" n="75"/>vt ex prataliegatis patet expresse dicit veras virtutes
+            nul<cb ed="#V" n="b"/><lb ed="#V" n="76" break="no"/>las esse, si non in Deum finaliter referantur. Quinimmo
+            <lb ed="#V" n="77"/>ad quicquid aliud siue non ad aliud quam ad seipsas
+            fina<lb ed="#V" n="78" break="no"/>liter referantur vicia esse Item de moribus ecclesiae cum
+            con<lb ed="#V" n="79" break="no"/>clusisset Deum esse in quem omnia referenda sunt, vt
+            su<lb ed="#V" n="80" break="no"/>pra allegatum est, sequenti c. diffiniens ipsas virtutes
+            mora<lb ed="#V" n="81" break="no"/>les ait. Temperantiam dicamus esse amorem se se Deo
+            in<lb ed="#V" n="82" break="no"/>tegrum in corruptumque seruantem. Fortitudinem
+            amo<lb ed="#V" n="83" break="no"/>rem esse omnia propter Deum facile perserentem. Iustitiam
+            <lb ed="#V" n="84"/>amorem tantum Deo seruientem, &amp; ob hoc bene ceteris
+            <lb ed="#V" n="85"/>quae homini subiecta sunt imperantem. Prudentiam
+            amo<lb ed="#V" n="86" break="no"/>rem bene discernentem ea quibus adiuuetur in Deum ab
+            <lb ed="#V" n="87"/>hisquibus impediri potest. Ex quibus clare patet nullam
+            <lb ed="#V" n="88"/>esse virtutem, cuius actus non fiant finaliter propter Deum
+            <lb ed="#V" n="89"/>vltimate secundum sententiam Augustns ac per hoc nec
+            ali<lb ed="#V" n="90" break="no"/>quem actum non propter Deum vlti mate factum esse
+            vir<lb ed="#V" n="91" break="no"/>tuosum. Haec Gregorius. Et in hoc secundus articulus terminatur
+          </p>
+        </div>
+        <div xml:id="capsco-b2iadf-Dd1e1279">
+          <head xml:id="capsco-b2iadf-Hd1e1281">Articulus 3</head>
+          <p xml:id="capsco-b2iadf-d1e1283">
+            <lb ed="#V" n="92"/><milestone ed="#V" unit="p" rend="initial"/> Vantum ad tertium articulum respondendum est
+            <lb ed="#V" n="93"/>obiectionibus praelibatis quaedam praeambula
+            prae<lb ed="#V" n="94" break="no"/>mitendo, quia enim omnia argumenta praedicta
+            <lb ed="#V" n="95"/>fundantur in hoc quod ad bonitatem moralem
+            cuiuscun<lb ed="#V" n="96" break="no"/>que actus requiritur relatio eius in Deum actualis aut
+            ha<lb ed="#V" n="97" break="no"/>bitualis.
+          </p>
+          <p xml:id="capsco-b2iadf-d1e1300">
+            Sciendum est quod Thomas super hoc puncto,
+            se<lb ed="#V" n="98" break="no"/>cundo sen. praesent. dist. q. 1. arti. 2. sic arguit quare eo loco
+            <lb ed="#V" n="99"/>Illud proprie dicitur malum quod caret aliqua
+            perfectio<lb ed="#V" n="100" break="no"/>ne quam natum est &amp; debet habere, sed omnis actus
+            huma<lb ed="#V" n="101" break="no"/>nus in vltimum finem beatitudinis natus est referri. Cum
+            <lb ed="#V" n="102"/>ergo actus in fidelium in vltimum finem non referatur in
+            <lb ed="#V" n="103"/>quem fides dirigit, videtur quod omnis actus infidelium sit
+            ma<lb ed="#V" n="104" break="no"/>lus. Ecce argumentum. Sequitur responsio. Ad quartum
+            <lb ed="#V" n="105"/>inquit dicendum quod non obligamur ad hoc quod quilibet
+            <lb ed="#V" n="106"/>actus actu dirigatur in finem illum in quem non potest
+            <lb ed="#V" n="107"/>nisi fides dirigere, quia praecepta affirmatiua non obligant
+            <lb ed="#V" n="108"/>ad semper, quamuis semper obligent. Et ideo non
+            opor<lb ed="#V" n="109" break="no"/>tet quod actus infidelium qui in finem illum non est
+            ordi<lb ed="#V" n="110" break="no"/>natus, semper sit peccatum, sed solum pro tempore illo quo
+            <lb ed="#V" n="111"/>tenetur actum suum in finem vltimum referre. Haec ille.
+          </p>
+          <p xml:id="capsco-b2iadf-d1e1333">
+            <lb ed="#V" n="112"/>Item secundo loco arguit sic. Omnis actus bonus est
+            re<lb ed="#V" n="113" break="no"/>ctus, sed omnis actus rectus procedit ab intentione recta,
+            <lb ed="#V" n="114"/>cum ergo fides intentionem dirigat, videtur quod vbi non
+            <lb ed="#V" n="115"/>est fides actus bonus esse non possi. Ecce art. Sequitur
+            <lb ed="#V" n="116"/>responsio. Ad Secundum inquit dicendum quod fides
+            <lb ed="#V" n="117"/>dirigit in tentionem in finem vltimum sed ratio naturalis
+            <lb ed="#V" n="118"/>vel prudentia potest dirigere in aliquem finem proximum,
+            <lb ed="#V" n="119"/>&amp; quia ille finis proximus est ordinabilis in finem
+            vlti<lb ed="#V" n="120" break="no"/>mum, etiam si actu non ordinetur, ideo in infidelibus
+            quo<lb ed="#V" n="121" break="no"/>rum actus per vim rationis in talem finem diriguntur
+            pos<lb ed="#V" n="122" break="no"/>sunt aliqui actus esse boni, sed deficientes a perfecta
+            bo<lb ed="#V" n="123" break="no"/>nitate secundum quam actus est meritorius. Haec ille.
+          </p>
+          <p xml:id="capsco-b2iadf-d1e1362">
+            Ex
+            <lb ed="#V" n="124"/>quibus sequuntur sex. Primum est quod non est
+            necessa<lb ed="#V" n="125" break="no"/>rium ad hoc quod actus humanus sit moraliter bonus &amp;
+            <lb ed="#V" n="126"/>inculpabilis quod dum ille actus elicitur actualiter referatur
+            <lb ed="#V" n="127"/>in vltimum finem, sed sufficit quod referatur de primo in
+            ali<lb ed="#V" n="128" break="no"/>quem bonum finem, secundum est quod omnis actus humanus
+            <lb ed="#V" n="129"/>elicitus pro aliquo tempore quo elicitur tenetur diligere
+            <lb ed="#V" n="130"/>Deum super omnia, &amp; consequenter omnia in ipsum referre
+            vir<lb ed="#V" n="131" break="no"/>tualiter. Si pro tunc non referatur in Deum est peccatum
+            <lb ed="#V" n="132"/>&amp; culpa vel coniunctus culpae omissionis. Hoc autem tempus
+            <lb ed="#V" n="133"/>est illud quo tenetur se disponeret ad gratiam vel facere
+            ali<lb ed="#V" n="134" break="no"/>quod opus sibi praeceptum a diuina lege, tertium est quod ad
+            <lb ed="#V" n="135"/>bonitatem moralem actus humani ad quod homo lege
+            di<lb ed="#V" n="136" break="no"/>uina non obligatur sufficit relatio in aliquem bonum finem
+            <lb ed="#V" n="137"/>proximum, dum tamen tam actus quam finis eius proximus sint
+            <lb ed="#V" n="138"/>referibiles in vltimum finem, quartum est quod infidelis
+            po<lb ed="#V" n="139" break="no"/>test intendere bonum finem, licet non vltimum finem rectum
+            <lb ed="#V" n="140"/>in quem sola fides dirigit, quintum est quod quilibet tam
+            fi<lb ed="#V" n="141" break="no"/>delis quam infidelis tenetur intentione proxima vel remota
+            <lb ed="#V" n="142"/>referre omnes actus suos bonos in vltimum finem actu vel
+            vir<lb ed="#V" n="143" break="no"/>tute, modo quo dicendum est in praecedenti dist non
+            ta<lb ed="#V" n="144" break="no"/>men ita quod talis relatio debeat esse circunstantia cuiuslibet
+            <lb ed="#V" n="145"/>actus boni, sed quia talis relatio debet praecedere vel
+            con<lb ed="#V" n="146" break="no"/>comitari quenlibet actum bonum, sextum est quod quicunque vtens
+            <lb ed="#V" n="147"/>ratione eliciens actum bonum moraliter non relatum in
+            vl<lb ed="#V" n="148" break="no"/>timum finem in quem fides sola dirigit actu nec virtute
+            pec<lb ed="#V" n="149" break="no"/>cat actualiter vel prius peccauit, &amp; adhuc est in peccato.
+            <lb ed="#V" n="150"/>Non t amen sequitur quod actualiter peccet, cum elicitillum
+            <pb ed="#V" n="567"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>actum. His praes. propositis respondetur ad argumenta. Et
+            <lb ed="#V" n="2"/>ad primum quidem dicitur negando consequentiam, quia
+            <lb ed="#V" n="3"/>ad bonitatem moralem cuiuscunque actus non requiritur
+            <lb ed="#V" n="4"/>assistentia gratiae habitualis nec fidei, aut charitatis, licet
+            <lb ed="#V" n="5"/>requiratur. ad bonitatem actus vltimatam quae est
+            merito<lb ed="#V" n="6" break="no"/>ria. Dicta vero Auguius intelligenda sunt de operibus bonis
+            <lb ed="#V" n="7"/>bonitate vltimata.
+          </p>
+          <p xml:id="capsco-b2iadf-d1e1444">
+            Ad secundum dicitur quod in infidelibus possunt
+            <lb ed="#V" n="8"/>esse verae virtutes, non tamen complete nec perfectae nec
+            forma<lb ed="#V" n="9" break="no"/>tae. De hoc Sanctus Thomas prima secundae q. 65. art. 2. sic dicit.
+            Virtu<lb ed="#V" n="10" break="no"/>tes morales prout sunt operatiuae boni in ordine ad finem
+            <lb ed="#V" n="11"/>qui non excedat naturalem hominis facultatem possunt per
+            ope<lb ed="#V" n="12" break="no"/>ra humana acquiri, &amp; sic aquisitae sine charitate esse
+            pos<lb ed="#V" n="13" break="no"/>sunt, sicut fuerunt in multis gentibus. Secundum autem quod
+            <lb ed="#V" n="14"/>sunt operatiuae boni in ordine ad vltimum finem
+            spernatu<lb ed="#V" n="15" break="no"/>ralem sic perfecte &amp; vere habent rationem virtutis, &amp; non
+            pos<lb ed="#V" n="16" break="no"/>sunt humanis actibus acquiri, sed a deo infunduntur. Et
+            <lb ed="#V" n="17"/>huiusmodi virtutes morales sine charitate esse non possunt
+            <lb ed="#V" n="18"/>Dictum est enim quod aliae virtutes morales non possunt esse
+            si<lb ed="#V" n="19" break="no"/>ne prudentia. Prudentia autem non potest esse sine virtutibus
+            <lb ed="#V" n="20"/>moralibus inquantum virtutes morales faciunt bene se
+            ha<lb ed="#V" n="21" break="no"/>bere ad quosdam fines ex quibus procedit ratio prudentiae.
+            <lb ed="#V" n="22"/>Ad rectam autem rationem prudentiae multo magis
+            requi<lb ed="#V" n="23" break="no"/>ritur quod homo bene se habeat circa vltimum finem quod
+            <lb ed="#V" n="24"/>sit per charitatem quam circa alios fines quod fit per
+            virtu<lb ed="#V" n="25" break="no"/>tes morales sicut recta ratio in speculatiuis maxime indiget
+            <lb ed="#V" n="26"/>primo principio demonstrabili quod est contradictoria non
+            <lb ed="#V" n="27"/>simul esse vera. Vnde manifestum fit quod nec prudentia
+            infu<lb ed="#V" n="28" break="no"/>sa potest esse sine charitate nec aliae virtutes morales quae
+            <lb ed="#V" n="29"/>sine prudentia esse non possunt. Patet igitur ex dictis quod solae
+            <lb ed="#V" n="30"/>virtutes infusae sunt perfectae &amp; simpliciter dicendae vir tutes
+            <lb ed="#V" n="31"/>quia bene ordinant hominem ad vltimum finem simpliciter.
+            <lb ed="#V" n="32"/>Aliae vero virtutes scilicet acquisitae sunt virtutes secundum
+            <lb ed="#V" n="33"/>quid, non autem simpliciter. Ordinant enim hominem bene
+            <lb ed="#V" n="34"/>respectu vltimi finis in aliquo genere, non autem
+            respectu<lb ed="#V" n="35" break="no"/>vltimi finis simpliciter. Vnde Ro. 14. super illud. Qe quod
+            <lb ed="#V" n="36"/>non est ex fide peccatum est, dicit glosa Auguiu. Vbi deest
+            a<lb ed="#V" n="37" break="no"/>gnitio veritatis, falsa est virtus etiam in optimis moribus. Haec
+            <lb ed="#V" n="38"/>ille.
+          </p>
+          <p xml:id="capsco-b2iadf-d1e1514">
+            Item secunda secundae q. 23. ar. 7. sic dicit. Virtus
+            ordi<lb ed="#V" n="39" break="no"/>natur ad bonum, bonum autem principaliter est finis, nam ea
+            <lb ed="#V" n="40"/>quae sunt ad finem non dicuntur bona nisi in ordine ad n
+            <lb ed="#V" n="41"/>nem. Sicut autem est duplex finis vnus vltimus &amp; alius
+            pro<lb ed="#V" n="42" break="no"/>ximus, ita etiam est duplex bonum, vnum quidem vltimum
+            <lb ed="#V" n="43"/>&amp; vniuersale, &amp; aliud proximum &amp; particulare. Vltimum
+            <lb ed="#V" n="44"/>&amp; principale bonum hominis est Dei fruitio secundum illud
+            <lb ed="#V" n="45"/>Psal. Mihi autem adhaerere Deo bonum est, &amp; ad hoc
+            ordi<lb ed="#V" n="46" break="no"/>natur homo per charitatem, bonum autem secundarium &amp;
+            <lb ed="#V" n="47"/>quasi particulare hominis potest esse duplex. Vnum quidem
+            <lb ed="#V" n="48"/>quod est vere bonum, vt pote ordinabile quantum est in
+            <lb ed="#V" n="49"/>se ad principale bonum hominis quod est vltimus finis. Aliud
+            <lb ed="#V" n="50"/>autem est bonum apparens, &amp; non verum, quia abducit a
+            fina<lb ed="#V" n="51" break="no"/>li bono. Sic igitur patet quod virtus vera simpliciter est illa
+            <lb ed="#V" n="52"/>quae ordinat ad principale bonum hominis sicut etiam
+            <lb ed="#V" n="53"/>philosophus 7. phy. dicit quod virtus est dispositio perfecti ad
+            <lb ed="#V" n="54"/>optimum. Et sic nulla vera virtus potest esse sine
+            charita<lb ed="#V" n="55" break="no"/>te, sed. si accipiatur virtus secundum quod est in ordine ad
+            ali<lb ed="#V" n="56" break="no"/>quem finem particularem, sic potest aliqua vera virtus
+            di<lb ed="#V" n="57" break="no"/>ci sine charitate inquantum ordinatur ad aliquod
+            particu<lb ed="#V" n="58" break="no"/>lare bonum. Sed si illud particulare bonum non sit verum
+            <lb ed="#V" n="59"/>bonum, sed apparens, virtus etiam quae est in ordine ad hoc
+            bo<lb ed="#V" n="60" break="no"/>num non est vera virtus, sed falsa similitudo virtutis. Sicut
+            <lb ed="#V" n="61"/>non est vera virtus auarorum prudentia, qua excogiant
+            <lb ed="#V" n="62"/>diuersa genera loculorum, &amp; auarorum iustitia quae
+            gra<lb ed="#V" n="63" break="no"/>uium damnorum metu contemnunt rapinam alienorum, &amp;
+            <lb ed="#V" n="64"/>auarorum temperantia, quae luxuriae quae nimis
+            sumptuo<lb ed="#V" n="65" break="no"/>sa est cohibet appetitum, &amp; auarorum fortitudo qua vt ait
+            <lb ed="#V" n="66"/>Horatius per mare pauperiem fugiunt, per saxa per
+            <lb ed="#V" n="67"/>ignes, vt Auguius dicit 4. lib. contra lulianum. Si vero
+            ali<lb ed="#V" n="68" break="no"/>quod bonum particulare sit verum bonum, puta
+            conser<lb ed="#V" n="69" break="no"/>uatio ciuitatis vel aliquod huiusmodi erit quaedam vera
+            <lb ed="#V" n="70"/>virtus, sed imperfecta, nisi referatur ad finem &amp; perfectum
+            <lb ed="#V" n="71"/>bonum. Et secundum hoc simpliciter vera virtus sine
+            cha<lb ed="#V" n="72" break="no"/>ritate esse non potest. Haec ille.
+          </p>
+          <p xml:id="capsco-b2iadf-d1e1590">
+            Et similia dicit in multis
+            <lb ed="#V" n="73"/>alijs locis. Ex quibus patet quod sine fide potest esse vera
+            <lb ed="#V" n="74"/>virtus secundum quid non simpliciter. Ad Tertium raendet
+            <lb ed="#V" n="75"/>Sanctus Thomas secundo sen. in praesenti dis. q. 1. ar. 2. in solutione
+            pri<cb ed="#V" n="b"/><lb ed="#V" n="76" break="no"/>mi. d. Cum dicitur, omnis vita infidelium peccatum est, non
+            <lb ed="#V" n="77"/>est intelligendum hoc modo quod omnis actus eorum sit
+            pec<lb ed="#V" n="78" break="no"/>catum, sed quia semper cum peccato viuunt, quia
+            infideli<lb ed="#V" n="79" break="no"/>tas est tale peccatum quo retento nullum aliorum
+            dimit<lb ed="#V" n="80" break="no"/>titur. Vel dicendum est quod loquitur de illis actibus ad quos
+            <lb ed="#V" n="81"/>ex sua infidelitate impelluntur, vt est adorare, idola
+            ve<lb ed="#V" n="82" break="no"/>abstinere a cibis prohibitis in lege quasi non sit licitum eis
+            <lb ed="#V" n="83"/>vesci. Et hoc videtur intendere Apostolus. Haec ille. Similia
+            <lb ed="#V" n="84"/>dicit secunda secundae q. 10. ar. 4. in solutione primi, vbi sic
+            <lb ed="#V" n="85"/>dicit, exponendo illam auctoritatem.
+          </p>
+          <p xml:id="capsco-b2iadf-d1e1622">
+            Ad primum
+            dicen<lb ed="#V" n="86" break="no"/>dum est quod verbum illud Apostoli intelligendum est, vel
+            <lb ed="#V" n="87"/>quia vita infidelium non potest esse sine peccato, cum
+            pecca<lb ed="#V" n="88" break="no"/>ta sine fide non tollantur, vel quia quicquid agunt ex
+            infi<lb ed="#V" n="89" break="no"/>delitate peccatum est. Vnde ibidem subditur, quia omnis
+            <lb ed="#V" n="90"/>infideliter viuens vel agens vehementer peccat. Haec ille.
+          </p>
+          <p xml:id="capsco-b2iadf-d1e1635">
+            <lb ed="#V" n="91"/>Ad quartum &amp; quintum dicendum est sicut ad primum.
+          </p>
+          <p xml:id="capsco-b2iadf-d1e1640">
+            <lb ed="#V" n="92"/>Ad sextum dicitur quod dictum Linconiensis exponendum
+            <lb ed="#V" n="93"/>est sicut dicta Augustinus vnde sumptum est. Et ad rationem quam
+            <lb ed="#V" n="94"/>facit dicitur quod non omnis amor, quo non amatur illud quod
+            <lb ed="#V" n="95"/>est summe amandum est inordinatus aut viciosus, alias
+            nul<lb ed="#V" n="96" break="no"/>la creatura posset amari licite. Conceditur tamen quod omnis
+            a<lb ed="#V" n="97" break="no"/>mor quo non amatur Deus, nec procedit a tali amore, nec
+            <lb ed="#V" n="98"/>ordinatur ad finem talis amoris est peccatum vel cum
+            pec<lb ed="#V" n="99" break="no"/>cato, quia quicunque caret amore Dei super omnia tam actu
+            <lb ed="#V" n="100"/>quam habitu est in peccato mortali, &amp; per consequens omnis
+            <lb ed="#V" n="101"/>actus in statu tali esicitus est cum peccato. Non tamen
+            opor<lb ed="#V" n="102" break="no"/>tet quod quilibet talis sit in se peccatum, quia non
+            opor<lb ed="#V" n="103" break="no"/>tet quod quilibet actus referatur actualiter in finem vltimum
+            <lb ed="#V" n="104"/>supernaturalem, nec habitualiter, nec virtualiter ad hoc
+            <lb ed="#V" n="105"/>quod sit moraliter bonus. Item ad rationem Augustinus per
+            Liconien<lb ed="#V" n="106" break="no"/>sem recitatam. Dicendum est quod nullus habet veram
+            virtu<lb ed="#V" n="107" break="no"/>tem simpliciter, &amp; perfecte nisi sit iustus ex fide Christi,
+            po<lb ed="#V" n="108" break="no"/>test tamen habere virtutem veram secundum quid &amp;
+            im<lb ed="#V" n="109" break="no"/>perfecte.
+          </p>
+          <p xml:id="capsco-b2iadf-d1e1683">
+            Ad septimum conceditur prima consequentia, sed
+            <lb ed="#V" n="110"/>negatur secunda. Et ad primam eius probationem dicitur,
+            <lb ed="#V" n="111"/>quod per illa verba Augustinus non habetur quod nihil recte fiat nisi
+            re<lb ed="#V" n="112" break="no"/>feratur in Deum, nec quod omne opus non relatum in Deum
+            <lb ed="#V" n="113"/>sit non rectum &amp; peccatum, alias infidelis peccaret
+            audien<lb ed="#V" n="114" break="no"/>do fidem Christi. Conceditur tamen quod nullus actus recte
+            <lb ed="#V" n="115"/>sit completa rectitudine nisi referatur in Deum, &amp; fiat
+            pro<lb ed="#V" n="116" break="no"/>pter eum vltimate actualiter vel virtualiter.
+          </p>
+          <p xml:id="capsco-b2iadf-d1e1701">
+            Ad secundam
+            <lb ed="#V" n="117"/>probationem consequentiae quae fit per rationem negatur
+            <lb ed="#V" n="118"/>assumptum, quia sicut saepe dictum est relatio in vltimum
+            <lb ed="#V" n="119"/>finem. 1. Deum non est circunstantia necessaria ad bonitatem
+            <lb ed="#V" n="120"/>moralem actus humani. Et ad probationem assumpti dicitur
+            <lb ed="#V" n="121"/>pro auctoritate Auguus in de moribus ecclesiae quod mens Augustinus
+            <lb ed="#V" n="122"/>est, quod quilibet debet referre seipsum &amp; omnia sua &amp; omnes actus
+            <lb ed="#V" n="123"/>suos in Deum actualiter vel virtualiter quadam
+            vniucrsa<lb ed="#V" n="124" break="no"/>li &amp; communi relatione. Et quod quicunque vtens ratione non sic
+            ordi<lb ed="#V" n="125" break="no"/>nat nec ordinauit omnia sua in Deum est in peccato mortali,
+            <lb ed="#V" n="126"/>&amp; omnia quae facit in tali statu facit in peccato. Vlterius
+            <lb ed="#V" n="127"/>dicitur quod ad bonitatem moralem actus incompletam de qua
+            <lb ed="#V" n="128"/>loquimur non est necesaria actualis aut habitualis aut
+            vir<lb ed="#V" n="129" break="no"/>tualis nec in generali nec in speciali relatio vel ordinatio
+            <lb ed="#V" n="130"/>actus in Deum tanquam in vltimum finem, sed sufficit
+            bo<lb ed="#V" n="131" break="no"/>nitas obiecti &amp; circunstantiarum &amp; finis proximi illius actus
+            <lb ed="#V" n="132"/>Ad illud vero dictum Augustinus 4 contra Iulianum dicitur vt
+            <lb ed="#V" n="133"/>prius quod quicunque facit opus &amp; non facit illud propter Deum
+            <lb ed="#V" n="134"/>actu, nec habitu, nec virtute peccat id est in peccato. Vnde sicut Sanctus
+            <lb ed="#V" n="135"/>Thomas exponit illud. Omnis infidelium vita peccatum est id est cum
+            <lb ed="#V" n="136"/>peccato, sic exponenda sunt omnia similia.
+          </p>
+          <p xml:id="capsco-b2iadf-d1e1747">
+            Ad illud autem
+            <lb ed="#V" n="137"/>quod ibi adducitur de virtutibus responsum est superius,
+            <lb ed="#V" n="138"/>vbi visum est quomodo virtutes sine charitate sunt verae &amp; quomodo
+            <lb ed="#V" n="139"/>do non.
+          </p>
+          <p xml:id="capsco-b2iadf-d1e1756">
+            Ad illud vero dictum Augustinus quo dicit quicquid
+            <lb ed="#V" n="140"/>boni fit ab homine, &amp; non propter hoc fit propter quod fieri vera
+            <lb ed="#V" n="141"/>sapientia praecipit &amp;c. Dicitur quod illud importat solutionem suam.
+            Con<lb ed="#V" n="142" break="no"/>ceditur en quod omnis actus non factus propter, quod
+            praecipi<lb ed="#V" n="143" break="no"/>tur fieri peccatum est.
+          </p>
+          <p xml:id="capsco-b2iadf-d1e1767">
+            Item quod omnis actus habens finem non rectum
+            <lb ed="#V" n="144"/>peccatum est sicut dicunt verba Augustini. Sed tamen non est contra
+            <lb ed="#V" n="145"/>nos, quia Deus non praecipit quod quilibet actus fiat propter Deum,
+            <lb ed="#V" n="146"/>&amp; sit circunstantionatus tali fine. Et similiter non omnis finis
+            <lb ed="#V" n="147"/>alius a Deo est non rectus aut peruersus. Hic tamen aduertendum
+            <lb ed="#V" n="148"/>est quod bonorum operum vel actuum quidam sunt in pencepto &amp; qu
+            <lb ed="#V" n="149"/>dam non. Quicunque autem facit opus cadens sub pcepto pro
+            ten<lb ed="#V" n="150" break="no"/>pore quo obligatur ad illud, &amp; non refert illud actualiter nec
+            <pb ed="#V" n="568"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>virtualiter in Deum non solum est cum peccato, immo
+            <lb ed="#V" n="2"/>peccat pro illo tempore quo facit actum sibittunc
+            praece<lb ed="#V" n="3" break="no"/>ptum. Non quidem quia facit talem actum bonum, sed quia
+            <lb ed="#V" n="4"/>non refert illum in Deum, ita actus ille non est peccatum,
+            <lb ed="#V" n="5"/>sed omissio vel carentia talis ordinis in Deum est peccatum
+            <lb ed="#V" n="6"/>omissionis. Qui vero agit actum bonum non sibi pro tunc
+            <lb ed="#V" n="7"/>praeceptum sine tali ordinatione in Deum est quidem cum
+            <lb ed="#V" n="8"/>peccato, sed non peccat nouo peccato omissionis aut
+            con<lb ed="#V" n="9" break="no"/>missionis. Ad Octauum dicitur quod virtutes non relatae in Deum
+            <lb ed="#V" n="10"/>sunt vitia per concomitantiam, quia sunt cum vitijs, non
+            au<lb ed="#V" n="11" break="no"/>tem vicia formaliter vel per essentiam, nisi forte sint tales
+            habi<lb ed="#V" n="12" break="no"/>tus qui referantur finaliter &amp; vltimate ad aliud a Deo cum
+            <lb ed="#V" n="13"/>contenptu Dei. Tunc enim tales habitus potius sunt vitia quam
+            <lb ed="#V" n="14"/>virtutes. Sicut esset habitus ille qui inclinaret ad faciendum
+            <lb ed="#V" n="15"/>opera iusta propter seipsa, &amp; ad non referendum ea in alium
+            <lb ed="#V" n="16"/>finem vlteriorem, &amp; ad contemnendum omnem vlteriorem finem,
+            <lb ed="#V" n="17"/>&amp; ad referendum omnia in illum finem vltimate. Tales enim
+            habi<lb ed="#V" n="18" break="no"/>tus fuerunt in multis gentibus contemnentibus omnem legem
+            <lb ed="#V" n="19"/>diuinam. Ad Nonum dicitur quod non est mens Augustini quod Fabritius
+            <lb ed="#V" n="20"/>peccaret in hoc quod faciebat opera lege naturali vel diuina
+            <lb ed="#V" n="21"/>praecepta, ita quod impletio praeceptio vel actus praeceptus
+            es<lb ed="#V" n="22" break="no"/>set peccatum. Non enim hoc dicit Augustinus Sed faciendo tales actus
+            <lb ed="#V" n="23"/>erat cum peccato, &amp; nouiter peccabat peccato omissionis
+            <lb ed="#V" n="24"/>quia tales actus nec actu nec virtute in Deum referebat,
+            <lb ed="#V" n="25"/>immo forte contemnebat omnem alium finem vlteriorem ipsis
+            <lb ed="#V" n="26"/>actibus, vel forte ordinabat illos ad malum finem. Actus autem
+            <lb ed="#V" n="27"/>boni erant licet deficienti bonitate. Quomodo autem ipse
+            Fabri<lb ed="#V" n="28" break="no"/>tius esset malus, clarum est quod in peccato originali
+            mortali<lb ed="#V" n="29" break="no"/>&amp; actuali saltem infidelitatis &amp; vanae gloriae. De veritate
+            <lb ed="#V" n="30"/>autem &amp; falsitate suarum virtutum, &amp; aliorum gentilium
+            di<lb ed="#V" n="31" break="no"/>ctum est prius. Ad uigesimum conceditur antecedens
+            scili<lb ed="#V" n="32" break="no"/>cet quod ad hoc quod actus humanus sit moraliter
+            ma<lb ed="#V" n="33" break="no"/>lus sufficit quod careat circunstantia finis debiti. 1. quod non
+            or<lb ed="#V" n="34" break="no"/>dinetur ad illum finem ad quem dent ordinari, nec requiritur
+            <lb ed="#V" n="35"/>quod ordinetur ad malum finem. Sed ex illo antecedente non infertur
+            <lb ed="#V" n="36"/>quod quilibet actus infidelium sit malus, quia multi sunt actus
+            <lb ed="#V" n="37"/>eorum, qui licet non ordinentur in Deum vltimate,
+            ordinan<lb ed="#V" n="38" break="no"/>tur tamen in finem alium debitum, puta bonum virtutis, nec
+            ca<lb ed="#V" n="39" break="no"/>rent circunstantia debiti finis, quia vt dictum est operari
+            <lb ed="#V" n="40"/>propter Deum vel relatio in Deum non est circunstantia
+            ne<lb ed="#V" n="41" break="no"/>cesaria bonitati morali actus. Ad illa autem quae ibi adducur
+            <lb ed="#V" n="42"/>tur de ordinantibus actus suos vltimate in famam honorem
+            <lb ed="#V" n="43"/>vel diuitas &amp;c. dicitur quod actus ad tales fines vltimate ordinati
+            <lb ed="#V" n="44"/>sunt vitiosi, non quia ordinentur in malum finem, nec
+            secun<lb ed="#V" n="45" break="no"/>do quia non ordinantur in Deum, sed tertio, quia non
+            or<lb ed="#V" n="46" break="no"/>dinentur in finem sufficientem ad quem debent ordinari,
+            <lb ed="#V" n="47"/>puta bonum virtutis vel conseruatio boni communis aut
+            <lb ed="#V" n="48"/>huiusmodi. Nam nullum temporale est sufficiens finis
+            a<lb ed="#V" n="49" break="no"/>ctus virtutis, cum finis debeat esse potior his quae sunt ad
+            <lb ed="#V" n="50"/>finem, vel aeque bonus.
+          </p>
+          <p xml:id="capsco-b2iadf-d1e1897">
+            Ad vndecimum negatur minor.
+            <lb ed="#V" n="51"/>Et ad probationem eius dicitur quod primum fundamentum ibi
+            <lb ed="#V" n="52"/>positum est verum, sed secundum &amp; tertium sunt falsa,
+            <lb ed="#V" n="53"/>secundum quidem falsum est, quo dicitur quod omnis intentio
+            ope<lb ed="#V" n="54" break="no"/>rantis qua aliud a Deo intenditur. 1. propter se non
+            pro<lb ed="#V" n="55" break="no"/>pter aliud diligitur sit vitiosa. Et ad primam probationem
+            il<lb ed="#V" n="56" break="no"/>lius fuadamenti. Negatur antecedens, &amp; conceditur
+            oppo<lb ed="#V" n="57" break="no"/>situm scilicet quod aliquid aliud a Deo est diligendum propter
+            <lb ed="#V" n="58"/>seipsum in vno sensu. Aliquid enim esse diligendum propter
+            <lb ed="#V" n="59"/>se potest dupliciter intelligi. Primo modo quia potest licite
+            diligi<lb ed="#V" n="60" break="no"/>sine relatione eius in vlteriorem finem, ita quod talis dilectio
+            <lb ed="#V" n="61"/>non erit mala nec culpabilis, secundo modo quod potest licite
+            di<lb ed="#V" n="62" break="no"/>ligi sine relatione eius in vlteriorem finem, &amp; cum
+            conten<lb ed="#V" n="63" break="no"/>ptu cuiuslibet vlterioris finis. Et quia est tale quod omnia alia
+            <lb ed="#V" n="64"/>diligenda sunt propter ipsum actu vel virtute, ipsum vero
+            <lb ed="#V" n="65"/>non est propter aliud dilissendum. Primo modo actus
+            vir<lb ed="#V" n="66" break="no"/>tutis est diligendus vel diligibilis propter se, non autem
+            <lb ed="#V" n="67"/>secundo modo, sed solus Deus est diligendus vel
+            diligibi<lb ed="#V" n="68" break="no"/>lis &amp; dignus diligi propter se illo modo. Et tunc ad
+            pro<lb ed="#V" n="69" break="no"/>bationem illius negati negatur consequentia ibidem facta,
+            <lb ed="#V" n="70"/>quae talis est. Nulla creatura est summe diligenda, igitur
+            <lb ed="#V" n="71"/>nulla creatura est propter se diligenda. Haec enim
+            conse<lb ed="#V" n="72" break="no"/>quentia non valet, accipiendo propter se diligendum
+            pri<lb ed="#V" n="73" break="no"/>mo modo. Et ad probationem consequentiae conceditur
+            con<lb ed="#V" n="74" break="no"/>sequens ibidem illatum scilicet quod aliquid non summe diligendum
+            <lb ed="#V" n="75"/>potest rationabiliter diligi propter se. Et ad huius consequentis
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="76"/>improbationem dicitur, quod responsio ibidem data
+            bona<lb ed="#V" n="77" break="no"/>est scilicet quod operatio virtuosa est propter se diligenda, &amp; quod
+            pro<lb ed="#V" n="78" break="no"/>pter illam possunt diligi vltimate alia quaedam bona, puta
+            <lb ed="#V" n="79"/>diuitiae fama honores, sic intelligendo quod talis dilectio qua
+            <lb ed="#V" n="80"/>diligitur actus virtutis propter se, &amp; alia quaedam propter
+            <lb ed="#V" n="81"/>ipsam sine relatione actuali vel habituali in vlteriorem
+            fi<lb ed="#V" n="82" break="no"/>nem non erit peccatum. Semper tamen erit cum peccato
+            <lb ed="#V" n="83"/>mortali concomitante vel praecedente, quia quicunque non
+            <lb ed="#V" n="84"/>refert actu nec virtute omnia diligibilia in Deum est in
+            pec<lb ed="#V" n="85" break="no"/>cato mortali, cum careat charitate. Et ad improbationem
+            <lb ed="#V" n="86"/>illius responsionis dicitur, quod causa quare pecunia honor vel
+            <lb ed="#V" n="87"/>gloria non sunt diligenda propter se, sed propter opus
+            vir<lb ed="#V" n="88" break="no"/>tuosum non est praecise illa quae ibi assignatur scilicet quia sunt
+            mi<lb ed="#V" n="89" break="no"/>nus diligenda quam illud, sed quia ex natura sua sunt
+            or<lb ed="#V" n="90" break="no"/>dinata ad illud, &amp; recta ratio naturalis dictat illa debere
+            <lb ed="#V" n="91"/>ordinari in illud, &amp; non econtra Ad primam
+            confirmatio<lb ed="#V" n="92" break="no"/>nem ibidem factam dicitur quod non per omnia eodem modo
+            <lb ed="#V" n="93"/>se habet actus virtutis ad Deum, &amp; fama &amp; gloria ad actum
+            <lb ed="#V" n="94"/>virtutis, quia licet actus virtutis sit minus diligendus quam
+            <lb ed="#V" n="95"/>Deus, sicut, fama est minus diligenda quam actus virtutis,
+            <lb ed="#V" n="96"/>tamen in alijs est dissimile quia actus virtutis in se habet
+            <lb ed="#V" n="97"/>sufficientem bonitatem quare diligi debeat propter se, quia
+            <lb ed="#V" n="98"/>est vltima perfectio naturalis hominis, nec naturalis ratio
+            <lb ed="#V" n="99"/>dictat euidenter ipsam debere referri in vlteriore finem.
+            <lb ed="#V" n="100"/>Fa na vero gloria &amp; diuitiae non habent in se sufficientem
+            <lb ed="#V" n="101"/>bonitatem qua propter se diligi debeant cum sint vel esse
+            <lb ed="#V" n="102"/>possint instrumenta vicij&amp; virtutis indifferenter, nec sint
+            <lb ed="#V" n="103"/>de intrinseca perfectione hominis, licet instrumenta
+            per<lb ed="#V" n="104" break="no"/>fectionis, &amp; ratio naturalis dictet talia non esse secundum
+            <lb ed="#V" n="105"/>se bona hominis.
+          </p>
+          <p xml:id="capsco-b2iadf-d1e2022">
+            Ad secundam confirmationem dicitur
+            <lb ed="#V" n="106"/>quod non sola &amp; praecisa causa quare aliqua operatio est
+            <lb ed="#V" n="107"/>propter se diligenda &amp; omnes aliae propter illam, est illa
+            <lb ed="#V" n="108"/>quae ibidem assignatur scilicet quia illa est melior &amp;
+            dili<lb ed="#V" n="109" break="no"/>gibilior alijs, sed potius quia ratio naturalis dictat quod
+            alie<lb ed="#V" n="110" break="no"/>non habent sufficientem bonitatem nec diligibilitatem sine
+            <lb ed="#V" n="111"/>relatione ad beatitudinem, ipsa vero beatitudo secundum
+            <lb ed="#V" n="112"/>dictamen rationis naturalis habet sufficientem
+            diligibili<lb ed="#V" n="113" break="no"/>tatem sine relatione ad vlteriorem finem. Quia omnes
+            a<lb ed="#V" n="114" break="no"/>ctus virtutum etiam beatitudo viae reserenda sit in finem
+            <lb ed="#V" n="115"/>supernaturalem solum constat ex diuina reuelatione, &amp;
+            <lb ed="#V" n="116"/>non ex dictamine rationis naturalis, &amp; ideo contra
+            dicta<lb ed="#V" n="117" break="no"/>men rationis naturalis est diligere aliquas creaturas
+            pro<lb ed="#V" n="118" break="no"/>pter se, non autem diligere alias propter se.
+          </p>
+          <p xml:id="capsco-b2iadf-d1e2053">
+            Ad secundam
+            <lb ed="#V" n="119"/>rationem principalem contra dictam responsionem, quae
+            <lb ed="#V" n="120"/>fundatur in dictis Augustinus dicendum est sicut dictum est ad
+            <lb ed="#V" n="121"/>octauum argumentum principale.
+          </p>
+          <p xml:id="capsco-b2iadf-d1e2062">
+            Ad secundam
+            proba<lb ed="#V" n="122" break="no"/>tionem principalem secundi fundamenti dicitur quod
+            an<lb ed="#V" n="123" break="no"/>tecedens ibidem assumptum potest habere triplicem
+            sen<lb ed="#V" n="124" break="no"/>sum. Primus est quod omne diligibile aliud a Deo natum est
+            <lb ed="#V" n="125"/>diligi propter Deum, ita quod si sic diligatur bene
+            diligi<lb ed="#V" n="126" break="no"/>tur. Secundus est quod omnis dilectio qua diligitur aliud
+            <lb ed="#V" n="127"/>a Deo, &amp; non propter Deum est vitiosa. Tertius est quod
+            om<lb ed="#V" n="128" break="no"/>nis dilectio qua diligitur aliud a Deo &amp; non propter Deum
+            <lb ed="#V" n="129"/>actu vel habitu vel virtute est cum vitio. Primus &amp; tertius
+            <lb ed="#V" n="130"/>sensus sunt veri. Secundus autem est falsus. Tunc ergo
+            <lb ed="#V" n="131"/>dicitur ad formam argumenti quod si antecedens sumatur in
+            <lb ed="#V" n="132"/>primo vel tertio sensu ipsum est verum, sed consequentia
+            <lb ed="#V" n="133"/>tunc non valet. Si autem intelligatur in secundo sensu, tunc
+            <lb ed="#V" n="134"/>ipsum negandum est, &amp; consequentia bene valet. Et ad
+            pro<lb ed="#V" n="135" break="no"/>bationem antecedentis in sensu secundo dicitur quod homo dent
+            <lb ed="#V" n="136"/>se &amp; omnia sua in Deum referre isto modo quod nisi hoc faciat
+            tem<lb ed="#V" n="137" break="no"/>pore quo ad hoc tenetur mortaliter peccat, &amp; post illudtem
+            <lb ed="#V" n="138"/>pus omnia quae facit in &amp; cum peccato facit. Sed non sic
+            tene<lb ed="#V" n="139" break="no"/>tur omnia sua in Deum referre, quod nisi hoc faciat, quilibet actus
+            <lb ed="#V" n="140"/>suus in tali statu elicitus sit peccatum &amp; culpa. Talis enim
+            rela<lb ed="#V" n="141" break="no"/>tio in finem vltimum &amp; Deum necessaria est ad hoc quodactus sit
+            <lb ed="#V" n="142"/>meritorius, sed non ad hoc quod sit moraliter bonus. Vel ad
+            <lb ed="#V" n="143"/>hoc quod acquiratur praemium, non autem ad hoc quod vitetur
+            <lb ed="#V" n="144"/>nouum peccatum. Secundo talis relatio est necessaria ad
+            <lb ed="#V" n="145"/>hoc quod actus sit perfecte elongatus a culpa scilicetquod nec sit
+            <lb ed="#V" n="146"/>culpa, nec concomitans culpam mortalem, non autem ad
+            <lb ed="#V" n="147"/>hoc quod actus sit secundum se inculpabilis. Et ad auctoritatem Augutius
+            <lb ed="#V" n="148"/>in de moribus ecclesiae superius dictum est, quia talis
+            rela<lb ed="#V" n="149" break="no"/>tio est necesaria ad bonitatem agentis, non autem ad
+            bo<lb ed="#V" n="150" break="no"/>nitatem actus de qua loquimur. Ad dicta vero eius de
+            <pb ed="#V" n="569"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>doctrina christiana &amp; 83. quaestionum dicitur quod ad
+            fruitio<lb ed="#V" n="2" break="no"/>nem quam Augustinus prohibet tanquam peruersam requiritur
+            <lb ed="#V" n="3"/>quod aliud a deo diligatur propter se secundo modo
+            distin<lb ed="#V" n="4" break="no"/>ctionis positae in principio solutionis huius 11. argumenti.
+            <lb ed="#V" n="5"/>Illa enim fruitio peccatum est. Si autem fruitio dicatur
+            dile<lb ed="#V" n="6" break="no"/>ctio alicuius propter se primo modo, tunc non semper
+            frui<lb ed="#V" n="7" break="no"/>tio creaturae est peccatum.
+          </p>
+          <p xml:id="capsco-b2iadf-d1e2147">
+            Ad tertiam principalem
+            proba<lb ed="#V" n="8" break="no"/>tionem secundi fundamenti dicitur, quod amor quo creatura
+            <lb ed="#V" n="9"/>amatur propter se secundo modo, meretur dici cupiditas
+            con<lb ed="#V" n="10" break="no"/>traria charitati, sed non omnis amor quo creatura
+            diligi<lb ed="#V" n="11" break="no"/>tur propter se primo modo est cupiditas. Est tamen
+            sem<lb ed="#V" n="12" break="no"/>per cum cupiditate. 1. cum damnabili conuersione ad
+            crea<lb ed="#V" n="13" break="no"/>turam, &amp; cum auersione a creatore, quia quod aliquis non
+            refe<lb ed="#V" n="14" break="no"/>rat actus suos vel obiecta actuum actu nec habitu nec
+            vir<lb ed="#V" n="15" break="no"/>tute in Deum, hoc est quia caret charitate. Nullus autem
+            <lb ed="#V" n="16"/>priuatur charitate nisi propter peccatum mortale. Ad
+            pro<lb ed="#V" n="17" break="no"/>bationes tertij fundamenti patet responsio ex iam dictis.
+            <lb ed="#V" n="18"/>Ad decimunsecundum negatur antecedens. Et ad
+            probatio<lb ed="#V" n="19" break="no"/>nem eius dicitur, quod aliqua intentio qua non diligitur Deus
+            <lb ed="#V" n="20"/>propter se potest esse recta tali rectitudine de qua loquimur,
+            <lb ed="#V" n="21"/>quae scilicet sufficit ad hoc quod actus humanus sit moraliter
+            <lb ed="#V" n="22"/>bonus, licet non meritorius, &amp; tali rectitudine quam rectificat
+            <lb ed="#V" n="23"/>actum sed non agentem, &amp; tali rectitudine quae facit actum
+            <lb ed="#V" n="24"/>inculpabilem, sed non tollit culpam moralem, immo stat cum
+            <lb ed="#V" n="25"/>peccato morali, ideo est rectitudo secundum quid, non autem
+            <lb ed="#V" n="26"/>simpliciter.
+          </p>
+          <p xml:id="capsco-b2iadf-d1e2191">
+            Ad confirmationem dicitur quod in dictis verbis
+            Au<lb ed="#V" n="27" break="no"/>gus loquitur de bonitate perfecta &amp; simpliciter, &amp; non de
+            <lb ed="#V" n="28"/>bonitate deficiente &amp; secundum quid. Ad decimuntertium
+            <lb ed="#V" n="29"/>dicitur negando antecedens. Et ad probationem eius
+            simi<lb ed="#V" n="30" break="no"/>liter negatur antecedens. Vnde arguens in omnibus
+            praedi<lb ed="#V" n="31" break="no"/>ctis argumentis suis accipit bonitatem &amp; rectitudinem &amp;
+            <lb ed="#V" n="32"/>similia, valde stricte, immo strictissime, nos autem largius
+            <lb ed="#V" n="33"/>Nempe verum est quod nullus actus non relatus in Deum
+            ha<lb ed="#V" n="34" break="no"/>bitu vel actu vel virtute est simpliciter bonus aut rectus,
+            <lb ed="#V" n="35"/>&amp; idem dicendum est de dilectione &amp; de intentione &amp;
+            si<lb ed="#V" n="36" break="no"/>milibus, cum quo stat quod multi tales actus sunt boni
+            boni<lb ed="#V" n="37" break="no"/>tate morali deficiente tamen &amp; secundum quid quia vt
+            <lb ed="#V" n="38"/>dictum est non rectificat nec bonificat agentem, sed tantum
+            <lb ed="#V" n="39"/>modo actum, nec actum reddit penitus immaculatum, quia
+            <lb ed="#V" n="40"/>fit cum peccato &amp; macula.
+          </p>
+          <p xml:id="capsco-b2iadf-d1e2224">
+            Ad illud autem quod additur
+            <lb ed="#V" n="41"/>de diffinitionibus virtutum datis ab Auguus dictum est
+            su<lb ed="#V" n="42" break="no"/>pra, quia Augustinus loquitur de virtutibus infusis, non de
+            acqui<lb ed="#V" n="43" break="no"/>sitis, &amp; de virtutibus veris omnimoda veritate, &amp; perfectis
+            <lb ed="#V" n="44"/>&amp; formatis, non autem de virtutibus veris secundum quid
+            <lb ed="#V" n="45"/>quae pro tanto dicuntur virtutes, quia sunt habitus
+            incli<lb ed="#V" n="46" break="no"/>nantes ad bonum inclinatione non culpabili nec viciosa.
+          </p>
+          <p xml:id="capsco-b2iadf-d1e2241">
+            <lb ed="#V" n="47"/>Ad argumentum in oppositum quaestionis patet respotesio
+            <lb ed="#V" n="48"/>per praedicta. Et haec de quaestione sufficiant. Benedictus
+            <lb ed="#V" n="49"/>Deus. Amen.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

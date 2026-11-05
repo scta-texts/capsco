@@ -1,0 +1,538 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 4, Distinctio 7, Quaestio 1</title>
+        <author ref="#JohannesCapreolus">Johannes Capreolus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 4, Distinctio 7, Quaestio 1</title>
+          <date when="2026-11-04">Nov 4, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-j88c04">Venice, 1589, v. 4</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-04" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="72"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="capsco-d34ah0"><!-- l4d7q1 -->
+        <head xml:id="capsco-d34ah0-Hd1e101">Quaestio 1</head>
+        <head xml:id="capsco-d34ah0-Hd1e103" type="question-title">Utrum baptismus aut confirmatio a ficto suscepta recedente fictione sortiatur suum effectum</head>
+        <p xml:id="capsco-d34ah0-d1e106">
+          <lb ed="#V" n="14"/>QVAESTIO <sic>II</sic>.
+          <lb ed="#V" n="15"/>Vtrum baptismus aut confirmatio a ficto suscepta
+          rece<lb ed="#V" n="16" break="no"/>dente siffione sortiatur situm effecstum
+        </p>
+        <p xml:id="capsco-d34ah0-d1e117">
+          <lb ed="#V" n="17"/><milestone ed="#V" unit="p" rend="initial"/> CIRCA praecedentes &amp; septimam
+          di<lb ed="#V" n="18" break="no"/>stinctionem quaeritur. Vtrum baptismus
+          <lb ed="#V" n="19"/>aut confirmatio a ficto suscepta
+          rece<lb ed="#V" n="20" break="no"/>dente fictione sortiatur suum effectum
+        </p>
+        <p xml:id="capsco-d34ah0-d1e129">
+          <lb ed="#V" n="21"/>Et arguitur quod non, quia opus
+          mor<lb ed="#V" n="22" break="no"/>tuum quod est sine charitate non
+          po<lb ed="#V" n="23" break="no"/>test vnquam viuificari, sed ille qui
+          fi<lb ed="#V" n="24" break="no"/>ctus accedit ad baptismum vel
+          confir<lb ed="#V" n="25" break="no"/>mationem recipit sacramentum sine charitate, ergo
+          nun<lb ed="#V" n="26" break="no"/>quam potest viuificari hoc modo, vt gratiam conferat.
+        </p>
+        <p xml:id="capsco-d34ah0-d1e146">
+          <lb ed="#V" n="27"/><milestone ed="#V" unit="p" rend="indent"/> In oppositum arguitur, quia dicit Augustinus in lib.s de
+          baptis<lb ed="#V" n="28" break="no"/>mo. Tunc valere incipit ad salutem baptismus, cum illa
+          <lb ed="#V" n="29"/>fictio veraci confessione recesserit quae corde in malitia
+          <lb ed="#V" n="30"/>perseuerante vel sacrilegio, peccatorum oblationem non
+          <lb ed="#V" n="31"/>sinebat fieri.
+        </p>
+        <p xml:id="capsco-d34ah0-d1e160">
+          <lb ed="#V" n="32"/><milestone ed="#V" unit="p" rend="indent"/> I hac quaestione tres erunt articuli. In primo ponentur
+          <lb ed="#V" n="33"/>conclusiones. In secundo obiectiones. In tertio solutiones
+        </p>
+        <div xml:id="capsco-d34ah0-Dd1e168">
+          <head xml:id="capsco-d34ah0-Hd1e170">Articulus 1</head>
+          <p xml:id="capsco-d34ah0-d1e172">
+            <lb ed="#V" n="34"/><milestone ed="#V" unit="p" rend="initial"/> QVantum ad primum articulum sit prima conclusio.
+            <lb ed="#V" n="35"/>rictio impedit esectum paptisi &amp;
+            confirmationi<lb ed="#V" n="36" break="no"/>Hanc ponit Sanctus Thomas tertia parte. q. 69. ar. 9. vbi sic
+            di<lb ed="#V" n="37" break="no"/>cit. Sicut dicit Damastcts Deus non cogit hominem ad
+            iusti<lb ed="#V" n="38" break="no"/>tiam. Et ideo ad hoc quod aliquis iustificetur per
+            baptis<lb ed="#V" n="39" break="no"/>mum requiritur quod voluntas hominis amplectatur &amp;
+            <lb ed="#V" n="40"/>baptismum &amp; baptismi effectum. Dicitur autem aliquis
+            fi<lb ed="#V" n="41" break="no"/>ctus per hoc quod voluntas eius contradicit vel baptismo
+            <lb ed="#V" n="42"/>vel eius effectui. Nam secundum Augustinum quattuor modis
+            dici<lb ed="#V" n="43" break="no"/>tur aliquis fictus. Vno modo ille qui non credit, cum tamen
+            <lb ed="#V" n="44"/>baptismus sit fidei sacramentum. Aliomodo per hoc quod
+            <lb ed="#V" n="45"/>contemnit ipsum sacramentum, tertio modo per hoc quod
+            <lb ed="#V" n="46"/>aliter celebrat sacramentum, non seruans ritum ecclesiae.
+            <lb ed="#V" n="47"/>quarto modo per hoc quod aliquis indeuotus accedit. Vnde
+            <lb ed="#V" n="48"/>manifestum est quod fictio impedit effectum baptismi.
+            <lb ed="#V" n="49"/>Haec ille.
+          </p>
+          <p xml:id="capsco-d34ah0-d1e210">
+            Idem ponit, quarta dist. huius. q. 3. arti. secundo in
+            <lb ed="#V" n="50"/>solutione primae, &amp; secundae. q. In solutione nanque primae
+            <lb ed="#V" n="51"/>q. sic dicit. Duplex est effectus baptismi. Primus qui est res
+            <lb ed="#V" n="52"/>&amp; sacramentum scilicet character, &amp; quia character non
+            <lb ed="#V" n="53"/>imprimit ad praeparandum hominis voluntatem, vt
+            ali<lb ed="#V" n="54" break="no"/>quid bene fiat, cum non sit habitus, sed potentia, ideo hunc
+            <lb ed="#V" n="55"/>effectus indispositio voluntatis non impedit dummodo sit
+            <lb ed="#V" n="56"/>aliqualis voluntas sacramentum suscipiendi. Alius autem
+            <lb ed="#V" n="57"/>effectus est qui est res &amp; non sacramentum scilicet gratia,
+            <lb ed="#V" n="58"/>&amp; quae ad eam consequuntur, per quam voluntas hominis
+            <lb ed="#V" n="59"/>praeparatur vt bene velit &amp; bene operetur, &amp; ideo ad hunc
+            <lb ed="#V" n="60"/>effectum percipiendum non sufficit quaelibet voluntas
+            sa<lb ed="#V" n="61" break="no"/>cramentum percipiendi, sed requiritur voluntas talis a
+            <lb ed="#V" n="62"/>qua omnis indispositio gratiae contraria gratiae baptismi
+            re<lb ed="#V" n="63" break="no"/>moueatur, quia contraria non se compatiuntur. Vnde
+            ma<lb ed="#V" n="64" break="no"/>nente contraria dispositione baptismus suum effectum
+            ha<lb ed="#V" n="65" break="no"/>bere non posset. Haec ille.
+          </p>
+          <p xml:id="capsco-d34ah0-d1e247">
+            Item in solutione secundae. q.
+            <lb ed="#V" n="66"/>sic dicit. Ad hoc quod aliquid alicuius agentis effectum
+            <lb ed="#V" n="67"/>percipere debeat, oportet quod se habeat in debita
+            dispo<lb ed="#V" n="68" break="no"/>sitione ad causam agentem &amp; ad effectum percipiendum,
+            <lb ed="#V" n="69"/>&amp; ideo indispositio voluntatis quae vltimum effectum
+            ba<lb ed="#V" n="70" break="no"/>ptismi inpedit est duplex. Vna secundum ordinem ad
+            ip<lb ed="#V" n="71" break="no"/>su in sa cramentum. Alia secundum ordinem ad effectum
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="72"/>sacramenti. Ad ipsum aut sacramentum contingit
+            voliin<lb ed="#V" n="73" break="no"/>tatem esse indispositam dupliciter. Vnomodo per
+            subtra<lb ed="#V" n="74" break="no"/>ctionem necessarij. Alio modo per positionem contrarij.
+            <lb ed="#V" n="75"/>Quia autem omnis actio est per contactum, ideo dispositio
+            <lb ed="#V" n="76"/>per positionem necessarij est quod recipiens sacramentum
+            <lb ed="#V" n="77"/>quodammodo ipsum contingat, &amp; per intellectum, quem
+            <lb ed="#V" n="78"/>quidem contactum facit fides, &amp; per effectum, quem facit
+            <lb ed="#V" n="79"/>deuotio, &amp; ideo indispositus reputatur &amp; qui non credit,
+            <lb ed="#V" n="80"/>&amp; qui indeuotus accedit. Similiter autem duplex est
+            con<lb ed="#V" n="81" break="no"/>trarium quod oportet abstrahi. Vnum est ex parte eorum quae
+            <lb ed="#V" n="82"/>exterius aguntur, &amp; sic indispositus est qui aliter celebrat.
+            <lb ed="#V" n="83"/>Aliud est ex parte virtutis intrinsecae quae secretius
+            opera<lb ed="#V" n="84" break="no"/>tur salutem, &amp; sic indispositus est qui contennit. Similiter
+            <lb ed="#V" n="85"/>per comparationem ad effectum baptismi oportet quod
+            <lb ed="#V" n="86"/>disponatur aliquis adhibendo necessarium scilicet fidem quae
+            <lb ed="#V" n="87"/>cor purificat, &amp; quod remoueat contrarium scilicet
+            pec<lb ed="#V" n="88" break="no"/>catum per contritionem. Et ideo Ambrosius dicit quod
+            <lb ed="#V" n="89"/>non sunt necessaria ex hac parte nisi fides &amp; contrito, &amp;
+            ta<lb ed="#V" n="90" break="no"/>men contritio etiam in deuotione includitur. Haec ille, Item
+            <lb ed="#V" n="91"/>ibidem in solutione primi sic dicit. Fictio proprie est cum
+            <lb ed="#V" n="92"/>quis aliquid ostendit dicto vel facto quod non est in
+            veri<lb ed="#V" n="93" break="no"/>tate. Hoc autem contingit dupliciter. Vnomodo quando
+            <lb ed="#V" n="94"/>hac intentione aliquid fit vel dicitur, vt aliud ostendatur
+            <lb ed="#V" n="95"/>quam rei veritas habet &amp; tunc fictio est speciale peccatum
+            <lb ed="#V" n="96"/>&amp; sic non accipitur hic. Aliomodo quando aliquid
+            osten<lb ed="#V" n="97" break="no"/>ditur quod rei veritas non habet dicto vel facto, etiam si non
+            <lb ed="#V" n="98"/>popter hoc dicatur vel fiat, &amp; sic accipitur hic fictio.
+            Qui<lb ed="#V" n="99" break="no"/>cunque enim ad baptismum accedit ostendit se veteri vitae
+            <lb ed="#V" n="100"/>abrenunciare &amp; nouam inchoare. Vnde si voluntas eius
+            <lb ed="#V" n="101"/>adhuc in vetustate vitae remaneat aliud ostendit quam sit
+            <lb ed="#V" n="102"/>in rei veritate, &amp; ideo est fictio. Haec ille.
+          </p>
+          <p xml:id="capsco-d34ah0-d1e332">
+            Ex quibus
+            pos<lb ed="#V" n="103" break="no"/>sunt formari multae rationes pro conclusione potissime
+            <lb ed="#V" n="104"/>talis. Quia gratia quae est vltimus effectus baptismi &amp;
+            con<lb ed="#V" n="105" break="no"/>firmationis nulli indisposito infunditur, sed omnis fictus
+            <lb ed="#V" n="106"/>est iudispositus, ergo nulli tali gratia infunditur quanuis
+            re<lb ed="#V" n="107" break="no"/>cipiat sacramentum, secunda conclusio. Recedente
+            fictio<lb ed="#V" n="108" break="no"/>ne baptismus vel confirmatio suum vltimum sortitur
+            effe<lb ed="#V" n="109" break="no"/>ctum. Hanc ponit Sanctus Thomas quarta dis. 4. q. 3. ar.
+            secun<lb ed="#V" n="110" break="no"/>do, in solutione tertiae, q. vbi sic dicit. In baptismo
+            imprimi<lb ed="#V" n="111" break="no"/>tur character qui est immediata causa disponens ad
+            grati<lb ed="#V" n="112" break="no"/>am, &amp; ideo cum fictio characterem non auferat recedente
+            <lb ed="#V" n="113"/>fictione quae effectum characteris ipediebat, character qui
+            <lb ed="#V" n="114"/>est praesens in anima incipit habere effectum suum, &amp; ita
+            <lb ed="#V" n="115"/>recedente fictione baptismus suum effectum consequetur
+            <lb ed="#V" n="116"/>Haec ille.
+          </p>
+          <p xml:id="capsco-d34ah0-d1e366">
+            Item ibidem arguit sic incontrarium. Remota
+            cau<lb ed="#V" n="117" break="no"/>sa remouetur effectus, sed causa impediens effectum
+            ba<lb ed="#V" n="118" break="no"/>ptismi erat fictio, ergo remota fictione baptismus suum
+            ef<lb ed="#V" n="119" break="no"/>fectum consequitur. Item cuilibet morbo culpae in statu
+            <lb ed="#V" n="120"/>viae potest remedium adhiberi, sed contra originalem
+            cul<lb ed="#V" n="121" break="no"/>pam non est aliud remedium quam baptismus, ergo cum
+            <lb ed="#V" n="122"/>ficte accedentibus originale non remittatur, oporteret
+            ba<lb ed="#V" n="123" break="no"/>ptismum iterari si recedente fictione baptismus suum
+            ef<lb ed="#V" n="124" break="no"/>fectum non haberet, quod est inconueniens &amp; haereticum
+            <lb ed="#V" n="125"/>Haec ille.
+          </p>
+          <p xml:id="capsco-d34ah0-d1e388">
+            Itemtertia parte. q. 69. arti. 10. sic dicit. Baptismus
+            <lb ed="#V" n="126"/>est quaedam spiritualis regeneratio, cum autem aliquid
+            gene<lb ed="#V" n="127" break="no"/>ratur simul cum forma recipit effectum formae, nisi sit aliquod
+            <lb ed="#V" n="128"/>impedimentum quo re moto forma rei generatae perficit
+            <lb ed="#V" n="129"/>suum effectum, sicut simul cum corpus graue generatur,
+            <lb ed="#V" n="130"/>mouetur deorsum nisi sit aliquod impediens, quo remoto
+            <lb ed="#V" n="131"/>statim incipit moueri deorsum. Et similiter quando aliquis
+            <lb ed="#V" n="132"/>baptizatur accipit characterem quasi formam, &amp;
+            conse<lb ed="#V" n="133" break="no"/>quitur proprium effectum qui est gratia remittens omnia
+            <lb ed="#V" n="134"/>peccata. Impeditur autem quandoque per fictionem, vnde
+            <lb ed="#V" n="135"/>oportet quod ea remota per paenitentiam baptismus
+            sta<lb ed="#V" n="136" break="no"/>tim consequatur suum effectum. Haec ille. Ex quibus
+            na<lb ed="#V" n="137" break="no"/>tent multae rationes in forma pro conclusione. Et in hoc
+            <lb ed="#V" n="138"/>primus articulus terminatur.
+          </p>
+        </div>
+        <div xml:id="capsco-d34ah0-Dd1e420">
+          <head xml:id="capsco-d34ah0-Hd1e422">Articulus 2</head>
+          <p xml:id="capsco-d34ah0-d1e424">
+            <lb ed="#V" n="139"/><milestone ed="#V" unit="p" rend="initial"/> QVantum ad secundum articulum arguitur contra
+            <lb ed="#V" n="140"/>conclusiones, &amp; quidem contra secundam arguit
+            Du<lb ed="#V" n="141" break="no"/>randus. Primo quia effectus in actu requirit causam in actu
+            <lb ed="#V" n="142"/>vt dicitur secundo phy. sed in eo qui prius ficte recipit
+            ba<lb ed="#V" n="143" break="no"/>ptismum, &amp; postmodum recedit fictio, non suscipitur actu
+            <lb ed="#V" n="144"/>baptismus, ergo non potest esse in eo actu aliquis effectue
+            <lb ed="#V" n="145"/>baptismi: secundo quia dispositio necessitatis ad formam
+            <lb ed="#V" n="146"/>nunquam potest stare cum opposito formae, quicquid sit
+            <pb ed="#V" n="73"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>de dispositione necessitatis ad motum, sicut dispositio
+            ne<lb ed="#V" n="2" break="no"/>cessitatis ad formam ignis non potest stare cum forma
+            a<lb ed="#V" n="3" break="no"/>quae. Sed character potest stare cum opposito gratiae, ergo
+            <lb ed="#V" n="4"/>character non est dispositio necessitatis ad gratiam, tertio
+            <lb ed="#V" n="5"/>quia illud per quod homo disponitur ad aliquid
+            simplici<lb ed="#V" n="6" break="no"/>ter, &amp; non secundum bene, non est dispositio necessitatis
+            <lb ed="#V" n="7"/>ad gratiam, quia quod simpliciter dicitur &amp; absolure
+            indif<lb ed="#V" n="8" break="no"/>ferens est ad bene vel male, gratia autem determinat ad id
+            <lb ed="#V" n="9"/>quod est bene. Sed character disponit ad aliquid agendum
+            <lb ed="#V" n="10"/>simpliciter, &amp; non secundum determinationem ad bene,
+            <lb ed="#V" n="11"/>ergo &amp;c. quarto, quia illud non est dispositio necessitatis
+            <lb ed="#V" n="12"/>ad gratiam sine quo datur gratia, &amp; cum quo non datur.
+            <lb ed="#V" n="13"/>Sed sine charactere datur gratia, vt in baptismo fsaminis,
+            <lb ed="#V" n="14"/>&amp; cum charactere quandoque non datur vt in ficte
+            acce<lb ed="#V" n="15" break="no"/>dentibus, ergo &amp;c. quinto, quia si in sacramentis est
+            subie<lb ed="#V" n="16" break="no"/>ctiue aliqua virtus spiritualis agens ad effectum baptismi,
+            <lb ed="#V" n="17"/>tunc non apparet qualiter recedente fictione baptismus
+            <lb ed="#V" n="18"/>prius susceptus possit de nouo habere aliquem effectum,
+            <lb ed="#V" n="19"/>quia virtus illa agit de necessitate naturae, nec agere potest
+            <lb ed="#V" n="20"/>nisi dum est. Sed talis virtus non est nisi in actuali ex
+            hibi<lb ed="#V" n="21" break="no"/>tione, transit enim &amp; non permanet: igitur nihil potest nisi
+            <lb ed="#V" n="22"/>in actuali ex hibitione.
+          </p>
+          <p xml:id="capsco-d34ah0-d1e497">
+            Nec valet si dicatur quod licet
+            ba<lb ed="#V" n="23" break="no"/>ptismus transeat, tamen manet character ad quem
+            neces<lb ed="#V" n="24" break="no"/>sario sequitur gratia, quia ostensum est quod character non
+            <lb ed="#V" n="25"/>est dispositio necessitans ad gratiam: sexto, quia
+            disposi<lb ed="#V" n="26" break="no"/>tio necessitatis potest accipi dupliciter. Vnomodo dicitur
+            <lb ed="#V" n="27"/>dispositio necessitatis omnis illa dispositio quae necessario
+            <lb ed="#V" n="28"/>praeexigitur in subiecto ad hoc quod aliqua forma in eo in
+            <lb ed="#V" n="29"/>troducatur sicut diaphaneitas est in aere dispositio
+            neces<lb ed="#V" n="30" break="no"/>sitatis ad recipiendum lumen. Aliomodo dicitur
+            dispo<lb ed="#V" n="31" break="no"/>sitio necessitatis ad quam necessario sequitur, sicut ad
+            di<lb ed="#V" n="32" break="no"/>spositionem quam facit semem hominis in generatione
+            ho<lb ed="#V" n="33" break="no"/>minis sequitur infallibiliter anima rationalis. Sed
+            cha<lb ed="#V" n="34" break="no"/>racter nullo praedictorum modorum est dispositio
+            necessi<lb ed="#V" n="35" break="no"/>tatis ad gratiam, ergo nullo modo: maior patet ex dictis
+            <lb ed="#V" n="36"/>mnior probatur. Quia enim character non sit dispositio
+            ne<lb ed="#V" n="37" break="no"/>cessitatis ad gratiam primo modo clarum est, quia sine
+            <lb ed="#V" n="38"/>character potest in anima recipi gratia. Nec secundo
+            mo<lb ed="#V" n="39" break="no"/>do, quia talis dispositio non stat cum opposito formae ad
+            <lb ed="#V" n="40"/>quam disponit, nec se habet in differenter ad formam &amp;
+            <lb ed="#V" n="41"/>priuationem formae. Character autem stat cum opposito
+            <lb ed="#V" n="42"/>gratiae, &amp; indifferenter se habet ad gratiam &amp; culpam,
+            qua<lb ed="#V" n="43" break="no"/>re &amp;c. Si autem dicatur quod character est dispositio
+            con<lb ed="#V" n="44" break="no"/>gruitatis, patet, &amp; alias probatum est quod illud non est
+            con<lb ed="#V" n="45" break="no"/>uenienter dictum, ergo &amp;c. Haec Durandus. Et in hoc secum
+            <lb ed="#V" n="46"/>dus articulus terminatur.
+          </p>
+        </div>
+        <div xml:id="capsco-d34ah0-Dd1e553">
+          <head xml:id="capsco-d34ah0-Hd1e555">Articulus 3</head>
+          <p xml:id="capsco-d34ah0-d1e557">
+            <lb ed="#V" n="47"/><milestone ed="#V" unit="p" rend="initial"/> Vantum ad tertium articulum respondendum est
+            <lb ed="#V" n="48"/>obiectionibus supradictis. Et quidem ad primum
+            di<lb ed="#V" n="49" break="no"/>citur quod licet in eo qui primo recipit ficte
+            bapti<lb ed="#V" n="50" break="no"/>smum, &amp; postea recedit fictio, non suscipiatur actu
+            bapti<lb ed="#V" n="51" break="no"/>smus tempore quo paenitet de fictione, tamen pro tunc
+            re<lb ed="#V" n="52" break="no"/>manet baptismus quo ad illud quod est res &amp;
+            sacramen<lb ed="#V" n="53" break="no"/>tum scilicet character, &amp; ideo quo ad hoc potest esse
+            cau<lb ed="#V" n="54" break="no"/>sa in actu alicuius effectus in actu scilicet gratiae. De hoc
+            <lb ed="#V" n="55"/>in suo simili Sanctus Thomas tertia parte. q. 66. art. primo vbi
+            <lb ed="#V" n="56"/>quaerit. Vtrum baptismus sit ipsa ablutio, arguit enim sic
+            <lb ed="#V" n="57"/>primo loco. Ablutio corporalis transit, baptismus autem
+            <lb ed="#V" n="58"/>permanet, ergo baptismus non est ipsa ablutio, sed potius
+            <lb ed="#V" n="59"/>regeneratio sigillum, &amp; custodia, &amp; illuminatio vt dicit
+            <lb ed="#V" n="60"/>Damasts in quarto. Ecce argumentum. Sequitur responsio.
+            <lb ed="#V" n="61"/>Dicendum inquit quod in baptismo id quod est
+            sacramen<lb ed="#V" n="62" break="no"/>tum &amp; res scilicet character, &amp; id quod est res tantum
+            sci<lb ed="#V" n="63" break="no"/>licet interior iustificatio permanent, sed character
+            perma<lb ed="#V" n="64" break="no"/>net indelibiliter, iustificatio autem permanet, sed
+            amissibi<lb ed="#V" n="65" break="no"/>liter. Damascenus ergo baptismum diffinit non quantum
+            <lb ed="#V" n="66"/>ad id quod exterius agitur quod est sacramentum tantum,
+            <lb ed="#V" n="67"/>sed quantum ad id quod est interius &amp;c. Haec ille.
+          </p>
+          <p xml:id="capsco-d34ah0-d1e606">
+            De hoc
+            <lb ed="#V" n="68"/>pe. de Palu quarto dist. 4. sic dicit. Cum inquit dicitur quod
+            <lb ed="#V" n="69"/>effectus in actu requirit causam in actu. Dicendum quod
+            <lb ed="#V" n="70"/>sicut pater relinquit in vtero matris illud cuius virtute
+            <lb ed="#V" n="71"/>co mortuo generatur posthumus, quia pater est causa
+            pro<lb ed="#V" n="72" break="no"/>lis non immediate, sed mediante dispositione cuius est
+            cau<lb ed="#V" n="73" break="no"/>sa in fieri, &amp; non in esse, vnde ipso non existente, virtus
+            <lb ed="#V" n="74"/>formatiua operatur, sic in regeneratione spirituali per
+            ba<lb ed="#V" n="75" break="no"/>ptismum sicut per causam in fieri producitur character,
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="76"/>qui recedente fictione est dispositio ad gratiam. Et ideo
+            <lb ed="#V" n="77"/>maior propositio intelligenda est de causa in esse &amp; effectu
+            <lb ed="#V" n="78"/>immediato, non autem de causa in fieri. Vnde causa in actu
+            <lb ed="#V" n="79"/>efficiens gratiae est Deus charecter autem vel ornatus est
+            <lb ed="#V" n="80"/>causa dispositionis. Haec Peas &amp; satis conformiter Sanctus Thomas
+            <lb ed="#V" n="81"/>in simili proposito. Nam de potentia Dei, q. 3. articu. 11.
+            <lb ed="#V" n="82"/>in solutione quinti sic dicit. Instrumentum intelligitur
+            <lb ed="#V" n="83"/>moueri a principali agente quamdiu retinet virtutem a
+            <lb ed="#V" n="84"/>principali agente impressam, vnde sagitta tandiu
+            moue<lb ed="#V" n="85" break="no"/>tua a proijciente quamdiu manet vis impulsus
+            proijcien<lb ed="#V" n="86" break="no"/>tis, sicut etiam generatum tandiu mouetur a generante in
+            <lb ed="#V" n="87"/>grauibus &amp; leuibus, quamdiu retinet formam sibi traditam
+            <lb ed="#V" n="88"/>a generante. Vnde semen tandiu intelligitur moueri ab
+            <lb ed="#V" n="89"/>anima generantis, quamdiu remanet virtus impraessa ab
+            <lb ed="#V" n="90"/>anima, licet corporaliter sit diuisum. Oportet autem
+            mo<lb ed="#V" n="91" break="no"/>uens &amp; motum esse simul quantum ad principium motus,
+            <lb ed="#V" n="92"/>non tamen quantum ad totum motum, vt apparet in
+            pro<lb ed="#V" n="93" break="no"/>iectis. Haec ille.
+          </p>
+          <p xml:id="capsco-d34ah0-d1e667">
+            Ex quibus apparet quod baptismus
+            exte<lb ed="#V" n="94" break="no"/>rior potest habere effectum in actu etiam postquam cessat
+            <lb ed="#V" n="95"/>esse actu, quia remanet character ab eo impressus. Ad
+            Se<lb ed="#V" n="96" break="no"/>eundum respondet Peas vbi supra dicens Cum dicitur quod
+            di<lb ed="#V" n="97" break="no"/>spositio necessitatis non stat cum opposito formae.
+          </p>
+          <p xml:id="capsco-d34ah0-d1e678">
+            Dicen<lb ed="#V" n="98" break="no"/>dum quod hoc verum est de dispositione quae est
+            necessi<lb ed="#V" n="99" break="no"/>tas simpliciter, non autem de illa quae est necessitas ex
+            sup<lb ed="#V" n="100" break="no"/>positione. Sicut diaphaneitas est dispositio necessitatis
+            <lb ed="#V" n="101"/>ad illuminationem non simpliciter, sed supposito quod
+            <lb ed="#V" n="102"/>non sit interpositum aliquod corpus opacum in medio, &amp;
+            <lb ed="#V" n="103"/>talis dispositio bene stat cum corpore opaco &amp; illo
+            remo<lb ed="#V" n="104" break="no"/>to fit dispositio necessaria supposito quod corpus
+            lumino<lb ed="#V" n="105" break="no"/>sum sit praesens. Consimilter character est dispositio
+            necessi<lb ed="#V" n="106" break="no"/>tatis ad lucem gratiae Deo semper praesente, supposito
+            <lb ed="#V" n="107"/>quod peccatum mortale non diuidat inter hominem &amp;
+            <lb ed="#V" n="108"/>Deum. Sed sicut diaphanum potest habere corpus medium
+            <lb ed="#V" n="109"/>quo stante non illuminabitur, &amp; quo remoto statim
+            illu<lb ed="#V" n="110" break="no"/>minabitur, sic character stat cum peccato mortali, quo
+            <lb ed="#V" n="111"/>stante non infunditur lux gratiae, sublata autem vmbra
+            <lb ed="#V" n="112"/>mortalis culpae statim infunditur lux gratiae. Vel potest
+            di<lb ed="#V" n="113" break="no"/>ci quod character non est dispositio necessitatis nec ex
+            par<lb ed="#V" n="114" break="no"/>te agentis, quia Deus non necessitatur, nec ex parte
+            patien<lb ed="#V" n="115" break="no"/>tis, quia liberum arbitrium non cogitur, sicut generatio
+            <lb ed="#V" n="116"/>hominis est dispositio ex parte materiae, dispositio inquam
+            <lb ed="#V" n="117"/>necessitati vel necessitans materiam ad receptionem
+            ani<lb ed="#V" n="118" break="no"/>mae secundum quosdam, sed est dispositio necessitatis
+            re<lb ed="#V" n="119" break="no"/>spectu eius ad quod disponit supposita ordinatione
+            diui<lb ed="#V" n="120" break="no"/>na, &amp; remoto prohibente ex parte hominis, quia istis
+            posi<lb ed="#V" n="121" break="no"/>tis necessario sequitur infusio gratiae. Sicut organizatio
+            fe<lb ed="#V" n="122" break="no"/>tus est dispositione necesitans ad infusionem animae ex
+            <lb ed="#V" n="123"/>ordinatione diuina nisi sit in disposito. Haec Petrus &amp; bene.
+            <lb ed="#V" n="124"/>Potest etiam in eodem sensu breuiter dici vt alias dictum
+            <lb ed="#V" n="125"/>est quod maior argumenti est vera duntaxat de
+            disposi<lb ed="#V" n="126" break="no"/>tione necessitatis, quae includit omne positiuum &amp; omne
+            <lb ed="#V" n="127"/>priuatiuum requisitum ad introductionem formae, talis
+            <lb ed="#V" n="128"/>enim dispositio non potest stare cum opposito formae.
+            Si<lb ed="#V" n="129" break="no"/>cut si dicamus quod dispositio ad introductionem lucis
+            <lb ed="#V" n="130"/>vel luminis in aere est diaphaneitas cum remotione omnis
+            <lb ed="#V" n="131"/>obstaculi inter aerem &amp; corpus luminosum &amp; omnis
+            im<lb ed="#V" n="132" break="no"/>pedimenti. Si autem maior intelligatur de dispositione
+            <lb ed="#V" n="133"/>necessitatis, quae includit omne positiuum sed non omne priuatiuum
+            <lb ed="#V" n="134"/>necessarium ad introductionem formae, maior est falsa,
+            <lb ed="#V" n="135"/>quia talis dispositio potest stare cum opposito formae
+            si<lb ed="#V" n="136" break="no"/>cut diaphaneitas cum tenebra in aere. Character autem
+            <lb ed="#V" n="137"/>est dispositio necessitatis ad gratiam secundo non autem
+            <lb ed="#V" n="138"/>primo modo, &amp; ideo potest stare cum opposito gratiae
+            <lb ed="#V" n="139"/>scilicet culpa.
+          </p>
+          <p xml:id="capsco-d34ah0-d1e773">
+            Ad tertiam respondet Petrus dicens. Nihil
+            pro<lb ed="#V" n="140" break="no"/>hibet aliquid de se esse indeterminatum &amp; per aliquid
+            su<lb ed="#V" n="141" break="no"/>perueniens determinari. Sicut potentia concupiscibilis
+            <lb ed="#V" n="142"/>est indeterminata ad bene &amp; male concupiscendum, sed
+            <lb ed="#V" n="143"/>per habitum superuenientem determinatur ad alterum.
+            <lb ed="#V" n="144"/>similiter character de se est indeterminatus ad bene &amp;
+            <lb ed="#V" n="145"/>male, sed per gratiam determinatur ad bene. Sed ista
+            so<lb ed="#V" n="146" break="no"/>lutio parum valet, quia tunc non esset dispositio ad
+            grati<lb ed="#V" n="147" break="no"/>am plusquam ad oppositum, sicut nec potentia plus ad
+            <lb ed="#V" n="148"/>habitum bonum quam ad habitum malum. Et ideo
+            dice<lb ed="#V" n="149" break="no"/>dum quod character per se quidem est dispositio ad
+            gra<lb ed="#V" n="150" break="no"/>tiam supposita carentia peccati mortalis, &amp; sic.
+            determi<pb ed="#V" n="74"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>natur ad bene. Sed quia potest stare cum opposito, ex hoc
+            <lb ed="#V" n="2"/>indifferenter se habet ad bene &amp; male. Sicut diaphaneitas
+            <lb ed="#V" n="3"/>est dispositio necessitatis ad lucem, sed inquantum potest
+            <lb ed="#V" n="4"/>coniungi opaco medio indifferens est &amp; ad tenebram. Vel
+            <lb ed="#V" n="5"/>dicendum est per interemptionem, quia grauitas est
+            dispo<lb ed="#V" n="6" break="no"/>sitio ad esse deorsum &amp; ad moueri deorsum, &amp; tamen potest
+            <lb ed="#V" n="7"/>esse sursum praeter naturam vel deorsum per naturam. Nec
+            <lb ed="#V" n="8"/>propter hoc est per se indifferens ad vtrunque sicut
+            superfi<lb ed="#V" n="9" break="no"/>ciens ad album &amp; nigrum. Si dicas quod aliud est disponere
+            <lb ed="#V" n="10"/>ad motum, &amp; aliud disponere ad formam, non valet,
+            <lb ed="#V" n="11"/>quia contrarietas in motibus &amp; formis aequaliter respicit
+            <lb ed="#V" n="12"/>causam suam. Videmus enim formam aquae quae per se est
+            <lb ed="#V" n="13"/>determinata dispositio ad frigiditatem quod potest stare
+            <lb ed="#V" n="14"/>cum calore, sed hoc est praeter naturam suam, sic &amp;
+            chara<lb ed="#V" n="15" break="no"/>cter, per se quidem disponit ad gratiam, sed per accidens
+            <lb ed="#V" n="16"/>stat cum opposito. Haec Pe. Potest etiam dici quod maior
+            <lb ed="#V" n="17"/>est vera tantum de dispositione necessitatis ad gratiam quae
+            <lb ed="#V" n="18"/>se habet per modum operationis vel habitus. Non autem
+            <lb ed="#V" n="19"/>de dispositione ad gratiam quae se habet per modum
+            po<lb ed="#V" n="20" break="no"/>tentiae. Est enim triplex dispositio ad gratia.
+          </p>
+          <p xml:id="capsco-d34ah0-d1e845">
+            Prima est
+            ope<lb ed="#V" n="21" break="no"/>ratio &amp; actus liberi arbitrij, sicut patet in iustificatione
+            im<lb ed="#V" n="22" break="no"/>pij adulti habentis vsum liberi arbitrij. Talis enim non
+            iu<lb ed="#V" n="23" break="no"/>stificatur per gratiam primam sine dispositione praedicta:
+            se<lb ed="#V" n="24" break="no"/>cunda dispositio se habet per modum actus primi &amp;
+            habi<lb ed="#V" n="25" break="no"/>tus, sicut contingit in sacramentis non imprimentibus
+            cha<lb ed="#V" n="26" break="no"/>racterem, sed solum ornatum habitualem quae est
+            dispo<lb ed="#V" n="27" break="no"/>sitio ad gratiam:tertia dispositio se habet per modum
+            po<lb ed="#V" n="28" break="no"/>tentiae sicut est dispositio quam imprimunt sacramenta in
+            <lb ed="#V" n="29"/>quibus imprimitur character, quae non est operatio nec
+            <lb ed="#V" n="30"/>habitus, sed potentia supernaturalis vt superius saepius
+            di<lb ed="#V" n="31" break="no"/>ctum fuit. Talis autem dispositio indeterminata est ad
+            be<lb ed="#V" n="32" break="no"/>ne &amp; male agendum, &amp; potissime, quia non disponit ad
+            gra<lb ed="#V" n="33" break="no"/>tiam directe &amp; immediate, sed per quandam congruentiam.
+            <lb ed="#V" n="34"/>De hoc Sanctus Thomas tertia parte. q. 63. ar. quarto, in
+            solu<lb ed="#V" n="35" break="no"/>tione primi sic dicit. Character directe quidem &amp;
+            propin<lb ed="#V" n="36" break="no"/>que disponit animam ad ea quae sunt diuini cultus exequem
+            <lb ed="#V" n="37"/>da. Et quia haec idonee non fiunt sine auxilio gratiae, quia
+            <lb ed="#V" n="38"/>vt dicitur Iobus quarto. Eos qui adorant Deum in spiritu
+            <lb ed="#V" n="39"/>adorare oportet, ex consequenti diuina largitas recipienti
+            <lb ed="#V" n="40"/>bus characterem gratiam largitur, per quam digne
+            imple<lb ed="#V" n="41" break="no"/>ant ea ad quae deputantur. Haec ille.
+          </p>
+          <p xml:id="capsco-d34ah0-d1e893">
+            Item quarto sen. dis. 4.
+            <lb ed="#V" n="42"/>q. i1. ar. primo in solutione quinti sic dicit. Character est
+            di<lb ed="#V" n="43" break="no"/>spositio ad gratiam per quandam congruitatis dignitatem.
+            <lb ed="#V" n="44"/>Ex hoc enim quod homo mancipatus est diuinis
+            actioni<lb ed="#V" n="45" break="no"/>bus &amp; inter membra Christi connumeratus, sit ei quaedam
+            <lb ed="#V" n="46"/>congruitas ad gratiam suscipiendam, quia Deus perfecte
+            <lb ed="#V" n="47"/>prouidet homini in sacramen tis. Vnde simul cum charactere
+            <lb ed="#V" n="48"/>quo datur homini vt possit exercere spirituales actiones
+            <lb ed="#V" n="49"/>fidelium vel passiones seu receptiones, datur ei gratia qua
+            <lb ed="#V" n="50"/>hoc bene possit. Haec ille.
+          </p>
+          <p xml:id="capsco-d34ah0-d1e915">
+            Ad quartum respondet Petrus vbi
+            <lb ed="#V" n="51"/>supra dicens, quod triplex est dispositio necessitatis, vna
+            <lb ed="#V" n="52"/>sine qua non est illud ad quod disponit, siue illa sit posita
+            <lb ed="#V" n="53"/>siue non. Sicut quantitatis est dispositio necessaria ad
+            tri<lb ed="#V" n="54" break="no"/>angulum &amp; albedinem, qua sublata non potest esse hoc
+            <lb ed="#V" n="55"/>vel illud, vnde est necessaria ad hoc quod sint. Sed tamen
+            <lb ed="#V" n="56"/>posita superficie non propter hoc ista ponuntur, sed forte
+            <lb ed="#V" n="57"/>eorum opposita. Et talis dispositio necessitatis ad
+            gra<lb ed="#V" n="58" break="no"/>tiam non est character, cum non sit immediatum
+            subie<lb ed="#V" n="59" break="no"/>ctum gratiae, &amp; cum gratia sit in CHRISTO &amp;
+            an<lb ed="#V" n="60" break="no"/>gelis &amp; in multis viris sanctis cathecuminis, &amp;
+            vete<lb ed="#V" n="61" break="no"/>ris testamenti in quibus nullus character est. Nam talis
+            di<lb ed="#V" n="62" break="no"/>spositio ad gratiam non est substantia intellectualis quae
+            so<lb ed="#V" n="63" break="no"/>la susceptiua est gratiae &amp; suae priuationis. Secundo modo
+            <lb ed="#V" n="64"/>dicitur dispositio necessaria non sine qua esse non possit
+            <lb ed="#V" n="65"/>ad illud quod disponit, sed quae posita necessario ponitur
+            <lb ed="#V" n="66"/>illud ad quod disponit. Et hoc dupliciter. Vel simpliciter
+            <lb ed="#V" n="67"/>sicut alteratio completa est dispositio necessaria ad
+            genera<lb ed="#V" n="68" break="no"/>tionem &amp; corruptionem, sine qua posset Deus
+            corrumpe<lb ed="#V" n="69" break="no"/>re &amp; generare, sed illa posita necessario sequitur
+            genera<lb ed="#V" n="70" break="no"/>tio &amp; corruptio. Vel ex suppositione sicut diaphaneitas
+            <lb ed="#V" n="71"/>respectu lucis vt dictum est Tertio modo dicitur
+            disposi<lb ed="#V" n="72" break="no"/>tio necessaria vtroque modo, sicut est subiectum respectu
+            pro<lb ed="#V" n="73" break="no"/>priae passionis quae inestisoli &amp; omni &amp; semper, quia illo
+            <lb ed="#V" n="74"/>posito necessario ponitur propria passio, &amp; illo sublato
+            <lb ed="#V" n="75"/>corrumpitur. Character autem incidit in secundum
+            mem<cb ed="#V" n="b"/><lb ed="#V" n="76" break="no"/>brum secundi membri, quia est dispositio necessaria sicut
+            <lb ed="#V" n="77"/>diaphanum, vt dictum est. Vel dicendum quod duplex est
+            <lb ed="#V" n="78"/>dispositio ad gratiam. Vna per se vt motus liberi arbitrij
+            <lb ed="#V" n="79"/>in Deum, &amp; hanc supplet character. Alia per accidens sicut
+            <lb ed="#V" n="80"/>motus in peccatum si habet peccatum, &amp; hanc non
+            sup<lb ed="#V" n="81" break="no"/>plet. Vnde in paruulis sufficit character, &amp; in amentibus
+            <lb ed="#V" n="82"/>&amp; dormientibus, licet nunquam habuerint poenitentiam
+            <lb ed="#V" n="83"/>de pecccatis, quia tunc habere non possunt. Haec Petrus &amp;
+            be<lb ed="#V" n="84" break="no"/>ne. Potest etiam dici quod character est dispositio
+            necessi<lb ed="#V" n="85" break="no"/>tatis ad gratiam, non ideo quia non potest esse sine gratia,
+            <lb ed="#V" n="86"/>sed quia sine ea non potest bene operari ea quae sunt
+            cul<lb ed="#V" n="87" break="no"/>tus diuini, vt, superius expressum fuit. Et sic est
+            necessa<lb ed="#V" n="88" break="no"/>ria sequela gratiae ad characterem, non quidem
+            absolu<lb ed="#V" n="89" break="no"/>ta, nec ex causa efficiente, sed ex suppositione finis
+            cha<lb ed="#V" n="90" break="no"/>racteris, quia talis finis sine gratia non potest congrue haberi
+            <lb ed="#V" n="91"/>Et haec solutio potest fundari in dictis beati Thomas
+            septim<lb ed="#V" n="92" break="no"/>dis. huius. q. 1. ar. primo in solutione secundae. q. &amp; similiter
+            <lb ed="#V" n="93"/>in dictis eius in solutione tertij recitatis.
+          </p>
+          <p xml:id="capsco-d34ah0-d1e1012">
+            Ad quintum
+            dici<lb ed="#V" n="94" break="no"/>tur quod virtus quae ponitur in sacramentis non agit nist
+            <lb ed="#V" n="95"/>dum est in se vel remanet in suo effectu. Et quia recedente
+            <lb ed="#V" n="96"/>fictione post vsum &amp; exhibitionem sacramenti remanet
+            cha<lb ed="#V" n="97" break="no"/>racter a dicta virtute derelictus, ideo dicta virtus dicitur
+            <lb ed="#V" n="98"/>tunc agere vel potius habere effectum suum mediatum vel
+            <lb ed="#V" n="99"/>immediatum eo modo quo diffuse expositum fuit in
+            solu<lb ed="#V" n="100" break="no"/>tione primi. Nec valet replica contra hanc solutionem, quia
+            <lb ed="#V" n="101"/>vtique character est dispositio necessitatis ad gratiam
+            mo<lb ed="#V" n="102" break="no"/>dis saepe dictis.
+          </p>
+          <p xml:id="capsco-d34ah0-d1e1034">
+            Ad sextum dicitur quod character est
+            disposi<lb ed="#V" n="103" break="no"/>tio necessitatis ad gratiam non primo modo, sed secundo
+            <lb ed="#V" n="104"/>Et ad huiusmodi impobationem patet quid sit dicendum
+            <lb ed="#V" n="105"/>ex praedictis in solutione secundi &amp; tertij. Cum
+            vlte<lb ed="#V" n="106" break="no"/>rius dicit quod character non potest poni dispositio
+            con<lb ed="#V" n="107" break="no"/>gruitatis ad gratiam, patet quid dicendum ex praedictis in
+            <lb ed="#V" n="108"/>hac quaestione, &amp; multis praecedentibus, potissime quarta
+            <lb ed="#V" n="109"/>dis. huius.
+          </p>
+          <p xml:id="capsco-d34ah0-d1e1053">
+            Ad argumentum in principio contra quaestionem
+            <lb ed="#V" n="110"/>factum respondet Sanctus Thomas tertia parte. q. 69. ar. 10. in
+            <lb ed="#V" n="111"/>solutione primi dicens sacramentum baptismi est opus
+            <lb ed="#V" n="112"/>Dei &amp; non homnis, &amp; ideo non est mortuum in ficto qui
+            <lb ed="#V" n="113"/>sine charitate baptizatur. Haec ille. Item quarto sen. dis. 4.
+            <lb ed="#V" n="114"/>q. 3. arti. secundo quaestiuncula tertia in solutione primi sic
+            <lb ed="#V" n="115"/>dicit. Baptismus non habet efficaciam solum ex opere
+            ope<lb ed="#V" n="116" break="no"/>rante, quod est opus Dei, &amp; non hominis, &amp; ideo non potest
+            <lb ed="#V" n="117"/>esse mortuum. Haec ille. Et haec de quaestione sufficiant.
+            De<lb ed="#V" n="118" break="no"/>qua benedictus Deus. Amen
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

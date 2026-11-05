@@ -1,0 +1,793 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 4, Distinctio 10, Quaestio 3</title>
+        <author ref="#JohannesCapreolus">Johannes Capreolus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 4, Distinctio 10, Quaestio 3</title>
+          <date when="2026-11-04">Nov 4, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-j88c04">Venice, 1589, v. 4</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-04" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="111"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="capsco-d39ass"><!-- l4d10q3 -->
+        <head xml:id="capsco-d39ass-Hd1e101">Quaestio 3</head>
+        <head xml:id="capsco-d39ass-Hd1e103" type="question-title">Utrum corpus Christi sit in Eucharistia mobiliter, hoc est utrum ibi moveatur localiter</head>
+        <p xml:id="capsco-d39ass-d1e106">
+          <lb ed="#V" n="27"/>DISTINCTIO X
+          <lb ed="#V" n="28"/>QVAESTIO III.
+          <lb ed="#V" n="29"/>Vtrum corpus Christi sit in Eucharistia mobiliter, hoc
+          <lb ed="#V" n="30"/>est vtrum ibi moueatur localiter.
+        </p>
+        <p xml:id="capsco-d39ass-d1e117">
+          <lb ed="#V" n="31"/><milestone ed="#V" unit="p" rend="initial"/> VRSVS Circa eandem decimam
+          distin<lb ed="#V" n="32" break="no"/>ctionem quaeritur. Vtrum corpus Christi
+          <lb ed="#V" n="33"/>sit in Eucharistia mobiliter, hoc est vtrum
+          <lb ed="#V" n="34"/>ibi moueatur localiter.
+        </p>
+        <p xml:id="capsco-d39ass-d1e129">
+          Et arguitur quod non,
+          <lb ed="#V" n="35"/>quia impossibile est idem esse motum &amp;
+          quie<lb ed="#V" n="36" break="no"/>tum, quia sic contradictoria verificarentur
+          <lb ed="#V" n="37"/>de eodem, sed corpus Christi in coelo quietum residet, non
+          <lb ed="#V" n="38"/>ergo mouetur in hoc sacramento.
+        </p>
+        <p xml:id="capsco-d39ass-d1e141">
+          <lb ed="#V" n="39"/><milestone ed="#V" unit="p" rend="indent"/> IN oppositum arguitur, quia dicit Philosophus secundo
+          <lb ed="#V" n="40"/>Topicorum quod motis nobis mouentur omnia quae in
+          no<lb ed="#V" n="41" break="no"/>bis sunt, quod quidem verum est etiam de spirituali
+          substan<lb ed="#V" n="42" break="no"/>tia animae, sed Christus est in hoc sacramento: ergo
+          moue<lb ed="#V" n="43" break="no"/>tur ad motum ipsius.
+        </p>
+        <p xml:id="capsco-d39ass-d1e155">
+          <lb ed="#V" n="44"/><milestone ed="#V" unit="p" rend="indent"/> In hac quaestione erunt tres articuli. In primo ponentur
+          <lb ed="#V" n="45"/>conclusiones. In scono obiectiones, in tertio solutiones.
+        </p>
+        <div xml:id="capsco-d39ass-Dd1e163">
+          <head xml:id="capsco-d39ass-Hd1e165">Articulus 1</head>
+          <p xml:id="capsco-d39ass-d1e167">
+            <lb ed="#V" n="46"/>QVantum ad primum articulum sit prima conclusio.
+            <lb ed="#V" n="47"/>Christus secundum esse quod habet in Eucharistia non
+            <lb ed="#V" n="48"/>mouetur per se.
+          </p>
+          <p xml:id="capsco-d39ass-d1e176">
+            Secunda conclusio. Potest moueri per
+            acci<lb ed="#V" n="49" break="no"/>dens localiter ad motum Eucharistiae. Has duas ponit
+            San<lb ed="#V" n="50" break="no"/>ctus Thomas 3. par. q. 76. artic. 6. vbi sic dicit. Cum aliquid est
+            <lb ed="#V" n="51"/>vnum subiecto &amp; multiplex secundum esse, nihil prohibet
+            <lb ed="#V" n="52"/>ipsum secundum aliquid moueri, &amp; secundum aliud
+            immo<lb ed="#V" n="53" break="no"/>bile permanere, sicut corpori aliud est esse album, &amp; aliud
+            <lb ed="#V" n="54"/>esse magnum: vnde potest moueri secundum albedinem &amp;
+            perma<lb ed="#V" n="55" break="no"/>nere secundum magnitudinem immobile, Christo autem
+            <lb ed="#V" n="56"/>non est idem esse secundum se, &amp; esse sub sacramento, quia
+            <lb ed="#V" n="57"/>per hoc quod dicimus ipsum esse sub sacramento significatur
+            <lb ed="#V" n="58"/>quaedam habitudo eius ad hoc sacramentum, secundum ergo hoc
+            <lb ed="#V" n="59"/>esse non mouetur Christus per se secundum locum, sed solum per
+            <lb ed="#V" n="60"/>accidens, quia Christus non est in hoc sacramento sicut in
+            <lb ed="#V" n="61"/>loco. Quod autem non est in loco non mouetur per se in
+            <lb ed="#V" n="62"/>loco, sed solum per motum eius in quo est. Similiter autem
+            <lb ed="#V" n="63"/>neque per se mouetur secundum esse quod habet in sacramento
+            qua<lb ed="#V" n="64" break="no"/>cunque alia mutatione, puta quantum ad hoc quod desinat esse
+            <lb ed="#V" n="65"/>sub sacramento, quia illud quod habet esse indeficiens non
+            <lb ed="#V" n="66"/>potest esse deficiendi principium, sed alio deficiente hoc esse
+            <lb ed="#V" n="67"/>desinit in eo, sicut Deus cuius esse est indeficiens &amp;
+            immor<lb ed="#V" n="68" break="no"/>tale desinit esse in aliqua creatura corporali per hoc quod
+            crea<lb ed="#V" n="69" break="no"/>tura corporalis desinit esse, &amp; hoc modo cum Christus
+            ha<lb ed="#V" n="70" break="no"/>beat esse indeficiens, &amp; incorporale non desinit esse sub
+            sa<lb ed="#V" n="71" break="no"/>cramento neque per hoc quod ipsum desinat esse, neque etiam per
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="72"/>motum localem sui, sed per hoc quod species huius
+            sacramenti<lb ed="#V" n="73" break="no"/>desinunt esse: vnde patet quod Christus per se loquendo
+            im<lb ed="#V" n="74" break="no"/>mobiliter est in hoc sacramento. Haec ille.
+          </p>
+          <p xml:id="capsco-d39ass-d1e237">
+            Item in hac dist.
+            <lb ed="#V" n="75"/>q. 1. art. 3. in solutione 4. q. sic dicit. Moueri in loco includit
+            <lb ed="#V" n="76"/>esse in loco: vnde ad hoc quod aliquid per se moueatur in loco,
+            <lb ed="#V" n="77"/>oportet quod per se sit in loco, &amp; quod per se moueatur non ad
+            mo<lb ed="#V" n="78" break="no"/>tum alterius. Sed per accidens aliquid mouetur in loco
+            du<lb ed="#V" n="79" break="no"/>pliciter: vno modo quia per accidens est in loco, alio
+            mo<lb ed="#V" n="80" break="no"/>do quia per se est in loco, sed per accidens mouetur in loco,
+            <lb ed="#V" n="81"/>sicut patet in his quae vehuntur, quia locus quem mutant
+            <lb ed="#V" n="82"/>est per se eorum proprius locus vel comns. Corpus autem
+            Chri<lb ed="#V" n="83" break="no"/>sti in loco quem species mutant non est per se, neque sicut in
+            <lb ed="#V" n="84"/>loco proprio, neque sicut in loco communi, sicut ex dictis patere
+            <lb ed="#V" n="85"/>potest, &amp; ideo per se in illo moueri non potest, neque per
+            acci<lb ed="#V" n="86" break="no"/>dens, sicut corpora per accidens mouentur. Sed hoc modo
+            <lb ed="#V" n="87"/>quo aliquid &amp; per accidens est in loco &amp; per accidens
+            mo<lb ed="#V" n="88" break="no"/>uetur, nec differt vt quidam dicunt dicere, vtrum species
+            mo<lb ed="#V" n="89" break="no"/>ueantur in eodem loco aut transferantur de loco ad locum,
+            <lb ed="#V" n="90"/>quia quod in eodem loco manens secundum substantiam
+            moue<lb ed="#V" n="91" break="no"/>tur, mutat locum non solum secundum partes, sed secundum
+            to<lb ed="#V" n="92" break="no"/>tum, vt in 6. Physic. probatur. Haec ille.
+          </p>
+          <p xml:id="capsco-d39ass-d1e279">
+            Ex quibus possunt
+            <lb ed="#V" n="93"/>formari rationes pro vtraque conclusione. Pro prima talis. Qe
+            <lb ed="#V" n="94"/>quod per se mouetur localiter in aliquo per se est in illo vt
+            <lb ed="#V" n="95"/>in loco, sed Christus non est in Eucharistia vt in loco nec est
+            <lb ed="#V" n="96"/>per se in loco Eucharistiae, sed solum per accidens: ergo non
+            <lb ed="#V" n="97"/>per se mouetur localiter secundum esse quod habet in Eucharistia.
+            <lb ed="#V" n="98"/>Pro secunda conclusione arguitur sic. Quod continetur in
+            <lb ed="#V" n="99"/>aliquo localiter moto secundum se &amp; quodlibet sui, &amp; non
+            separa<lb ed="#V" n="100" break="no"/>tur ab eo quandiu mouetur, tale mouetur saltem per
+            acci<lb ed="#V" n="101" break="no"/>dens ad motum alterius, sic est de corpore Christi respectu
+            <lb ed="#V" n="102"/>Eucharistiae: igitur &amp;c. Et in hoc primus artic. terminatur.
+          </p>
+        </div>
+        <div xml:id="capsco-d39ass-Dd1e304">
+          <head xml:id="capsco-d39ass-Hd1e306">Articulus 2</head>
+          <p xml:id="capsco-d39ass-d1e308">
+            <lb ed="#V" n="103"/><milestone ed="#V" unit="p" rend="initial"/> Vantum ad secundum artic. arguitur contra
+            conclu<lb ed="#V" n="104" break="no"/>siones. Et quidem contra secundam arguit Scot.
+            pro<lb ed="#V" n="105" break="no"/>bando quod nulla virtus creata potest mouere corpus Christi vt
+            <lb ed="#V" n="106"/>in sacramento. Primo, quia quod non habet virtutem
+            mo<lb ed="#V" n="107" break="no"/>tiuam super aliquid quamdod illud est per se non mouet illud per
+            <lb ed="#V" n="108"/>accidens quamdod est cum alio cum quo non facit per se vnum, sicut
+            <lb ed="#V" n="109"/>actus cum potentia, sed virtus creata omnino non potest super
+            <lb ed="#V" n="110"/>corpus Christi in se, sub isto modo existendi ad mouendum
+            ip<lb ed="#V" n="111" break="no"/>sum: ergo quando est cum alio, respectu cuius non est sicut
+            po<lb ed="#V" n="112" break="no"/>tentia, nec sicut actus, sequitur quod eadem virtus non poterit
+            <lb ed="#V" n="113"/>illud mouere etiam per accidens. Sic autem est cum hostia, quod
+            <lb ed="#V" n="114"/>patet, quia species non est forma eius, nec ipsum est
+            forma<lb ed="#V" n="115" break="no"/>ipeni. Si maior, ista negatur: quia graue existens in naui
+            mo<lb ed="#V" n="116" break="no"/>uetur a mouente nauem, licet graue non sit forma nauis, nec
+            <lb ed="#V" n="117"/>econtra. Instantia non est ad propositum, quia virtus motiua
+            <lb ed="#V" n="118"/>illius posset super graue per se, si graue per se esset. Ideo autem
+            <lb ed="#V" n="119"/>addidi in maiore, quorum neutrum est actus alterius, quia &amp;
+            <lb ed="#V" n="120"/>si aliquid quod est actus alicuius non posset per se moueri
+            <lb ed="#V" n="121"/>ab illo, tamen potest per accidens moueri ab eodem potente
+            mo<lb ed="#V" n="122" break="no"/>uere totum cuius illud est actus. Sed vt omnis instantia tollatur
+            <lb ed="#V" n="123"/>accipiaiur ista maior. Quando aliqua coniunguntur praecise per
+            <lb ed="#V" n="124"/>actum voluntatis contingenter se habentis ad illam
+            coniun<lb ed="#V" n="125" break="no"/>ctionem, si vnum illorum sit mobile omnino improportionatum
+            <lb ed="#V" n="126"/>alicui mouenti, &amp; reliquum proportionatum, ipsum non
+            ea<lb ed="#V" n="127" break="no"/>dem motione potest mouere vtrunque coniunctorum patet, quia
+            <lb ed="#V" n="128"/>si mouet vnum quod est sibi proportionatum, non ppe hoc per
+            <lb ed="#V" n="129"/>accidens mouet reliquum, quia reliquum non est praesens isto
+            <lb ed="#V" n="130"/>modo, nec vt actus potentiae, nec econtra, nec simpliciter ex
+            ali<lb ed="#V" n="131" break="no"/>qua necessitate ita naturali, sicut graue est pemeos illi cui
+            inniti<lb ed="#V" n="132" break="no"/>tur, &amp; poper hoc simul mouetur cum illo, sed teamemmodo est sibi
+            <lb ed="#V" n="133"/>pemeus voluntate alia contingenter se habente ad illam
+            coniun<lb ed="#V" n="134" break="no"/>ctionem quae per consequens potest non velle istam
+            coniunctio<lb ed="#V" n="135" break="no"/>nem, stante tamen motione alterius illorum. Exemplum istius, si
+            ange<lb ed="#V" n="136" break="no"/>lus voluntarie faceret se praesentem lapidi, si moueo lapidem non
+            <lb ed="#V" n="137"/>propter hoc moueo angelum, quia nec est mobilis per se a virtute
+            <lb ed="#V" n="138"/>mea, nec per acciteus in proposito, quia nec est forma, nec pars
+            <lb ed="#V" n="139"/>alicuius mobilis per se a me, si ergo angelus esset pemeus
+            lapidi<lb ed="#V" n="140" break="no"/>moto a me &amp; simul moueretur, hoc non esset per actum meum,
+            <lb ed="#V" n="141"/>sed per sua propriam actionem, qua faceret se pneustem illi.
+            Eo<lb ed="#V" n="142" break="no"/>dem modo in proposito cum corpus Christi sit praesens speciei
+            tan<lb ed="#V" n="143" break="no"/>tummodo per actum voluntatis diuinae, si facio spem habere
+            <lb ed="#V" n="144"/>nouum vbi, per illa motionem non erit ibi corpus, quia nullo
+            <lb ed="#V" n="145"/>modo subest praesentialitas illius corporis neque noua neque
+            <lb ed="#V" n="146"/>antiqua voluntati meae, nec etiam per accidens, quia non est forma,
+            <pb ed="#V" n="112"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>nec pars illius quod subest meae motioni. Haec Scotus.
+          </p>
+          <p xml:id="capsco-d39ass-d1e413">
+            <lb ed="#V" n="2"/><milestone ed="#V" unit="p" rend="indent"/> Contra eandem conclusionem arguit Durandus
+            proban<lb ed="#V" n="3" break="no"/>do quod corpus Christi non mouetur ad motum hostiae,
+            pri<lb ed="#V" n="4" break="no"/>mo quia quando aliqua duo ita se habent quod non sunt vnum
+            <lb ed="#V" n="5"/>secundum subiectum, nec se habent vt continens &amp;
+            conten<lb ed="#V" n="6" break="no"/>tum, nec habent alligationem aut contactum, nullo modo
+            <lb ed="#V" n="7"/>vno moto mouetur alterum, sed corpus Christi &amp; species
+            <lb ed="#V" n="8"/>non sunt vnum subiecto, nec vnum continetur ab alio, nec
+            <lb ed="#V" n="9"/>habent alligationem, nec contactum, quia non se tangunt:
+            <lb ed="#V" n="10"/>ergo ad motum specierum nullo modo nec per se nec per
+            <lb ed="#V" n="11"/>accidens sequitur motus corporis Christi. Maior patet
+            in<lb ed="#V" n="12" break="no"/>ducendo in omnes modos secundum quos vno moto
+            mo<lb ed="#V" n="13" break="no"/>uetur aliud: minor patet ex dictis eorum.
+          </p>
+          <p xml:id="capsco-d39ass-d1e443">
+            Secundo quia
+            <lb ed="#V" n="14"/>vnum &amp; idem non potest simul moueri oppositis motibus
+            <lb ed="#V" n="15"/>maxime quando vterque motus conuenit ei eodem modo,
+            <lb ed="#V" n="16"/>sed illud contingeret si corpus Christi moueretur motu
+            ho<lb ed="#V" n="17" break="no"/>stiae: ergo &amp;c. minor probatur: quia vno eleuante hostiam
+            <lb ed="#V" n="18"/>sursum alius deponit aliam deorsum, si ergo corpus
+            Chri<lb ed="#V" n="19" break="no"/>sti moueretur motu hostiae, vel ad motum hostiae, simul
+            mo<lb ed="#V" n="20" break="no"/>ueretur sursum &amp; deorsum. Tertio, quia si corpus
+            Christi<lb ed="#V" n="21" break="no"/>moueretur mota hostia, eadem ratione frangeretur fracta
+            <lb ed="#V" n="22"/>hostia, sed illud est falsum: ergo &amp; aliud. Quarto, quia
+            cor<lb ed="#V" n="23" break="no"/>pus Christi existens in coelo localiter fit de nouo in hoc
+            sa<lb ed="#V" n="24" break="no"/>cramento non motum localiter nec per se nec per accidens:
+            <lb ed="#V" n="25"/>ergo fortiori ratione existens in hoc sacramento, nec
+            defe<lb ed="#V" n="26" break="no"/>rens locum suum in coelo non mouetur ratione motus
+            spe<lb ed="#V" n="27" break="no"/>cierum localiter, nec per se nec per accidens: igitur.
+            Quin<lb ed="#V" n="28" break="no"/>to, quia si sic, hoc maxime videretur propter hac rationem,
+            <lb ed="#V" n="29"/>quia scilicet quod incipit esse vbi prius non erat &amp; desinit
+            <lb ed="#V" n="30"/>esse vbi prius erat videtur localiter motum, sed corpus
+            Chri<lb ed="#V" n="31" break="no"/>sti per motum hostiae desinit esse in altari vbi prius erat, &amp;
+            <lb ed="#V" n="32"/>incipit esse in ore hominis vbi prius non erat: ergo &amp;c. sed
+            <lb ed="#V" n="33"/>ista ratio non valet propter multa. Primo quia maior est
+            <lb ed="#V" n="34"/>falsa de modo quo aliquid est in hoc sacramento, vbi est
+            <lb ed="#V" n="35"/>solum propter ordinem ad species huius sacramenti, sicut
+            <lb ed="#V" n="36"/>enim corpus Christi non motum incipit esse in hoc
+            sacra<lb ed="#V" n="37" break="no"/>mento, &amp; corruptis speciebus desinit esse ibidem absque
+            mo<lb ed="#V" n="38" break="no"/>tu suo, sic translatis speciebus incipit esse vbi feruntur
+            spe<lb ed="#V" n="39" break="no"/>cies per solam translationem specierum, &amp; non per motum
+            <lb ed="#V" n="40"/>suum, quia non est praesens loco, nisi quia est praesens
+            specie<lb ed="#V" n="41" break="no"/>bus existentibus in loco, eadem autem est ratio praesentiae
+            <lb ed="#V" n="42"/>Christi ad species siue sint motae siue quiescentes.
+          </p>
+          <p xml:id="capsco-d39ass-d1e508">
+            Item quia
+            <lb ed="#V" n="43"/>maiore concessa potest dici ad minorem quod corpus Christi
+            <lb ed="#V" n="44"/>in hoc sacramento non desinit esse vbi prius erat, nec
+            inci<lb ed="#V" n="45" break="no"/>pit esse vbi prius non erat per motum hostiae, quia corpus
+            <lb ed="#V" n="46"/>Christi solum praesens est hostiae ex vi sacramenti, sed ad
+            lo<lb ed="#V" n="47" break="no"/>cum hostiae nullam praesentiam habet ratione qua est in hoc
+            <lb ed="#V" n="48"/>sacramento, quia per aliam rationem comparantur species
+            <lb ed="#V" n="49"/>ad locum &amp; corpus Christi ad species vt ad sacramentum.
+            <lb ed="#V" n="50"/>Et ideo manentibus speciebus quantumcunque transferar
+            <lb ed="#V" n="51"/>tur de loco ad locum corpus Christi praesens eis semper est
+            <lb ed="#V" n="52"/>vbi erat, quia est in caelo localiter, &amp; in speciebus
+            sacramen<lb ed="#V" n="53" break="no"/>taliter, ad nihil aliud autem habet realem praesentiam. Et
+            <lb ed="#V" n="54"/>potest poni exemplum satis conueniens, quia Angelus est
+            <lb ed="#V" n="55"/>realiter praesens corpori quod mouet, ista tamen praesentia
+            <lb ed="#V" n="56"/>in Angelo non est localis sic quod angelus sit illi corpori
+            pro<lb ed="#V" n="57" break="no"/>pinquus, &amp; ab alio distet. Propter quod moto corpore de
+            <lb ed="#V" n="58"/>loco ad locum Angelus non mouetur in se, nec per se, nec
+            <lb ed="#V" n="59"/>per accidens, nec efficitur in aliquo loco de nouo, sic cum
+            <lb ed="#V" n="60"/>praesentia corporis Christi in Sacramento non sit localis
+            <lb ed="#V" n="61"/>quantumcunque species moueantur localiter, ipsum tamen
+            <lb ed="#V" n="62"/>non mouetur nec per se, nec per accidens, nec acquirit
+            no<lb ed="#V" n="63" break="no"/>uum locum. Haec Durandus. Et in hoc secundus artic. terminat.
+          </p>
+        </div>
+        <div xml:id="capsco-d39ass-Dd1e557">
+          <head xml:id="capsco-d39ass-Hd1e559">Articulus 3</head>
+          <p xml:id="capsco-d39ass-d1e561">
+            <lb ed="#V" n="64"/><milestone ed="#V" unit="p" rend="initial"/> Vantum ad tertium articulum respondendum est
+            obie<lb ed="#V" n="65" break="no"/>ctionibus supradictis. Et quidem ad obiecta Scoti
+            con<lb ed="#V" n="66" break="no"/>tra secundam conclusionem dicitur primo quod faciliter
+            pos<lb ed="#V" n="67" break="no"/>set dici quod ex dictis in prima conclusione non potest
+            ex<lb ed="#V" n="68" break="no"/>presse haberi quod corpus Christi secundum esse quod habet
+            <lb ed="#V" n="69"/>in Eucharistia possit moueri a sacerdote vel ab alia virtute
+            <lb ed="#V" n="70"/>creata, sed solum quod secundum tale esse moueri potest, &amp;
+            mo<lb ed="#V" n="71" break="no"/>uetur a quacunque virtute hoc fiat creata vel increata.
+            Di<lb ed="#V" n="72" break="no"/>citur secundo quod concesso quod possit moueri a virtute creata,
+            <lb ed="#V" n="73"/>sicut puto sensisse Sanctum Thomam tamen argumenta Scoti non
+            <lb ed="#V" n="74"/>concludunt sufficienter oppositum. Vnde ad primam
+            for<lb ed="#V" n="75" break="no"/>mam ibidem factam dicitur negando maiorem, sufficit enim
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="76"/>quod tale mobile per accidens ad motum alterius faciat
+            aliqua<lb ed="#V" n="77" break="no"/>liter vnum cum illo quod mouetur per se, &amp; si non sicut actus
+            <lb ed="#V" n="78"/>cum potentia vel potentia cum actu, tamen sicut succedens
+            <lb ed="#V" n="79"/>subiecto aut potentiae actus, aeque inseparabiliter vnitum
+            <lb ed="#V" n="80"/>actui remanenti, sicut subiectum aut potentia praecedens
+            ta<lb ed="#V" n="81" break="no"/>li actui vniebatur, licet prima vnio potentiae cum actu esset
+            <lb ed="#V" n="82"/>per inhaerentiam &amp; informationem, non autem vnio vel
+            con<lb ed="#V" n="83" break="no"/>iunctio sequens, sic autem est in proposito nostro, quia
+            li<lb ed="#V" n="84" break="no"/>cet corpus Christi non faciat vnum per se cum speciebus.
+            Eu<lb ed="#V" n="85" break="no"/>charistiae sicut potentia vel subiectum cum actu, nec
+            actue<lb ed="#V" n="86" break="no"/>tur aut informetur praedictis speciebus, tamen succedit
+            sub<lb ed="#V" n="87" break="no"/>stantiae panis quae vniebatur praedictis speciebus sicut
+            subie<lb ed="#V" n="88" break="no"/>ctum &amp; potentia suo actui, &amp; actuabatur &amp; informabatur
+            <lb ed="#V" n="89"/>eidem, &amp; tanta est inseparabilitas specierum panis a
+            corpo<lb ed="#V" n="90" break="no"/>re Christi, quanta fuit earundem a substantia panis, sic quod
+            ip<lb ed="#V" n="91" break="no"/>sis speciebus manentibus nulla virtute creata possunt
+            sepa<lb ed="#V" n="92" break="no"/>rari a corpore Christi potissime localiter, licet corpus
+            Chri<lb ed="#V" n="93" break="no"/>sti possit esse sine eis postquam corruptae sunt, sicut
+            substan<lb ed="#V" n="94" break="no"/>tia panis poterat esse sine illis, si naturali virtute spoliaretur
+            <lb ed="#V" n="95"/>accidentibus supradictis sicut &amp; poterat, &amp; de tali
+            insepara<lb ed="#V" n="96" break="no"/>bilitate loquitur probatio primae conclusionis in parte. Es
+            <lb ed="#V" n="97"/>praeter hoc Sanctus Thomas tertia parte q. 76. arti. 6. in solutione
+            ter<lb ed="#V" n="98" break="no"/>tij sic dicit. Corpus Christi remanet in hoc sacramento non
+            <lb ed="#V" n="99"/>solum in crastinum, sed etiam in futurum quousque species
+            <lb ed="#V" n="100"/>sacramentales manent, quibus cessantibus desinit esse
+            cor<lb ed="#V" n="101" break="no"/>pus Christi sub eis, non quia ab eis dependeat, sed quia
+            tol<lb ed="#V" n="102" break="no"/>litur habitudo corporis Christi ad illas species, per quem
+            <lb ed="#V" n="103"/>modum Deus desinit esse Dominus creaturae desinentis. Haec
+            <lb ed="#V" n="104"/>ille. Dicitur tertio quod instantia adducta de graui
+            insufficien<lb ed="#V" n="105" break="no"/>ter soluitur. Potest enim dari casus, in quo aliquid
+            mo<lb ed="#V" n="106" break="no"/>uet aliquam substantiam immaterialem per accidens
+            mo<lb ed="#V" n="107" break="no"/>uendo aliquid per se, &amp; tamen illa substantia immaterialis
+            <lb ed="#V" n="108"/>nullo modo est vnita tali moto per se, sicut cum nauta
+            mo<lb ed="#V" n="109" break="no"/>uendo nauem per se mouet per accidens animas hominum
+            <lb ed="#V" n="110"/>existentium in naui per accidens, &amp; tamen anima hominis
+            <lb ed="#V" n="111"/>non facit per se vnum cum naui, sicut actus cum potentia,
+            <lb ed="#V" n="112"/>sed solum cum proprio corpore.
+          </p>
+          <p xml:id="capsco-d39ass-d1e673">
+            Item falsum dicit arguens
+            <lb ed="#V" n="113"/>in hoc, quod quaelibet virtus mouens aliquod graue per
+            acci<lb ed="#V" n="114" break="no"/>dens ad motum nauis possit illud graue per se mouere, si
+            <lb ed="#V" n="115"/>sit separatum a naui. Huius enim falsitas manifeste patet.
+            <lb ed="#V" n="116"/>Nam nauta mouendo nauem mouet per accidens centum
+            <lb ed="#V" n="117"/>equos vel homines, &amp; immensa pondera ferri quae tamen
+            <lb ed="#V" n="118"/>non potest per se mouere extra nauem. Dicitur quarto
+            pro<lb ed="#V" n="119" break="no"/>secunda forma ibidem adducta quod concessa maiore
+            ibi<lb ed="#V" n="120" break="no"/>dem posita minor neganda est, quia corpus Christi
+            secun<lb ed="#V" n="121" break="no"/>dum esse quod habet in Eucharistia non est mobile
+            omni<lb ed="#V" n="122" break="no"/>no improportionatum potentiae motiuae creaturae, licet enim
+            <lb ed="#V" n="123"/>non sit proportionatum quo ad moueri per se a creatura,
+            <lb ed="#V" n="124"/>est tamen proportionatum quo ad moueri per accidens ad
+            <lb ed="#V" n="125"/>motum hostiae, quia licet non se habeat ad hostiam modis
+            <lb ed="#V" n="126"/>ibidem recitatis, tamen sufficienter vnitur Eucharistiae
+            mo<lb ed="#V" n="127" break="no"/>do praedicto, vt puta per modum succedentis subiecto
+            acci<lb ed="#V" n="128" break="no"/>dentium ordinem habentis ad illa cum aequali
+            inseparabi<lb ed="#V" n="129" break="no"/>litate quantam habuit praecedens subiectum ad accidentia
+            <lb ed="#V" n="130"/>praedicta modo superius exposito. Et ideo similitudo de
+            <lb ed="#V" n="131"/>praesentia Angeli ad lapidem, &amp; de corpore Christi ad
+            ho<lb ed="#V" n="132" break="no"/>stiam non valet in proposito. Dicitur quinto, quod non est
+            in<lb ed="#V" n="133" break="no"/>conueniens concedere in tali motione per accidens
+            corpo<lb ed="#V" n="134" break="no"/>ris Christi ad motum hostiae esse aliquam participationem
+            <lb ed="#V" n="135"/>miraculi, nec mere fieri virtute creata principaliter, non quod
+            <lb ed="#V" n="136"/>talis motio sit nouum miraculum, sed dependet ex
+            princi<lb ed="#V" n="137" break="no"/>pali miraculo conuersionis substantiae panis in corpus
+            Chri<lb ed="#V" n="138" break="no"/>sti, quo fit vt corpus Christi sine informatione &amp;
+            inhaesio<lb ed="#V" n="139" break="no"/>ne vniatur inseparabili concomitantia speciebus panis
+            con<lb ed="#V" n="140" break="no"/>uersi remanentibus, &amp; sic reddatur mobile proportionatum
+            <lb ed="#V" n="141"/>virtuti creatae motione per accidens secundum esse quod
+            <lb ed="#V" n="142"/>habet sub speciebus, vt dictum est, vt sic virtus creata per
+            <lb ed="#V" n="143"/>se moueat hostiam, vt agens principale, corpus Christi
+            ve<lb ed="#V" n="144" break="no"/>ro moueat vt mouens instrumentale respectu diuinae
+            vir<lb ed="#V" n="145" break="no"/>tutis principaliter mouentis illud, tamen non oportet hic
+            <lb ed="#V" n="146"/>refugere ad miraculum, ideo standum est in prima solutione
+            <lb ed="#V" n="147"/>quod ista motio fit a virtute creata naturali sine infusione
+            no<lb ed="#V" n="148" break="no"/>uae virtutis supernaturalis ipsi mouenti hostiam, licet non
+            <lb ed="#V" n="149"/>sit sine miraculo quod corpus Christi sit mobile per
+            acci<lb ed="#V" n="150" break="no"/>dens proportionatum virtuti creatae mouenti per se hostiam
+            <pb ed="#V" n="113"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>Et haec sufficiant ad obiecta Scoti.
+          </p>
+          <p xml:id="capsco-d39ass-d1e764">
+            Ad primum Durandi
+            <lb ed="#V" n="2"/>contra eandem conclusionem respondet Petus de Palude
+            di<lb ed="#V" n="3" break="no"/>cens quod maior illius argumenti in naturalibus quidem non
+            <lb ed="#V" n="4"/>habet instantiam, sed simpliciter loquendo falsa est in
+            pro<lb ed="#V" n="5" break="no"/>posito, quia si aliqua duo se habent aliquo illorum
+            modo<lb ed="#V" n="6" break="no"/>rum quos ponit, si tamen se habeant per concomitantiam
+            <lb ed="#V" n="7"/>inseparabilem, sic scilicet quod non solum vbicunque est vnum
+            <lb ed="#V" n="8"/>est aliud, sed quod vbicunque vnum esse incipit localiter, &amp;
+            <lb ed="#V" n="9"/>aliud incipit esse ibi realiter praesens cum prius realiter ibi
+            <lb ed="#V" n="10"/>esset absens, &amp; vbicunque vnum desinit esse localiter, aliud
+            <lb ed="#V" n="11"/>incipit ibi esse realiter absens, cum prius realiter esset ibi
+            prae<lb ed="#V" n="12" break="no"/>sens, tunc verum est quod ad motum vnius per se mouetur aliud
+            <lb ed="#V" n="13"/>per accidens. Moueri enim de loco ad locum est realiter
+            <lb ed="#V" n="14"/>deserere primum locum, &amp; realiter petere secundum locum,
+            <lb ed="#V" n="15"/>quamuis alterum non sufficiat, quia corpus quod de nono
+            <lb ed="#V" n="16"/>creatur habet nouum locum, nec tamen est localiter
+            mo<lb ed="#V" n="17" break="no"/>tum. Similiter quod de nouo generatur, &amp; econuerso quod de
+            <lb ed="#V" n="18"/>nouo corrumpitur perdit locum quem habebat, nec tamen
+            <lb ed="#V" n="19"/>est localiter motum, sed corpus Christi dato quod nullo
+            mo<lb ed="#V" n="20" break="no"/>dorum quos ponit arguens se haberet ad species, tamen se
+            <lb ed="#V" n="21"/>habet ad eas secundum huiusmodi concomitantiam
+            inse<lb ed="#V" n="22" break="no"/>parabilem: ergo ipsum mouetur per accidens ad motum
+            <lb ed="#V" n="23"/>illarum per se. Vnde dato quod corpus Christi non posset
+            dici<lb ed="#V" n="24" break="no"/>motum localiter sacramentaliter, quando de nouo
+            conse<lb ed="#V" n="25" break="no"/>cratur: quia licet habeat locum quem prius non habebat,
+            <lb ed="#V" n="26"/>non tamen deserit primum locum, &amp; similiter non potest
+            <lb ed="#V" n="27"/>dici motum quando species corrumpuntur, quia licet
+            de<lb ed="#V" n="28" break="no"/>sinat esse hic, non tamen per hoc desinere incipit alibi esse,
+            <lb ed="#V" n="29"/>si vtrunque requiratur, tamen quia per motum localem
+            spe<lb ed="#V" n="30" break="no"/>cierum desinit esse in primo loco specierum, &amp; incipit esse
+            <lb ed="#V" n="31"/>in secundo loco earum videtur esse motum secundum illud
+            <lb ed="#V" n="32"/>esse locale quod habet in sacramento. Haec Petrus &amp; bene &amp;
+            <lb ed="#V" n="33"/>conformiter ad praedicta.
+          </p>
+          <p xml:id="capsco-d39ass-d1e836">
+            Ad secundum respondet idem
+            <lb ed="#V" n="34"/>Petrus dicens quod idem secundum idem esse numerale non
+            <lb ed="#V" n="35"/>potest moueri diuersis motibus, sed secundum diuersa sic,
+            <lb ed="#V" n="36"/>sicut enim secundum vnam manum potest homo moueri
+            sur<lb ed="#V" n="37" break="no"/>sum &amp; secundum aliam deorsum, sic si vna manus posset
+            <lb ed="#V" n="38"/>esse dextra &amp; sinistra, secundum esse dextrum posset leuari,
+            <lb ed="#V" n="39"/>&amp; secundum sinistrum deponi. Cum enim motus localis
+            <lb ed="#V" n="40"/>sundetur immediate non super illud quod est in loco, sed
+            <lb ed="#V" n="41"/>super ipsum esse in loco, si vnum &amp; idem habet duo esse in
+            <lb ed="#V" n="42"/>loco, poterit habere duos motus. Ergo secundum vnam
+            ho<lb ed="#V" n="43" break="no"/>stiam non diuisam in qua Christus habet vnum esse
+            sacra<lb ed="#V" n="44" break="no"/>mentale numero, non potest ipse moueri motibus
+            opposi<lb ed="#V" n="45" break="no"/>tis, sed secundum duas hostias in quibus habet duplex esse
+            <lb ed="#V" n="46"/>sacramentale sic. Quia autem in diuersis hostijs corpus
+            <lb ed="#V" n="47"/>Christi habeat duplex esse sacramentale secundum
+            nume<lb ed="#V" n="48" break="no"/>rum, licet vnum secundum speciem, probatur. Quia quae
+            <lb ed="#V" n="49"/>sunt vnum secundum esse numerale simul generantur, &amp;
+            <lb ed="#V" n="50"/>corrumpuntur, sed corpus Christi seorsum incipit esse, &amp;
+            <lb ed="#V" n="51"/>desinit in diuersis locis hostiarum secundum quod diuersis
+            tem<lb ed="#V" n="52" break="no"/>poribus consecrantur &amp; corrumpuntur: ergo sunt ibi
+            di<lb ed="#V" n="53" break="no"/>uersa esse, &amp; per consequens contrarij motus possunt inesse.
+            <lb ed="#V" n="54"/>Similiter motus, &amp; quies non possunt conuenire eidem
+            se<lb ed="#V" n="55" break="no"/>cundum eundem modum essendi, &amp; secundum idem esse
+            <lb ed="#V" n="56"/>in, sed supposito quod aliquid habeat esse in pluribus locis
+            ni<lb ed="#V" n="57" break="no"/>hil prohibet ipsum moueri secundum vnum locum &amp;
+            ma<lb ed="#V" n="58" break="no"/>nere secundum alium, &amp; sic supposito quod Christus non sit
+            <lb ed="#V" n="59"/>localiter nisi in coelo, impossibile est quod per se moueatur
+            lo<lb ed="#V" n="60" break="no"/>caliter &amp; quiescat, &amp; similiter supposito quod non sit
+            sacramen<lb ed="#V" n="61" break="no"/>taliter nisi in vno Altari, impossibile est quod secundum esse
+            sa<lb ed="#V" n="62" break="no"/>cramentale moueatur &amp; quiescat, sed si est in caelo localiter
+            <lb ed="#V" n="63"/>&amp; in Altari sacramentaliter, poterit discurrere per coelum,
+            <lb ed="#V" n="64"/>&amp; quiescere in altari, &amp; poterit quiescere in caelo, &amp; portari
+            <lb ed="#V" n="65"/>per vicum ad infirmum. Et si est in multis altaribus
+            sacra<lb ed="#V" n="66" break="no"/>mentaliter poterit in vno quiescere, &amp; in alio moueri, sicut
+            <lb ed="#V" n="67"/>si secundum pedem ego sum in aqua, &amp; secundum manum
+            <lb ed="#V" n="68"/>in aere, secundum vnum possum moueri, &amp; secundum aliud
+            <lb ed="#V" n="69"/>quiescere, &amp; idem erit de sola manu supposito quod ipsa posset
+            <lb ed="#V" n="70"/>esse simul in diuersis locis. Haec Petus &amp; bene.
+          </p>
+          <p xml:id="capsco-d39ass-d1e920">
+            Ad tertium
+            re<lb ed="#V" n="71" break="no"/>spondet idem Petrus quod non sequitur, mouetur mota
+            ho<lb ed="#V" n="72" break="no"/>stia: ergo frangitur fracta hostia, quia ad motum localem
+            <lb ed="#V" n="73"/>sufficit quod aliquid deserat locum quem prius habebat, &amp;
+            <lb ed="#V" n="74"/>accipiat nouum locum quem prius non habebat. Tunc
+            <lb ed="#V" n="75"/>enim sicut dicebatur prius esse in loco prius, &amp; tunc in
+            lo<cb ed="#V" n="b"/><lb ed="#V" n="76" break="no"/>co dicitur motum de loco ad locum quia mutari non est
+            <lb ed="#V" n="77"/>aliud quam aliter se habere nunc &amp; prius secundum
+            vnum<lb ed="#V" n="78" break="no"/>quodque genus mutationis. Vnde aliter se habere ad locum
+            <lb ed="#V" n="79"/>quam prius est mutari secundum locum. Vnde cum
+            cor<lb ed="#V" n="80" break="no"/>pus Christi dicatur esse in illo loco vbi est hostia realiter &amp;
+            <lb ed="#V" n="81"/>praesentialiter, &amp; si non localiter, sicut illi qui dicunt
+            ange<lb ed="#V" n="82" break="no"/>lum esse in loco diffinitiue dicunt eum moueri localiter:
+            <lb ed="#V" n="83"/>quia incipit esse realiter absens illi cui erat realiter praesens,
+            <lb ed="#V" n="84"/>&amp; econuerso, quamuis non sit alicubi localiter, sed
+            diffuiti<lb ed="#V" n="85" break="no"/>ue, sic exquo ad motum hostiae corpus Christi incipit esse
+            <lb ed="#V" n="86"/>&amp; desinit esse in loco, &amp; reali praesentia &amp; absentia: ergo sic
+            <lb ed="#V" n="87"/>ei conuenit moueri de loco ad locum ad motum hostix
+            si<lb ed="#V" n="88" break="no"/>cut esse in loco ad praesentiam hostiae. Sed ad fractionem
+            <lb ed="#V" n="89"/>non sufficit nec requiritur quod ipsum quod erat in vno loco
+            <lb ed="#V" n="90"/>fiat in pluribus, cum etiam in vacuo fractio esse possit, sed
+            <lb ed="#V" n="91"/>quod illud quod erat vnum continuum &amp; integrum per
+            vio<lb ed="#V" n="92" break="no"/>lentiam in duas partes diuidatur, quarum quaelibet sit
+            mi<lb ed="#V" n="93" break="no"/>nor toto. Et quia hoc realiter competit quantitati hostiae:
+            <lb ed="#V" n="94"/>ideo quantitas illa quae perdita sua integritate in minutas
+            <lb ed="#V" n="95"/>partes diuiditur vere frangitur. Sed sic non est de corpore
+            <lb ed="#V" n="96"/>Christi, &amp; eius quantitate, quia manet integrum &amp;
+            indiui<lb ed="#V" n="97" break="no"/>sum cum sit impassibile &amp; est totum integrum in qualibet
+            <lb ed="#V" n="98"/>parte hostiae fractae, ita quod non solum est integer in se, immo
+            <lb ed="#V" n="99"/>integro modo est in parte fracta, sicut erat in integra, ideo
+            <lb ed="#V" n="100"/>nec secundum quod est in se, nec secundum quod est in hostia
+            fran<lb ed="#V" n="101" break="no"/>gitur. Sed si ad fractionem hostiae Christus in se manens
+            in<lb ed="#V" n="102" break="no"/>teger non esset secundum se totum in qualibet parte, sed
+            se<lb ed="#V" n="103" break="no"/>cundum partem tantum, tunc haberet colorem quod sicut
+            <lb ed="#V" n="104"/>ad motum hostiae mouetur non secundum esse locale quod
+            <lb ed="#V" n="105"/>habet in coelo, sed secundum esse sacramentale quod habet
+            <lb ed="#V" n="106"/>in sacramento, sic secundum fractionem hostiae
+            frangere<lb ed="#V" n="107" break="no"/>tur &amp; ipse, non secundum esse naturale quod habet in se,
+            <lb ed="#V" n="108"/>sed secundum esse sacramentale quod habet in alio. Et forte
+            <lb ed="#V" n="109"/>talem fractionem Berengarius fieri dixit in corpore
+            Chri<lb ed="#V" n="110" break="no"/>sti secundum esse sacramentale non naturale. Haec Petrus &amp;
+            <lb ed="#V" n="111"/>bene veruntamen Sanctus Thomas tertia parte q. 77. artic. 7.
+            <lb ed="#V" n="112"/>in solutione tertij sic dicit. Illud quod manducatur in
+            pro<lb ed="#V" n="113" break="no"/>pria specie ipsum frangitur &amp; masticatur in sua specie.
+            Cor<lb ed="#V" n="114" break="no"/>pus autem Christi non manducatur in sua specie, sed in
+            spe<lb ed="#V" n="115" break="no"/>cie sacramentali, &amp; ideo ipsum corpus Christi non
+            frangi<lb ed="#V" n="116" break="no"/>tur nisi secundum speciem sacramentalem, &amp; hoc modo
+            <lb ed="#V" n="117"/>intelligenda est confessio Berengarij, vt fractio &amp;
+            contri<lb ed="#V" n="118" break="no"/>tio dentium referatur ad speciem sacramentalem sub qua
+            <lb ed="#V" n="119"/>est corpus Christi. Haec ille.
+          </p>
+          <p xml:id="capsco-d39ass-d1e1030">
+            Ad quartum negatur
+            conse<lb ed="#V" n="120" break="no"/>quentia, quia ad rationem motus &amp; mutationis proprie
+            di<lb ed="#V" n="121" break="no"/>ctorum requiritur deperditio termini a quo, &amp; acquisitio
+            <lb ed="#V" n="122"/>termini ad quem, &amp; illorum terminorum successio non
+            si<lb ed="#V" n="123" break="no"/>multas, immo quaedam incompossibilitas, non sic autem est
+            <lb ed="#V" n="124"/>de loco Christi in caelo qui sibi competit ratione propriarum
+            <lb ed="#V" n="125"/>dimensionum, &amp; de loco qui sibi competit in Altari
+            ratio<lb ed="#V" n="126" break="no"/>ne dimensionum panis, quae loca simul sibi conueniunt, nec
+            <lb ed="#V" n="127"/>acquisitio vnius est perditio alterius, secus est de diuersis
+            lo<lb ed="#V" n="128" break="no"/>cis sibi conuenientibus ratione transsationis hostiae de
+            loco<lb ed="#V" n="129" break="no"/>ad locum vt patet per praedicta. Veruntamen Petrus de
+            Palu<lb ed="#V" n="130" break="no"/>de negat antecedens huius argumenti, &amp; concedit quod
+            cor<lb ed="#V" n="131" break="no"/>pus Christi existens in caelo non incipit esse in Sacramento
+            <lb ed="#V" n="132"/>nisi interueniat aliquis motus in Christo. Dicit enim sic.
+            <lb ed="#V" n="133"/>Illud quod incipit esse realiter vbi prius non erat per aliquod
+            <lb ed="#V" n="134"/>in se realiter factum id est ad se mutatum, vel in se
+            muta<lb ed="#V" n="135" break="no"/>tum, aut conuersum, illud est motum realiter secundum
+            <lb ed="#V" n="136"/>realitatem essendi qua ibi est, sic est in proposito. ergo &amp;c.
+          </p>
+          <p xml:id="capsco-d39ass-d1e1069">
+            <lb ed="#V" n="137"/>Item sicut Christus non obstante sua impassibilitate potest
+            <lb ed="#V" n="138"/>esse mutabilis de loco ad locum, &amp; incipit esse localiter vbi
+            <lb ed="#V" n="139"/>prius non erat, sic non praeiudicat suae impassibilitati, si
+            in<lb ed="#V" n="140" break="no"/>cipit esse realiter praesens vbi prius non erat, quia plus fit
+            <lb ed="#V" n="141"/>in eo per istam nouam praesentiam quam fieret per nouam
+            <lb ed="#V" n="142"/>circunscriptionem, sicut ergo diceretur motum localiter si
+            <lb ed="#V" n="143"/>inciperet esse circunscriptiue vbi prius non erat, sic potest
+            <lb ed="#V" n="144"/>dici motus sacramentaliter, quia est Sacramentaliter
+            vbi<lb ed="#V" n="145" break="no"/>non erat.
+          </p>
+          <p xml:id="capsco-d39ass-d1e1091">
+            Item videtur quod possit dici realiter mutatus:
+            <lb ed="#V" n="146"/>quia est subiectum realiter mutationis, &amp; habet realem
+            mo<lb ed="#V" n="147" break="no"/>dum essendi quem prius non habebat, ita enim realiter est
+            <lb ed="#V" n="148"/>in sacramento sicut in coelo. Vnde sicut esse alicubi est in
+            <lb ed="#V" n="149"/>eo modus realis essendi, sic esse in sacramento. Et sicut n
+            in<lb ed="#V" n="150" break="no"/>cipit esse localiter vbi prius non erat est in eo facta
+            muta<pb ed="#V" n="114"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>tio realis, quia se habet nunc aliter quam prius quod tamen
+            <lb ed="#V" n="2"/>non praeiudicat suae impassibilitati, quia per hoc nihil de
+            ab<lb ed="#V" n="3" break="no"/>solutis mutatur in eo, sic in proposito.
+          </p>
+          <p xml:id="capsco-d39ass-d1e1113">
+            Nec valet si dicatur,
+            <lb ed="#V" n="4"/>Deus incipit esse de nouo in mundo realiter cum prius non
+            <lb ed="#V" n="5"/>esset sine sui mutatione, quia Deus non incipit esse in
+            re<lb ed="#V" n="6" break="no"/>per mutationem rei in se, sicut corpus Christi: vnde cum
+            <lb ed="#V" n="7"/>realiter res in corpus Christi conuertatur, &amp; per hoc corpus
+            <lb ed="#V" n="8"/>Christi hic esse incipit, non videtur absurdum dicere corpus
+            <lb ed="#V" n="9"/>Christi mutatum esse, cum hoc sit minus quam si localiter
+            <lb ed="#V" n="10"/>mutaretur.
+          </p>
+          <p xml:id="capsco-d39ass-d1e1131">
+            Item corruptis speciebus desinit ibi esse, &amp; cum
+            <lb ed="#V" n="11"/>omnis corruptio sit quaedam mutatio cum esse quod
+            habe<lb ed="#V" n="12" break="no"/>bat ibi esset quoddam esse reale, &amp; non tantum rationis
+            re<lb ed="#V" n="13" break="no"/>latio, sicut est signatum in signo, sicut quando aliquid
+            desi<lb ed="#V" n="14" break="no"/>nit esse in loco, ipsum vbi corrumpitur, &amp; est realis
+            muta<lb ed="#V" n="15" break="no"/>tio, sic vbi sacramentale generatur quando hostia
+            consecra<lb ed="#V" n="16" break="no"/>tur, &amp; corrumpitur quando hostia corrumpitur, &amp; tamen
+            <lb ed="#V" n="17"/>cum corpus Christi secundum substantiam sit subiectum
+            <lb ed="#V" n="18"/>istius vbi sacramentalis, sicut eius quantitas est subiectum
+            <lb ed="#V" n="19"/>vbi naturalis, videtur hic sicut ibi esse quaedam mutatio
+            cu<lb ed="#V" n="20" break="no"/>ius subiectum est substantia, &amp; per consequens est mutata
+            <lb ed="#V" n="21"/>se habens aliter nunc quam prius secundum tale vbi
+            extrin<lb ed="#V" n="22" break="no"/>secum. Si dicatur quod ad motum localem requiritur desitio
+            <lb ed="#V" n="23"/>primi loci, &amp; adeptio secundi: vnde quod mouetur a loco
+            <lb ed="#V" n="24"/>ad vacuum, vel a vacuo ad locum non mouetur localiter,
+            <lb ed="#V" n="25"/>licet possit dici motum a loco, vel ad locum, &amp; per
+            conse<lb ed="#V" n="26" break="no"/>quens facta conuersione non potest dici mutatus, quia non
+            <lb ed="#V" n="27"/>desinit esse in coelo, &amp; corruptis speciebus non est mutatus,
+            <lb ed="#V" n="28"/>quia non incipit per hoc esse alibi vel alicubi sicut creatum
+            <lb ed="#V" n="29"/>in loco, vel annihilatum in loco, non est motum localiter,
+            <lb ed="#V" n="30"/>licet incipiat vel desinat esse in loco realiter.
+          </p>
+          <p xml:id="capsco-d39ass-d1e1178">
+            Dicendum quod
+            <lb ed="#V" n="31"/>saltem quando hostia consecrata de loco ad locum
+            transfer<lb ed="#V" n="32" break="no"/>tur, corpus Christi concomitans potest dici moueri
+            sacra<lb ed="#V" n="33" break="no"/>mentaliter, quia deserit primum locum sacramentalem, &amp;
+            <lb ed="#V" n="34"/>habet nouum locum sacramentalem, immo etiam per
+            no<lb ed="#V" n="35" break="no"/>uam conuersionem &amp; nouam corruptionem specierum
+            po<lb ed="#V" n="36" break="no"/>test dici esse motum sacranientaliter, quia non solum
+            dici<lb ed="#V" n="37" break="no"/>tur mutari illud quod transit de vno extrinseco in aliud, sed
+            <lb ed="#V" n="38"/>etiam illud quod transit de non esse ad esse, &amp; de esse ad non
+            <lb ed="#V" n="39"/>esse, sicut aer cum de tenebroso fit lucidus, &amp; econtra: vnde
+            <lb ed="#V" n="40"/>corpus motum de loco in vacuum vel econtra potest
+            dici<lb ed="#V" n="41" break="no"/>mutatum accipiendo vel perdendo nouum vbi. Et similiter
+            <lb ed="#V" n="42"/>in proposito corpus Christi nouum esse sacramentale
+            ac<lb ed="#V" n="43" break="no"/>quirendo &amp; nullum perdendo, &amp; similiter esse
+            sacramenta<lb ed="#V" n="44" break="no"/>le perdendo &amp; nullum acquirendo mutatur realiter, cum
+            <lb ed="#V" n="45"/>illud esse sit res vera vel realis modus essendi. Nec est simile
+            <lb ed="#V" n="46"/>de illo quod creatur vel annihilatur in loco, quia quod
+            crea<lb ed="#V" n="47" break="no"/>tur non praeexistit, &amp; quod annihilatur non remanet,
+            opor<lb ed="#V" n="48" break="no"/>tet autem ad veram mutationem idem numero substerni
+            <lb ed="#V" n="49"/>vtrique termino. Hic autem corpus Christi idem numero
+            <lb ed="#V" n="50"/>praeexistit conuersioni &amp; remanet post corruptionem. Quod
+            <lb ed="#V" n="51"/>ergo dicunt Doctores, quod non mutatur, verum est per se, sed
+            <lb ed="#V" n="52"/>per accidens, sicut dicitur 5. Physicorum quod relatio
+            no<lb ed="#V" n="53" break="no"/>ua realis aduenit nulla mutatione facta in ipso, verum est
+            <lb ed="#V" n="54"/>per se, sed per accidens, quia habet modum essendi realem
+            <lb ed="#V" n="55"/>quem prius non habebat, sed quia communis opinio est in
+            <lb ed="#V" n="56"/>contrarium quod scilicet sine sui mutatione corpus
+            Chri<lb ed="#V" n="57" break="no"/>sti incipit esse &amp; desinit esse in altari, ideo contrarium
+            inqui<lb ed="#V" n="58" break="no"/>sitiue sine assertione dictum accipiatur, sed quando
+            mouea<lb ed="#V" n="59" break="no"/>tur per accidens ad motum specierum non videtur. Haec
+            <lb ed="#V" n="60"/>Petrus, &amp; satis probabiliter quo ad multa, licet assumat
+            ali<lb ed="#V" n="61" break="no"/>qua dubia potissime quod corpus Christi habet realem
+            habitu<lb ed="#V" n="62" break="no"/>dinem, relationem, aut comparationem ad locum
+            Eucha<lb ed="#V" n="63" break="no"/>ristiae, vel specierum panis.
+          </p>
+          <p xml:id="capsco-d39ass-d1e1252">
+            Item quod incipit esse sub
+            spe<lb ed="#V" n="64" break="no"/>ciebus panis per realem motum, &amp; desinit esse sub eis
+            simi<lb ed="#V" n="65" break="no"/>liter. Item quod aeque realiter sit in loco Eucharistiae sicut
+            <lb ed="#V" n="66"/>in loco coeli, sic quod aeque realem respectum habeat ad altare
+            <lb ed="#V" n="67"/>vel calicem in sacramento, sicut ad proprium locum in
+            cae<lb ed="#V" n="68" break="no"/>lo, &amp; quaedam alia quae videntur dissona a doctrina Sancti
+            <lb ed="#V" n="69"/>Thomas vt in sequentibus forte dicetur &amp;c.
+          </p>
+          <p xml:id="capsco-d39ass-d1e1268">
+            Ad quintum
+            re<lb ed="#V" n="70" break="no"/>spondet idem Petus in sententia dicens. Si dicatur sicut aliqui
+            <lb ed="#V" n="71"/>dicunt quod translatis speciebus incipit esse &amp; desinit sine
+            sui<lb ed="#V" n="72" break="no"/>motu, verum est secundum esse locale &amp; naturale, sed non
+            <lb ed="#V" n="73"/>sine sui motu quem habet secundum esse in sacramento, quia
+            <lb ed="#V" n="74"/>ex quo ipsum esse in sacramento mutatur, per consequens
+            <lb ed="#V" n="75"/>corpus Christi subiectum illius esse mutatur subiectiue, sicut
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="76"/>terminatiue. Et quando dicunt quod non est praesens
+            lo<lb ed="#V" n="77" break="no"/>co nisi quia est praesens speciebus existentibus in loco, verum
+            <lb ed="#V" n="78"/>est. Et quando subiungunt quod eandem rationem praesentiae
+            <lb ed="#V" n="79"/>habet ad species motas &amp; quiescentes, verum est, sed
+            pro<lb ed="#V" n="80" break="no"/>pter hoc non sequitur, quin ad motum earum moueatur, &amp;
+            <lb ed="#V" n="81"/>ad quietem earum quiescat secundum esse quod habet in
+            <lb ed="#V" n="82"/>eis. Sicut color est in quanto quiescente &amp; moto eodem
+            <lb ed="#V" n="83"/>modo scilicet per inhaerentiam quae inhaerentia non variatur
+            per<lb ed="#V" n="84" break="no"/>motum subiecti, nec per quietem, tamen quia ad motum
+            <lb ed="#V" n="85"/>subiecti accidit ipsum colorem distare &amp; appropinquare,
+            <lb ed="#V" n="86"/>esse praesens &amp; absens, dicitur moueri per accidens, ita est in
+            <lb ed="#V" n="87"/>proposito. Nec est simile quod adducunt de Deo, qui
+            inci<lb ed="#V" n="88" break="no"/>pit esse &amp; desinit alicubi per rerum generationem &amp;
+            corru<lb ed="#V" n="89" break="no"/>ptionem sine sui mutatione, quia Deus non est diffinitiue
+            <lb ed="#V" n="90"/>in loco, sic hic quod non ibi, immo in omni quod est Deus est,
+            <lb ed="#V" n="91"/>sed corpus Christi sicut est localiter vbi est sua quantitas,
+            <lb ed="#V" n="92"/>ita est diffinitiue sacramentaliter vbi est quantitas
+            substan<lb ed="#V" n="93" break="no"/>tiae in illud conuersae, sed quia in multis locis potest esse
+            si<lb ed="#V" n="94" break="no"/>mul ista conuersio, ideo non est diffinitiue in vno loco
+            con<lb ed="#V" n="95" break="no"/>uersionis sic quod non in alio, sed locum substantiae
+            conuer<lb ed="#V" n="96" break="no"/>sae sic sibi diffinit quod est vbi erat quod in eum conuersum est,
+            <lb ed="#V" n="97"/>&amp; non alibi ratione cuius diffinitionis moueri potest: sed
+            <lb ed="#V" n="98"/>quia quidam negant minorem dicentes, quod corpus Christi
+            <lb ed="#V" n="99"/>est solum praesens hostiae ex vi sacramenti, sed ad locum
+            ho<lb ed="#V" n="100" break="no"/>stiae nullam praesentiam habet ratione qua est in hoc
+            sacra<lb ed="#V" n="101" break="no"/>mento, quia per aliam rationem comparatur species ad locum,
+            <lb ed="#V" n="102"/>&amp; corpus Christi ad species vt ad sacramentum, &amp; ideo
+            ma<lb ed="#V" n="103" break="no"/>nentibus speciebus quamuis transferatur de loco ad locum
+            <lb ed="#V" n="104"/>corpus Christi, quod est praesens eis semper est vbi erat, sed
+            <lb ed="#V" n="105"/>propter hoc non est neganda minor. Et ideo probatur sic:
+            <lb ed="#V" n="106"/>quia quado aliquis communicat, corpus Christi est in ore
+            <lb ed="#V" n="107"/>eius, &amp; in ventre eius, &amp; realiter suscipit corpus Christi, &amp;
+            <lb ed="#V" n="108"/>sic incipit esse vbi prius non erat: vnde Apostolus. Panem
+            <lb ed="#V" n="109"/>quem sumimus &amp;c. Et qui manducat &amp; bibit &amp;c.
+            Mandu<lb ed="#V" n="110" break="no"/>catio autem est motus quidam, &amp; sic est vbi prius non erat,
+            <lb ed="#V" n="111"/>&amp; quando ablatum est de altari iam plus non est ibi. Et ideo
+            <lb ed="#V" n="112"/>ad rationem suam est dicendum quod licet corpus Christi non
+            <lb ed="#V" n="113"/>sit praesens nisi speciebus immediate, tamen ipsis
+            medianti<lb ed="#V" n="114" break="no"/>bus est praesens illis, quibus illae sunt praesentes, &amp; ex quo
+            <lb ed="#V" n="115"/>eas inseparabiliter concomitatur sequitur eas quocunque
+            <lb ed="#V" n="116"/>vadant: vnde licet corpus Christi transsatis speciebus
+            sem<lb ed="#V" n="117" break="no"/>per sit vbi erat, quia est in speciebus vbi prius erat, tamen
+            lo<lb ed="#V" n="118" break="no"/>quendo de loco communi &amp; remoto est vbi prius non erat,
+            <lb ed="#V" n="119"/>&amp; non est vbi prius erat. Sicut qui est in naui semper est vbi
+            <lb ed="#V" n="120"/>erat, si de sede sua se non moueat quantum ad nauem, quia
+            <lb ed="#V" n="121"/>in eadem parte nauis vbi prius, sed respectu aquae vel
+            ripae<lb ed="#V" n="122" break="no"/>ex qua nauis est mota, est vbi prius non erat, &amp; non est vbi
+            <lb ed="#V" n="123"/>prius erat. Et similiter est in proposito de esse
+            sacramenta<lb ed="#V" n="124" break="no"/>li, sicut ibi de esse locali. Nam corpus Christi secundum
+            es<lb ed="#V" n="125" break="no"/>se sacramentale sic in altari est quod non in coelo, immo
+            secun<lb ed="#V" n="126" break="no"/>dum illud esse est realiter absens &amp; distans a coelo, &amp;
+            raeali<lb ed="#V" n="127" break="no"/>ter praesens &amp; propinquum altari: ergo secundum tale esse
+            <lb ed="#V" n="128"/>conuenit ei motus secundum quod diffinit sibi locum, &amp; si
+            <lb ed="#V" n="129"/>non est secundum circunscriptionem &amp; situm, saltem quo
+            <lb ed="#V" n="130"/>ad realem praesentiam, vt non dicam propinquitatem quae
+            <lb ed="#V" n="131"/>sonat modum quantitatis, quia non est hic modo
+            quantita<lb ed="#V" n="132" break="no"/>tiuo. Haec ille.
+          </p>
+          <p xml:id="capsco-d39ass-d1e1409">
+            Ex quibus patet solutio ad vtrunque caput
+            <lb ed="#V" n="133"/>quinti argumenti. Cum enim fert instantiam contra
+            maio<lb ed="#V" n="134" break="no"/>rem argumenti Petri patet ex dictis quod instantia nulla est,
+            si<lb ed="#V" n="135" break="no"/>cut patet ex dictis in solutione quarti. Nam dum corpus
+            Chri<lb ed="#V" n="136" break="no"/>sti incipit esse in sacramento, ipsum incipit esse in vno
+            loco<lb ed="#V" n="137" break="no"/>non deserendo alium locum, secus est dum hostia de
+            loco<lb ed="#V" n="138" break="no"/>ad locum transfertur. Rursus quia corpus Christi incipit
+            <lb ed="#V" n="139"/>esse in sacramento, &amp; in loco sacramenti per conuersionem
+            <lb ed="#V" n="140"/>panis in ipsum, &amp; per realem mutationem vel desitionem
+            <lb ed="#V" n="141"/>alterius, ideo non oportet corpus Christi ex hoc mutari,
+            <lb ed="#V" n="142"/>secus est dum concomitando sacramentum transfertur de
+            <lb ed="#V" n="143"/>loco ad locum nulla facta conuersione vel mutatione
+            alicu<lb ed="#V" n="144" break="no"/>ius substantiae in ipsum. Et sic licet in primo casu corpus
+            <lb ed="#V" n="145"/>Christi non possit dici proprie motum vel mutatum, tamen
+            <lb ed="#V" n="146"/>in secundo casu veraciter mouetur.
+          </p>
+          <p xml:id="capsco-d39ass-d1e1442">
+            Sciendum tamen est quod cum
+            <lb ed="#V" n="147"/>dicit Petus ipsum vere moueri vel mutari etiam in primo
+            ca<lb ed="#V" n="148" break="no"/>su, quia ad veram mutationem sufficit acquisitio noui
+            ter<lb ed="#V" n="149" break="no"/>mini sine deperditione prioris, sicut cum aer de tenebroso
+            <lb ed="#V" n="150"/>sit lucidus &amp;c. Dicitur quod ad veram mutationem sufficit
+            <pb ed="#V" n="115"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>acquisitio noui termini sine deperditione alicuius positiui
+            <lb ed="#V" n="2"/>praeexistentis, sed hoc non sufficit ad veram rationem
+            mo<lb ed="#V" n="3" break="no"/>tus, vbi oportet vtrumque terminum a quo &amp; ad quem esse
+            <lb ed="#V" n="4"/>positiuum, vt patet 5. Physicor. Latio autem localis est
+            mo<lb ed="#V" n="5" break="no"/>tus proprie dictus, vt patet 5. Physic. ideo nihil mutatur
+            lo<lb ed="#V" n="6" break="no"/>caliter nisi perdat vnum locum &amp; acquirat alium, &amp; ideo
+            <lb ed="#V" n="7"/>cum corpus Christi incipit esse in sacramento, &amp; in loco
+            sa<lb ed="#V" n="8" break="no"/>cramenti per nouam conuersionem, non potest dici motum,
+            <lb ed="#V" n="9"/>aut mutatum localiter, nec apparet quo alio motu vel
+            mu<lb ed="#V" n="10" break="no"/>tatione tunc mutetur, cum praeter locum &amp; sacramentum
+            <lb ed="#V" n="11"/>nullum absolutum acquirat, sed purum respectum extra
+            ge<lb ed="#V" n="12" break="no"/>nus ipsius vbi, qui non potest esse terminus motus proprie
+            <lb ed="#V" n="13"/>dicti. Ex acquisitione autem extrinseci sacramenti vel
+            lo<lb ed="#V" n="14" break="no"/>ci sacramenti non potest dici motum esse, sed forte
+            muta<lb ed="#V" n="15" break="no"/>tum esse improprie valde mutatione acquisitiua vel
+            deper<lb ed="#V" n="16" break="no"/>ditiua. Et forte hoc concedendum est vt fiat vis inter
+            mo<lb ed="#V" n="17" break="no"/>tum localem &amp; mutationem localem, &amp; iterum inter
+            muta<lb ed="#V" n="18" break="no"/>tionem localem locati, &amp; mutationem localem non
+            loca<lb ed="#V" n="19" break="no"/>ti, sed tantum vn ti locato, quae est mutatio localis per
+            ac<lb ed="#V" n="20" break="no"/>cidens, sicut &amp; acquisitiua loci per accidens &amp; mediante
+            ali<lb ed="#V" n="21" break="no"/>quo per se locato, &amp; ita secunda mutatio localis per
+            acci<lb ed="#V" n="22" break="no"/>dens potest concedi inesse corpori Christi in instanti
+            con<lb ed="#V" n="23" break="no"/>uersionis panis in ipsum, non autem motus localis. Dicitur
+            <lb ed="#V" n="24"/>secundo quod instantia lata contra minorem argumenti
+            suffi<lb ed="#V" n="25" break="no"/>cienter euacuata est ex praedictis, quia corpus Christi licet
+            <lb ed="#V" n="26"/>non habeat ad locum hostiae praesentiam per se &amp;
+            immedia<lb ed="#V" n="27" break="no"/>te, habet tamen praesentiam ad illum per accidens, &amp;
+            me<lb ed="#V" n="28" break="no"/>diante ratione dimensionum panis quas inseparabiliter
+            con<lb ed="#V" n="29" break="no"/>comitatur, &amp; quibus aliqua vnione coniungitur.
+            Exem<lb ed="#V" n="30" break="no"/>plum autem quod adducitur de angelo non valet, tum quia
+            <lb ed="#V" n="31"/>substantia Angeli alio modo est praesens corpori moto ab
+            <lb ed="#V" n="32"/>angelo, &amp; alio modo corpus Christi ad species panis, quia
+            <lb ed="#V" n="33"/>prima praesentia est sicut motoris ad mobile, secunda vero
+            <lb ed="#V" n="34"/>praesentia est sicut substantiae ad quantitatem, &amp; habens
+            ali<lb ed="#V" n="35" break="no"/>quid simile illi praesentiae qua subiectum dicitur praesens suo
+            <lb ed="#V" n="36"/>accidenti, quia licet corpus Christi non subiiciatur
+            dimen<lb ed="#V" n="37" break="no"/>sionibus panis conuersi, succedit tamen subiecto
+            dimensio<lb ed="#V" n="38" break="no"/>num sine informatione in consimili praesentia, &amp; eadem vel
+            <lb ed="#V" n="39"/>tanta inseparabilitate, tum quia praesentia Angeli ad
+            cor<lb ed="#V" n="40" break="no"/>pus est voluntaria, non autem praesentia corporis Christi
+            <lb ed="#V" n="41"/>ad species modo prius exposito, tum quia falsum assumit
+            <lb ed="#V" n="42"/>arguens scilicet quod angelus mouens corpus non moueatur ad
+            mo<lb ed="#V" n="43" break="no"/>tum talis corporis.
+          </p>
+          <p xml:id="capsco-d39ass-d1e1551">
+            Vnde Sanctus Thomas prima parte q. 51. artic. 3.
+            <lb ed="#V" n="44"/>in solutione tertij sic dicit. Motus qui est a motore
+            coniun<lb ed="#V" n="45" break="no"/>cto est proprium opus vitae, sic autem non mouentur
+            cor<lb ed="#V" n="46" break="no"/>pora assumpta ab angelis, quia angeli non sunt formae
+            eo<lb ed="#V" n="47" break="no"/>rum, mouentur tamen angeli per accidens motis
+            huiusmo<lb ed="#V" n="48" break="no"/>di corporibus, cum sint in eis sicut motores in mobilibus,
+            <lb ed="#V" n="49"/>&amp; ita sunt hic quod non alibi, quod de Deo dici non potest: vnde
+            <lb ed="#V" n="50"/>licet Deus non moueatur motis his in quibus est, quia
+            vbi<lb ed="#V" n="51" break="no"/>que est, Angeli tamen mouentur per accidens ad motum
+            cor<lb ed="#V" n="52" break="no"/>porum assumptorum, non autem ad motum corporum
+            cae<lb ed="#V" n="53" break="no"/>lestium, &amp; si sint in eis vt motores in mobilibus, quia
+            cor<lb ed="#V" n="54" break="no"/>pora coelestia non recedunt de loco secundum totum, nec
+            <lb ed="#V" n="55"/>determinatur spiritui mouenti orbem locus secundum
+            ali<lb ed="#V" n="56" break="no"/>quam determinatam partem substantiae orbis quae nunc est
+            <lb ed="#V" n="57"/>in oriente nunc in occidente, sed secundum determinatum
+            <lb ed="#V" n="58"/>situm, quia semper est in oriente virtus mouens, vt dicitur
+            <lb ed="#V" n="59"/>8. Physicor. Haec ille. Ex quibus patet exemplum adductum
+            <lb ed="#V" n="60"/>ad propositum nil valere. Et haec sufficiant ad obiecta
+            Du<lb ed="#V" n="61" break="no"/>randi.
+          </p>
+          <p xml:id="capsco-d39ass-d1e1594">
+            Ad argumentum contra quaestionem patet
+            respon<lb ed="#V" n="62" break="no"/>sio per praedicta. Et haec de quaestione sufficiant. De qua
+            <lb ed="#V" n="63"/>Benedictus sit Deus. Amen.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

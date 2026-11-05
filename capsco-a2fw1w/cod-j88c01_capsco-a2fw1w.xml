@@ -1,0 +1,666 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 1, Distinctio 27, Quaestio 1</title>
+        <author ref="#JohannesCapreolus">Johannes Capreolus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 1, Distinctio 27, Quaestio 1</title>
+          <date when="2026-11-04">Nov 4, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-j88c01">Venice, 1589, v. 1</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-04" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="386"/>
+        <cb ed="#V" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="capsco-a2fw1w"><!-- l1d27q1 -->
+        <head xml:id="capsco-a2fw1w-Hd1e101">Quaestio 1</head>
+        <head xml:id="capsco-a2fw1w-Hd1e103" type="question-title">Utrum generare et paternitas sint idem realiter in divinis</head>
+        <p xml:id="capsco-a2fw1w-d1e106">
+          <lb ed="#V" n="87"/>DISTINCTIO XXVII
+          <lb ed="#V" n="88"/>QVAESTIO I
+          <lb ed="#V" n="89"/>Vtrum generare &amp; paternitas sint idem
+          reali<lb ed="#V" n="90" break="no"/>ter in diuinis.
+        </p>
+        <p xml:id="capsco-a2fw1w-d1e117">
+          <lb ed="#V" n="91"/><milestone ed="#V" unit="p" rend="initial"/> CIRCA vigesimam septimam distinctionem
+          <lb ed="#V" n="92"/>quaeritur. Vtrum generare &amp; paternitas sint
+          <lb ed="#V" n="93"/>idem realiter in diuinis.
+        </p>
+        <p xml:id="capsco-a2fw1w-d1e127">
+          Et arguitur quod non,
+          <lb ed="#V" n="94"/>quia ea quae reducuntur ad praedicamenta non
+          <lb ed="#V" n="95"/>videntur esse realiter idem, sed ista sunt
+          hu<lb ed="#V" n="96" break="no"/>iusmodi, quia generare videtur reduci ad praedicamentum
+          <lb ed="#V" n="97"/>actionis, paternitas vero ad praedicamentum relationis:
+          <lb ed="#V" n="98"/>igitur non sunt idem secundum rem.
+        </p>
+        <p xml:id="capsco-a2fw1w-d1e141">
+          <lb ed="#V" n="99"/><milestone ed="#V" unit="p" rend="indent"/> SEd in oppositum arguitur: nam magister ponit in hac
+          <lb ed="#V" n="100"/>V distinctione, quod eadem proprietas dicitur paternitas
+          <lb ed="#V" n="101"/>vel generatio, &amp; eadem filiatio &amp; natiuitas siue
+          origo:igi<lb ed="#V" n="102" break="no"/>tur sunt realiter idem.
+        </p>
+        <p xml:id="capsco-a2fw1w-d1e153">
+          <lb ed="#V" n="103"/><milestone ed="#V" unit="p" rend="indent"/> In hac quaestione erunt duo articuli. In primo ponentur
+          <lb ed="#V" n="104"/>conclusiones. In secundo obiectiones.
+        </p>
+        <div xml:id="capsco-a2fw1w-Dd1e161">
+          <head xml:id="capsco-a2fw1w-Hd1e163">Articulus 1</head>
+          <p xml:id="capsco-a2fw1w-d1e165">
+            <lb ed="#V" n="105"/><milestone ed="#V" unit="p" rend="initial"/> QVantum ad primum articulum sit prima conclusio.
+            <lb ed="#V" n="106"/>Actio in diuinis non dicit rem de praedicamento
+            <lb ed="#V" n="107"/>actionis, sed potius diuinam essentiam cum
+            relatio<lb ed="#V" n="108" break="no"/>ne reali, vel rationis. Patet prima pars, quia actio vt est
+            prae<lb ed="#V" n="109" break="no"/>dicamentum infert passionem, in diuinis autem nulla est
+            pas<lb ed="#V" n="110" break="no"/>sio:igitur non est actio de praedicamento actionis. secundo
+            <lb ed="#V" n="111"/>quia actio talis dicit originem motus vel mutationis, sed in
+            <lb ed="#V" n="112"/>diuinis nihil mouetur, aut mutatur:igitur &amp;c. Istas
+            proba<lb ed="#V" n="113" break="no"/>tiones innuit Sanctus Doctor prima parte. q. 41. arti. 1. ad 2. &amp; 3.
+            <lb ed="#V" n="114"/>Sed secunda pars conclusionis probatur: nam tam actio quae
+            <lb ed="#V" n="115"/>est creatio, quam illa quae est generatio aut spiratio, &amp;
+            ge<lb ed="#V" n="116" break="no"/>neraliter omnis diuina actio siue ad extra siue ad intra, &amp;
+            <lb ed="#V" n="117"/>siue sit essentialis, siue personalis dicit diuinam essentiam
+            <lb ed="#V" n="118"/>secundum quod probat Sanctus Thomas prima parte. q. 45. artic. 3. ad primum.
+            <lb ed="#V" n="119"/>Et 1. sent. distin. 8. q. 4. artic. 3. Et de potentia Dei. q. 2. arti. 1.
+            <lb ed="#V" n="120"/>Et 2. contra Gentiles cap. 9. &amp; multis alijs locis. Quia autem
+            <lb ed="#V" n="121"/>dicat relationem patet. Et primo de actione Dei ad extra
+            <lb ed="#V" n="122"/>probat Sanctus Thomas prima parte. q. 45. artic. 3. ad primum.
+            Crea<lb ed="#V" n="123" break="no"/>tio actiue significata significat actionem diuinam, quae est
+            <lb ed="#V" n="124"/>eius essentia cum relatione ad creaturam, sed relatio Dei
+            <lb ed="#V" n="125"/>ad creaturam non est realis, sed secundum rationem tantum. Haec
+            <lb ed="#V" n="126"/>ille. Hoc etiam dicit 2. sentent. distin. 1. q. 1. arti. 2.
+          </p>
+          <p xml:id="capsco-a2fw1w-d1e216">
+            Item de
+            <lb ed="#V" n="127"/>potentia Dei. quaest. 2. artic. 3. Sed de actione ad intra
+            pro<lb ed="#V" n="128" break="no"/>bat ipse prima parte. q. 41. artic. 1. ad secundum vbi sic ait.
+            <lb ed="#V" n="129"/>Primo (inquit) conuincere potuimus originem alicuius
+            <lb ed="#V" n="130"/>ab alio ex motu, quod enim aliqua res a sua dispositione
+            mo<lb ed="#V" n="131" break="no"/>ueretur per motum manifestum fuit ab aliqua causa
+            pro<lb ed="#V" n="132" break="no"/>cedere, &amp; ideo actio secundum primam nominis institutionem
+            <lb ed="#V" n="133"/>importat originem motus: sicut enim motus prout est
+            im<lb ed="#V" n="134" break="no"/>mobili ab aliquo dicitur passio, ita origo ipsius motus, secundum
+            <lb ed="#V" n="135"/>quod incipit ab aliquo, &amp; terminatur in illud quod mouetur
+            <lb ed="#V" n="136"/>vocatur actio: remoto igitur motu actio nihil aliud
+            impor<lb ed="#V" n="137" break="no"/>tat quam ordinem originis secundum quod a causa aliqua vel
+            princi<lb ed="#V" n="138" break="no"/>pio procedit in id, quod est a principio, quae quidem
+            habi<lb ed="#V" n="139" break="no"/>tudines sunt ipsae relationes vel notiones. Haec ille.
+          </p>
+          <p xml:id="capsco-a2fw1w-d1e247">
+            Item
+            <lb ed="#V" n="140"/>q. 45. artic. 2. ad secundum dicit. Actio &amp; passio conueniunt
+            <lb ed="#V" n="141"/>in vna substantia motus, &amp; differunt solum secundum
+            habitudi<lb ed="#V" n="142" break="no"/>nes diuersas, vt dicitur 3. Physicorum. Oportet igitur quod
+            <lb ed="#V" n="143"/>subtracto motu non remaneant nisi diuersae habitudines
+            <lb ed="#V" n="144"/>in creante &amp; in creato. Haec ille.
+          </p>
+          <p xml:id="capsco-a2fw1w-d1e260">
+            Ex quibus patet, quod actio
+            <lb ed="#V" n="145"/>in diuinis non dicit nisi diuinam essentiam, &amp;
+            habitudi<lb ed="#V" n="146" break="no"/>nem ad productum secundum rem vel secundum rationem
+            <pb ed="#V" n="387"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>Secunda conclusio. Generare &amp; generari potius habent
+            <lb ed="#V" n="2"/>modum relationum quam actionum &amp; passionum: patet
+            <lb ed="#V" n="3"/>conclusio, quia generari in diuinis non dicit passionem,
+            <lb ed="#V" n="4"/>nec generare dicit actionem pertinentem ad
+            praedicamen<lb ed="#V" n="5" break="no"/>tum actionis: vnde Sanctus Thomas prima parte. quaest. 41.
+            <lb ed="#V" n="6"/>artic. 1. ad tertium sic ait. Actio secundum quod importat
+            <lb ed="#V" n="7"/>originem motus infert ex se passionem: sic autem non
+            po<lb ed="#V" n="8" break="no"/>nitur actio in diuinis: vnde non ponuntur ibi passiones nisi
+            <lb ed="#V" n="9"/>solum Grammatice loquendo quantum ad modum
+            signi<lb ed="#V" n="10" break="no"/>ficandi, sicut attribuimus patri generare, &amp; filio generari.
+            <lb ed="#V" n="11"/>Haec ille. Idem ponit primo sent. distin. 8. quaest. 4. articu. 3.
+          </p>
+          <p xml:id="capsco-a2fw1w-d1e296">
+            <lb ed="#V" n="12"/>Tertia conclusio. Actus notionales cuiusmodi sunt
+            gene<lb ed="#V" n="13" break="no"/>rare &amp; spirare sunt idem realiter cum relationibus
+            perso<lb ed="#V" n="14" break="no"/>narum, sed differunt secundum modum significandi:
+            pro<lb ed="#V" n="15" break="no"/>bbatur ista conclusio ex prima conclusione. Cum enim
+            re<lb ed="#V" n="16" break="no"/>moto motu actio non sit nisi relatio &amp; habitudo
+            principij<lb ed="#V" n="17" break="no"/>ad illud, quod est de principio, sequitur quod cum in
+            diui<lb ed="#V" n="18" break="no"/>nis nullus sit motus, aut mutatio quod generare quod
+            si<lb ed="#V" n="19" break="no"/>gnificatur per modum actionis secundum rem sit relatio
+            <lb ed="#V" n="20"/>principii originantis ad originatum, &amp; generari sit
+            habitu<lb ed="#V" n="21" break="no"/>do geniti ad generantem, sed quod differant quantum ad
+            <lb ed="#V" n="22"/>modum significandi patet secundum Sanctum Thomam prima
+            par<lb ed="#V" n="23" break="no"/>te. quaest. 41. artic. 1. ad secundum. Quia (inquit) de rebus
+            <lb ed="#V" n="24"/>diuinis intelligentibus loqui non possumus nisi secundum
+            <lb ed="#V" n="25"/>modum rerum sensibilium, a quibus cognitionem
+            accipi<lb ed="#V" n="26" break="no"/>mus, &amp; in quibus actiones &amp; passiones inquantum motum
+            <lb ed="#V" n="27"/>implicant aliud sunt a relationibus, quae ex actionibus &amp;
+            <lb ed="#V" n="28"/>passionibus consequuntur: oportuit seorsum significari
+            ha<lb ed="#V" n="29" break="no"/>bitudines personarum per modum actus, &amp; seorsum per
+            mo<lb ed="#V" n="30" break="no"/>dum relationum, &amp; sic patet quod sunt idem secundum rem, sed
+            dif<lb ed="#V" n="31" break="no"/>ferunt solum secundum modum significandi. Haec ille. Item
+            <lb ed="#V" n="32"/>1. sentent. distin. 27. q. 1. artic. 1. ad quintum. Sicut (inquit)
+            <lb ed="#V" n="33"/>in essentialibus sic est, quod idem secundum rem est operatio, &amp; Deus
+            <lb ed="#V" n="34"/>est diuinitas, sed tantum distinguuntur secundum rationem
+            fun<lb ed="#V" n="35" break="no"/>datam in re, ita est in personalibus quod idem est secundum rem
+            ope<lb ed="#V" n="36" break="no"/>ratio personalis, &amp; persona, &amp; proprietas constituens
+            per<lb ed="#V" n="37" break="no"/>sonam, sed tantum differunt secundum rationem &amp; modum
+            signi<lb ed="#V" n="38" break="no"/>ficandi: vnde dico quod eadem relatio significatur per haec tria,
+            <lb ed="#V" n="39"/>pater, paternitas &amp; generatio, sed pater significat illam per
+            <lb ed="#V" n="40"/>modum proprietatis, generatio per modum operationis.
+            <lb ed="#V" n="41"/>Haec ille.
+          </p>
+          <p xml:id="capsco-a2fw1w-d1e364">
+            Quarta conclusio. Paternitas praecedit secundum
+            intelle<lb ed="#V" n="42" break="no"/>ctum ipsum generare, sed generari praecedit filiationem. Ista
+            <lb ed="#V" n="43"/>conclusio fuit probata in praecedenti quaestione isto medio scilicet
+            <lb ed="#V" n="44"/>quod illud quod intelligitur vt progrediens ab aliquo: sequitur
+            <lb ed="#V" n="45"/>se cundum modum intelligendi constitutiuum illius, a quo
+            <lb ed="#V" n="46"/>progreditur: sic autem est quod generare concipitur vt
+            progre<lb ed="#V" n="47" break="no"/>diens a patre, quasi per modum actus eius: ergo formale
+            <lb ed="#V" n="48"/>constitutiuum personae patris, quod est paternitas secundum
+            mo<lb ed="#V" n="49" break="no"/>dum intelligendi praecedit simpliciter generare. Econuerso
+            <lb ed="#V" n="50"/>vero illud quod intelligitur tanquam via ad esse alicuius &amp;
+            <lb ed="#V" n="51"/>suum formale videtur illud praecedere secundum intellectum,
+            ge<lb ed="#V" n="52" break="no"/>nerari autem intelligitur quasi via ad personam filij: ergo
+            <lb ed="#V" n="53"/>generari secundum intellectum praecedit filium &amp; filiationem. Ex
+            <lb ed="#V" n="54"/>quibus sequitur quod primo &amp; principalius paternitas
+            consti<lb ed="#V" n="55" break="no"/>tuit personam patris quam generare secundum nostrum modum
+            <lb ed="#V" n="56"/>intelligendi, immo generare non constituit, sed potius
+            con<lb ed="#V" n="57" break="no"/>stitutum ostendit. Item apparet, quod in diuinis pater generat,
+            <lb ed="#V" n="58"/>quia pater, &amp; non ideo est pater quia generat: econuerso est
+            <lb ed="#V" n="59"/>quod accidit in creatis, Sortes enim non est generans quia pater,
+            <lb ed="#V" n="60"/>sed quia generat ideo pater est, &amp; ita generare in eo praecedit
+            <lb ed="#V" n="61"/>paternitatem. Ista omnia ponit Sanctus Thomas prima parte. q. 41. artic. 4.
+          </p>
+        </div>
+        <div xml:id="capsco-a2fw1w-Dd1e411">
+          <head xml:id="capsco-a2fw1w-Hd1e413">Articulus 2</head>
+          <p xml:id="capsco-a2fw1w-d1e415">
+            <lb ed="#V" n="62"/><milestone ed="#V" unit="p" rend="initial"/> Quantum ad secundum articulum arguitur contra
+            <lb ed="#V" n="63"/>conclusiones. Et quidem contra secundum
+            ar<lb ed="#V" n="64" break="no"/>guit Aureolus probando, quod generare &amp;
+            ge<lb ed="#V" n="65" break="no"/>nerari habeant potius modum actionum &amp; passionum
+            <lb ed="#V" n="66"/>quam relationum. Tum quia per generare &amp; generari
+            ve<lb ed="#V" n="67" break="no"/>re capit filius suam realitatem, quod non competit
+            ha<lb ed="#V" n="68" break="no"/>bitibus de genere relationis. Tum quia generari est
+            ve<lb ed="#V" n="69" break="no"/>ra origo, quae non habet modum relationis sed passionis.
+            <lb ed="#V" n="70"/>Tum quia generare est quidam egressus &amp; quaedam origo
+            <lb ed="#V" n="71"/>realis quo egressu pater prorumpit in filium, &amp; similiter
+            <lb ed="#V" n="72"/>generari est quidam exitus quo filius egreditur a patre,
+            si<lb ed="#V" n="73" break="no"/>cut ipse testatur Iohan. 16. quod exiuit a patre &amp; venit in
+            <lb ed="#V" n="74"/>mundum: ostensum est autem supra quod haec nullo
+            mo<lb ed="#V" n="75" break="no"/>do competunt praedicamento relationis, sed actionis, &amp;
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="76"/>passionis: ergo modum habent actionum &amp; passionum
+            <lb ed="#V" n="77"/>potius quam relationum: vnde consuctum est, quod
+            dici<lb ed="#V" n="78" break="no"/>tur actiua generatio &amp; passio, &amp; similiter de spiratione,
+            <lb ed="#V" n="79"/>quae est actiua &amp; passiua, &amp; quam maxime hoc habent
+            di<lb ed="#V" n="80" break="no"/>cere qui posuerunt generare elicitum in diuinis, &amp;
+            poten<lb ed="#V" n="81" break="no"/>tiam generandi esse productiuam: vnde non apparet quod
+            <lb ed="#V" n="82"/>absque repugnantia poterunt ista duo ponere, scilicet quod
+            <lb ed="#V" n="83"/>generare sit relatio &amp; non habeat modum actionis, &amp;
+            ta<lb ed="#V" n="84" break="no"/>men quod potentia generandi sit potentia vere productiua &amp;
+            <lb ed="#V" n="85"/>non entitatiua.
+          </p>
+          <p xml:id="capsco-a2fw1w-d1e473">
+            Contra tertiam conclusionem arguitur sic.
+            <lb ed="#V" n="86"/>Impossibile est eandem rem in sui existentia habere
+            mo<lb ed="#V" n="87" break="no"/>dum habitus &amp; quietis, &amp; modum actus &amp; fluxus,
+            alioquin<lb ed="#V" n="88" break="no"/>inessent opposita eidem, sed paternitas habet modum
+            ha<lb ed="#V" n="89" break="no"/>bitus &amp; quietis, generare vero modum actus &amp; fluxus:
+            er<lb ed="#V" n="90" break="no"/>go vel non sunt eadem res, cuius oppositum omnes habent
+            <lb ed="#V" n="91"/>concedere secundum intentionem Sanctorum, aut si sunt
+            <lb ed="#V" n="92"/>eadem res, vterque modus, scilicet fluxus &amp; quietis non
+            <lb ed="#V" n="93"/>debet attribui illi rei in sua existentia, sed manifestum est
+            <lb ed="#V" n="94"/>quod in sui existentia &amp; in rerum natura oportet quod
+            il<lb ed="#V" n="95" break="no"/>la res habeat modum actus &amp; agere vel produci in filio,
+            <lb ed="#V" n="96"/>alioquin non vere producerentur personae: ergo
+            impossi<lb ed="#V" n="97" break="no"/>bile est quod in sui existentia habeat modum habitus
+            re<lb ed="#V" n="98" break="no"/>latiui tantummodo connectentis &amp; non causantis, sed
+            il<lb ed="#V" n="99" break="no"/>le modus erit in sola apprehensione intellectctus.
+          </p>
+          <p xml:id="capsco-a2fw1w-d1e506">
+            Secun<lb ed="#V" n="100" break="no"/>do sic. Impossibile est, quod eadem realitas inter duo
+            ex<lb ed="#V" n="101" break="no"/>trema consistens sit vere positiua alterius extremi &amp; non
+            <lb ed="#V" n="102"/>positiua in rerum existentia: alioquin contradictoria eruntem
+            <lb ed="#V" n="103"/>simul vera, sed realitas importata per generare existit
+            in<lb ed="#V" n="104" break="no"/>ter patrem &amp; filium vt vere positiua &amp; causatiua filij,
+            pa<lb ed="#V" n="105" break="no"/>ternitas vero inter eos existit vt nullo modo causatiua aut
+            <lb ed="#V" n="106"/>positiua filij, sed tantummodo vt referens &amp; connectens:
+            <lb ed="#V" n="107"/>quia relationis non est causare extrema sed connectere &amp;
+            <lb ed="#V" n="108"/>referre: ergo non sunt eadem res paternitas &amp; generare,
+            <lb ed="#V" n="109"/>quod tamen omnes concedunt, vel necesse est quod
+            gene<lb ed="#V" n="110" break="no"/>rare secundum rem &amp; modum causatiuum sit in diuinis
+            <lb ed="#V" n="111"/>ex natura rei, &amp; sine opere intellectus, paternitas vero per
+            <lb ed="#V" n="112"/>modum eius relatiuum filium non ponens, sed
+            tantummo<lb ed="#V" n="113" break="no"/>do ad ipsum referens sit ex solo opere intellectus, &amp; hoc
+            <lb ed="#V" n="114"/>vtique verum est demonstratiue conclusum: paternitas
+            <lb ed="#V" n="115"/>enim est vera res causatiua &amp; positiua extremi, scilicet
+            fi<lb ed="#V" n="116" break="no"/>lij, est enim ipsum generare, sed concipitur sub modo non
+            <lb ed="#V" n="117"/>causatiuo, sed connexiuo &amp; relatiuo tantum, qui modus
+            <lb ed="#V" n="118"/>non est in re, sed in intellectu appraehendente: &amp; ideo
+            pa<lb ed="#V" n="119" break="no"/>ternitas inquantum est relatio quaedam differens
+            modali<lb ed="#V" n="120" break="no"/>ter a generare est ab opere intellectus: vnde in diuinis sunt
+            <lb ed="#V" n="121"/>origenes verae &amp; relationes per actum intellectus. Haec
+            il<lb ed="#V" n="122" break="no"/>le. Tertio arguunt alij contra eandem conclusionem sic.
+            <lb ed="#V" n="123"/>Quando aliqua sic se habent, quod vnum est realiter in
+            <lb ed="#V" n="124"/>aliquo, &amp; reliquum in suo opposito, illa non sunt realiter
+            <lb ed="#V" n="125"/>idem, quia talia realiter separantur, &amp; sic non sunt idem,
+            <lb ed="#V" n="126"/>sed paternitas est realiter in patre, cum per eam sit
+            forma<lb ed="#V" n="127" break="no"/>liter pater, generare vero non est in patre, sed in filio: quod
+            <lb ed="#V" n="128"/>patet. Tum quia 3. Physi. dicit Philosophus quod actio est
+            <lb ed="#V" n="129"/>in passo non in agente. Tum quia generare videtur
+            egre<lb ed="#V" n="130" break="no"/>di a patre &amp; attingere filium, &amp; per consequens remanere
+            <lb ed="#V" n="131"/>in filio &amp; non in patre: igitur generare &amp; paternitas
+            distin<lb ed="#V" n="132" break="no"/>guuntur realiter. Quarto. Quandocunque aliqua sunt
+            <lb ed="#V" n="133"/>idem de quocunque praedicatur vnum &amp; reliquum, sed
+            pa<lb ed="#V" n="134" break="no"/>ter praedicatur de aliquo in diuinis, de quo non
+            praedica<lb ed="#V" n="135" break="no"/>tur generare, vtpote de essentia: nam essentia vera
+            veraci<lb ed="#V" n="136" break="no"/>ter dicitur &amp; est pater: extra de summa Trinita. &amp; fid.
+            Ca<lb ed="#V" n="137" break="no"/>thol. cap. damnamus, &amp; tamen ibidem determinat quod
+            es<lb ed="#V" n="138" break="no"/>sentia non generatur: ergo generare &amp; esse patrem non sunt
+            <lb ed="#V" n="139"/>idem, &amp; per consequens, nec paternitas &amp; generatio
+            acti<lb ed="#V" n="140" break="no"/>ua. Quinto. Paternitas &amp; filius in diuinis non sunt idem
+            <lb ed="#V" n="141"/>realiter, immo realiter distinguuntur, sicut pater &amp;
+            fi<lb ed="#V" n="142" break="no"/>lius, sed generare non est aliud quam filius, vt videtur,
+            <lb ed="#V" n="143"/>sicut enim motus qui est in passo prout est ab agente
+            dici<lb ed="#V" n="144" break="no"/>tur actio, sic realitas filij prout est a patre dicitur
+            genera<lb ed="#V" n="145" break="no"/>tio actio, &amp; prout est in filio dicitur generatio passio.
+          </p>
+          <p xml:id="capsco-a2fw1w-d1e608">
+            Con<lb ed="#V" n="146" break="no"/>firmatur. Quia creatio actio non videtur aliud esse quam
+            <lb ed="#V" n="147"/>creatura prout est a Deo creante: ergo paternitas &amp;
+            ge<lb ed="#V" n="148" break="no"/>nerare non sunt idem. Sexto. Idem non fundatur in
+            <lb ed="#V" n="149"/>seipso: fundamentum enim non est idem cum
+            funda<lb ed="#V" n="150" break="no"/>to in eo, sed generare est fundamentum paternitatis, quia
+            <pb ed="#V" n="388"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>relationes producentis &amp; producti sundantur super
+            agere<lb ed="#V" n="2" break="no"/>vel egisse: vt dicit Philosophus 5. Metaphys. ergo
+            genera<lb ed="#V" n="3" break="no"/>re &amp; paternitas non sunt idem. Septimo. Quandocunque
+            <lb ed="#V" n="4"/>aliqua sic se habent quod vnum maneret aliquo transeunte:
+            <lb ed="#V" n="5"/>illa non sunt idem realiter: alias transire &amp; non transire
+            ma<lb ed="#V" n="6" break="no"/>nere &amp; non manere, quae sunt contradictoria verificarentur
+            <lb ed="#V" n="7"/>de eodem, contra illud primum principium. Impossibile
+            <lb ed="#V" n="8"/>est idem simul esse &amp; non esse, sed paternitate manente
+            tran<lb ed="#V" n="9" break="no"/>sit actus generationis &amp; generare: vt patet in creaturis: vbi
+            <lb ed="#V" n="10"/>manet pater multo tempore postquam genuit, &amp; dato quod in
+            <lb ed="#V" n="11"/>Deo in aeternum simul stent, hoc ex necessitate &amp;
+            immuta<lb ed="#V" n="12" break="no"/>bilitate diuina prouenit &amp; non ex conditione paternitatis,
+            <lb ed="#V" n="13"/>quia dato per impossibile quod generare transiret, adhuc
+            re<lb ed="#V" n="14" break="no"/>maneret paternitas, dum tamen filius permaneret &amp; esset
+            <lb ed="#V" n="15"/>pater in diuinis, non qui actu filium generaret, sed qui filium
+            <lb ed="#V" n="16"/>genuisset: ergo paternitas &amp; generatio non sunt idem.
+            Octa<lb ed="#V" n="17" break="no"/>uo. Ea quae reducuntur ad diuersa genera &amp;
+            praedicamen<lb ed="#V" n="18" break="no"/>ta non possunt esse idem, cum diuersorum generum diuersae
+            <lb ed="#V" n="19"/>sunt species, &amp; coordinationes praedicamentorum sint ir
+            <lb ed="#V" n="20"/>permixtae, sed generare reducitur ad praedicamentum
+            actio<lb ed="#V" n="21" break="no"/>nis: paternitas vero ad praedicamentum relationis, in
+            crea<lb ed="#V" n="22" break="no"/>turis quidem vere, in Deo autem secundum modum:
+            igi<lb ed="#V" n="23" break="no"/>tur paternitas &amp; generare non erunt idem in Deo. Nono.
+            <lb ed="#V" n="24"/>Forma quieta non videtur esse idem cum illa, quae consistit
+            <lb ed="#V" n="25"/>in quodam fluxu, &amp; egressu, sed paternitas est forma quieta
+            <lb ed="#V" n="26"/>per modum habitus existens in patre: generare vero
+            consi<lb ed="#V" n="27" break="no"/>stit in quodam fluxu &amp; egressu a patre: ergo non sunt idem
+            <lb ed="#V" n="28"/>generare &amp; paternitas. Decimo. Idem non est causa
+            suiip<lb ed="#V" n="29" break="no"/>sius, sed secundum aliquos pater est pater, quia generat, secundum
+            <lb ed="#V" n="30"/>alios vero generat, quia est pater, &amp; ita paternitas secundum
+            <lb ed="#V" n="31"/>illos causat generare, secundum alios vero causat generare
+            <lb ed="#V" n="32"/>paternitatem: ergo non sunt idem. Vndecimo. Doctores
+            <lb ed="#V" n="33"/>inquirunt an suppositum patris constituatur per generare,
+            <lb ed="#V" n="34"/>an per paternitatem, &amp; illi tenent quod per generare:
+            alij<lb ed="#V" n="35" break="no"/>quod per paternitatem, sed haec inquisitio nulla esset si generare
+            <lb ed="#V" n="36"/>&amp; paternitas idem forent: igitur &amp;c. Contra quartam
+            con<lb ed="#V" n="37" break="no"/>clusionem arguit multipliciter, &amp; primo quod generare
+            secun<lb ed="#V" n="38" break="no"/>dum modum intelligendi praecedat paternitatem.
+            Quan<lb ed="#V" n="39" break="no"/>docunque enim res aliqua habet duos modos concipiendi
+            <lb ed="#V" n="40"/>vnum quidem secundum quod est in rerum natura, &amp; alium
+            <lb ed="#V" n="41"/>tantummodo ex operatione intellectus: primus dicitur
+            praece<lb ed="#V" n="42" break="no"/>dere secundum, sicut patet: quia ordine rationis conceptus
+            <lb ed="#V" n="43"/>floris per modum stantis praecedit florere, qui per modum
+            <lb ed="#V" n="44"/>fluxus concipitur, quoniam flos in rerum natura habet modum
+            quie<lb ed="#V" n="45" break="no"/>scentis, modum vero fluentis a solo opere intellectus, sed
+            <lb ed="#V" n="46"/>realitas illa quae per generare importatur per modum
+            flu<lb ed="#V" n="47" break="no"/>xus, &amp; per paternitatem per modum quiescentis habet
+            <lb ed="#V" n="48"/>in sui existentia modum actionis &amp; fluxus: modum vero
+            ha<lb ed="#V" n="49" break="no"/>bitus quiescentis ex solo opere intellectus: quia si esset
+            econ<lb ed="#V" n="50" break="no"/>uerso, non vere &amp; realiter filius produceretur a patre, sed
+            <lb ed="#V" n="51"/>connecteretur ad ipsum realiter, nec tamen realiter
+            ema<lb ed="#V" n="52" break="no"/>naret: ergo secundum modum intelligendi generare
+            prae<lb ed="#V" n="53" break="no"/>cedit paternitatem.
+          </p>
+          <p xml:id="capsco-a2fw1w-d1e742">
+            Secundo sic. Connexio extremorum
+            exi<lb ed="#V" n="54" break="no"/>git extrema posita, &amp; per consequens praesupponit
+            positio<lb ed="#V" n="55" break="no"/>nem eorum, sed paternitas &amp; vniuersaliter omnis relatio
+            <lb ed="#V" n="56"/>de secundo modo relatiuorum est connexio extremorum,
+            <lb ed="#V" n="57"/>nec ponit ea, sed posita supponit: ergo exigit vt prius
+            con<lb ed="#V" n="58" break="no"/>cipiatur positio illorum: ponitur autem filius per
+            genera<lb ed="#V" n="59" break="no"/>re: igitur paternitas exigit vt sibi praeintelligatur generare.
+          </p>
+          <p xml:id="capsco-a2fw1w-d1e758">
+            <lb ed="#V" n="60"/>Tertio sic. Si generare secundum modum intelligendi non
+            <lb ed="#V" n="61"/>praecedit paternitatem, sed sequitur in diuinis, aut hoc est
+            <lb ed="#V" n="62"/>ex hoc quod generare elicitur a patre, ita quod paternitas
+            ali<lb ed="#V" n="63" break="no"/>quid ad generare faciat, aut quia facit ad ipsum per
+            mo<lb ed="#V" n="64" break="no"/>dum cuiusdam praeuij &amp; rationis fundandi. sed non potest
+            <lb ed="#V" n="65"/>dici primum. Tum quia generare non est elicitum,
+            immo<lb ed="#V" n="66" break="no"/>ent realitas esse non capiens aliunde cui repugnat vt esse
+            <lb ed="#V" n="67"/>capiat ab alio, sicut repugnat primo principio, aut diuinae
+            <lb ed="#V" n="68"/>essentiae aut cuilibet rei improductae quod intelligatur
+            produ<lb ed="#V" n="69" break="no"/>cta. Tum quia dato quod eliceretur illo modo, paternitas
+            <lb ed="#V" n="70"/>ipsam eliceret, nec esset elicitiui principij determinatiuum,
+            <lb ed="#V" n="71"/>cum relatio non sit actionis principium, nec exigatur ad
+            <lb ed="#V" n="72"/>determinandum, quia absolutum est sufficienter
+            determi<lb ed="#V" n="73" break="no"/>nat. m, nec respectu indiget ad agendum. Nec etiam
+            se<lb ed="#V" n="74" break="no"/>cundum potest dari, quia manifestum est quod actiones sunt
+            <lb ed="#V" n="75"/>praeuiae &amp; rationes fundandi secundum modum
+            relatiuo<cb ed="#V" n="b"/><lb ed="#V" n="76" break="no"/>rum, &amp; non econuerso: vnde mens non potest concipere
+            <lb ed="#V" n="77"/>patrem nisi accipiendo quod genuit vel generat: igitur in.
+            <lb ed="#V" n="78"/>tellectus recte iudicans debet appraehendere quod in Deo
+            ge<lb ed="#V" n="79" break="no"/>nerare praecedit paternitatem.
+          </p>
+          <p xml:id="capsco-a2fw1w-d1e805">
+            Item contra eandem
+            con<lb ed="#V" n="80" break="no"/>clusionem arguit probando, quod persona patris verius
+            <lb ed="#V" n="81"/>&amp; principalius constituitur per generare quam per
+            pater<lb ed="#V" n="82" break="no"/>nitatem, quia illud dicitur verius &amp; principalius quod est
+            <lb ed="#V" n="83"/>ex natura rei quam quod est solum secundum
+            considera<lb ed="#V" n="84" break="no"/>tionem, &amp; fit per opus intellectus, sed constitutio primi
+            sup<lb ed="#V" n="85" break="no"/>positi per actum generandi est quidem ex natura rei,
+            quo<lb ed="#V" n="86" break="no"/>niam generare est in re &amp; quo ad intentionem quae
+            conci<lb ed="#V" n="87" break="no"/>pitur ad modum actus &amp; fluxus siue ponentis actiue
+            sup<lb ed="#V" n="88" break="no"/>positum, constitutio vero per paternitatem habet aliquid
+            <lb ed="#V" n="89"/>de opere intellectus, quia licet paternitas sit in re quo ad
+            <lb ed="#V" n="90"/>intentionem conceptam, quae penitus est eadem cum
+            gene<lb ed="#V" n="91" break="no"/>rare, nihilominus quo ad modum habitus &amp; quietis
+            sub<lb ed="#V" n="92" break="no"/>quo concipitur, quia intelligitur per modum habitudinis
+            <lb ed="#V" n="93"/>connectentis, sub isto quidem modo non est in rerum
+            natu<lb ed="#V" n="94" break="no"/>ra, alioquin modi compositi fluxus &amp; quietis inessent eidem
+            <lb ed="#V" n="95"/>rei, non solum in intellectu: immo in existentia, quae
+            om<lb ed="#V" n="96" break="no"/>nia sunt impossibilia: ergo suppositum patris verius &amp;
+            prin<lb ed="#V" n="97" break="no"/>cipalius consurgit ex essentia &amp; generare quam ex
+            essen<lb ed="#V" n="98" break="no"/>tia &amp; paternitate. Haec ille in forma.
+          </p>
+          <p xml:id="capsco-a2fw1w-d1e849">
+            <lb ed="#V" n="99"/><milestone ed="#V" unit="p" rend="indent"/> Ad primum contra secundam conclusionem dicitur,
+            <lb ed="#V" n="100"/>A quod filius vere capit esse per generare, sed ad minorem
+            <lb ed="#V" n="101"/>dico, quod relatio vt relatio non habet hoc vt per eam
+            ali<lb ed="#V" n="102" break="no"/>quid capiat esse, sed tamen dico quod omne quod capit
+            reali<lb ed="#V" n="103" break="no"/>tatem, accipit eam per actionem, quae dicit motum cum
+            re<lb ed="#V" n="104" break="no"/>latione, sicut actio praedicamentalis, quam negamus a
+            di<lb ed="#V" n="105" break="no"/>uinis, vel per originem, quae est relatio significata per
+            mo<lb ed="#V" n="106" break="no"/>dum actionis praedicamentalis, &amp; talis est in diuinis, non
+            <lb ed="#V" n="107"/>enim nego, immo firmiter teneo quod generare dicit
+            di<lb ed="#V" n="108" break="no"/>uinam actionem cum relatione, sed ibi potius saluatur
+            ra<lb ed="#V" n="109" break="no"/>tio relationis quam actionis praedicamentalis quae
+            imper<lb ed="#V" n="110" break="no"/>fectionem includit, &amp; passionem inducit, &amp; ex tum de
+            po<lb ed="#V" n="111" break="no"/>tentia in actum inseparabiliter comitatur: vnde
+            argumen<lb ed="#V" n="112" break="no"/>tum istud procedit de relatione, quae non est nisi relatio, &amp;
+            <lb ed="#V" n="113"/>non de relatione, quae includit secundum rem omnem
+            per<lb ed="#V" n="114" break="no"/>fectionem.
+          </p>
+          <p xml:id="capsco-a2fw1w-d1e887">
+            Ad secundum negatur minor: exitus enim
+            di<lb ed="#V" n="115" break="no"/>cit semper vel motum cum relatione, vel relationem ipsam,
+            <lb ed="#V" n="116"/>nec probat oppositum, scilicet quod egressus &amp; proruptio
+            <lb ed="#V" n="117"/>non dicant relationem. Ipse enim hoc probare conatur scilicet
+            <lb ed="#V" n="118"/>quod originare &amp; originari non dicant respectus de
+            gene<lb ed="#V" n="119" break="no"/>re relationis. Tum quia per nullum respectum de genere
+            re<lb ed="#V" n="120" break="no"/>lationis capit esse terminus illius respectus, sed origo est
+            <lb ed="#V" n="121"/>illud, quo terminus originatus ponatur in esse. Tum quia
+            <lb ed="#V" n="122"/>secundum Simplicium facere &amp; pati non consistunt in
+            ha<lb ed="#V" n="123" break="no"/>bitudine adinuicem, sicut dextrum &amp; sinistrum. Tum
+            ter<lb ed="#V" n="124" break="no"/>tio: quia nulla relatio se habet ad suum terminum
+            quasi<lb ed="#V" n="125" break="no"/>via in ipsum: sic autem actio ad terminum. Tum quarto:
+            <lb ed="#V" n="126"/>quia relatio necessario oritur posito fundamento &amp;
+            termi<lb ed="#V" n="127" break="no"/>no, non sic actio, quia illa causat terminum. Tum quinto,
+            <lb ed="#V" n="128"/>quia relatio necessario manet ad permanentiam
+            extremo<lb ed="#V" n="129" break="no"/>rum, non semper autem manet origo termini ab agente
+            il<lb ed="#V" n="130" break="no"/>lis positis. Tum sexto, quia relatio non fundat relationem,
+            <lb ed="#V" n="131"/>sed tamen aliqua relatio fundatur super actionem. 5.
+            Me<lb ed="#V" n="132" break="no"/>taphysic. Ista sunt motiua principalia, ad quae dicitur quod
+            <lb ed="#V" n="133"/>solum probant quod originare &amp; originari, vel actio &amp; passio,
+            <lb ed="#V" n="134"/>seu facere &amp; pati vt sunt praedicamenta non dicunt solos
+            <lb ed="#V" n="135"/>respectus de genere relationis, quod conceditur. Sed non
+            <lb ed="#V" n="136"/>probant quin dicant motum cum duplici respectu,
+            quo<lb ed="#V" n="137" break="no"/>rum vnus est in agente &amp; alius in passo: vnde actio dicit
+            <lb ed="#V" n="138"/>motum cum vno respectu, &amp; passio dicit cum alio
+            respe<lb ed="#V" n="139" break="no"/>ctu. In diuinis autem iterum concedo quod originare &amp;
+            ori<lb ed="#V" n="140" break="no"/>ginari non dicunt in sua ratione solos respectus, sed
+            diui<lb ed="#V" n="141" break="no"/>nam actionem cum respectu dantis vel accipientis, vt
+            di<lb ed="#V" n="142" break="no"/>cit Sanctus Thomas de potentia Dei. quaestione secunda, articulo
+            <lb ed="#V" n="143"/>quinto. Actio generatio (inquit) in diuinis significat
+            actio<lb ed="#V" n="144" break="no"/>nem cum aliquo respectu, vnde ipsa generatio est Dei
+            a<lb ed="#V" n="145" break="no"/>ctio, quae est eius essentia cum aliquo respectu. Ad ter.
+            <lb ed="#V" n="146"/>tium dicitur quod nos non ponimus, quod generare sit
+            <lb ed="#V" n="147"/>realiter elicitum in diuinis, sed significatur modo
+            actio<lb ed="#V" n="148" break="no"/>nis &amp; concipitur sub conceptu actionis, quae inuenitur in
+            <lb ed="#V" n="149"/>creatis, vbi est actio realiter elicita. Nec est
+            repugnan<lb ed="#V" n="150" break="no"/>tia quod potentia generandi sit vere productiua, &amp; quod
+            <pb ed="#V" n="389"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>generare non habeat modum actionis praedicamentalis: quia
+            <lb ed="#V" n="2"/>non oportet quod potentia generandi sit productiua, aut
+            eliciti<lb ed="#V" n="3" break="no"/>ua generationis, sed filij.
+          </p>
+          <p xml:id="capsco-a2fw1w-d1e978">
+            Ad primum contra tertia conclusionem
+            <lb ed="#V" n="4"/>conceditur maior, &amp; negatur minor. Dico enim quod omnia quae
+            <lb ed="#V" n="5"/>sunt in diuinis in patre sunt sine fluxu: sed sunt in vltimo
+            <lb ed="#V" n="6"/>complementi. Concedo tamen quod eadem res, quae est paternitas
+            <lb ed="#V" n="7"/>&amp; generare possit concipi sine falsitate in ratione formae
+            <lb ed="#V" n="8"/>quiescentis, &amp; in ratione actionis, quod conceptus actionis
+            re<lb ed="#V" n="9" break="no"/>praesentet illam, quo ad illam imperfectionem, quae est in
+            <lb ed="#V" n="10"/>creata actione, scilicet quod actio creata est quidam fluxus, &amp;
+            <lb ed="#V" n="11"/>eductio de potentia in actum, aut quaedam tendentia in
+            <lb ed="#V" n="12"/>extrinsecum, sed quo ad hoc quod actio, &amp; operatio est
+            <lb ed="#V" n="13"/>vltima actualitas &amp; perfectio potentiae, sicut esse est
+            actua<lb ed="#V" n="14" break="no"/>litas essentiae, &amp; quo ad hoc generare potest concipi per
+            <lb ed="#V" n="15"/>modum actionis &amp; fluxus inquantum in ratione actionis
+            <lb ed="#V" n="16"/>&amp; fluxus importatur perfectio, scilicet actualitas, potest
+            <lb ed="#V" n="17"/>etiam illa eadem res concipi in ratione percipientis &amp;
+            quie<lb ed="#V" n="18" break="no"/>scentis inquantum negatur imperfectio, quam: dicit
+            flu<lb ed="#V" n="19" break="no"/>xus. Et cum dicitur: si illa res in sui existentia non habet
+            <lb ed="#V" n="20"/>modum fluxus. &amp;c. negatur consequentia: non enim est de
+            <lb ed="#V" n="21"/>ratione productionis talis fluxus: sed solum vltima
+            actua<lb ed="#V" n="22" break="no"/>litas qua communicatur perfectio alteritita quod dicit
+            actua<lb ed="#V" n="23" break="no"/>litatem vltimam potentiae cum relatione ad illud, cui
+            con<lb ed="#V" n="24" break="no"/>municatur actus: sed in creaturis communicatur
+            imper<lb ed="#V" n="25" break="no"/>fectio, scilicet fluxus ille, qui est exitus aut eductio de
+            po<lb ed="#V" n="26" break="no"/>tentia passiua in actum.
+          </p>
+          <p xml:id="capsco-a2fw1w-d1e1031">
+            Ad secundum dico ad minorem,
+            <lb ed="#V" n="27"/>quod illa res quae est paternitas, &amp; generare, vere est positiua
+            <lb ed="#V" n="28"/>filij, &amp; relatiua patris ad filium. Concedo tamen quod vt
+            <lb ed="#V" n="29"/>est paternitas est relatiua, sed non positiua in esse: sed vt est
+            <lb ed="#V" n="30"/>generare: quia generare dicit actionem diuinam cum
+            re<lb ed="#V" n="31" break="no"/>latione: paternitas autem relationem solum, sed ex hoc
+            <lb ed="#V" n="32"/>non sequitur, quin sit ibi vere paternitas secundum
+            pro<lb ed="#V" n="33" break="no"/>priam rationem relationis: nec quod realiter distinguatur
+            <lb ed="#V" n="34"/>a generare, sed solum quod aliter est in re &amp; perfectius quam
+            <lb ed="#V" n="35"/>in intellectu: quia in re non solum est relatio, sed est
+            sub<lb ed="#V" n="36" break="no"/>stantia, &amp; essentia, &amp; sapientia, &amp; actus, &amp; omni
+            poten<lb ed="#V" n="37" break="no"/>tia, &amp; infinite perfectae. In intellectu autem dum
+            concipi<lb ed="#V" n="38" break="no"/>tur sub ratione paternitatis non intelligitur, nisi vt relatio,
+            <lb ed="#V" n="39"/>&amp; non vt actus potentiae generatiuae: nec vt essentia. &amp;c.
+            <lb ed="#V" n="40"/>vnde argumentum solum concludit, quod ratio paternitatis,
+            <lb ed="#V" n="41"/>quam habemus, vel in qua concipimus diuinam
+            relatio<lb ed="#V" n="42" break="no"/>nem, non compraehendit illam, &amp; ideo dicit Sanctus Thomas prima
+            <lb ed="#V" n="43"/>parte. q. 28. art. 2. ad tertium. Si (inquit) in perfectione
+            di<lb ed="#V" n="44" break="no"/>uina nihil plus contineretur quam quod significat nomen
+            <lb ed="#V" n="45"/>relatiuum: sequeretur quod esse eius esset imperfectum,
+            vtpo<lb ed="#V" n="46" break="no"/>te ad aliud se habens: sicut si non contineretur ibi plus
+            <lb ed="#V" n="47"/>quam significetur nomine sapientiae, non esset aliquid
+            sub<lb ed="#V" n="48" break="no"/>sistens: sed quia diuinae essentiae perfectio est maior, quam
+            <lb ed="#V" n="49"/>quod significatione alicuius nominis comprehendi
+            pos<lb ed="#V" n="50" break="no"/>sit, non sequitur si nomen relatiuum, vel quodcunque
+            <lb ed="#V" n="51"/>aliud nomen dictum de Deo non significat aliquid
+            perfe<lb ed="#V" n="52" break="no"/>ctum, quod diuina essentia habeat esse imperfectum: quia
+            di<lb ed="#V" n="53" break="no"/>uina essentia comprehendit in se perfectionem omnium
+            <lb ed="#V" n="54"/>generum. Haec ille.
+          </p>
+          <p xml:id="capsco-a2fw1w-d1e1094">
+            Et ibidem ad secundum dicit. Plus
+            con<lb ed="#V" n="55" break="no"/>tinetur in perfectione diuine essentiae, quam aliquo
+            no<lb ed="#V" n="56" break="no"/>mine significari possit: vnde non sequitur quod in Deo praeter
+            <lb ed="#V" n="57"/>relationem sit aliquid aliud secundum rem, sed solum secundum
+            <lb ed="#V" n="58"/>consideratam nominum rationem. Haec ille.
+          </p>
+          <p xml:id="capsco-a2fw1w-d1e1105">
+            Ex quo patet, quod
+            <lb ed="#V" n="59"/>relatio est vere &amp; realiter in Deo, &amp; non solum ex opere
+            <lb ed="#V" n="60"/>intellectus, sicut arguens dicit: sed relatio non solum in
+            <lb ed="#V" n="61"/>diuinis habet illud solum, quod significat nomen
+            relanti<lb ed="#V" n="62" break="no"/>uum.
+          </p>
+          <p xml:id="capsco-a2fw1w-d1e1116">
+            Ad tertium negatur minor, generare enim vere est in
+            pa<lb ed="#V" n="63" break="no"/>tre. Et ad primam probationem: dico quod actio transiens est
+            <lb ed="#V" n="64"/>in passo, sed actio immanens est in agente, quod non
+            sem<lb ed="#V" n="65" break="no"/>per patitur. vbi agens est suum esse: tunc enim sicut in eo non
+            <lb ed="#V" n="66"/>differt esse &amp; essentiatita nec agere &amp; potentia, vt dicitur
+            <lb ed="#V" n="67"/>prima parte. q. 3. art. 4. Ad aliam probationem dico, quod
+            ge<lb ed="#V" n="68" break="no"/>nerare non egreditur secundum rem, sed solum secundum modum
+            signi<lb ed="#V" n="69" break="no"/>ficandi &amp; intelligendi Deum in creaturis.
+          </p>
+          <p xml:id="capsco-a2fw1w-d1e1134">
+            Ad quartum
+            di<lb ed="#V" n="70" break="no"/>co, quod maior est falsa: nam ad veritatem locutionum non
+            <lb ed="#V" n="71"/>sufficit aspicere ad identitatem rei, sed oportet aspicere per
+            <lb ed="#V" n="72"/>modum significandi ad identitatem vel distinctionem
+            ra<lb ed="#V" n="73" break="no"/>tionis, vt dicit Sanctus Thomas prima parte. q. 39. ar. 4. vnde de
+            poten<lb ed="#V" n="74" break="no"/>tia Dei. q. 8. art. 1. ad 7. dicit, quod non oportet semper omnia,
+            <lb ed="#V" n="75"/>quae praedicantur de aliquo praedicari de omni eo, quod
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="76"/>est idem illi, nec oportet quod si aliquid dicitur de aliquo quod
+            <lb ed="#V" n="77"/>omne idem illi praedicato dicatur de eodem subiecto, &amp; de
+            <lb ed="#V" n="78"/>hoc visum fuit di. 2. dicimus enim Deus generat, &amp; negamus
+            <lb ed="#V" n="79"/>istam. diuinitas generat: ita in proposito.
+          </p>
+          <p xml:id="capsco-a2fw1w-d1e1160">
+            Ad quintum
+            ne<lb ed="#V" n="80" break="no"/>gatur minor. nam filius non est ipsum generare. Nec valet
+            <lb ed="#V" n="81"/>probatio, quia procedit de actione praedicamentali: quam
+            <lb ed="#V" n="82"/>negamus in Deo.
+          </p>
+          <p xml:id="capsco-a2fw1w-d1e1170">
+            Ad confirmationem dico. quod creatio
+            <lb ed="#V" n="83"/>actio est diuina essentia, vt alias dicetur in secundo. Ad
+            se<lb ed="#V" n="84" break="no"/>xtum dico. quod inter relationem &amp; fundamentum sufficit
+            <lb ed="#V" n="85"/>distinctio rationis, vbi relatio non est accidens Ad
+            septi<lb ed="#V" n="86" break="no"/>mum dico. quod generare &amp; paternitas distinguuntur in
+            crea<lb ed="#V" n="87" break="no"/>tis, vbi accidentia sunt, &amp; generare est actio transiens.
+            se<lb ed="#V" n="88" break="no"/>cus est in diuinis, vbi nec est actio transiens in passum, nec
+            <lb ed="#V" n="89"/>accidens habet.
+          </p>
+          <p xml:id="capsco-a2fw1w-d1e1188">
+            Ad octauum dico. quod nihil quod sit in Deo
+            <lb ed="#V" n="90"/>formaliter: continetur sub genere proprie vel reductiue, sed
+            <lb ed="#V" n="91"/>quodlibet est extra genus, &amp; ideo sicut ibidem est idem
+            <lb ed="#V" n="92"/>substantia &amp; relatio &amp; actio, secus est de illis quae
+            limitan<lb ed="#V" n="93" break="no"/>tur ad genus.
+          </p>
+          <p xml:id="capsco-a2fw1w-d1e1199">
+            Ad nonum dico, quod in diuinis non est aliquid
+            <lb ed="#V" n="94"/>quod fluat. licet ibi aliquid significetur per modum, quo
+            <lb ed="#V" n="95"/>fluxus in creatis significatur.
+          </p>
+          <p xml:id="capsco-a2fw1w-d1e1206">
+            Ad decimum dico, quod in
+            ta<lb ed="#V" n="96" break="no"/>libus locutionibus ly quia non dicit causam proprie
+            lo<lb ed="#V" n="97" break="no"/>quendo, sed formale, quo aliquid est tale, vel tale. multum
+            <lb ed="#V" n="98"/>autem interest inter esse causam formalem alicuius, &amp;
+            es<lb ed="#V" n="99" break="no"/>se illud quo est formaliter tale, sicut se habet diuinitas ad
+            <lb ed="#V" n="100"/>Deum, &amp; patrem. ita in proposito cum dicitur, quia
+            gene<lb ed="#V" n="101" break="no"/>rat est pater. ly quia dicit formale fundamentum
+            relatio<lb ed="#V" n="102" break="no"/>nis paternitatis, scilicet generationem. Cum autem
+            dici<lb ed="#V" n="103" break="no"/>tur. quia pater est generat. ly quia, dicit formale quo pater
+            <lb ed="#V" n="104"/>agit vt actu primo, scilicet paternitatem, quae
+            intelligitu<lb ed="#V" n="105" break="no"/>in ratione potentiae generandi.
+          </p>
+          <p xml:id="capsco-a2fw1w-d1e1230">
+            Ad vndecimum dicitur. quod
+            <lb ed="#V" n="106"/>inquisitio illa est bona, quia inquiritur vnde habet illa res,
+            <lb ed="#V" n="107"/>quae est origo &amp; relatio quod constituat. an ideo quia est
+            ori<lb ed="#V" n="108" break="no"/>go. an quia relatio. sicut non est vanum quaerere, an Deus
+            <lb ed="#V" n="109"/>generet, vel diuinitas.
+          </p>
+          <p xml:id="capsco-a2fw1w-d1e1241">
+            Ad primum contra quartam
+            con<lb ed="#V" n="110" break="no"/>clusionem dicitur. &amp; negatur minor. sicut dixi secundum
+            <lb ed="#V" n="111"/>praecedentia. nec valet probatio. stat enim filium vere
+            pro<lb ed="#V" n="112" break="no"/>duci sine hoc, quod aliquid sit in patre habens modum fluxus
+            <lb ed="#V" n="113"/>vel effluxus, sed tamen non potest a nobis illud
+            intelligi<lb ed="#V" n="114" break="no"/>nisi concipiendo generationem diuinam per modum
+            actio<lb ed="#V" n="115" break="no"/>num creaturarum, in quibus est fluxus, nec concipiuntur
+            <lb ed="#V" n="116"/>sine fluxu.
+          </p>
+          <p xml:id="capsco-a2fw1w-d1e1260">
+            Ad secundum dico. quod solum concludit, quod
+            pa<lb ed="#V" n="117" break="no"/>ternitas vt relatio est posterior ad generare secundum
+            in<lb ed="#V" n="118" break="no"/>tellectum nostrum. quod conceditur. non autem vt
+            con<lb ed="#V" n="119" break="no"/>stitutiua.
+          </p>
+          <p xml:id="capsco-a2fw1w-d1e1269">
+            Ad tertium negatur diuisio facta in maiori.
+            pa<lb ed="#V" n="120" break="no"/>ternitas praeintelligitur generationi. non quia eliciat vel
+            fa<lb ed="#V" n="121" break="no"/>ciat, ad hoc quod generatio eliciatur. nec vt sit ratio
+            fundan<lb ed="#V" n="122" break="no"/>di generationem, sed quia constituit suppositum quod
+            <lb ed="#V" n="123"/>praeintelligitur generationi. prius enim suppositum
+            intel<lb ed="#V" n="124" break="no"/>ligitur esse constitutum quam intelligatur generare: licet
+            <lb ed="#V" n="125"/>non sit ibi prioritas in re, sed in modo nostro concipiendi.
+          </p>
+          <p xml:id="capsco-a2fw1w-d1e1285">
+            <lb ed="#V" n="126"/>Ad quartum quod est contra aliud dictum in
+            conclusio<lb ed="#V" n="127" break="no"/>ne negatur minor. nam ibi assumuntur multa falsa. Primum
+            <lb ed="#V" n="128"/>est quod generare constituat suppositum formaliter.
+            Secun<lb ed="#V" n="129" break="no"/>dum quod paternitas vel constitutio per paternitatem aliquid
+            <lb ed="#V" n="130"/>habeat de opere intellectus. Tertium quod paternitas non
+            ha<lb ed="#V" n="131" break="no"/>beat in re modum habitus, sed fluxus: &amp; alia multa quae
+            <lb ed="#V" n="132"/>falsa sunt. vt saepe dictum est. Et sic patet quod argumenta eius
+            <lb ed="#V" n="133"/>non procedunt contra conclusiones positas. Ad
+            argumen<lb ed="#V" n="134" break="no"/>tum in pede quaestionis patet responsio per quartam &amp;
+            <lb ed="#V" n="135"/>quintam conclusiones. Haec de quaestione
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

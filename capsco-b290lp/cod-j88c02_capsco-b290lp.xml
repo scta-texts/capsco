@@ -1,0 +1,1079 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 2, Distinctio 34, Quaestio 1</title>
+        <author ref="#JohannesCapreolus">Johannes Capreolus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 2, Distinctio 34, Quaestio 1</title>
+          <date when="2026-11-04">Nov 4, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-j88c02">Venice, 1589, v. 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-04" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="514"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="capsco-b290lp"><!-- l2d34q1 -->
+        <head xml:id="capsco-b290lp-Hd1e101">Quaestio 1</head>
+        <head xml:id="capsco-b290lp-Hd1e103" type="question-title">Utrum ratio boni sit proprie absoluta</head>
+        <p xml:id="capsco-b290lp-d1e106">
+          <lb ed="#V" n="8"/>DISTINCTIO XXXIIII
+          <lb ed="#V" n="9"/>QVAESTIO I
+          <lb ed="#V" n="10"/>Vtrum ratio boni sit proprie absoluta.
+        </p>
+        <p xml:id="capsco-b290lp-d1e115">
+          <lb ed="#V" n="11"/><milestone ed="#V" unit="p" rend="initial"/> CIRCA trigesimam quartam di. secundi
+          <lb ed="#V" n="12"/>sen. quaeritur. Vtrum ratio boni sit proprie
+          <lb ed="#V" n="13"/>absoluta.
+        </p>
+        <p xml:id="capsco-b290lp-d1e125">
+          Et arguitur quod sic, quia nulla
+          <lb ed="#V" n="14"/>relatio dicit formaliter perfectionem
+          <lb ed="#V" n="15"/>sed bonum videtur formaliter importare
+          pfe<lb ed="#V" n="16" break="no"/>ctionem, qua vnunqud que in tamen est bonum
+          in<lb ed="#V" n="17" break="no"/>quantum est pfectum, igitur bonum non
+          di<lb ed="#V" n="18" break="no"/>cit formaliter relationem, sed aliquid absolutum.
+        </p>
+        <p xml:id="capsco-b290lp-d1e139">
+          <lb ed="#V" n="19"/><milestone ed="#V" unit="p" rend="indent"/> In oppositum arguitur sic. Quia bonum &amp; conueniens
+          <lb ed="#V" n="20"/>videntur importare idem formaliter, sed conueniens
+          di<lb ed="#V" n="21" break="no"/>cit formaliter relationem, igitur &amp; bonum.
+        </p>
+        <p xml:id="capsco-b290lp-d1e149">
+          <lb ed="#V" n="22"/><milestone ed="#V" unit="p" rend="indent"/> Inhac quaestione erunt tres articuli. In primo
+          ponen<lb ed="#V" n="23" break="no"/>tur conclusiones. In secundo obiectione. In tertio
+          re<lb ed="#V" n="24" break="no"/>sponsiones.
+        </p>
+        <div xml:id="capsco-b290lp-Dd1e159">
+          <head xml:id="capsco-b290lp-Hd1e161">Articulus 1</head>
+          <p xml:id="capsco-b290lp-d1e163">
+            <lb ed="#V" n="25"/><milestone ed="#V" unit="p" rend="initial"/> QVantum ad primum ariculum sit haec prima
+            conclu<lb ed="#V" n="26" break="no"/>sio. Bonum in sua ratione includit formaliter
+            respe<lb ed="#V" n="27" break="no"/>ctum rationis, nec est mere absolutum. Hanc conclusionem
+            <lb ed="#V" n="28"/>probat. Sanct. Thomas de veritate quaest. Vigesimaprima
+            ar<lb ed="#V" n="29" break="no"/>ticu. primo vbi sic dicit tripliciter potest aliquid addere
+            <lb ed="#V" n="30"/>super alterum. Vno modo, quod addat aliquam rem, quae
+            <lb ed="#V" n="31"/>sit extra essentiam illius rei, cui dicitur addi, sicut album
+            <lb ed="#V" n="32"/>addit super corpus, quia essentia albedinis est praeter
+            essen<lb ed="#V" n="33" break="no"/>tiam corporis. Alio modo dicitur addi super alterum
+            pe<lb ed="#V" n="34" break="no"/>modum contrahendi &amp; determinandi, sicut homo aliquid
+            <lb ed="#V" n="35"/>addit supra supra animal, non quidem ita quod in homine
+            <lb ed="#V" n="36"/>sit aliqua res, quae sit penitus extra essentia animalis, alias
+            <lb ed="#V" n="37"/>oporteret dicere, quod non totum, quod est homo, esset
+            <lb ed="#V" n="38"/>animal, sed animal esset pars hominis, sed animal
+            contra<lb ed="#V" n="39" break="no"/>hitur per hominem, quia id quod determinate &amp;
+            actuali<lb ed="#V" n="40" break="no"/>ter continetur in ratione hominis implicite &amp; quasi
+            poten<lb ed="#V" n="41" break="no"/>tialiter continetur in ratione animalis, sicut de ratione
+            ho<lb ed="#V" n="42" break="no"/>minis est, quod habeat animam rationalem, de ratione
+            an<lb ed="#V" n="43" break="no"/>malis est, quod habeat animam sensitiuam non determinatam
+            <lb ed="#V" n="44"/>ratione cuius homo super animal addere dicitur, in aliqua
+            <lb ed="#V" n="45"/>re fundatur.
+          </p>
+          <p xml:id="capsco-b290lp-d1e212">
+            Tertio modo aliquid dicitur addere super
+            al<lb ed="#V" n="46" break="no"/>terum secundum rationem tantum, quando scilicet aliquid
+            <lb ed="#V" n="47"/>est de ratione alterius, quod tamen nihil est in rerum
+            natu<lb ed="#V" n="48" break="no"/>ra sed in ratione tantum, siue per illud contrahatur illud
+            <lb ed="#V" n="49"/>cui dicitur ad di, siue non. Caecum enim addit aliquid
+            su<lb ed="#V" n="50" break="no"/>per hominem, scilicet caecitatem, quae non est aliquod ens
+            <lb ed="#V" n="51"/>in rerum natura, sed rationis tantum secundum quod ens
+            <lb ed="#V" n="52"/>est comprehendens priuationes, &amp; per hoc homo
+            contra<lb ed="#V" n="53" break="no"/>hitur. Non enim omnis homo caecus est, sed cum dicimus
+            <lb ed="#V" n="54"/>talpam caecam, non sit per hoc additum aliqua contractio
+            <lb ed="#V" n="55"/>Non autem potest esse, quod super ens vniuersale aliquid
+            <lb ed="#V" n="56"/>addat primo modo, quamuis illo modo possit fieri aliqua
+            <lb ed="#V" n="57"/>additio super aliquod ens particulare. Nulla enim res
+            na<lb ed="#V" n="58" break="no"/>turae est, quae sit extra essentiam entis vniuersalis, quamuis
+            <lb ed="#V" n="59"/>aliqua res sit extra essentiam huius entis.
+          </p>
+          <p xml:id="capsco-b290lp-d1e245">
+            Secundo modo
+            <lb ed="#V" n="60"/>inueniuntur aliqua addere super ens quia ens contrahitur
+            <lb ed="#V" n="61"/>per. 2. genera, quorum vnumquodque addit aliquid super
+            <lb ed="#V" n="62"/>ens. Non quidem aliquod accidens vel aliquem
+            differen<lb ed="#V" n="63" break="no"/>tiam, quae sit extra essentiam entis, sed determinatum
+            mo<lb ed="#V" n="64" break="no"/>dum essendi, quae fundatur in ipsa essentia vel existentia
+            <lb ed="#V" n="65"/>rei. Sic autem bonum non addit aliquid super ens cum
+            bo<lb ed="#V" n="66" break="no"/>num diuidatur aequaliter in 10. genera vt ens, vt patet in
+            <lb ed="#V" n="67"/>primo ethi. Et ideo oportet, quod vel nihil addat super ens
+            <lb ed="#V" n="68"/>vel addat aliquid, quod sit in ratione tantum. Si enim
+            ad<lb ed="#V" n="69" break="no"/>deretur aliquid reale, oporteret, quod per rationem boni
+            con<lb ed="#V" n="70" break="no"/>traheretur ens ad aliquod specialegenus. Cum autem ens
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="71"/>sit illud, quod primo cadit in conceptione mentis, vt dicit
+            <lb ed="#V" n="72"/>Auicenus oportet quod omne aliud nomen, vel sit synomum
+            <lb ed="#V" n="73"/>enti quod de bono dici non potest, cum non nugatorie
+            di<lb ed="#V" n="74" break="no"/>catur ens bonum, vel addat aliquid ad minus secundum
+            <lb ed="#V" n="75"/>rationem, &amp; sic oportet quod bonum, ex quo non
+            contra<lb ed="#V" n="76" break="no"/>hit ens, addat aliquid super ens, quod sit rationis tantum.
+            <lb ed="#V" n="77"/>Illud autem, quod est rationis tantum, non potest esse, nisi
+            <lb ed="#V" n="78"/>duplex, scilicet negatio vel aliqua relatio, omnis enim
+            po<lb ed="#V" n="79" break="no"/>tentia absoluta aliquid in rerum natura existens significat.
+            <lb ed="#V" n="80"/>Sic igitur supra ens, quod est prima conceptio intellectus
+            <lb ed="#V" n="81"/>vnum addit illud quod est rationis tantum, scilicet
+            nega<lb ed="#V" n="82" break="no"/>tionem, vnum enim dicitur quasi ens indiuisum, sed verum
+            <lb ed="#V" n="83"/>&amp; bonum positiue dicuntur, vnde non possunt addere
+            ni<lb ed="#V" n="84" break="no"/>si relationem, quae sit rationis tantum Illa enim relatio
+            se<lb ed="#V" n="85" break="no"/>cundum philosophum. 5. metap. dicitur rationis tantum, secundum
+            <lb ed="#V" n="86"/>quam dicitur referri illud, quod non dependet ad id quod
+            <lb ed="#V" n="87"/>dicitur referri, sed econuerso cum ipsa relatio quaedam
+            de<lb ed="#V" n="88" break="no"/>pendentia sit, sicut patet in scientia &amp; scibili, sensu &amp;
+            sensi<lb ed="#V" n="89" break="no"/>bili, scientia autem dependet a scibili, sed non econuerso
+            <lb ed="#V" n="90"/>Vnde relatio, qua scientia refertur ad scibile, realis est,
+            re<lb ed="#V" n="91" break="no"/>latio vero qua scibile refertur ad scientiam, est tantum
+            ra<lb ed="#V" n="92" break="no"/>tionis. Dicitur enim scibile relatiuum secundum
+            philoso<lb ed="#V" n="93" break="no"/>phum, non quia ipsum referatur, sed quia aliquid refertur
+            <lb ed="#V" n="94"/>ad ipsum, &amp; ita est in omnibus aliis, quae se habent vt
+            men<lb ed="#V" n="95" break="no"/>sura &amp; mensuratum, vel perfectiuum, &amp; perfectibile.
+            Opor<lb ed="#V" n="96" break="no"/>tet igitur, quod verum &amp; bonum super intellectum addant
+            <lb ed="#V" n="97"/>respectum perfectiui. In quolibet autem ente est duo
+            con<lb ed="#V" n="98" break="no"/>siderare, scilicet ipsam rationem speciei, &amp; esse ipsum quo
+            <lb ed="#V" n="99"/>aliquid subsistit in specie illa, &amp; sic aliquod ens dicitur
+            per<lb ed="#V" n="100" break="no"/>fectiuum dupliciter. Vno modo secundum rationem suae
+            <lb ed="#V" n="101"/>speciei tantum, &amp; sic ab ente perficitur intellectus, qui
+            reci<lb ed="#V" n="102" break="no"/>pit rationem entis nec tamen est in eo secundum esse
+            natu<lb ed="#V" n="103" break="no"/>rale, &amp; ideo hunc modum per ficiendi addit verum su perens Verum enim
+            <lb ed="#V" n="104"/>est in mente vt dicit philosophus sexto metaph. &amp;
+            vnum<lb ed="#V" n="105" break="no"/>quodque ens in tantum dicitur esse verum inquantum est
+            <lb ed="#V" n="106"/>conformatum vel conformabile intellectui, &amp; ideo omnes
+            <lb ed="#V" n="107"/>recte diffinientes verum ponunt in eius diffinitione
+            intel<lb ed="#V" n="108" break="no"/>lectum.
+          </p>
+          <p xml:id="capsco-b290lp-d1e356">
+            Alio modo ens est perfectiuum alicuius non solu
+            <lb ed="#V" n="109"/>secundum rationem speciei, sed etiam secundum esse, quod
+            <lb ed="#V" n="110"/>habet in rerum natura, &amp; per hunc modum est persectiuu
+            <lb ed="#V" n="111"/>bonum, bonum enim in rebus est, vt dicit philosophus in
+            <lb ed="#V" n="112"/>6. metaphy. Inquantum autem vnum ens est perfectiuum
+            <lb ed="#V" n="113"/>alterius secundum suum esse &amp; consummatiuum habet ratio,
+            <lb ed="#V" n="114"/>nem finis respectu illius, quod ab eo perficitur, &amp; inde est
+            <lb ed="#V" n="115"/>quod dmes recte diffinientes bonum ponunt in ratione eius
+            ali<lb ed="#V" n="116" break="no"/>qui d, quod pertineat ad habitudinem finis Vnde
+            philoso<lb ed="#V" n="117" break="no"/>phus dicit primo ethi. quod bonum optime diffinierunt
+            dicen<lb ed="#V" n="118" break="no"/>tes, quod bonum est quod omnia appetunt. Sic ergo bonum
+            <lb ed="#V" n="119"/>primo &amp; principaliter dicitur ens perfectiuum alterius per
+            <lb ed="#V" n="120"/>modum finis, sed secundario dicitur aliquid bonum, quod e
+            <lb ed="#V" n="121"/>ductiuum in finem prout vtile dicitur bonum, vel quod
+            <lb ed="#V" n="122"/>natum est consequi finem, sicut &amp; sanum non solum
+            dici<lb ed="#V" n="123" break="no"/>tur habens sanitatem, sed perficiens, &amp; conseruans, &amp;
+            signi<lb ed="#V" n="124" break="no"/>ficans. Haec ille.
+          </p>
+          <p xml:id="capsco-b290lp-d1e394">
+            Ex quibus potest sic argui. Illud quod
+            in<lb ed="#V" n="125" break="no"/>cludit rationem entis, nec est enti synonymum &amp; differt ab ente
+            <lb ed="#V" n="126"/>ratione, nec addit enti aliquid ab eo diuersum, nec
+            differen<lb ed="#V" n="127" break="no"/>tiam contrahentem, nec solam negationem, addit respectum
+            <lb ed="#V" n="128"/>supra rationem entis, sed bonum est huiusmodi: igitur &amp;c
+            <lb ed="#V" n="129"/>Secunda conclusio. Bonum importat respectum ad
+            appe<lb ed="#V" n="130" break="no"/>titum. De hoc. Sanctus Thomas prima parte. q. 5. ar. 1. sic dicit. Bonum
+            <lb ed="#V" n="131"/>&amp; ens sunt idem secundum rem, sed differunt secundum rationem tantum, quod
+            <lb ed="#V" n="132"/>sic patet. Ro enim boni in hoc consistit, quod aliquid sit
+            appetibi<lb ed="#V" n="133" break="no"/>le, vnde philosophus dicit.. eth. quod bonum est, quod omnia
+            ap<lb ed="#V" n="134" break="no"/>petunt. Manifestum est autem, quod vnunquodque est appetibile,
+            <lb ed="#V" n="135"/>secundum quod est perfectum nam omnia appetunt suam perfectionem. In tam
+            <lb ed="#V" n="136"/>tum autem est perfectum vnunquodque, quantum est actu. Vnde
+            mani<lb ed="#V" n="137" break="no"/>festum est, quod in tantum est aliquid bonum inquantum est ens,
+            e<lb ed="#V" n="138" break="no"/>se enim est actualitas omnis rei vt ex superioribus patet. Vnde
+            mani<lb ed="#V" n="139" break="no"/>festum est, quod bonum &amp;ens sunt idem secundum rem, sed bonum dicit rationem
+            <lb ed="#V" n="140"/>appetibilitatis, quam non dicit ens. Haec ille.
+          </p>
+          <p xml:id="capsco-b290lp-d1e431">
+            Item de
+            verita<lb ed="#V" n="141" break="no"/>tae, quaestio. 1. art. 1. sic dicit. Sicut in demonstrationibus vel
+            <lb ed="#V" n="142"/>demonstrabilibus oportet fieri reductionem in aliqua
+            <lb ed="#V" n="143"/>principia per se nota intellectui, ita in inuestigando
+            vnum<lb ed="#V" n="144" break="no"/>quodque, alias vtrobique iretur in infinitum, &amp; sic periret
+            <lb ed="#V" n="145"/>omnis scientia &amp; cognitio rerum. Illud autem quod
+            in<pb ed="#V" n="515"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>tellectus primo concepit, quasi notissimum, &amp; in quo
+            con<lb ed="#V" n="2" break="no"/>ceptiones omnes resoluit, est ens, vt dicit Auicnus primo suae
+            <lb ed="#V" n="3"/>metaph. Vnde oportet, quod omnes aliae conceptiones
+            in<lb ed="#V" n="4" break="no"/>tellectus accipiantur ex additione ad ens, sed enti non
+            <lb ed="#V" n="5"/>potest addi aliquid quasi aliqua extranea natura per
+            mo<lb ed="#V" n="6" break="no"/>dum quo differentia additur generi, vel accidens subiecto,
+            <lb ed="#V" n="7"/>quia quaelibet natura essentialiter est ens. Vnde
+            philo<lb ed="#V" n="8" break="no"/>sophus probat in 3. metaphy. quod ens non potest esse
+            ge<lb ed="#V" n="9" break="no"/>nus, sed secundum hoc aliqua dicuntur addere super ens
+            <lb ed="#V" n="10"/>inquantum exprimunt modum ipsius entis, qui nomine
+            <lb ed="#V" n="11"/>entis non exprimitur, quod dupliciter contingit. Vno
+            <lb ed="#V" n="12"/>modo vt modus expressus sit aliquis specialis modus
+            en<lb ed="#V" n="13" break="no"/>tis. Sunt enim diuersi gradus entitatis secundum quos
+            <lb ed="#V" n="14"/>accipiuntur diuersi modi essendi, &amp; iuxta hos modos
+            ac<lb ed="#V" n="15" break="no"/>cipiuntur diuersa genera rerum. Substantia enim non
+            ad<lb ed="#V" n="16" break="no"/>dit supra ens aliquam differentiam, quae significet aliquam
+            <lb ed="#V" n="17"/>naturam superadditam enti, sed nomine substantiae
+            expri<lb ed="#V" n="18" break="no"/>mitur quidam specialis modus essendi scilicet per se ens
+            <lb ed="#V" n="19"/>&amp; ita est in alijs generibus. Alio modo ita quod modus
+            <lb ed="#V" n="20"/>expressus sit modus generalis consequens omne ens, &amp;
+            <lb ed="#V" n="21"/>hic modus dupliciter accipi potest. Vno modo secundum
+            <lb ed="#V" n="22"/>quod consequitur vnum quodque ens in se. Alio modo
+            se<lb ed="#V" n="23" break="no"/>cundum quod sequitur vnum ens in ordine ad aliud. Si
+            <lb ed="#V" n="24"/>primo modo, hoc dupliciter, quia vel exprimitur in ente
+            <lb ed="#V" n="25"/>aliquid affirmatiue vel negatiue. Non autem inuenitur
+            <lb ed="#V" n="26"/>aliquid affirmatiue dictum absolute, quod possit
+            accipi<lb ed="#V" n="27" break="no"/>in omni ente nisi essentia eius, secundum quam esse
+            dici<lb ed="#V" n="28" break="no"/>tur, &amp; sic imponitur hoc nomen res, quia in hoc differt
+            <lb ed="#V" n="29"/>ab ente secundum Auicenus in primo metaphy. quod ens
+            <lb ed="#V" n="30"/>sumitur ab actu essendi, sed nomen rei exprimit
+            quiddi<lb ed="#V" n="31" break="no"/>tat em &amp; essentiam entis. Negatio autem quae est
+            conse<lb ed="#V" n="32" break="no"/>quens omne ens absolute est indiuisio, &amp; hanc exprimit
+            <lb ed="#V" n="33"/>hoc nomen vnum. Nihil enim aliud est vnum quam ens
+            <lb ed="#V" n="34"/>indiuisum, Si autem secundo modo accipiatur modus
+            en<lb ed="#V" n="35" break="no"/>tis scilicet secundum ordinem vnius ad alterum, hoc
+            po<lb ed="#V" n="36" break="no"/>test esse dupliciter. Vno modo secundum diuisionem vnius
+            <lb ed="#V" n="37"/>ab altero, vel ad alterum, &amp; hoc exprimit hoc nomen
+            ali<lb ed="#V" n="38" break="no"/>quid. Dicitur enim aliquid quasi aliud quid. Vnde sicut
+            <lb ed="#V" n="39"/>ens dicitur vnum inquantum est indiuisum, ita dicitur
+            ali<lb ed="#V" n="40" break="no"/>quid inquantum est ab alijs diuisum. Alio modo secundum
+            <lb ed="#V" n="41"/>conuenientiam vnius entis ad aliud, &amp; hoc non potest
+            es<lb ed="#V" n="42" break="no"/>se nisi accipiatur aliquid, quod natum sit conuenire cum
+            <lb ed="#V" n="43"/>omni ente. Hoc autem est anima, quae quodammodo est
+            <lb ed="#V" n="44"/>omnia, sicut dicitur tertio de anima, cum autem anima est
+            <lb ed="#V" n="45"/>vis cognitiua &amp; appetitiua: ergo conuenientiam entis ad
+            <lb ed="#V" n="46"/>appetitum exprimit hoc nomen bonum. Vnde primo
+            <lb ed="#V" n="47"/>Ethi. dicitur bonum est, quod omnia appetunt, conueniem
+            <lb ed="#V" n="48"/>tia vero entis ad intellectum exprimit hoc nomen verum.
+            <lb ed="#V" n="49"/>Haec ille. Ex quibus potest sic argui. Illud quod
+            poni<lb ed="#V" n="50" break="no"/>tur in diffinitione alicuius est de ratione illius, sed
+            appeti<lb ed="#V" n="51" break="no"/>bilitas ponitur in diffinitione boni, igitur est de ratione
+            bo<lb ed="#V" n="52" break="no"/>ni.
+          </p>
+          <p xml:id="capsco-b290lp-d1e559">
+            Tertia conclusio. Bonum conuertitur cum ente, nec
+            <lb ed="#V" n="53"/>est inferius aut superius ad ens. Hanc ponit Sanctus Thomas
+            <lb ed="#V" n="54"/>de veritate quaest. 21. articulo, 2. vbi sic dicit. Cum ratio
+            <lb ed="#V" n="55"/>boni in hoc consistat, quod aliquid sit perfectiuum
+            alte<lb ed="#V" n="56" break="no"/>sius per modum finis, omne illud, quod inuenitur habere
+            <lb ed="#V" n="57"/>rationem finis, habet etiam rationem boni. Duo autem
+            <lb ed="#V" n="58"/>sunt de ratione finis scilicet vt sit appetibilis seu
+            desidera<lb ed="#V" n="59" break="no"/>tum ab his, quae nondum attingunt finem, &amp; vt sit dilectum,
+            <lb ed="#V" n="60"/>&amp; quasi delectabile ab his, quae finem participant, cum
+            eius<lb ed="#V" n="61" break="no"/>dem rationis sit tendere in finem, &amp; in fine
+            quodammo<lb ed="#V" n="62" break="no"/>do quiescere, sicut per eandem naturam lapis mouetur ad
+            <lb ed="#V" n="63"/>medium, &amp; quiescit in medio. Haec autem duo
+            inueniun<lb ed="#V" n="64" break="no"/>tur competere ipsi esse. Quae enim nondum esse
+            partici<lb ed="#V" n="65" break="no"/>pant, in esse tendunt quodam naturali appetitu. Vnde
+            <lb ed="#V" n="66"/>&amp; materia appetit formam vt dicitur primo phy. Omnia
+            <lb ed="#V" n="67"/>autem quae iam esse habent, illud esse suum naturaliter
+            a<lb ed="#V" n="68" break="no"/>mant, &amp; ipsum tota virtute conseruant. Vnde Boes dicit
+            <lb ed="#V" n="69"/>3. de consolatione. Dedit diuina prouidentia creatis a se
+            <lb ed="#V" n="70"/>rebus hanc vel maximam manendi causam vt quae aliquid
+            <lb ed="#V" n="71"/>possunt, naturaliter manere desiderent. Quare nihil est, quod
+            <lb ed="#V" n="72"/>vllo modo queas dubitare, cuncta, quae sunt, appetere
+            con<lb ed="#V" n="73" break="no"/>stantiam permanendi, deuitare perniciem. Ipsum igitur
+            <lb ed="#V" n="74"/>esse habet rationem boni. Vnde sicut impossibile est, quod
+            <lb ed="#V" n="75"/>aliquid sit ens, quod non habeat esse, ita necesse est, vt oc
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="76"/>ens sit bonum, ex hoc ipso, quod esse habet. Quamuis etiam
+            <lb ed="#V" n="77"/>in quibusdam entibus multae rationes bonitatis
+            superad<lb ed="#V" n="78" break="no"/>dantur supra suum esse, quo subsistunt. Cum autem bonum
+            <lb ed="#V" n="79"/>rationem entis includat, vt ex praedictis patet, impossi
+            b<lb ed="#V" n="80" break="no"/>le est aliquid esse bonum, quod non sit ens, &amp; ita
+            relinqui<lb ed="#V" n="81" break="no"/>tur quod bonum &amp; ens conuertuntur. Haec ille.
+          </p>
+          <p xml:id="capsco-b290lp-d1e627">
+            Item
+            pri<lb ed="#V" n="82" break="no"/>ma parte quaest. 5. articulo, tertio sic dicit. Omne ens
+            in<lb ed="#V" n="83" break="no"/>quantum est ens, est bonum. Omne enim ens inquantum
+            <lb ed="#V" n="84"/>est ens, est in actu, &amp; quodammodo perfectum, quia omnis
+            <lb ed="#V" n="85"/>actus perfectio quaedam est. Perfectum autem habet
+            ratio<lb ed="#V" n="86" break="no"/>nem appetibilis &amp; boni, vnde sequitur omne ens
+            inquan<lb ed="#V" n="87" break="no"/>tum huiusmodi bonum esse.
+          </p>
+          <p xml:id="capsco-b290lp-d1e643">
+            Item in solu. primi sic dicit.
+            <lb ed="#V" n="88"/>Substantia &amp; quantitas, &amp; qualitas, &amp; ea quae sub eis
+            con<lb ed="#V" n="89" break="no"/>tinentur, contrahunt ens, applicando ens ad aliquam
+            natu<lb ed="#V" n="90" break="no"/>ram seu quidditatem. Sic autem non addit aliquid
+            bo<lb ed="#V" n="91" break="no"/>num ad ens, nec super ens, sed tantummodo rationem
+            <lb ed="#V" n="92"/>appetibilitatis &amp; perfectionem, quod conuenit ipsi esse in
+            <lb ed="#V" n="93"/>quacunque natura sit, vnde bonum non contrahit ens. Haec
+            <lb ed="#V" n="94"/>ille. Ex quibus potest sic argui. Illa conuertuntur, quorum
+            <lb ed="#V" n="95"/>vtrunque de altero vniuersaliter praedicatur, sed ens &amp;
+            bo<lb ed="#V" n="96" break="no"/>num sunt huiusmodi, igitur &amp;c. Minor probatur, quia oc
+            <lb ed="#V" n="97"/>ens est bonum, cum habeat aliquid appetibile, saltem suum
+            <lb ed="#V" n="98"/>proprium esse. Rursum omne bonum est ens, cum ens
+            <lb ed="#V" n="99"/>in ratione boni includatur. Et in hoc primus articulus
+            <lb ed="#V" n="100"/>terminatur.
+          </p>
+        </div>
+        <div xml:id="capsco-b290lp-Dd1e675">
+          <head xml:id="capsco-b290lp-Hd1e677">Articulus 2</head>
+          <p xml:id="capsco-b290lp-d1e679">
+            <lb ed="#V" n="101"/><milestone ed="#V" unit="p" rend="initial"/> Vantum ad secundum articulum arguitur contra
+            <lb ed="#V" n="102"/>praedicta. Et quidem contra primam conclusionem
+            <lb ed="#V" n="103"/>arguunt Scotistae multipliciter. Primo per
+            argu<lb ed="#V" n="104" break="no"/>mentum factum ad partem affirmatiuam quaestionis, quia
+            <lb ed="#V" n="105"/>nulla relatio dicit formaliter perfectionem &amp;c. vt prius.
+          </p>
+          <p xml:id="capsco-b290lp-d1e693">
+            <lb ed="#V" n="106"/>Secundo sic. Illud quod conuertitur cum ente
+            essentiali<lb ed="#V" n="107" break="no"/>ter, non potest dicere relationem formaliter, quia non oc
+            <lb ed="#V" n="108"/>ens est formaliter relatio, sed bonum conuertitur cum
+            <lb ed="#V" n="109"/>ente &amp; essentialiter, vt videtur, igitur &amp;c. Tertio. Illud
+            <lb ed="#V" n="110"/>quod dicit formaliter relationem, dicit illud, quod dicit
+            <lb ed="#V" n="111"/>vt ad alterum, vel vt alicuius, quia relationis esse est ad
+            a<lb ed="#V" n="112" break="no"/>liud esse, sed bonum non est huiusmodi, quia bonum non
+            <lb ed="#V" n="113"/>importat semper &amp; necessario esse alicuius bonum. Nam
+            <lb ed="#V" n="114"/>Auguuius dicit multis locis de trinitate, quod bonum, &amp;
+            iu<lb ed="#V" n="115" break="no"/>stum, &amp; similia ad se dicuntur, igitur &amp;c.
+          </p>
+          <p xml:id="capsco-b290lp-d1e717">
+            Quarto sic.
+            Bo<lb ed="#V" n="116" break="no"/>num in Deo non dicit relationem, ergo nec in creatura,
+            <lb ed="#V" n="117"/>consequentia patet, quia bonum in Deo &amp; in creatura
+            ha<lb ed="#V" n="118" break="no"/>bent quandam similitudinem saltem analogiae, antecedens
+            <lb ed="#V" n="119"/>probatur, quia si bonum in Deo diceret relationem, aut
+            <lb ed="#V" n="120"/>diceret relationem realem, aut relationem rationis, non
+            <lb ed="#V" n="121"/>relationem rationis, quia tunc bonum esset ens rationis,
+            <lb ed="#V" n="122"/>nec esset in rebus, cuius contrarium dicitur 6. metaphy.
+            <lb ed="#V" n="123"/>quod bonum &amp; malum sunt in rebus. Si autem dicat
+            rela<lb ed="#V" n="124" break="no"/>tionem realem. Contra. Quia aut dicit relationem in
+            di<lb ed="#V" n="125" break="no"/>uinis ad intra vel ad extra, non ad intra, quia tales
+            relatio<lb ed="#V" n="126" break="no"/>nes non sunt communes omnibus personis, bonum autem
+            <lb ed="#V" n="127"/>essentialiter &amp; aequaliter eis conuenit, nec ad extra. Primo
+            <lb ed="#V" n="128"/>quia multi ponunt, quod Deus nullam relationem realem
+            <lb ed="#V" n="129"/>habet ad extra.
+          </p>
+          <p xml:id="capsco-b290lp-d1e750">
+            Secundo quia sequeretur, quod Deus
+            es<lb ed="#V" n="130" break="no"/>set bonus ex habitudine ad creaturas, &amp; per consequens,
+            <lb ed="#V" n="131"/>quod sua bonitas dependeret a creatura, quod est falsum.
+            <lb ed="#V" n="132"/>Quinto. Quia omne quod mouet, est aliquid absolutum,
+            <lb ed="#V" n="133"/>sed bonum mouet appetitum, igitur est aliquid
+            absolu<lb ed="#V" n="134" break="no"/>tum. Sexto arguunt praemittendo duas distinctiones.
+          </p>
+          <p xml:id="capsco-b290lp-d1e764">
+            Pri<lb ed="#V" n="135" break="no"/>ma est de absoluto &amp; relatiuo. Nam absolutum potest
+            du<lb ed="#V" n="136" break="no"/>pliciter accipi. Vno modo pro non determinato vel
+            con<lb ed="#V" n="137" break="no"/>tracto, sicut si diceretur, quod animal dicit naturam
+            sen<lb ed="#V" n="138" break="no"/>sitiuam absolute, hoc est non contractam ad hominem,
+            <lb ed="#V" n="139"/>vel equum, &amp; absolutum sic acceptum non distinguitur
+            <lb ed="#V" n="140"/>contra relatiuum, sed contra contractum. Alio modo
+            di<lb ed="#V" n="141" break="no"/>citur absolutum prout distinguitur contra ad aliud se
+            ha<lb ed="#V" n="142" break="no"/>bere. Et isto modo absolutum distinguitur contra
+            relati<lb ed="#V" n="143" break="no"/>uum. Secunda distinctio est de conuertentia boni cum
+            en<lb ed="#V" n="144" break="no"/>te, quia aliquid potest conuerti cum ente dupliciter. Vno
+            <lb ed="#V" n="145"/>modo essentialiter. Alio modo denominatiue. Primo
+            mo<lb ed="#V" n="146" break="no"/>do res conuertitur cum, ente, quia omnis entitas extra
+            <lb ed="#V" n="147"/>animam, est essentialiter realitas, &amp; econuerso. Secundo
+            <lb ed="#V" n="148"/>modo quando vnum non est alterum essentialiter &amp;
+            for<lb ed="#V" n="149" break="no"/>masiter, tamen vnum non inuenitur sine alio, sicut ens
+            <lb ed="#V" n="150"/>creatum, &amp; relatio, quia dato quod non omnis essentia
+            <pb ed="#V" n="516"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>creata sit relatio, nulla tamen essentia creata inuenitur
+            si<lb ed="#V" n="2" break="no"/>ne relatione, &amp; ideo conuertuntur denominatiue. His
+            sup<lb ed="#V" n="3" break="no"/>positis dicunt, quod siue absolutum accipiatur primo
+            <lb ed="#V" n="4"/>modo scilicet pro non contracto, siue secundo modo
+            pro<lb ed="#V" n="5" break="no"/>ut distinguitur contra relatiuum, bonum semper dicit
+            ali<lb ed="#V" n="6" break="no"/>quid absolutum, quia vel bonum conuertitur
+            essentiali<lb ed="#V" n="7" break="no"/>ter cum ente, &amp; tunc bonum dicit absolutum. 1. non
+            con<lb ed="#V" n="8" break="no"/>tr actum sicut &amp; ens, vel conuertitur cum ente
+            denomina<lb ed="#V" n="9" break="no"/>tiue, &amp; tunc dicit absolutum prout distinguitur contra
+            <lb ed="#V" n="10"/>relatum. Et quia primum notum est, nec illa acceptio
+            ab<lb ed="#V" n="11" break="no"/>soluti est secundum intellectum quaestionis, ideo probant
+            <lb ed="#V" n="12"/>respectum accipiendo, quod bonum formaliter idem
+            di<lb ed="#V" n="13" break="no"/>cit quod perfectio, vel aliquid ordinatum ad perfectionem.
+            <lb ed="#V" n="14"/>Et quia perfectio non dicit formaliter relationem, sed
+            na<lb ed="#V" n="15" break="no"/>turam absolutam, quae est fundamentum relationis, ideo
+            <lb ed="#V" n="16"/>secundum eos bonum non dicit formalitet relationem,
+            <lb ed="#V" n="17"/>sed absolutum. Quia autem bonum dicat formaliter
+            per<lb ed="#V" n="18" break="no"/>fectionem, vel aliquid ordinatum ad illam probant sic.
+            <lb ed="#V" n="19"/>Ratio boni dicit finem, vel illud quod est ad finem &amp; vt
+            <lb ed="#V" n="20"/>sic, sed quodlibet istorum dicit perfectionem vel id quod
+            <lb ed="#V" n="21"/>se ordinatum ad perfectionem, igitur &amp;c. Maior patet,
+            <lb ed="#V" n="22"/>quia ratio boni consistit in hoc, quod est esse finem, vel
+            <lb ed="#V" n="23"/>aliquid ordinatum ad finem. Minor probatur de facili scilicet
+            <lb ed="#V" n="24"/>quod ratio finis, &amp; eius quod est ad finem, sit esse
+            perfecti<lb ed="#V" n="25" break="no"/>onem, vel ad perfectionem ordinatum, quia duplex est
+            fi<lb ed="#V" n="26" break="no"/>nis scilicet finis intra, &amp; finis extra, &amp; vtroque modo semper
+            <lb ed="#V" n="27"/>dicitur aliquid esse finis ex hoc, quod est aliquid perfectius
+            <lb ed="#V" n="28"/>his quae sunt ad finem, ea autem quae sunt ad finem,
+            dicun<lb ed="#V" n="29" break="no"/>tur perfecta simpliciter, vel secundum quid, prout
+            ordina<lb ed="#V" n="30" break="no"/>tur ad finem, &amp; haec fuit minor. Sequitur ergo conclusio,
+            <lb ed="#V" n="31"/>quod formalis ratio hominis sit ratio pfectionis, vel eius
+            <lb ed="#V" n="32"/>quod est ad perfectionem ordinatum. Haec sunt
+            argumen<lb ed="#V" n="33" break="no"/>ta eorum.
+          </p>
+          <p xml:id="capsco-b290lp-d1e877">
+            Contra secundam conclusionem arguit Scotus.
+            <lb ed="#V" n="34"/>Nam illa conclusio supponit, quod obiectum propositum
+            <lb ed="#V" n="35"/>&amp; adaequantum voluntatis sit bonum, ex quo sequitur, quod
+            <lb ed="#V" n="36"/>voluntas creata non possit aliquid velle, nisi ostendatur
+            i<lb ed="#V" n="37" break="no"/>bi per intellectum sub ratione boni. Contra hoc arguit sic
+            <lb ed="#V" n="38"/>Voluntas creata potest velle aliquid, quod non est vere
+            bo<lb ed="#V" n="39" break="no"/>num, nec appareuter bonum, igitur conclusio falsa,
+            ante<lb ed="#V" n="40" break="no"/>cedens probatur, quia si non, tunc voluntas creata non
+            <lb ed="#V" n="41"/>posset tendere in oppositum, vel in malum, aut peccatum
+            <lb ed="#V" n="42"/>sub ea ratione, sub qua non potest tendere diuina
+            volun<lb ed="#V" n="43" break="no"/>tas Diuina enim voluntas potest tendere in omne
+            substra<lb ed="#V" n="44" break="no"/>ctum deformitati, licet non illam rationem malitiae
+            con<lb ed="#V" n="45" break="no"/>comitantem. Et si concedatur, quod omne volibite ab
+            <lb ed="#V" n="46"/>vna voluntate sit volibele ab alia, quia omnis voluntas
+            ha<lb ed="#V" n="47" break="no"/>bet obiectum aeque commune, non tamen illud, quod
+            <lb ed="#V" n="48"/>est ordinate volitum ab vna voluntate, est ordinate
+            voli<lb ed="#V" n="49" break="no"/>tum ab alia, quia ordinatum velle non est ex solo obiecto,
+            <lb ed="#V" n="50"/>sed ex conuenientia actus &amp; obiecti circa illam potentiam.
+            <lb ed="#V" n="51"/>Potest enim conuenire voluntati aliquis actus circa
+            ali<lb ed="#V" n="52" break="no"/>quod obiectum, quod non conuenit alteri. Contra hoc
+            <lb ed="#V" n="53"/>arguit sic. Quia appraehendatur odium Dei ab aliqua
+            po<lb ed="#V" n="54" break="no"/>tentia intellectiua creata non crrante &amp; per consequens
+            <lb ed="#V" n="55"/>non ostendente illud sub ratione boni, sed tantum
+            mali<lb ed="#V" n="56" break="no"/>si voluntas potest illud velle, habetur propositum, qui.
+            <lb ed="#V" n="57"/>nulla est bonitas in illo actu prior tempore actu volendi.
+            <lb ed="#V" n="58"/>Si enim assignetur aliqua bonitas propter actum volendi,
+            <lb ed="#V" n="59"/>haec non est in obiecto vt praecedit actum, sed in potentia,
+            <lb ed="#V" n="60"/>vt sequitur actum volendi, si non potest in illud
+            osten<lb ed="#V" n="61" break="no"/>sum malum nisi sub aliqua ratione poni &amp; non mali,
+            igi<lb ed="#V" n="62" break="no"/>tur vel simpliciter non potest in illud, vel oportet
+            ratio<lb ed="#V" n="63" break="no"/>nem esse prius natura excecatam, quod videtur
+            inconue<lb ed="#V" n="64" break="no"/>niens, &amp; contra articu.um. d. quod stante ratione in
+            vni<lb ed="#V" n="65" break="no"/>uersali &amp; particulari &amp;c. Arguitur etiam ab alijs contra
+            <lb ed="#V" n="66"/>illam conclusionem probando, quod appetibile non sit
+            ra<lb ed="#V" n="67" break="no"/>tio boni, quia propria &amp; formalis ratio obiecti alicuius
+            <lb ed="#V" n="68"/>potentiae non consistit in denominatione obiecti a
+            poten<lb ed="#V" n="69" break="no"/>tia, cui obijcitur, nec in respectu obiecti ad potentiam, sed
+            <lb ed="#V" n="70"/>bonum secundum te est primum &amp; formale obiectum
+            vo<lb ed="#V" n="71" break="no"/>luntatis, igitur propria &amp; formalis ratio boni non
+            consi<lb ed="#V" n="72" break="no"/>stit in denominatione eius a potentia volitiua, vel ab
+            a<lb ed="#V" n="73" break="no"/>ctu eius. Esse autem appetibile est huiusmodi
+            denomina<lb ed="#V" n="74" break="no"/>tio&amp; respectus, igitur &amp;. Maior pater, quia obiectum
+            <lb ed="#V" n="75"/>prius est omni actu, &amp; potentia, &amp; omni denominatione
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="76"/>obiecti a potentia, &amp; ab actu potentiae, &amp; omni respectu
+            <lb ed="#V" n="77"/>eius ad potentiam, &amp; actum potentiae, sicut color qui est
+            <lb ed="#V" n="78"/>obiectum visus, prior est visibilitate, &amp; sonus audibilitate
+            <lb ed="#V" n="79"/>igitur ratio talium obiectorum non consistit in tali
+            deno<lb ed="#V" n="80" break="no"/>minatione vel respectu, immo ratio coloris &amp; soni prior
+            <lb ed="#V" n="81"/>est talibus, &amp; simile est de obiecto voluntatis &amp; intelle,
+            <lb ed="#V" n="82"/>ctus.
+          </p>
+          <p xml:id="capsco-b290lp-d1e988">
+            Contra tertiam conclusionem arguit Durandus
+            pro<lb ed="#V" n="83" break="no"/>bando, quod bonum non potest conuerti essentialiter cum
+            <lb ed="#V" n="84"/>ente. Primo enim supponit tria. Primum est, quod
+            forma<lb ed="#V" n="85" break="no"/>lis ratio boni est ratio realis, &amp; non formata per animam
+            <lb ed="#V" n="86"/>sicut sunt intentiones logicae, &amp; hoc supponitur ex. 6.
+            mo<lb ed="#V" n="87" break="no"/>taphy. Vbi dicitur, quod bonum &amp; malum sunt in rebus
+            <lb ed="#V" n="88"/>Secundum est, quod ratio boni est ratio positiua, &amp; hoc
+            <lb ed="#V" n="89"/>est de se notum, cum ratio mali sit priuatiua. Tertium est,
+            <lb ed="#V" n="90"/>quod ratio boni differt a ratione entis, alioquin esset
+            nu<lb ed="#V" n="91" break="no"/>gatio dicrtule ens bonum, tunc arguitur sic. Illa quae sunt idem
+            <lb ed="#V" n="92"/>essentialiter &amp; adaequate non differunt re, nec reali ratione
+            <lb ed="#V" n="93"/>sed quicquid conuertitur cum ente essentialiter, est idem
+            <lb ed="#V" n="94"/>essentialiter cum ente &amp; adaequate, ergo non differt ab
+            en<lb ed="#V" n="95" break="no"/>te re, nec reali ratione, sed bonum differt ab ente
+            sasten<lb ed="#V" n="96" break="no"/>ratione reali, quam non format intellectus solus ex
+            prima<lb ed="#V" n="97" break="no"/>&amp; tertia suppositione: ergo bonum non potest
+            conuerti<lb ed="#V" n="98" break="no"/>cum ente essentialiter. Maior patet, quia illa, quae sunt
+            <lb ed="#V" n="99"/>idem in eo in quo sunt idem non possunt differre, illa
+            au<lb ed="#V" n="100" break="no"/>tem, quae sunt idem essentialiter &amp; adequatae sunt idem
+            <lb ed="#V" n="101"/>omni modo identitatis realis. Ex quo enim sunt idem
+            es<lb ed="#V" n="102" break="no"/>saentialiter sunt idem realiter, &amp; ex quo sunt idem adae qua
+            <lb ed="#V" n="103"/>te, sequitur quod si sint idem realiter, quod vnum nihil
+            <lb ed="#V" n="104"/>reale includat quod non includat alterum, nec dicatur
+            <lb ed="#V" n="105"/>realiter de aliquo, de quo non dicatur alterum, alioquin
+            <lb ed="#V" n="106"/>non esset ibi identitas essentialis &amp; adaequata. Minor
+            pro<lb ed="#V" n="107" break="no"/>batur, quia quicquid conuertitur cum ente essentialiter
+            <lb ed="#V" n="108"/>est idem cum eo realiter &amp; adaequate, quia talia
+            praedican<lb ed="#V" n="109" break="no"/>tur de se inuicem in abstracto, &amp; ideo sunt idem realiter
+            <lb ed="#V" n="110"/>&amp; quia praedicantur de se inuicem conuertibiliter, ideo
+            <lb ed="#V" n="111"/>sunt idem adaequate, &amp; sic est ibi omnimoda identitas
+            rea<lb ed="#V" n="112" break="no"/>lis.
+          </p>
+          <p xml:id="capsco-b290lp-d1e1056">
+            Confirmatur per exemplum. Quia enim res &amp; ens
+            ex<lb ed="#V" n="113" break="no"/>tra animam, de quo nunc loquimur, conuertuntur
+            essen<lb ed="#V" n="114" break="no"/>tialiter, &amp; ideo omnis realitas est entitas, &amp; omnis entitas
+            <lb ed="#V" n="115"/>est realitas adaequate, nec differunt aliqua ratione reali, sed
+            <lb ed="#V" n="116"/>sunt nomina penitus synonyma. Et idem necessarium est
+            <lb ed="#V" n="117"/>dicere de omni, eo quod essentialiter conuertitur cum
+            <lb ed="#V" n="118"/>ente, si illud sit formaliter positiuum.
+          </p>
+          <p xml:id="capsco-b290lp-d1e1072">
+            Secundo arguit sic.
+            <lb ed="#V" n="119"/>Ab eo quod includit omne positiuum reale, &amp; de eo
+            dici<lb ed="#V" n="120" break="no"/>tur in primo modo dicendi per se, nihil positiuum potest
+            <lb ed="#V" n="121"/>differre re, nec reali ratione tanquam ei condiuisum,
+            <lb ed="#V" n="122"/>quamuis possit differre, sicut inferius a superiore, sed ens
+            <lb ed="#V" n="123"/>secundum communem rationem entis includit omne
+            rea<lb ed="#V" n="124" break="no"/>le positiuum, &amp; de eo dicitur in primo modo dicendi per
+            <lb ed="#V" n="125"/>se, igitur nihil reale positiuum potest differre ab ente, nec
+            <lb ed="#V" n="126"/>re, nec reali ratione, tanquam aliquid condiuisum contra
+            <lb ed="#V" n="127"/>ens, sed solum sicut inferius contentum sub ente. Bonum
+            <lb ed="#V" n="128"/>autem est aliquid positiuum &amp; reale, vt patet ex primis
+            <lb ed="#V" n="129"/>duabus suppositionibus, &amp; differt reali ratione ab ente, vt
+            <lb ed="#V" n="130"/>patet ex tertia: ergo quod quamuis possit differre ab ente
+            <lb ed="#V" n="131"/>vt inferius a suo superiore, nullo modo tamen potest
+            dif<lb ed="#V" n="132" break="no"/>ferre ab ipso vt condiuisum. Differret autem vt
+            condiui<lb ed="#V" n="133" break="no"/>sum, si conuerteretur cum eo essenualiter, &amp;
+            nihilomi<lb ed="#V" n="134" break="no"/>nus differt ratione reali, quia cum vna ratio non contineat
+            <lb ed="#V" n="135"/>sub se aliam, oportet quod sint condiuisae. Maior
+            propos<lb ed="#V" n="136" break="no"/>to patet, quia illud, quod includit aliqua sic, quod
+            essentia<lb ed="#V" n="137" break="no"/>liter dicitur de quolibet eorum, non potest condiuidi
+            con<lb ed="#V" n="138" break="no"/>tra illa, nisi sicut condiuiditur ratio inferioris a ratione
+            su<lb ed="#V" n="139" break="no"/>perioris, vt patet de animali respectu omnium, de
+            quibu<lb ed="#V" n="140" break="no"/>dicitur essentialiter in primo modo dicendi per se, &amp; in
+            <lb ed="#V" n="141"/>omnibus consimilibus. Minor manifesta est, quia omne
+            <lb ed="#V" n="142"/>reale positiuum &amp; secundum omnem realem rationem
+            <lb ed="#V" n="143"/>includitur in ente secundum comunem rationem entis
+            <lb ed="#V" n="144"/>&amp; recipit eius prardicationem in primo modo dicendi per
+            <lb ed="#V" n="145"/>se.
+          </p>
+          <p xml:id="capsco-b290lp-d1e1133">
+            Tertio arguit sic. Ratio boni, per quam differt ab ente,
+            <lb ed="#V" n="146"/>aut est sola ratio entitatis in communi, aut praeter illam
+            <lb ed="#V" n="147"/>includit rationem aliquam, si sit sola ratio entitatis, tunc
+            <lb ed="#V" n="148"/>ratio entis &amp; ratio boni non differunt, quod est contra
+            <lb ed="#V" n="149"/>tertiam suppositionem, si includat aliquam aliam, aut de
+            <lb ed="#V" n="150"/>illa alia praedicatur ratio entis, aut non: si non, ergo illa
+            <pb ed="#V" n="517"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>est non ens, &amp; ita non est aliquid positiuum, quod est
+            con<lb ed="#V" n="2" break="no"/>tra secundam suppositionem. Si autem de illa alia
+            praedi<lb ed="#V" n="3" break="no"/>cetur ratio entis, aut praedicatur de illa conuertibiliter, aut
+            <lb ed="#V" n="4"/>non conuertibiliter, si conuertibiliter, ita quod sit verum
+            <lb ed="#V" n="5"/>dicere, quod omnis ratio entis est illa ratio, &amp; omnis illa
+            <lb ed="#V" n="6"/>ratio est ratio entis, sequitur, quod sint penitus eadem
+            ra<lb ed="#V" n="7" break="no"/>tio, quia propositio affirmatiua non verificatur nisi ex
+            <lb ed="#V" n="8"/>identitate praedicati cum subiecto. Si autem non
+            conuer<lb ed="#V" n="9" break="no"/>tibiliter, sequitur, quod ratio boni sit in minus quam
+            ra<lb ed="#V" n="10" break="no"/>tio entis, &amp; ita non conuertitur essentialiter cum ea.
+          </p>
+          <p xml:id="capsco-b290lp-d1e1173">
+            Quar<lb ed="#V" n="11" break="no"/>to arguit sic. Nam idem dicit patere inducendo
+            vniuersali<lb ed="#V" n="12" break="no"/>ter in omnibus, quae essentialiter praedicantur de pluribus,
+            <lb ed="#V" n="13"/>&amp; mn quid, siue sit species, siue genus infimum, siue genus
+            <lb ed="#V" n="14"/>subalternum, siue genus generalissimum, quia nunquam
+            <lb ed="#V" n="15"/>plura praedicantur conuertibiliter &amp; in quid de eodem, nisi
+            <lb ed="#V" n="16"/>sint nomina svnonyma. Verbi gratia, de omnibus
+            homi<lb ed="#V" n="17" break="no"/>nibus nullum nomen praedicatur in quid, nisi nomen
+            ho<lb ed="#V" n="18" break="no"/>minis, vel quod est cum eo synonimum, nec de omnibus
+            <lb ed="#V" n="19"/>speciebus animalis, nisi animal, vel nomen cum eo
+            syno<lb ed="#V" n="20" break="no"/>nimum, &amp; sic de omnibus generibus vsque ad substantiam
+            <lb ed="#V" n="21"/>inclusiue. Alioquin vnum quid haberet plures rationes
+            <lb ed="#V" n="22"/>quidditatiuas, quod est impossibile. Cum ergo ratio
+            en<lb ed="#V" n="23" break="no"/>tis dicatur de omnibus positiuis in quid, impossibile est,
+            <lb ed="#V" n="24"/>quod aliqua alia ratio dicatur de eis in quid, nisi sit alia
+            so<lb ed="#V" n="25" break="no"/>lum secundum nomen. Cum ergo ratio boni sit alia a
+            ratio<lb ed="#V" n="26" break="no"/>ne entis, impossibile est, quod conuertatur cum ea
+            essen<lb ed="#V" n="27" break="no"/>tialiter &amp; quidditatiue, &amp; sic patet, vt dicit, quod bonum
+            <lb ed="#V" n="28"/>non potest conuerti essentialiter cum ente. Et idem dico
+            <lb ed="#V" n="29"/>de quocunque alio positiuo vel priuatiuo, quia si sit
+            positi<lb ed="#V" n="30" break="no"/>uum, necesse est, quod sit in minus essentialiter, quamuis
+            <lb ed="#V" n="31"/>possit conuerti concretiue. Si vero sit priuatiuum vt est
+            <lb ed="#V" n="32"/>vnum, non potest conuerti essentialiter, quia nulla
+            pri<lb ed="#V" n="33" break="no"/>uatio est de essentia positiui, quamuis possit sequi ad eum,
+            <lb ed="#V" n="34"/>sicut ad esse hominem sequitur necessario non esse asinum.
+            <lb ed="#V" n="35"/>Haec ille. Et in hoc secundus articulus terminatur.
+          </p>
+        </div>
+        <div xml:id="capsco-b290lp-Dd1e1231">
+          <head xml:id="capsco-b290lp-Hd1e1233">Articulus 3</head>
+          <p xml:id="capsco-b290lp-d1e1235">
+            <lb ed="#V" n="36"/><milestone ed="#V" unit="p" rend="initial"/> Vantum ad tertium articulum respondendum est
+            <lb ed="#V" n="37"/>obiectionibus praedictis. Et quidem ad primum
+            con<lb ed="#V" n="38" break="no"/>tra primam conclusionem respondet Durandus
+            negan<lb ed="#V" n="39" break="no"/>do maiorem. Aliqua enim relatio, vt dicit, importat
+            per<lb ed="#V" n="40" break="no"/>fectionem scilicet relatio conuenientis &amp; perfecti.
+            Perfe<lb ed="#V" n="41" break="no"/>ctio enim &amp; perfectibile dicunt relationes seu
+            habitudi<lb ed="#V" n="42" break="no"/>nes. Res autem quibus haec fundamentaliter conueniunt
+            <lb ed="#V" n="43"/>sunt quaedam absoluta, quod patet. Perfectibile enim
+            <lb ed="#V" n="44"/>non dicit formaliter nisi habitudinem alicuius rei ad aliam,
+            <lb ed="#V" n="45"/>per quam habet perfici, nec perfectio dicit formaliter nisi
+            <lb ed="#V" n="46"/>habitudinem rei ad aliam, quae per ipsam perficitur,
+            vn<lb ed="#V" n="47" break="no"/>de perfectio &amp; perfectibile sunt relationes, sed res
+            qui<lb ed="#V" n="48" break="no"/>bus tales relationes seu habitudines conueniunt tanquam
+            <lb ed="#V" n="49"/>subiectis vel fundamentis sunt absolutae, &amp; idem est de
+            bo<lb ed="#V" n="50" break="no"/>nitate, &amp; de bono. Haec ille.
+          </p>
+          <p xml:id="capsco-b290lp-d1e1271">
+            Mihi apparet, quod ista
+            re<lb ed="#V" n="51" break="no"/>sponsio dicit duo falsa secundum mentem Sancti Thomas
+            <lb ed="#V" n="52"/>Primum est, quod perfectio &amp; perfectibile dicant puros
+            <lb ed="#V" n="53"/>respectus, vel quod sint relatiua secundum esse, non solum
+            <lb ed="#V" n="54"/>secundum dici, nam secundum rei veritatem perfectio &amp;
+            <lb ed="#V" n="55"/>perfectibile dicunt principaliter absolutum scilicet actum
+            <lb ed="#V" n="56"/>&amp; potentiam, &amp; secundario dicunt respectus, &amp; sic sunt
+            <lb ed="#V" n="57"/>relatiua secundum dici, &amp; non secundum esse. Aliud
+            fal<lb ed="#V" n="58" break="no"/>sum est, quod bonum dicat purum respectum, &amp; sit
+            simili<lb ed="#V" n="59" break="no"/>ter relatiuum secundum esse. Vnde Sanctus Thomas de
+            veri<lb ed="#V" n="60" break="no"/>tate q. 21. articulo, sexto sic dicit.
+          </p>
+          <p xml:id="capsco-b290lp-d1e1295">
+            Sciendum, quod
+            ali<lb ed="#V" n="61" break="no"/>quod nomen potest respectum importare dupliciter. Vno
+            <lb ed="#V" n="62"/>modo sic, quod nomen imponatur ad signandum
+            respe<lb ed="#V" n="63" break="no"/>ctum ipsum, sicut hoc nomen pater, aut filius, aut
+            paterni<lb ed="#V" n="64" break="no"/>tas ipsa. Quaedam vero dicuntur importare respectum,
+            <lb ed="#V" n="65"/>quia significant rem alicuius generis quam comitatur
+            re<lb ed="#V" n="66" break="no"/>spectus, quamuis non sit impositum ad significandum
+            ip<lb ed="#V" n="67" break="no"/>sum respectum, sicut hoc nomen sententia est impositum
+            <lb ed="#V" n="68"/>ad significandum quandam qualitatem, quam sequitur
+            <lb ed="#V" n="69"/>quidam respectus, non autem ad significandum ipsum
+            re<lb ed="#V" n="70" break="no"/>fgectum. Et per hunc modum ratio boni respectum
+            im<lb ed="#V" n="71" break="no"/>plicat, non quia ipsum nomen boni significet ipsum
+            re<lb ed="#V" n="72" break="no"/>mectum solum, sed quia significat illud ad quod sequitur
+            <lb ed="#V" n="73"/>respectus cum respectu ipso. Respectus autem
+            importa<lb ed="#V" n="74" break="no"/>tus in nomine boni est habitudo perfectiui secundum quod
+            <lb ed="#V" n="75"/>aliquid natum est perficere non solum secundum
+            ratio<cb ed="#V" n="b"/><lb ed="#V" n="76" break="no"/>nem speciei, sed etiam secundum esse, quod habet in
+            re<lb ed="#V" n="77" break="no"/>bus. Hoc enim modo finis perficit ea quae sunt ad finem
+            <lb ed="#V" n="78"/>Haec ille.
+          </p>
+          <p xml:id="capsco-b290lp-d1e1338">
+            Ideo dico aliter ad argumentum quod ipsum ratio
+            <lb ed="#V" n="79"/>aliud concludit nisi hoc solum scilicet quod bonum non
+            <lb ed="#V" n="80"/>dicit solum &amp; purum respectum, &amp; hoc conceditur; non
+            <lb ed="#V" n="81"/>autem concludit, quod nullo modo includat respectum
+            <lb ed="#V" n="82"/>Vnde ad maiorem argumenti dicitur quod nulla pura
+            re<lb ed="#V" n="83" break="no"/>latio dicit proprie perfectionem. Sed absolutum cum
+            re<lb ed="#V" n="84" break="no"/>spectu, vel absolutum inseparabile a respectu, &amp; ad quod
+            <lb ed="#V" n="85"/>sequitur respectus dicit perfectionem, sicut patet de
+            scien<lb ed="#V" n="86" break="no"/>tia, &amp; idem de bono &amp; bonitate perfectione perfectibili
+            <lb ed="#V" n="87"/>Ad secundum dicit Durandus negando minorem, quia
+            <lb ed="#V" n="88"/>vt dicit impossibile est quod aliquod positiuum
+            conuerta<lb ed="#V" n="89" break="no"/>tur essentialiter cum ente, nisi sit pure synonymum cum
+            <lb ed="#V" n="90"/>eo. Ego autem dico quod aliquid conuerti essentialiter
+            <lb ed="#V" n="91"/>cum alio potest intelligi dupliciter. Primo modo sic, quod
+            <lb ed="#V" n="92"/>tota essentia vnius sit tota essentia alterius, ita quod vnum
+            <lb ed="#V" n="93"/>nullam realitatem includat intrinsece quam non includat
+            <lb ed="#V" n="94"/>alterum, &amp; hoc modo dico, quod verum &amp; bonum
+            essen<lb ed="#V" n="95" break="no"/>tialiter conuertuntur cum ente, secundo modo sic quod
+            <lb ed="#V" n="96"/>non solum essentia vnius sit tota essentia alterius, &amp;
+            econ<lb ed="#V" n="97" break="no"/>tra immo quod vltra hoc nullum ens reale vel rationis sit
+            <lb ed="#V" n="98"/>de ratione vnius in recto vel in obliquo, quod non sit
+            eo<lb ed="#V" n="99" break="no"/>dem modo de ratione alterius. Et isto modo dico, quod
+            <lb ed="#V" n="100"/>nec bonum, nec verum, nec vnum conuertitur
+            essentiali<lb ed="#V" n="101" break="no"/>ter cum ente, quia ens reale, de quo loquor pro nunc
+            nul<lb ed="#V" n="102" break="no"/>lum respectum rationis, nec aliquam negationem in sua
+            <lb ed="#V" n="103"/>ratione importat, verum autem &amp; bonum dicunt
+            respe<lb ed="#V" n="104" break="no"/>ctus rationis, vnum vero negationem importat, &amp; ideo
+            di<lb ed="#V" n="105" break="no"/>citur aliter, ad argumentum primo, quod supponit falsum
+            <lb ed="#V" n="106"/>scilicet quod opinio nostra ponat bonum significare
+            pu<lb ed="#V" n="107" break="no"/>rum respectum, secundo dicitur, quod illud quod
+            inclu<lb ed="#V" n="108" break="no"/>dit absolutum cum respectu potest conuerti cum ente
+            rea<lb ed="#V" n="109" break="no"/>li primo modo, non autem loquendo de conuersione
+            es<lb ed="#V" n="110" break="no"/>sentiali secundo modo dicta. Talis enim conuersio primo
+            <lb ed="#V" n="111"/>modo dicta quandoque potest esse denominatiua ratione
+            <lb ed="#V" n="112"/>respectus qui vltra absolutum importatur, &amp; non est
+            per<lb ed="#V" n="113" break="no"/>fecte essentialis, aut quidditatiua. Isto modo autem
+            bo<lb ed="#V" n="114" break="no"/>num conuertitur cum ente, quia includit rationem entis,
+            <lb ed="#V" n="115"/>&amp; vltra hoc respectum, qui omne ens reale circuiut. Ad
+            <lb ed="#V" n="116"/>tertium dicit Durandus &amp; bene negando minorem, quia
+            bo<lb ed="#V" n="117" break="no"/>num id quod dicit formaliter dicit vt alicuius, cum dicat
+            <lb ed="#V" n="118"/>conuenientiam vnius ad alterum. Et vt dicunt istimet
+            qui<lb ed="#V" n="119" break="no"/>arguunt, hoc dicunt in declaratione suae positionis, quia
+            <lb ed="#V" n="120"/>dicunt quod bonum contrahit ens non ad hoc, sed ad
+            hu<lb ed="#V" n="121" break="no"/>ius, quod entitas non est bonitas, nisi vt est perfectio
+            alicu<lb ed="#V" n="122" break="no"/>ius, &amp; cum probatur quod Deus dicitur bonus &amp; iustus
+            <lb ed="#V" n="123"/>ad se secundum beatum Augustinus in pluribus locis dicitur quod
+            <lb ed="#V" n="124"/>beatus Auguius loquitur de illis qui dicuntur absolute vel
+            <lb ed="#V" n="125"/>relatiue quantum ad intrinseca in diuinis. Sic enim
+            pater<lb ed="#V" n="126" break="no"/>nitas &amp; filiatio &amp; spiratio dicuntur relatiue in diuinis,
+            <lb ed="#V" n="127"/>quia non conueniunt omnibus personis, quae
+            constituun<lb ed="#V" n="128" break="no"/>tur relationibus &amp; distinguuntur. Bonum autem &amp;
+            iu<lb ed="#V" n="129" break="no"/>stum aequaliter omnibus personis conueniont, &amp; ideo
+            <lb ed="#V" n="130"/>non sunt de relationibus intrinsecis. Sed quod non dicant
+            <lb ed="#V" n="131"/>relationem extrinsecam ad creaturam nunquam
+            intelle<lb ed="#V" n="132" break="no"/>xit beatus Auguius quod patet, quia beatus Augunus ita
+            loqui<lb ed="#V" n="133" break="no"/>tur de bono sicut de iusto. Constat autem quod iustum
+            <lb ed="#V" n="134"/>conuenit Deo relatiue ad extra, quia iustitia est ad alterum,
+            <lb ed="#V" n="135"/>non autem ad alterum in persona solum, quia pater non
+            <lb ed="#V" n="136"/>vtitur iustitia ad filium, aut ad spiritumsanctum, nec
+            econ<lb ed="#V" n="137" break="no"/>tra, ergo ad alterum in natura hoc est creatura, quare &amp;c.
+            <lb ed="#V" n="138"/>Haec Durandus &amp; bene licet possit dici melius secundum
+            <lb ed="#V" n="139"/>mentem Augutinus quod scilicet cum dicit Auguus talia nomina
+            <lb ed="#V" n="140"/>bonum &amp; iustum dici ad se &amp;c. vult dicere quod non sunt
+            <lb ed="#V" n="141"/>relatiua secundum esse, ita quod dicant puros respectus,
+            <lb ed="#V" n="142"/>sicut pater &amp; filius, non autem vult dicere, quod nullo
+            mo<lb ed="#V" n="143" break="no"/>do importent respectum, nec sint relatiua secundum dici.
+          </p>
+          <p xml:id="capsco-b290lp-d1e1482">
+            <lb ed="#V" n="144"/>Ad quartum dicit Durandus negando antecedens, quia
+            <lb ed="#V" n="145"/>bonum in Deo dicit relationem vel respectum formaliter
+            <lb ed="#V" n="146"/>non quo ad respectum ad intra, sed ad extra scilicet ad
+            crea<lb ed="#V" n="147" break="no"/>turas. Et cum dicitur, quod Deus non refertur realiterad
+            crea<lb ed="#V" n="148" break="no"/>turas. Dicit Durandus, quod si relatio accipiaturpro
+            re<lb ed="#V" n="149" break="no"/>spectu sequenti in naturam rei, sic Deus non refertur ad
+            crea<lb ed="#V" n="150" break="no"/>turas realiter. Si autem accipiatur pro reali
+            denominatio<pb ed="#V" n="518"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>minatione sumpta ex pluribus, sic Deus refertur realiter
+            <lb ed="#V" n="2"/>ad creaturas, cum dicitur creator vel bonus. Et cum
+            subdi<lb ed="#V" n="3" break="no"/>t ur quod sequeretur quod Deus esset bonus ex
+            habitudi<lb ed="#V" n="4" break="no"/>ne ad creaturas, &amp; sic bonitas eius dependeret a creaturis.
+          </p>
+          <p xml:id="capsco-b290lp-d1e1511">
+            <lb ed="#V" n="5"/>Dicendum quod falsum est. Aliud est enim Deum dici
+            bo<lb ed="#V" n="6" break="no"/>num in habitudine ad creaturas, &amp; bonitatem eius
+            depen<lb ed="#V" n="7" break="no"/>dere a creaturis. Primum enim est verum, sed secundum
+            <lb ed="#V" n="8"/>est falsum, immo potius bonitas creaturae dependet a Deo,
+            <lb ed="#V" n="9"/>&amp; propter hoc Deus dicitur bonus in habitudine ad
+            crea<lb ed="#V" n="10" break="no"/>turam quia tota creatura, &amp; quicquid bonitatis &amp;
+            perfe<lb ed="#V" n="11" break="no"/>ctionis est in creatura dependet a Deo. Haec Durandus.
+            <lb ed="#V" n="12"/>In quibus apparet mihi multa falsa contineri.
+          </p>
+          <p xml:id="capsco-b290lp-d1e1531">
+            Primum est
+            <lb ed="#V" n="13"/>quod Deus referatur ad creaturas reali relatione
+            qualiter<lb ed="#V" n="14" break="no"/>cunque sumatur relatio realis, dum tamen proprie non
+            abu<lb ed="#V" n="15" break="no"/>siue, quod patet, quia talis relatio realis dei ad creaturam,
+            <lb ed="#V" n="16"/>siue realis denominatio, cum non habeat extrema aeterna,
+            <lb ed="#V" n="17"/>oportet quod sit quid temporale, &amp; sic non potest esse
+            di<lb ed="#V" n="18" break="no"/>uina essentia. Nec potest dici quod sit noua substantia, nec
+            <lb ed="#V" n="19"/>nouum accidens reale, quia nullum potest sibi
+            assignari<lb ed="#V" n="20" break="no"/>subiectum quia constat quod non Deus. Nec potest
+            dici<lb ed="#V" n="21" break="no"/>quod creatura, quia creatura est obiectum &amp;
+            fundamen<lb ed="#V" n="22" break="no"/>tum respectus oppositi, modo respectus oppositi non
+            in<lb ed="#V" n="23" break="no"/>sunt subiectiue eidem, sicut patet de paternitate, &amp;
+            filiatio<lb ed="#V" n="24" break="no"/>ne, &amp; generaliter de quibuscunque respectibus oppositis.
+          </p>
+          <p xml:id="capsco-b290lp-d1e1560">
+            <lb ed="#V" n="25"/>Secundum est quod bonitas Dei vel bonum diuinum sit
+            <lb ed="#V" n="26"/>essentialiter, vel principaliter relatio, vel respectus eius ad
+            <lb ed="#V" n="27"/>creaturas, vel qualiscunque habitudo ad extra, potissime
+            <lb ed="#V" n="28"/>noua, &amp; temporalis habitudo, quia tunc bonum Dei esset
+            <lb ed="#V" n="29"/>creatura, velaliquid minus creatura, &amp; habens debilius
+            es<lb ed="#V" n="30" break="no"/>se quam musca.
+          </p>
+          <p xml:id="capsco-b290lp-d1e1576">
+            Tertium est, quia vtique si bonitas vel
+            bo<lb ed="#V" n="31" break="no"/>num Dei sit essentialiter, aut formaliter relatio realis Dei
+            <lb ed="#V" n="32"/>ad creaturam, cum respectus &amp; relatio quaecunque realis
+            in<lb ed="#V" n="33" break="no"/>ter extrema secundum essentiam differentia sit posterior
+            <lb ed="#V" n="34"/>sundamento &amp; termino, &amp; ab eis dependeat saltem
+            tan<lb ed="#V" n="35" break="no"/>quam a causa sine qua non, infallibiliter sequitur quod
+            <lb ed="#V" n="36"/>bonitas vel bonum diuinum dependeat a creatura, &amp; sit
+            <lb ed="#V" n="37"/>quid posterius ea, &amp; multa alia inconuenientia sequuntur
+            <lb ed="#V" n="38"/>ex illa responsione. Dico igitur aliter ad argumentum. Et
+            <lb ed="#V" n="39"/>primo dico quod nec in Deo, nec increatura bonum
+            di<lb ed="#V" n="40" break="no"/>cit solum respectum, sed absolutum cum respectu, ita quod
+            <lb ed="#V" n="41"/>in ratione boni includitur principaliter &amp; in recto
+            absolu<lb ed="#V" n="42" break="no"/>tum reale positiuum, respectus vero rationis
+            concomitan<lb ed="#V" n="43" break="no"/>tis, &amp; minus principaliter, &amp; in obliquo, &amp; non q. pars
+            <lb ed="#V" n="44"/>boni aut bonitatis.
+          </p>
+          <p xml:id="capsco-b290lp-d1e1609">
+            Dico secundo quod bonum aut
+            bo<lb ed="#V" n="45" break="no"/>nitas non dicitur vniuocae, sed analogicae de bono Dei, &amp;
+            <lb ed="#V" n="46"/>de bono creaturae, quia scilicet essentia diuina dicitur
+            bo<lb ed="#V" n="47" break="no"/>nitas, &amp; Deus dicitur bonus non per respectum ad finem
+            <lb ed="#V" n="48"/>vlteriorem. Sed nulla realitas creata dicitur bona, nisi
+            pro<lb ed="#V" n="49" break="no"/>pter respectum ad finem vltimum, sicut nec dicitur
+            effecti<lb ed="#V" n="50" break="no"/>ue nisi virtute primi efficientis. Et de hoc beatus Thomas
+            <lb ed="#V" n="51"/>de veritate q. 21. arti. 1. in solutione primi sic dicit. Cum
+            <lb ed="#V" n="52"/>ens dicatur absolute, bonum autem superaddat
+            habitudi<lb ed="#V" n="53" break="no"/>nem causae finalis, ipsa essentia rei absolute considerata
+            suf<lb ed="#V" n="54" break="no"/>cit ad hoc quod per eam aliquid dicatur ens, non autem
+            <lb ed="#V" n="55"/>ad hoc quod per eam aliquid dicatur bonum. Sicut enim
+            <lb ed="#V" n="56"/>in alijs generibus causarum habitudo causae secundae
+            de<lb ed="#V" n="57" break="no"/>pendet ex habitudine causae primae, causae vero primae
+            ha<lb ed="#V" n="58" break="no"/>bitudo non dependet ex aliquo alio, ita etiam est in causis
+            <lb ed="#V" n="59"/>finalibus quod secundi fines participant habitudinem
+            cau<lb ed="#V" n="60" break="no"/>sae finalis ex ordine ad vltimum finem, ipse autem vltimus
+            <lb ed="#V" n="61"/>finis habet hanc habitudinem ex seipso. Et inde est quod
+            <lb ed="#V" n="62"/>essentia Dei, quae est vltimus finis rerum sufficit ad hoc quod
+            <lb ed="#V" n="63"/>per eam Deus dicatur bonus, sed essentia creaturae posita
+            <lb ed="#V" n="64"/>nondum dicitur res bona nisi ex habitudine ad Deum ex
+            <lb ed="#V" n="65"/>qua habet habitudinem causae finalis. Et pro tanto
+            dici<lb ed="#V" n="66" break="no"/>tur quod creatura non est bona per essentiam sed per
+            par<lb ed="#V" n="67" break="no"/>ticipationem, vno modo scilicet inquantum ipsa essentia
+            <lb ed="#V" n="68"/>secundum rationem intelligendi consideratur vt quid
+            a<lb ed="#V" n="69" break="no"/>liud quam habitudo ad Deum qua habet rationem causae
+            <lb ed="#V" n="70"/>finalis, &amp; ad quem ordinatur vt ad finem. Sed secundum
+            <lb ed="#V" n="71"/>alium modum potest dici creatura per essentiam bona,
+            in<lb ed="#V" n="72" break="no"/>quantum scilicet essentia creaturae non inuenitur sine
+            ha<lb ed="#V" n="73" break="no"/>bitudine ad Dei bonitatem. Haec ille. 3. dico, quod
+            respe<lb ed="#V" n="74" break="no"/>ctus quem importat bonum in sua ratione non est
+            crea<lb ed="#V" n="75" break="no"/>tor, nec creatura, nec est aliquid reale, siue loquamur de
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="76"/>bono Dei, &amp; increato, siue bono creato. De hoc Sanctus
+            <lb ed="#V" n="77"/>Thomas ibidem in solutione 9. sic dicit. Quamuis
+            bonfi<lb ed="#V" n="78" break="no"/>dicat aliquam habitudinem specialem scilicet finis, tamen
+            <lb ed="#V" n="79"/>ista habitudo conuenit cuilibet enti, nec ponit aliquid
+            se<lb ed="#V" n="80" break="no"/>cundum rem in ente. quarto dico, quod ista propositio
+            <lb ed="#V" n="81"/>qua dicitur, quod Deus est vel dicitur bonus ex
+            habitudi<lb ed="#V" n="82" break="no"/>ne ad creaturas potest dupliciter intelligi. Primo modo sic
+            <lb ed="#V" n="83"/>quod habitudo Dei ad creaturas sit diuina bonitas, aut
+            <lb ed="#V" n="84"/>pars diuinae bonitatis, vel quod talis habitudo sit efficiens
+            <lb ed="#V" n="85"/>formalis vel finalis aut materialis causa diuinae bonitatis,
+            <lb ed="#V" n="86"/>aut quod Deus sit bonus. Et hic sensus est erroneus
+            secun<lb ed="#V" n="87" break="no"/>do modo sic, quod talis habitudo est de intellectu &amp; de
+            <lb ed="#V" n="88"/>ratione diuinae bonitatis, ita quod impossibile est
+            intelli<lb ed="#V" n="89" break="no"/>gere Deum esse bonum vel Deum habere bonitatem nisi
+            <lb ed="#V" n="90"/>intelligatur perfectio diuina cum aliquo respectu, non quod
+            <lb ed="#V" n="91"/>talis respectus sit tota diuina bonitas, nec pars diuinae
+            bo<lb ed="#V" n="92" break="no"/>nitatis, nec causa diuinae bonitatis efficiens, formalis, aut
+            <lb ed="#V" n="93"/>finalis, sed quia est pars significati huius complexi diuina
+            <lb ed="#V" n="94"/>bonitas, vel diuinum bonum, &amp; iste sensus est verus &amp;
+            ca<lb ed="#V" n="95" break="no"/>tholicus. quinto dico, quod ista consequentia non valet.
+            <lb ed="#V" n="96"/>Deus dicitur bonus ex habitudine ad creaturas in
+            secun<lb ed="#V" n="97" break="no"/>do sensu statim dico, igitur diuina bonitas dependet a
+            criea<lb ed="#V" n="98" break="no"/>tura, sed ex illo antecedente sequitur bene hoc consequens quod
+            <lb ed="#V" n="99"/>intellectio diuinae bonitatis coexigit prius tempore vel
+            na<lb ed="#V" n="100" break="no"/>tura vel intellectu intellectionem creaturarum, vel
+            intel<lb ed="#V" n="101" break="no"/>lectionem habitudinis Dei ad creaturas in ratione finis, &amp;
+            <lb ed="#V" n="102"/>perfectiui. Et ista sequuntur ex dictis Sancti Thomas vt
+            pa<lb ed="#V" n="103" break="no"/>tet. Ad Quintum dicit Durandus, &amp; bene quod solus
+            re<lb ed="#V" n="104" break="no"/>spectus non mouet, sed absolutum cum respectu mouet
+            <lb ed="#V" n="105"/>tam intellectum practicum quam voluntatem. Simplex
+            <lb ed="#V" n="106"/>enim quidditas, licet possit mouere intellectum ad actum
+            <lb ed="#V" n="107"/>simplicem, qui est indiuisibilium intelligentia, tamen non
+            <lb ed="#V" n="108"/>potest mouere ad actum componentem, nisi accepta in
+            ha<lb ed="#V" n="109" break="no"/>bitudine ad alterum, quia actus intelligendi componens
+            <lb ed="#V" n="110"/>fertur in Duo propter conuenientiam vnius ad alterum.
+            <lb ed="#V" n="111"/>Et sic intellectus practicus mouetur a bono, inquantum
+            <lb ed="#V" n="112"/>appraehendit aliquam naturam absolutam sub ratione
+            con<lb ed="#V" n="113" break="no"/>uenientis ad alterum. Ad Sextum dicit Durandus, quod
+            <lb ed="#V" n="114"/>illa ratio non valet. Vel si valet ipsa militat contra
+            <lb ed="#V" n="115"/>suum factorem, quia quando dicitur in maiore quod
+            <lb ed="#V" n="116"/>ratio boni dicit finem, vel illud quod est ad finem, &amp; vt sic,
+            <lb ed="#V" n="117"/>aut intelligitur de ratione importata formaliter per haec
+            <lb ed="#V" n="118"/>omnia finis &amp; ad finem, aut de ratione rei cui competit
+            <lb ed="#V" n="119"/>esse denominatiue finem vel ad finem. Si primo modo
+            con<lb ed="#V" n="120" break="no"/>tra eos est, quia ratio importata formaliter per haec
+            nomi<lb ed="#V" n="121" break="no"/>na finis &amp; ad finem est respectiua, sicut ratio causae. Nulli
+            <lb ed="#V" n="122"/>enim rei competit esse finem nisi respectu alterius, nec
+            es<lb ed="#V" n="123" break="no"/>se ad finem nisi respectu finis, &amp; sic ratio boni esset
+            respe<lb ed="#V" n="124" break="no"/>ctiua sicut ratio finis &amp; ad finem.
+          </p>
+          <p xml:id="capsco-b290lp-d1e1788">
+            Si autem intelligatur de
+            <lb ed="#V" n="125"/>ratione rei secundum se cui competit denominatiue esse
+            <lb ed="#V" n="126"/>finem vel ad finem, nihil est dictu, quia sanitati competit
+            <lb ed="#V" n="127"/>esse finem respectu medicinae, &amp; homini respectu omnium
+            <lb ed="#V" n="128"/>artificialium &amp; naturalium quae sunt sub ipso, &amp; deo
+            respectu<lb ed="#V" n="129" break="no"/>omnium. Sed nunquid propter hoc potest dici quod
+            ra<lb ed="#V" n="130" break="no"/>tio boni sit esse sanitatem vel hominem vel Deum: Certe
+            <lb ed="#V" n="131"/>non, immo esset ridiculum. Nullo ergo modo formalis
+            <lb ed="#V" n="132"/>ratio boni est esse finem vel ad finem, si sic accipiatur,
+            quan<lb ed="#V" n="133" break="no"/>uis vtrique scilicet rei quae est finis, &amp; rei quae ad finem est,
+            <lb ed="#V" n="134"/>conueniat ratio boni. Sed nullum argumentum est,
+            tali<lb ed="#V" n="135" break="no"/>bus competit ratio boni: ergo formalis ratio boni consistit
+            <lb ed="#V" n="136"/>in formali ratione talium, alioquin cum ens competat
+            omni<lb ed="#V" n="137" break="no"/>bus, formalis ratio entis in communi consisteret in
+            for<lb ed="#V" n="138" break="no"/>mali ratione cuiuslibet entis particularis. Eodem modo
+            <lb ed="#V" n="139"/>quando dicitur in minore quod finis &amp; id quod est ad
+            fi<lb ed="#V" n="140" break="no"/>nem dicunt perfectionem n intelligatur de rationibus im
+            <lb ed="#V" n="141"/>portatis per haec nomina, falsum est, quia dicunt
+            habitu<lb ed="#V" n="142" break="no"/>dines respectiuas. Si vero de rebus quibus competit
+            de<lb ed="#V" n="143" break="no"/>nominatiue esse finem, vel ad finem, verum est quod eis
+            <lb ed="#V" n="144"/>competit esse perfectionem vel esse perfectum. Sed
+            for<lb ed="#V" n="145" break="no"/>malis ratio eorum non est esse perfectionem, vel esse
+            per<lb ed="#V" n="146" break="no"/>fectum, quia licet Deo conueniat esse perfectum, &amp;
+            homi<lb ed="#V" n="147" break="no"/>ni, &amp; multis alijs, tamen formalis ratio hominis non
+            es<lb ed="#V" n="148" break="no"/>esse perfectum, sed esse animal rationale. Et idem est de alijs.
+            <lb ed="#V" n="149"/>Nec esse perfectum dicit formalem rationem eorum. Et sic
+            <lb ed="#V" n="150"/>patet quod nec maior propositio, nec minor habent
+            veri<pb ed="#V" n="519"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>tatem in aliquo sensu, ex quo possit concludi quod
+            for<lb ed="#V" n="2" break="no"/>malis ratio boni dicat perfectionem vel aliquid ordinatum
+            <lb ed="#V" n="3"/>ad perfectionem. Haec Durandus, &amp; bene quo ad hoc
+            <lb ed="#V" n="4"/>quod talis modus arguendi minime valet, quia est fallacia
+            <lb ed="#V" n="5"/>aequiuocationis, vel amphybologie, mutando
+            suppositio<lb ed="#V" n="6" break="no"/>nem materialem in personalem, quia in prima
+            proposi<lb ed="#V" n="7" break="no"/>tione scilicet maiori qua dicitur bonum dicit finem, vel
+            <lb ed="#V" n="8"/>id quod est ad finem, haec nomina finis &amp; ad finem
+            suppo<lb ed="#V" n="9" break="no"/>nunt personaliter in minori vero qua dicitur finis, &amp; id
+            <lb ed="#V" n="10"/>quod est ad finem, quodlibet dicit perfectionem &amp;c.
+            prae<lb ed="#V" n="11" break="no"/>dicta nomina supponunt materialiter pro ipsismet
+            voci<lb ed="#V" n="12" break="no"/>bus, aut eis similibus in voce vel scripto, &amp; sic non eodem
+            <lb ed="#V" n="13"/>modo stant in maiori &amp; in minori, sed aliter &amp; aliter. Et
+            <lb ed="#V" n="14"/>sicargumentum est ex quattuor terminis. Potest autem
+            bre<lb ed="#V" n="15" break="no"/>uius dici quod si minor intelligatur sic quod finis &amp; ad
+            <lb ed="#V" n="16"/>finem dicunt perfectionem absolute, &amp; cum praecisione omnis
+            <lb ed="#V" n="17"/>respectus, falsa est, quia quodlibet eorum nomen dicit
+            re<lb ed="#V" n="18" break="no"/>spectum. Si autem intelligatur quod dicunt perfectionem,
+            <lb ed="#V" n="19"/>&amp; cum hoc respectum, ex hoc non habetur, quod ratio
+            <lb ed="#V" n="20"/>boni dicat purum absolutum, nec etiam purum respectum,
+            <lb ed="#V" n="21"/>sed absolutum cum respectu. Et hoc concedimus, quia in
+            <lb ed="#V" n="22"/>nullo est contra nos.
+          </p>
+          <p xml:id="capsco-b290lp-d1e1897">
+            Ad argumentum Scoti contra
+            secun<lb ed="#V" n="23" break="no"/>dam conclusionem conceditur responsio ibidem data
+            sci<lb ed="#V" n="24" break="no"/>licet quod sicut diuina voluntas non potest velle malitiam
+            <lb ed="#V" n="25"/>sub ratione malitiae, ita quod in ipso obiecto volito nulla
+            <lb ed="#V" n="26"/>appareat ratio bonitatis, ita nec voluntas humana. Et ad
+            <lb ed="#V" n="27"/>improbationem huius responsionis dicitur, quod ille actus
+            <lb ed="#V" n="28"/>qui est odium Dei potest apprehendi a ratione nullo
+            mo<lb ed="#V" n="29" break="no"/>do errante sub ratione alicuius boni, quia ille actus habet
+            <lb ed="#V" n="30"/>aliquid de entitate, &amp; de perfectione, inquantum est
+            qui<lb ed="#V" n="31" break="no"/>dam actus secundus, &amp; operatio immanens, &amp; signum, &amp;
+            <lb ed="#V" n="32"/>effectus potentiae vitalis, &amp; creatura Dei, licet habet
+            mali<lb ed="#V" n="33" break="no"/>tiam ex obiecto, &amp; sine, &amp; circunstantijs, &amp; sic patet quod
+            <lb ed="#V" n="34"/>argumentum non valet ad propositum.
+          </p>
+          <p xml:id="capsco-b290lp-d1e1926">
+            Ad argumentum
+            <lb ed="#V" n="35"/>aliorum contra eandem dicitur, quod argumentum illud
+            <lb ed="#V" n="36"/>hoc solum concludit scilicet quod esse appetibile non est
+            <lb ed="#V" n="37"/>formaliter, &amp; per se, &amp; prima ratio boni, sed quaedam
+            pas<lb ed="#V" n="38" break="no"/>sio, vel denominatio consequens rationem formalem
+            bo<lb ed="#V" n="39" break="no"/>ni, sicut visibilitas consequitur colorem, vel lucem. Et hoc
+            <lb ed="#V" n="40"/>potest concedi, quia vt dicit prima conclusio, ratio boni
+            <lb ed="#V" n="41"/>consistit in hoc quod est esse perfectiuum alterius secundum
+            <lb ed="#V" n="42"/>esse reale. Quia autem dicit Sanctus Thomas &amp; philosophus
+            <lb ed="#V" n="43"/>quod appetibilitas est de ratione boni, dicitur quod
+            vo<lb ed="#V" n="44" break="no"/>lunt dicere quod esse appetibile circunloquitur rationem
+            <lb ed="#V" n="45"/>boni, quia talia transcendentia non possunt proprie
+            dif<lb ed="#V" n="46" break="no"/>finiri, nisi per tales notificationes a posteriori. Et de hoc
+            di<lb ed="#V" n="47" break="no"/>cit Sanctus Thomas in scripto super primum Eth. ex
+            po<lb ed="#V" n="48" break="no"/>nens illud Aristoteles bonum est quod omnia appetunt dicit
+            <lb ed="#V" n="49"/>sic. Bonum numeratur inter prima adeo quod secundum
+            <lb ed="#V" n="50"/>platonicos bonum est prius ente, sed secundum rei
+            verita<lb ed="#V" n="51" break="no"/>tem cum ente conuertitur. Prima autem non possunt
+            noti<lb ed="#V" n="52" break="no"/>ficari per aliqua priora, sed notificantur per posteriora,
+            si<lb ed="#V" n="53" break="no"/>cut causae per proprios effectus. Cum autem bonum
+            pro<lb ed="#V" n="54" break="no"/>prie sit motiuum appetitus, describitur per motum
+            appe<lb ed="#V" n="55" break="no"/>titus, sicut solet manifestari vis motiua per motum
+            <lb ed="#V" n="56"/>Et ideo dicit, quod philosophi bene enunciauerunt
+            <lb ed="#V" n="57"/>bonum esse illud, quod omnia appetunt. Nec est instantia
+            <lb ed="#V" n="58"/>de quibusdam qui appetunt malum, quia non appetunt
+            <lb ed="#V" n="59"/>malum nisi sub ratione boni, inquantum scilicet aestimant
+            <lb ed="#V" n="60"/>illud esse bonum. Et sic intentio eorum per se fertur ad
+            bo<lb ed="#V" n="61" break="no"/>num, sed per accidens cadit supra malum. Haec ille.
+          </p>
+          <p xml:id="capsco-b290lp-d1e1987">
+            De
+            <lb ed="#V" n="62"/>hoc autem quod dicit Scotus quod ratione stante recta in
+            <lb ed="#V" n="63"/>vniuersali &amp; particulari, actu &amp; habitu, voluntas potest
+            <lb ed="#V" n="64"/>peccare secundum quod dicit articulus parisiensis, in quo
+            <lb ed="#V" n="65"/>oppositum condemnatur, dicitur quod ille articulus
+            indi<lb ed="#V" n="66" break="no"/>get bona glosa, &amp; forte falsus est in se, nisi dicatur quod
+            in<lb ed="#V" n="67" break="no"/>telligitur sic, quod nulla rectitudo rationis tollit potentiam
+            <lb ed="#V" n="68"/>peccandi in via, licet tollat actum peccandi pro tempore,
+            <lb ed="#V" n="69"/>pro quo ipsa rectitudo stat. Godofredus tamen &amp;
+            Duran<lb ed="#V" n="70" break="no"/>dus &amp; multi antiqui male contentantur de illo articulo,
+            si<lb ed="#V" n="71" break="no"/>cut &amp; de multis alijs.
+          </p>
+          <p xml:id="capsco-b290lp-d1e2011">
+            Ad primum contra tertiam
+            conclu<lb ed="#V" n="72" break="no"/>sionem dicitur, quod prima suppositio ibidem facta
+            du<lb ed="#V" n="73" break="no"/>bia est, qua dicitur, quod ratio boni est ratio realis, non
+            fa<lb ed="#V" n="74" break="no"/>cta per intellectum &amp;c. Vbi sciendum quod licet hoc nomen
+            <lb ed="#V" n="75"/>ratio multipliciter sumatur, tamen in proposito potest
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="76"/>sumi septupliciter. Primo modo pro specie
+            intelligibili<lb ed="#V" n="77" break="no"/>praeuia ipsi actuali intellectioni: secundo modo pro ipsa
+            <lb ed="#V" n="78"/>actuali intellectione, &amp; actu secundo intellectus per
+            sbe<lb ed="#V" n="79" break="no"/>ciem elicito, tertio modo pro conceptu formato per actum
+            <lb ed="#V" n="80"/>intellectus qui se habet ad illum actum vt proximus
+            termi<lb ed="#V" n="81" break="no"/>nus &amp; proximum intellectum, sicut species se habet ad
+            il<lb ed="#V" n="82" break="no"/>lum actum vt proximum principium elicitum simul cum
+            <lb ed="#V" n="83"/>potentia intellectiua. Quarto pro diffinitione vocali vel
+            <lb ed="#V" n="84"/>scripta explicante dictum conceptum. Quinto pro
+            realita<lb ed="#V" n="85" break="no"/>te vel entitate obiecti mouente intellectum ad speciem in
+            <lb ed="#V" n="86"/>relligibilem vel ad actum intelligendi vel ad talem
+            conce<lb ed="#V" n="87" break="no"/>ptum. Sexto pro realitate vel entitate obiecti terminante
+            <lb ed="#V" n="88"/>ad extra intellectionem &amp; conceptum. Septimo pro
+            obie<lb ed="#V" n="89" break="no"/>cto relucente in verbo vel conceptu. Et quantum ad tale
+            <lb ed="#V" n="90"/>esse relucens, vel apparens, vel obiectiuum, vel perspicuum
+            <lb ed="#V" n="91"/>aut quocunque alio modo vocetur. Hac distinctione
+            prae<lb ed="#V" n="92" break="no"/>missa dicitur quod accipiendo rationem primis quattuor
+            <lb ed="#V" n="93"/>modis &amp; vltimo scilicet septimo, nulla ratio sic potest
+            dici<lb ed="#V" n="94" break="no"/>realis quin dependeat ab opere intellectus, loquendo de
+            <lb ed="#V" n="95"/>rationibus intellectus nostri. Si autem loquamur de
+            ratio<lb ed="#V" n="96" break="no"/>ne quinto, &amp; sexto modis accepta sic aliqua ratio est
+            tota<lb ed="#V" n="97" break="no"/>liter realis, vtputa ratio eorum quorum nominibus
+            impor<lb ed="#V" n="98" break="no"/>tatur pure ens reale in praedicamento collocabile, aliqua
+            ve<lb ed="#V" n="99" break="no"/>ro ratio est totaliter non realis, vt puta ratio eorum,
+            quo<lb ed="#V" n="100" break="no"/>rum nominibus importatur pure ens ficticium, vt ratio
+            <lb ed="#V" n="101"/>chimerae, vel pura negatio, vt ratio non entis, vel cecitatis,
+            <lb ed="#V" n="102"/>aut alterius priuationis, vel purus respectus rationis, vt
+            ra<lb ed="#V" n="103" break="no"/>tio generi s &amp; speciei. Aliqua vero est partim realis &amp;
+            par<lb ed="#V" n="104" break="no"/>tim non realis, sicut est ratio eorum, quorum nominibus
+            <lb ed="#V" n="105"/>importatur aliquid absolutum positiuum cum respectu
+            <lb ed="#V" n="106"/>rationis, &amp; tales sunt rationes vnius, &amp; veri &amp; boni. Dico
+            <lb ed="#V" n="107"/>igitur quod ratio boni non est pure realis, nec pure non
+            <lb ed="#V" n="108"/>realis, sed medio modo. Et hoc notauit Sanctus Thomas de
+            <lb ed="#V" n="109"/>veritate. q. 21. arti. primo vt allegatum est in prima
+            conclu<lb ed="#V" n="110" break="no"/>sione cum dicit, quod verum, vnum, &amp; bonum addunt
+            <lb ed="#V" n="111"/>super ens aliquid quod est ens rationis tantum, &amp; non est
+            <lb ed="#V" n="112"/>aliquid in rerum natura. Tunc ad formam argumenti
+            di<lb ed="#V" n="113" break="no"/>citur quod primus syllogismus concludit, quod bonum
+            <lb ed="#V" n="114"/>non differt ab ente, nec realiter, nec ratione pure reali. Et
+            <lb ed="#V" n="115"/>totum hoc conceditur quod ratio boni non est pure
+            rea<lb ed="#V" n="116" break="no"/>lis, nec pure non realis, sed medio modo. Et hoc sufficit
+            <lb ed="#V" n="117"/>ad dictum philosophi sexto metaphysi. d. bonum &amp;
+            ma<lb ed="#V" n="118" break="no"/>lum sunt in rebus.
+          </p>
+          <p xml:id="capsco-b290lp-d1e2118">
+            Ad secundum patet per idem quod
+            <lb ed="#V" n="119"/>solum conclndit, quod bonum non differt ab ente
+            rea<lb ed="#V" n="120" break="no"/>li re, nec ratione totaliter reali, quod conceditur. Cum
+            <lb ed="#V" n="121"/>autem dicitur quod ratio boni est totaliter realis
+            nega<lb ed="#V" n="122" break="no"/>tur vt prius tanquam falsum, nec probatum vlliter. Ad
+            <lb ed="#V" n="123"/>tertium dicitur, quod ratio boni praeter rationem entis
+            <lb ed="#V" n="124"/>realis includit aliquid non reale, &amp; de quo nullo modo
+            <lb ed="#V" n="125"/>praedicatur ens reale, licet concomitetur omne ens reale
+            <lb ed="#V" n="126"/>scilicet respectum rationis, qui omni ente reali adest, vt
+            <lb ed="#V" n="127"/>saepe dictum fuit.
+          </p>
+          <p xml:id="capsco-b290lp-d1e2141">
+            Ad quartum dicitur quod illa ratio
+            con<lb ed="#V" n="128" break="no"/>cludit, quod bonum non praedicetur proprie in quid de
+            <lb ed="#V" n="129"/>omnibus, de quibus ens praedicatur in quid, quod
+            con<lb ed="#V" n="130" break="no"/>ceditur, quia ad hoc quod sit praedicatio proprie
+            quiddi<lb ed="#V" n="131" break="no"/>tatiua requiritur quod praedicatum nihil importet
+            extra<lb ed="#V" n="132" break="no"/>neum rei importatae per subiectum. Constat autem ex
+            <lb ed="#V" n="133"/>praedictis quod bonum importat respectum rationis, qui
+            <lb ed="#V" n="134"/>non est intrinsecus alicui enti reali, sicut pars essentiae, el
+            <lb ed="#V" n="135"/>tota essentia. Si vero acciperetur large praedicatio
+            quiddi<lb ed="#V" n="136" break="no"/>tatiua pro omni praedicatione, in qua praedicatum dicit
+            <lb ed="#V" n="137"/>totam essentiam subiecti, sic dicitur quod bonum
+            prae<lb ed="#V" n="138" break="no"/>dicatur quidditatiue de quolibet ente. Et tunc ad
+            for<lb ed="#V" n="139" break="no"/>mam argumenti diceretur quod maior est falsa, quia plura
+            <lb ed="#V" n="140"/>praedicata possunt praedicari de eisdem adaequate, &amp; in
+            <lb ed="#V" n="141"/>quid, dato quod non sint synonyma, vt puta quando
+            <lb ed="#V" n="142"/>differunt ratione partim reali, &amp; partim non reali, licet
+            <lb ed="#V" n="143"/>talis praedicatio non sit aequae quidditatiua ex parte vnius
+            <lb ed="#V" n="144"/>praedicati, sicut ex parte alterius. Expraedictis patet quod
+            <lb ed="#V" n="145"/>propter praedicta argumenta non oportet ponere contra
+            <lb ed="#V" n="146"/>viam Sancti Thomae, quod ratio boni sit pure absoluta,
+            <lb ed="#V" n="147"/>vt ponit Scotus, nec quod sit pure respectiua respectu
+            <lb ed="#V" n="148"/>reali, aut quod sit inferior ad rationem entis. realis, vt
+            po<lb ed="#V" n="149" break="no"/>nit Durandus
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

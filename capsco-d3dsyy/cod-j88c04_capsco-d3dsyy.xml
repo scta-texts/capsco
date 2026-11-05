@@ -1,0 +1,2154 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 4, Distinctio 14, Quaestio 1</title>
+        <author ref="#JohannesCapreolus">Johannes Capreolus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 4, Distinctio 14, Quaestio 1</title>
+          <date when="2026-11-04">Nov 4, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-j88c04">Venice, 1589, v. 4</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-04" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="164"/>
+        <cb ed="#V" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="capsco-d3dsyy"><!-- l4d14q1 -->
+        <head xml:id="capsco-d3dsyy-Hd1e101">Quaestio 1</head>
+        <head xml:id="capsco-d3dsyy-Hd1e103" type="question-title">Utrum sacramentum poenitentiae possit tollere culpam remanente reatu</head>
+        <p xml:id="capsco-d3dsyy-d1e106">
+          <lb ed="#V" n="128"/>DISTINCTIO XIIII
+          <lb ed="#V" n="129"/>QVAESTIO I.
+          <lb ed="#V" n="130"/>Vtrum sacramentum poenitentiae possit tollere
+          <lb ed="#V" n="131"/>culpam remanente reatu.
+        </p>
+        <p xml:id="capsco-d3dsyy-d1e117">
+          <lb ed="#V" n="132"/><milestone ed="#V" unit="p" rend="initial"/> TRCAdecimam quartam
+          distinctio<lb ed="#V" n="133" break="no"/>nem quarti sententiarum quaeritur
+          <lb ed="#V" n="134"/>Vtrum sacramentum poenitentiae
+          pos<lb ed="#V" n="135" break="no"/>sit tollere culpam remanente reatu.
+        </p>
+        <p xml:id="capsco-d3dsyy-d1e129">
+          <lb ed="#V" n="136"/>Et arguitur quod non, quia remota
+          cau<lb ed="#V" n="137" break="no"/>sa remouetur effectus, sed culpa est
+          cau<lb ed="#V" n="138" break="no"/>sa reatus poenae, ideo enim aliquis est
+          <lb ed="#V" n="139"/>dignus poena, quia culpam commissit, ergo remissa culpa non
+          <lb ed="#V" n="140"/>potest remanere reatus paenae
+        </p>
+        <p xml:id="capsco-d3dsyy-d1e143">
+          <lb ed="#V" n="141"/><milestone ed="#V" unit="p" rend="indent"/> In oppositum arguitur quia secundi Regum capitulo
+          <lb ed="#V" n="142"/>duodecimodicitur cum Dauid poenitens dixisset ad
+          Na<lb ed="#V" n="143" break="no"/>tham, peccaui domino, dixit Nathan ad illum dominus
+          tran<lb ed="#V" n="144" break="no"/>stulit a te peccatum tuum non morieris, veruntamen filius qui
+          <pb ed="#V" n="165"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>natus est tibi morte morietur, quod fuit in poenam
+          praece<lb ed="#V" n="2" break="no"/>dentis peccati, vt ibidem dicitur, ergo dimissa culpa per
+          pae<lb ed="#V" n="3" break="no"/>nitentiam remanet reatus alicuius poenae.
+        </p>
+        <p xml:id="capsco-d3dsyy-d1e166">
+          <lb ed="#V" n="4"/><milestone ed="#V" unit="p" rend="indent"/> In hac quaestione erunt tres articuli. In primo ponentur cum
+          <lb ed="#V" n="5"/>clusiones. In secundo obiectiones. In tertiosolutionea.
+        </p>
+        <div xml:id="capsco-d3dsyy-Dd1e174">
+          <head xml:id="capsco-d3dsyy-Hd1e176">Articulus 1</head>
+          <p xml:id="capsco-d3dsyy-d1e178">
+            <lb ed="#V" n="6"/><milestone ed="#V" unit="p" rend="initial"/> QVantum ad primum articulum sit prima conclu.
+            Poe<lb ed="#V" n="7" break="no"/>nitentia est sacramentum. Hanc ponit &amp; probat Sanctus Thomas
+            <lb ed="#V" n="8"/>tertiam parte. q. 84. ar. 1. vbi sic dicit. Sicut dicit Gregorius &amp;
+            habe<lb ed="#V" n="9" break="no"/>tur in decretis. 1. q. 1. Sacramentum est in aliqua
+            celebratio<lb ed="#V" n="10" break="no"/>ne cum res gesta ita fit, vt aliquid significatiue accipiamus,
+            <lb ed="#V" n="11"/>quod sane accipiendum est. Manifestum est autem quod in
+            <lb ed="#V" n="12"/>poenitentia ita res gesta sit quod aliquid sanctum
+            significa<lb ed="#V" n="13" break="no"/>tur tam ex parte peccatoris poenitentis quam ex parte
+            sa<lb ed="#V" n="14" break="no"/>cerdotis absoluentis. Nam peccator poenitens per ea quae
+            <lb ed="#V" n="15"/>agit &amp; dicit, ostendit corsuum a peccato rescisse. Similiter
+            <lb ed="#V" n="16"/>etiam sa cerdos per ea quae agit &amp; dicit circa poenitentem
+            <lb ed="#V" n="17"/>signat opus Dei remittentis peccatum, vnde manifestum
+            <lb ed="#V" n="18"/>est quod paenitentia quae in Ecclesia agitur est sacramentum.
+            <lb ed="#V" n="19"/>Haec ille.
+          </p>
+          <p xml:id="capsco-d3dsyy-d1e212">
+            Item quarto sent. dist. 14. q. 1. ar. 1. in solutione
+            pri<lb ed="#V" n="20" break="no"/>mae q. sic dicit. Sacramentum importat sanctitatem actiue
+            <lb ed="#V" n="21"/>per modum qui nobis sanctificandis competit vt scilicet
+            adiunga<lb ed="#V" n="22" break="no"/>tur significatio sanctificationis inuisibilis per visibilia signa
+            <lb ed="#V" n="23"/>prout nunc de sacramento loquimur. Vnde vbicunque fit
+            <lb ed="#V" n="24"/>aliqua sanctificatio signata aliquibus sensibilibus signis, ibi
+            <lb ed="#V" n="25"/>est sacramentum. Et ideo cum hoc sit in poenitentia,
+            con<lb ed="#V" n="26" break="no"/>stat quod poenitentia est sacramentum. Haec ille.
+          </p>
+          <p xml:id="capsco-d3dsyy-d1e230">
+            Ex quibus
+            <lb ed="#V" n="27"/>patet faciliter ratio pro conclusione arguendo sic
+            Vbicun<lb ed="#V" n="28" break="no"/>que fit aliqua sanctificatio significata sensibilibus signis, ibi
+            <lb ed="#V" n="29"/>est sacramentum, sed hoc est in paenitentia, ergo &amp;c. Et
+            addi<lb ed="#V" n="30" break="no"/>tur huic conclusioni quod poenitentia non solum est
+            sacra<lb ed="#V" n="31" break="no"/>mentum, sed etiam est virtus, vt post dicetur. Secunda
+            con<lb ed="#V" n="32" break="no"/>clusio propria materia sacramenti poenitentiae sunt
+            pecca<lb ed="#V" n="33" break="no"/>ta. Hanc ponit Sanctus Thomas tertia parte. q. 24. ar. 2. vbi sic dicit
+            <lb ed="#V" n="34"/>Duplex est materia scilicet proxima &amp; remota, sicut statuae proxima
+            <lb ed="#V" n="35"/>materia est metallum remota vero aqua. Dictum est autem quod
+            proxi<lb ed="#V" n="36" break="no"/>ma materia poenitentiae sacramenti sunt petam de quibus dolet,
+            <lb ed="#V" n="37"/>&amp; quae confitetur, &amp; pro quibus satisfacit. Vnde relinquitur
+            <lb ed="#V" n="38"/>quod remota materia paenitentiae sunt peccata non acceptam
+            <lb ed="#V" n="39"/>da, sed destruenda &amp; detestanda. Haec ille.
+          </p>
+          <p xml:id="capsco-d3dsyy-d1e261">
+            Item ar. 1. in
+            solu<lb ed="#V" n="40" break="no"/>tione primi sic dicit. Nomine corporalium rerum
+            intelli<lb ed="#V" n="41" break="no"/>guntur large etiam ipsi exteriores actus sensibiles, qui ita se
+            <lb ed="#V" n="42"/>habent in hoc sacramento sicut aqua in baptismo vel
+            chris<lb ed="#V" n="43" break="no"/>ma in confirmatione. Est autem attendendum quod in illis
+            <lb ed="#V" n="44"/>sacramentis in quibus confertur excellens gratia quae
+            super<lb ed="#V" n="45" break="no"/>abundat omnem facultatem humani actus, adhibetur
+            ali<lb ed="#V" n="46" break="no"/>qua corporalis materia exterius, sicut i baptismo vbi fit
+            ple<lb ed="#V" n="47" break="no"/>na remissio peccatorum &amp; quantum ad culpam &amp;
+            quan<lb ed="#V" n="48" break="no"/>tum ad poenam, &amp; in confirmatione vbi datur plenitudo
+            <lb ed="#V" n="49"/>spiritus sancti, &amp; in extrema vnctione vbi datur perfecta
+            sa<lb ed="#V" n="50" break="no"/>nitas spiritualis quae prouenit ex virtute Christi, sicut ex
+            <lb ed="#V" n="51"/>quodam principio extrinseco. Vnde si qui actus humani
+            <lb ed="#V" n="52"/>sunt in talibus sacramentis, non sunt de essentia materiae
+            sa<lb ed="#V" n="53" break="no"/>cramentorum, sed dispositiue se habent ad sacramenta. In
+            <lb ed="#V" n="54"/>illis autem sacramentis quae habent effectum
+            corresponden<lb ed="#V" n="55" break="no"/>tem humanis actibus, ipsi actus humani sensibiles sunt
+            loco<lb ed="#V" n="56" break="no"/>materiae vt accidit in poenitentia &amp; matrimonio, sicut etiam
+            <lb ed="#V" n="57"/>in medicinis corporalibus quaedam sunt res exterius
+            ad<lb ed="#V" n="58" break="no"/>hibitae, sicut emplastra &amp; electuaria, quaedam vero sunt
+            ac<lb ed="#V" n="59" break="no"/>tus sanandorum puta exercitationes quaedam. Haec ille.
+          </p>
+          <p xml:id="capsco-d3dsyy-d1e308">
+            Item
+            <lb ed="#V" n="60"/>q. 90. arti. 1. in solutione tertij sic dicit. Peccata sunt
+            mate<lb ed="#V" n="61" break="no"/>ria remota poenitentiae inquantum sunt materia vel
+            obie<lb ed="#V" n="62" break="no"/>ctum humanorum actuum qui sunt propria materia
+            poeni<lb ed="#V" n="63" break="no"/>tentiae prout est sacramentum. Haec ille.
+          </p>
+          <p xml:id="capsco-d3dsyy-d1e319">
+            Ex quibus potest
+            <lb ed="#V" n="64"/>formari talis ratio pro conclusione. Quandocunque
+            alicu<lb ed="#V" n="65" break="no"/>ius sacramenti materia proxima est aliquis actus humanus
+            <lb ed="#V" n="66"/>exterior sensibilis, eiusdem sacramenti materia remota
+            ta<lb ed="#V" n="67" break="no"/>men propria est obiectum talis actus, sed materia proxima
+            <lb ed="#V" n="68"/>sacramenti poenitentiae est actus humanus sensibilis qui est
+            <lb ed="#V" n="69"/>confessio peccati cuius obiectum est peccatum, ergo
+            mate<lb ed="#V" n="70" break="no"/>ria remota, tamen propria est peccatum quod est talis
+            con<lb ed="#V" n="71" break="no"/>fessionis obiectum. Quia autem confessio vel contritio vel
+            <lb ed="#V" n="72"/>satisfactio sint proxima materia sacramenti poenitentiae
+            su<lb ed="#V" n="73" break="no"/>pra ostensum est &amp;c. Et consimiliter additur huic
+            conclusioni<lb ed="#V" n="74" break="no"/>quod peccata sunt materia paenitentiae quae est virtus vt
+            po<lb ed="#V" n="75" break="no"/>stea videbitur in tertio articulo diffuse.
+          </p>
+          <p xml:id="capsco-d3dsyy-d1e348">
+            Tertia conclusio.
+            Sa<cb ed="#V" n="b"/><lb ed="#V" n="76" break="no"/>cramentum poenitentiae quandoque tollit culpam, &amp; totum
+            <lb ed="#V" n="77"/>reatum quandoque vero tollit culpam remanente aliquo
+            rea<lb ed="#V" n="78" break="no"/>tu. Hanc ponit Sanctus Thomas 3. parte q. 86. ar. 4. vbi sic dicit. In
+            pec<lb ed="#V" n="79" break="no"/>cato mortali sunt duo scilicet auersio ab incommutabili bono,
+            <lb ed="#V" n="80"/>&amp; conuersio ad bonum commutabile inordinata. Ex parte
+            <lb ed="#V" n="81"/>ergo auersionis ab incommutabili bono consequitur
+            pec<lb ed="#V" n="82" break="no"/>catum mortale reatus paenae aeternae, vt qui contra aeternum
+            <lb ed="#V" n="83"/>bonum peccauit in aeternum puniatur. Ex parte etiam
+            con<lb ed="#V" n="84" break="no"/>uersionis ad bonum lcommutabile inquantum est
+            inor<lb ed="#V" n="85" break="no"/>dinata consequitur peccatum mortale reatus alicuius
+            poe<lb ed="#V" n="86" break="no"/>nae, quia inordinatio culpaenon reducitur ad ordinem
+            iusti<lb ed="#V" n="87" break="no"/>tiae nisi per paenam. Iustum est enim vt qui voluntati suae plus
+            <lb ed="#V" n="88"/>indulsit quam debuit contra voluntatem suam aliquid
+            pa<lb ed="#V" n="89" break="no"/>tiantur, sic enim erit aequalitas, vnde &amp; Apocal. 18. dicitur.
+            <lb ed="#V" n="90"/>Quantum glorificauit se &amp; in delitijs fuit, tantum date illi
+            <lb ed="#V" n="91"/>tormentum &amp; luctum. Quia tamen conuersio ad bonum
+            con<lb ed="#V" n="92" break="no"/>mutabile finita est non habet ex hac per se peccatum
+            mor<lb ed="#V" n="93" break="no"/>tale quod debeatur ei paena aeterna. Vnde si sit inordinata
+            <lb ed="#V" n="94"/>conuersio ad bonum commutabile sine auersione a Deo
+            si<lb ed="#V" n="95" break="no"/>cut est in peccatis venialibus, non debetur peccato
+            poena<lb ed="#V" n="96" break="no"/>aeterna, sed temporalis. Quando igitur per gratiam
+            remitti<lb ed="#V" n="97" break="no"/>tur culpa, tollitur auersio animae a Deo inquantum per
+            gra<lb ed="#V" n="98" break="no"/>tiam anima Deo coniungitur. Vnde &amp; per consequens
+            si<lb ed="#V" n="99" break="no"/>mul tollitur reatus paenae aeternae, potest tamen remanere
+            rea<lb ed="#V" n="100" break="no"/>tus alicuius paenae temporalis. Haec ille.
+          </p>
+          <p xml:id="capsco-d3dsyy-d1e406">
+            Item ibidem in
+            solu<lb ed="#V" n="101" break="no"/>tione tertij sic dicit. Passio Christi de se est sufficiens ad
+            tol<lb ed="#V" n="102" break="no"/>lendum omnem reatum paenae non solum aeternae, sed
+            tempo<lb ed="#V" n="103" break="no"/>ralis, &amp; secundum modum quo homo participat virtutem
+            <lb ed="#V" n="104"/>passionis Christi percipit etiam absolutionem a reatu
+            poe<lb ed="#V" n="105" break="no"/>nae. In baptismo autem totaliter homo participat virtutem
+            <lb ed="#V" n="106"/>passionis Christi, vtpote per aquam &amp; spiritum sanctum
+            <lb ed="#V" n="107"/>Christo commortuus peccato &amp; regeneratus ad nouam
+            vi<lb ed="#V" n="108" break="no"/>tam, &amp; ideo in baptismo homo consequitur virtute
+            passio<lb ed="#V" n="109" break="no"/>nis Christi remissionem totius reatus, non autem in
+            poeni<lb ed="#V" n="110" break="no"/>tentia, sed solum secundum modum propriorum actuum
+            <lb ed="#V" n="111"/>qui sunt materia poenitentiae, sicut aqua baptismi. Et ideo
+            <lb ed="#V" n="112"/>non statim per primum actum poenitentiae quo remittitur
+            <lb ed="#V" n="113"/>culpa, soluitur reatus totius paenae, sed completis omnibus
+            <lb ed="#V" n="114"/>poenitentiae partibus. Haec ille.
+          </p>
+          <p xml:id="capsco-d3dsyy-d1e439">
+            Eandem ponit praesenti
+            di<lb ed="#V" n="115" break="no"/>stinctione. q. 2. ar. primo in solutione secundae q. dicens.
+            Se<lb ed="#V" n="116" break="no"/>cundum philosophum in. 8. ethicorum tam iustitia quam
+            <lb ed="#V" n="117"/>amicitia in quadam aequalitate consistit. Qui ergo aliquem
+            <lb ed="#V" n="118"/>offendit peccat contra aequalitatem amicitiae inquantum
+            <lb ed="#V" n="119"/>affectum debitum non impedit, &amp; contra aequalitatem
+            iu<lb ed="#V" n="120" break="no"/>stitiae inquantum rem debitam subtrahit. Et sicut haec duo
+            <lb ed="#V" n="121"/>in offensa quandoque diuiduntur, ita etiam in
+            compensa<lb ed="#V" n="122" break="no"/>tione separantur. Sicut quando offendendi poena per violem
+            <lb ed="#V" n="123"/>tiam infertur sic fit recompensatio quantum ad iustitiam,
+            <lb ed="#V" n="124"/>sed non quantum ad amicitiam. Similiter quando
+            offen<lb ed="#V" n="125" break="no"/>dens offensum verbis placat nondum re subtracta restituta
+            <lb ed="#V" n="126"/>fit recompensatio amicitiae, sed non iustitiae. Paccator ergo
+            <lb ed="#V" n="127"/>per affectum peccati amicitiam Dei violat, &amp; per inobediem
+            <lb ed="#V" n="128"/>tiam legis diuinae honorem Deo debitum subtrahit. Et ex
+            pri<lb ed="#V" n="129" break="no"/>mo amittit gratiam &amp; incurrit offensam, &amp; ex secundo
+            me<lb ed="#V" n="130" break="no"/>retur poenam vt ab eo qui per inobedientiam subtraxit
+            sub<lb ed="#V" n="131" break="no"/>trahatur per paenam, &amp; hoc meritum paenae dicitur reatus,
+            <lb ed="#V" n="132"/>&amp; ideo per poenitentiam qua homo Deo se supponit
+            pec<lb ed="#V" n="133" break="no"/>cata praeterita detestando cum emendationis proposito
+            re<lb ed="#V" n="134" break="no"/>mittitur quidem peccatum quantum ad offensam, sed non
+            opor<lb ed="#V" n="135" break="no"/>tet quod remittatur quantum ad totum reatum nisi
+            poena<lb ed="#V" n="136" break="no"/>iam persoluta, &amp; sic per poenitentiam non simul cum culpae
+            <lb ed="#V" n="137"/>dimissione totus reatus dimittitur. Haec ille.
+          </p>
+          <p xml:id="capsco-d3dsyy-d1e491">
+            Item prima
+            <lb ed="#V" n="138"/>secundae. quaestio. 87. artic. sexto probat quod reatus poenae
+            <lb ed="#V" n="139"/>remanet non solum post actum peccati inmo post
+            remis<lb ed="#V" n="140" break="no"/>sionem peccati. Et similiter secundo sent. dis. 42. quaestio.
+            <lb ed="#V" n="141"/>prima arti. secundo probat quod post actum peccati
+            rema<lb ed="#V" n="142" break="no"/>net reatus peccati. Ex quibus potest formari talis ratio
+            pro<lb ed="#V" n="143" break="no"/>conclusione. Reatus peccati non tollitur totaliter per
+            sacra<lb ed="#V" n="144" break="no"/>mentum poenitentiae nisi amota omni inordinata
+            auersio<lb ed="#V" n="145" break="no"/>ne &amp; conuersione peccatis, sed haec duo quandoque
+            amouen<lb ed="#V" n="146" break="no"/>tur in sacramento paenitentiae, quandoque primum sine secuudo,
+            er<lb ed="#V" n="147" break="no"/>go quandoque tollitur totaliter reatus, &amp; quandoque non.
+          </p>
+          <p xml:id="capsco-d3dsyy-d1e516">
+            Item per
+            sacramen<lb ed="#V" n="148" break="no"/>tum pniae tunc solum tollitur totaliter reatus, quando penitens
+            p<lb ed="#V" n="149" break="no"/>fecte recompensat amicitiam &amp; iustitiam circa Deum: sed haec
+            di<lb ed="#V" n="150" break="no"/>plex recompensatio quandoque concurrit in penitente, &amp;
+            <pb ed="#V" n="166"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>quandoque prima sine secunda, igitur &amp;c. Et in hoc primus
+            <lb ed="#V" n="2"/>articulus terminatur, quia plura in solutionibus ad
+            dicto<lb ed="#V" n="3" break="no"/>rum confirmationem dicentur.
+          </p>
+        </div>
+        <div xml:id="capsco-d3dsyy-Dd1e537">
+          <head xml:id="capsco-d3dsyy-Hd1e539">Articulus 2</head>
+          <p xml:id="capsco-d3dsyy-d1e541">
+            <lb ed="#V" n="4"/><milestone ed="#V" unit="p" rend="initial"/> QVantum ad secundum articulum arguitur contra
+            con<lb ed="#V" n="5" break="no"/>clusiones. Et quidem contra primam cociusionem
+            a<lb ed="#V" n="6" break="no"/>guit Durandus, &amp; primo vult probare quod paenitentia non
+            <lb ed="#V" n="7"/>sit sacramentum nec debeat dici sacramentum poenitentia, sed
+            <lb ed="#V" n="8"/>sacramentum confessionis &amp; absolutionis, quia in
+            confes<lb ed="#V" n="9" break="no"/>sione &amp; absolutione consistit hoc sacramentum tanquam
+            <lb ed="#V" n="10"/>in sua materia &amp; sua forma. Poenitentia autem si accipiat
+            <lb ed="#V" n="11"/>pro habitu vel actu interiori est ad hoc sacramentum
+            prae<lb ed="#V" n="12" break="no"/>uia tanquam dispositio suscipientis. Si autem accipiatur, pr
+            <lb ed="#V" n="13"/>executione poenae satisfactoriae, sic est consequens ad hoc
+            sa<lb ed="#V" n="14" break="no"/>cramentum, &amp; sic poenitentia quocunque praedictorum
+            <lb ed="#V" n="15"/>modorum accepta non est intrinseca huic sacramento.
+          </p>
+          <p xml:id="capsco-d3dsyy-d1e571">
+            Se<lb ed="#V" n="16" break="no"/>cundo arguit quod poenitentia non sit quaedam specialis
+            vin<lb ed="#V" n="17" break="no"/>tus ab alijs distincta potissime a iustitia, quia vel esset
+            infu<lb ed="#V" n="18" break="no"/>sa vel neutrum, est ergo &amp;c. minor probatur, quia nulla
+            vir<lb ed="#V" n="19" break="no"/>tus infusa praeter tres theologicas, vt dicit se probasse
+            ter<lb ed="#V" n="20" break="no"/>tio libro. Quia autem non sit acquisita probat, quia si esset
+            <lb ed="#V" n="21"/>secundum se quaedam virtus acquisita ex actibus
+            paeniten<lb ed="#V" n="22" break="no"/>di tunc ille qui possibiles peccaret &amp; pluries peniteret esset
+            <lb ed="#V" n="23"/>virtuosior, sen plures virtutes haberet quam innocens qui
+            <lb ed="#V" n="24"/>semper in actibus virtuosis perseueraret, &amp; per consequens
+            <lb ed="#V" n="25"/>non acquireret sibi virtutem poenitentiae ex actibus
+            poi<lb ed="#V" n="26" break="no"/>tendi, quia nunquam paeniteret, eo quod peccatum non
+            fe<lb ed="#V" n="27" break="no"/>cisset. Hoc autem est irrisorium: est ergo virtus poenitentiae
+            <lb ed="#V" n="28"/>ipsa met. virtus iustitiae, cuius actus est reddere vnscuique
+            <lb ed="#V" n="29"/>quod suum est, Deo obedientiam obseruando mandata, &amp;
+            <lb ed="#V" n="30"/>fugiendo transgressionem eorum, &amp; si contingat
+            transgre<lb ed="#V" n="31" break="no"/>di, tunc elicit actum paenitendi propter quem actum
+            sorti<lb ed="#V" n="32" break="no"/>tur nomen poenitentiae.
+          </p>
+          <p xml:id="capsco-d3dsyy-d1e610">
+            Secundo ad idem, quia paenitere non potest
+            <lb ed="#V" n="33"/>esse principalis act alicuius virtutis, qua prius &amp; principalis
+            <lb ed="#V" n="34"/>actus virtutis nunquam praeexigit actum vitij in operante
+            vir<lb ed="#V" n="35" break="no"/>tuose. Actus enim principalis temperantiae non requirit quod
+            <lb ed="#V" n="36"/>homo prius itemperate egerit, nec actus principalis libera
+            <lb ed="#V" n="37"/>litati requirit quod aliquis prius fuerit auarus, &amp;c. de
+            sin<lb ed="#V" n="38" break="no"/>gulis virtutibus, alioquin nullus posset fieri virtuosus nisi
+            <lb ed="#V" n="39"/>prius fuisset vitiosus, quod non est verum, sed paenitere
+            ne<lb ed="#V" n="40" break="no"/>cessario praesupponit actum vitiosum praecessisse in
+            poeni<lb ed="#V" n="41" break="no"/>tente, est enim de malo commisso, ergo paenitere non potest
+            <lb ed="#V" n="42"/>esse primus, &amp; principalis actus alicuius virtutis, ergo &amp;c. Tertio
+            <lb ed="#V" n="43"/>quia actus primus &amp; principalis virtutis cuiuslibet est secum
+            <lb ed="#V" n="44"/>dum electionem boni vt fiat, secundus vero differens a
+            pri<lb ed="#V" n="45" break="no"/>mo. re vel ratione est fuga mali ne malum fiat, tertius autem
+            <lb ed="#V" n="46"/>est si contingat malum fieri quod illud displiceat, vt patet
+            <lb ed="#V" n="47"/>in omnibus virtutibus &amp; sic paenitere de malo quod ia
+            con<lb ed="#V" n="48" break="no"/>tigit non est primus &amp; principalis actus virtutis, sed
+            secun<lb ed="#V" n="49" break="no"/>darius, vel tertius &amp; de obiecto contingenti per accidens
+            ip<lb ed="#V" n="50" break="no"/>si vi rtuoso, contingit enim virtuosum peccare, sed non
+            in<lb ed="#V" n="51" break="no"/>quantum est virtuosus, per habitum tamen virtutis
+            detesta<lb ed="#V" n="52" break="no"/>tur malum si quid contingit.
+          </p>
+          <p xml:id="capsco-d3dsyy-d1e656">
+            Quarto quia omnis virtus
+            <lb ed="#V" n="53"/>vel est intellectualis vel theologicalis vel moralis, sed
+            poeni<lb ed="#V" n="54" break="no"/>tentia neutrum esse potest. Constat enim quod non est
+            in<lb ed="#V" n="55" break="no"/>tellectualis. Quia autem non sit theologica probatur, quia
+            <lb ed="#V" n="56"/>virtus theologica habet Deum pro obiecto, &amp; non actum
+            <lb ed="#V" n="57"/>humanum bonum vel malum, sed paenitere, habet pro
+            obie<lb ed="#V" n="58" break="no"/>cto actum humanum, scilicet peccatum per hominem
+            con<lb ed="#V" n="59" break="no"/>missum, ergo paenitentia non est virtus theologica. Quia
+            au<lb ed="#V" n="60" break="no"/>tem non sit moralis patet, quia virtus moralis non habet
+            pro<lb ed="#V" n="61" break="no"/>fine proximo, nec pro circunstantia informante aliquid quod
+            <lb ed="#V" n="62"/>excedat dictamen rationis naturalis, sed poenitentia vel
+            pae<lb ed="#V" n="63" break="no"/>nitere habet pro fine proximo &amp; pro circunstantia in
+            for<lb ed="#V" n="64" break="no"/>mante aliquid quod excedit dictamen rationis naturalis. Quod
+            <lb ed="#V" n="65"/>patet quia finis proximus paenitendi est vt homo reconcuie
+            <lb ed="#V" n="66"/>tur Deo quem offendit per peccatum satisfaciendo per
+            pae<lb ed="#V" n="67" break="no"/>nitentiam, illud autem non cadit sub dictamine rationis
+            na<lb ed="#V" n="68" break="no"/>turalis. Oportet ergo quod actus penitendi non solum sit a
+            <lb ed="#V" n="69"/>virtute morali, sed theologica vna vel pluribus,
+            qualitercun<lb ed="#V" n="70" break="no"/>que hoc fiat, ergo paenitentia non est specialis virtus
+            secur<lb ed="#V" n="71" break="no"/>dum se distincta ab alijs potissime a iustitia. Quinto quis
+            <lb ed="#V" n="72"/>omnis virtus moralis quae ordinat hominem ad alterum
+            <lb ed="#V" n="73"/>in ratione debiti pertinet ad iustitiam, sed paenitentia
+            ordi<lb ed="#V" n="74" break="no"/>nat hominem ad alerum in ratione debiti, igitur pertinet
+            <lb ed="#V" n="75"/>ad iustitiam maior: patet quia virtutes morales aliae a
+            iusti<cb ed="#V" n="b"/><lb ed="#V" n="76" break="no"/>tia aut non ordinant hominem ad alterum vt temperantia
+            <lb ed="#V" n="77"/>aut si ordnant vt liberalitas, non tamen in ratione debiti.
+            <lb ed="#V" n="78"/>Non enim liberalis tenetur ei cui dat ex aliquo debito. S
+            <lb ed="#V" n="79"/>enim teneretur ex debito non esset liberaliter datum, sed
+            ne<lb ed="#V" n="80" break="no"/>cessario redditum, sed ad solam iustitiam pertinet ratio
+            debi<lb ed="#V" n="81" break="no"/>ti, vt ipsum nomen sonat. Quod enim iustum est fieri
+            debi<lb ed="#V" n="82" break="no"/>tum est, &amp; quod debitum est iustum est reddi, &amp; sic patet
+            ma<lb ed="#V" n="83" break="no"/>ior minor probatur quia poenitentia ordinat hominem
+            <lb ed="#V" n="84"/>Deum in ratione debiti. Haec Durandus in forma. Contra
+            <lb ed="#V" n="85"/>secundam conclusionem arguit Aureolus. Et primo
+            pro<lb ed="#V" n="86" break="no"/>bat quod materia uel obiectum poenitentiae virtutis non
+            <lb ed="#V" n="87"/>sit peccatum sed poena. Primo ex dicto philosophi
+            se<lb ed="#V" n="88" break="no"/>cundo Ethicorum. Iustitia punitiua in poenis est quae
+            re<lb ed="#V" n="89" break="no"/>ducit ossensam adlaequalitatem. Considerandum est enim
+            <lb ed="#V" n="90"/>quod illae qui iniuriatur habet plus, quia egit quod non
+            de<lb ed="#V" n="91" break="no"/>bet. Ille vero qui passus est habet minus, quia priuatus est
+            <lb ed="#V" n="92"/>honore proprio. Poena autem iusta reducit istos ad
+            aequa<lb ed="#V" n="93" break="no"/>litatem propter quod poena vt sic est obiectum iustitiae
+            pu<lb ed="#V" n="94" break="no"/>nitiuae. A simili peccatum cum inducat quandam
+            inaequali<lb ed="#V" n="95" break="no"/>tatem inter Deum &amp; hominem auferendo illud quod suum
+            <lb ed="#V" n="96"/>est puta reuerentiam obedientiam &amp; honorem, in quo Deus
+            <lb ed="#V" n="97"/>per peccatorem inquantum est ex parte peccatoris fit
+            mi<lb ed="#V" n="98" break="no"/>nus habens, peccator autem attribuendo sibi &amp; vsurpando
+            <lb ed="#V" n="99"/>proprium votum &amp; beneplacitum ac desiderium fit plus
+            <lb ed="#V" n="100"/>habens. Idcirco hanc inaequalitatem reducit ad aequalitatem
+            <lb ed="#V" n="101"/>poenitentia auferendo peccatori propria desideria, &amp;
+            exhi<lb ed="#V" n="102" break="no"/>bendo reuerentiam Deo &amp; obedientiam, ergo peccatum non
+            <lb ed="#V" n="103"/>est obiectum poenitentiae, sed poena vt reductiua illius
+            inae<lb ed="#V" n="104" break="no"/>qualitatis ad aequalitatem.
+          </p>
+          <p xml:id="capsco-d3dsyy-d1e773">
+            Secundo sic. Illud est proprie
+            obie<lb ed="#V" n="105" break="no"/>ctum &amp; materia alicuius virtutis circa quod illa virtus
+            <lb ed="#V" n="106"/>immediate ponit &amp; coniecturat bonum &amp; medium rationis
+            <lb ed="#V" n="107"/>facit quod est quasi forma inducenda a virtute. Sed
+            poeni<lb ed="#V" n="108" break="no"/>tentia non ponit huiusmodi bonum &amp; medium rationis
+            <lb ed="#V" n="109"/>circa peccata, sed circa poenas, vt illius inaequalitatis
+            re<lb ed="#V" n="110" break="no"/>ductiuas, ergo &amp;c. maior patet ex secundo Ethicorum,
+            <lb ed="#V" n="111"/>quia virtus est coniectatrix medij puta circa medium
+            ratio<lb ed="#V" n="112" break="no"/>nis consistens, &amp; debitas circunstantias inducit in
+            mate<lb ed="#V" n="113" break="no"/>riam determinatam: minor patet, quia in peccatum
+            huius<lb ed="#V" n="114" break="no"/>modi circunstantias non inducit, sed agens circa
+            paeniten<lb ed="#V" n="115" break="no"/>tem apponit paenas, quia &amp; quando &amp; vbi &amp; sicut oportet,
+            <lb ed="#V" n="116"/>&amp; sic de alijs circunstantijs.
+          </p>
+          <p xml:id="capsco-d3dsyy-d1e802">
+            Confirmatur quia nulla virtus
+            <lb ed="#V" n="117"/>habet pro obiecto illud quod corrumpitur, cum ipsa habeat
+            <lb ed="#V" n="118"/>modificare suum obiectum, sed paenitentia corrumpit
+            pec<lb ed="#V" n="119" break="no"/>cata, ergo &amp;. Tertio. Quia sicut est de iustitia punitiua &amp;
+            <lb ed="#V" n="120"/>vindicatiua, sic est de poenitentia. Iustitia enim punisiua est
+            <lb ed="#V" n="121"/>directiua in paenis, quae a iudice infliguntur, iustitia autem
+            <lb ed="#V" n="122"/>vindicatiua est directiua in paenis quae infliguntur a
+            perso<lb ed="#V" n="123" break="no"/>na priuata, vbi iudicis non habetur praesentia, sicut
+            tempo<lb ed="#V" n="124" break="no"/>re Machabeorum Machabeus &amp; filij eius punierunt
+            pec<lb ed="#V" n="125" break="no"/>catores. Vltra istas est tertia punitiua suiipsius infligendo
+            <lb ed="#V" n="126"/>poenam sibi deuotam secundum iudicium rationis, &amp; haec
+            <lb ed="#V" n="127"/>est poenitentia. ergo quod sicut est de iustitia punitiua &amp;
+            <lb ed="#V" n="128"/>vindicatiua, quae sunt ad alterum, sic est de poenitentia quae
+            <lb ed="#V" n="129"/>est iustitia punitiua in seipsum, sed iustitia punitiua &amp;
+            vin<lb ed="#V" n="130" break="no"/>dicatiua sunt directe in paenis in paenis, nec habent pro
+            obie<lb ed="#V" n="131" break="no"/>cto peccata, sed paenas, licet moueantur ex peccatis
+            commis<lb ed="#V" n="132" break="no"/>sis, tamen proprius actus illarum est circa moderationem
+            <lb ed="#V" n="133"/>poenarum in alterum secundum circunstantias requisitas,
+            <lb ed="#V" n="134"/>ergo iustitia directiua paenarum in seipsum, &amp; si motum
+            ca<lb ed="#V" n="135" break="no"/>piat ex peccato, tamen totus eius actus est circa paenas ut
+            re<lb ed="#V" n="136" break="no"/>ductiuas ad aequalitatem. Haec ille.
+          </p>
+          <p xml:id="capsco-d3dsyy-d1e848">
+            Secundo loco arguit
+            p<lb ed="#V" n="137" break="no"/>bando quod nullus alius actus poenitentis sit de essentia
+            <lb ed="#V" n="138"/>poenitentiae quae est sacramentum praeter confessionem
+            <lb ed="#V" n="139"/>Primo quia istud sacramentum potest esse sine
+            satisfactio<lb ed="#V" n="140" break="no"/>ne. Vnde papa potest committere simplici sacerdoti quod
+            <lb ed="#V" n="141"/>absoluat poenitentem a poena &amp; culpa, &amp; similiter
+            sacer<lb ed="#V" n="142" break="no"/>dos nullam tenetur iniungere paenitentiam tanta posset
+            ap<lb ed="#V" n="143" break="no"/>parere contritio in poenitente. Sed nullum sacramentum
+            <lb ed="#V" n="144"/>potest esse sine eo quod est propria materia sacramenti,
+            <lb ed="#V" n="145"/>vel de eius essentia, ergo &amp;c.
+          </p>
+          <p xml:id="capsco-d3dsyy-d1e870">
+            Secundo quia illud non est
+            <lb ed="#V" n="146"/>materia sacramenti in quo non potest esse aliqua uirtus
+            su<lb ed="#V" n="147" break="no"/>pernaturalis infusa secundum te qui dicis quod in
+            mate<lb ed="#V" n="148" break="no"/>ria sacramenti est uirtus supernaturalis infusa actiua
+            respe<lb ed="#V" n="149" break="no"/>ctu dispotionis gratiae. Sed in satisfactione nulla potest esse
+            <lb ed="#V" n="150"/>uirtus infusa quae sit actiua respectu illius dispositionis.
+            <pb ed="#V" n="167"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>quia ante satisfactionem infunditur gratia. Si dicas quod
+            <lb ed="#V" n="2"/>non debetur culpa sine satisfactione in proposito. Contra
+            <lb ed="#V" n="3"/>Satisfactio in proposito non est signum sensibile, ergo nec
+            <lb ed="#V" n="4"/>materia huius sacramenti. Tertio. sic. Nunquam essentia
+            <lb ed="#V" n="5"/>huius sacramenti manet quando morbus non manet, sed
+            <lb ed="#V" n="6"/>quando paenitentia imposita expletur, non manet morbus,
+            <lb ed="#V" n="7"/>quia culpa iam deleta est ergo &amp;c. Consimiliter dico de
+            <lb ed="#V" n="8"/>contritione quod non potest esse materia huius sacramenti,
+            <lb ed="#V" n="9"/>cum non sit signum sensibile. Haec ille.
+          </p>
+          <p xml:id="capsco-d3dsyy-d1e907">
+            Contra tertiam
+            con<lb ed="#V" n="10" break="no"/>clusionem arguit Scotus probando quod cessante actu
+            <lb ed="#V" n="11"/>peccati non manet aliquis reatus vel obligatio, quae sit
+            ali<lb ed="#V" n="12" break="no"/>quid reale relatiuum vel absolutum, quia nulla relatio
+            rea<lb ed="#V" n="13" break="no"/>lis manet in anima cessante actu peccati. secundo, quia si
+            <lb ed="#V" n="14"/>manet non ab illa diceretur anima peccatrix. Prim 1
+            pro<lb ed="#V" n="15" break="no"/>batur, quia relatio realis intrinsecus adueniens sequitur
+            <lb ed="#V" n="16"/>necessario positionem extremorum, haec autem non
+            sequi<lb ed="#V" n="17" break="no"/>tur. Patet, quia manente eadem anima &amp; Deo seu
+            poena<lb ed="#V" n="18" break="no"/>eodem modo se habente non propter hoc anima est
+            obli<lb ed="#V" n="19" break="no"/>gata ad poenam, quia non ante peccatum. Quia si sit
+            extrin<lb ed="#V" n="20" break="no"/>secus adueniens, necesse est ibi dare causam per quam
+            ad<lb ed="#V" n="21" break="no"/>ueniat extremis iam positis, sicut est de vbi. Non enim
+            po<lb ed="#V" n="22" break="no"/>test esse respectus realis qui non sequatur extrema posita,
+            <lb ed="#V" n="23"/>quin sibi vt termino respondeat aliqua actio realis, sed
+            <lb ed="#V" n="24"/>illius obligationis dari non potest actio realis nec agens
+            <lb ed="#V" n="25"/>reale. Non enim anima, quia peccando non habuit
+            ni<lb ed="#V" n="26" break="no"/>si vnicam actionem deordinatam quae fuit ad illud velle
+            <lb ed="#V" n="27"/>priuatum debitis circunstantijs, &amp; ita non ad illum
+            respe<lb ed="#V" n="28" break="no"/>ctum vt ad terminum. Nec potest dici ista obligatio
+            termi<lb ed="#V" n="29" break="no"/>nus diuine actionis immediate, quia nulla anima dicitur
+            <lb ed="#V" n="30"/>peccatrix praecise ab illo quod est terminus immediatus
+            <lb ed="#V" n="31"/>diuinae actionis: secundum probatur, quia si esset in anima
+            <lb ed="#V" n="32"/>talis obligatio, non posset fingi inesse nisi a Deo
+            immedia<lb ed="#V" n="33" break="no"/>te, &amp; ita per illam non esset anima peccatrix formaliter,
+            <lb ed="#V" n="34"/>cum Deus non sit causa peccati per se, sed solum
+            permissi<lb ed="#V" n="35" break="no"/>ue. Istam difficultatem tangit magister distinctionerr8.
+            ca<lb ed="#V" n="36" break="no"/>pitulo vltimo. Et videtur soluere per hoc quod polsuta
+            <lb ed="#V" n="37"/>est anima quousque paeniteat, sicut erat dum erat in ea
+            pra<lb ed="#V" n="38" break="no"/>ua voluntas. Et exemplificat de illo qui tetigit morticinum.
+            <lb ed="#V" n="39"/>Cessante enim actu est immundus sicut prius. Et subdit.
+            <lb ed="#V" n="40"/>Ita polluta anima remanet, sicut fuit in ipso actu peccati,
+            <lb ed="#V" n="41"/>quia ita est longe a Deo per dissimilitudiaem. Ipsa enim
+            <lb ed="#V" n="42"/>dissimilitudo quae inest animae ex peccato, &amp; est elongatio
+            <lb ed="#V" n="43"/>animae a Deo macula videtur.
+          </p>
+          <p xml:id="capsco-d3dsyy-d1e983">
+            Sed contra istud stat prior
+            <lb ed="#V" n="44"/>deductio, quia maculaista vel elongatio vel dissimilitudo
+            <lb ed="#V" n="45"/>quocunque nomine censeatur non potest esse
+            tantummo<lb ed="#V" n="46" break="no"/>do carentia gratiae habitualis, quia ista totaliter inest in
+            <lb ed="#V" n="47"/>primo peccato. Nec carentia rectitudinis in actu, quia illa
+            <lb ed="#V" n="48"/>non est nata manere nisi manente macula in actu.
+          </p>
+          <p xml:id="capsco-d3dsyy-d1e997">
+            Item
+            <lb ed="#V" n="49"/>macula summi odij. a. &amp; summus amor ipsius. a. repugnant,
+            <lb ed="#V" n="50"/>ergo per vnum aufertur aliud, &amp; per consequens macula
+            <lb ed="#V" n="51"/>odij. a. posset auferri per immoderatum amorem ipsius. 4.
+          </p>
+          <p xml:id="capsco-d3dsyy-d1e1006">
+            <lb ed="#V" n="52"/>Tertio quia si aliquid derelictum ab actu peccati dicatur
+            <lb ed="#V" n="53"/>manere, illud non est formaliter peccatum, quia potest
+            <lb ed="#V" n="54"/>stare in iniustificato, sicut habitus vitiosus vel dispositio
+            <lb ed="#V" n="55"/>ad illum manet in iustificato subito. Et hoc patet quia in
+            <lb ed="#V" n="56"/>principio pronus est ad acquirendum illam
+            inclinatio<lb ed="#V" n="57" break="no"/>nem habitus vitiosi, sed pugnando contra eam meretur
+            <lb ed="#V" n="58"/>&amp; acquirit habitum contrarium. Vnde magni
+            peccato<lb ed="#V" n="59" break="no"/>res non statim quando iustificati sunt habent illam pacem,
+            <lb ed="#V" n="60"/>quam habent perfecti &amp; exercitati in virtutibus.
+            Quicun<lb ed="#V" n="61" break="no"/>que etiam habitus vel dispositio vitiosa relinquitur ex
+            acti<lb ed="#V" n="62" break="no"/>bus, desineret esse post fluxum temporis nisi firmaretur
+            <lb ed="#V" n="63"/>perfecte per frequentiores actus, sicut vniuersaliter omnis
+            <lb ed="#V" n="64"/>dispositio ad habitum desinit esse cessantibus actibus. Sed
+            <lb ed="#V" n="65"/>illud quo aliquis dicitur peccator post actum quem
+            com<lb ed="#V" n="66" break="no"/>misit non desinit esse, non ergo est ibi aliquod absolutum
+            <lb ed="#V" n="67"/>vel relatiuum positiuum vel priuatiuum, a quo dicatur
+            <lb ed="#V" n="68"/>peccator a tempore cessationis vsque ad paenitentiam, sed
+            <lb ed="#V" n="69"/>tantum quaedam relatio rationis inquantum est obiectum
+            <lb ed="#V" n="70"/>intellectus vel voluntatis Dei. Quia postquam commisit
+            <lb ed="#V" n="71"/>voluntas Dei ordinat illum ad poenam correspondentem
+            <lb ed="#V" n="72"/>peccato, &amp; intellectus prouidet pro omni tempore donec
+            <lb ed="#V" n="73"/>poena sit persoluta. Quia Augustinus super illud psalmi. Beati
+            <lb ed="#V" n="74"/>quorumremissae sunt iniquitates &amp;c. Videre inquit
+            pecca<lb ed="#V" n="75" break="no"/>tum Deum est ad poenam imputare. Auertere autem
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="76"/>faciem a peccatis, hoc est ea ad poenam non reseruare. Ita
+            <lb ed="#V" n="77"/>ergo dicit ab eo tecta, non vt non videat, sed vt non velit
+            <lb ed="#V" n="78"/>animaduertere, id est punire, ergo hominem remanere
+            <lb ed="#V" n="79"/>in reatu post actum peccati transeuntem non est aliud nisi
+            <lb ed="#V" n="80"/>ipsum a Dei voluntate ordinari ad poenam condignam
+            il<lb ed="#V" n="81" break="no"/>li peccato. Obiectum autem intellectus vel voluntatis vt
+            <lb ed="#V" n="82"/>intellectum vel volitum non habet nisi respectum
+            ratio<lb ed="#V" n="83" break="no"/>nis ergo &amp;c.
+          </p>
+          <p xml:id="capsco-d3dsyy-d1e1080">
+            Quinto. Quia esto quod Deus in
+            multiplica<lb ed="#V" n="84" break="no"/>tionem meritorum non inderet habitum charitatis, sicut
+            <lb ed="#V" n="85"/>possibile est, si merita sint remissa vel etiam si essent
+            inten<lb ed="#V" n="86" break="no"/>sa, tamen ille qui plura merita humitm transeuntibus
+            interio<lb ed="#V" n="87" break="no"/>ribus &amp; exterioribus est magis meritus quam alius, quod
+            <lb ed="#V" n="88"/>nihil aliud est nisi, quia ordinatus est ad maiorem gloriam,
+            <lb ed="#V" n="89"/>per quod non habetur aliquod positiuum vel priuatiuum
+            <lb ed="#V" n="90"/>absolutum vel relatiuum intrinsecum isti, sed tantum
+            mo<lb ed="#V" n="91" break="no"/>do relatio rationis inquantum est obiectum diuinae
+            volun<lb ed="#V" n="92" break="no"/>tatis vt sic ordinetur ad multipliciorem gloriam. Isti enim
+            <lb ed="#V" n="93"/>in acceptione diuina ordinantur per ista merita vel iste
+            <lb ed="#V" n="94"/>per ista merita ordinatur ad talem vel talem gloriam.
+            Si<lb ed="#V" n="95" break="no"/>cut ergo ista acceptatio propter merita transeuntia nihil
+            <lb ed="#V" n="96"/>est realiter nisi actus diuinae voluntatis, &amp; in isto tantum.
+            <lb ed="#V" n="97"/>modo relatio rationis sicut in obiecto volitio, ita ex alia
+            <lb ed="#V" n="98"/>parte propter peccata transeuntia est abiectio vel
+            repro<lb ed="#V" n="99" break="no"/>batio vel expulsio in voluntate diuina, &amp; in peccatore est
+            <lb ed="#V" n="100"/>relatio rationis tantum vt obiecti reprobati ad talem vel
+            <lb ed="#V" n="101"/>talem paenam.
+          </p>
+          <p xml:id="capsco-d3dsyy-d1e1122">
+            Septimo. Quia si quis offendat magnum
+            prin<lb ed="#V" n="102" break="no"/>cipem tali offensa, cui correspondeat magna paena:
+            cessan<lb ed="#V" n="103" break="no"/>te illo actu nihil est in ipso quod prius non fuit ante actum
+            <lb ed="#V" n="104"/>peccati propter quod nunc dicatur inimicus &amp; non prius,
+            <lb ed="#V" n="105"/>sed tantum in voluntate domini est actus transiens super
+            <lb ed="#V" n="106"/>ipsum, &amp; per hoc in ipso est relatio rationis vt in obiecto
+            <lb ed="#V" n="107"/>volitio ad talem poenam. Ex quo patet quod cessante actu
+            <lb ed="#V" n="108"/>peccati nihil aliud est offensae macula vel reatus nisi ista
+            re<lb ed="#V" n="109" break="no"/>latio rationis, sed ista relatio rationis scilicet ordinatio ad
+            <lb ed="#V" n="110"/>poenam vt est disconueniens animae dicitur eius macula,
+            <lb ed="#V" n="111"/>sicutper oppositum pulchritudo, vt autem est obligatio
+            <lb ed="#V" n="112"/>formaliter ad illam poenam dicitur reatus. Et vt est actus
+            <lb ed="#V" n="113"/>voluntatis diuinae, in qua est tota illa realitas per quem
+            <lb ed="#V" n="114"/>actum ordinatur ad talem poenam dicitur offensa. Haec
+            <lb ed="#V" n="115"/>Scotus in forma.
+          </p>
+          <p xml:id="capsco-d3dsyy-d1e1155">
+            Contra eandem conclusionem arguit
+            <lb ed="#V" n="116"/>Aureolus. Et primo nititur probare quod illud quo quis
+            <lb ed="#V" n="117"/>dicitur formaliter peccator transeunte actu peccati non
+            <lb ed="#V" n="118"/>sit respectus realis. Quia nullus respectus realis potest de
+            <lb ed="#V" n="119"/>nouo acquiri nisi acquisito aliquo absoluto, sed
+            transeun<lb ed="#V" n="120" break="no"/>te actu peccati non aduenit aliquod absolutum reale de
+            <lb ed="#V" n="121"/>nouo, igitur &amp;c.
+          </p>
+          <p xml:id="capsco-d3dsyy-d1e1171">
+            Item cum iste respectus non sit de genere
+            <lb ed="#V" n="122"/>relationis secundum te, nec apparet de quo genere sit, non
+            <lb ed="#V" n="123"/>est rationabile illum ponere. Item si obligatio ad poenam
+            <lb ed="#V" n="124"/>est illud quo aliquis dicitur formaliter peccator, ergo in
+            <lb ed="#V" n="125"/>quocunque esset talis obligatio ille esset in culpae. Quod
+            <lb ed="#V" n="126"/>est falsum, quia peccato per poenitentiam dimisso adhuc
+            <lb ed="#V" n="127"/>remanet obligatio ad aliquam poenam.
+          </p>
+          <p xml:id="capsco-d3dsyy-d1e1188">
+            Dices quod sola
+            <lb ed="#V" n="128"/>obligatio ad poenam aeternam est illud quo quis dicitur
+            <lb ed="#V" n="129"/>formaliter peccator. Contra, quia peccatum veniale
+            ma<lb ed="#V" n="130" break="no"/>net sine obligatione ad poenam aeternam, ergo vbi non est
+            <lb ed="#V" n="131"/>obligatio ad paenam aeternam ibi est ratio culpae. Vlterius
+            <lb ed="#V" n="132"/>probat quod illud quo quis dicitur formaliter peccator
+            <lb ed="#V" n="133"/>transeunte actu peccati non sit priuatio actualis iustitiae
+            <lb ed="#V" n="134"/>vel gratiae in voluntate, quia illud non potest dici
+            forma<lb ed="#V" n="135" break="no"/>lis ratio peccati, quo non intenso nec remisso peccatum
+            <lb ed="#V" n="136"/>dicitur intendi &amp; remitti, formalis enim ratio &amp; illud
+            <lb ed="#V" n="137"/>cuius est ratiomutuo intenduntur. Sed tali priuatione
+            <lb ed="#V" n="138"/>non intensa nec remissa peccatum dicitur intendi &amp;
+            remit<lb ed="#V" n="139" break="no"/>ti, ergo &amp;c. minor probatur, quia priuatio iustitiae &amp;
+            gra<lb ed="#V" n="140" break="no"/>tiae non suscepit intensionem aut remissionem ex
+            additio<lb ed="#V" n="141" break="no"/>ne peccatorum, aeque enim priuatur gratia qui fecit vnum
+            <lb ed="#V" n="142"/>peccatum sicut qui fecit mille. Similiter aliquis posset esse
+            <lb ed="#V" n="143"/>priuatus gratia, nec tamen diceretur peccator, sicut ille
+            <lb ed="#V" n="144"/>qui inpuris naturalibus crearetur.
+          </p>
+          <p xml:id="capsco-d3dsyy-d1e1227">
+            Nec valet si dicas quod
+            <lb ed="#V" n="145"/>expriuatione gratiae simpliciter non dicitur quis peccator
+            <lb ed="#V" n="146"/>sed oportet quod commiserit culpam per quam gratia se
+            <lb ed="#V" n="147"/>priuauit. Hoc enim non valet, quia ego loquor de formali
+            <lb ed="#V" n="148"/>ratione peccati. Vlterius arguit quod illud quo quis
+            dici<lb ed="#V" n="149" break="no"/>tur formaliter peccator transeunte actu peccati non sit
+            <lb ed="#V" n="150"/>macula ex peccato relicta, sicut contagium ex contactu
+            <pb ed="#V" n="168"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>morbi, quia tunc illud esset quaedam habilitas relicta, &amp; hoc
+            <lb ed="#V" n="2"/>non potest esse, quia aliquis non peccator potest esse
+            ma<lb ed="#V" n="3" break="no"/>gis habilitatus quam peccator. Aut esset aliquid aliud, &amp;
+            <lb ed="#V" n="4"/>non apparet quid potest esse. Haec ille. Et in hoc secundus
+            <lb ed="#V" n="5"/>articulus terminatur.
+          </p>
+        </div>
+        <div xml:id="capsco-d3dsyy-Dd1e1259">
+          <head xml:id="capsco-d3dsyy-Hd1e1261">Articulus 3</head>
+          <p xml:id="capsco-d3dsyy-d1e1263">
+            <lb ed="#V" n="6"/><milestone ed="#V" unit="p" rend="initial"/> QVantum ad tertium articulum respondendum est
+            <lb ed="#V" n="7"/>obiectionibus supradistis. Et quidem ad ea quae
+            Du<lb ed="#V" n="8" break="no"/>randus primo loco obijcit contra primam
+            conclu<lb ed="#V" n="9" break="no"/>sionem. Dicitur primo hoc sacramentum proprie
+            nomina<lb ed="#V" n="10" break="no"/>tur sacramentum poenitentiae. Tum quia finis eius
+            princi<lb ed="#V" n="11" break="no"/>palis est per poenam punire peccatum &amp; peccantem ad
+            <lb ed="#V" n="12"/>satisfaciendum Deo, &amp; ad abolendum offensam Dei. Tum
+            <lb ed="#V" n="13"/>quia omnia concurrentia ad hoc sacramentum habent
+            ra<lb ed="#V" n="14" break="no"/>tionem poenae, vt puta dolor contritionis, erubescentia
+            <lb ed="#V" n="15"/>confessionis, ligamen sacerdotis ad poenam, &amp; labor
+            sa<lb ed="#V" n="16" break="no"/>tisfactionis. De praedictis beatus Thomas quarto. sen. dis. 16.
+            <lb ed="#V" n="17"/>q. 1. arti primo in solutione secundae. q. sic dicit.
+            Poeniten<lb ed="#V" n="18" break="no"/>tia culpae praecedentis offensam abolet per modum
+            recon<lb ed="#V" n="19" break="no"/>pensationis cuiusdam. Haec autem recompensatio differt
+            <lb ed="#V" n="20"/>a recompensatione vindicatiuae iustitiae in duobus. Primo
+            <lb ed="#V" n="21"/>quia in vindicatiua iustitia ille qui peccauit se habet ad
+            re<lb ed="#V" n="22" break="no"/>compensationem vt patiens tantum, inquantum poena
+            <lb ed="#V" n="23"/>per quam fit culpae recompensatio est ab alio inflicta, &amp;
+            <lb ed="#V" n="24"/>ideo non praesupponitur ad recompensationem dolor de
+            <lb ed="#V" n="25"/>peccato, sed ex poena recompensante dolor infligitur. In
+            <lb ed="#V" n="26"/>praesentia autem ille qui peccauit, se habet ad
+            recompensa<lb ed="#V" n="27" break="no"/>tionem etiam vt agens, quia ipse sponte sua ad poenam
+            re<lb ed="#V" n="28" break="no"/>compensantem accedit, &amp; ideo displicentia culpae
+            prae<lb ed="#V" n="29" break="no"/>exigitur: secundo, differt, quia in vindicatiua iustitia taxa
+            <lb ed="#V" n="30"/>tur poena recompensans secundum arbitrium iudicis &amp;
+            <lb ed="#V" n="31"/>non eius in quem commissum est peccatum, sed in
+            poeniten<lb ed="#V" n="32" break="no"/>tia oportet quod paena recompensans taxetur secundum
+            <lb ed="#V" n="33"/>arbitrium eius, in quem peccatum commissum est, quia
+            ta<lb ed="#V" n="34" break="no"/>lis recompensatio fit ad reconciliandum animum offensi,
+            <lb ed="#V" n="35"/>quae reconciliatio esse non potest nisi poena
+            recompen<lb ed="#V" n="36" break="no"/>sans voluntati eius sufficiat, &amp; ideo oportet in
+            poeniten<lb ed="#V" n="37" break="no"/>tia quod modus poenae satisfactoriae secundum arbitrium
+            <lb ed="#V" n="38"/>sacerdotis qui vicem Dei obtinet seruetur. Vtrique ergo
+            re<lb ed="#V" n="39" break="no"/>compensationi hoc commune est quod fiat
+            recompensa<lb ed="#V" n="40" break="no"/>tio non secundum arbitrium eius qui peccauit, sed
+            alte<lb ed="#V" n="41" break="no"/>rius hominis. Arbitrium autem rectum requirit
+            cognitio<lb ed="#V" n="42" break="no"/>nem culpae, quae quidem si ei qui debet poenam taxare per
+            <lb ed="#V" n="43"/>eum qui peccauit fiat, confessio dicitur, si autem alias vel
+            <lb ed="#V" n="44"/>ab alijs dicitur conuictio. Et quia in poenitentia sponte
+            <lb ed="#V" n="45"/>qui peccauit ad recompensationem faciendam accedit
+            re<lb ed="#V" n="46" break="no"/>quiritur confessio. Et sic recompensatio tribus gradibus
+            <lb ed="#V" n="47"/>perficitur, quorum primus est displicentia culpae
+            praeteri<lb ed="#V" n="48" break="no"/>tae. Alias non sponte ad recompensationem accederet, &amp;
+            <lb ed="#V" n="49"/>hoc per contritionem perficitur: secundus est vt culpam
+            <lb ed="#V" n="50"/>suam notificet Deo per sacerdotem, alias non se ad
+            recon<lb ed="#V" n="51" break="no"/>pensationem secundum arbitrium eius in quem peccauit
+            <lb ed="#V" n="52"/>offerret, &amp; quantum ad hoc est confessio: tertius est vt
+            re<lb ed="#V" n="53" break="no"/>compenset secundum arbitrium sacerdotis, &amp; quantum
+            <lb ed="#V" n="54"/>ad hoc est satisfactio. Haec ille.
+          </p>
+          <p xml:id="capsco-d3dsyy-d1e1373">
+            Similia dicit tertia parte quo
+            <lb ed="#V" n="55"/>99. arti. 2. Ex quibus patet quod confessio contritio
+            sa<lb ed="#V" n="56" break="no"/>tisfactio concurrunt ad completam punitionem
+            paeniten<lb ed="#V" n="57" break="no"/>tis, &amp; ideo hoc sacramentum merito dicitur sacramentum
+            <lb ed="#V" n="58"/>poenitentiae. Dicitur secundo, principaliter ad
+            argumen<lb ed="#V" n="59" break="no"/>tum quod ad hoc sacramentum non solum pertinet
+            pro<lb ed="#V" n="60" break="no"/>materia confessio poenitentis, immo etiam contritio &amp;
+            sa<lb ed="#V" n="61" break="no"/>tis factio. De hoc Sanctus Thomas quarto. sen. dist. 22. q. 2.
+            art<lb ed="#V" n="62" break="no"/>primo quaestiuncula secunda vbi quaerit. Vtrum interior
+            <lb ed="#V" n="63"/>poenitentia sit res huius sacramenti, arguit tertio loco.
+            <lb ed="#V" n="64"/>Poenitentia interior videtur esse idem quod contritio, sed
+            <lb ed="#V" n="65"/>contritio non est res huius sacramenti, cum sit pars
+            sacra<lb ed="#V" n="66" break="no"/>menti, ergo interior poenitentia non est res huius
+            sacra<lb ed="#V" n="67" break="no"/>menti. Ecce argumentum. Sequitur responsio.
+          </p>
+          <p xml:id="capsco-d3dsyy-d1e1404">
+            Dicendum
+            <lb ed="#V" n="68"/>quod tres partes poenitentiae sunt in poenitentia exteriori
+            <lb ed="#V" n="69"/>&amp; interiori, quia confessio &amp; satisfactio, quae videntur tantum
+            <lb ed="#V" n="70"/>ad exteriorem poenitentiam pertinere, inueniuntur in
+            in<lb ed="#V" n="71" break="no"/>teriori poenitentia quantum ad propositum &amp; praemedita
+            <lb ed="#V" n="72"/>tionem eorum, &amp; etiam contritio quae videtur tantum
+            in<lb ed="#V" n="73" break="no"/>terioris poenitentiae esse, inuenitur in poenitentia exteriori
+            <lb ed="#V" n="74"/>secundum quaedam signa, quibus sensibiliter
+            manifesta<lb ed="#V" n="75" break="no"/>tur vel alijs, vel saltem ipsi poenitenti qui dolorem
+            sensi<cb ed="#V" n="b"/><lb ed="#V" n="76" break="no"/>bilem percipit in seipso. Haec ille.
+          </p>
+          <p xml:id="capsco-d3dsyy-d1e1427">
+            Ex quibus apparet quod
+            <lb ed="#V" n="77"/>non solum confessio exterior, verum etiam contritio &amp;
+            sa<lb ed="#V" n="78" break="no"/>tisfactio pertinent ad materiam huius sacramenti, &amp; quod
+            <lb ed="#V" n="79"/>hoc sacramentum proprie dicitur sacramentum
+            poeniten<lb ed="#V" n="80" break="no"/>tiae.
+          </p>
+          <p xml:id="capsco-d3dsyy-d1e1439">
+            Item quarto sen. dist. 16. q. 1. articulo primo in solutione
+            <lb ed="#V" n="81"/>tertiae q. sic dicit. Poena quam poenitens patitur tota in
+            <lb ed="#V" n="82"/>rationem satisfactionis cedit. Non enim sola exteriori
+            pae<lb ed="#V" n="83" break="no"/>na homo satisfacit, sed etiam interiori. Alias oratio
+            menta<lb ed="#V" n="84" break="no"/>lis non esset satisfactoria. Vnde &amp; poena quae est in
+            contri<lb ed="#V" n="85" break="no"/>tione, &amp; quae est in confessione in partem satisfactionis
+            ce<lb ed="#V" n="86" break="no"/>dit. Et quia satisfactio est vltima pars, totum sacramentum
+            <lb ed="#V" n="87"/>a poena denominatur, sicut res denominatur ab vltimo
+            <lb ed="#V" n="88"/>sui. Haec ille.
+          </p>
+          <p xml:id="capsco-d3dsyy-d1e1459">
+            Ex quibus patet quod diuisio quam arguens
+            <lb ed="#V" n="89"/>facit insufficiens est. Quia poenitentia non solum
+            accipi<lb ed="#V" n="90" break="no"/>tur pro actuali habitu interiori, aut pro exteriori
+            poeniten<lb ed="#V" n="91" break="no"/>tia iniuncta, verum etiam pro ipsa confessione quae est
+            qua<lb ed="#V" n="92" break="no"/>dam poena, &amp; poenitentiae pars. Cum autem dicit arguens
+            <lb ed="#V" n="93"/>quod contritio non potest dici pars huius sacramenti, quia
+            <lb ed="#V" n="94"/>est dispositio praeuia ad sacramentum &amp;c. Dicitur quod est
+            <lb ed="#V" n="95"/>dispositio praeuia antequam adsit confessio, sed assistente
+            <lb ed="#V" n="96"/>confessione est pars integralis sacramenti. Potest etiam
+            dici<lb ed="#V" n="97" break="no"/>quod contritio praecedens confessionem etiam est pars
+            sa<lb ed="#V" n="98" break="no"/>cramenti, quia in illa incipit sacramentum. Et similiter
+            di<lb ed="#V" n="99" break="no"/>citur quod executio paenitentiae satisfactoriae non sequitur
+            <lb ed="#V" n="100"/>completum sacramentum, sed est vltima pars complens
+            <lb ed="#V" n="101"/>sacramentum quo ad suum materiale, sacramentum enim
+            <lb ed="#V" n="102"/>poenitentiae est quoddam totum integrale successiuum,
+            si<lb ed="#V" n="103" break="no"/>cut docet Sanctus Thomas vbi supra. Partes integrales sunt
+            <lb ed="#V" n="104"/>duplices, quaedam sunt partes quantitatis, quae quandoque
+            <lb ed="#V" n="105"/>sunt vnius rationis, vt in totis homogeneis. Quandoque
+            <lb ed="#V" n="106"/>vero diuersarum rationum vt in totis etherogeneis.
+            Quae<lb ed="#V" n="107" break="no"/>dam vero sunt partes essentia, sicut materia &amp; forma, &amp;
+            <lb ed="#V" n="108"/>non quantitas, &amp; hae semper sunt diuersarum rationum, &amp;
+            <lb ed="#V" n="109"/>habent ordinem naturae ad inuicem: &amp; quandoque etiam
+            <lb ed="#V" n="110"/>ordinem temporis, in his quorum esse non est simul. Et
+            <lb ed="#V" n="111"/>huiusmodi sunt partes, de quibus loquimur, quia poenitem
+            <lb ed="#V" n="112"/>tiae sacramentum secundum rationem suae speciei ex his
+            <lb ed="#V" n="113"/>tribus integratur, &amp; vna est prior altera secundum naturam
+            <lb ed="#V" n="114"/>&amp; quandoque etiam secundum tempus. Eorum enim actuum
+            <lb ed="#V" n="115"/>humanorum qui sunt materiales in poenitentia non est
+            <lb ed="#V" n="116"/>totum esse simul, sed succedunt sibi inuicem. Sed
+            quando<lb ed="#V" n="117" break="no"/>que plures eorum quorum vnus est altero prior secundum
+            <lb ed="#V" n="118"/>naturam, sunt simul tempore.
+          </p>
+          <p xml:id="capsco-d3dsyy-d1e1527">
+            Item in solutione
+            secundi<lb ed="#V" n="119" break="no"/>argumenti sic dicit. In partibus successiuorum ex
+            quali<lb ed="#V" n="120" break="no"/>bet parte potest concludi totum, sicut hora tertia est,
+            er<lb ed="#V" n="121" break="no"/>go dies est. Non tamen totum de vna parte praedicatur.
+            <lb ed="#V" n="122"/>Non enim dicimus quod hora sit dies, sed tantum de
+            omni<lb ed="#V" n="123" break="no"/>bus partibus si nul acceptis aliquo modo inuenitur
+            prae<lb ed="#V" n="124" break="no"/>dicari totum, licet improprie. Et sic etiam de qualibet
+            par<lb ed="#V" n="125" break="no"/>te paenitentiae poenitentia concluditur, eo quod poenitentia non
+            ha<lb ed="#V" n="126" break="no"/>bet totum esse suum simul. Non tamen totum de partibus
+            <lb ed="#V" n="127"/>praedicatur, neque coniunctim neque diuisim proprie
+            lo<lb ed="#V" n="128" break="no"/>quendo. Haec ille.
+          </p>
+          <p xml:id="capsco-d3dsyy-d1e1551">
+            Ex quibus patet quod contritio
+            prae<lb ed="#V" n="129" break="no"/>cedens confessionem &amp; absolutionem est pars
+            sacramen<lb ed="#V" n="130" break="no"/>ti poenitentiae &amp; pertinet ad eius integritatem essentialem,
+            <lb ed="#V" n="131"/>secundo patet quod executio poenae satisfactoriae pertinet
+            <lb ed="#V" n="132"/>ad integritatem essentiae dicti sacramenti. tertio, patet quod
+            <lb ed="#V" n="133"/>nec contritio praecedens absolutionem, nec satisfactio
+            se<lb ed="#V" n="134" break="no"/>quens absolutionem praecedunt aut sequuntur sacramentum
+            <lb ed="#V" n="135"/>poenitentiae, sicut arguens false putat, sed contritio illud
+            <lb ed="#V" n="136"/>inchoat, &amp; executio poenitentiae satisfactoriae illud
+            con<lb ed="#V" n="137" break="no"/>summat. De his tamen plura dicentur in sequentibus
+            hu<lb ed="#V" n="138" break="no"/>ius arti. &amp; forte in 16. vel. 17. di. Veruntamen ad omnia
+            <lb ed="#V" n="139"/>quae ibi dicit Durandus volens probare quod nec
+            contri<lb ed="#V" n="140" break="no"/>tio nec satisfactio sint partes huius sacramenti, patet responsio per
+            <lb ed="#V" n="141"/>praedicta, quia omnia in virtute soluta sunt. Nec de illis
+            pro<lb ed="#V" n="142" break="no"/>pter hoc oportet facere specialem quaestionem, nisi
+            for<lb ed="#V" n="143" break="no"/>tius aliquid occurrat. Ad ea quae secundo loco inducit
+            sci<lb ed="#V" n="144" break="no"/>licet de poenitentia vt est virtus, dicitur primo in
+            generali<lb ed="#V" n="145" break="no"/>quod poenitentia est quaedam virtus specialis distincta non
+            <lb ed="#V" n="146"/>solum ab intellectualibus aut theologicis, immo a
+            quali<lb ed="#V" n="147" break="no"/>bet trium moralium cardinalium, quod enim sit virtus
+            <lb ed="#V" n="148"/>quaedam, ostendit Sanctus Thomas tertia parte. q. 85. arti.
+            <lb ed="#V" n="149"/>primo dicens. Poenitere est de aliquo a se prius facto
+            do<lb ed="#V" n="150" break="no"/>lere. Dolor autem vel tristitia dicitur dupliciter, vno
+            mo<pb ed="#V" n="169"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>do secundum quod est passio quaedam appetitus sensitiui
+            <lb ed="#V" n="2"/>&amp; quantum ad hoc poenitentia non est virtus, sed passio.
+            <lb ed="#V" n="3"/>Alio modo secundum quod consistit in voluntate, &amp; hoc
+            mo<lb ed="#V" n="4" break="no"/>do est cum quadam electione, quae quidem si sit recta
+            neces<lb ed="#V" n="5" break="no"/>se est quod sit actus virtutis. Dicitur enim secundo
+            Ethico<lb ed="#V" n="6" break="no"/>rum, quod virtus est habitus electiuus secundum rectam
+            ra<lb ed="#V" n="7" break="no"/>tionem. Pertinet autem ad rectam rationem quod aliquis
+            do<lb ed="#V" n="8" break="no"/>leat de quo dolendum est, quod quidem obseruatur in
+            <lb ed="#V" n="9"/>poenitentia, de qua nunc loquimur. Nam paenitens
+            assu<lb ed="#V" n="10" break="no"/>mit moderatum dolorem de peccatis praeteritis cum
+            in<lb ed="#V" n="11" break="no"/>tentione remouendi ea. Vnde manifestum est quod
+            poeniten<lb ed="#V" n="12" break="no"/>tia de qua nunc loquimur, est virtus vel actus virtutis. Haec
+            <lb ed="#V" n="13"/>ille.
+          </p>
+          <p xml:id="capsco-d3dsyy-d1e1632">
+            Item quarto, senten. distin. 14. quaestio. 1. arti. primo in
+            <lb ed="#V" n="14"/>solutione secundae, quaestiossic dicit. In poenitentia se
+            ha<lb ed="#V" n="15" break="no"/>bet homo vt recipiens &amp; vt agens. Recipit enim a Deo
+            ve<lb ed="#V" n="16" break="no"/>niam &amp; reconciliationem per ecclesiae ministros, &amp;
+            secun<lb ed="#V" n="17" break="no"/>dum hoc habet rationem sacramenti. Sed ex parte actus
+            <lb ed="#V" n="18"/>sunt de ipso diuersae opiniones. Quidam enim dicunt quod
+            <lb ed="#V" n="19"/>est actus virtutis, &amp; non est virtus. Sed hoc non potest
+            es<lb ed="#V" n="20" break="no"/>se, quia cum actus virtutis non sint in dormiente, dormiens
+            <lb ed="#V" n="21"/>non posset dici poenitens, quod est falsum. Et ideo aliqui
+            <lb ed="#V" n="22"/>dixerunt quod ex parte ista poenitentia est virtus, sed non
+            pro<lb ed="#V" n="23" break="no"/>prie loquendo, sed communiter, prout omnia laudabilia
+            <lb ed="#V" n="24"/>virtutes dicuntur, etiam si sint passiones. Sed hoc non est
+            <lb ed="#V" n="25"/>verum quia secundum Philosophum 8. Ethicorum
+            princi<lb ed="#V" n="26" break="no"/>pale in virtute morali est electio, vnde omnis habitus qui
+            <lb ed="#V" n="27"/>facit rectam electionem, potest dici proprie loquendo
+            vir<lb ed="#V" n="28" break="no"/>tus. Vnde cum actus poenitentiae non causetur tantum ex
+            <lb ed="#V" n="29"/>passione, sed magis ex electione, etiam si nulla sit passio,
+            <lb ed="#V" n="30"/>constat, quod poenitentia proprie loquendo est virtus, &amp; non
+            <lb ed="#V" n="31"/>improprie, sicut verecundia, vel huiusmodi. Haec ille Item
+            <lb ed="#V" n="32"/>ibidem in solutione primi argumenti sic dicit. Non secundum idem
+            <lb ed="#V" n="33"/>poenitentia est virtus &amp; sacramentum, sed inquantum per
+            poeni<lb ed="#V" n="34" break="no"/>tentiam recipit gratiam curantem peccati vulnus, potest esse
+            <lb ed="#V" n="35"/>sacramentum, inquantum autem per habitum infusum ordinatur ad
+            <lb ed="#V" n="36"/>actum rectum, sic est virtus. Haec ille.
+          </p>
+          <p xml:id="capsco-d3dsyy-d1e1684">
+            Quia autem
+            poeniten<lb ed="#V" n="37" break="no"/>tia sit specialis virtus, ostendit tertia parte vbi supra art. 2.
+            <lb ed="#V" n="38"/>Species inquit habituum distinguuntur secundum species actuum,
+            <lb ed="#V" n="39"/>&amp; ideo vbi occurrit spalis ratio actus laudabilis, ibi
+            neces<lb ed="#V" n="40" break="no"/>se est ponere spalem habitum virtutis. Manifestum est autem
+            <lb ed="#V" n="41"/>quod in poenitentia inuenitur spalis ratio actus laudabilis
+            scili<lb ed="#V" n="42" break="no"/>cet operari ad destructionem peccati praeteriti inquantum
+            <lb ed="#V" n="43"/>est offensa Dei, quod non pertinet ad rationem alterius
+            vir<lb ed="#V" n="44" break="no"/>tutis, vnde necesse est ponere quod paenitentia sit spalis virtus.
+            <lb ed="#V" n="45"/>Haec ille.
+          </p>
+          <p xml:id="capsco-d3dsyy-d1e1707">
+            Item, quarto, sen. vbi supra in solutione tertiae. q sic
+            <lb ed="#V" n="46"/>dicit. Poenitentia accipit vel aspicit spalem rationem obiecti,
+            <lb ed="#V" n="47"/>quia respicit peccatum a se commissum vt expiabile per
+            <lb ed="#V" n="48"/>poenitentis actum, &amp; ita actus poenitentiae non est
+            detesta<lb ed="#V" n="49" break="no"/>ri peccatum absolute, quia hoc est cuiuslibet virtutis, sed
+            <lb ed="#V" n="50"/>detestari ad expurgationem eius, &amp; quantum ad culpam &amp; quam
+            <lb ed="#V" n="51"/>tum ad reatum. Hoc enim nulla alia virtus facit. Haec ille.
+          </p>
+          <p xml:id="capsco-d3dsyy-d1e1723">
+            Quia
+            <lb ed="#V" n="52"/>autem poenitentia non sit virtus theologica, ostendit ibidem
+            <lb ed="#V" n="53"/>in solutione 4. quaestiuncule dicens. Virtus theologica
+            ha<lb ed="#V" n="54" break="no"/>bet idem pro obiecto &amp; pro fine. Hoc autem non est in
+            poeni<lb ed="#V" n="55" break="no"/>tentia, quia obiectum eius est peccatum commissum quod
+            <lb ed="#V" n="56"/>intendit expiare, finis autem est Deus cui intendit
+            reconcilia<lb ed="#V" n="57" break="no"/>ri, &amp; ideo non est virtus theologica, sed inter virtutes
+            mo<lb ed="#V" n="58" break="no"/>rales numeranda est. Haec ille.
+          </p>
+          <p xml:id="capsco-d3dsyy-d1e1741">
+            Quia autempoenitentia sit alia
+            <lb ed="#V" n="59"/>virtus a iustitia conter dicta ostendit ibidem in solutione
+            <lb ed="#V" n="60"/>quintae quaestio. dicens. Quia iustitia qualitas quaedam
+            <lb ed="#V" n="61"/>est, ideo vbi non potest esse adequatio vera ibi non potest esse
+            <lb ed="#V" n="62"/>perfecta ratio iustitiae, sed aliquis iustitiae modus sicut dicit
+            Phi<lb ed="#V" n="63" break="no"/>losophus in 5. Ethicorum, quod domini ad seruum non est
+            sim<lb ed="#V" n="64" break="no"/>pliciter iustum, sed dumatiuum iustum. Cum ergo inter
+            ho<lb ed="#V" n="65" break="no"/>minem &amp; Deum sit maxima distantia, non poterit ibi esse
+            <lb ed="#V" n="66"/>proprie dicta iustitia hominis ad Deum, sed aliquis iustitiae
+            mo<lb ed="#V" n="67" break="no"/>dus, quasi per similitudinem. Homo autem efficitur debitor
+            <lb ed="#V" n="68"/>alteri homini dupliciter, vno modo per hoc quod ab eo sibi
+            da<lb ed="#V" n="69" break="no"/>tum est, sicut in voluntarijs commutationibus, puta in
+            em<lb ed="#V" n="70" break="no"/>ptionibus &amp; venditionibus. Alio modo per hoc quod ei
+            sub<lb ed="#V" n="71" break="no"/>traxit, sicut est in inuoluntarijs commutationibus, vt est
+            <lb ed="#V" n="72"/>furtum, percussio &amp; huiusmodi. Similiter aliquis efficitur
+            <lb ed="#V" n="73"/>Deo debitor per hoc quod ab eo aliquid recipit, &amp; in hac
+            ra<lb ed="#V" n="74" break="no"/>tione Deo reddit debitum honorem latria siue religio. Alio
+            <lb ed="#V" n="75"/>modo ex hoc quod contra Deum peccat, &amp; sic reddit
+            Deo<cb ed="#V" n="b"/><lb ed="#V" n="76" break="no"/>debitum poenitentia, vnde sicut religio ponitur pars
+            iu<lb ed="#V" n="77" break="no"/>stitiae a Tullio, non quidem quasi species, sed quasi pars
+            po<lb ed="#V" n="78" break="no"/>tentialis inquantum aliquem modum iustitiae participat, ita
+            <lb ed="#V" n="79"/>etiam poenitentia pars iustitiae debet poni. Haec ille.
+          </p>
+          <p xml:id="capsco-d3dsyy-d1e1790">
+            Similia
+            <lb ed="#V" n="80"/>dicit tertia parte. q. 85. ar. 3. nisi quod ibi videtur velle quod poenitentia sit
+            quae<lb ed="#V" n="81" break="no"/>dam species iustitiae. Ait enim sic. Poenitentia non habet quod sit
+            <lb ed="#V" n="82"/>specialis virtus ex hoc solo quod dolet de malo perpetrato,
+            <lb ed="#V" n="83"/>ad hoc enim sufficeret charitas, sed ex eo quod paenitens dolet &amp;
+            <lb ed="#V" n="84"/>de peccato commisso inquantum est offensa Dei cum
+            emen<lb ed="#V" n="85" break="no"/>dationis proposito. Emendatio autem offensae contra aliquem
+            <lb ed="#V" n="86"/>commissae fit non per solam cessationem offensae, sed
+            exigi<lb ed="#V" n="87" break="no"/>tur vlterius quaedam recompensatio, quae habet locum in
+            os<lb ed="#V" n="88" break="no"/>sensis in alterum commissis sicut &amp; retributio, nisi quod
+            recom<lb ed="#V" n="89" break="no"/>pensatio est ex parte eius qui offendit, vtputa cum
+            satisfa<lb ed="#V" n="90" break="no"/>cit, retributio autem est ex parte eius, in quem fuit offensa
+            com<lb ed="#V" n="91" break="no"/>missa, vtrumque enim ad materiam iustitiae pertinet, quia
+            vtrum<lb ed="#V" n="92" break="no"/>que est quaedam commutatio Vnde manifestum est quod
+            poeni<lb ed="#V" n="93" break="no"/>tentia secundum quod est virtus est pars iustitiae.
+          </p>
+          <p xml:id="capsco-d3dsyy-d1e1823">
+            Sciendum tamen quod
+            <lb ed="#V" n="94"/>secundum Philoas 5. Ethicorum dupliciter dicitur iustum scilicet
+            sim<lb ed="#V" n="95" break="no"/>pliciter &amp; secundum quid. Simpliciter quidem iustum est inter
+            <lb ed="#V" n="96"/>aequales, eo quod iustitia est aequalitas quaedam, quod ille
+            vo<lb ed="#V" n="97" break="no"/>cat iustum politicum vel ciuile, eo quod omnes ciues aequales sunt,
+            <lb ed="#V" n="98"/>quantum ad hoc quod sunt immediate sub principe sicut
+            li<lb ed="#V" n="99" break="no"/>beri existentes. Iustum autem secundum quid dicitur illud quod est
+            in<lb ed="#V" n="100" break="no"/>ter illos, quorum vnus est sub potestate alterius, sicut
+            ser<lb ed="#V" n="101" break="no"/>uus sub domino, filius sub patre, vxor sub viro, &amp; tale
+            iu<lb ed="#V" n="102" break="no"/>stum consideratur in poenitentia. Vnde poenitens recurrit
+            <lb ed="#V" n="103"/>ad Deum cum emendationis proposito, sicut seruus ad
+            <lb ed="#V" n="104"/>dominum secundum illud psal. Sicut oculi seruorum in manibus
+            <lb ed="#V" n="105"/>dominorum suorum, ita oculi nostri ad dcmteum Deum
+            no<lb ed="#V" n="106" break="no"/>strum, donec misereatur nostri. Et sicut filius ad patrem
+            <lb ed="#V" n="107"/>secundum illud Lucae. 15. Pater peccaui in coelum &amp;
+            co<lb ed="#V" n="108" break="no"/>ram te. Et sicut vxor ad virum secundum illud Hiere.
+            ter<lb ed="#V" n="109" break="no"/>tio. Tu fornicata es cum amatoribus multis, tamen
+            reuer<lb ed="#V" n="110" break="no"/>tere ad me dicit dominus. Haec ille.
+          </p>
+          <p xml:id="capsco-d3dsyy-d1e1862">
+            Ex quibus patet quod
+            <lb ed="#V" n="111"/>virtus poenitentiae non est iustitia simpliciter, sed
+            secun<lb ed="#V" n="112" break="no"/>dum quid. Et sic debet intelligi illud quod dicit in
+            solu<lb ed="#V" n="113" break="no"/>tione quarti, scilicet quod poenitentia est directe species
+            iu<lb ed="#V" n="114" break="no"/>stitiae. Et similiter illud quod dicit in solutione tertij,
+            sci<lb ed="#V" n="115" break="no"/>licet quod poenitentia continetur sub iustitia
+            commuta<lb ed="#V" n="116" break="no"/>tatiua. Istis praemissis dicitur ad argumenta singula. Et
+            <lb ed="#V" n="117"/>ad primum quidem dicitur negando minorem. Nam
+            poe<lb ed="#V" n="118" break="no"/>nitentia potest dici virtus infusa, &amp; virtus acquisita. Nec
+            <lb ed="#V" n="119"/>valet improbatio huius. Tum quia falsum est quod solae
+            <lb ed="#V" n="120"/>virtutes theologicae infundantur a Deo, vt visum fuit 3.
+            sen<lb ed="#V" n="121" break="no"/>ten. dis. 33. &amp; ibi responsum fuit obiectionibus arguentis
+            <lb ed="#V" n="122"/>Tum etiam quia habitus poenitentiae acquisitus ex actibus
+            <lb ed="#V" n="123"/>potest dici virtus. Et cum dicit arguens quod tunc
+            poeni<lb ed="#V" n="124" break="no"/>tens haberet virtutem, qua caret innocens &amp;c, dicitur
+            <lb ed="#V" n="125"/>quod sicut non est inconueniens quod ille qui fuit
+            pec<lb ed="#V" n="126" break="no"/>cator habeat dum paenitet aliquem actum virtuosum,
+            <lb ed="#V" n="127"/>quem non habuit innocens qui nunquam peccauit, sic
+            <lb ed="#V" n="128"/>non est inconueniens quod habeat aliquem habitum
+            vir<lb ed="#V" n="129" break="no"/>tuo sum potissime acquisitum ex actibus quem nunquam
+            <lb ed="#V" n="130"/>habuit innocens. Vnde argumentum parum, vel nihil
+            ha<lb ed="#V" n="131" break="no"/>bet apparentiae, &amp; minus existentiae. De praedictis Sanctus
+            <lb ed="#V" n="132"/>Thomas quarto sen. vbi supra, articulo tertio in solutione
+            <lb ed="#V" n="133"/>secundae. q. sic dicit. Habitus est medius inter potentiam
+            <lb ed="#V" n="134"/>&amp; actum. Et quia remoto priori remouetur posterius, non
+            <lb ed="#V" n="135"/>autem econuerso, ideo remota potentia ad actum,
+            remo<lb ed="#V" n="136" break="no"/>uetur habitus non autem remoto actu. Et quia
+            subtra<lb ed="#V" n="137" break="no"/>dio materiae tollit actum propter hoc quod actus non
+            <lb ed="#V" n="138"/>potest esse sine materia in quam transit, ideo habitus
+            ali<lb ed="#V" n="139" break="no"/>cuius virtutis competit alicui, cui non suppetit materia,
+            <lb ed="#V" n="140"/>propter hoc quod suppetere potest, &amp; ita in actum exire.
+            <lb ed="#V" n="141"/>Sicut pauper homo potest habere habitum magnificentie,
+            <lb ed="#V" n="142"/>sed non actum, quia non habet magnitudinem diuitiarum,
+            <lb ed="#V" n="143"/>quae sunt materia magnificentiae, sed potest habere. Et
+            <lb ed="#V" n="144"/>ideo cum innocentes in statu innocentiae non habeant
+            <lb ed="#V" n="145"/>peccata commissa, quae sunt materia poenitentiae, licet
+            <lb ed="#V" n="146"/>possint habere, actus poenitentiae in eis esse non potest,
+            <lb ed="#V" n="147"/>sed habitus potest. Et hoc si gratiam habeant cum qua
+            <lb ed="#V" n="148"/>omnes virtutes infunduntur. Haec ille.
+          </p>
+          <p xml:id="capsco-d3dsyy-d1e1948">
+            Ibidem etiam
+            osten<lb ed="#V" n="149" break="no"/>dit in solutione tertiae quaest. quod poenitentia remanet
+            <lb ed="#V" n="150"/>in beatis hominibus, licet quo ad alium actum quam in
+            <pb ed="#V" n="170"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>via. Item in multis locis tenet Sanctus Thomas quod in Christo non
+            <lb ed="#V" n="2"/>fuit spes neque poenitentia, vt patet tertia parte, &amp; tertio,
+            <lb ed="#V" n="3"/>sen.
+          </p>
+          <p xml:id="capsco-d3dsyy-d1e1966">
+            Ad secundum negatur principale assumptum.
+            Ioeni<lb ed="#V" n="4" break="no"/>tere enim est principalis &amp; primus actus virtutis poeniter
+            <lb ed="#V" n="5"/>tiae. Nec valet probatio, quia secus est de virtutibus
+            retra<lb ed="#V" n="6" break="no"/>nentibus a malo, &amp; de alijs. Vnde Sanctus Thomas quarto,
+            <lb ed="#V" n="7"/>senten. vbi supra arti. primo q. secunda arguit sic quarto
+            lo<lb ed="#V" n="8" break="no"/>co. Omnis virtus est per ordinem ad bonum, sed
+            poeniten<lb ed="#V" n="9" break="no"/>tia dicitur per ordinem a malo: ergo non est virtus. Ecce
+            <lb ed="#V" n="10"/>argumentum. Sequitur responsio.
+          </p>
+          <p xml:id="capsco-d3dsyy-d1e1984">
+            Dicendum quod bonum
+            <lb ed="#V" n="11"/>illud ad quod virtus immediate ordinatur est actus perse
+            <lb ed="#V" n="12"/>ctus ipsius, &amp; ideo aliquae virtutes sunt quae principalem
+            <lb ed="#V" n="13"/>actum habent in retrahendo a malo, sicut modestia, &amp;
+            ten<lb ed="#V" n="14" break="no"/>rantia, &amp; huiusmodi. Et similiter actus perfectus
+            paeniten<lb ed="#V" n="15" break="no"/>tiae est in retrahendo a malo, nec propter hoc sequitur quod
+            <lb ed="#V" n="16"/>non sit virtus. Haec ille.
+          </p>
+          <p xml:id="capsco-d3dsyy-d1e2000">
+            Item ibidem in solutione quinti
+            <lb ed="#V" n="17"/>sic dicit. Poenitentia respicit turpe in praeterito cui potest
+            <lb ed="#V" n="18"/>succedere perfectio in praesenti, &amp; ideo non est actus
+            im<lb ed="#V" n="19" break="no"/>perfecti de necessitate. Item tertia parte q. 85. art. primo in
+            <lb ed="#V" n="20"/>solutione secundi sic dicit. Poenitentia secundum quod est
+            <lb ed="#V" n="21"/>passio non est virtus, est autem virtus secundum quod habet
+            <lb ed="#V" n="22"/>electionem rectam ex parte voluntatis. Quod tamen
+            ma<lb ed="#V" n="23" break="no"/>gis potest dici de poenitentia quam de: erecundia, nam
+            <lb ed="#V" n="24"/>verecundia respicit turpe factum vt praesens, poenitentia
+            <lb ed="#V" n="25"/>autem vt praeteritum. Est autem contra perfectionem
+            vir<lb ed="#V" n="26" break="no"/>tutis quod aliquis in praesenti habeat turpe factum de quo
+            <lb ed="#V" n="27"/>oporteat eum verecudari, non est autem contra
+            perfectio<lb ed="#V" n="28" break="no"/>nem virtutis quod aliquis prius commiserit turpia facta, de
+            <lb ed="#V" n="29"/>quibus oprteat eum poenitere, cum ex vitioso fiat aliquis
+            <lb ed="#V" n="30"/>virtuosus. Haec ille.
+          </p>
+          <p xml:id="capsco-d3dsyy-d1e2033">
+            Cum autem dicit arguens quod aliquis
+            po<lb ed="#V" n="31" break="no"/>test fieri virtuosus qui nunquam fuit vitiosus, dicitur quod
+            <lb ed="#V" n="32"/>hoc non valet. Tum quia virtus poenitentiae simul
+            infun<lb ed="#V" n="33" break="no"/>ditur cum gratia in baptismo, sed non potest exire in actum
+            <lb ed="#V" n="34"/>nisi praecedente aliquo peccato. Vnde Sanctus Thomas
+            quar<lb ed="#V" n="35" break="no"/>to sen. vbi supra. ar. 3. q. 2. arguit sic primo loco. Poenitere
+            <lb ed="#V" n="36"/>est mala commissa plangere, sed innocentes nullum
+            ma<lb ed="#V" n="37" break="no"/>lum commiserunt, ergo in eis non est poenitentia. Ecce
+            ar<lb ed="#V" n="38" break="no"/>gumentum. Sequitur responsio.
+          </p>
+          <p xml:id="capsco-d3dsyy-d1e2053">
+            Dicendum quod
+            quam<lb ed="#V" n="39" break="no"/>uis non commiserint, possunt tamen commitere, &amp; ideo
+            <lb ed="#V" n="40"/>eis habitum poenitentiae habere competit. Sed tamen iste
+            <lb ed="#V" n="41"/>habitus non potest exire in actum, nisi forte respectu
+            ve<lb ed="#V" n="42" break="no"/>nialium peccatorum, quia peccata mortalia tollunt ipsum
+            <lb ed="#V" n="43"/>Nec tamen est frustra, quia est perfectio potentiae
+            natura<lb ed="#V" n="44" break="no"/>lis. Haec ille. Tum etiam quia non est inconueniens
+            ali<lb ed="#V" n="45" break="no"/>quem habitum acquisitum ex actibus a malo
+            retrahenti<lb ed="#V" n="46" break="no"/>bus esse &amp; dici virtutem, vt dictum est.
+          </p>
+          <p xml:id="capsco-d3dsyy-d1e2074">
+            Ad tertium patet
+            <lb ed="#V" n="47"/>solutio per praedicta. Conceditur enim quod principalis
+            a<lb ed="#V" n="48" break="no"/>ctus poenitentiae est bonum facere, vel eligere, sed ista
+            bo<lb ed="#V" n="49" break="no"/>na electio potest esse in retrahendo a malo, &amp;
+            detestan<lb ed="#V" n="50" break="no"/>do illud, eligendo talem dctestationem tanquam rectae
+            ra<lb ed="#V" n="51" break="no"/>tioni consonam, &amp; in electione proportionando &amp;
+            taxan<lb ed="#V" n="52" break="no"/>do poenam peccato commisso, &amp; in placando Deum, &amp;
+            <lb ed="#V" n="53"/>expurgando peccatum. Vnde materia remota
+            poeniten<lb ed="#V" n="54" break="no"/>tiae, vt supra dictum est, est peccatum &amp; malum, circa quod
+            <lb ed="#V" n="55"/>potest esse multiplex bona electio. Sicut temperantia
+            fa<lb ed="#V" n="56" break="no"/>cit rectam electionem circa turpissimas passiones, scilicet
+            <lb ed="#V" n="57"/>circa concupiscentias &amp; delectationes tactus, vt ostendit
+            <lb ed="#V" n="58"/>diffuse Sanctus Thoa secunda secundae. q. 1. 4. 1. in octo
+            arti<lb ed="#V" n="59" break="no"/>culis. Non oportet autem quod primus &amp; principalis actus
+            <lb ed="#V" n="60"/>virtutis sit electio circa bonam materiam remotam, cum
+            <lb ed="#V" n="61"/>circa furtum &amp; homicidium bene eligat ipsa iustitia.
+          </p>
+          <p xml:id="capsco-d3dsyy-d1e2109">
+            Item,
+            <lb ed="#V" n="62"/>vt dictum est, aliud est de virtutibus retrahentibus a
+            ma<lb ed="#V" n="63" break="no"/>lo, &amp; aliud de inclinantibus in bonum. Quis autem sit
+            a<lb ed="#V" n="64" break="no"/>ctus poenitentiae, &amp; quos habeat communiter ostendit Sancts
+            <lb ed="#V" n="65"/>Thomas tertia parte, quia 85. arti quinto, dicens. De
+            poeni<lb ed="#V" n="66" break="no"/>tentia possumus loqui dupliciter. Vno modo quantum
+            <lb ed="#V" n="67"/>ad habitum, &amp; sic immediate infunditur a Deo sine
+            no<lb ed="#V" n="68" break="no"/>bis principaliter operantibus, non tamen sine nobis
+            dispo<lb ed="#V" n="69" break="no"/>sitiue cooperantibus per alios actus. Alio modo
+            possu<lb ed="#V" n="70" break="no"/>mus loqui de poenitentia quantum ad actus, quibus Deo
+            <lb ed="#V" n="71"/>operanti in poenitentia cooperamur, quorum actuum
+            pri<lb ed="#V" n="72" break="no"/>mum principium est Dei operatio conuertentis cor secum
+            <lb ed="#V" n="73"/>dum illud. Tren. quinto Conuerte nos domine ad te &amp;
+            con<lb ed="#V" n="74" break="no"/>uertemur, secundus actus est motus fidei, tertius actus est
+            <lb ed="#V" n="75"/>motus timoris seruilis quo quis timore suppliciorum a
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="76"/>peccatis retrahitur, quartus est motus spei quo quis sub
+            <lb ed="#V" n="77"/>spe veniae consequendae assumit propositum emendandi,
+            <lb ed="#V" n="78"/>quintus actus est motus charitatis quo alicui
+            peccatun<lb ed="#V" n="79" break="no"/>secundum se displicet, &amp; non iam propter ipsa supplicia.
+            <lb ed="#V" n="80"/>sextus est motus timoris filialis quo propter reuerentiam
+            <lb ed="#V" n="81"/>Dei aliquis emendam Deo voluntarius offert. Sic ergo
+            <lb ed="#V" n="82"/>patet quod actus poenitentiae a timore seruili procedit, s
+            <lb ed="#V" n="83"/>cut a primo motu affectus ad hoc ordinati a timore
+            au<lb ed="#V" n="84" break="no"/>tem filiali sicut ab immediato &amp; proximo principio. Haec
+            <lb ed="#V" n="85"/>ille.
+          </p>
+          <p xml:id="capsco-d3dsyy-d1e2166">
+            Item sequenti articulo. In virtutibus (inquit) non a
+            <lb ed="#V" n="86"/>tenditur ordo temporis quantum ad habitus quia cum
+            vir<lb ed="#V" n="87" break="no"/>tutes sint connexae omnes simul incipiunt esse in anima.
+            <lb ed="#V" n="88"/>Sed dicitur vna earum esse prior alia ordine naturae, qui
+            con<lb ed="#V" n="89" break="no"/>sideratur ex ordine actuum secundum quod actus vnius virtutis
+            <lb ed="#V" n="90"/>praesupponit actum alterius virtutis secundum hoc ergo dicendum
+            <lb ed="#V" n="91"/>est quod actus quidam laudabiles etiam tempore praecedere
+            <lb ed="#V" n="92"/>possunt actum &amp; habitum poenitentiae, sicut actus fider &amp;
+            <lb ed="#V" n="93"/>spei informis, &amp; actus timoris seruilis. Actus autem &amp;
+            ha<lb ed="#V" n="94" break="no"/>bitus charitatis simul sunt tempore cum habitu &amp; actu
+            <lb ed="#V" n="95"/>poenitentiae, &amp; cum habitibus aliarum virtutum. Nam in
+            <lb ed="#V" n="96"/>iustificatione impij simul est motus liberi arbitrij in Deum
+            <lb ed="#V" n="97"/>qui est actus fidei per charitatem informatus, &amp; motus
+            <lb ed="#V" n="98"/>liberi arbitrij in peccatum qui est actus poenitentiae.
+            Ho<lb ed="#V" n="99" break="no"/>rum tamen duorum actuum primus naturaliter
+            praece<lb ed="#V" n="100" break="no"/>dit secundum. Nam actus poenitentiae virtutis est
+            con<lb ed="#V" n="101" break="no"/>tra peccatum ex amore Dei. Vnde primus actus est causa
+            <lb ed="#V" n="102"/>&amp; ratio secundi. Haec ille, similia dicit quarto sen. vbi
+            su<lb ed="#V" n="103" break="no"/>pra arti. secundo, in solutione primae &amp; secundae. q. Vnde in
+            <lb ed="#V" n="104"/>solutione quinti argumenti, secundae quaestionis, dicit quod
+            mo<lb ed="#V" n="105" break="no"/>tus paenitentiae quandoque prouenit ex electione boni quandoque ex
+            fu<lb ed="#V" n="106" break="no"/>ga mali. Et in eodem arti. saepe dicit quod poenitentia
+            ordina<lb ed="#V" n="107" break="no"/>tur ad recessum a malo, &amp; omnes aliae virtutes ad
+            consecu<lb ed="#V" n="108" break="no"/>tionem boni. Ex quibus omnibus patet quod sufficit ad
+            pri<lb ed="#V" n="109" break="no"/>mum &amp; principalem actum virtutis quod sit electio boni, vel
+            <lb ed="#V" n="110"/>quod ipsum concomitetur electio boni. Sic autem est de
+            actu<lb ed="#V" n="111" break="no"/>poenitentiae quem concomitatur amor dei.
+          </p>
+          <p xml:id="capsco-d3dsyy-d1e2225">
+            Ad quartum
+            <lb ed="#V" n="112"/>dicitur quod poenitentia est virtus moralis. Et ad
+            improba<lb ed="#V" n="113" break="no"/>tionem huius dicitur quod nulla virtus moralis mere habet
+            <lb ed="#V" n="114"/>pro obiecto vel fine proximo vel pro circunstantia
+            infor<lb ed="#V" n="115" break="no"/>mante aliquid excedens dictamen rationis naturalis, &amp;
+            <lb ed="#V" n="116"/>hoc ex seipsa. Potest tamen talia habere ex concursu vel
+            <lb ed="#V" n="117"/>imperio virtutum theologicarum. Item licet illa
+            propo<lb ed="#V" n="118" break="no"/>sito haberet verum loquendo de virtutibus moralibus
+            ac<lb ed="#V" n="119" break="no"/>quisitis, non tamen loquendo de infusis. Et de hoc Sanctus Thomas
+            <lb ed="#V" n="120"/>quarto sen. vbi supra ar. primo. q. 4. in solutione secundi sic
+            <lb ed="#V" n="121"/>dicit. Virtutes iniuse tripliciter se habent ad Deum.
+            Quae<lb ed="#V" n="122" break="no"/>dam enim habent Deum pro obiecto &amp; fine sicut theologice
+            <lb ed="#V" n="123"/>Quaedam vero non pro obiecto in quod transeat actus, sed
+            <lb ed="#V" n="124"/>pro sine proximo, sicut patet de latria quae aliquas
+            serui<lb ed="#V" n="125" break="no"/>tutis, praestationes quasi materiam habet, quas imediate
+            or<lb ed="#V" n="126" break="no"/>dinat in Deum quasi in finem. Et tales virtutes propinquissi
+            <lb ed="#V" n="127"/>mae sunt theologicis, vnde &amp; actus harum virtutum
+            attri<lb ed="#V" n="128" break="no"/>buuntur theologicis, sicut proxime imperantibus, vnde
+            <lb ed="#V" n="129"/>ab Augustino dicitur quod fide spe charitate colitur Deus. Quaedam
+            <lb ed="#V" n="130"/>autem non habent Deum pro obiecto neque pro fine proximo
+            <lb ed="#V" n="131"/>sed vltimo sicut temperantia quae habet passiones pro
+            ma<lb ed="#V" n="132" break="no"/>teria, &amp; quiete animi pro fine proximo, sed hanc vlterius
+            <lb ed="#V" n="133"/>ordinat ad Deum. Poenitentia autem quamuis non habeat Deum
+            <lb ed="#V" n="134"/>pro obiecto, habet tamen Deum pro fine proximo, quia ad hoc
+            <lb ed="#V" n="135"/>in peccata commissa destruenda mouetur, vt Deo reconcilietur,
+            <lb ed="#V" n="136"/>&amp; ideo actus eius scilicet peccatum expellere vel iustificare quandoque
+            fi<lb ed="#V" n="137" break="no"/>dei, quadquoe charitati ascribitur. Haec ille.
+          </p>
+          <p xml:id="capsco-d3dsyy-d1e2284">
+            Ad quintum dicitur quod
+            so<lb ed="#V" n="138" break="no"/>lum pbat quod paenitentia ptineat ad iustitiam, non quidem quod sit
+            ip<lb ed="#V" n="139" break="no"/>sa virtus iustitiae simpliciter dictae, quam est inter aequales &amp;
+            red<lb ed="#V" n="140" break="no"/>dit aequale ex debito, quia non sic potest homo reddere Deo
+            <lb ed="#V" n="141"/>aequale, sed pertinet ad iustitiam quasi pars potentialis, vel pars
+            <lb ed="#V" n="142"/>subiectiua iustitiae communiter &amp; secundum quid dictae. Non
+            <lb ed="#V" n="143"/>enim quaelibet virtus quae ordinat hominem ad alterum in
+            <lb ed="#V" n="144"/>ratione delicti est iustitia proprie dicta, vt ostendit
+            San<lb ed="#V" n="145" break="no"/>Thomas secunda secundae. q. 80. art. primo vbi sic dicit. In
+            vir<lb ed="#V" n="146" break="no"/>tutibus quae alicui principali adiunguntur, duo sunt
+            con<lb ed="#V" n="147" break="no"/>sderanda. Primo quidem quod virtutes illae in aliquo cum
+            vir<lb ed="#V" n="148" break="no"/>tute principali conueniant: secundo quod in al quo deficiant a
+            per<lb ed="#V" n="149" break="no"/>fecta ratione ipsius. Quia vero iustitia ad alterum est omnes
+            <lb ed="#V" n="150"/>virtutes quae ad alterum sunt, possunt ratione
+            conuenien<pb ed="#V" n="171"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>tiae, iustitiae annecti. Ratio vero iustitiae consistit in hoc quod
+            <lb ed="#V" n="2"/>alteri reddatur quod ei debetur secundum aequalitatem.
+            Du<lb ed="#V" n="3" break="no"/>pliciter ergo aliqua virtus ad alterum existens a ratione
+            iu<lb ed="#V" n="4" break="no"/>stitiae deficit. Vno quidem modo inquantum deficit a
+            ra<lb ed="#V" n="5" break="no"/>tione aequalis. Alio modo inquantum deficit a ratione debiti.
+            <lb ed="#V" n="6"/>Sunt enim quaedam virtutes quae debitum quidem alteri
+            <lb ed="#V" n="7"/>reddunt, sed non possunt reddere aequale. Et primo quidem
+            <lb ed="#V" n="8"/>quicquid ab homine Deo redditur debitum est, non tamen
+            <lb ed="#V" n="9"/>potest esse aequale, vt scilicet tantum homo ei reddat
+            quan<lb ed="#V" n="10" break="no"/>tum debet secundum illud psal. Quid retribuam domino
+            <lb ed="#V" n="11"/>pro omnibus quae retribuit mihi. Et secundum hoc
+            adiun<lb ed="#V" n="12" break="no"/>gitur iustitiae religioni, quae vt dicit Tullius superiori cuidam
+            <lb ed="#V" n="13"/>naturae, quam diuinam vocant, curam vel cultum
+            cerimo<lb ed="#V" n="14" break="no"/>niamque offert &amp;c. Haec ille.
+          </p>
+          <p xml:id="capsco-d3dsyy-d1e2347">
+            Et sicut dicit ibi de religione &amp;
+            <lb ed="#V" n="15"/>pietate &amp; obseruantia quod deficiunt a ratione iustitiae, quia
+            <lb ed="#V" n="16"/>licet reddant debitum, non tamen aequale, ita dicendum est
+            <lb ed="#V" n="17"/>de poenitentia, vt superius patuit. Et haec sufficiunt ad
+            ar<lb ed="#V" n="18" break="no"/>gumenta Durandi.
+          </p>
+          <p xml:id="capsco-d3dsyy-d1e2359">
+            Ad argumenta Aureoli contra
+            secun<lb ed="#V" n="19" break="no"/>dam conclusionem dicitur primo in generali quod materia &amp;
+            <lb ed="#V" n="20"/>obiectum poenitentiae virtutis potest dici non solum ipsa
+            pae<lb ed="#V" n="21" break="no"/>na, immo ipsum peccatum commissum pro quo infertur
+            pae<lb ed="#V" n="22" break="no"/>na. Quia enim obiectum poenitentiae sit peccatum, patet ex
+            prae<lb ed="#V" n="23" break="no"/>cedentibus, &amp; vlterius quia principalis eius actus est
+            dole<lb ed="#V" n="24" break="no"/>re &amp; detestari. Constat autem quod materia &amp; obiectum illius
+            <lb ed="#V" n="25"/>actus est peccatum, &amp; per consequens est materia virtutis
+            <lb ed="#V" n="26"/>Quia etiam poena possit dici obiectum vel materia
+            poeni<lb ed="#V" n="27" break="no"/>tentiae, patet, quia ad poenitentiam non solum pertinet
+            de<lb ed="#V" n="28" break="no"/>testari peccata, immo vltra hoc actus poenitentiae est
+            pro<lb ed="#V" n="29" break="no"/>positum emendandi &amp; purgandi peccatum per poenam,
+            <lb ed="#V" n="30"/>&amp; sic vtrunque tam poena quam culpa potest dici materia
+            <lb ed="#V" n="31"/>vel obiectum poenitentiae. De praedictis Sanctus Thomas quarto
+            <lb ed="#V" n="32"/>sen. dis. 14. q. 1. arti. primo in solutione sextae. q. sic dicit.
+            Poe<lb ed="#V" n="33" break="no"/>nitentia &amp; vindicatiua iustitia circa idem aliquo modo sunt
+            <lb ed="#V" n="34"/>scilicet circa punitionem offensae, sed in duobus differunt
+            <lb ed="#V" n="35"/>Primo quia vindicatiua proprie est in iudice poenam
+            in<lb ed="#V" n="36" break="no"/>fligente quam reus quandoque inuite sustinet, sed
+            poeniten<lb ed="#V" n="37" break="no"/>tia est in ipso reo qui voluntarius poenam sustinet
+            pro<lb ed="#V" n="38" break="no"/>culpa commissa, secundo, quia vindicatiua iustitia respicit
+            <lb ed="#V" n="39"/>offensam communiter, sed poenitentiae virtus respicit
+            of<lb ed="#V" n="40" break="no"/>fensam Dei, vnde oportet quod poenitentia consistat in
+            emen<lb ed="#V" n="41" break="no"/>datione offensae voluntarie assumpta, &amp; tali qualis Deo
+            con<lb ed="#V" n="42" break="no"/>petit, sicut autem hominibus qui vident ea quae foris patent
+            <lb ed="#V" n="43"/>sit offensae recompensatio per aliqua exteriora, ita Deo qui
+            <lb ed="#V" n="44"/>intuetur cor, oportet quod incipiat recompensatio fieri in
+            <lb ed="#V" n="45"/>ipso cordis affectu, fit autem recompensatio exterius in
+            duo<lb ed="#V" n="46" break="no"/>bus. Primo in hoc quod aliquis exterius poenam subit
+            pro<lb ed="#V" n="47" break="no"/>offensa quam fecit secundo in hoc quod cauet in futurum
+            <lb ed="#V" n="48"/>ne similis offensa ab eo fiat, &amp; haec duo oportet quod
+            ho<lb ed="#V" n="49" break="no"/>mo in corde exhibeat per poenitentiam. Primo dolorem
+            <lb ed="#V" n="50"/>cordis pro malis quae fecit: secundo propositum de cetero
+            <lb ed="#V" n="51"/>talia non commitendi, &amp; haec duo diffinitio poenitentiae
+            <lb ed="#V" n="52"/>continet, vnde magister diffiniens poenitentiam aliquid
+            <lb ed="#V" n="53"/>ponit quasi genus in hoc quod dicit, quod est virtus,
+            do<lb ed="#V" n="54" break="no"/>lorem de peccatis in hoc quod dicit, qua mala commissa
+            <lb ed="#V" n="55"/>plangimus, &amp; propsiotum de futura emendatione, in hoc
+            <lb ed="#V" n="56"/>quod dicit, cum emendationis proposito. Haec ille.
+          </p>
+          <p xml:id="capsco-d3dsyy-d1e2444">
+            Ex
+            <lb ed="#V" n="57"/>quibus patet quod actus completus poenitentiae duo
+            obie<lb ed="#V" n="58" break="no"/>cta respicit scilicet culpam de qua dolet, &amp; paenam quam
+            <lb ed="#V" n="59"/>assumit. Vtrum autem eodem simplici actu doleat de
+            <lb ed="#V" n="60"/>peccato &amp; eligat poenam &amp; emendam, aut sint duo actus,
+            <lb ed="#V" n="61"/>non refert ad propositum, sed videtur quod sit idem actus
+            <lb ed="#V" n="62"/>habens duo obiecta ordinem inter se habentia, vt finis,
+            <lb ed="#V" n="63"/>&amp; id quod est ad finem, aut aliquo alio modo ordinata.
+          </p>
+          <p xml:id="capsco-d3dsyy-d1e2462">
+            <lb ed="#V" n="64"/>Item ibidem in solutione secundi argumenti sic dicit.
+            Il<lb ed="#V" n="65" break="no"/>lud quod pertinet ad corporalem immutationem non
+            <lb ed="#V" n="66"/>pertinet ad virtutem quasi essentialis actus eius, sed
+            po<lb ed="#V" n="67" break="no"/>rest pertinere ad virtutem sicut materiale, circa quod
+            <lb ed="#V" n="68"/>operatur, quia etiam passiones corporales sunt virtutum
+            <lb ed="#V" n="69"/>materia, &amp; secundum hoc dicendum quod ipsius
+            virtu<lb ed="#V" n="70" break="no"/>tis poenitentiae sensibilis dolor vel corporalis ssetus
+            po<lb ed="#V" n="71" break="no"/>test esse quoddam materiale, inquantum hoc reddit Deo
+            <lb ed="#V" n="72"/>poenitens quasi debitum pro offensa commissa, &amp; ideo si
+            <lb ed="#V" n="73"/>per planctum signatur actus poenitentiae, tunc nihil aliud
+            <lb ed="#V" n="74"/>dicit quam detestationem, si autem dicatur materiale
+            pe<lb ed="#V" n="75" break="no"/>nitentiae, sic potest etiam sensibilem vel corporalem
+            sle<cb ed="#V" n="b"/><lb ed="#V" n="76" break="no"/>tum dicere. Haec ille.
+          </p>
+          <p xml:id="capsco-d3dsyy-d1e2494">
+            Dicitur secundo quod primum
+            ar<lb ed="#V" n="77" break="no"/>gumentum magis est ad oppositum quam ad
+            proposi<lb ed="#V" n="78" break="no"/>tum, quia iustitia punitiua, &amp; generaliter iustitia
+            commu<lb ed="#V" n="79" break="no"/>tatiua non solum habet pro materia poenam, immo
+            cul<lb ed="#V" n="80" break="no"/>pam cui reddit aequalem poenam. De hoc Sanctus. Thomas
+            <lb ed="#V" n="81"/>secunda secundae. q. 61. articulo 3. vbi sic quaerit. Vtrum
+            ea<lb ed="#V" n="82" break="no"/>dem sit materia iustitiae distributiuae &amp; commutatiuae, sic
+            <lb ed="#V" n="83"/>dicit. Iustitia est circa quasdam operationes exteriores,
+            sci<lb ed="#V" n="84" break="no"/>let destributionem &amp; commutationem quae sunt quidam
+            <lb ed="#V" n="85"/>vsus quarundam exteriorum vel rerum vel personarum,
+            <lb ed="#V" n="86"/>vel etiam operum, rerum quidem sicut cum aliquis aufert
+            <lb ed="#V" n="87"/>vel restituit alteri rem suam. Personarum autem cum
+            ali<lb ed="#V" n="88" break="no"/>quis in ipsam personam hominis iniuriam facit, puta
+            per<lb ed="#V" n="89" break="no"/>cutiendo vel conuiciando, aut etiam cum irreuerentiam
+            <lb ed="#V" n="90"/>exhibet. Operum autem sunt cum quis ab alio iuste
+            exi<lb ed="#V" n="91" break="no"/>git, vel reddit aliquod opus. Si ergo accipiamus vt
+            mate<lb ed="#V" n="92" break="no"/>riam vtriusque iustitiae ea, quorum operationes sunt vsus,
+            <lb ed="#V" n="93"/>eadem est materia commutatiuae &amp; destributiuae iustitiae,
+            <lb ed="#V" n="94"/>nam &amp; distribui possunt res communi in singulos, &amp;
+            com<lb ed="#V" n="95" break="no"/>mutari de vno in alium, &amp; est etiam quaedam distributio
+            <lb ed="#V" n="96"/>laboriosorum operum, &amp; recompensatio. Si autem
+            acci<lb ed="#V" n="97" break="no"/>piamus vt materiam vtriusque iustitiae actiones ipsas
+            prin<lb ed="#V" n="98" break="no"/>cipales quibus vtimur rebus &amp; personis &amp; operibus, sic
+            in<lb ed="#V" n="99" break="no"/>uenitur vtrobique alia materia. Nam distributiua
+            iusti<lb ed="#V" n="100" break="no"/>tia est directiua distributionis, commutatiua vero iustitia
+            <lb ed="#V" n="101"/>est directiua commutationum, quae attendi possunt
+            in<lb ed="#V" n="102" break="no"/>ter duas personas, quarum quaedam sunt inuoluntariae,
+            <lb ed="#V" n="103"/>quaedam voluntariae. Inuoluntariae quidem quando
+            ali<lb ed="#V" n="104" break="no"/>quis re alterius vtitur, vel persona, vel opere, eo inuito.
+            <lb ed="#V" n="105"/>Quod quidem quandoque contingit occulte per fraudem,
+            <lb ed="#V" n="106"/>quandoque manifeste per violentiam &amp;c. postea
+            enumera<lb ed="#V" n="107" break="no"/>tis commutationibus tam voluntarijs quam
+            inuolunta<lb ed="#V" n="108" break="no"/>rijs, concludit dicens. In huiusmodi autem actionibus
+            <lb ed="#V" n="109"/>siue voluntarijs si inuoluntarijs eadem est ratio
+            accipien<lb ed="#V" n="110" break="no"/>di medium, scilicet secundum aequalitatem
+            recompensa<lb ed="#V" n="111" break="no"/>tionis, &amp; ideo omnes istae actiones ad vnam speciem
+            in<lb ed="#V" n="112" break="no"/>iustitiae pertinent, scilicet commutatiuam. Haec ille.
+          </p>
+          <p xml:id="capsco-d3dsyy-d1e2575">
+            Ex
+            <lb ed="#V" n="113"/>quibus patet quod iustitiae materia sunt non solum
+            puni<lb ed="#V" n="114" break="no"/>tiones, immo furta homicidia, &amp; aliae inuoluntariae, &amp;
+            <lb ed="#V" n="115"/>culpabiles commutationes, sicut ergo iustitia punitiua
+            <lb ed="#V" n="116"/>respicit illa duo, sic poenitentia respicit tanquam
+            mate<lb ed="#V" n="117" break="no"/>riam vel obiectum tam culpam quam poenam, sed
+            diffe<lb ed="#V" n="118" break="no"/>renter, quia culpam respicit vt materiam circa quam agit,
+            <lb ed="#V" n="119"/>poenam vero vt id quod agit, &amp; quasi proprium effectum,
+            <lb ed="#V" n="120"/>sicut &amp; iustitia punitiua vel commutatiua differenter
+            re<lb ed="#V" n="121" break="no"/>spicit iustum &amp; iniustum, vnde argumentum non aliud
+            <lb ed="#V" n="122"/>concludit nisi quod peccatum non est obiectum
+            poeni<lb ed="#V" n="123" break="no"/>tentiae vt operatum ab ea, quia illo modo poenitentia
+            <lb ed="#V" n="124"/>est eius obiectum, cum quo stat quod peccatum est
+            obie<lb ed="#V" n="125" break="no"/>ctum poenitentiae tanquam id circa quod operatur, &amp;
+            su<lb ed="#V" n="126" break="no"/>per quod cadit principalis actus poenitentiae, scilicet
+            de<lb ed="#V" n="127" break="no"/>testatio &amp; displicentia.
+          </p>
+          <p xml:id="capsco-d3dsyy-d1e2610">
+            Ad secundum negatur minor,
+            <lb ed="#V" n="128"/>vnde Sanctus Thomas quarto sen. vbi supra articulo
+            pri<lb ed="#V" n="129" break="no"/>mo quaestio. quarta in solutiones quarti sic dicit. Medium
+            <lb ed="#V" n="130"/>non eodem modo accipitur in iustitia, &amp; in alijs
+            virtuti<lb ed="#V" n="131" break="no"/>bus moralibus: accipitur enim iustitiae medium per
+            adae<lb ed="#V" n="132" break="no"/>quationem rei ad rem. Haec autem adaequatio fit in
+            iusti<lb ed="#V" n="133" break="no"/>tia commutatiua quando ab eo qui habuit plus aliquid
+            <lb ed="#V" n="134"/>subtrahitur, &amp; ei qui minus habuit additur. Ille autem
+            <lb ed="#V" n="135"/>qui alterum offendit vel laesit, plus habuit, &amp; qui laesus est
+            <lb ed="#V" n="136"/>habuit minus inquantum huic subtractum est quod ei
+            <lb ed="#V" n="137"/>debebatur, &amp; ille vsus est propria voluntate in hoc quod
+            <lb ed="#V" n="138"/>non debuit, &amp; ideo vindicatiua iustitia ab eo qui
+            offen<lb ed="#V" n="139" break="no"/>sam fecit, quantum habuit plus debito tantum
+            subtra<lb ed="#V" n="140" break="no"/>hit ei, &amp; dat illi qui est laesus, dum ad honorem &amp; in
+            sa<lb ed="#V" n="141" break="no"/>tisfactionem eius alium punit. Sic ergo vindicatiua
+            iusti<lb ed="#V" n="142" break="no"/>tia constituit medium in offensis, quae sunt materia eius.
+            <lb ed="#V" n="143"/>Non quidem tenendo medium in offensis vt quasdam
+            <lb ed="#V" n="144"/>recipiat, &amp; quasdam obijciat, sicut temperantia ponit
+            me<lb ed="#V" n="145" break="no"/>dium in delectationibus sed omni offensae
+            proportionan<lb ed="#V" n="146" break="no"/>do poenam debitam. Et similiter poenitentia pro
+            quoli<lb ed="#V" n="147" break="no"/>bet peccato commisso poenam infert sibijpsi debita, non
+            <lb ed="#V" n="148"/>autem ita quod aliquod peccatum dimittat &amp; aliquod
+            <lb ed="#V" n="149"/>abijciat. Haec ille. Ex quibus patet falsitas minoris
+            argu<lb ed="#V" n="150" break="no"/>menti dicens, quod poenitentia non ponit medium in
+            <pb ed="#V" n="172"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>offensis aut peccatis. Quod autem dicit de circunstantijs
+            <lb ed="#V" n="2"/>a&amp;c. non valet, quia eodem modo paenitentia ponit
+            circun<lb ed="#V" n="3" break="no"/>stantias circa peccatum sicut ponit medium, quia scilicet
+            <lb ed="#V" n="4"/>poenam circunstantionatam &amp; proportionatam peccatis
+            <lb ed="#V" n="5"/>adhibet.
+          </p>
+          <p xml:id="capsco-d3dsyy-d1e2679">
+            Ad confirmationem dicitur quod non est simile
+            <lb ed="#V" n="6"/>de poenitentia &amp; alijs virtutibus, vnde Sanctus Thomas vbi
+            <lb ed="#V" n="7"/>supra in solutione primi argumenti tertiae. q. sic dicit. Omnis
+            <lb ed="#V" n="8"/>virtus expellit peccatum oppositum formaliter quantum
+            <lb ed="#V" n="9"/>ad suum actum primum, qui est informare subiectum, sed
+            <lb ed="#V" n="10"/>actus secundus in alijs virtutibus, qui est operatio non
+            or<lb ed="#V" n="11" break="no"/>dinatur principaliter ad repellendum peccatum, sicut est
+            <lb ed="#V" n="12"/>in poenitentia, &amp; ideo poenitentia non formaliter, sed
+            <lb ed="#V" n="13"/>quasi effectiue peccatum expellit. Habet enim peccatum
+            <lb ed="#V" n="14"/>expellendum pro materia, &amp; operatur circa ipsum vt
+            ex<lb ed="#V" n="15" break="no"/>pellatur. Haec ille. Item tertia parte. q. 85. articulo
+            secun<lb ed="#V" n="16" break="no"/>do in solutione secundi sic dicit. Poenitentia habet quidem
+            <lb ed="#V" n="17"/>realiter generalem materiam inquantum respicit omnia
+            <lb ed="#V" n="18"/>peccata, sed tamen sub ratione speciali inquantum sunt
+            <lb ed="#V" n="19"/>emundabilia per actum hominis cooperantis Deo ad
+            <lb ed="#V" n="20"/>suam iustificationem. Item in solutione tertij sic dicit.
+            <lb ed="#V" n="21"/>Poenitentia expellit omne peccatum effectiue inquantum
+            <lb ed="#V" n="22"/>operatur ad destructionem peccati prout est remissibile
+            <lb ed="#V" n="23"/>ex diuina gratia homine cooperante. Haec ille. Ex quibus
+            <lb ed="#V" n="24"/>omnibus patet quod poenitentia respicit pro materia &amp;
+            <lb ed="#V" n="25"/>obiecto illud quod ipsa destruit, licet habeat pro
+            partiali<lb ed="#V" n="26" break="no"/>obiecto aliquid quod ipsa efficit, vt supra dictum fuit.
+          </p>
+          <p xml:id="capsco-d3dsyy-d1e2727">
+            <lb ed="#V" n="27"/>Ad tertium patet responsio ex solutione primi &amp;
+            secun<lb ed="#V" n="28" break="no"/>di, quia minor est neganda, scilicet quod iustitia punitiua
+            <lb ed="#V" n="29"/>vel vindicatiua non habeat offensam pro materia vel
+            obie<lb ed="#V" n="30" break="no"/>cto. Ad ea quae secundo loco obijcit contra conclusionem
+            <lb ed="#V" n="31"/>eandem dicitur. Et ad primum quidem dicitur primo,
+            <lb ed="#V" n="32"/>quod ad materiam sacramenti poenitentiae pertinent tres
+            <lb ed="#V" n="33"/>actus poenitentis, scilicet contritio, confessio, &amp;
+            satisfa<lb ed="#V" n="34" break="no"/>ctio, &amp; de hoc plura dicta sunt in principio huius tertij
+            ar<lb ed="#V" n="35" break="no"/>ticuli. Vnde Sanctus Thomas tertia parte. quaest. 90.
+            articu<lb ed="#V" n="36" break="no"/>lo 2. sic dicit. Duplex est pars vt habetur in quinto meta.
+            <lb ed="#V" n="37"/>scilicet pars essentiae, &amp; pars quantitatis. Partes quidem
+            <lb ed="#V" n="38"/>essentiae sunt naturaliter materia &amp; forma, logice
+            au<lb ed="#V" n="39" break="no"/>tem genus &amp; differentia. Hoc autem modo
+            quodli<lb ed="#V" n="40" break="no"/>bet sacramentum diuiditur in materiam &amp; formam
+            si<lb ed="#V" n="41" break="no"/>cut in partes essentie, vnde sacramenta consistunt in
+            re<lb ed="#V" n="42" break="no"/>bus &amp; verbis, sed quia quantitas se tenet ex parte
+            mate<lb ed="#V" n="43" break="no"/>riae, partes quantitatis sunt partes materiae. Et hoc
+            mo<lb ed="#V" n="44" break="no"/>do sacramento poenitentiae specialiter assignantur partes
+            <lb ed="#V" n="45"/>quantum ad actus poenitentis, qui sunt materia huius
+            sa<lb ed="#V" n="46" break="no"/>cramenti.
+          </p>
+          <p xml:id="capsco-d3dsyy-d1e2773">
+            Sciendum autem quod alio modo sit
+            recom<lb ed="#V" n="47" break="no"/>pensatio offensae in poenitentia &amp; in iustitia vindicatiua.
+            <lb ed="#V" n="48"/>Nam in vindicatiua iustitia fit recompensatio secundum
+            <lb ed="#V" n="49"/>arbitrium iudicis, non secundum voluntatem
+            offenden<lb ed="#V" n="50" break="no"/>tis vel offensi. Sed in poenitentia fit recompensatio
+            offen<lb ed="#V" n="51" break="no"/>sae secundum voluntatem peccantis, &amp; secundum arbitrium
+            <lb ed="#V" n="52"/>Dei in quem peccatur, quia hic non quaeritur sola
+            reinte<lb ed="#V" n="53" break="no"/>gratio aequalitatis iustitiae sicut iustitia vindicatiua, sed
+            <lb ed="#V" n="54"/>magis reconciliatio amicitiae, quod fit dum ofiendens
+            recon<lb ed="#V" n="55" break="no"/>pensat secundum voluntatem eius quem offendit. Sic
+            er<lb ed="#V" n="56" break="no"/>go requiritur ex parte poenitentis. Primo quidem
+            volun<lb ed="#V" n="57" break="no"/>tas recompensandi, quod fit per contritionem, secundo
+            <lb ed="#V" n="58"/>quod se subijciat arbitrio sacerdotis loco Dei, quod fit
+            <lb ed="#V" n="59"/>in confessione, tertio quod recompenset secundum
+            ar<lb ed="#V" n="60" break="no"/>bitrium ministri Dei, quod fit in satisfactione, &amp; ideo
+            <lb ed="#V" n="61"/>contritio confessio satisfactio ponuntur partes
+            poeni<lb ed="#V" n="62" break="no"/>tentiae. Haec ille.
+          </p>
+          <p xml:id="capsco-d3dsyy-d1e2810">
+            Dicitur secundo quod antecedens vel
+            <lb ed="#V" n="63"/>maior argumenti est falsa, quia sacramentum
+            poeniten<lb ed="#V" n="64" break="no"/>tiae non est perfectum sacramentum nisi poenitens
+            satis<lb ed="#V" n="65" break="no"/>faciat actu vel proposito per se vel per alium. Nec valet,
+            il<lb ed="#V" n="66" break="no"/>lud quod adducitur de Papa, quia dum papa dat tales
+            in<lb ed="#V" n="67" break="no"/>dulgentias, non tollit satisfactionem, sed satisfactionem
+            <lb ed="#V" n="68"/>&amp; poenitentias sanctorum qui sunt in gloria, applicat
+            ta<lb ed="#V" n="69" break="no"/>liter absolutis, sicut ostendit Sanctus Thomas quarto
+            sen<lb ed="#V" n="70" break="no"/>dis. 20. quaest. 1. articulo tertio in solutione primae quaest.
+            <lb ed="#V" n="71"/>&amp; ibidem in solutione secundi argumenti, vbi sic dicit.
+            Il<lb ed="#V" n="72" break="no"/>le qui indulgentias suscipit non absoluitur simpliciter
+            lo<lb ed="#V" n="73" break="no"/>quendo a debito poenae, sed datur sibi vnde debitum
+            sol<lb ed="#V" n="74" break="no"/>uat &amp;c. De hoc alias. Cum autem vlterius dicit quod
+            <lb ed="#V" n="75"/>tanta posset apparere contritio in poenitente &amp;c. dicitur
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="76"/>quod in tali casu in poenitente esset satisfactio tripliciter
+            <lb ed="#V" n="77"/>scilicet in proposito, &amp; in signo, &amp; in sui initio. Quia
+            <lb ed="#V" n="78"/>enim talissatisfaciet quo ad propositum patet, aliter
+            nor<lb ed="#V" n="79" break="no"/>esset contritus nisi haberet propositum satisfaciendi &amp;
+            <lb ed="#V" n="80"/>recompenfandi, &amp; omnem poenam sibi rationabiliter in
+            <lb ed="#V" n="81"/>iungendam portandi. Quod autem haberet satisfactionem
+            <lb ed="#V" n="82"/>sicut in signo, patet ex dictis. Ex quo enim confitetur
+            <lb ed="#V" n="83"/>subijcit se arbitrio sacerdotis, &amp; signat se paratum
+            satisfa<lb ed="#V" n="84" break="no"/>cere. Quia autem habeat satisfactionem sicut in sui
+            ini<lb ed="#V" n="85" break="no"/>tio vel medio, patet quia satisfactio incipit in
+            contrition<lb ed="#V" n="86" break="no"/>&amp; mediatur in confessione, &amp; completur in exteriori
+            poe<lb ed="#V" n="87" break="no"/>na. De hoc Sanctus Thomas quarto sen. dist. 16. quaest.
+            <lb ed="#V" n="88"/>articulo primo in solutione tertiae quaest. vbi sic dicit.
+            Pae<lb ed="#V" n="89" break="no"/>na quam poenitens patitur tota in ratione satisfactionis
+            <lb ed="#V" n="90"/>succedit. Non enim sola exteriori poenitentia homo
+            satis<lb ed="#V" n="91" break="no"/>facit, sed etiam interiori, alias oratio mentalis non esset
+            sa<lb ed="#V" n="92" break="no"/>tisfactio, vnde &amp; poena quae est in contritione, &amp; poena
+            <lb ed="#V" n="93"/>quae est in confessione, in partem satisfactionis cadit, &amp;
+            <lb ed="#V" n="94"/>quia satisfactio est vltima pars, totum sacramentum a
+            poe<lb ed="#V" n="95" break="no"/>na denominatur, sicut res denominatur ab vltimo
+            sui<lb ed="#V" n="96" break="no"/>Haec ille.
+          </p>
+          <p xml:id="capsco-d3dsyy-d1e2888">
+            Ad secundum negatur maior. Nec valet
+            pro<lb ed="#V" n="97" break="no"/>batio, quia Sanctus Thomas non dicit quod in materia
+            cu<lb ed="#V" n="98" break="no"/>iuslibet sacramenti sit aliqua virtus supernaturalis, vt
+            pa<lb ed="#V" n="99" break="no"/>tet dis. 22, q. 2. articulo primo in solutione primae. q. vbi
+            <lb ed="#V" n="100"/>sic dicit. In sacramento poenitentiae sacramentale signum
+            <lb ed="#V" n="101"/>non est aliqua materia exterius apposita, sed exteriores
+            <lb ed="#V" n="102"/>actus quibus homo ad salutem suam operatur, &amp;
+            com<lb ed="#V" n="103" break="no"/>plementum operationis ab extrinseco signatur per
+            abso<lb ed="#V" n="104" break="no"/>lutionem sacerdotis, sicut materia in alijs sacramentis
+            per<lb ed="#V" n="105" break="no"/>ministri sanctificationem efficaciam sacramentalem
+            reci<lb ed="#V" n="106" break="no"/>pit &amp; ideo poenitentia exterior est sacramentale signum
+            <lb ed="#V" n="107"/>in sacramento poenitentiae. Haec ille.
+          </p>
+          <p xml:id="capsco-d3dsyy-d1e2914">
+            Item ibidem in
+            solu<lb ed="#V" n="108" break="no"/>tione secundi sic dicit. Materia quae est in alijs
+            sacramen<lb ed="#V" n="109" break="no"/>tis signum sacramentale, inquantum ab exteriori datur,
+            <lb ed="#V" n="110"/>repraesentat exterius agens in sanctificatione, &amp; ideo
+            ali<lb ed="#V" n="111" break="no"/>quo modo competit vt gratiam causet. Sed poenitentia
+            e<lb ed="#V" n="112" break="no"/>terior quae est signum sacramentale in hoc sacramento,
+            <lb ed="#V" n="113"/>representat cooperationem recipientis, &amp; non influentia
+            <lb ed="#V" n="114"/>quae est ex parte agentis extrinseci, &amp; ideo non
+            competit<lb ed="#V" n="115" break="no"/>ei quod gratiam aliquo modo causet. Haec ille.
+          </p>
+          <p xml:id="capsco-d3dsyy-d1e2935">
+            Item
+            ibi<lb ed="#V" n="116" break="no"/>dem in solutione tertii sic dicit. Sacramentalibus signis
+            <lb ed="#V" n="117"/>in alijs sacramentis adhibetur forma verborum ad eorum
+            <lb ed="#V" n="118"/>sanctifficationem, &amp; quia gratiam continent &amp; causant,
+            <lb ed="#V" n="119"/>sed exterior poenitentia non est signum gratiam causans
+            <lb ed="#V" n="120"/>&amp; ideo non oportet quod sanctificetur per aliquam
+            for<lb ed="#V" n="121" break="no"/>mam verborum. Sed verba quae a sacerdote absoluente
+            <lb ed="#V" n="122"/>proferuntur, immediate feruntur ad eum qui se subijcit
+            <lb ed="#V" n="123"/>sacramento. Vnde ipse sanctificatur virtute
+            absolutio<lb ed="#V" n="124" break="no"/>nis, &amp; gratiam suscipit, non autem sanctificatur eius
+            con<lb ed="#V" n="125" break="no"/>fessio, vt ex ea gratiam accipiat, sicut erat in baptismo de
+            <lb ed="#V" n="126"/>sanctificatione aquae. Haec ille.
+          </p>
+          <p xml:id="capsco-d3dsyy-d1e2961">
+            Item ibidem in
+            solutio<lb ed="#V" n="127" break="no"/>ne secundae. q. sic dicit. Interior poenitentia est res
+            exte<lb ed="#V" n="128" break="no"/>rioris poenitentiae, sed vt significata tantum per actus
+            poe<lb ed="#V" n="129" break="no"/>nitentis, vt signata autem &amp; causata per eosdem actus
+            <lb ed="#V" n="130"/>adiuncta absolutione ministri, per quam aliquo modo
+            <lb ed="#V" n="131"/>ad gratiam disponitur, sicut etiam in sacramento
+            Eucha<lb ed="#V" n="132" break="no"/>ristiae corpus Christi verum est res significata tantum per
+            <lb ed="#V" n="133"/>species panis &amp; vini, sed causata per verba ministri, &amp; illa
+            <lb ed="#V" n="134"/>duo coniuncta sunt simul signum &amp; causa. Haec ille.
+          </p>
+          <p xml:id="capsco-d3dsyy-d1e2981">
+            Ex
+            <lb ed="#V" n="135"/>quibus patet quod non est mens Sancti Tomae quod in
+            <lb ed="#V" n="136"/>quolibet sacramento nouae legis materia sacramenti
+            ha<lb ed="#V" n="137" break="no"/>beat virtutem supernaturaliter infusam actiuam
+            respe<lb ed="#V" n="138" break="no"/>ctu dispositionis ad gratiam, sed solum in illis, in quibus
+            <lb ed="#V" n="139"/>verba ministri diriguntur ad materiam sanctificandam.
+          </p>
+          <p xml:id="capsco-d3dsyy-d1e2994">
+            <lb ed="#V" n="140"/>Item sufficit quod materia sacramenti sit dispositio ad
+            <lb ed="#V" n="141"/>gratiam, licet non causet aliam dispositionem ex aliqua
+            <lb ed="#V" n="142"/>virtute sibi inhaerente, sic autem est de ipsa contritione
+            <lb ed="#V" n="143"/>Ad impugnationem responsionis ibidem datae dicitur,
+            <lb ed="#V" n="144"/>quod licet satisfactio poenitentialis, vt praecise concepta
+            <lb ed="#V" n="145"/>vel in proposito volita non sit signum sensibile, nec
+            pro<lb ed="#V" n="146" break="no"/>prie materia sacramenti poenitentiae, tamen vt volita, &amp;
+            <lb ed="#V" n="147"/>signata, &amp; inchoata, &amp; mediata est signum sensibile, &amp; vt
+            <lb ed="#V" n="148"/>potest esse materia sacramenti.
+          </p>
+          <p xml:id="capsco-d3dsyy-d1e3016">
+            Ad tertium negatur
+            ma<lb ed="#V" n="149" break="no"/>ior, quia eius opposita vera, scilicet quod in eodem
+            in<lb ed="#V" n="150" break="no"/>stanti quo inchoatur hoc sacramentum in sui materia.
+            <pb ed="#V" n="173"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>puta in vera contritione, desinit morbus peccati quo ad
+            <lb ed="#V" n="2"/>culpam, &amp; ideo nimirum si completa satis factione desinit
+            <lb ed="#V" n="3"/>morbus quo ad poenae reatum, vnde illud argumentum
+            <lb ed="#V" n="4"/>parum habet apparentiae, vnde beatus Thomas tertia parte.
+            <lb ed="#V" n="5"/>quaest. 90 articulo, secundo in secundo loco arguit sic. In
+            <lb ed="#V" n="6"/>sacramentis nouae legis confertur gratia, sed in
+            satisfactio<lb ed="#V" n="7" break="no"/>ne non confertur aliqua gratia, ergo satisfactio non est
+            <lb ed="#V" n="8"/>pars sacramenti. Ecce argumentum. Sequitur responsio
+            <lb ed="#V" n="9"/>Dicendum inquit quod satisfactio prout est in proposito
+            <lb ed="#V" n="10"/>confert gratiam, &amp; auget eam, prout est in executione,
+            si<lb ed="#V" n="11" break="no"/>cut baptismus in adultis. Haec ille Ex quibus patet nullitas
+            <lb ed="#V" n="12"/>argumenti, quia si quid probaret, vtique concluderet quod
+            <lb ed="#V" n="13"/>baptismus collatus contrito adulto non essetur,
+            sacramen<lb ed="#V" n="14" break="no"/>tum, quod est falsum.
+          </p>
+          <p xml:id="capsco-d3dsyy-d1e3058">
+            Ad illud quod vltimo adducitur de
+            <lb ed="#V" n="15"/>contritione dicitur quod licet contritio in se non sit
+            sen<lb ed="#V" n="16" break="no"/>sibilis exterius, est tamen sensibilis in se ipsi contrito, vt
+            <lb ed="#V" n="17"/>supra dictum est. Dicitur secundo quod licet contritio in
+            <lb ed="#V" n="18"/>se non sentiatur exterius ab alijs a contrito, potest tamen
+            <lb ed="#V" n="19"/>sentiri in suo signo &amp; effectu, puta confessione &amp;
+            satisfa<lb ed="#V" n="20" break="no"/>ctione. De hoc Sanctus Thomas tertia parte vbi supra,
+            ar<lb ed="#V" n="21" break="no"/>guit enim sic Contritio est in corde, &amp; sic pertinet ad
+            inte<lb ed="#V" n="22" break="no"/>riorem poenitentiam. Confessio autem est in ore, &amp;
+            satis<lb ed="#V" n="23" break="no"/>factio est in opere, &amp; sic duo vltima pertinent ad
+            exterio<lb ed="#V" n="24" break="no"/>rem poenitentiam. Paenitentia autem interior non est
+            sa<lb ed="#V" n="25" break="no"/>cramentum, sed sola poenitentia exterior quae sensui
+            subia<lb ed="#V" n="26" break="no"/>cet, ergo contritio non est pars sacramenti poenitentiae.
+            <lb ed="#V" n="27"/>Ecce argumentum. Sequitur responsio. Dicendum
+            in<lb ed="#V" n="28" break="no"/>quit quod contritio secundum essentiam quidem est in
+            <lb ed="#V" n="29"/>corde &amp; pertinet ad interiorem poenitentiam,
+            virtuali<lb ed="#V" n="30" break="no"/>ter autem pertinet ad poenitentiam exteriorem
+            inquan<lb ed="#V" n="31" break="no"/>tum implicat propositum confitendi &amp; satisfaciendi.
+            <lb ed="#V" n="32"/>Haec ille.
+          </p>
+          <p xml:id="capsco-d3dsyy-d1e3101">
+            Ad primum Scoti contra tertiam
+            conclusio<lb ed="#V" n="33" break="no"/>nem dicitur primo in generali quod nusquam legi
+            San<lb ed="#V" n="34" break="no"/>ctum Thomas sensisse, quod reatus derelictus ex actu
+            pec<lb ed="#V" n="35" break="no"/>cati sit quid reale absolutum, puta habitus, aut
+            disposi<lb ed="#V" n="36" break="no"/>tio de genere qualitatis, nec similiter quod sit respectus,
+            <lb ed="#V" n="37"/>aut relatio realis. Nam Sanctus Thomas loquens de reatu
+            <lb ed="#V" n="38"/>quaerit prima secundae quaest. 87. articulo primo. Vtrum
+            <lb ed="#V" n="39"/>reatus poenae sit effectus peccati. in responsione
+            principa<lb ed="#V" n="40" break="no"/>li sic dicit. Ex rebus naturalibus ad res humanas
+            deri<lb ed="#V" n="41" break="no"/>uatur, vt illud quod contra aliud insurgit, ab eo
+            detri<lb ed="#V" n="42" break="no"/>mentum patiatur. Videmus enim in rebus naturalibus
+            <lb ed="#V" n="43"/>quod vnum contrarium vehementius agit altero
+            contra<lb ed="#V" n="44" break="no"/>rio superueniente, propter quod aquae calefactae magis
+            <lb ed="#V" n="45"/>congelantur vt dicitur in secundo metheororum. Vnde
+            <lb ed="#V" n="46"/>in hominibus hoc ex naturali inclinatione inuenitur, vt
+            <lb ed="#V" n="47"/>vnusquisque deprimat eum qui contra ipsum insurgit
+            <lb ed="#V" n="48"/>Manifestum est autem quod quaecunque continentur
+            sub<lb ed="#V" n="49" break="no"/>aliquo ordine sunt quodammodo vnum in ordine ad
+            prin<lb ed="#V" n="50" break="no"/>cipium ordinis, vnde quicquid contra aliquem ordinem
+            <lb ed="#V" n="51"/>insurgit, consequens est vt ab ipso ordine a principe
+            ordi<lb ed="#V" n="52" break="no"/>nis deprimatur. Cum autem peccatum sit actus
+            inordi<lb ed="#V" n="53" break="no"/>natus, manifestum est quod quicunque peccat, contra
+            ali<lb ed="#V" n="54" break="no"/>quem ordinem agit, &amp; ideo ab ipso ordine conueniens
+            <lb ed="#V" n="55"/>est vt deprimatur, quae quidem repressio poena est.
+            Vn<lb ed="#V" n="56" break="no"/>de secundum tres ordines quibus subditur humana
+            vo<lb ed="#V" n="57" break="no"/>luntas, triplici poena potest homo puniri. Primo quidem
+            <lb ed="#V" n="58"/>subditur humana natura ordini propriae rationis: secundo
+            <lb ed="#V" n="59"/>ordini exterioris hominis gubernantis spiritualiter
+            vel<lb ed="#V" n="60" break="no"/>temporaliter, politice seu oeconomice: tertio subditur
+            <lb ed="#V" n="61"/>vniuersali ordini diuini regiminis. Quilibet autem
+            ho<lb ed="#V" n="62" break="no"/>rum ordinum per peccatum peruertitur dum ille qui
+            pec<lb ed="#V" n="63" break="no"/>cat agit, &amp; contra rationem, &amp; contra legem humana n,
+            <lb ed="#V" n="64"/>&amp; contra legem diuinam, vnde triplicem poenam incurrit
+            <lb ed="#V" n="65"/>vnam quidem a seipso quae est conscientiae remorsus, aliam
+            <lb ed="#V" n="66"/>vero ab homine, tertiam vero a Deo. Haec ille.
+          </p>
+          <p xml:id="capsco-d3dsyy-d1e3177">
+            Item
+            ea<lb ed="#V" n="67" break="no"/>dem quaest. articulo sexto, quaerit Vtrum reatus poenae
+            <lb ed="#V" n="68"/>remaneat post peccatum, &amp; respondet sic. In peccato
+            <lb ed="#V" n="69"/>duo possunt considerari, scilicet actus culpae, &amp;
+            macu<lb ed="#V" n="70" break="no"/>la sequens. Planum est autem quod cessante actu
+            pecca<lb ed="#V" n="71" break="no"/>ti remanet reatus in omnibus p. ccatis actualibus. Actus
+            <lb ed="#V" n="72"/>enim peccati facit hominem reum paenae inquantum
+            tras<lb ed="#V" n="73" break="no"/>greditur ordinem diuinae iustitiae, ad quem non redit
+            <lb ed="#V" n="74"/>nisi per quandam recompensationem poenae, quae ad
+            <lb ed="#V" n="75"/>aequalitatem iustitiae reducit, vt scilicet qui plus
+            volunta<cb ed="#V" n="b"/><lb ed="#V" n="76" break="no"/>ti suae indulsit quam debuit contra mandatum Dei agens
+            <lb ed="#V" n="77"/>secundum ordinem diu nae iustitiae aliquid contra id quod
+            <lb ed="#V" n="78"/>vellet simpliciter spontaneus inuitus patiatur. Qioc
+            <lb ed="#V" n="79"/>etiam in iniurijs hominibus factis obseruatur, vt per
+            re<lb ed="#V" n="80" break="no"/>compensationem reintegretur aequalitas iustitiae, vnde
+            <lb ed="#V" n="81"/>patet quod cessante actu peccati vel iniuriae illatae adhuc
+            <lb ed="#V" n="82"/>remanet debitum poenae. Sed si loquamur de ablatione
+            <lb ed="#V" n="83"/>naeccati quo ad maculam, sic manifestum est quod
+            macu<lb ed="#V" n="84" break="no"/>la peccati ab anima auferri non potest, nisi per hoc quod
+            <lb ed="#V" n="85"/>anima Deo coniungitur, per cuius distantiam detrimer
+            <lb ed="#V" n="86"/>tum proprij nitoris incurrebat, quod est macula.
+            Coniun<lb ed="#V" n="87" break="no"/>gitur autem homo Deo per voluntatem. Vnde macula
+            <lb ed="#V" n="88"/>peccati tolli non potest nisi voluntas hominis ordinem
+            di<lb ed="#V" n="89" break="no"/>uinae iustitiae acceptet, vt scilicet vel ipse poenam sibi
+            spon<lb ed="#V" n="90" break="no"/>taneus assumat in recompensationem culpae praeteritae,
+            <lb ed="#V" n="91"/>vel etiam a Deo illatam patienter suscipiat. Vtroque
+            <lb ed="#V" n="92"/>enim modo poena rationem satisfactionis habet. Poena
+            <lb ed="#V" n="93"/>autem satisfactoria diminuit aliquid de ratione poenae
+            <lb ed="#V" n="94"/>Est enim de ratione poenae, quod sit contra voluntatem
+            <lb ed="#V" n="95"/>Poena autem satisfactoria &amp; si secundum absolutam
+            con<lb ed="#V" n="96" break="no"/>siderationem sit contra voluntatem, non tamen vt hic &amp;
+            <lb ed="#V" n="97"/>nunc. Et per hoc est voluntaria vnde simpliciter est
+            <lb ed="#V" n="98"/>voluntaria, secundum quid autem inuoluntaria.
+          </p>
+          <p xml:id="capsco-d3dsyy-d1e3250">
+            Di<lb ed="#V" n="99" break="no"/>cendum est ergo quod remota macula culpae potest
+            qui<lb ed="#V" n="100" break="no"/>dem remanere reatus poenae, non simpliciter, sed
+            <lb ed="#V" n="101"/>poenae satisfactoriae. Haec ille. Item secundo
+            sen<lb ed="#V" n="102" break="no"/>tentiarum distinctio. 42. articulo secundo, sic dicit
+            <lb ed="#V" n="103"/>Reatus dicitur secundum quod aliquis est reus poenae
+            <lb ed="#V" n="104"/>Et ideo proprie reatus nihil aliud est quam obligatio ad
+            <lb ed="#V" n="105"/>paenam. Et quia haec obligatio quodammodo est media
+            in<lb ed="#V" n="106" break="no"/>ter culpam &amp; poenam, ex eo quod propter culpam
+            ali<lb ed="#V" n="107" break="no"/>quis ad poenam obligatur, ideo nomen medij
+            transumi<lb ed="#V" n="108" break="no"/>tur ad extrema, vt interdum ipsa culpa, vel etiam poena
+            <lb ed="#V" n="109"/>reatus dicatur. Cum autem poena sit medicina quaedam
+            <lb ed="#V" n="110"/>vt dicit Philosophus in secundo Ethico. medicina vero
+            <lb ed="#V" n="111"/>non est nisi contra aliquem defectum oportet quod ad
+            <lb ed="#V" n="112"/>poenam pro aliquo defectu obligetur, non quod ille
+            defe<lb ed="#V" n="113" break="no"/>ctus semper sanetur per poenam in eo, in quo est, vt
+            pa<lb ed="#V" n="114" break="no"/>tet in damnatis, &amp; in fure qui suspenditur, sed poena
+            re<lb ed="#V" n="115" break="no"/>compensat defectum instatu vniuersi, vel etiam
+            reipubli<lb ed="#V" n="116" break="no"/>cae propter ordinem iustitiae qui in poena apparet. Non
+            <lb ed="#V" n="117"/>autem defectus quilibet ad poenam obligat, sunt enim
+            <lb ed="#V" n="118"/>defectus quidam inuoluntarij magis misericordiam quam
+            <lb ed="#V" n="119"/>iram prouocantes. Sed illi soli defectus qui ex
+            acti<lb ed="#V" n="120" break="no"/>bus voluntarijs relinquuntur, poenam merentur, in eo
+            <lb ed="#V" n="121"/>qui voluntarie defectum inducit. Vnde cum transeunte
+            <lb ed="#V" n="122"/>actu defectus remaneat, oportet etiam quod reatus
+            re<lb ed="#V" n="123" break="no"/>manaeat post actum. Haec ille.
+          </p>
+          <p xml:id="capsco-d3dsyy-d1e3307">
+            Item ibidem in solutione
+            <lb ed="#V" n="124"/>tertij sic dicit. Reatus non fundatur per se loquendo
+            su<lb ed="#V" n="125" break="no"/>pra dispositionem vel habitum, sed per accidens
+            secun<lb ed="#V" n="126" break="no"/>dum quod talis dispositio vel habitus cuidam defectui
+            <lb ed="#V" n="127"/>coniungitur.
+          </p>
+          <p xml:id="capsco-d3dsyy-d1e3318">
+            Item in solutione quinti sic dicit. In
+            pec<lb ed="#V" n="128" break="no"/>cante sunt duo defectus vnus quia est in ipso actu
+            pecca<lb ed="#V" n="129" break="no"/>ti secundum quod aliquis limites legis diuinae &amp; rectae
+            <lb ed="#V" n="130"/>rationis transgreditur. Alius est in ipso peccante
+            priua<lb ed="#V" n="131" break="no"/>tio virtutis ex priori defectu actus inducta. Quamuis
+            au<lb ed="#V" n="132" break="no"/>tem cum aliquis gratiam recuperat, secundus defectus
+            <lb ed="#V" n="133"/>tollatur, non tamen ex toto primus sublatus est, quia
+            pa<lb ed="#V" n="134" break="no"/>ret vt quantum voluntati suae obediuit praeter legem Dei,
+            <lb ed="#V" n="135"/>tantum in contrarium recompenset, vt sic iustitiae
+            serue<lb ed="#V" n="136" break="no"/>tur aequalitas &amp; ideo post gratiam recuperatam
+            iniungi<lb ed="#V" n="137" break="no"/>tur satisfactio, &amp; est homo adhuc reus temporalis
+            poe<lb ed="#V" n="138" break="no"/>nae. Haec ille.
+          </p>
+          <p xml:id="capsco-d3dsyy-d1e3344">
+            Item in solutione primi sic dicit. Causa
+            <lb ed="#V" n="139"/>poxima reatus est ipse defectus per actum peccati inductus,
+            <lb ed="#V" n="140"/>actus vero est sicut causa remota, vnde non oportet quod
+            <lb ed="#V" n="141"/>transeunte actu reatus transeat. Item in solutione
+            se<lb ed="#V" n="142" break="no"/>cundi sic dicit. Non solum quia verum est dicere
+            ali<lb ed="#V" n="143" break="no"/>quem actum peccati quandoque egisse ad poenam
+            obliga<lb ed="#V" n="144" break="no"/>gatur, quia sic quandocunque verum esset dicere
+            eun<lb ed="#V" n="145" break="no"/>hoc fecisse, esset poenae obnoxius, sed quia defectus
+            <lb ed="#V" n="146"/>manet in ipso adhuc propter actum quem prius facit. Haec
+            <lb ed="#V" n="147"/>ille. Ex quibus patet quod secundum eum reatus non est
+            <lb ed="#V" n="148"/>quid reale absolutum per modum habitus aut
+            dispositio<lb ed="#V" n="149" break="no"/>nis, nec est relatio realis, cum proximum eius
+            fundamen<lb ed="#V" n="150" break="no"/>tum &amp; causa sit negatio vel priuatio seu defectus ex
+            pec<pb ed="#V" n="174"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>cato derelictus, &amp; non actus, nec habitus aut dispositio.
+            De<lb ed="#V" n="2" break="no"/>fectus autem vel negatio non potest fundare respectum
+            <lb ed="#V" n="3"/>realem. Est ergo respectus rationis, puta obligatio ad
+            po<lb ed="#V" n="4" break="no"/>nam propter defectum voluntarium, puta transgressione
+            <lb ed="#V" n="5"/>ordinis diuinae legis, aut humanae vel rectae rationis, vt
+            su<lb ed="#V" n="6" break="no"/>pra dictum est, &amp; talis respectus potest consequi actum
+            in<lb ed="#V" n="7" break="no"/>tellectus creati, vel increati. Dicitur secundo quod
+            argu<lb ed="#V" n="8" break="no"/>menta Scoti contra istum sensum non procedunt. Non
+            <lb ed="#V" n="9"/>quidem primum. Conceditur enim quod iste respectus est
+            <lb ed="#V" n="10"/>extrinsecus adueniens, &amp; habet pro causa remota actum
+            <lb ed="#V" n="11"/>peccandi.
+          </p>
+          <p xml:id="capsco-d3dsyy-d1e3400">
+            Nec valet huius improbatio, quia eadem actio
+            <lb ed="#V" n="12"/>est ad velle inordinatum per se primo, &amp; ad defectum &amp;
+            <lb ed="#V" n="13"/>reatum per accidens vel consecutiue &amp; secundario. Nec
+            <lb ed="#V" n="14"/>valet quod dicitur de diuina actione. Dato enim quod
+            il<lb ed="#V" n="15" break="no"/>le respectus consequatur actum diuini intellectus ordinam
+            <lb ed="#V" n="16"/>tis animam quae peccauit ad poenam, ex hoc non sequitur
+            <lb ed="#V" n="17"/>sicut infert arguens, quod anima sic peccatrix formaliter
+            <lb ed="#V" n="18"/>praecise, per illud quod est a diuina actione, tum quia ille
+            <lb ed="#V" n="19"/>respectus consequitur actum peccati, &amp; actionem
+            inordi<lb ed="#V" n="20" break="no"/>natam creaturae, &amp; non solum diuinum agere, tum quia
+            <lb ed="#V" n="21"/>anima non dicitur formaliter peccatrix praecise per illum
+            <lb ed="#V" n="22"/>respectum, sed per actum peccati praeteritum, qui fuit
+            cau<lb ed="#V" n="23" break="no"/>sa huius respectus, nec iste respectus aut obligatio est
+            pec<lb ed="#V" n="24" break="no"/>catum, sed effectus peccati. Vnde Sanctus Thomas de malo
+            <lb ed="#V" n="25"/>quaest 2. articulo secundo, arguit sic in decimo quarto
+            lo<lb ed="#V" n="26" break="no"/>co. Augustinus dicit quod peccatum transit actu &amp; manet
+            <lb ed="#V" n="27"/>reatu, hoc autem non esset si ipse actus exterior esset
+            pec<lb ed="#V" n="28" break="no"/>catum, ergo ipse actus exterior non est peccatum. Ecce
+            ar<lb ed="#V" n="29" break="no"/>gumentum: Sequitur responsio. Reatus inquit idest
+            obli<lb ed="#V" n="30" break="no"/>gatio ad poenam est quidam effectus consequens ad
+            pecca<lb ed="#V" n="31" break="no"/>tum, vnde cum dicitur quod peccatum transit actu, &amp;
+            ma<lb ed="#V" n="32" break="no"/>net reatus, idem est ac si diceret quod transit per suam
+            es<lb ed="#V" n="33" break="no"/>sentiam, &amp; manet in suo effectu. Haec ille.
+          </p>
+          <p xml:id="capsco-d3dsyy-d1e3450">
+            Ad secundum
+            ne<lb ed="#V" n="34" break="no"/>gatur antecedens, quia vt statim dictum: est, illa obligatio
+            <lb ed="#V" n="35"/>non solum causatur a Deo, sed a creatura per actum suum
+            <lb ed="#V" n="36"/>inordinatum. A Deo siquidem est quod omnis legem
+            tran<lb ed="#V" n="37" break="no"/>sgrediens obligetur ad poenam. Quia autem iste
+            transgre<lb ed="#V" n="38" break="no"/>diatur legem non est a Deo, sed a voluntate propria, &amp; ita
+            <lb ed="#V" n="39"/>istum obligari ad poenam est a Deo sicut a causa primaria
+            <lb ed="#V" n="40"/>&amp; vniuersali, sed a propria voluntate sicut a causa
+            proxi<lb ed="#V" n="41" break="no"/>ma &amp; propria. Quia si quis dicat, iste respectus cum sit
+            ra<lb ed="#V" n="42" break="no"/>tionis est effectiue per actum intellectus, sed non
+            intelle<lb ed="#V" n="43" break="no"/>ctus creati qui forte talem respectum non considerat. ergo
+            <lb ed="#V" n="44"/>est solum per actum intellectus diuini, &amp; ita est a solo Deo
+            <lb ed="#V" n="45"/>effectiue. Dicitur quod ille respectus est potentialiter
+            apti<lb ed="#V" n="46" break="no"/>tudinaliter &amp; exigitiue ex parte peccantis, sed completiue
+            <lb ed="#V" n="47"/>est per intellectum qui intelligit peccantem in ordine ad
+            <lb ed="#V" n="48"/>poenam, eo modo quo natura rei exigit, supposita lege
+            di<lb ed="#V" n="49" break="no"/>uina vel humana vel recta ratione. Dicitur vlterius quod
+            <lb ed="#V" n="50"/>similitudo quam ponit magister bona est.
+          </p>
+          <p xml:id="capsco-d3dsyy-d1e3489">
+            Nec valet quod
+            <lb ed="#V" n="51"/>contra eam inducitur. Non quidem primum quia
+            macu<lb ed="#V" n="52" break="no"/>la animae post peccatum remanens non solum dicit
+            caren<lb ed="#V" n="53" break="no"/>tiam habitualis gratiae, nec solum dicit carentiam
+            rectitu<lb ed="#V" n="54" break="no"/>dinis in actu, sed dicit vtrunque scilicet carentiam
+            habi<lb ed="#V" n="55" break="no"/>tualis gratiae causatam ex carentia rectitudinis in actu
+            <lb ed="#V" n="56"/>vel ex actu inordinato, vnde Sanctus Thomas quarto, dis.
+            <lb ed="#V" n="57"/>18. quest. 1. articulo secundo in solutione primae quest. sic
+            <lb ed="#V" n="58"/>dicit. Ex hoc aliquid maculatum dicitur, quia debite
+            <lb ed="#V" n="59"/>pulchritudinis patitur detrimentum, vnde macula
+            secun<lb ed="#V" n="60" break="no"/>dum quod huiusmodi non habet quod aliquid ponat, sed
+            <lb ed="#V" n="61"/>per comparationem ad id quod pulchritudinis causat
+            de<lb ed="#V" n="62" break="no"/>trimentum aliquid quandoque ponere dicitur, sicut
+            ali<lb ed="#V" n="63" break="no"/>quid in facie inductum quod candorem faciei tegit aut
+            <lb ed="#V" n="64"/>priuat. Pulchritudo autem animae consistit in
+            assimilatio<lb ed="#V" n="65" break="no"/>ne ipsius ad Deum, ad quem formari debet per claritatem
+            <lb ed="#V" n="66"/>gratiae ab eo susceptam, sicut autem perceptio claritatis
+            <lb ed="#V" n="67"/>corporalis a sole prohibetur a nobis per aliquod
+            obstacu<lb ed="#V" n="68" break="no"/>lum interpositum, ita etiam claritas gratiae prohibetur ab
+            <lb ed="#V" n="69"/>anima per peccatum commissum, quod diuidit inter nos
+            <lb ed="#V" n="70"/>&amp; Deum, vt dicitur Isaiae ca pitulo. 59. Vnde ipsa macula
+            <lb ed="#V" n="71"/>quantum in se est non ponit de essentia sua nisi
+            priuatio<lb ed="#V" n="72" break="no"/>nem gratiae, sed ponit vt causam obstaculum peccati, quod
+            <lb ed="#V" n="73"/>obstat ad gratiae receptionem, &amp; propter hoc etiam
+            macu<lb ed="#V" n="74" break="no"/>la dicitur tenebra ratione praedictae similitudinis. Haec ille
+            <lb ed="#V" n="75"/>Item ibidem in solutione primi argumenti sic dicit.
+            Quan<cb ed="#V" n="b"/><lb ed="#V" n="76" break="no"/>uis quo ad ipsam priuationem gratiae non differant
+            macu<lb ed="#V" n="77" break="no"/>lae peccatorum, differunt tamen quantum ad causam ex qua
+            <lb ed="#V" n="78"/>macula consequitur, &amp; secundum hoc etiam quodlibet
+            <lb ed="#V" n="79"/>peccatum vnam maculam addit inquantum nouum
+            ob<lb ed="#V" n="80" break="no"/>staculum gratiae ponit. Haec ille.
+          </p>
+          <p xml:id="capsco-d3dsyy-d1e3558">
+            Item secundo sententia.
+            <lb ed="#V" n="81"/>distinction. 42. quaestione prima articulo secundo, in
+            solu<lb ed="#V" n="82" break="no"/>tione quarti sic dicit. Priuatio gratiae non habet rationem
+            <lb ed="#V" n="83"/>maculae, nisi secundum quod ex actu praecedente
+            induci<lb ed="#V" n="84" break="no"/>tur, &amp; ideo secundum diuersitatem actuum sunt etiam
+            di<lb ed="#V" n="85" break="no"/>uersae maculae, quauis enim quolibet actu mortalis
+            pecca<lb ed="#V" n="86" break="no"/>ti quaelibet virtus priuetur, non tamen eodem modo, sed
+            <lb ed="#V" n="87"/>actu luxuriae castitas per se priuatur, &amp; aliae virtutes ex
+            conse<lb ed="#V" n="88" break="no"/>quenti secundum quod sunt castitati annexae. Per furtum
+            <lb ed="#V" n="89"/>autem priuatur per se iustitia, &amp; alie virtutes ex
+            consequen<lb ed="#V" n="90" break="no"/>ti, &amp; sic de alijs, &amp; ideo non oportet quod omnium
+            pecca<lb ed="#V" n="91" break="no"/>torum sit vna macula, vel vnus reatus. Haec ille.
+          </p>
+          <p xml:id="capsco-d3dsyy-d1e3584">
+            Item
+            pri<lb ed="#V" n="92" break="no"/>ma secundae quaest. 86. articulo primo sic dicit. Macula
+            pro<lb ed="#V" n="93" break="no"/>prie dicitur in corporalibus, quando aliquod corpus
+            niti<lb ed="#V" n="94" break="no"/>dum perdit suum nitorem ex contactu alterius corporis,
+            <lb ed="#V" n="95"/>sicut vestis &amp; aurum &amp; argentum aut aliud huiusmodi. In
+            <lb ed="#V" n="96"/>rebus autem spiritualibus ad similitudinem huius
+            opor<lb ed="#V" n="97" break="no"/>tet maculam dici, habet autem anima hominis duplicem
+            <lb ed="#V" n="98"/>nitorem, vnum quidem ex refulgentia luminis naturalis
+            <lb ed="#V" n="99"/>rationis, per quam dirigitur in suis actibus, alium vero ex
+            <lb ed="#V" n="100"/>refulgentia luminis diuini, scilicet sapientiae &amp; gratiae, per
+            <lb ed="#V" n="101"/>quam homo perficitur ad bene &amp; decenter agendum. Est
+            <lb ed="#V" n="102"/>autem quasi quidam animae tactus quando inhaeret
+            aliqui<lb ed="#V" n="103" break="no"/>bus per amorem. Cum autem peccat adhaeret rebus
+            aliqui<lb ed="#V" n="104" break="no"/>bus contra lumen rationis &amp; diuinae legis, vnde ipsum
+            de<lb ed="#V" n="105" break="no"/>trimentum nitoris ex tali contactu proueniens
+            macula<lb ed="#V" n="106" break="no"/>animae metaphorice vocatur.
+          </p>
+          <p xml:id="capsco-d3dsyy-d1e3619">
+            Item ibidem in solutione
+            <lb ed="#V" n="107"/>tertij sic dicit. Macula non est aliquid positiue in anima,
+            <lb ed="#V" n="108"/>sed significat priuationem quandam nitoris animae in
+            or<lb ed="#V" n="109" break="no"/>dine ad suam causam, quae est peccatum, &amp; ideo diuersa
+            <lb ed="#V" n="110"/>peccata diuersas maculas inducunt. Haec ille.
+          </p>
+          <p xml:id="capsco-d3dsyy-d1e3631">
+            Ex quibus
+            <lb ed="#V" n="111"/>patet quod macula non solum dicit priuationem gratiae,
+            <lb ed="#V" n="112"/>nec solum carentiam rectitudinis in actu, vt putat
+            argu<lb ed="#V" n="113" break="no"/>ens, sed importat priuationem gratiae causatam ex
+            inor<lb ed="#V" n="114" break="no"/>dinato actu. Cum autem dicit arguens quod carentia
+            re<lb ed="#V" n="115" break="no"/>ctitudinis in actu non est nata manere &amp;c. non valet, quia
+            <lb ed="#V" n="116"/>priuatio existens subiectiue in actu, licet non sit nata
+            ma<lb ed="#V" n="117" break="no"/>nere non manente actu, tamen transgressio ordinis
+            diui<lb ed="#V" n="118" break="no"/>nae iustitiae, &amp; inaequalitas ex actu inducta manet cessante
+            <lb ed="#V" n="119"/>actu, nec tollitur nisi facta quadam recompensatione, vt
+            <lb ed="#V" n="120"/>supra dictum est. Cum autem vlterius dicit quod
+            macu<lb ed="#V" n="121" break="no"/>la summi odij. 4. &amp; summus amor &amp;c. non valet, vnde hoc
+            <lb ed="#V" n="122"/>argumentum soluit quasi in forma Sanctus Thomas prima
+            <lb ed="#V" n="123"/>secundae quaest. 113. articulo secundo, vbi arguit sic tertio
+            <lb ed="#V" n="124"/>loco. Nullus subijcitur simul duobus contrarijs, sed
+            quae<lb ed="#V" n="125" break="no"/>dam peccata sunt contraria, vt prodigalitas &amp; illiberalitas,
+            <lb ed="#V" n="126"/>ergo qui subijcitur peccato prodigalitatis, non simul
+            su<lb ed="#V" n="127" break="no"/>bijcitur peccato illiberalitatis. Potest tamen contigere
+            <lb ed="#V" n="128"/>quod prius ei subijciebatur, ergo peccando vitio
+            prodiga<lb ed="#V" n="129" break="no"/>litatis, liberatur a peccato illiberalitatis, &amp; sic remittitur
+            <lb ed="#V" n="130"/>aliquod peccatum sine gratia. Ecce argumentum. Sequitur
+            <lb ed="#V" n="131"/>responsio. Dicendum inquit quod sicut dicit Augustinus
+            <lb ed="#V" n="132"/>in li. de nuptijs &amp; concupis. Si a peccato desistere hoc esset
+            <lb ed="#V" n="133"/>non habere peccatum, sufficeret, vt hoc moneret
+            scriptu<lb ed="#V" n="134" break="no"/>ra. Fili peccasti non adijcias iterum, non autem hoc sufficit
+            <lb ed="#V" n="135"/>sed additur, sed de pristinis de precare vt remittantur,
+            tran<lb ed="#V" n="136" break="no"/>sit enim peccatum actu, &amp; remanet reatu. Et ideo cum
+            ali<lb ed="#V" n="137" break="no"/>quis a peccato vnius vitij transit in peccatum contrarij
+            <lb ed="#V" n="138"/>vitij, desinit quidem habere actum praeteriti, sed non
+            de<lb ed="#V" n="139" break="no"/>sinit habere reatum, vnde simul habebit reatum vtriusque
+            <lb ed="#V" n="140"/>peccati, non enim peccata sunt contraria ex parte
+            auersio<lb ed="#V" n="141" break="no"/>nis a Deo, ex qua parte peccatum habet reatum. Haec ille.
+          </p>
+          <p xml:id="capsco-d3dsyy-d1e3701">
+            <lb ed="#V" n="142"/>Et sicut dicit de reatu, ita dicendum est de macula. Ad
+            ter<lb ed="#V" n="143" break="no"/>tium principale conceditur quod macula vel reatus non
+            <lb ed="#V" n="144"/>est aliquid positiuum reale ex peccato derelictum, vnde
+            <lb ed="#V" n="145"/>beatus Thomas prima secundae. q. 86. articulo primo, arguit
+            <lb ed="#V" n="146"/>sic tertio lo. Si peccatum maculam causat, aut illa macula
+            <lb ed="#V" n="147"/>est aliquid positiue aut est priuatio pura, si sit aliquid
+            <lb ed="#V" n="148"/>positiue, non potest esse nisi dispositio vel habitus, nihil
+            <lb ed="#V" n="149"/>enim aliud videtur ex actu causari, sed dispositio vel
+            habi<lb ed="#V" n="150" break="no"/>tus non est. Contingit enim remota dispositione vel
+            habi<pb ed="#V" n="175"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>tu adhuc remanere maculam, vt patet in eo qui mortaliter
+            <lb ed="#V" n="2"/>peccauit prodigalitate, &amp; postea transmutatur mortaliter
+            <lb ed="#V" n="3"/>peccando in habitum vitij oppositi, non ergo macula ponit
+            <lb ed="#V" n="4"/>aliquid positiue in anima &amp;c. Et idem argumentum facit
+            <lb ed="#V" n="5"/>quarto se 1t. dist. 16. q. 1. artic. 2. Cum quibus tamen stat quod
+            <lb ed="#V" n="6"/>macula est priuatio, de qua supra dictum est, &amp; quod
+            rea<lb ed="#V" n="7" break="no"/>tus est obligatio supradicta, quae licet non sit respectus
+            rea<lb ed="#V" n="8" break="no"/>lis, est tamen respectus rationis, vt postea dicetur. Per quid
+            <lb ed="#V" n="9"/>autem dicitur quis peccator cessante actu peccati, supra
+            di<lb ed="#V" n="10" break="no"/>ctum est. Falsum autem est quod dicit arguens, quod
+            sci<lb ed="#V" n="11" break="no"/>licet cessante actu peccati non remaneat alius respectus
+            ra<lb ed="#V" n="12" break="no"/>tionis, nisi qui consequitur actum diuini intellectus aut
+            di<lb ed="#V" n="13" break="no"/>uinae voluntatis, puta respectus ordinati &amp; praeuisi &amp;c. Nam
+            <lb ed="#V" n="14"/>sicut patet ex praedictis transeunte actu peccati remanet
+            re<lb ed="#V" n="15" break="no"/>spectus inaequalitatis, &amp; obligationis, &amp; debiti, &amp;
+            indigni<lb ed="#V" n="16" break="no"/>tatis, &amp; meriti, cum multis alijs.
+          </p>
+          <p xml:id="capsco-d3dsyy-d1e3760">
+            Ad quartum patet ex
+            <lb ed="#V" n="17"/>praedictis. Primo nanque falsum concludit quod ex
+            pecca<lb ed="#V" n="18" break="no"/>to non relinquatur reatus nisi per actum intellectus aut
+            vo<lb ed="#V" n="19" break="no"/>luntatis, sicut enim supra dictum est secundum triplicem
+            <lb ed="#V" n="20"/>ordinem relinquitur triplex reatus, &amp; sic dictus respectus
+            <lb ed="#V" n="21"/>non solum insurgit ex actu diuini intellectus, verum etiam
+            <lb ed="#V" n="22"/>ex actu intellectus ipsius peccantis, vel sui principis, aut
+            su<lb ed="#V" n="23" break="no"/>perioris. Rursus quilibet illorum reatuum non solum
+            in<lb ed="#V" n="24" break="no"/>surgit ex parte intellectus, immo principaliter ex parte
+            ob<lb ed="#V" n="25" break="no"/>iecti. Indignitas enim &amp; deformitas actus &amp; agentis talem
+            <lb ed="#V" n="26"/>respectum &amp; reatum ex natura rei fundat suppositis
+            supe<lb ed="#V" n="27" break="no"/>riori lege &amp; ordine ac omnibus illis quae tali actu violantur,
+            <lb ed="#V" n="28"/>vt supra dictum est. Alias si talis reatus praecise ex actu
+            di<lb ed="#V" n="29" break="no"/>uini intellectus vel voluntatis inesset, &amp; nullo modo ex
+            par<lb ed="#V" n="30" break="no"/>te obiecti exigitiue, non magis ex natura rei reus esset
+            adul<lb ed="#V" n="31" break="no"/>ter quam Dei dilector super omnia, quod est falsum. Ad
+            <lb ed="#V" n="32"/>quintum negatur minor. Dicitur enim quod sicut in
+            pecca<lb ed="#V" n="33" break="no"/>tore post actum peccati remanet reatus poenae qui non
+            so<lb ed="#V" n="34" break="no"/>lum prouenit ex parte intellectus, verum etiam ex parte
+            obie<lb ed="#V" n="35" break="no"/>cti, supposita superiori lege &amp; regula, sic per oppositum
+            dici<lb ed="#V" n="36" break="no"/>tur quod in eo legem seruat &amp; merita multiplicat est
+            respe<lb ed="#V" n="37" break="no"/>ctus meriti &amp; debiti, &amp; congrui vel condigni in ordine ad
+            <lb ed="#V" n="38"/>primum, qui non solum insurgit ex parte diuini intellectus
+            <lb ed="#V" n="39"/>aut voluntatis, verum etiam ex parte obiecti ex natura actus
+            <lb ed="#V" n="40"/>&amp; agentis praesupposita diuina promissione. Conceditur
+            <lb ed="#V" n="41"/>tamen quod vterque respectus est rationis &amp; non realis,
+            cu<lb ed="#V" n="42" break="no"/>ius ratio assignata est superius, &amp; praeter illam potest alia
+            <lb ed="#V" n="43"/>assignari, quia nullus respectus entis ad non ens est realis,
+            <lb ed="#V" n="44"/>sed sic est de vtroque istorum, quia terminus vtriusque est
+            <lb ed="#V" n="45"/>quid futurum nondum actu existens, scilicet poena vel
+            prae<lb ed="#V" n="46" break="no"/>mium, loquendo de poena alterius saeculi, &amp; similiter de
+            glo<lb ed="#V" n="47" break="no"/>ria. Quia autem quilibet talis respectus sit rationis, &amp; non
+            <lb ed="#V" n="48"/>realis ostendit Sanct Thomas de potentia Dei q. 7. artic. 11. vbi sic
+            <lb ed="#V" n="49"/>dicit. Sicut realis relatio consistit in ordine rei ad rem, ita
+            <lb ed="#V" n="50"/>relatio rationis consistit in ordine intellectuum. Quod
+            qui<lb ed="#V" n="51" break="no"/>dem potest dupliciter contingere. Vno modo secundum quod
+            <lb ed="#V" n="52"/>iste ordo est adinuentus per intellectum, &amp; attributus
+            ei<lb ed="#V" n="53" break="no"/>quod relatiue dicitur, &amp; huiusmodi sunt relationes quae
+            at<lb ed="#V" n="54" break="no"/>tribuuntur ab intellectu rebus intellectis prout sunt
+            intel<lb ed="#V" n="55" break="no"/>lectae, sicut relatio generis &amp; speciei. Has enim relationes
+            <lb ed="#V" n="56"/>ratio adinuenit considerans ordinem eius quod est in
+            intel<lb ed="#V" n="57" break="no"/>lectu ad res quae sunt extra, vel etiam ordinem intellectuum
+            <lb ed="#V" n="58"/>adinuicem. Aliomodo secundum quod huiusmodi
+            relatio<lb ed="#V" n="59" break="no"/>nes consequuntur modum intelligendi, videlicet, quia
+            intelle<lb ed="#V" n="60" break="no"/>ctus intelligit aliquid in ordine ad aliud, licet illum ordinem
+            <lb ed="#V" n="61"/>intellectus non adinueniat, sed magis ex quadam
+            necessita<lb ed="#V" n="62" break="no"/>te consequatur modum intelligendi. Et huiusmodi
+            rela<lb ed="#V" n="63" break="no"/>tiones intellectus non attribuit ei quod est in intellectu, sed
+            <lb ed="#V" n="64"/>ei quod est in re. Et hoc quidem contingit secundum quod
+            <lb ed="#V" n="65"/>aliqua non habentia secundum se ordinem ordinate
+            intel<lb ed="#V" n="66" break="no"/>liguntur, licet intellectus non intelligat ea habere ordinem,
+            <lb ed="#V" n="67"/>quia sic esset falsus. Ad hoc autem quod aliqua habeant
+            <lb ed="#V" n="68"/>ordinem oportet quod vtrunque sit ens, &amp; vtrunque
+            distin<lb ed="#V" n="69" break="no"/>ctum, quia eiusdem ad seipsum non est ordo, &amp; vtrunque
+            <lb ed="#V" n="70"/>sit ordinabile ad aliud. Quandoque autem intellectus
+            ac<lb ed="#V" n="71" break="no"/>cipit aliqua duo vt entia, quorum alterum vel neutrum est
+            <lb ed="#V" n="72"/>ens, sicut cum accipit duo futura, vel vnum praesens, &amp; aliud
+            <lb ed="#V" n="73"/>futurum, &amp; intelligit vnum cum ordine ad aliud dicens
+            al<lb ed="#V" n="74" break="no"/>terum esse prius altero: vnde sunt relationes rationis
+            tan<lb ed="#V" n="75" break="no"/>tum, vtpote modum intelligendi consequentes. Quandoque
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="76"/>vero accipit vnum vt duo, &amp; intelligit ea cum quodam
+            or<lb ed="#V" n="77" break="no"/>dine, sicut cum dicitur aliquid esse idem sibiipsi, &amp; 1. c talis
+            <lb ed="#V" n="78"/>relatio est rationis tantum. Quandoque vero accipit
+            ali<lb ed="#V" n="79" break="no"/>qua duo vt ordinabilia adinuicem inter quae non est ordo
+            <lb ed="#V" n="80"/>medius, immo alterum illorum est essentialiter ordo, sicut
+            <lb ed="#V" n="81"/>cum dicit relationem accidere subiecto: vnde talis relatio
+            <lb ed="#V" n="82"/>rationis ad quodcunque aliud tantum rationis est.
+            Quan<lb ed="#V" n="83" break="no"/>doque vero accipit aliquid cum ordine vt primum est
+            ter<lb ed="#V" n="84" break="no"/>minus ordinis alterius ad ipsum, licet ipsum non ordinetur
+            <lb ed="#V" n="85"/>ad aliud, sicut cum accipit scibile vt terminum ordinis
+            scien<lb ed="#V" n="86" break="no"/>tiae ad ipsum, &amp; sic cum quodam ordine ad scientiam
+            no<lb ed="#V" n="87" break="no"/>men scibilis relatiue significat, &amp; est relatio rationis tantum.
+            <lb ed="#V" n="88"/>Et similiter aliqua nomina relatiua Deo attribuit
+            intelle<lb ed="#V" n="89" break="no"/>ctus noster inquantum accipit Deum vt terminum
+            relatio<lb ed="#V" n="90" break="no"/>num creaturarum ad ipsum, vnde huiusmodi relationes sunt
+            <lb ed="#V" n="91"/>rationis tantum. Haec ille.
+          </p>
+          <p xml:id="capsco-d3dsyy-d1e3927">
+            Et sciendum quod tales relationes
+            <lb ed="#V" n="92"/>rationis quandoque habent realem causam in eo quod
+            re<lb ed="#V" n="93" break="no"/>fertur per eas. Vnde Sanctus Thomas ibidem in solutione tertij sic
+            <lb ed="#V" n="94"/>dicit. Sicut aliquid est idem realiter sibiipsi, &amp; non solum
+            <lb ed="#V" n="95"/>secundum rationem, licet relatio sit secundum rationem
+            tan<lb ed="#V" n="96" break="no"/>tum, propter hoc quod relationis causa est realis, scilicet vnitas
+            <lb ed="#V" n="97"/>substantiae quam intellectus sub relatione intelligit, ita
+            po<lb ed="#V" n="98" break="no"/>testas coercendi subditos est in Deo realiter quam
+            intelle<lb ed="#V" n="99" break="no"/>ctus intelligit in ordine ad subditos propter ordinem
+            sub<lb ed="#V" n="100" break="no"/>ditorum ad ipsum, &amp; propter hoc dicitur Dominus realiter,
+            <lb ed="#V" n="101"/>licet relatio sit rationis tantum, &amp; eodem modo apparet quod
+            <lb ed="#V" n="102"/>Dominus esset nullo intellectu existente. Haec ille.
+          </p>
+          <p xml:id="capsco-d3dsyy-d1e3953">
+            Ex quibus
+            <lb ed="#V" n="103"/>apparet primo quod cum reatus sit obligatio ad poenam
+            futu<lb ed="#V" n="104" break="no"/>ram, non potest esse respectus realis, sed rationis tantum:
+            se<lb ed="#V" n="105" break="no"/>cundo quod hoc non obstante peccator dicitur realiter reus &amp;
+            <lb ed="#V" n="106"/>obligatus ad poenam, quia in eo est causa realis talis
+            respe<lb ed="#V" n="107" break="no"/>ctus: tertio quod talis respectus non solum dependet ab
+            intel<lb ed="#V" n="108" break="no"/>lectu, immo a re, &amp; quod dictum est de reatu, intelligendum
+            <lb ed="#V" n="109"/>est de merito congrui vel condigni.
+          </p>
+          <p xml:id="capsco-d3dsyy-d1e3971">
+            Ad sextum dicitur
+            pri<lb ed="#V" n="110" break="no"/>mo quod in casu argumenti in offendente principem cessante
+            <lb ed="#V" n="111"/>actu est aliquid nouum, puta inaequalitas opposita
+            amici<lb ed="#V" n="112" break="no"/>tiae &amp; iustitiae, &amp; obligatio ad paenam quae licet sit respectus
+            <lb ed="#V" n="113"/>rationis, habet tamen realem causam in offendente, &amp; est
+            <lb ed="#V" n="114"/>in ipso potentialiter &amp; exigitiue, licet actualitas respectus
+            <lb ed="#V" n="115"/>qualem natus est habere compleatur per intellectum.
+            Dici<lb ed="#V" n="116" break="no"/>tur secundo quod illa adaptatio quam facit arguens de
+            macu<lb ed="#V" n="117" break="no"/>la &amp; reatu &amp; offensa incompetens est, tum quia macula
+            di<lb ed="#V" n="118" break="no"/>cit quid priuatiuum, tamen quia ordinatio ad poenam
+            re<lb ed="#V" n="119" break="no"/>manet in anima cessante macula peccati, vt patet in
+            contri<lb ed="#V" n="120" break="no"/>to qui nondum plene satisfecit, &amp; sic non sunt idem, tum
+            <lb ed="#V" n="121"/>quia sublata offensa &amp; recuperata amicitia Dei per
+            infusio<lb ed="#V" n="122" break="no"/>nem gratiae gratum facientis potest remanere aliquis
+            rea<lb ed="#V" n="123" break="no"/>tus, vt supra dictum fuit. Falsum est ergo quod idem respectus
+            <lb ed="#V" n="124"/>rationis sit reatus, &amp; macula &amp; offensa, sed macula, sicut
+            di<lb ed="#V" n="125" break="no"/>ctum est supra, est ipsa priuatio luminis gratuiti vel
+            natura<lb ed="#V" n="126" break="no"/>lis ex actu peccati derelicta. Reatus vero est obligatio ad
+            <lb ed="#V" n="127"/>poenam, &amp; differt a macula sicut effectus a sua causa.
+            Of<lb ed="#V" n="128" break="no"/>fensa vero est inaequalitas quaedam quae similiter est causa
+            <lb ed="#V" n="129"/>reatus. De praedictis Sanctus Thomas quarto sent. distin. 14.
+            <lb ed="#V" n="130"/>quaestio. 2. articulo primo, in solutione primae quaestio. sic
+            <lb ed="#V" n="131"/>dicit. Offensa inquantum huiusmodi est inaequalitas
+            quae<lb ed="#V" n="132" break="no"/>dam qua vnus alteri subtrahit quod debitum erat &amp;c. In
+            <lb ed="#V" n="133"/>solutione vero sequentis quaestionis videtur dicere quod
+            <lb ed="#V" n="134"/>offensa sit violatio diuinae amicitiae ex parte peccatorum.
+            <lb ed="#V" n="135"/>Dicit enim sic. Peccator per affectum peccati amicitiam
+            <lb ed="#V" n="136"/>Dei violauit, ex quo amittit gratiam, &amp; incurrit
+            offen¬<lb ed="#V" n="137" break="no"/>sam &amp;caet. vt prius dictum fuit in tertia conclusione.
+            Ve<lb ed="#V" n="138" break="no"/>rum est quod distinct. decimaoctaua, quaestio. prima,
+            arti<lb ed="#V" n="139" break="no"/>culo secundo, in solutione tertiae quaestio. videtur dicere
+            <lb ed="#V" n="140"/>quod offensa sit quaedam indignatio offensi ad
+            offenden<lb ed="#V" n="141" break="no"/>tem. Et forte mens sua est quod offensa ex parte
+            offenden<lb ed="#V" n="142" break="no"/>tis sit inaequalitas, sed ex parte offensi est indignatio. De
+            <lb ed="#V" n="143"/>hoc Sanctus Thomas de veritate quaestio. vigesimaoctaua,
+            <lb ed="#V" n="144"/>articulo secundo sic dicit. Offensa quae ex peccato sequitur,
+            <lb ed="#V" n="145"/>sine gratia aboleri non potest, siue accipiatur offensa ex
+            par<lb ed="#V" n="146" break="no"/>te hominis, inquantum homo peccando Deum offendit,
+            si<lb ed="#V" n="147" break="no"/>ue ex parte Dei secundum quod a peccatore est offensus
+            <lb ed="#V" n="148"/>secundum illud Psalm. Odditi omnes qui operantur
+            mni<lb ed="#V" n="149" break="no"/>quitatem. Quicunque enim rem aliquam digniorem
+            in<lb ed="#V" n="150" break="no"/>digniori supponit, iniuriam ei facit, &amp; tanto amplius
+            quan<pb ed="#V" n="176"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>to res est dignior. Quicunque enim in re temporali finem
+            <lb ed="#V" n="2"/>sibi constituit, quod facit omnis mortaliter peccans, ex hoc
+            <lb ed="#V" n="3"/>ipso quantum ad affectum suum praeponit creaturam
+            crea<lb ed="#V" n="4" break="no"/>tori, diligens plus creaturam quam creatorem, finis enim est
+            <lb ed="#V" n="5"/>quod maxime diligitur. Cum ergo in infinitum Deus
+            crea<lb ed="#V" n="6" break="no"/>turam excedat, erit contra Deum peccantis mortaliter
+            infi<lb ed="#V" n="7" break="no"/>nita offensa ex parte dignitatis eius, cui per peccatum
+            quo<lb ed="#V" n="8" break="no"/>dammodo fit iniuria, dum ipse Deus contemnitur &amp; eius
+            <lb ed="#V" n="9"/>praeceptum. Vnde ad hanc offensam abolendam non
+            suffi<lb ed="#V" n="10" break="no"/>ciunt vires humanae, sed requiritur munus diuinae
+            gratiae<lb ed="#V" n="11" break="no"/>Ipse etiam Deus dicitur peccatori offensus vel eum odire,
+            <lb ed="#V" n="12"/>non odio quod opponitur amori quo diligit omnia, sic enim
+            <lb ed="#V" n="13"/>nihil odit eorum quae fecit, vt dicitur Sapient. 11. sed amori
+            <lb ed="#V" n="14"/>quo diligit sanctos bona aeterna eis praeparando. Huius
+            au<lb ed="#V" n="15" break="no"/>tem amoris effectus est donum gratiae gratum facientis:
+            vne<lb ed="#V" n="16" break="no"/>offensa qua Deus homini offenditur, non remouetur nisi
+            per<lb ed="#V" n="17" break="no"/>hoc quod gratiam dat. Haec ille.
+          </p>
+          <p xml:id="capsco-d3dsyy-d1e4102">
+            Similia dicit prima
+            secun<lb ed="#V" n="18" break="no"/>dae q. 113. artic. 2. Quia autem macula &amp; reatus non sint idem,
+            <lb ed="#V" n="19"/>ostendit eadem dist. 18. q. 1. artic. 2. q. 3. dicens. In peccato
+            <lb ed="#V" n="20"/>duo sunt, scilicet conuersio ad bonum commutabile, &amp;
+            auer<lb ed="#V" n="21" break="no"/>sio ab incommutabili bono, &amp; secundum hoc duo sunt
+            effe<lb ed="#V" n="22" break="no"/>ctus peccati. Vnus est indignatio Dei ad nos auersioni
+            cor<lb ed="#V" n="23" break="no"/>respondens. Alius est poena inordinatam conuersionem
+            or<lb ed="#V" n="24" break="no"/>dinans, &amp; quia primum in peccato ex parte nostra est
+            con<lb ed="#V" n="25" break="no"/>uersio, &amp; quod est prius in generatione est posterius in
+            de<lb ed="#V" n="26" break="no"/>structione, ideo ex parte Dei primo est reconciliatio illius
+            <lb ed="#V" n="27"/>ad nos, secundum est liberatio a debito poenae, sed paena est
+            <lb ed="#V" n="28"/>duplex, scilicet exterminans hostes, &amp; talis paena in ipsa
+            re<lb ed="#V" n="29" break="no"/>conciliatione remouetur. Alia poena est quae corrigit ciuem
+            <lb ed="#V" n="30"/>vel amicum, &amp; debitum illius potest remanere
+            reconcilia<lb ed="#V" n="31" break="no"/>tione iam facta, &amp; ideo simul cum peccatum remittitur quo
+            <lb ed="#V" n="32"/>ad maculam, remittitur quo ad poenam aeternam quae est ex
+            <lb ed="#V" n="33"/>terminans, sed non quo ad paenam temporalem quae est
+            cor<lb ed="#V" n="34" break="no"/>rigens. Haec ille.
+          </p>
+          <p xml:id="capsco-d3dsyy-d1e4141">
+            Item ibidem in solutione primi sic dicit
+            <lb ed="#V" n="35"/>Sicut actus praecedens fuit causa maculae, &amp; tamen
+            transeun<lb ed="#V" n="36" break="no"/>te actu non transit macula, ita actus mediante macula fuit
+            <lb ed="#V" n="37"/>causa debiti poenae, &amp; ideo non oportet quod cessante
+            macula<lb ed="#V" n="38" break="no"/>debitum paenae cesset, quia cessante primo effectu non
+            opor<lb ed="#V" n="39" break="no"/>tet quod cesset secundus. Haec ille.
+          </p>
+          <p xml:id="capsco-d3dsyy-d1e4154">
+            Item secundo sent. dist. 42.
+            <lb ed="#V" n="40"/>in expositione litterae sic dicit. Macula est medium inter
+            <lb ed="#V" n="41"/>actum peccati &amp; reatum quasi effectus ipsius actus &amp;
+            fun<lb ed="#V" n="42" break="no"/>damentum reatus. Haec ille. Ex quibus patet quod macula
+            rea<lb ed="#V" n="43" break="no"/>tus &amp; offensa non sunt idem respectus per essentiam, vt
+            pu<lb ed="#V" n="44" break="no"/>tat arguens.
+          </p>
+          <p xml:id="capsco-d3dsyy-d1e4167">
+            Ad primum Aureoli contra eandem
+            conclu<lb ed="#V" n="45" break="no"/>sionem dicitur, quod supponit duo falsa. Primum est quod Sanctus
+            <lb ed="#V" n="46"/>Thomas ponat hominem dici formaliter peccatorem
+            transeun<lb ed="#V" n="47" break="no"/>te actu peccati praecise per respectum qui dicitur reatus vel
+            <lb ed="#V" n="48"/>obligatio ad poenam, huius enim oppositum dictum est prius,
+            <lb ed="#V" n="49"/>secundum est quod reatus sit respectus realis.
+          </p>
+          <p xml:id="capsco-d3dsyy-d1e4180">
+            Ad secundum
+            pa<lb ed="#V" n="50" break="no"/>tet per idem. Cum enim talis respectus non sit realis, non
+            <lb ed="#V" n="51"/>oportet sibi assignare genus reale proprie loquendo. Potest
+            <lb ed="#V" n="52"/>tamen reduci ad genus ad aliquid, cum habeat aliquam
+            con<lb ed="#V" n="53" break="no"/>uenientiam cum relatiuis consequentibus agere vel pati,
+            si<lb ed="#V" n="54" break="no"/>cut meritum &amp; demeritum, debitum, dignum, obligatum,
+            <lb ed="#V" n="55"/>&amp; similia.
+          </p>
+          <p xml:id="capsco-d3dsyy-d1e4196">
+            Ad tertium patet ex dictis, quia fundatur in
+            fal<lb ed="#V" n="56" break="no"/>so. Non enim obligatio ad poenam temporalem vel aeternam
+            <lb ed="#V" n="57"/>est id, quo quis dicitur formaliter peccator, sed potius
+            pec<lb ed="#V" n="58" break="no"/>catum praesens aut praeteritum, manens tamen in suo
+            effe<lb ed="#V" n="59" break="no"/>ctu, puta in aequalitate, vel offensa, vel macula aut alio simili.
+            <lb ed="#V" n="60"/>Ad ea similiter quae secundo loco inducit contra
+            conclu<lb ed="#V" n="61" break="no"/>sionem patet quod falsum supponunt, non enim Sanctus Thomas
+            po<lb ed="#V" n="62" break="no"/>nit quod aliquis dicatur formaliter peccator transeunte actu
+            <lb ed="#V" n="63"/>peccati per aliquam priuationem actualis iustitiae vel
+            gra<lb ed="#V" n="64" break="no"/>tiae in voluntate praecise, nec similiter per talem priuationem,
+            <lb ed="#V" n="65"/>vt est derelicta ex actu peccati, sed vt dictum est, ille qui
+            pec<lb ed="#V" n="66" break="no"/>catum commisit transeunte actu peccati nondum peccato
+            <lb ed="#V" n="67"/>remisso per gratiam, aut gratiae Sacramento in illo
+            interme<lb ed="#V" n="68" break="no"/>dio dicitur formaliter peccator per peccatum praecedens
+            <lb ed="#V" n="69"/>aliquo modo manens in suo effectu derelicto ex parte
+            con<lb ed="#V" n="70" break="no"/>uersionis vel auersionis. Nec oportet quod si iste dicatur actu
+            <lb ed="#V" n="71"/>peccator, quod sit formaliter peccator per aliquid quod est
+            <lb ed="#V" n="72"/>actu praesens, quia non vniuoce dicitur quis peccator esse,
+            <lb ed="#V" n="73"/>dum actu peccat, &amp; dum cessat ab actu peccati, licet non a
+            <lb ed="#V" n="74"/>reatu, &amp; ideo propter talem analogiam huius nominis
+            pec<lb ed="#V" n="75" break="no"/>cator, &amp; non vniuocationem potest quis denominari
+            pec<cb ed="#V" n="b"/><lb ed="#V" n="76" break="no"/>cator formaliter non solum a peccato praesente, immo a
+            pee<lb ed="#V" n="77" break="no"/>cato praeterito, dummodo aliqualiter maneat.
+          </p>
+          <p xml:id="capsco-d3dsyy-d1e4248">
+            Ad illud quod
+            <lb ed="#V" n="78"/>tertio loco adducit patet responsio, tum quia falsum
+            sup<lb ed="#V" n="79" break="no"/>ponit &amp; false imponit, tum quia prima consequentia
+            argu<lb ed="#V" n="80" break="no"/>menti non valet, quia non oportet quod macula sit habitus, aut
+            <lb ed="#V" n="81"/>habilitas vel dispositio, nec aliquid positiuum absolutum
+            <lb ed="#V" n="82"/>aut relatiuum, sed quid sit, superius dictum est saepius, &amp;
+            <lb ed="#V" n="83"/>ita patet quod argumenta contra conclusiones inducta non
+            <lb ed="#V" n="84"/>valent.
+          </p>
+          <p xml:id="capsco-d3dsyy-d1e4266">
+            Ad argumentum contra quaestionem respondet
+            San<lb ed="#V" n="85" break="no"/>ctus Thomas tertia parte q. 86. artic. 4. in solutio. primi vbi sic
+            <lb ed="#V" n="86"/>dicit. Culpa mortalis vtrunque habet, &amp; auersionem a Deo,
+            <lb ed="#V" n="87"/>&amp; conuersionem ad bonum creatum, sed auersio a Deo est
+            <lb ed="#V" n="88"/>ibi sicut formale, conuersio autem ad bonum creatum
+            est<lb ed="#V" n="89" break="no"/>est ibi sicut materiale. Remoto autem formali cuiussibes
+            <lb ed="#V" n="90"/>rei tollitur res ipsa, sicut remoto rationali tollitur species
+            <lb ed="#V" n="91"/>humana. Et ideo ex hoc ipso dicitur culpa mortalis
+            remit<lb ed="#V" n="92" break="no"/>ti quod per gratiam tollitur auersio mentis a Deo simul cum
+            <lb ed="#V" n="93"/>reatu paenae aeternae. Remanet tamen id quod est materiale,
+            <lb ed="#V" n="94"/>scilicet inordinata conuersio ad bonum creatum, pro quo
+            <lb ed="#V" n="95"/>debetur reatus paenae temporalis. Haec ille. Et haec de
+            quae<lb ed="#V" n="96" break="no"/>stione dicta sufficiant. De qua benedictus Deus. Amen
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

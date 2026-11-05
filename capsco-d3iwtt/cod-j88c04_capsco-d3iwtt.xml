@@ -1,0 +1,805 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 4, Distinctio 16, Quaestio 2</title>
+        <author ref="#JohannesCapreolus">Johannes Capreolus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 4, Distinctio 16, Quaestio 2</title>
+          <date when="2026-11-04">Nov 4, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-j88c04">Venice, 1589, v. 4</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-04" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="195"/>
+        <cb ed="#V" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="capsco-d3iwtt"><!-- l4d16q2 -->
+        <head xml:id="capsco-d3iwtt-Hd1e101">Quaestio 2</head>
+        <head xml:id="capsco-d3iwtt-Hd1e103" type="question-title">Utrum poenitentia habeat partes</head>
+        <p xml:id="capsco-d3iwtt-d1e106">
+          <lb ed="#V" n="112"/>QVAESTIO II.
+          <lb ed="#V" n="113"/>Vtrum poenitentia habeat partes
+        </p>
+        <p xml:id="capsco-d3iwtt-d1e113">
+          <lb ed="#V" n="114"/><milestone ed="#V" unit="p" rend="initial"/> TERVM circa eandem distinctionem
+          <lb ed="#V" n="115"/>quaeritur. Vtrum poenitentia habeat
+          <lb ed="#V" n="116"/>partes.
+        </p>
+        <p xml:id="capsco-d3iwtt-d1e123">
+          Et arguitur quod non. Pnia enim
+          <lb ed="#V" n="117"/>est virtus &amp; sacramentum, sed ei
+          in<lb ed="#V" n="118" break="no"/>quantum est virtus non assignantur
+          <lb ed="#V" n="119"/>partes, cum virtus sit habitus quidam qui
+          <lb ed="#V" n="120"/>est simplex qualitas mentis. Similiter
+          <lb ed="#V" n="121"/>etiam ei poenitentiae inquantum est sacramentum non
+          <lb ed="#V" n="122"/>videtur quod partes sint assignandae, quia baptismo &amp;
+          <lb ed="#V" n="123"/>alijs sacramentis non assignantur partes, ergo
+          poeniten<lb ed="#V" n="124" break="no"/>tiae nullae partes debent assignari.
+        </p>
+        <p xml:id="capsco-d3iwtt-d1e144">
+          <lb ed="#V" n="125"/><milestone ed="#V" unit="p" rend="indent"/> In oppositum arguitur, quia partes sunt, ex quibus
+          per<lb ed="#V" n="126" break="no"/>fectio alicuius integratur, sed poenitentiae perfectio
+          in<lb ed="#V" n="127" break="no"/>tegratur ex pluribus scilicet ex contritione, confessione
+          <lb ed="#V" n="128"/>&amp; satisfactione, ergo poenitentia habet partes.
+        </p>
+        <p xml:id="capsco-d3iwtt-d1e156">
+          <lb ed="#V" n="129"/><milestone ed="#V" unit="p" rend="indent"/> In hac quaestione sunt tres articuli. In primo ponentur
+          <lb ed="#V" n="130"/>conclusiones. In 2. obiectiones. In tertio, solutiones.
+        </p>
+        <div xml:id="capsco-d3iwtt-Dd1e164">
+          <head xml:id="capsco-d3iwtt-Hd1e166">Articulus 1</head>
+          <p xml:id="capsco-d3iwtt-d1e168">
+            <lb ed="#V" n="131"/><milestone ed="#V" unit="p" rend="initial"/> QVantum ad primum articulum sit prima conclusio.
+            <lb ed="#V" n="132"/>Paenitentia habet partes. Hanc ponit Sanctus Thoma
+            <lb ed="#V" n="133"/>praesenti dist. q. 1. ar. primo in solutione primae quaest
+            <lb ed="#V" n="134"/>dicens. In poenitentia non est pro materia aliqua res
+            ex<lb ed="#V" n="135" break="no"/>terior sicut in baptismo aqua, sed ipse actus humanus
+            lo¬<lb ed="#V" n="136" break="no"/>co materiae in hoc sacramento se habet qui per quandam
+            <lb ed="#V" n="137"/>recompensationem offensam culpae praecedentis tollit.
+            <lb ed="#V" n="138"/>In actibus autem humanis est quidam gradus ad
+            perfe¬<lb ed="#V" n="139" break="no"/>ctionem pertingendi propter diuersas partes hominis
+            qua<lb ed="#V" n="140" break="no"/>rum vnam aliam mouet, &amp; ideo oportet quod diuersa
+            se<lb ed="#V" n="141" break="no"/>cundum ordinem ad perfectionem poenitentiae
+            conside<lb ed="#V" n="142" break="no"/>rentur, &amp; haec dicuntur poenitentiae partes. Haec ille.
+            <lb ed="#V" n="143"/>Simile dicit tertia parte quaestio 9o. articulo primo.
+            Par<lb ed="#V" n="144" break="no"/>tes inquit rei sunt in quas materialiter diuiditur totum
+            <lb ed="#V" n="145"/>habent enim se partes sicut materia ad formam. Vnde
+            <lb ed="#V" n="146"/>in secundo. phy. partes ponuntur in genere causae materialis
+            <lb ed="#V" n="147"/>totum autem in genere causae formalis. Vbicunque ergo ex parte
+            <pb ed="#V" n="196"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>materiae inuenitur aliqua pluralitas ibi est inuenire partium
+            <lb ed="#V" n="2"/>rationem. In sacramento autem paenitentiae actus
+            humani<lb ed="#V" n="3" break="no"/>se habent per modum materiae. Et ideo cum plures actus
+            <lb ed="#V" n="4"/>humani requirantur ad perfectionem poenitentiae scilicet
+            <lb ed="#V" n="5"/>contritio confessio &amp; satisfactio, consequens est quod
+            sacra<lb ed="#V" n="6" break="no"/>mentum poenitentiae habeat partes. Haec ille. Ex quibus potest
+            <lb ed="#V" n="7"/>formari talis ratio. Omne sacramentum habens plures &amp;
+            <lb ed="#V" n="8"/>diuersos actus secundum speciem loco materiae habet partes, sed
+            <lb ed="#V" n="9"/>poenitentia est huiusmodi, ergo &amp;c.
+          </p>
+          <p xml:id="capsco-d3iwtt-d1e232">
+            Secunda conclusio.
+            Pae<lb ed="#V" n="10" break="no"/>nitentia secundum quod est virtus non habet partes. Hanc
+            po<lb ed="#V" n="11" break="no"/>nit praesenti dist. vbi supra in solutione quartae. q. vbi sic
+            di<lb ed="#V" n="12" break="no"/>cit. Ab eo quod sequitur rem non accidit aliqua compositio
+            <lb ed="#V" n="13"/>in re, quia componentia sunt priora compositis. Vnde cum
+            <lb ed="#V" n="14"/>actus nostri sint posteriores virtutibus, a quibus eliciuntur
+            <lb ed="#V" n="15"/>diuersi actus qui secundum ordinem a virtute aliqua
+            pro<lb ed="#V" n="16" break="no"/>grediuntur non faciunt aliquam compositionem in
+            virtu<lb ed="#V" n="17" break="no"/>te, &amp; ideo praedicta tria non sunt partes paenitentiae virtutis
+            <lb ed="#V" n="18"/>sed poenitentiae sacramenti, quia ipsi actus sunt quasi
+            ma<lb ed="#V" n="19" break="no"/>teria sacramenti, &amp; penes diuisionem materiae partes rei
+            <lb ed="#V" n="20"/>quandoque sumuntur. Haec ille. Item tertia parte vbi
+            supra<lb ed="#V" n="21" break="no"/>in solutione 2. sic dicit. Paenitentiae secundum quod est virtus non
+            as<lb ed="#V" n="22" break="no"/>signantur partes, actus enim humani qui multiplicantur in
+            <lb ed="#V" n="23"/>poenitentia non comparantur ad habitum virtutum
+            si<lb ed="#V" n="24" break="no"/>cut partes, sed sicut essectus, vnde relinquitur quod partes
+            assi<lb ed="#V" n="25" break="no"/>gnentur poenitentiae inquantum est sacramentum ad quod
+            <lb ed="#V" n="26"/>actus humani comparantur vt materia. In alijs autem
+            sacra<lb ed="#V" n="27" break="no"/>mentis materia non sunt actus humani, sed aliqua
+            mate<lb ed="#V" n="28" break="no"/>ria exterior, vel vna quidem simplex vt aqua vel oleum
+            si<lb ed="#V" n="29" break="no"/>ue composita vt chrisma, &amp; ideo alijs sacramentis non
+            as<lb ed="#V" n="30" break="no"/>siguantur partes. Haec ille. Ex quibus potest formari talis ratio
+            <lb ed="#V" n="31"/>pro conclusione. Nullus habitus habet actus humanos
+            <lb ed="#V" n="32"/>pro partibus, sed virtus poenitentiae est quidam habitus,
+            <lb ed="#V" n="33"/>partes autem poenitentiae sunt actus humani, ergo &amp;c.
+          </p>
+          <p xml:id="capsco-d3iwtt-d1e287">
+            Ter<lb ed="#V" n="34" break="no"/>tia conclusio. Partes poenitentiae conuenienter
+            assignan<lb ed="#V" n="35" break="no"/>tur tres scilicet contritio confessio satisfactio. Hanc ponit
+            ter<lb ed="#V" n="36" break="no"/>tia parte vbi supra ar. 2. vbi sic dicit. Duplex est pars vt dicitur,
+            <lb ed="#V" n="37"/>5. meta scilicet pars essentiae, &amp; pars quantitatis, partes quidem
+            <lb ed="#V" n="38"/>essentiae sunt naturaliter materia &amp; forma. Logice autem
+            <lb ed="#V" n="39"/>genus &amp; differentia. Hoc autem modo quodlibet
+            sacramen<lb ed="#V" n="40" break="no"/>tum diuiditur in materiam &amp; formam sicut in partes
+            essen<lb ed="#V" n="41" break="no"/>tiae, vnde supra dictum est, quod sacramenta consistunt in
+            <lb ed="#V" n="42"/>rebus &amp; in verbis. Sed quia quantitas tenet se ex parte
+            ma<lb ed="#V" n="43" break="no"/>teriae, partes quantitatis sunt partes materiae, &amp; hoc modo
+            <lb ed="#V" n="44"/>sacramento paenitentiae specialiter assignantur partes quam
+            <lb ed="#V" n="45"/>tum ad actus poenitentis qui sunt materia huius sacramenti.
+            Di<lb ed="#V" n="46" break="no"/>ctum est autem supra quod aliomon fit recompensatio offensae in
+            <lb ed="#V" n="47"/>poenitentia &amp; in iustitia vindicatiua, nam in vindicatiua
+            <lb ed="#V" n="48"/>iustitia fit recompensatio secundum arbitrium iudicis, non secundum
+            <lb ed="#V" n="49"/>voluntatem offendentis vel offensi, sed in poenitentia sit
+            <lb ed="#V" n="50"/>recompensatio offensae secundum voluntatem peccantis, &amp; secundum
+            <lb ed="#V" n="51"/>arbitrium Dei in quem peccatur, quia hic non quaeritur
+            <lb ed="#V" n="52"/>sola reintegratio aequalitatis iustitiae, sicut in iustitia
+            vin<lb ed="#V" n="53" break="no"/>dicatiua, sed magis reconciliatio amicitiae, quod fit dum
+            <lb ed="#V" n="54"/>offendens recompensat secundum voluntatem eius, quem
+            offen<lb ed="#V" n="55" break="no"/>dit. Sic ergo requiritur ex parte poenitentis primo quidem
+            <lb ed="#V" n="56"/>voluntas recompensandi, quod fit per contritionem: 2. quod
+            <lb ed="#V" n="57"/>se subijciat arbitrio sacerdotis loco Dei, quod sit in
+            con<lb ed="#V" n="58" break="no"/>fessione: 3. quod recompenset secundum arbitrium ministri, quod fit
+            <lb ed="#V" n="59"/>in satisfactione, &amp; ideo contritio confessio &amp; satisfactio
+            <lb ed="#V" n="60"/>ponuntur partes poenitentiae. Haec ille.
+          </p>
+          <p xml:id="capsco-d3iwtt-d1e348">
+            Similia ponit
+            prae<lb ed="#V" n="61" break="no"/>senti, dist. q. 1. arti. primo in solutione 2. q. quae recitata
+            fue<lb ed="#V" n="62" break="no"/>runt superius dist. 14. ait enim sic Poenitentia culpae praecedem
+            <lb ed="#V" n="63"/>tis offensam abolet per modum recompensationis
+            cuius<lb ed="#V" n="64" break="no"/>dam. Haec autem recompensatio differt a recompensatio
+            <lb ed="#V" n="65"/>ne vindicatiuae iustitiae in duobus, &amp;c. vt supra recitatum
+            <lb ed="#V" n="66"/>fuit. Ex quibus potest formari talis ratio pro conclusione.
+            <lb ed="#V" n="67"/>Tot &amp; non plures sunt partes poenitentiae quot sunt actus
+            <lb ed="#V" n="68"/>poenitentis requisiti ad recompensationem Deo fiendam,
+            <lb ed="#V" n="69"/>sed ad talem recompensationem requiruntur isti tres actus
+            <lb ed="#V" n="70"/>poenitentis &amp; non plures nec alij scilicet contritio satisfactio &amp;
+            <lb ed="#V" n="71"/>confessio, ergo tot &amp; tales &amp; non plures, nec alij sunt
+            par<lb ed="#V" n="72" break="no"/>tes poenitentiae.
+          </p>
+          <p xml:id="capsco-d3iwtt-d1e378">
+            Quarta conclusio. Praedictae partes
+            dicun<lb ed="#V" n="73" break="no"/>tur partes poenitentiae integrales, non autem proprie
+            su<lb ed="#V" n="74" break="no"/>biectiuae nec potentiales. Hanc ponit praesenti dist. q. 1. arti.
+            <lb ed="#V" n="75"/>primo in solutione. 3. q. ait enim sic. Quidam dicunt quod illa
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="76"/>tria sunt partes subiectiuae poenitentiae vno modo
+            poeniten<lb ed="#V" n="77" break="no"/>tiam considerando secundum quod habent rationem tantum
+            poe<lb ed="#V" n="78" break="no"/>nae, quia quaelibet harum partium est punitio quaedam. Sed
+            <lb ed="#V" n="79"/>hoc non potest esse, quia totum vniuersale non praedicatur
+            <lb ed="#V" n="80"/>in singulari de suis partibus pluralibus simul sumptis siue
+            <lb ed="#V" n="81"/>sit genus siue species. Tres enim homines non sunt animal, sed animalia,
+            <lb ed="#V" n="82"/>vnde cum tres partes poenitentiae non sint tres pniae, sed
+            <lb ed="#V" n="83"/>vna, non potest esse quod sint tres partes subiectiuae.
+          </p>
+          <p xml:id="capsco-d3iwtt-d1e407">
+            Praeterea,
+            <lb ed="#V" n="84"/>poena quam paenitens patitur tota in rationem
+            satisfactio<lb ed="#V" n="85" break="no"/>nis cadit. Non enim sola poenitentia exteriori homo Deo satisfacit,
+            <lb ed="#V" n="86"/>sed etiam interiori, alias oratio mentalis non esset
+            satisfa<lb ed="#V" n="87" break="no"/>ctoria. Vnde &amp; poena quae est in contritione, &amp; quae est in
+            <lb ed="#V" n="88"/>satisfactione in partem satisfactionis cedit. Et quia
+            satisfa<lb ed="#V" n="89" break="no"/>ctio est vltima pars totum sacramentum a poena denominatur
+            si<lb ed="#V" n="90" break="no"/>cut res denominatur ab vltimo sui. Et ideo alij dicunt
+            <lb ed="#V" n="91"/>quod sunt partes potentiales. Sed hoc iterum non
+            po<lb ed="#V" n="92" break="no"/>test esse, quia in partibus potentialibus totum adest
+            secun<lb ed="#V" n="93" break="no"/>dum essentiae suae ratione cuilibet parti complete, sicut
+            essen<lb ed="#V" n="94" break="no"/>tia animae cuilibet potentiae, sed tota ratio paenitentiae secundum
+            spe<lb ed="#V" n="95" break="no"/>ciem non est in quolibet horum.
+          </p>
+          <p xml:id="capsco-d3iwtt-d1e436">
+            Praeterea vnum eorum
+            <lb ed="#V" n="96"/>non includit in se vim omnium aliorum, quod requiritur:
+            <lb ed="#V" n="97"/>in partibus potentialibus sed vnunquodque officium suum
+            ser<lb ed="#V" n="98" break="no"/>uit, &amp; ideo dicendum cum alijs quod sunt partes
+            inte<lb ed="#V" n="99" break="no"/>grales. Sed sciendum est quod partes integrales sunt
+            du<lb ed="#V" n="100" break="no"/>plices, quaedam sunt partes quantitatis quae sunt
+            quan<lb ed="#V" n="101" break="no"/>doquae vnius rationis vt in totis homogeneis, quandoque
+            <lb ed="#V" n="102"/>vero diuersarum rationum vt in totis aetherogeneis.
+            Quae<lb ed="#V" n="103" break="no"/>dam vero sunt partes essentie, sicut materia, &amp; forma
+            <lb ed="#V" n="104"/>non aut quantitatis, &amp; hae semper sunt diuersarum
+            ratio<lb ed="#V" n="105" break="no"/>num, &amp; habent ordinem naturae ad inuicem, &amp; quandoque etiam
+            <lb ed="#V" n="106"/>ordinem temporis in his quorum esse non est simul, &amp; huomdod
+            <lb ed="#V" n="107"/>sunt partes de quibus loquimur, quia poenitentiae sacramentum secundum rationem
+            <lb ed="#V" n="108"/>suae speciei ex his tribus integratur, &amp; vna est prioralia secundum
+            <lb ed="#V" n="109"/>materiam, &amp; quandoque etiam secundum tempus, eorum enim actuum qui sunt
+            <lb ed="#V" n="110"/>in poenitentia materiales non est totum esse simul, sed
+            suc<lb ed="#V" n="111" break="no"/>cedunt sibi inuicem. Sed quaodquoed plures eorum quorum vnus est
+            <lb ed="#V" n="112"/>prior alio per naturam sunt simul tempore. Haec ille.
+          </p>
+          <p xml:id="capsco-d3iwtt-d1e475">
+            Simi<lb ed="#V" n="113" break="no"/>lia dicit 3. parte q. 90. ar. 3. Ex quibus potest formari talis ratio
+            <lb ed="#V" n="114"/>pro conclusione. Illae partes de quibus simul sumptis totum
+            <lb ed="#V" n="115"/>praedicatur in singulari numero &amp; non in plurali, &amp; quarum
+            <lb ed="#V" n="116"/>nulli totum adest complete secundum totam essentiae rationem, sunt
+            par<lb ed="#V" n="117" break="no"/>tes integrales, non autem subiectiuae nec potentiales, sed
+            contri<lb ed="#V" n="118" break="no"/>tio confessio &amp; satisfactio sunt huiusmodi partes respectu poenitentiae,
+            <lb ed="#V" n="119"/>ergo sunt eius partes integrales &amp; non subiectiue nec
+            po<lb ed="#V" n="120" break="no"/>tentiales. Et in hoc primus articulus terminatur.
+          </p>
+        </div>
+        <div xml:id="capsco-d3iwtt-Dd1e496">
+          <head xml:id="capsco-d3iwtt-Hd1e498">Articulus 2</head>
+          <p xml:id="capsco-d3iwtt-d1e500">
+            <lb ed="#V" n="121"/><milestone ed="#V" unit="p" rend="initial"/> Vantum ad secundum articulum arguitur contra
+            conclu<lb ed="#V" n="122" break="no"/>siones. Et quidem contra primam &amp; tertiam
+            conclu<lb ed="#V" n="123" break="no"/>siones arguit Durandus probando quod poenitentia vt
+            <lb ed="#V" n="124"/>est sacramentum non habeat pro partibus tria praedicta scilicet contritionem
+            <lb ed="#V" n="125"/>confessionem &amp; satisfactionem. Primo quia omne sacramentum
+            dispen<lb ed="#V" n="126" break="no"/>satur a ministris ecclesiae secundum quamlibet sui partem, sed nec
+            conur<lb ed="#V" n="127" break="no"/>tio nec confessio nec satisfactio confertur poenitenti a
+            mi<lb ed="#V" n="128" break="no"/>nistris ecclesiae. ergo non quodlibet eorum est pars sacramenti
+            <lb ed="#V" n="129"/>poenitentiae. Secundo. Si illae sunt partes sacramenti poenitentiae, aut sunt
+            <lb ed="#V" n="130"/>partes subiectiuae, aut integrales. Non subiectiuae, quia
+            to<lb ed="#V" n="131" break="no"/>tum saluatur perfecte in qualibet parte subiectiua, sed
+            sa<lb ed="#V" n="132" break="no"/>cramentum poenitentiae non saluatur perfecte in aliqua
+            ista<lb ed="#V" n="133" break="no"/>rum trium partium, quia sacramentum poenitentiae non saluatur
+            <lb ed="#V" n="134"/>perfecte in sola contritione, &amp; sic de alijs, ergo non sunt
+            <lb ed="#V" n="135"/>partes subiectiuae. Nec integrales, quia totum integrale
+            requi<lb ed="#V" n="136" break="no"/>rit actualiter qualibet sui partem, sed sacramentum poenitentiae dum
+            exhi<lb ed="#V" n="137" break="no"/>betur non requirit actualiter satisfactionem, ergo satisfactio
+            <lb ed="#V" n="138"/>non est de eius integritate. Tertio. Quia praeter materiam
+            <lb ed="#V" n="139"/>&amp; formam in sacramentis non est dare alias partes proprie
+            <lb ed="#V" n="140"/>dictas, sed contritio &amp; satisfactio non sunt materia nec
+            <lb ed="#V" n="141"/>forma sacramenti poenitentiae. Forma enim consistit in verbis absolutionis,
+            <lb ed="#V" n="142"/>materia vero si qua sit in verbis confessionis, quibus paenitens
+            <lb ed="#V" n="143"/>suam conscientiam aperit sacerdoti, ergo contritio &amp;
+            satisfa<lb ed="#V" n="144" break="no"/>ctio non sunt partes sacramenti poenitentiae proprie loquendo. Secundo,
+            <lb ed="#V" n="145"/>spaliter arguit de contritione, quia quicquid est de
+            integri<lb ed="#V" n="146" break="no"/>tate sacramenti, oportet quod sit aliquid sensibile extrinsecus ad
+            ha<lb ed="#V" n="147" break="no"/>bitum, loquimur enim modo de illo quod est sacramentum tantum, sed
+            con<lb ed="#V" n="148" break="no"/>tritio non est huomodi, ergo non est de integritate facturi
+            tan<lb ed="#V" n="149" break="no"/>quam pars intrinseca sacramenti poenitentiae, sed praeexigitur necesario ad hoc
+            <lb ed="#V" n="150"/>vt poenitens sit dispositus ad suscipiendum effectum sacramenti, qui est
+            <pb ed="#V" n="197"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>gratia &amp; remissio peccati mortalis, quia nullum peccatum
+            <lb ed="#V" n="2"/>potest remitti quandiu voluntas manet in eo. Voluntatem
+            <lb ed="#V" n="3"/>autem recedere ab eo quod prius volebat est displicere
+            ei<lb ed="#V" n="4" break="no"/>quod prius placebat, in qua displicentia dolor
+            contritio<lb ed="#V" n="5" break="no"/>nis consistit, &amp; ideo contritio requiritur tanquam
+            disposi<lb ed="#V" n="6" break="no"/>tio necessaria poenitentis, &amp; non tanquam pars intrinseca
+            <lb ed="#V" n="7"/>sacramenti.
+          </p>
+          <p xml:id="capsco-d3iwtt-d1e588">
+            Quinto arguit specialiter de satisfactione, quia
+            <lb ed="#V" n="8"/>deficiente aliquo quod est de necessitate sacramenti
+            fru<lb ed="#V" n="9" break="no"/>stratur totum sacramentum, sed si aliqui non exsoluant
+            <lb ed="#V" n="10"/>poenitentiam in confessione sibi iniunctam nihilominus
+            <lb ed="#V" n="11"/>prius fuit verum sacramentum, ergo satisfactio non est de
+            <lb ed="#V" n="12"/>intraneitate sacramenti poenitentiae tanquam pars. Sed
+            si<lb ed="#V" n="13" break="no"/>cut contritio praeexigitur tanquam dispositio
+            poeniten<lb ed="#V" n="14" break="no"/>tis, sine qua effectum sacramenti non reciperet, sic
+            satisfa<lb ed="#V" n="15" break="no"/>ctio concomitatur tanquam operatio sine qua fructus
+            sa<lb ed="#V" n="16" break="no"/>cramenti in poenitente non remaneret. Patet ergo vt
+            di<lb ed="#V" n="17" break="no"/>cit quod contritio &amp; satisfactio non sunt partes
+            sacramen<lb ed="#V" n="18" break="no"/>ti poenitentiae proprie loquendo. Si vero sumatur pars
+            lar<lb ed="#V" n="19" break="no"/>ge pro omni eo quod requiritur ad debitam confessionem
+            <lb ed="#V" n="20"/>siue antecedenter siue consequenter, sic contritio &amp;
+            satis<lb ed="#V" n="21" break="no"/>factio possunt dici partes poenitentiae. Contra easdem
+            ar<lb ed="#V" n="22" break="no"/>guunt alij, quia sine essentia sacramenti non habetur
+            to<lb ed="#V" n="23" break="no"/>tus effectus sacramenti, sed quandoque est tanta contritio
+            <lb ed="#V" n="24"/>quod non requiritur satisfactio, &amp; sic sine satisfactione est
+            <lb ed="#V" n="25"/>perfectum sacramentum poenitentiae, &amp; per consequens
+            <lb ed="#V" n="26"/>non est de essentia, cum sine parte essentiali non possit
+            es<lb ed="#V" n="27" break="no"/>se perfecta rei essentia.
+          </p>
+          <p xml:id="capsco-d3iwtt-d1e634">
+            Item potest argui. quia si contritio
+            <lb ed="#V" n="28"/>sit pars integralis sacramenti poenitentiae, sequitur quod ille
+            <lb ed="#V" n="29"/>qui non contritus confitetur &amp; absoluitur non recipit
+            in<lb ed="#V" n="30" break="no"/>tegrum sacramentum poenitentiae, cum desit ei prima pars
+            <lb ed="#V" n="31"/>integralis. Sed hoc videtur falsum, quia si sic, absolutio &amp;
+            <lb ed="#V" n="32"/>confessio nihil in eo causarent tunc nec post. Et in hoc
+            se<lb ed="#V" n="33" break="no"/>cundus articulus terminatur.
+          </p>
+        </div>
+        <div xml:id="capsco-d3iwtt-Dd1e651">
+          <head xml:id="capsco-d3iwtt-Hd1e653">Articulus 3</head>
+          <p xml:id="capsco-d3iwtt-d1e655">
+            <lb ed="#V" n="34"/><milestone ed="#V" unit="p" rend="initial"/> Vantum ad 3. arti. respondendum est obiectionib.
+            <lb ed="#V" n="35"/>supradictis. Et ideo ad primum dicitur quod illud argu.s
+            in<lb ed="#V" n="36" break="no"/>forma soluit Sanctus Thomas praesenti dist. q. 1. arti. primo. q. 2.
+            <lb ed="#V" n="37"/>in solutione primi dicens. In sacramentis quae habent
+            pro<lb ed="#V" n="38" break="no"/>materia aliquam rem corporalem est duplex actus ministri
+            <lb ed="#V" n="39"/>ecclesiae scilicet sanctificatio materiae per verbum Dei &amp;
+            applica<lb ed="#V" n="40" break="no"/>tio materiae ad eum qui sacramentum suscipit. Sed in
+            <lb ed="#V" n="41"/>hoc sacramento quod habet pro materia ipsum actum
+            <lb ed="#V" n="42"/>humanum non potest ex minist erio sacerdotis materia
+            appli<lb ed="#V" n="43" break="no"/>cari ad eum qui. sacramentum suscipit, quia actus non sunt ab
+            exte<lb ed="#V" n="44" break="no"/>riori, &amp; ideo ad ministerium ipsius pertinet ipsorum actuum
+            <lb ed="#V" n="45"/>consumatio secundum absolutionem &amp; paenae iniuactionem quod
+            <lb ed="#V" n="46"/>est quasi quaedam sanctificatio. Haec ille. Et in idem redit
+            <lb ed="#V" n="47"/>solutio Petri dicentis quod maior est vera quantum ad
+            consu<lb ed="#V" n="48" break="no"/>mationem &amp; applicationem materiae in his quae habent
+            ma<lb ed="#V" n="49" break="no"/>teriam exteriorem, non autem in alijs. Immo aliquandod tota essentia
+            <lb ed="#V" n="50"/>est absque ministerio ecclesiae, &amp; sola conslumatio
+            accidenta<lb ed="#V" n="51" break="no"/>lis est per ministerium ecclesiae vt in matrimonio, cuius
+            <lb ed="#V" n="52"/>essentia est sine ministro ecclesiae etiam tota. Hoc autem
+            con<lb ed="#V" n="53" break="no"/>stat quod non ministratur per ministrum ecclesiae, sed ipsi
+            mi<lb ed="#V" n="54" break="no"/>nistro ab alio. Sacerdos enim non est confessionis factor, sed
+            <lb ed="#V" n="55"/>auditor. Vnde maior habet locum solum in sacramentis
+            <lb ed="#V" n="56"/>quorum materia est aliud ab actu suscipientis, &amp; ideo &amp;c.
+            <lb ed="#V" n="57"/>Haec ille &amp; bene.
+          </p>
+          <p xml:id="capsco-d3iwtt-d1e711">
+            Ad secundum dicitur quod istae tres partes sunt partes
+            <lb ed="#V" n="58"/>integrales poenitentiae &amp; non subiectiuae, nec potentiales.
+            <lb ed="#V" n="59"/>Et ad improbationem huius respondet Sanctus Thomas vbi supra
+            <lb ed="#V" n="60"/>q. 2. in solutione tertij. Argu enim tertium erat tale. Partes
+            in<lb ed="#V" n="61" break="no"/>tegrales alicuius totius quod habet esse permanens sunt
+            <lb ed="#V" n="62"/>simul, sed poenitentia habet esse permanens sicut &amp; alia
+            sa<lb ed="#V" n="63" break="no"/>cramenta, ergo cum partes poenitentiae non sint simul, non
+            <lb ed="#V" n="64"/>erunt partes integrales. Ecce argu. Sequitur responsio.
+            Di<lb ed="#V" n="65" break="no"/>cendum inquit quod illud quod est materiale in poenitentia
+            <lb ed="#V" n="66"/>est actus nostri, &amp; quia illi actus non habent esse permanens,
+            <lb ed="#V" n="67"/>ideo nec poenitentia. Et sic obiectio ex falso procedit. Haec
+            <lb ed="#V" n="68"/>ille. Et in solutione 2. ponit quod poenitentia est ens &amp; totum
+            <lb ed="#V" n="69"/>successiuum.
+          </p>
+          <p xml:id="capsco-d3iwtt-d1e740">
+            Ad tertium respondet Petus de pa. dicens. Quia
+            <lb ed="#V" n="70"/>in substantia naturali non sunt partes essentiales nisi vera
+            <lb ed="#V" n="71"/>materia &amp; vera forma substantialis. Tamen in composito
+            ar<lb ed="#V" n="72" break="no"/>tificiali partes dicuntur materiales quae se tenent ex parte
+            <lb ed="#V" n="73"/>materiae, &amp; partes formales ea quae se tenent ex parte
+            for<lb ed="#V" n="74" break="no"/>mae. Vnde contritio quae est dispositio confessionis &amp; praeit
+            <lb ed="#V" n="75"/>confessionem potest dici materia remota, sicut confessio
+            mate<cb ed="#V" n="b"/><lb ed="#V" n="76" break="no"/>ria propinqua, &amp; sicut absolutio est forma, sic satisfactio
+            <lb ed="#V" n="77"/>in absolutione iniuncta est par formalis &amp; pars formae
+            <lb ed="#V" n="78"/>quia sicut non est confessio perfecta nisi contritio
+            praece<lb ed="#V" n="79" break="no"/>dat vel concurrat, sic non est absolutio perfecta a culpa &amp;
+            <lb ed="#V" n="80"/>totali poena nisi satisfactione completa. Vnen sicut contritio
+            <lb ed="#V" n="81"/>est pars materiae, sic satisfactio est pars formae. Haec ille &amp;
+            <lb ed="#V" n="82"/>bene. Potest tamen dici quod satisfactio etiam se tenet ex parte
+            mate<lb ed="#V" n="83" break="no"/>riae &amp; non ex parte formae, quia &amp; si sequatur
+            absolutio<lb ed="#V" n="84" break="no"/>nem quo ad esse exercitum, &amp; eius executionem, tamen
+            prae<lb ed="#V" n="85" break="no"/>cedit eam quo ad esse conceptum &amp; propositum vel
+            inten<lb ed="#V" n="86" break="no"/>tum. Ipsa etiam satisfactio incipit in contritionis dolore, vt
+            <lb ed="#V" n="87"/>alias dictum est, &amp; ista responsio consona est dictis Sanctus Thoma
+            <lb ed="#V" n="88"/>potissime 4. sen. dist. 22. q. 2. ar. 2. in solutione primae &amp;
+            secun<lb ed="#V" n="89" break="no"/>dae q. vbi pluries dicit quod in sacramento poenitentiae actus poenitentis se
+            <lb ed="#V" n="90"/>habent loco materiae, actus autem sacerdotis loco formae. Ad
+            <lb ed="#V" n="91"/>Quartum respondet Pe negando maiorem, quia cum
+            deintegri<lb ed="#V" n="92" break="no"/>tate sacramenti sit intentio secundum arguentem, &amp; specialiter in
+            <lb ed="#V" n="93"/>matrimonio, quae tamen non est materia sensibilis, potest dici quod
+            <lb ed="#V" n="94"/>consensus in matrimonio est pars sacramenti siue materialis
+            in<lb ed="#V" n="95" break="no"/>quantum est dispositio materiae. id est persone contrahentis, vel
+            <lb ed="#V" n="96"/>formalis inquantum exprimitur per verba formae. Et in alijs
+            r<lb ed="#V" n="97" break="no"/>intentio conferentis est quasi formalis, &amp; intentio
+            suscipien<lb ed="#V" n="98" break="no"/>tis est quasi materialis. Exquo enim est de essentia sacramenti videtur
+            re<lb ed="#V" n="99" break="no"/>duci ad materiam vel ad formam, &amp; ad id quod est sacramentum
+            tan<lb ed="#V" n="100" break="no"/>tum, cum praeter illud sit ibi res &amp; sacramentum. id est character vel
+            vin<lb ed="#V" n="101" break="no"/>culum aut ornatus, &amp; aliquid quod est res tantum scilicet gratia.
+            <lb ed="#V" n="102"/>Vel potest dici quod contritio non est pars poenitentiae sacramenti
+            <lb ed="#V" n="103"/>nisi prout per verba sensibiliter manifestatur &amp; per
+            satis<lb ed="#V" n="104" break="no"/>factionem. Sic enim tres partes poenitentiae inueniuntur in
+            <lb ed="#V" n="105"/>exteriori poenitentia &amp; in interiori, quia contritio secundum quod
+            <lb ed="#V" n="106"/>in se manet disponens ad gratiam est res sacramenti, &amp; non pars sacramenti
+            <lb ed="#V" n="107"/>secundum autem quod innuitur per signa sensibilia in exteriori poenitem
+            <lb ed="#V" n="108"/>tia sic est pars sacramenti. Propter quod sciendum quod contritio
+            ac<lb ed="#V" n="109" break="no"/>cipitur dupliciter. Vno modo proprie pro actu gratia
+            infor<lb ed="#V" n="110" break="no"/>mato, &amp; sic non est pars sacramenti, sed est res sacramenti, vel primus
+            <lb ed="#V" n="111"/>effectus eius vel habitudo intenti vel suscepti. 2. modo
+            accipi<lb ed="#V" n="112" break="no"/>tur pro actu liberi arbitrij dolentis de peccato qui non potest
+            <lb ed="#V" n="113"/>dici res sacramenti, cum non sit effectus eius, sed est eius
+            princi<lb ed="#V" n="114" break="no"/>pium, &amp; sic est pars sacramenti prout exterius significatur actu vel
+            <lb ed="#V" n="115"/>habitu, sicut consecratio chrismatis &amp; olei ad infirmos est
+            <lb ed="#V" n="116"/>pars sacramenti materialis inquantum non est materia
+            immedia<lb ed="#V" n="117" break="no"/>ta illorum sacramentorum nisi consecrata. Et tamen licet
+            consecra<lb ed="#V" n="118" break="no"/>tio sit quid sensibile, tamen esse consecratum non est aliquid
+            <lb ed="#V" n="119"/>sendbile, sed solum intelligibile. Quia tamen est in materia
+            sen<lb ed="#V" n="120" break="no"/>sibili, &amp; innotescibile per consecrationem quae est actio
+            sen<lb ed="#V" n="121" break="no"/>sibilis, ideo est pars sacramenti. Haec Petrus.
+          </p>
+          <p xml:id="capsco-d3iwtt-d1e856">
+            Item quod contritio sit pars
+            <lb ed="#V" n="122"/>essentialis sacramenti poenitentiae &amp; non solum dispositio ad
+            ef<lb ed="#V" n="123" break="no"/>fectum sacramenti ostendit Petrus dupliciter. Primo quia sicut
+            ma<lb ed="#V" n="124" break="no"/>trimonium consistit in actu suscipientis non habens
+            mate<lb ed="#V" n="125" break="no"/>riam exteriorem, sic pnia, sed propter hoc est ibi de essentia
+            <lb ed="#V" n="126"/>non solum actus exterior, sed etiam consensus interior, sine
+            <lb ed="#V" n="127"/>quo nihil agitur, ergo similiter &amp; contritio nisi quod in hoc
+            <lb ed="#V" n="128"/>differt paenitentia a matrimonio, quia in matrimonio idem
+            <lb ed="#V" n="129"/>est actus interior quo intendit suscipere sacramentum, &amp; qui est
+            <lb ed="#V" n="130"/>pars sacramenti scilicet consensus, nisi forte respectu benedictionis
+            ec<lb ed="#V" n="131" break="no"/>clesiae, quam si recipere intenderet, nisi ideo matrimonium
+            <lb ed="#V" n="132"/>consentiret, matrimonium non esset. Hic autem est alius actus
+            <lb ed="#V" n="133"/>quo intendit suscipere sacramentum poenitentiae, qui non est pars
+            <lb ed="#V" n="134"/>sacramenti. Et alius est actus quo dolet de peccato qui est pars
+            <lb ed="#V" n="135"/>sacramenti, &amp; per se requiritur non solum sicut dispositio
+            prae<lb ed="#V" n="136" break="no"/>ambula, sed sicut pars sacramenti. 2. quia si esset solum
+            prae<lb ed="#V" n="137" break="no"/>ambulum cum restitutio quae requiritur solum isto modo non
+            <lb ed="#V" n="138"/>includat partes poenitentiae, nec in facto nec in proposito
+            <lb ed="#V" n="139"/>sed est perfecta restitutio sine proposito confitendi, non
+            <lb ed="#V" n="140"/>est autem contritio vera nisi cum proposito confitendi &amp;
+            sa<lb ed="#V" n="141" break="no"/>tisfaciendi si facultas adsit, hoc est autem proprietas partis
+            ha<lb ed="#V" n="142" break="no"/>bere habitudinem ad aliam partem in comparatione ad
+            to<lb ed="#V" n="143" break="no"/>tum, &amp; non secundum se. Sicut lapides &amp; ligna non habent inquam
+            <lb ed="#V" n="144"/>tum huiusmodi habitudinem ad fundamentum &amp; tectum,
+            <lb ed="#V" n="145"/>sed vt sunt illa pars domus, quae dicitur paries, sic habent,
+            er<lb ed="#V" n="146" break="no"/>go &amp;c. Haec Petrus &amp; bene quo ad solutionem
+            argumenti<lb ed="#V" n="147" break="no"/>Non enim oportet quod omne quod est pars sacramenti proprie dicta
+            <lb ed="#V" n="148"/>sit aliquid sensibile sensu exteriori in se, sed sufficit quod sit
+            <lb ed="#V" n="149"/>sensibile in se vel in suo signo vel effectu proximo aut sensu
+            <lb ed="#V" n="150"/>interiori organico. Vnde Sanctus Thomas quarto sen. dist. 22. q. 2. ar
+            <pb ed="#V" n="198"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>ti. 1. quaestiuncula secunda in solutione tertij sic dicit. Tres
+            <lb ed="#V" n="2"/>partes poenitentiae sunt in paenitentia interiori &amp;
+            exterio<lb ed="#V" n="3" break="no"/>ri, quia confessio &amp; satisfactio quae videntur tantum ad
+            ex<lb ed="#V" n="4" break="no"/>teriorem pniam pertinere inueniuntur in interiori
+            pnia<lb ed="#V" n="5" break="no"/>quantum ad propositum &amp; praemeditationem eorum. Et etiam
+            <lb ed="#V" n="6"/>contritio quae videtur tantum esse interioris pniae inuenitur in
+            <lb ed="#V" n="7"/>pnia exteriori secundum quaedam signa quibus sensibiliter
+            man<lb ed="#V" n="8" break="no"/>festatur vel alijs, vel saltem ipsi poenitenti qui dolorem
+            sensi<lb ed="#V" n="9" break="no"/>bilem percipit in seipso. Haec ille.
+          </p>
+          <p xml:id="capsco-d3iwtt-d1e946">
+            Item dist. 17. q. 2. arti. 1.
+            <lb ed="#V" n="10"/>quaestiuncula 2. in solutione primi sic dicit. In contritione
+            <lb ed="#V" n="11"/>est duplex dolor de peccato vnus est in parte sensitiua qui
+            <lb ed="#V" n="12"/>est passio, &amp; hoc non est essentialiter contritio prout est
+            <lb ed="#V" n="13"/>actus virtutis, sed magis effectus ipsius. Sicut enim poenitentiae
+            vir<lb ed="#V" n="14" break="no"/>tus exteriorem poenam suo corpori infligit ad
+            recompensan<lb ed="#V" n="15" break="no"/>dum offensam quae in Deum conmissa est officio
+            membro<lb ed="#V" n="16" break="no"/>rum, ita etiam ipsi concupiscibili poenam infert doloris
+            prae<lb ed="#V" n="17" break="no"/>dicti, quia ipsa etiam ad peccatum cooperabatur, sed tamen
+            <lb ed="#V" n="18"/>hic dolor potest pertinere ad contritionem inquantum est
+            <lb ed="#V" n="19"/>pars sacramenti, quia sacramenta non solum consistunt in
+            <lb ed="#V" n="20"/>interioribus actibus sed etiam in exterioribus, &amp; in rebus
+            <lb ed="#V" n="21"/>sensibilibus nata sunt esse. Alius dolor est in voluntate
+            <lb ed="#V" n="22"/>&amp;c. Haec ille.
+          </p>
+          <p xml:id="capsco-d3iwtt-d1e977">
+            Ex quibus patet quod contritio prout est pars
+            sacra<lb ed="#V" n="23" break="no"/>menti est aliqualiter sensibilis &amp; non solum intelligibilis,
+            <lb ed="#V" n="24"/>&amp; sensu interiori in se, &amp; sensu exteriori in suo signo vel
+            <lb ed="#V" n="25"/>effectu potissime quo ad dolorem partis sensitiuae. Ad
+            quin<lb ed="#V" n="26" break="no"/>tum respondet Petrus, &amp; primo probat quod satisfactio sit
+            <lb ed="#V" n="27"/>pars sacramenti poenitentiae, primo quia illud quod
+            rece<lb ed="#V" n="28" break="no"/>dente fictione viuificatur &amp; habet efficaciam factum in
+            <lb ed="#V" n="29"/>mortali est sacramentum vel pars eius. Nullum enim opus
+            <lb ed="#V" n="30"/>quod est sacramentum factum in mortali potest
+            viuifica<lb ed="#V" n="31" break="no"/>ri, sed poenitentia facta in mortali si habuit effectum
+            dere<lb ed="#V" n="32" break="no"/>lictum per poenitentiam incipit esse satisfactorium, sicut
+            <lb ed="#V" n="33"/>baptismus recedente fictione, ergo &amp;c. 2. sicut ad deletionem
+            <lb ed="#V" n="34"/>originalis peccati sufficit propositum baptismi veri, &amp; non
+            <lb ed="#V" n="35"/>alterius, sic ad deletionem actualis susticit propositum
+            pae<lb ed="#V" n="36" break="no"/>nitentiae sacramenti, vel eius susceptio per se, sed nisi
+            ho<lb ed="#V" n="37" break="no"/>mo haberet propositum satisfaciendi sicut confitendi non
+            <lb ed="#V" n="38"/>remitteretur culpa, nisi etiam satisfactio praecederet, vel
+            se<lb ed="#V" n="39" break="no"/>queretur, non remitteretur tota poena, ergo satisfactio est
+            <lb ed="#V" n="40"/>ita de essentia poenitentiae sicut confessio: secundo loco
+            re<lb ed="#V" n="41" break="no"/>spondet directe ad argumentum dicens, quod huiusmodi
+            par<lb ed="#V" n="42" break="no"/>tes non sunt integrales essentiales totius permanentis, quia
+            <lb ed="#V" n="43"/>illae sunt simul, sed totius successiui cuius partes non sunt
+            <lb ed="#V" n="44"/>simul, vnde dicitur quod satisfactio sit magis pars essentialis
+            <lb ed="#V" n="45"/>quam confessio, &amp; absolutio, quia cum poenitentia fuerit
+            <lb ed="#V" n="46"/>verum sacramentum in omni lege naturae &amp; scriptae &amp;
+            gra<lb ed="#V" n="47" break="no"/>tiae maxime secundum illud quod est in ea sensibile de tota pnia,
+            <lb ed="#V" n="48"/>nihil in lege naturae erat sensibile nisi sola satisfactio, quia
+            <lb ed="#V" n="49"/>tunc non erat confessio nec absolutio, nec in legae veteri
+            <lb ed="#V" n="50"/>erat absolutio, ergo vel poenitentia non erat sacramentum
+            <lb ed="#V" n="51"/>in lege naturae, vel sacramentum erat aliquid insensibile, &amp;
+            <lb ed="#V" n="52"/>satisfactio erat de eius essentia. Cum ergo satisfactio non
+            <lb ed="#V" n="53"/>sit minus necessaria nunc quam tunc, videtur quod nunc sit de
+            es<lb ed="#V" n="54" break="no"/>sentia sicut tunc, licet aliquid sit additum, quia sacramentis
+            <lb ed="#V" n="55"/>conibus omni legi remansit aliquid essentiale commune, sicut
+            <lb ed="#V" n="56"/>matrimonio consensus verba &amp; alia signa, sicut olim ita &amp;
+            <lb ed="#V" n="57"/>nunc sunt de essentia.
+          </p>
+          <p xml:id="capsco-d3iwtt-d1e1055">
+            Praeterea Si argumentum valeret,
+            con<lb ed="#V" n="58" break="no"/>fessio &amp; absolutio quae non sunt simul non essent partes
+            <lb ed="#V" n="59"/>integrales, similiter ante consecrationem sanguinis, &amp;
+            vn<lb ed="#V" n="60" break="no"/>ctionem pedum est verum sacramentum, sed non
+            comple<lb ed="#V" n="61" break="no"/>tum, &amp; tamen illae sunt partes essentiales sacramenti
+            Euchari<lb ed="#V" n="62" break="no"/>stiae, &amp; extremae vnctionis, ergo &amp; hic. Haec Petrus &amp;
+            be<lb ed="#V" n="63" break="no"/>ne. Intendit enim dicere quod si satisfactio iniuncta non
+            implea<lb ed="#V" n="64" break="no"/>tur, illud quod praecessit scilicet contritio confessio &amp;
+            absolu<lb ed="#V" n="65" break="no"/>tio fuit quidem verum sacramentum poenitentiae, sed non
+            <lb ed="#V" n="66"/>completum vltimo complemento.
+          </p>
+          <p xml:id="capsco-d3iwtt-d1e1077">
+            Ad alia vero quae
+            se<lb ed="#V" n="67" break="no"/>quturum in argumento respondet Petrus dicens. Quando
+            au<lb ed="#V" n="68" break="no"/>tem dicitur quod magister &amp; sancti vocant huiusmodi
+            par<lb ed="#V" n="69" break="no"/>tes poenitentiae, respondent quidam &amp; dicunt quod
+            capiun<lb ed="#V" n="70" break="no"/>tur partes large pro eo quod requiritur ad sacramentum
+            <lb ed="#V" n="71"/>poenitentiae vel antecedenter. Sed hoc est falsum, quia si
+            <lb ed="#V" n="72"/>sic esset, tunc non deberet dici sacramentum poenitentiae,
+            <lb ed="#V" n="73"/>sed confessionis vel absolutionis, ex quo nec poenitentia
+            <lb ed="#V" n="74"/>interior nec exterior est de eius essentia, &amp; tunc
+            sacramen<lb ed="#V" n="75" break="no"/>tum poenitentiae non est in lege gratiae, sed solum
+            sacra<cb ed="#V" n="b"/><lb ed="#V" n="76" break="no"/>mentum confessionis &amp; absolutionis, quod differt
+            speci<lb ed="#V" n="77" break="no"/>nihil habens essentiale tale, quale sacramentum
+            poeniten<lb ed="#V" n="78" break="no"/>tiae habuit in lege naturae vel Moysi. quod videtur
+            absur<lb ed="#V" n="79" break="no"/>dum, quia tunc esset ex toto sacramentum nouum si non
+            <lb ed="#V" n="80"/>fuit in lege antiqua secundum essentiam nec
+            secundun<lb ed="#V" n="81" break="no"/>partem essentiae, sed solum secundum figuram. Et quod d
+            <lb ed="#V" n="82"/>cit Thomas quod matrimonium &amp; poenitentia praefuerunt
+            <lb ed="#V" n="83"/>essentialiter non vt sacramenta, sed prout sunt in officium
+            <lb ed="#V" n="84"/>&amp; actum virtutis. Verum est quod non praefuerunt vt sunt
+            sa<lb ed="#V" n="85" break="no"/>cramenta nouae legis totaliter, sed vt sacramenta
+            praefue<lb ed="#V" n="86" break="no"/>runt, quia quandocunque fuit morbus fuit
+            sacramentun<lb ed="#V" n="87" break="no"/>contra morbum remedians. Vnde cum Adam fuerit
+            edu<lb ed="#V" n="88" break="no"/>ctus a suo peccato quod non est nisi per sacramentum
+            pae<lb ed="#V" n="89" break="no"/>nitentiae: ergo omnino erat tunc poenitentiae sacramentum
+            <lb ed="#V" n="90"/>Sed non quo ad absolutionem &amp; confessionem, nec quo
+            <lb ed="#V" n="91"/>ad alia prout ista includunt, quia non oportebat, &amp; esset
+            <lb ed="#V" n="92"/>contritio cum proposito confitendi, nec satisfactio iniur
+            <lb ed="#V" n="93"/>cta a sacerdote, sed secundum se materialiter erant,
+            simili<lb ed="#V" n="94" break="no"/>ter matrimonium.
+          </p>
+          <p xml:id="capsco-d3iwtt-d1e1141">
+            Item contra eadem dicta
+            Durandi<lb ed="#V" n="95" break="no"/>arguit sic. Illud sacramentum quod per essentiam fuit in
+            <lb ed="#V" n="96"/>omni lege quantum ad aliquid sui, secundum illud habet
+            <lb ed="#V" n="97"/>partem essentiae in noua secundum quod in antiqua, sicut
+            ma<lb ed="#V" n="98" break="no"/>trimonium quod per essentiam fuit in omni lege conser
+            <lb ed="#V" n="99"/>sum &amp; expressionem quam habuit in omni lege habet
+            pe<lb ed="#V" n="100" break="no"/>essentiam in noua sicut in antiqua, alias non fuisset
+            per<lb ed="#V" n="101" break="no"/>essentiam, si nihil idem essentialae habuisset in omni lege.
+            <lb ed="#V" n="102"/>Sed poenitentia fuit per essentiam in omni lege post
+            pec<lb ed="#V" n="103" break="no"/>catum, &amp; habet nunc contritionem &amp; satisfactionem no
+            <lb ed="#V" n="104"/>minus quam tunc, sed tunc erat vtraque eius pars
+            essentiali<lb ed="#V" n="105" break="no"/>ter. Contritio quidem, quia maxime operabatur ex
+            ope<lb ed="#V" n="106" break="no"/>re operante in quo illa excellit. Similiter satisfactio
+            <lb ed="#V" n="107"/>alias nihil sensibilae fuisset pars illius sacramenti in quo
+            <lb ed="#V" n="108"/>non erat confessio, nec absolutio, ergo &amp;c. Forte
+            dicetur<lb ed="#V" n="109" break="no"/>quod non sequitur si contritio &amp; satisfactio erant olim
+            sacra<lb ed="#V" n="110" break="no"/>menta quod propter hoc modo sint, quia in lege antiqua obli
+            <lb ed="#V" n="111"/>tiones quae fiebant pro peccatis erant sacramenta. Sed d
+            <lb ed="#V" n="112"/>cendum quod illa quae in noua lege remanserunt non
+            secun<lb ed="#V" n="113" break="no"/>dum rationem illam secundum quam erant olim
+            sacra<lb ed="#V" n="114" break="no"/>menta non sunt sacramenta, quia cessante causa cessat
+            ef<lb ed="#V" n="115" break="no"/>fectus, sicut illa de quibus arguitur non erant olim
+            sacra<lb ed="#V" n="116" break="no"/>mentum nisi inquantum figuralia, sic autem non
+            reman<lb ed="#V" n="117" break="no"/>serunt nunc, quia sic esset iudaizare Sed inquantum
+            mo<lb ed="#V" n="118" break="no"/>ralia in sustentationem pauperum ministrorum, sed illa in
+            <lb ed="#V" n="119"/>quibus eadem ratio sacramenti remansit, vel melior
+            suc<lb ed="#V" n="120" break="no"/>cessit, illa sunt sacramenta sicut prius. Sicut oblatio
+            alta<lb ed="#V" n="121" break="no"/>ris est perfectius sacramentum quam agnus pascalis, &amp;
+            <lb ed="#V" n="122"/>quaecunque oblatio antiqua, quia significat gratiam, &amp;
+            con<lb ed="#V" n="123" break="no"/>tinet &amp; causat eam per essentiam, &amp; similiter quia
+            cont<lb ed="#V" n="124" break="no"/>tio &amp; satisfactio erant partes sacramenti inquantum
+            me<lb ed="#V" n="125" break="no"/>dela peccati quae non minus habent nunc quam ante, ideo
+            <lb ed="#V" n="126"/>nunc sunt partes sacramenti sicut tunc.
+          </p>
+          <p xml:id="capsco-d3iwtt-d1e1213">
+            Item quia
+            confes<lb ed="#V" n="127" break="no"/>sio &amp; absolutio non sunt essentialiter poenitentia, quia
+            <lb ed="#V" n="128"/>potest confiteri impaenitens &amp; absolui, conteri vero est
+            <lb ed="#V" n="129"/>essentialiter poenitere, quia actus a poenitentia elicitus
+            <lb ed="#V" n="130"/>Similiter satisfacere est poenam tenere, &amp; actus a
+            poeni<lb ed="#V" n="131" break="no"/>tentia imperatus, &amp; ab istis duobus tractum est nomen
+            <lb ed="#V" n="132"/>poenitentiae non ab alijs duobus. Vnde &amp; erat
+            poeniten<lb ed="#V" n="133" break="no"/>tia quando non erat confessio &amp; absolutio. Propter quod
+            <lb ed="#V" n="134"/>si in noua lege contritio &amp; satisfactio non sunt de
+            essen<lb ed="#V" n="135" break="no"/>tia sacramenti &amp; eius integritate, sed solum se habent ad
+            <lb ed="#V" n="136"/>ipsum sacramentum sicut dispositio antecedens &amp;
+            conse<lb ed="#V" n="137" break="no"/>quens non debet dici sacramentum poenitentiae, sed solum
+            <lb ed="#V" n="138"/>sacramentum confessionis &amp; absolutionis. Sicut dicitur
+            <lb ed="#V" n="139"/>remedium contra originale non sacramentum catechismi
+            <lb ed="#V" n="140"/>vel exorcismi, vel etiam poenitentia ante baptismum quae
+            <lb ed="#V" n="141"/>tamen necessario requiritur in adulto, nec vnctio quae
+            po<lb ed="#V" n="142" break="no"/>stea fit in vertice. Sed dicitur sacramentum baptismi quia
+            <lb ed="#V" n="143"/>baptismus est ablutio sub forma verborum in qua est
+            to<lb ed="#V" n="144" break="no"/>ta essentia. Sed hoc est contra commune dictum
+            theolo<lb ed="#V" n="145" break="no"/>gorum &amp; iuristarum qui vocant sacramentum
+            poeniten<lb ed="#V" n="146" break="no"/>tiae, ergo &amp;c.
+          </p>
+          <p xml:id="capsco-d3iwtt-d1e1260">
+            Item sicut se habet baptismus ad originale,
+            <lb ed="#V" n="147"/>sic poenitentia ad actuale. Sed solus baptismus
+            circunscri<lb ed="#V" n="148" break="no"/>pto omni alio quod non est de essentia sufficit ad
+            deletio<lb ed="#V" n="149" break="no"/>nem originalis, ergo sola paenitentia sufficit ad deletione
+            <lb ed="#V" n="150"/>actualis. Sed confessio &amp; absolutio non sufficiunt sine
+            <pb ed="#V" n="199"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>contritione &amp; satisfactione, ergo ista duo sunt de essentia
+            <lb ed="#V" n="2"/>sacramenti sicut illa. Haec Pettrus &amp; bene.
+          </p>
+          <p xml:id="capsco-d3iwtt-d1e1280">
+            Sciendum
+            ta<lb ed="#V" n="3" break="no"/>men quod Durandus concedit quod sacramentum istud
+            <lb ed="#V" n="4"/>non debet nominari sacramentum poenitentiae, sed potius
+            <lb ed="#V" n="5"/>sacramentum confessionis vel absolutionis vt prius
+            reci<lb ed="#V" n="6" break="no"/>tatum fuit. Sed in hocfalse dicit, vt supra ostensum est.
+          </p>
+          <p xml:id="capsco-d3iwtt-d1e1291">
+            <lb ed="#V" n="7"/>Sciendum vlterius quod Sanctus Thomas videtur
+            contra<lb ed="#V" n="8" break="no"/>dicere dictis Petri. Ipse nanque quarto. sent. dist. 8. q. 1. ar.
+            se<lb ed="#V" n="9" break="no"/>cundo in solutione primae quae stionis sic dicit: Sacramenta
+            <lb ed="#V" n="10"/>nouae legis tripliciter se habent ad veterem legem.
+            Quae<lb ed="#V" n="11" break="no"/>dam enim essentialiter fuerunt in veteri lege, quamuis non
+            <lb ed="#V" n="12"/>vt sunt sacramenta nouae legis, sed magis secundum quod
+            <lb ed="#V" n="13"/>sunt in officium vel actum virtutis, sicut paenitentia ordo &amp;
+            <lb ed="#V" n="14"/>matrimonium. Quaedam vero fuerunt secundum aliquid
+            <lb ed="#V" n="15"/>eis respondens non essentialiter sicut baptismus &amp;
+            Eucha<lb ed="#V" n="16" break="no"/>ristia. Quaedam autem nihil respondens habuerunt in
+            vete<lb ed="#V" n="17" break="no"/>ri lege sicut confirmatio &amp; extrema vnctio. Cuius ratio est.
+            <lb ed="#V" n="18"/>quia prima tria sacramenta non solum sunt sacramenta sed
+            <lb ed="#V" n="19"/>poenitentia est actus virtutis, ordo autem pertinet ad
+            offi<lb ed="#V" n="20" break="no"/>cium dispensationis sacramentorum, matrimonium ad
+            of<lb ed="#V" n="21" break="no"/>cium naturae, &amp; ideo in qualibet lege requiruntur &amp;c. Sed
+            <lb ed="#V" n="22"/>notandum quod non intendit dicere quod poenitentia in
+            <lb ed="#V" n="23"/>lege naturae vel Moysi nullo modo esset sacramentum, sed
+            <lb ed="#V" n="24"/>solum quod non fuit illo modo sacramentum quo nunc in
+            <lb ed="#V" n="25"/>noua lege est sacramentum. Et quod ita intelligat patet.
+            <lb ed="#V" n="26"/>Nam prima distinctione quarti quaestione prima articulo
+            <lb ed="#V" n="27"/>secundo quaestiuncula tertia in solutione secundi sic dicit.
+            <lb ed="#V" n="28"/>Ante legem seriptam erant sacramenta quaedam
+            necessita<lb ed="#V" n="29" break="no"/>tis, sicut illud fidei sacramentum quod ordinabatur ad de
+            <lb ed="#V" n="30"/>legationem originalis peccati, &amp; similiter poenitentia quae
+            <lb ed="#V" n="31"/>ordinabatur ad deletionem actualis, &amp; similiter
+            matrimo<lb ed="#V" n="32" break="no"/>nium quod ordinabatur ad multiplicationem generis
+            hu<lb ed="#V" n="33" break="no"/>mani. Sed sacrificia &amp; oblationes &amp; huiusmodi erant
+            volun<lb ed="#V" n="34" break="no"/>tatis &amp; necessitatis in communi, vt scilicet aliquid facerent
+            <lb ed="#V" n="35"/>in protestationem fidei suae, qua Deo per religionem latriae
+            <lb ed="#V" n="36"/>subiecti erant. Sed in speciali erant voluntatis, vtrum
+            scili<lb ed="#V" n="37" break="no"/>cet deberent sacrificia exhibere vel oblationes vel aliquid
+            <lb ed="#V" n="38"/>huiusmodi. Haec ille.
+          </p>
+          <p xml:id="capsco-d3iwtt-d1e1363">
+            Ex quo patet quod secundum eum
+            <lb ed="#V" n="39"/>ista tria erant sacramenta in lege naturae, &amp; constat quod
+            <lb ed="#V" n="40"/>etiam in lege Movsi. Qualiter autem non eodem modo erant
+            <lb ed="#V" n="41"/>sacramenta sicut nunc sunt patet specialiter de
+            matrimo<lb ed="#V" n="42" break="no"/>nio. Vnde Sanctus Thomas quarto sententiarum distinctione
+            <lb ed="#V" n="43"/>Vigesimasexta quaestione secunda articulo secundo sic
+            di<lb ed="#V" n="44" break="no"/>cit. Natura inclinat matrimonium intendens aliquod
+            bo<lb ed="#V" n="45" break="no"/>num, quod quidem variatur secundum diuersos hominum
+            <lb ed="#V" n="46"/>status, &amp; ideo oportet quod illud bonum diuersimode in
+            <lb ed="#V" n="47"/>diuersis statibus hominum instruatur &amp; ideo matrimonium
+            <lb ed="#V" n="48"/>secundum quod ordinatur ad procreationem prolis quae
+            <lb ed="#V" n="49"/>erat necessaria peccato non existente, institutum fuit ante
+            <lb ed="#V" n="50"/>peccatum. Secundum autem quod remedium praebet
+            con<lb ed="#V" n="51" break="no"/>tra vulnus peccati institutum fuit post peccatum tempore
+            <lb ed="#V" n="52"/>legis naturae, secundum autem determinationem
+            persona<lb ed="#V" n="53" break="no"/>rum habuit institutionem in lege Moysi sed secundum
+            <lb ed="#V" n="54"/>quod repraesentat mysterium coniunctionis Christi &amp;
+            Ec<lb ed="#V" n="55" break="no"/>clesiae, institutionem habuit in lege noua, &amp; secundum hoc
+            <lb ed="#V" n="56"/>est sacramentum nouae legis. Quantum autem ad alias vti.
+            <lb ed="#V" n="57"/>litates quae matrimonium consequuntur, sicut est amicitia,
+            <lb ed="#V" n="58"/>&amp; mutuum obsequium sibi a coniugibus impensum, habet
+            <lb ed="#V" n="59"/>institutionem in lege ciuili, sed quia de ratione sacramenti
+            <lb ed="#V" n="60"/>est quod sit signum &amp; remedium, ideo quantum ad medias
+            <lb ed="#V" n="61"/>institutiones competit ei ratio sacramenti, sed quantum ad
+            <lb ed="#V" n="62"/>primam institutionem competit ei quod sit in officium
+            na<lb ed="#V" n="63" break="no"/>turae. Quantum vero ad vltimam, quod sit in officium
+            ciur<lb ed="#V" n="64" break="no"/>litatis. Haec ille. Et sicut dictum est de matrimonio, ita suo
+            <lb ed="#V" n="65"/>modo potest dici de alijs.
+          </p>
+          <p xml:id="capsco-d3iwtt-d1e1424">
+            Ad sextum respondet Petrus
+            di<lb ed="#V" n="66" break="no"/>cens. Dicendum quod perfectus effectus sacramenti
+            ali<lb ed="#V" n="67" break="no"/>quando habetur ex solo proposito sacramenti sine hoc
+            <lb ed="#V" n="68"/>quod aliquid de essentia sacramenti habeatur, sicut per
+            ba<lb ed="#V" n="69" break="no"/>ptismum fsaminis &amp; sanguinis. Aliquando habetur quicquid
+            <lb ed="#V" n="70"/>est res tantum in baptismo quae tamen non est de essentia
+            <lb ed="#V" n="71"/>baptismi fluminis, vt patet in pueris baptizatis, &amp; multo
+            <lb ed="#V" n="72"/>magis per partem sacramenti quae est contritio sine
+            confes<lb ed="#V" n="73" break="no"/>sione &amp; satisfsactione habetur aliquando effectus, quamuis
+            <lb ed="#V" n="74"/>de confessione &amp; absolutione non sit dubium quin sint de
+            es<lb ed="#V" n="75" break="no"/>sentia sacramenti. Sed si dicatur quod per se &amp; semper
+            re<cb ed="#V" n="b"/><lb ed="#V" n="76" break="no"/>quiritur confessio &amp; absolutio, non autem semper
+            satisfa<lb ed="#V" n="77" break="no"/>ctio.
+          </p>
+          <p xml:id="capsco-d3iwtt-d1e1454">
+            Dicendum quod immo semper
+            requiriturcontri<lb ed="#V" n="78" break="no"/>tio &amp; satisfactio, non autem confessio &amp; absolutio quia
+            <lb ed="#V" n="79"/>in venialibus non requiritur confessio nec absolutio sed
+            <lb ed="#V" n="80"/>requiritur contritio &amp; satisfactio vel hic vel alibi. Et si
+            di<lb ed="#V" n="81" break="no"/>catur quod non est sacramentum, quia est post hanc
+            vi<lb ed="#V" n="82" break="no"/>tam.
+          </p>
+          <p xml:id="capsco-d3iwtt-d1e1468">
+            Dicendum est quod verum est inquantum
+            huiusmo<lb ed="#V" n="83" break="no"/>di, sed quia ibi requiruntur in supplementum, quia hic non
+            <lb ed="#V" n="84"/>fuerunt vbi per se primo esse debuerunt. Et similiter
+            con<lb ed="#V" n="85" break="no"/>fessio &amp; absolutio si necessitas impediat non sunt
+            necessa<lb ed="#V" n="86" break="no"/>ria, sed alia duo semper sunt necessaria vel hic vel alibi.
+          </p>
+          <p xml:id="capsco-d3iwtt-d1e1479">
+            <lb ed="#V" n="87"/>Item quando contritio delet omnem poenam, hoc est
+            in<lb ed="#V" n="88" break="no"/>quantum habet dolorem pro satisfactione admixtum qui
+            <lb ed="#V" n="89"/>aequipollet poenae alteri, cum etiam quandoque sit causa
+            <lb ed="#V" n="90"/>poenitentialis quod mori faciat. Haec Petrus &amp; bene, si
+            be<lb ed="#V" n="91" break="no"/>ne intelligatur. Cum enim dicit quod contritio &amp;
+            satisfa<lb ed="#V" n="92" break="no"/>ctio magis sunt necessaria quam confessio &amp; absolutio,
+            <lb ed="#V" n="93"/>hoc potest bene &amp; male intelligi. Si enim intelligatur quod
+            <lb ed="#V" n="94"/>contritio &amp; satisfactio sunt magis necessaria ad
+            integrita<lb ed="#V" n="95" break="no"/>tem &amp; essentiam sacramenti poenitentiae quam confessio
+            <lb ed="#V" n="96"/>&amp; absolutio, falsum est quod dicitur, quia nullomodo
+            po<lb ed="#V" n="97" break="no"/>test esse sacramentum poenitentiae sine confessione &amp;
+            ab<lb ed="#V" n="98" break="no"/>solutione, potest tamen esse sine contritione &amp;
+            satisfactio<lb ed="#V" n="99" break="no"/>ne, licet non quantum ad suum vltimum complementum.
+            <lb ed="#V" n="100"/>Si autem intelligatur quod prima duo sunt magis
+            necessa<lb ed="#V" n="101" break="no"/>ria ad suscipiendum vltimum effectum sacramenti scilicet
+            <lb ed="#V" n="102"/>remissionem peccati &amp; infusionem gratiae quam alia duo
+            <lb ed="#V" n="103"/>tunc verum dicit Petrus quia sine contritione &amp;
+            satisfactio<lb ed="#V" n="104" break="no"/>ne non potest haberi plenaria peccati remissio quantum
+            <lb ed="#V" n="105"/>ad culpam &amp; poenam, quae tamen potest haberi sine
+            actua<lb ed="#V" n="106" break="no"/>li confessione &amp; satisfactione, non tamen sine proposito
+            <lb ed="#V" n="107"/>confitendi &amp; absolutionem recipiendi loquendo de
+            pecca<lb ed="#V" n="108" break="no"/>to mortali.
+          </p>
+          <p xml:id="capsco-d3iwtt-d1e1529">
+            Ad argumentum aliorum dicitur de
+            sacramen<lb ed="#V" n="109" break="no"/>to poenitentiae possumus loqui dupliciter. Primomodo
+            <lb ed="#V" n="110"/>quantum ad suam primam perfectionem &amp; actum primum
+            <lb ed="#V" n="111"/>vel primam integritatem sine qua non manet eius essentia
+            <lb ed="#V" n="112"/>nec veritas sacramenti, &amp; istomodo partes eius sunt
+            abso<lb ed="#V" n="113" break="no"/>lutio, confessio, &amp; aliqualis displicentia de peccatis siue sit
+            <lb ed="#V" n="114"/>contritio, siue attritio, siue qualiscunque alius dolor, vel
+            de<lb ed="#V" n="115" break="no"/>testatio peccatorum, &amp; vbi aliqua istarum partium
+            dees<lb ed="#V" n="116" break="no"/>set aliae duae non sufficerent, nec ad integritatem sacramenti,
+            <lb ed="#V" n="117"/>nec ad eius primam perfectionem vel actum primum:
+            secun<lb ed="#V" n="118" break="no"/>domodo possumus loqui de sacramento poenitentiae
+            quan<lb ed="#V" n="119" break="no"/>tum ad secundam suam perfectionem, qua scilicet
+            conti<lb ed="#V" n="120" break="no"/>net &amp; illud quod est sacramentum tantum, &amp; illud quod
+            <lb ed="#V" n="121"/>est res tantum, &amp; id quod est res &amp; sacramentum. Et
+            <lb ed="#V" n="122"/>hanc secundam perfectionem non habet sine
+            contritio<lb ed="#V" n="123" break="no"/>ne, nec sufficit ad illam quicunque alius dolor nisi sit
+            <lb ed="#V" n="124"/>contritio. Patet ergo ad argumentum, quia qui confitetur
+            <lb ed="#V" n="125"/>&amp; absoluitur, &amp; non conteritur, nec aliquam habet
+            displi<lb ed="#V" n="126" break="no"/>centiam de peccatis, nihil recipit, quia nullum est ibi
+            sacra<lb ed="#V" n="127" break="no"/>mentum propter defectum vnius eius partis, scilicet
+            dolo<lb ed="#V" n="128" break="no"/>ris. Qui vero absoluitur &amp; confitetur &amp; non conteritur sed
+            <lb ed="#V" n="129"/>dolet, licet imperfecte, verum recipit sacramentum, exquo
+            <lb ed="#V" n="130"/>aliquid in eo relinquitur quod est res &amp; sacramentum
+            <lb ed="#V" n="131"/>quod quidam vocant ornatum. Non tamen recipit
+            vlti<lb ed="#V" n="132" break="no"/>mam rem sacramenti, scilicet gratiam vel remissionem
+            pec<lb ed="#V" n="133" break="no"/>catorum. Qui autem conteritur, confitetur, absoluitur,
+            per<lb ed="#V" n="134" break="no"/>fectum recipit sacramentum tam prima quam secunda
+            per<lb ed="#V" n="135" break="no"/>fectione, &amp; ex sacramento recipit non solum primam, sed
+            <lb ed="#V" n="136"/>vltimam rem sacramenti. Et de hoc domino concedente
+            <lb ed="#V" n="137"/>dicetur latius in sequenti dictinctione. Et quia dolor
+            pri<lb ed="#V" n="138" break="no"/>mi sacramenti non est formatus charitate, sicut est dolor
+            <lb ed="#V" n="139"/>secundi, ideo primum sacramentum potest dici informe,
+            <lb ed="#V" n="140"/>secundum vero dici potest formatum, &amp; consequenter
+            di<lb ed="#V" n="141" break="no"/>cendum quod contritio est pars essentialis formati
+            sacra<lb ed="#V" n="142" break="no"/>menti poenitentiae, non autem informis, quia ad illud non
+            <lb ed="#V" n="143"/>requiritur contritio sed attritio vel. alius dolor. Ad
+            argu<lb ed="#V" n="144" break="no"/>mentum contra conclusionem patet responsio per
+            praedi<lb ed="#V" n="145" break="no"/>cta. Et haec de quaestione. De qua benedictus Deus
+            Amen
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,850 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 2, Distinctio 14, Quaestio 1</title>
+        <author ref="#JohannesCapreolus">Johannes Capreolus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 2, Distinctio 14, Quaestio 1</title>
+          <date when="2026-11-04">Nov 4, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-j88c02">Venice, 1589, v. 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-04" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="316"/>
+        <cb ed="#V" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="capsco-b1or6x"><!-- l2d14q1 -->
+        <head xml:id="capsco-b1or6x-Hd1e101">Quaestio 1</head>
+        <head xml:id="capsco-b1or6x-Hd1e103" type="question-title">Utrum caelum agat in ista inferiora per motum suum</head>
+        <p xml:id="capsco-b1or6x-d1e106">
+          <lb ed="#V" n="132"/>DISTINCTIO XIIII.
+          <lb ed="#V" n="133"/>QVAESTIO I.
+          <lb ed="#V" n="134"/>Vtrum coelum agat in ista inferiora per motum suum.
+        </p>
+        <p xml:id="capsco-b1or6x-d1e115">
+          <lb ed="#V" n="135"/><milestone ed="#V" unit="p" rend="initial"/> CIRCA decimamquartam distinct. 2. sen.
+          quae<lb ed="#V" n="136" break="no"/>ritur. Vtrum caeluni agat in ista inferiora per
+          mo<lb ed="#V" n="137" break="no"/>tum suum.
+        </p>
+        <p xml:id="capsco-b1or6x-d1e125">
+          Et arguitur quod non, quia illud quod
+          <lb ed="#V" n="138"/>competit quanto quatenusquantum est, non potest
+          <lb ed="#V" n="139"/>esse alicuius actionis principium, sed motus localis est
+          hu<lb ed="#V" n="140" break="no"/>iusmodi, secundum enim prius &amp; post in magnitudine, est
+          <lb ed="#V" n="141"/>prius &amp; posterius in motu locali, vt apparet ex 4. Physic.
+        </p>
+        <p xml:id="capsco-b1or6x-d1e137">
+          <lb ed="#V" n="142"/>In oppositum arguitur, quia vt dicitur 8. Phy. motus caeli est quasi
+          <lb ed="#V" n="143"/>vita istorum inferiorum, &amp; 2. de generatione dicitur, quod motus
+          obliq<lb ed="#V" n="144" break="no"/>circuli est causa continuae generationis &amp; corruptionis inferiorum
+        </p>
+        <p xml:id="capsco-b1or6x-d1e146">
+          <lb ed="#V" n="145"/><milestone ed="#V" unit="p" rend="indent"/> In hac quaestione erunt tres articuli. In primo ponetur
+          <lb ed="#V" n="146"/>determinatio Sanctus Thomas per conclusiones. In secundo
+          <lb ed="#V" n="147"/>adducentur obiectiones. In tertio dabuntur solutiones.
+        </p>
+        <div xml:id="capsco-b1or6x-Dd1e156">
+          <head xml:id="capsco-b1or6x-Hd1e158">Articulus 1</head>
+          <p xml:id="capsco-b1or6x-d1e160">
+            <pb ed="#V" n="317"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/><milestone ed="#V" unit="p" rend="initial"/> QVantum ad primum articulum sit haec prima
+            conclu<lb ed="#V" n="2" break="no"/>sio. Nullum corpus agit nisi per motum. Hanc
+            po<lb ed="#V" n="3" break="no"/>nit. Thomas 2. contra Gent. cap. 20. vbi dicit sic. Nullum
+            <lb ed="#V" n="4"/>corpus agit nisi moueatur, eo quod oporteat agens &amp; patiens
+            <lb ed="#V" n="5"/>esse simul, vel faciens &amp; factum. Simul autem sunt quae in
+            <lb ed="#V" n="6"/>eodem loco sunt, vt habetur 5. Phy. Locum autem non
+            acqui<lb ed="#V" n="7" break="no"/>rit corpus nisi per motum. Nullum autem corpus mouetur
+            <lb ed="#V" n="8"/>nisi in tempore, quicquid igitur fit per actionem corporis
+            <lb ed="#V" n="9"/>fit successiue. Haec ibi.
+          </p>
+          <p xml:id="capsco-b1or6x-d1e187">
+            Idem ponit 1. par. q. 3. art. 1. vbi
+            di<lb ed="#V" n="10" break="no"/>cit. Nullum corpus mouet nisi motum, vt patet
+            inducen<lb ed="#V" n="11" break="no"/>do per singula. Item 2. sent. dist. 2. q. 2. arti. 3. Non ponimus
+            <lb ed="#V" n="12"/>(inquit corpus habere influentiam super aliud corpus nisi
+            <lb ed="#V" n="13"/>per motum, quia vt in libro de causis dicitur etiam anima ab
+            <lb ed="#V" n="14"/>intelligentia in hoc deficit, quia non imprimit in res nisi
+            <lb ed="#V" n="15"/>mouendo eas, &amp; multo minus corpus. Nullum autem corpus
+            <lb ed="#V" n="16"/>mouet nisi motum, vt a Philosophis probatum est. Caelum
+            <lb ed="#V" n="17"/>enim per motum suum causat generationem &amp;
+            corruptio<lb ed="#V" n="18" break="no"/>nem in istis inferioribus. Vnde dicitur in 8. Phy. quod motus
+            <lb ed="#V" n="19"/>eius est sicut vita natura existentibus omnibus. Vnde Rabi
+            <lb ed="#V" n="20"/>Movses dicit, quod caelum in vniuerso est sicut cor in
+            animali<lb ed="#V" n="21" break="no"/>cuius motus si ad horam quiesceret, corporis vita finiretur.
+            <lb ed="#V" n="22"/>Haec ille.
+          </p>
+          <p xml:id="capsco-b1or6x-d1e218">
+            Vnde pro conclusione potest formari talis ratio.
+            <lb ed="#V" n="23"/>Nullum agens praeexigens suae actioni localem
+            approxima<lb ed="#V" n="24" break="no"/>tionem sui ad illud, in quod agere debet, potest agere nisi
+            <lb ed="#V" n="25"/>sit motum &amp; per motum, sed omne corpus est huiusmodi:
+            <lb ed="#V" n="26"/>igitur nullum corpus agere potest nisi sit motum, &amp; nisi per
+            <lb ed="#V" n="27"/>motum.
+          </p>
+          <p xml:id="capsco-b1or6x-d1e231">
+            Sciendum tamen quod huius contrarium ponit
+            pri<lb ed="#V" n="28" break="no"/>ma parte q. 66. ar. 3. in solutione secundi, vbi sic dicit.
+            Sati<lb ed="#V" n="29" break="no"/>probabile est, quod coelum empyreum secundum quosdam cum sit
+            <lb ed="#V" n="30"/>ordinatum ad statum gloriae non habeat influentiam in
+            in<lb ed="#V" n="31" break="no"/>feriora corpora, quae sunt sub alio ordine, vtpote ordinata
+            <lb ed="#V" n="32"/>ad naturalem decursum rerum, probabilius tamen videtur
+            di<lb ed="#V" n="33" break="no"/>cendum, quod sicut supremi Angeli, qui assistunt habent
+            in<lb ed="#V" n="34" break="no"/>fluentiam super medios &amp; vltimos, quia mittuntur,
+            quam<lb ed="#V" n="35" break="no"/>uis ipsi non mittantur secundum Dionydus ita caelum
+            empy<lb ed="#V" n="36" break="no"/>reum habet influentiam supra corpora, quae mouet, licet
+            <lb ed="#V" n="37"/>ipsum non moueatur. Et propter hoc potest dici, quod influit in
+            <lb ed="#V" n="38"/>primum coelum, quod mouetur non aliquid transiens &amp;
+            <lb ed="#V" n="39"/>adueniens per motum, sed aliquid fixum &amp; stabile, puta
+            <lb ed="#V" n="40"/>virtutem continuandi &amp; causandi, vel aliquid huiusmodi
+            <lb ed="#V" n="41"/>ad dignitatem pertinens. Haec ille.
+          </p>
+          <p xml:id="capsco-b1or6x-d1e265">
+            Item de potentia Dei
+            <lb ed="#V" n="42"/>q. 5. artic. 8. sic dicit. Corpus habet duplicem actionem, vnam
+            <lb ed="#V" n="43"/>quidem secundum proprietatem corporis, vt scilicet agat per
+            mo<lb ed="#V" n="44" break="no"/>tum, hoc enim proprium est corporis, vt motum moueat &amp;
+            <lb ed="#V" n="45"/>agat. Alia autem actionem habet secundum quod attingit
+            <lb ed="#V" n="46"/>ad ordinem substantiarum separatarum, &amp; participat
+            ali<lb ed="#V" n="47" break="no"/>quid de modo ipsarum, sicut naturae inferiores
+            consueue<lb ed="#V" n="48" break="no"/>runt aliquid participare de proprietate naturae superioris,
+            <lb ed="#V" n="49"/>vt apparet in quibusdam animalibus, quae participant
+            ali<lb ed="#V" n="50" break="no"/>quam similitudinem prudentiae, quae est propria hominum.
+            <lb ed="#V" n="51"/>Haec autem est actio corporis, quae non est ad
+            transmutatio<lb ed="#V" n="52" break="no"/>nes materiae, sed ad quandam diffusionem similitudinis
+            for<lb ed="#V" n="53" break="no"/>mae in medio secundum similitudinem spiritualis intentionis, quae
+            <lb ed="#V" n="54"/>recipitur de re in sensu vel intellectu. Et hoc modo sol
+            illu<lb ed="#V" n="55" break="no"/>minat aerem &amp; color speem suam multiplicat in medio &amp;c.
+            <lb ed="#V" n="56"/>Ex quibus potest concordari controuersia superius tacta, vt scilicet
+            <lb ed="#V" n="57"/>dicamus, quod nullum corpus agit nisi per motum proprium,
+            <lb ed="#V" n="58"/>loquendo de actione sibi propria &amp; conaturali vt corpus
+            <lb ed="#V" n="59"/>est, potest tamen agere non motum, immo quiescens,
+            loquen<lb ed="#V" n="60" break="no"/>do de actione, quae sibi competit ex participatione
+            supe<lb ed="#V" n="61" break="no"/>rioris naturae &amp;c.
+          </p>
+          <p xml:id="capsco-b1or6x-d1e311">
+            Secunda conclusio. Omnes motus
+            natu<lb ed="#V" n="62" break="no"/>rales corporum inferiorum conuenientes corpori vt
+            cor<lb ed="#V" n="63" break="no"/>pus est, reducuntur sicut in causam in motum corporum
+            <lb ed="#V" n="64"/>coelestium. Hanc ponit 1. parte q. 115. artic. 3. vbi sic ait. Cum
+            <lb ed="#V" n="65"/>omnis multitudo ab vnitate procedat, quod autem est
+            immobi<lb ed="#V" n="66" break="no"/>le vno modo se habet, quod vero mouetur multipliciter,
+            con<lb ed="#V" n="67" break="no"/>siderandum est in tota natura, quod omnis motus ab
+            immobili<lb ed="#V" n="68" break="no"/>procedit, &amp; ideo quanto sunt aliqua immobiliora tanto
+            <lb ed="#V" n="69"/>sunt magis causam eorum, quae sunt mobilia. Corpora autem
+            cae<lb ed="#V" n="70" break="no"/>stia sunt magis immobilia inter alia corpora, non enim
+            mouen<lb ed="#V" n="71" break="no"/>tur nisi motu locali, &amp; ideo motus horum inferiorum
+            cor<lb ed="#V" n="72" break="no"/>porum, qui sunt varij &amp; multiformes reducuntur in motum
+            <lb ed="#V" n="73"/>corporum caelestium sicut in causam. Haec ille.
+          </p>
+          <p xml:id="capsco-b1or6x-d1e340">
+            Item 2. sent. 15
+            <lb ed="#V" n="74"/>q. 1. ar. 2. Corpora (inquit) caelestia causant generationem
+            <lb ed="#V" n="75"/>&amp; corruptionem in istis inferioribus, inquantum motus
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="76"/>eorum est causa omnium mutationum inferiorum. Sed cum
+            <lb ed="#V" n="77"/>omnis motus sit actus mouentis &amp; moti, oportet quod in motu
+            re<lb ed="#V" n="78" break="no"/>linquatur virtus motoris, &amp; virtus mobilis. Vnde ex ipso
+            <lb ed="#V" n="79"/>mobili, quod est corpus, habet virtutem mouendi
+            inferio<lb ed="#V" n="80" break="no"/>ra corpora ad dispositiones corporales. Ex parte autem
+            moto<lb ed="#V" n="81" break="no"/>ris, qui est substantia spiritualis, quaecunque sit illa, habet
+            vir<lb ed="#V" n="82" break="no"/>tutem mouendi ad formas substantiales, secundum quas est esse
+            <lb ed="#V" n="83"/>specificum, quod diuinum esse dicitur. Relinquitur autem virtus
+            <lb ed="#V" n="84"/>spiritualis substantiae in motu corporis coelestis ad modum,
+            <lb ed="#V" n="85"/>quo virtus motoris relinquitur in instrumento. Et per hunc
+            <lb ed="#V" n="86"/>modum omnes formae naturales descendunt a formis, quae sunt
+            <lb ed="#V" n="87"/>sine materia, vt dicit Boetius in lib. de trinit. &amp; Comment. in
+            <lb ed="#V" n="88"/>io. Met. sicut formae artisiciatorum ab artifice. Haec ille.
+          </p>
+          <p xml:id="capsco-b1or6x-d1e377">
+            Item
+            <lb ed="#V" n="89"/>de potentia Dei vbi supra. Sicut (inquit) habetur in libus de
+            <lb ed="#V" n="90"/>causis, quando causa prima retrahit actionem suam a causato,
+            <lb ed="#V" n="91"/>oportet etiam, quod causa secunda retrahat actionem suam ab
+            eo<lb ed="#V" n="92" break="no"/>dem, eo quod ca secunda habet hoc ipsum, quod agit per actionem
+            <lb ed="#V" n="93"/>causae primae in cuius virtute agit. Cum autem omne agens
+            <lb ed="#V" n="94"/>agat secundum quod est actu vel in actu, oportet secundum hoc accipere
+            or<lb ed="#V" n="95" break="no"/>dinem causarum agentium, secundum quod est ordo eorum in
+            actua<lb ed="#V" n="96" break="no"/>litate. Corpora autem inferiora minus habent de actualitate
+            <lb ed="#V" n="97"/>quam corpora coelestia. Nam in corporibus inferioribus non est
+            <lb ed="#V" n="98"/>tota potentialitas completa per actum, eo quod materia
+            sub<lb ed="#V" n="99" break="no"/>stans vni formae remanet in potentia ad formam aliam, quod
+            <lb ed="#V" n="100"/>non est in corporibus coelestibus. Nam materia corporis
+            cae<lb ed="#V" n="101" break="no"/>lestis non est in potentia ad aliam formam: vnmen sua
+            poten<lb ed="#V" n="102" break="no"/>tialitas tota est terminata per formam, quam habet, substantiae
+            <lb ed="#V" n="103"/>vero separatae sunt perfectiores in actualitate quam etiam
+            cor<lb ed="#V" n="104" break="no"/>pora caelestia, quia non sunt compositae ex materia &amp; forma,
+            <lb ed="#V" n="105"/>sed sunt quaedam formae subsistentes, quae tamen deficiunt ab
+            <lb ed="#V" n="106"/>actualitate Dei, qui est suum esse, quod de alijs substantijs
+            <lb ed="#V" n="107"/>separatis non contingit. Sicut etiam videmus quod elementa
+            <lb ed="#V" n="108"/>se superant adinuicem secundum gradum actualitatis, eo quod aqua
+            <lb ed="#V" n="109"/>plus habet de specie quam terra, aer quam aqua, &amp; ignis quam
+            <lb ed="#V" n="110"/>aer. Ita etiam est in corporibus caelestibus, &amp; substantijs separatis.
+            <lb ed="#V" n="111"/>Elementa igitur agunt in virtute corporum coelestium, &amp;
+            <lb ed="#V" n="112"/>corpora caelestia in virtute substantiarum separatarum, vnde
+            <lb ed="#V" n="113"/>cessante actione substantiae separatae, oportet quod cesset actio
+            <lb ed="#V" n="114"/>corporis caelestis, &amp; ea cessante oportet quod cesset actio
+            cor<lb ed="#V" n="115" break="no"/>poris elementaris. Sed sciendum est, quod corpus habet
+            dupli<lb ed="#V" n="116" break="no"/>cem actionem &amp;c. vt recitatum est in prima conclusione,
+            <lb ed="#V" n="117"/>post quae verba immediate sequitur sic. Vterque autem modus
+            <lb ed="#V" n="118"/>actionis in istis inferioribus causatur ex corporibus caelestibus:
+            <lb ed="#V" n="119"/>nam ignis calore suo transmutat materiam ex virtute
+            cor<lb ed="#V" n="120" break="no"/>poris caelestis, &amp; corpora visibilia multiplicant suas species
+            <lb ed="#V" n="121"/>in medio virtute luminis, cuius fons est in coelesti corpore.
+            <lb ed="#V" n="122"/>Vnde si actio vtraque corporis coelestis cessaret, nulla actio
+            <lb ed="#V" n="123"/>in istis inferioribus remaneret, sed cessante motu caeli cessabit
+            <lb ed="#V" n="124"/>prima actio, sed non secunda, &amp; ideo cessante motu coeli,
+            <lb ed="#V" n="125"/>erit quaedam actio in istis inferioribus illuminationis &amp;
+            immu<lb ed="#V" n="126" break="no"/>tationis medij a sensibilibus, non autem erit actio, per quam
+            <lb ed="#V" n="127"/>transmutatur materia, quam sequitur generatio &amp; corruptio. Haec
+            <lb ed="#V" n="128"/>ille.
+          </p>
+          <p xml:id="capsco-b1or6x-d1e466">
+            Item 3. contra Gent. c. 81. Primum (inquit) in
+            quoli<lb ed="#V" n="129" break="no"/>bet geede est causa eorum, quae sunt post. Inter omnes autem alios
+            <lb ed="#V" n="130"/>motus primus est motus caeli. Primo quidem, quia motus
+            lo<lb ed="#V" n="131" break="no"/>calis est primus inter omnes motus, &amp; tempore, quia solus potest esse
+            <lb ed="#V" n="132"/>perpetuus, vt probatur 8. Phy. &amp; natura, quia sine ipso non
+            <lb ed="#V" n="133"/>potest esse aliquis aliorum motuum, non enim augmentatur
+            <lb ed="#V" n="134"/>aliquid nisi praeexistente alteratione, per quam quod prius
+            <lb ed="#V" n="135"/>erat dissimile conuertatur &amp; fiat simile, neque alteratio potest
+            <lb ed="#V" n="136"/>esse nisi praeexistente loci mutatione, quia ad hoc quod fiat
+            al<lb ed="#V" n="137" break="no"/>teratio, oportet quod alterans sit magis propinquum alterato
+            <lb ed="#V" n="138"/>nunc quam prius. Est etiam prior perfectione, quia motus localis
+            <lb ed="#V" n="139"/>non variat rem secundum aliquid ei inhaerens, sed solum secundum
+            ali<lb ed="#V" n="140" break="no"/>quid extrinsecum, &amp; pro hoc est rei iam perfectae. Scdo. Quia
+            <lb ed="#V" n="141"/>etiam inter motus locales est motus circularis prior &amp; tempore,
+            <lb ed="#V" n="142"/>quia solus ipse potest esse perpetuus, vt probatur Sa. Phy. &amp;
+            natu<lb ed="#V" n="143" break="no"/>raliter, quia est magis simplex &amp; vnus, cum non distinguatur
+            <lb ed="#V" n="144"/>secundum principium &amp; medium &amp; finem, sed totus sit quasi medium,
+            <lb ed="#V" n="145"/>&amp; etamperfectione, quia reflectitur ad principium. Tertio. Quia
+            <lb ed="#V" n="146"/>solus motus caeli sp inuenitur regularis &amp; vniformis. In
+            mo<lb ed="#V" n="147" break="no"/>tu enim naturali grauium &amp; leuium fit additio velocitatis in fine,
+            <lb ed="#V" n="148"/>in violentis autem additio tarditatis. Oportet ergo quod motus
+            <lb ed="#V" n="149"/>caeli sit causa omnium aliorum motuum. Haec ille.
+          </p>
+          <p xml:id="capsco-b1or6x-d1e514">
+            Ex quibus potest
+            col<lb ed="#V" n="150" break="no"/>ligi talis ratio. Primum in quolibet genere prioritate temporis,
+            na<pb ed="#V" n="318"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>turae, &amp; perfectionis est causa aliorum eiusdem generis, sed
+            <lb ed="#V" n="2"/>motus coelestis est illo modo prior inter alios motus:
+            igi<lb ed="#V" n="3" break="no"/>tur &amp;c. Multae aliae conclusiones poni possent, sed non
+            le<lb ed="#V" n="4" break="no"/>gi impugnatores, ideo dimittantur, quia solas
+            impugna<lb ed="#V" n="5" break="no"/>tas directe, aut indirecte pono. Et in hoc primus
+            articu<lb ed="#V" n="6" break="no"/>lus terminatur.
+          </p>
+        </div>
+        <div xml:id="capsco-b1or6x-Dd1e535">
+          <head xml:id="capsco-b1or6x-Hd1e537">Articulus 2</head>
+          <p xml:id="capsco-b1or6x-d1e539">
+            <lb ed="#V" n="7"/><milestone ed="#V" unit="p" rend="indent"/> Vantum ad secundum artic. arguitur contra primam
+            <lb ed="#V" n="8"/>&amp; secundam conclusiones simul per argumenta
+            Du<lb ed="#V" n="9" break="no"/>rand. eas impugnantis, vnde ipse supponit talem
+            diuisio<lb ed="#V" n="10" break="no"/>nem. Differunt (inquit) motus &amp; actio, quia motus est
+            <lb ed="#V" n="11"/>quaecunq, mutatio successiua, siue ad locum, siue ad
+            for<lb ed="#V" n="12" break="no"/>mam, actio autem solum est mutatio secundum formam.
+            <lb ed="#V" n="13"/>Cum igitur quaeritur, vtrum coelum agat per motum,
+            intelli<lb ed="#V" n="14" break="no"/>gitur de actione proprie dicta per quam caelum causat
+            ali<lb ed="#V" n="15" break="no"/>quam formam substantialem, aut accidentalem in istis
+            in<lb ed="#V" n="16" break="no"/>ferioribus, quo supposito dicendum est, quod id, per quod
+            ali<lb ed="#V" n="17" break="no"/>quid agit, potest intelligi dupliciter. Vno modo quod illud sit
+            <lb ed="#V" n="18"/>ratio formalis in agente, per quam agit, sicut calor in igne
+            <lb ed="#V" n="19"/>est formalis ratio, per quam calefacit. Alio modo potest
+            in<lb ed="#V" n="20" break="no"/>telligi agere per aliquid non quod sit sibi ratio agendi modo iam
+            <lb ed="#V" n="21"/>dicto, sed quia ipsamet actio, sicut ignis dicitur calefacere per
+            <lb ed="#V" n="22"/>calefactionem. Et praeter istos duos modos, quidam addunt
+            <lb ed="#V" n="23"/>tertium scilicet quod aliquid dicitur agere per alterum, quod nec est
+            <lb ed="#V" n="24"/>sibi ratio agendi tanquam forma, nec est ipsamet actio, sed
+            <lb ed="#V" n="25"/>est aliud necessario requisitum ad hoc, quod agens agat, sicut
+            <lb ed="#V" n="26"/>ponitur exemplum de securi, quae ad hoc quod possit secare
+            <lb ed="#V" n="27"/>requiritur, quod sit acuta, &amp; de materia dura, requiritur etiam
+            <lb ed="#V" n="28"/>quod sit mota a secante. Sed duo prima scilicet acuties &amp; durities
+            <lb ed="#V" n="29"/>sunt ei ratio agendi tanquam forma agentis, sed motus
+            so<lb ed="#V" n="30" break="no"/>lum est aliquid necessario requisitum ad hoc, quod securis agat
+            <lb ed="#V" n="31"/>vt instrumentum, quod non agit nisi motum. Si ergo
+            conclu<lb ed="#V" n="32" break="no"/>sio intelligatur primo modo, sic dicendum est, quod caelum non
+            <lb ed="#V" n="33"/>agit per motum, quia motus localis nulla est ratio agendi, nec
+            <lb ed="#V" n="34"/>vniuersaliter aliquis motus secundum se solum ratione
+            ter<lb ed="#V" n="35" break="no"/>mini, quod sic patet, illud quod non ponit in eo, in quo est
+            <lb ed="#V" n="36"/>aliquid absolutum, non potest esse principium actionis, quia
+            <lb ed="#V" n="37"/>sicut respectus secundum se non terminat aliquam actionem, sic
+            <lb ed="#V" n="38"/>nec principiat, principium enim actionis &amp; terminus
+            sibiinui<lb ed="#V" n="39" break="no"/>cem correspondent, sed motus secundum se non ponit in eo, in
+            <lb ed="#V" n="40"/>quo est aliquid absolutum, sed si ponit hoc est ratione sui
+            te<lb ed="#V" n="41" break="no"/>mini: ergo motus secundum se non potest esse principium seu
+            ra<lb ed="#V" n="42" break="no"/>tio alicuius actionis in alterum, nisi ratione sui termini
+            tan<lb ed="#V" n="43" break="no"/>tum. Et hoc potest dici de motu alterationis, aqua enim
+            cale<lb ed="#V" n="44" break="no"/>facta potest calefacere alterum non solum cessante motu
+            ca<lb ed="#V" n="45" break="no"/>lefactionis, sed etiam dum est in calefieri, quia iam habet aliquid
+            <lb ed="#V" n="46"/>de termino scilicet de caliditate. In motu autem locali neutrum est,
+            <lb ed="#V" n="47"/>quia nec ratione sui, nec ratione termini ad quem est, ponit
+            <lb ed="#V" n="48"/>aliquid absolutum, quod patet multipliciter. Primo sic. Quia
+            <lb ed="#V" n="49"/>omne quod ponit in aliquo formam absolutam, facit
+            ip<lb ed="#V" n="50" break="no"/>sum aliud vel alterum, forma enim substantialis facit aliud,
+            acci<lb ed="#V" n="51" break="no"/>dentalis vero alterum, sed motus localis non facit aliud, nec
+            <lb ed="#V" n="52"/>alterum, quia iam esset generatio vel alteratio: igitur &amp;c.
+            <lb ed="#V" n="53"/>Secundo. Quia si poneret aliquid absolutum, illud esset
+            lo<lb ed="#V" n="54" break="no"/>cus, sed locus non est in locato, sed in locante, est enim vltimum
+            <lb ed="#V" n="55"/>continentis igitur &amp;c. Tertio. Non omne mouens est agens
+            <lb ed="#V" n="56"/>1. de generatione, sed si motus localis poneret aliquid esse
+            <lb ed="#V" n="57"/>mouens, esset esse agens, in alio enim a motu locali non est
+            in<lb ed="#V" n="58" break="no"/>stantia: ergo &amp;c. Nullo modo ergo potest motus localis
+            ali<lb ed="#V" n="59" break="no"/>cuius esse ratio agendi, nec hoc vnquam aliquis doctor
+            asser<lb ed="#V" n="60" break="no"/>uit, vt puto.
+          </p>
+          <p xml:id="capsco-b1or6x-d1e660">
+            Item nec secundo modo motus coeli potest esse
+            <lb ed="#V" n="61"/>actio, per quam caelum agat in alterum, quia actio non est in
+            <lb ed="#V" n="62"/>agente, sed in passo, sed motus caeli est in caelo, &amp;
+            vniuersali<lb ed="#V" n="63" break="no"/>ter omnis motus est in mobili, cuius est motus: ergo motus
+            <lb ed="#V" n="64"/>coeli, vel cuiuscunque mobilis non potest esse actio per quam
+            <lb ed="#V" n="65"/>caelum, vel quodcunque aliud mobile agat in alterum. Si autem
+            <lb ed="#V" n="66"/>tertio modo intelligatur quomodo, an scilicet motus caeli requiratur ad
+            <lb ed="#V" n="67"/>hoc vt coelum agat in inferiora, licet non sit ei ratio agendi, vt
+            <lb ed="#V" n="68"/>dictum fuit de securi in extremo adducto, sic videtur quod motus
+            <lb ed="#V" n="69"/>caeli non requiratur ad hoc, quod caelum agat in haec inferiora,
+            <lb ed="#V" n="70"/>sed solum ad nouitatem actionis &amp; alterationis, generationis,
+            <lb ed="#V" n="71"/>&amp; corruptionis, a caeterarum mutationum. Primum
+            proba<lb ed="#V" n="72" break="no"/>tur dupliciter. Primo sic. Quia illud quod non est actiuum in
+            <lb ed="#V" n="73"/>corpore generabili &amp; corruptibili ad agendum, nec in caelo, sed
+            <lb ed="#V" n="74"/>motus localis non est necessarius in generabilibus &amp;
+            corruptibi<lb ed="#V" n="75" break="no"/>libus, ad hoc, vt agant: ergo nec in caelo. Minor patet: quia
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="76"/>magnes non motus localiter alterat &amp; calefacit sibi
+            appo<lb ed="#V" n="77" break="no"/>situm, quod si moueatur, hoc accidit, quare &amp;c. Secundo. Quia
+            <lb ed="#V" n="78"/>coelum empyreum agit in haec inferiora, nec tamen mouetur
+            <lb ed="#V" n="79"/>secundum tei igitur &amp;c. Secundum vero patet scilicet quod motus caeli
+            exi<lb ed="#V" n="80" break="no"/>gatur ad nouitatem actionis vel ad alternationem actionum.
+            <lb ed="#V" n="81"/>Quia ad actionem requiritur, quod agens &amp; passum sint
+            appro<lb ed="#V" n="82" break="no"/>ximata, quo facto necessario sequitur actio nisi sit aliud
+            im<lb ed="#V" n="83" break="no"/>pediens. Si igitur aliqua actio sit de nouo, oportet quod de
+            <lb ed="#V" n="84"/>nouo actiuum sit approximatum passiuo. Haec autem
+            ap<lb ed="#V" n="85" break="no"/>proximatio fit per motum localem, &amp; ideo motus localis
+            <lb ed="#V" n="86"/>praeexigitur ad nouitatem actionis. Et ad hunc intellectum
+            <lb ed="#V" n="87"/>procedit ratio Aritoes 8. Phys Item ad alternationem actionum,
+            <lb ed="#V" n="88"/>quia enim idem manens idem natum est facere idem. 2. de
+            ge<lb ed="#V" n="89" break="no"/>neratione, ideo si non moueretur coelum, sol &amp; astra, quae
+            <lb ed="#V" n="90"/>semper eodem modo se haberent ad determinatas partes
+            ter<lb ed="#V" n="91" break="no"/>rae, semper idem facerent. Nec esset in eadem parte
+            alterna<lb ed="#V" n="92" break="no"/>tio diei, &amp; noctis, caloris &amp; frigoris, &amp; estatis &amp; hyemis,
+            <lb ed="#V" n="93"/>sed vnum &amp; idem semper. Ad hoc igitur vt sit circa easdem
+            <lb ed="#V" n="94"/>partes terrae horum alternatio, requiritur quod corpora
+            astro<lb ed="#V" n="95" break="no"/>rum per motum coeli quadque sint praesentia, quandoque
+            absen<lb ed="#V" n="96" break="no"/>tia, vt innuit Philosophus 2. de generatione. d. quod motus
+            circuli<lb ed="#V" n="97" break="no"/>obliqui est causa alterationis, &amp; corruptionis, quia adducit
+            <lb ed="#V" n="98"/>generans. Sic igitur patet, quod motus non est ratio agendi in a
+            <lb ed="#V" n="99"/>terum, nec coexigitur ad actionem nisi propter nouitatem
+            <lb ed="#V" n="100"/>actionis.
+          </p>
+          <p xml:id="capsco-b1or6x-d1e751">
+            Contra secundam conclusionem in speciali arguit.
+            <lb ed="#V" n="101"/>Primo contra rationem ibi adductam de 3. contra Gent.
+            <lb ed="#V" n="102"/>dicit, quod non valet. Cum enim dicitur, quod illud, quod est primum in
+            <lb ed="#V" n="103"/>aliquo genere &amp;c. Hoc intelligitur de primo in genere
+            causa<lb ed="#V" n="104" break="no"/>litatis. Primum autem in genere praedicamentali non oportet
+            <lb ed="#V" n="105"/>esse causam aliorum. Non enim color albus, qui est primus in genere
+            <lb ed="#V" n="106"/>colorum, est per se causa aliorum in aliquo genere causalitatis.
+            <lb ed="#V" n="107"/>Motus autem localis non est primus in genere causalitatis, quia
+            <lb ed="#V" n="108"/>nullum genus causalitatis habet super alios, vt patet
+            indu<lb ed="#V" n="109" break="no"/>cendo in generibus causarum.
+          </p>
+          <p xml:id="capsco-b1or6x-d1e773">
+            Item nec ille motus est primus
+            <lb ed="#V" n="110"/>in genere praedicamentali, quia non est in eodem genere
+            <lb ed="#V" n="111"/>cum alijs. Non enim omnes motus sunt in eodem gemeoe, sed in
+            <lb ed="#V" n="112"/>diuersis, sicut alteratio est in genere qualitatis, augmentum &amp;
+            <lb ed="#V" n="113"/>diminutio in genere quantitatis, loci mutatio in
+            praedicamen<lb ed="#V" n="114" break="no"/>to vbi. Secundo. Quia licet motus localis requirat subiectum
+            <lb ed="#V" n="115"/>magis perfectum quam generatio vel alteratio, ipse tamen
+            <lb ed="#V" n="116"/>motus est minus perfectus quam generatio vel alteratio, quia
+            <lb ed="#V" n="117"/>sicut agens est perfectius, quod minus supponit in actione
+            <lb ed="#V" n="118"/>sua, &amp; plus producit, sic generatio &amp; alteratio sunt
+            perfe<lb ed="#V" n="119" break="no"/>ctiores quam motus localis, quia plus ponunt, vel
+            produ<lb ed="#V" n="120" break="no"/>cunt &amp; minus supponunt. Tertio. Contra aliud in illa
+            con<lb ed="#V" n="121" break="no"/>clusione contentum scilicet quod motus coeli, vel caelum in virtute
+            <lb ed="#V" n="122"/>intelligentiae agat. Quia si (inquit) coelum in virtute
+            intel<lb ed="#V" n="123" break="no"/>ligentiae posset aliquod viuens generare, istud esset vel
+            per<lb ed="#V" n="124" break="no"/>motum ab intelligentia causatum, vel per aliquam virtutem ab
+            <lb ed="#V" n="125"/>intelligentia influxam. Non per motum, quia motus localis
+            <lb ed="#V" n="126"/>non potest esse ratio agendi, nec per aliquam virtutem
+            coelo<lb ed="#V" n="127" break="no"/>influxam, quia vel esset influxa, immediate ab intelligentia,
+            <lb ed="#V" n="128"/>vel mediante motu. Non immediate, quia intelligentia non
+            <lb ed="#V" n="129"/>agit ad formam immediate, nec mediante motu, quia per
+            <lb ed="#V" n="130"/>motum localem, qualis est motus caeli, nihil acquiritur. Ex hoc
+            <lb ed="#V" n="131"/>arguitur sic. Quod non acquirit virtutem agendi non acquirit
+            <lb ed="#V" n="132"/>virtutem producendi, sed caelum ab intelligentia mouente
+            <lb ed="#V" n="133"/>ipsum non acquirit virtutem agendi, vt probatum est, igitur &amp;c.
+          </p>
+          <p xml:id="capsco-b1or6x-d1e829">
+            <lb ed="#V" n="134"/>Contra eandem conclusionem dudum arguerunt multi,
+            <lb ed="#V" n="135"/>quorum obiecta sufficienter euacuauit correptor
+            corrupto<lb ed="#V" n="136" break="no"/>ris, ideo hic non curo ponere, nisi tantum obiecta
+            Henri<lb ed="#V" n="137" break="no"/>ci. 11. quolibet q. 15. Ipse siquidem ibidem vult probare, quod
+            <lb ed="#V" n="138"/>cessante motu caeli multa possent inferius moueri. Primo.
+            <lb ed="#V" n="139"/>Quia si graue esset sursum nullo impediente, descenderet
+            <lb ed="#V" n="140"/>etiam stante caelo, aliter esset perpetua violentia, &amp; sine
+            inferen<lb ed="#V" n="141" break="no"/>te violentiam. Secundo. Quia animal stante caelo non
+            impedi<lb ed="#V" n="142" break="no"/>retur a suo motu progressiuo, cum etiam dicat Auernus quod iste
+            <lb ed="#V" n="143"/>motus esset in vacuo. Tertio. Quia tunc animalia, quae
+            reperi<lb ed="#V" n="144" break="no"/>rentur viua in hora status coeli semper naturaliter manerent,
+            <lb ed="#V" n="145"/>&amp; si essent etiam mortua cadauera manerent semper. Quurto. Quia
+            <lb ed="#V" n="146"/>cessante motu caeli multa possent corrumpi, licet non
+            gnena<lb ed="#V" n="147" break="no"/>ri, quia ad corruptionem sufficit defectus virtutis
+            conser<lb ed="#V" n="148" break="no"/>uantis rem, non autem requiritur causa positiua. Vnde cum
+            coe<lb ed="#V" n="149" break="no"/>lum per se suo motu sit causa generationis, vim generatiuam
+            <lb ed="#V" n="150"/>per motum suum influendo, corruptio sit etiam si nihil
+            si<pb ed="#V" n="319"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>extra a quo moueatur res: ergo stante caelo non esset
+            genera<lb ed="#V" n="2" break="no"/>tio, esset tamen corruptio non per agens extra, sed per
+            defe<lb ed="#V" n="3" break="no"/>ctum virtutis conseruantis intra. Mixta enim non solum
+            gene<lb ed="#V" n="4" break="no"/>rantur virtute coeli, sed etiam conseruantur quousque
+            vir<lb ed="#V" n="5" break="no"/>tus conseruans non subtrahatur, &amp; tunc sequitur
+            corru<lb ed="#V" n="6" break="no"/>ptio ex virtute deficiente. Vnde in tali corruptione non est
+            <lb ed="#V" n="7"/>quaerenda causa positiua, sed negatiua. Vnde Commentator
+            <lb ed="#V" n="8"/>3. de Generatione dicit, quod ignis cum non mouebit per
+            prin<lb ed="#V" n="9" break="no"/>cipium mouens, mouebit ad corruptionem tantum. Quinto.
+            <lb ed="#V" n="10"/>Quia Philosophus ibidem dicit generationem &amp;
+            corruptio<lb ed="#V" n="11" break="no"/>nem fieri per motus contrarios, quia generationem, eo quod
+            <lb ed="#V" n="12"/>adducit vim generatiuam, &amp; corruptionem per eum, qui
+            <lb ed="#V" n="13"/>abducit vim generatiuam &amp; conseruatiuam. Sexto. Quia
+            <lb ed="#V" n="14"/>omne corruptibile necesse est corrumpi, quia necesse est
+            pe<lb ed="#V" n="15" break="no"/>riodum cuiuslibet ad finem venire, ad quem cum peruenit
+            <lb ed="#V" n="16"/>cessabit influentia conseruans, &amp; si paulatim subtrahatur
+            <lb ed="#V" n="17"/>paulatim corrumpetur, &amp; si subito, vel simul, subito
+            corrum<lb ed="#V" n="18" break="no"/>petur. Cessat autem influxus coeli, quando cessat motus
+            <lb ed="#V" n="19"/>eius, &amp; ideo si caelum staret omnia corruptibilia
+            corrum<lb ed="#V" n="20" break="no"/>perentur, cuiusmodi sunt mixta. Elementa autem quia ex se
+            <lb ed="#V" n="21"/>sunt incorruptibilia, nec sunt corruptibilia, nisi per
+            acci<lb ed="#V" n="22" break="no"/>dens, quia sunt in potentia ad formas aliorum
+            elemento<lb ed="#V" n="23" break="no"/>rum &amp; mixtorum, ideo cessante motu coeli cessabit
+            gene<lb ed="#V" n="24" break="no"/>ratio &amp; corruptio elementorum, quae non fit nisi virtute
+            <lb ed="#V" n="25"/>caeli. Septimo. Quia articulus condemnatus est dicere, quod
+            <lb ed="#V" n="26"/>cessante motu caeli, ignis non posset comburere stupam.
+          </p>
+          <p xml:id="capsco-b1or6x-d1e927">
+            Item
+            <lb ed="#V" n="27"/>potest argui contra conclusionem, quia tempore Iosue
+            ces<lb ed="#V" n="28" break="no"/>sauit motus coeli, &amp; tamen caelo quiescente multae
+            transmutatio<lb ed="#V" n="29" break="no"/>nes naturales, &amp; non miraculosae factae sunt. Item quia secundum
+            <lb ed="#V" n="30"/>Augustinum caelo quiescente rota figuli posset moueri, &amp; tunc esset
+            <lb ed="#V" n="31"/>motus &amp; tempus: igitur &amp;c. Et in hoc secundus arti. terminatur.
+          </p>
+        </div>
+        <div xml:id="capsco-b1or6x-Dd1e941">
+          <head xml:id="capsco-b1or6x-Hd1e943">Articulus 3</head>
+          <p xml:id="capsco-b1or6x-d1e945">
+            <lb ed="#V" n="32"/><milestone ed="#V" unit="p" rend="initial"/> Quantum ad tertium artic. respondetur ad primum
+            co<lb ed="#V" n="33" break="no"/>tra primam &amp; secundam conclusiones. Et quia ib
+            <lb ed="#V" n="34"/>implicantur multa.
+          </p>
+          <p xml:id="capsco-b1or6x-d1e955">
+            Ad primum quod ibi dicitur, quod
+            <lb ed="#V" n="35"/>non omnis motus est actio, licet omnis actio &amp;c. dicitur que
+            <lb ed="#V" n="36"/>illa distinctio est contra Philosophum 3. Phyas &amp; Comment.
+            <lb ed="#V" n="37"/>&amp; auctorem sex principiorum, &amp; coniter contra omnes peripa
+            <lb ed="#V" n="38"/>teticos volentes, quod omnis motus corporalis est cum aliqua
+            <lb ed="#V" n="39"/>actione, licet non omnis actio sit cum motu, aut mutatione
+            <lb ed="#V" n="40"/>proprie loquendo. Vlterius dicitur, quod distinctio secunda ibidem
+            <lb ed="#V" n="41"/>facta, qua dicitur, quod illud, quo aliquid agit, potest sumi
+            triplici<lb ed="#V" n="42" break="no"/>ter, quia aut est ratio agendi, aut actio, aut aliquid, sine quo
+            <lb ed="#V" n="43"/>non potest exerceri actio.
+          </p>
+          <p xml:id="capsco-b1or6x-d1e977">
+            Non valet, quia non videtur quod tertium
+            <lb ed="#V" n="44"/>membrum ponat in numerum cum duob primis, vtputa
+            <lb ed="#V" n="45"/>quod aliquid nullo modo sit ratio agendi in nullo genere causae.
+            <lb ed="#V" n="46"/>nec sit actio, &amp; tamen sit necessario requisitum ad agendum.
+            Om<lb ed="#V" n="47" break="no"/>nis enim effectus poni potest positis suis causis &amp; causatione vel
+            <lb ed="#V" n="48"/>actione causarum, quocunque alio circunscripto. Et ad
+            pro<lb ed="#V" n="49" break="no"/>bationem ibidem adductam de motu securis &amp;c. Dicitur quod
+            si<lb ed="#V" n="50" break="no"/>cut omnis dispositio materiae vel subiecti ad recipiendum
+            actio<lb ed="#V" n="51" break="no"/>nem vel impressionem agentis reducitur ad genus causae
+            ma<lb ed="#V" n="52" break="no"/>terialis, ita omnis dispositio agentis, aut mouentis, ad hoc quod
+            <lb ed="#V" n="53"/>moueat vel agat, reducitur ad genus causae efficientis
+            qua<lb ed="#V" n="54" break="no"/>litercunque. Vnde in extremo de securi dicitur, quod motio
+            secu<lb ed="#V" n="55" break="no"/>ris ab artifice est sibi ratio agendi. Et tunc descendendo ad
+            <lb ed="#V" n="56"/>propositum magis in speciali dicitur, quod coelum agit per motum,
+            <lb ed="#V" n="57"/>qui est in eo tanquam per rationem agendi, ita quod motus ille
+            <lb ed="#V" n="58"/>est dispositio agentis ad hoc, quod agat in haec inferiora. Et ad
+            <lb ed="#V" n="59"/>primam simod improbationem dico primo, quod aliquid potest
+            <lb ed="#V" n="60"/>dici rationem agendi alicui agenti sex modis, primo sua forma
+            sub<lb ed="#V" n="61" break="no"/>stantialis, secundo sua naturalis potentia actiua, quaecunque
+            <lb ed="#V" n="62"/>illa sit, tertio qualitates aliquae siue sint habitus, aut aliae
+            di<lb ed="#V" n="63" break="no"/>spositiones, quarto virtus influxa a superiori agente, si nt
+            <lb ed="#V" n="64"/>agens instrumentale, quinto quantitas, quae etiam aliquid
+            con<lb ed="#V" n="65" break="no"/>fert ad agendum, aliter nanque agit magnus ignis, quam
+            par<lb ed="#V" n="66" break="no"/>uus, sexto habitudines respectiuae, puta distantia, &amp;
+            propor<lb ed="#V" n="67" break="no"/>tio agentis ad passum, &amp; similia, &amp; generaliter omnis conditio
+            a<lb ed="#V" n="68" break="no"/>gentis aliquid conferens ad actionem, aut quantum ad
+            sub<lb ed="#V" n="69" break="no"/>stantiam actus, aut quantum ad eius modum, puta
+            veloci<lb ed="#V" n="70" break="no"/>tatem, tarditatem, magnitudinem, paruitatem, intensionem,
+            <lb ed="#V" n="71"/>aut remissionem. Dico scono, quod motus localis potest
+            dici<lb ed="#V" n="72" break="no"/>ratio agendi suo mobili, quarto &amp; sexto modo. Corpus enim
+            <lb ed="#V" n="73"/>mouens aliud corpus proportionatur sibi per hoc, quod
+            mo<lb ed="#V" n="74" break="no"/>uetur, sicut tangit Sanctus Thomas 1. par. q. 25. art. 2. in solutione
+            ter<lb ed="#V" n="75" break="no"/>tij. Corpus (inquit) mouens aliud corpus est agens
+            vni<cb ed="#V" n="b"/><lb ed="#V" n="76" break="no"/>uocum &amp;c. Dicitur tertio quod motus localis ratione sui termini
+            ex<lb ed="#V" n="77" break="no"/>trinseci ponit aliquid absolutum scilicet locum, licet terminus eius
+            <lb ed="#V" n="78"/>intrinsecus non sit quid absolutum, sed quid respectiuum,
+            <lb ed="#V" n="79"/>puta ipsum vbi. Et hoc secundum opinionem superius tactam.
+            <lb ed="#V" n="80"/>Quia Sanctus Thomas quandoque videtur dicere, quod motus localis non est
+            <lb ed="#V" n="81"/>aliud quam successio diuersorum locorum circa idem
+            mo<lb ed="#V" n="82" break="no"/>bile, vt patet in 4. sent. dist. 44. q. 2. arti. 3. quaest. 3. quandoque autem
+            <lb ed="#V" n="83"/>dicit illum esse subiectiue in mobili, &amp; sic isto modo
+            opor<lb ed="#V" n="84" break="no"/>tet, quod ponat motum localem esse quid aliud a loco, quod
+            <lb ed="#V" n="85"/>non videtur posse dici, nisi sit vbi fluens.
+          </p>
+          <p xml:id="capsco-b1or6x-d1e1072">
+            Dico quarto, quod
+            respe<lb ed="#V" n="86" break="no"/>ctus potest esseratio agendi aliquo modo, vt dictum est, licet non
+            <lb ed="#V" n="87"/>primaria &amp; principalis, &amp; similiter potest esse terminus
+            mo<lb ed="#V" n="88" break="no"/>tus, vt patetde vbi, quod etiam oportet arguentem dicere cum
+            <lb ed="#V" n="89"/>in eadem q. dicat, quod locus non est terminus motus, cuenm
+            per<lb ed="#V" n="90" break="no"/>cedat illum, sed esse in loco. Oportet autem quod per esse in
+            loco<lb ed="#V" n="91" break="no"/>intelligat quid respectiuum, &amp; non quid absolutum, quia
+            <lb ed="#V" n="92"/>secundum eum motus localis non ponit aliquid absolutum in suo
+            <lb ed="#V" n="93"/>mobili. Tres ergo probationes per eum adductae ad
+            pro<lb ed="#V" n="94" break="no"/>bandum motum localem non ponere quid absolutum in
+            <lb ed="#V" n="95"/>mobili conceduntur, licet tertia falsum assumat scilicet quod non od
+            <lb ed="#V" n="96"/>mouens est agens, vt supra dictum est, nisi stricte accipiat
+            <lb ed="#V" n="97"/>agens pro illo, quod producit formam absolutam, tunc enim
+            <lb ed="#V" n="98"/>verum diceret. Quia autem caelum non agat per motum
+            tan<lb ed="#V" n="99" break="no"/>quam per actionem conceditur. Quia vero dicit motum
+            <lb ed="#V" n="100"/>non esse necessarium ad hoc quod caelum agat in haec
+            inferio<lb ed="#V" n="101" break="no"/>ra. Dicitur quod iuxta praehabita duplex est actio caeli, quaedam
+            <lb ed="#V" n="102"/>quidem transmutatiua materiae ad formam substantialem
+            <lb ed="#V" n="103"/>actu vel potentia proxima, &amp; de ista dicitur, quod non est a
+            coelo<lb ed="#V" n="104" break="no"/>nisi per motum. Alia vero est actio similis actioni
+            substan<lb ed="#V" n="105" break="no"/>tiae separatae. Et ad hanc non requiritur motus, cuiusmodi
+            <lb ed="#V" n="106"/>est illuminatio. Et ad probationem in oppositum dicitur, quod
+            <lb ed="#V" n="107"/>nullum corpus generabile &amp; corruptibile agit quamcunque
+            <lb ed="#V" n="108"/>actionem nisi virtute coeli, loquendo de actione
+            naturali<lb ed="#V" n="109" break="no"/>nullo modo libera, quod dico propter motus corporales
+            <lb ed="#V" n="110"/>hominis, qui est liberi arbitrii, &amp; ideo non oportet quod si
+            cor<lb ed="#V" n="111" break="no"/>pus inferius generabile &amp; corruptibile agit non motum, sed
+            <lb ed="#V" n="112"/>quietum, quod ideo caelum possit agere non motum, sed
+            quie<lb ed="#V" n="113" break="no"/>tum, quia coelum est principalior causa talis actionis.
+            Dici<lb ed="#V" n="114" break="no"/>tur vlterius, quod nec magnes, nec aliud corpus generabile
+            <lb ed="#V" n="115"/>potest agere totaliter quiescens. Tum quia omnem eius actionem
+            <lb ed="#V" n="116"/>praecedit localis approximatio sui vel alterius. Tum quia
+            <lb ed="#V" n="117"/>non agit nisi ex influxu caeli, receptio autem talis influxus
+            mo<lb ed="#V" n="118" break="no"/>tio quaedam est. Tum quia multi dicerent, quod magnes non
+            <lb ed="#V" n="119"/>trahit ferrum nisi motione causae finalis, effectiue autem
+            mo<lb ed="#V" n="120" break="no"/>uetur a generante, quod dedit sibi talem naturam, vt ad
+            <lb ed="#V" n="121"/>praesentiam magnetis moueatur. Tum quia in magnete
+            prae<lb ed="#V" n="122" break="no"/>cedit aliqua alteratio vel resolutio antequam calefaciat
+            <lb ed="#V" n="123"/>alia. De hoc Commentator 7. Phy. comm. 10. Ad hoc
+            (in<lb ed="#V" n="124" break="no"/>quit) quod quaeritur, quod plura attrahentia videntur
+            attra<lb ed="#V" n="125" break="no"/>here sine tractu &amp; motu.
+          </p>
+          <p xml:id="capsco-b1or6x-d1e1162">
+            Dicendum est, quod haec attractio
+            <lb ed="#V" n="126"/>dicitur aequiuoce. Attractio enim in rei veritate est illa, qua
+            attra<lb ed="#V" n="127" break="no"/>hens mouetur cum attracto, &amp; hoc quando attractum ad
+            <lb ed="#V" n="128"/>ipsum fuerit quiescens, necesse est vt motus attrahentis sit
+            <lb ed="#V" n="129"/>velocior quam motus attracti, &amp; hoc videtur in virtutibus
+            <lb ed="#V" n="130"/>voluntarijs &amp;c. Sequitur. Attractio autem in qua attrahens
+            <lb ed="#V" n="131"/>est quiescens, &amp; attractum est motum non est attractio in
+            <lb ed="#V" n="132"/>rei veritate, sed attractum mouetur ex se, attrahens vt
+            per<lb ed="#V" n="133" break="no"/>ficiat se, vt lapis mouetur ad inferius, &amp; ignis superius. Et
+            <lb ed="#V" n="134"/>similiter oportet hoc intelligere de motu ferri ad
+            magne<lb ed="#V" n="135" break="no"/>tem &amp; alimenti ad membrum, v. 3. de motu sanguinis ad
+            <lb ed="#V" n="136"/>superiora corporis, &amp; vniuersaliter nutrimenti arborum ad
+            <lb ed="#V" n="137"/>superiora earum, sed est differentia inter illa, &amp; illa quae
+            mo<lb ed="#V" n="138" break="no"/>uentur ad locum proprium, quoniam illa mouentur ad locum,
+            <lb ed="#V" n="139"/>siue ille fuerit propinquus, siue remotus, nutrimenta vero
+            <lb ed="#V" n="140"/>non mouentur ad nutriendum nisi cum fuerint in aliqua
+            di<lb ed="#V" n="141" break="no"/>spositione demonstrata. Et similiter ferrum non mouetur
+            <lb ed="#V" n="142"/>ad magnetem, nisi cum fuerit in aliqua qualitate
+            demon<lb ed="#V" n="143" break="no"/>strata, &amp; ideo magnes quando fricatur cum alleo amittit
+            <lb ed="#V" n="144"/>virtutem. Nam ferrum tunc non acquirit de lapide in illa
+            <lb ed="#V" n="145"/>dispositione qualitatem, per quam innatum est moueri
+            per<lb ed="#V" n="146" break="no"/>se ad lapidem, &amp; hoc manifestum est in cacabo, quod
+            attra<lb ed="#V" n="147" break="no"/>hit paleam quando calefit. Haec ille.
+          </p>
+          <p xml:id="capsco-b1or6x-d1e1212">
+            Secunda probatio, quae
+            <lb ed="#V" n="148"/>adducitur de coelo empyreo, non est contra nos, illud
+            <lb ed="#V" n="149"/>enim caelum non agit actione transmutatiua materiae, ideo
+            <lb ed="#V" n="150"/>potest agere quiescendo, vt supradictum est. Illa vero, quae
+            <pb ed="#V" n="320"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>addit arguens, quomodo scilicet motus coeli exigatur ad
+            noui<lb ed="#V" n="2" break="no"/>tatem, &amp; ad alternationem actionum, bene dictum est, quia
+            <lb ed="#V" n="3"/>ad hoc requiritur, sed non praecise.
+          </p>
+          <p xml:id="capsco-b1or6x-d1e1232">
+            Ad primum contra
+            se<lb ed="#V" n="4" break="no"/>cundam conclusionem dicitur, quod ista propositio. Primum
+            <lb ed="#V" n="5"/>in vnoquoque genere causa est aliorum eiusdem generis, non
+            <lb ed="#V" n="6"/>debet sic glosari quod primum in genere causalitatis est causa
+            <lb ed="#V" n="7"/>aliorum, quia glosa ista derisibilis est, &amp; nihil dicit aliud, nisi
+            <lb ed="#V" n="8"/>quod prima causa est causa, de quo nunquam aliquis
+            dubita<lb ed="#V" n="9" break="no"/>uit, sed debet intelligi &amp; glosari sic, quod illud, quod inter res
+            <lb ed="#V" n="10"/>eiusdem generis est prius perfectione, &amp; natura, &amp; tempore
+            <lb ed="#V" n="11"/>habet aliquam causalitatem super alia illius generis, &amp; ad
+            <lb ed="#V" n="12"/>hunc sensum ponitur ab Aristoteles 2. Metaphy. Cum autem
+            di<lb ed="#V" n="13" break="no"/>cit arguens, quod habet instansiam, quia albedo &amp;c. Dicitur
+            <lb ed="#V" n="14"/>quod albedo quantum ad suum formale, quod est lux quae
+            pri<lb ed="#V" n="15" break="no"/>mo inest albedini, est causa, q. formalis &amp; constitutiua
+            om<lb ed="#V" n="16" break="no"/>nium colorum. Quia autem vlterius addit, quod scilicet non
+            <lb ed="#V" n="17"/>omnes motus sunt vnius generis &amp;c. verum est quo ad sua
+            <lb ed="#V" n="18"/>materialia, quia vbi, &amp; qualitas, &amp; quantitas sunt diuersa
+            <lb ed="#V" n="19"/>genera praedicamentalia, sed non sic accipitur genus a
+            Phi<lb ed="#V" n="20" break="no"/>losopho in maxima supradicta, sed largius eo modo, quo
+            <lb ed="#V" n="21"/>dicimus omnia vera esse vnius generis, &amp; omnia bona
+            simili<lb ed="#V" n="22" break="no"/>ter, ita quod verum &amp; bonum communiter dicantur genera,
+            <lb ed="#V" n="23"/>&amp; proportionabiliter motus dicatur vnum genus ad omnes
+            <lb ed="#V" n="24"/>motus ratione illa, quod est formale in illis scilicet esse actum in
+            <lb ed="#V" n="25"/>potentia, ita quod omnia illa dicantur eiusdem generis, quae
+            <lb ed="#V" n="26"/>conueniunt in vna communi intentione vniuoca. vel
+            ana<lb ed="#V" n="27" break="no"/>loga.
+          </p>
+          <p xml:id="capsco-b1or6x-d1e1287">
+            Ad secundum dicitur, quod antecedens est manifeste
+            con<lb ed="#V" n="28" break="no"/>tra Philosophum &amp; Commentatorem 9. Physic. com. 57
+            <lb ed="#V" n="29"/>&amp; multis sequentibus, vbi expresse, &amp; ex intentione
+            pro<lb ed="#V" n="30" break="no"/>bant motum localem esse priorem alijs duratione, natura,
+            <lb ed="#V" n="31"/>&amp; perfectione.
+          </p>
+          <p xml:id="capsco-b1or6x-d1e1298">
+            Nec valet probatio ad oppositum, qua
+            dici<lb ed="#V" n="32" break="no"/>tur quod generatio &amp; alteratio plus ponunt, &amp; minus
+            suppo<lb ed="#V" n="33" break="no"/>nunt quam motus localis. Tum quia falsum est, quod
+            assu<lb ed="#V" n="34" break="no"/>mitur, licet enim generatio &amp; alteratio plus ponat in suo
+            mo<lb ed="#V" n="35" break="no"/>bili, &amp; suo subiecto, tamen motus localis plus ponit in
+            alie<lb ed="#V" n="36" break="no"/>no subiecto, cum sit causa generationis &amp; alterationis, &amp;
+            <lb ed="#V" n="37"/>praecedat eas necessario, ideo quicquid causat generatio &amp;
+            <lb ed="#V" n="38"/>alteratio causat motus localis. Tum quia cum accidens non
+            <lb ed="#V" n="39"/>transcendat perfectionem sui subiecti essentialem, &amp;
+            gene<lb ed="#V" n="40" break="no"/>ratio habeat imiperfectissimum subiectum, &amp; in pura
+            po<lb ed="#V" n="41" break="no"/>tentia, alteratio vero consimiliter habeat subiectum
+            poten<lb ed="#V" n="42" break="no"/>tialius &amp; imperfectius subiecto motus localis, quod
+            inquan<lb ed="#V" n="43" break="no"/>tum huiusmodi est minime in potentia, impossibile est, quod
+            <lb ed="#V" n="44"/>sint perfectiores motu locali. Tum quia finis est potior his,
+            <lb ed="#V" n="45"/>quae sunt ad finem, hic autem motus est finis aliorum, sicut
+            <lb ed="#V" n="46"/>&amp; subiectum eius, quod est ens completum, finis est
+            subie<lb ed="#V" n="47" break="no"/>ctorum generationis &amp; alterationis. Tum quia similitudo
+            <lb ed="#V" n="48"/>ibidem adducta non valet de agente, quod plura ponit &amp;
+            <lb ed="#V" n="49"/>producit, &amp; pauciora supponit, quia perfectio agentis
+            co<lb ed="#V" n="50" break="no"/>gnoscitur ex effectu, non autem perfectio motus, aut
+            mu<lb ed="#V" n="51" break="no"/>tationis ex suo termino, quia alia est comparatio agentis ad
+            <lb ed="#V" n="52"/>suum effectum, &amp; alia motus ad suum terminum. Agens enim
+            <lb ed="#V" n="53"/>continet totam perfectionem sui effectus, motus autem se
+            <lb ed="#V" n="54"/>habet ad terminum non effectiue, sed vt potentia ad actum,
+            <lb ed="#V" n="55"/>&amp; vt imperfectum ad perfectum, vnde excluditur
+            superue<lb ed="#V" n="56" break="no"/>niente termino suo, vnde quanto terminus, ad quem est
+            <lb ed="#V" n="57"/>perfectior, tanto motus vel mutatio ad illum est
+            imperfe<lb ed="#V" n="58" break="no"/>ctior, vtputa priuatio maioris perfectionis deterior est
+            pri<lb ed="#V" n="59" break="no"/>uatione minoris, &amp; potentia ad perfectiorem actum
+            poten<lb ed="#V" n="60" break="no"/>tia ad imperfectiorem, &amp; hoc est verum, &amp; debet
+            intelligi<lb ed="#V" n="61" break="no"/>hoc modo scilicet comparando vnum genus motus ad aliud vt
+            <lb ed="#V" n="62"/>loci mutationem ad alterationem, non autem vnam speesm
+            <lb ed="#V" n="63"/>motus ad aliam eiusdem generis, vt generationem hominis
+            <lb ed="#V" n="64"/>ad generationem asini.
+          </p>
+          <p xml:id="capsco-b1or6x-d1e1372">
+            Ad tertium dicitur, quod intelligentia
+            <lb ed="#V" n="65"/>im inediate influit coelo, &amp; mediante coelo influit motui
+            <lb ed="#V" n="66"/>coeli. Nec valet improbatio huius, licet enim intelligentia non
+            <lb ed="#V" n="67"/>possit immediate influere rei corporali aliquam formam se
+            <lb ed="#V" n="68"/>habentem per modum habitus &amp; formae quietae propter
+            in<lb ed="#V" n="69" break="no"/>capacitatem corporis, potest tamen influere formam se
+            ha<lb ed="#V" n="70" break="no"/>bentem per modum passionis intentionalis, &amp; existentem
+            <lb ed="#V" n="71"/>magis in fieri quam in facto esse, cuiusmodi est virtus
+            influ<lb ed="#V" n="72" break="no"/>xa coelo. Et de hoc alias dictum est.
+          </p>
+          <p xml:id="capsco-b1or6x-d1e1393">
+            Ad primum Henrici
+            <lb ed="#V" n="73"/>contra eandem conclusionem dicitur, quod si omnes motus
+            <lb ed="#V" n="74"/>naturales habent essentialem ordinem ad motum coeli, vt
+            <lb ed="#V" n="75"/>ipse concedit, tunc eo cessante graue non descenderet. Non
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="76"/>enim in essentialiter ordinatis ponitur secundum ablato
+            <lb ed="#V" n="77"/>primo, immo nullum posteriorum poni potest. Constat
+            <lb ed="#V" n="78"/>autem quod motus grauis cum non sit primus motus, &amp;
+            t<lb ed="#V" n="79" break="no"/>men inter motus naturales est aliquis ordo, oportet quod
+            es<lb ed="#V" n="80" break="no"/>sentialiter ordinetur ad motum primum.
+          </p>
+          <p xml:id="capsco-b1or6x-d1e1415">
+            Praeterea. Graue
+            <lb ed="#V" n="81"/>non mouetur deorsum, nisi virtute formae acceptae a
+            gene<lb ed="#V" n="82" break="no"/>rante particulari, quod non egit sine influentia primi
+            alte<lb ed="#V" n="83" break="no"/>rantis &amp; generantis, &amp; per consequens, nec forma
+            grauita<lb ed="#V" n="84" break="no"/>tis habet quod inferius descendat, nisi in virtute primi
+            gene<lb ed="#V" n="85" break="no"/>rantis, quae subtracta est, quando motus subtrahitur, &amp; ideo
+            <lb ed="#V" n="86"/>cum illa forma non moueat nisi in virtute, vtriusque
+            gene<lb ed="#V" n="87" break="no"/>rantis, particularis scilicet &amp; vniuersalis, quae subtrahitur per
+            sub<lb ed="#V" n="88" break="no"/>tractionem motus, ideo graue non descenderet, si coelum
+            <lb ed="#V" n="89"/>staret. Vnde Philosophi sicut reputarent impossibile, quod
+            <lb ed="#V" n="90"/>graue non impeditum sursum staret, sicut quod motus
+            coeli<lb ed="#V" n="91" break="no"/>cessaret. Quia autem dicit quod si graue non descenderet
+            stan<lb ed="#V" n="92" break="no"/>te coelo, tunc violentia esset perpetua.
+          </p>
+          <p xml:id="capsco-b1or6x-d1e1444">
+            Dicendum, quod si
+            gra<lb ed="#V" n="93" break="no"/>ue poneretur extra locum suum, &amp; ibi perpetuo
+            remane<lb ed="#V" n="94" break="no"/>ret, non esset inconueniens hoc, posito quod violentia esset
+            <lb ed="#V" n="95"/>perpetua, licet non esset simpliciter violentia, quia graue
+            <lb ed="#V" n="96"/>non est natum ferri deorsum nisi supposita influentia
+            mo<lb ed="#V" n="97" break="no"/>tus coeli. Vnde licet esset contra naturam grauis vt
+            parti<lb ed="#V" n="98" break="no"/>cularis est, non tamen esset contra eam vt comparatur ad
+            <lb ed="#V" n="99"/>vniuersalem causam, sicut motus, quo ignis mouetur
+            natu<lb ed="#V" n="100" break="no"/>raliter in sphaera sua, est naturalis ei per comparationem
+            <lb ed="#V" n="101"/>eius ad causam vniuersalem, &amp; ideo non esset simpliciter
+            vio<lb ed="#V" n="102" break="no"/>lentia tunc si graue staret, quia aliquid esset ibi de
+            natura<lb ed="#V" n="103" break="no"/>litate.
+          </p>
+          <p xml:id="capsco-b1or6x-d1e1470">
+            Item cum dicit, quod esset violentia sine inferente.
+            Di<lb ed="#V" n="104" break="no"/>cendum quod impediens esset ne graue descenderet. Sed
+            impe<lb ed="#V" n="105" break="no"/>diens aliquid duplex est, vnum positiuum, sicut columna
+            <lb ed="#V" n="106"/>impedit ne graue descendat, aliud priuatiuum, sicut
+            subtra<lb ed="#V" n="107" break="no"/>ctio causae motus. Et sic cessatio motus caeli impediret,
+            ne<lb ed="#V" n="108" break="no"/>graue descenderet.
+          </p>
+          <p xml:id="capsco-b1or6x-d1e1483">
+            Ad secundum dicitur, quod idem esset, quod
+            di<lb ed="#V" n="109" break="no"/>citur de motu grauium &amp; leuium, etiam de omni alio motu
+            <lb ed="#V" n="110"/>nisi de motibus hominis, qui non sunt naturales, sed subsunt
+            <lb ed="#V" n="111"/>libero arbitrio.
+          </p>
+          <p xml:id="capsco-b1or6x-d1e1492">
+            Ad tertium dicitur, quod si cadauera
+            remaneren<lb ed="#V" n="112" break="no"/>post cessationem motus caeli semper manerent. Et similiter
+            <lb ed="#V" n="113"/>animalia si remanerent, semper remanerent. Cum enim
+            incor<lb ed="#V" n="114" break="no"/>ruptio fiat per motum, &amp; nullus motus naturalis ad
+            for<lb ed="#V" n="115" break="no"/>mam possit esse, postquam cessauerit motus primus, talia
+            <lb ed="#V" n="116"/>animalia, vel cadauera, vel alia mixta non possent ab aliquo
+            <lb ed="#V" n="117"/>agente naturali corrumpi, quia tale agens non agit ad
+            for<lb ed="#V" n="118" break="no"/>mam sine motu praeuio. Nec potest dici, quod miscibilia redeant
+            <lb ed="#V" n="119"/>ad naturas proprias. Tum quia hoc non est sine motu
+            na<lb ed="#V" n="120" break="no"/>turali, qui non est possibilis, cum cessauerit motus primus.
+            <lb ed="#V" n="121"/>Tum quia esset quaedam generatio, quia miscibilia, quae non
+            <lb ed="#V" n="122"/>sunt actu in mixto fierent entia in actu sub proprijs formis,
+            <lb ed="#V" n="123"/>&amp; sic fieret motus ad formam.
+          </p>
+          <p xml:id="capsco-b1or6x-d1e1522">
+            Ad quartum dicitur, quod cessante
+            <lb ed="#V" n="124"/>primo motu, sicut non esset generatio, ita nec corruptio.
+            <lb ed="#V" n="125"/>Cuius ratio dicta est, sicut enim gneatio est terminus a
+            teratio<lb ed="#V" n="126" break="no"/>nis, sic &amp; corruptio, cessante autem motu caeli si solueretur
+            <lb ed="#V" n="127"/>proportio miscibilium in mixto, oporteret quod fieret
+            gene<lb ed="#V" n="128" break="no"/>ratio, quia quando aliquid de ente in potentia reducitur ad esse
+            <lb ed="#V" n="129"/>in actum simpliciter, tunc est generatio. Sic autem esset quando
+            <lb ed="#V" n="130"/>corrumperetur mixtum cessante motu caeli, quia elementa,
+            <lb ed="#V" n="131"/>quae sunt in mixto in potentia, &amp; non secundum proprias
+            <lb ed="#V" n="132"/>formas, fierent in actu sub proprijs formis: ergo tunc non
+            <lb ed="#V" n="133"/>esset corruptio sine generatione, sicut arguens putat, licet
+            <lb ed="#V" n="134"/>esset sine alteratione praecedente, quia in instanti, quo
+            ces<lb ed="#V" n="135" break="no"/>saret motus coeli, disiolueretur mixtum. Quia autem
+            allegat<lb ed="#V" n="136" break="no"/>de Commentatore. Dicendum quod igni, ad nihilum posset
+            <lb ed="#V" n="137"/>mouere, si caelum staret, posito tamen per impossibile, quod
+            moue<lb ed="#V" n="138" break="no"/>ret, magis moueret ad corruptionem, quia virtutem generatiuam
+            <lb ed="#V" n="139"/>non habet ad exequendum nisi supposito motu. Et cum
+            Phi<lb ed="#V" n="140" break="no"/>losophus dicit, quod nihil fit nisi moueatur, corrum pitur autem
+            <lb ed="#V" n="141"/>cum nihil mouetur, non est ad propositum, quia intelligitur
+            <lb ed="#V" n="142"/>sic, quod nihil fit simpliciter, nisi moueatur ab aliquo extra, quia
+            <lb ed="#V" n="143"/>nihil reducit se de potentia ad actum, vel ad esse simpliciter.
+            <lb ed="#V" n="144"/>Corrumpitur tamen aliquid cum a nullo mouetur extra quia in
+            <lb ed="#V" n="145"/>se habet causam suae corruptionis, quia scilicet est compositum ex
+            con<lb ed="#V" n="146" break="no"/>trarijs, supponitur tamen motus caeli, sine quo compositum ex
+            <lb ed="#V" n="147"/>contrarijs corrumpi non posset, nisi vno solo momtscilicet in instanti,
+            <lb ed="#V" n="148"/>quo motus caeli cessaret. Sed nec prius, nec post cessationem
+            <lb ed="#V" n="149"/>corrumpi posset, nisi semper in virtute primi motus.
+          </p>
+          <p xml:id="capsco-b1or6x-d1e1581">
+            Ad quintum
+            <lb ed="#V" n="150"/>dicitur, quod Philosophus vbi allegatur, non intendit, quod sit
+            ali<pb ed="#V" n="321"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>quis motus per se ad corruptionem, vnde cum sol declinat
+            <lb ed="#V" n="2"/>a nobis, accedit ad aliqua loca, vbi generantur aliqua, quae
+            <lb ed="#V" n="3"/>prius non generabantur, quae etiam corrumpuntur in
+            declina<lb ed="#V" n="4" break="no"/>tione solis.
+          </p>
+          <p xml:id="capsco-b1or6x-d1e1597">
+            Ad sextum patet responsio ex praedictis, quod autem
+            <lb ed="#V" n="5"/>dicit elementa esse incorruptibilia per se falsum est, licet enim
+            <lb ed="#V" n="6"/>non habeant in se principium suae corruptionis, sicut mixta,
+            <lb ed="#V" n="7"/>quae sunt composita ex contrarijs, &amp; non possint
+            corrum<lb ed="#V" n="8" break="no"/>pi nisi ab extrinseco, non tamen debent dici per se
+            incorru<lb ed="#V" n="9" break="no"/>ptibilia, sicut licet corpus inanimatum non moueatur nisi
+            <lb ed="#V" n="10"/>ab extrinseco, non tamen debet dici, quod sit per se immobile, nisi
+            <lb ed="#V" n="11"/>accipiendo per se. 1. a se non est mobile. Cessante autem
+            caelo<lb ed="#V" n="12" break="no"/>remanebunt elementa, quia sunt vltimi termini
+            resolutio<lb ed="#V" n="13" break="no"/>nis ad quae mixta habent resolui. Et quia nullus motus
+            na<lb ed="#V" n="14" break="no"/>turalis erit vltra, ideo semper remanebuntincorrupta. Ad
+            <lb ed="#V" n="15"/>septimum dicitur, quod error est dicere, quod cessante motu caeli ignis
+            <lb ed="#V" n="16"/>non posset comburere stupam per diuinam potentiam. Sic enim
+            <lb ed="#V" n="17"/>negant hoc quidam Philus d. quod Deus non posset nouos
+            effe<lb ed="#V" n="18" break="no"/>ctus naturales inferius producere sine motu caeli, &amp; per
+            con<lb ed="#V" n="19" break="no"/>sequens, nec facere, quod ignis combureret stupam, quod falsum
+            <lb ed="#V" n="20"/>est. Sed positio nostra non ponit hoc. Praedictae
+            responsio<lb ed="#V" n="21" break="no"/>nes sunt Bernardus de Gannaco, quae sunt sufficientes.
+          </p>
+          <p xml:id="capsco-b1or6x-d1e1636">
+            Ad octauum
+            <lb ed="#V" n="22"/>dicitur, quod sicut illa statio solis miraculose facta est, sic
+            mi<lb ed="#V" n="23" break="no"/>raculose factum est, quod illo stante corpora inferiora suos
+            mo<lb ed="#V" n="24" break="no"/>tus exercerent naturales.
+          </p>
+          <p xml:id="capsco-b1or6x-d1e1645">
+            Ad nonum dicitur, quod Auguinus loquiim de
+            <lb ed="#V" n="25"/>potentia diuina vel angelica vel etiam humana, nos autem
+            lo<lb ed="#V" n="26" break="no"/>quimur de potentia naturali Physicorum corporum ad suos
+            <lb ed="#V" n="27"/>motus naturales.
+          </p>
+          <p xml:id="capsco-b1or6x-d1e1654">
+            Ad argumentum in pede qu. factum
+            nega<lb ed="#V" n="28" break="no"/>tur tam maior quam minor. Maior quidem, quia licet
+            quan<lb ed="#V" n="29" break="no"/>titas non sit primaria &amp; principalis ratio agendi, cum sit
+            <lb ed="#V" n="30"/>quid mathematicum inquantum huiusmodi, potest tamen
+            <lb ed="#V" n="31"/>esse ratio agendi secundaria saltem causa sine qua non, vt
+            <lb ed="#V" n="32"/>supra dictum est. Minor similiter negatur, quia quantitas
+            <lb ed="#V" n="33"/>non est principalis ratio motus, aut mobilitatis, sed potius
+            for<lb ed="#V" n="34" break="no"/>ma naturalis rei, cum accidentibus naturaliter eam
+            consequen<lb ed="#V" n="35" break="no"/>tibus, quae sunt qualitates, quantitas autem potest dici ca sine
+            <lb ed="#V" n="36"/>qua non. Et haec de quaestione sufficiant. De qua benedictus deus Amen.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

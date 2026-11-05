@@ -1,0 +1,721 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 1, Distinctio 22, Quaestio 1</title>
+        <author ref="#JohannesCapreolus">Johannes Capreolus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 1, Distinctio 22, Quaestio 1</title>
+          <date when="2026-11-04">Nov 4, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-j88c01">Venice, 1589, v. 1</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-04" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="348"/>
+        <cb ed="#V" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="capsco-a2bw26"><!-- l1d22q1 -->
+        <head xml:id="capsco-a2bw26-Hd1e101">Quaestio 1</head>
+        <head xml:id="capsco-a2bw26-Hd1e103" type="question-title">Utrum Deus possit aliquo nomine proprie designari</head>
+        <p xml:id="capsco-a2bw26-d1e106">
+          <lb ed="#V" n="143"/>DISTINCTIO XXII
+          <lb ed="#V" n="144"/>QVAESTIO I.
+          <lb ed="#V" n="145"/>Vtrum Deus possit aliquo nomine proprie designari.
+        </p>
+        <p xml:id="capsco-a2bw26-d1e115">
+          <lb ed="#V" n="146"/><milestone ed="#V" unit="p" rend="initial"/> Circa vigesimam secundam distinctionem quaeritur.
+          <lb ed="#V" n="147"/>Vtrum Deus possit aliquo nomine proprie
+          desi<lb ed="#V" n="148" break="no"/>gnari.
+        </p>
+        <p xml:id="capsco-a2bw26-d1e125">
+          Et arguitur quod non. Quia nomen
+          signifi<pb ed="#V" n="349"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>cat substantiam cum qualitate, sed in Deo non est
+          substan<lb ed="#V" n="2" break="no"/>tia concreta cum qualitate. ergo non potest habere nomen.
+          <lb ed="#V" n="3"/>IN oppositum arguitur per illud Psal. Domine Dominus
+          <lb ed="#V" n="4"/>noster quam admirabile &amp;c.
+        </p>
+        <p xml:id="capsco-a2bw26-d1e139">
+          <lb ed="#V" n="5"/><milestone ed="#V" unit="p" rend="indent"/> In hac quaestione erunt duo articuli. In primo
+          ponen<lb ed="#V" n="6" break="no"/>tur conclusiones. In secundo mouebuntur
+          aduersario<lb ed="#V" n="7" break="no"/>rum obiectiones.
+        </p>
+        <div xml:id="capsco-a2bw26-Dd1e149">
+          <head xml:id="capsco-a2bw26-Hd1e151">Articulus 1</head>
+          <p xml:id="capsco-a2bw26-d1e153">
+            <lb ed="#V" n="8"/><milestone ed="#V" unit="p" rend="initial"/> QVantum ad primum sit prima conclusio. Nullum
+            no<lb ed="#V" n="9" break="no"/>men proprie dicitur de Deo quantum ad modum
+            <lb ed="#V" n="10"/>significandi. Istam conclusionem probat Sanctus Doctor prima
+            <lb ed="#V" n="11"/>parte. q. 13. artic. 1. &amp; 3. Nomen enim aut dicitur in
+            abstra<lb ed="#V" n="12" break="no"/>cto aut in concreto, si in abstracto tunc siguificat aliquid
+            <lb ed="#V" n="13"/>non vt subsistens, sed vt quo aliquid est, sicut albedo
+            signi<lb ed="#V" n="14" break="no"/>ficat, vt quo aliquid est album, &amp; sic non proprie dicuntur
+            <lb ed="#V" n="15"/>de Deo quantum ad modum significandi: quia non
+            signi<lb ed="#V" n="16" break="no"/>ficant aliquod completum subsistens perfectum, si sunt
+            con<lb ed="#V" n="17" break="no"/>creta etiam non competunt Deo quantum ad modum
+            si<lb ed="#V" n="18" break="no"/>gnificandi: quia Deus est simpliciter, illa autem significant
+            <lb ed="#V" n="19"/>in concreto.
+          </p>
+          <p xml:id="capsco-a2bw26-d1e183">
+            Item contra Gent. libus 1. c. 31. sic ait. Quantum
+            <lb ed="#V" n="20"/>ad modum significandi omne nomen cum defectu est: nam
+            <lb ed="#V" n="21"/>nomine res exprimimus eo modo quo intellectu
+            concipi<lb ed="#V" n="22" break="no"/>mus. Intellectus autem noster ex sensibus cognoscendi
+            su<lb ed="#V" n="23" break="no"/>mens initium modum non transcendit, qui in rebus
+            sensi<lb ed="#V" n="24" break="no"/>bilibus inuenitur, in quibus aliud est forma, &amp; habens
+            for<lb ed="#V" n="25" break="no"/>mam propter formae, &amp; materiae compositionem, forma
+            ve<lb ed="#V" n="26" break="no"/>ro in his rebus inuenitur quidem simpliciter, sed
+            imperfe<lb ed="#V" n="27" break="no"/>cta, vtpote non subsistens habens vero formam inuenitur
+            <lb ed="#V" n="28"/>quidem subsistens, sed non simpliciter, immo concretione
+            <lb ed="#V" n="29"/>habens: vnde intellectus noster quicquid significat, vt
+            sub<lb ed="#V" n="30" break="no"/>sistens significat in concreto, quod vero vt umplex
+            signifi<lb ed="#V" n="31" break="no"/>cat non vt quod est, sed vt quo aliquid est, &amp; sic in omni
+            no<lb ed="#V" n="32" break="no"/>mine a nobis dicto, quantum ad modum significandi
+            im<lb ed="#V" n="33" break="no"/>perfecte inuenitur, qui Deo non competit, quamuis res
+            fi<lb ed="#V" n="34" break="no"/>significata aliquo modo eminenti Deo conueniat, vt patet
+            <lb ed="#V" n="35"/>in nomine bonitatis, &amp; boni: nam bonitas significat vt non
+            <lb ed="#V" n="36"/>subsistens, bonum autem, vt concretum, &amp; quantum ad hoc
+            <lb ed="#V" n="37"/>nullum nomen Deo conuenienter aptatur, sed solum
+            quan<lb ed="#V" n="38" break="no"/>tum ad illud, ad quod significandum nomen imponitur.
+            <lb ed="#V" n="39"/>Possunt igitur vt Dionysius docet huiusmodi nomina
+            affir<lb ed="#V" n="40" break="no"/>mari de Deo, &amp; negari: affirmari quidem per nominis
+            ratio<lb ed="#V" n="41" break="no"/>nem, negari vero per modum significandi. Modus autem
+            <lb ed="#V" n="42"/>supereminentiae, quo in Deo dictae perfectiones
+            inueniun<lb ed="#V" n="43" break="no"/>tur per nomina a nobis imposita significari non potest, nisi
+            <lb ed="#V" n="44"/>vel per negationem, sicut cum dicimus Deum aeternum, vel
+            <lb ed="#V" n="45"/>infinitum, vel etiam per relationem ipsius ad alia, vt cum
+            <lb ed="#V" n="46"/>dicitur prima causa, vel summum bonum, non enim de Deo
+            <lb ed="#V" n="47"/>capere possumus quid est, sed quid uon est, &amp; qualiter alia
+            <lb ed="#V" n="48"/>se habeant ad ipsum. Haec ille. Eandem sententiam ponit
+            <lb ed="#V" n="49"/>1. sent. dist. 22. q. 1. artic. 2.
+          </p>
+          <p xml:id="capsco-a2bw26-d1e251">
+            Secunda conclusio est. Aliqua
+            no<lb ed="#V" n="50" break="no"/>mina proprie dicuntur de Deo quantum ad rem
+            significa<lb ed="#V" n="51" break="no"/>tam, &amp; quaedam non, sed solum metaphorice. Istam
+            con<lb ed="#V" n="52" break="no"/>clusionem probat Sanctus Doctor. 1. sent. ibidem. Si consideremus
+            <lb ed="#V" n="53"/>(inquit, rem significatam in nomine, quae est illud, ad quod
+            <lb ed="#V" n="54"/>significandum nomen imponitur, inuenimus, quaedam
+            no<lb ed="#V" n="55" break="no"/>mina esse imposita ad significandum principaliter ipsam
+            <lb ed="#V" n="56"/>perfectionem exemplatam a Deo non concernendo
+            ali<lb ed="#V" n="57" break="no"/>quem modum in sua significatione, &amp; quaedam ad
+            signifi<lb ed="#V" n="58" break="no"/>candum perfectionem receptam secundum talem modum
+            <lb ed="#V" n="59"/>participandi. verbi gratia. omnis cognitio est exemplata a
+            <lb ed="#V" n="60"/>diuina cognitione, &amp; omnis scientia a scientia diuina, hoc
+            <lb ed="#V" n="61"/>igitur nomen sensus est impositum ad significandum
+            co<lb ed="#V" n="62" break="no"/>gnitionem per illum modum, quo recipitur materialiter
+            <lb ed="#V" n="63"/>secundum virtutem coniunctam organo, sed hoc nomen
+            <lb ed="#V" n="64"/>cognitio non significat aliquem modum participandi in
+            <lb ed="#V" n="65"/>sua principali significatione: vnde dicendum quod omnia illa
+            <lb ed="#V" n="66"/>nomina, quae imponuntur ad significandum perfectionem
+            <lb ed="#V" n="67"/>aliquam absolute proprie dicuntur de Deo, &amp; per prius sunt
+            <lb ed="#V" n="68"/>in ipso quantum ad rem significatam, licet non quantum ad
+            <lb ed="#V" n="69"/>modum significandi, vt sapientia, bonitas, essentia, &amp; omnia
+            <lb ed="#V" n="70"/>huiusmodi. Et haec sunt de quibus dicit Ansels quod
+            simplici<lb ed="#V" n="71" break="no"/>ter in omni re melius est esse quam non esse. Illa autem quae
+            <lb ed="#V" n="72"/>imponuntur ad significandum perfectionem aliquam exem
+            <lb ed="#V" n="73"/>platam a Deo, ita quod includant in sua significatione
+            imperfe<lb ed="#V" n="74" break="no"/>ctum modum participandi, nullo modo dicuntur de Deo
+            <lb ed="#V" n="75"/>proprie, sed tamen ratione illius perfectionis possunt dici
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="76"/>de Deo metaphorice, sicut sentire, videre, &amp; huiusmodi, &amp;
+            <lb ed="#V" n="77"/>similiter est de omnibus alijs formis corporalibus, vt lapis
+            <lb ed="#V" n="78"/>leo, &amp; huiusmodi. omnia enim imponuntur ad significandum
+            <lb ed="#V" n="79"/>formas corporales secundum determinatum modum
+            parti<lb ed="#V" n="80" break="no"/>cipandi esse viuere, vel aliquam diuinarum perfectionum.
+            <lb ed="#V" n="81"/>Haec ille.
+          </p>
+          <p xml:id="capsco-a2bw26-d1e325">
+            Idem ponit prima parte. q113. artic. 3. &amp; 6. In
+            ter<lb ed="#V" n="82" break="no"/>tio enim probat quod talia nomina significantia absolute
+            perfe<lb ed="#V" n="83" break="no"/>ctiones solum proprie dicantur de Deo. In sexto autem quod
+            <lb ed="#V" n="84"/>talia dicantur prius de Deo quam de creaturis. Et de
+            po<lb ed="#V" n="85" break="no"/>tentia Dei. q. 7. art. 5. in principali responsione, &amp; ad
+            octauun<lb ed="#V" n="86" break="no"/>Item 1. contra Gent. cap. 31. Tertia cunclusio est. Nullum
+            <lb ed="#V" n="87"/>nomen a nobis impositum significat diuinam essentiam
+            se<lb ed="#V" n="88" break="no"/>cundum quod in se est, sed solum secundum quod repraesentatur
+            <lb ed="#V" n="89"/>in perfectionibus creaturarum. Huius conclusionis primam
+            <lb ed="#V" n="90"/>partem probat Sanctus Doctor prima parte. q. 13. artic. 1. sic,
+            secun<lb ed="#V" n="91" break="no"/>dum Philosophum 1. Perihermen. Voces sunt signa
+            intel<lb ed="#V" n="92" break="no"/>lectuum, &amp; intellectus sunt similitudines rerum, &amp; sic
+            pa<lb ed="#V" n="93" break="no"/>tet quod voces referuntur ad res significandas mediante
+            con<lb ed="#V" n="94" break="no"/>ceptione intellectus, secundum igitur quod aliquid a nobis
+            in<lb ed="#V" n="95" break="no"/>tellectu cognosci potest, sic a nobis. potest nominari,
+            osten<lb ed="#V" n="96" break="no"/>sum est autem supra, quod Deus in hac vita non potest a
+            <lb ed="#V" n="97"/>nobis videri per essentiam, sed cognoscitur in nobis ex
+            crea<lb ed="#V" n="98" break="no"/>turis secundum habitudinem principij, &amp; per modum
+            ex<lb ed="#V" n="99" break="no"/>cellentiae, &amp; creationis vel remotionis, non tamen. ita quod
+            no<lb ed="#V" n="100" break="no"/>men significans ipsum exprimat diuinam essentiam, sicut
+            <lb ed="#V" n="101"/>hoc nomen homo exprimit sua significatione essentiam
+            ho<lb ed="#V" n="102" break="no"/>minis secundum quod est, significat enim eius di ffinitionem decla
+            <lb ed="#V" n="103"/>rantem essentiam eius, ratio enim quam significat nomen est
+            <lb ed="#V" n="104"/>diffinitio, vt dicitur quarto Metaphysicae. Haec ille.
+          </p>
+          <p xml:id="capsco-a2bw26-d1e378">
+            Ad
+            secun<lb ed="#V" n="105" break="no"/>dam partem conclusionis ponit eadem. q. arti. 2. ad tertium.
+            <lb ed="#V" n="106"/>Essentiam (inquit) Dei in hac vita cognoscere non
+            possu<lb ed="#V" n="107" break="no"/>mus secundum quod in se est, sed tamen cognoscimus eam secundum
+            <lb ed="#V" n="108"/>quod repraesentatur in perfectionibus creaturarum, &amp; sic etiam
+            <lb ed="#V" n="109"/>nomina a nobis imposita eam significant. Haec ille.
+          </p>
+          <p xml:id="capsco-a2bw26-d1e391">
+            Item
+            <lb ed="#V" n="110"/>de potentia Dei q. 7. artic. 5. dicit. Nulla forma alicuius
+            effe<lb ed="#V" n="111" break="no"/>ctus diuini est per eandem rationem, quae est in effectu in
+            <lb ed="#V" n="112"/>Deo, nihilominus oportet quod sit ibi per quendam modum
+            <lb ed="#V" n="113"/>altiorem, &amp; inde est quod omnes formae, quae sunt in
+            diuer<lb ed="#V" n="114" break="no"/>sis effectibus distinctae, &amp; diuisae abinuicem in. eo vniuntur
+            <lb ed="#V" n="115"/>sicut in vna communi virtute, sicut. etiam omnes formae
+            <lb ed="#V" n="116"/>per virtutem solis in istis inferioribus productae sunt in
+            so<lb ed="#V" n="117" break="no"/>le secundum vnicam eius virtutem, cui omnia generata per
+            <lb ed="#V" n="118"/>actionem solis secundum suas formas similantur, &amp;
+            simili<lb ed="#V" n="119" break="no"/>ter perfectiones rerum creatarum. assimilantur Deo per
+            <lb ed="#V" n="120"/>vnicam, &amp; simplicem eius essentiam. Intellectus autem
+            ho<lb ed="#V" n="121" break="no"/>ster cum a rebus creatis cognitionem accipiat, informatur
+            <lb ed="#V" n="122"/>similitudinibus perfectionum in creaturis inuentarum,
+            si<lb ed="#V" n="123" break="no"/>cut sapientiae, virtutis, bonitatis, &amp; huiusmodi: vnde sicut
+            <lb ed="#V" n="124"/>res creatae per suas perfectiones aliqualiter licet
+            insufficien<lb ed="#V" n="125" break="no"/>ter Deo assimilentur, ita &amp; intellectus noster harum
+            perfe<lb ed="#V" n="126" break="no"/>ctionum speciebus informatur. Quandocunque autem
+            intel<lb ed="#V" n="127" break="no"/>lectus noster per suam formam intelligibilem alicui rei
+            as<lb ed="#V" n="128" break="no"/>similatur, tunc illud quod concipit, &amp; enunciat secundum
+            <lb ed="#V" n="129"/>illam intelligibilem speciem verificatur. de re illa, cui per
+            <lb ed="#V" n="130"/>suam speciem assimilatur: nam scientia est assimilatio
+            in<lb ed="#V" n="131" break="no"/>tellectus ad rem scitam: vnde oportet quod illa quae intellectus
+            <lb ed="#V" n="132"/>harum specierum perfectionibus informatus de Deo
+            co<lb ed="#V" n="133" break="no"/>gitat, vel enunciat in Deo, vere existant, qui vnicuique
+            prae<lb ed="#V" n="134" break="no"/>dictarum specierum respondet, sicut illud cui omnes sunt
+            <lb ed="#V" n="135"/>similes. Si autem huiusmodi species intelligibilis nostri
+            in<lb ed="#V" n="136" break="no"/>tellectus diuinam essentiam adaequaret, in assimilando
+            ip<lb ed="#V" n="137" break="no"/>sam comprehenderet, &amp; ipsa conceptio intellectus esset
+            <lb ed="#V" n="138"/>perfecta Dei ratio, sicut animal gressibile bipes est
+            perfe<lb ed="#V" n="139" break="no"/>cta ratio hominis, non autem perfecte diuinam essentiam
+            <lb ed="#V" n="140"/>assimilat species praedicta, vt dictum est, &amp; ideo licet
+            huius<lb ed="#V" n="141" break="no"/>modi nomina, quae intellectus. ex talibus conceptionibus
+            <lb ed="#V" n="142"/>Deo attribuit, significent id quod est diuina essentia, non
+            <lb ed="#V" n="143"/>tamen perfecte ipsam significant secundum quod est, sed
+            secun<lb ed="#V" n="144" break="no"/>dum quod a nobis intelligitur. Haec ille.
+          </p>
+          <p xml:id="capsco-a2bw26-d1e469">
+            Vnde de hoc nomine
+            <lb ed="#V" n="145"/>Deus, de quo magis videretur quod significaret diuinam
+            nati<lb ed="#V" n="146" break="no"/>ram secundum quod in se est, dicit Sanct.s Doctor prima parte q. 13.
+            <lb ed="#V" n="147"/>art. 8. ad secundum. Secundum quod naturam rei alicuius ex
+            <lb ed="#V" n="148"/>eius proprietatibus, &amp; effectibus cognoscere possumus, sic
+            <lb ed="#V" n="149"/>eam possumus significare: vnde quia substantiam lapidis
+            <lb ed="#V" n="150"/>ex eius proprietate cognoscere possumus secundum
+            seip<pb ed="#V" n="350"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>sam sciendo quid est lapis, hoc nomen lapis ipsam lapidis
+            <lb ed="#V" n="2"/>naturam secundum quod in se est significat: significat enim
+            diffi<lb ed="#V" n="3" break="no"/>nitionem lapidis, per quam scimus quid est lapis. Ratio enim
+            <lb ed="#V" n="4"/>quam significat nomen est diffinitio, vt dicitur 4. Meta.
+            <lb ed="#V" n="5"/>sed ex effectibus diuinis diuinam naturam non possumus
+            <lb ed="#V" n="6"/>cognoscere secundum quod est in seipsa, vt sciamus de ea
+            <lb ed="#V" n="7"/>quid est, sed per modum essentiae, &amp; causalitatis, &amp;
+            nega<lb ed="#V" n="8" break="no"/>tionis, &amp; sic hoc nomen Deus significat diuinam naturam.
+            <lb ed="#V" n="9"/>Impositum est enim hoc nomen ad significandum aliquid
+            <lb ed="#V" n="10"/>super omnia existens quod est principium omnium, &amp;
+            re<lb ed="#V" n="11" break="no"/>motum ab omnibus: hoc enim intendunt significare
+            nominan<lb ed="#V" n="12" break="no"/>tes Deum. Haec ille.
+          </p>
+          <p xml:id="capsco-a2bw26-d1e513">
+            Quarta conclusio est. Nullum nomen
+            <lb ed="#V" n="13"/>a nobis impositum significat Deum secundum eius
+            sim<lb ed="#V" n="14" break="no"/>plicem, &amp; proprium ei soli conceptum, probatur conclusio
+            <lb ed="#V" n="15"/>ista ex praedictis: nam intellectus noster in statu viae non
+            <lb ed="#V" n="16"/>intelligit Deum in aliquo conceptu, quin ille sit conceptus
+            <lb ed="#V" n="17"/>creaturae, sicut sunt conceptus perfectionis exemplatarum
+            <lb ed="#V" n="18"/>a diuina perfectione, vel saltem compositus ex talibus
+            con<lb ed="#V" n="19" break="no"/>eeptibus, sicut sunt isti conceptus, causa prima, ens
+            infini<lb ed="#V" n="20" break="no"/>tum &amp; huiusmodi, sicut autem intelligimus, ita
+            significa<lb ed="#V" n="21" break="no"/>mus. ergo nullum nomen a nobis impositum sic est Deo a
+            <lb ed="#V" n="22"/>nobis appropriatum, quod Deum significet, &amp; nihil significet
+            <lb ed="#V" n="23"/>iste conceptus, nec eius partes, ista omnia patent ex
+            prae<lb ed="#V" n="24" break="no"/>dictis. Et confirmatur. Quia si esset aliquod tale nomen
+            <lb ed="#V" n="25"/>exprimens aliquem conceptum soli Deo proprium, hoc
+            <lb ed="#V" n="26"/>videretur esse potissime hoc nomen Deus, sed non sic est
+            <lb ed="#V" n="27"/>de hoc termino Deus. ergo de nullo, minor patet: quia hoc
+            <lb ed="#V" n="28"/>nomen Deus, licet naturam diuinam significet, tamen non
+            <lb ed="#V" n="29"/>exprimit conceptum soli Deo conuenientem, immo
+            con<lb ed="#V" n="30" break="no"/>ceptum complexum ex multis conceptibus, qui diuisim
+            <lb ed="#V" n="31"/>creaturis conueniunt, significat enim diuinam naturam
+            sub<lb ed="#V" n="32" break="no"/>hoc conceptu, vniuersalis prouisor, vel causa prima, vel
+            <lb ed="#V" n="33"/>primus motor, vel huiusmodi, constat autem istorum
+            cod<lb ed="#V" n="34" break="no"/>ceptuum complexorum partes conuenire multis
+            creatu<lb ed="#V" n="35" break="no"/>ris. Et sic patet conclusio. cum qua stat, quod multa nomina
+            <lb ed="#V" n="36"/>exprimunt conceptus simplices communes tamen Deo &amp;
+            <lb ed="#V" n="37"/>creaturis, sicut sapiens, bonus, &amp; huiusmodi. Quinta
+            con<lb ed="#V" n="38" break="no"/>clusio est Nullum nomen a nobis impositum dicitur
+            vni<lb ed="#V" n="39" break="no"/>uoce de Deo, &amp; creatura. Ista conclusio fuit alias probata
+            <lb ed="#V" n="40"/>scilicet secunda dist. q. 1. ideo probationem eius pro nunc
+            <lb ed="#V" n="41"/>omitto, sed ibidem quaeratur. Et sic terminatur primus arti.
+          </p>
+        </div>
+        <div xml:id="capsco-a2bw26-Dd1e579">
+          <head xml:id="capsco-a2bw26-Hd1e581">Articulus 2</head>
+          <p xml:id="capsco-a2bw26-d1e583">
+            <lb ed="#V" n="42"/><milestone ed="#V" unit="p" rend="initial"/> Vantum ad secundum artic. arguitur contra
+            conclu<lb ed="#V" n="43" break="no"/>siones praedictas, &amp; praesertim contra quartam
+            con<lb ed="#V" n="44" break="no"/>clusionem arguit Aureolus primo sic. Quandocunque per
+            ali<lb ed="#V" n="45" break="no"/>quas duas dictiones idem exprimitur, non est rationabilis
+            <lb ed="#V" n="46"/>quaestio de inhaerentia vnius ad alterum, non enim
+            rationabi<lb ed="#V" n="47" break="no"/>liter quaeritur vtrum lapis sit petra: quia in simplicibus non
+            <lb ed="#V" n="48"/>est quaestio, vt dicit Philosophus 7. Meta. vnde quaerens
+            <lb ed="#V" n="49"/>idem de eodem nihil penitus quaerit, sed manifestum est,
+            <lb ed="#V" n="50"/>quod dictiones exprimentes conceptum compositum
+            cir<lb ed="#V" n="51" break="no"/>ca Deum inquiruntur, &amp; enunciantur de conceptu
+            signifi<lb ed="#V" n="52" break="no"/>cato per hoc nomen Deus, quaeritur nanque, vtrum Deus
+            <lb ed="#V" n="53"/>sit ens infinitum, vel actus purus, vel causa prima, &amp; sic de
+            <lb ed="#V" n="54"/>alijs. ergo necesse est, quod nomen Deus exprimat
+            intelle<lb ed="#V" n="55" break="no"/>ctui viatoris aliquem conceptum simplicem de Deo.
+            Fro<lb ed="#V" n="56" break="no"/>hoc faciunt multa argumenta in prologo in quaestione de
+            <lb ed="#V" n="57"/>subiecto theologiae artic. 3. &amp; pro loco facit consimile illi,
+            <lb ed="#V" n="58"/>quod recitaui.
+          </p>
+          <p xml:id="capsco-a2bw26-d1e623">
+            Secundo arguit sic. Quandocunque
+            intel<lb ed="#V" n="59" break="no"/>lectus plura attribuit alicui subiecto alium conceptum
+            ha<lb ed="#V" n="60" break="no"/>bet de subiecto, &amp; alium de his, quae illi attribuit. verbi
+            gra<lb ed="#V" n="61" break="no"/>tia. sortes est albus, longus, pater, in theatro, calciatus, non
+            <lb ed="#V" n="62"/>dubium quod conceptus albi, longi, &amp; aliorum sunt alij a
+            <lb ed="#V" n="63"/>conceptu sortis, &amp; ratio huius est: quia attribuere idem
+            <lb ed="#V" n="64"/>conceptibiliter eidem conceptui nihil est attribuere, sed
+            <lb ed="#V" n="65"/>intellectus theologi dicit Deum esse infinitum ens, actum
+            <lb ed="#V" n="66"/>purum, primam causam, &amp; talia innumera. ergo necesse est
+            <lb ed="#V" n="67"/>quod conceptus, quem habet theologus de hoc termino Deus,
+            <lb ed="#V" n="68"/>sit alius a conceptu entis infiniti, actus puri, &amp; omnium
+            alio<lb ed="#V" n="69" break="no"/>rum.
+          </p>
+          <p xml:id="capsco-a2bw26-d1e649">
+            Nec valet si dicatur quod dum concipit Deum esse
+            infi<lb ed="#V" n="70" break="no"/>nitum ens, conceptus de Deo est alius a conceptu infiniti
+            <lb ed="#V" n="71"/>entis: quia conceptus actus puri, vel alicuius alterius sub
+            <lb ed="#V" n="72"/>rationibus generalibus appropriatis, &amp; ideo est alius ab
+            <lb ed="#V" n="73"/>omnibus quasi prior, &amp; absolutior eis. Sed quidem hoc
+            <lb ed="#V" n="74"/>non valet, tum quia in eadem propositione de praedicato
+            <lb ed="#V" n="75"/>copulato potest dici, quod Deus est ens infinitum, &amp; actus
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="76"/>purus, &amp; prima causa &amp;c. &amp; sic necesse est, quod conceptus Dei
+            <lb ed="#V" n="77"/>alius sit ab omnibus absolutior, &amp; prior eis, tum quia non
+            <lb ed="#V" n="78"/>experitur hoc intellectus cum dicit, Deus est infinitum, quod
+            <lb ed="#V" n="79"/>intelligatur Deus actus purus.
+          </p>
+          <p xml:id="capsco-a2bw26-d1e675">
+            Tertio sic. Intellectus ex
+            <lb ed="#V" n="80"/>tribus conceptibus sibi notis potest peruenire ad
+            conce<lb ed="#V" n="81" break="no"/>ptum analogum de ignoto. 7. 3. habens conceptum de
+            fi<lb ed="#V" n="82" break="no"/>gura, &amp; figurabili, &amp; de hoc aliquid, vel formato
+            simplici<lb ed="#V" n="83" break="no"/>ter potest peruenire ad conceptum quartum scilicet ad formabile
+            <lb ed="#V" n="84"/>simpliciter sic concludendo vel deducendo. Sicut se habet
+            <lb ed="#V" n="85"/>figura ad figurabile, sic hoc aliquid &amp; formatum
+            simplici<lb ed="#V" n="86" break="no"/>ter ad formabile simpliciter &amp; omnino insorme, &amp; illud
+            <lb ed="#V" n="87"/>est materia, sic enim eam docet per analogiam intelligere
+            Phi<lb ed="#V" n="88" break="no"/>losophus 1. Physic. &amp; Commends ibidem, &amp; in de substantia
+            <lb ed="#V" n="89"/>orbis: sed theologus potest habere tres conceptus sibi
+            no<lb ed="#V" n="90" break="no"/>tos scilicet conceptum lineae, conceptum recti, &amp; conceptum
+            <lb ed="#V" n="91"/>infiniti. ergo poterit analogice peruenire ad quartum
+            con<lb ed="#V" n="92" break="no"/>ceptum scilicet ad aliquid, quod ita se habet ad infinitum sicut
+            <lb ed="#V" n="93"/>linea ad rectum, &amp; ita potest de Deo habere conceptum
+            <lb ed="#V" n="94"/>priorem, &amp; abstractum respectu infiniti, &amp; eodem respectu
+            <lb ed="#V" n="95"/>actus puri causae primae, &amp; aliorum, &amp; istudmet
+            argumen<lb ed="#V" n="96" break="no"/>tum pertractat in praesenti dist scilicet 22. Sicut inquit qui
+            cogno<lb ed="#V" n="97" break="no"/>uitipropriam rationem trianguli, &amp; eius proprietatem
+            ali<lb ed="#V" n="98" break="no"/>quam, vtpote quod eius tres anguli habent aequalitatem
+            duo<lb ed="#V" n="99" break="no"/>rum rectorum, &amp; cum hoc cognouit tertio figuram,
+            cale<lb ed="#V" n="100" break="no"/>rem, &amp; alia accidentia panis potest arguere, quod sicut se
+            ha<lb ed="#V" n="101" break="no"/>bet trinitas angulorum aequalium duobus rectis ad
+            pro<lb ed="#V" n="102" break="no"/>priam rationem trianguli, sic se habet figura, &amp; calor ad
+            <lb ed="#V" n="103"/>quoddam aliud illis substractum, &amp; ex hoc poterit formari
+            <lb ed="#V" n="104"/>conceptus proportionalis, &amp; analogicus de propria ratione,
+            <lb ed="#V" n="105"/>&amp; distincta, quae subijcitur colori, &amp; figurae, &amp; caeteris
+            acci<lb ed="#V" n="106" break="no"/>dentibus panis, &amp; cognoscetur conceptu analogico
+            pro<lb ed="#V" n="107" break="no"/>pria substantia panis, ita in proposito cognito actu puro,
+            <lb ed="#V" n="108"/>&amp; ente infinito, &amp; prima causa poterit formari vnus
+            conce<lb ed="#V" n="109" break="no"/>ptus de proprio substracto, &amp; distincto, cui competunt
+            om<lb ed="#V" n="110" break="no"/>nia ista, &amp; constat quod illud non est nisi deitas, propter quod
+            <lb ed="#V" n="111"/>diuinitas, &amp; eius propria, &amp; distincta ratio analogice
+            co<lb ed="#V" n="112" break="no"/>gnoscetur. Et ex hoc infert quod potest a viatore haberi
+            con<lb ed="#V" n="113" break="no"/>ceptus de diuinitate secundum propriam suam rationem
+            <lb ed="#V" n="114"/>inexplicitus nihilominus, &amp; confusus, concipiendo
+            quod<lb ed="#V" n="115" break="no"/>dam ens distinctum a quocunque alio. Secundo infert quod
+            <lb ed="#V" n="116"/>viator potest imponere Deo nomen significans essentiam
+            <lb ed="#V" n="117"/>eius nudam, &amp; distinctam, &amp; istud nomen est Deus vel
+            ado<lb ed="#V" n="118" break="no"/>nai, vel si aliquod est tale nomen, vt tetagrammaton quod
+            <lb ed="#V" n="119"/>sit impositum ad significandum diuinitatem, quam viator
+            <lb ed="#V" n="120"/>analogice compraehendit.
+          </p>
+          <p xml:id="capsco-a2bw26-d1e767">
+            Contra quintam conclusionem
+            <lb ed="#V" n="121"/>arguitur secundum Scotum licet eius argumenta fuerint alias,
+            <lb ed="#V" n="122"/>recitata, non tamen sub eadem, qua nunc forma. Omnis
+            <lb ed="#V" n="123"/>intellectus certus de vno conceptu, &amp; dubius de diuersis
+            <lb ed="#V" n="124"/>habet conceptum, de quo est certus alium, a conceptibus,
+            <lb ed="#V" n="125"/>de quibus est dubius, sed intellectus viatoris potest esse
+            cer<lb ed="#V" n="126" break="no"/>tus de Deo, quod sit ens dubitando de ente finito vel
+            infi<lb ed="#V" n="127" break="no"/>nito, creato vel increato. ergo conceptus entis de Deo est
+            <lb ed="#V" n="128"/>alius a conceptu illo, &amp; isto, &amp; ita neuter ex se, &amp; in vtroque
+            <lb ed="#V" n="129"/>istorum includit. ergo est vnicus, maior probatur quia
+            nul<lb ed="#V" n="130" break="no"/>lus idem conceptus est certus, &amp; dubius. ergo vel alius quod
+            <lb ed="#V" n="131"/>est propositum, vel nullus, &amp; tunc non erit certitudo de
+            <lb ed="#V" n="132"/>aliquo conceptu, minor probatur: quia quilibet
+            Philoso<lb ed="#V" n="133" break="no"/>phus fuit certus illud quod posuit esse primum principium
+            <lb ed="#V" n="134"/>esse ens, puta vnus de igne, alius de aqua. certus erat quod
+            <lb ed="#V" n="135"/>erat ens, non autem fuit certus quod esset primum ens
+            crea<lb ed="#V" n="136" break="no"/>tum vel increatum, primum vel non primum, non enim erant
+            <lb ed="#V" n="137"/>certi, quod illud esset primum ens: quia tunc fuissent certi de
+            <lb ed="#V" n="138"/>falso, &amp; falsum non est scibile, nec quod erat non primum
+            <lb ed="#V" n="139"/>quia tunc non posuissent oppositum.
+          </p>
+          <p xml:id="capsco-a2bw26-d1e811">
+            Confirmatur etiam
+            <lb ed="#V" n="140"/>ratio. Nam aliquis videns Philosophos discordare potest
+            <lb ed="#V" n="141"/>esse certus de quocunque, quod quilibet illorum
+            Philosopho<lb ed="#V" n="142" break="no"/>rum posuit illud principium esse ens, &amp; propter tamen
+            con<lb ed="#V" n="143" break="no"/>trarietatem oppositionum eorum potest simul dubitare,
+            <lb ed="#V" n="144"/>vtrum sit hoc ens, puta finitum hoc vel illud, &amp; tali
+            dubi<lb ed="#V" n="145" break="no"/>tanti si fieret demonstratio concludens, vel destruens
+            ali<lb ed="#V" n="146" break="no"/>quem conceptum inferiorem, puta quod ignis non esset
+            pri<lb ed="#V" n="147" break="no"/>mum ens, sed aliquod. ens posterius primo. non
+            destruere<lb ed="#V" n="148" break="no"/>tur conceptus primo sibi certus, quem habuit de ente, sed
+            <lb ed="#V" n="149"/>saluaretur in illo conceptu particulari probato de igne, &amp;
+            <lb ed="#V" n="150"/>propter hoc probatur propositio sumpta in vltima
+            conse<pb ed="#V" n="351"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>quentia rationis, quae fuit, quod iste conceptus certus, qui
+            <lb ed="#V" n="2"/>ex se est neuter duorum dubiorum in vtroque illorum
+            sal<lb ed="#V" n="3" break="no"/>uatur. Quia si non cures de auctoritate ista sumpta de
+            di<lb ed="#V" n="4" break="no"/>uersitate opinionum, sed dicas quod quilibet habuit duos
+            con<lb ed="#V" n="5" break="no"/>ceptus propinquos in intellectu, qui propter
+            propinquita<lb ed="#V" n="6" break="no"/>tem analogiae videntur esse vnus conceptus, contra hoc
+            vi<lb ed="#V" n="7" break="no"/>detur esse: quia ex ista euasione videtur destrui omnis via
+            <lb ed="#V" n="8"/>probandi vnitatem alicuius conceptus vniuoci. Si enim
+            di<lb ed="#V" n="9" break="no"/>cas hominem habere vnum conceptum communem ad
+            <lb ed="#V" n="10"/>Sortem &amp; Platonem, negabitur tibi, &amp; dicetur, quod sunt
+            <lb ed="#V" n="11"/>duo propter magnam similitudinem, similiter illi duo
+            con<lb ed="#V" n="12" break="no"/>ceptus sunt simpliciter simplices. igitur non sunt
+            intelligi<lb ed="#V" n="13" break="no"/>biles nisi totaliter, &amp; distincte concipiantur. si ergo nunc
+            <lb ed="#V" n="14"/>non videntur duo, nec vnquam possunt: quia tantam
+            sim<lb ed="#V" n="15" break="no"/>plicitatem habent modo sicut prius vel post.
+          </p>
+          <p xml:id="capsco-a2bw26-d1e872">
+            Item aut
+            con<lb ed="#V" n="16" break="no"/>cipiuntur, vt omnino distincti, &amp; mirum videtur
+            quomo<lb ed="#V" n="17" break="no"/>do analogia, &amp; distinctio non apparet, aut concipiuntur,
+            <lb ed="#V" n="18"/>vt indistincti in ratione similitudinis, &amp; tunc aut
+            concipiun<lb ed="#V" n="19" break="no"/>tur vt distincti. quia omnis similitudo, &amp; comparatio
+            prae<lb ed="#V" n="20" break="no"/>supponit aliqua esse distincta. igitur non videtur vnus
+            con<lb ed="#V" n="21" break="no"/>ceptus.
+          </p>
+          <p xml:id="capsco-a2bw26-d1e888">
+            Item si intellectus intelligeret singularia sub
+            pro<lb ed="#V" n="22" break="no"/>prijs rationibus, quamuis conceptus duorum eiusdem
+            spe<lb ed="#V" n="23" break="no"/>ciei essent simillimi, non dubium quin similiores multo quam
+            <lb ed="#V" n="24"/>isti duo in proposito: quia isti differunt specie, adhuc
+            intel<lb ed="#V" n="25" break="no"/>lectus bene distingueret inter tales conceptus singulares.
+          </p>
+          <p xml:id="capsco-a2bw26-d1e899">
+            <lb ed="#V" n="26"/>Secundo principaliter sic. Nullus conceptus realis
+            causa<lb ed="#V" n="27" break="no"/>tur naturaliter in intellectu viatoris, nisi ab his, quae sunt
+            <lb ed="#V" n="28"/>naturaliter motiua intellectus nostri, sed illa sunt
+            fantas<lb ed="#V" n="29" break="no"/>mata, vel obiectum relucens in fantasmate, &amp; intellectus
+            <lb ed="#V" n="30"/>agens. ergo nullus conceptus simplex naturaliter sit in
+            in<lb ed="#V" n="31" break="no"/>tellectu nostro, nisi qui potest fieri virtute istorum, sed
+            con<lb ed="#V" n="32" break="no"/>ceptus qui non est vnicus alicui creaturae relucenti in
+            fan<lb ed="#V" n="33" break="no"/>tasmate, sed omnino alius prior ad quem ille haberet
+            ana<lb ed="#V" n="34" break="no"/>logiam, non potest fieri virtute intellectus agentis, &amp;
+            fan<lb ed="#V" n="35" break="no"/>asmatis. igitur talis conceptus alius analogus, qui
+            poni<lb ed="#V" n="36" break="no"/>tur naturaliter in intellectu viatoris, nunquam est, &amp; ita
+            <lb ed="#V" n="37"/>non poterit aliquis conceptus de Deo naturaliter haberi,
+            <lb ed="#V" n="38"/>quod est falsum, probatio assumpti. obiectum
+            quodcun<lb ed="#V" n="39" break="no"/>que sine relucens in fantasmate, siue in specie
+            intelligibili<lb ed="#V" n="40" break="no"/>cum intellectu agente vel possibili secundum vltimum
+            vir<lb ed="#V" n="41" break="no"/>tutis suae facit in intellectu sicut effectum sibi adaequatum
+            <lb ed="#V" n="42"/>conceptum suum proprium, &amp; conceptum omnium
+            essen<lb ed="#V" n="43" break="no"/>tialiter vel virtualiter inclusorum in eo, sed iste conceptus
+            <lb ed="#V" n="44"/>analogus, qui ponitur non est essentialiter, neque
+            virtuali<lb ed="#V" n="45" break="no"/>ter inclusus in isto nec est iste. igitur iste non fiet ab aliquo
+            <lb ed="#V" n="46"/>tali mouente.
+          </p>
+          <p xml:id="capsco-a2bw26-d1e947">
+            Confirmatur ratio. Quia praeter primum
+            con<lb ed="#V" n="47" break="no"/>ceptum suum proprium adaequatum, &amp; inclusum in
+            ipso<lb ed="#V" n="48" break="no"/>virtualiter nihil potest cognosci ex ipso obiecto nisi per
+            <lb ed="#V" n="49"/>discursum, sed discursus praesupponit cognitionem
+            simpli<lb ed="#V" n="50" break="no"/>cis, ad quod discurritur: vnde potest breuiter ratio sic
+            for<lb ed="#V" n="51" break="no"/>mari. Nullum obiectum facit in aliquo intellectu
+            conce<lb ed="#V" n="52" break="no"/>ptum simplicem proprium sui, &amp; conceptum simplicem,
+            <lb ed="#V" n="53"/>&amp; proprium alterius obiecti, nisi contineat illud obiectum
+            <lb ed="#V" n="54"/>essentialiter vel virtualiter, obiectum autem creatum non
+            <lb ed="#V" n="55"/>continet increatum essentialiter, nec virtualiter, patet quod
+            <lb ed="#V" n="56"/>non virtualiter, &amp; hoc sub ea ratione, sub qua sibi
+            attribui<lb ed="#V" n="57" break="no"/>tur, vt posterius essentialiter continetur in priori
+            essentia<lb ed="#V" n="58" break="no"/>liter: quia contra rationem posterioris essentialiter est
+            con<lb ed="#V" n="59" break="no"/>tinere virtualiter suum prius, &amp; patet quod obiectum creatum
+            <lb ed="#V" n="60"/>non est increatum secundum aliquid omnino proprium
+            <lb ed="#V" n="61"/>sibi &amp; non commune. igitur non facit conceptum
+            simpli<lb ed="#V" n="62" break="no"/>cem, &amp; proprium enti increato.
+          </p>
+          <p xml:id="capsco-a2bw26-d1e985">
+            Tertio sic. Omnis
+            inquisi<lb ed="#V" n="63" break="no"/>tio Metaphysica de Deo sic procedit scilicet considerando
+            ra<lb ed="#V" n="64" break="no"/>tionem formalem alicuius, &amp; auferendo ab illa ratione
+            <lb ed="#V" n="65"/>formali omnem imperfectionem, quam habet in
+            creatu<lb ed="#V" n="66" break="no"/>ris, &amp; reseruando istam rationem formalem attribuendo
+            <lb ed="#V" n="67"/>sibi omnino summam perfectionem, &amp; sic attribuendo
+            il<lb ed="#V" n="68" break="no"/>lud Deo. Exemplum de formali ratione sapientiae, vel
+            in<lb ed="#V" n="69" break="no"/>tellectus, vel voluntatis, consideratur enim in se, &amp; secundum
+            <lb ed="#V" n="70"/>se, &amp; ex hoc quod illa ratio non concludit imperfectionem
+            ali<lb ed="#V" n="71" break="no"/>quam, nec limitationem remoueantur ab ipsa
+            imperfectio<lb ed="#V" n="72" break="no"/>nes, quae concomitantur eam in creaturis, &amp; reseruata
+            ea<lb ed="#V" n="73" break="no"/>dem ratione sapientiae, &amp; voluntatis attribuitur ista
+            perfe<lb ed="#V" n="74" break="no"/>ctissime. igitur omnis inquisitio de Deo supponit
+            intelle<lb ed="#V" n="75" break="no"/>etum habere conceptum eundem vniuocum, quem
+            acci<cb ed="#V" n="b"/><lb ed="#V" n="76" break="no"/>pit ex creaturis. Quia si dicas non, sed alia ratio formale est
+            <lb ed="#V" n="77"/>eorum, quae conueniunt Deo, ex hoc sequitur inconueniens,
+            <lb ed="#V" n="78"/>quod ex nulla ratione propria eorum prout sunt in
+            crea<lb ed="#V" n="79" break="no"/>turis potest concludi aliquid de Deo: quia omnino alia,
+            <lb ed="#V" n="80"/>&amp; alia ratio est istorum, &amp; illorum, immo non magis
+            con<lb ed="#V" n="81" break="no"/>cludetur, quod Deus est sapiens formaliter ex ratione
+            sapien<lb ed="#V" n="82" break="no"/>tiae, quam appraehendimus ex creaturis, quam quod Deus est
+            <lb ed="#V" n="83"/>formaliter lapis, potest enim conceptus aliquis alius a
+            conce<lb ed="#V" n="84" break="no"/>ptu lapidis creati formari ad quem conceptum lapidis, vt
+            <lb ed="#V" n="85"/>est idea in Deo, habet iste lapis attributionem, &amp; ita
+            for<lb ed="#V" n="86" break="no"/>maliter dicetur, Deus est lapis secundum istum conceptum
+            <lb ed="#V" n="87"/>analogum, sicut sapiens secundum illum conceptum
+            ana<lb ed="#V" n="88" break="no"/>logum.
+          </p>
+          <p xml:id="capsco-a2bw26-d1e1045">
+            Quarto sic. Omnis conceptus realis possibilis
+            ha<lb ed="#V" n="89" break="no"/>beri de essentia diuina natus est fieri in intellectu virtute
+            <lb ed="#V" n="90"/>essentiae eius, quod probatur: quia in quodcunque
+            obie<lb ed="#V" n="91" break="no"/>ctum intelligibile minimum est natum facere in intellectu
+            <lb ed="#V" n="92"/>conceptum communem realem possibilem haberi de Deo,
+            <lb ed="#V" n="93"/>sed secundum te tantum vnicus conceptus realis est
+            habe<lb ed="#V" n="94" break="no"/>ri de diuina essentia virtute eius, licet intellectus
+            negocia<lb ed="#V" n="95" break="no"/>tiuus posset plures conceptus creare &amp; fabricare circa idem
+            <lb ed="#V" n="96"/>obiectum. ergo quodcunque obiectum potest facere
+            con<lb ed="#V" n="97" break="no"/>ceptum realem in intellectu de Deo, potest facere illum
+            <lb ed="#V" n="98"/>vnicum, quem conceptum essentia diuina esset nata facere
+            <lb ed="#V" n="99"/>de se, sed ille vnicus est huius essentiae, vt est hoc. ergo
+            quod<lb ed="#V" n="100" break="no"/>cunque obiectum facit aliquam notitiam de Deo in
+            intel<lb ed="#V" n="101" break="no"/>lectu nostro faciet secundum istam opinionem conceptum
+            <lb ed="#V" n="102"/>essentiae, vt est hic essentia, &amp; ita erit nominalis a viatore
+            <lb ed="#V" n="103"/>nomine significante hanc essentiam, vt est hic.
+          </p>
+          <p xml:id="capsco-a2bw26-d1e1080">
+            Ad
+            argumen<lb ed="#V" n="104" break="no"/>ta Aurnus respondetur, &amp; primo ad primum conceditur
+            ma<lb ed="#V" n="105" break="no"/>ior, sed ad minorem dico, quod conceptus quem importat
+            <lb ed="#V" n="106"/>hoc nomen Deus, &amp; quem omnes per illud intelligunt, est
+            <lb ed="#V" n="107"/>vniuersalis prouisor secundum quod probat Sanctus Thomas prima
+            <lb ed="#V" n="108"/>parte. q. 13. arti. 8. &amp; de inhaerentia huius dictionis
+            vniuer<lb ed="#V" n="109" break="no"/>salis prouisor ad istam dictionem Deus, non est rationalis
+            <lb ed="#V" n="110"/>quaestio illi, qui hoc concipit per hoc nomen Deus quod
+            <lb ed="#V" n="111"/>concipit per istud complexum vniuersalis rerum prouisor,
+            <lb ed="#V" n="112"/>neque sic concipiens, aut hoc, vtrum hoc inhaereat illi, sed
+            <lb ed="#V" n="113"/>tale non irrationabiliter quaerit, vtrum in rerum natura sit
+            <lb ed="#V" n="114"/>aliquod ens in actu, quale ipse concipit, vtputa, vtrum sit
+            <lb ed="#V" n="115"/>aliquod ens, quod habeat vniuersalem prouidentiam
+            om<lb ed="#V" n="116" break="no"/>nium, vel quod sit Deus, &amp; concluso quod sit aliquod tale
+            po<lb ed="#V" n="117" break="no"/>stea inquirit de inhaerentia aliorum praedicatorum ad illud
+            <lb ed="#V" n="118"/>subiectum, vt puta, vtrum illud ens, quod est Deus, vel quod
+            <lb ed="#V" n="119"/>habet vniuersalem prouidentiam de rebus, sit causa
+            effe<lb ed="#V" n="120" break="no"/>ctiua omnium, vel sit actus purus, &amp; huiusmodi, si autem
+            <lb ed="#V" n="121"/>sit aliquis qui non primo concipiat per hoc nomen Deus
+            <lb ed="#V" n="122"/>hoc quod dictum est scilicet vniuersalem prouisorem, sed aliud,
+            <lb ed="#V" n="123"/>vtpote primum principium vel huiusmodi, in idem redit:
+            <lb ed="#V" n="124"/>quia talis non quaerit rationabiliter, vtrum Deus sit primum
+            <lb ed="#V" n="125"/>principium, sed vtrum aliquod ens sit in rerum natura, quod
+            <lb ed="#V" n="126"/>sit primum principium, &amp; postea inquirit alia praedicata,
+            <lb ed="#V" n="127"/>sicut dictum est, &amp; ita non oportet quod talis antequam
+            con<lb ed="#V" n="128" break="no"/>cipiat Deum sub conceptu primi entis, vel causae primae,
+            <lb ed="#V" n="129"/>vel vniuersalis prouisoris habeat conceptum proprium de
+            <lb ed="#V" n="130"/>Deo, cui omnes praedictos attribuat, sed solum conceptum
+            <lb ed="#V" n="131"/>entis cui omnes illos attribuit concludendo, quod aliquod
+            <lb ed="#V" n="132"/>ens est vniuersalis prouisor, vel prima causa, vel Deus.
+            Con<lb ed="#V" n="133" break="no"/>stat autem conceptum entis esse communem Deo, &amp;
+            crea<lb ed="#V" n="134" break="no"/>turis, in quo non solum Deus, immo creatura concipitur.
+            <lb ed="#V" n="135"/>Haec illa propositio sic inclusa scilicet ens est prima causa solum
+            <lb ed="#V" n="136"/>verificatur pro Deo, &amp; non pro creatura, ad veritatem enim
+            <lb ed="#V" n="137"/>indefinitae sufficit vnius singularis eius veritas. 
+          </p>
+          <p xml:id="capsco-a2bw26-d1e1156">
+            Ad
+            secun<lb ed="#V" n="138" break="no"/>dum patet per idem, dico enim quod qui concipit per hoc
+            no<lb ed="#V" n="139" break="no"/>men Deus hoc, quod dico vniuersalis prouisor, non
+            attri<lb ed="#V" n="140" break="no"/>buit hoc illi termino Deus, sed enti, &amp; vlterius omnia alia
+            <lb ed="#V" n="141"/>praedicata attribuit ei, quod dico Deus, vel vniuersalis
+            pro<lb ed="#V" n="142" break="no"/>uisor modo praedicto.
+          </p>
+          <p xml:id="capsco-a2bw26-d1e1169">
+            Ad tertium dico, quod viator potest
+            <lb ed="#V" n="143"/>habere illum quartum conceptum, sed ille non erit proprius
+            <lb ed="#V" n="144"/>Dei &amp; simplex, sed conceptus entis vel aliquis conceptus
+            <lb ed="#V" n="145"/>compositus, &amp; ratio est: quia argumentum illud forte
+            te<lb ed="#V" n="146" break="no"/>net, quando per accidentia rei vel effectus eius sufficienter
+            <lb ed="#V" n="147"/>homo ducitur in notitiam quod quid est, sicut
+            exemplifi<lb ed="#V" n="148" break="no"/>cat de materia, &amp; de pane, tunc enim in illo casu quis potest
+            <lb ed="#V" n="149"/>habere simplicem, proprium, &amp; distinctum de quidditate
+            <lb ed="#V" n="150"/>rei, puta panis, si habeantur tales tres conceptus, de quibus
+            <pb ed="#V" n="352"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>iste loquitur. Sed dubium tamen mihi est si nos habeamus
+            <lb ed="#V" n="2"/>simplicem conceptum proprium materiae primae, videtur
+            <lb ed="#V" n="3"/>enim quod semper concipitur quodam conceptu complexo
+            <lb ed="#V" n="4"/>ex conceptu absoluto, &amp; conceptu relatiuo per respectum
+            <lb ed="#V" n="5"/>ad formam, &amp; quicquid sit de hoc nullus effectus Dei
+            po<lb ed="#V" n="6" break="no"/>test viatorem deducere ad cognoscendum Deum in se. 1.
+            <lb ed="#V" n="7"/>conceptu sibi proprio simplici, quo nulla alia res
+            concipia<lb ed="#V" n="8" break="no"/>tur, nec aliquis conceptus habitus a creaturis siue per
+            ne<lb ed="#V" n="9" break="no"/>gationem, vt conceptus infiniti, siue per causalitatem, vt
+            <lb ed="#V" n="10"/>causa prima, ens primum, siue per viam essentiae, vt
+            super<lb ed="#V" n="11" break="no"/>bonus, superiustus, &amp; huiusmodi repraesentat eum, vt in se
+            <lb ed="#V" n="12"/>est, sed semper in alio, conceptus enim nostri vel sunt
+            similitu<lb ed="#V" n="13" break="no"/>dines creaturarum sensibilium, aut compositi ex illis, vel
+            <lb ed="#V" n="14"/>cum illis aut ab illis extracti, veruntamen arguens, qui
+            po<lb ed="#V" n="15" break="no"/>nit quod ens nullam dicit communem rationem, sed omnes
+            <lb ed="#V" n="16"/>simul, ita quod dicendo, hoc ens, non est ibi vnus conceptus
+            <lb ed="#V" n="17"/>communis ipsius entis per aliquod additum contractus,
+            <lb ed="#V" n="18"/>sed est vnicus conceptus simpliciter, habet ponere, quod de
+            <lb ed="#V" n="19"/>Deo potest aliquis talis conceptus proprius haberi, scilicet
+            <lb ed="#V" n="20"/>quoddam ens, sed nos non ponimus hoc, vt alias patuit, &amp;
+            <lb ed="#V" n="21"/>sic patet ad argumenta sua.
+          </p>
+          <p xml:id="capsco-a2bw26-d1e1239">
+            Ad primum Scoti contra
+            quin<lb ed="#V" n="22" break="no"/>tam conclusionem cum omnibus confirmationibus suis
+            <lb ed="#V" n="23"/>dicitur, quod ad hoc quod aliquod nomen dicatur vniuoce
+            <lb ed="#V" n="24"/>de duobus non sufficit, quod significet conceptum vnicum
+            <lb ed="#V" n="25"/>communem illis duobus quocunque modo, sed requiritur
+            <lb ed="#V" n="26"/>quod ille conceptus aequaliter participetur ab eis, &amp; non
+            per<lb ed="#V" n="27" break="no"/>fectius ab vno quam ab alio, ita quod si conceptus ille sit
+            per<lb ed="#V" n="28" break="no"/>fectius similitudo vnius quam alterius non propter hoc
+            <lb ed="#V" n="29"/>nomen significans illum conceptum erit vniuocum illis
+            <lb ed="#V" n="30"/>duobus, de quibus dicitur. Sic autem est de omni
+            conce<lb ed="#V" n="31" break="no"/>ptu quem habet viator de Deo: nam omnis conceptus ab
+            <lb ed="#V" n="32"/>eo formatus communis Deo, &amp; creaturae imperfectius
+            re<lb ed="#V" n="33" break="no"/>praesentat Deum quam creaturam, conceptus enim sapientiae
+            <lb ed="#V" n="34"/>repraesentat perfectius sapientiam creatam quam
+            increa<lb ed="#V" n="35" break="no"/>tam: quia est immediate sumptus a sapientia creata, &amp; ideo
+            <lb ed="#V" n="36"/>repraesentat eam distinctius quo ad se &amp; modos eius quam
+            <lb ed="#V" n="37"/>sapientiam increatam, ideo hoc nomen sapientiae non est
+            <lb ed="#V" n="38"/>proprie vniuocum, nisi dicas quod ad vniuocationem sufficit
+            <lb ed="#V" n="39"/>vnicus qualiscunque conceptus, sed tunc est quaestio de
+            no<lb ed="#V" n="40" break="no"/>mine: quia tunc illud quod ego dico analogum, tu dicis
+            <lb ed="#V" n="41"/>vniuocum.
+          </p>
+          <p xml:id="capsco-a2bw26-d1e1286">
+            Ad secundum principale dico, quod probat solum
+            <lb ed="#V" n="42"/>quod intellectus noster non alium, sed eundem format de
+            sa<lb ed="#V" n="43" break="no"/>pientia increata, &amp; de sapientia creata, sed talis identitas
+            <lb ed="#V" n="44"/>conceptus non sufficit ad vniuocationem, vt dictum est, si
+            <lb ed="#V" n="45"/>tamen perfecte intelligeret sapientiam increatam, tunc alium
+            <lb ed="#V" n="46"/>co. iceptum formaret de illa quam de sapientia creata, &amp;
+            ta<lb ed="#V" n="47" break="no"/>men vnus est analogus alteri. Dico tamen quod intellectus
+            <lb ed="#V" n="48"/>viatoris potest formare conceptum compositum de
+            sapien<lb ed="#V" n="49" break="no"/>tia diuina, puta concipiendo actum sapictificandi
+            indepen<lb ed="#V" n="50" break="no"/>dentem non inhaerentem. &amp;c. &amp; tamen ille conceptus
+            ad<lb ed="#V" n="51" break="no"/>huc esset secundum vnam partem sui similitudo sapientiae
+            <lb ed="#V" n="52"/>creatae superexcellens, &amp; ideo nunquam esset vniuocus isti
+            <lb ed="#V" n="53"/>&amp; illi.
+          </p>
+          <p xml:id="capsco-a2bw26-d1e1315">
+            Ad tertium similiter dicitur, conceditur enim quod
+            Meta<lb ed="#V" n="54" break="no"/>physicus sub eisdem conceptibus perfectionalibus
+            conci<lb ed="#V" n="55" break="no"/>pit Deum, sub quibus concepit creaturas, primo enim
+            conce<lb ed="#V" n="56" break="no"/>pit sapientiam increatam conceptu simplici, quem habebat
+            <lb ed="#V" n="57"/>penes se de sapientia creata, sed ille conceptus est magis
+            <lb ed="#V" n="58"/>proprius sapientiae creatae quam increatae. Vlterius forte
+            <lb ed="#V" n="59"/>illi conceptui addit aliquos alios negatiuos vel relatiuos,
+            <lb ed="#V" n="60"/>&amp; tunc conceptus ille compositus, puta cum dico,
+            sapien<lb ed="#V" n="61" break="no"/>tia infinita, vel sapientia summa, licet sit conceptus
+            sapien<lb ed="#V" n="62" break="no"/>tiae creatae, non tamen proprius, sed superexcellens nec
+            con<lb ed="#V" n="63" break="no"/>uenit sibi nisi secundum partem.
+          </p>
+          <p xml:id="capsco-a2bw26-d1e1339">
+            Ad quartum dico, quod
+            diui<lb ed="#V" n="64" break="no"/>na essentia si perfecte conciperetur, vt in se est, non
+            causa<lb ed="#V" n="65" break="no"/>ret nisi vnicum conceptum de se, sicut pater non dicit nisi
+            <lb ed="#V" n="66"/>vnicum verbum, sed nullus intellectus creatus potest eam
+            <lb ed="#V" n="67"/>illo modo concipere, sed ostendet quod formet multos
+            conce<lb ed="#V" n="68" break="no"/>ptus de ipsa, vt magis accedat ad illum perfectissimum
+            con<lb ed="#V" n="69" break="no"/>ceptum patris vnicum, nec tamen diuina essentia ita exigit
+            <lb ed="#V" n="70"/>concipi diuersimode, ipsa enim nata est causare in
+            intelle<lb ed="#V" n="71" break="no"/>ctu sibi adaequato vnicum conceptum, vt ita dicam, sed in
+            <lb ed="#V" n="72"/>alijs intellectibus nata est causare infinitos: quia nullus
+            eo<lb ed="#V" n="73" break="no"/>rum repraesentat eam perfecte, vt in se est, nec aliquam
+            per<lb ed="#V" n="74" break="no"/>fectionem diuinam compraehendit non solum essentiam.
+            <lb ed="#V" n="75"/>Nunc ad argumentum in pede. q. factum respondetur
+            se<cb ed="#V" n="b"/><lb ed="#V" n="76" break="no"/>cundum Sanctus Thomas prima parte. q. 13. artic. 1. ad tertium.
+            Di<lb ed="#V" n="77" break="no"/>cendum (inquit) quod significare substantiam cum qualitate
+            <lb ed="#V" n="78"/>est significare suppositum cum natura vel forma
+            determi<lb ed="#V" n="79" break="no"/>nata, in qua subsistit: vnde sicut de Deo aliqua dicuntur
+            <lb ed="#V" n="80"/>in concretione ad significandum subsistentiam, &amp;
+            perfe<lb ed="#V" n="81" break="no"/>ctionem illius, sicut iam dictum est, ita dicuntur de Deo
+            <lb ed="#V" n="82"/>verba, &amp; participia significantia tempus, ex eo quod aeternitas
+            <lb ed="#V" n="83"/>includit omne tempus sicut enim subsistentia simplicia non
+            <lb ed="#V" n="84"/>possumus apphendere, &amp; significare nisi per modum
+            com<lb ed="#V" n="85" break="no"/>positorum, ita simplicem aeternitatem non possumus
+            intel<lb ed="#V" n="86" break="no"/>ligere, nec voce exprimere, nisi per modum rerum
+            tempo<lb ed="#V" n="87" break="no"/>ralium, &amp; hoc propter connaturalitatem intellectus
+            no<lb ed="#V" n="88" break="no"/>stri ad res compositas, &amp; temporales, pronom na vero
+            de<lb ed="#V" n="89" break="no"/>monstratiua dicuntur de Deo secundum quod faciunt
+            de<lb ed="#V" n="90" break="no"/>monstrationem ad illud, quod intelligitur, &amp; sic secundum
+            <lb ed="#V" n="91"/>modum, quo nomina &amp; participia, &amp; pronomina
+            demon<lb ed="#V" n="92" break="no"/>stratiua, de Deo dicuntur secundum quod a pronominibus
+            <lb ed="#V" n="93"/>relatiuis vel demonstratiuis significari potest. Haec ille.
+          </p>
+          <p xml:id="capsco-a2bw26-d1e1408">
+            In
+            <lb ed="#V" n="94"/>scripto autem clarius soluit praesens argumentum, &amp;
+            inten<lb ed="#V" n="95" break="no"/>dit quod grammaticus dicit, quod nomen significat
+            substan<lb ed="#V" n="96" break="no"/>tiam &amp;c. non accipit substantiam &amp; qualitatem modo quo
+            <lb ed="#V" n="97"/>accipit logicus sed substantiam vocat omne illud quod
+            si<lb ed="#V" n="98" break="no"/>gnificatur modo substantiae vel subiecti ita quod sibi potest al
+            <lb ed="#V" n="99"/>quod praedicatum attribui, quod est per modum formae,
+            <lb ed="#V" n="100"/>&amp; isto modo albedo significat substantiam &amp; huiusmodi.
+            <lb ed="#V" n="101"/>Participia autem ly possint esse subiecta in
+            propositioni<lb ed="#V" n="102" break="no"/>bus, tamen significant actionem vel passionem, &amp; ita non
+            <lb ed="#V" n="103"/>proprie significant per modum subiecti, sed nec verba,
+            qua<lb ed="#V" n="104" break="no"/>litatem autem vocat materiam vel formam. Et haec de quoione.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

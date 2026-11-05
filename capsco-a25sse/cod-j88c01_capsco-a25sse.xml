@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 1, Distinctio 18, Quaestio 1</title>
+        <author ref="#JohannesCapreolus">Johannes Capreolus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 1, Distinctio 18, Quaestio 1</title>
+          <date when="2026-11-04">Nov 4, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-j88c01">Venice, 1589, v. 1</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-04" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="335"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="capsco-a25sse"><!-- l1d18q1 -->
+        <head xml:id="capsco-a25sse-Hd1e101">Quaestio 1</head>
+        <head xml:id="capsco-a25sse-Hd1e103" type="question-title">Utrum donum sit proprium nomen Spiritus Sancti</head>
+        <p xml:id="capsco-a25sse-d1e106">
+          <lb ed="#V" n="21"/>DISTINCTIO XVIII
+          <lb ed="#V" n="22"/>QVAESTIO I.
+          <lb ed="#V" n="23"/>Vtrum donum sit proprium nomen Spiritus sancti.
+        </p>
+        <p xml:id="capsco-a25sse-d1e115">
+          <lb ed="#V" n="24"/><milestone ed="#V" unit="p" rend="initial"/> CIRCA decimamoctauam
+          distinctio<lb ed="#V" n="25" break="no"/>nem quaeritur. Vtrum donum sit
+          pro<lb ed="#V" n="26" break="no"/>prium nomen Spiritus sancti.
+        </p>
+        <p xml:id="capsco-a25sse-d1e125">
+          Et
+          argui<lb ed="#V" n="27" break="no"/>tur quod non. Donum enim dicitur
+          <lb ed="#V" n="28"/>ex eo, quod datur, sed sicut dicitur Isa.
+          <lb ed="#V" n="29"/>9. Filius datus est nobis. ergo esse
+          do<lb ed="#V" n="30" break="no"/>num conuenit filio. non ergo est
+          pro<lb ed="#V" n="31" break="no"/>prium Spiritus sancti.
+        </p>
+        <p xml:id="capsco-a25sse-d1e139">
+          <lb ed="#V" n="32"/><milestone ed="#V" unit="p" rend="indent"/> I op positum arguitur sic. Nam dicit augustinus 4. de
+          tri<lb ed="#V" n="33" break="no"/>nitate. Sicut natum est de filio a patre esse, ita Spiritus
+          <lb ed="#V" n="34"/>sancti donum dicitur esse a patre, &amp; filio procedere, sed
+          Sacpi<lb ed="#V" n="35" break="no"/>ritus sanctus sortitur proprium nomen inquantum
+          proce<lb ed="#V" n="36" break="no"/>dit a patre, &amp; filio. ergo donum est proprium nomen
+          Spi<lb ed="#V" n="37" break="no"/>ritus sancti.
+        </p>
+        <div xml:id="capsco-a25sse-Dd1e156">
+          <head xml:id="capsco-a25sse-Hd1e158">Articulus 1</head>
+        <p xml:id="capsco-a25sse-d1e160">
+          <lb ed="#V" n="38"/><milestone ed="#V" unit="p" rend="indent"/> In hac quaestione erit vnicus articulus, pro quo sit
+          pri<lb ed="#V" n="39" break="no"/>ma conclusio. Donum dicit quid personale. probatur
+          con<lb ed="#V" n="40" break="no"/>clusio secundum Sanctum Thomam prima parte. q. 38. ar. 1. vbi sic ait
+          <lb ed="#V" n="41"/>Innomine doni importatur aptitudo ad hoc, quod
+          done<lb ed="#V" n="42" break="no"/>tur, quod autem donatur habet habitudinem ad id a quo
+          <lb ed="#V" n="43"/>datur, &amp; ad id cui datur, non enim daretur ab aliquo nisi
+          es<lb ed="#V" n="44" break="no"/>set eius, &amp; ad hoc alicui datur, vt sit eius, persona autem
+          di<lb ed="#V" n="45" break="no"/>citur esse alicuius, vel alius, vel secundum originem sicut
+          fi<lb ed="#V" n="46" break="no"/>lius est patris, vel inquantum ab aliquo habetur, habere
+          au<lb ed="#V" n="47" break="no"/>tem dicimur id quo libere possumus vti, vel frui, vt volumus
+          <lb ed="#V" n="48"/>&amp; per hunc modum diuina persona non potest haberi nisi
+          <lb ed="#V" n="49"/>a creatura rationali Deo coniuncta, aliae enim creaturae
+          mo<lb ed="#V" n="50" break="no"/>ueri quidem possunt a diuina persona, non tamen sic quod
+          <lb ed="#V" n="51"/>in potestate earum sit frui diuina persona, &amp; vti effectu ei,
+          <lb ed="#V" n="52"/>ad quod quandoque pertingit rationalis creatura, puta cum
+          <lb ed="#V" n="53"/>sit particeps diuini verbi, &amp; procedentis amoris, vt possit
+          <lb ed="#V" n="54"/>libere Deum vere cognoscere, &amp; ratione amare. vnde sola
+          <lb ed="#V" n="55"/>creatura rationalis potest habere diuinam personam, sed
+          <lb ed="#V" n="56"/>ad hoc quod sic eam habeat, non potest propria virtute
+          perue<lb ed="#V" n="57" break="no"/>nire. vnde oportet quod hoc ei desuper detur, hoc enim nobis
+          <lb ed="#V" n="58"/>dari dicitur, quod aliunde habemus. Haec ille. Et ibidem in
+          <lb ed="#V" n="59"/>responsione ad primum, &amp; secundum, &amp; tertium dat
+          intel<lb ed="#V" n="60" break="no"/>ligere quod donum potest dicere quid essentiale. vnde potest
+          <lb ed="#V" n="61"/>esse secunda conclusio talis.
+        </p>
+        <p xml:id="capsco-a25sse-d1e216">
+          Secunda conclusio est. Donum
+          <lb ed="#V" n="62"/>potest esse nomen essentiale. probatur ista conclusio. Illud,
+          <lb ed="#V" n="63"/>quod conuenit essentiae diuinae dicit quid essentiale, &amp;
+          no<lb ed="#V" n="64" break="no"/>men illud significans est nomen essentiale. sed donum est
+          <lb ed="#V" n="65"/>huiusmodi. ergo assumptum patet, quia secundum Hilarium 8. de trinitate
+          es<lb ed="#V" n="66" break="no"/>sentia diuina est donum, quod pater dat filio. vnde sicut
+          di<lb ed="#V" n="67" break="no"/>cit ibi Sanctus Doctor, cum donum dicitur essentialiter ita, &amp; essentia
+          <lb ed="#V" n="68"/>dicitur donum patris, tunc dicitur donum esse alicuius p identitatis
+          <lb ed="#V" n="69"/>modum scilicet patris, qui dat essentiam filio, sed cum dicitur
+          perso<lb ed="#V" n="70" break="no"/>naliter, tunc illud quod dicitur isto modo donnm est ipsius
+          da<lb ed="#V" n="71" break="no"/>tis secundum originem, sicut Spiritus sanctus est patris, &amp; filij.
+        </p>
+        <p xml:id="capsco-a25sse-d1e240">
+          Ter<cb ed="#V" n="b"/><lb ed="#V" n="72" break="no"/>tia conclusio est. Donum, provt dicitur personaliter est proprium
+          <lb ed="#V" n="73"/>Spiritus sancti. Istam conclusionem probat Sanctus Doctor
+          pri<lb ed="#V" n="74" break="no"/>ma parte. q. 38. arti. 2. Donum proprie est datio irredibiliter
+          <lb ed="#V" n="75"/>secundum philosophum scilicet quia non datur intentione
+          retributio<lb ed="#V" n="76" break="no"/>nis, &amp; sic importat gratuitam donationem, ratio autem
+          gra<lb ed="#V" n="77" break="no"/>tuitae donationis est amor. Ideo enim damus gratis alicui,
+          <lb ed="#V" n="78"/>quia volumus ei bonum. vnde manifestum est, quod amor
+          <lb ed="#V" n="79"/>habet rationem primi doni, per quod omnia dona gratuita
+          <lb ed="#V" n="80"/>donantur. vnde cum Spiritus sanctus procedat, vt amor,
+          si<lb ed="#V" n="81" break="no"/>cut iam dictum est, procedit in ratione primi doni, vnde
+          di<lb ed="#V" n="82" break="no"/>cit Augustinus in 15. de trinitate. quod per donum, quod est Spiritus
+          <lb ed="#V" n="83"/>sanctus multa propria dona diuiduntur membris Christi.
+          <lb ed="#V" n="84"/>Haec ille.
+        </p>
+        <p xml:id="capsco-a25sse-d1e272">
+          Item ibidem ad secundum dicit. quod in nomine
+          do<lb ed="#V" n="85" break="no"/>ni importatur quod sit dantis per originem, &amp; sic
+          importa<lb ed="#V" n="86" break="no"/>tur proprietas Spiritus sancti, quae est processio. Item
+          ibi<lb ed="#V" n="87" break="no"/>dem ad primum dicit quod Spiritus sanctus, qui a patre
+          proce<lb ed="#V" n="88" break="no"/>dit vt amor, proprie dicitur donum. vnde licet filius detur,
+          <lb ed="#V" n="89"/>tamen hoc ipsum, quod filius datur ex patris amore est secundum
+          <lb ed="#V" n="90"/>illud Io. 3. Sic Deus dilexit mundum, vt filium suum
+          vnige<lb ed="#V" n="91" break="no"/>nitum daret. Et easdem conclusiones ponit primo sen. dis.
+          <lb ed="#V" n="92"/>18. q. 1. art. 1. &amp; 2. vnde artic. 1. dicit. Dari, vel donari dicitur
+          <lb ed="#V" n="93"/>dupliciter. Vno modo illud quod habetur per modum
+          dc<lb ed="#V" n="94" break="no"/>minij, vt possessio. Aliomodo illud quod habetur quasi
+          in<lb ed="#V" n="95" break="no"/>trinsecum sibi, sicut aliquis habet seipsum, vel materiam suam,
+          <lb ed="#V" n="96"/>vel qualitatem, quamuis autem in diuinis personis non sit
+          <lb ed="#V" n="97"/>dominium respectu alterius, tamen est ibi auctoritas
+          prin<lb ed="#V" n="98" break="no"/>cipii.
+        </p>
+        <p xml:id="capsco-a25sse-d1e306">
+          Dicendum igitur, quod datio potest importare
+          au<lb ed="#V" n="99" break="no"/>ctoritatem respectu dati, &amp; sic donum vel datum est
+          notio<lb ed="#V" n="100" break="no"/>nale. potest etiam non importare auctoritatem, sed tantum
+          <lb ed="#V" n="101"/>hoc quod illud quod datur, &amp; hoc modo ipsa essentia
+          dici<lb ed="#V" n="102" break="no"/>tur dari, vel donari, &amp; secundum hoc donum, vel datum non
+          <lb ed="#V" n="103"/>est personale, sed essentiale, semper tamen importat
+          distin<lb ed="#V" n="104" break="no"/>ctionem personae dantis ad eum cui datur, quamuis non ad
+          <lb ed="#V" n="105"/>illud quod datur. Haec ille.
+        </p>
+        <p xml:id="capsco-a25sse-d1e324">
+          Item art. 2. dicit Donum, &amp;
+          da<lb ed="#V" n="106" break="no"/>tum tripliciter differunt scilicet quantum ad consignationem,
+          da<lb ed="#V" n="107" break="no"/>tum enim consignat tempus cum sit participium. donum
+          <lb ed="#V" n="108"/>autem non cum sit nomen, &amp; inde est, quod donum
+          ma<lb ed="#V" n="109" break="no"/>gis competit diuinis quae sine tempore sunt, quam datum.
+          <lb ed="#V" n="110"/>vnde donum potest esse aeternum, sed non datum. Secundo
+          <lb ed="#V" n="111"/>quantum ad significationem, quia donare addit super dare
+          <lb ed="#V" n="112"/>donum enim vt dicit philosophus est datio irredibilis, non
+          <lb ed="#V" n="113"/>quae compensari non valeat, sed quae recompensationem non
+          <lb ed="#V" n="114"/>quaerit, vnde donum importat liberalitatem in dante.
+          Ter<lb ed="#V" n="115" break="no"/>tio quantum ad modum significandi, quia donum
+          impor<lb ed="#V" n="116" break="no"/>tat aptitudinem ad dandum. datum importat dationem in
+          <lb ed="#V" n="117"/>actu. aptitudo autem ad dandum potest intelligi dupliciter.
+          <lb ed="#V" n="118"/>vel ex parte ipsius dati quasi passiua. vel ex parte dantis
+          qua<lb ed="#V" n="119" break="no"/>si actiua. &amp; talis aptitudo est secundum rationem, qua aliquid
+          libera<lb ed="#V" n="120" break="no"/>liter datur, ratio autem omnis liberalis collationis est amor, quod
+          <lb ed="#V" n="121"/>enim propter cupiditatem datur, vel propter timorem non
+          si<lb ed="#V" n="122" break="no"/>berali datione datur, sed talis magis dicitur quaestus, vel
+          redem<lb ed="#V" n="123" break="no"/>ptio, quia igitur Spiritus sanctus est amor, ex ratione suae
+          pro<lb ed="#V" n="124" break="no"/>cessionis habet in se &amp; quod detur, &amp; quod sit ratio dandi, vnde
+          <lb ed="#V" n="125"/>donum est per se &amp; primo amor, alia enim quae dantur non
+          <lb ed="#V" n="126"/>sunt dona nisi secundum quod participant aliquid amoris, vt ex
+          amo<lb ed="#V" n="127" break="no"/>re data. Si igitur colligantur tres dictae rationes doni
+          adiun<lb ed="#V" n="128" break="no"/>cta auctoritate dantis ad donum. patet quod in trinitate
+          do<lb ed="#V" n="129" break="no"/>num Spiritui sancto conuenit secundum suam processionem
+          aeter<lb ed="#V" n="130" break="no"/>nam inquantum procedit, vt amor, qui est ratio
+          collatio<lb ed="#V" n="131" break="no"/>nis liberalis. vnde sicut amor est proprium sibi, ita &amp; donum.
+          <lb ed="#V" n="132"/>Haec ille.
+        </p>
+        <p xml:id="capsco-a25sse-d1e385">
+          Sed contra tertiam conclusionem arguit
+          Aureo<lb ed="#V" n="133" break="no"/>lus. Haec inquit positio stare non potest. Tum quia supra
+          <lb ed="#V" n="134"/>probatum est, quod Spiritus sanctus non procedit formaliter
+          <lb ed="#V" n="135"/>vt amor, alioquin ex vi processionis, &amp; inquantum, scilicet esset
+          <lb ed="#V" n="136"/>amor, &amp; cum amor sit vnicus in diuinis esset beatus eo quo
+          <lb ed="#V" n="137"/>spiritus, &amp; per consequens bonus, &amp; Deus &amp; multa alia
+          im<lb ed="#V" n="138" break="no"/>possibilia, quae sup. d. 10. sunt inducta. Tum quia paulo
+          an<lb ed="#V" n="139" break="no"/>te in quaestione de amore isti positores dixerunt. quod Spiritus
+          <lb ed="#V" n="140"/>sanctus proprie non procedit, vt amor, sed vt impressio,
+          seu<lb ed="#V" n="141" break="no"/>attentio rei amatae proueniens in amantem, eo quod amat.
+          <lb ed="#V" n="142"/>hic autem dcotenst, quod procedit, vt amor. vnde non videntur
+          ver<lb ed="#V" n="143" break="no"/>ba concorditer esse prolata, nec conuenienter dicta. Tum qua
+          <lb ed="#V" n="144"/>amor essentialis est illud quo omnia dona donantur, &amp; non
+          <lb ed="#V" n="145"/>amor notionalis, si amor importatur per Spiritum sanctum,
+          <lb ed="#V" n="146"/>alioquin Spiritus sanctus haberet specialem causalitatem
+          su<pb ed="#V" n="336"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>per creaturas in ratione efficientis, quod esse non potest.
+          <lb ed="#V" n="2"/>Haec ille.
+        </p>
+        <p xml:id="capsco-a25sse-d1e424">
+          Contra eandem conclusionem arguitur sic.
+          Nul<lb ed="#V" n="3" break="no"/>lum ens rationis constituit personam Spiritus sancti. sed
+          <lb ed="#V" n="4"/>donum importat relationem rationis ad eos, quibus
+          da<lb ed="#V" n="5" break="no"/>tur. igitur non potest constituere personam Spiritus
+          san<lb ed="#V" n="6" break="no"/>cti. Secundo. Nullum includens creaturam est proprietas
+          <lb ed="#V" n="7"/>constituens diuinam personam, sed donum includit
+          creatu<lb ed="#V" n="8" break="no"/>ras, quibus datur saltem per modum termini. igitur non est
+          <lb ed="#V" n="9"/>proprietas constitutiua Spiritus sancti. Tertio Spiritus
+          san<lb ed="#V" n="10" break="no"/>ctus non refertur ad se sua proprietate personali, sed in eo
+          <lb ed="#V" n="11"/>quod datur refertur ad se, cum detur a seipso, vt magister
+          de<lb ed="#V" n="12" break="no"/>clarat. igitur &amp;c. Quarto. Nulla persona habet in se
+          proprie<lb ed="#V" n="13" break="no"/>tatem oppositam suo constitutiuo. pater enim non habet in se
+          <lb ed="#V" n="14"/>filiationem, nec filius paternitatem. sed Spiritus sanctus
+          ha<lb ed="#V" n="15" break="no"/>bet dare actiue, vt magister determinat. ergo dari passiuum
+          <lb ed="#V" n="16"/>non est eius proprietas. Quinto. Omnis proprietas
+          consti<lb ed="#V" n="17" break="no"/>tutiua ponit distinctionem, quia quod constituit ab alio
+          <lb ed="#V" n="18"/>distinguit, sed donum non ponit distinctionem, dicit enim
+          <lb ed="#V" n="19"/>Augustinus 15. de trinitate. c. 19. quod Spiritus sanctus ita datur sicut
+          <lb ed="#V" n="20"/>donum Dei, vt etiam seipsum det sicut Deus. igitur donum non
+          <lb ed="#V" n="21"/>est eius proprietas constitutiua. Sexto. Vnius personae est
+          <lb ed="#V" n="22"/>tantum vnica proprietas constitutiua. sed persona Spiritus
+          <lb ed="#V" n="23"/>sancti, quae est vna constituitur proprietate proccssionis, quam
+          <lb ed="#V" n="24"/>est alia a dono, quia dicit Augustinus 19. de trinitate. c. 19. quod
+          Spiri<lb ed="#V" n="25" break="no"/>tus sanctus in tantum donum Dei est, inquantum datur eis,
+          <lb ed="#V" n="26"/>quibus datur, apud se tamen Deus est, &amp; si nemini detur. igitur
+          <lb ed="#V" n="27"/>Septimo. Nullum temporale est constitutiuum personae
+          spi<lb ed="#V" n="28" break="no"/>ritus sancti, sed donum est huomodi. igitur. Octauo. Si donum
+          <lb ed="#V" n="29"/>esset proprietas constitutiua Spiritus sancti. eius emanatio
+          <lb ed="#V" n="30"/>posset appellari datio, sicut emanatio geniti dicitur generatio.
+          <lb ed="#V" n="31"/>sed Augutnus dicit 5. de trinitate. c. 18. quod Spiritus sanctus non eo,
+          <lb ed="#V" n="32"/>quod datur habet, quod sit spiritus sanctus. vel quod substantia sit.
+          <lb ed="#V" n="33"/>sed eo quod procedit. per hoc innuens, quod emanatio spiritus
+          san<lb ed="#V" n="34" break="no"/>cti non est datio, sed processio. igitur. Nono. Illud quodcompetit
+          <lb ed="#V" n="35"/>filio non est constitutiuum Spiritus sancti, sed donum competit filio
+          <lb ed="#V" n="36"/>dit enim Isa. 9. Quia filius datus est nobis. &amp; I0. 3. Sic Deus
+          dile<lb ed="#V" n="37" break="no"/>xit mundum, vt filium vnigenitum daret, igitur &amp;c. Ad
+          pri<lb ed="#V" n="38" break="no"/>mum argumentorum Aureoli dicitur quod immo spiritus sanctus
+          <lb ed="#V" n="39"/>procedit, vt amor. Et ad suam probationem dico, quod amor
+          <lb ed="#V" n="40"/>tripliciter sumitur in diuinis secundum quod dicit Sanctus Thomas 1. sen. d. 10.
+          <lb ed="#V" n="41"/>q. 1. ar. 1. ad quartum. Quandoque enim sumitur essentialiter quandoque
+          perso<lb ed="#V" n="42" break="no"/>naliter quandoque notionaliter. Quando sumitur essentialiter non dicit
+          <lb ed="#V" n="43"/>aliquam processionem, vel relationem realem, sed tantum rationis
+          <lb ed="#V" n="44"/>sicut etiam cum de Deo dicimus intelligens, &amp; intellectum,
+          ea<lb ed="#V" n="45" break="no"/>dem enim persona potest esse amans, &amp; amata. Quando
+          au<lb ed="#V" n="46" break="no"/>tem dicitur personaliter, tunc importatur processio, &amp; relatio
+          <lb ed="#V" n="47"/>realis, &amp; significatur ipsa res procedens, sicut amor est quid
+          <lb ed="#V" n="48"/>procedens. Quando autem dicitur notionaliter significat
+          <lb ed="#V" n="49"/>ipsam rationem processionis personae, quia amor non
+          tan<lb ed="#V" n="50" break="no"/>tum est procedens, sed etiam dicit relationem sub qua alia
+          <lb ed="#V" n="51"/>procedunt. secundum ergo quod est essentiale est
+          commu<lb ed="#V" n="52" break="no"/>ne tribus, sed appropriatur spiritui sancto, vt cum dicitur
+          <lb ed="#V" n="53"/>Deus charitas est, secundum autem quod est personale est
+          pro<lb ed="#V" n="54" break="no"/>prium spiritus sancti, &amp; sic dicitur quod spiritus sanctus
+          proce<lb ed="#V" n="55" break="no"/>dit, ut amor, secundum autem quod est notionale est quaedam
+          <lb ed="#V" n="56"/>relatio, vel notio communis conueniens patri, &amp; filio, quae
+          <lb ed="#V" n="57"/>etiam dicitur communis spiratio, &amp; hoc modo significatur
+          <lb ed="#V" n="58"/>amor in hoc verbo diligunt, cum dicitur, pater, &amp; filius
+          dili<lb ed="#V" n="59" break="no"/>gunt se spiritu sancto. Haec ille.
+        </p>
+        <p xml:id="capsco-a25sse-d1e550">
+          Ex qua distinctione patet
+          <lb ed="#V" n="60"/>ad primum. Dico enim quod amor primo dictus in diuinis
+          <lb ed="#V" n="61"/>est beatificus, sed non secundo, vel tertio modis. Ad
+          secun<lb ed="#V" n="62" break="no"/>dum patet per idem. licet enim Sanctus Doctor dixerit quod
+          Spi<lb ed="#V" n="63" break="no"/>ritus sanctus procedit, vt impressio &amp;c. ex hoc tamen non
+          <lb ed="#V" n="64"/>sequitur quin sit amor. Illa enim impressio dicitur amor
+          secun<lb ed="#V" n="65" break="no"/>do, vel tertio modis, praesertim quia per actum amoris
+          pro<lb ed="#V" n="66" break="no"/>ducitur. sicut filius dicitur notitia quia per actum
+          intelle<lb ed="#V" n="67" break="no"/>ctus producitur. vnde nulla est in eius dictis contradictio,
+          <lb ed="#V" n="68"/>sed difficultas ad capiendum.
+        </p>
+        <p xml:id="capsco-a25sse-d1e572">
+          Ad tertium dico. quod
+          immo<lb ed="#V" n="69" break="no"/>amor personalis, vel notionalis est illud, quo omnia dona
+          <lb ed="#V" n="70"/>donantur creaturis, &amp; est ratio creationis omnium sicut
+          sae<lb ed="#V" n="71" break="no"/>pe dictum est, non tamen sequitur quod habeat specialem
+          <lb ed="#V" n="72"/>causalitatem effectiuam super creaturas. in diuinis enim
+          <lb ed="#V" n="73"/>non est nisi vna causalitas effectiua respectu creaturarum.
+          <lb ed="#V" n="74"/>Sed tamen cum Deus causet, &amp; principiet, &amp; producat
+          <lb ed="#V" n="75"/>creaturas per intellectum, &amp; voluntatem, de ratione
+          pri<cb ed="#V" n="b"/><lb ed="#V" n="76" break="no"/>mi principij est, quod praeconcipiat formam creatorum, &amp;
+          <lb ed="#V" n="77"/>quod velit, &amp; amet praeconcepta, &amp; consequenter causalitas
+          <lb ed="#V" n="78"/>eius includit in sui ratione verbum, &amp; amorem, quae sunt
+          <lb ed="#V" n="79"/>non diuersae causalitates, sed diuersae rationes eiusdem
+          cau<lb ed="#V" n="80" break="no"/>sae, processiones enim diuinarum personarum sunt
+          ratio<lb ed="#V" n="81" break="no"/>nes processionis creaturarum, vt dictum fuit in quaestione
+          <lb ed="#V" n="82"/>de vestimento, &amp; imagine, &amp; sic patet ad argumenta illa.
+        </p>
+        <p xml:id="capsco-a25sse-d1e607">
+          <lb ed="#V" n="83"/>Ad primum aliorum argumentorum dicitur, quod licet
+          <lb ed="#V" n="84"/>nullus respectus rationis constituat Spiritum sanctum.
+          ta<lb ed="#V" n="85" break="no"/>men aliquid de cuius ratione in obliquo est respectus
+          ratio<lb ed="#V" n="86" break="no"/>nis potest constituere Spiritum sanctum. huedi autem est
+          <lb ed="#V" n="87"/>donum. conceditur tamen quod ille respectus rationis non
+          <lb ed="#V" n="88"/>intrat constitutionem diuinae personae, sed assequitur illud
+          <lb ed="#V" n="89"/>quo formaliter constituitur, quia illud constitutum non
+          <lb ed="#V" n="90"/>potest a nobis intelligi nisi cointellecto respectu rationis.
+        </p>
+        <p xml:id="capsco-a25sse-d1e627">
+          <lb ed="#V" n="91"/>Ad secundum dico. quod donum non includit creaturam
+          <lb ed="#V" n="92"/>in recto, sed in obliquo per modum connotati, vel termini
+          <lb ed="#V" n="93"/>respectus, quem in sua ratione includit, sicut a simili
+          intel<lb ed="#V" n="94" break="no"/>lectio creaturarum est in Deo ab aeterno, &amp; est Deus, tamen
+          <lb ed="#V" n="95"/>dicit habitudinem ad creaturam.
+        </p>
+        <p xml:id="capsco-a25sse-d1e640">
+          Ad tertium dico, quod
+          spi<lb ed="#V" n="96" break="no"/>ritus sanctus non refertur a se vt datus prout dari est, quid
+          <lb ed="#V" n="97"/>notionale, &amp; illo modo est proprium spiritus sancti. Ad
+          <lb ed="#V" n="98"/>quartum patet responsio per idem. nam datio actiua
+          Spiri<lb ed="#V" n="99" break="no"/>tus sancti non opponitur dationi passiuae, quae est sibi,
+          pro<lb ed="#V" n="100" break="no"/>pria sicut nullum essentiale opponitur notioni.
+        </p>
+        <p xml:id="capsco-a25sse-d1e653">
+          Ad quintum
+          <lb ed="#V" n="101"/>patet per idem nam datio passio distinguit illud, quod
+          con<lb ed="#V" n="102" break="no"/>uenit a dante si sumatur notionaliter, non autem cum
+          su<lb ed="#V" n="103" break="no"/>mitur essentialiter.
+        </p>
+        <p xml:id="capsco-a25sse-d1e662">
+          Ad sextum dicitur, quod eadem
+          proprie<lb ed="#V" n="104" break="no"/>tas importatur in nomine processionis, &amp; in nomine doni,
+          <lb ed="#V" n="105"/>cum amor sit primum donum. vnde procedere per modum
+          <lb ed="#V" n="106"/>doni, &amp; modo amoris idem est.
+        </p>
+        <p xml:id="capsco-a25sse-d1e671">
+          Ad septimum dicitur, quod
+          spi<lb ed="#V" n="107" break="no"/>ritus sanctus aeternaliter est donum, non autem datum, scilicet
+          <lb ed="#V" n="108"/>ex tempore vt dictum est.
+        </p>
+        <p xml:id="capsco-a25sse-d1e679">
+          Ad octauum negatur
+          consequen<lb ed="#V" n="109" break="no"/>tia prima. nec valet similitudo de genito, quia generatio non
+          <lb ed="#V" n="110"/>dicit quid temporale sicut datio, sed si datio sumatur sine
+          <lb ed="#V" n="111"/>taii respectu temporali potest concedi consequentia. non
+          <lb ed="#V" n="112"/>enim habemus nomina imposita ad exprimendum illa, quam
+          <lb ed="#V" n="113"/>pertinent ad emanationem voluntatis sicut habemus
+          ex<lb ed="#V" n="114" break="no"/>primere ea quae spectant ad intellectum.
+        </p>
+        <p xml:id="capsco-a25sse-d1e695">
+          Ad nonum dicetur
+          <lb ed="#V" n="115"/>iu fine quaestionis. Ad argumentum vero in pede
+          quaestio<lb ed="#V" n="116" break="no"/>nis factum patet per praedicta. licet enim filius detur, tamen
+          <lb ed="#V" n="117"/>Spiritus sanctus est ratio, quod filius detur, cum sua
+          pro<lb ed="#V" n="118" break="no"/>cegsio sit ratio omnis creatae processionis, &amp; omnis
+          dona<lb ed="#V" n="119" break="no"/>tionis inquantum includit essentiale attributum, quod est
+          <lb ed="#V" n="120"/>amor aut voluntas. sic enim intelligit omnia praedicta
+          san<lb ed="#V" n="121" break="no"/>ctus Doctor, vt patet prima parte. quaest. 45. articulo sexto
+          <lb ed="#V" n="122"/>sicut plenius explicatum extitit in quaestione de
+          vestimen<lb ed="#V" n="123" break="no"/>to. Et haec de quaestione.
+        </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

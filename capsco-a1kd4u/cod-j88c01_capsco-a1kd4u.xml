@@ -1,0 +1,684 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 1, Distinctio 2, Quaestio 2</title>
+        <author ref="#JohannesCapreolus">Johannes Capreolus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 1, Distinctio 2, Quaestio 2</title>
+          <date when="2026-11-04">Nov 4, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-j88c01">Venice, 1589, v. 1</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-04" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="90"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="capsco-a1kd4u"><!-- l1d2q2 -->
+        <head xml:id="capsco-a1kd4u-Hd1e101">Quaestio 2</head>
+        <head xml:id="capsco-a1kd4u-Hd1e103" type="question-title">Utrum Deum esse sit per se notum nobis</head>
+        <p xml:id="capsco-a1kd4u-d1e106">
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="76"/>QVAESTIO II.
+          <lb ed="#V" n="77"/>Vtrum Deum esse sit per se notum nobis.
+        </p>
+        <p xml:id="capsco-a1kd4u-d1e115">
+          <lb ed="#V" n="78"/><milestone ed="#V" unit="p" rend="initial"/> Secundo circa eandem distinctionem
+          que<lb ed="#V" n="79" break="no"/>ritur. Vtrum Deum esse sit per se notum
+          <lb ed="#V" n="80"/>menti humanae in via.
+        </p>
+        <p xml:id="capsco-a1kd4u-d1e125">
+          Et arguitur quod
+          <lb ed="#V" n="81"/>sic. Illa sunt nobis per se nota, quorum
+          <lb ed="#V" n="82"/>cognitio naturaliter est nobis indita, sed
+          <lb ed="#V" n="83"/>cognitio existendi Deum omnibus
+          natu<lb ed="#V" n="84" break="no"/>raliter est inserta, vt dicit Damascenus. ergo &amp;c.
+        </p>
+        <p xml:id="capsco-a1kd4u-d1e137">
+          <lb ed="#V" n="85"/><milestone ed="#V" unit="p" rend="indent"/> In oppositum arguitur sic. Eorum quae sunt per se
+          no<lb ed="#V" n="86" break="no"/>ta non potest contrarium aestimari secundum
+          interio<lb ed="#V" n="87" break="no"/>rem rationem, sicut sunt prima principia
+          demonstratio<lb ed="#V" n="88" break="no"/>nis, sed contrarium huius, quod est Deum esse, aestimari
+          <lb ed="#V" n="89"/>in actu est possibile, vt patet per illud Psal. Dixit insipiens
+          <lb ed="#V" n="90"/>&amp;c. ergo Deum esse non est per se notum.
+        </p>
+        <p xml:id="capsco-a1kd4u-d1e154">
+          <lb ed="#V" n="91"/><milestone ed="#V" unit="p" rend="indent"/> In hac quaestione sunt duo articuli. Primo ponam
+          con<lb ed="#V" n="92" break="no"/>clusiones. Secundo mouebo dubitationes.
+        </p>
+        <div xml:id="capsco-a1kd4u-Dd1e162">
+          <head xml:id="capsco-a1kd4u-Hd1e164">Articulus 1</head>
+          <p xml:id="capsco-a1kd4u-d1e166">
+            <lb ed="#V" n="93"/><milestone ed="#V" unit="p" rend="initial"/> QVantum ad primum sit prima conclusio, quod ad
+            <lb ed="#V" n="94"/>hoc quod aliqua propositio sit per se nota, sufficit quod
+            <lb ed="#V" n="95"/>praedicatum sit de ratione subiecti. Istam propositionem
+            <lb ed="#V" n="96"/>seu conclusionem ponit Sanctus Thomas de veritate. q. 10.
+            <lb ed="#V" n="97"/>artic. 12. vbi sic dicit. Ad hoc quod aliquid sit per se notum,
+            <lb ed="#V" n="98"/>nihil aliud requiritur, nisi vt praedicatum sit de ratione
+            su<lb ed="#V" n="99" break="no"/>biecti, tunc enim subiectum cogitari non potest sine hoc
+            <lb ed="#V" n="100"/>quod praedicatum sibi inesse appareat. Haec ille.
+          </p>
+          <p xml:id="capsco-a1kd4u-d1e187">
+            Item
+            pri<lb ed="#V" n="101" break="no"/>ma parte. q. 2. arti. 1. Ex hoc (inquit) aliqua propositio est
+            <lb ed="#V" n="102"/>per se nota: quia praedicatum includitur in ratione
+            subie<lb ed="#V" n="103" break="no"/>cti, vt homo est animal. Nam animal est de ratione
+            homi<lb ed="#V" n="104" break="no"/>nis. Haec ille.
+          </p>
+          <p xml:id="capsco-a1kd4u-d1e198">
+            Idem ponit primo contra Gentiles cap. 10.
+            <lb ed="#V" n="105"/>Item quarto Metaphysicae dicit. Propositiones per se notae
+            <lb ed="#V" n="106"/>sunt quae statim notis terminis cognoscuntur, vt
+            dicitu<lb ed="#V" n="107" break="no"/>primo Posteriorum, hoc autem contingit illis
+            propositio<lb ed="#V" n="108" break="no"/>nibus in quibus praedicatum ponitur in diffinitione
+            subie<lb ed="#V" n="109" break="no"/>cti, uel praedicatum est idem subiecto. Haec ille.
+          </p>
+          <p xml:id="capsco-a1kd4u-d1e211">
+            Secunda
+            <lb ed="#V" n="110"/>conclusio est, quod non omnis propositio per se nota, est
+            <lb ed="#V" n="111"/>per se nota nobis. Hanc ponit Sanctus Thomas in locis
+            prae<lb ed="#V" n="112" break="no"/>allegatis: unde in quaestionibus de ueritate sic dicit.
+            Du<lb ed="#V" n="113" break="no"/>pliciter est aliquid per se notum, scilicet secundum se, &amp;
+            <lb ed="#V" n="114"/>quo ad nos. Ad hoc enim quod aliquid sit per se notum,
+            <lb ed="#V" n="115"/>nihil aliud requiritur, nisi vt praedicatum sit de ratione
+            su<lb ed="#V" n="116" break="no"/>biecti, tunc enim subiectum cogitari non potest sine hoc
+            <lb ed="#V" n="117"/>quod praedicatum sibi inesse appareat. Ad hoc autem ut
+            <lb ed="#V" n="118"/>aliquid sit per se notum nobis, oportet quod nobis sit
+            co<lb ed="#V" n="119" break="no"/>gnita ratio subiecti, in qua includitur praedicatum, &amp; inde
+            <lb ed="#V" n="120"/>est, quod quaedam sunt per se nota omnibus, quando,
+            sci<lb ed="#V" n="121" break="no"/>licet huiusmodi propositiones habent talia subiecta,
+            quo<lb ed="#V" n="122" break="no"/>rum ratio omnibus est nota, ut omne totum maius est sua
+            <lb ed="#V" n="123"/>parte, quilibet enim scit quid sit totum, &amp; quid pars.
+            Quae<lb ed="#V" n="124" break="no"/>dam vero sunt per se nota sapientibus tantum: qui
+            ratio<lb ed="#V" n="125" break="no"/>nes terminorum cognoscunt vulgo eas ignorante, &amp;
+            se<lb ed="#V" n="126" break="no"/>cundum hoc Boetius in libro de Hebdomadibus dicit, quod
+            <lb ed="#V" n="127"/>duplex est modus communium acceptionum. Vna est
+            com<lb ed="#V" n="128" break="no"/>munis omnibus, ut si ab aequalibus aequalia demas quae &amp;c.
+            <lb ed="#V" n="129"/>Alia est quae est doctorum tantum, vt incorporalia in
+            lo<lb ed="#V" n="130" break="no"/>co non esse, quae non vulgus sed docti comprobant, quia
+            <lb ed="#V" n="131"/>scilicet vulgi consideratio imaginationem transcendere
+            <lb ed="#V" n="132"/>non potest, vt ad rationem rei incorporalis pertingat. Haec
+            <lb ed="#V" n="133"/>ille. Idem ponit prima parte vbi supra, &amp; quarto
+            Metaphy<lb ed="#V" n="134" break="no"/>sicae vbi supra.
+          </p>
+          <p xml:id="capsco-a1kd4u-d1e269">
+            Tertia conclusio est. Quia haec propositio
+            <lb ed="#V" n="135"/>Deus est secundum se, est per se nota. non autem quo ad
+            <lb ed="#V" n="136"/>nos, hanc ponit ipse vbi supra: vnde in de veritate, vbi
+            su<lb ed="#V" n="137" break="no"/>pra post verba praemissa subdit. Hoc autem quod est esse
+            <lb ed="#V" n="138"/>in nullius creaturae ratione perfecte includitur, cuiuslibet
+            <lb ed="#V" n="139"/>enim creaturae esse est aliud a sui quidditate. vnde non
+            po<lb ed="#V" n="140" break="no"/>test dici de aliqua creatura, quod eam esse sit per se notum,
+            <lb ed="#V" n="141"/>&amp; secundum se, sed. in Deos esse suum includitur in eius
+            <lb ed="#V" n="142"/>quidditatis ratione: quia in Deo idem est, quod est, &amp;
+            es<lb ed="#V" n="143" break="no"/>se, vt dicit Boetius, &amp; idem an est, &amp; quid est, vt dicit
+            Aui<lb ed="#V" n="144" break="no"/>cenna, &amp; ideo secundum se, &amp; per se est notum: quia qui
+            d<lb ed="#V" n="145" break="no"/>ditas Dei non est nobis nota, ideo quo ad nos Deum esse,
+            <lb ed="#V" n="146"/>non est per se notum, sed indiget demonstratione: sed in
+            <lb ed="#V" n="147"/>patria vbi essentiam eius videbimus, multo amplius erit
+            <lb ed="#V" n="148"/>nobis per se notum Deum esse, quam nunc sit per se
+            no<pb ed="#V" n="91"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>tum, quod affirmatio vel negatio non sunt simul vera.
+            <lb ed="#V" n="2"/>Haec ille. Idem dicit prima parte vbi supra, q primo
+            con<lb ed="#V" n="3" break="no"/>tra Gentiles, &amp; primo sen. praesenti dist. &amp;c.
+          </p>
+        </div>
+        <div xml:id="capsco-a1kd4u-Dd1e312">
+          <head xml:id="capsco-a1kd4u-Hd1e314">Articulus 2</head>
+          <p xml:id="capsco-a1kd4u-d1e316">
+            <lb ed="#V" n="4"/><milestone ed="#V" unit="p" rend="initial"/> QVantum ad secundum articulum arguitur contra
+            prae<lb ed="#V" n="5" break="no"/>dictas conclusiones. Et quidem contra primam
+            <lb ed="#V" n="6"/>arguit Aureolus primo sic. Omnis propositio in cuius
+            su<lb ed="#V" n="7" break="no"/>biecto includitur praedicatum, est in primo modo
+            dicen<lb ed="#V" n="8" break="no"/>di per se, vt patet primo Posteriorum: sed non omnis
+            pro<lb ed="#V" n="9" break="no"/>positio per se nota est in primo modo dicendi per se, quod
+            <lb ed="#V" n="10"/>apparet: quia cum in mathematica, passio praedicatur de
+            <lb ed="#V" n="11"/>ratione subiecti illa propositio est per se nota. verbi
+            gra<lb ed="#V" n="12" break="no"/>tia. linea cadens super lineam constituit duos angulos
+            re<lb ed="#V" n="13" break="no"/>ctos, vel aequales duobus rectis, vel paralellae non
+            concur<lb ed="#V" n="14" break="no"/>runt, vel omne totum est maius sua parte, omnes istae sunt
+            <lb ed="#V" n="15"/>per se notae, sed certum est, quod constituere duos
+            augu<lb ed="#V" n="16" break="no"/>los rectos non est de ratione lineae cadentis super lineam
+            <lb ed="#V" n="17"/>rectam, nec non concurrere est de ratione paralellae, nec
+            <lb ed="#V" n="18"/>maioritas de ratione totius aut minoritas de ratione
+            par<lb ed="#V" n="19" break="no"/>tis. immo propriae passiones: vnde huiusmodi omnes
+            pro<lb ed="#V" n="20" break="no"/>positiones sunt in secundo modo dicendi per se, in quibus
+            <lb ed="#V" n="21"/>praedicatum non includitur in subiecto, sed magis
+            econ<lb ed="#V" n="22" break="no"/>tra. Non ergo est verum, quod propositio per se nota sit
+            <lb ed="#V" n="23"/>illa, cuius praedicatum includitur in subiecto.
+          </p>
+          <p xml:id="capsco-a1kd4u-d1e363">
+            Secundo sic.
+            <lb ed="#V" n="24"/>Motum esse est per senotum, &amp; naturam esse est per se
+            no<lb ed="#V" n="25" break="no"/>tum: vt dicitur secundo Physicorum, &amp; ibidem dicit
+            Con<lb ed="#V" n="26" break="no"/>mentator, quod qui quaerit declarare illud quod est
+            mani<lb ed="#V" n="27" break="no"/>festum de se, est mos eius qui non potest distinguere inter
+            <lb ed="#V" n="28"/>manifestum per se, &amp; manifestum per aliud. Et iste modus
+            <lb ed="#V" n="29"/>hominum nunquam potest philosophari, tale autem est
+            <lb ed="#V" n="30"/>motus, &amp; natura, sed constat quod in hac propositione
+            mo<lb ed="#V" n="31" break="no"/>tus est, aut natura est, praedicatum non includitur in
+            subie<lb ed="#V" n="32" break="no"/>cto; cum nulla creatura sit suum esse. ergo illa assignatio
+            <lb ed="#V" n="33"/>non fuit vera.
+          </p>
+          <p xml:id="capsco-a1kd4u-d1e387">
+            Tertio sic. Haec propositio est per se nota,
+            <lb ed="#V" n="34"/>nix est alba, qui enim dubitat vtrum nix sit alba sensu
+            in<lb ed="#V" n="35" break="no"/>diget, vt dicitur secundo Topicorum: sed constat, quod
+            <lb ed="#V" n="36"/>in hac praedicatum non includitur in subiecto. immo
+            for<lb ed="#V" n="37" break="no"/>sitan est propositio demonstrabilis a priori. ergo non fuit
+            <lb ed="#V" n="38"/>propositio per se nota ita diffinienda.
+          </p>
+          <p xml:id="capsco-a1kd4u-d1e400">
+            Quarto sic. Haec est
+            <lb ed="#V" n="39"/>per se nota, coelum est, terra est, &amp; sic de omnibus
+            propo<lb ed="#V" n="40" break="no"/>sitionibus, quas intellectus capit ex sensu, sed in talibus
+            <lb ed="#V" n="41"/>praedicatum non includitur in subiecto. ergo idem quod
+            <lb ed="#V" n="42"/>prius. Arguit etiam Gregorius probando, quod non
+            om<lb ed="#V" n="43" break="no"/>nis propositio cuius praedicatum includitur in ratione
+            su<lb ed="#V" n="44" break="no"/>biecti sit per se nota. Primo: quia vel hoc intelligitur de
+            <lb ed="#V" n="45"/>diffinitione dicente quid rei, vel de dicente quid nominis:
+            <lb ed="#V" n="46"/>sed non primo modo: quia neutra harum est per se nota,
+            <lb ed="#V" n="47"/>intellectus est substantia, intellectus est qualitas, cum de
+            <lb ed="#V" n="48"/>vtraque magna sit quaestio apud sapientes, &amp; tamen
+            alte<lb ed="#V" n="49" break="no"/>rius praedicatum includitur in ratione dicente quid rei
+            <lb ed="#V" n="50"/>subiecti. similiter ista. Rosa est flos, non est per se nota.
+            im<lb ed="#V" n="51" break="no"/>mo nec necessaria. Nec ista, albedo est color, est per se
+            no<lb ed="#V" n="52" break="no"/>ta, alias esset nota caeco a natiuitate, &amp; tamen vtrunque
+            prae<lb ed="#V" n="53" break="no"/>dicatum includitur in ratione subiecti, &amp; ita de multis aliis
+            <lb ed="#V" n="54"/>potest argui. similiter sequitur, quod quaelibet propositio
+            <lb ed="#V" n="55"/>in qua praedicaretur genus vel differentia de sua specie
+            es<lb ed="#V" n="56" break="no"/>set per se nota, &amp; eadem ratione quaelibet in qua diffinitio
+            <lb ed="#V" n="57"/>praedicaretur de diffinito, &amp; sic propriae differentiae, &amp;
+            dif<lb ed="#V" n="58" break="no"/>finitiones rerum essent absque argumentatione notae de
+            <lb ed="#V" n="59"/>seipsis, quod est manifeste falsum, cum multum difficile sit
+            <lb ed="#V" n="60"/>proprias diffinitiones inuestigare. De diffinitione etiam
+            di<lb ed="#V" n="61" break="no"/>cente quid nominis idem probatur: quia omnis
+            proposi<lb ed="#V" n="62" break="no"/>tio per se nota est vera, non quaelibet autem cuius
+            praedi<lb ed="#V" n="63" break="no"/>catum includitur in tali diffinitione subiecti est vera, sicut
+            <lb ed="#V" n="64"/>patet de ista, vacuum est locus, est enim falsa, cum nullus
+            <lb ed="#V" n="65"/>locus sit vacuum uel vacuus, &amp; tamen locus ponitur in
+            <lb ed="#V" n="66"/>diffinitione dicente quid nominis vacui. Diffinitur enim
+            <lb ed="#V" n="67"/>quod est locus priuatus corpore, &amp; ita de pluribus talibus
+            <lb ed="#V" n="68"/>potest argui quorum subiecta etiam supponere possunt
+            pro<lb ed="#V" n="69" break="no"/>veris rebus, &amp; tamen praedicationes tales non sunt necessariae,
+            <lb ed="#V" n="70"/>sed contingentes sicut, &amp; ipsae res contingenter existunt, &amp;
+            <lb ed="#V" n="71"/>per consequens non sunt per se notae.
+          </p>
+          <p xml:id="capsco-a1kd4u-d1e475">
+            Secundo arguit
+            pro<lb ed="#V" n="72" break="no"/>bando, quod non cuiuslibet propositionis per se notae
+            prae<lb ed="#V" n="73" break="no"/>dicatum includitur in ratione subiecti. Nam quaelibet
+            ista<lb ed="#V" n="74" break="no"/>rum est per se nota homo est asinus, vel non est asinus, si
+            <lb ed="#V" n="75"/>aliqua sunt eidem aequalia, sunt aequalia inter se, si
+            aequali<cb ed="#V" n="b"/><lb ed="#V" n="76" break="no"/>bus aequalia addantur, tota fient aequalia, &amp; multa alia de
+            <lb ed="#V" n="77"/>quibus constat quod praedicata non sunt de ratione
+            subie<lb ed="#V" n="78" break="no"/>cti.
+          </p>
+          <p xml:id="capsco-a1kd4u-d1e494">
+            Tertio sic Propositio quaelibet per se nota est illa, quae
+            <lb ed="#V" n="79"/>uel sibi aequiualens cuilibet potenti vti ratione potest
+            na<lb ed="#V" n="80" break="no"/>turaliter esse nota absque indigentia notitiae alicuius
+            ex<lb ed="#V" n="81" break="no"/>trinseci, sed non omnis propositio cuius praedicatum est in
+            <lb ed="#V" n="82"/>ratione subiecti est huiusmodi. igitur descriptio illa non
+            <lb ed="#V" n="83"/>valet, maior patet tam ex dictis Philosophi primo
+            Poste<lb ed="#V" n="84" break="no"/>riorum dicentis, quod dignitas &amp; propositio maxima est V
+            <lb ed="#V" n="85"/>propositio immediata quam necesse est quemlibet
+            docen<lb ed="#V" n="86" break="no"/>tem, id est potentem vti ratione habere antequam de aliquo
+            <lb ed="#V" n="87"/>doceatur, tales propositiones absque doctrina cuilibet
+            na<lb ed="#V" n="88" break="no"/>turaliter in mentem veniunt, vt dicit Commentator
+            ter<lb ed="#V" n="89" break="no"/>tio de Anima. commento. 36. &amp; absque antecedenti
+            cogni<lb ed="#V" n="90" break="no"/>tione, vt idem dicit in de somno, &amp; vigilia, sed minor
+            pro<lb ed="#V" n="91" break="no"/>batur: quia multae sunt propositiones, quarum praedicata
+            <lb ed="#V" n="92"/>includuntur in subiectis, quae non sunt cuilibet potenti vti
+            <lb ed="#V" n="93"/>ratione notae: vt patet in hoc argumento. Contra
+            secur<lb ed="#V" n="94" break="no"/>dam conclusionem similiter arguit sic Aureolus.
+            Nulla<lb ed="#V" n="95" break="no"/>propositio est eadem nisi sit sub eisdem conceptibus,
+            uo<lb ed="#V" n="96" break="no"/>ces nanque solae non faciunt propositionem per se notam,
+            <lb ed="#V" n="97"/>sed rationes conceptuum: quia conceptus mutuo se
+            in<lb ed="#V" n="98" break="no"/>cdludunt, sed stantibus eisdem conceptibus in quocunque
+            <lb ed="#V" n="99"/>intellectu ponantur, propositio est per se nota, aut enim
+            <lb ed="#V" n="100"/>ex ipsis conceptibus apparet veritas complexionis, &amp; sic
+            <lb ed="#V" n="101"/>vbicunque ponantur illi termini complexio apparebit, aut
+            <lb ed="#V" n="102"/>non apparet ex conceptibus, sed ex aliquo alio, &amp; tunc non
+            <lb ed="#V" n="103"/>erit propositio per se nota. ergo propositio per se nota
+            vbi<lb ed="#V" n="104" break="no"/>cunque ponatur, vel in quocunque intellectu sit erit per se
+            <lb ed="#V" n="105"/>nota.
+          </p>
+          <p xml:id="capsco-a1kd4u-d1e555">
+            Secundo sic. Intellectus concipiens aliquam
+            propo<lb ed="#V" n="106" break="no"/>sitionem quae est per se nota, aut fert suum intuitum super
+            <lb ed="#V" n="107"/>conceptus, ex quibus oritur noticia illius propositionis, aut
+            <lb ed="#V" n="108"/>super alios, si super eosdem conceptus, sequitur quod erit
+            <lb ed="#V" n="109"/>sibi propositio per se nota, nam posita causa ponitut
+            effe<lb ed="#V" n="110" break="no"/>ctus, illi autem conceptus erant causa notititiae, si vero
+            su<lb ed="#V" n="111" break="no"/>per alios conceptus iam non est eadem propositio, cum
+            <lb ed="#V" n="112"/>solae voces propositiones non faciant, sed magis conceptus
+            <lb ed="#V" n="113"/>significati per voces, relinquitur ergo quod stante
+            identi<lb ed="#V" n="114" break="no"/>tate propositionis cuilibet intellectui erit per se nota.
+          </p>
+          <p xml:id="capsco-a1kd4u-d1e577">
+            Con<lb ed="#V" n="115" break="no"/>tra tertiam conclusionem arguitur primo sic. Illa
+            propo<lb ed="#V" n="116" break="no"/>sitio non est per se nota cuius subiectum, &amp; praedicatum
+            <lb ed="#V" n="117"/>non includunt se mutuo secundum se, sed illius
+            proposi<lb ed="#V" n="118" break="no"/>tionis quam format viator de Deo Deus est. subiectum &amp;
+            <lb ed="#V" n="119"/>praedicatum non se includunt mutuo. ista nanque inclusio
+            <lb ed="#V" n="120"/>esset, vel quia vox includeretur in voce, &amp; hoc non est sicut
+            <lb ed="#V" n="121"/>patet, vel quia conceptus quem habet viator de esse
+            inclu<lb ed="#V" n="122" break="no"/>deretur in conceptu quem habet de Deo, cuius oppositum
+            <lb ed="#V" n="123"/>experimur, &amp; sic non est per se nota. ergo illa propositio
+            <lb ed="#V" n="124"/>quam format viator dicendo Deus est sicut non est nota
+            <lb ed="#V" n="125"/>viatori per se, ita nec est per se nota in se.
+          </p>
+          <p xml:id="capsco-a1kd4u-d1e603">
+            Nec valet si
+            di<lb ed="#V" n="126" break="no"/>catur quod beatus habet alios conceptus, &amp; illi mutuo se
+            <lb ed="#V" n="127"/>includunt, non valet inquam: quia tunc beatus habet aliam
+            <lb ed="#V" n="128"/>propositionem de eadem re tantum, non est autem
+            incon<lb ed="#V" n="129" break="no"/>ueniens quod de eadem re sint formabiles diuersae
+            propo<lb ed="#V" n="130" break="no"/>sitiones, quarum vna sit per se nota, &amp; alia non, sed quod
+            <lb ed="#V" n="131"/>eadem propositio sit per se nota in se, &amp; non per se nota
+            <lb ed="#V" n="132"/>formanti eam est impossibile.
+          </p>
+          <p xml:id="capsco-a1kd4u-d1e621">
+            Secundo sic. Illam eandem
+            <lb ed="#V" n="133"/>propositionem quam format viator de Deo Deus est
+            sub¬<lb ed="#V" n="134" break="no"/>istis conceptibus actus purus est, uel prima causa est illam
+            <lb ed="#V" n="135"/>eandem potest formare beatus, sed clarum est, quod illa
+            <lb ed="#V" n="136"/>non est sibi nota, immo probat eam ex puro, &amp;
+            determi<lb ed="#V" n="137" break="no"/>nato conceptu diuinitatis, sic arguendo. Deus est actus
+            <lb ed="#V" n="138"/>purus, igitur actus purus est. sicut si argueretur.
+            Triangu<lb ed="#V" n="139" break="no"/>lus habet tres angulos, triangulus est prima figura. ergo
+            <lb ed="#V" n="140"/>prima figura est habens tres angulos. ergo illa propositio
+            <lb ed="#V" n="141"/>quam format viator non est per se nota beato sed alia, &amp;
+            <lb ed="#V" n="142"/>econuerso illa quae est per se nota beato non est illa quae
+            <lb ed="#V" n="143"/>viatori non est per senota. Et infert Aureolus quod
+            San<lb ed="#V" n="144" break="no"/>ctus Thomas &amp; sequaces eius videntur fuisse decepti in hoc
+            <lb ed="#V" n="145"/>quod de vna, &amp; eadem re possunt formari duae
+            proposi<lb ed="#V" n="146" break="no"/>tiones, &amp; tamen sub eisdem vocibus prima est per se nota
+            <lb ed="#V" n="147"/>&amp; non secunda, &amp; sic habentes aspectum ad identitatem
+            <lb ed="#V" n="148"/>uocum dixerunt quod eadem propositio est per se nota in
+            <lb ed="#V" n="149"/>se, non autem quo ad nos, quod vtique stare non potest,
+            <lb ed="#V" n="150"/>ut uisum est. Haec ille in forma. Arguit contra eandem
+            Gre<pb ed="#V" n="92"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>gorius probando, quod nec illa propositio Deus est, quam
+            <lb ed="#V" n="2"/>format beatus sit per se nota, licet sit ei euidens. Arguit
+            <lb ed="#V" n="3"/>igitur sic. Non cuilibet potenti vti ratione potest absque
+            <lb ed="#V" n="4"/>alterius extrinseci notitia esse naturaliter notum, Deum
+            <lb ed="#V" n="5"/>esse. igitur Deum esse non est per se notum, antecedens
+            pa<lb ed="#V" n="6" break="no"/>tet. non enim naturaliter homini potest esse notum Deum
+            <lb ed="#V" n="7"/>esse nisi ex notitia creaturarum, si tamen hoc etiam sit
+            na<lb ed="#V" n="8" break="no"/>turaliter tali modo possibile nosse. tenet consequentia:
+            <lb ed="#V" n="9"/>quia cuiuslibet propositionis per se notae enunciabile est
+            <lb ed="#V" n="10"/>per se notum. Secundo. Non cuilibet potenti vti ratione
+            <lb ed="#V" n="11"/>illa propositio quam format beatus, vel alia sibi aequivalens
+            <lb ed="#V" n="12"/>in significando potest absque alterius extrinseci notitia
+            <lb ed="#V" n="13"/>esse naturaliter nota. ergo illa non est per se nota, tenet
+            con<lb ed="#V" n="14" break="no"/>sequentia ex diffinitione propositionis per se notae:
+            ante<lb ed="#V" n="15" break="no"/>cedens probatur quia nec illa, nec aliqua sibi aequivalens
+            <lb ed="#V" n="16"/>potest naturaliter homini viatori esse nota sine notitia
+            ali<lb ed="#V" n="17" break="no"/>cuius extrinseci. Tertio. Quia propositiones per se notae
+            <lb ed="#V" n="18"/>naturaliter veniunt in mentem hominis, vt supra dictum
+            <lb ed="#V" n="19"/>fuit, illa autem propositio quam habet beatus non
+            natu<lb ed="#V" n="20" break="no"/>raliter, sed supernaturaliter, &amp; gratuite causatur in
+            men<lb ed="#V" n="21" break="no"/>te eius &amp; caet.
+          </p>
+          <p xml:id="capsco-a1kd4u-d1e711">
+            <lb ed="#V" n="22"/><milestone ed="#V" unit="p" rend="indent"/> Ad argumenta contra primam conclusionem dicitur
+            <lb ed="#V" n="23"/>dupliciter. Primo quia non cadunt directe contra
+            <lb ed="#V" n="24"/>mentem Sancti Thomae, licet enim Sanctus Thomas dicat, quod
+            propo<lb ed="#V" n="25" break="no"/>sitio per se nota sit illa cuius praedicatum includitur in
+            ra<lb ed="#V" n="26" break="no"/>tione subiecti, vel est eidem subiecto, non tamen dicit quod
+            <lb ed="#V" n="27"/>solum talis sit per se nota, quod argumenta facta
+            impro<lb ed="#V" n="28" break="no"/>bare contendunt. Dicitur secundo quod sustinendo quod
+            il<lb ed="#V" n="29" break="no"/>la fuerit mens Sancti Thomae quam iste lacerat, adhuc argumenta
+            <lb ed="#V" n="30"/>non valent, idcirco ad ea per ordinem respondetur. Ad
+            <lb ed="#V" n="31"/>primum quidem dicitur, quod quintupliciter contingit
+            <lb ed="#V" n="32"/>praedicatum includi in ratione subiecti. Primo. Quia
+            prae<lb ed="#V" n="33" break="no"/>dicatum est diffinitio subiecti, vt homo est animal
+            rationa<lb ed="#V" n="34" break="no"/>le. Secundo. Quia praedicatum est pars rationis subiecti,
+            <lb ed="#V" n="35"/>vel superius quocunque modo ad subiectum, vt homo est
+            <lb ed="#V" n="36"/>animal, homo est rationalis. Tertio. Quia diffinitum
+            prae<lb ed="#V" n="37" break="no"/>dicatur de sua diffinitione, vt dicendo, animal rationale
+            <lb ed="#V" n="38"/>est homo. Quarto. Quia aliquid se habens per modum
+            <lb ed="#V" n="39"/>diffinitionis, vel descriptionis, aut aequiualens diffinitioni,
+            <lb ed="#V" n="40"/>aut descriptioni praedicatur de diffinito, aut de scripto,
+            <lb ed="#V" n="41"/>aut qualitercunque notificato, sicut dicendo. Totum est
+            <lb ed="#V" n="42"/>maius sua parte, licet enim in hac, totale praedicatum non
+            <lb ed="#V" n="43"/>sit diffinitio vel pars diffinitionis subiecti, tamen illud
+            to<lb ed="#V" n="44" break="no"/>tale praedicatum dicitur isto modo includi in ratione
+            su<lb ed="#V" n="45" break="no"/>biecti: quia aequiualet diffinitioni, vel descriptioni huius
+            <lb ed="#V" n="46"/>quod dico totum. Quinto. Quando est econuerso huic
+            <lb ed="#V" n="47"/>quarto modo, vt si diceretur. Omne maius sua parte est
+            <lb ed="#V" n="48"/>totum &amp;c. Tunc istis suppositis dico primo quod maior
+            <lb ed="#V" n="49"/>primi argumenti est falsa. nam propositio in qua
+            praedica<lb ed="#V" n="50" break="no"/>tur diffinitum de sua diffinitione est in secundo modo
+            di<lb ed="#V" n="51" break="no"/>cendi per se, secundum quod ponit Sanctus Thomas in
+            tra<lb ed="#V" n="52" break="no"/>ctatu de demonstratione, &amp; tamen in tali propositione
+            prae<lb ed="#V" n="53" break="no"/>dicamentum est de ratione subiecti tertio modo
+            distin<lb ed="#V" n="54" break="no"/>ctionis positae. Dicitur secundo quod minor est falsa: quia
+            <lb ed="#V" n="55"/>nunquam propositio aliqua in qua passio praedicatur de
+            <lb ed="#V" n="56"/>diffinitione subiecti est per se nota, talis enim potest
+            de<lb ed="#V" n="57" break="no"/>monstrari per diffinitionem passionis: vnde Sanctus Thomas
+            su<lb ed="#V" n="58" break="no"/>per secundo Posteriorum. ca. 1. sic dicit. Oportet (inquit)
+            <lb ed="#V" n="59"/>concludere passionem de subiecto per diffinitionem
+            pas<lb ed="#V" n="60" break="no"/>sionis, &amp; vlterius diffinitionem passionis concludere de
+            <lb ed="#V" n="61"/>subiecto per diffinitionem subiecti: vnde in primo
+            Poste<lb ed="#V" n="62" break="no"/>riorum dicitur, quod oportet praecognoscere quid est non
+            so<lb ed="#V" n="63" break="no"/>lum de subiecto, sed de passione, &amp; hoc patet per exemplum
+            <lb ed="#V" n="64"/>si velimus demonstrare de triangulo quod habet tres
+            an<lb ed="#V" n="65" break="no"/>gulos aequales duobus rectis, accipiamus primo pro
+            me<lb ed="#V" n="66" break="no"/>dio, quod est figura habens angulum extrinsecum
+            aequa<lb ed="#V" n="67" break="no"/>lem duobus intrinsecis sibi oppositis, quod est quasi
+            diffi<lb ed="#V" n="68" break="no"/>nitio passionis, quod iterum oportet demonstrare per
+            dif<lb ed="#V" n="69" break="no"/>finitionem subiecti, vt dicamus. Omnis figura rectilinea
+            <lb ed="#V" n="70"/>tribus lineis rectis contenta, habet angulum exteriorem
+            <lb ed="#V" n="71"/>aequalem duobus interioribus sibi oppositis. Et idem patet
+            <lb ed="#V" n="72"/>si velimus demonstrare quod vox acuta, &amp; grauis
+            conso<lb ed="#V" n="73" break="no"/>nent, accipiemus diffinitionem passionis, scilicet quod
+            ha<lb ed="#V" n="74" break="no"/>bent proportionem numeralem, sed rursus ad hoc
+            demon<lb ed="#V" n="75" break="no"/>strandum oportet accipere diffinitionem grauis &amp; acuti.
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="76"/>Nam vox grauis est quae in multo tempore nata est
+            moue<lb ed="#V" n="77" break="no"/>re sensum, acuta autem quae modico tempore, modici
+            au<lb ed="#V" n="78" break="no"/>tem ad multum est proportio numeralis. Haec ille.
+          </p>
+          <p xml:id="capsco-a1kd4u-d1e840">
+            Ex
+            qui<lb ed="#V" n="79" break="no"/>bus patet ad omnia quae in primo argumento narrantur,
+            <lb ed="#V" n="80"/>dico enim quod in ista, pararellae non concurrunt,
+            praedi<lb ed="#V" n="81" break="no"/>catum quodammodo est de ratione subiecti, &amp; in caeteris
+            <lb ed="#V" n="82"/>propositionibus ibidem positis, &amp; hoc dicendo
+            praedica<lb ed="#V" n="83" break="no"/>tum includi in subiecto quarto modo distinctionis
+            praesup<lb ed="#V" n="84" break="no"/>positae: quia scilicet praedicatum est qualiscunque
+            descri<lb ed="#V" n="85" break="no"/>ptio subiecti, vel tertio modo: quia praedicatum est
+            supe<lb ed="#V" n="86" break="no"/>rius ad subiecti descriptionem. Nam hoc quod dico non
+            <lb ed="#V" n="87"/>concurrere ad inuicem superius est ad distare ab inuicem
+            <lb ed="#V" n="88"/>aequaliter quod est descriptio paralellarum, similiter hoc
+            <lb ed="#V" n="89"/>quod dico, maius parte, superius est ad hoc, quod dico
+            <lb ed="#V" n="90"/>constitutum ex partibus, vel continens partes, quod est
+            <lb ed="#V" n="91"/>quasi descriptio totius, similiter hoc quod dico, minus
+            to<lb ed="#V" n="92" break="no"/>to, superius est ad diffinitionem partis, vel eius
+            descriptio<lb ed="#V" n="93" break="no"/>nem, haec autem propositio linea cadens super lineam &amp;c.
+            <lb ed="#V" n="94"/>est demonstrabilis ex notioribus modo supra posito. ideo
+            <lb ed="#V" n="95"/>nihil contra nos. non enim isto modo quo loquimur est
+            <lb ed="#V" n="96"/>per se nota.
+          </p>
+          <p xml:id="capsco-a1kd4u-d1e882">
+            Ad secundum negatur antecedens, vt enim
+            di<lb ed="#V" n="97" break="no"/>ctum est in probatione tertiae conclusionis de nulla
+            crea<lb ed="#V" n="98" break="no"/>tura potest dici quod eam esse sit per se notum.
+            Commen<lb ed="#V" n="99" break="no"/>tator autem &amp; Aristoteles dicunt istas propositiones, motus est,
+            <lb ed="#V" n="100"/>natura est, esse per se notas, quia non indigent
+            demonstra<lb ed="#V" n="101" break="no"/>tione, sed cognoscuntur sensu aut experientia.
+          </p>
+          <p xml:id="capsco-a1kd4u-d1e895">
+            Ad tertium
+            <lb ed="#V" n="102"/>negatur antecedens, ista enim non est per se nota, nix est
+            <lb ed="#V" n="103"/>alba: quia in se non habet vnde sufficienter cognoscatur
+            <lb ed="#V" n="104"/>cognitis rationibus terminorum, sed aliquo extrinseco
+            <lb ed="#V" n="105"/>indiget, scilicet sensu, quod est contra rationem
+            proposi<lb ed="#V" n="106" break="no"/>tionis per se notae.
+          </p>
+          <p xml:id="capsco-a1kd4u-d1e908">
+            Ad quartum dicitur sicut ad secundum.
+            <lb ed="#V" n="107"/>Ad quintum Gregorii dico, quod illa propositio qua
+            di<lb ed="#V" n="108" break="no"/>citur quod omnis propositio cuius praedicatum clauditur
+            <lb ed="#V" n="109"/>in ratione subiecti est per se nota, intelligitur tam de
+            ra<lb ed="#V" n="110" break="no"/>tione dicente ad rei, quam quid nominis, &amp; cum
+            proba<lb ed="#V" n="111" break="no"/>tur quod non sit vera de diffinitione quid rei. dico ad
+            pri<lb ed="#V" n="112" break="no"/>mam probationem, quod aliqua istarum est per se nota,
+            <lb ed="#V" n="113"/>intellectus possibilis est substantia, intellectus possibilis
+            <lb ed="#V" n="114"/>est accidens, licet nulla earum sit per se nota omnibus, sed
+            <lb ed="#V" n="115"/>solum scientibus rationes terminorum, si enim ratio
+            di<lb ed="#V" n="116" break="no"/>cens quid rei intellectus possibilis, esset nota cuilibet pro
+            <lb ed="#V" n="117"/>certo, non esset dubium an intellectus possibilis esset
+            sub<lb ed="#V" n="118" break="no"/>stantia. De ista, rosa est flos, dicitur quod est omnibus
+            scien<lb ed="#V" n="119" break="no"/>tibus, quid rosae per se nota, &amp; similiter ista, albedo est
+            co<lb ed="#V" n="120" break="no"/>lor. Et cum dicitur nulla istarum est necessaria, falsum est,
+            <lb ed="#V" n="121"/>siue enim rosa sit actu, siue non semper tamen rosa est flos,
+            <lb ed="#V" n="122"/>&amp; semper albedo est color, sed arguens forte fallitur
+            cre<lb ed="#V" n="123" break="no"/>dens quod ad veritatem omnis cathegoricae affirmatiuae
+            <lb ed="#V" n="124"/>requiratur consistentia subiecti, hoc est quod de subiecto
+            <lb ed="#V" n="125"/>verum sit dicere quod actu est, quod est falsum, licet hoc
+            <lb ed="#V" n="126"/>teneant terministae. Cum enim dicit, quod si ista esset per
+            <lb ed="#V" n="127"/>se nota, albedo est color illa posset esse caeco per se nota a
+            <lb ed="#V" n="128"/>natiuitate, negatur consequentia: quia caecus potest
+            ha<lb ed="#V" n="129" break="no"/>bere naturaliter rationem quid rei albedinis. &amp; ideo talis
+            <lb ed="#V" n="130"/>propositio albedo est color est per se nota secundum se,
+            <lb ed="#V" n="131"/>non tamen caeco.
+          </p>
+          <p xml:id="capsco-a1kd4u-d1e965">
+            Ad secundam probationem dicitur, quod
+            <lb ed="#V" n="132"/>consequentia quam facit non valet, non enim sequitur,
+            <lb ed="#V" n="133"/>omnis propositio in qua praedicatur genus, vel diffinitio
+            <lb ed="#V" n="134"/>vel differentia de specie est per se nota. igitur diffinitiones
+            <lb ed="#V" n="135"/>rerum omnium essent nobis notae, &amp; propria genera, &amp;
+            <lb ed="#V" n="136"/>propriae differentiae, &amp; causa quare consequentia non
+            va<lb ed="#V" n="137" break="no"/>let dicta est in secunda conclusione: quia aliud est dicere
+            <lb ed="#V" n="138"/>hoc est secundum se per se notum, &amp; hoc est per se notum
+            <lb ed="#V" n="139"/>nobis, dico enim quod non oportet, quod est notum
+            na<lb ed="#V" n="140" break="no"/>turae esse notum nobis, nec quod est per se notum
+            secun<lb ed="#V" n="141" break="no"/>dum naturam, esse per se notum nobis. Cum autem
+            inten<lb ed="#V" n="142" break="no"/>dit probare quod dicta propositio non potest intelligi de
+            <lb ed="#V" n="143"/>diffinitione dicente quid nominis. dico ad eius
+            probatio<lb ed="#V" n="144" break="no"/>nem concedendo, quod omnis propositio cuius
+            praedi<lb ed="#V" n="145" break="no"/>catum includitur in quid nominis subiecti est vera. Ad
+            <lb ed="#V" n="146"/>instantiam de ista, vacuum est locus non repletus
+            corpo<lb ed="#V" n="147" break="no"/>re &amp;c. dico quod illa est vera sumendo subiectum, &amp;
+            prae<lb ed="#V" n="148" break="no"/>dicatum secundum suppositionem simplicem, nec
+            opor<lb ed="#V" n="149" break="no"/>tet quod subiectum actu sit aut praedicatum, nec quod
+            ha<lb ed="#V" n="150" break="no"/>beat aliquam singularem veram: quia in tali suppositione
+            <pb ed="#V" n="93"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>subiectum stat pro quidditate vt abstrahit a singularibus.
+            <lb ed="#V" n="2"/>Nec valet probatio ibi facta per conuersionem, nullus
+            lo<lb ed="#V" n="3" break="no"/>cus est vacuum. igitur falsum est quod vacuum sit locus:
+            <lb ed="#V" n="4"/>quia est fallacia aequiuocationis arguendo a suppositione
+            <lb ed="#V" n="5"/>simplici ad personalem vel econtra. Cum etiam ibi dicit,
+            <lb ed="#V" n="6"/>quod propositio aliqua affirmatiua, cuius subiectum
+            pro<lb ed="#V" n="7" break="no"/>re contingenti supponit est contingens, negatur, de re enim
+            <lb ed="#V" n="8"/>contingenti potest propositio necessaria formari
+            affirma<lb ed="#V" n="9" break="no"/>tiua de tertio adiacente, licet non de secundo: quia in
+            ta<lb ed="#V" n="10" break="no"/>li est: non dicit actualem existentiam, sed compositionem
+            <lb ed="#V" n="11"/>animae. primo Periher.
+          </p>
+          <p xml:id="capsco-a1kd4u-d1e1038">
+            Ad secundum dicitur quod cum
+            <lb ed="#V" n="12"/>dicitur homo est asinus vel non asinus, praedicatum est isto
+            <lb ed="#V" n="13"/>modo de ratione subiecti: quia affirmatio &amp; negatio sub
+            <lb ed="#V" n="14"/>disiunctione sequuntur ens inquantum huiusmodi. quod
+            <lb ed="#V" n="15"/>est de ratione cuiuslibet intelligibilis, ideo dicuntur esse
+            <lb ed="#V" n="16"/>illo modo de ratione hominis, quo passio superioris
+            di<lb ed="#V" n="17" break="no"/>ceretur esse de ratione inferioris, sicut susceptibile
+            disci<lb ed="#V" n="18" break="no"/>plinae de ratione hominis, &amp; similiter de ista si ab
+            aequali<lb ed="#V" n="19" break="no"/>bus demas &amp;c. dicitur quod ista est hypothetica, nos autem
+            <lb ed="#V" n="20"/>loquimur de cathegoricis sicut &amp; Philosophus, sed si
+            re<lb ed="#V" n="21" break="no"/>ducatur in cathegoricam dicendo, omnia aequalia
+            rema<lb ed="#V" n="22" break="no"/>nent aequalia demptis ab eis partibus aequalibus, vel alio
+            <lb ed="#V" n="23"/>modo conuenientiori, tunc dicitur quod praedicatum
+            il<lb ed="#V" n="24" break="no"/>lius est de ratione subiecti illo modo: quia praedicatum
+            <lb ed="#V" n="25"/>est quaedam subiecti descriptio, illa enim dicuntur
+            aequa<lb ed="#V" n="26" break="no"/>lia quae habent aequales partes, &amp; tantum potest auferri
+            <lb ed="#V" n="27"/>ab vno vt ab alio vel huiusmodi.
+          </p>
+          <p xml:id="capsco-a1kd4u-d1e1075">
+            Ad tertium negatur
+            ma<lb ed="#V" n="28" break="no"/>ior. ad probationem dicitur quod Philosophus loquitur
+            <lb ed="#V" n="29"/>de propositione per se nota, quae est principium primum
+            <lb ed="#V" n="30"/>scientiae, talis autem est non solum per se nota in se,
+            immo<lb ed="#V" n="31" break="no"/>per se nota cuilibet, cum sit ex terminis omnibus notis
+            <lb ed="#V" n="32"/>quantum ad quid nominis eorum, non autem loquitur
+            <lb ed="#V" n="33"/>de propositione per se nota in se solum, &amp; ideo Boetius
+            <lb ed="#V" n="34"/>fecit diuisionem de duplici conceptione animi, vt supra
+            <lb ed="#V" n="35"/>fuerat allegatum.
+          </p>
+          <p xml:id="capsco-a1kd4u-d1e1095">
+            Ad primum contra secundam
+            conclu<lb ed="#V" n="36" break="no"/>sionem dico, quod illud &amp; alia media tangunt vnicum
+            me<lb ed="#V" n="37" break="no"/>dium, petunt enim hanc difficultatem, scilicet vtrum ex
+            <lb ed="#V" n="38"/>identitate vocum alicuius propositionis debeat censeri
+            <lb ed="#V" n="39"/>eadem propositio, licet conceptus aliquorum eam
+            pro<lb ed="#V" n="40" break="no"/>ferentium sint diuersi. Isto autem dubio expedito patet
+            <lb ed="#V" n="41"/>quid sit dicendum ad rationes. Dico igitur quod in
+            pro<lb ed="#V" n="42" break="no"/>positione vocali, vel scripta tria sunt consideranda
+            secun<lb ed="#V" n="43" break="no"/>dum quod tangit Sanctus Thomas Quarto quodlibet. q. 9. artic. 2.
+            <lb ed="#V" n="44"/>scilicet vox ipsa propositionis, &amp; sui termini. secundo
+            con<lb ed="#V" n="45" break="no"/>ceptus mentis, quem significat immediate, &amp; tertio res
+            ip<lb ed="#V" n="46" break="no"/>sa quam significat mediante conceptu, &amp; non solum dicit
+            <lb ed="#V" n="47"/>hoc esse considerandum in voce complexa. immo etiam
+            <lb ed="#V" n="48"/>in incomplexa, scilicet nomine. Tunc dico quod vnitas vo.
+            <lb ed="#V" n="49"/>cis significatiuae, aut diuersitas non dependet ex vnitate,
+            <lb ed="#V" n="50"/>vel diuersitate rei significatae, alioquin non esset aliquod
+            <lb ed="#V" n="51"/>nomen aequiuocum, secundum hoc enim si sunt diuersae
+            <lb ed="#V" n="52"/>res essent diuersa nomina, &amp; non idem nomen. Dependet
+            <lb ed="#V" n="53"/>autem unitas vel diuersitas vocis significatiue, siue
+            com<lb ed="#V" n="54" break="no"/>plexae, siue incomplexae ex vnitate vel diuersitate vocis, &amp;
+            <lb ed="#V" n="55"/>intellectus. Haec ille.
+          </p>
+          <p xml:id="capsco-a1kd4u-d1e1141">
+            Nunc dico quod cum propositio
+            <lb ed="#V" n="56"/>sit vox significatiua, si sint eaedem voces, &amp; iidem
+            conce<lb ed="#V" n="57" break="no"/>ptus intellectus, erit eadem propositio formaliter, &amp;
+            ma<lb ed="#V" n="58" break="no"/>terialiter, si autem sit idem conceptus, sed aliae voces sicut
+            <lb ed="#V" n="59"/>est in synonimis, in quibus vox est diuersa, &amp; significatum
+            <lb ed="#V" n="60"/>idem omnino, tunc erit eadem propositio formaliter, sed
+            <lb ed="#V" n="61"/>non materialiter, si autem cum diuersitate intellectuum
+            <lb ed="#V" n="62"/>sit identitas vocis, erit eadem propositio materialiter, sed.
+            <lb ed="#V" n="63"/>non formaliter, ipse enim conceptus quem significat
+            pro<lb ed="#V" n="64" break="no"/>positio, vel nomen, est formale in voce significatiua: quia
+            <lb ed="#V" n="65"/>conceptus est ipsi voci ratio formalis significandi rem, &amp;x
+            <lb ed="#V" n="66"/>hoc enim vox est significatiua rei: quia significat
+            conre<lb ed="#V" n="67" break="no"/>ptum, qui est similitudo rei, &amp; vox quid materiale. Cum
+            <lb ed="#V" n="68"/>ergo dicimus eadem propositio est per se nota secundum
+            <lb ed="#V" n="69"/>se, quae non est per se nota nobis, non loquimur de
+            identi<lb ed="#V" n="70" break="no"/>tate formali, &amp; materiali, sed de identitate materiali,
+            scili<lb ed="#V" n="71" break="no"/>cet quantum ad vocem, &amp; praeter hoc quantum ad rem
+            si<lb ed="#V" n="72" break="no"/>gnificatam. Intendimus enim quod eadem
+            propositio<lb ed="#V" n="73" break="no"/>secundum vocem, &amp; easdem res a parte rei omnino
+            signi<lb ed="#V" n="74" break="no"/>ficans est secundum se per se nota, sed non nobis, ita quod
+            <lb ed="#V" n="75"/>illa est per se nota, vni &amp; non alteri, isti tamen habent
+            eos<cb ed="#V" n="b"/><lb ed="#V" n="76" break="no"/>dem conceptus de illa. Tunc ad primum dico quod nisi sint
+            <lb ed="#V" n="77"/>idem conceptus non erit eadem propositio quo ad
+            for<lb ed="#V" n="78" break="no"/>male, poterit tamen esse eadem quo ad materiale, &amp; quo
+            <lb ed="#V" n="79"/>ad rem significatam.
+          </p>
+          <p xml:id="capsco-a1kd4u-d1e1197">
+            Ad secundum dico, quod intellectus
+            <lb ed="#V" n="80"/>concipiens propositionem sibi non per se notam, sed
+            alte<lb ed="#V" n="81" break="no"/>ri, non fertur super conceptus ex quibus per se oritur
+            no<lb ed="#V" n="82" break="no"/>ticia illius propositionis, Deus est, habet duos intellectus
+            <lb ed="#V" n="83"/>&amp; secundum vnum est per se nota, &amp; secundum alium non,
+            vi<lb ed="#V" n="84" break="no"/>detur quod plus debeat dici per se nota ratione istius
+            con<lb ed="#V" n="85" break="no"/>ceptus quam non per se nota ratione alterius. ergo vel erit
+            <lb ed="#V" n="86"/>secundum se per se nota, &amp; secundum se non per se nota,
+            <lb ed="#V" n="87"/>vel neutrum. Dico quod ista Deus est habet duos
+            conce<lb ed="#V" n="88" break="no"/>ptus vt dictum est, nam alium habet viator, alium beatus,
+            <lb ed="#V" n="89"/>sed conceptus quem habet beatus de ista, vel propositio
+            <lb ed="#V" n="90"/>mentalis quam significat per illam vocalem componitur
+            <lb ed="#V" n="91"/>ex propriis rationibus terminorum, cum ille cognoscat
+            <lb ed="#V" n="92"/>rem importatam per subiectum &amp; praedicatum in se, &amp; ideo
+            <lb ed="#V" n="93"/>quia secundum illos conceptus est per se nota, ideo ipsa
+            <lb ed="#V" n="94"/>dicitur esse secundum se per se nota, conceptus autem quem
+            <lb ed="#V" n="95"/>habet viator de illa non est proprius conceptus rerum
+            si<lb ed="#V" n="96" break="no"/>gnificatarum, nec habet proprias rationes terminorum,
+            <lb ed="#V" n="97"/>cum res de quibus enunciat non cognoscat in se, nec per
+            <lb ed="#V" n="98"/>propriam, &amp; adaequatam speciem, sed in alio, &amp; per
+            con<lb ed="#V" n="99" break="no"/>ceptus ab aliis rebus habitos, non enim viator habet
+            pro<lb ed="#V" n="100" break="no"/>priam rationem diuinitatis, nec propriam rationem esse
+            <lb ed="#V" n="101"/>subsistentis, &amp; ideo licet ista propositio, Deus est, sub
+            con<lb ed="#V" n="102" break="no"/>ceptibus viatoris non sit per se nota, tamen non ideo
+            di<lb ed="#V" n="103" break="no"/>cendum est eam secundum se esse non per se notam.
+          </p>
+          <p xml:id="capsco-a1kd4u-d1e1252">
+            <lb ed="#V" n="104"/><milestone ed="#V" unit="p" rend="indent"/> D primum contra tertiam conclusionem negatur
+            <lb ed="#V" n="105"/>minor, &amp; dicitur quod responsio ibi posita est bona.
+            <lb ed="#V" n="106"/>Et cum dicitur quod licet conceptus quos habeat beatus
+            <lb ed="#V" n="107"/>de illa mutuo se includant non est eadem propositio &amp;c.
+            <lb ed="#V" n="108"/>dictum est prius.
+          </p>
+          <p xml:id="capsco-a1kd4u-d1e1267">
+            Ad secundum dico quod si capiatur
+            ea<lb ed="#V" n="109" break="no"/>dem propositio quantum ad rem significatam, &amp; quantum
+            <lb ed="#V" n="110"/>ad voces, &amp; quantum ad conceptus, conceditur quod illa
+            <lb ed="#V" n="111"/>non est vni per se nota, &amp; alteri non per se nota, si
+            quili<lb ed="#V" n="112" break="no"/>bet eorum eam formet tam secundum voces quam
+            secun<lb ed="#V" n="113" break="no"/>dum conceptus, sed dico quod ipsa eadem secundum
+            vo<lb ed="#V" n="114" break="no"/>cem &amp; rem significatam tantum est vni per se nota, &amp; non
+            <lb ed="#V" n="115"/>alteri qui habet alios conceptus de illa, scilicet non
+            pro<lb ed="#V" n="116" break="no"/>prios quae non sunt conceptiones rerum in se, sed in aliis
+            <lb ed="#V" n="117"/>modo quo fuit dictum in alia responsione.
+          </p>
+          <p xml:id="capsco-a1kd4u-d1e1289">
+            Ad primum
+            <lb ed="#V" n="118"/>negatur consequentia. &amp; ad probationem dico, quod non
+            <lb ed="#V" n="119"/>cuiuslibet propositionis per se notae enunciabile est
+            cuili<lb ed="#V" n="120" break="no"/>bet per se notum nisi sit per se nota simpliciter, &amp; quo ad
+            <lb ed="#V" n="121"/>eum.
+          </p>
+          <p xml:id="capsco-a1kd4u-d1e1300">
+            Ad secundum negatur similiter consequentia
+            pro<lb ed="#V" n="122" break="no"/>cedit enim de propositionibus per se notis quo ad omnes,
+            <lb ed="#V" n="123"/>cuiusmodi non est ista, Deus est.
+          </p>
+          <p xml:id="capsco-a1kd4u-d1e1307">
+            Ad tertium dico quod non
+            <lb ed="#V" n="124"/>omnis propositio per se nota venit naturaliter in mentem,
+            <lb ed="#V" n="125"/>sed solum illa, quae est omnibus per se nota, &amp; non solum
+            <lb ed="#V" n="126"/>est per se nota in se. Modo restat soluere ad rationes in
+            pe<lb ed="#V" n="127" break="no"/>de quaestionis factas, &amp; quidem illa quae probat quod Deum
+            <lb ed="#V" n="128"/>esse non est per se notum concedatur ad hunc sensum, quod
+            <lb ed="#V" n="129"/>non est per se notum nobis: quia aliud non probat. Ad
+            <lb ed="#V" n="130"/>primam vero quae probat oppositum dico, quod naturale
+            <lb ed="#V" n="131"/>est nobis cognoscere Deum sub quadam confusione
+            in<lb ed="#V" n="132" break="no"/>quantum ipse est beatitudo: quia illam quilibet
+            naturali<lb ed="#V" n="133" break="no"/>ter appetit, &amp; naturaliter cognoscit, non autem est
+            natu<lb ed="#V" n="134" break="no"/>rale nobis cognoscere Deum sub propria ratione, non
+            so<lb ed="#V" n="135" break="no"/>lum quam habet beatus, immo nec sub illa quam habet
+            <lb ed="#V" n="136"/>viator fidelis per fidem, aut Philosophus per
+            demonstra<lb ed="#V" n="137" break="no"/>tionem. Istam responsionem dat Sanctus Thomas in summa, sed de
+            <lb ed="#V" n="138"/>veritate. q. 10. art. 12. soluit aliter, dicens quod pro tanto dicit
+            <lb ed="#V" n="139"/>Damascenus quod cognitio Dei est naturaliter nobis incerta, inquam
+            <lb ed="#V" n="140"/>tum naturaliter cuilibet aliquid insitum est, venmem possit
+            per<lb ed="#V" n="141" break="no"/>ueniri ad cognoscendum Deum. Et haec de quoduonde sufficiant.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

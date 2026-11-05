@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 2, Distinctio 36, Quaestio 1</title>
+        <author ref="#JohannesCapreolus">Johannes Capreolus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 2, Distinctio 36, Quaestio 1</title>
+          <date when="2026-11-04">Nov 4, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-j88c02">Venice, 1589, v. 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-04" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="538"/>
+        <cb ed="#V" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="capsco-b2daam"><!-- l2d36q1 -->
+        <head xml:id="capsco-b2daam-Hd1e101">Quaestio 1</head>
+        <head xml:id="capsco-b2daam-Hd1e103" type="question-title">Utrum malum sufficienter dividatur per culpam et poenam</head>
+        <p xml:id="capsco-b2daam-d1e106">
+          <lb ed="#V" n="90"/>DISTINCTIO XXXVI
+          <lb ed="#V" n="91"/>QVAESTIO I
+          <lb ed="#V" n="92"/>Vtrum malum sufficienter diuidatur per
+          <lb ed="#V" n="93"/>culpam, &amp; poenam.
+        </p>
+        <p xml:id="capsco-b2daam-d1e117">
+          <lb ed="#V" n="94" break="no"/>ITRCA trigesimam sextam
+          distinctio<lb ed="#V" n="95" break="no"/>nem secundi sen. quaeritur. Vtrum
+          ma<lb ed="#V" n="96" break="no"/>lum sufficienter diuidatur per culpam
+          <lb ed="#V" n="97"/>&amp; poenam.
+        </p>
+        <p xml:id="capsco-b2daam-d1e128">
+          Et videtur quod non quia
+          <lb ed="#V" n="98"/>in irrationabilibus non est culpa, nec
+          <lb ed="#V" n="99"/>poena, quae respondet culpae, &amp;
+          tamen<lb ed="#V" n="100" break="no"/>in eis inuenitur malum igitur &amp;c.
+          <lb ed="#V" n="101"/>In oppositum est commune dictum doctorum.
+        </p>
+        <p xml:id="capsco-b2daam-d1e140">
+          <lb ed="#V" n="102"/><milestone ed="#V" unit="p" rend="indent"/> In hac quaestione sunt tres articuli. In primo ponentur
+          <lb ed="#V" n="103"/>conclusiones. In secundo obiectiones. In tertio solutiones
+        </p>
+        <div xml:id="capsco-b2daam-Dd1e148">
+          <head xml:id="capsco-b2daam-Hd1e150">Articulus 1</head>
+          <p xml:id="capsco-b2daam-d1e152">
+            <lb ed="#V" n="104"/><milestone ed="#V" unit="p" rend="initial"/> Vantum ad primum articulum sit haec prima
+            conclu<lb ed="#V" n="105" break="no"/>sio. Omne malum in rebus voluntarijs
+            considera<lb ed="#V" n="106" break="no"/>tum est poena vel culpa. Hanc ponit Sanctus
+            Thoa<lb ed="#V" n="107" break="no"/>mas prima parte. q. 48. arti. 5. vbi sic dicit. Malum est
+            pri<lb ed="#V" n="108" break="no"/>uatio boni. quod in perfectione &amp; actu consistit
+            principa<lb ed="#V" n="109" break="no"/>liter &amp; per se. Actus autem est duplex scilicet primus &amp;
+            <lb ed="#V" n="110"/>secundus. Actus quidem primus est forma &amp;
+            integrita<lb ed="#V" n="111" break="no"/>rei, actus autem secundus est operatio. Contingit igitur
+            <lb ed="#V" n="112"/>malum esse dupliciter. Vno modo per subtractionem
+            for<lb ed="#V" n="113" break="no"/>mae, vel alicuius partis quae requiritur ad integritatem
+            <lb ed="#V" n="114"/>rei sicut caecitas malum est, &amp; carere membro. Alio
+            mo<lb ed="#V" n="115" break="no"/>do per subtractionem debitae operationis, vel quia
+            omni<lb ed="#V" n="116" break="no"/>no non est, vel quia debitum modum vel ordinem non
+            <lb ed="#V" n="117"/>habet. Quia vero bonum simpliciter est obiectum
+            volun<lb ed="#V" n="118" break="no"/>tatis, malum quod est priuatio boni secundum specialem
+            <lb ed="#V" n="119"/>rationem inuenitur in creaturis rationalibus habentibus
+            <lb ed="#V" n="120"/>voluntatem. Malum igitur quod est per subtractionem
+            for<lb ed="#V" n="121" break="no"/>mae vel integritatis rei habet rationem poenae, &amp; praecipue
+            <lb ed="#V" n="122"/>supposito quod omnia diuinae prouidentie, &amp; iustitiae sub
+            <lb ed="#V" n="123"/>dantur. De ratione enim poenae est quod sit contraria
+            volun<lb ed="#V" n="124" break="no"/>tati. Malum autem quod consistit in subtractione debitae
+            <lb ed="#V" n="125"/>operationis in rebus voluntarijs habet rationem culpae.
+            <lb ed="#V" n="126"/>Hoc enim imputatur alicui in culpam cum deficit a
+            per<lb ed="#V" n="127" break="no"/>fecta actione, cuius est dominus secundum voluntatem.
+            <lb ed="#V" n="128"/>Sic igitur omne malum in rebus voluntarijs
+            considera<lb ed="#V" n="129" break="no"/>tum est poena vel culpa. Haec ille.
+          </p>
+          <p xml:id="capsco-b2daam-d1e212">
+            Ex quibus potest
+            forma<lb ed="#V" n="130" break="no"/>ri talis ratio, tot sunt differentiae malorum in rebus
+            vo<lb ed="#V" n="131" break="no"/>luntarijs quot sunt differentiae bonorum, quibus priuari
+            <lb ed="#V" n="132"/>possunt res habentes voluntatem, sed tantummodo sunt
+            <lb ed="#V" n="133"/>duae differentiae bonorum principalium a natura habente
+            <lb ed="#V" n="134"/>voluntatem scilicet actus primus &amp; actus secundus, igitur
+            <lb ed="#V" n="135"/>tantummodo sunt duae differentiae malorum talis
+            natu<lb ed="#V" n="136" break="no"/>rae. Vnum autem dicitur culpa, &amp; aliud dicitur poena,
+            igi<lb ed="#V" n="137" break="no"/>tur culpa &amp; poena sufficienter diuidunt malum naturae
+            ha<lb ed="#V" n="138" break="no"/>bentis voluntatem. Similem probationem ponit de
+            ma<lb ed="#V" n="139" break="no"/>lo. q. prima arti. 4. Item secundo sen. dis. 25. q. prima art.
+            pri<lb ed="#V" n="140" break="no"/>mo.
+          </p>
+          <p xml:id="capsco-b2daam-d1e238">
+            Secunda conclusio. Omnis poena inquantum
+            poena<lb ed="#V" n="141" break="no"/>est infligitur propter aliquam culpam. Hanc ponit
+            San<lb ed="#V" n="142" break="no"/>ctus Thomas prima secundo q. 87. arti. 7. vbi sic dicit.
+            Poe<lb ed="#V" n="143" break="no"/>na potest dupliciter considerari scilicet simpliciter, &amp; inquam
+            <lb ed="#V" n="144"/>tum est satisfactoria. Poena quidem satisfactoria est
+            quo<lb ed="#V" n="145" break="no"/>damon voluntaria, &amp; quia contingit eos qui differunt in
+            rea<pb ed="#V" n="539"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>tum poenae esse vnum secundum voluntatem vnione
+            amo<lb ed="#V" n="2" break="no"/>ris, inde est quod interdum aliquis, qui non peccauit, poenam
+            <lb ed="#V" n="3"/>voluntarius pro alio portat, sicut etiam in rebus humanis
+            <lb ed="#V" n="4"/>videmus quod aliquis in se transfert debitum alterius. Si vero
+            <lb ed="#V" n="5"/>loquamur de poena simpliciter secundum quod habet
+            ra<lb ed="#V" n="6" break="no"/>tionem poenae, sic semper habet ordinem ad culpam pro.
+            <lb ed="#V" n="7"/>priam. Sed quandoque quidem ad actualem culpam, quam
+            <lb ed="#V" n="8"/>doque vero ad culpam originalem, &amp; hoc quidem vel
+            prin<lb ed="#V" n="9" break="no"/>cipaliter, vel consequenter, principaliter quidem poena
+            ori<lb ed="#V" n="10" break="no"/>ginalis peccati est quod natura humana sibi relinquitur
+            desti<lb ed="#V" n="11" break="no"/>tuta auxilio originalis iustitiae. Sed ad hoc consequuntur
+            <lb ed="#V" n="12"/>omnes poenalitates, quae ex defectu naturae in hominibus
+            <lb ed="#V" n="13"/>contingunt.
+          </p>
+          <p xml:id="capsco-b2daam-d1e282">
+            Sciendum tamen est quod quandoque aliquid
+            <lb ed="#V" n="14"/>videtur esse poenale, &amp; tamen non habet simpliciter
+            ratio<lb ed="#V" n="15" break="no"/>nem poenae. Poena enim est species mali, malum autem est
+            <lb ed="#V" n="16"/>priuatio boni. Cum autem sint plura bona hominis,
+            scili<lb ed="#V" n="17" break="no"/>cet animae, &amp; corporis &amp; exteriorum rerum, contingit
+            inter<lb ed="#V" n="18" break="no"/>dum quod homo patiatur detrimentum in minore bono, vt
+            au<lb ed="#V" n="19" break="no"/>geatur in maiori, sicut cum patitur detrimentum pecuniae
+            <lb ed="#V" n="20"/>propter sanitatem corporis, vel in vtroque horum ptopter
+            <lb ed="#V" n="21"/>salutem animae, &amp; propter gloriam Dei, &amp; tunc tale
+            detri<lb ed="#V" n="22" break="no"/>mentum non est simpliciter malum hominis, sed secundum
+            <lb ed="#V" n="23"/>quid, vnde non habet simpliciter rationem poenae, sed
+            medi<lb ed="#V" n="24" break="no"/>cinae. Nam &amp; medici austeras potiones propinant infirmis
+            <lb ed="#V" n="25"/>vt inferant sanitatem, &amp; quia huiusmodi non proprie habent
+            <lb ed="#V" n="26"/>rationem poenae non deducuntur ad culpam sicut ad
+            cau<lb ed="#V" n="27" break="no"/>sam nisi pro tanto, quia hoc ipsum quod oportet naturae
+            huma<lb ed="#V" n="28" break="no"/>nae medicinas paenales exhiberi est ex corruptione naturae
+            <lb ed="#V" n="29"/>que est poena peccati originalis. In statu enim innocentiae
+            <lb ed="#V" n="30"/>non oportuisset aliquem ad prosectum virtutis inducere per
+            <lb ed="#V" n="31"/>exercitia poenalia, vnde hoc ipsum quod est poenale in
+            ta<lb ed="#V" n="32" break="no"/>libus reducitur ad culpam originalem sicut ad causam. Haec
+            <lb ed="#V" n="33"/>ille. Ex quibus potest sic argui, illud quo remoto
+            remoue<lb ed="#V" n="34" break="no"/>tur aliud, &amp; quo posito ponitur habet aliquem modum
+            cau<lb ed="#V" n="35" break="no"/>salitatis ad illud, quod sic aliud ponit &amp; remouet, sed
+            culpa<lb ed="#V" n="36" break="no"/>originali posita ponuntur poenae, illa vero penitus remota,
+            <lb ed="#V" n="37"/>idest non presuposita nulla paena posita fuisset: igitur
+            om<lb ed="#V" n="38" break="no"/>nis paena causatur ab aliqua culpa, &amp; potissime originali,
+            <lb ed="#V" n="39"/>licet non solum ab illa. Similia ponit 2. sent. distinc. 36.
+            <lb ed="#V" n="40"/>q. 1. artic. 4.
+          </p>
+          <p xml:id="capsco-b2daam-d1e344">
+            Tertia conclusio. Omnis paenae Deus est actor.
+            <lb ed="#V" n="41"/>Hanc ponit Sanctus Thomas 2. sentent. distin. 37 q. 3. artic. 1. vbi sic
+            <lb ed="#V" n="42"/>dicit. Poena duo habet in se, scilicet rationem mali secum
+            <lb ed="#V" n="43"/>dum quod est alicuins boni priuatio, &amp; rationem boni
+            se<lb ed="#V" n="44" break="no"/>cundum quod iusta est &amp; ordinata. Quidam ergo considerant
+            <lb ed="#V" n="45"/>tes paenam tantummodo ex illa parte, in qua defectus est &amp;
+            <lb ed="#V" n="46"/>malum dixerunt poenas a Deo non esse. In quem etiam
+            er<lb ed="#V" n="47" break="no"/>rorem Tullius incidisse videtur, vt patet in libus de officis,
+            <lb ed="#V" n="48"/>huiusmodi enim homines prouidentiam Dei negauerunt
+            <lb ed="#V" n="49"/>de humanis actibus. Vnde ordinem qui est in poena
+            respe<lb ed="#V" n="50" break="no"/>ttr caipe non dicebant per diuinam prouidentiam esse, sed
+            <lb ed="#V" n="51"/>per iustitiam hominis paenam infligentis. Defectum autem
+            <lb ed="#V" n="52"/>qui est in paena non esse a Deo ordinatum, sed ex necessitate
+            <lb ed="#V" n="53"/>causarum secundarum incidere. Ponebant enim Deum res
+            <lb ed="#V" n="54"/>in esse produxisse sicut producit agens ex necessitate
+            natu<lb ed="#V" n="55" break="no"/>rae, vt scilicet ex vno primo, in quo scilicet nullus defectus e, vnum
+            <lb ed="#V" n="56"/>primum procedere ab entis perfectione distans, &amp; secundum quod
+            <lb ed="#V" n="57"/>longior fit distantia ab vno primo per ordiuem causae &amp;
+            cau<lb ed="#V" n="58" break="no"/>sati magis dicebant defectum incidere. Haec autem positio
+            <lb ed="#V" n="59"/>erronea est sicut in 1. lib. dist. 30. patet, vbi dictum est
+            proui<lb ed="#V" n="60" break="no"/>dentiam diuinam ad omnia se extendere. Et ideo dicendum
+            <lb ed="#V" n="61"/>est paenas a Deo esse, nullam autem culpam a Deo esse,
+            quam<lb ed="#V" n="62" break="no"/>uis vtrunque dicatur malum, cuius ratio est, quia vnicuique
+            <lb ed="#V" n="63"/>re assignatur causa agens secundum quod ab agente res illa
+            pro<lb ed="#V" n="64" break="no"/>ducitur. Culpa autem rationem mali &amp; defectus habet etiam
+            <lb ed="#V" n="65"/>secundum quod ab agente suo producitur &amp; actionem suam in
+            <lb ed="#V" n="66"/>debitum finem non ordinat. Et ideo culpae causa non
+            po<lb ed="#V" n="67" break="no"/>test assignari nisi in talis quam defectus cadere potest. Poena
+            <lb ed="#V" n="68"/>autem non habet rationem mali vel defectus secundum quod
+            <lb ed="#V" n="69"/>ab agente procedit, quia per ordinatam actionem agentis
+            <lb ed="#V" n="70"/>poena insligitur. Sed habet rationem defectus vel mali in
+            <lb ed="#V" n="71"/>ipso recipiente actionem tantum, quia per iustam actionem
+            ali<lb ed="#V" n="72" break="no"/>quo bono priuatur, &amp; ideo paenae Deus est auctor,
+            diuersimo<lb ed="#V" n="73" break="no"/>de tamen diuersarum, quaedam enim est poena damni, vt
+            <lb ed="#V" n="74"/>subtractio gratiae, &amp; huiusmodi, &amp; harum poenarum Deus
+            <lb ed="#V" n="75"/>est causa, non quidem agendo aliquid sed potius non agendo
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="76"/>ex eo enim quod Deus gratiam non influit, consequitur in isto
+            <lb ed="#V" n="77"/>priuatio gratiae. Quaedam vero poena sensus, quae per
+            ali<lb ed="#V" n="78" break="no"/>quam actionem infligitur, &amp; huius etiam agendo Deus auctor
+            <lb ed="#V" n="79"/>est. Haec ille.
+          </p>
+          <p xml:id="capsco-b2daam-d1e433">
+            Ex quibus potest sic argui. Omnis effectus,
+            <lb ed="#V" n="80"/>cuius productio non arguit in efficiente defectum, sed
+            per<lb ed="#V" n="81" break="no"/>fectionem reducitur in Deum sicut in causam, sed omnis
+            <lb ed="#V" n="82"/>poena est huiusmodi: igitur &amp;c. Simile ponit prima parte.
+            <lb ed="#V" n="83"/>q. 49. aric. 2. Et in hoc primus articulus terminatur.
+          </p>
+        </div>
+        <div xml:id="capsco-b2daam-Dd1e445">
+          <head xml:id="capsco-b2daam-Hd1e447">Articulus 2</head>
+          <p xml:id="capsco-b2daam-d1e449">
+            <lb ed="#V" n="84"/><milestone ed="#V" unit="p" rend="initial"/> Vantum ad secundum articulum arguitur contra
+            prae<lb ed="#V" n="85" break="no"/>dicta. Et quidem contra primam conclusionem
+            ar<lb ed="#V" n="86" break="no"/>guit Aureolus probando, quod non sufficienter
+            di<lb ed="#V" n="87" break="no"/>stinguatur malum culpae a malo poenae per hoc quod
+            cul<lb ed="#V" n="88" break="no"/>pa est priuatio secundae perfectionis, paena vero est priuatio
+            <lb ed="#V" n="89"/>vel priuatiua primae perfectionis. Arguitur ergo primo sic
+            <lb ed="#V" n="90"/>quia malum paenae potest esse respectu vtriusque
+            perfectio<lb ed="#V" n="91" break="no"/>nis, &amp; respectu boni moris. Vnde dicit Augustinus quod
+            pecca<lb ed="#V" n="92" break="no"/>tum sibijpsi est poena, culpa enim dicit carentiam boni
+            de<lb ed="#V" n="93" break="no"/>biti inesse agenti inquantum est agens, &amp; hoc in natura,
+            <lb ed="#V" n="94"/>quae habet dominium sui actu, puta in libero arbitrio. Sed
+            <lb ed="#V" n="95"/>eadem culpa potest esse paena in ordine ad iuste infligentem
+            <lb ed="#V" n="96"/>illam, sicut dicit Apostolus Ad Romas 1. Mercedem quam
+            <lb ed="#V" n="97"/>oportuit erroris sui in seipsis recipientes. Et ita videtur
+            di<lb ed="#V" n="98" break="no"/>cere magister quod poena adimit bonum passiue, sed
+            cul<lb ed="#V" n="99" break="no"/>pa quasi actiue.
+          </p>
+          <p xml:id="capsco-b2daam-d1e487">
+            Secundo arguit, quia agens sub ratione qua
+            <lb ed="#V" n="100"/>causat, vide tur quod actus culpabilis habeat rationem
+            pae<lb ed="#V" n="101" break="no"/>nae, quia secundum quod elicit &amp; causat peccatum priuat
+            <lb ed="#V" n="102"/>bonum. Et tamen secundum hoc habet rationem poenae,
+            <lb ed="#V" n="103"/>&amp; inquantum elicitur &amp; respicit agens habet rationem
+            dis<lb ed="#V" n="104" break="no"/>conuenientis, quia per hoc voluntas ponitur extra statum
+            <lb ed="#V" n="105"/>naturalis rectitudinis, quia agit non recte. Et ita idem est
+            <lb ed="#V" n="106"/>poena &amp; culpa Haec Aureolus. Contra secundam
+            conclu<lb ed="#V" n="107" break="no"/>sionem arguit sic Durandus. Si paena semper infligeretur
+            <lb ed="#V" n="108"/>pro aliqua culpa, vel pro actuali, vel pro originali, non
+            pro<lb ed="#V" n="109" break="no"/>actuali, quia in multis inueniuntur graues poenae in quibus
+            <lb ed="#V" n="110"/>nulla est culpa actualis, sicut in pueris nuper, vel non dum
+            <lb ed="#V" n="111"/>baptizatis, in quibus sunt aegritudines &amp; vexationes
+            daemo<lb ed="#V" n="112" break="no"/>num, &amp; similia.
+          </p>
+          <p xml:id="capsco-b2daam-d1e518">
+            Item nec pro originali, quia culpae
+            origi<lb ed="#V" n="113" break="no"/>nali non debetur poena sensus, sed poena damni, licet
+            ipsa<lb ed="#V" n="114" break="no"/>passibilitas paenae sensus insunt propter peccatum originale.
+            <lb ed="#V" n="115"/>sed multae poenae sensus in sit hominibus, vt de se patet:
+            <lb ed="#V" n="116"/>ergo non omnis poena infliguntur pro culpa. Secundo, quia
+            <lb ed="#V" n="117"/>multae sunt paenae quae infliguntur ab homine simpliciter iniuste
+            <lb ed="#V" n="118"/>absque aliqua culpa patientis, &amp; a Deo non quidem iniuste
+            <lb ed="#V" n="119"/>cum sit Dominus vitae &amp; mortis, sed praeter iustitiam, quod
+            <lb ed="#V" n="120"/>contingit multis modis, sicut tractat magister 4. sen. dis. 15.
+            <lb ed="#V" n="121"/>cap. 1. dicens quod quinque modis ssagella contingunt, vel vt
+            <lb ed="#V" n="122"/>iustis merita per patientiam augeantur, vt Iob, vel ad
+            custo<lb ed="#V" n="123" break="no"/>diam virtutum ne superbia tentet, vt Paulo, vel ad
+            corrigen<lb ed="#V" n="124" break="no"/>dum peccata, vt Mariae lepra, vel ad initium poenae, vt
+            He<lb ed="#V" n="125" break="no"/>rodi, vt hic videatur quid in inferno sequatur, vel ad
+            glo<lb ed="#V" n="126" break="no"/>riam Dei manifestandam, vt in caeco nato. In primo &amp;
+            vl<lb ed="#V" n="127" break="no"/>timo istorum modorum poena non infligitur pro culpa, vt
+            <lb ed="#V" n="128"/>de se patet:igitur &amp; caet.
+          </p>
+          <p xml:id="capsco-b2daam-d1e555">
+            Contra tertiam conclusionem
+            ar<lb ed="#V" n="129" break="no"/>guit Durandus, quia Deus non est immediatus actor illius
+            <lb ed="#V" n="130"/>paenae, quae infligitur actione culpae, sed quaedam paenae sunt
+            <lb ed="#V" n="131"/>huiusmodi, sicut omnes paenae quae ab hominibus iniuste
+            in<lb ed="#V" n="132" break="no"/>feruntur: ergo &amp;c. Et in hoc secundus articulus terminatur.
+          </p>
+        </div>
+        <div xml:id="capsco-b2daam-Dd1e567">
+          <head xml:id="capsco-b2daam-Hd1e569">Articulus 3</head>
+          <p xml:id="capsco-b2daam-d1e571">
+            <lb ed="#V" n="133"/><milestone ed="#V" unit="p" rend="indent"/> QVantum ad tertium articulum respondendum est
+            obie<lb ed="#V" n="134" break="no"/>ctionibus praelibatis. Et ideo ad primum contra
+            pri<lb ed="#V" n="135" break="no"/>mam conclusionem dicitur negando antecedens, priuatio
+            <lb ed="#V" n="136"/>enim secundae perfectionis inquantum huiusmodi non est
+            <lb ed="#V" n="137"/>poena, sed est formale constitutiuum culpae. Et ad
+            proba<lb ed="#V" n="138" break="no"/>tionem dicitur primo quod nullum peccatum inquantum est
+            <lb ed="#V" n="139"/>peccatum vel culpa est poena, immo si peccatum sit culpa
+            <lb ed="#V" n="140"/>&amp; poena, ab alio habet rationem culpae, &amp; ab alio rationem
+            <lb ed="#V" n="141"/>poenae. Et hoc ostendit Sanctus Thomas de malo. q.1. artic. 4. in
+            so<lb ed="#V" n="142" break="no"/>lutione primi, vbi sic dicit. Cum de ratione culpae sit quod
+            <lb ed="#V" n="143"/>sit voluntaria, de ratione vero paenae quod sit contra
+            voli<lb ed="#V" n="144" break="no"/>tatem, impossibile est quod idem secundum idem sit
+            poe<lb ed="#V" n="145" break="no"/>na &amp; culpa, quia idem secundum idem non potest esse
+            vo<lb ed="#V" n="146" break="no"/>luntarium, &amp; contra voluntatem, sed secundum diuersa
+            ni<lb ed="#V" n="147" break="no"/>hil prohibet, ei enim quod volumus potest esse coniunctum
+            <lb ed="#V" n="148"/>aliquid quod naturaliter voluntatis repugnat, &amp; quaerendo
+            <lb ed="#V" n="149"/>quod volumus incurrimus illud, quod nollemus, &amp; hoc
+            <lb ed="#V" n="150"/>in peccantibus accidit. Dum enim inordinate afficiuntur
+            <pb ed="#V" n="540"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>ad aliquod bonum creatum, incurrunt separationem a
+            bo<lb ed="#V" n="2" break="no"/>no increato, &amp; alia huiusmodi, quae non vellent, &amp; sic idem
+            <lb ed="#V" n="3"/>secundum diuersa potest esse paena &amp; culpa, sed non
+            secun<lb ed="#V" n="4" break="no"/>dum idem. Haec ille.
+          </p>
+          <p xml:id="capsco-b2daam-d1e627">
+            Et ex hoc soluit argumentum primum
+            <lb ed="#V" n="5"/>quod est tale. Omnis bona diuisio est per opposita, sed
+            pae<lb ed="#V" n="6" break="no"/>na &amp; culpa non sunt opposita, quia aliquod peccatum est
+            <lb ed="#V" n="7"/>poena peccati, vt dicit Gregorius super Exechielem: ergo
+            ma<lb ed="#V" n="8" break="no"/>lum non conuenienter diuiditur per poenam &amp; culpa.
+          </p>
+          <p xml:id="capsco-b2daam-d1e638">
+            Item
+            <lb ed="#V" n="9"/>in solutione secundi sic dicit. Ipse actus peccati non est
+            vo<lb ed="#V" n="10" break="no"/>litus inquantum est inordinatus, sed secundum aliud quod
+            <lb ed="#V" n="11"/>dum voluntas quaerit in praedictam inordinationem
+            incur<lb ed="#V" n="12" break="no"/>rit quam non vellet, &amp; sic ex eo quod est volitum habet rationem
+            <lb ed="#V" n="13"/>culpae, ex eo vero quod inordinationem inuite quis
+            quodam<lb ed="#V" n="14" break="no"/>modo patitur, immiscetur ratio poenae. Haec ille.
+          </p>
+          <p xml:id="capsco-b2daam-d1e654">
+            Et ex hoc
+            <lb ed="#V" n="15"/>soluit argumentum secundum quod est tale. Actus inquantum
+            <lb ed="#V" n="16"/>est inordinatus est malus, sed inquantum est inordinatus
+            <lb ed="#V" n="17"/>est poena, dicit enim augustinus in primo confessionum.
+            <lb ed="#V" n="18"/>Iussisti Domine, &amp; sic est vt inordinatus omnis animus sit
+            <lb ed="#V" n="19"/>sibijpsi poena. Haec ille.
+          </p>
+          <p xml:id="capsco-b2daam-d1e668">
+            Ex quibus patet etiam quod nulla
+            cul<lb ed="#V" n="20" break="no"/>pa inquantum huiusmodi est poena, sed solum per quandam
+            <lb ed="#V" n="21"/>concomitantiam. Dico secundo pro alio adductoad
+            proba<lb ed="#V" n="22" break="no"/>tionem antecedentis quod culpa inquantum huiusmodi non
+            <lb ed="#V" n="23"/>dicit carentiam boni debiti inesse agenti, sed verum est quod
+            <lb ed="#V" n="24"/>omnis culpa causatur ex tali carentia, &amp; causat talem
+            caren<lb ed="#V" n="25" break="no"/>tiam. Primum patet, quia iuxta praed. cta in alijs
+            distinctio<lb ed="#V" n="26" break="no"/>nibus. Omne peccatum habens rationem culpae
+            praesuppo<lb ed="#V" n="27" break="no"/>nit aliquem defectum in ratione: secundum patet, quia
+            om<lb ed="#V" n="28" break="no"/>nis culpa diminuit bonum naturae rationalis bonum dico,
+            <lb ed="#V" n="29"/>seu perfectionem se habentem per modum actus primi,
+            sci<lb ed="#V" n="30" break="no"/>licet habilitatem ad bonum virtutis vel gratiae. Non tamen
+            <lb ed="#V" n="31"/>prima carentia vel secunda constituunt rationem culpae, nec
+            <lb ed="#V" n="32"/>sunt de ratione eius, sed se habent ad eam vt causa vel
+            effe<lb ed="#V" n="33" break="no"/>ctus. Dicitur tertio quod priuatio boni formaliter
+            consti<lb ed="#V" n="34" break="no"/>tuens rationem cuipe nullo modo est poena agentis. Vnde
+            <lb ed="#V" n="35"/>Sanctus Thomas ibidem in solutione octaui sic dicit. Corruptio
+            <lb ed="#V" n="36"/>boni in actione inquantum huiusmodi non est paena
+            agen<lb ed="#V" n="37" break="no"/>tis per se loquendo, sed esset poena actionis, si actioni
+            poena<lb ed="#V" n="38" break="no"/>debeat competere, sed ex hac corruptione vel priuatione
+            <lb ed="#V" n="39"/>actionis consequitur aliqua corruptio vel priuatio in
+            agen<lb ed="#V" n="40" break="no"/>te, quae habet rationem poenae. Haec ille.
+          </p>
+          <p xml:id="capsco-b2daam-d1e716">
+            Ad secundum
+            ne<lb ed="#V" n="41" break="no"/>gatur antecedens, scilicet quod actus inquantum culpabilis
+            ha<lb ed="#V" n="42" break="no"/>beat rationem poenae. Et ad probationem dicitur quod actus
+            <lb ed="#V" n="43"/>vitiosus inquantum elicitur non est poena, nec inquantum
+            <lb ed="#V" n="44"/>actus est poena, nec inquantum priuat effectiue est poena,
+            <lb ed="#V" n="45"/>sed causa poenae. &amp; ideo nullo modo probatur quod
+            culpa<lb ed="#V" n="46" break="no"/>inquantum huiusumodisi t poena, sed solum quod culpa sit
+            <lb ed="#V" n="47"/>poena effectiue, vel per quandam concomitantiam, vt
+            pa<lb ed="#V" n="48" break="no"/>tet ex dictis. Dicitur secundo quod actus vitiosus non ex
+            <lb ed="#V" n="49"/>hoc dicitur culpa, quia disconuenit agenti causando
+            dis<lb ed="#V" n="50" break="no"/>conuenientiam in ipso subiectiue, nec ex hoc quia ponit
+            <lb ed="#V" n="51"/>agens extra statum naturalis rectitudinis, ista enim non sunt
+            <lb ed="#V" n="52"/>de ratione &amp; essentia culpae, sed sunt effectus culpae.
+            Con<lb ed="#V" n="53" break="no"/>ceditur tamen quod disconuenientia actionis ad agens
+            su<lb ed="#V" n="54" break="no"/>biectiue ex istens in actu vt in subiecto proximo est de
+            ratio<lb ed="#V" n="55" break="no"/>ne culpae, sed talis disconuenientia actionis ad agens
+            funda<lb ed="#V" n="56" break="no"/>ta in actione nullo modo est paena, sed solum
+            disconuenien<lb ed="#V" n="57" break="no"/>tia sibi opposita fundata in agente &amp; terminata ad
+            actio<lb ed="#V" n="58" break="no"/>nem, vnde breuiter loquendo omnis priuatio conueniens
+            <lb ed="#V" n="59"/>actui vt exit ab agente habet rationem culpae, omnis autem
+            <lb ed="#V" n="60"/>inordinatio conueniens agenti vt recipit actionem habet
+            <lb ed="#V" n="61"/>rationem poenae. Constat autem quod aliud est exire ab
+            <lb ed="#V" n="62"/>agente, &amp; aliud est agens recipere actionem, quia primum
+            <lb ed="#V" n="63"/>est actio: secundum est passio: &amp; sic non secundum idem
+            <lb ed="#V" n="64"/>contingit actui ratio culpae &amp; poenae, vt saepe dictum est.
+            <lb ed="#V" n="65"/>De hoc Sanctus Thomas prima parte quaest. 48. articulo
+            <lb ed="#V" n="66"/>quinto in solutione quarti sic dicit. De ratione poenae est
+            <lb ed="#V" n="67"/>quod noceat agenti vel habenti in seipso, sed de ratione
+            cul<lb ed="#V" n="68" break="no"/>pae est quod noceat agenti in sua actione, &amp; sic
+            vtrunquesub<lb ed="#V" n="69" break="no"/>malo continetur secundum quod habet rationem
+            nocu<lb ed="#V" n="70" break="no"/>menti. Haec ille.
+          </p>
+          <p xml:id="capsco-b2daam-d1e784">
+            Ad primum contra secundam
+            conclusio<lb ed="#V" n="71" break="no"/>nem dicitur quod aliquae poenae infliguntur pro peccato
+            <lb ed="#V" n="72"/>actuali tam a Deo quam ab homine, tam in praesenti quam
+            <lb ed="#V" n="73"/>in futuro, aliquae autem poenae sensus &amp; damni infliguntur
+            <lb ed="#V" n="74"/>pro solo originali, sicut mors &amp; aliae poenae vitae praesentis,
+            <lb ed="#V" n="75"/>potissime consistentes in defectu consequente principia
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="76"/>naturae sibi relictae. Et cum dicit arguens quod
+            originali<lb ed="#V" n="77" break="no"/>peccato non debetur poena sensus &amp; caetera. Dicitur quod
+            <lb ed="#V" n="78"/>peccato originali post hanc vitam non debetur poena
+            sen<lb ed="#V" n="79" break="no"/>sus, sed praesenti debetur sibi poena sensus consecutione,
+            <lb ed="#V" n="80"/>licet non directe. Vnde Sanctus Thomas de malo. quaest. 5. artic. 4.
+            <lb ed="#V" n="81"/>quaerit. Vtrum mors &amp; alij defectus huius vitae sint poena
+            <lb ed="#V" n="82"/>originalis peccati. Et arguit sic quarto loco. Huiusmodi
+            <lb ed="#V" n="83"/>defectus suut quaedam poenae sensus, sed poena sensus
+            debe<lb ed="#V" n="84" break="no"/>tur peccato propter conuersionem indebitam ad bonum
+            <lb ed="#V" n="85"/>commutabile, quae quidem conuersio non est in
+            originali<lb ed="#V" n="86" break="no"/>peccato: ergo huiusmodi defectus non correspondet ei
+            pro<lb ed="#V" n="87" break="no"/>poena. Ecce argumentum. Sequitur responsio. Dicendum
+            <lb ed="#V" n="88"/>(inquit) quod poena sensus taxata non debetur nisi
+            con<lb ed="#V" n="89" break="no"/>uersioni actuali, sed alia ratio est de poena concomitante.
+            <lb ed="#V" n="90"/>Haec ille. Simile dicit secunda secundae. quaestio. 164
+            arti<lb ed="#V" n="91" break="no"/>culo primo.
+          </p>
+          <p xml:id="capsco-b2daam-d1e834">
+            Ad secundum dicitur, quod nisi culpa
+            origi<lb ed="#V" n="92" break="no"/>nalis praecessisset, nihil poenale inflictum fuisset homini ad
+            <lb ed="#V" n="93"/>profectum virtutis, neque ad custodiam eius neque ad
+            cor<lb ed="#V" n="94" break="no"/>rectionem, nec ad initium poenae, nec ad gloriam Dei, vt
+            <lb ed="#V" n="95"/>supra dictum est. Quia enim homo indigeat talibus
+            exer<lb ed="#V" n="96" break="no"/>citijs, signum est vitiate naturae. 4d illud quod obijcitur
+            <lb ed="#V" n="97"/>contra tertiam conclusionem dicitur, quod procedit ex
+            fal<lb ed="#V" n="98" break="no"/>so fundamento, scilicet quod Deus nullo modo producat
+            <lb ed="#V" n="99"/>actum peccati, &amp; per consequens non sit causa poenae, quae
+            <lb ed="#V" n="100"/>per talem actum infertur. Falsitas enim huius
+            fundamen<lb ed="#V" n="101" break="no"/>ti in sequenti quaestione patebit. Et de hoc Sanctus
+            Tho<lb ed="#V" n="102" break="no"/>mas secundo sententiarum distinctio. 37. quaestione tertia
+            <lb ed="#V" n="103"/>articulo primo sic arguit. Quicquid non est causa
+            actio<lb ed="#V" n="104" break="no"/>nis, non est causa illius quod per actionem causatur, sed
+            <lb ed="#V" n="105"/>multae sunt poenae, quae aliquibus per aliorum peccata
+            ir<lb ed="#V" n="106" break="no"/>lliguntur, multi enim afflictionibus premuntur per eos qui
+            <lb ed="#V" n="107"/>iniuste opprimunt, cum ergo culpae Deus non sit causa
+            <lb ed="#V" n="108"/>videtur quod nec omnis poenae. Ecce argumentum.
+            Se<lb ed="#V" n="109" break="no"/>quitur responsio. Dicendum est (inquit) quod quamuis
+            <lb ed="#V" n="110"/>actionis turpis Deus non sit causa secundum quod
+            defor<lb ed="#V" n="111" break="no"/>mitati substat, est tamen causa eius secundum quod actio
+            <lb ed="#V" n="112"/>quaedam est, &amp; ideo etiam potest dici causa eius, quod per
+            <lb ed="#V" n="113"/>illam actionem effectum est. Haec ille.
+          </p>
+          <p xml:id="capsco-b2daam-d1e884">
+            Ad argumentum in
+            <lb ed="#V" n="114"/>oppositum. q. respotedet Sanctus Thomas prima parte
+            quae<lb ed="#V" n="115" break="no"/>stio. 48. articul. 5. in solutione secundi vbi sic dicit. Poena &amp;
+            <lb ed="#V" n="116"/>culpa non diuidunt malum simpliciter, sed malum in rebus
+            <lb ed="#V" n="117"/>voluntarijs. Haec ille. Et haec de quaestione sufficiant.
+            Be<lb ed="#V" n="118" break="no"/>nedictus Deus, Amen
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

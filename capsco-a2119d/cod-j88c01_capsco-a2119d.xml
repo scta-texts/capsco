@@ -1,0 +1,540 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 1, Distinctio 14, Quaestio 1</title>
+        <author ref="#JohannesCapreolus">Johannes Capreolus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 1, Distinctio 14, Quaestio 1</title>
+          <date when="2026-11-04">Nov 4, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-j88c01">Venice, 1589, v. 1</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-04" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="284"/>
+        <cb ed="#V" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="capsco-a2119d"><!-- l1d14q1 -->
+        <head xml:id="capsco-a2119d-Hd1e101">Quaestio 1</head>
+        <head xml:id="capsco-a2119d-Hd1e103" type="question-title">Utrum temporalis processio sit Spiritus Sancti proprietas</head>
+        <p xml:id="capsco-a2119d-d1e106">
+          <lb ed="#V" n="134"/>DISTINCTIO XIIII.
+          <lb ed="#V" n="135"/>QVAESTIO I.
+          <lb ed="#V" n="136"/>Vtrum temporalis processio sit Spiritus
+          <lb ed="#V" n="137"/>sancti proprietas.
+        </p>
+        <p xml:id="capsco-a2119d-d1e117">
+          <lb ed="#V" n="138"/><milestone ed="#V" unit="p" rend="initial"/> CIRCA decimamquartam distinctionem
+          <lb ed="#V" n="139"/>quaeritur. Vtrum temporalis processio
+          <lb ed="#V" n="140"/>Spiritus sancti sit eius proprietas.
+        </p>
+        <p xml:id="capsco-a2119d-d1e127">
+          Et
+          ar<lb ed="#V" n="141" break="no"/>guitur, quod non. quia nulli in
+          tempora<lb ed="#V" n="142" break="no"/>le potest esse proprietas diui nae personae,
+          <lb ed="#V" n="143"/>quae est aeterna. sed processio temporalis
+          <lb ed="#V" n="144"/>est quid temporalesigitur &amp;c.
+        </p>
+        <p xml:id="capsco-a2119d-d1e139">
+          <lb ed="#V" n="145"/><milestone ed="#V" unit="p" rend="indent"/> in oppositum arguitur sic. Nam Augustinus dicit 15. de
+          trini<pb ed="#V" n="285"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>tate, quod Spiritus sanctus simul de vtroque procedit ad
+          <lb ed="#V" n="2"/>sanctificandum creaturam, sed conirat, quod sanctificatio
+          <lb ed="#V" n="3"/>creaturae fuit ex tempore. ergo processio Spiritus sancti ad
+          <lb ed="#V" n="4"/>creaturae snctificationem est temporalis. processio autem
+          <lb ed="#V" n="5"/>est proprietas Spiritus sancti, ergo &amp;c.
+        </p>
+        <div xml:id="capsco-a2119d-Dd1e158">
+          <head xml:id="capsco-a2119d-Hd1e160">Articulus 1</head>
+        <p xml:id="capsco-a2119d-d1e162">
+          <lb ed="#V" n="6"/><milestone ed="#V" unit="p" rend="indent"/> In hac quaestione erit vnicus articulus, pro quo sit prima
+          <lb ed="#V" n="7"/>conclusio. Spuitus sanctus procedit temporaliter, &amp;
+          al<lb ed="#V" n="8" break="no"/>qua processio Spiritus sancti est temporalis. Istam
+          conclu<lb ed="#V" n="9" break="no"/>sionem ponit Sanctus Doctor primo sen. dist. 14. q. 1. art. 1.
+          <lb ed="#V" n="10"/>quam probat sic. Quamuis(inquit) in personis diuinis
+          pro<lb ed="#V" n="11" break="no"/>prie loquendo dicatur processio secundum rationem
+          exi<lb ed="#V" n="12" break="no"/>tus a principio, qui non necessario tendit in aliquid, tamen
+          <lb ed="#V" n="13"/>processio Spiritus sancti ex modo suae processionis habet
+          <lb ed="#V" n="14"/>inquantum procedit, vt amor quod in aliud tendat sicut in
+          <lb ed="#V" n="15"/>obiectum, scilicet in amatum, quia processiones
+          persona<lb ed="#V" n="16" break="no"/>rum aeternae sunt causa, &amp; ratio productionis creaturarum
+          <lb ed="#V" n="17"/>ideo oportet quod sicut generatio filij est ratio totius
+          pro<lb ed="#V" n="18" break="no"/>ductionis creaturae secundum quod dicitur, patrem in filio
+          <lb ed="#V" n="19"/>omnia effecisse, ita etiam amor patris in filium tendens, vt
+          <lb ed="#V" n="20"/>in obiectum sit ratio in qua Deus omnem effectum
+          amo<lb ed="#V" n="21" break="no"/>ris creaturis largitur, &amp; inde est, quod Spiritus sanctus, qui
+          <lb ed="#V" n="22"/>est amor, quo pater amat creaturas impartiendo sibi suam
+          <lb ed="#V" n="23"/>perfectionem. Poterit ergo processio istius amoris
+          duplici<lb ed="#V" n="24" break="no"/>ter considerari, vel secundum, quod tendit in obiectum
+          ae<lb ed="#V" n="25" break="no"/>ternum, &amp; sic dicetur aeterna processio, vel secundum, quod
+          <lb ed="#V" n="26"/>procedit, vt amor in obiectum creatum inquantum,
+          scili<lb ed="#V" n="27" break="no"/>cet per illum amorem creaturae aliquid a Deo confertur, &amp;
+          <lb ed="#V" n="28"/>sic dicetur processio temporalis, quia ex nouitate effectus
+          <lb ed="#V" n="29"/>consurgit noua relatio creaturae ad Deum, ratione cuius
+          <lb ed="#V" n="30"/>oportet Deum sub noua habitudine ad creaturam
+          signifi<lb ed="#V" n="31" break="no"/>cari. Haec ille.
+        </p>
+        <p xml:id="capsco-a2119d-d1e222">
+          Et intendit talem rationem vt videtur.
+          Om<lb ed="#V" n="32" break="no"/>nis amor quo aliquid nouiter confertur amato
+          tempora<lb ed="#V" n="33" break="no"/>liter procedit in amatum, sed Spiritus sanctus est
+          huiusmo<lb ed="#V" n="34" break="no"/>di, ergo &amp;c. minorem superius declarat, &amp; adhuc declarat
+          <lb ed="#V" n="35"/>in solutione argumentorum. Vnde in solutione primi
+          di<lb ed="#V" n="36" break="no"/>cit. Quia processio Spiritus sancti non solum dicit
+          respe<lb ed="#V" n="37" break="no"/>ctum ad principium, a quo procedit, secundum quam est
+          <lb ed="#V" n="38"/>aeterna tantummodo, sicut est generatio, sed etiam
+          impor<lb ed="#V" n="39" break="no"/>tat respectum ad eum, in quem procedit, secundum quam
+          <lb ed="#V" n="40"/>temporalis dici potest. Haec ille.
+        </p>
+        <p xml:id="capsco-a2119d-d1e244">
+          Et huius vltimi assignat
+          <lb ed="#V" n="41"/>causam in solutione quarti. Sciendum (inquit) quod
+          nul<lb ed="#V" n="42" break="no"/>lum coniunctum potest affirmari nisi pro vtraque parte,
+          <lb ed="#V" n="43"/>sed negari potest pro altera parte tantum, sicut patet in
+          ve<lb ed="#V" n="44" break="no"/>ritate, &amp; falsitate propositionis copulatiue, &amp; quia
+          tempo<lb ed="#V" n="45" break="no"/>rale includit in se aliquam negationem cum affirmatione,
+          <lb ed="#V" n="46"/>scilicet aliquando esse, &amp; aliquando non fuisse, aeternum
+          <lb ed="#V" n="47"/>autem importat affirmationem essendi, ideo coniunctum
+          <lb ed="#V" n="48"/>non potest dici aeternum nisi vtrunque sit aeternum.
+          tem<lb ed="#V" n="49" break="no"/>porale autem dici potest, etiam si alterum tantum sit
+          tem<lb ed="#V" n="50" break="no"/>porale, sicut creator importat diuinam operationem, &amp;
+          <lb ed="#V" n="51"/>connotat effectum in creatura actualiter, ratione cuius
+          <lb ed="#V" n="52"/>Deus non dicitur creator ab aeterno, sed ex tempore. Haec
+          <lb ed="#V" n="53"/>ille. Eandem sententiam ponit prima parte quaest. 13. art. 7.
+          <lb ed="#V" n="54"/>ad primum, &amp; contra Gentiles libro secundo. Secunda
+          con<lb ed="#V" n="55" break="no"/>clusio. Quia processio temporalis spiritus sancti non est
+          a<lb ed="#V" n="56" break="no"/>lia realiter a processione aeterna eiusdem Spiritus sancti.
+        </p>
+        <p xml:id="capsco-a2119d-d1e281">
+          <lb ed="#V" n="57"/>Istam conclusionem ponit Sanctus Doctor primo senten.
+          <lb ed="#V" n="58"/>vbi supra articulo secundo, vbi sic ait. Cum processio
+          sem<lb ed="#V" n="59" break="no"/>per dicat respectum processionis ad illum a quo procedit,
+          <lb ed="#V" n="60"/>Spiritus sanctus autem ad patrem non referatur nisi
+          rela<lb ed="#V" n="61" break="no"/>tione aeterna, oportet quod nulla processio Spiritus
+          sancti<lb ed="#V" n="62" break="no"/>sit a ia es. entialiter ab aeterna, sed potest sibi aduenire
+          ali<lb ed="#V" n="63" break="no"/>quis respectus alius ex parte eius in quod est, sicut in
+          ama<lb ed="#V" n="64" break="no"/>tum, &amp; ratione eius potest dici processio temporalis.
+          dicen<lb ed="#V" n="65" break="no"/>dum est ergo, quod est vna processio essentialiter propter
+          <lb ed="#V" n="66"/>respectum vnum procedentis ad illud, a quo procedit, quae
+          <lb ed="#V" n="67"/>principaliter importat processio. Est autem duplex, vel
+          ge<lb ed="#V" n="68" break="no"/>mmina ratione duorum respectuum in duo obiecta, scilicet
+          <lb ed="#V" n="69"/>temporale, &amp; aeternum, quorum vnus realiter est in ipso
+          p<lb ed="#V" n="70" break="no"/>cedente, scilicet aeternus, alius autem secundum rationem
+          <lb ed="#V" n="71"/>tantum est in Spiritu sancto procedente, sed secundum
+          re<lb ed="#V" n="72" break="no"/>est in eo, in quem procedit. Horum autem respectuum
+          pri<lb ed="#V" n="73" break="no"/>mus includitur in secundo, sicut ratio, &amp; causa eius. vnde
+          <lb ed="#V" n="74"/>secundus se habet ex additione ad primum. Haec ille.
+        </p>
+        <p xml:id="capsco-a2119d-d1e324">
+          Et
+          <lb ed="#V" n="75"/>ad huius declarationem dicit in solutione ad tertium.
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="76"/>Quamuis (inquit) aeterno secundum rem nihil sit
+          addi<lb ed="#V" n="77" break="no"/>bile, nihilominus tamen aeternum potest intelligi in aliqua
+          <lb ed="#V" n="78"/>habitudine se habere ad aliquod temporale, sed tamen
+          ha<lb ed="#V" n="79" break="no"/>bitudo non ponitur realiter circa ipsum aeternum, vt
+          di<lb ed="#V" n="80" break="no"/>ctum est, &amp; quia ipse intellectus potest repraesentari per
+          no<lb ed="#V" n="81" break="no"/>men, quia voces sunt notae earum, quae sunt in anima
+          pas<lb ed="#V" n="82" break="no"/>sionum. ideo aeterno imponitur aliquod nomen prout
+          in<lb ed="#V" n="83" break="no"/>telligitur sub illa habitudine, sicut Deus dicitur dominus
+          <lb ed="#V" n="84"/>ex tempore, &amp; ita etiam dicitur processio temporalis.
+        </p>
+        <p xml:id="capsco-a2119d-d1e350">
+          Ter<lb ed="#V" n="85" break="no"/>tia conclusio est. Non tantum dona spiritus sancti
+          procae<lb ed="#V" n="86" break="no"/>dunt in nos: sed etiam ipse spiritus sanctus. Istam ponit
+          san<lb ed="#V" n="87" break="no"/>ctus Doctor ibidem. q. 2. art. 1. vbi sic ait. Ipsemet (inquit)
+          <lb ed="#V" n="88"/>Spiritus sanctus procedit temporali processione vel datur
+          <lb ed="#V" n="89"/>non solum dono eius, si enim consideremus processionem
+          <lb ed="#V" n="90"/>eius a patre a quo procedit secundum illum respectum,
+          ip<lb ed="#V" n="91" break="no"/>semet Spiritus sanctus procedit. Si autem consideremus
+          se<lb ed="#V" n="92" break="no"/>cundum respectum ad illud in quod procedit, tunc sicut
+          di<lb ed="#V" n="93" break="no"/>ctum est, iste respectus in Spiritu sancto ponitur, non quia
+          <lb ed="#V" n="94"/>ipse realiter referatur, sed quia alterum refertur ad ipsum,
+          <lb ed="#V" n="95"/>cum igitur in acceptione donorum ipsius non solum
+          rela<lb ed="#V" n="96" break="no"/>tio nostra terminetur ad dona, vt ipsa tantum habeamus,
+          <lb ed="#V" n="97"/>sed etiam ad Spiritum sanctum, quia aliter ipsum
+          habe<lb ed="#V" n="98" break="no"/>mus quam prius, non tantum dicentur dona ipsius
+          pro<lb ed="#V" n="99" break="no"/>cedere, sed etiam ipsemet. Secundum hoc enim ipse dicitur
+          <lb ed="#V" n="100"/>referri ad nos secundum, quod nos referimur ad ipsum, &amp;
+          <lb ed="#V" n="101"/>ideo procedit in nos, &amp; dona eius recipimus, &amp; per eadem
+          <lb ed="#V" n="102"/>nos aliter ad ipsum habemus inquantum per dona eius
+          ip<lb ed="#V" n="103" break="no"/>si Spiritui sancto coniungimur, per donum nos sibi
+          assimi<lb ed="#V" n="104" break="no"/>lamus. Haec ille.
+        </p>
+        <p xml:id="capsco-a2119d-d1e396">
+          Quarta conclusio est. Quia processio
+          tem<lb ed="#V" n="105" break="no"/>poralis Spiritus sancti de qua loquimur tantum
+          attendi<lb ed="#V" n="106" break="no"/>tur secundum dona gratiae gratum facientia. Istam
+          conclu<lb ed="#V" n="107" break="no"/>sionem probat Sanctus Doctor prima parte q. 43. articu. 3.
+          <lb ed="#V" n="108"/>vbi sic ait. Diuinae personae conuenit mitti secundum, quod
+          <lb ed="#V" n="109"/>nouo modo existit in aliquo, dari autem secundum, quod
+          <lb ed="#V" n="110"/>ab aliquo, neutrum autem horum est, nisi secundum
+          gra<lb ed="#V" n="111" break="no"/>tiam gratum facientem, est enim vnus modus communis,
+          <lb ed="#V" n="112"/>quo Deus est in omnibus rebus per essentiam, potentiam,
+          <lb ed="#V" n="113"/>&amp;praesentiam, sicut causa in effectibus participantibus
+          bo<lb ed="#V" n="114" break="no"/>nitatem ipsius. Super istum autem modum communem est
+          <lb ed="#V" n="115"/>vnus specialis, qui conuenit creaturae rationali, in qua
+          De<lb ed="#V" n="116" break="no"/>esse dicitur, sicut cognitum in cognoscente, &amp; amatum in
+          <lb ed="#V" n="117"/>amante, &amp; quia cognoscendo, &amp; amando creatura
+          ratio<lb ed="#V" n="118" break="no"/>nalis sua operatione attingit ipsum secundum istum
+          spe<lb ed="#V" n="119" break="no"/>cialem modum, dicitur non solum esse in creatura
+          rationa<lb ed="#V" n="120" break="no"/>li, sed etiam habitare in ea sicut in templo suo. sic igitur
+          nul<lb ed="#V" n="121" break="no"/>lus alius effectus potest esse ratio, quod diuina persona sit
+          <lb ed="#V" n="122"/>nouo modo in creatura rationali, &amp; temporali nisi gratia
+          <lb ed="#V" n="123"/>gratum faciens. vnde secundum solam gratiam gratum
+          fa<lb ed="#V" n="124" break="no"/>cientem mittitur, &amp; procedit temporaliter diuina persona.
+          <lb ed="#V" n="125"/>Similiter illud solum habere dicimur, quo libere
+          possu<lb ed="#V" n="126" break="no"/>mus vti, vel frui. habere autem potestatem fruendi diuina
+          <lb ed="#V" n="127"/>persona est solum secundum gratiam gratum facientem, sed
+          <lb ed="#V" n="128"/>tamen in ipso dono gratiae gratum facientis Spiritus
+          san<lb ed="#V" n="129" break="no"/>ctus habetur, &amp; inhabitat hominem. vnde ipsemet Spiritus
+          <lb ed="#V" n="130"/>sanctus datur, &amp; mittitur, &amp; procedit. Haec ille.
+        </p>
+        <p xml:id="capsco-a2119d-d1e455">
+          Eandem
+          po<lb ed="#V" n="131" break="no"/>nit primo senten. d. 14. quaest. 2. art. secundo, vbi sic ait. In
+          <lb ed="#V" n="132"/>exitu rerum ab alio principio attenditur quaedam
+          circula<lb ed="#V" n="133" break="no"/>tio, &amp; regyratio, eo quod omnia reuertuntur sicut in finem
+          <lb ed="#V" n="134"/>in id a quo omnia prodierunt sicut a principio, &amp; ideo
+          opor<lb ed="#V" n="135" break="no"/>tet, quod per eadem, quibus est exitus a principio, &amp;
+          redi<lb ed="#V" n="136" break="no"/>tus in finem attendatur. Sicut igitur dictum est, quod
+          pro<lb ed="#V" n="137" break="no"/>cessio personarum est ratio productionis creaturarum a
+          <lb ed="#V" n="138"/>primo principio, ita eadem processio est ratio redeundi in
+          <lb ed="#V" n="139"/>finem, quia sicut per filium &amp; Spiritum sanctum ex nihilo
+          <lb ed="#V" n="140"/>conditi sumus, ita etiam fini coniungimur, vel termino.
+          Se<lb ed="#V" n="141" break="no"/>cundum hoc ergo processio diuinarum personarum in
+          crea<lb ed="#V" n="142" break="no"/>turas potest dupliciter considerari, aut inquantum est
+          ra<lb ed="#V" n="143" break="no"/>tio exeundi a principio, &amp; sic talis processio attenditur
+          se<lb ed="#V" n="144" break="no"/>cundum dona naturalia, in quibus subsistimus, sicut
+          dici<lb ed="#V" n="145" break="no"/>tur a Diony. diuina bonitas in creaturas procedere, sed de
+          <lb ed="#V" n="146"/>tali processione non loquimur hic. Potest etiam attendi
+          <lb ed="#V" n="147"/>inquantum est ratio redeundi in finem, &amp; sic est secundum
+          <lb ed="#V" n="148"/>illa dona tantum, quae coniungunt nos fini vltimo, quae
+          <lb ed="#V" n="149"/>sunt gratia gratum faciens, &amp; gloria, &amp; de ista processione
+          <lb ed="#V" n="150"/>loquimur hic:sicut enim in generatione naturali
+          genera<pb ed="#V" n="286"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>tum non coniungitur generanti in similitudinem speciei
+          <lb ed="#V" n="2"/>nisi in vltimo termino generationis, ita etiam in
+          parti<lb ed="#V" n="3" break="no"/>cipatione diuine bonitatis non est immediata coniunctio
+          <lb ed="#V" n="4"/>ad Deum per primos effectus, quibus in esse subsistimus,
+          <lb ed="#V" n="5"/>sed per vltimos, quibus fini adhaeremus. Haec ille.
+        </p>
+        <p xml:id="capsco-a2119d-d1e514">
+          Et post
+          <lb ed="#V" n="6"/>in solutione secundi ait sic. In processione (inquit)
+          secun<lb ed="#V" n="7" break="no"/>dum quod hic loquimur prout, scilicet claudit in se
+          dona<lb ed="#V" n="8" break="no"/>tionem, non sufficit, quod sit noua relatio qualiscunque
+          <lb ed="#V" n="9"/>creaturae ad Deum, sed oportet quod referatur in ipsum,
+          <lb ed="#V" n="10"/>vt in habitum. quia quod datur alicui, habetur aliquo
+          mo<lb ed="#V" n="11" break="no"/>do ab illo, persona autem diuina non potest haberi a nobis
+          <lb ed="#V" n="12"/>aliquo nouo modo, nisi vel ad fructum perfectum, &amp; sic
+          ha<lb ed="#V" n="13" break="no"/>betur per donum gloriae, aut secundum fructum
+          imperfe<lb ed="#V" n="14" break="no"/>ctum, &amp; sic habetur per donum gratiae gratum facientis,
+          <lb ed="#V" n="15"/>vel potius sicut illud, per quod coniungimur fruibili
+          in<lb ed="#V" n="16" break="no"/>quantum ipsae personae diuinae quadam sui sigillatione in
+          <lb ed="#V" n="17"/>animabus nostris relinquunt quaedam dona, quibus
+          for<lb ed="#V" n="18" break="no"/>maliter fruimur, scilicet amorem, &amp; sapientiam. Haec ille.
+        </p>
+        <p xml:id="capsco-a2119d-d1e545">
+          <lb ed="#V" n="19"/>Quinta conclusio est. Temporalis processio, vel est
+          proprie<lb ed="#V" n="20" break="no"/>tas Spiritus sancti. vel non distinguitur realiter ab ea. Ista
+          <lb ed="#V" n="21"/>sequitur ex praedictis.
+        </p>
+        <p xml:id="capsco-a2119d-d1e555">
+          Sed contra dicta arguit Aureotelus in
+          <lb ed="#V" n="22"/>hac distinctione signanter contra quartam conclusionem
+          <lb ed="#V" n="23"/>primo sic. In illo non consistit processionis ratio, quod est
+          <lb ed="#V" n="24"/>commune tribus personis, quia persona patris non dicitur
+          <lb ed="#V" n="25"/>temporaliter procedere, immo processio temporalis est
+          <lb ed="#V" n="26"/>propria Spiritui sancto, sed procedere in mentem in
+          ratio<lb ed="#V" n="27" break="no"/>ne amati, &amp; cogniti commune est tribus personis, nam per
+          <lb ed="#V" n="28"/>gratiam gratum facientem diligitur tota trinitas, &amp;
+          reci<lb ed="#V" n="29" break="no"/>proce tota trinitas diligit, ergo in hoc processionis ratio
+          <lb ed="#V" n="30"/>non consistit. Et si dicatur quod procedere importat
+          ori<lb ed="#V" n="31" break="no"/>ginem personae a persona, propter quod non competit
+          tri<lb ed="#V" n="32" break="no"/>nitati procedere, quamuis sibi competat secundum hunc
+          <lb ed="#V" n="33"/>modum esse in mente per donum gratiae gratum facientis.
+        </p>
+        <p xml:id="capsco-a2119d-d1e584">
+          <lb ed="#V" n="34"/>Dicendum, quod confirmat propositum, quasi, scilicet
+          ra<lb ed="#V" n="35" break="no"/>tio processionis Spiritus sancti, secundum quam ipse
+          Spiri<lb ed="#V" n="36" break="no"/>tus sanctus dari dicitur, in hoc non consisteret. Secundo
+          <lb ed="#V" n="37"/>sic. Talis modus essendi Spiritus sancti in creatura debet
+          <lb ed="#V" n="38"/>attribui processioni, quae habeat aliquem ordinem ad
+          ema<lb ed="#V" n="39" break="no"/>nationem aeternam Spiritus sancti a filio, &amp; a patre, sed
+          Spi<lb ed="#V" n="40" break="no"/>ritus sanctus non procedit a patre, &amp; filio in creaturam sub
+          <lb ed="#V" n="41"/>ratione obiecti amati, aut cogniti, non enim spirant ipsum
+          <lb ed="#V" n="42"/>pater, &amp; filius, vt obiectum amoris, vel intellectionis
+          crea<lb ed="#V" n="43" break="no"/>turae. ergo hic modus essendi Spiritus sancti in creatura
+          ra<lb ed="#V" n="44" break="no"/>tionali non spectat ad temporalem processionem ipsius.
+          <lb ed="#V" n="45"/>Tertio. Si iste modus haberet veritatem sequeretur, quod
+          <lb ed="#V" n="46"/>omnis res dum mens incipit eas intelligere, &amp; amare,
+          pro<lb ed="#V" n="47" break="no"/>cederent in mentem, sed non dicitur, non enim sol dicitur
+          <lb ed="#V" n="48"/>procedere in animam dum intelligitur. ergo iste modus non
+          <lb ed="#V" n="49"/>est competens.
+        </p>
+        <p xml:id="capsco-a2119d-d1e621">
+          Quarto arguit contra aliqua superius dicta
+          <lb ed="#V" n="50"/>scilicet quod processio temporalis addit super aeternam
+          re<lb ed="#V" n="51" break="no"/>spectum ad suum terminum. Contra hoc arguit sic.
+          Visio<lb ed="#V" n="52" break="no"/>ni qua color prius existens in pane cernitur, non addit
+          vi<lb ed="#V" n="53" break="no"/>sio corporis Christi aliquid, quod mediet inter visionem,
+          <lb ed="#V" n="54"/>&amp; colores, sed solam participationem coloris a corpore
+          <lb ed="#V" n="55"/>Christi, quod sacramentaliter existit sub speciebus post
+          <lb ed="#V" n="56"/>consecrationem. ergo a simili Spiritus sanctus procedens
+          <lb ed="#V" n="57"/>aeternaliter in dona gratuita, in quibus immutabiliter
+          con<lb ed="#V" n="58" break="no"/>placet Deus, dicitur temporaliter procedere in animam
+          par<lb ed="#V" n="59" break="no"/>ticipantem illa dona ex tempore, &amp; ita processio illa
+          aeter<lb ed="#V" n="60" break="no"/>na non inducit respectum rationis, nec connotationem
+          ali<lb ed="#V" n="61" break="no"/>quam, dum efficitur temporalis, sed eius terminus
+          partici<lb ed="#V" n="62" break="no"/>patur de nouo a creatura, vnde potest sic describi.
+          Proces<lb ed="#V" n="63" break="no"/>sio temporalis est aeterna Spiritus sancti processio
+          termina<lb ed="#V" n="64" break="no"/>ta de nouo ad aliquid materiale participans ex tempore
+          for<lb ed="#V" n="65" break="no"/>malem ipsius terminum immutabilem, &amp; aeternum. Haec
+          <lb ed="#V" n="66"/>ille in forma.
+        </p>
+        <p xml:id="capsco-a2119d-d1e660">
+          Contra eandem conclusionem quartam
+          <lb ed="#V" n="67"/>arguit Gregorius probando, quod possibile est dari Spiritum
+          <lb ed="#V" n="68"/>sanctum homini absque hoc, quod detur ei aliquod
+          do<lb ed="#V" n="69" break="no"/>num creatum, quia omne dabile homini a Deo possibile
+          <lb ed="#V" n="70"/>est ei dari a Deo non dato aliquo quod sit idem
+          essentiali<lb ed="#V" n="71" break="no"/>ter cum eo, nec aliquid cum essentia illius. ergo possibile
+          <lb ed="#V" n="72"/>est dari Spiritum sanctum homini non dato ei aliquo
+          do<lb ed="#V" n="73" break="no"/>no Spiritus sancti creato. tenet consequentia, quia Spiritus
+          <lb ed="#V" n="74"/>sanctus est dabilis homini, &amp; nullum donum creatum est
+          <lb ed="#V" n="75"/>idem essentialiter cum Spiritu sancto, aut de essentia
+          Spiri<cb ed="#V" n="b"/><lb ed="#V" n="76" break="no"/>tus sancti. antecedens autem probatur. Tum quia ipso
+          con<lb ed="#V" n="77" break="no"/>cesso nulla sequitur contradictio. Tum quia sicut omne
+          fa<lb ed="#V" n="78" break="no"/>ctibile a Deo potest fieri ab ipso non facto aliquo, quod non
+          <lb ed="#V" n="79"/>est ipsum, nec aliquid intrinsecum essentialiter illi, vt
+          com<lb ed="#V" n="80" break="no"/>muniter conceditur, &amp; probari potest ex eo, quod nulla
+          re<lb ed="#V" n="81" break="no"/>pugnantia contradictionis interuenit, sicut in proposito,
+          <lb ed="#V" n="82"/>omne dabile &amp;c. Tum quia omne dabile creaturae a Deo
+          <lb ed="#V" n="83"/>Deus potest non dare, &amp; potest nullo alio condante dare,
+          <lb ed="#V" n="84"/>&amp; nullum tale potest eo non condante dari. ergo omne dabile
+          <lb ed="#V" n="85"/>creaturae a Deo potest Deus dare non condante alio &amp;c.
+          <lb ed="#V" n="86"/>antecedens est verum, &amp; concessum communiter.
+          conse<lb ed="#V" n="87" break="no"/>quentia patet, quia si aliquid dabile. verbi gratia. a. non
+          po<lb ed="#V" n="88" break="no"/>test dari a Deo non dato dabili essentialiter distincto, nec
+          <lb ed="#V" n="89"/>in eo essentialiter incluso. verbi gratia bs hoc non esset, nisi
+          <lb ed="#V" n="90"/>quia vel a. datum necessario daret b.s vel quia b. necessario
+          <lb ed="#V" n="91"/>requiritur ad dandum a. Si dicatur secundum. ergo ipsum
+          <lb ed="#V" n="92"/>a. non potest Deus uullo alio condante dare b. Deo non
+          <lb ed="#V" n="93"/>condante b. &amp; hoc repugnat alteri parti antecedentis, vel
+          <lb ed="#V" n="94"/>non posset dare Deo non condante, &amp; tunc vel Deus
+          da<lb ed="#V" n="95" break="no"/>bit necessario b. cuius oppositum sumitur, vel poterit non
+          <lb ed="#V" n="96"/>dare. &amp; hoc posito a. erit datum non dato b.
+        </p>
+        <p xml:id="capsco-a2119d-d1e729">
+          Confirma<lb ed="#V" n="97" break="no"/>tur. Nullum donum creatum, vel creabile requiritur
+          ne<lb ed="#V" n="98" break="no"/>cessario, vt dans, vel condans ad hoc Spiritus sanctus
+          de<lb ed="#V" n="99" break="no"/>tur, &amp; similiter nullum tale donum datur necessario a
+          spi<lb ed="#V" n="100" break="no"/>ritu sancto. dato ergo spiritu sancto poterit dari nullo alio
+          <lb ed="#V" n="101"/>creato dato.
+        </p>
+        <p xml:id="capsco-a2119d-d1e742">
+          Ad primum Aureoele contra quartam
+          con<lb ed="#V" n="102" break="no"/>clusionem negatur minor, non enim pater procedit in
+          me<lb ed="#V" n="103" break="no"/>tem in ratione amati, nec etiam filius sed solus spiritus sanctus,
+          li<lb ed="#V" n="104" break="no"/>cet tota trinitas sit in mente in ratione amati, &amp; causa
+          ne<lb ed="#V" n="105" break="no"/>gationis est, quia procedere in mentem supponit
+          procede<lb ed="#V" n="106" break="no"/>re in aliquid, hoc autem solum spiritui sancto competit
+          <lb ed="#V" n="107"/>nam pater non procedit, filius autem procedit, sed non in
+          <lb ed="#V" n="108"/>aliquid, quia procedit per actum intellectus cuius non est
+          <lb ed="#V" n="109"/>tendere in res, sed potius res capere in se, &amp; concipere, sed
+          <lb ed="#V" n="110"/>spiritus sanctus procedit per actum voluntatis, cuius est
+          <lb ed="#V" n="111"/>tendaerae in res, &amp; ideo spiritus sanctus ex sua processione
+          <lb ed="#V" n="112"/>habet non solum procedere ab aliquo, sed etiam
+          procede<lb ed="#V" n="113" break="no"/>re in aliquid, vtrunque autem istorum includit processio
+          <lb ed="#V" n="114"/>temporalis, &amp; vlterius nouum respectum ad mentem
+          ra<lb ed="#V" n="115" break="no"/>tionalem. Et cum arguens dicit, quod si ratione
+          processio<lb ed="#V" n="116" break="no"/>nis est origo personae a persona inconuenienter dictum est,
+          <lb ed="#V" n="117"/>quod processio spiritus sancti, de qua loquimur consistat
+          <lb ed="#V" n="118"/>in hoc, quod est procedere in mentem in ratione amati.
+          ne<lb ed="#V" n="119" break="no"/>gatur sibi consequentia, quia secundum includit primum,
+          <lb ed="#V" n="120"/>vt prolixe declaratum fuit per dicta sancti Doctoris. Ad
+          <lb ed="#V" n="121"/>secundum dicitur, quod modus arguendi non valet. nam
+          <lb ed="#V" n="122"/>maior conceditur, sed minor male subsumitur, debebat
+          <lb ed="#V" n="123"/>enim minori assumere, quod modos essendi spiritus sanct
+          <lb ed="#V" n="124"/>in creatura in ratione obiecti amati nullum ordinem
+          ha<lb ed="#V" n="125" break="no"/>beret ad processionem eius aeternam, quod tamen iste non
+          <lb ed="#V" n="126"/>facit sed assumit, quod non est ibi talis ordo, quod
+          spiritussan<lb ed="#V" n="127" break="no"/>ctus spiretur a patre, vel filio, vt obiectum amoris
+          creatu<lb ed="#V" n="128" break="no"/>rae, ideo videtur peccare per fallaciam consequentis
+          arguen<lb ed="#V" n="129" break="no"/>do a negatione inferioris ad negationem superioris,
+          vtpo<lb ed="#V" n="130" break="no"/>te, non est inter ista talis ordo. ergo non est ordo. dico
+          igi<lb ed="#V" n="131" break="no"/>tur quod inter illum modum, quo spiritus sanctus per
+          gra<lb ed="#V" n="132" break="no"/>tiam est in creatura, &amp; illam emanationem aeternam est
+          ta<lb ed="#V" n="133" break="no"/>lis ordo, quod spiritus sanctus aeternaliter procedit, vt
+          ra<lb ed="#V" n="134" break="no"/>tio collationis omnium donorum a Deo creaturae
+          collato<lb ed="#V" n="135" break="no"/>rum. Quia autem spiritus sanctus nouiter, vel nouo modo
+          <lb ed="#V" n="136"/>sit per gratiam in aliquo, hoc est donum Dei, &amp; ita inter
+          <lb ed="#V" n="137"/>istud donum, &amp; illam emanationem est ordo effectus
+          vo<lb ed="#V" n="138" break="no"/>luntatis diuinae ad rationem creandi, secundum quam
+          di<lb ed="#V" n="139" break="no"/>uina voluntas libere creat.
+        </p>
+        <p xml:id="capsco-a2119d-d1e828">
+          Ad tertium negatur prima
+          con<lb ed="#V" n="140" break="no"/>sequentia facta. nam non oportet, quod res intellectae
+          pro<lb ed="#V" n="141" break="no"/>cedant in intellectum dum intelliguntur, licet tendant
+          <lb ed="#V" n="142"/>in eum, vel recipiantur in eo, &amp; sigillent seipsas in anima
+          <lb ed="#V" n="143"/>nostra, non tamen procedunt ab aliquo in intellectum, ita
+          <lb ed="#V" n="144"/>quod originentur ab aliquo pro tunc. hoc autem, vt
+          di<lb ed="#V" n="145" break="no"/>ctum est, reperitur in processione spiritus sancti
+          tempcra<lb ed="#V" n="146" break="no"/>li, quae dicit tres respectus, duos aeternos, &amp; vnum
+          tempo<lb ed="#V" n="147" break="no"/>ralem. Primus est ad spirantem, secundus ad obiectum
+          ae<lb ed="#V" n="148" break="no"/>ternum. tertius ad creaturam temporalem. Similiter nec
+          <lb ed="#V" n="149"/>res amatae dicuntur procedere in mentem ex hoc, quod
+          <lb ed="#V" n="150"/>amantur, licet sint in amante modo alias dicto. Vnde iste
+          <pb ed="#V" n="287"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>arguens breuiter decipitur. credit enim, quod nos
+          pona<lb ed="#V" n="2" break="no"/>mus rationem processionis temporalis in hoc solo
+          consi<lb ed="#V" n="3" break="no"/>stere, quod spiritus sanctus nouiter estin nobis, sicut
+          ama<lb ed="#V" n="4" break="no"/>tum quodcunque, quod non dicimus, sed imaginamur, quod
+          <lb ed="#V" n="5"/>spiritus sanctus temporaliter procedit in nos, sicut amor,
+          <lb ed="#V" n="6"/>quo Deus essentialiter dilexit nos, quem nouiter nos
+          reae<lb ed="#V" n="7" break="no"/>mamus, &amp; ita concedam arguenti, quod lapis procedit in
+          <lb ed="#V" n="8"/>mentem, si lapis est amor, quo mens diligitur, qui amor a
+          <lb ed="#V" n="9"/>mente reamatur, &amp; ita de suo sole, de quo arguit. Ad
+          quar<lb ed="#V" n="10" break="no"/>tum dico, quod in exemplo suo impossibile est, quod visio
+          <lb ed="#V" n="11"/>nouiter terminetur ad corpus Christi, quin consurgat
+          no<lb ed="#V" n="12" break="no"/>uus respectus inter visionem, &amp; illud corpus visum,
+          ratio<lb ed="#V" n="13" break="no"/>ne cuius illa visio, quae prius erat visio albedinis, modo
+          no<lb ed="#V" n="14" break="no"/>niter dicitur visio corporisChristi, &amp; ita in proposito, quia
+          <lb ed="#V" n="15"/>mens nouiter gratificata, nouiter refertur ad spiritum
+          san<lb ed="#V" n="16" break="no"/>ctum, etiam oportet, quod spiritus sanctus nouiter
+          refera<lb ed="#V" n="17" break="no"/>tur ad mentem gratificatam, ratione cuius dicitur nouiter
+          <lb ed="#V" n="18"/>in illam procedere.
+        </p>
+        <p xml:id="capsco-a2119d-d1e898">
+          Dico quod sicut visio non est ille
+          respe<lb ed="#V" n="19" break="no"/>ctus, qui importatur in hoc nomine visio corporis Christi,
+          <lb ed="#V" n="20"/>sed illud nomen importat visionem cum respectu, ita illa
+          <lb ed="#V" n="21"/>processio spiritus sancti non est respectus ad creaturam,
+          <lb ed="#V" n="22"/>nec illum includit intrinsece, sed tamen hoc nomen
+          pro<lb ed="#V" n="23" break="no"/>cecsio temporalis includit in suo significato processionem
+          <lb ed="#V" n="24"/>spiritus sancti, &amp; respectum temporalem, &amp; sic patet quod
+          <lb ed="#V" n="25"/>rationes illae non concludunt.
+        </p>
+        <p xml:id="capsco-a2119d-d1e916">
+          Ad primum Gregorij
+          con<lb ed="#V" n="26" break="no"/>tra eandem conclusionem negatur antecedens. Et ad
+          pri<lb ed="#V" n="27" break="no"/>mam eius probationem dicitur, quod contradictio est
+          spi<lb ed="#V" n="28" break="no"/>ritum sanctum dari creature, &amp; nihil aliud dari creaturae,
+          <lb ed="#V" n="29"/>quia spiritum sanctum dari creature est ipsum nouo
+          mo<lb ed="#V" n="30" break="no"/>do haberi a creatura, vt cognitum, vel dilectum, &amp; quia
+          <lb ed="#V" n="31"/>spiritus sanctus non potest esse formalis dilectio creaturae
+          <lb ed="#V" n="32"/>actualis, vel habitualis, similiter nec cognito oportet, quod
+          <lb ed="#V" n="33"/>dato spiritu sancto detur noua cognitio, vel dilectio, quae
+          <lb ed="#V" n="34"/>distinguitur a spiritu sancto. dicere ergo quod solum
+          spiri<lb ed="#V" n="35" break="no"/>tus sanctus datur est dicere, quod datur, &amp; non datur.
+        </p>
+        <p xml:id="capsco-a2119d-d1e940">
+          <lb ed="#V" n="36"/><milestone ed="#V" unit="p" rend="indent"/> Ad secundam probationem eiusdem antecedentis
+          dici<lb ed="#V" n="37" break="no"/>tur, quod non est simile de factione, &amp; datione, quia factio
+          <lb ed="#V" n="38"/>terminatur ad esse 3 datio autem ad haberi ab aliquo nouo
+          <lb ed="#V" n="39"/>modo, modo licet aliquid possit fieri sine alio, non tamen
+          <lb ed="#V" n="40"/>haberi sine alio, quod applicet donum habenti, cuiusmodi
+          <lb ed="#V" n="41"/>est gratia, vel charitas in datione spiritus sancti, sicut
+          color<lb ed="#V" n="42" break="no"/>potest esse sine superficie, non tamen potest dari corpori,
+          ni<lb ed="#V" n="43" break="no"/>si detur sibi superficies, idest nisi habeat superficiem.
+          Ve<lb ed="#V" n="44" break="no"/>rumtamen falsum assumitur, quod omne factibile possit
+          <lb ed="#V" n="45"/>fieri sine omni eo, quod non est illud nec aliquid eius, vt
+          pa<lb ed="#V" n="46" break="no"/>tet de materia respectu formae.
+        </p>
+        <p xml:id="capsco-a2119d-d1e967">
+          <lb ed="#V" n="47"/><milestone ed="#V" unit="p" rend="indent"/> Ad tertiam dicitur negando consequentiam, &amp; ad
+          pro<lb ed="#V" n="48" break="no"/>bationem eius dicitur, quod spiritus sanctus non potest
+          da<lb ed="#V" n="49" break="no"/>ri creaturae, nisi dato alio dono creato eidem creaturae, &amp;
+          <lb ed="#V" n="50"/>hoc non ideo quod creatum donum requiratur ad dandum
+          <lb ed="#V" n="51"/>spiritum sanctum, vel ad condonandum eum, nec ideo, quod
+          <lb ed="#V" n="52"/>spiritus postquam datus est necessario det aliquod donum
+          <lb ed="#V" n="53"/>creatum, sed quia de ratione dationis spiritus sancti est
+          ali<lb ed="#V" n="54" break="no"/>quod distinctum a spiritu sancto, &amp; a Deo, &amp;a creatura
+          cui<lb ed="#V" n="55" break="no"/>datur spiritus sanctus, quod creatura non potest habere
+          ni<lb ed="#V" n="56" break="no"/>si a Deo dante, &amp; est quasi dispositio ad hoc quod spiritus
+          <lb ed="#V" n="57"/>sanctus habeatur, vnde Sanctus Thomas 1. sen. dis. 14. q. 2. arti. 1. in fine
+          <lb ed="#V" n="58"/>dicit sic. Ordo aliquorum secundum naturam potest
+          dupli<lb ed="#V" n="59" break="no"/>citer considerari, aut ex parte recipientis, vel materiae, &amp; sic
+          <lb ed="#V" n="60"/>dispositio est prior quam ad quod disponit, &amp; sic prius
+          reci<lb ed="#V" n="61" break="no"/>pimus dona spiritus sancti quam ipsum spiritum sanctum
+          <lb ed="#V" n="62"/>quia per ipsa dona recepta spiritui sancto assimilamur, aut
+          <lb ed="#V" n="63"/>ex parte agentis, &amp; finis, &amp; sic quod propinquius est fini, &amp;
+          <lb ed="#V" n="64"/>agenti dicitur esse prius, &amp;ita per prius recepimus spiritum
+          <lb ed="#V" n="65"/>sanctum, quam dona eius, quia pater &amp; filius per amorem
+          <lb ed="#V" n="66"/>suum alia nobis donant. Haec ille.
+        </p>
+        <p xml:id="capsco-a2119d-d1e1014">
+          Item ibidem articulo ad
+          <lb ed="#V" n="67"/>secundum. Processio secundum quod hic loquimur
+          clau<lb ed="#V" n="68" break="no"/>dit in se dationem,. &amp; non sufficit, quod sit noua relatio
+          <lb ed="#V" n="69"/>qualiscunque creaturae ad Deum, sed oportet, quod
+          refera<lb ed="#V" n="70" break="no"/>tur in ipsum sicut ad habitum, quia quod datur alicui
+          ha<lb ed="#V" n="71" break="no"/>betur ab illo aliquo modo, persona autem diuina non
+          po<lb ed="#V" n="72" break="no"/>test haberi a nobis nisi, vel ad fructum perfectum, &amp; sic
+          ha<lb ed="#V" n="73" break="no"/>betur per donum gloriae, aut secundum fructum
+          imperfe<lb ed="#V" n="74" break="no"/>ctum, &amp; sic habetur per bonum gratiae gratum facientis,
+          <lb ed="#V" n="75"/>vel potius sicut illud, per quod fruibili coniungimur
+          in<cb ed="#V" n="b"/><lb ed="#V" n="76" break="no"/>quantum ipsae personae diuinae quadam sui sigillatione in
+          <lb ed="#V" n="77"/>animabus nostris, in quibus formaliter fruimur, scilicet
+          a<lb ed="#V" n="78" break="no"/>more, &amp; sapientia, propter quod spiritus sanctus dicitur
+          pi<lb ed="#V" n="79" break="no"/>gnus haereditatis nostrae. Haec ille. Ex quibus patet, quod
+          <lb ed="#V" n="80"/>spiritus sanctus non potest dari sine hoc, quod detur donum
+          <lb ed="#V" n="81"/>creatum, per quod habeatur.
+        </p>
+        <p xml:id="capsco-a2119d-d1e1051">
+          Ad confirmationem dicitur
+          <lb ed="#V" n="82"/>eodem modo, quia consequentia nulla est. Modo ad
+          argu<lb ed="#V" n="83" break="no"/>menta in pede quaestionis dico, ad primum conceditur
+          ma<lb ed="#V" n="84" break="no"/>ior. &amp; negatur minor. non enim processio aliqua spiritus
+          <lb ed="#V" n="85"/>sancti est res temporalis in se, sed temporalis processio
+          dici<lb ed="#V" n="86" break="no"/>tur temporalis, quia non totum, quodimportatur in hoc
+          <lb ed="#V" n="87"/>nomine temporalis, processio enim est aeternum, immo
+          <lb ed="#V" n="88"/>importat aliquid temporale, scilicet respectum nouum, &amp;
+          <lb ed="#V" n="89"/>ideo totum aggregatum ex aeterno, &amp; temporali dicitur
+          <lb ed="#V" n="90"/>temporale, tamen ex illo aeterno, &amp; alio temporali non
+          ef<lb ed="#V" n="91" break="no"/>ficitur vnum per se.
+        </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

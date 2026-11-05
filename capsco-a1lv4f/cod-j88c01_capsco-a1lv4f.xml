@@ -1,0 +1,999 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 1, Distinctio 3, Quaestio 1</title>
+        <author ref="#JohannesCapreolus">Johannes Capreolus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 1, Distinctio 3, Quaestio 1</title>
+          <date when="2026-11-04">Nov 4, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-j88c01">Venice, 1589, v. 1</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-04" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="102"/>
+        <cb ed="#V" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="capsco-a1lv4f"><!-- l1d3q1 -->
+        <head xml:id="capsco-a1lv4f-Hd1e101">Quaestio 1</head>
+        <head xml:id="capsco-a1lv4f-Hd1e103" type="question-title">Utrum unitas Dei ex creaturis demonstrative concludi possit</head>
+        <p xml:id="capsco-a1lv4f-d1e106">
+          <lb ed="#V" n="120"/>DISTINCTIO III.
+          <lb ed="#V" n="121"/>QVAESTIO I.
+          <lb ed="#V" n="122"/>Vtrum vnitas Dei ex creaturis
+          demonstra<lb ed="#V" n="123" break="no"/>tiue concsisdi possit.
+        </p>
+        <p xml:id="capsco-a1lv4f-d1e117">
+          <lb ed="#V" n="124"/><milestone ed="#V" unit="p" rend="initial"/> CIRCA tertiam distinctionem primo
+          <lb ed="#V" n="125"/>quaeritur. An vnitas Dei possit ex
+          crea<lb ed="#V" n="126" break="no"/>turis demonstratiue concludi.
+        </p>
+        <p xml:id="capsco-a1lv4f-d1e127">
+          <lb ed="#V" n="127"/>Et arguitur quod sic. Nam dicit
+          Apo<lb ed="#V" n="128" break="no"/>stolus ad Romanos primo. Inuisibilia
+          <lb ed="#V" n="129"/>Dei, per ea quae facta sunt intellecta
+          <lb ed="#V" n="130"/>conspiciuntur, sed hoc non esset nisi per
+          <lb ed="#V" n="131"/>ea quae facta sunt posset demonstrari
+          <lb ed="#V" n="132"/>Deum esse. Primum enim quod oportet de aliquo
+          intel<lb ed="#V" n="133" break="no"/>lig, est an sit.
+        </p>
+        <p xml:id="capsco-a1lv4f-d1e146">
+          <lb ed="#V" n="134"/><milestone ed="#V" unit="p" rend="indent"/> Et in oppositum arguitur sic. Ea quae sunt fidei non
+          <lb ed="#V" n="135"/>sunt demonstrabilia, sed vnum Deum esse est
+          articu<lb ed="#V" n="136" break="no"/>lus fidei. igitur.
+        </p>
+        <p xml:id="capsco-a1lv4f-d1e156">
+          <lb ed="#V" n="137"/><milestone ed="#V" unit="p" rend="indent"/> In hac quaestione erit vnus articulus in quo taliter
+          pro<lb ed="#V" n="138" break="no"/>cedetur, quod primo ponam rationes Sancti Thomae
+          <lb ed="#V" n="139"/>quibus probat vnum Deum esse prima parte, &amp; primo
+          <lb ed="#V" n="140"/>contra Gentiles. Secundo recitata ratione ponam
+          impu<lb ed="#V" n="141" break="no"/>gnationes Aureoli contra illam. Et tertio replicabitur
+          <lb ed="#V" n="142"/>contra responsionem.
+        </p>
+        <div xml:id="capsco-a1lv4f-Dd1e173">
+          <head xml:id="capsco-a1lv4f-Hd1e175">Articulus 1</head>
+        <p xml:id="capsco-a1lv4f-d1e177">
+          <lb ed="#V" n="143"/><milestone ed="#V" unit="p" rend="indent"/> PRIMA igitur ratio Sancti Thomae in prima parte
+          <lb ed="#V" n="144"/>quaestione secunda articulo tertio talis est.
+          <lb ed="#V" n="145"/>In istis sensibilibus inuenimus esse ordinem
+          causa<lb ed="#V" n="146" break="no"/>rum efficientium, nec tamen inuenitur, nec est possibile
+          <pb ed="#V" n="103"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>quod aliquid sit causa efficiens suiipsius, quia sic esset
+          <lb ed="#V" n="2"/>prius seipso quod est impossibile, non autem est
+          possibi<lb ed="#V" n="3" break="no"/>le quod in causis efficientibus procedatur in infinitum,
+          <lb ed="#V" n="4"/>quia in omnibus causis efficientibus ordinatis primum
+          <lb ed="#V" n="5"/>est causa medii, &amp; medium est causa vltimi, siue media
+          <lb ed="#V" n="6"/>sint plura siue vnum tantum, remota autem causa
+          re<lb ed="#V" n="7" break="no"/>mouetur effectus. ergo si non fuerit primum in causis
+          ef<lb ed="#V" n="8" break="no"/>ficientibus, non erit vltimum nec medium. Sed si
+          proce<lb ed="#V" n="9" break="no"/>datur in infinitum in causis efficientibus, non erit prima
+          <lb ed="#V" n="10"/>causa efficiens, &amp; sic non erit nec effectus vltimus, nec
+          cau<lb ed="#V" n="11" break="no"/>sae efficientes mediae, quod patet esse falsum. ergo necesse
+          <lb ed="#V" n="12"/>est ponere aliquam causam efficientem primam quam
+          om<lb ed="#V" n="13" break="no"/>nes Deum nominant. ergo &amp;c.
+        </p>
+        <p xml:id="capsco-a1lv4f-d1e222">
+          Item secundo sic. Certum
+          <lb ed="#V" n="14"/>est, &amp; sensu constat aliqua moueri in hoc mundo, omne
+          <lb ed="#V" n="15"/>autem quod mouetur, ab alio mouetur, nihil enim
+          moue<lb ed="#V" n="16" break="no"/>tur, nisi secundum quod est in potentia ad illud, ad quod
+          <lb ed="#V" n="17"/>mouetur, mouet autem aliquid secundum quod est actu,
+          <lb ed="#V" n="18"/>mouere enim nihil est aliud quam edncere aliquid de
+          po<lb ed="#V" n="19" break="no"/>tentia in actum, de potentia autem non potest aliquid
+          edu<lb ed="#V" n="20" break="no"/>ci in actum nisi per aliquid ens actu, sicut ignis calidus in
+          <lb ed="#V" n="21"/>actu facit lignum quod est calidum in potentia, esse
+          cali<lb ed="#V" n="22" break="no"/>dum in actu, &amp; per hoc mouet, &amp; alterat ipsum, non est
+          au<lb ed="#V" n="23" break="no"/>tem possibile quod idem sit simul in actu, &amp; in potentia
+          <lb ed="#V" n="24"/>secundum idem, sed solum secundum diuersa, quod enim
+          <lb ed="#V" n="25"/>est calidum in actu non potest esse simul calidum in
+          po<lb ed="#V" n="26" break="no"/>tentia, sed est simul frigidum in potentia. Impossibile est
+          <lb ed="#V" n="27"/>ergo quod idem eodem motu sit mouens, &amp; motum
+          se<lb ed="#V" n="28" break="no"/>cundum idem, vel quod moueat seipsum, oportet ergo
+          <lb ed="#V" n="29"/>omne quod mouetur ab alio moueri, &amp; illud ab alio, hoc
+          <lb ed="#V" n="30"/>autem non est procedere in infinitum: quia sic non esset
+          <lb ed="#V" n="31"/>aliquod primum mouens, &amp; per consequens nec aliquod
+          <lb ed="#V" n="32"/>aliud mouens, quia mouentia secunda non mouent nisi
+          <lb ed="#V" n="33"/>per hoc quod sunt mota a primo mouente, sicut baculus
+          <lb ed="#V" n="34"/>non mouetur nisi per hoc, quod est motus a manu. ergo
+          <lb ed="#V" n="35"/>necesse est deuenire ad aliquod primum mouens quod a
+          <lb ed="#V" n="36"/>nullo mouetur, &amp; hoc omnes intelligunt Deum. Haec
+          il<lb ed="#V" n="37" break="no"/>le.
+        </p>
+        <p xml:id="capsco-a1lv4f-d1e277">
+          Ad ista argumenta dicit Aureolus in praesenti
+          distin<lb ed="#V" n="38" break="no"/>ctione, quod sunt inefficacia, praesertim dicit ad primum,
+          <lb ed="#V" n="39"/>quod illa ratio non dicit nisi ad corpus aeternum, sicut
+          <lb ed="#V" n="40"/>Commentator ait primo coeli, &amp; mundi commen. 22. Ait
+          <lb ed="#V" n="41"/>enim quod via loquentium in lege nostra ad probandum
+          <lb ed="#V" n="42"/>Deum esse, non ducit nisi ad corpus aeternum: vnde
+          dicen<lb ed="#V" n="43" break="no"/>dum est quod in efficientibus est status secundum
+          Philo<lb ed="#V" n="44" break="no"/>sophantes. Est enim dare primum efficiens, &amp; primum
+          al<lb ed="#V" n="45" break="no"/>terans, &amp; illud est corpus coeleste, &amp; est dare primum
+          mo<lb ed="#V" n="46" break="no"/>uens elicitiue, &amp; illud est primus motor coniunctus siue
+          <lb ed="#V" n="47"/>anima primi coeli, &amp; est dare primum mouens per modum
+          <lb ed="#V" n="48"/>finis, &amp; illud est primum principium, de quo aliquid
+          con<lb ed="#V" n="49" break="no"/>cipit motor orbis stellati, &amp; alius motor orbis Saturni, &amp;
+          <lb ed="#V" n="50"/>sic de aliis, vt dicit Commentator 12. Metaphysici
+          com<lb ed="#V" n="51" break="no"/>mento. 44. haec Aureolus in forma. Sed quod ista
+          respon<lb ed="#V" n="52" break="no"/>sio non sufficiat arguitur sic. Nam secundum Aureolum
+          <lb ed="#V" n="53"/>saltem ratio Sancti Thomas concludit quod est dare primum
+          <lb ed="#V" n="54"/>efficiens. Tunc arguitur sic. Aut tale quid primum
+          effi<lb ed="#V" n="55" break="no"/>ciens est causa effectiua omnium aliorum, ita quod nihil
+          <lb ed="#V" n="56"/>sit quod non sit effectum ab eo, aut aliquid est quod non
+          <lb ed="#V" n="57"/>est effectum ab illo primo efficiente. Si primum. habetur
+          <lb ed="#V" n="58"/>propositum quod est vna causa omnium aliorum
+          quorun<lb ed="#V" n="59" break="no"/>cunque effectiua: quam dicimus Deum. Si secundum. ergo
+          <lb ed="#V" n="60"/>sunt duo entia non effecta, scilicet ipsum primum efficiens
+          <lb ed="#V" n="61"/>quod a nullo efficitur, &amp; illud aliud quod ponitur non est
+          <lb ed="#V" n="62"/>effectum ab illo primo efficiente: quia si non est effectum
+          <lb ed="#V" n="63"/>ab eo non potest effici ab aliquo secundorum efficientium,
+          <lb ed="#V" n="64"/>quia illa non agunt nisi mota a primo, &amp; in virtute eius, &amp;
+          <lb ed="#V" n="65"/>sic a nullo erit effectum, sed istud esse falsum probatur
+          de<lb ed="#V" n="66" break="no"/>monstratiue, scilicet quod impossibile sit esse duo non
+          ef<lb ed="#V" n="67" break="no"/>fecta, &amp; hoc per rationes Sancti Thomas secundo contra
+          <lb ed="#V" n="68"/>Gentiles. capitulo 15. sic. Omne quod conuenit alicui non
+          <lb ed="#V" n="69"/>secundum quod ipsum est, per aliquam causam conuenit
+          <lb ed="#V" n="70"/>ei sicut album homini. nam quod causam non habet
+          pri<lb ed="#V" n="71" break="no"/>mum, &amp; immediatum est. vnde necesse est quod sit per se,
+          <lb ed="#V" n="72"/>&amp; secundum quod ipsum, impossibile est autem aliquod
+          <lb ed="#V" n="73"/>vnum duobus conuenire &amp; vtrique secundum quod
+          ip<lb ed="#V" n="74" break="no"/>sum, quod enim de aliquo praedicatur secundum quod
+          ip<lb ed="#V" n="75" break="no"/>sum, non excedit ipsum, sicut habere tres angulos duobus
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="76"/>rectis aequales, non excedit triangulum qui praedicatur
+          ei<lb ed="#V" n="77" break="no"/>dem conuertibiliter. si igitur aliquid duobus conueniat,
+          <lb ed="#V" n="78"/>non vtrique conuenit secundum quod ipsum est.
+          impos<lb ed="#V" n="79" break="no"/>sibile est igitur aliquid vnum de duobus praedicari, ita quod
+          <lb ed="#V" n="80"/>de neutro per causam dicatur, sed oportet vel vnum esse
+          <lb ed="#V" n="81"/>causam alterius, sicut ignis est causa caloris corpori
+          mix<lb ed="#V" n="82" break="no"/>to, cum vtrunque calidum dicatur, vel quod aliquod
+          ter<lb ed="#V" n="83" break="no"/>tium sit causa vtrique, sicut duabus candelis accensis ignis
+          <lb ed="#V" n="84"/>est causa lucendi, esse autem dicitur de omni eo quod est,
+          <lb ed="#V" n="85"/>impossibile est igitur esse aliqua duo, quorum neutrum
+          <lb ed="#V" n="86"/>habeat causam essendi, sed oportet vtrunque acceptorum
+          <lb ed="#V" n="87"/>esse per causam vel alterum alteri esse causam essendi,
+          opor<lb ed="#V" n="88" break="no"/>tet igitur quod ab illo cui nihil est causa essendi sit omne
+          <lb ed="#V" n="89"/>aliud quod quocunque modo est, est autem aliquid cui
+          <lb ed="#V" n="90"/>nihil est causa essendi. ab eo igitur est omne quod
+          quocun<lb ed="#V" n="91" break="no"/>que modo est.
+        </p>
+        <p xml:id="capsco-a1lv4f-d1e399">
+          Si autem dicatur quod ens non praedicatur
+          <lb ed="#V" n="92"/>vniuoce, nihilominus sequitur dicta conclusio, non enim
+          <lb ed="#V" n="93"/>de multis aequiuoce dicitur sed analogice. Haec ille in
+          for<lb ed="#V" n="94" break="no"/>ma. Consimilem rationem ponit de potentia Dei
+          quae<lb ed="#V" n="95" break="no"/>stione tertia articulo quinto sit dicens. Oportet si aliquid
+          <lb ed="#V" n="96"/>vnum inuenitur in pluribus, quod ab aliqua vna causa in
+          <lb ed="#V" n="97"/>illis causetur, non enim potest esse quod illud commune
+          <lb ed="#V" n="98"/>vtrique ex seipso conueniat cum vtrunque secundum quod
+          <lb ed="#V" n="99"/>ipsum est distinguatur ab alio, &amp; diuersitas causarum
+          di<lb ed="#V" n="100" break="no"/>uersos effectus inducat, cum igitur esse inueniatur in
+          om<lb ed="#V" n="101" break="no"/>nibus rebus, quae secundum illud quod sunt, adinuicem
+          di<lb ed="#V" n="102" break="no"/>stinguuntur, oportet quod in eis non ex seipsis, sed ex
+          ali<lb ed="#V" n="103" break="no"/>qua causa esse tribuatur, &amp; ista videtur esse ratio Platonis
+          <lb ed="#V" n="104"/>qui voluit quod ante omnem multitudinem esset vnitas
+          <lb ed="#V" n="105"/>non solum in numeris, sed etiam in rerum naturis. Haec
+          <lb ed="#V" n="106"/>ille.
+        </p>
+        <p xml:id="capsco-a1lv4f-d1e435">
+          Ex quibus patet, quod impossibile est esse aliqua duo
+          <lb ed="#V" n="107"/>non effecta praecipue diuersarum rationum, sicut ponunt
+          <lb ed="#V" n="108"/>illi Philosophi, quorum est dicta solutio ab Aureolo
+          reci<lb ed="#V" n="109" break="no"/>tata. Si autem dicerent quod illa duo essent eiusdem
+          ra<lb ed="#V" n="110" break="no"/>tionis. dicerent contra Philosophum, qui vult 11.
+          Metaphy<lb ed="#V" n="111" break="no"/>sicae quod primum principium non potest multiplicari:
+          <lb ed="#V" n="112"/>quia non habet materiam, &amp; praeter hoc sunt multae
+          ratio<lb ed="#V" n="113" break="no"/>nes contra hoc. non enim posset fingi quod essent in illa
+          <lb ed="#V" n="114"/>specie, quia cum quodlibet eorum esset necesse esse, &amp; in
+          <lb ed="#V" n="115"/>talibus non differt esse, &amp; posse esse, tot essent talia, quot
+          <lb ed="#V" n="116"/>possent esse. Et sic patet quod data responsio est contra
+          <lb ed="#V" n="117"/>philosophiam, non solum contra fidem &amp; veritatem.
+          For<lb ed="#V" n="118" break="no"/>te posset aliter dici ad principalem rationem, quod
+          scili<lb ed="#V" n="119" break="no"/>cet non est inconueniens, quod sit processus in infinitum
+          <lb ed="#V" n="120"/>in causis efficientibus &amp; mobilibus, &amp; quod nulla earum
+          <lb ed="#V" n="121"/>est prima, &amp; ad probationem ibidem factam diceretur,
+          <lb ed="#V" n="122"/>quod sicut in partibus proportionalibes continui isto
+          mo<lb ed="#V" n="123" break="no"/>do signatis, quod scilicet secunda medietas continui sit
+          <lb ed="#V" n="124"/>vltima pars proportionalis, &amp; secunda medietas primae
+          <lb ed="#V" n="125"/>mediatatis sit secunda pars proportionalis, &amp; secunda
+          me<lb ed="#V" n="126" break="no"/>dietas residuae praecedentis sit tertia pars
+          proportiona<lb ed="#V" n="127" break="no"/>lis, &amp; sic in illis (inquam) partibus proportionalibus est
+          <lb ed="#V" n="128"/>vltimam signare, non tamen primam simpliciter, ita in
+          cau<lb ed="#V" n="129" break="no"/>sis efficientibus &amp; mobilibus est vltima, non autem aliqua
+          <lb ed="#V" n="130"/>simpliciter prima, &amp; tamen in eis est ordo. Dicitur quod
+          <lb ed="#V" n="131"/>instantia nulla est, quia in ordine partium
+          proportiona<lb ed="#V" n="132" break="no"/>lium praecedens non est causa posterioris, secus est in
+          or<lb ed="#V" n="133" break="no"/>dine causarum dicto modo ordinatarum, nec in ordine
+          il<lb ed="#V" n="134" break="no"/>larum partium posterior dependet a prima essentialiter.
+          <lb ed="#V" n="135"/>ideo instantia non valet. Et si dicatur quod ista
+          proposi<lb ed="#V" n="136" break="no"/>tio, in causis essentialiter ordinatis primum est causa
+          me<lb ed="#V" n="137" break="no"/>dii &amp;c. Ista non habet euidentiam a ponente infinitatem
+          <lb ed="#V" n="138"/>causarum, immo ille diceret quod sic arguens petit
+          prin<lb ed="#V" n="139" break="no"/>cipium, diceret enim quod licet in tali ordine prius sit
+          cau<lb ed="#V" n="140" break="no"/>sa posterioris, non tamen primum est causa medii: quia
+          <lb ed="#V" n="141"/>ibi nullum est primum. Sed hoc non valet, quia accepta
+          <lb ed="#V" n="142"/>tota multitudine causarum mouentium praeter illam, quae
+          <lb ed="#V" n="143"/>est proxima effectui, quaeritur aut tota ista multitudo est
+          <lb ed="#V" n="144"/>mouens, &amp; mota, aut aliqua pars eius est mouens, &amp; non
+          <lb ed="#V" n="145"/>mota. Si secundum. igitur est ibi dare primam causam
+          mo<lb ed="#V" n="146" break="no"/>uentem quae mouet alias, &amp; non mouetur ab alia: quia
+          <lb ed="#V" n="147"/>omnes illae causae sunt adinuicem ordinatae, ita quod
+          poste<lb ed="#V" n="148" break="no"/>rior mouetur a priore. si detur primum arguitur sic. Tota
+          <lb ed="#V" n="149"/>ista multitudo est mouens mota. igitur se habet in
+          ratio<lb ed="#V" n="150" break="no"/>ne vnius mouentis moti vltra. igitur aliquid extra istam
+          <pb ed="#V" n="104"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>multitudinem monet illam &amp; a nullo mouetur, &amp; sic
+          ha<lb ed="#V" n="2" break="no"/>betur propositum.
+        </p>
+        <p xml:id="capsco-a1lv4f-d1e542">
+          Nec valet si dicatur, quod tota
+          multitu<lb ed="#V" n="3" break="no"/>do numerorum excedentium, &amp; excessorum, est excessa,
+          <lb ed="#V" n="4"/>&amp; tamen a nullo est excessa, quia nec a numero finito, nec
+          <lb ed="#V" n="5"/>ab infinito. Hoc non valet: quia illa totalis multitudo
+          nu<lb ed="#V" n="6" break="no"/>merorum excessorum. &amp; excedentium, non ex hoc habet
+          <lb ed="#V" n="7"/>quod excedat quia exceditur, sed totalis multitudo
+          cau<lb ed="#V" n="8" break="no"/>sarum mouentium, &amp; motarum non aliunde mouet, nisi
+          <lb ed="#V" n="9"/>quia mouetur. vnde remoto mouente illarum, remouetur
+          <lb ed="#V" n="10"/>aliquid moueri ab illa, non sic in numeris: quia non ex hoc
+          <lb ed="#V" n="11"/>illa multitudo excedit, quia exceditur, ideo non oportet
+          <lb ed="#V" n="12"/>quod sit aliquo excessa. Et si dicatur: quia non plus
+          appa<lb ed="#V" n="13" break="no"/>ret euidens quod omnis multitudo mouens mota ab
+          ali<lb ed="#V" n="14" break="no"/>quo mouetur, quam quod omnis multitudo excedens
+          ex<lb ed="#V" n="15" break="no"/>cessa ab aliquo excedatur. Dicitur quod non est simile:
+          <lb ed="#V" n="16"/>quia omnis multitudo mouens quantacunque sit, ex quo
+          <lb ed="#V" n="17"/>mouet, oportet quod sit in actu, &amp; similiter ex quo
+          mo<lb ed="#V" n="18" break="no"/>uetur est in actu aliqualiter: sed non oportet quod sit
+          da<lb ed="#V" n="19" break="no"/>re in actu totam multitudinem numerorum excessorum:
+          <lb ed="#V" n="20"/>quia illi sunt in potentia pro maiori parte, &amp; nullo modo
+          <lb ed="#V" n="21"/>in actu. Istud autem quod est in actu secundum se totum
+          <lb ed="#V" n="22"/>potest accipi vt vnum, non autem illud quod est in
+          poten<lb ed="#V" n="23" break="no"/>tia, ideoque finaliter dico quod non oportet totam
+          mul<lb ed="#V" n="24" break="no"/>titudinem numerorum, quorum quilibet est excessus esse
+          <lb ed="#V" n="25"/>excessam, sed oportet totam multitudinem mobilium, quae
+          <lb ed="#V" n="26"/>mouent ab aliquo moueri, &amp; praesertim quia diuersa
+          in<lb ed="#V" n="27" break="no"/>quantum huiusmodi non conueniunt in aliquem ordinem,
+          <lb ed="#V" n="28"/>sed oportet hoc esse ab aliquo vno quod per se intendit
+          il<lb ed="#V" n="29" break="no"/>lum ordinem. igitur in ordine mouentium &amp; motorum
+          <lb ed="#V" n="30"/>dicto modo ordinatorum oportet deuenire ad aliquid
+          <lb ed="#V" n="31"/>quod non mouetur, &amp; est causa illius ordinis, &amp; hoc est
+          <lb ed="#V" n="32"/>Deus.
+        </p>
+        <p xml:id="capsco-a1lv4f-d1e610">
+          Item quandocunque multa agentia mouent mota,
+          <lb ed="#V" n="33"/>ex hoc quod mota totalis multitudo eorum est quid
+          po<lb ed="#V" n="34" break="no"/>tentiale ad sic mouendum: quia hoc paret in quacunque
+          <lb ed="#V" n="35"/>multitudine finita, nec hoc potest negari nisi
+          proteruien<lb ed="#V" n="36" break="no"/>do in multitudine infinita. Sed omne potentiale ad hoc quod
+          <lb ed="#V" n="37"/>exeat in actum indiget aliquo ente actu quod illud
+          redu<lb ed="#V" n="38" break="no"/>cat in actum.
+        </p>
+        <p xml:id="capsco-a1lv4f-d1e626">
+          Item ante omne potentiale, est aliquid
+          actua<lb ed="#V" n="39" break="no"/>le, cum actus simpliciter praecedat. 9. Metaphysicae, sed
+          to<lb ed="#V" n="40" break="no"/>ta illa multitudo est quid potentiale cum mouetur. ergo
+          <lb ed="#V" n="41"/>est aliquis actus immobilis illa praecedens. Secunda ratio
+          <lb ed="#V" n="42"/>Sancti Thomae ad probandum vnum Deum esse talis est. In
+          re<lb ed="#V" n="43" break="no"/>bus inueniuntur diuersi gradus, inuenitur enim aliquid
+          <lb ed="#V" n="44"/>magis bonum, &amp; aliquid minus bonum, verum, nobile, &amp;
+          <lb ed="#V" n="45"/>sic de aliis huiusmodi, sed magis &amp; minus dicuntur de
+          di<lb ed="#V" n="46" break="no"/>uersis, secundum quod appropinquant diuersimode ad
+          <lb ed="#V" n="47"/>aliquid, quod est maxime tale, sicut magis calidum est, quod
+          <lb ed="#V" n="48"/>magis appropinquat maxime calido. est igitur aliquid quod
+          <lb ed="#V" n="49"/>est verissimum, &amp; optimum, &amp; nobilissimum, &amp; per
+          con<lb ed="#V" n="50" break="no"/>sequens maxime ens. nam quae sunt maxime vera sunt
+          ma<lb ed="#V" n="51" break="no"/>xime entia vt dicitur secundo Metaphysicae. Quod autem
+          <lb ed="#V" n="52"/>dicitur maximum in aliquo genere est causa omnium quae
+          <lb ed="#V" n="53"/>sunt illius generis, sicut ignis qui est maxime calidus, est
+          <lb ed="#V" n="54"/>causa omnium calidorum, vt in eodem libro dicitur. Est
+          <lb ed="#V" n="55"/>enim aliquid quod est causa esse, &amp; bonitatis, &amp;
+          cuiusli<lb ed="#V" n="56" break="no"/>bet perfectionis rebus omnibus, &amp; hoc dicimus Deum.
+          <lb ed="#V" n="57"/>Haec ille.
+        </p>
+        <p xml:id="capsco-a1lv4f-d1e670">
+          Ad hanc rationem dicit Aureolus, quod non est
+          <lb ed="#V" n="58"/>multum efficax: nam albedo est mensura colorum &amp;
+          ma<lb ed="#V" n="59" break="no"/>ximum in illo genere, &amp; colores sunt magis, &amp; minus
+          no<lb ed="#V" n="60" break="no"/>biles per accessum ad albedinem, nec tamen eos effectiue
+          <lb ed="#V" n="61"/>producit. vnde non est vniuersaliter verum mensuram
+          es<lb ed="#V" n="62" break="no"/>se causam mensuratorum. Haec ille.
+        </p>
+        <p xml:id="capsco-a1lv4f-d1e683">
+          Sed quod ista
+          respon<lb ed="#V" n="63" break="no"/>sio argumentum non infringat, nec instantia quam fert
+          <lb ed="#V" n="64"/>aduersus maximam Philosophi valet, sicut enim dicit
+          San<lb ed="#V" n="65" break="no"/>ctus Thomas de potentia Dei quaestione septima articulo
+          <lb ed="#V" n="66"/>quarto. Accidentia non sunt entia, nisi per relationem ad
+          <lb ed="#V" n="67"/>substantiam, quae est primum ens, &amp; ideo non oportet quod
+          <lb ed="#V" n="68"/>efficiantur vel mensurentur aliquo primo quod est
+          acci<lb ed="#V" n="69" break="no"/>dens, sed aliquo primo quod est substantia, &amp; hoc
+          loquen<lb ed="#V" n="70" break="no"/>do de mensura prima, &amp; quo ad entitatem, licet
+          mensu<lb ed="#V" n="71" break="no"/>rentur aliqua mensura proxima sui generis, scilicet
+          albedi<lb ed="#V" n="72" break="no"/>ne, quae est maxima in genere colorum: quia
+          superabun<lb ed="#V" n="73" break="no"/>dat aliis quantum ad lucem, quae est formale in
+          composi<lb ed="#V" n="74" break="no"/>tione coloris, &amp; secundum hoc est mensura aliorum
+          co<lb ed="#V" n="75" break="no"/>lorum, vt dicit Sanctus Thomas de veritate quaestione
+          secun<cb ed="#V" n="b"/><lb ed="#V" n="76" break="no"/>da articulo quarto ad quartum. Dicit enim ibidem, quod
+          <lb ed="#V" n="77"/>albedo non est mensura colorum quo ad materiale.
+          scili<lb ed="#V" n="78" break="no"/>cet quo ad terminationem diaphani. vnde in specie
+          albe<lb ed="#V" n="79" break="no"/>dinis non inuenitur totum quod in aliis coloribus
+          inue<lb ed="#V" n="80" break="no"/>nitur: vnde alii colores non sunt in albedine sicut in
+          cau<lb ed="#V" n="81" break="no"/>sa. Haec ille aliquibus additis. Aristoteles etiam ponens
+          <lb ed="#V" n="82"/>praedictam maximam loquebatur de principiis vltimis
+          <lb ed="#V" n="83"/>scilicet de motoribus coelorum, qui sunt omnibus causa
+          <lb ed="#V" n="84"/>in esse, &amp; veritate secundum quod exponit
+          Commenta<lb ed="#V" n="85" break="no"/>tor in secundo Metaphysicae commento quarto. Non
+          va<lb ed="#V" n="86" break="no"/>let igitur instantia de accidentibus, quorum nullum est
+          <lb ed="#V" n="87"/>mensura prima, nec primum principium alicuius.
+          Quo<lb ed="#V" n="88" break="no"/>modo autem intelligatur dicta maxima Philosophi
+          osten<lb ed="#V" n="89" break="no"/>dit Sanctus Thomas super eodem secundo Metaphysicae
+          <lb ed="#V" n="90"/>dicens. Vnumquodque inter alia dicitur maximum, ex
+          <lb ed="#V" n="91"/>quo causatur in aliis aliquod vniuoce praedicatum de eis,
+          <lb ed="#V" n="92"/>sicut ignis est causa caloris in elementis: vnde cum calor
+          <lb ed="#V" n="93"/>dicatur vniuoce de igne, &amp; de elementatis corporibus,
+          <lb ed="#V" n="94"/>sequitur quod ignis sit calidissimus, facit autem Aristoteles
+          <lb ed="#V" n="95"/>mentionem de vniuocatione: quia quandoque
+          contin<lb ed="#V" n="96" break="no"/>git quod effectus non peruenit ad similitudinem causae,
+          <lb ed="#V" n="97"/>secundum eandem rationem speciei propter
+          excellen<lb ed="#V" n="98" break="no"/>tiam ipsius causae, sicut sol est causa caloris in istis
+          inferio<lb ed="#V" n="99" break="no"/>ribus, nec tamen corpora inferiora possunt recipere
+          im<lb ed="#V" n="100" break="no"/>pressionem solis, aut aliorum corporum coelestium
+          se<lb ed="#V" n="101" break="no"/>cundum eandem rationem speciei, cum non
+          communi<lb ed="#V" n="102" break="no"/>cent in materia, &amp; propter hoc non dicimus solem esse
+          ca<lb ed="#V" n="103" break="no"/>lidissimum sicut ignem, sed dicimus solem esse aliquid
+          <lb ed="#V" n="104"/>amplius quam calidissimum, nomen autem veritatis non
+          <lb ed="#V" n="105"/>est proprium alicui speciei, sed se habet communiter ad
+          <lb ed="#V" n="106"/>omnia entia: vnde illud quod est causa veritatis est
+          cau<lb ed="#V" n="107" break="no"/>sa communicans cum effectu in nomine, &amp; ratione
+          com<lb ed="#V" n="108" break="no"/>muni, sequitur quod illud quod est posterioribus causa,
+          <lb ed="#V" n="109"/>vt sint vera, sit verissimum. Haec ille.
+        </p>
+        <p xml:id="capsco-a1lv4f-d1e790">
+          Ex quo patet, quod
+          <lb ed="#V" n="110"/>mens Philosophi est, quod omnia quae communicant in
+          <lb ed="#V" n="111"/>aliqua ratione generis, reducuntur ad aliquod principium,
+          <lb ed="#V" n="112"/>quod summe participat rationem illius generis, vel
+          ali<lb ed="#V" n="113" break="no"/>quid perfectius ratione illius generis, sicut omnia calida
+          <lb ed="#V" n="114"/>ad aliquid calidissimum, vel perfectius quam si esset
+          cali<lb ed="#V" n="115" break="no"/>dissimum, &amp; omnia colorata ad aliquid coloratissimum
+          <lb ed="#V" n="116"/>vel perfectius quam coloratissimum, &amp; sic de caeteris. Et
+          <lb ed="#V" n="117"/>constat quod loquebatur de principio effectiuo, &amp; non
+          <lb ed="#V" n="118"/>de fine, sicut patet in suo exemplo posito de igne
+          respe<lb ed="#V" n="119" break="no"/>ctu calefactibilium.
+        </p>
+        <p xml:id="capsco-a1lv4f-d1e814">
+          <lb ed="#V" n="120"/><milestone ed="#V" unit="p" rend="indent"/> Tertia ratio Sancti Thomae talis est vbi supra, scilicet
+          <lb ed="#V" n="121"/>prima parte, &amp; de potentia Dei. Videmus (inquit) quod
+          <lb ed="#V" n="122"/>aliqua quae cognitione carent, scilicet corpora naturalia
+          <lb ed="#V" n="123"/>operantur propter finem, quod apparet ex hoc quod
+          sem<lb ed="#V" n="124" break="no"/>per, aut frequentius eodem modo operantur, vt
+          conse<lb ed="#V" n="125" break="no"/>quantur illud quod est optimum. Ex quo patet quod non
+          <lb ed="#V" n="126"/>casu sed ex intentione perueniunt ad finem, ea autem quae
+          <lb ed="#V" n="127"/>non habent cognitionem non intendunt finem, nisi
+          dire<lb ed="#V" n="128" break="no"/>cta ab aliquo cognoscente, &amp; intelligente, sicut sagitta a
+          <lb ed="#V" n="129"/>sagittatore. ergo est aliquis intellectus a quo omnes res
+          <lb ed="#V" n="130"/>naturales ordinantur ad finem, &amp; hunc dicimus Deum.
+          <lb ed="#V" n="131"/>Haec ille in forma.
+        </p>
+        <p xml:id="capsco-a1lv4f-d1e844">
+          <lb ed="#V" n="132"/><milestone ed="#V" unit="p" rend="indent"/> Ad hanc rationem dicit Aureolus quod non
+          demon<lb ed="#V" n="133" break="no"/>strat. diceretur enim quod omnia diriguntur in finem, &amp;
+          <lb ed="#V" n="134"/>inclinantur ex formis suis, &amp; propriis naturis, nec
+          indi<lb ed="#V" n="135" break="no"/>gent aliquo extrinseco imprimente istam inclinationem,
+          <lb ed="#V" n="136"/>&amp; ideo non probaretur ex hoc, vel per hoc aliquis
+          extrin<lb ed="#V" n="137" break="no"/>secus intellectus omnia producens. Et si dicatur quod
+          <lb ed="#V" n="138"/>tunc ordo vniuersi erit a casu dicendum quod non,
+          im<lb ed="#V" n="139" break="no"/>mo erit per se, cum oriatur ex quidditatibus rerum. Haec
+          <lb ed="#V" n="140"/>ille. Sed ista responsio nulla erit, vt ostendit Sanctus
+          <lb ed="#V" n="141"/>Thomas de veritate quaestione quinta articulo secundo
+          <lb ed="#V" n="142"/>vbi improbat illud quod ponit ista responsio, scilicet quod
+          <lb ed="#V" n="143"/>omnia procedant ex necessitate causarum praecedentium,
+          <lb ed="#V" n="144"/>scilicet agentis, vel materiae, &amp; consequenter ex
+          necessi<lb ed="#V" n="145" break="no"/>tate formae quam agens imprimit, arguit enim sic.
+          Cau<lb ed="#V" n="146" break="no"/>sa materialis, &amp; agens inquantum huiusmodi, sunt causa
+          <lb ed="#V" n="147"/>essendi ipsi effectui, non autem sufficiunt ad causandum
+          <lb ed="#V" n="148"/>bonitatem in effectu, secundum quam sit conueniens, &amp; in
+          <lb ed="#V" n="149"/>seipso vt possit permanere, &amp; vt alijs opituletur, verbi
+          gra<lb ed="#V" n="150" break="no"/>tia, calor de sui ratione quantum est de se habet
+          dissolu<pb ed="#V" n="105"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>re, dissolutio autem non est bona, &amp; conueniens nisi vsque
+          <lb ed="#V" n="2"/>ad certum terminum &amp; modum, vnde si non poneremus
+          <lb ed="#V" n="3"/>aliam causam praeter calorem, &amp; huiusmodi agentia in
+          na<lb ed="#V" n="4" break="no"/>tura, non possemus assignare causam quare res
+          conuenien<lb ed="#V" n="5" break="no"/>ter fiunt &amp; bene, omne autem quod non habet
+          determi<lb ed="#V" n="6" break="no"/>natam causam a casu accidit, vnde oporteret secundum
+          <lb ed="#V" n="7"/>praedictam positionem vt omnes conuenientiae &amp; vtilitates
+          <lb ed="#V" n="8"/>quae inueniuntur in rebus essent casuales. Haec ille in
+          for<lb ed="#V" n="9" break="no"/>ma.
+        </p>
+        <p xml:id="capsco-a1lv4f-d1e910">
+          Ex quibus patet, quod natura rei non cognoscentis,
+          <lb ed="#V" n="10"/>non sufficit ad hoc quod rerum operationes sint
+          conuenien<lb ed="#V" n="11" break="no"/>tes ipsis naturis rerum, &amp; cum hoc sint vtiles, &amp; bonae, ac
+          <lb ed="#V" n="12"/>conuenientes alijs, nunc isto modo, nunc illo, nunc
+          secun<lb ed="#V" n="13" break="no"/>dum istam actionem, nunc secundum aliam, istas
+          verun<lb ed="#V" n="14" break="no"/>tamen vtilitates videmus semper, aut in maiori parte
+          acci<lb ed="#V" n="15" break="no"/>dere in operibus naturae, vnde oportet quod praeexistat
+          <lb ed="#V" n="16"/>aliquis intellectus qui res naturales in finem ordinet ad
+          <lb ed="#V" n="17"/>modum quo sagittator dat sagittae certum motum vt
+          ten<lb ed="#V" n="18" break="no"/>dat ad determinatum finem, vnde sicut percussio, quae fit
+          <lb ed="#V" n="19"/>per sagittam non tantum dicitur opus sagittae, sed
+          proijcien<lb ed="#V" n="20" break="no"/>tis, ita etiam omne opus naturae dicitur a Philosophis opus
+          <lb ed="#V" n="21"/>intelligentiae, vt dicit Sanctus Thomas ibidem. Eandem
+          nihi<lb ed="#V" n="22" break="no"/>lominus responsionem improbat aliter tertio contra
+          Gen<lb ed="#V" n="23" break="no"/>tiles. c. 64. scilicet probando quod natura rerum &amp;
+          quid<lb ed="#V" n="24" break="no"/>ditas non sufficit ad hoc vt res determinatos fines
+          inten<lb ed="#V" n="25" break="no"/>dant. Et idem probat de veritate vbi supra. Arguit ergo
+          <lb ed="#V" n="26"/>sic. Ea quae secundum suam naturam sunt distincta, in vnum
+          <lb ed="#V" n="27"/>ordinem non conueniunt, nisi ab vno ordinante
+          colligan<lb ed="#V" n="28" break="no"/>tur in vnum, in vniuersitate autem rerum sunt res
+          contra<lb ed="#V" n="29" break="no"/>rias &amp; distinctas naturas habentes, quae tamen omnes in
+          <lb ed="#V" n="30"/>vnum ordinem conueniunt, cum quaedam operationes
+          quo<lb ed="#V" n="31" break="no"/>rundam excipiunt, quaedam autem a quibusdam iuuantur
+          <lb ed="#V" n="32"/>vel illis cooperantur: oportet ergo quod vnus sit
+          vniuerso<lb ed="#V" n="33" break="no"/>rum gubernator &amp; rector, vnde virtute maioris huius
+          ar<lb ed="#V" n="34" break="no"/>gumenti Philosophi posuerunt animam esse armoniam
+          pro<lb ed="#V" n="35" break="no"/>pter conseruationem contrariorum in corpore animalis.
+        </p>
+        <p xml:id="capsco-a1lv4f-d1e969">
+          <lb ed="#V" n="36"/>Ex quibus patet quod nullus daret responsionem quam
+          <lb ed="#V" n="37"/>iste fingit. Quarta ratio Sancti Thomae talis est. Inuenimus
+          <lb ed="#V" n="38"/>(inquit) in rebus quaedam quae sunt possibilia esse &amp; non
+          <lb ed="#V" n="39"/>esse, impossibile est autem omnia quae sunt talia semper
+          es<lb ed="#V" n="40" break="no"/>se, quia quod possibile est non esse, quandoque non est: si
+          <lb ed="#V" n="41"/>igitur omnia sunt possibilia non esse, aliquando nihil fuit
+          <lb ed="#V" n="42"/>in rebus, sed si hoc est verum etiam nunc nihil esset, quia
+          <lb ed="#V" n="43"/>quod nihil est non incipit esse, nisi per aliquid quod est, si
+          <lb ed="#V" n="44"/>igitur nihil fuit ens, impossibile fuit quod aliquid
+          incipe<lb ed="#V" n="45" break="no"/>ret esse &amp; modo nihil esset, quod patet esse falsum, non
+          igi<lb ed="#V" n="46" break="no"/>tur omnia entia sunt possibilia, sed oportet aliquid esse
+          ne<lb ed="#V" n="47" break="no"/>cessarium in rebus, omne autem necessarium vel habet
+          cau<lb ed="#V" n="48" break="no"/>sam suae necessitatis aliunde vel non habet, non est autem
+          <lb ed="#V" n="49"/>possibile quod procedatur in infinitum in necessarijs, quae
+          <lb ed="#V" n="50"/>habent causam suae necessitatis, sicut nec in causis
+          efficien<lb ed="#V" n="51" break="no"/>tibus vt probatum est: ergo necesse est ponere aliquid, quod
+          <lb ed="#V" n="52"/>est per se necessarium non habens causam suae necessitatis
+          <lb ed="#V" n="53"/>aliunde, sed quod est causa necessitatis alijs, &amp; hoc
+          dici<lb ed="#V" n="54" break="no"/>mus Deum. Haec ille in forma. Ad hanc rationem dicit
+          <lb ed="#V" n="55"/>Aureolus, quod Philosophi negarent quod necessaria
+          ha<lb ed="#V" n="56" break="no"/>berent causam suae necessitatis efficientem vel
+          conseruan<lb ed="#V" n="57" break="no"/>tem, quamuis concederent quod haberent causam finalem
+          <lb ed="#V" n="58"/>&amp; extra rem, propter quod illa non demonstrarent eis vnum
+          <lb ed="#V" n="59"/>efficiens, haec Aureolus. Sed ista responsio non valet,
+          prae<lb ed="#V" n="60" break="no"/>dictum enim est superius per rationes Sancti Thomas quod
+          <lb ed="#V" n="61"/>impossibile est aliquid esse quod non sit a Deo, sicut ab
+          ef<lb ed="#V" n="62" break="no"/>ficiente primo, quod etiam &amp; nunc probatur per rationes
+          <lb ed="#V" n="63"/>eiusdem de potentia Dei. q. 3. artic. 5. Cum aliquid
+          inue<lb ed="#V" n="64" break="no"/>nitur a pluribus diuersimode participatum, oportet quod
+          <lb ed="#V" n="65"/>ab eo in quo perfectissime inuenitur attribuatur omnibus
+          <lb ed="#V" n="66"/>illis in quibus imperfectius inuenitur: nam ea quae
+          politi<lb ed="#V" n="67" break="no"/>ue secundum magis &amp; minus dicuntur, hoc habent ex
+          re<lb ed="#V" n="68" break="no"/>motiori vel propinquiori ad vnum, si enim vnicuique
+          eo<lb ed="#V" n="69" break="no"/>rum ex seipso illud conueniret, non perfectius in vno quam
+          <lb ed="#V" n="70"/>in alio inueniretur, sicut videmus quod ignis qui est in
+          fi<lb ed="#V" n="71" break="no"/>ne caliditatis est principium caloris omnibus calidis, est
+          <lb ed="#V" n="72"/>autem ponere vnum ens quod est perfectissimum &amp;
+          veris<lb ed="#V" n="73" break="no"/>simum ens, quod ex hoc probatur, quia est aliquod mouens
+          <lb ed="#V" n="74"/>omnino immobile &amp; perfectissimum vt a Philosophis est
+          <lb ed="#V" n="75"/>probatum, oportet igitur quod omnia illa minus perfecta
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="76"/>ab ipso esse recipiant, &amp; haec est probatio philosophi2.
+          Me<lb ed="#V" n="77" break="no"/>taphys.
+        </p>
+        <p xml:id="capsco-a1lv4f-d1e1065">
+          Item illud quod est peralterum, reducitur sicut in
+          <lb ed="#V" n="78"/>causam in illud quod est per se, vnde si esset vnus calor per
+          <lb ed="#V" n="79"/>se existens oporteret ipsum esse causam omnium
+          calido<lb ed="#V" n="80" break="no"/>rum, quae per modum participationis habent calorem, est
+          <lb ed="#V" n="81"/>autem ponere aliquod ens quod est ipsum suum esse, quod
+          <lb ed="#V" n="82"/>ex hoc probatur, quia oportet esse aliquod primum ens
+          <lb ed="#V" n="83"/>quod sit actus purus, in quo nulla sit compositio, vnde
+          opor<lb ed="#V" n="84" break="no"/>tet quod ab illo vno ente omnia alia sint quaecunque non
+          <lb ed="#V" n="85"/>sunt suum esse, sed habent per modum participationis.
+          <lb ed="#V" n="86"/>Haec ille.
+        </p>
+        <p xml:id="capsco-a1lv4f-d1e1088">
+          Ex quibus patet, quod impossibile est, &amp;
+          contra<lb ed="#V" n="87" break="no"/>veram philosophiam esse aliqua necessaria, quorum vnum
+          <lb ed="#V" n="88"/>non sit productum ab alio, nec econtra, sicut iste fingit
+          di<lb ed="#V" n="89" break="no"/>cere Philosophos de coelis &amp; eorum motoribus, quorum
+          <lb ed="#V" n="90"/>nullum dependet a primo ente nisi in genere causae finalis.
+          <lb ed="#V" n="91"/>Quod iterum probatur esse contra philosophiam, scilicet
+          <lb ed="#V" n="92"/>quod aliqua necessaria habeant causam finalem, &amp; non
+          ef<lb ed="#V" n="93" break="no"/>ficientem, vtputa quod primum sit finis &amp; non efficiens.
+          <lb ed="#V" n="94"/>Arguitur igitur sic. Secundum Philosophos &amp; veritatem
+          <lb ed="#V" n="95"/>primum mouens &amp; agens est vltimus finis: ergo solutio
+          il<lb ed="#V" n="96" break="no"/>la nulla est a quocunque detur: tenet consequentia, quia
+          <lb ed="#V" n="97"/>secundum hoc ille vltimus finis non solum mouet
+          motio<lb ed="#V" n="98" break="no"/>ne per modum finis, sed motione efficientis. Assumptum
+          <lb ed="#V" n="99"/>probat sic Sanctus Thomas de malo. q. 1. artic. 1. c.
+          Appeti<lb ed="#V" n="100" break="no"/>bile mouet appetitum: primum autem mouens oportet
+          <lb ed="#V" n="101"/>esse omnino non motum: ergo necesse est quod primum
+          <lb ed="#V" n="102"/>&amp; vniuersale agens sit ipsum primum &amp; vniuersale appet
+          <lb ed="#V" n="103"/>bile, id est primum &amp; vniuersale bonum, quod omnia
+          ope<lb ed="#V" n="104" break="no"/>ratur propter appetitum sui ipsius. Haec ille.
+        </p>
+        <p xml:id="capsco-a1lv4f-d1e1130">
+          Et primo
+          con<lb ed="#V" n="105" break="no"/>tra Gentiles cap. 75. probat idem assumptum. Et similiter
+          <lb ed="#V" n="106"/>prima parte. q. 44. artic. 4. sic. Omne agens agit propter
+          fi<lb ed="#V" n="107" break="no"/>nem, aliter ex actione agentis non magis sequeretur hoc
+          <lb ed="#V" n="108"/>quam illud, nisi a casu, est autem idem finis a gentis &amp;
+          pa<lb ed="#V" n="109" break="no"/>tientis inquantum huiusmodi, sed aliter &amp; aliter: vnum
+          <lb ed="#V" n="110"/>enim &amp; idem est quod agens intendit imprimere, &amp; patiens
+          <lb ed="#V" n="111"/>intendit recipere, sunt autem quae simul agunt &amp;
+          patiun<lb ed="#V" n="112" break="no"/>tur, quae sunt agentia imperfecta, &amp; in his contingit, quod
+          <lb ed="#V" n="113"/>etiam in agendo intendant aliquid acquirere, sed primo
+          <lb ed="#V" n="114"/>agenti qui est tantum agens non conuenit agere propter
+          <lb ed="#V" n="115"/>acquisitionem alicuius finis, sed intendit solum
+          commu<lb ed="#V" n="116" break="no"/>nicare suam perfectionem, quae est eius bonitas, &amp;
+          vnaquae<lb ed="#V" n="117" break="no"/>que creatura intendit consequi suam perfectionem, quae
+          <lb ed="#V" n="118"/>est similitudo perfectionis &amp; bonitatis diuinae, sic ergo
+          di<lb ed="#V" n="119" break="no"/>uina bonitas est finis vltimus omnium rerum. Haec ille.
+        </p>
+        <p xml:id="capsco-a1lv4f-d1e1165">
+          Ex
+          <lb ed="#V" n="120"/>quibus patet, quod illa ratio habet idem medium quod aliae,
+          <lb ed="#V" n="121"/>scilicet quod quia est primum agens, ideo nihil recipit, ac
+          <lb ed="#V" n="122"/>per hoc exterior finis eum non mouet, quod tamen
+          opor<lb ed="#V" n="123" break="no"/>teret si ageret propter alium finem: tunc enim reciperet
+          <lb ed="#V" n="124"/>ab eo cognitionem, vel delectationem, vel perfectionem,
+          <lb ed="#V" n="125"/>sicut ab obiecto saltem quod primo agenti nullo modo
+          conue<lb ed="#V" n="126" break="no"/>nit: sic ergo patet quod contra rationem est ponere quod
+          <lb ed="#V" n="127"/>vltimus finis non sit primum agens &amp; motum exequutiue
+          <lb ed="#V" n="128"/>causans. Quia etiam ista responsio nunquam fuerit de
+          men<lb ed="#V" n="129" break="no"/>te Aristoteles aut Commentatoris, scilicet nullum necessarium
+          <lb ed="#V" n="130"/>habeat causam productiuam in esse vel conseruatiuam
+          na<lb ed="#V" n="131" break="no"/>tet: nam 5. Metaphysi. cap. de necessario tam Philosophus
+          <lb ed="#V" n="132"/>quam Commentator dicunt, quod aliquod est necessarium
+          <lb ed="#V" n="133"/>quod habet causam, licet Commentator dicat ibidem
+          ne<lb ed="#V" n="134" break="no"/>cessarium secundo modo non esse ita proprie necessarium,
+          <lb ed="#V" n="135"/>sicut illud quod est primo modo necessarium, &amp; velit
+          simili<lb ed="#V" n="136" break="no"/>ter nullum necessarium habere causam generantem, quod
+          <lb ed="#V" n="137"/>autem loquatur de causa effectiua patet: nam ibi
+          distin<lb ed="#V" n="138" break="no"/>guit necessarium in necessarium per se quod non habet
+          cau<lb ed="#V" n="139" break="no"/>sam dantem illi necessitatem, &amp; in necessarium quod
+          ha<lb ed="#V" n="140" break="no"/>bet causam dantem illi necessitatem, dare autem dicit
+          cau<lb ed="#V" n="141" break="no"/>sam agentem, non finalem.
+        </p>
+        <p xml:id="capsco-a1lv4f-d1e1215">
+          Item 8. Physicorum
+          particu<lb ed="#V" n="142" break="no"/>la 15. dicit Philosophus, quod Democritus non bene
+          di<lb ed="#V" n="143" break="no"/>cit in hoc, quod nullius necessarij oportet quaerere causam.
+          <lb ed="#V" n="144"/>Hoc (inquit Philosophus) iudicium in quibusdam rebus
+          <lb ed="#V" n="145"/>non est verum, triangulus enim semper habet tres angulos
+          <lb ed="#V" n="146"/>aequales duobus rectis, sed principium est ad hanc rem
+          <lb ed="#V" n="147"/>aeternum, principia vero non habent aliquas causas, &amp; sunt
+          <lb ed="#V" n="148"/>aeterna. Haec Philosophus, vbi Commentator. Sermo
+          De<lb ed="#V" n="149" break="no"/>mocriti &amp; sequentium eius, quod res necessariae non
+          dicun<lb ed="#V" n="150" break="no"/>tur habere causas est verus in quibusdam rebus, &amp; falsus
+          <pb ed="#V" n="106"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>in quibusdam, triangulum enim habere tres angulos
+          aequa<lb ed="#V" n="2" break="no"/>les duobus rectis est necessarium, &amp; tamen habet causam.
+          <lb ed="#V" n="3"/>Haec Commentator &amp; post. Et intendebat Aristotele
+          declara<lb ed="#V" n="4" break="no"/>re quod multa necessaria habent causas. Haec ille.
+        </p>
+        <p xml:id="capsco-a1lv4f-d1e1250">
+          Constat
+          <lb ed="#V" n="5"/>autem principia respectu conclusionis non habere
+          ratio<lb ed="#V" n="6" break="no"/>nem causae finalis: ergo falsum est quod secundum Aristotele
+          <lb ed="#V" n="7"/>nullum necessarium habeat causam nisi finalem. Item quod
+          <lb ed="#V" n="8"/>prima substantia &amp; primum ens non solum sit finis
+          om<lb ed="#V" n="9" break="no"/>nium, sed etiam effectiua &amp; dans esse omnibus secundum
+          <lb ed="#V" n="10"/>mentem Philosophi, &amp; Commentatoris, patet: nam
+          Auer<lb ed="#V" n="11" break="no"/>roys 10. Metaphysicae, commento 7. sic dicit. Omne quod
+          <lb ed="#V" n="12"/>est principium esse, est principium numeri, &amp; quod est
+          prin<lb ed="#V" n="13" break="no"/>cipium numeri, est principium essendi, idem enim
+          contin<lb ed="#V" n="14" break="no"/>git ex hoc in omnibus, &amp; cum hoc ita sit, apparet per
+          indu<lb ed="#V" n="15" break="no"/>ctionem, manifestum est enim quod vnum in quolibet
+          ge<lb ed="#V" n="16" break="no"/>nere est aliqua natura simpliciter, quae quia est principium
+          <lb ed="#V" n="17"/>esse illorum eiusdem generis, est principium numeri
+          eo<lb ed="#V" n="18" break="no"/>rum, &amp; intendit quod cum huic iunctum fuerit, quod
+          de<lb ed="#V" n="19" break="no"/>claratum est in Physicis, hoc est primum motorem
+          aeter<lb ed="#V" n="20" break="no"/>num &amp; absolutum ab omni materia, &amp; declarauerit post
+          <lb ed="#V" n="21"/>quod hoc non solummodo est principium tanquam
+          mo<lb ed="#V" n="22" break="no"/>tor, sed tanquam forma &amp; finis, declarabitur quod illud
+          <lb ed="#V" n="23"/>est vnum de quo fuit declaratum hoc quod est principium
+          <lb ed="#V" n="24"/>substantiae, sicut est declaratum quod est actus vltimus
+          cui<lb ed="#V" n="25" break="no"/>non admiscetur potentia. Haec ille.
+        </p>
+        <p xml:id="capsco-a1lv4f-d1e1298">
+          Item quod secundum
+          <lb ed="#V" n="26"/>mentum eorum primum agens &amp; vltimus finis sint idem
+          <lb ed="#V" n="27"/>patet: nam Commentator 12. Metaphysicae commen. 36.
+          <lb ed="#V" n="28"/>sic ait. Dictum est in 8. Physicorum quod mouens corpora
+          <lb ed="#V" n="29"/>coelestia in nulla existit materia, &amp; quod est forma
+          abstra<lb ed="#V" n="30" break="no"/>cta, quapropter mouens hoc est intellectus, quia agit
+          mo<lb ed="#V" n="31" break="no"/>tum &amp; est motus finis: haec autem differunt in nobis,
+          sci<lb ed="#V" n="32" break="no"/>licet illud quod mouet nos in loco secundum quod est
+          <lb ed="#V" n="33"/>agens, &amp; quod mouet nos secundum quod est finis, &amp;
+          ha<lb ed="#V" n="34" break="no"/>bet duplex esse, scilicet in anima &amp; extra animam, quod
+          <lb ed="#V" n="35"/>autem est in anima est agens motum, secundum vero quod
+          <lb ed="#V" n="36"/>extra animam est mouens secundum finem: verbi gratia,
+          <lb ed="#V" n="37"/>quando balneum habet duplicem formam in anima, &amp;
+          <lb ed="#V" n="38"/>extra animam, &amp; propter illam formam, quae est in anima,
+          <lb ed="#V" n="39"/>desideramus illam formam, quae est extra animam: igitur
+          <lb ed="#V" n="40"/>forma balnei inquantum est in anima est agens desiderium
+          <lb ed="#V" n="41"/>&amp; motum, secundum autem quod est extra animam est
+          fi<lb ed="#V" n="42" break="no"/>nis motus: si igitur forma balnei non esset in materia, tunc
+          <lb ed="#V" n="43"/>moueret secundum agens &amp; secundum finem sine aliqua
+          <lb ed="#V" n="44"/>motione contingente, &amp; sic intelligendum est de
+          mouen<lb ed="#V" n="45" break="no"/>tibus corpora coelestia, secundum igitur quod intellecta
+          <lb ed="#V" n="46"/>ista sunt formae eorum, sunt mouentia secundum agens,
+          se<lb ed="#V" n="47" break="no"/>cundum autem quod sunt eorum fines mouentur ab illis
+          <lb ed="#V" n="48"/>secundum desiderium. Haec ille.
+        </p>
+        <p xml:id="capsco-a1lv4f-d1e1351">
+          Item comment. 41.
+          di<lb ed="#V" n="49" break="no"/>cit, quod primus motor habet potentiam infinitam, &amp; est
+          <lb ed="#V" n="50"/>causa permanentiae caeli. Item comme. 44. dicit
+          Commen<lb ed="#V" n="51" break="no"/>tator. Quia autem moderni dicunt substantiam primam
+          es<lb ed="#V" n="52" break="no"/>se priorem motore totius, falsum est, quaelibet enim
+          substan<lb ed="#V" n="53" break="no"/>tia istarum est principium substantiae sensibilis secundum
+          <lb ed="#V" n="54"/>motorem &amp; secundum finem, &amp; ideo dicit Aristoteles quod
+          <lb ed="#V" n="55"/>si aliquae substantiae essent non mouentes essent ociosae, quod
+          <lb ed="#V" n="56"/>autem mouit eos ad hoc dicendum, est ratio quae potest
+          <lb ed="#V" n="57"/>dissolui a quolibet exercitato in hac scientia, dicunt enim
+          <lb ed="#V" n="58"/>quod apparet ex istis intelligentijs, quod quaedam earum
+          <lb ed="#V" n="59"/>consequitur sicut causatum causam: prima autem
+          substan<lb ed="#V" n="60" break="no"/>tia debet esse vna &amp; simplex in fine, ab vno autem &amp;
+          sim<lb ed="#V" n="61" break="no"/>plici non prouenit nisi vnum, &amp; a motore primi coeli
+          pro<lb ed="#V" n="62" break="no"/>uenit anima primi coeli &amp; motor orbis consequentis,
+          ne<lb ed="#V" n="63" break="no"/>cesse est igitur vt sit non simplex, habet ergo causam
+          prio<lb ed="#V" n="64" break="no"/>rem, iste autem sermo est imaginabilis, non enim est illic
+          <lb ed="#V" n="65"/>prouentus, neque consequutio, neque actio, ita Vt
+          dica<lb ed="#V" n="66" break="no"/>mus quod vna actio tantum consequitur vnum agentem,
+          <lb ed="#V" n="67"/>tantum enim est illic causa &amp; causatum secundum quod
+          <lb ed="#V" n="68"/>dicimus quod intellectum est causa intelligentis, &amp; cum
+          <lb ed="#V" n="69"/>ita sit non est impossibile vt illud quod est per se
+          intelligen<lb ed="#V" n="70" break="no"/>tia, sit causa plurium entium secundum quod ex eo
+          intel<lb ed="#V" n="71" break="no"/>liguntur multi modi: illud igitur quod intelligit motor
+          <lb ed="#V" n="72"/>iouis de primo motore, &amp; est causa in anima coeli, aliud
+          <lb ed="#V" n="73"/>est ab eo quod intelligit ex eo motor orbis saturni, &amp;
+          si<lb ed="#V" n="74" break="no"/>militer de vnoquoque eorum est, intelligendo causam
+          pro<lb ed="#V" n="75" break="no"/>priam, &amp; secundum hoc omnes motus eorum intendunt
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="76"/>secundum ordinem totius. Haec ille.
+        </p>
+        <p xml:id="capsco-a1lv4f-d1e1416">
+          Ex quibus patet, quod
+          <lb ed="#V" n="77"/>Deus quem vocat primam substantiam non solum est
+          fi<lb ed="#V" n="78" break="no"/>nis substantiae sensibilis, immo est causa moue s, &amp;
+          quod<lb ed="#V" n="79" break="no"/>libet sic simplex cum ab eo procedunt multa, secundum
+          <lb ed="#V" n="80"/>quod multa intelligit vel essentiam suam multipliciter
+          in<lb ed="#V" n="81" break="no"/>telligit non solum ipse, immo aliae substantiae separatae.
+          <lb ed="#V" n="82"/>Sciendum etiam quod cum dicit Commentator, quod
+          in<lb ed="#V" n="83" break="no"/>ter primam causam &amp; alias intelligentias non est causa &amp;
+          <lb ed="#V" n="84"/>causatum, nec actio, nec consequutio &amp;c. non intendit
+          ne<lb ed="#V" n="85" break="no"/>gare Deum effectiue producere alias intelligentias, sed
+          so<lb ed="#V" n="86" break="no"/>lum intendit quod Deus ipse non producit eas per
+          actio<lb ed="#V" n="87" break="no"/>nem, quae est extractio alicuius de potentia in actum, sed
+          <lb ed="#V" n="88"/>solum per actum intellectus &amp; voluntatis, quae est actio
+          im<lb ed="#V" n="89" break="no"/>manens agenti, non transiens in passum extrinsecum, &amp;
+          <lb ed="#V" n="90"/>hoc est verum.
+        </p>
+        <p xml:id="capsco-a1lv4f-d1e1449">
+          Item 2. Metaphysi. commen. 4 sic ait.
+          Qpor<lb ed="#V" n="91" break="no"/>tet vt maxime verum sit illud, quod est causa maxime
+          ve<lb ed="#V" n="92" break="no"/>ritatis in quolibet genere entium, &amp; magis digna in esse &amp;
+          <lb ed="#V" n="93"/>veritate, quam illa quorum est causa in illo genere, &amp;
+          ma<lb ed="#V" n="94" break="no"/>nifestum est quod si haec est prima causa omnium entium.
+          <lb ed="#V" n="95"/>vt declaratum est in scientia naturalium, quod illa causa
+          <lb ed="#V" n="96"/>est magis digna in esse &amp; veritate quam omnia entia,
+          om<lb ed="#V" n="97" break="no"/>nia enim entia non acquirunt esse &amp; veritatem nisi ab ista
+          <lb ed="#V" n="98"/>causa, est igitur tantum ens &amp; vnum per se &amp; verum per
+          <lb ed="#V" n="99"/>se, &amp; omnia entia &amp; vera per esse, &amp; veritatem eius. Haec
+          <lb ed="#V" n="100"/>illae in forma. Et patet quod non loquitur de causa finali.
+          <lb ed="#V" n="101"/>Tum quia de illa causa nulla mentio fit in 8. Physic. sed
+          so<lb ed="#V" n="102" break="no"/>lum de efficiente, vbi dicit Commentator esse declaratum
+          <lb ed="#V" n="103"/>primam causam esse causam omnium aliorum.
+        </p>
+        <p xml:id="capsco-a1lv4f-d1e1480">
+          Tum quia
+          <lb ed="#V" n="104"/>si loqueretur de fine non diceret, quod alia acquirunt esse
+          <lb ed="#V" n="105"/>a prima causa, sed potius propter primam causam, non
+          <lb ed="#V" n="106"/>enim dicimus, diligo Petrum a generalissimo, sed propter
+          <lb ed="#V" n="107"/>generalissimum. Hanc etiam intentionem habuisse
+          Commea<lb ed="#V" n="108" break="no"/>tator manifeste pandit in tractatu de substantia orbis, vbi
+          <lb ed="#V" n="109"/>sic dicit 2. capit. Et debes scire quod istud corpus coeleste
+          <lb ed="#V" n="110"/>non indiget virtute mouente in loco semper tantum, sed
+          <lb ed="#V" n="111"/>virtute largiente in se, &amp; in suam substantiam
+          permanen<lb ed="#V" n="112" break="no"/>tiam aeternam, quoniam &amp; si sit simplex &amp; non habens in
+          <lb ed="#V" n="113"/>se potentiam ad corruptionem, tamen est finitae actionis
+          <lb ed="#V" n="114"/>necessario, quia est finitarum dimensionum &amp;
+          dctermina<lb ed="#V" n="115" break="no"/>tarum a superficie continente ipsum, &amp; omne tale cum
+          <lb ed="#V" n="116"/>intellectus posuerit ipsum esse per se absque eo quod
+          ali<lb ed="#V" n="117" break="no"/>quid largiatur ipsi permanentiam &amp; aeternitatem, necesse
+          <lb ed="#V" n="118"/>erit vt ita sit de finitate suae permanentiae sicut est de
+          finita<lb ed="#V" n="119" break="no"/>te suae actionis, &amp; ideo necesse in intellectu potentiam esse
+          <lb ed="#V" n="120"/>huic largientem permanentiam aeternam quemadmodum
+          <lb ed="#V" n="121"/>largitur ipsi motum proprium aeternum, &amp; non hoc
+          tan<lb ed="#V" n="122" break="no"/>tum, sed necesse est hoc esse virtutem quae largitur ei
+          pro<lb ed="#V" n="123" break="no"/>prium suae actionis motum quae est aeternitas in ceteros
+          mo<lb ed="#V" n="124" break="no"/>tus, scilicet motum localem in circuitum, &amp; figuram
+          pro<lb ed="#V" n="125" break="no"/>priam isti motui, scilicet sphericam, &amp; mensuram propriam
+          <lb ed="#V" n="126"/>vnicuique istorum corporum, &amp; conuenientiam inter ea
+          <lb ed="#V" n="127"/>adinuicem in ordine &amp; quantitate, ita quod ex omnibus
+          <lb ed="#V" n="128"/>perficitur vnus actus, scilicet totus mundus, nulla enim est
+          <lb ed="#V" n="129"/>differentia inter virtutis actiuae indigentiam in corpore, &amp;
+          <lb ed="#V" n="130"/>in omni corpore simplici, aut in vno composito ex
+          sim<lb ed="#V" n="131" break="no"/>plicibus huiusmodi, &amp; indifferenter siue illud corpus
+          fue<lb ed="#V" n="132" break="no"/>rit generatum, siue non generatum, vnde videmus caelum
+          <lb ed="#V" n="133"/>habere vnam virtutem non tantum mouentem omnia, sed
+          <lb ed="#V" n="134"/>agentem &amp; conseruatem omnia, sicut est dispositio in
+          cor<lb ed="#V" n="135" break="no"/>pore hominis &amp; in corpore facto propter finem proprium,
+          <lb ed="#V" n="136"/>finis enim significat agens significatione necessaria, sicut
+          <lb ed="#V" n="137"/>motum significat mouens, sed in genere agentium
+          quod<lb ed="#V" n="138" break="no"/>dam est agens prius tempore acto, &amp; est omne quod fit in
+          <lb ed="#V" n="139"/>Sphaera mundi, &amp; quoddam est naturaliter prius vt in
+          tem<lb ed="#V" n="140" break="no"/>pore orbem quem sequitur tempus, &amp; cui accidit &amp; agens
+          <lb ed="#V" n="141"/>orbem, scilicet faciens ipsum in dispositionibus necessarijs
+          <lb ed="#V" n="142"/>in inueniendo finem propter quem fuit, &amp; cum hoc
+          igno<lb ed="#V" n="143" break="no"/>rauerunt quidam esse de opinione Aristoteles dixerunt ipsum
+          <lb ed="#V" n="144"/>non dicere causam agentem totum, sed causam
+          mouen<lb ed="#V" n="145" break="no"/>tem, &amp; illud fuit valde absurdum, &amp; non est dubium in
+          <lb ed="#V" n="146"/>hoc quod agens ipsum est mouens ipsum, quod enim
+          mo<lb ed="#V" n="147" break="no"/>uet ipso motu proprio illi est illud quod largitur ei
+          pri<lb ed="#V" n="148" break="no"/>mo dispositiones per quas motum proprium acquirit, &amp;
+          <lb ed="#V" n="149"/>ista est virtus illa quam laudat Aristotele in multis locis in lib.
+          <lb ed="#V" n="150"/>de coelo &amp; mundo, &amp; indicat ipsam esse nobiliorem
+          caelo<pb ed="#V" n="107"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>&amp; altiorem. Haec comment. in forma. Et cap. 6. &amp; vlti.
+          di<lb ed="#V" n="2" break="no"/>cit. Declaratum est ex istis omnibus, quod dator
+          continua<lb ed="#V" n="3" break="no"/>tionis motus, est dator motus coeli, &amp; si ipse non esset
+          de<lb ed="#V" n="4" break="no"/>strueretur motus, &amp; si motus, &amp; coelum, coelum enim est
+          <lb ed="#V" n="5"/>propter motum suum, &amp; si motus coeli destrueretur,
+          de<lb ed="#V" n="6" break="no"/>strueretur motus entium inferiorum, &amp; sic mundus, ex quo
+          <lb ed="#V" n="7"/>verificatur quod dator continuationis motus est dator
+          es<lb ed="#V" n="8" break="no"/>se alijs entibus. Haec Commentator.
+        </p>
+        <p xml:id="capsco-a1lv4f-d1e1604">
+          Ex quibus omnibus
+          <lb ed="#V" n="9"/>patet manifeste, quod secundum mentem Philosophi &amp;
+          <lb ed="#V" n="10"/>Commentatoris primum principium est causa non solum
+          <lb ed="#V" n="11"/>per modum finis, immo per modum mouentis &amp; agentis
+          <lb ed="#V" n="12"/>&amp; largientis esse omnibus alijs entibus, &amp; per consequens
+          <lb ed="#V" n="13"/>responsio data ad rationem Sancti Thomae non processit de
+          <lb ed="#V" n="14"/>consilio &amp; assensu Aristotelis &amp; Commentatoris. Veruntamen
+          <lb ed="#V" n="15"/>contra dictam rationem, &amp; replicam facta contra
+          respon<lb ed="#V" n="16" break="no"/>sionem instat arguens, dicens illam maximam qua dicitur
+          <lb ed="#V" n="17"/>quod omne ens per participationem est effectiue ab ente
+          <lb ed="#V" n="18"/>per essentiam, non videtur habere omnimodam veritatem,
+          <lb ed="#V" n="19"/>nam ignis per suam essentiam determinat sibi calore, nec
+          <lb ed="#V" n="20"/>tamen vbicunque participatur calor ibi est per actionem
+          <lb ed="#V" n="21"/>ignis: nam stellae generant calorem in medio.
+        </p>
+        <p xml:id="capsco-a1lv4f-d1e1635">
+          Item addit
+          <lb ed="#V" n="22"/>quod alia propositio est falsa in qua dicitur, quod sit
+          ali<lb ed="#V" n="23" break="no"/>quid quod non habeat esse per suam essentiam: hoc inquit
+          <lb ed="#V" n="24"/>non est verum, quia immo omne ens est per suam
+          essen<lb ed="#V" n="25" break="no"/>tiam, quia essentia sua est ei ratio essendi. Participatio
+          au<lb ed="#V" n="26" break="no"/>tem non est aliud nisi quod omnia entia sunt quaedam
+          par<lb ed="#V" n="27" break="no"/>ticulares entitates, praeter primum quod est tota entitas
+          <lb ed="#V" n="28"/>subsistens, sed hoc non inferret quod omnia essent
+          effecti<lb ed="#V" n="29" break="no"/>ue ab alio, praesertim si creatio non esset. Tertio potest
+          in<lb ed="#V" n="30" break="no"/>stari contra rationem principalem, non enim videtur
+          ve<lb ed="#V" n="31" break="no"/>rum, quod omne quod est possibile non esse, quandoque
+          <lb ed="#V" n="32"/>non sit, vel desinat esse: nam elementa habent potentiam
+          <lb ed="#V" n="33"/>ad non esse, &amp; tamen elementa nunquam desinent. Ad
+          pri<lb ed="#V" n="34" break="no"/>mam instantiam dico, quod illa maxima debet sic
+          intelli<lb ed="#V" n="35" break="no"/>gi. Omne quod est aliquale per participationem, est tale
+          <lb ed="#V" n="36"/>per actionem illius quod est tale per essentiam, vel per
+          actio<lb ed="#V" n="37" break="no"/>nem alicuius quod eminenter continet hoc quod est tale
+          <lb ed="#V" n="38"/>per essentiam. Et sic patet quod instantia facta de igne non
+          <lb ed="#V" n="39"/>valet, licet non solum Sanctus Thomas vtatur illo exemplo,
+          <lb ed="#V" n="40"/>sed etiam Aristoteles 2. Metaphy. &amp; Commentator, sed
+          exem<lb ed="#V" n="41" break="no"/>plorum non requiritur verificatio, vnde dico quod omne
+          <lb ed="#V" n="42"/>calidum est calidum per actionem ignis vel alicuius quod
+          <lb ed="#V" n="43"/>totam ignis actualitatem contineat eminenter &amp; in
+          virtu<lb ed="#V" n="44" break="no"/>te: sicut est Sol aut aliud corpus caeleste, &amp; maxima in isto
+          <lb ed="#V" n="45"/>sensu sumpta potissime demonstrat intentum, scilicet quod
+          <lb ed="#V" n="46"/>cum Deus sit ens per essentiam, oportet quod sit causa
+          om<lb ed="#V" n="47" break="no"/>nis rehabentis esse participatum, vel aliquid quod Deum
+          <lb ed="#V" n="48"/>contineat eminenter, &amp; in virtute, si quod sit tale, &amp; sic
+          pa<lb ed="#V" n="49" break="no"/>tet, quod instantia est verbalis. Solutio autem instantiae est
+          <lb ed="#V" n="50"/>de mente Sancti Thomae prima parte. q. 44. artic. 3. ad
+          secun<lb ed="#V" n="51" break="no"/>dum, vbi sic arguit. Omne quod est per participationem
+          <lb ed="#V" n="52"/>reducitur ad aliquid per se existens, vt ignitum ad ignem,
+          <lb ed="#V" n="53"/>sed quaecunque sunt in rebus sensibilibus sunt solum per
+          <lb ed="#V" n="54"/>participationem alicuius speciei, quod ex hoc patet quod
+          <lb ed="#V" n="55"/>in nullo sensibilium inuenitur solum id quod ad rationem
+          <lb ed="#V" n="56"/>speciei pertinet, sed adiunguntur principijs speciei
+          prin<lb ed="#V" n="57" break="no"/>cipia indiuiduatia, oportet igitur ponere ipsas species per
+          <lb ed="#V" n="58"/>se existentes, vt per se aequum &amp; huiusmodi. Ecce
+          argu<lb ed="#V" n="59" break="no"/>mentum. Et respondet dicendum, quod de ratione
+          homi<lb ed="#V" n="60" break="no"/>nis est quod sit in materia, &amp; sic non potest inueniri homo
+          <lb ed="#V" n="61"/>sine materia hac, licet igitur hic homo sit per
+          participa<lb ed="#V" n="62" break="no"/>tionem speciei, non tamen potest reduci ad aliquid per se
+          <lb ed="#V" n="63"/>existens in eadem specie, sed ad speciem superexcellentem,
+          <lb ed="#V" n="64"/>sicut sunt substantiae separatae. Eadem ratio est in alijs
+          sen<lb ed="#V" n="65" break="no"/>sibilibus. Haec ille. Ex quibus manifeste patet, quod omnis
+          <lb ed="#V" n="66"/>calor participatus oportet quod sit a calido per essentiam
+          <lb ed="#V" n="67"/>vel ab aliquo superiori ad calorem si subsisteret, &amp; sic de
+          <lb ed="#V" n="68"/>alijs omnibus.
+        </p>
+        <p xml:id="capsco-a1lv4f-d1e1740">
+          Ad secundam instantiam dicitur, quod
+          so<lb ed="#V" n="69" break="no"/>lus Deus est per essentiam, sic quod esse est de ratione
+          es<lb ed="#V" n="70" break="no"/>sentiae Dei, non autem de ratione alicuius essentiae creatae,
+          <lb ed="#V" n="71"/>&amp; similiter nulla essentia creata est vltimum &amp; proximum
+          <lb ed="#V" n="72"/>formale quo aliquid est: secus est de essentia diuina, &amp; ista
+          <lb ed="#V" n="73"/>Deo duce longe prolixius probabuntur alias.
+        </p>
+        <p xml:id="capsco-a1lv4f-d1e1753">
+          Ad tertiam
+          <lb ed="#V" n="74"/>instantiam dico, quod elementa &amp; si sint possibilia non esse,
+          <lb ed="#V" n="75"/>durant tamen, hoc eis praestante aliquo, quod est necesse
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="76"/>esse, quod potest ea in aeternum conseruare, sed si nullum
+          <lb ed="#V" n="77"/>tale esset necessario existens, tunc proculdubio terra non
+          <lb ed="#V" n="78"/>esset, vel etiam si illud necessario existens elementa &amp; alia
+          <lb ed="#V" n="79"/>quae potetiam habent ad non esse suae naturae cursum
+          pera<lb ed="#V" n="80" break="no"/>gere sinerent, tota materia quae nunc est sub forma terrae,
+          <lb ed="#V" n="81"/>quandoque esset sub alia forma, &amp; sic illud elementum
+          ter<lb ed="#V" n="82" break="no"/>rae quod nunc est quandoque non esset, licet aliud in
+          nu<lb ed="#V" n="83" break="no"/>mero sibi succederet, &amp; ita sicut terra est possibilis non
+          es<lb ed="#V" n="84" break="no"/>se, sic quandoque non esset, vult ergo Sanctus Thomas quod
+          <lb ed="#V" n="85"/>si nullum ens esset necesse esse: pro certo omne possibile
+          <lb ed="#V" n="86"/>non esse quandoque non esset, &amp; si contingat quod aliqua
+          <lb ed="#V" n="87"/>possibilia non esse semper durent, hoc est quia est, aliquod
+          <lb ed="#V" n="88"/>necesse esse quod manutenet illa, &amp; hoc sufficit in suo
+          pro<lb ed="#V" n="89" break="no"/>posito in quo illam propositionem assumit. Sic igitur
+          pa<lb ed="#V" n="90" break="no"/>tet quod quarta ratio principaliter probans vnum Deum
+          <lb ed="#V" n="91"/>esse non obstantibus instantijs nostrum propositum
+          effica<lb ed="#V" n="92" break="no"/>citer demonstrabat.
+        </p>
+        <p xml:id="capsco-a1lv4f-d1e1799">
+          Quinto arguit sic Sanctus Thomas
+          pri<lb ed="#V" n="93" break="no"/>mo contra Gentiles. cap. 43. directe probando intentum,
+          <lb ed="#V" n="94"/>aliae naque rationes probant directe quod est vnus Deus:
+          <lb ed="#V" n="95"/>ista autem directe probat quod non est nisi vnus. Arguitur
+          er<lb ed="#V" n="96" break="no"/>go sic. Omne possibile esse &amp; non esse, necessario est
+          pro<lb ed="#V" n="97" break="no"/>ductum, tale nanque quantum est ex se, non habet esse, sed
+          <lb ed="#V" n="98"/>per aliud reducitur ad esse, sed omnia quae sunt praeter vnum,
+          <lb ed="#V" n="99"/>sunt possibilia esse &amp; non esse, impossibile enim est esse duo,
+          <lb ed="#V" n="100"/>quorum quodlibet sit necesse esse, quod sic patet. Nihil enim
+          <lb ed="#V" n="101"/>eorum quae conueniunt huic significato inquantum est hoc
+          <lb ed="#V" n="102"/>significatum, possibile est alteri conuenire: quia
+          singula<lb ed="#V" n="103" break="no"/>ritas alicuius rei non inest alteri praeter ipsum singulare,
+          <lb ed="#V" n="104"/>sed ei quod est necesse esse, sua necessitas essendi,
+          conue<lb ed="#V" n="105" break="no"/>nit inquantum est hoc significatum: ergo impossibile est,
+          <lb ed="#V" n="106"/>quod alicui alteri conueniat, &amp; sic impossibile est quod sint
+          <lb ed="#V" n="107"/>plura, quorum quodlibet est necesse esse, &amp; consequenter
+          <lb ed="#V" n="108"/>impossibile est esse plures Deos. Probatio mediae. Si enim
+          <lb ed="#V" n="109"/>illud quod est necesse esse, non est hoc significatum
+          inquan<lb ed="#V" n="110" break="no"/>tum est necesse esse, oportet quod designatio sui esse non sit
+          <lb ed="#V" n="111"/>necessaria secundum se, sed ex alio dependeat,
+          vnumquod<lb ed="#V" n="112" break="no"/>que autem secundum quod est actu, est distinctum ab
+          omni<lb ed="#V" n="113" break="no"/>bus alijs, quod est esse hoc significatum: ergo quod est
+          ne<lb ed="#V" n="114" break="no"/>cesse esse, dependet ab alio quantum ad hoc quod est esse
+          <lb ed="#V" n="115"/>in actu, quod est contra rationem eius quod est necesse
+          es<lb ed="#V" n="116" break="no"/>se, oportet igitur quod illud quod est necesse esse, sit necesse
+          <lb ed="#V" n="117"/>esse secundum hoc, quod est hoc significatum. Haec ille in
+          for<lb ed="#V" n="118" break="no"/>ma. Ad hanc tamen rationem dicit Aureolus, quod est
+          ineffi<lb ed="#V" n="119" break="no"/>cax, nec concludit: nam secundum Philosophi
+          concede<lb ed="#V" n="120" break="no"/>rent quodlibet necesse esse: forte alterius speciei, &amp; ita non
+          <lb ed="#V" n="121"/>posse multiplicari, &amp; per consequens quodlibet esset
+          quae<lb ed="#V" n="122" break="no"/>dam singularitas, nihilominus essent plura. Haec ille.
+        </p>
+        <p xml:id="capsco-a1lv4f-d1e1867">
+          Sed
+          <lb ed="#V" n="123"/>ista responsio nulla est, sicut ostendit Sanctus Thomas
+          lucu<lb ed="#V" n="124" break="no"/>lentissime vbi supra. Nam ex quo illa duo conueniunt in
+          <lb ed="#V" n="125"/>intentione necessitatis essendi, oportet quod distinguantur
+          <lb ed="#V" n="126"/>per aliquid, aut ergo illud requiritur ad complementum
+          <lb ed="#V" n="127"/>necessitatis essendi aliquo modo, aut nullo. Si nullo, ergo
+          <lb ed="#V" n="128"/>est accidentale, quia omne quod aduenit rei nihil faciens
+          <lb ed="#V" n="129"/>ad eius esse est accidens: ergo hoc accidens habet
+          cau<lb ed="#V" n="130" break="no"/>sam, aut ergo essentia eius quod est necesse esse, aut aliquid
+          <lb ed="#V" n="131"/>aliud. Si essentia eius quod est necesse esse, cum ipsa
+          neces<lb ed="#V" n="132" break="no"/>sitas essendi sit essentia eius vt alias probatum est,
+          necessi<lb ed="#V" n="133" break="no"/>tas essendi erit causa illius accidentis, sed necessitas
+          essen<lb ed="#V" n="134" break="no"/>di inuenitur in vtroque: ergo vtrunque habebit illud
+          ac<lb ed="#V" n="135" break="no"/>cidens, &amp; sic non distinguetur secundum illud.
+        </p>
+        <p xml:id="capsco-a1lv4f-d1e1898">
+          Si autem
+          <lb ed="#V" n="136"/>causa illius accidentis sit aliquid aliud, nisi illud aliud
+          es<lb ed="#V" n="137" break="no"/>set, non esset hoc accidens, &amp; nisi hoc accidens esset,
+          prae<lb ed="#V" n="138" break="no"/>dicta distinctio non esset: ergo nisi illud aliud esset,
+          praedi<lb ed="#V" n="139" break="no"/>cta distinctio non esset, ac per hoc illa duo quae ponuntur
+          <lb ed="#V" n="140"/>necesse esse non essent duo, scilicet vnum: ergo esse
+          pro<lb ed="#V" n="141" break="no"/>prium vtriusque dependet ab alio, &amp; sic neutrum erit
+          ne<lb ed="#V" n="142" break="no"/>cesse esse per seipsum. Si autem illud quo distinguitur sit
+          <lb ed="#V" n="143"/>necessarium ad necessitatem essendi complendam, hoc
+          <lb ed="#V" n="144"/>erit, quia includitur in ratione necessitatis essendi, sicut
+          <lb ed="#V" n="145"/>animatum includitur in ratione animalis, aut hoc erit, quia
+          <lb ed="#V" n="146"/>necessitas essendi specificatur per illud, sicut animal
+          com<lb ed="#V" n="147" break="no"/>pletur per rationale. Si primo modo, oportet quod
+          vbicun<lb ed="#V" n="148" break="no"/>que sit necessitas essendi sit illud quod in eius ratione
+          di<lb ed="#V" n="149" break="no"/>citur, sicut cuicunque conuenit animal conuenit
+          anima<lb ed="#V" n="150" break="no"/>tum, &amp; sic cum ambobus praedictis attribuatur necessitas
+          <pb ed="#V" n="108"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>essendi, secundum illud distingui non poterunt.
+        </p>
+        <p xml:id="capsco-a1lv4f-d1e1940">
+          Si autem
+          <lb ed="#V" n="2"/>secundo modo, hoc iterum esse non potest: nam
+          differen<lb ed="#V" n="3" break="no"/>tia specificans genus, non complet rationem generis, sed
+          <lb ed="#V" n="4"/>per eam acquiritur generi esse in actu, ratio enim animalis
+          <lb ed="#V" n="5"/>completa est ante additionem rationalis, sed non potest
+          <lb ed="#V" n="6"/>esse animal in actu nisi sit rationale vel irrationale. Sic
+          igi<lb ed="#V" n="7" break="no"/>tur aliquid complet necessitatem essendi quantum ad esse
+          <lb ed="#V" n="8"/>in actu &amp; non quantum ad intentionem necessitatis
+          essen<lb ed="#V" n="9" break="no"/>di, quod est impossibile propter duo. Primo quia eius
+          <lb ed="#V" n="10"/>quod est necesse esse sua quidditas est suum esse. Secundo
+          <lb ed="#V" n="11"/>quia sic ipsi necesse esse acquireretur esse per aliud quod
+          <lb ed="#V" n="12"/>est impossibile, non est igitur ponere plura, quorum
+          quod<lb ed="#V" n="13" break="no"/>libet sit necesse esse per seipsum. Iterum si aliqua duo
+          con<lb ed="#V" n="14" break="no"/>ueniant in intentione necessitatis essendi, oportet quod
+          di<lb ed="#V" n="15" break="no"/>stinguantur per aliquid quod additur alteri tantum vel
+          vtri<lb ed="#V" n="16" break="no"/>que, &amp; sic oportet vtrunque vel alterum esse compositum,
+          <lb ed="#V" n="17"/>nullum autem compositum est necesse esse per seipsum:
+          <lb ed="#V" n="18"/>ergo impossibile est plura esse, quorum quodlibet sit
+          ne<lb ed="#V" n="19" break="no"/>cesse esse per seipsum. Haec ille in forma.
+        </p>
+        <p xml:id="capsco-a1lv4f-d1e1983">
+          Ex quibus patet,
+          <lb ed="#V" n="20"/>quod responsio illa est contra Philosophiam, quae scilicet
+          <lb ed="#V" n="21"/>diceret duo necesse esse alterius speciei vel eiusdem. Istis
+          <lb ed="#V" n="22"/>ergo quinque vijs probat Sanctus Thomas vnum Deum
+          es<lb ed="#V" n="23" break="no"/>se locis praedictis, licet multas alias in variis locis ad hoc
+          <lb ed="#V" n="24"/>idem ponat, sed quia non impugnat eas Aureolus, ideo eas
+          <lb ed="#V" n="25"/>transeo. Nunc ergo restat dicere ad rationem, quae
+          oppo<lb ed="#V" n="26" break="no"/>situm arguebat, scilicet quod Deum esse non sit
+          demon<lb ed="#V" n="27" break="no"/>strabile. Dico igitur secundum Sanctum Thomas prima
+          par<lb ed="#V" n="28" break="no"/>te. q. 2. artic. 2. ad primum, quod nihil prohibet illud quod
+          <lb ed="#V" n="29"/>est per se demonstrabile &amp; scibile ab aliquo accipi vt
+          cre<lb ed="#V" n="30" break="no"/>dibile, qui demonstrationem non capit, ita quod vnum
+          <lb ed="#V" n="31"/>Deum esse tenetur sola fide ab aliquo, non autem ab alio,
+          <lb ed="#V" n="32"/>sed habitu scientifico, &amp; est ei non articulus fidei, sed
+          prae<lb ed="#V" n="33" break="no"/>ambulum ad fidem &amp; articulos, sicut enim gratia
+          suppo<lb ed="#V" n="34" break="no"/>nit naturam ita fides cognitionem naturalem. Et haec de
+          <lb ed="#V" n="35"/>quaestione dicta sufficiant pro praesenti.
+        </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

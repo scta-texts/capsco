@@ -1,0 +1,913 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 2, Distinctio 44, Quaestio 1</title>
+        <author ref="#JohannesCapreolus">Johannes Capreolus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 2, Distinctio 44, Quaestio 1</title>
+          <date when="2026-11-04">Nov 4, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-j88c02">Venice, 1589, v. 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-04" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="583"/>
+        <cb ed="#V" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="capsco-b2kl0y"><!-- l2d44q1 -->
+        <head xml:id="capsco-b2kl0y-Hd1e101">Quaestio 1</head>
+        <head xml:id="capsco-b2kl0y-Hd1e103" type="question-title">Utrum potentia peccandi sit a Deo</head>
+        <p xml:id="capsco-b2kl0y-d1e106">
+          <lb ed="#V" n="97"/>DISTINCTIO XLIIII.
+          <lb ed="#V" n="98"/>QVAESTIO I.
+          <lb ed="#V" n="99"/>Vtrum potentia peccandi sit a Deo
+        </p>
+        <p xml:id="capsco-b2kl0y-d1e115">
+          <lb ed="#V" n="100"/><milestone ed="#V" unit="p" rend="initial"/> CIRCA quadragesimam quartam
+          di<lb ed="#V" n="101" break="no"/>stinctionem secundi senten. quaeritur.
+          <lb ed="#V" n="102"/>Vtrum potentia peccandi sit a Deo,
+        </p>
+        <p xml:id="capsco-b2kl0y-d1e125">
+          &amp;
+          <lb ed="#V" n="103"/>arguitur quod non. Posse enim
+          pecca<lb ed="#V" n="104" break="no"/>re vt dicit Ansele neque est libertas
+          ne<lb ed="#V" n="105" break="no"/>que pars libertatis, sed omnis potentia
+          <lb ed="#V" n="106"/>naturalis quae est in nobis ad agendum
+          <lb ed="#V" n="107"/>actus humanos ad liberum arbitrium
+          <lb ed="#V" n="108"/>pertinet: ergo potentia peccandi non est in nobis aliqua
+          po<lb ed="#V" n="109" break="no"/>tentia naturalis. Constat etiam quod nec est potentia
+          gra<lb ed="#V" n="110" break="no"/>tiae, quia per gratiam nullus ordinatur ad peccatum, cum
+          <lb ed="#V" n="111"/>ergo omnis potentia que est in nobis a Deo sit gratiae vel
+          <lb ed="#V" n="112"/>naturae, videtur quod potentia peccandi non sit nobis a
+          <lb ed="#V" n="113"/>Deo.s igitur.
+        </p>
+        <p xml:id="capsco-b2kl0y-d1e152">
+          <lb ed="#V" n="114"/><milestone ed="#V" unit="p" rend="indent"/> In oppositum arguitur omne ens est a Deo sed potentia
+          <lb ed="#V" n="115"/>peccandi est quoddam ens, igitur potentia peccandi est
+          <lb ed="#V" n="116"/>a Deo
+        </p>
+        <p xml:id="capsco-b2kl0y-d1e162">
+          <lb ed="#V" n="117"/><milestone ed="#V" unit="p" rend="indent"/> In hac quaestione sunt tres articuli. In primo ponetur
+          con<lb ed="#V" n="118" break="no"/>clusio. In secundo obiectio. In tertio solutio.
+        </p>
+        <div xml:id="capsco-b2kl0y-Dd1e170">
+          <head xml:id="capsco-b2kl0y-Hd1e172">Articulus 1</head>
+          <p xml:id="capsco-b2kl0y-d1e174">
+            <lb ed="#V" n="119"/><milestone ed="#V" unit="p" rend="initial"/> QVantum ad primum articulum sit talis conclusio.
+            <lb ed="#V" n="120"/>Potentia peccandi quantum ad positiuum quod in
+            <lb ed="#V" n="121"/>poritat a Deo est, non autem quantum ad defectum quem
+            <lb ed="#V" n="122"/>connotat. Hanc ponit Sanctus Thomas in praesenti distin.
+            <lb ed="#V" n="123"/>quaest. prima arti. primo vbi sic ait. Potentia cognoscitur
+            <lb ed="#V" n="124"/>per actus, vnde ex consideratione actus peccati iudicium
+            <lb ed="#V" n="125"/>sumendum est de potentia peccandi. In actu autem
+            pecca<lb ed="#V" n="126" break="no"/>ti duo sunt, scilicet substantia actus &amp; deformitas vel
+            defe<lb ed="#V" n="127" break="no"/>ctus debitarum circunstantiarum. Vnde oportet quod in
+            ip<lb ed="#V" n="128" break="no"/>sa potentia peccandi duo attendantur scilicet ipsa potentia quae
+            <lb ed="#V" n="129"/>est principium actus, &amp; haec est eadem quae est principium
+            <lb ed="#V" n="130"/>actus ordinati &amp; inordinati, haec a Deo est. Consideratur
+            <lb ed="#V" n="131"/>etiam in ea quidam defectus secundum quem actum
+            defi<lb ed="#V" n="132" break="no"/>cientem producere potest. Potentiae vero perfectissimae num
+            <lb ed="#V" n="133"/>quam deficiunt ab eo ad quod ordinatae sunt, vt patet in
+            ne<lb ed="#V" n="134" break="no"/>cessariis, vnde quod potentia impediatur vel retrahatur ab
+            <lb ed="#V" n="135"/>eo, ad quod naturaliter ordinata est, oportet quod sit ex
+            de<lb ed="#V" n="136" break="no"/>fectu eius inquantum scilicet alteri agenti quod impedit
+            succum<lb ed="#V" n="137" break="no"/>bit. Vnde cum potentia vo luntatis humanae sit per se
+            ordi<lb ed="#V" n="138" break="no"/>nata ad bonum, defectus a bono in actu eius oportet quod
+            <lb ed="#V" n="139"/>causetur ex aliquo defectu in ipsa per quem ab alio
+            vinci<lb ed="#V" n="140" break="no"/>potest vel delectatione vel suggestione vel quocunque alio
+            <lb ed="#V" n="141"/>ut ab eo quod est naturale sibi ad id quod est innaturale
+            tra<lb ed="#V" n="142" break="no"/>hatur. Hic autem defectus est secundum quod ex nihilo
+            <lb ed="#V" n="143"/>est. Huiusmodi autem defectus, scilicet quod creatura est
+            <lb ed="#V" n="144"/>ex nihilo, Deus directe causa non est, vt Auicus probat, quia
+            <lb ed="#V" n="145"/>quod conuenit rei secundum se non causatur in ea ex alio
+            <pb ed="#V" n="584"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>Res autem creata si secundum se relinquatur nihil est,
+            vn<lb ed="#V" n="2" break="no"/>de quod est ex nihilo esse non est creaturae a Deo, quamuis
+            <lb ed="#V" n="3"/>esse creaturae a Deo sit. Posset tamen dici quod iste
+            defe<lb ed="#V" n="4" break="no"/>ctus a Deo est indirecte, non quidem sicut ab agente
+            ali<lb ed="#V" n="5" break="no"/>quid, sed sicut a non agente, inquantum scilicet ipsi
+            creatu<lb ed="#V" n="6" break="no"/>rae hoc non praebet, vt non ex nihilo sit, sicut dicitur causa
+            <lb ed="#V" n="7"/>priuationis gratiae quae poena est, nisi creatura huiusmodi
+            <lb ed="#V" n="8"/>perfectionis inueniretur capax non esse, vt scilicet non sit
+            <lb ed="#V" n="9"/>ex nihilo. Et ideo hic defectus nullo modo est a Deo, nec
+            <lb ed="#V" n="10"/>directe nec indirecte. Sic ergo potentia peccandi, quantum
+            <lb ed="#V" n="11"/>ad id quod potentiae est a Deo est, sed quantum ad defectum
+            <lb ed="#V" n="12"/>qui implicatur non est a Deo. Haec ille.
+          </p>
+          <p xml:id="capsco-b2kl0y-d1e266">
+            Ex quibus potest
+            <lb ed="#V" n="13"/>argui pro duplici parte conclusionis, &amp; pro prima arguitur
+            <lb ed="#V" n="14"/>sic. Omne ens positiuum &amp; actiuum vel principium actus
+            <lb ed="#V" n="15"/>est a Deo sed potentia peccandi quantum ad id quod
+            po<lb ed="#V" n="16" break="no"/>tentia est, est huiusmodi igitur quantum ad illud est a Deo.
+            <lb ed="#V" n="17"/>Pro secunda parte arguitur sic. Defectus implicitus in
+            po<lb ed="#V" n="18" break="no"/>tentia peccandi est ex hoc quod illa potentia, &amp; eius
+            subie<lb ed="#V" n="19" break="no"/>ctum est ex nihilo, sed creaturam esse ex nihilo non habet
+            <lb ed="#V" n="20"/>causam effectiuam, quia sublata omni causa efficiente vel
+            <lb ed="#V" n="21"/>omni actione, &amp; causatione causae efficientis, adhuc
+            creatu<lb ed="#V" n="22" break="no"/>ra esset nihil vel ex nihilo: igitur &amp;c. Et in hoc primus
+            ar<lb ed="#V" n="23" break="no"/>riculus terminatur,
+          </p>
+        </div>
+        <div xml:id="capsco-b2kl0y-Dd1e293">
+          <head xml:id="capsco-b2kl0y-Hd1e295">Articulus 2</head>
+          <p xml:id="capsco-b2kl0y-d1e297">
+            <lb ed="#V" n="24"/><milestone ed="#V" unit="p" rend="initial"/> Vantum ad secundum articulum arguitur contra
+            prae<lb ed="#V" n="25" break="no"/>dicta. Nam Scotus arguit sic contra secundam
+            par<lb ed="#V" n="26" break="no"/>tem conclusionis. Sicut in potentijs passiuis idem est
+            pro<lb ed="#V" n="27" break="no"/>ximum susceptiuum vel subiectum habitus &amp; priuationis,
+            <lb ed="#V" n="28"/>ita potentia actiua libera defectibilis est immediatum
+            prin<lb ed="#V" n="29" break="no"/>cipium agendo &amp; deficiendo oppositorum. Agendo
+            qui<lb ed="#V" n="30" break="no"/>dem rectitudinis, deficiendo vero peccati. Et istud
+            absolu<lb ed="#V" n="31" break="no"/>tum est propria potentia respectu vtriusque, eo modo quo
+            <lb ed="#V" n="32"/>potentia potest esse respectu eorum, scilicet effectiue &amp;
+            de<lb ed="#V" n="33" break="no"/>fectiue. Hoc autem modo potentia peccandi est a Deo, hoc
+            <lb ed="#V" n="34"/>est illa natura, qua habens est potens peccare, potens
+            qui<lb ed="#V" n="35" break="no"/>dem non efficiendo, sed deficiendo, cuius tamen deficere
+            <lb ed="#V" n="36"/>istud positiuum est proxima ratio &amp; eodem modo quo
+            con<lb ed="#V" n="37" break="no"/>cedi debet, quod posse peccare est pars libertatis, non vt
+            liber<lb ed="#V" n="38" break="no"/>tas est, sed vt est tali gradu limitata Ad idem arguit
+            Aureo<lb ed="#V" n="39" break="no"/>lus. Quicquid creatura habet a se formaliter, totum
+            habe<lb ed="#V" n="40" break="no"/>a Deo effectiue, alias non tota entitas creaturae esset a Deo.
+            <lb ed="#V" n="41"/>Et accipio quicquid creatura habet ex natura sua, vt talis
+            <lb ed="#V" n="42"/>est, verbi gratia. Quicquid habet liberum arbitrium ex
+            con<lb ed="#V" n="43" break="no"/>ditione sua prima. Sed potentia peccandi inest libero
+            arbi<lb ed="#V" n="44" break="no"/>trio ex sua prima conditione nullo addito, ex sua enim
+            na<lb ed="#V" n="45" break="no"/>tura habet quod possit esse conforme primae regulae, &amp;
+            dis<lb ed="#V" n="46" break="no"/>forme indisterenter, quia nec est prima regula, nec
+            essentia<lb ed="#V" n="47" break="no"/>liter conformitas ad primam regulam: ergo potentia
+            pec<lb ed="#V" n="48" break="no"/>candi est hoc modo effectiue a Deo.
+          </p>
+          <p xml:id="capsco-b2kl0y-d1e355">
+            Secundo arguit sic. Si
+            <lb ed="#V" n="49"/>potentia peccandi non sit a Deo, aut hoc est quia potentia
+            <lb ed="#V" n="50"/>non est a Deo, aut quia aptitudo ad peccandum non est a
+            <lb ed="#V" n="51"/>Deo. Non primo modo, quia certum est quod natura
+            libe<lb ed="#V" n="52" break="no"/>ri arbitrij &amp; eius potentia est a Deo, nec secundo modo,
+            <lb ed="#V" n="53"/>quia talis aptitudo non dicit intrinsece nisi naturam liberi
+            <lb ed="#V" n="54"/>arbitrij, licet extrinsece denotet deformitatem, &amp; quo ad
+            <lb ed="#V" n="55"/>hoc concedo quod non est a Deo. Hoc tamen teneo quod
+            <lb ed="#V" n="56"/>quo ad omne intrinsecum quod dicit potentia peccandi in
+            <lb ed="#V" n="57"/>libero arbitrio est a Deo.
+          </p>
+          <p xml:id="capsco-b2kl0y-d1e377">
+            Tertio arguit quod potentia
+            pec<lb ed="#V" n="58" break="no"/>candi non fundetur in libero arbitrio ex hoc quod est ex
+            ni<lb ed="#V" n="59" break="no"/>hilo, quia alicubi reperitur liberum arbitrium existens ex
+            <lb ed="#V" n="60"/>nihilo, &amp; tamen ibi non reperitur potentia ad peccandum:
+            <lb ed="#V" n="61"/>igitur &amp;c. Tenet consequentia, quia posita causa ponitur &amp;
+            <lb ed="#V" n="62"/>effectus, vel saltem poni potest. Antecedens probatur, quia
+            <lb ed="#V" n="63"/>in confirmatis in via, sicut in matre Domini &amp; alijs
+            huius<lb ed="#V" n="64" break="no"/>modi erat liberum arbitrium ex nihilo, &amp; tamen non erat
+            <lb ed="#V" n="65"/>in potentia ad peccandum. Hoc idem patet de beatis, in
+            <lb ed="#V" n="66"/>quibus non est potentia peccandi. Si dicatur quod pro
+            tan<lb ed="#V" n="67" break="no"/>to non erat in praedictis potentia peccandi, quia
+            confirma<lb ed="#V" n="68" break="no"/>bantur ex gratia. Contra. Illud non dat impotentiam
+            pec<lb ed="#V" n="69" break="no"/>candi cui insunt conditiones illae, quae dant alicui quod in
+            <lb ed="#V" n="70"/>eo sit potentia ad peccandum, sed gratiae quam ponis insunt
+            <lb ed="#V" n="71"/>illae conditiones, scilicet esse ex nihilo quod est
+            fundamen<lb ed="#V" n="72" break="no"/>tum potentiae peccandi secundum te: igitur &amp; caeter.
+          </p>
+          <p xml:id="capsco-b2kl0y-d1e412">
+            Con<lb ed="#V" n="73" break="no"/>firmatur, quia illud non tollit potentiam ad peccandum
+            <lb ed="#V" n="74"/>quod relinquit in subiecto illa quae faciunt potentiam ad
+            <lb ed="#V" n="75"/>peccandum, sed gratia relinquit in subiecto habente ipsam
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="76"/>esse ex nihilo &amp; huiusmodi: igitur.
+          </p>
+          <p xml:id="capsco-b2kl0y-d1e426">
+            Quarto ad idem. Illud
+            <lb ed="#V" n="77"/>quod est mere relatio rationis non dat alicui quod habeat
+            <lb ed="#V" n="78"/>potentiam, aut quod sit potentia ad peccandum, sed esse ex
+            <lb ed="#V" n="79"/>nihilo super illam rem solum dicit respectum rationis,
+            ha<lb ed="#V" n="80" break="no"/>bitudo enim importata per ly ex habet non ens pro
+            termi<lb ed="#V" n="81" break="no"/>no, relatio autem realis habet terminum realem in actu:
+            igi<lb ed="#V" n="82" break="no"/>tur &amp;c.
+          </p>
+          <p xml:id="capsco-b2kl0y-d1e442">
+            Quinto ad idem arguit. Cum dico esse ex nihilo
+            <lb ed="#V" n="83"/>duo dico, scilicet esse, &amp; nihilitatem, aut igitur esse ex
+            nihi<lb ed="#V" n="84" break="no"/>lo constituit &amp; dat rationem potentiae ad peccandum
+            ra<lb ed="#V" n="85" break="no"/>tione de ly esse, aut ratione ipsius nihilitatis. Non primo
+            <lb ed="#V" n="86"/>modo, ita quod ens ex nihilo ex hoc solo possit peccare qua
+            <lb ed="#V" n="87"/>est, quia tunc Deus posset peccare, cum habeat esse. Nec
+            se<lb ed="#V" n="88" break="no"/>cundo modo, puta quod nihilitas det rei posse peccare, quia
+            <lb ed="#V" n="89"/>nihilitas omnino nihil ponit in re illa: igitur &amp;c. Sexto
+            ar<lb ed="#V" n="90" break="no"/>guit Durandus dicens nostram positionem esse
+            defectuo<lb ed="#V" n="91" break="no"/>sam in hoc quod dicit quod creatura ex se habet quod sit
+            <lb ed="#V" n="92"/>ex nihilo. Hoc enim non est verum, quia creatura non
+            dici<lb ed="#V" n="93" break="no"/>tur fieri vel esse ex nihilo materialiter, vel in ratione
+            subie<lb ed="#V" n="94" break="no"/>cti, nec ordinabiliter seu in ratione termini, sed solum
+            nega<lb ed="#V" n="95" break="no"/>tiue, quia sit vel est non de aliquo supposito ex parte facti,
+            <lb ed="#V" n="96"/>hoc autem habet creatura a Deo, &amp; non ex se. Quod
+            pro<lb ed="#V" n="97" break="no"/>batur. Primo quia illud quod est causa alicuius
+            affirmatio<lb ed="#V" n="98" break="no"/>nis est causa negationis per se &amp; immediate consequentis
+            <lb ed="#V" n="99"/>ad affirmationem, verbi gratia. Illud quod est causa quod
+            <lb ed="#V" n="100"/>aliquid sit album est causa quod non sit nigrum, sed Deus
+            <lb ed="#V" n="101"/>est causa causare secundum omne quod est in creatura, ad
+            <lb ed="#V" n="102"/>quam affirmationem sequitur per se immediate ista
+            nega<lb ed="#V" n="103" break="no"/>tio, scilicet quod creatura non fit, nec fiet de aliquo
+            suppo<lb ed="#V" n="104" break="no"/>sito ex parte facti, quia si aliquid supponeretur, non totum
+            <lb ed="#V" n="105"/>produceretur: ergo Deus est causa quod creatura fiat, vel
+            <lb ed="#V" n="106"/>fit non de aliquo, sed solum sub hoc sensu dicitur fieri vel
+            <lb ed="#V" n="107"/>esse ex nihilo: igitur &amp;c. Secundo, quia tota ratio quae
+            mo<lb ed="#V" n="108" break="no"/>uet ad ponendum quod creatura habeat ex se, &amp; non ex alio,
+            <lb ed="#V" n="109"/>quod sit ex nihilo, quod est quia creatura si sibi
+            relinquere<lb ed="#V" n="110" break="no"/>tur cedit in nihilum &amp; nihil est, sed illud magis concludit
+            <lb ed="#V" n="111"/>oppositum quam propositum, quia illud quod est causa
+            ef<lb ed="#V" n="112" break="no"/>fectiua &amp; conseruatiua entitatis rei per suam influentiam,
+            <lb ed="#V" n="113"/>est sufficiens causa non entitatis eiusdem rei per
+            subtractio<lb ed="#V" n="114" break="no"/>nem suae influentiae, vt patet inducendo in omnibus. Sed
+            <lb ed="#V" n="115"/>Deus per suam influentiam est causa effectiua &amp;
+            conserua<lb ed="#V" n="116" break="no"/>tiua totius entitatis cuiuslibet creaturae: ergo ipse solus per
+            <lb ed="#V" n="117"/>subtractionem suae influentiae est causa sufficiens totalis non
+            <lb ed="#V" n="118"/>entitatis creaturae, nec oportet dare causam positiuam, sed
+            <lb ed="#V" n="119"/>negatiuam, scilicet Deum non influere, quia effectus non est
+            <lb ed="#V" n="120"/>positiuus, sed pure negatiuus, scilicet creaturam quae prius
+            <lb ed="#V" n="121"/>fuit modo omnino non esse. Tertio, quia mirabile est quod
+            <lb ed="#V" n="122"/>dicitur quod creatura de se est non ens vel nihil, cum enim
+            <lb ed="#V" n="123"/>haec praepositio dicat causam aliquam, hic non potest
+            di<lb ed="#V" n="124" break="no"/>cere causam formalem, scilicet quod creatura formaliter
+            <lb ed="#V" n="125"/>sit nihil, immo certe formaliter est ens &amp; aliquid. Nec
+            ma<lb ed="#V" n="126" break="no"/>terialem, scilicet quod creatura sit subiectum nihil, quia
+            ni<lb ed="#V" n="127" break="no"/>hil est totalis negatio, quae non potest habere subiectum. Nec
+            <lb ed="#V" n="128"/>finalem, quia tam finem quam illud quod est ad finem
+            opor<lb ed="#V" n="129" break="no"/>tet habere rationem entis &amp; boni, quod de nihilo dici non
+            <lb ed="#V" n="130"/>potest. Nec efficientem, quia nihil non habet causam
+            effi<lb ed="#V" n="131" break="no"/>cientem, sed deficientem, quae est eadem respectu entis
+            effi<lb ed="#V" n="132" break="no"/>ciendo, &amp; respectu nihili efficientiam subtrahendo, quare
+            <lb ed="#V" n="133"/>nullo modo competit creaturae, quod de se sit non ens vel
+            <lb ed="#V" n="134"/>nihil, sed siue sit ens, siue desinat esse &amp; cadat in nihilum,
+            to<lb ed="#V" n="135" break="no"/>tum est a Deo influente, vel influentiam subtrahente.
+          </p>
+          <p xml:id="capsco-b2kl0y-d1e559">
+            Quar<lb ed="#V" n="136" break="no"/>to arguit contra probationem illam qua probatur quod Deus
+            <lb ed="#V" n="137"/>non sit causa indirecte quod creatura sit ex nihilo. Illa enim
+            <lb ed="#V" n="138"/>probatio, vt dicit, assumit falsum, scilicet quod nihil est
+            cau<lb ed="#V" n="139" break="no"/>sa alicuius defectus etiam indirecte, nisi res sit capax
+            oppo<lb ed="#V" n="140" break="no"/>sitae perfectionis. Videmus enim quod Deus causando a
+            si<lb ed="#V" n="141" break="no"/>num in tali gradu, causa est quod asinus deficit ab hoc quod
+            <lb ed="#V" n="142"/>est esse rationalem, &amp; tamen asinus non est capax
+            rationali<lb ed="#V" n="143" break="no"/>tatis. Et idem est in proposito.
+          </p>
+          <p xml:id="capsco-b2kl0y-d1e579">
+            Quinto arguit quod
+            posi<lb ed="#V" n="144" break="no"/>tio sit defectuosa in hoc quod supponit quod
+            defectibili<lb ed="#V" n="145" break="no"/>tas electionis inest rei ex hoc quod est ex nihilo. Dicunt
+            in<lb ed="#V" n="146" break="no"/>quit quidam iuxta sententiam Damascenus quod creaturae
+            <lb ed="#V" n="147"/>ex hoc quod est ex nihilo competit duplex vertibilitas in
+            <lb ed="#V" n="148"/>nihil, scilicet secundum esse naturae, &amp; secundum electionem.
+            <lb ed="#V" n="149"/>Primum fieret si res annihilaretur totaliter. Secundum fit
+            <lb ed="#V" n="150"/>cum peccatur, quia secundum Augustinum peccatum est nihil, &amp; ideo
+            <pb ed="#V" n="585"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>cum peccatur electio peccantis vertitur in nihil. Sed istud
+            <lb ed="#V" n="2"/>non videtur sufficienter dictum. Quia enim creatura ex hoc
+            <lb ed="#V" n="3"/>quod est ex nihilo, modo quo expositum est, sit vertibilis in
+            <lb ed="#V" n="4"/>nihil. Quod negat totalem entitatem, satis patet ex
+            praedi<lb ed="#V" n="5" break="no"/>ctis, quia ex eo quod Deus solum quicquid est in creatura
+            <lb ed="#V" n="6"/>produxit, nullo supposito, &amp; productum conseruat,
+            relin<lb ed="#V" n="7" break="no"/>quitur quod subtracta influentia eius nihil remaneat. Quod
+            <lb ed="#V" n="8"/>vocatur ibi creaturam verti in nihil. Sed quod ex eodem
+            <lb ed="#V" n="9"/>habeat quod sit vertibilis secundum electionem peccando
+            <lb ed="#V" n="10"/>non videtur, quia non solum istae vertibilitates sunt in
+            crea<lb ed="#V" n="11" break="no"/>tura, sed quaedam aliae, sicut homo vertibilis est de visu in
+            <lb ed="#V" n="12"/>caecitatem, &amp; omnes res corruptibiles de entitate in non
+            en<lb ed="#V" n="13" break="no"/>titatem per corruptionem, quae tamen non annihilantur
+            to<lb ed="#V" n="14" break="no"/>taliter, &amp; omnes huius versiones sunt in nihil, sicut versio
+            <lb ed="#V" n="15"/>electionis in peccatum, peccatum enim dicitur nihil, quia
+            <lb ed="#V" n="16"/>est quaedam priuatio. Omnes autem praedictae versiones sunt
+            <lb ed="#V" n="17"/>ab habitu in priuationem: ergo similis ratio videtur esse de
+            <lb ed="#V" n="18"/>omni mutabilitate creaturae ab habitu in priuationem, quod
+            <lb ed="#V" n="19"/>insit creaturae ex eo quod est ex nihilo, quod tamen
+            commu<lb ed="#V" n="20" break="no"/>niter non dicitur.
+          </p>
+          <p xml:id="capsco-b2kl0y-d1e644">
+            Item esse ex nihilo si sit causa omnium
+            <lb ed="#V" n="21"/>vertibilitatum ab habitu in priuationem, aut est causa
+            im<lb ed="#V" n="22" break="no"/>mediata &amp; proxima, aut remota. Non potest dici quod sit
+            <lb ed="#V" n="23"/>causa immediata &amp; proxima, quia posita causa immediata
+            <lb ed="#V" n="24"/>&amp; sufficiente ponitur effectus, sed esse ex nihilo conuenit
+            <lb ed="#V" n="25"/>aequaliter omni creaturae: ergo si esse ex nihilo esset
+            imme<lb ed="#V" n="26" break="no"/>diata causa omnium vertibilitatum, omnes vertibilitates,
+            <lb ed="#V" n="27"/>cuilibet creaturae competerent. Hoc autem est falsum,
+            quae<lb ed="#V" n="28" break="no"/>dam enim sunt creaturae, quibus non competit vertibilitas
+            <lb ed="#V" n="29"/>corruptionis, vt coelum, &amp; substantiae separatae. Quaedam
+            <lb ed="#V" n="30"/>vero sunt quibus non competit vertibilitas electionis, vt
+            crea<lb ed="#V" n="31" break="no"/>turis irrationabilibus, &amp; sic de alijs: ergo esse ex nihilo non
+            <lb ed="#V" n="32"/>est causa immediata omnium vertibilitatum. Si autem sit
+            <lb ed="#V" n="33"/>causa remota &amp; mediata, per eam non poterit sufficienter
+            <lb ed="#V" n="34"/>assignari ratio dictarum vertibilitatum. Dicere ergo quod
+            <lb ed="#V" n="35"/>defectibilitas electionis insit creaturae ex hoc quod est ex
+            <lb ed="#V" n="36"/>nihilo, multum insufficienter dictum est.
+          </p>
+          <p xml:id="capsco-b2kl0y-d1e681">
+            Sexto arguit quod
+            <lb ed="#V" n="37"/>principalis conclusio sit in se falsa, scilicet potentia
+            peccan<lb ed="#V" n="38" break="no"/>di quantum ad defectibilitatem non est a Deo. Hoc enim
+            <lb ed="#V" n="39"/>inquit non est verum, quod sic patet. Defectus qui non
+            ha<lb ed="#V" n="40" break="no"/>bet rationem mali plus potest causari a Deo quam ille qui
+            ha<lb ed="#V" n="41" break="no"/>bet rationem mali: sed defectus qui habet rationem mali
+            cau<lb ed="#V" n="42" break="no"/>satur a Deo, malum enim poenae a Deo est: ergo fortiori
+            ra<lb ed="#V" n="43" break="no"/>tione defectus qui non habet rationem mali. Solus autem
+            <lb ed="#V" n="44"/>defectus est possibilitas deficiendi in eligendo, non enim est
+            <lb ed="#V" n="45"/>culpa, alioquin homo semper peccaret. Nec paena, quia fuit
+            <lb ed="#V" n="46"/>in statu innocentiae in quo nihil fuit paenale, sed est purus
+            de<lb ed="#V" n="47" break="no"/>fectus naturae creatae intellectualis, quae non attingit
+            perfe<lb ed="#V" n="48" break="no"/>ctionem naturae increatae, in qua nullus potest esse defectus,
+            <lb ed="#V" n="49"/>nec in cognoscendo, nec in eligendo, nec tamen iste
+            defe<lb ed="#V" n="50" break="no"/>ctus est malus, quia non tollit aliquam perfectionem
+            natu<lb ed="#V" n="51" break="no"/>rae creatae debitam: ergo possibilitas deficiendi in eligendo
+            <lb ed="#V" n="52"/>est a Deo.
+          </p>
+          <p xml:id="capsco-b2kl0y-d1e719">
+            Septimo ad idem, quia idem est iudicium de
+            om<lb ed="#V" n="53" break="no"/>ni possibilitate deficiendi, quod sit a Deo, vel non. Sed
+            con<lb ed="#V" n="54" break="no"/>stat quod possibilitas deficiendi per corruptionem est in
+            crea<lb ed="#V" n="55" break="no"/>turis corruptibilibus a Deo: ergo pari ratione possibilitas
+            <lb ed="#V" n="56"/>deficiendi in eligendo est a Deo. Maior patet, sed minor
+            <lb ed="#V" n="57"/>probatur, quia ordo vniuersi est per se intentus a Deo,
+            requi<lb ed="#V" n="58" break="no"/>rit autem ordo vniuersi quod quaedam deficere possint, &amp;
+            <lb ed="#V" n="59"/>quandoque deficiant alioquin alia non saluarentur.
+            Plan<lb ed="#V" n="60" break="no"/>tae enim vtuntur terra ad sui nutrimentum, animalia vero
+            <lb ed="#V" n="61"/>plantis, homines vero plantis &amp; animalibus, &amp; in his
+            corru<lb ed="#V" n="62" break="no"/>ptio vnius ordinatur ad conseruationem alterius ex ordine
+            <lb ed="#V" n="63"/>naturae, &amp; diuina institutione, quae habetur Genestcus 1. &amp; 9.
+            <lb ed="#V" n="64"/>quare &amp;c. Et in hoc secundus articulus terminatur.
+          </p>
+        </div>
+        <div xml:id="capsco-b2kl0y-Dd1e749">
+          <head xml:id="capsco-b2kl0y-Hd1e751">Articulus 3</head>
+          <p xml:id="capsco-b2kl0y-d1e753">
+            <lb ed="#V" n="65"/><milestone ed="#V" unit="p" rend="initial"/> Vantum ad tertium articulum respondendum est
+            obie<lb ed="#V" n="66" break="no"/>ctionibus praelibatis. Et ideo ad primum quod est
+            <lb ed="#V" n="67"/>Scoti dicitur, quod potentia peccandi prout dicit
+            fun<lb ed="#V" n="68" break="no"/>damentum ordinis ad actum deformem &amp; deformitatem,
+            <lb ed="#V" n="69"/>non est quid positiuum, nec est a Deo, sicut ponit
+            conclu<lb ed="#V" n="70" break="no"/>sio, cuius oppositum probare nititur Scotus. Nec valet
+            <lb ed="#V" n="71"/>probatio eius, quia similitudo de potentia passiua &amp;
+            libe<lb ed="#V" n="72" break="no"/>ro arbitrio nulla est, cuius ratio est, quia potentia passiua,
+            <lb ed="#V" n="73"/>de qua argumentum loquitur, non plus naturaliter
+            ordina<lb ed="#V" n="74" break="no"/>tur ad habitum quam ad priuationem. Secus est de libero
+            <lb ed="#V" n="75"/>arbitrio, quod ex natura sua ordinatur ad actum rectum,
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="76"/>&amp; non ad actum deformem. Vnde ordo eius ad
+            deformi<lb ed="#V" n="77" break="no"/>tatem non potest in ipso immediate fundari nisi supposito
+            <lb ed="#V" n="78"/>&amp; mediante aliquo eius defectu, vt diffuse dicit probatio
+            <lb ed="#V" n="79"/>conclusionis contra quam arguit, &amp; de hoc postea diffusius
+            <lb ed="#V" n="80"/>dicetur.
+          </p>
+          <p xml:id="capsco-b2kl0y-d1e793">
+            Ad primum Aureoli dicitur quod quicquid
+            enti<lb ed="#V" n="81" break="no"/>tatis bonitatis &amp; perfectionis habet creatura in se vel ex se
+            <lb ed="#V" n="82"/>formaliter, habet totum a Deo effectiue, non tamen
+            opor<lb ed="#V" n="83" break="no"/>tet quod omnem imperfectionem quam habet in se vel a se
+            <lb ed="#V" n="84"/>formaliter, habeat a Deo effectiue, alias omnes
+            deformita<lb ed="#V" n="85" break="no"/>tes &amp; inordinationes actuum malorum essent effectiue a
+            <lb ed="#V" n="86"/>Deo, quod est impium dicere. Hoc autem modo intellecta
+            <lb ed="#V" n="87"/>maiore argumenti, minor si sumatur directe sub maiore,
+            fal<lb ed="#V" n="88" break="no"/>sa est, quia potentia peccandi quantum ad defectibilitatem,
+            <lb ed="#V" n="89"/>vel ordinem ad actum defectibilem aut fundamentum
+            ta<lb ed="#V" n="90" break="no"/>lis ordinis non dicit quid positiuum, aut ad perfectionem
+            <lb ed="#V" n="91"/>pertinens, nec pertinet ad naturam liberi arbitrij sed ad eius
+            <lb ed="#V" n="92"/>defectum. Probatio autem minoris sic intellectae nulla est,
+            <lb ed="#V" n="93"/>quia liberum arbitrium sine aliquo positiuo superaddito
+            <lb ed="#V" n="94"/>potest se difformare primae regulae, non tamen posset se
+            dif<lb ed="#V" n="95" break="no"/>formare a prima regula, nisi esset aliud essentialiter a sua
+            re<lb ed="#V" n="96" break="no"/>gula &amp; subiectum superiori regulae, &amp; bonum particulatum
+            <lb ed="#V" n="97"/>&amp; imperfectum &amp; defectiuum, vnde talis defectibilitas aut
+            <lb ed="#V" n="98"/>peccabilitas non est quid positiuum, nec fundatum
+            imme<lb ed="#V" n="99" break="no"/>diate in aliquo positiuo.
+          </p>
+          <p xml:id="capsco-b2kl0y-d1e837">
+            Item falsum dicit quod liberum
+            <lb ed="#V" n="100"/>arbitrium ex sua natura habeat talem defectibilitatem, si
+            <lb ed="#V" n="101"/>intelligat, quod illa defectibilitas sit natura, vel pars
+            natu<lb ed="#V" n="102" break="no"/>rae, vel passio positiua liberi arbitrij, vel priuatio immediate
+            <lb ed="#V" n="103"/>fundata in libero arbitrio inquantum huiusmodi. Ad
+            secun<lb ed="#V" n="104" break="no"/>dum dicitur quod potentia peccandi est a Deo quantum ad
+            <lb ed="#V" n="105"/>illud, quod est potentia vel fundamentum ordinis ad
+            abso<lb ed="#V" n="106" break="no"/>lutum &amp; positiuum actus peccati, sed quantum ad
+            funda<lb ed="#V" n="107" break="no"/>mentum ordinis ad deformitatem actus peccati, vel
+            quan<lb ed="#V" n="108" break="no"/>tum ad illum ordinem ad deformitatem peccati nullo
+            mo<lb ed="#V" n="109" break="no"/>do est a Deo. Et cum dicitur quod talis aptitudo non
+            di<lb ed="#V" n="110" break="no"/>cit intrinsece nisi naturam liberi arbitrij, aut voluntatis,
+            ne<lb ed="#V" n="111" break="no"/>gandum est, quia sicut in peccato aliud est actus, &amp; aliud
+            <lb ed="#V" n="112"/>deformitas, ita liberum arbitrium alium ordinem habet ad
+            <lb ed="#V" n="113"/>actum, &amp; alium ordinem ad aptitudinem ad deformitatem
+            <lb ed="#V" n="114"/>actus sui. Et sunt duae aptitudines ad duos terminos,
+            qua<lb ed="#V" n="115" break="no"/>rum nulla est liberum arbitrium, sed respectus rationis
+            fun<lb ed="#V" n="116" break="no"/>datus in libero arbitrio mediate vel immediate.
+          </p>
+          <p xml:id="capsco-b2kl0y-d1e876">
+            Ad tertium
+            <lb ed="#V" n="117"/>dicitur quod potentia peccandi est in quolibet libero
+            arbi<lb ed="#V" n="118" break="no"/>trio creato &amp; producto ex nihilo, tanquam in radice
+            remo<lb ed="#V" n="119" break="no"/>ta ab actu, vel propinqua, ligata vel soluta. Vnde
+            inconfir<lb ed="#V" n="120" break="no"/>matis per gratiam in via, vel per gloriam in patria, manet
+            <lb ed="#V" n="121"/>potentia peccandi remota &amp; ligata. Et hoc habet
+            conce<lb ed="#V" n="122" break="no"/>dere arguens cum ponat potentiam peccandi immediate
+            <lb ed="#V" n="123"/>fundari in natura liberi arbitrij ex sua prima conditione
+            <lb ed="#V" n="124"/>nullo superaddito, ex hoc quod non est prima regula, nec
+            <lb ed="#V" n="125"/>essentialiter conformitas ad primam regulam, vt patet in
+            <lb ed="#V" n="126"/>argumento praecedenti. Constat autem quod intellectus
+            <lb ed="#V" n="127"/>creatus beatus non est prima regula, nec essentialiter
+            con<lb ed="#V" n="128" break="no"/>formitas ad primam regulam. Posset tamen dici quod per
+            <lb ed="#V" n="129"/>gratiam viae vel gloriam patriae tollitur potentia peccandi,
+            <lb ed="#V" n="130"/>accipiendo potentiam peccandi pro principio proximo &amp;
+            <lb ed="#V" n="131"/>non ligato productiuo actus deformis &amp; suae deformitatis.
+            <lb ed="#V" n="132"/>Et ad hunc sensum loquitur Sanctus Thomas de veritate. quaest. 24.
+            <lb ed="#V" n="133"/>artic. 8. vbi sic arguit. Gratia superueniens naturae eam non
+            <lb ed="#V" n="134"/>destruit. Cum ergo libero arbitrio creato hoc naturaliter
+            <lb ed="#V" n="135"/>insit quod ad malum flecti possit, videtur quod per
+            grati<lb ed="#V" n="136" break="no"/>ei auferri non possit. Ecce argumentum. Sequitur
+            respon<lb ed="#V" n="137" break="no"/>sio. Ad primum inquit dicendum quod hoc est ex defectu
+            <lb ed="#V" n="138"/>naturae creatae quod in malum flecti possit. Et hunc
+            defe<lb ed="#V" n="139" break="no"/>ctum aufert perficiendo naturam per gratiam confirmans
+            <lb ed="#V" n="140"/>in bono, sicut lux superueniens aeri aufert eius
+            obscurita<lb ed="#V" n="141" break="no"/>tem, quam naturaliter sine luce habet.
+          </p>
+          <p xml:id="capsco-b2kl0y-d1e934">
+            Item quarto loco
+            ar<lb ed="#V" n="142" break="no"/>guit sic. Secundum hoc inest libero arbitrio flexibilitas ad
+            <lb ed="#V" n="143"/>malum quod est ex nihilo, vt dicit Damasc. sed nulla gratia
+            <lb ed="#V" n="144"/>potest auferre libero arbitrio creaturae esse ex nihilo: ergo
+            <lb ed="#V" n="145"/>nulla gratia potest liberum arbitrium confirmare in
+            bono<lb ed="#V" n="146" break="no"/>Ecce argumentum. Sequitur responsio. Ad quartum
+            in<lb ed="#V" n="147" break="no"/>quit dicendum quod ex hoc quod liberum arbitrium est
+            <lb ed="#V" n="148"/>ex nihilo conuenit ei quod non sit naturaliter confirmatum
+            <lb ed="#V" n="149"/>in bono, nec hoc ei per gratiam concedi potest, vt in
+            bono<lb ed="#V" n="150" break="no"/>sit naturaliter confirmatum. Non autem conuenit libero
+            <pb ed="#V" n="586"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>arbitrio secundum quod est ex nihilo quod nullo modo possit
+            <lb ed="#V" n="2"/>confirmari in bono, sicut nec aeri ex natura sua inest quod
+            <lb ed="#V" n="3"/>nullo modo possit illuminari, sed quod non sit naturaliter
+            <lb ed="#V" n="4"/>lucidus in actu. Haec ille.
+          </p>
+          <p xml:id="capsco-b2kl0y-d1e969">
+            Ex quibus apparet quod gratia
+            <lb ed="#V" n="5"/>tollit potentiam peccandi, si sit consumata accipiendo
+            po<lb ed="#V" n="6" break="no"/>tentiam peccandi prout dictum est pro principio proximo
+            <lb ed="#V" n="7"/>&amp; non impeditiuo actus deformitatis. Potest etiam dici quod
+            <lb ed="#V" n="8"/>potentia peccandi fundatur in libero arbitrio creato ex
+            ni<lb ed="#V" n="9" break="no"/>hilo in suis naturalibus considerato, non autem in libero
+            <lb ed="#V" n="10"/>arbitrio creato per gratiam consumatam cum Deo ligato,
+            <lb ed="#V" n="11"/>&amp; hoc in idem redit cum praecedenti solutione. Ex quibus
+            <lb ed="#V" n="12"/>patet ad confirmationes ibidem factas.
+          </p>
+          <p xml:id="capsco-b2kl0y-d1e989">
+            Ad quartum
+            dici<lb ed="#V" n="13" break="no"/>tur quod potentia peccandi prout dicit fundamentum
+            or<lb ed="#V" n="14" break="no"/>dinis ad actum positiuum &amp; quid productiuum talis actus
+            <lb ed="#V" n="15"/>non est relatio rationis, nec ens rationis, sed absolutum &amp;
+            <lb ed="#V" n="16"/>positiuum reale, scilicet potentia quam dicimus liberum
+            <lb ed="#V" n="17"/>arbitrium. Sed prout dicit fundamentum ordinis ad
+            defor<lb ed="#V" n="18" break="no"/>mitatem actus potest esse ens rationis, sicut &amp; illa
+            deformi<lb ed="#V" n="19" break="no"/>tas est ens rationis. Vnde argumentum non vadit ad
+            men<lb ed="#V" n="20" break="no"/>tem conclusionis, quia nec conclusio, nec eius probatio
+            di<lb ed="#V" n="21" break="no"/>cit quod potentia peccandi oriatur ex tali negatione vel
+            ha<lb ed="#V" n="22" break="no"/>bitudine quae importatur per ly esse ex nihilo totaliter, sed
+            <lb ed="#V" n="23"/>in parte.
+          </p>
+          <p xml:id="capsco-b2kl0y-d1e1015">
+            Ad quintum patet per idem, quia conceditur quod i.
+            <lb ed="#V" n="24"/>esse ex nihilo ratione nihilitatis dat rationem potentiae ad
+            <lb ed="#V" n="25"/>peccandum partialiter non totaliter, quantum ad defectum
+            <lb ed="#V" n="26"/>quem includit potentia peccandi, licet non quantum ad
+            <lb ed="#V" n="27"/>positiuum, quia vna negatio potest esse causa alterius, vt
+            <lb ed="#V" n="28"/>dicit 2 Physic. &amp; 5. Metaphys. sicut absentia nautae est causa
+            <lb ed="#V" n="29"/>perditionis nauis.
+          </p>
+          <p xml:id="capsco-b2kl0y-d1e1031">
+            Ad primum Durandi dicitur primo quod
+            <lb ed="#V" n="30"/>cum dicitur quod creatura ex se habet quod sit ex nihilo,
+            <lb ed="#V" n="31"/>non solum debet intelligi negatiue illo modo quo exponit
+            <lb ed="#V" n="32"/>arguens, scilicet quia sit vel est, &amp; non de aliquo
+            praesuppo<lb ed="#V" n="33" break="no"/>sito ex parte perfecti, immo potest &amp; debet intelligi
+            ordina<lb ed="#V" n="34" break="no"/>biliter, &amp; in ratione termini, quia scilicet creatura prius erat
+            <lb ed="#V" n="35"/>nihil quam aliquid prioritate naturae non temporis ad hunc
+            <lb ed="#V" n="36"/>sensum quod essentia creaturae ex se formaliter est nihil, &amp;
+            <lb ed="#V" n="37"/>ab alio habet quod sit aliquod actu existens. Quod autem
+            <lb ed="#V" n="38"/>inest rei ex se prius inest ei quam illud quod inest rei ex alio.
+            <lb ed="#V" n="39"/>Sicut aqua quantumcunque sit calida prius natura est
+            fri<lb ed="#V" n="40" break="no"/>gida quam calida, quia ex se &amp; ex natura sua est frigida, licet
+            <lb ed="#V" n="41"/>ab extrinseco sit calida, non quod simul sit calida &amp;
+            frigi<lb ed="#V" n="42" break="no"/>da in actu, sed frigida virtute, calida in actu. Tamen actus
+            <lb ed="#V" n="43"/>ille non pullulat ab intrinseco, sicut virtus quae prodiret in
+            <lb ed="#V" n="44"/>actum, si sibimet relinqueretur, &amp; idem est de aere lucido.
+            <lb ed="#V" n="45"/>Ex quibus apparet quod prima forma in argumento facta
+            <lb ed="#V" n="46"/>non valet, quia fundatur in falso, scilicet quod negatio essendi
+            <lb ed="#V" n="47"/>creaturae consequatur de per se ad aliquam affirmationem,
+            <lb ed="#V" n="48"/>cuius Deus sit causa, &amp; affirmatio creaturae praecedat
+            ordi<lb ed="#V" n="49" break="no"/>ne naturae eius negationem. Hoc enim falsum est, quia
+            sub<lb ed="#V" n="50" break="no"/>lata omni affirmatione &amp; productione asini a Deo, adhuc
+            <lb ed="#V" n="51"/>asinus est nihil, &amp; si asinus a Deo producitur prius natura
+            <lb ed="#V" n="52"/>fuit nihil, quam ens actu.
+          </p>
+          <p xml:id="capsco-b2kl0y-d1e1083">
+            Ad secundum dicitur quod
+            ra<lb ed="#V" n="53" break="no"/>tio quam arguens recitat bona est, nec concludit
+            opposi<lb ed="#V" n="54" break="no"/>tum, sed propositum. Et ad probationem in oppositum
+            <lb ed="#V" n="55"/>dicitur quod maior ibidem assumpta est vera, vel esset vera
+            <lb ed="#V" n="56"/>si res habens esse ab alio &amp; entitatem actualem ab alio prius
+            <lb ed="#V" n="57"/>natura haberet esse quam non esse, sed vbi est oppositum,
+            <lb ed="#V" n="58"/>sicut est in proposito, maior est falsa. Vnde illa maior non
+            <lb ed="#V" n="59"/>plus habet euidentiae quam ista, aqua habet quod sit
+            calida<lb ed="#V" n="60" break="no"/>ex influentia ignis: ergo ex subtractione illius actiuitatis
+            <lb ed="#V" n="61"/>habet quod sit non calida. Haec autem consequentia non
+            <lb ed="#V" n="62"/>valet, quia aqua prius natura est non calida, nec habet quod
+            <lb ed="#V" n="63"/>sit non calida ex actione ignis, sed ex propria natura. Vnde
+            <lb ed="#V" n="64"/>illa maior generaliter falsa est, vbi effectus ex natura sua
+            in<lb ed="#V" n="65" break="no"/>clinatur ad oppositum illius, quod habet ex agente Ad
+            ter<lb ed="#V" n="66" break="no"/>tium dicitur quod cum dicitur creatura est de se non ens,
+            <lb ed="#V" n="67"/>ly de potest dicere causam formalem ad hunc sensum quod
+            <lb ed="#V" n="68"/>creatura ex se &amp; de se &amp; propria essentia est in potentia ad
+            <lb ed="#V" n="69"/>esse, &amp; non est suum esse, sicut materia prima potest dici de
+            <lb ed="#V" n="70"/>se informis, quia sua essentia nec est forma, nec habens
+            for<lb ed="#V" n="71" break="no"/>mam partem sui, sed est potentia ad formam, &amp; est susce.
+            <lb ed="#V" n="72"/>ptiua formae, &amp; est in quadam dispositione opposita
+            ipsi<lb ed="#V" n="73" break="no"/>lormae. Sic in proposito, essentia cuiuslibet creaturae est in
+            <lb ed="#V" n="74"/>potentia susceptiua actualis existentiae.
+          </p>
+          <p xml:id="capsco-b2kl0y-d1e1134">
+            Nec valet quod
+            di<lb ed="#V" n="75" break="no"/>citur quod creatura formaliter est ens &amp; aliquid, quia licet
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="76"/>creatura ex sua essentia sit ens &amp; aliquid in potentia, non
+            <lb ed="#V" n="77"/>tamen est ens aut aliquid in actu, nisi per aliquid super
+            ad<lb ed="#V" n="78" break="no"/>ditum essentiae, scilicet per esse. Non ergo per essentiam
+            <lb ed="#V" n="79"/>suam est ens formaliter, sed subiectiue, per esse vero est ens
+            <lb ed="#V" n="80"/>formaliter. Dico secundo quod cum dicitur creatura est
+            <lb ed="#V" n="81"/>de se non ens, ly de potest dicere aptitudinem causae
+            natu<lb ed="#V" n="82" break="no"/>ralis ad hunc sensum quod essentia creaturae nata est esse
+            su<lb ed="#V" n="83" break="no"/>biectum non essendi prius natura quam subiectum essendi,
+            <lb ed="#V" n="84"/>quia actualis existentia non est ratio, nec de ratione, nec
+            pro<lb ed="#V" n="85" break="no"/>pria passio alicuius creaturae, immo intellecta essentia rosae
+            <lb ed="#V" n="86"/>nihil intelligitur ibi de esse, &amp; potest intelligi sub non esse.
+          </p>
+          <p xml:id="capsco-b2kl0y-d1e1165">
+            <lb ed="#V" n="87"/>Nec valet impugnatio, quia licet non esse prout omnem
+            <lb ed="#V" n="88"/>negat actualem existentiam &amp; essentiam nullum, habeat
+            su<lb ed="#V" n="89" break="no"/>biectum, tamen non esse quod solum negat actualem
+            exi<lb ed="#V" n="90" break="no"/>stentiam &amp; non essentiam potest concipi per modum
+            exi<lb ed="#V" n="91" break="no"/>stentis in subiecto, sic quod essentia creaturae vt praecedit
+            <lb ed="#V" n="92"/>suam productionem &amp; omnem actualem existentiam,
+            in<lb ed="#V" n="93" break="no"/>telligatur subiectum non existentiae.
+          </p>
+          <p xml:id="capsco-b2kl0y-d1e1183">
+            Ad quartum dicitur
+            <lb ed="#V" n="94"/>quod falsum asumit, scilicet quod Deus sit causa, quod asinus
+            <lb ed="#V" n="95"/>non sit rationalis. Hoc enim falsum est, quia sublata
+            omni<lb ed="#V" n="96" break="no"/>causalitate vel causatione &amp; productione effectiua Dei, ad.
+            <lb ed="#V" n="97"/>huc asinus non est rationalis, &amp; secundum multos ante
+            om<lb ed="#V" n="98" break="no"/>nem causalitatem vel causationem effectiuam asinus est
+            sub<lb ed="#V" n="99" break="no"/>stantia corpus, viuum, animal, asinus, rudibilis, non
+            ratio<lb ed="#V" n="100" break="no"/>nalis, nullum tamen horum sibi conuenit actuali
+            existen<lb ed="#V" n="101" break="no"/>tia, sed in potentia obedientiali, vel potentia creatoris, vel
+            <lb ed="#V" n="102"/>in esse intelligibili &amp; in esse essentiae.
+          </p>
+          <p xml:id="capsco-b2kl0y-d1e1205">
+            Ad quintum
+            dicen<lb ed="#V" n="103" break="no"/>dum est quod prima radix defectibilitatis secundum
+            electio<lb ed="#V" n="104" break="no"/>nem &amp; peccabilitatis inest libero arbitrio, eo quod est ex
+            ni<lb ed="#V" n="105" break="no"/>hilo, sed non est praecisa &amp; proxima causa. De hoc Sanctus Thomas
+            <lb ed="#V" n="106"/>de veritate. q. 24. artic. 7. Nulla creatura est, nec esse potest,
+            <lb ed="#V" n="107"/>cuius liberum arbitrium naturaliter sit confirmatum in
+            bo<lb ed="#V" n="108" break="no"/>no, vt hoc ei ex puris naturalibus conueniat quod peccare
+            <lb ed="#V" n="109"/>non possit, cuius ratio est. Nam ex defectu principiorum
+            <lb ed="#V" n="110"/>actionis causatur actionis defectus. Vnde si quid est in quo
+            <lb ed="#V" n="111"/>principia actionis nec in se deficere possint, nec ab aliquo
+            <lb ed="#V" n="112"/>extrinseco impediri, impossibile est illius actionem
+            defice<lb ed="#V" n="113" break="no"/>re, sicut patet in motibus coelestium corporum, ea vero in
+            <lb ed="#V" n="114"/>actione deficere possibile est, in quibus principia agendi
+            de<lb ed="#V" n="115" break="no"/>ficere possunt vel impediri, sicut patet in generabilibus &amp;
+            <lb ed="#V" n="116"/>corruptibilibus quae ratione suae transmutabilitatis defectum
+            <lb ed="#V" n="117"/>in principijs actiuis patiuntur, vnde &amp; eorum actiones
+            de<lb ed="#V" n="118" break="no"/>ficientes proueniunt, propter quod in operationibus
+            natu<lb ed="#V" n="119" break="no"/>rae frequenter peccatum accidit, sicut patet in partubus
+            mon<lb ed="#V" n="120" break="no"/>struosis, nam nihil aliud est peccatum siue in rebus
+            natura<lb ed="#V" n="121" break="no"/>libus siue in artificialibus siue voluntarijs dicatur quam
+            de<lb ed="#V" n="122" break="no"/>fectus vel inordinatio propriae actionis, cum aliquid agitur
+            <lb ed="#V" n="123"/>non secundum quod natum est agi, vt patet in 2. Phys.
+            Dif<lb ed="#V" n="124" break="no"/>fert autem in agendo natura rationalis praedita libero
+            arbi<lb ed="#V" n="125" break="no"/>trio ab omni alia natura agente, nam quaelibet alia natura
+            <lb ed="#V" n="126"/>ad aliquod particulare bonum ordinatur, &amp; actiones eius
+            <lb ed="#V" n="127"/>sunt determinatae respectu illius boni, natura vero
+            rationa<lb ed="#V" n="128" break="no"/>lis ordinatur ad bonum simpliciter, sicut enim verum
+            abso<lb ed="#V" n="129" break="no"/>lute est obiectum intellectus, ita etiam bonum absolute est
+            <lb ed="#V" n="130"/>obiectum voluntatis. Et inde est quod ad ipsum
+            vniuersa<lb ed="#V" n="131" break="no"/>le bonorum principium voluntas se extendit, ad quod
+            nul<lb ed="#V" n="132" break="no"/>lus alius appetitus pertingere potest. Et propter hoc
+            crea<lb ed="#V" n="133" break="no"/>tura rationalis non habet determinatas actiones, sed se
+            ha<lb ed="#V" n="134" break="no"/>bet sub quadam indifferentia respectu innumerabilium
+            actio<lb ed="#V" n="135" break="no"/>num. Cum autem omnis actio ab agente proueniat sub
+            ra<lb ed="#V" n="136" break="no"/>tione cuiusdam similitudinis sicut calidum calefacit,
+            opor<lb ed="#V" n="137" break="no"/>tet quod si aliquod agens est quod secundum suam
+            actio<lb ed="#V" n="138" break="no"/>nem ordinetur ad aliquod particulare bonum, ad hoc quod
+            <lb ed="#V" n="139"/>eius actio naturaliter sit indefectibilis, quod ratio illius
+            bo<lb ed="#V" n="140" break="no"/>ni naturaliter immobiliter eidem insit, sicut si alicui
+            corpo<lb ed="#V" n="141" break="no"/>ri inest calor naturaliter immobiliter, tale immutabiliter
+            <lb ed="#V" n="142"/>calefacit, vnde &amp; natura rationalis quae ordinata est ad
+            bo<lb ed="#V" n="143" break="no"/>num absolute per actiones multi farias non potest habere
+            <lb ed="#V" n="144"/>naturaliter actiones indeficientes a bono, nisi ei naturaliter
+            <lb ed="#V" n="145"/>&amp; immutabiliter insit ratio vniuersalis &amp; perfecti boni, quod
+            <lb ed="#V" n="146"/>quidem esse non potest nisi in natura diuina, nam Deus
+            so<lb ed="#V" n="147" break="no"/>lus est actus purus nullius potentiae permixtionem recipiens,
+            <lb ed="#V" n="148"/>&amp; per hoc est bonitas pura &amp; absoluta. Quaelibet vero
+            crea<lb ed="#V" n="149" break="no"/>tura cum in natura sua habeat permixtionem potentiae, est
+            <lb ed="#V" n="150"/>bonum particulare, quae quidem permixtio potentiae
+            acci<pb ed="#V" n="587"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>dit ei propter hoc quod est ex nihilo. Et inde est quod
+            in<lb ed="#V" n="2" break="no"/>ter naturas rationales solus Deus habet liberum arbitrium
+            <lb ed="#V" n="3"/>naturaliter impeccabile &amp; confirmatum in bono, creaturae
+            <lb ed="#V" n="4"/>vero hoc est impossibile propter hoc quod est ex nihilo, vt
+            <lb ed="#V" n="5"/>Damascen. &amp; Gregorius Nissenus dicunt. Et ex hoc est
+            parti<lb ed="#V" n="6" break="no"/>culare bonum in quo fundatur ratio mali vt dicit Dionysius
+            <lb ed="#V" n="7"/>4. capit. de diuinis nominibus. Haec ille.
+          </p>
+          <p xml:id="capsco-b2kl0y-d1e1329">
+            Ex quo apparet quod
+            <lb ed="#V" n="8"/>peccabilitas vel potentia peccandi in libero arbitrio
+            pullu<lb ed="#V" n="9" break="no"/>lat ex tribus. Primum est, quia est in se bonum particulare
+            <lb ed="#V" n="10"/>recipiens admixtionem potentiae, cuius particularitatis &amp;
+            <lb ed="#V" n="11"/>permixtionis radix est esse ex nihilo: secundum est, quia
+            li<lb ed="#V" n="12" break="no"/>berum arbitrium ordinatur ad bonum absolute &amp;
+            vniuer<lb ed="#V" n="13" break="no"/>saliter, non tantum ad aliquod particulare bonum: tertium
+            <lb ed="#V" n="14"/>est, quia non habet actiones naturaliter determinatas
+            respe<lb ed="#V" n="15" break="no"/>ctu vniuersalis boni, sed indeterminatas &amp; multifarias. Ex
+            <lb ed="#V" n="16"/>istis autem tribus inest sibi defectibilitas in actione, ac per
+            <lb ed="#V" n="17"/>hoc peccabilitas, si suis puris &amp; solis naturalibus
+            relinqua<lb ed="#V" n="18" break="no"/>tur. Tunc ad primam huius improbationem dicitur quod
+            <lb ed="#V" n="19"/>omnis vertibilitas &amp; mutabilitas creaturae prouenit
+            radica<lb ed="#V" n="20" break="no"/>liter ex hoc quod est potentiae admixtionem recipiens, quod
+            <lb ed="#V" n="21"/>habet ideo, quia est ex nihilo &amp; ab alio creatum, quia omne
+            <lb ed="#V" n="22"/>quod est creatum ab alio, non habet ex se esse suum, sed ab
+            <lb ed="#V" n="23"/>alio, &amp; si habet esse ab alio, comparatur ad suum esse vt
+            po<lb ed="#V" n="24" break="no"/>tentia ad actum sicut arguit Auicen.
+          </p>
+          <p xml:id="capsco-b2kl0y-d1e1368">
+            Ad secundam
+            impro<lb ed="#V" n="25" break="no"/>bationem huius dicitur, quod esse ex nihilo est prima radix
+            <lb ed="#V" n="26"/>omnis vertibilitatis inquantum ex ipsa pullulat
+            potentia<lb ed="#V" n="27" break="no"/>litas &amp;imperfectio, non tamen est totalis &amp; praecisa causa
+            <lb ed="#V" n="28"/>proxima vertibilitatis, quia ad hoc etiam confert de
+            proxi<lb ed="#V" n="29" break="no"/>mo carentia perfectionis ligantis &amp; stabilientis potentiam
+            <lb ed="#V" n="30"/>in bono, potissime in creaturis, quarum potentia actiua vel
+            <lb ed="#V" n="31"/>passiua ordinatur ad multa indifferenter, ad quae
+            acquiren<lb ed="#V" n="32" break="no"/>da vel facienda requiritur perfectio potentiae, quam ex
+            pu<lb ed="#V" n="33" break="no"/>ris naturalibus non sufficit habere, vel saltem non de
+            neces<lb ed="#V" n="34" break="no"/>sitate inest potentiae, sicut apparet in naturalibus, ex hoc
+            <lb ed="#V" n="35"/>enim generabilia &amp; corruptibilia sunt vertibilia, quia in eis
+            <lb ed="#V" n="36"/>est materia in potentia ad multas formas quas non habet
+            <lb ed="#V" n="37"/>actu, sed potentia, similiter ideo liberum arbitrium creatum
+            <lb ed="#V" n="38"/>est vertibile in malum &amp; in nihil secundum electionem, quia
+            <lb ed="#V" n="39"/>ordinatur ad multas actiones quas non potest perfecte
+            age<lb ed="#V" n="40" break="no"/>re nisi assit ei sufficiens directio rationis, &amp; assistentia
+            gra<lb ed="#V" n="41" break="no"/>tiae, &amp; perfecta ligatio cum summo bono &amp; vltimo fine.
+            <lb ed="#V" n="42"/>Talia autem non semper assunt, ideo in absentia talium
+            po<lb ed="#V" n="43" break="no"/>test defectuose agere. Sunt autem aliquae creaturae ex
+            nihi<lb ed="#V" n="44" break="no"/>lo &amp; potentiales, non tamen defectibiles in actione, quia
+            <lb ed="#V" n="45"/>potentia earum ordinatur ad determinatas actiones, &amp;
+            prin<lb ed="#V" n="46" break="no"/>cipia necessaria rectitudini talium actionum sunt a Deo
+            in<lb ed="#V" n="47" break="no"/>dita supernaturaliter potentijs actiuis &amp; passiuis. Hoc
+            in<lb ed="#V" n="48" break="no"/>tendit Sanctus Thomas de veritate q. 24. artic. 7. vbi sic arguit primo
+            <lb ed="#V" n="49"/>loco. Natura spiritualis nobilior est quam corporalis, sed
+            <lb ed="#V" n="50"/>est aliqua natura corporalis cui hoc conuenit quod in ea
+            inor<lb ed="#V" n="51" break="no"/>dinatio motus nulla esse potest, scilicet natura caelestis
+            cor<lb ed="#V" n="52" break="no"/>poris: ergo multo fortius potest esse aliqua natura creata
+            <lb ed="#V" n="53"/>spiritualis, quae est capax liberi arbitrij, in cuius motibus
+            na<lb ed="#V" n="54" break="no"/>turaliter nulla ordinatio esse possit, quod est esse impeccabi
+            <lb ed="#V" n="55"/>lem vel confirmari in bono. Ecce argumentum, &amp; est
+            pri<lb ed="#V" n="56" break="no"/>mum in ordine. Sequitur responsio. Dicendum (inquit)
+            <lb ed="#V" n="57"/>quod creaturae corporales sunt ordinatae ad aliquod
+            parti<lb ed="#V" n="58" break="no"/>culare bonum per determinatas actiones, &amp; ideo ad hoc quod
+            <lb ed="#V" n="59"/>ab earum actionibus error &amp; peccatum naturaliter absit,
+            <lb ed="#V" n="60"/>sufficit quod sint per suam naturam stabilitae in aliquo
+            par<lb ed="#V" n="61" break="no"/>ticulari bono, quod non sufficit in naturis spiritualibus
+            or<lb ed="#V" n="62" break="no"/>dinatis ad bonum absolute. Haec ille.
+          </p>
+          <p xml:id="capsco-b2kl0y-d1e1454">
+            Ex quibus apparet
+            il<lb ed="#V" n="63" break="no"/>lud quod prius dictum est quod radix peccabilitatis liberi
+            <lb ed="#V" n="64"/>arbitrij est, quia ordinatur ad bonum absolute per
+            multi<lb ed="#V" n="65" break="no"/>farias actiones, &amp; non est naturaliter stabilitum in bono
+            per<lb ed="#V" n="66" break="no"/>fecto absoluto vel vniuersali, sed est particulare bonum in
+            <lb ed="#V" n="67"/>se, &amp; non habet ex natura stabilitatem cum Deo, qui solus
+            <lb ed="#V" n="68"/>est vniuersale bonum, hic autem defectus vt dictum est
+            pul<lb ed="#V" n="69" break="no"/>lulat ex hoc quod est ex nihilo.
+          </p>
+          <p xml:id="capsco-b2kl0y-d1e1472">
+            Item in quinto loco ibidem
+            <lb ed="#V" n="70"/>arguit sic. Gregorius Nissenus &amp; Damascenus hanc rationem
+            <lb ed="#V" n="71"/>assignant quare creatura sit mutabilis secundum liberum
+            <lb ed="#V" n="72"/>arbitrium, quia est ex nihilo, sed propinquius consequitur
+            <lb ed="#V" n="73"/>creaturam ex hoc quod est ex nihilo posse in nihilum
+            cede<lb ed="#V" n="74" break="no"/>re quam posse malum facere. Cum ergo inueniatur
+            crea<lb ed="#V" n="75" break="no"/>tura aliqua, quae naturaliter est incorruptibilis sicut anima
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="76"/>&amp; corpora caelestia: ergo multo fortius potest inueniri
+            ali<lb ed="#V" n="77" break="no"/>qua creatura spiritualis quae naturaliter sit impeccabilis.
+            Ec<lb ed="#V" n="78" break="no"/>ce argumentum, sequitur responsio. Dicendum inquit quod
+            <lb ed="#V" n="79"/>creaturae acquiritur esse determinatum &amp; particulare ab
+            <lb ed="#V" n="80"/>alio, vnde creatura potest habere esse stabile &amp;
+            immutabi<lb ed="#V" n="81" break="no"/>le, quamuis non inueniatur in ea naturaliter ratio absoluti
+            <lb ed="#V" n="82"/>&amp; perfecti boni, sed aliqua creatura est per actiones suas
+            or<lb ed="#V" n="83" break="no"/>dinabilis ad bonum absolute, &amp; ideo non est simile. Haec
+            il<lb ed="#V" n="84" break="no"/>le. Ex quo patet idem quod prius, quia ideo liberum
+            arbe<lb ed="#V" n="85" break="no"/>trium est defectibile in actione, quia ordinatur ad bonum
+            <lb ed="#V" n="86"/>vniuersale per suas actiones, &amp; non habet in se rationem
+            ab<lb ed="#V" n="87" break="no"/>soluti &amp; perfecti boni. Cum autem per gloriam vnietur
+            <lb ed="#V" n="88"/>Deo, qui est perfectissimum bonum, tunc efficietur
+            impec<lb ed="#V" n="89" break="no"/>cabile per gratiam consumatam. Vnde in solutione
+            octua<lb ed="#V" n="90" break="no"/>gesimi argumenti ibidem sic dicit Sanctus Thomas Principium
+            re<lb ed="#V" n="91" break="no"/>ctae operationis procedentis ex libero arbitrio non est sola
+            <lb ed="#V" n="92"/>substantia &amp; virtus siue potentia, sed requiritur debita
+            ap<lb ed="#V" n="93" break="no"/>plicatio voluntatis ad aliqua quae sunt extra sicut ad finem
+            <lb ed="#V" n="94"/>&amp; alia huiusmodi. Et ideo non existente aliquo defectu in
+            <lb ed="#V" n="95"/>substantia animae vel in natura liberi arbitrij potest sequi
+            <lb ed="#V" n="96"/>defectus in actione ipsius, vnde ex naturali immutabilitate
+            <lb ed="#V" n="97"/>substantiae non potest concludi naturalis impeccabilitas.
+            <lb ed="#V" n="98"/>Haec ille.
+          </p>
+          <p xml:id="capsco-b2kl0y-d1e1540">
+            Aduerte tamen quod cum dicit quod non
+            existen<lb ed="#V" n="99" break="no"/>te aliquo defectu in natura liberi arbitrij &amp;c. potest
+            pecca<lb ed="#V" n="100" break="no"/>re, intellige de defectu priuatiuo alicuius naturalis
+            perfe<lb ed="#V" n="101" break="no"/>ctionis, quia si intelligeretur de quolibet defectu, falsum
+            es<lb ed="#V" n="102" break="no"/>set. Si enim in libero arbitrio non esset iste defectus, qui est
+            <lb ed="#V" n="103"/>esse ex nihilo, nec iste defectus qui est carere ligamento cum
+            <lb ed="#V" n="104"/>bono vniuersali &amp; perfecto, nunquam liberum arbitrium
+            <lb ed="#V" n="105"/>peccaret. Ex praedictis patet quod consequentiae factae in
+            ar<lb ed="#V" n="106" break="no"/>gumento non valent, puta cum dicitur esse ex nihilo est
+            cau<lb ed="#V" n="107" break="no"/>sa in libero arbitrio quod sit peccabile: ergo quicquid est
+            <lb ed="#V" n="108"/>ex nihilo est peccabile, quia vt patet ex dictis, esse ex nihilo
+            <lb ed="#V" n="109"/>non est totalis &amp; praecisa causa peccabilitatis, sed est prima
+            <lb ed="#V" n="110"/>radix in tali natura quae ordinatur ad bonum absolute per
+            <lb ed="#V" n="111"/>multifarias actiones, sicut alios effectus inducit calor in
+            <lb ed="#V" n="112"/>alia &amp; alia materia, &amp; alios defectus inducit potentialitas
+            <lb ed="#V" n="113"/>in diuersis substantijs.
+          </p>
+          <p xml:id="capsco-b2kl0y-d1e1575">
+            Sciendum autem quod alio modo
+            <lb ed="#V" n="114"/>declarat Sanctus Thomas in quaestionibus de malo. q. 1. arti. 3. in
+            so<lb ed="#V" n="115" break="no"/>lutione noni argumenti quomodo esse ex nihilo est radix
+            <lb ed="#V" n="116"/>peccabilitatis, ait enim sic. Bonum ex hoc quod est creatum
+            <lb ed="#V" n="117"/>potest aliquo modo deficere illo defectu ex quo malum
+            vo<lb ed="#V" n="118" break="no"/>luntarium procedit, quia ex hoc ipso quod est creatum, se.
+            <lb ed="#V" n="119"/>quitur quod ipsum sit subiectum alteri sicut regulae &amp;
+            men<lb ed="#V" n="120" break="no"/>surae. Si autem esset sua regula &amp; mensura non posset sine
+            <lb ed="#V" n="121"/>regula ad opus procedere propter quod Deus qui est sua
+            re<lb ed="#V" n="122" break="no"/>gula peccare non potest, sicut nec artifex peccare posset in
+            <lb ed="#V" n="123"/>incisione ligni, si sua manus esset regula suae incisionis. Haec
+            <lb ed="#V" n="124"/>ille. Sed licet ista ratio videatur differre ab illa quam
+            po<lb ed="#V" n="125" break="no"/>nit in locis praedictis, tamen non multum differt, quia dicere
+            <lb ed="#V" n="126"/>quod liberum arbitrium non habet in se rationem
+            perfe<lb ed="#V" n="127" break="no"/>cti boni, &amp; tamen ordinatur ad vniuersale &amp; perfectum
+            bo<lb ed="#V" n="128" break="no"/>num, sequitur ex hoc quod ipsum non est sua regula.
+            Sequi<lb ed="#V" n="129" break="no"/>tur enim bene. a. habet regulam a se distinctam &amp; se
+            superio<lb ed="#V" n="130" break="no"/>rem: igitur non est perfectum bonum, veruntamen ratio
+            <lb ed="#V" n="131"/>prima est melior, ideo illam tene.
+          </p>
+          <p xml:id="capsco-b2kl0y-d1e1617">
+            Ad sextum principale
+            di<lb ed="#V" n="132" break="no"/>citur negando maiorem duplici ratione. Primo quia
+            defe<lb ed="#V" n="133" break="no"/>ctus de quo loquimur, scilicet peccabilitas vel aptitudo ad
+            <lb ed="#V" n="134"/>peccandum, licet in se non sit malum culpae aut poenae,
+            ta<lb ed="#V" n="135" break="no"/>men ex se ordinatur ad malum culpae, cuius ordinis Deus
+            <lb ed="#V" n="136"/>esse causa non potest. Sicut enim ostendit Sanctus Thomas de malo.
+            <lb ed="#V" n="137"/>q. 3. arti. 1. &amp; multis alijs locis. Deus omnia alia ad seipsum
+            <lb ed="#V" n="138"/>conuertit, nec aliquid a seipso auertit. Ipse autem est
+            sum<lb ed="#V" n="139" break="no"/>mum bonum, vnde non potest esse causa auersionis
+            volun<lb ed="#V" n="140" break="no"/>tatis a summo bono, in quo ratio culpae consistit, prout
+            <lb ed="#V" n="141"/>nunc de culpa loquimur, impossibile est igitur quod Deus
+            <lb ed="#V" n="142"/>sit causa ptecati. Haec ille.
+          </p>
+          <p xml:id="capsco-b2kl0y-d1e1643">
+            Item in solutione quarti sic
+            di<lb ed="#V" n="143" break="no"/>cit. Effectus causati inquantum causatum est, reducitur in
+            <lb ed="#V" n="144"/>causam, si autem aliquid procedat a causato non secundum
+            <lb ed="#V" n="145"/>quod causatum est, hoc non oportet in causam reduci,
+            si<lb ed="#V" n="146" break="no"/>cut motus tibiae causatur a virtute motiua animalis quae
+            ti<lb ed="#V" n="147" break="no"/>biam mouet, sed obliquitas ambulationis non prouenit a
+            <lb ed="#V" n="148"/>tibia secundum quod est mota a virtute motiua, sed
+            secun<lb ed="#V" n="149" break="no"/>dum quod deficit a sustinendo influxum virtutis motiuae
+            <lb ed="#V" n="150"/>per suum defectum, &amp; ideo claudicatio non causatur a
+            vir<pb ed="#V" n="588"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>tute motiua. Sic igitur peccatum causatur a libero arbitrio
+            <lb ed="#V" n="2"/>secundum quod deficit a Deo, vnde non oportet quod
+            Deu<lb ed="#V" n="3" break="no"/>sit causa peccati, licet sit causa liberi arbitrij. Haec ille.
+          </p>
+          <p xml:id="capsco-b2kl0y-d1e1673">
+            E,
+            <lb ed="#V" n="4"/>quibus patet quod peccatum prouenit a libero arbitrio
+            in<lb ed="#V" n="5" break="no"/>quantum est defectiuum &amp; non causatum a Deo, vel
+            ha<lb ed="#V" n="6" break="no"/>bens aliquem defectum non causatum a Deo. Et quomodo
+            <lb ed="#V" n="7"/>si Deus esset causa illius defectus sicut est causa liberi
+            arbi<lb ed="#V" n="8" break="no"/>trii, ipse Deus esset causa peccati quod est impium:
+            secun<lb ed="#V" n="9" break="no"/>do negatur maior de illis defectibus qui nullam habent
+            cau<lb ed="#V" n="10" break="no"/>sam efficientem, nec habere possunt, cuiusmodi est defectu.
+            <lb ed="#V" n="11"/>ex quo pullulat peccabilitas, vel etiam ille defectus qui
+            di<lb ed="#V" n="12" break="no"/>citur peccabilitas, qui non est nisi ens rationis, vt supra
+            di<lb ed="#V" n="13" break="no"/>ctum est. Item talis defectus dato quod haberet causam
+            ef<lb ed="#V" n="14" break="no"/>ficientem, oporteret illam esse defectiuam &amp; auersiuam :
+            <lb ed="#V" n="15"/>Deo, quod Deo non potest competere.
+          </p>
+          <p xml:id="capsco-b2kl0y-d1e1702">
+            Ad septimum
+            po<lb ed="#V" n="16" break="no"/>test dici dupliciter. Primo modo negatur maior, sicut enim
+            <lb ed="#V" n="17"/>Deus est causa mali poenae &amp; mali naturae, non autem
+            mali<lb ed="#V" n="18" break="no"/>culpae, sic concedendum est quod sit causa possibilitatis
+            de<lb ed="#V" n="19" break="no"/>ficiendi defectu naturae vel paenae, non autem quod sit causa
+            pos<lb ed="#V" n="20" break="no"/>sibilitatis deficiendi defectu culpae. De hoc Sanctus Thomas de
+            ma<lb ed="#V" n="21" break="no"/>lo. q. 3. art. 1. in solutione tertij sic dicit. Paena opponitur
+            cui<lb ed="#V" n="22" break="no"/>dam particulari bono, non est autem contra rationem
+            sum<lb ed="#V" n="23" break="no"/>mi boni auferre aliquod particulare bonum, cum
+            particu<lb ed="#V" n="24" break="no"/>lare bonum auferatur per appositionem alterius boni, quod
+            <lb ed="#V" n="25"/>interdum est melius sicut forma aquae aufertur per
+            apposi<lb ed="#V" n="26" break="no"/>tionem formae ignis. Et similiter bonum naturae
+            particula<lb ed="#V" n="27" break="no"/>ris aufertur per poenam per appositionem melioris boni
+            pet<lb ed="#V" n="28" break="no"/>hoc, scilicet quod Deus ordinem iustitiae in rebus statuit
+            <lb ed="#V" n="29"/>sed malum culpae est per auersionem a summo bono, a quo
+            <lb ed="#V" n="30"/>summum bonum auertere non potest. Vnde Deus
+            potes<lb ed="#V" n="31" break="no"/>esse causa poenae, non autem causa culpae. Similia dicit
+            pri<lb ed="#V" n="32" break="no"/>ma parte. quaestio. 48. artic. 6. Verum quia ex eadem radice
+            <lb ed="#V" n="33"/>prouenit possibilitas huius defectus, &amp; illius, scilicet ex
+            <lb ed="#V" n="34"/>hoc quod creatura est ex nihilo. Ideo aliter dico, quod
+            sci<cb ed="#V" n="b"/><lb ed="#V" n="35" break="no"/>licet neutra possibilitas est a Deo, licet concedam quot
+            <lb ed="#V" n="36"/>cut potentia peccandi est a Deo quo ad aliquid, &amp; non quod
+            <lb ed="#V" n="37"/>ad omnia quae includit in sua ratione, consimiliter
+            &amp;p<lb ed="#V" n="38" break="no"/>tentia deficiendi defectu paenae vel naturae quo ad aliquid est
+            <lb ed="#V" n="39"/>a Deo, &amp; quo ad aliud non, vt scilicet sicut Deus est
+            caus<lb ed="#V" n="40" break="no"/>potentiae peccandi quantum ad illud, quod habet de
+            ratio<lb ed="#V" n="41" break="no"/>ne potentiae actiuae, &amp; non quantum ad aptitudinem ad do
+            <lb ed="#V" n="42"/>formitatem actus, quae aptitudo radicatur primariae in
+            ho<lb ed="#V" n="43" break="no"/>quod est esse ex nihilo, ita per omnia dico de possibilitate
+            <lb ed="#V" n="44"/>deficiendi, quia potentia deficiendi defectu naturae vel
+            poe<lb ed="#V" n="45" break="no"/>nae est a Deo quantum ad illud quod habet de ratione
+            po<lb ed="#V" n="46" break="no"/>tentiae passiuae, non autem quantum ad aptitudinem ad
+            de<lb ed="#V" n="47" break="no"/>fectum &amp; malum, quia illa aptitudo consequitur
+            creatu<lb ed="#V" n="48" break="no"/>ram ex hoc quod est ex nihilo. Et sic intendit Augustinus
+            in<lb ed="#V" n="49" break="no"/>libus 83. quaestionum cum dicit, quod Deus non est causa
+            ter<lb ed="#V" n="50" break="no"/>dendi in non esse. Sic igitur in hac secunda responsione
+            ne<lb ed="#V" n="51" break="no"/>gatur minor argumenti. Et ad probationem eius dicitur d
+            <lb ed="#V" n="52"/>non plus concludit nisi quod potentia deficiendi est a Deo
+            <lb ed="#V" n="53"/>quo ad sui positiuum &amp; absolutum, non autem quantum
+          </p>
+          <p xml:id="capsco-b2kl0y-d1e1788">
+            <lb ed="#V" n="54"/>ad defectibilitatem quam importat. Quia Deus in ordine
+            <lb ed="#V" n="55"/>vniuersi intendit illud quod est ibi de bono, non autem
+            il<lb ed="#V" n="56" break="no"/>lud quod est ibi de malo, nec ordinem aut aptitudinem ac
+            <lb ed="#V" n="57"/>malum. Cui sit honor &amp; gloria in secula seculorum,
+            Amen<lb ed="#V" n="58" break="no"/>Omnia vero tam in hac quam in praecedentibus
+            que<lb ed="#V" n="59" break="no"/>stionibus dicta suppono totali determinationi
+            Sacrosan<lb ed="#V" n="60" break="no"/>ctae Romanae Ecclesiae, cui praeest Sanctissimus in Christo
+            <lb ed="#V" n="61"/>bater &amp;oDominij Qsartinus diuina prouidentia po¬.
+            <lb ed="#V" n="62"/>pa Quintus Pontificatus sui anno X. quo haec scripta
+            <lb ed="#V" n="63"/>fuerunt Anno videlicet Domini. MCCCCXXVI.
+            <lb ed="#V" n="64"/>quartadecima die mensis Septembris ante prandium
+            <lb ed="#V" n="65"/>quae erat dies Sabbati, &amp; festum Sanctae Crucis. Et
+            <lb ed="#V" n="66"/>omnia seripsi retbexae
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

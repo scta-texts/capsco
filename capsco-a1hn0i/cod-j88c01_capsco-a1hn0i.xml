@@ -1,0 +1,846 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 1, Distinctio 1, Quaestio 2</title>
+        <author ref="#JohannesCapreolus">Johannes Capreolus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 1, Distinctio 1, Quaestio 2</title>
+          <date when="2026-11-04">Nov 4, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-j88c01">Venice, 1589, v. 1</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-04" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="55"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="capsco-a1hn0i"><!-- l1d1q2 -->
+        <head xml:id="capsco-a1hn0i-Hd1e101">Quaestio 2</head>
+        <head xml:id="capsco-a1hn0i-Hd1e103" type="question-title">Utrum uti sit actus voluntatis</head>
+        <p xml:id="capsco-a1hn0i-d1e106">
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="76"/>QVAESTIO II.
+          <lb ed="#V" n="77"/>Vtrum vti sit actus voluntatis.
+        </p>
+        <p xml:id="capsco-a1hn0i-d1e115">
+          <lb ed="#V" n="78"/><milestone ed="#V" unit="p" rend="initial"/> TERVM iuxta distinctionem
+          ean<lb ed="#V" n="79" break="no"/>dem quaeritur. Vtrum vti sit actus
+          vo<lb ed="#V" n="80" break="no"/>luntatis.
+        </p>
+        <p xml:id="capsco-a1hn0i-d1e125">
+          Et arguitur quod non. Nam
+          se<lb ed="#V" n="81" break="no"/>cundum argumentum 1. de doctrina
+          <lb ed="#V" n="82"/>Christiana, vti est illud, quod venit in
+          <lb ed="#V" n="83"/>vsum referre ad obtinendum aliud,
+          <lb ed="#V" n="84"/>sed referre aliquid ad aliud est
+          ratio<lb ed="#V" n="85" break="no"/>nis, cuius est conferre, &amp; ordinare: ergo vti est actus
+          ra<lb ed="#V" n="86" break="no"/>tionis &amp; non voluntatis.
+        </p>
+        <p xml:id="capsco-a1hn0i-d1e142">
+          <lb ed="#V" n="87"/><milestone ed="#V" unit="p" rend="indent"/> IN oppositum arguitur per Augustnus 10. de Trinitues
+          dicen<lb ed="#V" n="88" break="no"/>tem. Vti est consumere aliquid in facultatem voluntatis.
+        </p>
+        <p xml:id="capsco-a1hn0i-d1e150">
+          <lb ed="#V" n="89"/><milestone ed="#V" unit="p" rend="indent"/> In hac quaestione erunt duo articuli, in primo ponentur
+          <lb ed="#V" n="90"/>conclusiones, in secundo mouebuntur dubitationes.
+        </p>
+        <div xml:id="capsco-a1hn0i-Dd1e158">
+          <head xml:id="capsco-a1hn0i-Hd1e160">Articulus 1</head>
+          <p xml:id="capsco-a1hn0i-d1e162">
+            <lb ed="#V" n="91"/><milestone ed="#V" unit="p" rend="initial"/> Vantum ad primum articulum sit prima conclusio,
+            <lb ed="#V" n="92"/>quod vsus est actus voluntatis. Istam conclusionem probat
+            <lb ed="#V" n="93"/>Sanctus Thomas prima secundae, q. 16. art. 1. vbi sic ait.
+            <lb ed="#V" n="94"/>Vsus alicuius rei importat applicationem illius rei ad
+            ali<lb ed="#V" n="95" break="no"/>quam operationem: vnde operatio ad quam applicamus
+            <lb ed="#V" n="96"/>rem aliquam dicitur vsus eius, sicut aequitare est vsus aequi,
+            <lb ed="#V" n="97"/>&amp; percutere vsus baculi, ad operationem autem
+            applica<lb ed="#V" n="98" break="no"/>mus ipsa principia iuteriora agendi, scilicet ipsas
+            poten<lb ed="#V" n="99" break="no"/>tias animae, vel membra corporis, vt intellectus, ad
+            intelli<lb ed="#V" n="100" break="no"/>gendum, &amp; oculum ad videndum, &amp; etiam res exteriores,
+            <lb ed="#V" n="101"/>sicut baculum ad percutiendum. Sed manifestum est, quod
+            <lb ed="#V" n="102"/>res exteriores non applicamus ad aliquam operationem, nisi
+            <lb ed="#V" n="103"/>principia intrinseca, quae sunt postasiae animae, aut habitus
+            <lb ed="#V" n="104"/>potentiarum, aut organa, sicut membra corporis, voluntas
+            <lb ed="#V" n="105"/>autem mouet potentias animae ad suos actus, &amp; hoc est
+            ap<lb ed="#V" n="106" break="no"/>plicare eas ad operationem. Vnde manifestum est, quod vti
+            pri<lb ed="#V" n="107" break="no"/>mo &amp; principaliter est voluntatis tanquam primi mouentis,
+            <lb ed="#V" n="108"/>rationis autem tanquam dirigentis, sed aliarum
+            potentia<lb ed="#V" n="109" break="no"/>rum tanquam exequentium qui operantur ad
+            volunta<lb ed="#V" n="110" break="no"/>tem, a qua mouentur, vel applicantur ad agendum, sicut
+            <lb ed="#V" n="111"/>instrumenta ad principale agens, actio autem proprie non
+            <lb ed="#V" n="112"/>attribuitur instrumento, sed principali agenti: sicut aedificatio
+            <lb ed="#V" n="113"/>aedificatori, &amp; non instrumentis eius. Vnde manifestum
+            <lb ed="#V" n="114"/>est, quod vti est proprie actus voluntatis. Haec ille.
+          </p>
+          <p xml:id="capsco-a1hn0i-d1e218">
+            Scien<lb ed="#V" n="115" break="no"/>dum enim quod secundum Durandum differentia est inter
+            <lb ed="#V" n="116"/>vti &amp; vsum: nam vsus nominat operationem ad quam res
+            <lb ed="#V" n="117"/>applicatur, sicut scindere, ad quod applicatur cultellus
+            <lb ed="#V" n="118"/>est vsus cultelli, &amp; videre est vsus oculi, sed vti est
+            appli<lb ed="#V" n="119" break="no"/>care rem suo vsui. Sic enim se videtur habere vti ad vsum,
+            <lb ed="#V" n="120"/>sicut mouere ad motum, mouere autem est causare
+            mo<lb ed="#V" n="121" break="no"/>tum: ergo vti est causare vsum. In hoc tamen est
+            differen<lb ed="#V" n="122" break="no"/>tia quod mouens dicitur causare motum siue moueat
+            natu<lb ed="#V" n="123" break="no"/>raliter siue libere. Sed vtens causat vsum solum libere. Et
+            <lb ed="#V" n="124"/>ideo Durandus concedit &amp; bene, quod vsus potest esse
+            subie<lb ed="#V" n="125" break="no"/>ctiue in potentia tam cognitiua, quam appetitiua, quam
+            exe<lb ed="#V" n="126" break="no"/>cutiua, sed vti solum est in voluntate subiectiue, &amp; per hoc
+            <lb ed="#V" n="127"/>melius intelligitur dictum Sanctus Thomscilicet quod vti solius est
+            volun<lb ed="#V" n="128" break="no"/>tatis, sed vsus est cuiuslibet potentiae interdum, licet
+            prin<lb ed="#V" n="129" break="no"/>cipaliter attribuatur voluntati, non semper sicut operatio,
+            <lb ed="#V" n="130"/>sed sicut motus, vel actio vbicunque sit subiectiue, tamen
+            <lb ed="#V" n="131"/>principaliter attribuitur motori: veruntamen Sanctus Thomas
+            in<lb ed="#V" n="132" break="no"/>differenter quandoque vtitur vno pro alio, sicut patet in
+            <lb ed="#V" n="133"/>sequentibus vocando omnem vsum vti &amp; econtra. Secunda
+            <lb ed="#V" n="134"/>conclusio est. Quia vsus, pprie sumptus non est, nisi
+            remotu<lb ed="#V" n="135" break="no"/>eorum, quae sunt ad finem. Hanc conclusionem, pbat ibidem art. 3.
+            <lb ed="#V" n="136"/>Vti (inquit) sicut dictum est importat applicationem alicuius
+            <lb ed="#V" n="137"/>ad aliquid, quod autem applicatur ad aliquid se habet in ratione
+            <lb ed="#V" n="138"/>eius, quod est ad finem, &amp; ideo vti semper est eorum, quae sunt ad
+            <lb ed="#V" n="139"/>finem, propter quod &amp; ea quae ad finem sunt accommoda
+            pro<lb ed="#V" n="140" break="no"/>prie dceur vtilia, &amp; ipsa vtilitas interdum vsus nominatur. Sed
+            <lb ed="#V" n="141"/>considerandum est, quod vltimus finis dicitur dupliciter: vno modo
+            <lb ed="#V" n="142"/>simpliciter: alio modo quo ad aliquid, cum enim finis quandoque
+            <lb ed="#V" n="143"/>dicatur res, quandoque autem adeptio rei, vel possessio eius, sicut
+            <lb ed="#V" n="144"/>auaro finis est pecunia, vel possessio pecuniae: manifestum
+            <lb ed="#V" n="145"/>est quod simpfr loquendo vltimus finis est ipsa res, non nm
+            pos<lb ed="#V" n="146" break="no"/>sessio pecuniae est bona, nisi per bonum pecuniae. Sed quae
+            ad<lb ed="#V" n="147" break="no"/>huc pecuniae adeptio est finis vltimus, non enim qureret auarus
+            <lb ed="#V" n="148"/>pecuniam, nisi vt heret eam: ergo simplr loquendo &amp; pprie
+            pe<lb ed="#V" n="149" break="no"/>cunia homnins aliquis fruitur qui in ea vltimum finem constituit,
+            <pb ed="#V" n="56"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>sed inquantum refert eam ad possessionem dicitur ea vti.
+            <lb ed="#V" n="2"/>Haec ille.
+          </p>
+          <p xml:id="capsco-a1hn0i-d1e305">
+            Tertia conclusio est. Quia electio est actus
+            vo<lb ed="#V" n="3" break="no"/>luntatis. Istam probat Sanctus Thomas prima secundae, q. 13.
+            <lb ed="#V" n="4"/>arti. 1. In nomine (inquit) electionis importatur aliquid
+            <lb ed="#V" n="5"/>pertinens ad intellectum, &amp; aliquid pertinens ad
+            volun<lb ed="#V" n="6" break="no"/>tatem. Dicit enim Philosophus. 6. ethicorum, quod electio
+            <lb ed="#V" n="7"/>est appetitus intellectiuus, vel appetitus intellectus,
+            quan<lb ed="#V" n="8" break="no"/>docunque autem duo concurrunt ad aliquid vnum
+            con<lb ed="#V" n="9" break="no"/>stituendum, vnum eorum est formale remotum alterius. Vnde
+            <lb ed="#V" n="10"/>Gregorius Nissenus dicit, quod electio neque est appetitus
+            secun<lb ed="#V" n="11" break="no"/>dum seipsam neque consilium solum, sed ex his aliquid
+            <lb ed="#V" n="12"/>compositum, sicut enim dicimus animal ex anima &amp;
+            cor<lb ed="#V" n="13" break="no"/>pore compositum esse, neque vero corpus esse secundum
+            <lb ed="#V" n="14"/>seipsum, neque animam solam, sed vtrumque, ita &amp;
+            electio<lb ed="#V" n="15" break="no"/>nem. Est autem considerandum in actibus animae, quod actus
+            <lb ed="#V" n="16"/>qui est essentialiter vnius postasis vel habitus, recipit
+            for<lb ed="#V" n="17" break="no"/>mam &amp; speciem a superiori postalia, vel habitu, secundum
+            <lb ed="#V" n="18"/>quod ordinatur inferius a superiori. Si enim aliquis actum
+            <lb ed="#V" n="19"/>exerceat fortitudinis propter amorem Dei, actus quidem
+            <lb ed="#V" n="20"/>ille materialiter est fortitudinis, formaliter vero
+            charita<lb ed="#V" n="21" break="no"/>tis. Manifestum est autem quod ratio quodammodo
+            volun<lb ed="#V" n="22" break="no"/>tatem praecedit &amp; ordinat actum eius, inquantum scilicet
+            <lb ed="#V" n="23"/>voluntas in suum obiectum tendit secundum ordinem
+            ra<lb ed="#V" n="24" break="no"/>tionis, eo quod vis apprehensiua appetitiuae suum obiectum
+            <lb ed="#V" n="25"/>praesentat. Sic igitur actus ille quo voluntas tendit in
+            ali<lb ed="#V" n="26" break="no"/>quid quod proponitur vt bonum, ex eo quod per rationem est
+            or<lb ed="#V" n="27" break="no"/>dinatum ad finem, materialiter quidem est voluntatis,
+            for<lb ed="#V" n="28" break="no"/>maliter vero rationis. In huiusmodi autem substantia actus
+            <lb ed="#V" n="29"/>materialiter se habet ad ordinem, qui imponitur a
+            supe<lb ed="#V" n="30" break="no"/>riori potentia, &amp; ideo electio substantialiter non est actus
+            <lb ed="#V" n="31"/>rationis, sed voluntatis, perficitur enim electio in motu
+            <lb ed="#V" n="32"/>quodam animae ad bonum quod eligitur, vnde manifeste
+            <lb ed="#V" n="33"/>est actus appetitiuae potentiae. Haec ille.
+          </p>
+          <p xml:id="capsco-a1hn0i-d1e375">
+            Quarta conclusio
+            <lb ed="#V" n="34"/>est. Quia electio est respectu eorum, quae sunt ad finem. Istam
+            <lb ed="#V" n="35"/>probat eadem q. artic. 3. Electio (inquit) sequitur
+            senten<lb ed="#V" n="36" break="no"/>tiam, vel iudicium, quod est sicut conclusio syllogismi
+            ope<lb ed="#V" n="37" break="no"/>ratiui: vnde illud cadit sub electione, quod se habet, vt
+            <lb ed="#V" n="38"/>conclusio in syllogismo operabilium. Finis autem in
+            ope<lb ed="#V" n="39" break="no"/>rabilibus se habet, vt principium, &amp; non vt conclusio, vt
+            <lb ed="#V" n="40"/>dicitur secundo physicorum: vnde finis inquantum
+            hu<lb ed="#V" n="41" break="no"/>iusmodi non cadit sub electione. Sed sicut in speculatiuis
+            <lb ed="#V" n="42"/>nihil prohibet illud, quod est vnius demonstrationis, vel
+            <lb ed="#V" n="43"/>etiam scientiae principium esse conclusionem alterius
+            de<lb ed="#V" n="44" break="no"/>monstrationis &amp; scientiae, ita contingit illud quod est in
+            <lb ed="#V" n="45"/>vna operatione vt finis, ordinari ad aliud, sicut ad finem,
+            <lb ed="#V" n="46"/>&amp; hoc modo sub electione cadit, sicut in operatione
+            me<lb ed="#V" n="47" break="no"/>dici sanitas se habet vt finis: vnde hoc non cadit sub
+            ele<lb ed="#V" n="48" break="no"/>ctione medici, sed hoc supponit tanquam principium, sed
+            <lb ed="#V" n="49"/>sanitas corporis ordinatur ad bonum animae, vnde apud
+            <lb ed="#V" n="50"/>eum qui habet curam de salute animae potest cadere sub
+            <lb ed="#V" n="51"/>electione esse sanum, vel esse infirmum. Nam Apostolus
+            <lb ed="#V" n="52"/>dicit: secundae Corinth. 12. Cum autem infirmor, tunc
+            <lb ed="#V" n="53"/>fortior sum &amp; potens: sed vltimus finis nullo modo sub
+            <lb ed="#V" n="54"/>electione cadit. Haec ille.
+          </p>
+          <p xml:id="capsco-a1hn0i-d1e424">
+            Quinta conclusio est. Quia
+            con<lb ed="#V" n="55" break="no"/>sensus est actus voluntatis. Istam ponit. q. 15. articulo 1.
+            <lb ed="#V" n="56"/>Consentire (inquit) importat applicationem sensus ad
+            <lb ed="#V" n="57"/>aliquid, est autem proprium sensus, quod est cognitiuus
+            <lb ed="#V" n="58"/>rerum praesentium, vis enim imaginatiua apprehensiua
+            <lb ed="#V" n="59"/>est similitudinum corporalium, etiam rebus absentibus,
+            <lb ed="#V" n="60"/>quarum sunt similitudines. Intellectus autem
+            apprehen<lb ed="#V" n="61" break="no"/>siuus est vniuersalium rationum, quas potest
+            apprehen<lb ed="#V" n="62" break="no"/>dere indifferenter &amp; absentibus, &amp; praesentibus
+            singula<lb ed="#V" n="63" break="no"/>ribus, &amp; quia actus appetitiuae virtutis est quaedam
+            incli<lb ed="#V" n="64" break="no"/>natio in rem ipsam secundum quandam similitudinem,
+            <lb ed="#V" n="65"/>ipsa applicatio appetitiuae virtutis ad rem, secundum quod
+            <lb ed="#V" n="66"/>ei inhaeret, accipit nomen sensus, quasi experientiam
+            quan<lb ed="#V" n="67" break="no"/>dam sumens de re, cui inhaeret, inquantum complacet
+            si<lb ed="#V" n="68" break="no"/>bi in ea. Vnde Sapien. 1. dicitur. Sentite de Domino in
+            bo<lb ed="#V" n="69" break="no"/>nitate: &amp; secundum hoc consentire est actus appetitiuae
+            <lb ed="#V" n="70"/>virtutis. Haec ille.
+          </p>
+          <p xml:id="capsco-a1hn0i-d1e461">
+            Et arti. 2. sic ait. Consensus proprie
+            lo<lb ed="#V" n="71" break="no"/>quendo non est in brutis animalibus, cuius causa est: quia
+            <lb ed="#V" n="72"/>consensus importat applicationem appetitiui motus ad
+            <lb ed="#V" n="73"/>aliquid agendum, eius autem est applicare appetitiuum
+            mo<lb ed="#V" n="74" break="no"/>tum, in cuius potestate est motus appetitiuus, sicut tangere
+            <lb ed="#V" n="75"/>lapidem conuenit quidem baculo, sed applicare baculum
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="76"/>ad tactum lapidis est eius qui habet in potestate mouere
+            ba<lb ed="#V" n="77" break="no"/>culum. Bruta autem animalia non habent in sui potestate motum
+            ap<lb ed="#V" n="78" break="no"/>petitiuum, sed talis motus est in eis ex instinctu naturae.
+            <lb ed="#V" n="79"/>Vnde brutum animal appetit quaedam, sed non applicat
+            <lb ed="#V" n="80"/>appetitiuum motum ad aliquid, &amp; propter hoc non
+            dici<lb ed="#V" n="81" break="no"/>tur proprie consentire, sed solum natura rationalis quae
+            ha<lb ed="#V" n="82" break="no"/>bet in sua potestate motum appetitiuum, &amp; potest ipsum
+            <lb ed="#V" n="83"/>applicare vel non applicare ad hoc, vel ad illud. Haec ille.
+          </p>
+          <p xml:id="capsco-a1hn0i-d1e494">
+            <lb ed="#V" n="84"/>Similiter arti. 4 probat, quod consensus pertinet etiam in
+            ho<lb ed="#V" n="85" break="no"/>mine non ad sensualitatem, sed ad voluntatem. Finalis
+            (in<lb ed="#V" n="86" break="no"/>quit) sententia semper pertinet ad eum, qui superior est,
+            <lb ed="#V" n="87"/>ad quem pertinet de his iudicare, quandiu enim
+            iudican<lb ed="#V" n="88" break="no"/>dum est quod proponitur, nondum datur finalis sententia.
+            <lb ed="#V" n="89"/>Manifestum est autem quod superior ratio est, quae habet de
+            <lb ed="#V" n="90"/>omnibus iudicare: quia de sensibilibus per rationem
+            iu<lb ed="#V" n="91" break="no"/>dicamus, de his vero quae ad rationes humanas pertinent
+            <lb ed="#V" n="92"/>iudicamus secundum rationes diuinas, quae pertinent ad
+            <lb ed="#V" n="93"/>superiorem rationem, &amp; ideo quandiu incertum sit, an
+            se<lb ed="#V" n="94" break="no"/>cundum rationes diuinas resistatur, vel non, nullum
+            iudi<lb ed="#V" n="95" break="no"/>cium rationis habet rationem finalis sententiae. Finalis autem
+            <lb ed="#V" n="96"/>sententia est consensus in actum, &amp; ideo consensus in actum
+            <lb ed="#V" n="97"/>pertinet ad rationem superiorem, secundum tamen quod in ratione
+            <lb ed="#V" n="98"/>voluntatis includitur. Haec ille.
+          </p>
+          <p xml:id="capsco-a1hn0i-d1e529">
+            Si autem loquamur de
+            con<lb ed="#V" n="99" break="no"/>sensu in delectationem operis aut cogitationis, ad quem
+            <lb ed="#V" n="100"/>appetitum pertineant. Dicit ibidem ad primum. Quia
+            <lb ed="#V" n="101"/>consensus in delectationem operis pertinet ad rationem
+            <lb ed="#V" n="102"/>superiorem, sicut consensus in opus, sed consensus in
+            dele<lb ed="#V" n="103" break="no"/>ctationem cognitionis pertinet ad rationem inferiorem,
+            <lb ed="#V" n="104"/>sicut ad ipsam pertinet cogitare, &amp; tamen de hoc ipso quod
+            <lb ed="#V" n="105"/>est cogitare, vel non cogitare inquantum consideratur,
+            <lb ed="#V" n="106"/>vt quaedam actio habet iudicium superior ratio, &amp;
+            simili<lb ed="#V" n="107" break="no"/>ter de electione consequente, sed inquantum accipitur, vt
+            <lb ed="#V" n="108"/>ad actionem aliam ordinata, sic pertinet ad inferiorem
+            <lb ed="#V" n="109"/>rationem, quod enim ad aliud ordinetur ad inferiorem
+            <lb ed="#V" n="110"/>artem, vel potentiam pertinet quam finis, ad quem
+            ordi<lb ed="#V" n="111" break="no"/>natur. nam ars quae est de fine archimagica, seu
+            principa<lb ed="#V" n="112" break="no"/>lis vocatur. Haec ille. Ex quibus patet, quod consensus non
+            <lb ed="#V" n="113"/>est in intellectu, nec sensualitate, sed in sola voluntate.
+          </p>
+          <p xml:id="capsco-a1hn0i-d1e564">
+            <lb ed="#V" n="114"/>Sexta conclusio est. Quia consensus non est nisi eorum,
+            <lb ed="#V" n="115"/>quae sunt ad finem. Istam probat ibidem artic. 3. dicens.
+            <lb ed="#V" n="116"/>Consensus nominat applicationem motus appetitiui ad
+            <lb ed="#V" n="117"/>aliquid praexistens in potestate applicantis. In ordine
+            au<lb ed="#V" n="118" break="no"/>tem agibilium: primo quidem ostendit sumere
+            appra<lb ed="#V" n="119" break="no"/>hensionem finis, deinde consilium, de his quae sunt ad
+            fi<lb ed="#V" n="120" break="no"/>nem, &amp; deinde appetitum eorum, quae sunt ad finem:
+            ap<lb ed="#V" n="121" break="no"/>petitus autem in vltimum finem tendit naturaliter: vnde
+            <lb ed="#V" n="122"/>applicatio appetitiui motus in finem apprehensum non
+            ha<lb ed="#V" n="123" break="no"/>bet rationem consensus, sed simplicis voluntatis. De his
+            <lb ed="#V" n="124"/>autem quae sunt post vltimum inquantum sunt ad finem,
+            <lb ed="#V" n="125"/>sub consilio cadunt, &amp; sic potest esse de his consensus
+            in<lb ed="#V" n="126" break="no"/>quantum motus appetitiuus applicatur ad illud, quod ex
+            <lb ed="#V" n="127"/>consilio iudicatum est. Motus vero appetitiuus in finem
+            <lb ed="#V" n="128"/>non applicatur consilio, sed magis consilium ipsi: quia
+            <lb ed="#V" n="129"/>consilium praesupponit appetitum finis, sed appetitus
+            eo<lb ed="#V" n="130" break="no"/>rum, quae sunt ad finem praesupponit determinationem
+            <lb ed="#V" n="131"/>consilij, &amp; ideo applicatio appetitiui motus ad
+            determi<lb ed="#V" n="132" break="no"/>nationem consilij est proprie consensus: vnde cum
+            con<lb ed="#V" n="133" break="no"/>silium non sit, nisi de his quae sunt ad finem, consensus
+            <lb ed="#V" n="134"/>proprie loquendo non est nisi de his, quae sunt ad finem.
+            <lb ed="#V" n="135"/>Haec ille.
+          </p>
+          <p xml:id="capsco-a1hn0i-d1e614">
+            Septima conclusio est. Quia respectu eiusdem
+            <lb ed="#V" n="136"/>obiecti potentiae executiuae vsus semper sequitur
+            electio<lb ed="#V" n="137" break="no"/>nem. Istam probat Sanctus Thomas prima secundae, q. 16.
+            <lb ed="#V" n="138"/>articu. 4. dicens. Voluntas habet duplicem habitudinem
+            <lb ed="#V" n="139"/>ad volitum, vna quidem secundum quod volitum est
+            quo<lb ed="#V" n="140" break="no"/>dammodo in voluntate per quandam proportionem, vel
+            <lb ed="#V" n="141"/>ordinem ad volitum: vnde &amp; res quae naturaliter sunt
+            pro<lb ed="#V" n="142" break="no"/>portionatae ad aliquem finem, dicuntur appetere illum finem
+            <lb ed="#V" n="143"/>naturaliter. Sic autem habere finem est imperfecte habere
+            <lb ed="#V" n="144"/>illum. Omne autem imperfectum tendit ad perfectionem, &amp; ideo
+            <lb ed="#V" n="145"/>omnis appetitus tam naturalis, quam voluntarius tendit vt habeat
+            <lb ed="#V" n="146"/>ipsum finem realiter, quod est perfecte habere ipsum, &amp; haec est
+            <lb ed="#V" n="147"/>secunda habitudo voluntatis ad volitum, volitum autem non
+            so<lb ed="#V" n="148" break="no"/>lum est finis, sed illud quod est ad finem: vltimum autem quod
+            perti<lb ed="#V" n="149" break="no"/>net ad primam habitudinem voluntatis respectu eius, quod
+            <lb ed="#V" n="150"/>est ad finem, est electio. Ibi enim completur proportio
+            <pb ed="#V" n="57"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>voluntatis, vt complete velit illud, quod est ad finem: sed
+            <lb ed="#V" n="2"/>vsus iam pertinet ad habitudinem secundam voluntatis,
+            <lb ed="#V" n="3"/>qua tendit ad consequendum rem volitam. Vnde
+            manife<lb ed="#V" n="4" break="no"/>lum est, quod vsus sequitur electionem, si tamen accipitur
+            <lb ed="#V" n="5"/>vsus secundum quod voluntas vtitur potentia executiua
+            mo<lb ed="#V" n="6" break="no"/>uendo ipsam, &amp;d quia voluntas quod ammodo mouet
+            ra<lb ed="#V" n="7" break="no"/>tionem, &amp; vtitur ea, potest intelligi vsus eius, quod est ad
+            <lb ed="#V" n="8"/>finem, secundum quod est in consideratione rationis conferentis
+            ip<lb ed="#V" n="9" break="no"/>sum in finem, &amp; hoc modo vsus praecedit electionem. Haec
+            <lb ed="#V" n="10"/>ille. Et ibidem ad primum. Ipsam executionem praecedit
+            <lb ed="#V" n="11"/>motio, qua voluntas mouet ad ex equendum, sequitur autem
+            <lb ed="#V" n="12"/>electionem, &amp; sic cum vsus pertineat ad praedictam
+            motin<lb ed="#V" n="13" break="no"/>nem voluntatis medium est inter electionem, &amp; ex
+            ecu<lb ed="#V" n="14" break="no"/>tionem.
+          </p>
+          <p xml:id="capsco-a1hn0i-d1e685">
+            Octaua conclusio. Quia electio quandoque differt
+            <lb ed="#V" n="15"/>realiter a consensu, quandoque solum ratione, nanc
+            po<lb ed="#V" n="16" break="no"/>nit Sanctus Thomas prima secundae. q. 15. arti. 3. ad tertium
+            <lb ed="#V" n="17"/>dicens. Electio addit supra consensum quandam
+            relatio<lb ed="#V" n="18" break="no"/>nem remotum eius, cui aliquid praeeligitur, &amp; ideo post
+            con<lb ed="#V" n="19" break="no"/>sensum adhuc remanet electio. potest etiam contingere,
+            <lb ed="#V" n="20"/>quod per consilium inueniantur plura ducentia ad finem,
+            <lb ed="#V" n="21"/>quorum dum quodlibet placet in quodlibet eorum
+            con<lb ed="#V" n="22" break="no"/>sentit: sed ex multis quae placent accipitur vnum
+            praeeli<lb ed="#V" n="23" break="no"/>gendo: sed si inueniatur vnum solum, quod placeat non
+            <lb ed="#V" n="24"/>differt re consensus, &amp; electio, sed ratione tantum, vt
+            con<lb ed="#V" n="25" break="no"/>sensus dicatur secundum quod placet ad agendum, electio
+            <lb ed="#V" n="26"/>autem secundum quod praefertur his, quae non placent.
+            <lb ed="#V" n="27"/>Haec ille.
+          </p>
+          <p xml:id="capsco-a1hn0i-d1e716">
+            Nona conclusio est. Quia ante consensum
+            prae<lb ed="#V" n="28" break="no"/>cedit consilium, &amp; ante electionem praecedit consensus,
+            <lb ed="#V" n="29"/>&amp; ante imperium praecedit electio, &amp; ante vsum
+            praece<lb ed="#V" n="30" break="no"/>dit Imperium. Ista enim se habent in quodam ordine: si
+            <lb ed="#V" n="31"/>ad idem referantur de quo est consilium, &amp; electio, &amp;
+            cae<lb ed="#V" n="32" break="no"/>tera, quod primum est consilium, secundum consensus,
+            <lb ed="#V" n="33"/>tertium electio, quartum imperium, quintum vsus. Istam
+            <lb ed="#V" n="34"/>conclusionem ponit Sanctus Thomas prima secundae. Quia
+            <lb ed="#V" n="35"/>enim consilium praecedat consensum patet per ipsum. q.
+            <lb ed="#V" n="36"/>15. artic. 3. Vbi ponit, quod in ordine agibilium primo
+            <lb ed="#V" n="37"/>est appraehensio finis: secundo appetitus finis. tertio,
+            con<lb ed="#V" n="38" break="no"/>silium de his quae sunt ad finem, quarto appetitus eorum
+            <lb ed="#V" n="39"/>quae sunt ad finem, &amp; subdit, quod applicatio appetitiui
+            <lb ed="#V" n="40"/>motus ad determinationem consilij est proprie
+            consen<lb ed="#V" n="41" break="no"/>lus. Ex quo patet, quod consensus sequitur consilium, quod
+            <lb ed="#V" n="42"/>autem consensus praecedat electionem, patet ibidem ad
+            <lb ed="#V" n="43"/>tertium: vbi dicit, quod electio addit super consilium
+            <lb ed="#V" n="44"/>quandam relationem respectu eius, cui aliquid
+            praeeligi<lb ed="#V" n="45" break="no"/>tur, &amp; ideo post consensum adhuc remanet electio. Haec
+            <lb ed="#V" n="46"/>ille. Quia autem electio praecedat Imperium, &amp; imperium
+            <lb ed="#V" n="47"/>praecedat vsum. ostendit. q. 17. artic. tertio ad primum.
+            di<lb ed="#V" n="48" break="no"/>cens. Non omnis actus voluntatis praecedit istum actum
+            <lb ed="#V" n="49"/>rationis, qui est imperium: sed aliquis praecedit, scilicet
+            <lb ed="#V" n="50"/>electio, &amp; aliquis, sequitur, scilicet vsus, quia post
+            deter<lb ed="#V" n="51" break="no"/>minationem consilij, quae est iudicium rationis voluntas
+            <lb ed="#V" n="52"/>eligit, &amp; post electionem ratio imperat ei, per quod
+            ha<lb ed="#V" n="53" break="no"/>bendum, vel agendum est quod eligitur, &amp; tunc demum
+            <lb ed="#V" n="54"/>voluntas incipit vti exequendo imperium rationis,
+            quan<lb ed="#V" n="55" break="no"/>doque quidem voluntas alterius, cum aliquis imperat
+            al<lb ed="#V" n="56" break="no"/>teri, quandoque autem voluntas imperantis, cum aliquis
+            <lb ed="#V" n="57"/>imperat sibi. Haec ille.
+          </p>
+          <p xml:id="capsco-a1hn0i-d1e784">
+            Et in responsione principali dicit.
+            <lb ed="#V" n="58"/>Quia vsus eius, quod est ad finem secundum quod est in
+            <lb ed="#V" n="59"/>ratione referente ipsum in finem praecedit electionem:
+            vn<lb ed="#V" n="60" break="no"/>de multo magis praecedit imperium: sed vsus eius quod
+            <lb ed="#V" n="61"/>est ad finem secundum quod subditur potentiae
+            executi<lb ed="#V" n="62" break="no"/>uae st. quitur imperium, eo quod vsus vtentis coniunctus
+            <lb ed="#V" n="63"/>est. cum actu, quo quis vtitur, non enim vtitur quis
+            baculo<lb ed="#V" n="64" break="no"/>cntequam aliquo modo per baculum operetur. Imperium
+            <lb ed="#V" n="65"/>autem non est simul cum actu eius cui imperatur: sed
+            na<lb ed="#V" n="66" break="no"/>turaliter prius est imperium quam imperio obediatur, &amp;
+            <lb ed="#V" n="67"/>aliquando est prius tempore: vnde manifestum est, quod
+            <lb ed="#V" n="68"/>im perium est prius quam vsus. Haec ille.
+          </p>
+          <p xml:id="capsco-a1hn0i-d1e810">
+            Item prima
+            se<lb ed="#V" n="69" break="no"/>cundae. q. 16. artic. 4. ad tertium. Electio praecedit vsum si
+            <lb ed="#V" n="70"/>referatur ad idem. nihil autem prohibet, quod vsus vnius
+            <lb ed="#V" n="71"/>praecedat electionem alterius, &amp; quia actus voluntatis
+            re<lb ed="#V" n="72" break="no"/>uectuntur supra seipsos, in quolibet actu voluntatis
+            po<lb ed="#V" n="73" break="no"/>test accipi consensus, electio, &amp; vsus: vt si dicatur quod
+            <lb ed="#V" n="74"/>voluntas consentit se eligere, &amp; consentit se consentire,
+            <lb ed="#V" n="75"/>&amp; vtitur se ad consentiendum, &amp; eligendum, &amp; semper
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="76"/>isti actus ordinati ad illud, quod prius est, sunt priores.
+            <lb ed="#V" n="77"/>Haec ille.
+          </p>
+          <p xml:id="capsco-a1hn0i-d1e834">
+            Ex quibus patet, quod quandocunque circa
+            <lb ed="#V" n="78"/>idem consiliamur, &amp; eligimus, &amp; vtimur, &amp; imperamus,
+            <lb ed="#V" n="79"/>&amp; consentimus, quod illa quinque habent ordinem
+            su<lb ed="#V" n="80" break="no"/>pradictum, licet respectu diuersorum obiectorum illud
+            <lb ed="#V" n="81"/>quod in vno ordine est prius, in alio sit posterius. Ista enim
+            <lb ed="#V" n="82"/>quinque possunt assignari respectu cuiuslibet, quod est
+            <lb ed="#V" n="83"/>ad finem, siue sit actus, siue obiectum. Si quaeratur, quid
+            <lb ed="#V" n="84"/>est consilium: respondet Sanctus Thomas prima secundae
+            <lb ed="#V" n="85"/>q. 14. quod consilium est actus intellectus, quo inquiritur
+            <lb ed="#V" n="86"/>de agendis a nobis modo resolutorio, scilicet incipiendo
+            <lb ed="#V" n="87"/>a fine infimo attento quousque peruenitur ad illud, quod
+            <lb ed="#V" n="88"/>statim agendum est. Quid autem sit imperare, respondet
+            <lb ed="#V" n="89"/>ibidem. q. 17. artic. primo quod imperare est essentialiter
+            <lb ed="#V" n="90"/>actus rationis, quo intellectus in virtute voluntatis
+            mo<lb ed="#V" n="91" break="no"/>uet aliquam potentiam cum quadam intimatione
+            denun<lb ed="#V" n="92" break="no"/>ciatiua, vnde talis actus explicatur per orationem
+            impe<lb ed="#V" n="93" break="no"/>ratiui modi dicendo fac hoc, non enim voluntas imperat,
+            <lb ed="#V" n="94"/>sed intellectus motus a voluntate, quia imperare est
+            or<lb ed="#V" n="95" break="no"/>dinare aliquid agendum, modo ordinare est rationis non
+            <lb ed="#V" n="96"/>voluntatis. Ex quibus concluditur, quod circa illud quod
+            <lb ed="#V" n="97"/>est ad finem voluntas habet tres actus, intellectus autem
+            <lb ed="#V" n="98"/>duos, tres primi eligere, consentire, &amp; vti, duo intellectus,
+            <lb ed="#V" n="99"/>consilium, &amp; imperium. Et sic terminatur primus articu.
+          </p>
+        </div>
+        <div xml:id="capsco-a1hn0i-Dd1e885">
+          <head xml:id="capsco-a1hn0i-Hd1e887">Articulus 2</head>
+          <p xml:id="capsco-a1hn0i-d1e889">
+            <lb ed="#V" n="100"/><milestone ed="#V" unit="p" rend="initial"/> QVantum ad secundum arguitur contra conclusiones,
+            <lb ed="#V" n="101"/>&amp; quidem contra primam arguit sic aureolus.
+            prae<lb ed="#V" n="102" break="no"/>sertimi contra hoc, quod ibidem dicitur, quod vsus
+            sumi<lb ed="#V" n="103" break="no"/>tur ab applicatione rei ad operationem. Arguit igitur
+            <lb ed="#V" n="104"/>contra hoc. primo sic. Oppositarum differentiarum
+            op<lb ed="#V" n="105" break="no"/>positae debent esse rationes, vt patet de congregatiuo, &amp;
+            <lb ed="#V" n="106"/>disgregatiuo, rationali, &amp; irrationali: sed frui, &amp; vti sunt
+            <lb ed="#V" n="107"/>differentiae diuisiuae actuum voluntatis: ut Auguus innuit
+            <lb ed="#V" n="108"/>&amp; magister in litera, ratio autem fruitionis totaliter sistit
+            <lb ed="#V" n="109"/>intra voluntatem, dicit enim quietem voluntatis in
+            ali<lb ed="#V" n="110" break="no"/>quo. ergo &amp; vti totaliter sistet intra voluntatem dicendo
+            <lb ed="#V" n="111"/>rationem oppositam quieti voluntatis, haec autem ratio
+            <lb ed="#V" n="112"/>opposita non est nisi voluntatem ferri transitorie super
+            <lb ed="#V" n="113"/>aliquid non quiascendo in illo. ergo ratio vsus non
+            sumi<lb ed="#V" n="114" break="no"/>tur ab applicatione rei ad operationem: sed magis ex
+            tran<lb ed="#V" n="115" break="no"/>sitoria latione super illud, quod est ad finem non
+            quiescen<lb ed="#V" n="116" break="no"/>do in eo.
+          </p>
+          <p xml:id="capsco-a1hn0i-d1e929">
+            Secundo sic. Si vsus sumerctur ab applicatione
+            <lb ed="#V" n="117"/>rei ad operationem, illis rebus vti non posset, quas
+            appli<lb ed="#V" n="118" break="no"/>care non valeret ad operationem: sed certum est, quod
+            <lb ed="#V" n="119"/>voluntas nostra non potest applicare coelum, aut
+            Ange<lb ed="#V" n="120" break="no"/>los ad suam operationem, &amp; tamen potest vti coelo, &amp;
+            <lb ed="#V" n="121"/>Angelis, &amp; omni creato secundum Augustinus dum fertur
+            <lb ed="#V" n="122"/>super illa in quodam transitu ad Deum. ergo vsus non
+            su<lb ed="#V" n="123" break="no"/>mitur ab applicatione rei ad operationem: sed magis ex
+            <lb ed="#V" n="124"/>transitoria latione super eo, quod est ad finem non
+            quie<lb ed="#V" n="125" break="no"/>scendo. Tertio. Quia ratio quam significat nomen est
+            dif<lb ed="#V" n="126" break="no"/>finitio sua quarto Metaphysicae, sed diffinitio vsus, quam
+            <lb ed="#V" n="127"/>magister ponit in litera, &amp; Augustinus primo de doctrina
+            Chri<lb ed="#V" n="128" break="no"/>stiana, non facit mentionem de applicatione ad
+            opera<lb ed="#V" n="129" break="no"/>tionem, sed de relatione in finem non quiescendo in eo,
+            <lb ed="#V" n="130"/>quod est ad finem, sed transitorie se habendo, sicut patet
+            <lb ed="#V" n="131"/>de illa diffinitione. Vti est quod in vsum venit ad illud,
+            <lb ed="#V" n="132"/>quod amatur obtinendum referre, si tamen amandum
+            <lb ed="#V" n="133"/>est, hic quidem non fit mentio de applicatione rei ad
+            ope<lb ed="#V" n="134" break="no"/>rationem, sed tantum de relatione eius, quod venit ad
+            in<lb ed="#V" n="135" break="no"/>tellectum, vel voluntatem, vel ad materiam, vel
+            quocun<lb ed="#V" n="136" break="no"/>que modo in facultatem, voluntatis ad illud, quod est
+            <lb ed="#V" n="137"/>amandum. ergo idem quod prius.
+          </p>
+          <p xml:id="capsco-a1hn0i-d1e977">
+            Quarto. Dirigere in
+            <lb ed="#V" n="138"/>Deum omnia, &amp; seipsum, &amp; cuncta creata est omnibus
+            <lb ed="#V" n="139"/>vti, sed clarum est, quod hoc non est applicare seipsum,
+            <lb ed="#V" n="140"/>&amp; omnia creata ad operationem aliquam, sed tantum
+            mo<lb ed="#V" n="141" break="no"/>do dilectionem suam super omnia ferre super quodam
+            <lb ed="#V" n="142"/>transitu, &amp; in ordine ad Deum. ergo applicatio ad
+            ope<lb ed="#V" n="143" break="no"/>rationem nihil facit ad vsum. Quinto. Quia ista est
+            ex<lb ed="#V" n="144" break="no"/>pressa intentio Augstnus primo de doctrina christiana, cum
+            <lb ed="#V" n="145"/>ait. Quomodo si essemus peregrini, qui bene viuere nisi
+            <lb ed="#V" n="146"/>in patria nostra non possemus, opus esset terrestribus,
+            el<lb ed="#V" n="147" break="no"/>marinis vehiculis, quibus vtendum esset: vt ad patriam,
+            <lb ed="#V" n="148"/>qua fruendum erat, peruenire valeremus, sic in huius
+            mor<lb ed="#V" n="149" break="no"/>talitatis vita peregrinantes a Domino, si redire in pattiam
+            <lb ed="#V" n="150"/>uolumus, ubi beati esse possumus, utendum est hoc
+            mun<pb ed="#V" n="58"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>do, vt inuisibilia Dei, per ea quae facta sunt, intellecta
+            con<lb ed="#V" n="2" break="no"/>spiciantur, hoc est, vt de corporalibus rebus, &amp;
+            tempo<lb ed="#V" n="3" break="no"/>ralibus spiritualia, &amp; aeterna capiantur. Haec Augustnus Ex
+            <lb ed="#V" n="4"/>quibus patet, quod non est aliud voluntatem vti rebus,
+            <lb ed="#V" n="5"/>quam per eas conscendere in Deum, &amp; eas applicare in
+            <lb ed="#V" n="6"/>finem, non autem applicare ad operationem. Contra
+            ter<lb ed="#V" n="7" break="no"/>tiam conclusionem similiter arguit probando, quod
+            dire<lb ed="#V" n="8" break="no"/>ctio, &amp; ordinatio, quae est in actu electionis, non sit ab
+            in<lb ed="#V" n="9" break="no"/>tellectu, sed a voluntate, a qua est substantia actus, cuius
+            <lb ed="#V" n="10"/>oppositum videtur innui in tertia conclusione. Arguit
+            igi<lb ed="#V" n="11" break="no"/>tur primo sic. Cuius est actus, eius est directio illius actus
+            <lb ed="#V" n="12"/>in finem, cum illa directio non sit, nisi quidam ordo, &amp;
+            <lb ed="#V" n="13"/>quaedam relatio fundata super actum, ibi est autem
+            rela<lb ed="#V" n="14" break="no"/>tio, vbi est fundamentum relationis, ibi nanque est
+            simi<lb ed="#V" n="15" break="no"/>litudo, vbi est albedo subiectiue, sed appetitus, &amp; motus
+            <lb ed="#V" n="16"/>ipsius in illud, quod est ad finem, est fundamentum
+            ordi<lb ed="#V" n="17" break="no"/>nis in finem. ergo videtur quod directio motus
+            appetiti<lb ed="#V" n="18" break="no"/>ui in finem sit ab ipso appetitu, &amp; voluntate.
+          </p>
+          <p xml:id="capsco-a1hn0i-d1e1049">
+            Secundo. Nam
+            <lb ed="#V" n="19"/>secundum Sanctum Thomas intentio est actus voluntatis,
+            <lb ed="#V" n="20"/>sed intentio non est aliud quam directio motus
+            appeti<lb ed="#V" n="21" break="no"/>tiui in finem. ergo huiusmo di directio non est actus
+            ra<lb ed="#V" n="22" break="no"/>tionis, sed voluntatis. Tertio. Nullus actus aut potentia
+            <lb ed="#V" n="23"/>fertur super obiectum materiale nisi attingendo obiectum
+            <lb ed="#V" n="24"/>formale: sed ratio volendi illud, quod est ad finem, quod
+            <lb ed="#V" n="25"/>est materialiter volitum est ipse finis. ergo voluntas
+            vo<lb ed="#V" n="26" break="no"/>lendo illud, quod est ad finem attingit finem: sed non
+            ali<lb ed="#V" n="27" break="no"/>ter attingit quam dirigendo volitionem eius, quod est
+            <lb ed="#V" n="28"/>ad finem in ipsum finem. igitur idem quod prius
+            Contra<lb ed="#V" n="29" break="no"/>sextam conclusionem similiter arguit probando, quod
+            con<lb ed="#V" n="30" break="no"/>sensus non dicit applicationem motus appetitiui ad
+            deter<lb ed="#V" n="31" break="no"/>minationem consilij, sicut illa conclusio, &amp; sequentes
+            in<lb ed="#V" n="32" break="no"/>nuere videntur. Arguit ergo primo sic. Constat inquit
+            <lb ed="#V" n="33"/>quod incontinens dicitur passionibus consentire, &amp;
+            sen<lb ed="#V" n="34" break="no"/>sualitati, agit enim ex consensu, sed clarum est, quod non
+            <lb ed="#V" n="35"/>applicat motum appetitus ad determinationem consilij,
+            <lb ed="#V" n="36"/>immo magis ad passionem, mouetur enim, &amp; agit contra
+            <lb ed="#V" n="37"/>rationem. ergo non omnis consensus est applicatio
+            vo<lb ed="#V" n="38" break="no"/>luntatis ad determinationem consilij. Nec valet si
+            dica<lb ed="#V" n="39" break="no"/>tur, quod etiam in incontinente, &amp; passionato consilium
+            <lb ed="#V" n="40"/>determinat pro passione, vt Philosophus dicit 3. Ethicor.
+            <lb ed="#V" n="41"/>hoc quidem non valet, non enim est ibi determinatio
+            <lb ed="#V" n="42"/>consilij: sed magis subuersio per passionem: vnde
+            ma<lb ed="#V" n="43" break="no"/>gis dicitur ignorantia seu excaecatio, vel ligamentum
+            ra<lb ed="#V" n="44" break="no"/>tionis quam consilium, sicut ibi Philosophus
+            assimilan<lb ed="#V" n="45" break="no"/>do tales vinolentis, &amp; somnolentis.
+          </p>
+          <p xml:id="capsco-a1hn0i-d1e1111">
+            <lb ed="#V" n="46"/><milestone ed="#V" unit="p" rend="initial"/> D primum contra primam conclusionem dicitur
+            <lb ed="#V" n="47"/>negando minorem, secundum enim supradicta frui,
+            <lb ed="#V" n="48"/>&amp; vti non sunt differentiae diuisiuae per opposita ipsorum
+            <lb ed="#V" n="49"/>actuum voluntatis, praesertim si intelligatur de oppositis
+            <lb ed="#V" n="50"/>immediatis, nec enim eligere, nec intendere, nec
+            consen<lb ed="#V" n="51" break="no"/>tire sunt fruitiones, aut vsus, tamen concedo quod inter
+            <lb ed="#V" n="52"/>vsum, &amp; fruitionem est aliqua oppositio, eo modo quo
+            <lb ed="#V" n="53"/>absolutum opponitur ei quod importat absolutum cum
+            <lb ed="#V" n="54"/>relatione. Sicut enim dicit Sanctus Thomas prima
+            secun<lb ed="#V" n="55" break="no"/>dae. q16. arti. 2. ad primum. Frui importat motum
+            abso<lb ed="#V" n="56" break="no"/>lutum appetitus in appetibile, sed vti importat motum
+            <lb ed="#V" n="57"/>appetitus ad aliquid in ordine ad alterum. Haec ille.
+          </p>
+          <p xml:id="capsco-a1hn0i-d1e1141">
+            Sed
+            <lb ed="#V" n="58"/>isto modo oppositionis non solum vsus opponitur
+            srui<lb ed="#V" n="59" break="no"/>tioni: sed electio, nam secundum eundem ibidem arti. 4.
+            <lb ed="#V" n="60"/>electio importat duas relationes, vnam, scilicet eius quod
+            <lb ed="#V" n="61"/>eligitur ad finem, aliam vero ad illud, cui praeeligitur.
+            con<lb ed="#V" n="62" break="no"/>ceditur ergo quod inter vsum, &amp; fruitionem talis est
+            dif<lb ed="#V" n="63" break="no"/>ferentia, quod fruitio dicit actum voluntatis quiescentem
+            <lb ed="#V" n="64"/>in aliquo, vsus autem prout in voluntate dicit lationem
+            <lb ed="#V" n="65"/>transitoriam super aliquid, in quo non sistitur, sed vlterius
+            <lb ed="#V" n="66"/>tenditur, licet autem vsus, vel vti sit talis actus
+            volunta<lb ed="#V" n="67" break="no"/>tis, quo, scilicet appetitur illud, quod est ad finem
+            refe<lb ed="#V" n="68" break="no"/>rendo illud ad obtinendum finem, non tamen valet
+            con<lb ed="#V" n="69" break="no"/>sequentia. ergo vsus non sumitur ab applicatione rei &amp;c.
+            <lb ed="#V" n="70"/>qui enim applicat aliquid operationi fertur in illud non
+            <lb ed="#V" n="71"/>sin endo in eo: sed ad aliud referendo, scilicet ad opus.
+            <lb ed="#V" n="72"/>Similiter patet, quod non oportet semper vsum esse actum
+            <lb ed="#V" n="73"/>a voluntate elicitum, immo potest esse actus intellectus,
+            <lb ed="#V" n="74"/>&amp; potest esse actus potentiae ex ecutiuae, licet semper sit
+            <lb ed="#V" n="75"/>actus a voluntate elicitus, vel imperatus, &amp; consequenter
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="76"/>non oportet, quod sicut fruitio semper est subiectiue in
+            <lb ed="#V" n="77"/>voluntate ita, &amp; vsus. Vnde dicit Sanctus Thomas prima
+            <lb ed="#V" n="78"/>secundae. q. 16. artic. 1. ad tertium quod non solum
+            volun<lb ed="#V" n="79" break="no"/>tas vtitur, immo intellectus, &amp; aliae potentiae executiuae
+            <lb ed="#V" n="80"/>motae a voluntate, &amp; recitat Augustinum in libu. 83
+            quae<lb ed="#V" n="81" break="no"/>stionum dicentem, quod nos iudicando per rationem de
+            <lb ed="#V" n="82"/>omnibus causatis vtimur illis.
+          </p>
+          <p xml:id="capsco-a1hn0i-d1e1200">
+            Ad secundum negatur
+            mi<lb ed="#V" n="83" break="no"/>nor, inquantum enim homo vult caelum propter aliquam
+            <lb ed="#V" n="84"/>operationem quam facit coelum, vel mouet, in tantum
+            ap<lb ed="#V" n="85" break="no"/>plicat coelum ad operationem per voluntatem, &amp;
+            intelle<lb ed="#V" n="86" break="no"/>ctum, licet non per potentiam executiuam. Vnde Sanctus Thomas
+            <lb ed="#V" n="87"/>primo sen. dist. 1. q. 3. artic. 1. ad primum dicit, quod coelo, &amp;
+            <lb ed="#V" n="88"/>Angelis non vtimur tanquam a nobis operatis; sed sicut
+            <lb ed="#V" n="89"/>in Dei cognitionem ducentibus. Et in principali
+            respon<lb ed="#V" n="90" break="no"/>sione dicit. Quaecunque sunt bona non habent bonitatem
+            <lb ed="#V" n="91"/>nisi inquantum accedunt ad diuinam bonitatem. Vnde
+            <lb ed="#V" n="92"/>oportet quod sit bonitas diuina, cum sit ratio dilectionis
+            <lb ed="#V" n="93"/>&amp; desiderij, vt omnia amentur in ordine ad diuinam
+            bo<lb ed="#V" n="94" break="no"/>nitatem, omne autem quod bonum est, a Deo est. Vnde
+            <lb ed="#V" n="95"/>quae a Deo non sunt, nec quaerenda sunt, nec eis vtendum
+            <lb ed="#V" n="96"/>est, &amp; ideo nullo peccato est vtendum: quia peccatum
+            <lb ed="#V" n="97"/>non est a Deo, poena autem est a Deo, &amp; ideo poena
+            vten<lb ed="#V" n="98" break="no"/>dum est, &amp; ordinanda est ad finem secundum quod
+            promo<lb ed="#V" n="99" break="no"/>uet meritum hominis ducens eum in considerationem
+            <lb ed="#V" n="100"/>propriae infirmitatis, &amp; secundum quod purgat peccata.
+            <lb ed="#V" n="101"/>Similiter res mundi ab ipso sunt, &amp; eis utendum est, uel
+            <lb ed="#V" n="102"/>inquantum conferunt ad Dei cognitionem ostendentes
+            <lb ed="#V" n="103"/>ipsius magnitudinem, vel secundum quod praebent
+            sub<lb ed="#V" n="104" break="no"/>lidium uitae nostrae ordinatae in Deum. Similiter opera
+            <lb ed="#V" n="105"/>nostra, quae mala non sunt, ab ipso sunt, &amp; propter ipsum
+            <lb ed="#V" n="106"/>facienda, non quod quamlibet operationem oporteat
+            sem<lb ed="#V" n="107" break="no"/>per actualiter referre in Deum, sed sufficit, quod in Deo
+            <lb ed="#V" n="108"/>statuat finem suae uoluntatis. Haec ille.
+          </p>
+          <p xml:id="capsco-a1hn0i-d1e1259">
+            Ex quibus
+            omni<lb ed="#V" n="109" break="no"/>bus patet, quod omnia quae facta sunt a Deo applicare
+            <lb ed="#V" n="110"/>possumus ad operationem per uoluntatem nostram, aut
+            <lb ed="#V" n="111"/>intellectum, aut potentiam executiuam, unde ipse
+            intel<lb ed="#V" n="112" break="no"/>lectus conferens rem in finem utitur re, &amp; applicat eam
+            <lb ed="#V" n="113"/>ad operationem, &amp; similiter uoluntas dum uult aliquid
+            <lb ed="#V" n="114"/>per operationem illius rei applicat eam ad operationem.
+          </p>
+          <p xml:id="capsco-a1hn0i-d1e1275">
+            <lb ed="#V" n="115"/>Ad tertium dico, quod licet Augustnus non faciat ex presse
+            <lb ed="#V" n="116"/>mentionem de applicatione rei ad operationem in
+            diffi<lb ed="#V" n="117" break="no"/>nitione usus. tamen implicite facit. Cum enim dicit. Vti
+            <lb ed="#V" n="118"/>est illud quod in usum uenit referre ad obtinendum &amp;c.
+            <lb ed="#V" n="119"/>Dat intelligere quod illo utimur quod uolumus, ut illo
+            <lb ed="#V" n="120"/>mediante obtineamus aliud quo fruendum est, &amp; ita tale
+            <lb ed="#V" n="121"/>uolitum applicamus ad operationem, scilicet ad
+            obten<lb ed="#V" n="122" break="no"/>tionem, uel possessionem, ut large accipiatur operatio
+            <lb ed="#V" n="123"/>pro motu, uel actione, aut quolibet significato per modum
+            <lb ed="#V" n="124"/>actionis, uel motus, sicut est possessio, aut quietatio. ut
+            <lb ed="#V" n="125"/>enim dictum est in prima conclusione, velle pecuniam ad
+            <lb ed="#V" n="126"/>possidendum est uti pecunia, &amp; applicare eam ad
+            opera<lb ed="#V" n="127" break="no"/>tionem, vel aliquid per modum operationis.
+          </p>
+          <p xml:id="capsco-a1hn0i-d1e1306">
+            Ad quartum
+            <lb ed="#V" n="128"/>negatur minor, vt patet ex dictis, nam tam seipsum quam
+            <lb ed="#V" n="129"/>alia homo applicat ad habendum, &amp; obtinendum Deum,
+            <lb ed="#V" n="130"/>illa autem obtentio operatio dicitur eo modo, quo in
+            pro<lb ed="#V" n="131" break="no"/>posito loquimur de operatione.
+          </p>
+          <p xml:id="capsco-a1hn0i-d1e1318">
+            Ad quintum dico, quod
+            <lb ed="#V" n="132"/>illud argumentum verberat arguentem, nam si eo modo
+            <lb ed="#V" n="133"/>vtimur mundo, &amp; in co contentis sicut nauigantes
+            vtun<lb ed="#V" n="134" break="no"/>tur vehiculis ad transfretandum, cum tales vtendo
+            vehri<lb ed="#V" n="135" break="no"/>culis applicent ea ad operationem, sequitur quod vti
+            no<lb ed="#V" n="136" break="no"/>strum est applicare res ad operationes.
+          </p>
+          <p xml:id="capsco-a1hn0i-d1e1331">
+            Ad primum
+            con<lb ed="#V" n="137" break="no"/>tra tertiam conclusionem dicitur, quod procedit ex
+            fal<lb ed="#V" n="138" break="no"/>so intellectu, ac si nos poneremus, quod absoluta
+            substan<lb ed="#V" n="139" break="no"/>tia actus electionis si, a voluntate, &amp; relatio super illo
+            <lb ed="#V" n="140"/>actu fundata sit a solo intellectu. Etad hunc sensum arguit,
+            <lb ed="#V" n="141"/>qui tamen Sanctum Thomas non intelligit, cum enim dicit
+            <lb ed="#V" n="142"/>prima secundae. q. 13. art. 1. quod illud quod est materiale
+            <lb ed="#V" n="143"/>in electione est voluntatis, formale autem est rationis, non
+            <lb ed="#V" n="144"/>intelligit in illo actu esse duo quidem, quorum vnum sit
+            <lb ed="#V" n="145"/>a sola uoluntate, &amp; aliud a sola ratione producatur, vt
+            ar<lb ed="#V" n="146" break="no"/>guens male intelligit: sed quem sensuum habeat..
+            fali<lb ed="#V" n="147" break="no"/>bus locutionibus exprimit de ueritate. q. 22. art. 3. dicens.
+            <lb ed="#V" n="148"/>Quandocunque sunt duo agentia ordinata, secundum
+            <lb ed="#V" n="149"/>agens dupliciter potest mouere, uel agere. Vno modo
+            <lb ed="#V" n="150"/>secundum quod competit naturae suae. Alio modo
+            secun<pb ed="#V" n="59"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>dum quod competit naturae superioris agentis.
+            Impres<lb ed="#V" n="2" break="no"/>sio enim superioris agentis manet in inferiori, &amp; ex hoc
+            <lb ed="#V" n="3"/>inferius agens non solum agit actione propria: sed
+            actio<lb ed="#V" n="4" break="no"/>ne superioris agentis, sicut spera solis mouetur motu
+            pro<lb ed="#V" n="5" break="no"/>positio, qui spacio vnius anni completur, &amp; motu primi
+            <lb ed="#V" n="6"/>mobilis, qui est motus diurnus. Similiter aqua mouetur
+            <lb ed="#V" n="7"/>motu proprio tendendo in centrum, &amp; habet quendam
+            <lb ed="#V" n="8"/>motum ex impressione Lunae, quae mouet ipsam influxu,
+            <lb ed="#V" n="9"/>&amp; refluxu maris. Corpora etiam mixta habent quasdam
+            <lb ed="#V" n="10"/>operationes sibi proprias: quae consequuntur naturam
+            <lb ed="#V" n="11"/>quatuor elementorum, vt tendere deorsum, calefacere, &amp;
+            <lb ed="#V" n="12"/>infrigidare, &amp; habent alias ex impressione corporum
+            cae<lb ed="#V" n="13" break="no"/>lestium, vt magnes attrahit ferrum. Et quauis nulla actio
+            <lb ed="#V" n="14"/>inferioris agentis fiat, nisi praesupposita actione
+            superio<lb ed="#V" n="15" break="no"/>ris, tamen illa actio quae competit ei secundum suam
+            natu<lb ed="#V" n="16" break="no"/>ram attribuitur ei absolute, sicut aquae moueri deorsum.
+            <lb ed="#V" n="17"/>Illa vero quae competit ei ex impressione superioris
+            agen<lb ed="#V" n="18" break="no"/>tis non attribuitur ei absolute, se in ordine ad aliud.
+            si<lb ed="#V" n="19" break="no"/>cut influere, &amp; refluere dicitur esse proprius motus maris
+            <lb ed="#V" n="20"/>non inquantum est aqua: sed inquantum mouetur a
+            lu<lb ed="#V" n="21" break="no"/>na. Ratio autem, &amp; voluntas, quae sunt potentiae quaedam
+            <lb ed="#V" n="22"/>operatiuae adinuicem ordinatae, &amp; absolutae considerando
+            <lb ed="#V" n="23"/>ratio est prior, quamuis per reflexionem efficiatur
+            volun<lb ed="#V" n="24" break="no"/>tas prior, &amp; superior inquantum mouet rationem. Vnde
+            <lb ed="#V" n="25"/>voluntas potest habere duplicem actum, vnum qui
+            com<lb ed="#V" n="26" break="no"/>petit ei secundum suam naturam inquantum tendit in
+            pro<lb ed="#V" n="27" break="no"/>prium obiectum absolute, &amp; hic actus attribuitur
+            volun<lb ed="#V" n="28" break="no"/>tati simpliciter, vt velle, &amp; amare, quamuis etiam ad huc
+            <lb ed="#V" n="29"/>actum praesupponitur actus rationis. Alium vero actum
+            <lb ed="#V" n="30"/>habet, qui competit ei secundum quod rationis
+            impres<lb ed="#V" n="31" break="no"/>sio relinquitur in voluntate, cum enim proprium sit
+            ratio<lb ed="#V" n="32" break="no"/>nis conferre, &amp; ordinare quandocunque in actu
+            volunta<lb ed="#V" n="33" break="no"/>tis apparet aliqua collatio, vel ordinatio talis actus erit
+            <lb ed="#V" n="34"/>voluntatis non absolute, sed in ordine ad rationem, &amp; hoc
+            <lb ed="#V" n="35"/>modo intendere est actus voluntatis. Haec ille.
+          </p>
+          <p xml:id="capsco-a1hn0i-d1e1442">
+            Ex quo
+            pa<lb ed="#V" n="36" break="no"/>tet quod Sanctus Thomas non intendit, quod in actu
+            inten<lb ed="#V" n="37" break="no"/>tionis, vel electionis sint aliqua duo, quorum vnum solum
+            <lb ed="#V" n="38"/>producatur a voluntate: sed intendit quod voluntas ex
+            <lb ed="#V" n="39"/>natura sua absolute habet quod velit, &amp; volitionem
+            pro<lb ed="#V" n="40" break="no"/>ducat, sed non habet ex se, immo ex hoc quod mouetur
+            <lb ed="#V" n="41"/>ab intellectu, quod in actu suo sit collatio, aut ordinatio
+            <lb ed="#V" n="42"/>vnius ad aliud.
+          </p>
+          <p xml:id="capsco-a1hn0i-d1e1460">
+            Ad secundum patet per idem. verumtamen
+            <lb ed="#V" n="43"/>minor est falsa, scilicet quod intentio sit directio
+            loquen<lb ed="#V" n="44" break="no"/>do de directione activa. Vnde Sanctus Thomas vbi supra ad
+            quar<lb ed="#V" n="45" break="no"/>tum dicit. Relatio actiua in finem est rationis, eius enim
+            <lb ed="#V" n="46"/>est referre in finem: sed relatio passiua potest esse
+            cuius<lb ed="#V" n="47" break="no"/>cunque directi, vel relati in finem, &amp; sic potest esse etiam
+            <lb ed="#V" n="48"/>voluntatis, &amp; hoc modo relatio in finem pertinet ad
+            in<lb ed="#V" n="49" break="no"/>tentionem. Haec ille.
+          </p>
+          <p xml:id="capsco-a1hn0i-d1e1478">
+            Et loquitur de relatione non vt est
+            <lb ed="#V" n="50"/>habitudo, sed vt est actio, vel passio, &amp; similiter de
+            dire<lb ed="#V" n="51" break="no"/>ctione. Ex quo patet, quod dirigere ad intellectum
+            perti<lb ed="#V" n="52" break="no"/>net, sed actum directum, &amp; relatum elicere est
+            volunta<lb ed="#V" n="53" break="no"/>tis, licet non absolute, sed vt est mota a ratione, vnde a
+            vo<lb ed="#V" n="54" break="no"/>luntate effectiue est tam actus, qui fundat relationem quam
+            <lb ed="#V" n="55"/>relatio in eo fundata, sed voluntas non potest elicere actum,
+            <lb ed="#V" n="56"/>qui fundat relationem, nisi vt mouetur a ratione. Ad
+            ter<lb ed="#V" n="57" break="no"/>tium similiter omnia conceduntur quousque dicit, quod
+            <lb ed="#V" n="58"/>voluntas volendo illud, quod est ad finem, non attingit
+            <lb ed="#V" n="59"/>finem nisi dirigendo &amp;c. Illud enim negatur, voluntas
+            <lb ed="#V" n="60"/>quippe non dirigit, sed actum directum elicit, &amp;
+            collati<lb ed="#V" n="61" break="no"/>uum alicuius in finem, vt enim dicit Sanctus Thomas prima
+            <lb ed="#V" n="62"/>secundae. q. 13. artic. 2. ad tertium. In omnibus quae
+            mouen<lb ed="#V" n="63" break="no"/>tur a ratione apparet ordo rationis mouentis, licet ipsa
+            <lb ed="#V" n="64"/>rationem non habeant, sic enim sagitta directe tendit in
+            <lb ed="#V" n="65"/>signum ex motione sagittatis, ac si ipsa haberet rationem
+            <lb ed="#V" n="66"/>dirigentem, &amp; idem apparet in motibus horologiorum,
+            <lb ed="#V" n="67"/>omnium humanorum ingeniorum, quae arte fiunt. Haec
+            <lb ed="#V" n="68"/>ille. Et q. 12. art. 1. ad tertium dicit. Voluntas non ordinat,
+            <lb ed="#V" n="69"/>sed tamen in aliquid tendit secundum ordinem rationis,
+            <lb ed="#V" n="70"/>Et q. 13. artic. 1. ad primum dicit. Electio collationem
+            im<lb ed="#V" n="71" break="no"/>portat praecedentem non quod essentialiter sit ipsa
+            colla<lb ed="#V" n="72" break="no"/>tio. Haec ille. Ex quibus patet, quod solus intellectus
+            diri<lb ed="#V" n="73" break="no"/>git, sed voluntas actum conformem illi directioni elicit.
+          </p>
+          <p xml:id="capsco-a1hn0i-d1e1533">
+            <lb ed="#V" n="74"/>Ad primum contra sextam conclusionem negatur quod
+            <lb ed="#V" n="75"/>incontinens non applicet motum appetitiuum ad
+            deter<cb ed="#V" n="b"/><lb ed="#V" n="76" break="no"/>minationem consilij quandiu habet actum voluntatis,
+            li<lb ed="#V" n="77" break="no"/>cet consilium sit erroneum, sicut enim ponit Sanctus Thomas
+            <lb ed="#V" n="78"/>de malo. q. 3. art. 9. in responsione ad septimum
+            argumen<lb ed="#V" n="79" break="no"/>tum. In omni actu virtutis, vel peccati est quaedam
+            dedu<lb ed="#V" n="80" break="no"/>ctio quasi syllogistica, tamen aliter syllogizat temperatus,
+            <lb ed="#V" n="81"/>aliter intemperatus, &amp; aliter continens quam incontinens,
+            <lb ed="#V" n="82"/>temperatus secundum iudicium rationis vtitur
+            syllogis<lb ed="#V" n="83" break="no"/>mo trium propositionum sic syllogizans. Nulla
+            fornica<lb ed="#V" n="84" break="no"/>tio est committenda, hic actus est fornicatio. igitur &amp;c.
+            <lb ed="#V" n="85"/>Intemperatus vero totaliter sequitur concupiscentiam
+            <lb ed="#V" n="86"/>sic syllogizans. Omni delectabili est fruendum. hic actus
+            <lb ed="#V" n="87"/>est delectabilis. igitur &amp;c. Similiter tam continens quam
+            <lb ed="#V" n="88"/>incontinens dupliciter mouetur, secundum rationem
+            qui<lb ed="#V" n="89" break="no"/>dem ad vitandum peccatum, secundum concupiscentiam
+            <lb ed="#V" n="90"/>vero ad committendum: sed in continente vincit
+            iudi<lb ed="#V" n="91" break="no"/>cium rationis, in incontinente vero concupiscentia, vnde
+            <lb ed="#V" n="92"/>vterque vtitur syllogismo quatuor propositionum vel
+            ter<lb ed="#V" n="93" break="no"/>minorum ad contrarias conclusiones. Continens enim
+            <lb ed="#V" n="94"/>sic syllogizat. Nullum peccatum est faciendum, hoc
+            pro<lb ed="#V" n="95" break="no"/>ponit secundum iudicium rationis, secundum vero
+            mo<lb ed="#V" n="96" break="no"/>tum concupiscentiae versatur in corde eius, quod omne
+            <lb ed="#V" n="97"/>delectabile est prosequendum, sed quia iudicium rationis
+            <lb ed="#V" n="98"/>in eo vincit, assumit sub primo, hoc est peccatum, &amp;
+            con<lb ed="#V" n="99" break="no"/>cludit. ergo non est faciendum. Incontinens vero in quo
+            <lb ed="#V" n="100"/>vincit motus concupiscentiae assumit sub secundo. hoc
+            <lb ed="#V" n="101"/>est delectabile, &amp; concludit igitur est faciendum vel
+            pro<lb ed="#V" n="102" break="no"/>sequendum. Haec ille.
+          </p>
+          <p xml:id="capsco-a1hn0i-d1e1600">
+            Eandem sententiam ponit secundo
+            <lb ed="#V" n="103"/>sen. dist. 24. q. 3. art. 3. &amp; prima secundae. q. 77. artic. 2. ad 4.
+            <lb ed="#V" n="104"/>Ex quibus patet, quod incontinens dum consentit
+            appli<lb ed="#V" n="105" break="no"/>cat motum appetitiuum ad determinationem sui, licet
+            <lb ed="#V" n="106"/>falsi consilij. Intelligo tamen dicta Sancti Thomae de
+            pec<lb ed="#V" n="107" break="no"/>cante mortaliter, non solum ratione circunstantiae, sed
+            ra<lb ed="#V" n="108" break="no"/>tione mali voliti, nam contingit secundum eum peccare
+            <lb ed="#V" n="109"/>mortaliter sine tali diuersa syllogizatione, sicut patet de
+            <lb ed="#V" n="110"/>Angelis, &amp; primo parente, vt alias videbitur latius. Sed
+            <lb ed="#V" n="111"/>cum reprobatur ista responsio per arguentem, quia in
+            in<lb ed="#V" n="112" break="no"/>continente non est determinatio consilij, sed subuersio
+            <lb ed="#V" n="113"/>&amp;c.
+          </p>
+          <p xml:id="capsco-a1hn0i-d1e1626">
+            Dico quod quandiu incontinens per voluntatem
+            con<lb ed="#V" n="114" break="no"/>sentit, licet ibi sit ligamentum rationis, inquantum ratio
+            <lb ed="#V" n="115"/>impeditur, ne recte aestimet de eligibili, &amp; agibili in
+            vni<lb ed="#V" n="116" break="no"/>uersali, &amp; particulari accidentaliter, tamen non sic est
+            li<lb ed="#V" n="117" break="no"/>gatus, quin modo praedicto syllogizet proponendo vnam
+            <lb ed="#V" n="118"/>falsam vniuersalem, quam suggerit passio subsumendo
+            <lb ed="#V" n="119"/>vnam particularem veram, vt dictum fuit, &amp; hoc si sit ibi
+            <lb ed="#V" n="120"/>aliquis consensus uoluntatis. Nam secundum quod dicit
+            <lb ed="#V" n="121"/>Sanctus Thomas prima secundae. q. 10. arti. 3. Immutatio
+            ho<lb ed="#V" n="122" break="no"/>minis per passionem dupliciter contingit, uno modo sic,
+            <lb ed="#V" n="123"/>quod ratio totaliter ligetur, ita quod homo usum rationis
+            <lb ed="#V" n="124"/>non habeat, sicut contingit in illis qui propter iram, uel
+            <lb ed="#V" n="125"/>concupiscentiam furiosi, uel amentes fiunt, siue propter
+            <lb ed="#V" n="126"/>aliquam aliam perturbationem corporalem. huiusmodi
+            <lb ed="#V" n="127"/>enim passiones non sine transmutatione corporali
+            acci<lb ed="#V" n="128" break="no"/>dunt, &amp; de talibus est eadem ratio, sicut de animalibus
+            bru<lb ed="#V" n="129" break="no"/>tis, quae ex necessitate, sequuntur impetum passionis, in
+            <lb ed="#V" n="130"/>his enim non est aliquis rationis motus, &amp; per consequens nec
+            <lb ed="#V" n="131"/>uoluntas. aliquando autem ratio non totaliter absorbetur
+            <lb ed="#V" n="132"/>a passione, sed remanet quantum ad aliquid iudicium
+            ra<lb ed="#V" n="133" break="no"/>tionis liberum, &amp; secundum hoc remanet aliquid ex
+            mo<lb ed="#V" n="134" break="no"/>tu uoluntatis, Haec ille. Ex quibus patet, quod secundum
+            <lb ed="#V" n="135"/>eum uoluntas non agit, si ratio sit totaliter absorpta a
+            <lb ed="#V" n="136"/>passione, &amp; per consequens nec consentit, omnis ergo
+            consen<lb ed="#V" n="137" break="no"/>sus sequitur iudicium rationis siue recte, siue erronee,
+            <lb ed="#V" n="138"/>nec est aliter possibile fieri secundum eum. &amp; in hoc secundus
+            <lb ed="#V" n="139"/>artic. terminatur.
+          </p>
+          <p xml:id="capsco-a1hn0i-d1e1685">
+            Ad rationem uero in oppositum patet
+            <lb ed="#V" n="140"/>responsio per praedicta, vti enim non est referre secundum
+            essen<lb ed="#V" n="141" break="no"/>tiam, sed causaliter, aut effectiue; quia scilicet est actus
+            uolunta<lb ed="#V" n="142" break="no"/>tis conformis actui rationis referenti aliquid in alterum &amp;c.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

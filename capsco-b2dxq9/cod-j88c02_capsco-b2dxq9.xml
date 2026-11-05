@@ -1,0 +1,1098 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 2, Distinctio 37, Quaestio 1</title>
+        <author ref="#JohannesCapreolus">Johannes Capreolus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 2, Distinctio 37, Quaestio 1</title>
+          <date when="2026-11-04">Nov 4, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-j88c02">Venice, 1589, v. 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-04" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="540"/>
+        <cb ed="#V" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="capsco-b2dxq9"><!-- l2d37q1 -->
+        <head xml:id="capsco-b2dxq9-Hd1e101">Quaestio 1</head>
+        <head xml:id="capsco-b2dxq9-Hd1e103" type="question-title">Utrum actus peccati sit a Deo</head>
+        <p xml:id="capsco-b2dxq9-d1e106">
+          <lb ed="#V" n="119"/>DISTINCTIO XXXVII.
+          <lb ed="#V" n="120"/>QVAESTIO I.
+          <lb ed="#V" n="121"/>Vtrum actus peccati sit a Deo
+        </p>
+        <p xml:id="capsco-b2dxq9-d1e115">
+          <lb ed="#V" n="122"/><milestone ed="#V" unit="p" rend="initial"/> IRCA trigesimam septimam
+          distin<lb ed="#V" n="123" break="no"/>ctionem secundi sententiarum
+          quaeri<lb ed="#V" n="124" break="no"/>tur. Vtrum actus peccati sit a Deo
+        </p>
+        <p xml:id="capsco-b2dxq9-d1e125">
+          <lb ed="#V" n="125"/>Et arguitur quod non. Homo enim
+          <lb ed="#V" n="126"/>non dicitur esse causa peccati, nisi quia
+          <lb ed="#V" n="127"/>est causa actionis peccati, nihil enim
+          <lb ed="#V" n="128"/>ad malum intendens operatur, vt dicit
+          <lb ed="#V" n="129"/>Dionysius quarto de diuinis
+          nomini<lb ed="#V" n="130" break="no"/>bus, sed Deus non est actor peccati: igitur nec actionis vel
+          <lb ed="#V" n="131"/>actus peccati.
+        </p>
+        <p xml:id="capsco-b2dxq9-d1e144">
+          <lb ed="#V" n="132"/><milestone ed="#V" unit="p" rend="indent"/> In oppositum arguitur sic. Nam secundum quod dicit
+          <lb ed="#V" n="133"/>Augustinus tertio de Trinitate, voluntas Dei est causa
+          <lb ed="#V" n="134"/>omnium specierum &amp; motionum, sed actus peccati est
+          <lb ed="#V" n="135"/>quidam motus liberi arbitrij: igitur est a Deo.
+        </p>
+        <p xml:id="capsco-b2dxq9-d1e156">
+          <lb ed="#V" n="136"/><milestone ed="#V" unit="p" rend="indent"/> In hac quaestione erunt tres articuli. In primo
+          ponen<lb ed="#V" n="137" break="no"/>tur conclusiones. In secundo obiectiones. In tertio
+          so<lb ed="#V" n="138" break="no"/>lutiones.
+        </p>
+        <div xml:id="capsco-b2dxq9-Dd1e166">
+          <head xml:id="capsco-b2dxq9-Hd1e168">Articulus 1</head>
+          <p xml:id="capsco-b2dxq9-d1e170">
+            <lb ed="#V" n="139"/><milestone ed="#V" unit="p" rend="initial"/> QVantum ad primum articulum sit haec prima
+            conclu<lb ed="#V" n="140" break="no"/>sio. Deus non est causa peccati, vt peccatum est.
+            <lb ed="#V" n="141"/>dlanc probat Sanct. Thomas de malo. quaest. 3. artic. 1.
+            <lb ed="#V" n="142"/>vbi sic ait. Causa peccati est aliquis dupliciter. Vno modo
+            <lb ed="#V" n="143"/>quia ipse peccat: Alio modo quia facit alium peccare,
+            quo<lb ed="#V" n="144" break="no"/>rum neutrum Deo potest conuenire. Quia enim Deus
+            pec<lb ed="#V" n="145" break="no"/>care non possit, manifestum est ex communi ratione peccati
+            <pb ed="#V" n="541"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>&amp; ex propria ratione mortalis peccati, quod dicitur culpa.
+            <lb ed="#V" n="2"/>Peccatum enim communiter dictum secundum quod in rebus
+            <lb ed="#V" n="3"/>naturalibus &amp; artificialibus inuenitur, ex eo prouenit, quod
+            <lb ed="#V" n="4"/>aliquis in agendo non attingit ad finem, propter quem agit,
+            <lb ed="#V" n="5"/>quod contingit ex defectu actiui principij. Sicut si
+            Gram<lb ed="#V" n="6" break="no"/>maticus non recte scribat contingit ex defectu artis, si tamen
+            <lb ed="#V" n="7"/>recte scribere intendat, &amp; quod natura peccet in
+            formatio<lb ed="#V" n="8" break="no"/>ne animalis, sicut contingit in partibus monstruosis,
+            con<lb ed="#V" n="9" break="no"/>tingit ex defectu actiuae virtutis in semine. Peccatum vero
+            <lb ed="#V" n="10"/>secundum quod in moralibus dicitur, &amp; habet rationem
+            cul<lb ed="#V" n="11" break="no"/>pae prouenit ex eo quod voluntas deficit a debito fine per
+            <lb ed="#V" n="12"/>hoc quod in debitum finem tendit. In Deo autem neque
+            <lb ed="#V" n="13"/>actiuum principium potest esse deficiens, eo quod eius
+            po<lb ed="#V" n="14" break="no"/>rentia est infinita, nec eius voluntas potest deficere a
+            debi<lb ed="#V" n="15" break="no"/>to fine, quiaipsa eius voluntas, quae etiam est eius
+            natu<lb ed="#V" n="16" break="no"/>ra, est bonitas summa quae est vltimus finis, &amp; prima
+            re<lb ed="#V" n="17" break="no"/>gula omnium voluntatum, vnde naturaliter eius voluntas
+            <lb ed="#V" n="18"/>inhaeret summo bono, nec potest ab eo deficere, sicut nec
+            <lb ed="#V" n="19"/>alicuius rei appetitus naturalis deficere potest, quin
+            ap<lb ed="#V" n="20" break="no"/>petat suum bonum naturale. Sic igitur Deus causa
+            pecca<lb ed="#V" n="21" break="no"/>ti esse non potest, eo quod ipse peccet. Similiter etiam non
+            <lb ed="#V" n="22"/>potest esse causa peccati eo quod alios peccare faciat.
+            Pec<lb ed="#V" n="23" break="no"/>catum enim prout de ipso nunc loquimur, consistit in
+            auer<lb ed="#V" n="24" break="no"/>sione voluntatis creatae ab vltimo fine. Impossibile est
+            au<lb ed="#V" n="25" break="no"/>tem quod Deus faciat voluntatem alicuius auerti ab
+            vlti<lb ed="#V" n="26" break="no"/>mo fine, cum ipsemet sit vltimus finis. Quod enim
+            commu<lb ed="#V" n="27" break="no"/>niter inuenitur in omnibus agentibus creantis, oportet quod
+            <lb ed="#V" n="28"/>hoc habeant ex intentione primi agentis, quod dat
+            omni<lb ed="#V" n="29" break="no"/>bus suam similitudinem secundum quod capere possunt, prout
+            <lb ed="#V" n="30"/>dicit Dionysius. 9. cap. de diuinis nominibus.
+            Vnumquod<lb ed="#V" n="31" break="no"/>que autem agens creatum inuenitur per suam actionem alia
+            <lb ed="#V" n="32"/>quodammodo ad seipsum trahere assimilando ea sibi, vel
+            <lb ed="#V" n="33"/>per similitudinem formae, sicut cum calidum calefacit, vel
+            <lb ed="#V" n="34"/>conuertendo alia ad finem suum, sicut homo per praeceptum
+            <lb ed="#V" n="35"/>alios mouet ad finem, quem intendit. Est igitur hoc Deo
+            <lb ed="#V" n="36"/>conueniens, quod omnia ad seipsum conuertat, &amp; per
+            conse<lb ed="#V" n="37" break="no"/>quens quod nihil auertat a seipso. Ipse autem est summum
+            <lb ed="#V" n="38"/>bonum, vnde non potest esse causa auersionis voluntatis a
+            <lb ed="#V" n="39"/>summo bono, in quo ratio culpae consistit, prout nunc
+            lo<lb ed="#V" n="40" break="no"/>quimur de culpa. Impossibile est igitur quod Deus sit causa
+            <lb ed="#V" n="41"/>peccati. Haec ille.
+          </p>
+          <p xml:id="capsco-b2dxq9-d1e282">
+            Ex quibus potest argui dupliciter.
+            Pri<lb ed="#V" n="42" break="no"/>mo ad probandum quod Deus non sit causa peccati hoc
+            mo<lb ed="#V" n="43" break="no"/>do quod ipse peccet, arguitur ergo sic. Nullum agens, cuius
+            <lb ed="#V" n="44"/>actiuum principium est indefectibile, &amp; cuius voluntas a
+            <lb ed="#V" n="45"/>debito fine non potest deuiare est peccabile, sed Deus est
+            hu<lb ed="#V" n="46" break="no"/>iusmodi: igitur est omnino impeccabilis.
+          </p>
+          <p xml:id="capsco-b2dxq9-d1e295">
+            Secundo arguitur quod
+            <lb ed="#V" n="47"/>Deus non sit causa peccati hoc modo quod alios faciat peccare
+            <lb ed="#V" n="48"/>vel facere possit, &amp; hoc sic. Ille cui est impossibile aliquid
+            <lb ed="#V" n="49"/>auertere a summo bono, non potest talium inducere ad
+            pecca<lb ed="#V" n="50" break="no"/>tum, sed Deus est huiusmodi: igitur &amp;c. Similia dicit
+            pri<lb ed="#V" n="51" break="no"/>ma secundae. q. 79. artic. 1.
+          </p>
+          <p xml:id="capsco-b2dxq9-d1e308">
+            Secunda conclusio. Actus
+            pecca<lb ed="#V" n="52" break="no"/>ti producitur effectiue a Deo. Hanc probat de malo. q. 3.
+            ar<lb ed="#V" n="53" break="no"/>tic. 2. vbi sic ait. Apud antiquos circa hoc erat duplex
+            opi<lb ed="#V" n="54" break="no"/>nio. Quidam enim dixerunt antiquitus actionem peccati
+            <lb ed="#V" n="55"/>non esse a Deo, attendentes ad ipsam peccati deformitatem,
+            <lb ed="#V" n="56"/>quae a Deo non est. Quidam vero dixerunt actionem
+            pec<lb ed="#V" n="57" break="no"/>cati a Deo esse duplici ratione. Primo quidem ratione
+            com<lb ed="#V" n="58" break="no"/>muni, quia cum ipse Deus sit ens per essentiam suam, quia
+            <lb ed="#V" n="59"/>sua essentia est suum esse, oportet quod omne, quod
+            quoquomo<lb ed="#V" n="60" break="no"/>do est, deriuetur ab ipso, nihil enim aliud est quod sit suum
+            <lb ed="#V" n="61"/>esse, sed omnia dicuntur entia per participationem quandam.
+            <lb ed="#V" n="62"/>Omne autem quod est tale per participationem, deriuatur
+            <lb ed="#V" n="63"/>ab eo quod est per essentiam, sicut omnia ignita deriuantur
+            <lb ed="#V" n="64"/>ab eo quod est per essentiam suam ignis. Manifestum est a
+            <lb ed="#V" n="65"/>tem quod actio peccati est quoddam ens, &amp; in
+            praedicamen<lb ed="#V" n="66" break="no"/>to entis posita, vnde necesse est dicere, quod sit a Deo: secundo
+            <lb ed="#V" n="67"/>idem apparet speciali ratione. Necesse est enim omnes
+            mo<lb ed="#V" n="68" break="no"/>tus causarum secundarum causari a primo mouente, sicut
+            <lb ed="#V" n="69"/>omnes motus inferiorum corporum causantur a motu caeli.
+            <lb ed="#V" n="70"/>Deus autem est primum mouens respectu omnium motuum
+            <lb ed="#V" n="71"/>corporalium &amp; spiritualium, sicut corpus coeleste est
+            prin<lb ed="#V" n="72" break="no"/>cipium omnium motuum inferiorum corporum.
+          </p>
+          <p xml:id="capsco-b2dxq9-d1e357">
+            Vnde cum
+            <lb ed="#V" n="73"/>actus peccati sit quidam motus liberi arbitrij, necesse est
+            di<lb ed="#V" n="74" break="no"/>cere quod actus peccati inquantum est actus sit a Deo. Sed
+            <lb ed="#V" n="75"/>tamen attendendum est quod motio primi mouentis non
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="76"/>recipitur vniformiter in omnibus motibus, sed in
+            vnoquo<lb ed="#V" n="77" break="no"/>que secundum proprium modum eius. Alio enim modo
+            <lb ed="#V" n="78"/>causatur a motu coeli motus corporum inanimatorum, quae
+            <lb ed="#V" n="79"/>non mouent seipsa, &amp; alio modo motus animalium, quae
+            mo<lb ed="#V" n="80" break="no"/>uent seipsa. Rursum quia alio modo consequitur ex
+            motu<lb ed="#V" n="81" break="no"/>coelesti pullulatio plantae in qua virtus generatiua non
+            de<lb ed="#V" n="82" break="no"/>ficit, sed producit perfectum germen. Et alio modo
+            pullu<lb ed="#V" n="83" break="no"/>latio plantae, cuius virtus generatiua &amp; germinatiua est
+            de<lb ed="#V" n="84" break="no"/>bilis, &amp; producit germen inutile. Cum enim aliquid est in
+            <lb ed="#V" n="85"/>debita dispositione ad recipiendum motionem primi
+            mo<lb ed="#V" n="86" break="no"/>uentis, consequitur actio perfecta secundum
+            intentionen<lb ed="#V" n="87" break="no"/>primi mouentis, sed si non sit in debita dispositione &amp;
+            apti<lb ed="#V" n="88" break="no"/>tudine ad recipiendum motionem primi mouentis,
+            sequi<lb ed="#V" n="89" break="no"/>tur actio imperfecta, &amp; tunc id quod est ibi actionis
+            redu<lb ed="#V" n="90" break="no"/>ceretur in primum mouens sicut in causam. Quod autem
+            <lb ed="#V" n="91"/>est ibi de defectu non reducitur in primum mouens sicut in
+            <lb ed="#V" n="92"/>causam, quia talis defectus sequitur in actione ex hoc quod
+            <lb ed="#V" n="93"/>agens secundum deficit ab ordine primi mouentis, vt
+            di<lb ed="#V" n="94" break="no"/>ctum est. Sicut quicquid est de motu in claudicatione,
+            to<lb ed="#V" n="95" break="no"/>tum est a virtute motiua animalis, sed quicquid est ibi do
+            <lb ed="#V" n="96"/>defectu non est a virtute motiua, sed a tibia secundum quod
+            <lb ed="#V" n="97"/>deficit aptitudine mobilitatis a virtute motiua. Sic ergo
+            di<lb ed="#V" n="98" break="no"/>cendum est quod cum Deus sit primum principium
+            motio<lb ed="#V" n="99" break="no"/>nis omnium, quae quidem sic mouentur ab ipso, quod etiam
+            <lb ed="#V" n="100"/>ipsa seipsa mouent, sicut quae habent liberum arbitrium, quae
+            <lb ed="#V" n="101"/>si fuerint in debita dispositione &amp; ordine debito ad
+            reci<lb ed="#V" n="102" break="no"/>piendum motionem qua mouentur a Deo, sequuntur
+            bo<lb ed="#V" n="103" break="no"/>ne actiones, quae totaliter reducuntur in Deum sicut in
+            cau<lb ed="#V" n="104" break="no"/>sam. Si autem deficiant a debito ordine, sequitur actio
+            in<lb ed="#V" n="105" break="no"/>ordinata, quae est actio peccati, &amp; sic id quod est ibi de
+            actio<lb ed="#V" n="106" break="no"/>ne reducitur in Deum sicut in causam. Quod autem est in
+            <lb ed="#V" n="107"/>deordinatione vel deformitate non habet Deum causam,
+            <lb ed="#V" n="108"/>sed solum liberum arbitrium. Et propter hoc dicitur, quod
+            <lb ed="#V" n="109"/>actio peccati est a Deo, sed peccatum non est a Deo. Haec
+            <lb ed="#V" n="110"/>ille. Ex quibus arguitur sic. Omne ens per
+            participatio<lb ed="#V" n="111" break="no"/>nem deriuatur ab ente per essentiam, quod est Deus, sed
+            <lb ed="#V" n="112"/>omnis actio peccati est ens per participationem: igitur &amp;c.
+          </p>
+          <p xml:id="capsco-b2dxq9-d1e448">
+            <lb ed="#V" n="113"/>Secundo sic. Omnis motus est a primo mouente quod est
+            <lb ed="#V" n="114"/>Deus, sed actus vel actio peccati est quidam motus:
+            igi<lb ed="#V" n="115" break="no"/>tur &amp; caetera. Simile ponit prima secundae. quaestio. 79.
+            ar<lb ed="#V" n="116" break="no"/>tic. 2. &amp; 2. sentent. distin. 37. q. 2. artic. 2. Et in hoc primus
+            ar<lb ed="#V" n="117" break="no"/>ticulus terminatur.
+          </p>
+        </div>
+        <div xml:id="capsco-b2dxq9-Dd1e462">
+          <head xml:id="capsco-b2dxq9-Hd1e464">Articulus 2</head>
+          <p xml:id="capsco-b2dxq9-d1e466">
+            <lb ed="#V" n="118"/><milestone ed="#V" unit="p" rend="initial"/> QVantum ad secundum articulum arguitur contra
+            se<lb ed="#V" n="119" break="no"/>cundam conclusionem. Vnde Aureolus arguit
+            pri<lb ed="#V" n="120" break="no"/>mo sic. Si Deus ageret ad actum positiuum
+            volun<lb ed="#V" n="121" break="no"/>tatis substractum deformitati, necessario ageret ad
+            defor<lb ed="#V" n="122" break="no"/>mitatem, cuius oppositum dicunt Sancti. Probatur
+            conse<lb ed="#V" n="123" break="no"/>quentia, quia quando aliqua sic se habent quod vnum est
+            <lb ed="#V" n="124"/>priuatio in alio, &amp; inseparabile ab alio, quodcunque agens
+            <lb ed="#V" n="125"/>agit in vnum, necessario agit in reliquum, sed ita se habet
+            <lb ed="#V" n="126"/>deformitas ad actum: igitur &amp; caetera. Maior patet, quia
+            <lb ed="#V" n="127"/>enim priuatio albedinis &amp; negatio est inseparabiliter
+            anne<lb ed="#V" n="128" break="no"/>xa nigredini, ideo producens nigredinem, necessario
+            pro<lb ed="#V" n="129" break="no"/>ducit non albedinem. Minorem probo. Accipio enim istum
+            <lb ed="#V" n="130"/>actum, qui est odire Deum, ita concomitatur deformitas
+            <lb ed="#V" n="131"/>istum actum quod impossibile est eam separari vel tolli, &amp;
+            <lb ed="#V" n="132"/>hoc est quod dicunt Doctores, quod Deus non potest
+            di<lb ed="#V" n="133" break="no"/>spensare in praeceptis primae tabulae, quia ex se habent
+            an<lb ed="#V" n="134" break="no"/>nexam deformitatem: secundo quia quae sunt mala ex
+            obie<lb ed="#V" n="135" break="no"/>cto non possunt fieri sine deformitate, ratio est, quia sunt de
+            <lb ed="#V" n="136"/>se conuoluta cum malitia.
+          </p>
+          <p xml:id="capsco-b2dxq9-d1e511">
+            Confirmatur hoc per Aristotele
+            <lb ed="#V" n="137"/>3. Ethicorum. Ipse enim ibi quaerit, vtrum habitus insit
+            no<lb ed="#V" n="138" break="no"/>bis voluntarie, &amp; dicit quod sic, quia voluntarie elicimus
+            <lb ed="#V" n="139"/>actus, ex quibus necessario generatur habitus, quia
+            quic<lb ed="#V" n="140" break="no"/>quid est causa causae, est causa necessario causati ab illa
+            cau<lb ed="#V" n="141" break="no"/>sa secunda, sed deformitas in actu sequitur necessario
+            natu<lb ed="#V" n="142" break="no"/>turam actus non minus quam habitus: ergo si Deus causet
+            <lb ed="#V" n="143"/>actum quo ad subtractum, necessario causabit
+            deformita<lb ed="#V" n="144" break="no"/>tem.
+          </p>
+          <p xml:id="capsco-b2dxq9-d1e531">
+            Item agens quantum dat de forma, tantum dat de
+            con<lb ed="#V" n="145" break="no"/>sequentibus ad formam 8. Physic. &amp; si hoc est verum in
+            po<lb ed="#V" n="146" break="no"/>sitiuis magis verum est in priuatiuis. Confirmatur. Quia
+            <lb ed="#V" n="147"/>quando Deus prohibet aliquam deformitatem ne fiat, non
+            <lb ed="#V" n="148"/>tantum prohibet actum quo ad deformitatem, immo quo
+            <lb ed="#V" n="149"/>ad substractum scilicet concupiscere.
+          </p>
+          <p xml:id="capsco-b2dxq9-d1e544">
+            Secundo principaliter arguit
+            <lb ed="#V" n="150"/>sic. Si Deus coagit actui voluntatis, aut hoc est quia sequitur
+            <pb ed="#V" n="542"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>determinationem voluntatis in illo actu, sic quod
+            volun<lb ed="#V" n="2" break="no"/>tas prius natura determinet se ad actum illum, &amp; ex hac
+            <lb ed="#V" n="3"/>Deus coagit voluntati determinatae, aut econtra prius Deus
+            <lb ed="#V" n="4"/>determinat se ad agendum, &amp; voluntas nostra sequitur
+            de<lb ed="#V" n="5" break="no"/>terminationem eius, aut veniunt ad istam actionem ex aequo,
+            <lb ed="#V" n="6"/>sed nullo istorum modorum: igitur &amp; caetera. Maior
+            pa<lb ed="#V" n="7" break="no"/>tet per sufficientem diuisionem, minor probatur,
+            primo<lb ed="#V" n="8" break="no"/>quod non primo modo, quia tunc Deus voluntarie
+            coa<lb ed="#V" n="9" break="no"/>geret ad peccatum. Et etiam habetur propositum, cum in
+            <lb ed="#V" n="10"/>illo determinate non coagit sibi Deus, &amp; sic non est causa
+            <lb ed="#V" n="11"/>omnis actus positiui. Nec potest dari secundus modus,
+            <lb ed="#V" n="12"/>quia tunc voluntas determinaretur a Deo ad peccatum:
+            <lb ed="#V" n="13"/>igitur non ageret a se sed ab alio, &amp; ita voluntas non
+            pec<lb ed="#V" n="14" break="no"/>caret, quia de se non haberet vnde esset causa peccati, quia
+            <lb ed="#V" n="15"/>non libere: determinaretur enim ab extrinseco. Nec
+            eu<lb ed="#V" n="16" break="no"/>possibilis tertius modus. Tum quia iste modus esset
+            casua<lb ed="#V" n="17" break="no"/>lis. Tum quia Deus voluntarie coageret ad peccatum.
+            Ter<lb ed="#V" n="18" break="no"/>tio non minoris potestatis est voluntas respectu actus
+            sui<lb ed="#V" n="19" break="no"/>quam agentia naturalia respectu propriorum actuum, sed
+            <lb ed="#V" n="20"/>agentia naturalia sic eliciunt actus suos per se, quod Deus
+            <lb ed="#V" n="21"/>non cooperatur actiue, nisi per conseruationem: igitur &amp;c.
+            <lb ed="#V" n="22"/>Probatur minor auctoritatibus &amp; ratione, prima
+            auctori<lb ed="#V" n="23" break="no"/>tas est Augustini septimo de ciuitate Dei. cap. 30. sic
+            dicen<lb ed="#V" n="24" break="no"/>tis. Sic Deus administrat omnia, quae creauit, vt ipsa
+            pro<lb ed="#V" n="25" break="no"/>prios exercere &amp; agere motus sinat. Alia est Ecclesiast. 15.
+            <lb ed="#V" n="26"/>Deus ab initio constituit hominem &amp; reliquit eum in
+            ma<lb ed="#V" n="27" break="no"/>nu consilij sui. Alia est etiam Commentatoris 12. Metaph.
+            <lb ed="#V" n="28"/>qui deridet Saracenos eo quod negant res habere proprias
+            <lb ed="#V" n="29"/>operationes. Ratione etiam probatur dicta minor primo,
+            <lb ed="#V" n="30"/>quia non apparet quare Deus non posset communicare
+            crea<lb ed="#V" n="31" break="no"/>turae actionem quae non est creatio, sed extractio
+            perfecti<lb ed="#V" n="32" break="no"/>bilis ad complementum, cum illa non requirat in agente
+            <lb ed="#V" n="33"/>virtutem infinitam: secundo. quia aut in eductione formae
+            <lb ed="#V" n="34"/>de materia si Deus coagit agenti naturali, ambo faciunt
+            <lb ed="#V" n="35"/>idem totaliter, aut Deus vnam partem, &amp; agens naturale
+            <lb ed="#V" n="36"/>aliam, non potest dici primum, quia impossibile est idem
+            <lb ed="#V" n="37"/>simul esse a duabus causis totalibus in eodem genere: nec
+            <lb ed="#V" n="38"/>secundum. Tum quia aliquando forma illa simplex est
+            ca<lb ed="#V" n="39" break="no"/>rens partibus. Tum quia tunc sequitur quod ad partem,
+            <lb ed="#V" n="40"/>quam facit agens naturale, Deus non coagit, quod est
+            pro<lb ed="#V" n="41" break="no"/>positum. Contra eandem arguunt alij primo, quia si
+            eun<lb ed="#V" n="42" break="no"/>dem actum malum facit Deus, quem facit homo: igitur
+            si<lb ed="#V" n="43" break="no"/>cut homo peccat faciendo illum actum, sic Deus peccaret,
+            <lb ed="#V" n="44"/>quod est impossibile. Patet consequentia, quia non propter
+            <lb ed="#V" n="45"/>aliud ille homo peccat, nisi quia facit actum malum.
+            Secun<lb ed="#V" n="46" break="no"/>do. Si Deus faciat actum malum, Deus est actor malorum,
+            <lb ed="#V" n="47"/>cuius oppositum dicit Augustinus in de moribus
+            Manichaeo<lb ed="#V" n="48" break="no"/>rum, &amp; in multis alijs locis. Patet consequentia, quia non
+            <lb ed="#V" n="49"/>est aliud esse actorem mali quam facere actum malum.
+            Ter<lb ed="#V" n="50" break="no"/>tio, Quia tunc Deo actore fieret homo deterior contra
+            <lb ed="#V" n="51"/>eundem Augustinum 83. q. q. 3. Probatur consequentia,
+            <lb ed="#V" n="52"/>quia qui causat actum quo fit homo deterior, eo actore fit
+            <lb ed="#V" n="53"/>ille homo deterior. Si autem conclusio sit vera, Deus
+            cau<lb ed="#V" n="54" break="no"/>sat actum quo homo est deterior: igitur &amp; caeter. Quarto.
+            <lb ed="#V" n="55"/>Deus est vltor mali actus: igitur eius non est actor,
+            antece<lb ed="#V" n="56" break="no"/>dens certum est per fidem. Probatur consequentia
+            aucto<lb ed="#V" n="57" break="no"/>ritate Fulgentij dicentis quod Deus, cuius rei est vltor eius
+            <lb ed="#V" n="58"/>non est actor.
+          </p>
+          <p xml:id="capsco-b2dxq9-d1e680">
+            Item Augustinus in libro qui dicitur consutatio
+            <lb ed="#V" n="59"/>catholica quorundam sibi false impositorum dicit, quod
+            <lb ed="#V" n="60"/>ab actore naturae prorsus alienum est quicquid in
+            vnoquo<lb ed="#V" n="61" break="no"/>que damnandum est. Quinto. Si Deus est causa partialis
+            <lb ed="#V" n="62"/>actus mali posset esse causa totalis eiusdem, ita quod solus
+            <lb ed="#V" n="63"/>ipse causaret actum illum. Consequens est falsum, quia
+            <lb ed="#V" n="64"/>tunc posset causare actum odiendi Deum, &amp; mandatum,
+            <lb ed="#V" n="65"/>ac per hoc mentiri, consequens est falsum. Probatur
+            con<lb ed="#V" n="66" break="no"/>sequentia, quia quemcunque actum potest Deus
+            produce<lb ed="#V" n="67" break="no"/>re concurrente causa secunda, potest absque illa, alias non
+            <lb ed="#V" n="68"/>sibijpsi sufficeret ad omnem effectum suum causandum,
+            <lb ed="#V" n="69"/>sed ad aliquem causandum indigeret adiutorio creaturae.
+            <lb ed="#V" n="70"/>Hoc autem est falsum dicente Beato Augustino de libero
+            <lb ed="#V" n="71"/>arbitrio capitulo secundo, quod nullus de Deo optime
+            aesti<lb ed="#V" n="72" break="no"/>mat, qui non eum credit nulla adiutum esse natura in
+            cau<lb ed="#V" n="73" break="no"/>sando, quasi qui non sibi sufficeret. Sexto. Si Deus facit
+            <lb ed="#V" n="74"/>istum actum malum, quem etiam facit iste homo, Deus vult
+            <lb ed="#V" n="75"/>istum actum esse: igitur vult istum hominem facere istum
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="76"/>actum malum. Et vltra: igitur iste hoc faciendo istum actum
+            <lb ed="#V" n="77"/>malum facit illud, quod Deus vult eum facere, &amp; per
+            con<lb ed="#V" n="78" break="no"/>sequens non peccat, &amp; sic sequitur quod quemcunque actum
+            <lb ed="#V" n="79"/>homo faciat nunquam peccat. Nam sic potest de quolibet
+            <lb ed="#V" n="80"/>argui. Arguit ad idem Durandus primo. Sumatur( inquit)
+            <lb ed="#V" n="81"/>aliqua singularis actio puta hoc adulterium, quae secundum
+            <lb ed="#V" n="82"/>se separari non potest a deformitate culpae, impossibile
+            es<lb ed="#V" n="83" break="no"/>quod Deus sit immediata causa talis actionis, quia
+            necessa<lb ed="#V" n="84" break="no"/>rio esset causa deformitatis, ita quod sibi attribueretur
+            de<lb ed="#V" n="85" break="no"/>fectus sicut &amp; actus, quod patet. Ad defectum enim
+            culpa<lb ed="#V" n="86" break="no"/>bilem tria concurrunt, scilicet quod defectus culpabilis non
+            <lb ed="#V" n="87"/>causatur nisi ab agente, quia culpa est malum quod
+            faci<lb ed="#V" n="88" break="no"/>mus, defectus vero non culpabiles aliunde causari possunt,
+            <lb ed="#V" n="89"/>scilicet ex indispositione materiae, sicut tibia claudi non
+            po<lb ed="#V" n="90" break="no"/>test recte incedere, licet non sit defectus ex parte virtutis
+            <lb ed="#V" n="91"/>gressiuae, sed ex indispositione materiae: secundo ad hoc
+            <lb ed="#V" n="92"/>quod defectus sit culpabilis, oportet quod sit in potestate
+            <lb ed="#V" n="93"/>agentis, quia quae non sunt in potestate nostra, non sunt
+            <lb ed="#V" n="94"/>nobis culpabilia: tertio requiritur quod defectus non sit
+            <lb ed="#V" n="95"/>ignoratus ignorantia quae excuset. Ex quibus arguitur sic.
+            <lb ed="#V" n="96"/>Omnis defectus culpabilis imputatur agenti producenti
+            <lb ed="#V" n="97"/>&amp; habenti dominium super actum, &amp; non ignoranti
+            defe<lb ed="#V" n="98" break="no"/>ctum. Si ergo Deus immediate causet actum huius
+            adul<lb ed="#V" n="99" break="no"/>terij, cum non agat ex necessitate naturae, sed libere, habens
+            <lb ed="#V" n="100"/>plenum dominium actus, nec ignoret defectum adiunctum,
+            <lb ed="#V" n="101"/>non video, quin sibi debeat ad culpam imputari sicut &amp;
+            <lb ed="#V" n="102"/>homini, vel magis quam homini, cuius ignorantia potest
+            <lb ed="#V" n="103"/>eum quandoque totaliter excusare, vel culpam alleuiare.
+          </p>
+          <p xml:id="capsco-b2dxq9-d1e782">
+            <lb ed="#V" n="104"/>Confirmatur. Quia quando duo sunt coniuncta
+            insepara<lb ed="#V" n="105" break="no"/>biliter, quicunque sciens vtrunque eligit vnum, eligit &amp;
+            al<lb ed="#V" n="106" break="no"/>terum, quia &amp; si illud non eligeret absolute quia malum, ex
+            <lb ed="#V" n="107"/>quo tamen coniunctum est ei, quod vult, nec separari
+            po<lb ed="#V" n="108" break="no"/>test ab eo, necesse est quod vtrunque velit, sicut patet in
+            vo<lb ed="#V" n="109" break="no"/>luntarijs mixtis, vt cum aliquis proincit merces in mari vt
+            <lb ed="#V" n="110"/>saluetur, quas tamen secundum se non vellet prosicere.
+            Cum<lb ed="#V" n="111" break="no"/>igitur Deus non ignoret defectum coniunctum actui, si vult
+            <lb ed="#V" n="112"/>vnum, vult &amp; alterum. Non operatur autem nisi sciens &amp;
+            <lb ed="#V" n="113"/>volens: igitur &amp; caetera.
+          </p>
+          <p xml:id="capsco-b2dxq9-d1e806">
+            Secundo arguit, quia defectui non
+            <lb ed="#V" n="114"/>assignatur causa nisi ratione actus. Vbi ergo actus &amp;
+            defe<lb ed="#V" n="115" break="no"/>ctus sunt inseparabiles, quicquid est causa actus, est causa
+            <lb ed="#V" n="116"/>defectus, sed in actione peccati, puta in verbo
+            blasphemi<lb ed="#V" n="117" break="no"/>actus &amp; defectus sunt inseparabiles: ergo cum Deus non
+            <lb ed="#V" n="118"/>sit causa defectus, alioquin Deo imputaretur peccatum,
+            <lb ed="#V" n="119"/>videtur quod non sit causa actus. Et in hoc secundus
+            arti<lb ed="#V" n="120" break="no"/>culus terminatur.
+          </p>
+        </div>
+        <div xml:id="capsco-b2dxq9-Dd1e825">
+          <head xml:id="capsco-b2dxq9-Hd1e827">Articulus 3</head>
+          <p xml:id="capsco-b2dxq9-d1e829">
+            <lb ed="#V" n="121"/><milestone ed="#V" unit="p" rend="initial"/> QVantum ad tertium articulum respondendum est
+            <lb ed="#V" n="122"/>obiectionibus praelibatis. Et ideo ad primum, quod
+            <lb ed="#V" n="123"/>est Aureoli respondet Gregorius de Arimino, quod
+            <lb ed="#V" n="124"/>si per deformitatem intelligatur aliqua entitas,
+            quaecun<lb ed="#V" n="125" break="no"/>que &amp; vbicunque sit illa, Deus coagit illam, nec oppositum
+            <lb ed="#V" n="126"/>scio dici a Sanctis, nec arguens ostendit. Sed Doctores
+            ali<lb ed="#V" n="127" break="no"/>qui moderni vtique dicunt, quod licet actus deformis sit
+            <lb ed="#V" n="128"/>a Deo, deformitas tamen ipsa non est a Deo. Quod dictum
+            <lb ed="#V" n="129"/>potest habere bonum intellectum, non quidem
+            concipien<lb ed="#V" n="130" break="no"/>do quod deformitas sit aliqua entitas ab actu distincta, quae
+            <lb ed="#V" n="131"/>non causetur a Deo. Nam non est deformis, nisi
+            inquan<lb ed="#V" n="132" break="no"/>tum contra rectam rationem fit, inquantum autem fit
+            con<lb ed="#V" n="133" break="no"/>tra rectam rationem fit ab homine, non autem a Deo, qui
+            <lb ed="#V" n="134"/>nihil agit contra illud quod ab eo agendum esse recta ratio
+            <lb ed="#V" n="135"/>dictat. Et huic concordat, quod alij recte intelligentes
+            si<lb ed="#V" n="136" break="no"/>gnificare intendunt, cum aiunt, quod Deus est causa actus
+            <lb ed="#V" n="137"/>mali, sed non vt malus est, quoniam scilicet ille nonest a Deo,
+            <lb ed="#V" n="138"/>vt est malus, nec etiam vt est a Deo est malus. Haec ille.
+          </p>
+          <p xml:id="capsco-b2dxq9-d1e872">
+            <lb ed="#V" n="139"/>Sed apparet mihi quod ipse non vadit ad mentem
+            arguen<lb ed="#V" n="140" break="no"/>tis. Non enim arguens sicut nec alij Doctores intendunt
+            <lb ed="#V" n="141"/>quod deformi tas sit proprie entitas positiua, sed pura
+            ne<lb ed="#V" n="142" break="no"/>gatio, vel priuatio ordinis &amp; rectitudinis in actu libere
+            eli<lb ed="#V" n="143" break="no"/>cito, vel imperato a voluntate. Et hanc priuationem
+            om<lb ed="#V" n="144" break="no"/>nes Doctores concorditer negant esse a Deo, sed a
+            volun<lb ed="#V" n="145" break="no"/>tate creata, ideo aliter dicendum est negando primam
+            con<lb ed="#V" n="146" break="no"/>sequentiam ibidem factam. Et ad primam probationem
+            <lb ed="#V" n="147"/>ibidem factam negatur maior, si generaliter intelligatur.
+            <lb ed="#V" n="148"/>Vbi considerandum est, quod aliqua priuatio vel
+            con<lb ed="#V" n="149" break="no"/>ditio potest consequi aliquem actum dupliciter. Primo
+            <lb ed="#V" n="150"/>modo ex ipsa essentia &amp; natura actus in se, &amp; absolute
+            <pb ed="#V" n="543"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>considerata, sicut hunc actum qui est fornicari ex natura sua
+            <lb ed="#V" n="2"/>sequitur &amp; concomitatur priuatio integritatis &amp;
+            experien<lb ed="#V" n="3" break="no"/>tia voluptatis venereae. Alio modo potest aliquem actum
+            <lb ed="#V" n="4"/>consequi vel concomitari aliqua priuatio non ex propria
+            <lb ed="#V" n="5"/>natura &amp; essentia actus in se considerata, scilicet prout
+            aspi<lb ed="#V" n="6" break="no"/>cit obiectum, a quo speciem trahit in esse naturae, sed
+            con<lb ed="#V" n="7" break="no"/>comitatur actum prout a tali agente egreditur, sicut actum
+            <lb ed="#V" n="8"/>illum qui est fornicari concomitatur priuatio ordinis &amp;
+            re<lb ed="#V" n="9" break="no"/>ctitudinis prout fit a tali agente, quod agendo talem actum
+            <lb ed="#V" n="10"/>discrepat a sua regula &amp; lege, &amp; non prout actus ille
+            consi<lb ed="#V" n="11" break="no"/>deratur in esse naturae, sed in esse moris. Tunc dicitur, quod
+            <lb ed="#V" n="12"/>quicquid producit aliquem actum producit vel causat
+            om<lb ed="#V" n="13" break="no"/>nem priuationem vel proprietatem consequentem actum
+            <lb ed="#V" n="14"/>primo modo, sed non oportet quod sit causa priuationis
+            <lb ed="#V" n="15"/>consequentis actum secundo modo. Illo modo autem
+            de<lb ed="#V" n="16" break="no"/>formitas consequitur actum peccati, &amp; non primo modo.
+            <lb ed="#V" n="17"/>Et ideo Deus potest causare quicquid absolutum &amp;
+            positi<lb ed="#V" n="18" break="no"/>uum est in actu peccati non causando deformitatem
+            con<lb ed="#V" n="19" break="no"/>sequentem actum. Et haec solutio habetur ex dictis Sancti Thomae
+            <lb ed="#V" n="20"/>de malo. quaest. 3. artic. 2. in solutione secundi, quod est tale.
+            <lb ed="#V" n="21"/>Quicquid est causa alicuius, est causa eius, quod ei
+            conue<lb ed="#V" n="22" break="no"/>nit secundum rationem suae speciei, sicut si aliquod est
+            cau<lb ed="#V" n="23" break="no"/>sa Sortis sequitur quod sit causa hominis, sed quidam actus
+            <lb ed="#V" n="24"/>sunt qui ex sua specie habent quod sint peccata: si ergo actio
+            <lb ed="#V" n="25"/>peccati sit a Deo, sequitur quod peccatum sit a Deo. Ecce
+            <lb ed="#V" n="26"/>argumentum. Sequitur responsio. Dicendum (inquit) quod
+            <lb ed="#V" n="27"/>deformitas peccati non consequitur speciem actus
+            secun<lb ed="#V" n="28" break="no"/>dum quod est in genere naturae, sed consequitur speciem
+            <lb ed="#V" n="29"/>actus secundum quod est moralis, prout causatur ex libero
+            <lb ed="#V" n="30"/>arbitrio. Haec ille.
+          </p>
+          <p xml:id="capsco-b2dxq9-d1e970">
+            Ex quibus patet quod maior argumenti
+            <lb ed="#V" n="31"/>est falsa, &amp; quod sua probatio non valet, quia non est
+            simi<lb ed="#V" n="32" break="no"/>le quod adducitur pro simili, quia priuatio albedinis
+            conse<lb ed="#V" n="33" break="no"/>quitur nigredinem ex natura sua sine relatione ad aliquod
+            <lb ed="#V" n="34"/>agens. Non sic autem deformitas consequitur actum.
+            Di<lb ed="#V" n="35" break="no"/>citur secundo quod similiter minor argumenti falsa est. Et
+            <lb ed="#V" n="36"/>ad primam probationem eius dicitur, quod iste actus, qui
+            <lb ed="#V" n="37"/>est odium Dei separabilis est a deformitate. Quod patet
+            <lb ed="#V" n="38"/>quia si essentia absoluta illius actus a solo Deo fieret, vel
+            se<lb ed="#V" n="39" break="no"/>pararetur ab omni subiecto, vel poneretur in lapide, quod
+            <lb ed="#V" n="40"/>vtique per Dei potentiam posset fieri, talis actus non esset
+            <lb ed="#V" n="41"/>actualiter deformis, quia talis actus tunc a nullo agente
+            <lb ed="#V" n="42"/>male fieret, nec contra rectam rationem. Non est autem
+            <lb ed="#V" n="43"/>deformis nisi dum fit male. Illud autem quod dicitur de
+            <lb ed="#V" n="44"/>dispensatione praeceptorum non est ad propositum, quia
+            <lb ed="#V" n="45"/>solum concludit, quod tales actus non possunt bene fieri
+            <lb ed="#V" n="46"/>a creatura, quod conceditur, possunt tamen bene fieri &amp;
+            <lb ed="#V" n="47"/>iustissime fiunt a Deo quandocunque fiunt.
+          </p>
+          <p xml:id="capsco-b2dxq9-d1e1009">
+            Ad secundam
+            <lb ed="#V" n="48"/>probationem minoris dicitur, quod nullus actus est malus
+            <lb ed="#V" n="49"/>ex obiecto, nisi quia procedit a libero arbitrio discrepante
+            <lb ed="#V" n="50"/>a sua regula, vt dictum est. Et inquantum procedit a
+            tali<lb ed="#V" n="51" break="no"/>agente, cui conuenit tendere per suum actum in tale
+            obie<lb ed="#V" n="52" break="no"/>ctum. Bene autem stat, quod obiectum, quod disconuenit
+            <lb ed="#V" n="53"/>libero arbitrio creaturae, conueniat libero arbitrio Dei. Item
+            <lb ed="#V" n="54"/>bene stat, quod actus tendens in aliquod obiectum sit
+            effe<lb ed="#V" n="55" break="no"/>ctiue ab aliquo, quod per illum actum non tendit in aliquod
+            <lb ed="#V" n="56"/>obiectum, Deus enim causat actum, quo asinus videt, nec
+            <lb ed="#V" n="57"/>tamen Deus illo actu videt.
+          </p>
+          <p xml:id="capsco-b2dxq9-d1e1034">
+            Ad confirmationem dicitur,
+            <lb ed="#V" n="58"/>quod minor est falsa, quia deformitas non consequitur
+            na<lb ed="#V" n="59" break="no"/>turam actus in se, sed actum cum relatione ad proximum
+            <lb ed="#V" n="60"/>agens non substans propriae regulae. Ad aliud dicitur, quod
+            <lb ed="#V" n="61"/>agens quantum dat de forma tantum dat de
+            consequenti<lb ed="#V" n="62" break="no"/>bus ad formam secundum naturam formae absolute
+            consi<lb ed="#V" n="63" break="no"/>deratam, non autem oportet quod det omnia
+            consequen<lb ed="#V" n="64" break="no"/>tia ad formam de per accidens. Ad aliam confirmationem
+            <lb ed="#V" n="65"/>dicitur, quod Deus non solum prohibet deformitatem,
+            im<lb ed="#V" n="66" break="no"/>mo illud ex quo sequitur deformitas naturali
+            consequen<lb ed="#V" n="67" break="no"/>tia. Modo ad actum non sequitur deformitas naturali
+            con<lb ed="#V" n="68" break="no"/>sequentia, hoc est quantum ad absolutum ipsius actus, sed
+            <lb ed="#V" n="69"/>vt dictum est, prout fiunt a libero arbitrio, cui praefixa est
+            <lb ed="#V" n="70"/>lex &amp; regula ad oppositum talis actus, vel ad oppositum
+            <lb ed="#V" n="71"/>alicuius conditionis actus. Omnes istae solutiones
+            sundan<lb ed="#V" n="72" break="no"/>tur in dictis Sancti Thomae de malo. quaestione secunda
+            ar<lb ed="#V" n="73" break="no"/>ticulo quarto vbi sic dicit. Quidam dixerunt omnes actus
+            <lb ed="#V" n="74"/>esse indifferentes de se. Hoc autem alij negauerunt
+            dicen<lb ed="#V" n="75" break="no"/>tes quosdam actus esse per se bonos, &amp; quosdam per se
+            ma<cb ed="#V" n="b"/><lb ed="#V" n="76" break="no"/>los. Ad huius autem veritatis inuestigationem
+            conside<lb ed="#V" n="77" break="no"/>randum est, quod bonum importat quandam perfectionem, d
+            <lb ed="#V" n="78"/>cuius perfectionis priuatio malum est, vt vtamur large
+            no<lb ed="#V" n="79" break="no"/>mine perfectionis secundum quod in se compraehendit
+            con<lb ed="#V" n="80" break="no"/>uenientem mensuram, &amp; formam, &amp; ordinem.
+          </p>
+          <p xml:id="capsco-b2dxq9-d1e1088">
+            Vnde Au¬ie
+            <lb ed="#V" n="81"/>gustinus in libro de natura boni constituit rationem boni
+            <lb ed="#V" n="82"/>in modo, specie, &amp; ordine, &amp; in horum priuatione
+            ratio<lb ed="#V" n="83" break="no"/>nem mali. Manifestum est autem, quod non est eadem
+            per<lb ed="#V" n="84" break="no"/>fectio omnium, sed diuersa diuersorum, siue accipiatur
+            di<lb ed="#V" n="85" break="no"/>uersitas, quae est inter diuersas species, vt inter equum &amp;
+            <lb ed="#V" n="86"/>bouem, quorum est diuersa perfectio, siue inter genus &amp;
+            <lb ed="#V" n="87"/>speciem, vt inter animal &amp; hominem, aliquid enim
+            perti<lb ed="#V" n="88" break="no"/>net ad perfectionem hominis, quod non pertinet ad
+            per<lb ed="#V" n="89" break="no"/>fectionem animalis. Vnde aliter oportet accipere bonum
+            <lb ed="#V" n="90"/>animalis &amp; bonum hominis, &amp; aliter bonum equi &amp;
+            bo<lb ed="#V" n="91" break="no"/>uis, &amp; idem dicendum est de malo. Manifestum est enim
+            <lb ed="#V" n="92"/>quod non habere manus in homine est malum, non autem
+            <lb ed="#V" n="93"/>in equo, &amp; boue, aut etiam in animali, inquantum est
+            ani<lb ed="#V" n="94" break="no"/>mal. Et similiter dicendum est in actibus de bono &amp;
+            ma<lb ed="#V" n="95" break="no"/>lo. Nam alia est consideratio boni &amp; mali in actu
+            secun<lb ed="#V" n="96" break="no"/>dum quod est actus, &amp; in diuersis specialibus actibus. Nam
+            <lb ed="#V" n="97"/>si consideremus actum inquantum est actus, bonitas eius
+            <lb ed="#V" n="98"/>est vt sit quaedam emanatio secundum virtutem agentis,
+            <lb ed="#V" n="99"/>&amp; ideo secundum diuersitatem agentium diuersimode
+            ac<lb ed="#V" n="100" break="no"/>cipiuntur bonum &amp; malum in actibus. In rebus enim
+            na<lb ed="#V" n="101" break="no"/>turalibus actus bonus est qui est secundum conuenientiam
+            <lb ed="#V" n="102"/>naturae agentis, malus autem qui non conuenit naturae
+            a<lb ed="#V" n="103" break="no"/>gentis, &amp; sic contingit de vno &amp; eodem actu diuersimode
+            <lb ed="#V" n="104"/>iudicari secundum comparationem ad diuersa agentia, nam
+            <lb ed="#V" n="105"/>hoc quod est moueri sursum si comparetur ad ignem est
+            <lb ed="#V" n="106"/>bonus actus, quia est ei naturalis.
+          </p>
+          <p xml:id="capsco-b2dxq9-d1e1147">
+            Si autem comparetur ad
+            <lb ed="#V" n="107"/>terram, malus est actus, quia est contra naturam eius. Si
+            <lb ed="#V" n="108"/>vero comparetur ad corpus mobile in communi, non
+            ha<lb ed="#V" n="109" break="no"/>bet rationem boni nec mali, loquimur autem nunc de
+            acti<lb ed="#V" n="110" break="no"/>bus hominis. Vnde bonum &amp; malum in actibus secundum
+            <lb ed="#V" n="111"/>quod loquimur nunc est accipiendum secundum id quod
+            <lb ed="#V" n="112"/>est proprium hominis inquantum est homo. Hoc autem
+            <lb ed="#V" n="113"/>est ratio, vnde bonum &amp; malum in actibus humanis
+            consi<lb ed="#V" n="114" break="no"/>deratur secundum quod actus concordat vel discordat
+            ra<lb ed="#V" n="115" break="no"/>tioni informatae lege diuina, vel naturaliter, vel per
+            doctri<lb ed="#V" n="116" break="no"/>nam, vel per infusionem. Vnde &amp; Dionysce dicit 4. capit. de
+            <lb ed="#V" n="117"/>diuinis nominibus, quod animae malum est praeter
+            ratio<lb ed="#V" n="118" break="no"/>nem esse corpori praeter naturam. Si igitur sic esse
+            secun<lb ed="#V" n="119" break="no"/>dum rationem, vel praeter rationem pertinet ad speciem
+            <lb ed="#V" n="120"/>actus humani, oportet dicere quod aliqui actus
+            humani<lb ed="#V" n="121" break="no"/>sint secundum se boni, &amp; aliqui secundum se mali. Dicimus
+            <lb ed="#V" n="122"/>enim per se conuenire alicui non solum, quod conuenit
+            ei<lb ed="#V" n="123" break="no"/>ratione sui generis, sed etiam quod conuenit ei ratione suae
+            <lb ed="#V" n="124"/>speciei, sicut rationale &amp; irrationale per se conuenit
+            ani<lb ed="#V" n="125" break="no"/>malibus ratione suarum specierum, licet non ratione
+            hu<lb ed="#V" n="126" break="no"/>iusmodi generis, quod est animal. Non enim animal
+            inquan<lb ed="#V" n="127" break="no"/>tum animal est rationale neque irrationale. Si vero esse
+            prae<lb ed="#V" n="128" break="no"/>ter rationem, vel secundum rationem non pertinet ad
+            spe<lb ed="#V" n="129" break="no"/>ciem actus humani, sequitur quod actus humani per se, nec
+            <lb ed="#V" n="130"/>boni nec mali sunt, sed indifferentes, sicut homines per se
+            <lb ed="#V" n="131"/>nec albi, nec nigri sunt. Hoc est ergo ex quo veritas
+            con<lb ed="#V" n="132" break="no"/>clusionis dependet. Ad cuius euidentiam considerandum
+            <lb ed="#V" n="133"/>est, quod cum actus accipiat speciem ab obiecto, secundum
+            <lb ed="#V" n="134"/>aliquam rationem obiecti specificabitur actus comparatus
+            <lb ed="#V" n="135"/>ad vnum principium actiuum, secundum quam rationem
+            <lb ed="#V" n="136"/>non specificabitur comparatus ad aliud, cognoscere enim
+            <lb ed="#V" n="137"/>colorem &amp; cognoscere sonum sunt diuersi actus secundum
+            <lb ed="#V" n="138"/>species, si ad sensum referantur, quia haec secundum se
+            sen<lb ed="#V" n="139" break="no"/>sibilia sunt, non autem si referantur ad intellectum, quia
+            <lb ed="#V" n="140"/>ab intellectu compraehenduntur sub vna ratione
+            commu<lb ed="#V" n="141" break="no"/>ni obiecti, scilicet entis, aut veri. Et similiter sentire album
+            <lb ed="#V" n="142"/>&amp; nigrum differunt specie, si referantur ad visum, non
+            au<lb ed="#V" n="143" break="no"/>tem si referantur ad gustum.
+          </p>
+          <p xml:id="capsco-b2dxq9-d1e1230">
+            Ex quo potest accipi, quod
+            <lb ed="#V" n="144"/>actus cuiuslibet potentiae specificatur secundum id quod
+            <lb ed="#V" n="145"/>per se pertinet ad potentiam illam, non autem secundum
+            <lb ed="#V" n="146"/>id quod pertinet ad eam solum per accidens. Si ergo
+            obie<lb ed="#V" n="147" break="no"/>cta humanorum actuum considerentur, quae habeant
+            dif<lb ed="#V" n="148" break="no"/>ferentias secundum aliquid per se ad rationem pertinens
+            <lb ed="#V" n="149"/>erunt actus specie differentes secundum quod sunt actus
+            <lb ed="#V" n="150"/>rationis, licet non sint specie differentes secundum quod
+            <pb ed="#V" n="544"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>sunt actus alterius potentiae, sicut cognoscere mulierem
+            <lb ed="#V" n="2"/>suam, &amp; cognoscere mulierem non suam sunt actus
+            haben<lb ed="#V" n="3" break="no"/>tes obiecta differentia secundum aliquid ad rationem
+            per<lb ed="#V" n="4" break="no"/>tinens, nam suum &amp; non suum determinantur secundum
+            <lb ed="#V" n="5"/>regulam rationis, quae tamen differentiae per accidens se
+            <lb ed="#V" n="6"/>habent si comparentur ad vim generatiuam, vel etiam ad
+            <lb ed="#V" n="7"/>vim concupiscibilem, &amp; ideo cognoscere suam &amp;
+            cogno<lb ed="#V" n="8" break="no"/>scere non suam specie differunt secundum quod sunt actus
+            <lb ed="#V" n="9"/>rationis, non autem secundum quod sunt actus
+            generati<lb ed="#V" n="10" break="no"/>uae, aut concupiscibilis. In tantum autem sunt actus
+            huma<lb ed="#V" n="11" break="no"/>ni inquantum sunt actus rationis. Sic ergo patet quod
+            dif<lb ed="#V" n="12" break="no"/>ferunt specie inquantum sunt actus humani. Patet ergo
+            <lb ed="#V" n="13"/>quod actus humani ex specie sua habent, quod sint
+            boni<lb ed="#V" n="14" break="no"/>vel mali, &amp; ideo simpliciter aliquos actus humanos esse
+            se<lb ed="#V" n="15" break="no"/>tundum se bonos vel malos, &amp; non omnes esse
+            indifferen<lb ed="#V" n="16" break="no"/>tes, nisi forte secundum quod considerantur in suo
+            gene<lb ed="#V" n="17" break="no"/>re tantum. Sicut enim dicitur, quod animal inquantum
+            <lb ed="#V" n="18"/>est animal neque est rationale, neque irrationale, ita
+            po<lb ed="#V" n="19" break="no"/>test dici quod actus humanus inquantum est actus non dum
+            <lb ed="#V" n="20"/>habet rationem boni vel mali moralis, nisi aliud addatur
+            <lb ed="#V" n="21"/>ad speciem contrahens, licet etiam ex hoc ipso quod est actus
+            <lb ed="#V" n="22"/>humanus, &amp; vlterius ex hoc quod est actus, &amp; vlterius ex
+            <lb ed="#V" n="23"/>hoc quod est ens habeat aliquam rationem boni, sed non
+            <lb ed="#V" n="24"/>huius boni moralis, quod est secundum rationem esse, de
+            <lb ed="#V" n="25"/>quo nunc agimus. Haec ille.
+          </p>
+          <p xml:id="capsco-b2dxq9-d1e1306">
+            Ex quibus infertur. Primo
+            <lb ed="#V" n="26"/>quod de vno &amp; eodem actu contingit diuersimode
+            iudica<lb ed="#V" n="27" break="no"/>re secundum comparationem ad diuersa agentia: secundo
+            <lb ed="#V" n="28"/>quod idem actus est malus comparatus ad liberum
+            arbi<lb ed="#V" n="29" break="no"/>trium, qui est bonus comparatus ad vim generatiuam:
+            ter<lb ed="#V" n="30" break="no"/>tio quod nullus actus habet rationem culpae, aut mali
+            mo<lb ed="#V" n="31" break="no"/>raliter nisi secundum quod procedit a ratione vel libero
+            ar<lb ed="#V" n="32" break="no"/>bitrio subducente se a lege diuina: quarto quod nullus actus
+            <lb ed="#V" n="33"/>proprie dicitur humanus, nisi ille qui sequitur
+            deliberatio<lb ed="#V" n="34" break="no"/>nem rationis: quinto quod nullus actus habet rationem
+            <lb ed="#V" n="35"/>mali moralis in se &amp; absolute consideratus, sed solum
+            per<lb ed="#V" n="36" break="no"/>relationem ad actiuum principium, &amp; multa alia superius
+            <lb ed="#V" n="37"/>dicta sequuntur ex praedictis.
+          </p>
+          <p xml:id="capsco-b2dxq9-d1e1335">
+            Ad secundum principale
+            di<lb ed="#V" n="38" break="no"/>cit Gregorius de Arimino, quod secundum modum loquendi
+            <lb ed="#V" n="39"/>arguentis dicendum est, quod Deus sequitur
+            determina<lb ed="#V" n="40" break="no"/>tionem voluntatis non quod determinatio voluntatis sit
+            <lb ed="#V" n="41"/>aliqua entitas distincta a voluntate &amp; actu eius, quae primo
+            <lb ed="#V" n="42"/>fiat a voluntate, sicut argumentum videtur imaginari, nec
+            <lb ed="#V" n="43"/>etiam intelligendo quod prius natura voluntas agat actum
+            <lb ed="#V" n="44"/>illum quam Deus, proprie loquendo de priori natura,
+            quo<lb ed="#V" n="45" break="no"/>niam tunc sequitur quod posset illum actum agere Deo non
+            <lb ed="#V" n="46"/>coagente, sicut patet ex diffinitione prioris secundum
+            na<lb ed="#V" n="47" break="no"/>turam. Sed ad hunc sensum dico Deum sequi
+            determina<lb ed="#V" n="48" break="no"/>tionem voluntatis creatae, quoniam ideo Deus agit illum
+            <lb ed="#V" n="49"/>actum, quia eum voluntas agit, &amp; non ideo quia Deus agit
+            <lb ed="#V" n="50"/>illum voluntas agit illum. Et ideo magis proprie dicitur
+            <lb ed="#V" n="51"/>Deus coagere voluntati in causando talem actum, quam
+            vo<lb ed="#V" n="52" break="no"/>luntas dicatur coagere Deo. Et cum arguitur contra hoc,
+            <lb ed="#V" n="53"/>quia tunc Deus voluntarie coageret ad peccatum. Si
+            pec<lb ed="#V" n="54" break="no"/>catum accipiatur proprie, neganda est consequentia, quia
+            <lb ed="#V" n="55"/>actus ille non sic est peccatum. Si autem improprie pro actu
+            <lb ed="#V" n="56"/>malo, consequens concedendum est. Quod vero vltra
+            ad<lb ed="#V" n="57" break="no"/>ditur iam exclusum est. Haec ille.
+          </p>
+          <p xml:id="capsco-b2dxq9-d1e1382">
+            Sed apparet mihi quod
+            <lb ed="#V" n="58"/>aliter potest melius dici, scilicet quod quantum ad omne
+            <lb ed="#V" n="59"/>positiuum, quod est in actu voluntatis, actio voluntatis
+            crea<lb ed="#V" n="60" break="no"/>te est posterior actione Dei in producendo quodlibet tale,
+            <lb ed="#V" n="61"/>quia nulla creatura agit nisi mota a Deo. Et ad huius
+            im<lb ed="#V" n="62" break="no"/>probationem dicitur quod consequentia ibidem facta non
+            <lb ed="#V" n="63"/>valet, quia motio Dei non determinat voluntatem creatam
+            <lb ed="#V" n="64"/>ad aliquid quod sit secundum se malum, sed ad illud, quod
+            <lb ed="#V" n="65"/>est secundum se bonum ex natura sua, licet sit malum quo
+            <lb ed="#V" n="66"/>ad deformitatem quam habet relatum ad causam secundam.
+          </p>
+          <p xml:id="capsco-b2dxq9-d1e1404">
+            <lb ed="#V" n="67"/>Item negatur alia consequentia ibi facta, scilicet voluntas
+            <lb ed="#V" n="68"/>non agit a se, sed ab alio: igitur non a se, sed ab alio habet
+            <lb ed="#V" n="69"/>quod sit causa mali, &amp; per consequens non peccat. Cuius
+            <lb ed="#V" n="70"/>ratio est, quia voluntas creata non ideo peccat, quia illum
+            <lb ed="#V" n="71"/>actum agit, sed quia illum taliter agit, primum habet a Deo,
+            <lb ed="#V" n="72"/>non autem secundum.
+          </p>
+          <p xml:id="capsco-b2dxq9-d1e1420">
+            Ad tertium dicit Gregorius quod maior
+            <lb ed="#V" n="73"/>est falsa, &amp; ad probationem, quae est per auctoritatem dicit,
+            <lb ed="#V" n="74"/>quod illae auctoritates nullo modo sunt ad propositum,
+            <lb ed="#V" n="75"/>quia non habetur ex his quod Deus non coagat
+            agenti<cb ed="#V" n="b"/><lb ed="#V" n="76" break="no"/>bus naturalibus, sed solummodo quod agentia naturalis
+            <lb ed="#V" n="77"/>agant suas actiones, quod conceditur. Dicetur tamen quod cu
+            <lb ed="#V" n="78"/>eis agit Deus.
+          </p>
+          <p xml:id="capsco-b2dxq9-d1e1437">
+            Ad primam vero probationem per rationem
+            <lb ed="#V" n="79"/>dicitur, quod illa non probat, quod debet probare, quia
+            da<lb ed="#V" n="80" break="no"/>to quod Deus possit communicare creaturae vt sola possit in
+            <lb ed="#V" n="81"/>talem actionem, non sequitur quod communicauerit. Vtrum
+            <lb ed="#V" n="82"/>autem possit alibi poterit videri.
+          </p>
+          <p xml:id="capsco-b2dxq9-d1e1448">
+            Ad secundam
+            probatio<lb ed="#V" n="83" break="no"/>nem dicit, quod idem totaliter fit ab ambobus, &amp; cum
+            di<lb ed="#V" n="84" break="no"/>citur quod impossibile est idem esse simul a duabus causis
+            <lb ed="#V" n="85"/>totalibus, dicendum quod causa potest dupliciter dici totalis,
+            <lb ed="#V" n="86"/>vno modo totalitate relata ad causam, idest sufficiens
+            habe<lb ed="#V" n="87" break="no"/>re effectum absque concursu alterius causae praecise
+            causan<lb ed="#V" n="88" break="no"/>do sicut causat, &amp; sic neganda est ista consequentia, quoniam
+            <lb ed="#V" n="89"/>nec Deus nec creatura est sic causa totalis actus mali,
+            nun<lb ed="#V" n="90" break="no"/>quam enim talis actus fieret si Deus non causaret eum,
+            ne<lb ed="#V" n="91" break="no"/>que etiam si creatura non causaret, &amp; Deus non aliter
+            cau<lb ed="#V" n="92" break="no"/>saret quam nunc de facto causet concurrendo cum
+            creatu<lb ed="#V" n="93" break="no"/>ra. Alio modo totalis totalitate relata ad effectum, idest
+            to<lb ed="#V" n="94" break="no"/>tum effectum causans, &amp; sic eiusdem possunt esse plures causae
+            <lb ed="#V" n="95"/>totales. Eiusdem enim volitionis secundum totum est
+            cau<lb ed="#V" n="96" break="no"/>sa, notitia, &amp; etiam voluntas, &amp; multa alia exempla
+            dari<lb ed="#V" n="97" break="no"/>possent.
+          </p>
+          <p xml:id="capsco-b2dxq9-d1e1483">
+            Item non minus est possibile idem totum a
+            duo<lb ed="#V" n="98" break="no"/>bus produci quam secundum totum iam productum a
+            duo<lb ed="#V" n="99" break="no"/>bus conseruari. Nunc autem idem actus voluntatis siue
+            <lb ed="#V" n="100"/>bonus, siue malus conseruatur immediate a Deo, &amp; a
+            vo<lb ed="#V" n="101" break="no"/>luntate secundum arguentem. Haec Gregorius. Apparet
+            mi<lb ed="#V" n="102" break="no"/>hi quod omnia dicta sua stare possunt praeter vnum,
+            scili<lb ed="#V" n="103" break="no"/>cet quod creaturae possit communicari vt sola agat aliquam
+            <lb ed="#V" n="104"/>actionem nullo alio coagente.. De hoc Sanctus Thomas secundo
+            <lb ed="#V" n="105"/>sententiarum praesenti distinctio. q. 2. artic. 2. Quaedam
+            (in<lb ed="#V" n="106" break="no"/>quit) opinio dicebat actus peccatorum nullo modo nec
+            <lb ed="#V" n="107"/>etiam inquantum actus sunt a Deo esse, &amp; haec opinio
+            tan<lb ed="#V" n="108" break="no"/>gitur in praesenti distin. quam ad praesens nulli vel pauci
+            te<lb ed="#V" n="109" break="no"/>nent, quia propinquissima est duplici errori. Primo quia
+            <lb ed="#V" n="110"/>videtur sequi ex ea quod sint plura principia. Hoc enim
+            <lb ed="#V" n="111"/>est de ratione primi principij vt agere possit sine auxilio
+            <lb ed="#V" n="112"/>prioris agentis, &amp; influentia eius, vnde si voluntas
+            huma<lb ed="#V" n="113" break="no"/>na actionem aliquam posset producere, cuius Deus
+            acto<lb ed="#V" n="114" break="no"/>non esset, voluntas humana rationem primi principij
+            habe<lb ed="#V" n="115" break="no"/>ret, Quamuis quidam hoc soluere nituntur dicentes quod
+            <lb ed="#V" n="116"/>voluntas &amp; si per se possit producere actionem sine
+            innuen<lb ed="#V" n="117" break="no"/>tia prioris agentis, non tamen habet esse a se, sed ab alio,
+            <lb ed="#V" n="118"/>quod etiam exigitur ad rationem principij. Sed hoc
+            vi<lb ed="#V" n="119" break="no"/>detur inconueniens, vt quod a se esse non habet a se agere
+            <lb ed="#V" n="120"/>possit, cum etiam per se durare non possit quod a se non est,
+            <lb ed="#V" n="121"/>omnis etiam virtus ab essentia procedit, &amp; operatio a
+            virtu<lb ed="#V" n="122" break="no"/>te, vnde cuius essentia ab alio est, oportet quod virtus &amp;
+            <lb ed="#V" n="123"/>operatio ab alio sit. Et praeterea quamuis secundum hanc
+            re<lb ed="#V" n="124" break="no"/>sponsionem euitaretur quod non esset primum simpliciter
+            <lb ed="#V" n="125"/>tamen non posset vitari, quin esset primum agens, si eius actio
+            <lb ed="#V" n="126"/>in aliquod prius agens non reduceretur sicut in causam:
+            se<lb ed="#V" n="127" break="no"/>cundo quia cum actio peccati sit ens, non solum secundum quod
+            pri<lb ed="#V" n="128" break="no"/>uationes &amp; negationes entia dicuntur, sed etiam secundum quod res
+            <lb ed="#V" n="129"/>in genere existentes entia sunt, quia &amp; ipsae actiones in
+            gene<lb ed="#V" n="130" break="no"/>re ordinantur, sequeretur quod si actiones peccati a Deo non
+            <lb ed="#V" n="131"/>sunt quod aliquod ens essent am habens a Deo non esset, &amp;
+            ita<lb ed="#V" n="132" break="no"/>Deus non esset vniuersalis causa omnium entium, quod
+            es<lb ed="#V" n="133" break="no"/>contra perfectionem primi entis: primum enim in quolibet
+            <lb ed="#V" n="134"/>genere est causa eorum quae sunt post, vt dicitur 2. Metaphys.
+            <lb ed="#V" n="135"/>Haec ille.
+          </p>
+          <p xml:id="capsco-b2dxq9-d1e1569">
+            Item de potentia Dei. q. 3 artic. 5. probat
+            triplici<lb ed="#V" n="136" break="no"/>ratione, quod omne aliud a Deo oportet esse creatum a Deo.
+            <lb ed="#V" n="137"/>Item q. 5. articul. 2. probat quod omne aliud a Deo indiget
+            <lb ed="#V" n="138"/>conseruari a Deo, &amp; in multis alijs locis dicit similia. Ad
+            <lb ed="#V" n="139"/>primum aliorum respondet Gregorius negando
+            consequen<lb ed="#V" n="140" break="no"/>tiam, &amp; ad probationem dicit quod non ideo praecise quis
+            pec<lb ed="#V" n="141" break="no"/>cat, quia facit actum malum, vocando actum malum illam
+            <lb ed="#V" n="142"/>entitatem, quae nunc a modernis vocatur actus malus, quod
+            <lb ed="#V" n="143"/>dico ad excludendum acceptionem huius nominis actus,
+            <lb ed="#V" n="144"/>vt dicitur de quibusdam complexe significantibus,
+            quomo<lb ed="#V" n="145" break="no"/>do actus negantur esse res proprie, idest entitates, sed ideo
+            <lb ed="#V" n="146"/>peccat, quia facit illum male, idest contra rectam rationem, &amp;
+            <lb ed="#V" n="147"/>quia illum actum quem homo habet contra rectam rationem &amp;
+            <lb ed="#V" n="148"/>ideo male facit, Deus secundum rectam rationem, ac per hoc
+            bene<lb ed="#V" n="149" break="no"/>facit, ideo homo illum faciendo peccat, &amp; non Deus, istud
+            de<lb ed="#V" n="150" break="no"/>claratur de propinquo, nam eandem actum quem homo libere
+            <pb ed="#V" n="545"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>continuat &amp; conseruat postquam factus est continuat &amp;
+            <lb ed="#V" n="2"/>etiam conseruat Deus, &amp; tamen homo sic continuando &amp;
+            <lb ed="#V" n="3"/>conseruando peccat, non autem Deus. Similiter eundem
+            <lb ed="#V" n="4"/>hominem Deus producit &amp; format in vtero, quem
+            gene<lb ed="#V" n="5" break="no"/>rat etiam homo adulterando, &amp; tamen Deus non peccat,
+            <lb ed="#V" n="6"/>sed homo. Similiter dicit Magister 3. senten. 20. distin.
+            tra<lb ed="#V" n="7" break="no"/>ditio Christi facta est a Deo Iuda, &amp; a Iudaeis, &amp; tamen Deus
+            <lb ed="#V" n="8"/>non peccauit, illi vero peccauerunt, &amp; ita dari possent
+            mul<lb ed="#V" n="9" break="no"/>ta exempla de multis operationibus exterioribus, ad quae
+            <lb ed="#V" n="10"/>etiam diuersi homines concurrunt, &amp; tamen vnus peccat,
+            <lb ed="#V" n="11"/>alius non, quia vnus secundum rectam rationem &amp; bene
+            <lb ed="#V" n="12"/>illud agit, alius vero contra rectam rationem &amp; male.
+          </p>
+          <p xml:id="capsco-b2dxq9-d1e1634">
+            Di<lb ed="#V" n="13" break="no"/>ces quod saltem in his, quae sunt secundum se mala, nec
+            pos<lb ed="#V" n="14" break="no"/>sunt bene fieri, concedendum erit quod non fiunt a Deo,
+            <lb ed="#V" n="15"/>quia tunc non solum mala, sed etiam male faceret, &amp;
+            con<lb ed="#V" n="16" break="no"/>tra rectam rationem, sicque peccaret.
+          </p>
+          <p xml:id="capsco-b2dxq9-d1e1645">
+            Dicendum quod nulla
+            <lb ed="#V" n="17"/>entitas est vel esse potest, quae non possit bene fieri, licet non
+            <lb ed="#V" n="18"/>a quolibet, sed ea quae sunt secundum se mala &amp; dicuntur
+            <lb ed="#V" n="19"/>non posse bene fieri, non sunt aliquae entitates existentes
+            <lb ed="#V" n="20"/>vel possibiles existere, sed sunt quaedam complexe
+            signifi<lb ed="#V" n="21" break="no"/>cabilia, quae etiam proprie peccata nuncupantur, &amp; talia
+            <lb ed="#V" n="22"/>nunquam fiunt a Deo, etiam secundum modum
+            loquen<lb ed="#V" n="23" break="no"/>di, quo dicuntur fieri ab homine: verbi gratia. Inuidere
+            <lb ed="#V" n="24"/>dicitur esse malum secundum se, &amp; dicitur fieri ab
+            homi<lb ed="#V" n="25" break="no"/>ne ad hunc sensum, quia scilicet dicimus quod homo
+            inui<lb ed="#V" n="26" break="no"/>det, Deus autem non &amp; si actum illum, seu entitatem illam
+            <lb ed="#V" n="27"/>quam inuidiam nominamus, &amp; qua homo dicitur
+            inuide<lb ed="#V" n="28" break="no"/>re esset simul cum homine, non tamen ille inuidet, sicut nec
+            <lb ed="#V" n="29"/>notitia inuidentis partialiter cum voluntate hominis causans
+            <lb ed="#V" n="30"/>inuidiam vlli inuidet, sed tantummodo ipsa anima, quae
+            il<lb ed="#V" n="31" break="no"/>la entitate afficitur, &amp; ita de alijs, vt furari, mechari &amp;
+            hu<lb ed="#V" n="32" break="no"/>iusmodi est dicendum. Nullum enim talium potest Deus,
+            <lb ed="#V" n="33"/>licet enim omnem entitatem quam agit vel mouet
+            men<lb ed="#V" n="34" break="no"/>dax, aut fur, simul etiam Deus agat &amp; moueat, ipse tamen
+            <lb ed="#V" n="35"/>nec furatur, nec mentitur. Quodlibet enim talium vltra
+            <lb ed="#V" n="36"/>simplicem factionem aut motionem talis vel talis rei alia
+            <lb ed="#V" n="37"/>connotat ex parte eius quod denominatur, sicque Deo non
+            <lb ed="#V" n="38"/>conueniunt, sicut furari vltra simplicem translationem rei
+            <lb ed="#V" n="39"/>de loco ad locum connotat rem illam non esse
+            transferen<lb ed="#V" n="40" break="no"/>tis. Mentiri etiam vltra formationem talis falsae vocis
+            con<lb ed="#V" n="41" break="no"/>notat eum qui mentiri dicitur, velle per illam falsum
+            signi<lb ed="#V" n="42" break="no"/>ficare, &amp; alium fallere, &amp; quia Deus esto quod simul
+            partia<lb ed="#V" n="43" break="no"/>liter rem illam transferat, non transfert rem non suam, quia
+            <lb ed="#V" n="44"/>omnia eius sunt, &amp; licet simul cum mentiente illam vocem
+            <lb ed="#V" n="45"/>formet, non tamen intendit per illam falsum significare, aut
+            <lb ed="#V" n="46"/>aliquem fallere, ideo nec ipse potest furari, vel fur esse, nec
+            <lb ed="#V" n="47"/>mentiri, aut mendax esse.
+          </p>
+          <p xml:id="capsco-b2dxq9-d1e1715">
+            Dices, quamuis Deus non
+            inui<lb ed="#V" n="48" break="no"/>deat, aut mentiatur, &amp; sic de alijs, causat tamen secundum
+            te<lb ed="#V" n="49" break="no"/>inuidiam in anima inuidentis, &amp; similiter causat illam
+            vo<lb ed="#V" n="50" break="no"/>cem quae dicitur mendacium, sed talia causare videtur esse
+            <lb ed="#V" n="51"/>contra rectam rationem, sicut inuidere &amp; mentiri. Nam
+            ta<lb ed="#V" n="52" break="no"/>lia faciens facit quodammodo, vel saltem iuuat alium ad
+            <lb ed="#V" n="53"/>mentiendum &amp; inuidendum, quod recta ratio dictat non
+            <lb ed="#V" n="54"/>esse faciendum: igitur Deus male agit &amp; peccat, vt prius
+            in<lb ed="#V" n="55" break="no"/>ferebatur.
+          </p>
+          <p xml:id="capsco-b2dxq9-d1e1735">
+            Respondetur quod sicut Deus non agit
+            contra<lb ed="#V" n="56" break="no"/>rectam rationem faciendo hominem qui possit malum actum
+            <lb ed="#V" n="57"/>facere, cum eum ad illum faciendum non cogat vel inducat,
+            <lb ed="#V" n="58"/>sic nec agit contra rectam rationem non subtrahendo
+            il<lb ed="#V" n="59" break="no"/>lud, sine quo homo non potest facere actum malum, nec
+            <lb ed="#V" n="60"/>tamen excitando vel faciendo vt homo faciat talem actum.
+            <lb ed="#V" n="61"/>Illud autem sine quo non potest homo malum actum
+            face<lb ed="#V" n="62" break="no"/>re est coefficentia Dei, quae necessaria est cuilibet creaturae
+            <lb ed="#V" n="63"/>ad suos effectus producendos, cum nulla se sola ad aliquam
+            <lb ed="#V" n="64"/>essentiam causandum sufficiat.
+          </p>
+          <p xml:id="capsco-b2dxq9-d1e1757">
+            Confirmatur responsio,
+            <lb ed="#V" n="65"/>quoniam certum est Deum non peccare, nec agere contra
+            <lb ed="#V" n="66"/>rectam rationem ex eo quod actum malum partialiter
+            con<lb ed="#V" n="67" break="no"/>tinuat &amp; conseruat, nec sic dicitur ipse facere vel iuuare
+            ho<lb ed="#V" n="68" break="no"/>minem ad peccandum per continuationem illius mali actus.
+            <lb ed="#V" n="69"/>Haec ille in forma. Quae omnia bene dicta sunt praeter hoc,
+            <lb ed="#V" n="70"/>quod dicit de significabilibus complexe, scilicet quod ea
+            <lb ed="#V" n="71"/>quae sunt secundum se mala non sunt aliquae entitates, sed
+            <lb ed="#V" n="72"/>sola complexe significabilia &amp; caetera. Dicitur enim
+            secun<lb ed="#V" n="73" break="no"/>dum Sanctus Thomas quod ea quae dicimus secundum se mala sunt
+            <lb ed="#V" n="74"/>actus mali sumpti cum suis deformitatibus. Nam
+            aggrega<lb ed="#V" n="75" break="no"/>tum ex ipso actu &amp; sua deformitate nunquam potest
+            bene<cb ed="#V" n="b"/><lb ed="#V" n="76" break="no"/>fieri, licet actus possit bene fieri. Dicitur ergo ad
+            argumen<lb ed="#V" n="77" break="no"/>tum principale negando consequentiam. Et ad
+            probatio<lb ed="#V" n="78" break="no"/>nem dicitur, quod homo faciendo actum malum peccat
+            <lb ed="#V" n="79"/>quia non solum est causa actus, immo malitiae &amp;
+            deformi<lb ed="#V" n="80" break="no"/>tatis actus, Deus autem est causa primi &amp; non secundi, ideo
+            <lb ed="#V" n="81"/>non peccat, nec est causa peccati inquantum peccatum est
+            <lb ed="#V" n="82"/>nec quantum ad id quod est formale &amp; completiuum
+            ratio<lb ed="#V" n="83" break="no"/>nis peccati. Et haec solutio habetur a Beato Thomas de
+            ma<lb ed="#V" n="84" break="no"/>lo. q. 3. artic. 2. in solutione primi, vbi respondet ad hoc
+            ar<lb ed="#V" n="85" break="no"/>gumentum quasi in forma, arguit enim sic. Homo non
+            di<lb ed="#V" n="86" break="no"/>citur esse causa peccati, nisi quia est causa actionis peccati.
+            <lb ed="#V" n="87"/>Nihil enim ad malum intendens operatur, vt Dionysius dicit,
+            <lb ed="#V" n="88"/>sed Deus non est auctor peccati: igitur &amp;c. Ecce
+            argumen<lb ed="#V" n="89" break="no"/>tum. Sequitur responsio. Dicendum (inquit) quod
+            ho<lb ed="#V" n="90" break="no"/>mo qui peccat, licet per se non velit deformitatem peccati.
+            <lb ed="#V" n="91"/>tamen deformitas peccati aliquomodo cadit sub
+            volunta<lb ed="#V" n="92" break="no"/>te peccantis, dum scilicet magis eligit deformitatem
+            pec<lb ed="#V" n="93" break="no"/>cati incurrere, quam ab actu cessare, sed deformitas
+            pec<lb ed="#V" n="94" break="no"/>cati nullo modo cadit sub voluntate diuina, sed
+            consequi<lb ed="#V" n="95" break="no"/>tur ex hoc quod liberum arbitrium recedit ab ordine
+            di<lb ed="#V" n="96" break="no"/>uinae voluntatis. Haec ille.
+          </p>
+          <p xml:id="capsco-b2dxq9-d1e1831">
+            Item prima secundae. quaest. 79
+            <lb ed="#V" n="97"/>articulo secundo facit idem argumentum, &amp; soluit sic.
+            Di<lb ed="#V" n="98" break="no"/>cendum quod in hominem sicut in causam reducitur non
+            <lb ed="#V" n="99"/>solum actus, sed etiam ipse defectus, quia scilicet non
+            sub<lb ed="#V" n="100" break="no"/>ditur, cui debet subdi, licet hoc ipse non intendat
+            princi<lb ed="#V" n="101" break="no"/>paliter, &amp; ideo homo est causa peccati, sed Deus sic est
+            cau<lb ed="#V" n="102" break="no"/>sa actus, quod nullo modo est causa defectus
+            concomitan<lb ed="#V" n="103" break="no"/>tis actum, &amp; ideo non est causa peccati. Haec ille.
+          </p>
+          <p xml:id="capsco-b2dxq9-d1e1849">
+            Simile
+            <lb ed="#V" n="104"/>ponit secundo sententiarum distinctio. 37. quaestio. 2.
+            arti<lb ed="#V" n="105" break="no"/>culo 2. in solutione secundi. Illud (inquit) dicitur ad
+            ma<lb ed="#V" n="106" break="no"/>lum cooperari, quod inclinat ad actionem secundum quod
+            <lb ed="#V" n="107"/>actio deformitati substat, vnde mala est. Hoc autem Deo
+            <lb ed="#V" n="108"/>non conuenit, &amp; ideo non oportet vt ad malum cooperar
+            <lb ed="#V" n="109"/>dicatur, quamuis sit causa illius actionis, in qua malum
+            con<lb ed="#V" n="110" break="no"/>sistit, secundum quod influit agenti esse, &amp; posse, &amp; agere,
+            <lb ed="#V" n="111"/>&amp; quicquid perfectionis est in agente. Haec ille.
+          </p>
+          <p xml:id="capsco-b2dxq9-d1e1869">
+            Ad
+            secun<lb ed="#V" n="112" break="no"/>dum patet ex iam dictis, nam ille proprie dicitur auctor
+            ma<lb ed="#V" n="113" break="no"/>lorum qui est causa non solum actus, sed defectus &amp;
+            defor<lb ed="#V" n="114" break="no"/>mitatis actus. Vnde Sanctus Thomas secundo sententiarum, vbi
+            su<lb ed="#V" n="115" break="no"/>pra in solutione tertii sic dicit. Deus dicitur causa
+            bona<lb ed="#V" n="116" break="no"/>rum operationum non solum quantum ad essentiam actus,
+            <lb ed="#V" n="117"/>sed etiam quantum ad perfectionem, secundum quam
+            bo<lb ed="#V" n="118" break="no"/>nae dicuntur, vtrunque enim influit agenti, scilicet vt agat,
+            <lb ed="#V" n="119"/>&amp; vt bene agat, sed in malis actionibus quamuis sit
+            causa<lb ed="#V" n="120" break="no"/>earum quantum ad essentiam, non tamen est causa
+            quan<lb ed="#V" n="121" break="no"/>tum ad defectum, &amp; ideo absolute dicendum est causa
+            bo<lb ed="#V" n="122" break="no"/>norum operum, non autem peccatorum. Haec ille in forma.
+          </p>
+          <p xml:id="capsco-b2dxq9-d1e1895">
+            <lb ed="#V" n="123"/>Ad tertium negatur consequentia, &amp; ad probationem
+            di<lb ed="#V" n="124" break="no"/>citur, quod ille solus dicitur hominem deteriorare qui
+            cau<lb ed="#V" n="125" break="no"/>sat actum, quo homo fit deterior, non solum quo ad
+            substan<lb ed="#V" n="126" break="no"/>tiam actus, sed etiam quo ad malitiam &amp; defectum, &amp;
+            defor<lb ed="#V" n="127" break="no"/>mitatem actus. Hoc autem Deo non conuenit. Ad
+            quar<lb ed="#V" n="128" break="no"/>tum dicitur, quod illo modo Deus est vltor mali actus quo
+            <lb ed="#V" n="129"/>non est eius actor, &amp; econtra illo modo non vlciscitur actum
+            <lb ed="#V" n="130"/>malum, quo est actor eius, nam Deus punit hominem
+            pro<lb ed="#V" n="131" break="no"/>actu malo inquantum malus &amp; deformis est, &amp; illo modo
+            <lb ed="#V" n="132"/>non est actor actus mali. Rursus, Deus est causa actus
+            ma<lb ed="#V" n="133" break="no"/>li quantum ad substantiam &amp; essentiam actus, quae in se
+            <lb ed="#V" n="134"/>bona est, &amp; illo modo non punit hominem pro actu
+            malo<lb ed="#V" n="135" break="no"/>Veruntamen breuius dici potest quod argumentum non
+            <lb ed="#V" n="136"/>aliud concludit, nisi quod Deus non est causa actus mali,
+            <lb ed="#V" n="137"/>vt malus est sicut nec est causa peccati, quod concedimus
+            <lb ed="#V" n="138"/>Cum quo stat quod est causa actus, qui substat malitiae &amp;
+            <lb ed="#V" n="139"/>defectui.
+          </p>
+          <p xml:id="capsco-b2dxq9-d1e1934">
+            Ad quintum dicit Gregorius quod Deus potest
+            so<lb ed="#V" n="140" break="no"/>lus illum actum causare &amp; actum odiendi, id est qui est
+            <lb ed="#V" n="141"/>odium Dei, &amp; mendacium etiam potest causare, tamen
+            <lb ed="#V" n="142"/>non potest causare odium Dei, seu actum odiendi, neque
+            <lb ed="#V" n="143"/>potest causare mendacium seu mentiri, neque potest
+            cau<lb ed="#V" n="144" break="no"/>sare actum malum, quia quemcunque actum causaret
+            so<lb ed="#V" n="145" break="no"/>lus, licet ille nunc sit odium Dei, vel mendacium aut
+            ali<lb ed="#V" n="146" break="no"/>quis actus malus, si tamen solum illum Deus causaret,
+            si<lb ed="#V" n="147" break="no"/>cut potest illum causare solus non esset actus malus,
+            ne<lb ed="#V" n="148" break="no"/>que odium Dei, neque mendacium. Haec ille. Et apparet
+            <lb ed="#V" n="149"/>mihi quod aliqua falsa dicit, quia sicut illud accidens, quod
+            <lb ed="#V" n="150"/>nunc est albedo, quia essentialiter est albedo, ideo aeque
+            <pb ed="#V" n="546"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>esset albedo, si esset omni subiecto separatum, &amp; a solo Deo
+            <lb ed="#V" n="2"/>dependens, vel causatum, aut productum, sicut est nunc
+            <lb ed="#V" n="3"/>dum est in subiecto, &amp; a causis secundis dependens in esse,
+            <lb ed="#V" n="4"/>vel conseruari, aut fieri, ita est de illo accidente, quod
+            dici<lb ed="#V" n="5" break="no"/>mus odium Dei, nam illud est essentialiter odium Dei, a
+            quo<lb ed="#V" n="6" break="no"/>cunque producatur vel conseruetur siue sit in subiecto, siue
+            <lb ed="#V" n="7"/>sine subiecto. Nec oportet ad hoc quod tale accidens sit
+            <lb ed="#V" n="8"/>odium quod per illud aliquid denominetur formaliter odiens,
+            <lb ed="#V" n="9"/>sed quod tale accidens ex natura sua habeat quod possit
+            ali<lb ed="#V" n="10" break="no"/>quod subiectum taliter denominare. Dicitur ergo ad
+            argu<lb ed="#V" n="11" break="no"/>mentum quod in quolibet tali actu sunt duo consideranda.
+            <lb ed="#V" n="12"/>Primum est substantia actus, secundum est deformitas.
+            Pri<lb ed="#V" n="13" break="no"/>mum potest solus Deus producere, non autem secundum.
+            <lb ed="#V" n="14"/>Et si substantia talis actus a solo Deo causaretur, nullo
+            mo<lb ed="#V" n="15" break="no"/>do esset peccatum, quia nulla esset ibi deformitas, quia vt
+            <lb ed="#V" n="16"/>prius dictum est deformitas non sequitur essentiam actus
+            <lb ed="#V" n="17"/>in se, sed vt causatur a libero arbitrio, cui non licet talem
+            <lb ed="#V" n="18"/>actum producere.
+          </p>
+          <p xml:id="capsco-b2dxq9-d1e2004">
+            Ad sextum dicit Gregorius quod Deus vult
+            <lb ed="#V" n="19"/>illum actum esse, negatur autem quod Deus velit istum
+            ho<lb ed="#V" n="20" break="no"/>minem facere illum actum, sicut secundum magistrum
+            di<lb ed="#V" n="21" break="no"/>stinctione vltima primi, ipsa tota trinitas voluit passionem
+            <lb ed="#V" n="22"/>Christi &amp; occisionem esse, nec tamen voluit quod Iudaei
+            <lb ed="#V" n="23"/>occiderent Christum, ideo negatur illa consequentia. Haec
+            <lb ed="#V" n="24"/>ille. Mihi videtur quod Deus vult istum actum esse, &amp; quod
+            <lb ed="#V" n="25"/>plus est illum actum esse ab homine, quantum ad omne,
+            <lb ed="#V" n="26"/>quod est bonum in actu, non autem quantum ad defectum
+            <lb ed="#V" n="27"/>consequentem actum, prout est ab hoc homine
+            subducen<lb ed="#V" n="28" break="no"/>te se a recta ratione, bonum est enim hominem istum actum
+            <lb ed="#V" n="29"/>elicere, inquantum ille actus est quoddam ens, &amp; quaedam
+            <lb ed="#V" n="30"/>actio, sed est malum alijs considerationibus.
+          </p>
+          <p xml:id="capsco-b2dxq9-d1e2034">
+            Ad primum
+            <lb ed="#V" n="31"/>Durandi negatur prima consequentia, quae saepe negata est,
+            <lb ed="#V" n="32"/>scilicet Deus est causa talis actus: igitur est causa
+            deformi<lb ed="#V" n="33" break="no"/>tatis consequentis. Et ad probationem consequentiae
+            dici<lb ed="#V" n="34" break="no"/>tur, quod maior est falsa, nam ad hoc quod defectus
+            cuspa<lb ed="#V" n="35" break="no"/>bilis consequens actum imputetur agenti, non sufficit quod
+            <lb ed="#V" n="36"/>agens producat actum, &amp; quod habeat dominium illius actus,
+            <lb ed="#V" n="37"/>&amp; quod non ignoret defectum, immo vltra hoc requiritur
+            <lb ed="#V" n="38"/>quod agens debeat, &amp; teneatur vitare talem defectum, &amp;
+            cau<lb ed="#V" n="39" break="no"/>sare oppositum illius defectus. Item quod agens, cui talis
+            <lb ed="#V" n="40"/>defectus imputatur, velit aliquo modo illum defectum. Hoc
+            <lb ed="#V" n="41"/>autem in Deo locum uon habet. Item maior illa haberet
+            <lb ed="#V" n="42"/>colorem vbi agens causaret actum, ad quem sequitur
+            defe<lb ed="#V" n="43" break="no"/>ctus &amp; inordinatio ex ipsa essentia actus absolute
+            conside<lb ed="#V" n="44" break="no"/>rata. Modo nullus actus est producibilis a libero arbitrio,
+            <lb ed="#V" n="45"/>quem illo modo sequatur defectus culpabilis, vt supra
+            di<lb ed="#V" n="46" break="no"/>ctum fuit.
+          </p>
+          <p xml:id="capsco-b2dxq9-d1e2071">
+            Ad confirmationem patet per idem, quia maior
+            <lb ed="#V" n="47"/>non est vera, nisi vbi illa inseparabilitas consurgit ex natura
+            <lb ed="#V" n="48"/>&amp; essentia actus in se considcrati, &amp; non specialiter, &amp;
+            tan<lb ed="#V" n="49" break="no"/>tummodo ex relatione actus ad aliquod actiuum principium
+            <lb ed="#V" n="50"/>instrumentale vel principale. Nec probatio concludit
+            op<lb ed="#V" n="51" break="no"/>positum nam salus nauis in tali casu habet ex natura sua
+            an<lb ed="#V" n="52" break="no"/>nexam exonerationem &amp; proiectionem mercium. Ad
+            se<lb ed="#V" n="53" break="no"/>cundum negatur consequentia, quia vt saepe dictum est
+            ta<lb ed="#V" n="54" break="no"/>lis defectus non consequitur actum ex natura actus,
+            immo<lb ed="#V" n="55" break="no"/>actus posset ab aliquo agente produci sine tali deformitate
+            <lb ed="#V" n="56"/>se habente per modum priuationis. Si enim talis actus a
+            so<lb ed="#V" n="57" break="no"/>lo Deo produceretur ille actus non careret aliquo debito
+            <lb ed="#V" n="58"/>sibi inesse. Tamen Sanctus Thomas videtur simpliciter negare illam
+            <lb ed="#V" n="59"/>consequentiam sine quacunque glosa. Vnde 2. sentent.
+            di<lb ed="#V" n="60" break="no"/>stin. 37. q. 2. artic. 2. arguit sic quinto loco. Rei non
+            assigna<lb ed="#V" n="61" break="no"/>tur causa efficiens secundum quod est in intellectu, sed
+            se<lb ed="#V" n="62" break="no"/>cundum quod est in re, sed quidam actus sunt in quibus non
+            <lb ed="#V" n="63"/>potest separari id quod est de natura actus a deformitate,
+            <lb ed="#V" n="64"/>nisi secundum intellectum, quia bene fieri non possunt:
+            er<lb ed="#V" n="65" break="no"/>go non causantur nisi secundum quod stant sub deformitate
+            <lb ed="#V" n="66"/>illa, sed secundum quod stant sub deformitate non sunt a
+            <lb ed="#V" n="67"/>Deo: ergo nullo modo sunt a Deo. Ecce argumentum.
+            <lb ed="#V" n="68"/>Sequitur responsio. Dicendum (inquit) quod sicut actio
+            <lb ed="#V" n="69"/>quae deformitatem peccati habet dicitur bona inquantum
+            <lb ed="#V" n="70"/>est actio bonitate naturae, non propter hoc quod aliquando
+            <lb ed="#V" n="71"/>inueniatur separata a deformitate, sed quia bonitas naturae
+            <lb ed="#V" n="72"/>deformitati substat, ita etiam Deus dicitur esse causa illius
+            <lb ed="#V" n="73"/>actionis inquantum est actio, &amp; non inquantum deformis
+            <lb ed="#V" n="74"/>hoc modo quod actionem faciat a deformitate separatam,
+            <lb ed="#V" n="75"/>sed quia in actione deformitati coniuncta hoc quod est
+            actio<cb ed="#V" n="b"/><lb ed="#V" n="76" break="no"/>nis facit, &amp; quod est deformitatis non facit. Et si in aliquo
+            <lb ed="#V" n="77"/>effectu plura inseparabiliter coniuncta sunt, non oportet
+            <lb ed="#V" n="78"/>vt quicquid est causa eius quantum ad vnum sit causa eius
+            <lb ed="#V" n="79"/>quantum ad alterum, sicut natura est causa oculi quantum
+            <lb ed="#V" n="80"/>ad sustantiam, &amp; non quantum ad defectum caecitatis, quae
+            <lb ed="#V" n="81"/>ex defectu incidit. Haec ille.
+          </p>
+          <p xml:id="capsco-b2dxq9-d1e2151">
+            In prima vero secundae.
+            quae<lb ed="#V" n="82" break="no"/>stio. 79. articul 2. in solutione tertij ponit primam
+            solutio<lb ed="#V" n="83" break="no"/>nem implicite, scilicet quod non oportet quicquid est
+            cau<lb ed="#V" n="84" break="no"/>sa actus esse causam deformitatis, nisi deformitas
+            perti<lb ed="#V" n="85" break="no"/>ncat ad speciem eius, vnde arguit sic. Aliqui actus
+            secun<lb ed="#V" n="86" break="no"/>dum speciem suam sunt mali &amp; peccata, sed quicquid est
+            <lb ed="#V" n="87"/>causa alicuius est causa eius quod ei conuenit secundum
+            <lb ed="#V" n="88"/>suam speciem. Si ergo Deus esset causa actus peccati,
+            se<lb ed="#V" n="89" break="no"/>quitur quod esset causa peccati &amp;c. Ecce argumentum.
+            Se<lb ed="#V" n="90" break="no"/>quitur responsio.
+          </p>
+          <p xml:id="capsco-b2dxq9-d1e2173">
+            Dicendum quod actus &amp; habitus non
+            re<lb ed="#V" n="91" break="no"/>cipiunt speciem ex ipsa priuatione, in qua consistit ratio
+            ma<lb ed="#V" n="92" break="no"/>li, sed ex aliquo obiecto, cui coniungitur talis priuatio, &amp; sic
+            <lb ed="#V" n="93"/>ipse defectus qui dicitur non esse a Deo, pertinet ad speciem
+            <lb ed="#V" n="94"/>actus consequenter, &amp; non quasi differentia specifica. Haec
+            <lb ed="#V" n="95"/>ille. Super omnia vero placet mihi solutio quam dat ad hoc
+            <lb ed="#V" n="96"/>argumentum de malo. q. 3. artic. 2. in solutione secundi vb
+            <lb ed="#V" n="97"/>sic dicit. Deformitas peccati non consequitur sp eciem actus
+            <lb ed="#V" n="98"/>secundum quod est in genere naturae, quae a Deo causatur,
+            <lb ed="#V" n="99"/>sed consequitur speciem actus secundum quod est moralis,
+            <lb ed="#V" n="100"/>prout causatur ex libero arbitrio. Haec ille. Et haec de
+            quae<lb ed="#V" n="101" break="no"/>stione. Benedictus Deus. Amen
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

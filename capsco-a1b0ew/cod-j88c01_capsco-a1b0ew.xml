@@ -1,0 +1,2145 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 1, Prologus, Quaestio 1</title>
+        <author ref="#JohannesCapreolus">Johannes Capreolus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 1, Prologus, Quaestio 1</title>
+          <date when="2026-11-04">Nov 4, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-j88c01">Venice, 1589, v. 1</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-04" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="1"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="capsco-a1b0ew"><!-- l1prolq1 -->
+        <head xml:id="capsco-a1b0ew-Hd1e101">Quaestio 1</head>
+        <head xml:id="capsco-a1b0ew-Hd1e103" type="question-title">Utrum theologia sit scientia</head>
+        <p xml:id="capsco-a1b0ew-d1e106">
+          <pb ed="#V" n="1"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>IOHANNIS CAPREOLI
+          <lb ed="#V" n="2"/>THOLOSANI
+          <lb ed="#V" n="3"/>ORDINIS PRAEDICATORVM
+          <lb ed="#V" n="4"/>Thomistarum Principis, Defensionum Theologiae Diui Thomae
+          <lb ed="#V" n="5"/>Aquinatis in primo sententiarum:
+          <lb ed="#V" n="6"/>PROLOGVS
+        </p>
+        <p xml:id="capsco-a1b0ew-d1e126">
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="7"/>QVAESTIO I.
+          <lb ed="#V" n="8"/>Vtrum Theologia sit scientia.
+        </p>
+        <p xml:id="capsco-a1b0ew-d1e135">
+          <lb ed="#V" n="9"/><milestone ed="#V" unit="p" rend="initial"/> CIRCA Prologum
+          pri<lb ed="#V" n="10" break="no"/>mi sententiarum quaeritur.
+          <lb ed="#V" n="11"/>Vtrum theologia sit
+          scien<lb ed="#V" n="12" break="no"/>tia.
+        </p>
+        <p xml:id="capsco-a1b0ew-d1e148">
+          Et arguitur primo quod
+          <lb ed="#V" n="13"/>non. Quia omnis scientia
+          <lb ed="#V" n="14"/>est habitus
+          demonstrati<lb ed="#V" n="15" break="no"/>uus ex primis &amp; veris:sed
+          <lb ed="#V" n="16"/>theologia non demonstrat
+          <lb ed="#V" n="17"/>nec procedit ex primis &amp;
+          <lb ed="#V" n="18"/>veris. ergo non est scientia.
+        </p>
+        <p xml:id="capsco-a1b0ew-d1e164">
+          <lb ed="#V" n="19"/><milestone ed="#V" unit="p" rend="initial"/> In oppositumarguitur
+          <lb ed="#V" n="20"/>sic. Nam Augustnus dicit 14.
+          <lb ed="#V" n="21"/>de Trinitat. Huic scientiae tribuitur illud tantummodo,
+          <lb ed="#V" n="22"/>quo fides salubriter gignitur, nutritur, defenditur &amp;
+          ro<lb ed="#V" n="23" break="no"/>boratur: hoc autem ad nullam scientiam pertinet nisi ad
+          <lb ed="#V" n="24"/>theologiam. igitur theologia est scientia.
+        </p>
+        <p xml:id="capsco-a1b0ew-d1e181">
+          <lb ed="#V" n="25"/><milestone ed="#V" unit="p" rend="indent"/> In hac quaestione duo erunt articuli. In quorum
+          pri<lb ed="#V" n="26" break="no"/>mo ponentur conclusiones. In secundo mouebuntur
+          <lb ed="#V" n="27"/>obiectiones.
+        </p>
+        <p xml:id="capsco-a1b0ew-d1e191">
+          <lb ed="#V" n="28"/><milestone ed="#V" unit="p" rend="indent"/> Sed antequam ad conclusiones veniam praemitto vnum,
+          <lb ed="#V" n="29"/>quod per totam lecturam haberi volo pro supposito, &amp;
+          <lb ed="#V" n="30"/>est quod nihil de proprio intendo influere: sed solum
+          opi<lb ed="#V" n="31" break="no"/>niones, quae mihi videntur de mente Sanctus Thomae fuisse,
+          re<lb ed="#V" n="32" break="no"/>citare, nec aliquas probationes ad conclusiones
+          adduce<lb ed="#V" n="33" break="no"/>re praeter verba sua, nisi raro. Obiectiones vero Aureoli,
+          <lb ed="#V" n="34"/>Scoti, Durandi, Ioannis de Ripa, Henrici, Quidonis de
+          <lb ed="#V" n="35"/>Carmelo, Garronis, Adam &amp; aliorum Sanctum Thomam
+          <lb ed="#V" n="36"/>impugnantium propono locis suis adducere, &amp; soluere
+          <lb ed="#V" n="37"/>per dicta Sanctus Thomas
+        </p>
+        <p xml:id="capsco-a1b0ew-d1e216">
+          <lb ed="#V" n="38"/><milestone ed="#V" unit="p" rend="indent"/> Quo praemisso
+        </p>
+        <div xml:id="capsco-a1b0ew-Dd1e222">
+          <head xml:id="capsco-a1b0ew-Hd1e224">Articulus 1</head>
+          <p xml:id="capsco-a1b0ew-d1e226">
+            quo ad primum articulum sit prima
+            con<lb ed="#V" n="39" break="no"/>clusio. Quia licet omnis scientia requirat euidentiam &amp;
+            <lb ed="#V" n="40"/>intellectum suorum primorum principiorum, non tamen
+            <lb ed="#V" n="41"/>omnis scientia requirit euidentiam aut intellectum
+            suo<lb ed="#V" n="42" break="no"/>rum principiorum proximorum: praesertim in scientia
+            <lb ed="#V" n="43"/>subalternata. Istam conclusionem ponit sanctus Doctor
+            <lb ed="#V" n="44"/>in scripto super Boetium de Trinitate. q. 2. art. 2 ad
+            septi<lb ed="#V" n="45" break="no"/>mum dicens. Cuiuslibet (inquit) scientiae principium est
+            <lb ed="#V" n="46"/>intellectus semper quidem primum, sed non semper
+            pro<lb ed="#V" n="47" break="no"/>iximum: immo aliquando fides est proximum principium
+            <lb ed="#V" n="48"/>scientiae. sicut patet in scientijs subalternatis, quia earum
+            <lb ed="#V" n="49"/>conclusiones, sicut ex proximo principio procedunt ex
+            <lb ed="#V" n="50"/>fide eorum, quae supponuntur a superiori scientia: sed
+            si<lb ed="#V" n="51" break="no"/>cut a principio primo ab intellectu superioris scientis,
+            <lb ed="#V" n="52"/>qui de his creditis per intellectum habet certitudinem.
+            <lb ed="#V" n="53"/>Haec ille. Item ibidem ad quintum. In scientijs
+            humani<lb ed="#V" n="54" break="no"/>tus traditis sunt quaedam principia in quibusdam earum,
+            <lb ed="#V" n="55"/>quae non sunt omnibus nota, sed oportet ea supponere a
+            <lb ed="#V" n="56"/>superioribus scientijs, sicut in scientijs subalternatis
+            sup<lb ed="#V" n="57" break="no"/>ponuntur &amp; traduntur aliqua a superioribus scientijs
+            sub<lb ed="#V" n="58" break="no"/>alternantibus, &amp; huiusmodi non sunt per se nota nisi
+            su<lb ed="#V" n="59" break="no"/>perioribus sciontibus. Haec ille. Idem ponitur prima
+            par<lb ed="#V" n="60" break="no"/>e. quaesterart. 2 Duplex (inquit) est genus scientiarum.
+            <cb ed="#V" n="c"/>
+            <lb ed="#V" n="61"/>Quaedam enim sunt, quae procedunt ex principijs notis
+            <lb ed="#V" n="62"/>lumine naturalis intellectus, sicut arithmetica, geometria
+            <lb ed="#V" n="63"/>&amp; huiusmodi. Quaedam vero sunt, quae procedunt ex
+            prin<lb ed="#V" n="64" break="no"/>cipijs notis lumine superioris scientiae, sicut perspectiua
+            <lb ed="#V" n="65"/>quae procedit ex principijs notificatis per geometriam,
+            <lb ed="#V" n="66"/>&amp; musica ex principijs notis per arithmetricam. Haec ille
+          </p>
+          <p xml:id="capsco-a1b0ew-d1e291">
+            <lb ed="#V" n="67"/><milestone ed="#V" unit="p" rend="indent"/> Secunda conclusio. Licet theologia naturaliter
+            inuen<lb ed="#V" n="68" break="no"/>ta nulli scientiae subalternetur: theologia tamen per
+            re<lb ed="#V" n="69" break="no"/>uelationem habita subalternatur scientiae Dei vel
+            beato<lb ed="#V" n="70" break="no"/>rum.
+          </p>
+          <p xml:id="capsco-a1b0ew-d1e303">
+            Istam conclusionem ponit idem Doctor super Bbae
+            <lb ed="#V" n="71"/>tium vbi supra. Diuinorum (inquit) notitia dupliciter
+            <lb ed="#V" n="72"/>potest aestimari. Vno modo ex parte nostra, &amp; sic nobis
+            <lb ed="#V" n="73"/>cognoscibilia non sunt nisi ex creaturis, quarum
+            cogni<lb ed="#V" n="74" break="no"/>tionem sensu accipimus. Alio modo ex natura ipsorum,
+            <lb ed="#V" n="75"/>&amp; sic ipsa sunt ex seipsis maxime cognoscibilia, quamuis
+            <lb ed="#V" n="76"/>secundum modum suum non cognoscantur a nobis:
+            ta<lb ed="#V" n="77" break="no"/>men a Deo &amp; beatis cognoscuntur secundum modum
+            <lb ed="#V" n="78"/>suum, &amp; sic de diuinis duplex scientia habetur: vna
+            secun<lb ed="#V" n="79" break="no"/>dum modum nostram, qui sensibilium principia accipit
+            <lb ed="#V" n="80"/>ad notificandum diuina, &amp; sic de diuinis philosophi
+            scien<lb ed="#V" n="81" break="no"/>tiam tradiderunt. Haec ille.
+          </p>
+          <p xml:id="capsco-a1b0ew-d1e329">
+            Ex quo patet quod cum
+            pri<lb ed="#V" n="82" break="no"/>ma philosophia nulli scientiae subalternetur, &amp; illa est
+            <lb ed="#V" n="83"/>theologia, scilicet scientia de diuinis. sequitur quod
+            theolo<lb ed="#V" n="84" break="no"/>gia primo modo dicta nulli scientiae subalternetur, quod
+            <lb ed="#V" n="85"/>fuit prima pars conclusionis. Sed secundam partem
+            po<lb ed="#V" n="86" break="no"/>nit sanctus Doctor ibidem post praedicta subdens. Alia
+            <lb ed="#V" n="87"/>autem scientia habetur de diuinis secundum modum
+            ip<lb ed="#V" n="88" break="no"/>sorum vt ipsa diuina secundum se capiantur, quae quidem
+            <lb ed="#V" n="89"/>perfecte in statu viae non contingit, nec est possibile
+            no<lb ed="#V" n="90" break="no"/>bis, sed fit in nobis in statu viae quaedam illius
+            cognitio<lb ed="#V" n="91" break="no"/>nis participatio &amp; assimilatio ad cognitionem diuinam,
+            <lb ed="#V" n="92"/>inquantum per fidem nobis infusam inhaeremus ipsi
+            pri<lb ed="#V" n="93" break="no"/>mae veritati propter seipsam: &amp; sic vt Deus ex hoc quod
+            co<lb ed="#V" n="94" break="no"/>gnoscit se, cognoscit alia suo modo, idest simplici intuitu
+            <lb ed="#V" n="95"/>non discurrendo: ita nos ex his, quae fide capimus, primae
+            <lb ed="#V" n="96"/>veritati adhaerendo venimus in cognitionem aliorum
+            <lb ed="#V" n="97"/>secundum modum nostrum, scilicet discurrendo a
+            prin<lb ed="#V" n="98" break="no"/>cipijs ad conclusiones, vt prima ipsa, quae fide tenemus, sint
+            <lb ed="#V" n="99"/>nobis quasi principia in hac scientia, &amp; alia sint quasi
+            con<lb ed="#V" n="100" break="no"/>clusiones. Haec ille.
+          </p>
+          <p xml:id="capsco-a1b0ew-d1e374">
+            Et ibidem ad quintum postquam
+            di<lb ed="#V" n="101" break="no"/>xit, quod in scientijs subalternatis supponuntur, &amp;
+            tra<lb ed="#V" n="102" break="no"/>duntur aliqua a superioribus scientijs subalternantibus,
+            <lb ed="#V" n="103"/>&amp; huiusmodi non sunt per se nota, nisi superioribus
+            scien<lb ed="#V" n="104" break="no"/>tibus, vt recitatum est in probatione primae conclusionis,
+            <lb ed="#V" n="105"/>statim subiunxit. Et hoc modo se habent articuli fidei,
+            <lb ed="#V" n="106"/>qui sunt principia huius scientiae ad cognitionem
+            diui<lb ed="#V" n="107" break="no"/>nam, quia ea quae sunt per se nota in scientia, quam Deus
+            <lb ed="#V" n="108"/>habet de seipso, supponuntur in scientia nostra, &amp;
+            credi<lb ed="#V" n="109" break="no"/>tur ei nobis haec indicanti per suos nuntios, sicut
+            medi<lb ed="#V" n="110" break="no"/>cus credit physico quatuor esse elementa. Haec ille.
+          </p>
+          <p xml:id="capsco-a1b0ew-d1e398">
+            Et
+            <lb ed="#V" n="111"/>ad septimum postquam dixit, quod in scientia
+            subalter<lb ed="#V" n="112" break="no"/>nata proximum principium est fides. subdit. Et similiter
+            <lb ed="#V" n="113"/>huius scientiae, scilicet theologiae principium proximum
+            <lb ed="#V" n="114"/>est fides: sed primum est intellectus diuinus, cui nos
+            cre<lb ed="#V" n="115" break="no"/>dimus. Sed fides est in nobis, vt perueniamus ad
+            intelli<lb ed="#V" n="116" break="no"/>gendum quae credimus, sicut si inferior sciens addiscat
+            <pb ed="#V" n="2"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>superioris scientis scientiam: tunc fiunt ei intellecta &amp;
+            sci<lb ed="#V" n="2" break="no"/>ta, quae prius erant tantummodo credita. Haec ille.
+          </p>
+          <p xml:id="capsco-a1b0ew-d1e422">
+            Ex
+            <lb ed="#V" n="3"/>quibus patet quod mens eius fuit, quod sicut medicina
+            subal<lb ed="#V" n="4" break="no"/>ternatur philosophiae: &amp; inferior scientia superiori: ita
+            <lb ed="#V" n="5"/>nostra theologia scientiae Dei &amp; beatorum, &amp; etiam
+            pa<lb ed="#V" n="6" break="no"/>tet expresse de veritate, q. 14 artic. 9. ad tertium. &amp; prima
+            <lb ed="#V" n="7"/>parte vbi supra. Et medium eius vbique est: quia, scilicet
+            <lb ed="#V" n="8"/>theologia nostra sumit sua principia a scientia diuina.
+            Om<lb ed="#V" n="9" break="no"/>nis autem scientia hoc modo se habens ad aliam dicitur
+            <lb ed="#V" n="10"/>sibi subalternari.
+          </p>
+          <p xml:id="capsco-a1b0ew-d1e442">
+            Tertia conclusio. Licet theologia
+            secun<lb ed="#V" n="11" break="no"/>do modo dicta non sit aeque perfecte, &amp; proprie scientia
+            <lb ed="#V" n="12"/>sicut theologia primo modo dicta, quae dicitur
+            Metaphy<lb ed="#V" n="13" break="no"/>sica: tamen ipsa est scientia inquantum continuatur
+            scien<lb ed="#V" n="14" break="no"/>tiae Dei &amp; beatorum. Istam conclusionem similiter ponit
+            <lb ed="#V" n="15"/>sanctus Doctor de veritate. q. 14. artic. 9. ad tertium. Ille
+            <lb ed="#V" n="16"/>(inquit) qui habet scientiam subalternatam non perfecte
+            <lb ed="#V" n="17"/>attingit ad rationem sciendi: nisi inquantum eius
+            cogni<lb ed="#V" n="18" break="no"/>tio continuatur quodammodo cum cognitione eius, qui
+            <lb ed="#V" n="19"/>habet scientiam subalternantem: nihilominus tamen
+            in<lb ed="#V" n="20" break="no"/>ferior sciens non dicitur de his, quae supponit habere
+            scien<lb ed="#V" n="21" break="no"/>tiam: sed de conclusionibus, quae ex primis quae supponit
+            <lb ed="#V" n="22"/>de necessitate concluduntur: sic, &amp; fidelis potest dici
+            ha<lb ed="#V" n="23" break="no"/>bere scientiam de his, quae concluduntur ex articulis fidei.
+            <lb ed="#V" n="24"/>Haec ille.
+          </p>
+          <p xml:id="capsco-a1b0ew-d1e475">
+            Ibidem etiam dicitur in principali ratione.
+            Quae<lb ed="#V" n="25" break="no"/>cunque sciuntur proprie accepta scientia cognoscuntur
+            <lb ed="#V" n="26"/>per resolutionem in prima principia, quae per se presto sunt
+            <lb ed="#V" n="27"/>intellectui. Haec ille. Ex quo patet, quod cum Metaphysica
+            <lb ed="#V" n="28"/>resoluat suas conclusiones, in prima principia naturaliter
+            <lb ed="#V" n="29"/>cognita, quod illa est verissime scientia, &amp; proprie dicta.
+            Theo<lb ed="#V" n="30" break="no"/>logia vero secundo modo dicta non potest suas
+            conclu<lb ed="#V" n="31" break="no"/>siones resoluere nisi ad articulos fidei, qui non sunt
+            noti<lb ed="#V" n="32" break="no"/>in lumine naturali, &amp; ideo non adeo est vere, &amp; proprie
+            <lb ed="#V" n="33"/>scientia. vnde sanctus Doctor 3. senten. dist., 3. q. 1. articu.
+            <lb ed="#V" n="34"/>2. quaestiuncula quarta. Si esset (inquit) aliqua scientia,
+            <lb ed="#V" n="35"/>quae non posset reduci ad principia naturaliter cognita:
+            <lb ed="#V" n="36"/>non esset eiusdem speciei cum alijs scientijs, nec vniuoce
+            <lb ed="#V" n="37"/>scientia diceretur. Haec ille.
+          </p>
+          <p xml:id="capsco-a1b0ew-d1e506">
+            Eandem conclusionem
+            prae<lb ed="#V" n="38" break="no"/>sertim quo ad secundam partem, scilicet quod theologia
+            <lb ed="#V" n="39"/>secundo modo dicta aliquo modo dicta sit scientia, ponit
+            <lb ed="#V" n="40"/>super Boetium vbi supra. quam probat tum auctoritate.
+            <lb ed="#V" n="41"/>Augustini 14. de Trini. superius allegata. tum per illud Sap. 10.
+            <lb ed="#V" n="42"/>Dedit illi scientiam sanctorum, id est fidei, quia de alia
+            in<lb ed="#V" n="43" break="no"/>telligi non potest: qua sancti ab impijs discernantur nisi
+            <lb ed="#V" n="44"/>de scientia fidei: tum super illud primae ad Cor. 8. Non in
+            <lb ed="#V" n="45"/>omnibus est scientia, &amp; loquitur de cognitione fidelium.
+          </p>
+          <p xml:id="capsco-a1b0ew-d1e527">
+            <lb ed="#V" n="46"/>Eandem conclusionem ponit prima parte. q. vbi supra
+            di<lb ed="#V" n="47" break="no"/>ceus. Hoc modo (inquit) sacra doctrina est scientia, quia
+            <lb ed="#V" n="48"/>procedit ex principijs notis lumine superioris scientiae, quae
+            <lb ed="#V" n="49"/>est Dei &amp; beatorum. vnde sicut musica credit principia
+            <lb ed="#V" n="50"/>sibi tradita ab arithmeticotita sacra doctrina credit
+            prin<lb ed="#V" n="51" break="no"/>cipia reuelata a Deo.
+          </p>
+          <p xml:id="capsco-a1b0ew-d1e543">
+            Quarta conclusio est, quod
+            theolo<lb ed="#V" n="52" break="no"/>gia secundo modo dicta est certior quacunque scientia
+            in<lb ed="#V" n="53" break="no"/>uenta humanitus: licet sit ineuidentior. Istam
+            conclusio<lb ed="#V" n="54" break="no"/>nem virtualiter ponit sanctus Doctor 3 senten. dist. 23. q.
+            <lb ed="#V" n="55"/>2. artic. secundo quaestiuncula tertia. Ibi enim ostendit quod
+            <lb ed="#V" n="56"/>maior est certitudo fidei quam intellectus qui dicitur
+            ha<lb ed="#V" n="57" break="no"/>bitus principiorum per se notorum. quo probato apparet,
+            <lb ed="#V" n="58"/>quod theologia secundo modo dicta, cuius principia sunt
+            <lb ed="#V" n="59"/>articuli fidei, est certior scientijs humanis, quarum
+            prin<lb ed="#V" n="60" break="no"/>cipia sunt nota habitu qui dicitur intellectus. sicut enim
+            <lb ed="#V" n="61"/>se habet principium ad principium quo ad certitudinem,
+            <lb ed="#V" n="62"/>vel euidentiam cognitionis: ita conclusio ad
+            conclusio<lb ed="#V" n="63" break="no"/>nem: &amp; scientia ad scientiam. Ibidem autem sic ait,
+            Cer<lb ed="#V" n="64" break="no"/>titudo nihil aliud est quam determinatio intellectus ad
+            <lb ed="#V" n="65"/>vnum:tanto autem maior est certitudo, quanto est fortius
+            <lb ed="#V" n="66"/>quod determinationem causat. Determinatur autem
+            in<lb ed="#V" n="67" break="no"/>tellectus ad vnum tripliciter. in intellectu enim
+            princi<lb ed="#V" n="68" break="no"/>piorum causatur determinatio ex hoc, quod aliquid per
+            <lb ed="#V" n="69"/>lumen intellectus sufficienter inspici potest per seipsum.
+            <lb ed="#V" n="70"/>In scientia vero conclusionum causatur determinatio ex
+            <lb ed="#V" n="71"/>hoc, quod conclusio secundum actum rationis in
+            princi<lb ed="#V" n="72" break="no"/>pia per se visa resoluitur: in fide vero ex hoc quod voluntas
+            <lb ed="#V" n="73"/>intellectui imperat. sed quia voluntas hoc modo non
+            ter<lb ed="#V" n="74" break="no"/>minat intellectum: vt faciat inspici quae creduntur: sicut
+            <lb ed="#V" n="75"/>inspiciuntur principia per se nota: vel quae in alia
+            resol<cb ed="#V" n="b"/><lb ed="#V" n="76" break="no"/>uuntur: sed hoc modo vt intellectus firmiter adhaereat,
+            <lb ed="#V" n="77"/>vni, ideo certitudo quae est in scientia, &amp; in intellectu est
+            <lb ed="#V" n="78"/>ex ipsa euidentia eorum quae dicuntur certa. Certitudo
+            <lb ed="#V" n="79"/>autem fidei est ex firma adhaesione ad id quod creditur.
+            In<lb ed="#V" n="80" break="no"/>his ergo quae per fidem credimus ratio voluntatem
+            incli<lb ed="#V" n="81" break="no"/>nans est ipsa veritas prima siue Deus cui creditur, quae,
+            ha<lb ed="#V" n="82" break="no"/>bet maiorem firmitatem quam lumen intellectus
+            huma<lb ed="#V" n="83" break="no"/>ni: in quo conspiciuntur principia, vel ratio humana
+            se<lb ed="#V" n="84" break="no"/>cundum quam conclusiones in principia resoluuntur, &amp;
+            <lb ed="#V" n="85"/>ideo fides habet maiorem certitudinem quantum ad
+            fi<lb ed="#V" n="86" break="no"/>dem adhaesionis quam sit certitudo scientiae, &amp;
+            intelle<lb ed="#V" n="87" break="no"/>ctus, quamuis in scientia, &amp; intellectu sit maior euidentia
+            <lb ed="#V" n="88"/>eoruia: quibus assentitur. Haec ille.
+          </p>
+          <p xml:id="capsco-a1b0ew-d1e627">
+            Et ibidem ad primum
+            <lb ed="#V" n="89"/>dicit. Certitudo fidei dicitur mediare inter certitudinem
+            <lb ed="#V" n="90"/>scientiae, &amp; opinionis non intensiue per modum
+            quantita<lb ed="#V" n="91" break="no"/>tis continuae, sed extensiue per modum numeri.
+            Certitu<lb ed="#V" n="92" break="no"/>do, enim scientiae consistit in duobus, scilicet in euidentia, i
+            <lb ed="#V" n="93"/>&amp; firmitate adhaesionis. Certitudo vero fidei consistit in
+            <lb ed="#V" n="94"/>vno, scilicet in firmitate adhaesionis. Certitudo vero
+            opi<lb ed="#V" n="95" break="no"/>nionis in neutro, quamuis certitudo fidei de qua
+            loqui<lb ed="#V" n="96" break="no"/>mur quantum ad illud vnum sit vehementior, quam
+            cer<lb ed="#V" n="97" break="no"/>titudo scientiae, quantum ad illa duo. Haec ille.
+          </p>
+          <p xml:id="capsco-a1b0ew-d1e649">
+            Consimile
+            <lb ed="#V" n="98"/>ponit de veritate. q. 14. artic. 1. ad septimum. Quid sit
+            cer<lb ed="#V" n="99" break="no"/>titudo ostendit Linconiensis primo Poster. ca. 17. in
+            prin<lb ed="#V" n="100" break="no"/>cipio. Res (inquit) dicuntur certae a comparatione quam
+            <lb ed="#V" n="101"/>habent ad cognitionem siue ad lucem mentalem. Dico
+            <lb ed="#V" n="102"/>ergo quod est lux spiritualis quae superfunditur rebus
+            in<lb ed="#V" n="103" break="no"/>tellectualibus &amp; oculo mentis: quae se habet ad oculum
+            <lb ed="#V" n="104"/>interiorem, &amp; ad res intelligibiles: sicut se habet sol
+            cor<lb ed="#V" n="105" break="no"/>poralis ad oculum corporalem, &amp; ad res corporales
+            vi<lb ed="#V" n="106" break="no"/>sibiles. Res igitur intelligibiles magis receptibiles huius
+            <lb ed="#V" n="107"/>lucis spiritualis magis visibiles sunt oculo interiori, &amp;
+            ma<lb ed="#V" n="108" break="no"/>gis sunt huius lucis receptibiles quae naturam huius lucis
+            <lb ed="#V" n="109"/>magis assequuntur. Res itaque huius lucis magis
+            recepti<lb ed="#V" n="110" break="no"/>biles ab intellectus acie quae est irradiatio spiritualis
+            per<lb ed="#V" n="111" break="no"/>fectius penetrantur, &amp; haec penetratio perfectior est, &amp;
+            <lb ed="#V" n="112"/>certitudo maior. Et post multa subdit. Quae (inquit)
+            pu<lb ed="#V" n="113" break="no"/>riora sunt, propinquiora sunt luci spirituali: cuius
+            super<lb ed="#V" n="114" break="no"/>fusione res intelligibiles ab aspectu mentis fiunt actu
+            vi<lb ed="#V" n="115" break="no"/>sibiles, &amp; magis sunt receptibilia illius lucis, &amp; magis
+            pe<lb ed="#V" n="116" break="no"/>netrabilia ab a pectu mentis. vnde &amp; certiora sunt, &amp;
+            scien<lb ed="#V" n="117" break="no"/>tia quae de his est, est scientia certior. secundum hunc
+            mo<lb ed="#V" n="118" break="no"/>dum, scientia de substantijs incorporeis separatis certior
+            <lb ed="#V" n="119"/>est sc. entia de substantijs incorpor eis ligatis cum
+            corpo<lb ed="#V" n="120" break="no"/>re, &amp; haec iterum certior, est quam scientia de substantijs
+            <lb ed="#V" n="121"/>corporeis, vt dicit Aristoes quia scientia de anima est
+            cer<lb ed="#V" n="122" break="no"/>tior alijs scientijs naturalibus, quae sunt de corporibus
+            na<lb ed="#V" n="123" break="no"/>turalibus mobilibus. Nec est hoc contrarium ei quod
+            su<lb ed="#V" n="124" break="no"/>pra diximus, scilicet quod in mathematicis est rarius
+            er<lb ed="#V" n="125" break="no"/>ror:do quod res mathematicae sunt bene visibiles ab
+            in<lb ed="#V" n="126" break="no"/>tellectu, nec ei quod dicit Ptolemaeus, scilicet quod in
+            <lb ed="#V" n="127"/>mathematicis, est scientia certissima, &amp; magis certa quam
+            <lb ed="#V" n="128"/>in Metaphysicis, quia dicimus quod res diuinae sunt
+            ma<lb ed="#V" n="129" break="no"/>gis visibiles ab aspectu mentis sano non obnubilato
+            fan<lb ed="#V" n="130" break="no"/>tasmatibus sicut res corporales clarissimae, &amp; a lumine
+            so<lb ed="#V" n="131" break="no"/>lis magis illuminatae sunt magis visibiles ab oculo
+            corpo<lb ed="#V" n="132" break="no"/>rali sano assuefacto visioni rerum splendidarum, sed ab
+            <lb ed="#V" n="133"/>aspectu mentis aegto, qualis est aspectus noster modo cum
+            <lb ed="#V" n="134"/>grauamur mole corporis corrupti ex affectu rerum
+            cor<lb ed="#V" n="135" break="no"/>poralium sunt res obuolutae fantasmatibus magis
+            visibi<lb ed="#V" n="136" break="no"/>laes: sicut ab oculo corporali aegro melius, videntur res
+            ni<lb ed="#V" n="137" break="no"/>grae, &amp; aliquantulum tenebrosae quam res albae: &amp; multo
+            <lb ed="#V" n="138"/>lumine solis perfusae. Intellectui igitur humano qualis est
+            <lb ed="#V" n="139"/>adhuc in nobis sunt res mathematicae certissimae. ad quas
+            <lb ed="#V" n="140"/>comprehendendas nos iuuant fantasmata imaginabilia,
+            <lb ed="#V" n="141"/>a visu recepta, sed intellectui tali, qualis debet esse
+            secun<lb ed="#V" n="142" break="no"/>dum statum, sui optimum, sunt res diuinae certissimae, quia
+            <lb ed="#V" n="143"/>quanto res sunt puriores, &amp; natura sublimiores tanto
+            cer<lb ed="#V" n="144" break="no"/>tiores. Haec ille.
+          </p>
+          <p xml:id="capsco-a1b0ew-d1e753">
+            Ex quo etiam patet conclusio praedicta,
+            <lb ed="#V" n="145"/>scilicet quod veritates theologicae sunt certissimae in se:
+            <lb ed="#V" n="146"/>licet ista probatio ex alia radice quam prima procedat.
+            <lb ed="#V" n="147"/>Vnde ex Lnconiensi habetur: quod theologia ex parte
+            <lb ed="#V" n="148"/>obiecti est certissima, non autem ex parte subiecti, in quo
+            <lb ed="#V" n="149"/>est, scilicet in intellectu viatoris, ideo illa certitudo est
+            se<lb ed="#V" n="150" break="no"/>cundum quid. Sed prima probatio vadit de certitudine
+            <pb ed="#V" n="3"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>simpliciter, non enim notitia simpliciter certa dicitur
+            pro<lb ed="#V" n="2" break="no"/>pter certitudinem obiecti cum opinio possit esse de
+            con<lb ed="#V" n="3" break="no"/>clusione necessaria, sed propter certitudinem illius quod
+            <lb ed="#V" n="4"/>capit a sensu.
+          </p>
+          <p xml:id="capsco-a1b0ew-d1e782">
+            Quinta conclusio est, quod theologia
+            secun<lb ed="#V" n="5" break="no"/>do modo dicta illo modo quo est scientia non est
+            scien<lb ed="#V" n="6" break="no"/>tia, articulorum fidei, sed conclusionum, quae sequuntur
+            <lb ed="#V" n="7"/>ex illis. Istam conclusionem ponit Sanctus Doctor de
+            ve<lb ed="#V" n="8" break="no"/>ritate. q. 14. articul. 9 ad tertium vt allegaui in tertia
+            con<lb ed="#V" n="9" break="no"/>clusione. Istam etiam probat in multis alijs loci,, vbi
+            te<lb ed="#V" n="10" break="no"/>net quod nunquam de eodem habetur simul scientia, &amp;
+            <lb ed="#V" n="11"/>fides, vt secunda secundae. q. 1. artic. 5. &amp; tertio senten. dist.
+            <lb ed="#V" n="12"/>24. q. 1. artic. secunda quaestiuncula tertia, &amp; de veritate.
+            <lb ed="#V" n="13"/>q. 14. articul. 9.
+          </p>
+          <p xml:id="capsco-a1b0ew-d1e805">
+            Eandem conclusionem ponit super
+            Boe<lb ed="#V" n="14" break="no"/>tium vbi supra ad quartum. vbi dicit. In qualibet scientia
+            <lb ed="#V" n="15"/>sunt aliqua quasi principia, &amp; aliqua quasi conclusiones.
+            <lb ed="#V" n="16"/>Ratio ergo quae inducitur in scientijs praecedit assensum
+            <lb ed="#V" n="17"/>conclusionum, sed sequitur assensum principiorum: cum
+            <lb ed="#V" n="18"/>ex eis procedat. Articuli autem fidei non sunt in hac
+            scien<lb ed="#V" n="19" break="no"/>tia, quasi conclusiones: sed quasi principia quae esse
+            de<lb ed="#V" n="20" break="no"/>fenduntur ab impugnantibus, sicut Philosophus quarto.
+            <lb ed="#V" n="21"/>Meta physicae disputat contra negantes principia, &amp;
+            mani<lb ed="#V" n="22" break="no"/>festantur per aliquas similitudines: sicut principia
+            natu<lb ed="#V" n="23" break="no"/>raliter nota per inductionem, non autem ratione
+            demon<lb ed="#V" n="24" break="no"/>stratiua probantur. Haec ille.
+          </p>
+          <p xml:id="capsco-a1b0ew-d1e831">
+            Et ibidem ad sextum dicit.
+            <lb ed="#V" n="25"/>Apparentia scientiae procedit ex apparentia principiorum,
+            <lb ed="#V" n="26"/>vnde scientia non facit apparere principia, sed ex hoc, quod
+            <lb ed="#V" n="27"/>apparent principia, facit apparere conclusiones, &amp; per
+            <lb ed="#V" n="28"/>hunc modum scientia, de qua loquimur, non facit
+            appa<lb ed="#V" n="29" break="no"/>rere ea de quibus est fides, sed ex eis facit apparere alia
+            per<lb ed="#V" n="30" break="no"/>modum, quo de primis habetur certitudo. Haec ille. Item
+            <lb ed="#V" n="31"/>prima parte. q. prima arti. 8. Sicut inquit aliae scientiae non
+            <lb ed="#V" n="32"/>argumentantur ad ostendendum sua principia, ita nec ista
+            <lb ed="#V" n="33"/>scientia argumentatur ad sua principia probanda, quae
+            <lb ed="#V" n="34"/>sunt articuli fidei, sed ex eis procedit ad aliquid
+            ostenden<lb ed="#V" n="35" break="no"/>dum. Haec ille.
+          </p>
+          <p xml:id="capsco-a1b0ew-d1e857">
+            Ex quibus omnibus patet, quod articuli
+            <lb ed="#V" n="36"/>fidei, se habent sicut principia theologiae, &amp; non sicut
+            con<lb ed="#V" n="37" break="no"/>clusiones, &amp; consequenter theologia non est de his sicut
+            <lb ed="#V" n="38"/>de conclusionibus scitis per eam, sicut nec aliqua scientia
+            <lb ed="#V" n="39"/>est de suis principijs sicut de scitis, sed solum de
+            conclu<lb ed="#V" n="40" break="no"/>sionibus, quae ex principijs consequuntur. Sexta
+            conclu<lb ed="#V" n="41" break="no"/>sio, &amp; vltima est. Ista doctrina est necessaria ad salutem
+            <lb ed="#V" n="42"/>humanam praeter scientias humanitus inuentas. Istam
+            con<lb ed="#V" n="43" break="no"/>clusionem probat Sanctus Thomas prima parte. q. 1. arti.
+            <lb ed="#V" n="44"/>primo sic dicens. Necessarium fuit ad salutem humanam
+            <lb ed="#V" n="45"/>esse doctrinam quandam secundum reuelationem
+            diui<lb ed="#V" n="46" break="no"/>nam praeter physicas disciplinas quae ratione humana
+            in<lb ed="#V" n="47" break="no"/>uestigantur. Primo quidem quia homo ordinatur a Deo
+            <lb ed="#V" n="48"/>ad quendam finem, qui appraehensionem rationis excedit,
+            <lb ed="#V" n="49"/>secundum illud. Isa. 64. Oculus non vidit Deus absque
+            te<lb ed="#V" n="50" break="no"/>quae praeparasti diligentibus te, finem autem oportet
+            es<lb ed="#V" n="51" break="no"/>se praecognitum hominibus qui suas intentiones, &amp;
+            actio<lb ed="#V" n="52" break="no"/>nes debent ordinare in finem, vnde necessarium fuit
+            ho<lb ed="#V" n="53" break="no"/>mini ad salutem, quod ei nota fierent quaedam per
+            reue<lb ed="#V" n="54" break="no"/>sationem diuinam quae humanam rationem ex cedunt.
+            <lb ed="#V" n="55"/>Ad ea etiam quae de deo ratione humana inuestigari
+            pos<lb ed="#V" n="56" break="no"/>sunt necessarium fuit hominem instrui reuelatione
+            diui<lb ed="#V" n="57" break="no"/>na, quia veritas de Deo per rationem inuestigata a
+            pau<lb ed="#V" n="58" break="no"/>cis: &amp; per longum tempus: &amp; cum admixtione
+            multo<lb ed="#V" n="59" break="no"/>rum errorum homini perueniret: a cuius tamen
+            verita<lb ed="#V" n="60" break="no"/>tis cognitione tota hominis salus, quae in Deo est,
+            depen<lb ed="#V" n="61" break="no"/>det. Vt igitur salus hominibus, &amp; communius, &amp;
+            secu<lb ed="#V" n="62" break="no"/>rius perueniat, necessarium fuit, quod de diuinis per
+            di<lb ed="#V" n="63" break="no"/>uinam reuelationem instruantur. Fuit igitur necessarium
+            <lb ed="#V" n="64"/>praeter doctrinas physicas, quae per rationem
+            inuestigan<lb ed="#V" n="65" break="no"/>tur, sacram doctrinam per reuelationem haberi. Haec
+            il<lb ed="#V" n="66" break="no"/>le. Ibidem etiam in solutione secundi argumenti dicit sic.
+            <lb ed="#V" n="67"/>Diuersa ratio cognoscibilis diuersitatem scientiarum
+            in<lb ed="#V" n="68" break="no"/>ducit, eandem enim conclusionem demonstrat
+            astrolo<lb ed="#V" n="69" break="no"/>gus, &amp; naturalis, puta quod terra est rotunda: sed
+            astro<lb ed="#V" n="70" break="no"/>logus per medium mathematicum, id est a materia
+            ab<lb ed="#V" n="71" break="no"/>stractum, naturalis autem per medium circa materiam
+            <lb ed="#V" n="72"/>consideratum: nihil igitur prohibet de eisdem rebus de
+            <lb ed="#V" n="73"/>quibus disciplinae physicae tractant secundum quod sunt
+            <lb ed="#V" n="74"/>cognoscibilia lumine naturalis rationis, &amp; aliam
+            scien<lb ed="#V" n="75" break="no"/>tiam tractare secundum quod cognoscuntur luminae
+            diui<cb ed="#V" n="b"/><lb ed="#V" n="76" break="no"/>nae reuelationis. Vnde Theologia quae ad sacram
+            doctri<lb ed="#V" n="77" break="no"/>nam pertinet differt secundum genus ab ea theologia quae
+            <lb ed="#V" n="78"/>pars philosophiae ponitur. Haec ille. Ex quibus patet ad
+            <lb ed="#V" n="79"/>primum articulum.
+          </p>
+        </div>
+        <div xml:id="capsco-a1b0ew-Dd1e958">
+          <head xml:id="capsco-a1b0ew-Hd1e960">Articulus 2</head>
+          <p xml:id="capsco-a1b0ew-d1e962">
+            <lb ed="#V" n="80"/><milestone ed="#V" unit="p" rend="indent"/> Quantum autem ad secundum articulum mouenda
+            <lb ed="#V" n="81"/>sunt dubia contra conclusiones. Et quidem contra
+            pri<lb ed="#V" n="82" break="no"/>mam arguit Aureolus prima. q. prologi probando quod:
+            <lb ed="#V" n="83"/>non sufficit ad rationem scientiae etiam subalternae
+            noti<lb ed="#V" n="84" break="no"/>tia creditiua solum respectu principiorum.
+          </p>
+          <p xml:id="capsco-a1b0ew-d1e976">
+            <lb ed="#V" n="85"/><milestone ed="#V" unit="p" rend="indent"/> Primo sic. Habitus principiorum est altior, &amp;
+            nobi<lb ed="#V" n="86" break="no"/>lior habitu conclusionum, tum quia hoc dicit
+            Philoso<lb ed="#V" n="87" break="no"/>phus primo Posteriorum, tum quia propter
+            vnumquod<lb ed="#V" n="88" break="no"/>que tale, &amp; illud magis, cognitio vero principiorum est,
+            <lb ed="#V" n="89"/>causa cognitionis in conclusione, sed certum est quod
+            no<lb ed="#V" n="90" break="no"/>titia creditiua non est altior notitia scientifica. immo est
+            <lb ed="#V" n="91"/>inferior gradus cognitionis credere ad scire, &amp; habitus
+            <lb ed="#V" n="92"/>creditiuus ad habitum scientificum. ergo impossibile est,
+            <lb ed="#V" n="93"/>quod conclusio scientiae cognoscatur quocunque
+            habi<lb ed="#V" n="94" break="no"/>tu scientiae etiam subalternae, &amp; quod principium tantum
+            <lb ed="#V" n="95"/>modo credatur, &amp; teneatur habitu creditiuo. Nec obstat
+            <lb ed="#V" n="96"/>si dicatur quod scire scientiae subalternae est inferius ad
+            <lb ed="#V" n="97"/>credere: constat enim quod hoc est omnino falsum: quia
+            <lb ed="#V" n="98"/>scire ex sui ratione formali, &amp; totali est altior modus
+            co<lb ed="#V" n="99" break="no"/>gnitionis quam sit credere vel suspicari. Vnde im
+            possibi<lb ed="#V" n="100" break="no"/>le est, quod scientia subalternata procedat ex principijs
+            <lb ed="#V" n="101"/>cognitis habitu creditiuo.
+          </p>
+          <p xml:id="capsco-a1b0ew-d1e1016">
+            <lb ed="#V" n="102"/><milestone ed="#V" unit="p" rend="indent"/> Secundo. Nam Aristote sexto. Ethicorum tractauit de t
+            <lb ed="#V" n="103"/>intellectu qui est habitus principiorum, &amp; nunquam
+            po<lb ed="#V" n="104" break="no"/>suit, quod in aliqua scientia subalternante vel
+            subalterna<lb ed="#V" n="105" break="no"/>ta habitus iste sit fides: primo etiam Metaphysicae docet:
+            <lb ed="#V" n="106"/>quomodo sumuntur communes animi conceptiones, quae
+            <lb ed="#V" n="107"/>sunt principia in arte. In fine quoque secundi
+            Posterio<lb ed="#V" n="108" break="no"/>rum docet: quomodo principia fiunt cognita. tum
+            nun<lb ed="#V" n="109" break="no"/>quam ponit quod vnus modus sumendi principia sit per
+            <lb ed="#V" n="110"/>habitum creditiuum. ergo vel est insufficiens Aristoteles aut
+            <lb ed="#V" n="111"/>nihil est dictu, quod scientia subalternata procedat ex
+            prin<lb ed="#V" n="112" break="no"/>cipijs per talem habitum notis.
+          </p>
+          <p xml:id="capsco-a1b0ew-d1e1043">
+            <lb ed="#V" n="113"/><milestone ed="#V" unit="p" rend="indent"/> Tertio. Quia scientia subalternans est habitus
+            princi<lb ed="#V" n="114" break="no"/>piorum respectu scientiae subalternatae, quod sic patet.
+            Cer<lb ed="#V" n="115" break="no"/>tum est enim, quod in omni scientia alius est habitus
+            re<lb ed="#V" n="116" break="no"/>spectu conclusionum, &amp; alius respectu principiorum: in 1
+            <lb ed="#V" n="117"/>perspectiua igitur habitus principiorum vel est ipsamet
+            <lb ed="#V" n="118"/>perspectiua, vel geometria, vel fides a geometria relicta.
+            <lb ed="#V" n="119"/>Non potest dici, quod sit perspectiua ne sit idem habitus
+            <lb ed="#V" n="120"/>conclusionis &amp; principij. Nec potest dici, quod sit fides a
+            <lb ed="#V" n="121"/>geometria relicta, tum quia geometria non causat fidem,
+            <lb ed="#V" n="122"/>tum quia principia perspectiuae duplici habitu
+            cognosce<lb ed="#V" n="123" break="no"/>rentur, videlicet fide, &amp; geometrica demonstratione, quod
+            <lb ed="#V" n="124"/>esse non potest. maxime secundum Sanctum Thomam
+            ponen<lb ed="#V" n="125" break="no"/>tem quod fides, &amp; scientia demonstratiua, &amp; euidens
+            si<lb ed="#V" n="126" break="no"/>mul esse non possunt, de eodem. Vnde si fides esset
+            habi<lb ed="#V" n="127" break="no"/>tus principiorum perspectiuae, nunquam aliquis esset
+            si<lb ed="#V" n="128" break="no"/>mul geometra, &amp; perspectiuus. alioquin simul esset sciens
+            <lb ed="#V" n="129"/>principia perspectiuae inquantum esset geometra, &amp;
+            cre<lb ed="#V" n="130" break="no"/>dens ea inquantum esset pespectiuus. Relinquitur igitur
+            <lb ed="#V" n="131"/>quod scientia subalternans sit habitus principiorum
+            re<lb ed="#V" n="132" break="no"/>spectu scientiae subalternatae. ergo non est verum, quod
+            <lb ed="#V" n="133"/>scientia subalternata procedat ex principijs cognitis
+            ha<lb ed="#V" n="134" break="no"/>bitu creditiuo.
+          </p>
+          <p xml:id="capsco-a1b0ew-d1e1095">
+            <lb ed="#V" n="135"/><milestone ed="#V" unit="p" rend="indent"/> Quarto quia quamuis oporteat discipulum doctori
+            <lb ed="#V" n="136"/>credere dum addiscit. non tamen habet scientiam
+            quan<lb ed="#V" n="137" break="no"/>diu credit: sed tunc dum incipit intelligere quod
+            crede<lb ed="#V" n="138" break="no"/>bat. iuxta illud Philosophi. 7. Ethicor. Pueri quidem a
+            prin<lb ed="#V" n="139" break="no"/>cipio complectuntur sermones primum discentes, sciunt
+            <lb ed="#V" n="140"/>autem nequaquam, oportet autem conari, hoc autem
+            tem<lb ed="#V" n="141" break="no"/>pore indiget: sed clarum est quod statim acquirerent
+            scien<lb ed="#V" n="142" break="no"/>tiam, si sufficeret credulitas respectu principiorum. ergo
+            <lb ed="#V" n="143"/>non sufficit, vt videtur.
+          </p>
+          <p xml:id="capsco-a1b0ew-d1e1118">
+            <lb ed="#V" n="144"/><milestone ed="#V" unit="p" rend="indent"/> Quinto. Nulla adhaesio voluntaria est scientifica,
+            scien<lb ed="#V" n="145" break="no"/>tia enim cogit intellectum ad assentiendum: nec subest
+            <lb ed="#V" n="146"/>voluntati scientis adhaerere, &amp; non adhaerere veritati quam
+            <lb ed="#V" n="147"/>nouit: sed omnis adhaesio ad cognitionem deducta ex
+            <lb ed="#V" n="148"/>principio creditiuo est adhaesio voluntaria, nihil enim
+            <lb ed="#V" n="149"/>magis est in potestate nostra, quam credere secundum
+            <lb ed="#V" n="150"/>Augustnus vnde talis suspendere potest adhaesionem, quam
+            <pb ed="#V" n="4"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>habet respectu conclusionum, &amp; respectu principiorum.
+            <lb ed="#V" n="2"/>ergo talis adhaesio non est scientifica.
+          </p>
+          <p xml:id="capsco-a1b0ew-d1e1145">
+            Confirmatur per
+            <lb ed="#V" n="3"/>hoc. Quia habens scientiam siue subalternatam siue
+            subal<lb ed="#V" n="4" break="no"/>ternantem immobiliter adhaeret: nec est in potestate sua
+            <lb ed="#V" n="5"/>suspendere actum adhaesionis. Ex quibus patet inquit quod
+            <lb ed="#V" n="6"/>scientia sub alternans est habitus principiorum respectu
+            <lb ed="#V" n="7"/>scientiae subalternatae, &amp; non fides aut alius habitus
+            credi<lb ed="#V" n="8" break="no"/>tiuus. cuius oppositum ponit conclusio tua. Primo
+            argui<lb ed="#V" n="9" break="no"/>tur sic. Aut notitia conclusionis fit nota nobis naturaliter
+            <lb ed="#V" n="10"/>ex alia priori notitia complexa, aut non. Si non. ergo non
+            <lb ed="#V" n="11"/>est scientia proprie loquendo, quae dicitur esse
+            conclusio<lb ed="#V" n="12" break="no"/>nis, sed potius dicitur esse intellectus principij, &amp;
+            propo<lb ed="#V" n="13" break="no"/>sitionis immediatae. Si vero notitia fit in nobis ex alia
+            prio<lb ed="#V" n="14" break="no"/>ri notitia complexa, illa notitia ex qua fit, est notitia
+            prin<lb ed="#V" n="15" break="no"/>cipij. ergo omnis scientia quae in nobis naturaliter
+            acqui<lb ed="#V" n="16" break="no"/>ritur, fit in nobis ex notitia principiorum, &amp; per
+            conse<lb ed="#V" n="17" break="no"/>quens cuiuslibet scientiae naturaliter acquisitae principia
+            <lb ed="#V" n="18"/>sunt vel fuerunt habenti ea nota.
+          </p>
+          <p xml:id="capsco-a1b0ew-d1e1182">
+            Confirmatur per
+            Philo<lb ed="#V" n="19" break="no"/>sophum primo Posteriorum dicente, quod necesse est
+            de<lb ed="#V" n="20" break="no"/>monstratiuam scientiam originabilem esse ex his, &amp;
+            pri<lb ed="#V" n="21" break="no"/>mis &amp; notioribus &amp; causis conclusionis, originatur enim
+            <lb ed="#V" n="22"/>huiusmodi scientia ex veris necessarijs, &amp; primis &amp;
+            no<lb ed="#V" n="23" break="no"/>tioribus, id est euidentioribus &amp; prioribus &amp; causis
+            con<lb ed="#V" n="24" break="no"/>clusionis, originatur enim huiusmodi scientia ex veris
+            ne<lb ed="#V" n="25" break="no"/>cessarijs, &amp; primis, &amp; notioribus, id est euidentioribus,
+            <lb ed="#V" n="26"/>&amp; prioribus, &amp; causis conclusionis, quia illae primae
+            noti<lb ed="#V" n="27" break="no"/>tiae praemissarum demonstrationis sunt causae notitiae
+            con<lb ed="#V" n="28" break="no"/>clusionis. Et ad hunc sensum dicit ibi Philosophus. Sine
+            <lb ed="#V" n="29"/>his vtique erit syllogismus, demonstratio autem non erit:
+            <lb ed="#V" n="30"/>non enim faceret scientiam.
+          </p>
+          <p xml:id="capsco-a1b0ew-d1e1211">
+            Item infra dicit, quod non
+            <lb ed="#V" n="31"/>solum necesse est agnoscere prima, sed &amp; magis: semper,
+            <lb ed="#V" n="32"/>enim propter quod vnumquodque est, &amp; illud magis. Et
+            <lb ed="#V" n="33"/>subdit. Quoniam quod scimus, &amp; credimus per prima,
+            <lb ed="#V" n="34"/>illa scimus, &amp; credimus magis. Ex quibus patet secundum
+            <lb ed="#V" n="35"/>ipsum, quod quaelibet scientia acquiritur ex notitijs
+            suo<lb ed="#V" n="36" break="no"/>rum principiorum. Ex quo patet, quod non sufficiunt
+            <lb ed="#V" n="37"/>principia esse nota alteri, vt ego scientiam habeam de
+            con<lb ed="#V" n="38" break="no"/>clusione, quoniam per nullam notitiam existentem in alio
+            <lb ed="#V" n="39"/>causari potest immediate, &amp; naturaliter aliqua scientia,
+            <lb ed="#V" n="40"/>in mente mea. Cum ergo principia theologiae non sint
+            ne<lb ed="#V" n="41" break="no"/>que fuerint nobis nota, theologia quae acquiritur de
+            com<lb ed="#V" n="42" break="no"/>muni lege, in theologicis non est vere scientia. Secundo
+            <lb ed="#V" n="43"/>sic. Scientia subalt ernata potest acquiri principijs eius non
+            <lb ed="#V" n="44"/>notis acquirenti, sed tantum creditis, notis autem
+            haben<lb ed="#V" n="45" break="no"/>ti superiorem scientiam: eadem ratione, &amp; scientia non
+            <lb ed="#V" n="46"/>subalternata poterit acquiri ab aliquo, esto quod non
+            no<lb ed="#V" n="47" break="no"/>uerit eius principia, dum modo credat illa, &amp; alius
+            noue<lb ed="#V" n="48" break="no"/>rit, non enim potior ratio est inde quam hinc, &amp; per
+            con<lb ed="#V" n="49" break="no"/>sequens non oportebit dicere, quod theologia est scientia
+            <lb ed="#V" n="50"/>subalternata, sed absolute poterit dici scientia. Haec duo
+            <lb ed="#V" n="51"/>argumenta vltima sunt Gregorij de arimino. Similiter
+            <lb ed="#V" n="52"/>contra secundam conclusionem arguitur multipliciter
+            se<lb ed="#V" n="53" break="no"/>cundum Aureolumas primo sic. Si theologia viatoris
+            subal<lb ed="#V" n="54" break="no"/>ternatur scientiae beatorum, vel illa subalternatio est quo
+            <lb ed="#V" n="55"/>ad principium illo modo quo perspectiuus procedit per
+            <lb ed="#V" n="56"/>propositiones, quas sibi tradit geometra. aut quo ad
+            mo<lb ed="#V" n="57" break="no"/>dum sciendi illo modo quo medicina subalternatur
+            geo<lb ed="#V" n="58" break="no"/>metriae in illa conclusione. Vulnera circularia tardius
+            cu<lb ed="#V" n="59" break="no"/>rantur: de hac enim conclusione geometra dicit, propter
+            <lb ed="#V" n="60"/>quid. &amp; medicina quia, sed neutrum istorum modorum
+            <lb ed="#V" n="61"/>potest dari in proposito. Quia enim non primus,
+            proba<lb ed="#V" n="62" break="no"/>tur quintuplici medio.
+            <lb ed="#V" n="63"/>Primo sic. Impossibile est acquiri scientiam
+            subalter<lb ed="#V" n="64" break="no"/>natam nisi habeatur scientia subalternans saltem
+            partia<lb ed="#V" n="65" break="no"/>liter, &amp; quo ad illud quod tradit pro principio ipsi
+            scien<lb ed="#V" n="66" break="no"/>tiae isto modo subalternatae. vnde nullus potest fieri
+            per<lb ed="#V" n="67" break="no"/>spectiuus nisi saltem tantum nouerit de geometria
+            quan<lb ed="#V" n="68" break="no"/>tum exigunt principia perspectiua, &amp; hoc patet ex
+            praece<lb ed="#V" n="69" break="no"/>dentibus, quoniam scientia subalternans est habitus
+            prin<lb ed="#V" n="70" break="no"/>cipiorum scientiae subalternatae, impossibile est autem
+            <lb ed="#V" n="71"/>acquiri habitum conclusionum nisi habeatur habitus
+            prin<lb ed="#V" n="72" break="no"/>cipiorum: sed clarum est quod theologia viatoris
+            acqui<lb ed="#V" n="73" break="no"/>ritur a viatore, qui nullo modo habet scientiam beato.
+            <lb ed="#V" n="74"/>rum. ergo haec non est subalternata illi.
+          </p>
+          <p xml:id="capsco-a1b0ew-d1e1309">
+            <lb ed="#V" n="75"/><milestone ed="#V" unit="p" rend="indent"/> Secundo sic. Scientia subalternans, &amp; subalternata,
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="76"/>&amp; eorum principia sunt compossibiles in eodem sciente:
+            <lb ed="#V" n="77"/>sed scientia beatorum, &amp; lumen gloriae quod est
+            habi<lb ed="#V" n="78" break="no"/>tus principiorum non sunt compossibiles scientiae
+            viato<lb ed="#V" n="79" break="no"/>ris, &amp; lumini fidei enigmatico secundum Sanctum
+            Tho<lb ed="#V" n="80" break="no"/>mas. ergo huiusmodi scientiae non sunt adinuicem
+            subal<lb ed="#V" n="81" break="no"/>ternatae.
+          </p>
+          <p xml:id="capsco-a1b0ew-d1e1331">
+            <lb ed="#V" n="82"/><milestone ed="#V" unit="p" rend="indent"/> Tertio sic. Scientia subalternata non procedit ad ea,
+            <lb ed="#V" n="83"/>quae sibi traduntur a subalternante, sed potius procedit ab
+            <lb ed="#V" n="84"/>eis ad vlterius concludendum, sed theologia nostra
+            pro<lb ed="#V" n="85" break="no"/>cedit ad articulos, &amp; ad sacram scripturam, &amp;
+            vniuersa<lb ed="#V" n="86" break="no"/>liter ad declarandum ea quae scripta sunt, &amp; deriuata ad
+            <lb ed="#V" n="87"/>nos ex scientia beatorum, vt post probabitur. igitur non
+            <lb ed="#V" n="88"/>est subalternata isti.
+          </p>
+          <p xml:id="capsco-a1b0ew-d1e1350">
+            <lb ed="#V" n="89"/><milestone ed="#V" unit="p" rend="indent"/> Quarto sic. Scientia quae alteri subalternatur per
+            sum<lb ed="#V" n="90" break="no"/>ptionem sui principij ab ea, oportet quod se habeat per
+            <lb ed="#V" n="91"/>additionem sui subiecti ad subiectum illius, secundum
+            <lb ed="#V" n="92"/>Philosophum primo Posteriorum vbi dicit quod
+            opor<lb ed="#V" n="93" break="no"/>tet alterum esse sub altero, &amp; quasi aliud genus, vnde &amp;
+            <lb ed="#V" n="94"/>linea visibilis addit visibilitatem ad lineam, &amp; ideo
+            per<lb ed="#V" n="95" break="no"/>spectiuus illas propositiones sumit pro principijs agens
+            <lb ed="#V" n="96"/>de linea visuali, quas de linea simpliciter mathematicus
+            <lb ed="#V" n="97"/>demonstrat: sed certum est quod subiectum theologiae
+            <lb ed="#V" n="98"/>nostrae, quod est Deus sub ratione deitatis non se habet
+            <lb ed="#V" n="99"/>ex additione ad subiectum scientiae beatorum, q od est
+            <lb ed="#V" n="100"/>Deus sub eadem ratione deitatis. ergo non
+            subalterna<lb ed="#V" n="101" break="no"/>tur illi.
+          </p>
+          <p xml:id="capsco-a1b0ew-d1e1382">
+            <lb ed="#V" n="102"/><milestone ed="#V" unit="p" rend="indent"/> Quinto. Sciens aliquam conclusionem scit se scire eam,
+            <lb ed="#V" n="103"/>sed Theologus non scit conclusiones, quae sequuntur ex
+            <lb ed="#V" n="104"/>articulis fidei, quod patet quia nescit eas necessarias, &amp;
+            <lb ed="#V" n="105"/>impossibiles aliter se habere. ergo non habet scientiam
+            <lb ed="#V" n="106"/>etiam subalternatam. Nec valet si dicatur quod scit eas
+            <lb ed="#V" n="107"/>fore necessarias ex suppositione, scilicet si articuli fuerint
+            <lb ed="#V" n="108"/>veri. Hoc quidem non obstat, quia pari ratione scio vnum
+            <lb ed="#V" n="109"/>falsum necessario fore, si aliud sit necessarium, vt quod
+            <lb ed="#V" n="110"/>asinus potest volare si habet alas, &amp; vniuersaliter hoc
+            mo<lb ed="#V" n="111" break="no"/>do potest esse scientia de omni falso: nec theologia esset
+            <lb ed="#V" n="112"/>nisi scientia necessitatis consequentiarum secundum istum
+            <lb ed="#V" n="113"/>modum dicendi, &amp; non necessitatis consequentis, &amp; ita
+            <lb ed="#V" n="114"/>non esset scientia conclusionis, sed magis illationis, cuius
+            <lb ed="#V" n="115"/>oppositum tu intendis. Quia autem nec secundo modo.
+            <lb ed="#V" n="116"/>arguit quintuplici medio.
+          </p>
+          <p xml:id="capsco-a1b0ew-d1e1418">
+            <lb ed="#V" n="117"/><milestone ed="#V" unit="p" rend="indent"/> Primo sic. Si theologia nostra subalternaretur scientiae
+            <lb ed="#V" n="118"/>beatorum sicut medicina subalternatur geometriae, quia
+            <lb ed="#V" n="119"/>scit eandem conclusionem modo inferiori, ita quod
+            con<lb ed="#V" n="120" break="no"/>clusionem quam beati sciunt clare &amp; lucide, nos scimus
+            <lb ed="#V" n="121"/>obscure, &amp; enigmatice: tunc theologia nostra non
+            sume<lb ed="#V" n="122" break="no"/>ret sua principia a scientia beatorum, vbi enim est talis
+            <lb ed="#V" n="123"/>modus subalternationis, ibi vna scientia non sumit sua
+            <lb ed="#V" n="124"/>principia ab alta, sed consequens est, falsum, secundum
+            <lb ed="#V" n="125"/>te. igitur.
+          </p>
+          <p xml:id="capsco-a1b0ew-d1e1441">
+            <lb ed="#V" n="126"/><milestone ed="#V" unit="p" rend="indent"/> Secundo sic. Scientia quae alteri subalternatur quo ad
+            <lb ed="#V" n="127"/>modum habet sufficientem cognitionem suorum
+            prin<lb ed="#V" n="128" break="no"/>cipiorum ex seipsa sufficientem, dico inquantum
+            cogno<lb ed="#V" n="129" break="no"/>scit ea per experientiam vel inductionem, sicut patet de
+            <lb ed="#V" n="130"/>medicina respectu illius conclusionis de vulnere
+            circu<lb ed="#V" n="131" break="no"/>lari, sed nostra ih eologia non habet sufficientem notitiam
+            <lb ed="#V" n="132"/>de suis principijs per seipsam. ergo non subalternatur
+            <lb ed="#V" n="133"/>hoc modo.
+          </p>
+          <p xml:id="capsco-a1b0ew-d1e1462">
+            <lb ed="#V" n="134"/><milestone ed="#V" unit="p" rend="indent"/> Tertio. Si modus clarus, &amp; obscurus in cognoscendo
+            <lb ed="#V" n="135"/>eandem conclusionem sufficeret ad subalternationem:
+            <lb ed="#V" n="136"/>tunc intellectio habentis subalternaretur intellectioni
+            sub<lb ed="#V" n="137" break="no"/>tilis, &amp; visio noctuae visioni Aquilae respectu solaris
+            lu<lb ed="#V" n="138" break="no"/>cis, sed haec absurda sunt, patet. ergo, &amp; illud, scilicet
+            <lb ed="#V" n="139"/>quod theologia enigmatica subalternatur theologiae
+            lu<lb ed="#V" n="140" break="no"/>minosae.
+          </p>
+          <p xml:id="capsco-a1b0ew-d1e1482">
+            <lb ed="#V" n="141"/><milestone ed="#V" unit="p" rend="indent"/> Quarto. Non ob aliud subalternatur scientia quia,
+            <lb ed="#V" n="142"/>scientiae propter quid quo ad modum, nisi ob hoc, quod
+            <lb ed="#V" n="143"/>dependet ab illa quod ammodo, &amp; perficitur, &amp;
+            regula<lb ed="#V" n="144" break="no"/>tur &amp; conseruatur per illam, sed nostra scientia
+            enigma<lb ed="#V" n="145" break="no"/>tica in nullo dependet a scientia beatorum nec
+            perfici<lb ed="#V" n="146" break="no"/>tur aut conseruatur per illam, immo destruitur, &amp;
+            eua<lb ed="#V" n="147" break="no"/>cuatur per illam secundum illud primi Corinth. decimo
+            <lb ed="#V" n="148"/>tertio cap. Siue prophetiae euacuabuntur, siue linguae
+            ces<lb ed="#V" n="149" break="no"/>sabunt, siue scientia destruetur, cum enim venerit quod
+            <lb ed="#V" n="150"/>perfectum est, euacuabitur quod ex parte est: ergo haec
+            <pb ed="#V" n="5"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>scientia non est illi subalternata.
+          </p>
+          <p xml:id="capsco-a1b0ew-d1e1514">
+            <lb ed="#V" n="2"/><milestone ed="#V" unit="p" rend="indent"/> Quinto. Omnis scientia siue subalternans siue
+            subal<lb ed="#V" n="3" break="no"/>ternata est de impossibilibus aliter se habere, &amp; non de
+            <lb ed="#V" n="4"/>contingentibus, vt patet primo Posteriorum, &amp; sexto
+            Ethi<lb ed="#V" n="5" break="no"/>corum, sed certum est quod in theologia nostra
+            tractan<lb ed="#V" n="6" break="no"/>tur multae veritates contingentes, vt quod Christus fuit
+            <lb ed="#V" n="7"/>incarnatus, &amp; mundus creatus, &amp; similia, quae pendent
+            <lb ed="#V" n="8"/>ex mera diuina bonitate. ergo habitus ista respiciens non
+            <lb ed="#V" n="9"/>est scientia subalternata. Nec potest dici, quod sit
+            scien<lb ed="#V" n="10" break="no"/>tia respectu necessariorum, &amp; immobilium veritatum,
+            <lb ed="#V" n="11"/>quales sunt illae de vnitate essentiae, &amp; trinitate personarum,
+            <lb ed="#V" n="12"/>non tamen sit scientia respectu contingentium. Si enim
+            <lb ed="#V" n="13"/>sic diceretur, tunc maior pars habitus theologici
+            trunca<lb ed="#V" n="14" break="no"/>retur, qui multum tractat de contingentibus, nec esset etiam
+            <lb ed="#V" n="15"/>vnus habitus, si esset alter respectu contingentium: alter
+            <lb ed="#V" n="16"/>respectu necessariorum: quod esse non potest. Contra
+            ean<lb ed="#V" n="17" break="no"/>dem arguit Durandus dupliciter.
+          </p>
+          <p xml:id="capsco-a1b0ew-d1e1552">
+            <lb ed="#V" n="18"/><milestone ed="#V" unit="p" rend="indent"/> Primo sic. Vbicunque est vera, &amp; perfecta
+            subalterna<lb ed="#V" n="19" break="no"/>tio, scientia subalternans dicit propter quid de principijs
+            <lb ed="#V" n="20"/>scientiae subalternatae, de quibus ipsa solum dicit quia, sed
+            <lb ed="#V" n="21"/>scientia beatorum non dicit propter quid de illis, de
+            qui<lb ed="#V" n="22" break="no"/>bus fides, &amp; theologia dicunt quia. ergo non est ibi
+            pro<lb ed="#V" n="23" break="no"/>pria &amp; perfecta subalternatio. maior patet ex primo
+            Po<lb ed="#V" n="24" break="no"/>steriorum, minor probatur, quia quaedam illorum quae
+            tra<lb ed="#V" n="25" break="no"/>dit fides &amp; theologia non habent propter quid, vt Deum
+            <lb ed="#V" n="26"/>esse trinum. quaedam vero etsi habeat propter quid &amp;
+            cau<lb ed="#V" n="27" break="no"/>sam, vt Deum fuisse incarnatum &amp; passum &amp; huiusmodi,
+            <lb ed="#V" n="28"/>haec omnia sunt facta a Deo propter nostram salutem
+            fi<lb ed="#V" n="29" break="no"/>naliter. istud tamen propter quid aeque dicit theologia
+            si<lb ed="#V" n="30" break="no"/>cut scientia beatorum, nec istud plus accipit theologia a
+            <lb ed="#V" n="31"/>scientia beatorum quam alia. scientia autem vere
+            subal<lb ed="#V" n="32" break="no"/>ternata nunquam dicit propter quid de suis principijs nisi
+            <lb ed="#V" n="33"/>inducendo formam scientiae subalternantis. quod non
+            <lb ed="#V" n="34"/>fit in proposito, &amp; sic patet minor.
+          </p>
+          <p xml:id="capsco-a1b0ew-d1e1592">
+            <lb ed="#V" n="35"/><milestone ed="#V" unit="p" rend="indent"/> Secundo. Quia nunquam scientia subalternatur
+            scien<lb ed="#V" n="36" break="no"/>tiae nisi ratione subiecti, quia, scilicet subiectum
+            subalter<lb ed="#V" n="37" break="no"/>natae se habet ad subiectum subalternantis, vt effectus ad
+            <lb ed="#V" n="38"/>causam efficientem, vel id quod est propter finem ad
+            fi<lb ed="#V" n="39" break="no"/>nem: sed subiectum theologiae non sic se habet ad
+            subie<lb ed="#V" n="40" break="no"/>ctum scientiae beatorum. igitur. maior patet, quia vel
+            scien<lb ed="#V" n="41" break="no"/>tia subalternatur alteri ex parte scientis, vel ex parte
+            sci<lb ed="#V" n="42" break="no"/>bilis. Ex parte scientis quidem quando cognitio vnius
+            scien<lb ed="#V" n="43" break="no"/>tis secundum communem statum dependet a cognitione
+            <lb ed="#V" n="44"/>alterius, &amp; hoc non sufficit ad perfectam
+            subalternatio<lb ed="#V" n="45" break="no"/>nem, quia tunc cognitio intellectus subalternaretur
+            noti<lb ed="#V" n="46" break="no"/>tiae sensus quod nullus dicit. Si vero hoc sit ex parte
+            scibi<lb ed="#V" n="47" break="no"/>lis, hoc non potest esse: nisi, quia subiectum vnius se habet
+            <lb ed="#V" n="48"/>ad subiectum alterius vt effectus ad causam, vel vt pars
+            <lb ed="#V" n="49"/>subiectiua ad totum vniuersale, vel vt pars in modo ad
+            <lb ed="#V" n="50"/>suum totum Si primo modo habetur propositum. Si
+            se<lb ed="#V" n="51" break="no"/>cundo modo, hoc non valet, quia quando subiectum
+            dif<lb ed="#V" n="52" break="no"/>fert a subiecto vt pars subiectiua a toto, scientia superior
+            <lb ed="#V" n="53"/>non potest dicere propter quid de principijs, scientiae
+            in<lb ed="#V" n="54" break="no"/>ferioris, quia quae sunt vnum per essentiam, vnum non
+            di<lb ed="#V" n="55" break="no"/>cit propter quid de alio, nec de aliquo ei conueniente,
+            <lb ed="#V" n="56"/>alioquin de seipso diceret propter quid. Si detur tertium
+            <lb ed="#V" n="57"/>membrum. similiter non valet. nam hoc potissime
+            vide<lb ed="#V" n="58" break="no"/>retur in perspectiua, cuius subiectum videtur se habere
+            <lb ed="#V" n="59"/>ad subiectum geometriae, vt pars in modo ad totum,
+            scili<lb ed="#V" n="60" break="no"/>cet linea colorata ad lineam: sed hoc non est verum, quia
+            <lb ed="#V" n="61"/>subiectum perspectiuae est visio vel modus videndi. non
+            <lb ed="#V" n="62"/>autem linea colorata, cum in perspectiua passio non
+            de<lb ed="#V" n="63" break="no"/>monstretur de tali subiecto, sed solum de visione, videri
+            <lb ed="#V" n="64"/>enim maius aut minus quod ostenditur in perspectiua non
+            <lb ed="#V" n="65"/>inest rei secundum se, &amp; realiter: sed variatio tota est ex
+            <lb ed="#V" n="66"/>parte visionis: licet res denominetur diuersimode, vt est
+            <lb ed="#V" n="67"/>visa.
+          </p>
+          <p xml:id="capsco-a1b0ew-d1e1667">
+            Contra tertiam conclusionem arguit Gregorius de
+            <lb ed="#V" n="68"/>arimino probando, quod ex discursu theologico non
+            pro<lb ed="#V" n="69" break="no"/>prie acquiritur scientia. Arguit enim sic primo. Omnis
+            <lb ed="#V" n="70"/>discursus per quem proprie acquiritur scientia est ex
+            pro<lb ed="#V" n="71" break="no"/>positionibus primis, &amp; immediatis, vel ex his quae per
+            ta<lb ed="#V" n="72" break="no"/>les mediatae vel immediatae sunt, patet ex primo
+            Posterio<lb ed="#V" n="73" break="no"/>rum. vbi dicit Philosophus quod sine his erit syllogismus;
+            <lb ed="#V" n="74"/>sed non faciet scientiam, sed discursus theologicus non
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="75"/>est ex talibus, cum sit ex creditis, vt patet. igitur.
+          </p>
+          <p xml:id="capsco-a1b0ew-d1e1689">
+            Confir<lb ed="#V" n="76" break="no"/>matur. Quia omnis discursus faciens scire est
+            demonstra<lb ed="#V" n="77" break="no"/>tio, patet primo Posteriorum ex diffinitione
+            demonstra<lb ed="#V" n="78" break="no"/>tionis: sed discursus theologicus non est demonstratio,
+            <lb ed="#V" n="79"/>alias enim infidelem in naturalibus bene dispositum
+            co<lb ed="#V" n="80" break="no"/>geret assentire conclusioni theologicae, quod patet esse
+            <lb ed="#V" n="81"/>falsum, Secundo. Nullus discursus primo innitens
+            au<lb ed="#V" n="82" break="no"/>ctoritate generat scientiam: sed omnis discursus
+            theolo<lb ed="#V" n="83" break="no"/>gicus est huiusmodi. igitur &amp;caet. maior patet, quia ex
+            <lb ed="#V" n="84"/>auctoritate sola fides gignitur. iuxta illud Augustini de
+            vti<lb ed="#V" n="85" break="no"/>litate credendi capitulo 21. Quod intelligimus demus
+            ra<lb ed="#V" n="86" break="no"/>tioni, quod credimus demus auctoritati. Et primo
+            li<lb ed="#V" n="87" break="no"/>bro de libero arbitrio capitulo tertio. Num ad
+            auctori<lb ed="#V" n="88" break="no"/>tatem legis confugiendum censes hominibus, iam non
+            <lb ed="#V" n="89"/>totum creditur: sed intelligere cupientibus: quasi dicat
+            <lb ed="#V" n="90"/>nullo modo. vbi manifeste innuit quod probatio per
+            au<lb ed="#V" n="91" break="no"/>ctoritatem non scientiam: sed fidem tantummodo ad
+            ge<lb ed="#V" n="92" break="no"/>nerat.
+          </p>
+          <p xml:id="capsco-a1b0ew-d1e1729">
+            Tertio sic. Nullus discursus theologicus, maiorem
+            <lb ed="#V" n="93"/>euidentiam, vel certitudinem facit de aliqua veritate
+            theo<lb ed="#V" n="94" break="no"/>logica, quam alius discursus theologicus faciat de
+            verita<lb ed="#V" n="95" break="no"/>te theologica contingenti per nullam experientiam
+            no<lb ed="#V" n="96" break="no"/>bis nota. ergo nullus discursus theologicus per se facit
+            <lb ed="#V" n="97"/>scientiam. tenet consequentia, quia nulla veritas
+            contin<lb ed="#V" n="98" break="no"/>gens non nota nobis per experientiam est aeque nota
+            no<lb ed="#V" n="99" break="no"/>bis sicut illa de qua habemus scientiam. antecedens
+            pa<lb ed="#V" n="100" break="no"/>tet, quoniam siue theologice probetur quod Deus est
+            <lb ed="#V" n="101"/>trinus, &amp; vnus, siue quod aeternus, vel sapiens, aut
+            quan<lb ed="#V" n="102" break="no"/>cunque aliam veritatem necessariam, vel contingentem
+            <lb ed="#V" n="103"/>mere credibilem, aut etiam naturaliter scibilem quis
+            theo<lb ed="#V" n="104" break="no"/>logice probet, non maiorem faciet euidentiam de ea, vel
+            <lb ed="#V" n="105"/>certitudinem quam faciat alius de illa veritate, quod Deus
+            <lb ed="#V" n="106"/>iudicabit mundum, &amp; quod saeculum finietur, aut alia
+            me<lb ed="#V" n="107" break="no"/>re contingenter si theologice probet illam, patet quoniam
+            <lb ed="#V" n="108"/>vterque ex auctoritatibus sacrae scripturae procedit, non
+            <lb ed="#V" n="109"/>maiorem autem euidentiam faciet in mente vna
+            auctori<lb ed="#V" n="110" break="no"/>tas sacrae scripturae, quam alia. Arguit etiam Durandus
+            dupli<lb ed="#V" n="111" break="no"/>citer, primo &amp; in idem redit cum prima ratione
+            Gre<lb ed="#V" n="112" break="no"/>gorij, Syllogismus demonstratiuus, qui solus facit
+            pro<lb ed="#V" n="113" break="no"/>prie scire procedit ex propositionibus necessarijs, &amp; per
+            <lb ed="#V" n="114"/>se notis, vel reducibilibus ad alia per se nota: sed nulla
+            ra<lb ed="#V" n="115" break="no"/>tio procedens ex articulis, qui media sunt fidei est
+            huius<lb ed="#V" n="116" break="no"/>modi. ergo nulla talis ratio facit proprie scire. maior patet
+            <lb ed="#V" n="117"/>ex primo Posteriorum, vbi dicitur, quod demonstratio est
+            <lb ed="#V" n="118"/>syllogismus faciens scire, &amp; ibidem determinatur quod
+            <lb ed="#V" n="119"/>procedit ex necessarijs &amp; per se notis, vel quae possunt
+            re<lb ed="#V" n="120" break="no"/>solui ad per se nota. cum in talibus non sit processus in
+            in<lb ed="#V" n="121" break="no"/>finitum. minor similiter manifesta est, quia articuli, qui
+            <lb ed="#V" n="122"/>sunt media fidei, vt Deum esse trinum, &amp; vnum, filium
+            <lb ed="#V" n="123"/>incarnatum passum resurrexisse, &amp; huiusmodi, non sunt
+            <lb ed="#V" n="124"/>de se noti, nec possunt resolui in aliqua per se nota: sed
+            <lb ed="#V" n="125"/>solum vel principaliter eis assentimus ex authoritate
+            scri<lb ed="#V" n="126" break="no"/>pturae, quam credimus a Deo inspiratam esse, &amp; hoc
+            ip<lb ed="#V" n="127" break="no"/>sum, scilicet scripturam esse a Deo inspiratam non est per
+            <lb ed="#V" n="128"/>se notum, nec reducibile ad aliquid per se notum.
+          </p>
+          <p xml:id="capsco-a1b0ew-d1e1810">
+            Secun<lb ed="#V" n="129" break="no"/>do. Scientia est virtus intellectualis, vt patet sexto
+            Ethi<lb ed="#V" n="130" break="no"/>corum, sed theologia non est virtus intellectualis. ergo
+            <lb ed="#V" n="131"/>non est scientia. minor patet, tum quia virtus est
+            disposi<lb ed="#V" n="132" break="no"/>tio perfecti ad optimum. septimo Physicorum; sed
+            theo<lb ed="#V" n="133" break="no"/>logia non disponit, nec perficit intellectum ad illud, quod
+            <lb ed="#V" n="134"/>est optimum intellectui, quia non facit euidentiam de
+            <lb ed="#V" n="135"/>his quae tradit, sicut nec fides ex cuius articulis procedit.
+            <lb ed="#V" n="136"/>Clara autem euidentia veritatis est illud, quod est
+            opti<lb ed="#V" n="137" break="no"/>mum intellectui, tum quia perfectior est habitus
+            princi<lb ed="#V" n="138" break="no"/>piorum, quam conclusionum, quia habitus
+            conclusio<lb ed="#V" n="139" break="no"/>num dependet ex habitu principiorum, &amp; non econtra:
+            <lb ed="#V" n="140"/>sed fides qui est habitus principiorum: ex quibus
+            theo<lb ed="#V" n="141" break="no"/>logia procedit, non est virtus intellectualis, nec inter eas
+            <lb ed="#V" n="142"/>nominatur Ethicorum sexto: igitur nec theologia est
+            vir<lb ed="#V" n="143" break="no"/>tus intellectualis, quod fuit minor probanda. Scotus
+            <lb ed="#V" n="144"/>etiam tertio senten. distinctio. 24. arguit quadrupliciter
+            <lb ed="#V" n="145"/>primo quia Sanctus Thomas Secunda secundae vbi quaerit
+            <lb ed="#V" n="146"/>quaestionem ex intentione dicit, quod fides &amp; scientia de
+            <lb ed="#V" n="147"/>eodem non sunt simul: sed si theologia inquantum
+            subal<lb ed="#V" n="148" break="no"/>ternata scientiae beatorum sit vere scientia, &amp; vt
+            subal<pb ed="#V" n="6"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>ternata non sit nisi in viatore, tunc scientia sub propria
+            ra<lb ed="#V" n="2" break="no"/>tione subalternatae stat cum fide in viatore, &amp; de eisdem,
+            <lb ed="#V" n="3"/>scilicet de creditis, &amp; cum propria ratio scientiae sit in
+            su<lb ed="#V" n="4" break="no"/>balternata, tunc scientia simpliciter dicta, &amp; fides sunt
+            si<lb ed="#V" n="5" break="no"/>mul de eodem. Nec potest saluare hanc conditionem
+            <lb ed="#V" n="6"/>nisi in secunda secundae, velit dicere, quod loquitur de
+            <lb ed="#V" n="7"/>scientia subalternante, non de subalternata.
+          </p>
+          <p xml:id="capsco-a1b0ew-d1e1873">
+            <lb ed="#V" n="8"/><milestone ed="#V" unit="p" rend="indent"/> Secundo. Scientia non dependet ab aliquo
+            essentiali<lb ed="#V" n="9" break="no"/>ter sicut causatum a causa. non loquor de dependentia
+            <lb ed="#V" n="10"/>accidentis ad subiectum, nisi ab eo quod est causa
+            essen<lb ed="#V" n="11" break="no"/>tialiter, sed notitia beati, quam habet de Deo trino, &amp;
+            <lb ed="#V" n="12"/>vno euidenter viso ex euidentia terminorum non est
+            cau<lb ed="#V" n="13" break="no"/>sa essentialiter theologiae siue nostrae scientiae, quia
+            scien<lb ed="#V" n="14" break="no"/>tia non dependet essentialiter nisi ex potentia, vel
+            obie<lb ed="#V" n="15" break="no"/>cto in se vel in sua specie, sed illa scientia beati non est
+            ob<lb ed="#V" n="16" break="no"/>iectum scientiae nostrae, vt cognita notitia eius
+            cognosca<lb ed="#V" n="17" break="no"/>mus Deum esse trinum, &amp; vnum, nec est potentia animae.
+            <lb ed="#V" n="18"/>nec species obiecti, nec aliquid aliud, quod possit esse
+            cau<lb ed="#V" n="19" break="no"/>sa scientiae meae in aliquo genere causae efficientis,
+            maxi<lb ed="#V" n="20" break="no"/>me sicut modo loquimur. igitur habitus in me in nullo
+            <lb ed="#V" n="21"/>dependet sicut a causa essentiali a visione beatorum, nec
+            <lb ed="#V" n="22"/>sequitur, quod si beatorum scientia sit de creditis a
+            no<lb ed="#V" n="23" break="no"/>bis, quod in nobis, sit scientia cum fide. immo esset
+            simi<lb ed="#V" n="24" break="no"/>le ac si dicerem, in me est geometria, quia in geometra
+            <lb ed="#V" n="25"/>est, &amp; ego credo geometram scire geometriam.
+          </p>
+          <p xml:id="capsco-a1b0ew-d1e1916">
+            <lb ed="#V" n="26"/><milestone ed="#V" unit="p" rend="indent"/> Tertio. Omnis sciens scientiam subalternam, quae est
+            <lb ed="#V" n="27"/>de intelligibilibus potest scire scientiam
+            subalternan<lb ed="#V" n="28" break="no"/>tem, quia scientiae subalternantis principia sunt priora, &amp;
+            <lb ed="#V" n="29"/>in intelligibilibus illa quae sunt priora, simpliciter sunt
+            <lb ed="#V" n="30"/>priora nobis. quamuis in sensibilibus non sint eadem
+            prio<lb ed="#V" n="31" break="no"/>ra simpliciter, &amp; priora nobis, quia sensibilia posteriora
+            <lb ed="#V" n="32"/>sunt nobis magis nota: sed haec scientia, si tamen est
+            scien<lb ed="#V" n="33" break="no"/>tia, est de intelligibilibus, vt distinguuntur contra sensibilia,
+            <lb ed="#V" n="34"/>quia de sensibilibus non est scientia nec demonstratio ex
+            <lb ed="#V" n="35"/>septimo Metaphysicae. si ergo haec scientia potest simul
+            <lb ed="#V" n="36"/>stare cum fide, sequitur quod aliquis potest scire
+            scien<lb ed="#V" n="37" break="no"/>tiam subalternantem cum fide, &amp; ita potest esse
+            comprae<lb ed="#V" n="38" break="no"/>hensor ratione scientiae: &amp; viator solum ratione fidei
+            si<lb ed="#V" n="39" break="no"/>mul stantis.
+          </p>
+          <p xml:id="capsco-a1b0ew-d1e1950">
+            <lb ed="#V" n="40"/><milestone ed="#V" unit="p" rend="indent"/> Quarto. Quia notitia quam aliquis habet de illis, quae
+            <lb ed="#V" n="41"/>traduntur in canone Bibliae non est tradita per modum
+            <lb ed="#V" n="42"/>scientiae demonstratiuae. ergo habens habitum de istis sic
+            <lb ed="#V" n="43"/>traditis in sensu litterae, non habitum scientiae proprie
+            di<lb ed="#V" n="44" break="no"/>na, sed vnum habitum quo immediate assentit
+            omni<lb ed="#V" n="45" break="no"/>bus, &amp; singulis, &amp; non vni propter aliud de his, quae
+            tra<lb ed="#V" n="46" break="no"/>duntur in scriptura, quinimmo si aliqua non essent
+            tradi<lb ed="#V" n="47" break="no"/>ta ita, assentiret ita, quod cuilibet dicto in ea assentit non,
+            <lb ed="#V" n="48"/>quia probatur ex alio dicto: sed propter auctoritatem
+            <lb ed="#V" n="49"/>Dei: ratione cuius assentit omnibus in scriptura
+            con<lb ed="#V" n="50" break="no"/>tentis immediate non vni propter aliud per discursum
+            <lb ed="#V" n="51"/>syllogisticum.
+          </p>
+          <p xml:id="capsco-a1b0ew-d1e1980">
+            <lb ed="#V" n="52"/><milestone ed="#V" unit="p" rend="indent"/> Contra quintam conclusionem, &amp; similiter contra
+            se<lb ed="#V" n="53" break="no"/>cundam arguit Aureolus probando quod articuli fidei,
+            <lb ed="#V" n="54"/>non sint principia nostrae theologiae. immo sint quasi
+            con<lb ed="#V" n="55" break="no"/>clusiones defendendae, &amp; declarandae in ista scientia, &amp;
+            <lb ed="#V" n="56"/>quod ad hoc principaliter ordinetur totum studium:
+            theo<lb ed="#V" n="57" break="no"/>logiae. Arguit igitur primo sic. Nulla scientia procedit
+            <lb ed="#V" n="58"/>ad sua principia concludenda: sed potius concludit ex
+            il<lb ed="#V" n="59" break="no"/>lis: sed certum est, quod Sanctus Thomas in summa sua, &amp;
+            <lb ed="#V" n="60"/>vniuersaliter omnes doctores theologiae formant
+            quae<lb ed="#V" n="61" break="no"/>stiones de articulis fidei, &amp; ad eas disioluendum
+            decla<lb ed="#V" n="62" break="no"/>randum, &amp; concludendum procedunt, vt cum
+            quaeri<lb ed="#V" n="63" break="no"/>tur, vtrum Deus sit trinus, &amp; vnus, vel vtrum in Deo sit
+            <lb ed="#V" n="64"/>trinitas personarum, vel vtrum incarnatio sit possibilis,
+            <lb ed="#V" n="65"/>&amp; huiusmodi. ergo articuli fidei non sunt principia
+            no<lb ed="#V" n="66" break="no"/>strae theologiae. immo quasi conclusiones.
+          </p>
+          <p xml:id="capsco-a1b0ew-d1e2017">
+            <lb ed="#V" n="67"/><milestone ed="#V" unit="p" rend="indent"/> Secundo. Ex studio libri de Trinitate Augustini
+            ac<lb ed="#V" n="68" break="no"/>quiritur habitus theologicus: sed certum est, quod ipse
+            <lb ed="#V" n="69"/>in toto illo libro procedit ad concludendum istum
+            arti<lb ed="#V" n="70" break="no"/>culum, Deus est trinus, &amp; vnus, sicut ipsemet dicit primo
+            <lb ed="#V" n="71"/>de Trinitate capitulo quarto, quod omnes qui ante nos
+            <lb ed="#V" n="72"/>scripserunt de Trinitate, quae Deus est, diuinorum
+            libro<lb ed="#V" n="73" break="no"/>rum veterum, &amp; nouorum catholici tractatores hoc
+            in<lb ed="#V" n="74" break="no"/>tendunt secundum scripturas dicere, quod pater &amp;
+            fi<cb ed="#V" n="b"/><lb ed="#V" n="75" break="no"/>lius &amp; Spiritussanctus, vnius eiusdem substantia
+            insepa<lb ed="#V" n="76" break="no"/>rabili aequalitate diuinam insinuant veritatem. ergo
+            ha<lb ed="#V" n="77" break="no"/>bitus theologicus ex articulis fidei, tanquam ex
+            princi<lb ed="#V" n="78" break="no"/>pijs non procedit: sed magis illos declarare intendit.
+          </p>
+          <p xml:id="capsco-a1b0ew-d1e2048">
+            <lb ed="#V" n="79"/><milestone ed="#V" unit="p" rend="indent"/> Tertio. Christum esse incarnatum ex Maria
+            Virgi<lb ed="#V" n="80" break="no"/>ne, est articulus fidei. sanctum quoque Spiritum per
+            Pro<lb ed="#V" n="81" break="no"/>phetas fuisse locutum, est alius articulus, &amp; tamen hos
+            <lb ed="#V" n="82"/>duos Augustinus probare nititur contra Faustum, vt
+            pa<lb ed="#V" n="83" break="no"/>tet in libro Augustini ad eundem haereticum. igitur
+            li<lb ed="#V" n="84" break="no"/>bri Theologici non procedunt ex articulis: sed magis
+            <lb ed="#V" n="85"/>ad eos.
+          </p>
+          <p xml:id="capsco-a1b0ew-d1e2067">
+            <lb ed="#V" n="86"/><milestone ed="#V" unit="p" rend="indent"/> Quarto. Nam Augustinus decimo quarto cap. de
+            Tri<lb ed="#V" n="87" break="no"/>nitate. dicit quod huic scientiae, quae dicitur theologia
+            <lb ed="#V" n="88"/>non omnia attribuit, quae in rebus humanis ab homine
+            <lb ed="#V" n="89"/>sciri possunt, sed illud tantummodo quo fides
+            saluberri<lb ed="#V" n="90" break="no"/>ma gignitur nutritur defenditur, &amp; roboratur. Ex quo
+            <lb ed="#V" n="91"/>colligitur quod finis huius scientiae est fidem gignere
+            de<lb ed="#V" n="92" break="no"/>fendere, &amp; nutrire, sed hoc non faceret nisi procederet
+            <lb ed="#V" n="93"/>ad declarandum articulos. ergo habitus theologicus non
+            <lb ed="#V" n="94"/>procedit ex articulis fidei, vt ex principijs: sed magis
+            <lb ed="#V" n="95"/>ad eorum veritatem gignendam defendendam, &amp;
+            nu<lb ed="#V" n="96" break="no"/>triendam.
+          </p>
+          <p xml:id="capsco-a1b0ew-d1e2094">
+            <lb ed="#V" n="97"/><milestone ed="#V" unit="p" rend="indent"/> Quinto. Quia prima Petri tertio dicitur de habentibus
+            <lb ed="#V" n="98"/>theologicum habitum, quod debent esse semper parati ad
+            <lb ed="#V" n="99"/>satisfactionem omni poscenti reddere rationem de ea,
+            <lb ed="#V" n="100"/>quae in nobis est fide &amp; spe. Ex quo apparet quod
+            habi<lb ed="#V" n="101" break="no"/>tus theologicus tractat de articulis fidei, non tanquam
+            <lb ed="#V" n="102"/>principijs, sed de his, de quibus ratio ab ipso reddi
+            de<lb ed="#V" n="103" break="no"/>bet. Hoc ille.
+          </p>
+          <p xml:id="capsco-a1b0ew-d1e2113">
+            <lb ed="#V" n="104"/><milestone ed="#V" unit="p" rend="indent"/> Contra sextam conclusionem arguitur probando,
+            <lb ed="#V" n="105"/>quod probatio ibidem posita nulla sit. Primo quia
+            om<lb ed="#V" n="106" break="no"/>nis creatura per se dependet a qualibet per se eam, &amp;
+            <lb ed="#V" n="107"/>propter talem dependentiam ex causato cognosci potest
+            <lb ed="#V" n="108"/>quaelibet eius per eam demonstratione quia. igitur cum
+            <lb ed="#V" n="109"/>natura hominis sit naturaliter homini cognoscibilis,
+            <lb ed="#V" n="110"/>quia, non est impossibile eam cognosci, cum sit
+            propor<lb ed="#V" n="111" break="no"/>tionata, sequitur quod ex ista natura cognita possit
+            natu<lb ed="#V" n="112" break="no"/>raliter cognosci finis eius.
+          </p>
+          <p xml:id="capsco-a1b0ew-d1e2136">
+            <lb ed="#V" n="113"/><milestone ed="#V" unit="p" rend="indent"/> Secundo. Quia si ex natura inferiori cognita
+            cogno<lb ed="#V" n="114" break="no"/>scitur eius finis, non minus est hoc possibile in
+            proposi<lb ed="#V" n="115" break="no"/>to, quia nec minor dependentia finiti ad suum finem haec
+            <lb ed="#V" n="116"/>quam in alijs.
+          </p>
+          <p xml:id="capsco-a1b0ew-d1e2149">
+            <lb ed="#V" n="117"/><milestone ed="#V" unit="p" rend="indent"/> Diceretur forte, quod ratio concludit hominem posse
+            <lb ed="#V" n="118"/>naturaliter cognoscere suum finem naturalem non autem
+            <lb ed="#V" n="119"/>de supernaturali. Contra hoc arguitur. Primo quia
+            di<lb ed="#V" n="120" break="no"/>cit Augustinus de praedesti. sanctorum, quod posse habere.
+            <lb ed="#V" n="121"/>fidem, &amp; charitatem natura hominis est, quamuis
+            habe<lb ed="#V" n="122" break="no"/>re fidem, &amp; charitatem sit gratiae fidelium. si igitur
+            natu<lb ed="#V" n="123" break="no"/>ra hominis est naturaliter cognoscibilis homini, etiam
+            <lb ed="#V" n="124"/>est cognoscibilis ista potentia, vt est talis naturale, &amp; per
+            <lb ed="#V" n="125"/>consequens ordinabilitas talis naturale ad finem, ad quem
+            <lb ed="#V" n="126"/>fides &amp; charitas disponunt.
+          </p>
+          <p xml:id="capsco-a1b0ew-d1e2174">
+            <lb ed="#V" n="127"/><milestone ed="#V" unit="p" rend="indent"/> Secundo. Quia homo naturaliter appetit illum finem,
+            <lb ed="#V" n="128"/>quem dicis supernaturalem igitur ad illum naturaliter
+            <lb ed="#V" n="129"/>ordinatur. igitur ex tali ordine potest cognosci finis ille
+            <lb ed="#V" n="130"/>ex cognitione naturae ordinatae ad illum finem.
+          </p>
+          <p xml:id="capsco-a1b0ew-d1e2186">
+            <lb ed="#V" n="131"/><milestone ed="#V" unit="p" rend="indent"/> Tertio. Quia cognoscibile est naturaliter primum
+            ob<lb ed="#V" n="132" break="no"/>iectum intellectus esse ens secundum Auicenus &amp;
+            natura<lb ed="#V" n="133" break="no"/>liter cognoscibile est iu Deo perfectissime saluari
+            ratio<lb ed="#V" n="134" break="no"/>nem entis. finis autem cuiuslibet potentiae est optimum
+            <lb ed="#V" n="135"/>eorum, quae continentur sub obiecto eius primo, quia
+            <lb ed="#V" n="136"/>in isto est perfectissima quietatio, &amp; delectatio ex
+            deci<lb ed="#V" n="137" break="no"/>mo Ethicorum. Confirmatur ratio. Quia quando est
+            <lb ed="#V" n="138"/>naturaliter cognoscibile quid sit potentia. naturaliter est
+            <lb ed="#V" n="139"/>cognoscibile quid sit eius obiectum primum, &amp; vlterius
+            <lb ed="#V" n="140"/>potest cognosci in quo saluetur perfectissime ratio eius
+            <lb ed="#V" n="141"/>obiecti primi, &amp; quod perfectissimum obiectum est
+            fi<lb ed="#V" n="142" break="no"/>nis illius potentiae. mens autem nota est sibi secundum
+            <lb ed="#V" n="143"/>Augustinum octauo capit. de Trinitus igitur notum est
+            si<lb ed="#V" n="144" break="no"/>bi quid sit eius obiectum primum, &amp; nouit non
+            excede<lb ed="#V" n="145" break="no"/>re rationem illius primi obiecti, quia tunc nullo modo
+            <lb ed="#V" n="146"/>esset cognoscibilis ab ipsa mente. igitur nouit Deam esse
+            <lb ed="#V" n="147"/>obiectum in quo saluatur perfectissime ratio illius
+            obie<lb ed="#V" n="148" break="no"/>cti primi, &amp; ita esse finem illius potentiae
+          </p>
+          <p xml:id="capsco-a1b0ew-d1e2229">
+            <pb ed="#V" n="7"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/><milestone ed="#V" unit="p" rend="indent"/> Tertio principaliter arguitur contra aliud dictum in
+            <lb ed="#V" n="2"/>probatione illius conclusionis. Quia si de
+            cognoscibi<lb ed="#V" n="3" break="no"/>libus in theologia possibile est tradere cognitionem in
+            <lb ed="#V" n="4"/>alijs scientijs, licet in alio lumine. igitur non est de eis
+            <lb ed="#V" n="5"/>necessaria alia scientia theologica. tenet consequentia,
+            <lb ed="#V" n="6"/>in exemplo tuo: quia cognoscens per medium
+            Physi<lb ed="#V" n="7" break="no"/>cum terram esse rotundam non indiget cognitione
+            e<lb ed="#V" n="8" break="no"/>ius per medium Mathematicum tanquam sibi
+            necessa<lb ed="#V" n="9" break="no"/>rium.
+          </p>
+          <p xml:id="capsco-a1b0ew-d1e2256">
+            <lb ed="#V" n="10"/><milestone ed="#V" unit="p" rend="indent"/> Sed forte dicitur exponendo illam responsionem,
+            <lb ed="#V" n="11"/>quod habitus scientiae, cum sit forma, est etiam
+            habi<lb ed="#V" n="12" break="no"/>tus: inquantum est habitus habet distinctionem ex
+            obie<lb ed="#V" n="13" break="no"/>cto, sed inquantum est forma habe distinctionem a
+            prin<lb ed="#V" n="14" break="no"/>cipio actiuo, respectu autem habitus scientiae principia
+            <lb ed="#V" n="15"/>sunt causae effectiuae, licet igitur vbi est idem scibile,
+            pu<lb ed="#V" n="16" break="no"/>ta quod terra est rotunda, non sit distinctio per obiecta,
+            <lb ed="#V" n="17"/>est tamen distinctio per principia, quibus Physicus, &amp;
+            <lb ed="#V" n="18"/>Mathematicus hoc ostendunt. ita est distinctio
+            habi<lb ed="#V" n="19" break="no"/>tuum inquantum sunt formae.
+          </p>
+          <p xml:id="capsco-a1b0ew-d1e2281">
+            <lb ed="#V" n="20"/><milestone ed="#V" unit="p" rend="indent"/> Contra hoc arguitur tripliciter. Primo quia forma est
+            <lb ed="#V" n="21"/>communius ad habitum, quia omnis habitus est forma¬.
+            <lb ed="#V" n="22"/>non autem econuerso. Impossibile est autem aliqua esse
+            <lb ed="#V" n="23"/>distincta in ratione superioris, &amp; esse indistincta in
+            ra<lb ed="#V" n="24" break="no"/>tione inferioris. igitur im possibile est esse aliqua
+            distin<lb ed="#V" n="25" break="no"/>cta in ratione formae, &amp; tamen esse indistincta in ratione
+            <lb ed="#V" n="26"/>habituum, hoc enim esset, sicut si aliqua essent
+            distin<lb ed="#V" n="27" break="no"/>cta in ratione animalis, &amp; indistincta in ratione hominis.
+            <lb ed="#V" n="28"/>Tum secundo quia ista responsio supponit, quod obiecta
+            <lb ed="#V" n="29"/>sint distinctiua habitus conclusionis in alio genere
+            cau<lb ed="#V" n="30" break="no"/>sae quam principia effectiua, quod est falsum, quia si
+            ali<lb ed="#V" n="31" break="no"/>quam rationem causae habeant ad istos habitus, non
+            ha<lb ed="#V" n="32" break="no"/>bent nisi ratione causae efficientis. Tum tertio quia
+            sem<lb ed="#V" n="33" break="no"/>per stat ratio, quamquam possent poni habitus
+            cogniti<lb ed="#V" n="34" break="no"/>ui distincti. non tamen saluatur necessitas vnius habitus:
+            <lb ed="#V" n="35"/>quasi alias cognitio sit impossibilis ponendo
+            possibili<lb ed="#V" n="36" break="no"/>tatem alterius habitus vndecunque distincti, haec Scotus
+            <lb ed="#V" n="37"/>in forma prima. q. prima.
+          </p>
+          <p xml:id="capsco-a1b0ew-d1e2325">
+            <lb ed="#V" n="38"/><milestone ed="#V" unit="p" rend="indent"/> Ad primum contra primam conclusionem dicitur,
+            <lb ed="#V" n="39"/>quod maior habet veritatem de principijs primis, non
+            <lb ed="#V" n="40"/>autem de principijs proximis, principia enim prima
+            scicn<lb ed="#V" n="41" break="no"/>tiae cognoscuntur per habitum, qui dicitur intellectus,
+            <lb ed="#V" n="42"/>qui quidem habitus est nobilior habitu scientifico: sed
+            <lb ed="#V" n="43"/>principia proxima possunt cognosci habitu scientifico.
+            <lb ed="#V" n="44"/>sicut cum pespectiuus est geometra, vel habitu non
+            scien<lb ed="#V" n="45" break="no"/>tifico, sicut si perspectiuus nesciat geometriam, &amp; tunc
+            <lb ed="#V" n="46"/>non oportet, quod habitus talium principiorum sit
+            al<lb ed="#V" n="47" break="no"/>tior habitu conclusionum quo ad euidentiam, licet
+            for<lb ed="#V" n="48" break="no"/>te sit superior quo ad modum essendi, quia, scilicet
+            prin<lb ed="#V" n="49" break="no"/>cipio assentitur propter se. sic quod non propter aliam
+            <lb ed="#V" n="50"/>propositionem: conclusioni autem assentitur propter
+            <lb ed="#V" n="51"/>principium, &amp; talis superioritas est inter fidem, &amp;
+            theo<lb ed="#V" n="52" break="no"/>logiam viatoris. Negatur etiam minor, quo ad hoc quod
+            <lb ed="#V" n="53"/>dicit, quod omnis notitia creditiua est inferior notitia
+            <lb ed="#V" n="54"/>scientifica. hoc enim non est verum, vt patuit, in quarta
+            <lb ed="#V" n="55"/>conclusione. praesertim cum notitia creditiua
+            continua<lb ed="#V" n="56" break="no"/>tur notitiae superioris scientis. sicut est in proposito, vt
+            <lb ed="#V" n="57"/>dictum est in tertia conclusione. Hoc etiam est falsum
+            <lb ed="#V" n="58"/>loquendo de scientia subalternata, talis enim notitia
+            in<lb ed="#V" n="59" break="no"/>quantum huiusmodi non est superior habitu creditiuo
+            <lb ed="#V" n="60"/>quantum ad euidentiam.
+          </p>
+          <p xml:id="capsco-a1b0ew-d1e2378">
+            <lb ed="#V" n="61"/><milestone ed="#V" unit="p" rend="indent"/> Ad secundum dicitur, quod Aristotes in praedictis
+            lo<lb ed="#V" n="62" break="no"/>cis agit de modo sumendi principia prima scientiarum,
+            <lb ed="#V" n="63"/>non autem principia proxima: talia enim possunt teneri
+            <lb ed="#V" n="64"/>habitu creditiuo.
+          </p>
+          <p xml:id="capsco-a1b0ew-d1e2390">
+            <lb ed="#V" n="65"/><milestone ed="#V" unit="p" rend="indent"/> Ad tertium dicendum, quod habitus principiorum
+            <lb ed="#V" n="66"/>perspectiux potest esse scientificus, sicut patet in
+            perspe<lb ed="#V" n="67" break="no"/>ctiuo geometra. ille enim habet demonstrationem
+            prin<lb ed="#V" n="68" break="no"/>cipiorum perspectiuae ex habitu geometriae, potest
+            ni<lb ed="#V" n="69" break="no"/>hilominus habitus principiorum perspectiuae esse
+            credi<lb ed="#V" n="70" break="no"/>tiuus: sicut patet in perspectiuo non geometra.
+          </p>
+          <p xml:id="capsco-a1b0ew-d1e2407">
+            <lb ed="#V" n="71"/><milestone ed="#V" unit="p" rend="indent"/> Et ad primam improbationem ibi factam dicitur,
+            <lb ed="#V" n="72"/>quod geometria non causat fidem in eo qui geometriam
+            <lb ed="#V" n="73"/>habet: sed tamen potest causare fidem aliquarum
+            sua<lb ed="#V" n="74" break="no"/>rum conclusionum in alio, qui non habet habitum
+            geo<cb ed="#V" n="b"/><lb ed="#V" n="75" break="no"/>metriae proponendo illi conclusiones sine
+            probationi<lb ed="#V" n="76" break="no"/>bus demonstratiuis.
+          </p>
+          <p xml:id="capsco-a1b0ew-d1e2425">
+            <lb ed="#V" n="77"/><milestone ed="#V" unit="p" rend="indent"/> Similiter ad secundam probationem dicitur, quod
+            <lb ed="#V" n="78"/>falsum supponit, scilicet, quod in eodem perspectiuo
+            <lb ed="#V" n="79"/>principia cognoscantur habitu scientifico, &amp; creditiuo:
+            <lb ed="#V" n="80"/>vel quod in quocunque perspectiuo, habitus suorum s
+            <lb ed="#V" n="81"/>principiorum sit creditiuus, hoc enim non dicimus: sed
+            <lb ed="#V" n="82"/>solum de perspectiuo non geometra.
+          </p>
+          <p xml:id="capsco-a1b0ew-d1e2442">
+            <lb ed="#V" n="83"/><milestone ed="#V" unit="p" rend="indent"/> Ad quartum dico, quod in illo capitulo
+            Philoso<lb ed="#V" n="84" break="no"/>phus loquitur de scientia perfecta in se, cuius, scilicet,
+            <lb ed="#V" n="85"/>perfectio ab alia extrinseca non dependet, talis autem
+            <lb ed="#V" n="86"/>scientia non est Theologia nostra. Vnde Sanctus
+            Tho<lb ed="#V" n="87" break="no"/>mas de veritate quaestione decima quarta articulo. 10.
+            <lb ed="#V" n="88"/>Videmus (inquit) in discipulis, quod homo
+            imperfe<lb ed="#V" n="89" break="no"/>ctus est in cognitione in principio, ad hoc autem quod
+            <lb ed="#V" n="90"/>perfectionem scientiae consequatur indiget aliquo eum
+            <lb ed="#V" n="91"/>instruente qui eum ad perfectionem scientiae deducat,
+            <lb ed="#V" n="92"/>quod facere non posset nisi ipse perfecte scientiam
+            ha<lb ed="#V" n="93" break="no"/>beret, vtpote comprehendens rationes eorum quae sub
+            <lb ed="#V" n="94"/>scientia cadunt, non autem in principio doctrinae suae
+            <lb ed="#V" n="95"/>statim ei qui instruitur rationes scibilium tradit, de
+            qui<lb ed="#V" n="96" break="no"/>bus instruere intendit, quia tunc statim in principio
+            ha<lb ed="#V" n="97" break="no"/>beret scientiam perfecte, qui instruitur: sed tradit ei
+            <lb ed="#V" n="98"/>quaedam, quorum rationes tunc primo cum instruitur
+            <lb ed="#V" n="99"/>nescit discipulus: sciet autem postea perfectus in
+            scien<lb ed="#V" n="100" break="no"/>tia, &amp; ideo oportet addiscentem credere, aliter non
+            pos<lb ed="#V" n="101" break="no"/>set ad perfectam scientiam peruenire, nisi, scilicet sup.
+            <lb ed="#V" n="102"/>poneret ea, quae sibi in principio traduntur, quorum
+            ra<lb ed="#V" n="103" break="no"/>tiones, tunc capere non potest. Vltima autem
+            perfe<lb ed="#V" n="104" break="no"/>ctio ad quam homo ordinatur consistit in perfecta Dei
+            <lb ed="#V" n="105"/>cognitione, ad quam quidem peruenire non potest, nisi
+            <lb ed="#V" n="106"/>operatione, &amp; instructione diuina, qui est sui ipsius
+            per<lb ed="#V" n="107" break="no"/>fecte cognitor, huius autem perfecte cognitionis homo
+            <lb ed="#V" n="108"/>in sui principio capax non est: vnde oportet, quod per
+            <lb ed="#V" n="109"/>viam credendi accipiat aliqua per quae manuducatur ad
+            <lb ed="#V" n="110"/>perueniendum inperfectam cognitionem. Haec ille.
+          </p>
+          <p xml:id="capsco-a1b0ew-d1e2507">
+            Ex s
+            <lb ed="#V" n="111"/>quibus patet, quod theologia non est perfecta scientia:
+            <lb ed="#V" n="112"/>sed inchoatio perfectae scicutiae, &amp; quod licet perfecta
+            <lb ed="#V" n="113"/>scientia, aut cognitio non habeatur quandiu rationes
+            ter<lb ed="#V" n="114" break="no"/>minorum ignorantur, tamen habetur per tunc scientia,
+            <lb ed="#V" n="115"/>quae ducit ad perfectam cognitionem, velut perfectae
+            scien<lb ed="#V" n="116" break="no"/>tiae inchoatio.
+          </p>
+          <p xml:id="capsco-a1b0ew-d1e2523">
+            <lb ed="#V" n="117"/><milestone ed="#V" unit="p" rend="indent"/> Ad quintum negatur maior, licet enim illa adhaesio &amp;
+            <lb ed="#V" n="118"/>voluntaria, qua assentitur alicui ex solo arbitrio
+            volun<lb ed="#V" n="119" break="no"/>tatis, &amp; non propter alium assensum alterius
+            proposi<lb ed="#V" n="120" break="no"/>tionis non sit scientifica, tamen nihil prohibet assensum
+            <lb ed="#V" n="121"/>illum esse scientificum qui causatur ex assensu alterius
+            pro<lb ed="#V" n="122" break="no"/>positionis, cui solum assentitur voluntate propter
+            conti<lb ed="#V" n="123" break="no"/>nuationem eius cum superiori sciente. Et quod hoc sit1
+            <lb ed="#V" n="124"/>verum patet. nam multi moderno tempore habent
+            scien<lb ed="#V" n="125" break="no"/>tiam astrologiae, &amp; sciunt aliquas conclusiones eius:
+            qua<lb ed="#V" n="126" break="no"/>rum tamen assensus dependet ex assensu voluntario
+            ali<lb ed="#V" n="127" break="no"/>quor um principiorum astrologiae ab eis creditorum.
+            <lb ed="#V" n="128"/>Multa enim sunt in ea principia, quae nullus viuens nunc
+            <lb ed="#V" n="129"/>expertus est, nec habet demonstrationem ad illa, nec
+            <lb ed="#V" n="130"/>sunt euidentia ex terminis, sicut quod sphaera stellarum
+            <lb ed="#V" n="131"/>moueatur in centum annis solum vnico gradu, vel quod
+            <lb ed="#V" n="132"/>planeta saturni sit tantae quantitatis: sed illa principia
+            te<lb ed="#V" n="133" break="no"/>nentur sola fide adhibita dictis antiquorum, qui talia
+            <lb ed="#V" n="134"/>experti sunt longo tempore. Ita in proposito assensus
+            <lb ed="#V" n="135"/>articulorum fider est mere voluntarius. ideo non
+            dici<lb ed="#V" n="136" break="no"/>tur scientificus: sed assensus conclusionum ex articulis
+            <lb ed="#V" n="137"/>sequentium scientificus dici potest eo modo, quo
+            di<lb ed="#V" n="138" break="no"/>ctum est theologiam esse scientiam.
+          </p>
+          <p xml:id="capsco-a1b0ew-d1e2574">
+            <lb ed="#V" n="139"/><milestone ed="#V" unit="p" rend="indent"/> Et ad probationem, &amp; confirmationem in oppositum
+            <lb ed="#V" n="140"/>dicitur, quod omnia ibi adducta verum habent solum
+            <lb ed="#V" n="141"/>de scientia strictissime sumpta, quae, scilicet, resoluit suas
+            <lb ed="#V" n="142"/>conclusiones in principia per se nota, non autem de
+            scien<lb ed="#V" n="143" break="no"/>tia, quae non ita resoluit sicut astrologia modernorum,
+            <lb ed="#V" n="144"/>vel non potest resoluere, &amp; solum continuatur scientiae,
+            <lb ed="#V" n="145"/>cui principia sunt euidentia, cuiusmodi est Theologia
+            <lb ed="#V" n="146"/>nostra.
+          </p>
+          <p xml:id="capsco-a1b0ew-d1e2595">
+            <lb ed="#V" n="147"/><milestone ed="#V" unit="p" rend="indent"/> Ad primum dicitur, quod non concludit contra nos.
+            <lb ed="#V" n="148"/>Conceditur enim quod notitia conclusionis theologiae
+            <pb ed="#V" n="8"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>causatur ex notitia principiorum, scilicet, articulorum
+            <lb ed="#V" n="2"/>fidei, vel contentorum in Sacra scriptura, talis tamen
+            <lb ed="#V" n="3"/>notitia principiorum non est euidens, nec intellectus,
+            <lb ed="#V" n="4"/>aut visio proprie, licet sit ibi quidam assensus, &amp;
+            intel<lb ed="#V" n="5" break="no"/>lectus quid nominis terminorum, non autem quid sit
+            <lb ed="#V" n="6"/>res. Vnde Sanctus Thomas tertio sententia.
+            distinctio<lb ed="#V" n="7" break="no"/>ne vigesima quarta. quaestione prima. articulo
+            secun<lb ed="#V" n="8" break="no"/>do ad tertium.
+          </p>
+          <p xml:id="capsco-a1b0ew-d1e2625">
+            <lb ed="#V" n="9"/><milestone ed="#V" unit="p" rend="indent"/> Fidem (inquit) praecedit intellectus, quo
+            intelligi<lb ed="#V" n="10" break="no"/>mus quid significatur per nomen, &amp; non quo
+            intelligi<lb ed="#V" n="11" break="no"/>mus quid sit res ipsa, quia nomina ex effectibus Deo
+            im<lb ed="#V" n="12" break="no"/>ponuntur.
+          </p>
+          <p xml:id="capsco-a1b0ew-d1e2637">
+            <lb ed="#V" n="13"/><milestone ed="#V" unit="p" rend="indent"/> Haec ille. Et quaestiuncula tertia sic ait. Ad
+            perfe<lb ed="#V" n="14" break="no"/>ctam rationem cognitionis intellectiuae tria
+            requirun<lb ed="#V" n="15" break="no"/>tur. primo, quod illud quod cognoscitur intellectui
+            pro<lb ed="#V" n="16" break="no"/>ponatur, secundo quod intellectus illi adhaereat. tertio
+            <lb ed="#V" n="17"/>quod ea videat.
+          </p>
+          <p xml:id="capsco-a1b0ew-d1e2652">
+            <lb ed="#V" n="18"/><milestone ed="#V" unit="p" rend="indent"/> Ea ergo quae fidei sunt intellectui proponuntur, non
+            <lb ed="#V" n="19"/>quidem in seipsis, sed in quibusdam verbis, quae ad
+            eo<lb ed="#V" n="20" break="no"/>rum expressionem non sufficiunt, &amp; quibusdam
+            simili<lb ed="#V" n="21" break="no"/>tudinibus ab eorum repraesentatione deficientibus.
+          </p>
+          <p xml:id="capsco-a1b0ew-d1e2664">
+            <lb ed="#V" n="22"/><milestone ed="#V" unit="p" rend="indent"/> Et ideo dicuntur cognosci in speculo, &amp; in
+            aenigma<lb ed="#V" n="23" break="no"/>te, &amp; propter hoc non videntur proprie loquendo,
+            <lb ed="#V" n="24"/>sed tamen intellectus assentit eis, &amp; propter hoc
+            im<lb ed="#V" n="25" break="no"/>perfecte cognoscuntur, nec omnino ignorantur. Haec
+            <lb ed="#V" n="26"/>ille.
+          </p>
+          <p xml:id="capsco-a1b0ew-d1e2678">
+            <lb ed="#V" n="27"/><milestone ed="#V" unit="p" rend="indent"/> Ad confirmationem similiter dicitur: quod
+            noti<lb ed="#V" n="28" break="no"/>tia conclusionis causatur ex notitia articulorum, &amp;
+            <lb ed="#V" n="29"/>quod non sufficit, quod alius cognoscat principia ad
+            <lb ed="#V" n="30"/>hoc, quod aliquis dicatur scire conclusionem, nisi idem
+            <lb ed="#V" n="31"/>sit qui vtrumque nouit, scilicet principia &amp;
+            conclusio<lb ed="#V" n="32" break="no"/>nem.
+          </p>
+          <p xml:id="capsco-a1b0ew-d1e2695">
+            <lb ed="#V" n="33"/><milestone ed="#V" unit="p" rend="indent"/> Dico tamen quod non oportet quod ille qui
+            scientifi<lb ed="#V" n="34" break="no"/>ce nouit conclusionem, euidenter cognoscat principia:
+            <lb ed="#V" n="35"/>sed sufficit quod credat euidenter contingi ea, &amp; eius
+            <lb ed="#V" n="36"/>cognitio continuetur euidenter cognoscenti ea, sic quod
+            <lb ed="#V" n="37"/>vna cognitio sit sigillatio alterius, &amp; eius impressio, aut
+            <lb ed="#V" n="38"/>effectus saltem. sic est in proposito, &amp; principaliter, quia
+            <lb ed="#V" n="39"/>sicut dicit Sanctus Thomas, secunda secundae. quaestione
+            <lb ed="#V" n="40"/>prima articulo quarto ad tertium.
+          </p>
+          <p xml:id="capsco-a1b0ew-d1e2716">
+            <lb ed="#V" n="41"/><milestone ed="#V" unit="p" rend="indent"/> Lumen fidei facit videre ea, quae creduntur esse
+            cre<lb ed="#V" n="42" break="no"/>dibilia, sicut enim per alios habitus virtutum homo
+            vi<lb ed="#V" n="43" break="no"/>det illud, quod est sibi conueniens secundum habitum
+            <lb ed="#V" n="44"/>illum, ita etiam per habitum fidei, inclinatur mens
+            ho<lb ed="#V" n="45" break="no"/>minis ad assentiendum eis, quae conueniunt rectae
+            fi<lb ed="#V" n="46" break="no"/>der, &amp; non alijs.
+          </p>
+          <p xml:id="capsco-a1b0ew-d1e2733">
+            <lb ed="#V" n="47"/><milestone ed="#V" unit="p" rend="indent"/> Ibidem etiam ad secundum dicit sic. Ea quae
+            sub<lb ed="#V" n="48" break="no"/>sunt fidei possunt considerari dupliciter.
+          </p>
+          <p xml:id="capsco-a1b0ew-d1e2742">
+            <lb ed="#V" n="49"/><milestone ed="#V" unit="p" rend="indent"/> Vno modo in spirituali, &amp; sic non possunt esse simul
+            <lb ed="#V" n="50"/>visa, &amp; credita.
+          </p>
+          <p xml:id="capsco-a1b0ew-d1e2750">
+            <lb ed="#V" n="51"/><milestone ed="#V" unit="p" rend="indent"/> Alio modo in generali, scilicet sub communi
+            ra<lb ed="#V" n="52" break="no"/>tione credibilis, &amp; sic sunt visa ab eo qui credit, non
+            <lb ed="#V" n="53"/>enim crederet nisi videret ea esse credenda, vel propter
+            <lb ed="#V" n="54"/>euidentiam signorum, vel propter aliquid huiusmodi.
+          </p>
+          <p xml:id="capsco-a1b0ew-d1e2762">
+            <lb ed="#V" n="55"/><milestone ed="#V" unit="p" rend="indent"/> Haec ille.
+            <lb ed="#V" n="56"/>Ex quibus patet quod habens habitum fidei, licet
+            <lb ed="#V" n="57"/>non videat rationes terminorum articulorum fidei, vel
+            <lb ed="#V" n="58"/>terminos sub proprijs rationibus, nec consequenter
+            <lb ed="#V" n="59"/>inhaerentiam subiecti ad praedicatum, tamen videt esse
+            <lb ed="#V" n="60"/>assentiendum dictis articulis, &amp; talis notitia infallibilis
+            <lb ed="#V" n="61"/>principiorum sufficit ad conclusiones sequentes ex eis
+            <lb ed="#V" n="62"/>scientifice cognoscendum.
+          </p>
+          <p xml:id="capsco-a1b0ew-d1e2783">
+            <lb ed="#V" n="63"/><milestone ed="#V" unit="p" rend="indent"/> Ad secundum dicitur, quod si antecedens
+            intelliga<lb ed="#V" n="64" break="no"/>tur de carentia in generali cuiuslibet notitiae, respectu
+            <lb ed="#V" n="65"/>principiorum, conceditur consequentia: sed
+            antece<lb ed="#V" n="66" break="no"/>dens est falsum. Sed si antecedens intelligatur de
+            caren<lb ed="#V" n="67" break="no"/>tia notitiae euidentis respectu principiorum, negatur
+            <lb ed="#V" n="68"/>consequentia, non enim simile hinc, &amp; inde, quia
+            prin<lb ed="#V" n="69" break="no"/>cipia scientiae subalternatae possunt duplici habitu
+            co<lb ed="#V" n="70" break="no"/>gnosci, scilicet scientifico, &amp; creditiuo, vt dictum est in
+            <lb ed="#V" n="71"/>solutione ad primum, sed principia scientiae
+            subalternan<lb ed="#V" n="72" break="no"/>tis non subalternatae solo intellectu cognoscuntur
+            su<cb ed="#V" n="b"/><lb ed="#V" n="73" break="no"/>mendo intellectum pro habitu principiorum: vnde
+            San<lb ed="#V" n="74" break="no"/>ctus Thomas de veritate quaestione decima quarta
+            arti<lb ed="#V" n="75" break="no"/>culo primo. dans differentiam inter modum
+            cognoscen<lb ed="#V" n="76" break="no"/>di habitu fidei, &amp; habitu scientifico, &amp; habitu
+            intelle<lb ed="#V" n="77" break="no"/>ctus, &amp; opinione sic ait. Intellectus possibilis non
+            mo<lb ed="#V" n="78" break="no"/>uetur nisi a duobus, scilicet a proprio obiecto quod est
+            <lb ed="#V" n="79"/>forma intelligibilis, scilicet quod quid est, vt dicitur
+            ter<lb ed="#V" n="80" break="no"/>tio de Anima: &amp; a voluntate, quae mouet omnes alias
+            <lb ed="#V" n="81"/>vires animae secundum Anselmum. Sic igitur
+            intelle<lb ed="#V" n="82" break="no"/>ctus noster possibilis respectu partium contradictionis
+            <lb ed="#V" n="83"/>se habet diuersimode, quandoque enim non magis
+            in<lb ed="#V" n="84" break="no"/>clinatur ad vnum quam ad aliud vel propter defectum
+            <lb ed="#V" n="85"/>rationum mouentium, sicut in illis problematibus, de
+            <lb ed="#V" n="86"/>quibus rationes non habemus, vel propter apparentem
+            <lb ed="#V" n="87"/>aequalitatem eorum, quae mouent ad vtranque partem,
+            <lb ed="#V" n="88"/>&amp; ista est dubitantis dispositio, qui fluctuat inter duas
+            <lb ed="#V" n="89"/>partes contradictionis.
+          </p>
+          <p xml:id="capsco-a1b0ew-d1e2846">
+            <lb ed="#V" n="90"/><milestone ed="#V" unit="p" rend="indent"/> Quandoque vero intellectus inclinatur magis ad
+            <lb ed="#V" n="91"/>vnum quam ad aliud: sed tamen illud inclinans non
+            suf<lb ed="#V" n="92" break="no"/>ficienter mouet intellectum ad hoc quod determinet
+            ip<lb ed="#V" n="93" break="no"/>sum totaliter ad alteram partem. vnde accipit quidem
+            <lb ed="#V" n="94"/>vnam partem: tamen semper dubitat de opposita: &amp;
+            <lb ed="#V" n="95"/>haec est dispositio opinantis, qui accipit vnam partem
+            <lb ed="#V" n="96"/>contradictionis cum formidine alterius.
+          </p>
+          <p xml:id="capsco-a1b0ew-d1e2865">
+            <lb ed="#V" n="97"/><milestone ed="#V" unit="p" rend="indent"/> Quandoque vero intellectus possibilis
+            determi<lb ed="#V" n="98" break="no"/>natur ad hoc, quod totaliter adhaereat vni parti, sed
+            <lb ed="#V" n="99"/>hoc quandoque ab intelligibili, quandoque a
+            volunta<lb ed="#V" n="100" break="no"/>te, ab intelligibili quidem quandoque mediate,
+            quan<lb ed="#V" n="101" break="no"/>doque immediatae. Immediate quidem quando ex
+            ip<lb ed="#V" n="102" break="no"/>sis intelligibilibus statim veritas propositionum
+            intelli<lb ed="#V" n="103" break="no"/>gibilium infallibiliter apparet, &amp; est dispositio
+            intelli<lb ed="#V" n="104" break="no"/>gentis principia, quae statim cognoscuntur notis
+            termi<lb ed="#V" n="105" break="no"/>nis, vt dicit Philosophus, &amp; sic ex ipso quod quid est
+            in<lb ed="#V" n="106" break="no"/>tellectus immediate determinatur ad huiusmodi
+            pro<lb ed="#V" n="107" break="no"/>positiones.
+          </p>
+          <p xml:id="capsco-a1b0ew-d1e2893">
+            <lb ed="#V" n="108"/><milestone ed="#V" unit="p" rend="indent"/> Mediate vero quando cognitis diffinitionibus
+            ter<lb ed="#V" n="109" break="no"/>minorum intellectus determinatur ad alteram partem
+            <lb ed="#V" n="110"/>contradictionis virtute primorum principiorum, &amp; ista
+            <lb ed="#V" n="111"/>est dispositio scientis.
+          </p>
+          <p xml:id="capsco-a1b0ew-d1e2905">
+            <lb ed="#V" n="112"/><milestone ed="#V" unit="p" rend="indent"/> Quandoque vero intellectus non potest determinari
+            <lb ed="#V" n="113"/>ad alteram partem contradictionis, neque statim per
+            ip<lb ed="#V" n="114" break="no"/>sas diffinitiones terminorum sicut in principijs, nec
+            e<lb ed="#V" n="115" break="no"/>tiam virtute principiorum, sicut in conclusionibus
+            de<lb ed="#V" n="116" break="no"/>monstratiuis.
+          </p>
+          <p xml:id="capsco-a1b0ew-d1e2919">
+            <lb ed="#V" n="117"/><milestone ed="#V" unit="p" rend="indent"/> Determinatur autem per voluntatem, quae eligit
+            as<lb ed="#V" n="118" break="no"/>sentire vni parti determinate, &amp; praecise propter aliquid,
+            <lb ed="#V" n="119"/>quod est sufficiens admouendum voluntatem, non
+            au<lb ed="#V" n="120" break="no"/>tem ad mouendum intellectum, vtpote, quia videtur
+            <lb ed="#V" n="121"/>bonum vel conueniens huic parti assentire: &amp; ista est
+            di<lb ed="#V" n="122" break="no"/>spositio credentis, vt cum aliquis credit dictis alicuius
+            <lb ed="#V" n="123"/>hominis, quia videtur decens vel vtile, &amp; sic etiam
+            mo<lb ed="#V" n="124" break="no"/>uemur ad credendum dictis inquantum nobis
+            repro<lb ed="#V" n="125" break="no"/>mittitur, si crediderimus praemium vitae aeternae, &amp; hoc
+            <lb ed="#V" n="126"/>praemio mouetur voluntas ad assentiendum his quae
+            di<lb ed="#V" n="127" break="no"/>cuntur, quamuis intellectus non moueatur per aliquid
+            <lb ed="#V" n="128"/>intellectum, &amp; ideo dicit Augustinus quod credere non
+            <lb ed="#V" n="129"/>potest nisi volens.
+          </p>
+          <p xml:id="capsco-a1b0ew-d1e2951">
+            <lb ed="#V" n="130"/><milestone ed="#V" unit="p" rend="indent"/> Haec Sanctus Thomas.
+            <lb ed="#V" n="131"/>Ex quibus patet, quod prima principia scientiarum
+            <lb ed="#V" n="132"/>cognoscuntur ex terminis, &amp; ideo respectu illorum est
+            <lb ed="#V" n="133"/>habitus qui dicitur intellectus, secus est de principijs
+            <lb ed="#V" n="134"/>proximis scientiarum subalternatarum, quae fide
+            co<lb ed="#V" n="135" break="no"/>gnosci possunt, &amp; ideo non sequitur, quod in talibus
+            <lb ed="#V" n="136"/>sufficiat conclusionem esse scitam vni, &amp; principia
+            no<lb ed="#V" n="137" break="no"/>ta alteri.
+          </p>
+          <p xml:id="capsco-a1b0ew-d1e2972">
+            <lb ed="#V" n="138"/><milestone ed="#V" unit="p" rend="indent"/> Dicendum tamen, quod si habens perfecte
+            scien<lb ed="#V" n="139" break="no"/>tiam subalternantem, puta geometriam traderet eam
+            <lb ed="#V" n="140"/>alicui proponendo ei principia sub terminis, quorum
+            <lb ed="#V" n="141"/>rationes ignoraret: ac per hoc non essent ei euidentia ex
+            <lb ed="#V" n="142"/>terminis, talis audiens geometriam qui non euidenter
+            <lb ed="#V" n="143"/>videret principia sibi proposita acquireret geometriam
+            <lb ed="#V" n="144"/>subalternatam scientiae docentis illo modo
+            subalterna<pb ed="#V" n="9"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>tionis, quo scientia considerans aliquam conclusionem,
+            <lb ed="#V" n="2"/>de qua non habet euidentiam, subalternatur illi qua
+            ha<lb ed="#V" n="3" break="no"/>bet euidentiam de eadem, &amp; in isto casu esset aliqua
+            geo<lb ed="#V" n="4" break="no"/>metria subalternans, &amp; alia subalternata, ita in
+            propo<lb ed="#V" n="5" break="no"/>sito dico de theologia Dei, &amp; theologia viatorum, vel
+            <lb ed="#V" n="6"/>theologia Christi, &amp; theologia A postolorum ab eo
+            au<lb ed="#V" n="7" break="no"/>dientium.
+          </p>
+          <p xml:id="capsco-a1b0ew-d1e3008">
+            <lb ed="#V" n="8"/><milestone ed="#V" unit="p" rend="indent"/> Non ergo habetur quod scientia subalternans manens
+            <lb ed="#V" n="9"/>subalternans possit acquiri sine euidenti notitia
+            princi<lb ed="#V" n="10" break="no"/>piorum: quia vt dictum est eo facto efficeretur
+            subalter<lb ed="#V" n="11" break="no"/>nata illi scientiae, a qua sumeret principia sua.
+          </p>
+          <p xml:id="capsco-a1b0ew-d1e3021">
+            <lb ed="#V" n="12"/><milestone ed="#V" unit="p" rend="indent"/> Ad primum contra secundam conclusionem dicitur,
+            <lb ed="#V" n="13"/>quod theologia nostra subalternatur scientiae beatorum
+            <lb ed="#V" n="14"/>primo modo proprie loquendo, quamuis etiam posset
+            <lb ed="#V" n="15"/>iustineri primo &amp; secundo modis subalternari eidem. Et
+            <lb ed="#V" n="16"/>ideo ad vtrasque rationes dicendum est.
+          </p>
+          <p xml:id="capsco-a1b0ew-d1e3035">
+            <lb ed="#V" n="17"/><milestone ed="#V" unit="p" rend="indent"/> Ad primum quidem contra primum modum negatur
+            <lb ed="#V" n="18"/>maior, sicut patuit in responsione tertij argumenti
+            con<lb ed="#V" n="19" break="no"/>tra primam conclusionem.
+          </p>
+          <p xml:id="capsco-a1b0ew-d1e3045">
+            <lb ed="#V" n="20"/><milestone ed="#V" unit="p" rend="indent"/> Ad secundum negatur maior si vniuersaliter
+            intelliga<lb ed="#V" n="21" break="no"/>tur. Si enim perspectiuus sit non geometra, tunc
+            habi<lb ed="#V" n="22" break="no"/>tus suorum principiorum est fides incompossibilis
+            prin<lb ed="#V" n="23" break="no"/>cipijs geometriae, sed sufficit ad subalternationem, quod
+            <lb ed="#V" n="24"/>illae duae scientiae eandem conclusionem considerent, &amp;
+            <lb ed="#V" n="25"/>vna illam teneat, vt conclusionem demonstratam, scilicet
+            <lb ed="#V" n="26"/>subalternans, &amp; alia vt creditam.
+          </p>
+          <p xml:id="capsco-a1b0ew-d1e3064">
+            <lb ed="#V" n="27"/><milestone ed="#V" unit="p" rend="indent"/> Ad tertium dicetur post soluendo argumenta contra
+            <lb ed="#V" n="28"/>quintam conclusionem.
+          </p>
+          <p xml:id="capsco-a1b0ew-d1e3072">
+            <lb ed="#V" n="29"/><milestone ed="#V" unit="p" rend="indent"/> Ad quartum negatur minor, licet enim diuinitas sit
+            <lb ed="#V" n="30"/>obiectum scientiae beatorum, &amp; similiter nostrae
+            theolo<lb ed="#V" n="31" break="no"/>gtae, tamen aliquid videtur addere dum est obiectum
+            theo<lb ed="#V" n="32" break="no"/>logiae nostrae ad se, dum est obiectum theologiae
+            beato<lb ed="#V" n="33" break="no"/>rum. Nam sicut dicit Sanctus Thomas de ve. quaestione
+            <lb ed="#V" n="34"/>decimaquarta, articulo octauo ad tertium. Veritas
+            pri<lb ed="#V" n="35" break="no"/>ma est obiectum visionis patriae, vt in sua specie apparens,
+            <lb ed="#V" n="36"/>fider autem vt non apparens. Vnde etsi idem re sit
+            vtrius<lb ed="#V" n="37" break="no"/>que actus obiectum, non tamen est idem ratione, &amp; sic
+            <lb ed="#V" n="38"/>obiectum formaliter differens diuersam speciem actus
+            <lb ed="#V" n="39"/>causat. Haec ille.
+          </p>
+          <p xml:id="capsco-a1b0ew-d1e3099">
+            <lb ed="#V" n="40"/><milestone ed="#V" unit="p" rend="indent"/> Hoc autem sic intelligo non quod non apparentia sit
+            <lb ed="#V" n="41"/>formalis ratio intrinseca obiecti fider, vel scientiae nostrae,
+            <lb ed="#V" n="42"/>&amp; inquantum obiectum habet terminare actum, sed est
+            <lb ed="#V" n="43"/>modus, &amp; conditio obiecti fidei &amp; nostrae theologiae
+            in<lb ed="#V" n="44" break="no"/>quantum habet mouere ad actum.
+          </p>
+          <p xml:id="capsco-a1b0ew-d1e3114">
+            <lb ed="#V" n="45"/><milestone ed="#V" unit="p" rend="indent"/> Nam tam fides quam scientia nostra est per speculum,
+            <lb ed="#V" n="46"/>&amp; in enigmate, seom actus cognoscendi earum terminatur
+            <lb ed="#V" n="47"/>ad ipsum Deum, talis autem additio subiecti ad
+            subic<lb ed="#V" n="48" break="no"/>qua sussicit ad subalternationem, vt dicamus, quod Deus
+            <lb ed="#V" n="49"/>in se visus sit obiectum scientiae beatorum. Sed Deus in
+            <lb ed="#V" n="50"/>suo effectu cognitus est obiectum nostrae theologiae, ita
+            <lb ed="#V" n="51"/>quod est additio scientis non ex parte scibilis, sicut cum
+            <lb ed="#V" n="52"/>dicitur linea visibilis, non fit additio ex parte obiecti, sed.
+            <lb ed="#V" n="53"/>cognoscentis.
+          </p>
+          <p xml:id="capsco-a1b0ew-d1e3137">
+            <lb ed="#V" n="54"/><milestone ed="#V" unit="p" rend="indent"/> Ad quintum dico, quod Theologus scit conclusiones
+            <lb ed="#V" n="55"/>suas esse necessarias, &amp; impossibiles aliter se habere, vt
+            <lb ed="#V" n="56"/>subsunt fidei &amp; theologiae suae: scit enim quod fidei non
+            <lb ed="#V" n="57"/>potest subesse falsum, sicut nec prophetiae. Sicut enim
+            <lb ed="#V" n="58"/>dicit Sanctus Thomas secunda secundae, quaestio. 171.
+            ar<lb ed="#V" n="59" break="no"/>ticulo sexto. Eadem est veritas cognitionis in discipulo,
+            <lb ed="#V" n="60"/>&amp; in docente: quia cognitio addiscentis est similitudo
+            <lb ed="#V" n="61"/>cognitionis docentis, sicut &amp; in rebus naturalibus
+            for<lb ed="#V" n="62" break="no"/>ma geniti est quaedam similitudo formae generantis, &amp;
+            <lb ed="#V" n="63"/>per hunc etiam modum Hieronymus dicit quod prohetia est
+            <lb ed="#V" n="64"/>signum diuinae praescientiae, oportet igitur eandem esse
+            <lb ed="#V" n="65"/>veritatem propheticae cognitionis &amp; enunciationis, quae
+            <lb ed="#V" n="66"/>est cognitionis diuinae cui impossibile est subesse falsum,
+            <lb ed="#V" n="67"/>vnde proohetiae non potest subesse falsum. Et ibidem ad
+            <lb ed="#V" n="68"/>tertium. Eadem (inquit) est veritas prophetiae &amp; diuinae
+            <lb ed="#V" n="69"/>praescientiae, vt praedictum est, &amp; ideo ista conditionalis
+            <lb ed="#V" n="70"/>est vera: si aliquid est prophetatum, illud erit, sicut &amp;
+            il<lb ed="#V" n="71" break="no"/>la, si aliquid en praescitum, erit. In vtraque enim
+            antece<lb ed="#V" n="72" break="no"/>dens est impossibile non esse verum, vnde &amp; consequens
+            <lb ed="#V" n="73"/>est necessarium, uon secundum quod est futurum
+            respe<cb ed="#V" n="b"/><lb ed="#V" n="74" break="no"/>pectu nostri, sed vt consideratur in suo praesenti, prout
+            <lb ed="#V" n="75"/>subditur diuinae praescientie. Haec ille. Et similiter
+            dicen<lb ed="#V" n="76" break="no"/>dum est de fide &amp; de conclusionibus ex articulis fidei
+            <lb ed="#V" n="77"/>deriuatis.
+          </p>
+          <p xml:id="capsco-a1b0ew-d1e3194">
+            <lb ed="#V" n="78"/><milestone ed="#V" unit="p" rend="indent"/> Vnde Sanctus Thomas de ve. quaestione decima
+            quar<lb ed="#V" n="79" break="no"/>ta, articulo octauo ad quartum ait. Christi passio
+            quam<lb ed="#V" n="80" break="no"/>uis in se considerata sit contingens, tamen secundum
+            <lb ed="#V" n="81"/>quod diuinae praescientiae substat, prout de ea est fides, &amp;
+            <lb ed="#V" n="82"/>prophetia, habet immobilem veritatem. Idem ponit
+            se<lb ed="#V" n="83" break="no"/>cunda secundae, quaestione prima, articulo tertio ad
+            ter<lb ed="#V" n="84" break="no"/>tium. Deum (inquit) non incarnari secundum se
+            conside<lb ed="#V" n="85" break="no"/>ratum fuit possibile etiam post tempus Abrahae, sed
+            secun<lb ed="#V" n="86" break="no"/>dum quod cadit sub diuina praescientia habet quandam
+            <lb ed="#V" n="87"/>necessitatem infallibilitatis, &amp; hoc modo cadit sub fide:
+            <lb ed="#V" n="88"/>vnde prout cadit sub fide non potest esse falsum. Haec
+            il<lb ed="#V" n="89" break="no"/>le. Qualis autem sit necessitas in talibus praescitis, aut
+            re<lb ed="#V" n="90" break="no"/>uelatis, aut creditis, aut ex fide conclusis, alias dicetur in
+            <lb ed="#V" n="91"/>futurum.
+          </p>
+          <p xml:id="capsco-a1b0ew-d1e3228">
+            <lb ed="#V" n="92"/><milestone ed="#V" unit="p" rend="indent"/> Ad argumenta per quae probat Aureolus, quod thenlo
+            <lb ed="#V" n="93"/>gia nostra non subalternetur scientiae beatorum illo
+            mo<lb ed="#V" n="94" break="no"/>do, quo medicina subalternatur geometriae quo ad
+            ali<lb ed="#V" n="95" break="no"/>quas conditiones dicitur.
+          </p>
+          <p xml:id="capsco-a1b0ew-d1e3240">
+            <lb ed="#V" n="96"/><milestone ed="#V" unit="p" rend="indent"/> Ad primum quidem, quod scientiae quae illo modo
+            sub<lb ed="#V" n="97" break="no"/>alternatur accidentale est, &amp; non de ratione talis
+            subal<lb ed="#V" n="98" break="no"/>ternatae quod sumat sua principia aliunde quam a
+            supe<lb ed="#V" n="99" break="no"/>riori: ex hoc, scilicet quod non subalternetur ei quo ad
+            <lb ed="#V" n="100"/>omnia in se contenta, sicut medicina geom etriae, sed rheo
+            <lb ed="#V" n="101"/>logia nostra quo ad omnia contenta in ea subalternatur
+            <lb ed="#V" n="102"/>scientiae beatorum, &amp; ideo potest vtroque modo
+            subal<lb ed="#V" n="103" break="no"/>ternari: quia secundus modus infert primum.
+          </p>
+          <p xml:id="capsco-a1b0ew-d1e3261">
+            <lb ed="#V" n="104"/><milestone ed="#V" unit="p" rend="indent"/> Ad secundum negatur maior si vniuersaliter capiatur:
+            <lb ed="#V" n="105"/>hoc enim non est de ratione scientiae subalternatae, sed
+            ac<lb ed="#V" n="106" break="no"/>cidit ei propter imperfectam subalternationem, &amp; non
+            <lb ed="#V" n="107"/>essentialem dependentiam eius a subalternante, scilicet
+            <lb ed="#V" n="108"/>quod inferior habeat ex se sufficientem cognitione
+            suo<lb ed="#V" n="109" break="no"/>rum principiorum: secundum enim Petrum de Palude,
+            <lb ed="#V" n="110"/>essentialis ratio subalternationis est essentialis, &amp; per se
+            <lb ed="#V" n="111"/>dependentia vnius scientiae ab alia, non sicut scientia
+            de<lb ed="#V" n="112" break="no"/>pendet a sensu, sed sicut a principaliter tradente illud,
+            <lb ed="#V" n="113"/>quod aliter per se haberi non potest, ita perfecte. Et
+            quan<lb ed="#V" n="114" break="no"/>tum ad hoc verius subalternatur theologia nostra,
+            scien<lb ed="#V" n="115" break="no"/>tiae beatorum quam quaecunque scientia humana, quae
+            <lb ed="#V" n="116"/>per sensum sine superiori haberi potest. Vnde theologia
+            <lb ed="#V" n="117"/>habet omne illud, quod est de essentia subalternationis,
+            <lb ed="#V" n="118"/>licet non habeat omnia, quae sicut accidentia concurrunt
+            <lb ed="#V" n="119"/>ad subalternationem in omnibus alijs scientiis, sicut si
+            <lb ed="#V" n="120"/>esset homo habens animam &amp; corpus, licet non haberet
+            <lb ed="#V" n="121"/>quantitatem, &amp; omnia alia accidentia, quae alii homines
+            <lb ed="#V" n="122"/>habent.
+          </p>
+          <p xml:id="capsco-a1b0ew-d1e3307">
+            <lb ed="#V" n="123"/><milestone ed="#V" unit="p" rend="indent"/> Ad tertium negatur consequentia, non enim
+            quaecun<lb ed="#V" n="124" break="no"/>que clara &amp; obscura notitia seinuicem subalternant, sed
+            <lb ed="#V" n="125"/>illa cognitio quae est obscura propter suorum
+            principio<lb ed="#V" n="126" break="no"/>rum euidentiam subalternatur ei, quae dicitur lucida
+            pro<lb ed="#V" n="127" break="no"/>pter suorum principiorum euidentiam, a qua
+            subalter<lb ed="#V" n="128" break="no"/>nata sumit sua principia, &amp; sic essentialiter dependet
+            <lb ed="#V" n="129"/>ab ea: quia ab illa sola omni alia cognitione sublata
+            po<lb ed="#V" n="130" break="no"/>test originari, &amp; aliter non potest, vel saltem non ita
+            <lb ed="#V" n="131"/>perfecte.
+          </p>
+          <p xml:id="capsco-a1b0ew-d1e3330">
+            <lb ed="#V" n="132"/><milestone ed="#V" unit="p" rend="indent"/> Quod dico propter aliquas subalternatas, quae
+            su<lb ed="#V" n="133" break="no"/>munt principia sua a sensu, sed quia principia nata sunt
+            <lb ed="#V" n="134"/>demonstrari, non ita perfecte potest haberi eorum
+            no<lb ed="#V" n="135" break="no"/>titia, sicut per scientiam subalternantem, &amp; praesertim
+            <lb ed="#V" n="136"/>cum vna dicit propter quid de illo, de quo alia nouit
+            so<lb ed="#V" n="137" break="no"/>lum quia.
+          </p>
+          <p xml:id="capsco-a1b0ew-d1e3347">
+            <lb ed="#V" n="138"/><milestone ed="#V" unit="p" rend="indent"/> Ad quartum negatur minor, sicut enim dictum est
+            su<lb ed="#V" n="139" break="no"/>perius in tertia conclusione, nostra theologia non
+            attin<lb ed="#V" n="140" break="no"/>git ad perfectam rationem scientiae, nisi inquantum
+            conti<lb ed="#V" n="141" break="no"/>nuatur scientiae subalternanti. Ex hoc enim habet, quod eadem
+            <lb ed="#V" n="142"/>infallibilitas &amp; necessitas sit in vtraque vt allegatum fuit
+            <lb ed="#V" n="143"/>supra de fide &amp; prophetia, quod est simile proposito. Et
+            <lb ed="#V" n="144"/>cum dicit arguens, quod theologia viatoris destrueretur
+            adue<lb ed="#V" n="145" break="no"/>niente theologia comprehensoris, quicquid sit de hoc
+            ne<lb ed="#V" n="146" break="no"/>gatur consequentia, licet enim sint incompossibiles in
+            eo<pb ed="#V" n="10"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>dem subiecto Theologia scilicet, &amp; visio beatifica quo
+            <lb ed="#V" n="2"/>ad aliqua, tamen vnum est impressio quaedam alterius,
+            <lb ed="#V" n="3"/>&amp; diminuta similitudo, essentialiter tamen dependens a
+            <lb ed="#V" n="4"/>theologia beatorum modo supradicto. Non ergo
+            opor<lb ed="#V" n="5" break="no"/>ter quod sese perficiant per coexistentiam in eodem
+            su<lb ed="#V" n="6" break="no"/>biecto, sed per continuationem vnius ad aliam. Et sic
+            <lb ed="#V" n="7"/>dico, quod licet visio beatifica fidem euacuet &amp; non
+            per<lb ed="#V" n="8" break="no"/>ficiat eam per coex istentiam in eodem, tamen tota
+            perfe<lb ed="#V" n="9" break="no"/>ctio quam habet fides &amp; theologia nostra ex
+            continua<lb ed="#V" n="10" break="no"/>tione procedit ad diuinam visionem: quia scilicet
+            inniti<lb ed="#V" n="11" break="no"/>mur auctoritati &amp; dictis habentis talem lucidam &amp;
+            aper<lb ed="#V" n="12" break="no"/>tissimam visionem scilicet Dei, &amp; est impressio.
+          </p>
+          <p xml:id="capsco-a1b0ew-d1e3398">
+            <lb ed="#V" n="13"/><milestone ed="#V" unit="p" rend="indent"/> Ad quintum dicitur, sicut fuit dictum ad quintum
+            con<lb ed="#V" n="14" break="no"/>tra eandem conclusionem primo loco inductum.
+          </p>
+          <p xml:id="capsco-a1b0ew-d1e3406">
+            <lb ed="#V" n="15"/><milestone ed="#V" unit="p" rend="indent"/> Ad primum Durandi dicitur, quod vnam scientiam
+            <lb ed="#V" n="16"/>dicere propter quid de principijs, vel conclusionibus
+            al<lb ed="#V" n="17" break="no"/>terius potest contingere dupliciter. Vno modo quia
+            di<lb ed="#V" n="18" break="no"/>cit causam quare sic est, sicut significatur per talia
+            princi<lb ed="#V" n="19" break="no"/>pia vel conclusiones, &amp; illo modo negatur maior, &amp;
+            con<lb ed="#V" n="20" break="no"/>ceditur minor. Alio modo quia demonstrat a priori
+            prio<lb ed="#V" n="21" break="no"/>ritate communitatis, vel secundum rationem
+            cognoscen<lb ed="#V" n="22" break="no"/>di principia alterius, quamuis non a priori prioritate
+            cau<lb ed="#V" n="23" break="no"/>salitatis, hoc enim modo metaphysica probat multas
+            pas<lb ed="#V" n="24" break="no"/>siones de ente per communes dignitates, quae quidem
+            <lb ed="#V" n="25"/>passiones non differunt realiter ab ente, &amp; per
+            conse<lb ed="#V" n="26" break="no"/>quens ens non est causa illarum. Similiter illo modo
+            theo<lb ed="#V" n="27" break="no"/>logia beatorum dicit propter quid de principijs nostrae
+            <lb ed="#V" n="28"/>theologiae, non quidem propter quid Deus est aeternus
+            <lb ed="#V" n="29"/>secundum rem, sed propter quid secundum rationem:
+            <lb ed="#V" n="30"/>quia scilicet videt rationem deitatis ex qua concludit a
+            <lb ed="#V" n="31"/>priori secundum rationem, quod Deus est aeternus &amp;
+            om<lb ed="#V" n="32" break="no"/>nipotens, &amp; alia de quibus nos tenemus quia.
+          </p>
+          <p xml:id="capsco-a1b0ew-d1e3449">
+            <lb ed="#V" n="33"/><milestone ed="#V" unit="p" rend="indent"/> Illud autem quod additur de articulis humanitatis non
+            <lb ed="#V" n="34"/>valet, nam in scientia sanctorum dicitur propter quid
+            hu<lb ed="#V" n="35" break="no"/>ius, quod est Deum incarnari &amp; non in nostra: quia illi
+            <lb ed="#V" n="36"/>vident clare finem eius &amp; causam efficientem proximam,
+            <lb ed="#V" n="37"/>nos autem non sic, sed eis credimus quia sic est.
+          </p>
+          <p xml:id="capsco-a1b0ew-d1e3464">
+            <lb ed="#V" n="38"/><milestone ed="#V" unit="p" rend="indent"/> Ad secundum dicitur, quod ad veram
+            subalternatio<lb ed="#V" n="39" break="no"/>nem sufficit quod subiectum inferioris se habeat ex
+            addi<lb ed="#V" n="40" break="no"/>tione ad subiectum superioris: illo modo autem se
+            ha<lb ed="#V" n="41" break="no"/>bet subiectum nostrae Theologiae ad subiectum scientiae
+            <lb ed="#V" n="42"/>beatorum, vt dictum est in responsione ad quartum
+            prae<lb ed="#V" n="43" break="no"/>cedens. Quod autem additur de perspectiua non valet,
+            <lb ed="#V" n="44"/>nam in perspectiua demonstrantur passiones de quanto
+            <lb ed="#V" n="45"/>visibili, vel linea colorata non de visione, aut de modo
+            <lb ed="#V" n="46"/>videndi, &amp; licet nulla variatio fiat in re visa dum apparet
+            <lb ed="#V" n="47"/>tanta, vel tanta, tamen talia dicuntur esse passiones lineae
+            <lb ed="#V" n="48"/>visibiles, vocando passionem omnem determinationem
+            <lb ed="#V" n="49"/>extrinsecam rei, vel intrinsecam, cuius res
+            denomina<lb ed="#V" n="50" break="no"/>tur causa.
+          </p>
+          <p xml:id="capsco-a1b0ew-d1e3496">
+            <lb ed="#V" n="51"/><milestone ed="#V" unit="p" rend="indent"/> Sic autem est de passionibus perspectiuae, licet enim
+            <lb ed="#V" n="52"/>subiectum non sit realiter variatum in visibilitate, tamen
+            <lb ed="#V" n="53"/>visibile est causa quod visio varietur, ac propter hoc
+            visi<lb ed="#V" n="54" break="no"/>bile varie dicatur apparere.
+          </p>
+          <p xml:id="capsco-a1b0ew-d1e3508">
+            <lb ed="#V" n="55"/><milestone ed="#V" unit="p" rend="indent"/> Ad primum contra tertiam conclusionem negatur
+            mi<lb ed="#V" n="56" break="no"/>nor, nam discursus Theologicus &amp; si non sit ex primis
+            <lb ed="#V" n="57"/>&amp; immediatis, vel per se notis, procedit tamen mediate
+            <lb ed="#V" n="58"/>ex propositionibus, quae notae sunt vel nosci possunt per
+            <lb ed="#V" n="59"/>prima &amp; immediata, scilicet per propositiones quas
+            for<lb ed="#V" n="60" break="no"/>mant beati clare videntes rationes terminorum
+            articu<lb ed="#V" n="61" break="no"/>lorum fidei, vnde breuiter theologia procedit ex primis
+            <lb ed="#V" n="62"/>&amp; immediatis, &amp; per se notis tanquam ex principijs
+            pri<lb ed="#V" n="63" break="no"/>mis, non autem tanquam ex primis, vt superius in
+            con<lb ed="#V" n="64" break="no"/>clusionum probationibus dicebatur. Nec valet
+            proba<lb ed="#V" n="65" break="no"/>tio minoris cum dicit, quod discursus theologicus
+            proce<lb ed="#V" n="66" break="no"/>dit ex creditis: hoc enim verum est loquendo de
+            princi<lb ed="#V" n="67" break="no"/>pijs primis, non autem de primis
+          </p>
+          <p xml:id="capsco-a1b0ew-d1e3540">
+            <lb ed="#V" n="68"/><milestone ed="#V" unit="p" rend="indent"/> Ad confirmationem negatur minor, discursus enim
+            <lb ed="#V" n="69"/>theologicus licet non sit potissima demonstratio
+            proce<lb ed="#V" n="70" break="no"/>dens ex per se notis ipsi demonstranti mediate, vel iime
+            <lb ed="#V" n="71"/>diate, cum non possit resoluere suas praemissas in aliqua
+            <lb ed="#V" n="72"/>per se nota sibi, cum rationes terminorum articulorum
+            <lb ed="#V" n="73"/>fidei non habeat, potest tamen dici demonstratio talis
+            <lb ed="#V" n="74"/>qualis sit in scientijs subalternatis quarum processus non
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="75"/>sunt demonstratiui, nisi habentibus habitum
+            principio<lb ed="#V" n="76" break="no"/>rum. Sic etiam est in theologia nostra, vnde Sanctus
+            <lb ed="#V" n="77"/>Thomas secunda secundae, quaestione prima, articulo
+            quin<lb ed="#V" n="78" break="no"/>to ad secundum. Rationes (inquit) quae inducuntur a
+            <lb ed="#V" n="79"/>sanctis ad probandum ea quae sunt fidei non sunt
+            demon<lb ed="#V" n="80" break="no"/>stratiuae, sed persuasiones quaedam manifestantes non
+            es<lb ed="#V" n="81" break="no"/>se impossibile, quod in fide proponit, vel procedunt ex
+            <lb ed="#V" n="82"/>principijs fidei, scilicet ex auctoritatibus sacrae scripturae
+            <lb ed="#V" n="83"/>sicut Dionysius secundo capitulo de diuinis nominibus. Ex
+            <lb ed="#V" n="84"/>his autem principijs, ita probatur aliquid apud fideles,
+            <lb ed="#V" n="85"/>sicut etiam ex principijs naturaliter notis probatur
+            ali<lb ed="#V" n="86" break="no"/>quid apud omnes, vnde etiam theologia scientia est.
+            <lb ed="#V" n="87"/>Haec ille. Ex quo patet quod discursus theologici qui ex
+            <lb ed="#V" n="88"/>auctoritatibus scripturae procedunt, licet non sint
+            simpli<lb ed="#V" n="89" break="no"/>citer demonstratiui, sunt tamen demonstratiui apud
+            fi<lb ed="#V" n="90" break="no"/>deles. Et ideo probatio minoris non valet, non enim
+            om<lb ed="#V" n="91" break="no"/>nis demonstratio quemlibet conuincit, sed solum
+            demon<lb ed="#V" n="92" break="no"/>stratio simpliciter.
+          </p>
+          <p xml:id="capsco-a1b0ew-d1e3600">
+            <lb ed="#V" n="93"/><milestone ed="#V" unit="p" rend="indent"/> Ad secundum negatur maior. Ad probationem
+            dici<lb ed="#V" n="94" break="no"/>tur quod auctoritas non generat scientiam immediate,
+            <lb ed="#V" n="95"/>sed fidem, quae tamen potest esse principium scientiae
+            sub<lb ed="#V" n="96" break="no"/>alternatae. Ad dicta beati Augustini ibidem allegata
+            dici<lb ed="#V" n="97" break="no"/>tur, quod non sola ratio gignit intellectum, immo &amp;
+            au<lb ed="#V" n="98" break="no"/>ctoritas quandoque mediate, vel immediate, sed
+            distin<lb ed="#V" n="99" break="no"/>guendum est de intellectu, vnde Sanctus Thomas secunda
+            <lb ed="#V" n="100"/>secundae, quaestione octaua, articulo secundo, sic ait.
+            (Du<lb ed="#V" n="101" break="no"/>pliciter dici pussumus aliqua intelligere, vno modo
+            per<lb ed="#V" n="102" break="no"/>fecte quando scilicet pertingimus ad cognoscendum
+            es<lb ed="#V" n="103" break="no"/>sentiam rei intellectae, &amp; ipsam veritatem enunciabilis
+            in<lb ed="#V" n="104" break="no"/>tellecti secundum quod in se est, &amp; hoc modo ea quae
+            di<lb ed="#V" n="105" break="no"/>recte cadunt sub fide intelligere non possumus durante
+            <lb ed="#V" n="106"/>statu fidei, sed quaedam alia ad fidem ordinata hoc modo
+            <lb ed="#V" n="107"/>intelligi possunt. Alio modo contingit aliquid
+            intelligi<lb ed="#V" n="108" break="no"/>imperfecte, quando scilicet ipsa essentia rei, vel veritas
+            <lb ed="#V" n="109"/>propositionis non cognoscitur quid sit aut quomodo, sed
+            <lb ed="#V" n="110"/>tamen cognoscitur secundum quod ea quae exterius
+            appa<lb ed="#V" n="111" break="no"/>rent veritati non contrariantur, inquantum scilicet
+            homo<lb ed="#V" n="112" break="no"/>intelligit, quod propter ea quae exterius apparent non est
+            <lb ed="#V" n="113"/>recedendum ab his quae sunt fidei, &amp; secundum hoc nihil
+            <lb ed="#V" n="114"/>prohibet durante statu fidei intelligere etiam ea quae per
+            <lb ed="#V" n="115"/>se sub fide cadunt. Haec ille.
+          </p>
+          <p xml:id="capsco-a1b0ew-d1e3653">
+            Dico ergo quod Augustinus
+            <lb ed="#V" n="116"/>intendit, quod discursus procedens ex auctoritatibus
+            <lb ed="#V" n="117"/>scripturae non generat intellectum primo modo, sed de
+            <lb ed="#V" n="118"/>secundo non negat, immo in libro de videndo Deum
+            <lb ed="#V" n="119"/>dicit ea quae fidei sunt posse dici visa, vel scita. Non
+            im<lb ed="#V" n="120" break="no"/>merito (inquit) nos scire dicimus non solum ea quae
+            vi<lb ed="#V" n="121" break="no"/>demus, aut vidimus, verum etiam illa quae idoneis
+            com<lb ed="#V" n="122" break="no"/>moti testimonijs, vel testibus credimus, porro scire non
+            <lb ed="#V" n="123"/>incongruenter dicimus etiam illud quod certissimum
+            <lb ed="#V" n="124"/>credimus, hinc factum est, vt etiam recte credita &amp; si
+            <lb ed="#V" n="125"/>non adsint sensibus nostris videre mente dicamus. Haec
+            <lb ed="#V" n="126"/>Augustinus
+          </p>
+          <p xml:id="capsco-a1b0ew-d1e3680">
+            <lb ed="#V" n="127"/><milestone ed="#V" unit="p" rend="indent"/> Ad tertium negatur consequentia, dico enim quod
+            ve<lb ed="#V" n="128" break="no"/>ritates theologicae, quae in se contingentes sunt sciuntur
+            <lb ed="#V" n="129"/>scientia diuina infallibiliter: quia attingit
+            contingen<lb ed="#V" n="130" break="no"/>tia, vt habent aliquid necessitatis, &amp; conformem
+            ne<lb ed="#V" n="131" break="no"/>cessitatem habet haec scientia illi subalternata, que est
+            e<lb ed="#V" n="132" break="no"/>ius impressio &amp; similitudo quaedam, &amp; istud
+            declara<lb ed="#V" n="133" break="no"/>tum fuit soluendo ad quintum contra secundam
+            con<lb ed="#V" n="134" break="no"/>clusionem.
+          </p>
+          <p xml:id="capsco-a1b0ew-d1e3701">
+            <lb ed="#V" n="135"/><milestone ed="#V" unit="p" rend="indent"/> Ad primum Durandi dicitur, quod maior est
+            distin<lb ed="#V" n="136" break="no"/>guenda, vel forte falsa distinguenda quidem quia si
+            in<lb ed="#V" n="137" break="no"/>telligatur quod, omnis demonstratio procedat ex per se
+            <lb ed="#V" n="138"/>notis, vel reducibilibus in aliqua per se nota ipsi
+            demon<lb ed="#V" n="139" break="no"/>stranti, falsa est: si autem intelligitur quod omnis
+            de<lb ed="#V" n="140" break="no"/>monstratio procedit mediate, vel immediate ex per se
+            <lb ed="#V" n="141"/>notis demonstranti, vel alicui superiori scientiae a qua
+            de<lb ed="#V" n="142" break="no"/>monstrans sua principia sumit, tunc hoc concesso nihil
+            <lb ed="#V" n="143"/>est contra nos, nam theologia isto modo procedit ex
+            re<lb ed="#V" n="144" break="no"/>ducibilibus in per se nota, non quidem viatori, sed beato.
+            <lb ed="#V" n="145"/>Potest dici similiter, quod maior est falsa simpliciter:quia
+            <lb ed="#V" n="146"/>non omnis demonstratio potest resolui in perse nota
+            media<lb ed="#V" n="147" break="no"/>te, vel immediate, sed sufficit quod resolui possit in principia
+            <lb ed="#V" n="148"/>euidentia, licet non per se nota, sicut est de principijs
+            phy<pb ed="#V" n="11"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>sicae, quorum multa sensu probantur aut inductione, quae
+            <lb ed="#V" n="2"/>tamen non sunt per se nota. Et similiter multa principia
+            <lb ed="#V" n="3"/>Theologiae nullo modo resolui possunt in aliquid per se
+            <lb ed="#V" n="4"/>notum ipsis beatis, sicut est illud. Omnes resurgemus,
+            <lb ed="#V" n="5"/>istud enim licet sit euidens beatis videntibus verbum,
+            <lb ed="#V" n="6"/>non tamen per se notum.
+          </p>
+          <p xml:id="capsco-a1b0ew-d1e3750">
+            <lb ed="#V" n="7"/><milestone ed="#V" unit="p" rend="indent"/> Ad secundum negatur minor, neque valet eius
+            proba<lb ed="#V" n="8" break="no"/>tio, secundum enim quod dicit Sanctus Thomas de
+            verita<lb ed="#V" n="9" break="no"/>te, quaestione decima quarta, articulo tertio ad septimum.
+            <lb ed="#V" n="10"/>Non requiritur ad rationem virtutis, quod per eam
+            eli<lb ed="#V" n="11" break="no"/>ciatur optimus actus, qui potest elici a potentia illa, cum
+            <lb ed="#V" n="12"/>contingat in eadem potentia esse plures virtutes, quarum
+            <lb ed="#V" n="13"/>vna alia nobiliorem actum elicit, sicut magnanimitas
+            li<lb ed="#V" n="14" break="no"/>beralitatem. Haec ille. Et loquitur in proposito de fide,
+            <lb ed="#V" n="15"/>de qua dicitur, quod est virtus, licet non possit in
+            aper<lb ed="#V" n="16" break="no"/>tam visionem quae est optimum intellectus. Dicit enim
+            <lb ed="#V" n="17"/>ibidem ad septimum, quod fides secundum hoc dicitur
+            <lb ed="#V" n="18"/>esse vltimum potentiae quod complet potentiam ad
+            eli<lb ed="#V" n="19" break="no"/>gendum bonum actum &amp; meritorium. Dicit enim
+            ibi<lb ed="#V" n="20" break="no"/>dem arguendo in oppositum, quod fides est dispositio
+            <lb ed="#V" n="21"/>perfecti ad optimum inquantum disponit ad
+            beatitudi<lb ed="#V" n="22" break="no"/>nem. Ad aliam probationem minoris dicit Sanctus Thomas
+            <lb ed="#V" n="23"/>ibidem ad quintum, quod fides non est virtus
+            intellectua<lb ed="#V" n="24" break="no"/>lis, nec moralis, sed theologica, tales enim
+            philosophi<lb ed="#V" n="25" break="no"/>nesciuerunt: quia ipsi nullam virtutem posuere, cuius
+            <lb ed="#V" n="26"/>obiectum esset vltimus finis.
+          </p>
+          <p xml:id="capsco-a1b0ew-d1e3797">
+            <lb ed="#V" n="27"/><milestone ed="#V" unit="p" rend="indent"/> Ad primum Scoti dictum est in probatione tertiae
+            con<lb ed="#V" n="28" break="no"/>clusionis, ibi enim allegat Sanctus Thomas in de veritate:
+            <lb ed="#V" n="29"/>ponens quod fidelis viator non habet scientiam etiam
+            <lb ed="#V" n="30"/>subalternam de articulis quos credit, &amp; ideo
+            argumen<lb ed="#V" n="31" break="no"/>tum non procedit contra nos.
+          </p>
+          <p xml:id="capsco-a1b0ew-d1e3811">
+            <lb ed="#V" n="32"/><milestone ed="#V" unit="p" rend="indent"/> Ad secundum dicitur, quod minor est falsa, dico enim
+            <lb ed="#V" n="33"/>quod scientia beatorum &amp; praecipue Dei est causa
+            essen<lb ed="#V" n="34" break="no"/>tialis theologiae viatorum illo modo quo scientia
+            magi<lb ed="#V" n="35" break="no"/>stri est causa scientiae discipuli. Et vlterius, licet scientia
+            <lb ed="#V" n="36"/>Dei non sit obiectum huius scientiae, nec sit potentia
+            in<lb ed="#V" n="37" break="no"/>tellectiua, qua intelligimus, nec species intelligibilis qua
+            <lb ed="#V" n="38"/>efficiamur in actu primo, tamen est causa essentialis
+            scien<lb ed="#V" n="39" break="no"/>tiae nostrae isto modo quod nisi habens illam traderet
+            no<lb ed="#V" n="40" break="no"/>bis principia nostrae scientiae mediate, vel immediate,
+            nun<lb ed="#V" n="41" break="no"/>quam naturaliter possemus istam scientiam habere. Et
+            <lb ed="#V" n="42"/>similiter habitus principiorum istius scientiae causatur
+            es<lb ed="#V" n="43" break="no"/>sentialiter a scientia illa, vnde argumentum fallum
+            sup<lb ed="#V" n="44" break="no"/>ponit, quod scilicet scientia non dependeat essentialiter,
+            <lb ed="#V" n="45"/>nisi ab obiecto, vel a potentia, vel a specie: hoc enim
+            fal<lb ed="#V" n="46" break="no"/>sum est de scientijs supernaturaliter habitis &amp; de
+            pro<lb ed="#V" n="47" break="no"/>phetijs, &amp; praesertim in scientia animae Christi, &amp; Adae, &amp;
+            <lb ed="#V" n="48"/>Salomonis &amp; aliorum. Dictum est etiam supra
+            quomo<lb ed="#V" n="49" break="no"/>do aliqua notitia assensus dependet a voluntate, nec ad
+            <lb ed="#V" n="50"/>illam sufficeret obiectum aut potentia. Ex quo patet quod
+            <lb ed="#V" n="51"/>nulla est similitudo quam facit arguens de se, &amp; de
+            geo<lb ed="#V" n="52" break="no"/>metra: quia nulla scientia naturaliter acquisibilis, ita
+            es<lb ed="#V" n="53" break="no"/>sentialiter dependet a scientia geometrae quin sine illa
+            ha<lb ed="#V" n="54" break="no"/>beri possit.
+          </p>
+          <p xml:id="capsco-a1b0ew-d1e3864">
+            <lb ed="#V" n="55"/><milestone ed="#V" unit="p" rend="indent"/> Non tamen est inconueniens, quod ille qui
+            accipe<lb ed="#V" n="56" break="no"/>ret principia aliqua geometriae a geometrae perfecto, nec
+            <lb ed="#V" n="57"/>aliter illa cognosceret, nisi per fidem adhibitam dictis
+            <lb ed="#V" n="58"/>geometrae, &amp; ex illis principijs inferret conclusiones,
+            di<lb ed="#V" n="59" break="no"/>ceretur habere scientiam subalternatam de illis
+            conclu<lb ed="#V" n="60" break="no"/>sionibus, vt dictum fuit.
+          </p>
+          <p xml:id="capsco-a1b0ew-d1e3882">
+            <lb ed="#V" n="61"/><milestone ed="#V" unit="p" rend="indent"/> Ad tertium negatur maior de scientia subalternata
+            cu<lb ed="#V" n="62" break="no"/>ius principia sunt incompossibilia principijs scientiae
+            sub<lb ed="#V" n="63" break="no"/>alternatus. Nec valet probatio, falsum enim est quod in
+            <lb ed="#V" n="64"/>intelligibilibus illa quae sunt priora simpliciter sint
+            prio<lb ed="#V" n="65" break="no"/>ra nobis, cum intellectus noster se habeat, sicut oculus
+            <lb ed="#V" n="66"/>noctuae ad ea quae sunt manifestissima in natura. Dato
+            <lb ed="#V" n="67"/>enim quod theologia viatoris sit compassibilis
+            theolo<lb ed="#V" n="68" break="no"/>giae comprehensoris non sequitur, quod principia
+            theo<lb ed="#V" n="69" break="no"/>logiae viatoris sunt compossibilia theologiae
+            comprehen<lb ed="#V" n="70" break="no"/>soris, &amp; ita non habetur quod fides cum clara Dei
+            visio<lb ed="#V" n="71" break="no"/>ne esset.
+          </p>
+          <p xml:id="capsco-a1b0ew-d1e3909">
+            <lb ed="#V" n="72"/>Ad quartum cum dicitur, quod licet Biblia non
+            proce<lb ed="#V" n="73" break="no"/>dat per modum scientiae demonstratiuae, tamen ex
+            con<lb ed="#V" n="74" break="no"/>tentis in Biblia quae se habent vt principia scientiae sancti
+            <lb ed="#V" n="75"/>demonstratiue intulerunt conclusiones, de quibus est
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="76"/>theologia arguendo contra haereticos ex principijs
+            theo<lb ed="#V" n="77" break="no"/>logiae. Et ideo licet theologia non tradatur in sacro
+            cano<lb ed="#V" n="78" break="no"/>ne stilo syllogistico explicite, tamen in libris sequentium
+            <lb ed="#V" n="79"/>theologorum traditur modo scientifico, &amp; modo artis
+            ex<lb ed="#V" n="80" break="no"/>plicite, omnia tamen implicite in Biblia continentur,
+            <lb ed="#V" n="81"/>vnus etiam articulus per alium potest probari. Apostolus
+            <lb ed="#V" n="82"/>etiam in suis Epistolis confirmabat dicta sua per antiquum
+            <lb ed="#V" n="83"/>testamentum, Christus etiam idem fecit disputando cum
+            <lb ed="#V" n="84"/>Iudaeis, ideo dixit eis. Scrutemini scripturas: quia ipsae
+            te<lb ed="#V" n="85" break="no"/>stimonium perhibent de me.
+          </p>
+          <p xml:id="capsco-a1b0ew-d1e3944">
+            Ad primum contra
+            quin<lb ed="#V" n="86" break="no"/>tam conclusionem dicitur, quod licet nulla scientia
+            pro<lb ed="#V" n="87" break="no"/>cedat ad probandum sua principia demonstratiue, aut ex
+            <lb ed="#V" n="88"/>prioribus intra eandem scientiam, tamen nihil prohibet,
+            <lb ed="#V" n="89"/>quod aliqua scientia manifestet sua principia per aliquas
+            <lb ed="#V" n="90"/>similitudines, &amp; defendat ea contra impugnantes, vel
+            <lb ed="#V" n="91"/>ostendat argumenta in oppositum esse solubilia, aut ex
+            <lb ed="#V" n="92"/>vno eorum concesso concludat aliud, non tamen a
+            prio<lb ed="#V" n="93" break="no"/>ri. Et propter ista quatuor sanctus doctor, &amp; alij
+            docto<lb ed="#V" n="94" break="no"/>res mouent quaestiones de articulis fidei: vnde sanctus
+            <lb ed="#V" n="95"/>doctor in scripto super Boetium, quaestio. 2. articu. 2. ad
+            <lb ed="#V" n="96"/>quartum: sic inquit. Articuli fidei in hac scientia non sunt
+            <lb ed="#V" n="97"/>quasi conclusiones, sed quasi principia, quae etiam
+            defen<lb ed="#V" n="98" break="no"/>duntur ab impugnantibus, sicut philosophus 4. metaph.
+            <lb ed="#V" n="99"/>disputat contra negantes principia, &amp; manifestantur per
+            <lb ed="#V" n="100"/>aliquas similitudines, sicut principia naturaliter nota
+            <lb ed="#V" n="101"/>per inductionem, non autem ratione demonstratiua
+            pro<lb ed="#V" n="102" break="no"/>bantur. Haec ille.
+          </p>
+          <p xml:id="capsco-a1b0ew-d1e3983">
+            Item articulo tertio dicit. In sacra
+            scri<lb ed="#V" n="103" break="no"/>ptura possumus vti philosophia tripliciter. Primo modo
+            <lb ed="#V" n="104"/>ad demonstrandum ea, quae sunt praeambula fidei: quia
+            <lb ed="#V" n="105"/>necesse est in fide scientia, vt ea quae rationibus
+            naturali<lb ed="#V" n="106" break="no"/>bus probantur, vt Deum esse vnum &amp; huiusmodi, vel de
+            <lb ed="#V" n="107"/>Deo, vel de creaturis probata quae fides supponit.
+            Secun<lb ed="#V" n="108" break="no"/>do ad notificandum per aliquas similitudines ea, quae sunt
+            <lb ed="#V" n="109"/>fidei, sicut Augustinus in libr. de Trinitate vtitur multis
+            simi<lb ed="#V" n="110" break="no"/>litudinibus ex doctrinis physicis sumptis ad
+            manifestan<lb ed="#V" n="111" break="no"/>dum Trinitatem. Tertio ad resistendum his, quae contra
+            <lb ed="#V" n="112"/>fidem dicuntur siue ostendendo illa esse falsa, siue
+            osten<lb ed="#V" n="113" break="no"/>dendo ea non esse necessaria. Haec ille.
+          </p>
+          <p xml:id="capsco-a1b0ew-d1e4009">
+            Ex quibus
+            omni<lb ed="#V" n="114" break="no"/>bus patet quod theologi possunt mouere quaestiones de
+            <lb ed="#V" n="115"/>articulis fidei &amp; possunt adducere rationes physicas
+            tri<lb ed="#V" n="116" break="no"/>plici motiuo praedicto. De quarto autem modo ibidem
+            <lb ed="#V" n="117"/>posito loquitur prima articulo octauo. Considerandum
+            <lb ed="#V" n="118"/>(inquit) est in physicis scientijs, quod inferiores
+            scien<lb ed="#V" n="119" break="no"/>tiae non probant sua principia, nec contra negantem sua
+            <lb ed="#V" n="120"/>principia disputant, sed hoc relinquunt superiori
+            scien<lb ed="#V" n="121" break="no"/>tiae. Suprema vero inter eas est metaphysica, quae
+            dispu<lb ed="#V" n="122" break="no"/>tat contra negantem sua principia, si aduersarius aliquid
+            <lb ed="#V" n="123"/>concedat, si autem nihil concedat non potest cum eo
+            <lb ed="#V" n="124"/>disputare, potest tamen soluere rationes illius. Vnde
+            <lb ed="#V" n="125"/>sacra doctrina cum non habeat superiorem disputat
+            con<lb ed="#V" n="126" break="no"/>tra negantem sua principia arguendo quidem, si
+            aduer<lb ed="#V" n="127" break="no"/>sarius aliquid concedat eorum, quae per diuinam
+            reue<lb ed="#V" n="128" break="no"/>lationem habentur, sicut per auctoritates sacrae
+            scriptu<lb ed="#V" n="129" break="no"/>rae disputamus contra haereticos, &amp; per vnum
+            articulo<lb ed="#V" n="130" break="no"/>rum contra negantes alium. Si vero aduersarius nihil
+            <lb ed="#V" n="131"/>concedat eorum, quae diuinitus reuelantur, non
+            rema<lb ed="#V" n="132" break="no"/>net amplius via ad probandum alios articulos fidei per
+            <lb ed="#V" n="133"/>rationem, sed ad soluendum rationes si quas inducit
+            con<lb ed="#V" n="134" break="no"/>tra fidem. Cum enim fides infallibili veritati innitatur,
+            <lb ed="#V" n="135"/>impossibile autem sit de vero demonstrari contrarium,
+            <lb ed="#V" n="136"/>manifestum est probationes, quae contra fidem
+            inducun<lb ed="#V" n="137" break="no"/>tur, non esse demonstrationes, sed solubilia argumenta.
+            <lb ed="#V" n="138"/>Haec ille.
+          </p>
+          <p xml:id="capsco-a1b0ew-d1e4066">
+            <lb ed="#V" n="139"/><milestone ed="#V" unit="p" rend="indent"/> Ex quo patet quomodo quadruplici de causa in
+            ma<lb ed="#V" n="140" break="no"/>teria articulorum fidei theologi mouent quaestiones, &amp;
+            <lb ed="#V" n="141"/>rationes adducunt non obstante, quod articuli fidei
+            prin<lb ed="#V" n="142" break="no"/>cipia sint in theologiae scientia.
+          </p>
+          <p xml:id="capsco-a1b0ew-d1e4079">
+            <lb ed="#V" n="143"/><milestone ed="#V" unit="p" rend="indent"/> Ad secundum patet per idem &amp; ad tertium, &amp; ad
+            quar<lb ed="#V" n="144" break="no"/>tum nisi quod pro quarto sciendum quod Augustinus in
+            <lb ed="#V" n="145"/>illa auctoritate, quae ibidem allegatur, non intendit
+            <lb ed="#V" n="146"/>quod habitus theologiae nostrae solum sit declaratiuus,
+            <lb ed="#V" n="147"/>aut defensiuus articulorum fidei, immo per hoc quod
+            <lb ed="#V" n="148"/>dicit fidem per illum nutriri dat intelligere, quod per
+            <lb ed="#V" n="149"/>istum habitum cognitio nostra de Deo, quae ab
+            articu<lb ed="#V" n="150" break="no"/>lis fidei incipit, per conclusiones inde elicitas scibiles
+            <pb ed="#V" n="12"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>incrementum capit, res enim per idem augetur, &amp;
+            nutri<lb ed="#V" n="2" break="no"/>tur.
+          </p>
+          <p xml:id="capsco-a1b0ew-d1e4109">
+            Ad quintum dicendum, quod Petrus Apostolus in
+            <lb ed="#V" n="3"/>il a auctoritate secundum ex positionem Sancti Thomas
+            <lb ed="#V" n="4"/>tertio sen distinct 24. quaestione prima, articulo secundo,
+            <lb ed="#V" n="5"/>quaestiuncula secunda ad secundum, non aliud
+            intende<lb ed="#V" n="6" break="no"/>bat nisi quod ad probandum fidem indubitanda est ratio
+            <lb ed="#V" n="7"/>diuina, non autem humana, quod qualiter fiat docet sic
+            <lb ed="#V" n="8"/>inquiens. Ratio humana praecedit auctoritatem
+            huma<lb ed="#V" n="9" break="no"/>nam, &amp; ratio diuina praecedit auctoritatem diuinam, cui
+            <lb ed="#V" n="10"/>fides innititur, vnde fides nostra, ita se habet ad rationem
+            <lb ed="#V" n="11"/>diuinam qua Deus cognoscit, sicut se habet fides illius
+            <lb ed="#V" n="12"/>qui supponit principia subalternatae scientiae a scientia
+            <lb ed="#V" n="13"/>subalternante, quae per propriam rationem illa
+            proba<lb ed="#V" n="14" break="no"/>uit, vnde Apostolus non mouet rationem humanam
+            in<lb ed="#V" n="15" break="no"/>ducere ad probandum fidem, sed diuinam, vt quia Deus
+            <lb ed="#V" n="16"/>dixit. Humanam autem ad defendendum, vt per eam
+            <lb ed="#V" n="17"/>ostendatur quod ea, quae fides supponit non sunt
+            impos<lb ed="#V" n="18" break="no"/>sibilia, non autem ita, quod ea quae sunt fider sufficienter
+            <lb ed="#V" n="19"/>per rationem humanam probari possint. Haec ille.
+            Ean<lb ed="#V" n="20" break="no"/>dem sententiam tenet secunda secundae, quaestione prima,
+            <lb ed="#V" n="21"/>articulo quinto ad secundum.
+          </p>
+          <p xml:id="capsco-a1b0ew-d1e4153">
+            <lb ed="#V" n="22"/><milestone ed="#V" unit="p" rend="indent"/> Ad primum contra sextam conclusionem, &amp; ad
+            secun<lb ed="#V" n="23" break="no"/>dum dicitur sicut ibidem dicebatur, non enim ostendet
+            <lb ed="#V" n="24"/>quod cognita aliqua natura cognoscatur perfecte omnis
+            <lb ed="#V" n="25"/>eius causa efficiens aut finalis, nisi loquendo de efficiente
+            <lb ed="#V" n="26"/>vniuoco, &amp; de fine proportionato naturae cognitae. Tunc
+            <lb ed="#V" n="27"/>ad primam improbationem datae solutionis dicitur, quod
+            <lb ed="#V" n="28"/>Augustinus non intendit, quod potentia naturae humanae ad
+            <lb ed="#V" n="29"/>fidem, &amp; charitatem, &amp; huiusmodi si t proprie loquendo
+            <lb ed="#V" n="30"/>potentia naturalis, talis enim potentia est quaedam
+            inchoa<lb ed="#V" n="31" break="no"/>tio actus, &amp; potest reduci in actum per agens naturale,
+            <lb ed="#V" n="32"/>sed accipit ibi naturale pro omni illo, quod inest naturae
+            <lb ed="#V" n="33"/>a sua institutione, nam vere humana ex hoc quod est
+            in<lb ed="#V" n="34" break="no"/>tellectiua est in potentia obedientiali ad huiusmodi
+            ha<lb ed="#V" n="35" break="no"/>bitus supernaturales, ideo illa potentia improprie
+            dici<lb ed="#V" n="36" break="no"/>tur naturalis. Tunc dico, quod licet cognita &amp;
+            compre<lb ed="#V" n="37" break="no"/>hensa aliqua natura possit cognosci omnis eius potentia
+            <lb ed="#V" n="38"/>naturalis primo modo capiendo potentiam naturalem,
+            <lb ed="#V" n="39"/>non tamen omnis potentia naturalis, secundo modo: quia
+            <lb ed="#V" n="40"/>talis potentia obedientialis non est nisi quaedam relatio,
+            <lb ed="#V" n="41"/>ad cuius cognitionem non sufficit cognoscere
+            fundamen<lb ed="#V" n="42" break="no"/>tum, tamen quia relatio non cognoscitur, nisi cognito
+            <lb ed="#V" n="43"/>fund amento &amp; termino, dato etiam quod ex cognitione
+            <lb ed="#V" n="44"/>naturae cognosceretur potentia illa &amp; finis naturae, non
+            <lb ed="#V" n="45"/>haberetur quod illa cognitio esset perfecta, &amp;
+            determi<lb ed="#V" n="46" break="no"/>nata sufficiens ad salutem, sed solum quantum ad quia
+            <lb ed="#V" n="47"/>est.
+          </p>
+          <p xml:id="capsco-a1b0ew-d1e4213">
+            Ad secundam improbationem dicitur, quod
+            homo<lb ed="#V" n="48" break="no"/>naturaliter appetit illum finem non sub propria ratione,
+            <lb ed="#V" n="49"/>sed in generali, eo modo, quo omnes appetunt
+            beatitu<lb ed="#V" n="50" break="no"/>dinem sub hac ratione, quod sit perfectum bonum naturae
+            <lb ed="#V" n="51"/>rationalis, &amp; id eo finis vltimus hominis est naturaliter
+            <lb ed="#V" n="52"/>ab homine cognoscibilis sub illa ratione communi, vt
+            <lb ed="#V" n="53"/>ostendit Sanct. Thomas 4. senten. dist in 49. quaest. 1. articulo
+            <lb ed="#V" n="54"/>tertio, qua stiuncula prima. Conceditur ergo quod ad
+            il<lb ed="#V" n="55" break="no"/>lum finem homo naturaliter ordinatur loquendo de
+            or<lb ed="#V" n="56" break="no"/>dine naturali illo modo quo dictum est potentiam
+            obe<lb ed="#V" n="57" break="no"/>dientialem esse natura em, negatur tamen quod ad illum
+            <lb ed="#V" n="58"/>finem homo naturaliter ordinetur sic, quod habeat
+            ordi<lb ed="#V" n="59" break="no"/>nem proprie naturalem, aut potentiam naturalem, &amp; ideo
+            <lb ed="#V" n="60"/>non oportet, quod ordo illae naturae ad visionem
+            beatifi<lb ed="#V" n="61" break="no"/>cam naturaliter cognoscatur, nisi praecognita beatifica
+            <lb ed="#V" n="62"/>visione. Talem autem cognoscimus ex theologia, &amp; eius
+            <lb ed="#V" n="63"/>terminis cognitione sufficienti, cognitio autem finis, &amp;
+            <lb ed="#V" n="64"/>ordinis ad illum finem, quem naturaliter possemus
+            habe<lb ed="#V" n="65" break="no"/>e re, non sufficit ad salutem.
+          </p>
+          <p xml:id="capsco-a1b0ew-d1e4255">
+            <lb ed="#V" n="66"/><milestone ed="#V" unit="p" rend="indent"/> Ad tertium dico, quod licet naturaliter sit
+            cognosci<lb ed="#V" n="67" break="no"/>bile, quod homo ordinatur ad cognoscendum Deum
+            tan<lb ed="#V" n="68" break="no"/>quam in finem, non tamen naturaliter potest sciri sine
+            <lb ed="#V" n="69"/>multorum errorum mixtione &amp; cum summa difficultate
+            <lb ed="#V" n="70"/>qualis est illa cognitio, an scilicet illa quam Aristoteles
+            tra<lb ed="#V" n="71" break="no"/>dit in sua metaphysica, an illa quam fingit Auerrotius an illa
+            <lb ed="#V" n="72"/>qua intelligentiae inferiores intelligunt primam, de hoc
+            <lb ed="#V" n="73"/>tamen dubio fides &amp; theologia nos certificant, &amp; huius
+            <lb ed="#V" n="74"/>veritatis notitia est necessaria homini ad salutem: quia
+            si<lb ed="#V" n="75" break="no"/>ne huius veritatis cognitione spes nostra nulla esset.
+          </p>
+          <p xml:id="capsco-a1b0ew-d1e4280">
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="76"/><milestone ed="#V" unit="p" rend="indent"/> Ad confirmationem patet per idem: quia solum
+            pro<lb ed="#V" n="77" break="no"/>bat, quod naturaliter est cognoscibile, quod finis
+            homi<lb ed="#V" n="78" break="no"/>nis est cognitio Dei, sed hoc scire non sufficit, vt dictum
+            <lb ed="#V" n="79"/>est, dato etiam quod naturaliter cognoscibile esset, quod
+            <lb ed="#V" n="80"/>finis vltimus hominis est visio Dei per essentiam, tamen
+            <lb ed="#V" n="81"/>pauci naturaliter ad hoc cognoscendum peruenirent, ideo
+            <lb ed="#V" n="82"/>adhuc theologia est necessaria loquendo de necessitate
+            <lb ed="#V" n="83"/>quo ad bene esse.
+          </p>
+          <p xml:id="capsco-a1b0ew-d1e4304">
+            Ad tertium principale dicitur quod
+            San<lb ed="#V" n="84" break="no"/>ctus Thomas non intendit, quod per medium a diuina
+            re<lb ed="#V" n="85" break="no"/>uelatione sumptum solum sciantur ea, quae in alijs
+            scien<lb ed="#V" n="86" break="no"/>t js humanitus inuentis traduntur, vt arguens procedit,
+            <lb ed="#V" n="87"/>immo multae aliae veritates ad quas intellectus non potest
+            <lb ed="#V" n="88"/>aspicere nisi supernaturaliter adiutus: volebat ergo
+            dice<lb ed="#V" n="89" break="no"/>re quod eisdem rebus possunt esse diuersae scientiae
+            secun<lb ed="#V" n="90" break="no"/>dum quod eadem res potest considerari secundum
+            diuer<lb ed="#V" n="91" break="no"/>sas rationes cognoscibilis, idest secundum diuersa
+            me<lb ed="#V" n="92" break="no"/>dia: quia ibi vocat rationem cognoscibilis medium, quo
+            <lb ed="#V" n="93"/>aliquid est cognoscibile. Et ita sufficienter concludit
+            ne<lb ed="#V" n="94" break="no"/>cessitatem alterius scientiae ab alijs, quae naturali lumine
+            <lb ed="#V" n="95"/>intellectus agentis inuentae sunt: quia sicut alia &amp; ratione
+            <lb ed="#V" n="96"/>formali, scilicet secundum diuersa media, &amp; secundum
+            <lb ed="#V" n="97"/>principia diuersa, ita non solum easdem, immo alias &amp;
+            <lb ed="#V" n="98"/>alias veritates considerant de eodem obiecto. Dico
+            vl<lb ed="#V" n="99" break="no"/>terius, quod licet considerent veritates easdem,
+            quando<lb ed="#V" n="100" break="no"/>que tamen theologia non superfluit propter causas
+            supe<lb ed="#V" n="101" break="no"/>rius dictas, immo est necessaria praedicto modo.
+          </p>
+          <p xml:id="capsco-a1b0ew-d1e4346">
+            <lb ed="#V" n="102"/><milestone ed="#V" unit="p" rend="indent"/> Cum vero improbatur quaedam responsio ibi facta,
+            <lb ed="#V" n="103"/>quae haberi potest a Sancto Thomas prima secundae, q. 54.
+            <lb ed="#V" n="104"/>artic 2. Dico ad primam improbationem, quod illa
+            solu<lb ed="#V" n="105" break="no"/>tio non ponit aliqua esse distincta in ratione superioris,
+            <lb ed="#V" n="106"/>puta formae, &amp; indistincta in ratione inferioris, puta
+            ha<lb ed="#V" n="107" break="no"/>bitus, secundum quod arguens false putat, sed intendit
+            <lb ed="#V" n="108"/>quod habitus possunt distingui secundum modum
+            distin<lb ed="#V" n="109" break="no"/>ctionis formarum, &amp; secundum modum distinctionis
+            pro<lb ed="#V" n="110" break="no"/>prium habitibus. Non est autem idem dicere, ista sunt
+            <lb ed="#V" n="111"/>indistincta in ratione habitus, ista non distinguuntur
+            se<lb ed="#V" n="112" break="no"/>cundum proprium modum distinctionis habituum, sicut
+            <lb ed="#V" n="113"/>quantitas digiti mei &amp; quantitas sibi aequalis in coelo
+            se<lb ed="#V" n="114" break="no"/>cundum multos sunt diuersarum specierum &amp; rationum,
+            <lb ed="#V" n="115"/>non tamen ista distinctio specierum est secundum
+            pro<lb ed="#V" n="116" break="no"/>prium modum distinctionis quantitatis a quantitate,
+            pu<lb ed="#V" n="117" break="no"/>ta secundum continuum, vel discretum, aut secundum
+            li<lb ed="#V" n="118" break="no"/>neam, &amp; superficiem corpus, aut secundum bicubitum &amp;
+            <lb ed="#V" n="119"/>tricubitum, sed secundum communem modum
+            distinctio<lb ed="#V" n="120" break="no"/>nis formarum: quia vna illarum quantitatum est
+            corru<lb ed="#V" n="121" break="no"/>ptibilis, alia incorruptibilis, omnia autem talia
+            distinguun<lb ed="#V" n="122" break="no"/>tur genere ex 10. meta phy. aut quia vna illarum est
+            edu<lb ed="#V" n="123" break="no"/>cta de postasia materiae, non autem alia. Aliud exemplum
+            <lb ed="#V" n="124"/>potest esse de visu hominis &amp; visu asini qui distinguuntur
+            <lb ed="#V" n="125"/>specie, non secundum proprium modum distinctionis
+            sen<lb ed="#V" n="126" break="no"/>suum, scilicet ratione obiecti, sed alio modo, &amp; infinita
+            <lb ed="#V" n="127"/>ex empla ex hoc dari possent.
+          </p>
+          <p xml:id="capsco-a1b0ew-d1e4406">
+            Ad secundam
+            mprobatio<lb ed="#V" n="128" break="no"/>nem dico, quod obiecta distinguunt habitus in alio
+            gene<lb ed="#V" n="129" break="no"/>re causae quam efncientis, puta in genere causae formalis,
+            <lb ed="#V" n="130"/>vel finalis: quia sicut dicit sanctus Thomas prima secundae
+            <lb ed="#V" n="131"/>qua stione prima, articulo tertio, obiectum est forma
+            ex<lb ed="#V" n="132" break="no"/>trinseca ipsius actus, &amp; dat ei speciem Et similiter
+            dicen<lb ed="#V" n="133" break="no"/>dum est de habitu, immo &amp; de potentijs animae, vt ipse
+            <lb ed="#V" n="134"/>ponit prima parte, q. 77. artic. 3.
+          </p>
+          <p xml:id="capsco-a1b0ew-d1e4424">
+            Ad tertium dico, quod
+            <lb ed="#V" n="135"/>ratio quam credit stare non stat, vt superius dictum est.
+            <lb ed="#V" n="136"/>Et haec de secundo arti Ratio vero facta in pede
+            quaestio<lb ed="#V" n="137" break="no"/>nis ad oppositum praedictorum soluitur facile per
+            pri<lb ed="#V" n="138" break="no"/>mam conclusionem. Et haec de prima quaestione.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

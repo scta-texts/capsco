@@ -1,0 +1,1361 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 2, Distinctio 43, Quaestio 1</title>
+        <author ref="#JohannesCapreolus">Johannes Capreolus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 2, Distinctio 43, Quaestio 1</title>
+          <date when="2026-11-04">Nov 4, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-j88c02">Venice, 1589, v. 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-04" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="576"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="capsco-b2jvi8"><!-- l2d43q1 -->
+        <head xml:id="capsco-b2jvi8-Hd1e101">Quaestio 1</head>
+        <head xml:id="capsco-b2jvi8-Hd1e103" type="question-title">Utrum omne peccatum sit mortale</head>
+        <p xml:id="capsco-b2jvi8-d1e106">
+          <lb ed="#V" n="55"/>DISTICTIO XLIII
+          <lb ed="#V" n="56"/>QVAESTIO I
+          <lb ed="#V" n="57"/>Vtrum omne peccatum sit mortale.
+        </p>
+        <p xml:id="capsco-b2jvi8-d1e115">
+          <lb ed="#V" n="58"/><milestone ed="#V" unit="p" rend="initial"/> CIRCA quadragesimam tertiam
+          distin<lb ed="#V" n="59" break="no"/>ctionem secundi sententiarum, quaeritur
+          <lb ed="#V" n="60"/>vtrum omne peccatum sit mortale.
+        </p>
+        <p xml:id="capsco-b2jvi8-d1e125">
+          Et
+          <lb ed="#V" n="61"/>arguitur quod sic. Quicquid enim
+          tol<lb ed="#V" n="62" break="no"/>lit virtutem est peccatum mortale, sed
+          <lb ed="#V" n="63"/>omne peccatum tollit virtutem, quia
+          <lb ed="#V" n="64"/>peccatum est recessus ab aequalitate: virtus
+          <lb ed="#V" n="65"/>autem est quaedam aequalitas, ergo omne petaume est mortale.
+        </p>
+        <p xml:id="capsco-b2jvi8-d1e139">
+          <lb ed="#V" n="66"/><milestone ed="#V" unit="p" rend="indent"/> In oppositum arguitur sic. Diuersitas paenarum
+          corre<lb ed="#V" n="67" break="no"/>spondet diuersitati culpae, sed poena temporalis differt
+          <lb ed="#V" n="68"/>abaeterna: ergo peccatum veniale differt a mortali, cum vni
+          <lb ed="#V" n="69"/>debeatur poena temporalis, &amp; alteri aeterna.
+        </p>
+        <p xml:id="capsco-b2jvi8-d1e151">
+          <lb ed="#V" n="70"/><milestone ed="#V" unit="p" rend="indent"/> In hac quaestione sunt tres art. In primo ponentur
+          con<lb ed="#V" n="71" break="no"/>clusiones. In secundo obiectiones. In tertio solutiones.
+        </p>
+        <div xml:id="capsco-b2jvi8-Dd1e159">
+          <head xml:id="capsco-b2jvi8-Hd1e161">Articulus 1</head>
+          <p xml:id="capsco-b2jvi8-d1e163">
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="72"/><milestone ed="#V" unit="p" rend="initial"/> QVantum ad primum articulum ponitur talis prima
+            <lb ed="#V" n="73"/>conclusio. Peccatum veniale differt a mortali sicut
+            <lb ed="#V" n="74"/>imperfectum a perfecto in eodem genere. Hanc ponit
+            Sa<lb ed="#V" n="75" break="no"/>ctus Thomas secundo senten. distinct. 42. quaestio. prima arti
+            <lb ed="#V" n="76"/>tertio vbi sic ait. Duplex modus est diuidendi aliquod
+            com<lb ed="#V" n="77" break="no"/>mune in ea quae sub ipso sunt, sicut est duplex
+            communita<lb ed="#V" n="78" break="no"/>tis modus. Est enim quaedam diuisio vniuoci in species per
+            <lb ed="#V" n="79"/>differentias quibus aequaliter natura generis in speciebus
+            <lb ed="#V" n="80"/>participatur, sicut animal diuiditur in hominem &amp; equo
+            <lb ed="#V" n="81"/>&amp; huiusmodi. Alia diuisio est eius, quod est per analogiam
+            <lb ed="#V" n="82"/>commune. Quod quidem secundum perfectam rationem
+            <lb ed="#V" n="83"/>praedicatur de uno diuidentium, &amp; de altero imperfecte &amp;
+            <lb ed="#V" n="84"/>secundum quid, sicut ens diuiditur in substantiam &amp;
+            acci<lb ed="#V" n="85" break="no"/>dens, &amp; in ens actu, &amp; in ens in potentia, &amp; haec diuisio est
+            <lb ed="#V" n="86"/>media quasi inter aequiuocum &amp; vniuocum. Et talis est
+            di<lb ed="#V" n="87" break="no"/>uisio peccati in mortale &amp; veniale, quia ratio peccati
+            perfe<lb ed="#V" n="88" break="no"/>cte inuenitur in mortali, in veniali vero non nisi
+            imperfe<lb ed="#V" n="89" break="no"/>cte &amp; secundum quid. Vnde minimum quod potest esse de
+            <lb ed="#V" n="90"/>ratione peccati in aliquo actu est in veniali, sicut minimum
+            <lb ed="#V" n="91"/>quod potest esse de natura entis est in ente in potentia, vel
+            <lb ed="#V" n="92"/>in ente per accidens, &amp; hoc ipsa nomina ostendunt, quia
+            ve<lb ed="#V" n="93" break="no"/>nia non debetur peccato nisi secundum quod aliquam
+            im<lb ed="#V" n="94" break="no"/>perfectionem peccati habet, mors autem debetur peccato
+            <lb ed="#V" n="95"/>in quantum peccatum est, &amp; ideo peccatum mortale dicit
+            <lb ed="#V" n="96"/>quid perfectum in genere peccati, veniale autem dicit quid
+            <lb ed="#V" n="97"/>imperfectum. Haec ille.
+          </p>
+          <p xml:id="capsco-b2jvi8-d1e225">
+            Item prima secundae quaest. 88. arti.
+            <lb ed="#V" n="98"/>primo sic dicit. Aliqua secundum quod proprie
+            accipiun<lb ed="#V" n="99" break="no"/>tur non videntur esse opposita, quae si metaphorice accipiam
+            <lb ed="#V" n="100"/>tur opponi inueniuntur, sicut ridere non opponitur ei, quod
+            <lb ed="#V" n="101"/>est arescere, sed secundum quod ridere metaphorice
+            dici<lb ed="#V" n="102" break="no"/>tur de prato propter eius floritudinem &amp; virorem,
+            oppo<lb ed="#V" n="103" break="no"/>nitur ei, quod est arescere. similiter si mortale proprie
+            acci<lb ed="#V" n="104" break="no"/>piatur prout refertur ad mortem corporalem non videtur
+            <lb ed="#V" n="105"/>oppositionem habere cum veniali, nec ad idem genus
+            per<lb ed="#V" n="106" break="no"/>tinere, sed si mortale accipiatur metaphorice secundum
+            <lb ed="#V" n="107"/>quod in peccatis dicitur, mortale opponitur ei, quod est
+            ve<lb ed="#V" n="108" break="no"/>niale. Cum enim peccatum sit quaedam infirmitas anima
+            <lb ed="#V" n="109"/>peccatum aliquod mortale dicitur ad similitudinem
+            mor<lb ed="#V" n="110" break="no"/>bi, qui dicitur mortalis, ex eo quod inducit defectum
+            irre<lb ed="#V" n="111" break="no"/>parabilem per destitutionem alicuius principii vitae.
+            Princi<lb ed="#V" n="112" break="no"/>pium autem spiritualis vitae, quae e st secundum virtutem est
+            <lb ed="#V" n="113"/>ordo ad vltimum finem, qui quidem si destitutus fuerit,
+            re<lb ed="#V" n="114" break="no"/>parari non potest per aliquod principium intrinsecum, sed
+            <lb ed="#V" n="115"/>solum per diuinam virtutem, quia inordinatio eorum, quae
+            <lb ed="#V" n="116"/>sunt ad finem reparatur ex fine, sicut error qui accidit
+            circa<lb ed="#V" n="117" break="no"/>conclusiones per virtutem principiorum. Defectus ergo
+            ordi<lb ed="#V" n="118" break="no"/>nis vltimi finis non potest reparari per aliud quod sit
+            principa<lb ed="#V" n="119" break="no"/>lius, sicut nec error qui est circa principia, &amp; ideo hotmomi pctam
+            <lb ed="#V" n="120"/>dicuntur mortalia, quasi irreparabilia. Peccata autem quae habent
+            <lb ed="#V" n="121"/>inordinationem circa ea quae sunt ad finem conseruato
+            ordi<lb ed="#V" n="122" break="no"/>ne ad vltimum finem reparabilia sunt, &amp; haec dicuntur
+            venia<lb ed="#V" n="123" break="no"/>lia. Tunc enim peccatum veniam habet, quando reatus
+            poe<lb ed="#V" n="124" break="no"/>nae tollitur qui cessat cessante peccato. Secundum hoc
+            er<lb ed="#V" n="125" break="no"/>go mortale &amp; veniale opponuntur, sicut reparabile, &amp;
+            irre<lb ed="#V" n="126" break="no"/>parabile, &amp; hoc dico per principium interius, non autem per
+            <lb ed="#V" n="127"/>comparationem ad virtutem diuinam, quae omnem
+            mor<lb ed="#V" n="128" break="no"/>bum corporalem &amp; spiritualem reparare potest, &amp; peroper hoc
+            <lb ed="#V" n="129"/>veniale peccatum conuenienter diuiditur contra mortale.
+            <lb ed="#V" n="130"/>Haec ille.
+          </p>
+          <p xml:id="capsco-b2jvi8-d1e299">
+            Et statim post in solutione primi sic dici. Diuisio
+            <lb ed="#V" n="131"/>peccati venialis &amp; mortalis non est diuisio generis in species,
+            <lb ed="#V" n="132"/>quae aequaliter participent generis ratione, sed analogi in
+            ea<lb ed="#V" n="133" break="no"/>de quibus praedicatur secundum prius &amp; posterius, &amp; ideo
+            <lb ed="#V" n="134"/>perfecta ratio peccati quam Augustinus ponit 22. contra Faustum
+            <lb ed="#V" n="135"/>dicens, quod peccatum est dictum vel factum vel concupitum
+            <lb ed="#V" n="136"/>contra legem aeternam, conuenit solum potom mortali. Peccatum
+            <lb ed="#V" n="137"/>autem veniale dicitur petaumm secundum rationem imperfectam, &amp; in
+            <lb ed="#V" n="138"/>ordine ad pctaum mortale, sicut accidens dicitur ens secundum imperse
+            <lb ed="#V" n="139"/>ctam rationem entis. Non enim est contra legem, quia peccans
+            <lb ed="#V" n="140"/>venialiter non facit quod lex prohibet nec praetermittit id
+            <lb ed="#V" n="141"/>ad quod lex per praeceptum obligat, sed facit praeter legem,
+            <lb ed="#V" n="142"/>quia non obseruat modum rationis, quem lex intendit. Haec ille.
+          </p>
+          <p xml:id="capsco-b2jvi8-d1e328">
+            Si<lb ed="#V" n="143" break="no"/>milia dicit de malo. q. 7. art. primo in solutione primi, ex
+            qu<lb ed="#V" n="144" break="no"/>bus arguitur sic. Illa differunt sicut perfectum &amp;
+            imperfe<lb ed="#V" n="145" break="no"/>ctum in eodem genere, quorum vni propria &amp; pfecta ro gamesis
+            <lb ed="#V" n="146"/>conuenit simpliciter, alteri vero non conuenit nisi secundum
+            <pb ed="#V" n="577"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>quid, sed sic est de peccato mortali &amp; veniali, quia peccato
+            <lb ed="#V" n="2"/>mortali conuenit perfecte &amp; simpliciter ratio peccati,
+            ve<lb ed="#V" n="3" break="no"/>niali autem non conuenit nisi secundum quid. igitur &amp;c.
+            <lb ed="#V" n="4"/>Vnde Sanctus Thomas vbi allegatur de malo. q. 7. art. primo in
+            <lb ed="#V" n="5"/>solutione primi sic dicit. Duplex est diuisio. Vna qua
+            diui<lb ed="#V" n="6" break="no"/>ditur genus vniuocum in suas species, quae ex aequo
+            partici<lb ed="#V" n="7" break="no"/>pant genus, sicut animal bouem &amp; equum. Alia est diuisio
+            <lb ed="#V" n="8"/>communis analogi in ea, de quibus dicitur secundum prius
+            <lb ed="#V" n="9"/>&amp; posterius, sicut ens diuiditur in substantiam &amp; accidens,
+            <lb ed="#V" n="10"/>&amp; per potentiam &amp; actum. Et in talibus ratio communis
+            <lb ed="#V" n="11"/>perfecte saluatur in vno, in alijs autem secundum quid, &amp;
+            <lb ed="#V" n="12"/>per posterius. Et talis est diuisio peccati per mortale &amp;
+            ve<lb ed="#V" n="13" break="no"/>niale. Vnde praedicta diffinitio peccati quam ponit Augutinus
+            <lb ed="#V" n="14"/>perfecte quidem conuenit peccato mortali, imperfecte av
+            <lb ed="#V" n="15"/>tem &amp; secundum quid peccato veniali. Vnde
+            conuenien<lb ed="#V" n="16" break="no"/>ter dicitur quod peccatum veniale non est contra legem,
+            <lb ed="#V" n="17"/>sed praeter legem, quia si in aliquo recedit ab ordine legis,
+            <lb ed="#V" n="18"/>non tamen ipsum corrumpit, quia non corrumpit
+            dilectio<lb ed="#V" n="19" break="no"/>nem, quae est plenitudo legis, vt dicitur Ro. 12. Haec ille.
+          </p>
+          <p xml:id="capsco-b2jvi8-d1e386">
+            Se<lb ed="#V" n="20" break="no"/>cunda conclusio. Peccatum veniale &amp; mortale vno modo
+            <lb ed="#V" n="21"/>differunt in genere, &amp; alio modo possunt sub eodem genere
+            <lb ed="#V" n="22"/>contineri. hanc ponit Sanctus Thomas parte. secunda q. 88.
+            <lb ed="#V" n="23"/>art. secundo vbi sic ait. Peccatum veniale a venia dicitur.
+            Po<lb ed="#V" n="24" break="no"/>test ergo aliquod peccatum dici veniale vnomodo quia est
+            <lb ed="#V" n="25"/>veniae consecutiuum. Et sic dicit Ambrosius quod omne
+            pecca<lb ed="#V" n="26" break="no"/>tum per paenitentiam sit veniale. Et hoc dicitur veniale ex
+            <lb ed="#V" n="27"/>euentu. Alio modo dicitur veniale, quia non habet in se,
+            <lb ed="#V" n="28"/>vnde veniam non consequitur, vel totaliter, vel in parte.
+            <lb ed="#V" n="29"/>In parte quidem, sicut cum habet aliquid in se diminuens
+            <lb ed="#V" n="30"/>culpam, vt cum sit ex infirmitate vel ex ignorantia. &amp; hoc
+            <lb ed="#V" n="31"/>dicitur veniale ex causa. In toto autem ex eo quod non
+            tol<lb ed="#V" n="32" break="no"/>lit ordinem ad vltimum finem, vnde non meretur paenam
+            <lb ed="#V" n="33"/>aeternam, sed temporalem &amp; de hoc veniali ad praesens
+            in<lb ed="#V" n="34" break="no"/>tendimus. De primis enim duobus constat, quod non
+            ha<lb ed="#V" n="35" break="no"/>bet genus aliquod determinatum. Sed veniale tertio
+            mo<lb ed="#V" n="36" break="no"/>do dictum potest habere genus aliquod determinatum, ita
+            <lb ed="#V" n="37"/>quod aliquod peccatum dicatur veniale ex genere, &amp;
+            ali<lb ed="#V" n="38" break="no"/>quod mortale ex genere secundum quod genus vel species
+            <lb ed="#V" n="39"/>actus determinatur ex obiecto. Cum enim voluntas fertur
+            <lb ed="#V" n="40"/>in aliquid quod per se repugnat charitati, per quam in
+            vlti<lb ed="#V" n="41" break="no"/>mum finem peccatum ex suo obiecto habet quod sit
+            mor<lb ed="#V" n="42" break="no"/>tale. vnde est mortale ex genere, siue sit contra dilectionem
+            <lb ed="#V" n="43"/>dei, sicut blasphemia, periurium &amp; huiusmodi, siue contra
+            <lb ed="#V" n="44"/>dilectionem proximi, sicut homicidium, adulterium, &amp;
+            si<lb ed="#V" n="45" break="no"/>milia vnde huotmodi sunt peccata mortalia ex suo genere.
+            <lb ed="#V" n="46"/>Quandoque vero voluntas peccantis fertur in id quod in
+            <lb ed="#V" n="47"/>se continent quandam inordinationem, non tamen
+            contra<lb ed="#V" n="48" break="no"/>riatur dilectioni dei &amp; proximi, sicut verbum ociosum,
+            ri<lb ed="#V" n="49" break="no"/>sus su essuus, &amp; alia huiusmodi, &amp; talia sunt peccata
+            venia<lb ed="#V" n="50" break="no"/>lia ex suo genere. Sed quia actus morales recipiunt
+            ratio<lb ed="#V" n="51" break="no"/>nem boni &amp; mali non solum ex obiecto, sed etiam ex aliqua
+            <lb ed="#V" n="52"/>dispositione agentis, contingit quandoque quod illud quod
+            <lb ed="#V" n="53"/>est peccatum veniale ex genere ratione sui obiecti sit
+            mor<lb ed="#V" n="54" break="no"/>tale ex parte agentis, vel quia in eo constituit finem vltimum,
+            <lb ed="#V" n="55"/>vel quia ordinat ipsum ad aliquid, quod est peccatum
+            mor<lb ed="#V" n="56" break="no"/>tale ex genere. puta cum aliquis ordinat verbum ociosum
+            <lb ed="#V" n="57"/>ad adulterium committendum. Similiter etiam ex parte
+            agen<lb ed="#V" n="58" break="no"/>tis contingit, quod aliquod peccatum, quod ex genere suo
+            <lb ed="#V" n="59"/>est mortale, sit veniale propter hoc quod scilicet est actus
+            imper<lb ed="#V" n="60" break="no"/>fectus idest non deliberatus a ratione, quae est proprium
+            <lb ed="#V" n="61"/>principium mali actus, sicut contingit de subitis motibus.
+            <lb ed="#V" n="62"/>Haec ille.
+          </p>
+          <p xml:id="capsco-b2jvi8-d1e482">
+            Similia dicit secundo sententia. dist. 42. q. prima.
+            <lb ed="#V" n="63"/>art. 4. Et de malo. q. 7. art. 1. Ex quibus potest argui pro
+            pri<lb ed="#V" n="64" break="no"/>ma parte conclusionis sic. Omnis differentia actuum
+            mor<lb ed="#V" n="65" break="no"/>talium proueniens ex obiecto dicitur differentia secundum
+            <lb ed="#V" n="66"/>genus vel speciem, sed aliqua mortalia &amp; aliqua venialia
+            <lb ed="#V" n="67"/>differunt in hoc quod est esse mortale vel veniale ex parte
+            obie<lb ed="#V" n="68" break="no"/>cti. igitur mortale &amp; veniale aliquando differunt genere, sic quod
+            ali<lb ed="#V" n="69" break="no"/>quod peccatum ex suo genere est mortale, &amp; aliquod ex suo
+            <lb ed="#V" n="70"/>genere est veniale. Pro secunda arguitur sic. Illa non
+            pro<lb ed="#V" n="71" break="no"/>prie differunt genere in actibus moralibus quae respiciunt
+            <lb ed="#V" n="72"/>idem obiectum, sed aliquod mortale &amp; aliquod veniale sunt
+            <lb ed="#V" n="73"/>huiusmodi. igitur &amp;c.
+          </p>
+          <p xml:id="capsco-b2jvi8-d1e508">
+            Tertia conclusio licet aliqualit er
+            im<lb ed="#V" n="74" break="no"/>pertinens titulo quaestionis. Superbia &amp; cupiditas vt sunt
+            <lb ed="#V" n="75"/>specialia peccata sunt radix &amp; initium omnis peccati. Hanc
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="76"/>ponit Sanctus Thomas prima secundae q. 84. arti. 1. vbi sic ait
+            <lb ed="#V" n="77"/>Secundum quosdam cupiditas tripliciter dicitur. Vno
+            mo<lb ed="#V" n="78" break="no"/>do prout est inordinatus appetitus diuitiarum, &amp; sic est
+            spe<lb ed="#V" n="79" break="no"/>ciale peccatum. Alio modo secundum quod signat
+            inordi<lb ed="#V" n="80" break="no"/>natum appetitum cuiuscunque boni temporalis, &amp; tunc est
+            <lb ed="#V" n="81"/>genus omnis peccati. Nam in omni peccato est
+            inordina<lb ed="#V" n="82" break="no"/>ta conuersio ad bonum commutabile. tertio modo
+            sumi<lb ed="#V" n="83" break="no"/>tur prout signat quandam inclinationem naturae corruptae
+            <lb ed="#V" n="84"/>ad bona commutabilia inordinata appetenda, &amp; sic dicunt
+            <lb ed="#V" n="85"/>cupiditatem esse radicem omnium peccatorum ad
+            simili<lb ed="#V" n="86" break="no"/>tudinem radicis arboris, quae ex terra trahit alimentum. Sic
+            <lb ed="#V" n="87"/>enim ex amore rerum temporalium omne peccatum
+            pro<lb ed="#V" n="88" break="no"/>cedit. Et haec quidem quamuis vera sint, non tamen
+            viden<lb ed="#V" n="89" break="no"/>tur esse secundum intentionem apostoli, qui dicit
+            cupidita<lb ed="#V" n="90" break="no"/>tem esse radicem omnium peccatorum. Manifeste enim ibi
+            <lb ed="#V" n="91"/>loquitur contra eos, qui cum velint diuites fieri, incidunt
+            <lb ed="#V" n="92"/>in tentationes &amp; in laqueum diaboli, eo quod radix omnium
+            <lb ed="#V" n="93"/>malorum est cupiditas. Vnde manifestum est, quod loquitur
+            <lb ed="#V" n="94"/>de cupiditate secundum quod est inordinatus appetitus
+            di<lb ed="#V" n="95" break="no"/>uitiarum. Et secundum hoc dicendum est, quod cupiditas
+            <lb ed="#V" n="96"/>secundum quod est speciale peccatum dicitur radix omnium
+            <lb ed="#V" n="97"/>peccatorum ad similitudinem radicis arboris, quae alimentum
+            <lb ed="#V" n="98"/>praestat toti arbori. Videmus enim quod per diuitias
+            ho<lb ed="#V" n="99" break="no"/>mo acquirit facultatem perpetrandi omne peccatum, &amp; ac
+            <lb ed="#V" n="100"/>habendum desiderium cuiuscunque peccati, eo quod ad
+            ha<lb ed="#V" n="101" break="no"/>benda quaecunque temporalia bona potest homo per
+            pecu<lb ed="#V" n="102" break="no"/>niam iuuari secundum quod dicitur ecclesiast. 10. Pecuniae
+            obe<lb ed="#V" n="103" break="no"/>diunt vniuersa. Et secundum hoc patet quodcupiditas diuitiarum
+            <lb ed="#V" n="104"/>est radix omnium peccatorum. Haec ille.
+          </p>
+          <p xml:id="capsco-b2jvi8-d1e580">
+            Item art. 2. sic dicit.
+            <lb ed="#V" n="105"/>Quidam dicunt superbiam tripliciter dici. Vno modo
+            secun<lb ed="#V" n="106" break="no"/>dum quod superbia signat inordinatum appetitum propriae
+            <lb ed="#V" n="107"/>excellentiae, &amp; sic est speciale peccatum. Alio modo
+            secun<lb ed="#V" n="108" break="no"/>dum quod importat quendam actualem contemptum dei,
+            <lb ed="#V" n="109"/>quantum ad hunc effectum qui est non subdi praecepto eius,
+            <lb ed="#V" n="110"/>&amp; sic dicunt quod est generale peccatum. tertio modo
+            se<lb ed="#V" n="111" break="no"/>cundum quod importat quandam inclinationem ad
+            huius<lb ed="#V" n="112" break="no"/>modi contemptam ex corruptione naturae, &amp; sic dicunt quod est
+            <lb ed="#V" n="113"/>initium omnis peccati, &amp; differt a cupiditate, quia
+            cupidi<lb ed="#V" n="114" break="no"/>tas respicit peccatum ex parte conuersionis ad bonum
+            com<lb ed="#V" n="115" break="no"/>mutabile, ex quo peccatum quodammodo nutritur &amp;
+            foue<lb ed="#V" n="116" break="no"/>tur, propter hoc cupiditas dicitur radix. Sed superbia
+            respi<lb ed="#V" n="117" break="no"/>cit peccatum ex parte auersionis a deo, cuius praecepto
+            ho<lb ed="#V" n="118" break="no"/>mo subdi recusat, &amp; ideo vocatur initium, quia ex parte
+            auer<lb ed="#V" n="119" break="no"/>sionis incipit ratio mali. Et haec quidem quamuis vera sunt,
+            <lb ed="#V" n="120"/>non tamen sunt secundum intentionem sapientis, qui dicit. Initium
+            <lb ed="#V" n="121"/>omnis peccati superbia. Manifeste enim loquitur de superbia
+            <lb ed="#V" n="122"/>secundum quod est inordinatus appetitus propriae excellentiae,
+            <lb ed="#V" n="123"/>vt patet per hoc quod subdit. Sedes ducum superborum
+            de<lb ed="#V" n="124" break="no"/>struxit deus. Et de hac materia fere loquitur in toto
+            capi<lb ed="#V" n="125" break="no"/>tulo. Et ideo dicendum est, quod superbia etiam secundum quod est
+            <lb ed="#V" n="126"/>spirituale peccatum, est initium omnis peccati.
+            Consideran<lb ed="#V" n="127" break="no"/>dum est enim quod in actibus voluntarijs: cuius sunt peccata
+            du<lb ed="#V" n="128" break="no"/>plex ordo inuenitur scilicet intentionis &amp; executionis. In primo
+            <lb ed="#V" n="129"/>quidem ordine finis habet rationem principij: finis autem in
+            om<lb ed="#V" n="130" break="no"/>nibus temporalibus bonis acquirendis est vt homo illa
+            quan<lb ed="#V" n="131" break="no"/>dam perfectionem &amp; excellentiam habeat, &amp; ideo ex hac parte
+            <lb ed="#V" n="132"/>superbia, quae est appetitus excellentiae ponitur initium omnis
+            <lb ed="#V" n="133"/>peccati. Sed ex parte executionis est primum illud quod
+            prae<lb ed="#V" n="134" break="no"/>bet opportunitatem adimplendi omnia desideria peccati,
+            <lb ed="#V" n="135"/>quod habet rationem radicis scilicet diuitiae, &amp; ideo ex hac parte
+            <lb ed="#V" n="136"/>auaritia ponitur esse radix omnium malorum. Haec ille.
+          </p>
+          <p xml:id="capsco-b2jvi8-d1e652">
+            Ex
+            <lb ed="#V" n="137"/>quibus potest formari duplex ratio pro duplici parte
+            con<lb ed="#V" n="138" break="no"/>clusionis. Pro prima arguitur sic. Illud peccatum per cuius
+            <lb ed="#V" n="139"/>obiectum acquiritur facultas perpetrandi quodlibet
+            pec<lb ed="#V" n="140" break="no"/>catum, &amp; mouetur ad habendum desiderium cuiuslibet
+            <lb ed="#V" n="141"/>peccati, potest dici radix cuiuslibet generis peccati, sed
+            cu<lb ed="#V" n="142" break="no"/>piditas etiam secundum quod est speciale peccatum est
+            huius<lb ed="#V" n="143" break="no"/>modi igitur &amp;c. Pro secunda arguitur sic. Illud peccatum
+            <lb ed="#V" n="144"/>cuius obiectum per modum finis mouet ad consecutionem
+            <lb ed="#V" n="145"/>cuiuslibet boni commutabilis potest dici initium omnis
+            <lb ed="#V" n="146"/>peccati ex parte conuersionis ad bonum commutabile, sed
+            <lb ed="#V" n="147"/>superbia etiam prout est spirituale peccatum est
+            huiusmo<lb ed="#V" n="148" break="no"/>di. igitur &amp;c. Et in hoc primus articulus terminatur.
+          </p>
+        </div>
+        <div xml:id="capsco-b2jvi8-Dd1e682">
+          <head xml:id="capsco-b2jvi8-Hd1e684">Articulus 2</head>
+          <p xml:id="capsco-b2jvi8-d1e686">
+            <lb ed="#V" n="149"/><milestone ed="#V" unit="p" rend="initial"/> Vantum ad secundum articulum arguitur contra
+            conlusio<lb ed="#V" n="150" break="no"/>nes. Et quidem contra primam &amp; secundam arguit
+            <pb ed="#V" n="578"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>Aureolus probando, quod peccatum theologice acceptum
+            <lb ed="#V" n="2"/>diuidatur essentialiter &amp; specifice penes mortale &amp;
+            venia<lb ed="#V" n="3" break="no"/>le. Et primo arguit sic. Ratio virtutis ex propria sui ratione
+            <lb ed="#V" n="4"/>sumitur in ordine ad suam regulam quae in moralibus est
+            <lb ed="#V" n="5"/>prudentia seu recta ratio. In theologicis vero est diuina
+            <lb ed="#V" n="6"/>voluntas. Tunc sic. Specifica diuisio peccati vt opponitur
+            <lb ed="#V" n="7"/>virtuti theologice loquendo accipitur secundum alium
+            <lb ed="#V" n="8"/>&amp; alium modum deuiandi a regula quae est voluntas
+            diui<lb ed="#V" n="9" break="no"/>na, sed aliter deuiat a voluntate diuina per essentiam
+            pecca<lb ed="#V" n="10" break="no"/>tum mortale quam venialetigitur &amp;c. Minor probatur, qua
+            <lb ed="#V" n="11"/>peccatum mortale deuiat a diuina voluntate praecipiente
+            <lb ed="#V" n="12"/>prohibente &amp; obligante, veniale vero non deuiat hoc
+            mo<lb ed="#V" n="13" break="no"/>do. Voluntas enim diuina obligat secundum praecepta, ve
+            <lb ed="#V" n="14"/>secundum consilium, &amp; primo modo affirmatiue
+            iniungen<lb ed="#V" n="15" break="no"/>do, vel negatiue prohibendo, &amp; vtroque istorum modorum
+            <lb ed="#V" n="16"/>voluntas diuina obligat voluntatem humanam licet
+            secun<lb ed="#V" n="17" break="no"/>dum consilium non obliget, modo patet quod est alius, &amp;
+            <lb ed="#V" n="18"/>alius modus deuiandi a voluntate prohibente, vel
+            praeci<lb ed="#V" n="19" break="no"/>piente quam a voluntate non obligante nec praecipiente,
+            <lb ed="#V" n="20"/>igitur peccatum mortale &amp; veniale theologice loquendo
+            <lb ed="#V" n="21"/>specifice distinguuntur: maior patet, quia sicut in ethicis
+            di<lb ed="#V" n="22" break="no"/>uersa peccata accipiuntur secundum alium &amp; alium
+            mo<lb ed="#V" n="23" break="no"/>dum deuiandi a regula actuum moralium quae est recta
+            ra<lb ed="#V" n="24" break="no"/>tio, sic in proposito. Et potest ex hoc tota ratio confirmari
+            <lb ed="#V" n="25"/>quia sicut peccata in genere moris distinguuntur secundum
+            <lb ed="#V" n="26"/>excessum &amp; defectum a ratione, sic est in proposito.
+          </p>
+          <p xml:id="capsco-b2jvi8-d1e755">
+            Secun<lb ed="#V" n="27" break="no"/>do arguit sic. Differentiae quae diuidunt formale generis
+            <lb ed="#V" n="28"/>sunt formales, vt patet septimo metap. sed licet in peccato
+            <lb ed="#V" n="29"/>secundum genus naturae formale accipiatur ex obiecto,
+            ta<lb ed="#V" n="30" break="no"/>men secundum genus moris &amp; inquantum actus est
+            culpa<lb ed="#V" n="31" break="no"/>bilis &amp; demeritorius obiectum se habet vt materiale,
+            deuia<lb ed="#V" n="32" break="no"/>tio autem a regula se habet vt formale, igitur differentiae
+            <lb ed="#V" n="33"/>quae diuersificant ipsum in hoc quod est deuiare a regula,
+            <lb ed="#V" n="34"/>sunt hoc modo formales in peccato. Tales autem sunt
+            dif<lb ed="#V" n="35" break="no"/>ferentiae, secundum quas accipitur diuisio peccati per
+            mor<lb ed="#V" n="36" break="no"/>tale vel veniale, igitur &amp;c. Vnde cum in peccato ratione
+            <lb ed="#V" n="37"/>qua peccatum est auersio sit formale dicere quod
+            distin<lb ed="#V" n="38" break="no"/>guatur peccatum inquantum peccatum per obiectum,
+            <lb ed="#V" n="39"/>cum sit materiale, est nihil dicere, oportet igitur quod
+            <lb ed="#V" n="40"/>distinctio in peccato secundum quod est culpa accipiatur
+            <lb ed="#V" n="41"/>ex alia &amp; alia auersione, nisi vellet dicere quod triangulus
+            <lb ed="#V" n="42"/>diuiditur specifice penes aliam materiam, puta penes
+            li<lb ed="#V" n="43" break="no"/>gnum vel ferrum, sicut enim triangulus est talis figura
+            po<lb ed="#V" n="44" break="no"/>tens eadem specifice esse in hac &amp; inhac materia, sic
+            auer<lb ed="#V" n="45" break="no"/>sio est formale in peccato potens esse circa hoc obiectum
+            <lb ed="#V" n="46"/>vel illud, sicut igitur triangulus diuiditur non penes
+            li<lb ed="#V" n="47" break="no"/>gnum &amp; ferrum, sed penes alium &amp; alium modum
+            trian<lb ed="#V" n="48" break="no"/>gularitatis, sic non diuiditur peccatum penes materiam,
+            <lb ed="#V" n="49"/>sed penes alium &amp; alium modum auersionnis.
+          </p>
+          <p xml:id="capsco-b2jvi8-d1e807">
+            Tertio sic.
+            <lb ed="#V" n="50"/>Peccatum mortale &amp; veniale non dicuntur talia in ordine
+            <lb ed="#V" n="51"/>ad poenam, sed in ordine ad diuinam amicitiam, eo modo
+            <lb ed="#V" n="52"/>quo dicitur quod ostendit aliquis alium ad mortem
+            quan<lb ed="#V" n="53" break="no"/>do offendit eum vsque ad dissolutionem amicitiae, igitur
+            <lb ed="#V" n="54"/>peccatum non dicitur mortale per hoc quod ei debetur
+            <lb ed="#V" n="55"/>mors pro poena, sed dicitur mortale, quia dissoluit
+            amici<lb ed="#V" n="56" break="no"/>tiam, ex quo fit vt non sit reconciliabile quantum est ex se,
+            <lb ed="#V" n="57"/>&amp; remouet amicitiam &amp; beneuolentiam, quae est radix
+            ve<lb ed="#V" n="58" break="no"/>niae &amp; reconciliationis. Veniale autem dicitur eo quod
+            re<lb ed="#V" n="59" break="no"/>linquat amicitiam, ideo ex se non tollit veniam &amp; vitam
+            <lb ed="#V" n="60"/>amicabilem, tunc arguo sic. Illi actus quorum vnus
+            infrin<lb ed="#V" n="61" break="no"/>git totaliter diuinam amicitiam alius autem non infringit
+            <lb ed="#V" n="62"/>sed laedit leuiter distinguuntur specifice theologice, quia
+            <lb ed="#V" n="63"/>poenes intrinsecum inoffesa &amp; culpa habent differentiam
+            <lb ed="#V" n="64"/>scilicet poenes venire contra amicitiam, sed actus peccati
+            <lb ed="#V" n="65"/>mortalis, &amp; actus peccati venialis sunt huiusmodi, igitur
+            <lb ed="#V" n="66"/>&amp;c.
+          </p>
+          <p xml:id="capsco-b2jvi8-d1e846">
+            Quarto sic. Illa quae sunt eiusdem speciei opponuntur
+            <lb ed="#V" n="67"/>vni &amp; eidem in specie, sed mortale &amp; veniale secundum quod
+            <lb ed="#V" n="68"/>talia non opponuntur vni &amp; eidem in specie, quoniam
+            mor<lb ed="#V" n="69" break="no"/>tale opponuntur charitati &amp; tollit eam, veniale stat cum
+            <lb ed="#V" n="70"/>charitate. Igitur aliquid intrinsece est in peccato
+            mortali<lb ed="#V" n="71" break="no"/>quod consequitur totam eius speciem, ratione cuius
+            repu<lb ed="#V" n="72" break="no"/>gnat ei gratia quod secundum totam speciem repugnat
+            ve<lb ed="#V" n="73" break="no"/>niali, igitur non sunt eiusdem speciei. Quinto Non solum
+            <lb ed="#V" n="74"/>distinctio actuum penes obiecta est distinctio specifica,
+            <lb ed="#V" n="75"/>immo distinctio specifica actuum sumitur ex concursu
+            alia<cb ed="#V" n="b"/><lb ed="#V" n="76" break="no"/>rum &amp; aliarum circunstantiarum, quas actus exigit
+            intrin<lb ed="#V" n="77" break="no"/>sece inquantum talis est, sed mortale &amp; ueniale habent
+            a<lb ed="#V" n="78" break="no"/>lias &amp; alias circunstantias oppositas, licet sint circa idem
+            <lb ed="#V" n="79"/>obiectum igitur &amp;c. Maior patet, quia alias omnes actus
+            <lb ed="#V" n="80"/>morales circa idem obiectum in genere essent eiusdem
+            spe<lb ed="#V" n="81" break="no"/>ciei. Minor probatur, quia capio aliquem actum circa idem
+            <lb ed="#V" n="82"/>obiectum, puta vanam gloriam &amp; laudem inordinatam.
+          </p>
+          <p xml:id="capsco-b2jvi8-d1e885">
+            <lb ed="#V" n="83"/>Dico quod idem actus circa idem obiectum est indifferens
+            <lb ed="#V" n="84"/>ad hoc quod sic vel sic circunstantionetur circunstantiis
+            <lb ed="#V" n="85"/>intrinsecis ad actum venialem &amp; mortalem. Si enim
+            appe<lb ed="#V" n="86" break="no"/>tat gloriam effrenate, sic quod non vereretur venire contra
+            <lb ed="#V" n="87"/>diuinum praeceptum, tanta est libido appetitus, quod ille
+            <lb ed="#V" n="88"/>actus circunstantionatus est circunstantia propria peccato
+            <lb ed="#V" n="89"/>mortali, quae est contemptus in hoc quod si occurrisset in
+            <lb ed="#V" n="90"/>illo actu diuinum praeceptum ad oppositum non omisisset
+            <lb ed="#V" n="91"/>illum actum. Si autem appetat taliter quod si occurrisset
+            <lb ed="#V" n="92"/>diuinum praeceptum mallet obedire quam habere gloriam
+            <lb ed="#V" n="93"/>ita quod appetitus non ascendit vsque ad contemptum
+            <lb ed="#V" n="94"/>diuinae voluntatis expressae in praeceptis &amp; prohibitionibus
+            <lb ed="#V" n="95"/>talis actus habet circunstantiam quae facit peccatum
+            ue<lb ed="#V" n="96" break="no"/>male, &amp; hoc idem dico de aliis circunstantiis, puta de
+            deli<lb ed="#V" n="97" break="no"/>beratione &amp; morositate &amp;c, sexto illae differentiae quae
+            ra<lb ed="#V" n="98" break="no"/>tione generis distant in infinitum &amp; diuidunt ens secundum
+            <lb ed="#V" n="99"/>finitum &amp; infinitum, non sunt eiusdem speciei, immo nec
+            <lb ed="#V" n="100"/>eiusdem generis, differentiae enim eiusdem generis non
+            di<lb ed="#V" n="101" break="no"/>stant in infinitum, nec diuidunt aliquod vnum genus
+            pe<lb ed="#V" n="102" break="no"/>nes finitum sicut per suas differentias. Sed peccatum
+            diui<lb ed="#V" n="103" break="no"/>ditur in mortale &amp; veniale sicut in differentias distantes
+            <lb ed="#V" n="104"/>in infinitum, &amp; diuisio ista est per finitum &amp; infinitum
+            quo<lb ed="#V" n="105" break="no"/>uiam mortale ratione totius sui generis est infinitum,
+            ve<lb ed="#V" n="106" break="no"/>niale vero ratione sui generis est finitum &amp; temporale:
+            igi<lb ed="#V" n="107" break="no"/>tur &amp;c. Deinde arguit Durandus potissime contra primam
+            <lb ed="#V" n="108"/>conclusionem. d. quod probatio conclusionis nullam
+            habe<lb ed="#V" n="109" break="no"/>ret calumniam, si omne peccatum veniale consisteret
+            <lb ed="#V" n="110"/>in subitis motibus quipraeueniunt deliberationem. etiam
+            <lb ed="#V" n="111"/>circa materiam peccati mortalis, sicut est subita
+            compla<lb ed="#V" n="112" break="no"/>centia mulieris occurrentis, quia omnes tales motus
+            ha<lb ed="#V" n="113" break="no"/>bent rationem peccati secundum quid &amp; imperfecte.
+            <lb ed="#V" n="114"/>Cuius ratio est, quia illud est peccatum solum
+            secun<lb ed="#V" n="115" break="no"/>dum quid quod est in potestate nostra solum secundum
+            <lb ed="#V" n="116"/>qui, sed motus praeuenientes deliberatione &amp; sunt in
+            <lb ed="#V" n="117"/>potestate nostra solum secundum quid. &amp; non
+            simpli<lb ed="#V" n="118" break="no"/>citer, nihil enim est perfecte &amp; simpliciter in
+            potesta<lb ed="#V" n="119" break="no"/>te nostra nisi illud quod sequitur deliberationem, per
+            <lb ed="#V" n="120"/>quam habemus plenum dominium actuum nostrorum:
+            igi<lb ed="#V" n="121" break="no"/>tur &amp;c. Sed quia peccatum veniale inuenitur non solum in
+            <lb ed="#V" n="122"/>subitis motibus, sed etiam in actu deliberato cadente
+            su<lb ed="#V" n="123" break="no"/>per indebitam materiam, sicut cum aliquis sciens &amp; delibe
+            <lb ed="#V" n="124"/>rans profert mendacium iocosum, ideo in talibus non videtur
+            <lb ed="#V" n="125"/>verum illud quod dicit conclusio scilicet quod peccatum diuiditur in
+            <lb ed="#V" n="126"/>mortale &amp; veniale per modum analogi, quod dicitur de vno
+            sim<lb ed="#V" n="127" break="no"/>pliciter &amp; perfecte, de alio vero secundum quid. Qd patet, quia
+            ac<lb ed="#V" n="128" break="no"/>tus voluntarius simpliciter cadens super materiam simpliciter
+            <lb ed="#V" n="129"/>indebitum est peccatum simpliciter, sed multa venialia sunt
+            hu<lb ed="#V" n="130" break="no"/>iusmodi, vt patet in exemplo adducto, &amp; consimilibus igitur &amp;c
+            <lb ed="#V" n="131"/>Secundo arguit ad idem, &amp; est confirmatio pecedentis. Quia i
+            <lb ed="#V" n="132"/>omnibus quae analogice dicuntur secundum prius &amp; post, pfectum &amp;
+            <lb ed="#V" n="133"/>imperfectum, simpliciter &amp; secundum quid, ratio nominis nulli competit
+            ni<lb ed="#V" n="134" break="no"/>si per attributionem ad vnum quod p prius perfecte &amp;
+            simplici<lb ed="#V" n="135" break="no"/>ter dicitur tale. Verbi gratia in ente respectu sumtrae &amp; accidentis
+            <lb ed="#V" n="136"/>entis in actu &amp; entis in potentia, sed pctaum veniale non dicitur
+            <lb ed="#V" n="137"/>petun per attributionem ad pctamem mortale, quia si non esset
+            ali<lb ed="#V" n="138" break="no"/>qud petamnm mortale, nihilominus esset dare pcetamemem veniale, quod
+            <lb ed="#V" n="139"/>non contingit in illis quae analogice dcimtur, quia si non esset
+            <lb ed="#V" n="140"/>substantia, accidens non esset, &amp; si non esset sanitas animalis
+            ni<lb ed="#V" n="141" break="no"/>hil diceretur sanum: ergo ratio peccati non contingit analogice peccato
+            <lb ed="#V" n="142"/>mortali &amp; veniali, nisi solum accipiendo veniale quod consistit
+            <lb ed="#V" n="143"/>in subito motu circa materiam peccati mortalis. Tale enim
+            <lb ed="#V" n="144"/>dicitur peccatum solum secundum quid, &amp; in habitudine ad actum
+            deli<lb ed="#V" n="145" break="no"/>beratum circa eandem materiam quae est peccatum mortale.
+          </p>
+          <p xml:id="capsco-b2jvi8-d1e1024">
+            Ter<lb ed="#V" n="146" break="no"/>tio arguit. Quia si vnum oppositorum dicitur multipliciter,
+            <lb ed="#V" n="147"/>&amp; reliquum, sed actus virtuosus &amp; pctaumemem opponuntur:
+            ergo<lb ed="#V" n="148" break="no"/>si in peccatis est multiplicitas analogiae in participando
+            ratio<lb ed="#V" n="149" break="no"/>nem peccati, in actibus virtuosis erit similis multiplicitas in
+            <lb ed="#V" n="150"/>participando rationem virtutis, quod non videtur comparando
+            <pb ed="#V" n="579"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>actum interiorem interiori, vel exteriorem exteriori, licet
+            <lb ed="#V" n="2"/>hoc possit dici comparando actus, aliarum potentiarum
+            <lb ed="#V" n="3"/>actui voluntatis, quo etiam modo potest poni analogia in
+            <lb ed="#V" n="4"/>peccatis, sed talis analogia non est inter veniale &amp; mortale,
+            <lb ed="#V" n="5"/>icimo inuenitur tam in mortali quam in veniali
+            comparan<lb ed="#V" n="6" break="no"/>do actum interiorem exteriori. Et sic patet quod diuisio
+            <lb ed="#V" n="7"/>peccati in mortale &amp; veniale non est diuisio analogi, sed est
+            <lb ed="#V" n="8"/>diuisio vniuoci, quia ratio peccati perfecte saluatur
+            simpli<lb ed="#V" n="9" break="no"/>citer &amp; vniuoce in vtroque, licet vnum sit grauius altero
+            <lb ed="#V" n="10"/>grauitate alterius rationis specialis, nam &amp; species sub
+            ge<lb ed="#V" n="11" break="no"/>nere naturam generis simpliciter participat. vna tamen est
+            <lb ed="#V" n="12"/>perfectior altera perfectione differente specifice. Quarto
+            ar<lb ed="#V" n="13" break="no"/>guit. Quia si peccatum diuideretur in mortale &amp;
+            immor<lb ed="#V" n="14" break="no"/>tale tanquam analogum, hoc videretur potissime, quia
+            mor<lb ed="#V" n="15" break="no"/>tale est contra legem, sed veniale non est contra legem, sed
+            <lb ed="#V" n="16"/>solum praeter legem, sed hoc non valet, quia omne peccatum
+            <lb ed="#V" n="17"/>est contra aliquam legem Dei vel naturalem vel in spiratam
+            <lb ed="#V" n="18"/>vel ab eis derinatam, nec tamen omne peccatum est
+            morta<lb ed="#V" n="19" break="no"/>le, quia in qualibet lege sunt aliqua praecepta, &amp;
+            prohibi<lb ed="#V" n="20" break="no"/>tiones de his quae sunt necessaria ad custodiam ciuiliratis,
+            <lb ed="#V" n="21"/>&amp; sine quibus dissiparetur ciuilitas, &amp; facere contra hoc est
+            <lb ed="#V" n="22"/>peccatum mortale. Alia vero sunt quae inducuntur a lege
+            <lb ed="#V" n="23"/>non tanquam necessaria simpliciter quasi sine illis non
+            sta<lb ed="#V" n="24" break="no"/>ret bonum ciuilitatis, sed tanquam facientia ad
+            perfectio<lb ed="#V" n="25" break="no"/>nem &amp; decorem ciuilitatis, &amp; quorum opposita habent
+            quan<lb ed="#V" n="26" break="no"/>dam inordinationem, sed non subuertentem ciuilitatem,
+            <lb ed="#V" n="27"/>&amp; facere contra talia non est peccatum mortale in aliqua
+            <lb ed="#V" n="28"/>lege. confirmatur. Quia si aliquod peccatum veniale
+            es<lb ed="#V" n="29" break="no"/>set solum praeter legem &amp; nullo modo contra hoc
+            potissi<lb ed="#V" n="30" break="no"/>me videretur de mendacio iocoso, sed hoc est falsum, nam
+            <lb ed="#V" n="31"/>mentiri iocose est directe contra leges naturales, &amp; non
+            so<lb ed="#V" n="32" break="no"/>lum praeter. Et idem est de omnibus quae ex genere suo sunt
+            <lb ed="#V" n="33"/>peccata venialia.
+          </p>
+          <p xml:id="capsco-b2jvi8-d1e1113">
+            Contra tertiam conclusionem arguit
+            Du<lb ed="#V" n="34" break="no"/>randus probando quod probatiosit insufficiens, primo
+            quan<lb ed="#V" n="35" break="no"/>tum ad illud quod dicitur ibidem de superbia. Quamuis
+            <lb ed="#V" n="36"/>enim inordinatus amor sui si vel esse possit principium
+            inor<lb ed="#V" n="37" break="no"/>dinate appetendi omnia commutabilia, &amp; ob hoc secundum
+            <lb ed="#V" n="38"/>Augostnus amor male inflammans possit esse principium
+            alio<lb ed="#V" n="39" break="no"/>rum peccatorum, tamen hoc non potest dici de superbia,
+            <lb ed="#V" n="40"/>quia ad plura se extendit inordinatus amor sui quam se
+            ex<lb ed="#V" n="41" break="no"/>tendat superbia quae est inordinatus amor sui quo ad excel
+            <lb ed="#V" n="42"/>sentiam propriae personae. Ex hoc enim quod aliquis
+            inor<lb ed="#V" n="43" break="no"/>dinate diligit se, sequitur vel natum est sequi quod inordinate
+            <lb ed="#V" n="44"/>appetat vel fugiat omnia quae estimat sibi bona vel nociua.
+            <lb ed="#V" n="45"/>Et haec sunt vel esse possunt omnia bona simpliciter, &amp; ideo
+            <lb ed="#V" n="46"/>omne peccatum potest ex hoc oriri, sed ex inordinato
+            ap<lb ed="#V" n="47" break="no"/>petitu propriae excellentiae, in quo consistit formaliter
+            super<lb ed="#V" n="48" break="no"/>bia non est natum sequi nisi quod inordinate appetantur vel
+            <lb ed="#V" n="49"/>sugiantur illa quae promouent vel impediunt propriam
+            ex<lb ed="#V" n="50" break="no"/>celsentiam. Haec autem non sunt omnia quae male
+            appetun<lb ed="#V" n="51" break="no"/>tur vel fugiuntur, turpes enim delectationes quae male
+            ap<lb ed="#V" n="52" break="no"/>petuntur per intemperantiam non promouent excellentiam,
+            <lb ed="#V" n="53"/>nec aestimantur etiam a superbis eam promoueri, poenae
+            <lb ed="#V" n="54"/>etiam &amp; tristitiae quae turpiter fugiuntur per timiditatem,
+            <lb ed="#V" n="55"/>non impediunt nec aestimantur impedire propriam
+            excel<lb ed="#V" n="56" break="no"/>lentiam, propter quod huiusmodi peccata quae consistunt
+            <lb ed="#V" n="57"/>in appetitu delectationum turpium, &amp; in fuga tristium in
+            <lb ed="#V" n="58"/>rebus bellicis non videntur oriri ex superbia, quae est
+            appe<lb ed="#V" n="59" break="no"/>titus propriae excellentiae quamuis oriantur ex inordinato
+            <lb ed="#V" n="60"/>amore sui, vnde in illo argumento est fallacia consequentis.
+          </p>
+          <p xml:id="capsco-b2jvi8-d1e1174">
+            <lb ed="#V" n="61"/>Secundo arguit contra illud quod dicitur de diuitijs,
+            qua<lb ed="#V" n="62" break="no"/>rum appetitus inordinatus est cupiditas licet enim ipsae
+            prae<lb ed="#V" n="63" break="no"/>beant facultatem adimplendi omne malum desiderium, es
+            <lb ed="#V" n="64"/>hoc tamen non sequitur quod cupiditas sit radix vel origo
+            <lb ed="#V" n="65"/>omnium peccatorum, sed potius oppositum, quia diuitiae
+            <lb ed="#V" n="66"/>non praebent facultatem adimplendi omnia mala desideria
+            <lb ed="#V" n="67"/>nisi per sui distractionem Cupiditas autem non est
+            appe<lb ed="#V" n="68" break="no"/>titus earum ad distribuendum eas, sed ad auare
+            congregan<lb ed="#V" n="69" break="no"/>dum &amp; recipiendum, &amp; ideo cupitas diuitiarum magis
+            <lb ed="#V" n="70"/>impedit assecutionem maiorum desideriorum quae per
+            di<lb ed="#V" n="71" break="no"/>sributionem pecuniarum possent impleri quam ad hoc
+            <lb ed="#V" n="72"/>inclinet vel promoueat. Et in hoc secundus articulus
+            ter<lb ed="#V" n="73" break="no"/>minatur.
+          </p>
+        </div>
+        <div xml:id="capsco-b2jvi8-Dd1e1206">
+          <head xml:id="capsco-b2jvi8-Hd1e1208">Articulus 3</head>
+          <p xml:id="capsco-b2jvi8-d1e1210">
+            <lb ed="#V" n="74"/><milestone ed="#V" unit="p" rend="indent"/> QVantum ad tertium articulum respondendum est
+            obie<lb ed="#V" n="75" break="no"/>ctionibus supradictis. Et ideo ad primum Aureoli
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="76"/>contra primam &amp; secundam conclusiones dicitur quod nec
+            <lb ed="#V" n="77"/>illud argumentum nec alia quinque sequentia procedunt
+            <lb ed="#V" n="78"/>directe contra conclusionem, quia Sanctus Thomas non dicit in
+            prae<lb ed="#V" n="79" break="no"/>allegatis, sed alibi quod peccatum veniale &amp; peccatum
+            mor<lb ed="#V" n="80" break="no"/>tale differant solum accidentaliter, &amp; non specifice, nec
+            es<lb ed="#V" n="81" break="no"/>sentialiter, sed solum quod diuisio peccati in veniale &amp;
+            mor<lb ed="#V" n="82" break="no"/>tale non est diuisio vniuoci in suas species, sed aduertendum
+            <lb ed="#V" n="83"/>quod de peccato veniale &amp; mortali possumus dupliciter loqui.
+          </p>
+          <p xml:id="capsco-b2jvi8-d1e1237">
+            <lb ed="#V" n="84"/>Vno modo formaliter, idest quantum ad propriam
+            ratio<lb ed="#V" n="85" break="no"/>nem vtriusque scilicet de veniali vt veniale est, &amp; de
+            morta<lb ed="#V" n="86" break="no"/>li vt mortale est, &amp; vt sunt sub istis respectibus, vt ex vna
+            <lb ed="#V" n="87"/>parte accipiatur compositum ex peccat &amp; venialitate, &amp;
+            <lb ed="#V" n="88"/>ex alia parte accipiatur compositum ex peccato &amp;
+            morta<lb ed="#V" n="89" break="no"/>litate, vel ex vna parte sumatur reatus peccati venialis, &amp; ex
+            <lb ed="#V" n="90"/>alia reatus peccati mortalis, &amp; sic de alijs passionibus
+            hy<lb ed="#V" n="91" break="no"/>ius &amp; illius vt praescindunt ab essentia peccatorum, &amp; sic
+            <lb ed="#V" n="92"/>proculdubio differunt essentialiter &amp; plus quam specie vel
+            ge<lb ed="#V" n="93" break="no"/>nere.
+          </p>
+          <p xml:id="capsco-b2jvi8-d1e1261">
+            Alio modo contingit loqui de illis materialiter, hoc
+            <lb ed="#V" n="94"/>est quantum ad actus qui dicuntur peccata venialia vel
+            mor<lb ed="#V" n="95" break="no"/>talia, &amp; sic potest concedi quod diuisio illa accidentalis,
+            <lb ed="#V" n="96"/>quae est per quaedam quae non dant speciem peccatis, sed
+            con<lb ed="#V" n="97" break="no"/>sequuntur essentiam peccati &amp; eius species, vel modum
+            pro<lb ed="#V" n="98" break="no"/>ductionis, vnde sicut patet quod aliquis actus dicitur
+            pec<lb ed="#V" n="99" break="no"/>catum mortale de per accidens, quia scilicet hoc non habet
+            <lb ed="#V" n="100"/>ex natura sua specifica, nec ex parte materiae vel obiecti, sed
+            <lb ed="#V" n="101"/>ex parte ipsius agentis, immo ex suo genere est peccatum
+            ve<lb ed="#V" n="102" break="no"/>niale, idest quod aliquis actus sibi similis in specie est vel
+            es<lb ed="#V" n="103" break="no"/>se potest peccatum veniale. Et similiter aliquis actus est
+            ped<lb ed="#V" n="104" break="no"/>catum vaniale de per accidens, quia non habet hoc ex sua
+            <lb ed="#V" n="105"/>specie, sed habet hoc ex parte agentis vel finis, &amp; sic ee
+            mor<lb ed="#V" n="106" break="no"/>tale vel veniale conueniunt actui de per accidens, &amp; hanc
+            <lb ed="#V" n="107"/>distinctionem tangit Sanctus Thomas de malo. q. 7. artic. 1. in
+            solu<lb ed="#V" n="108" break="no"/>tione quinti dicens. Veniale peccatum nunquam fit
+            mor<lb ed="#V" n="109" break="no"/>tale sicut nec albedo fit nigredo, sed actus qui est venialis
+            <lb ed="#V" n="110"/>ex suo genere potest fieri mortale peccatum ex voluntate
+            <lb ed="#V" n="111"/>ponentis finem in creatura, quia &amp; illud quod est ex natura
+            <lb ed="#V" n="112"/>sua frigidum potest fieri calidum sicut aqua. Haec ille.
+          </p>
+          <p xml:id="capsco-b2jvi8-d1e1305">
+            Item
+            <lb ed="#V" n="113"/>in principali solutione sic dicit. Veniale dicitur a venia,
+            tri<lb ed="#V" n="114" break="no"/>pliciter autem a venia potest dici aliquod peccatum
+            venia<lb ed="#V" n="115" break="no"/>le. Primo quidem quiatiam consecutum est veniam sicut
+            <lb ed="#V" n="116"/>Ambrosius dicit, quod peccatum mortale per confessione
+            <lb ed="#V" n="117"/>fit veniale, &amp; hoc dicitur secundum quosdam veniale ab
+            <lb ed="#V" n="118"/>cuentu, patet autem quod hoc veniale contra mortale non
+            <lb ed="#V" n="119"/>diuiditur.
+          </p>
+          <p xml:id="capsco-b2jvi8-d1e1324">
+            Secundo modo dicitur peccatum quod habet
+            <lb ed="#V" n="120"/>in se aliquam causam veniae, non quod non puniatur, sed quod
+            <lb ed="#V" n="121"/>minus puniatur, &amp; hoc modo dicitur peccatum veniale quod
+            <lb ed="#V" n="122"/>est ex infirmitate, vel ex ignorantia, quia infirmitas &amp;
+            igno<lb ed="#V" n="123" break="no"/>rantia peccatum excusant in toto vel in parte, &amp; hoc
+            dici<lb ed="#V" n="124" break="no"/>tur secundum quosdam veniale ex causa, tamen nec hoc
+            <lb ed="#V" n="125"/>etiam veniale distinguitur a mortali, quia contingit aliquem
+            <lb ed="#V" n="126"/>ex ignorantia vel infirmitate peccare mortaliter.
+          </p>
+          <p xml:id="capsco-b2jvi8-d1e1342">
+            Tertio
+            mo<lb ed="#V" n="127" break="no"/>do dicitur aliquod peccatum veniale, quia quantum est de
+            <lb ed="#V" n="128"/>se veniam non excludit, id est terminationem poenae, &amp; hoc
+            <lb ed="#V" n="129"/>modo veniale distinguitur contra mortale, quod quantum
+            <lb ed="#V" n="130"/>est de se meretur poenam aeternam, &amp; sic veniam excludit
+            <lb ed="#V" n="131"/>idest terminationem poenae &amp; hoc secundum quosdam
+            di<lb ed="#V" n="132" break="no"/>citur veniale ex genere:
+          </p>
+          <p xml:id="capsco-b2jvi8-d1e1358">
+            vt autem differentiam ad
+            distinguen<lb ed="#V" n="133" break="no"/>dum veniale peccatum a mortali inquiramus.
+            consideran<lb ed="#V" n="134" break="no"/>dum est quod differunt secundum reatum, nam peccatum
+            <lb ed="#V" n="135"/>mortale meretur poenam aeternam, peccatum vero veniale
+            <lb ed="#V" n="136"/>paenam temporalem, sed ista differentia consequitur
+            ratio<lb ed="#V" n="137" break="no"/>nem peccati mortalis &amp; venialis, non autem constituit
+            il<lb ed="#V" n="138" break="no"/>dlam non enim ex hocest tale peccatum quia talis paena
+            ei<lb ed="#V" n="139" break="no"/>debetur, sed potius econtra, quia peccatum est tale, ideo
+            ta<lb ed="#V" n="140" break="no"/>lis poena ei debetur.
+          </p>
+          <p xml:id="capsco-b2jvi8-d1e1378">
+            Similiter etiam differunt quantum ad
+            <lb ed="#V" n="141"/>effectum, nam peccatum mortale priuat gratiam, veniale
+            <lb ed="#V" n="142"/>autem non. Sed nec ista differentia est quam quaerimus, quia
+            <lb ed="#V" n="143"/>ista differentia consequitur ad rationem peccati, ex co enim
+            <lb ed="#V" n="144"/>quod peccatum est tale, talem effectum habet, &amp; non
+            econ<lb ed="#V" n="145" break="no"/>tra.
+          </p>
+          <p xml:id="capsco-b2jvi8-d1e1391">
+            Differentia autem quae est ex parte subiecti
+            constitu<lb ed="#V" n="146" break="no"/>ret diuersam rationem peccati, si peccatum veniale semper
+            <lb ed="#V" n="147"/>esset in sensualitate, &amp; peccatum mortale semper esset in
+            ra<lb ed="#V" n="148" break="no"/>tione, sic enim secundum substantiam distinguitur virtus
+            <lb ed="#V" n="149"/>intellectualis a morali secundum Philosophum 2. Ethicor.
+            <lb ed="#V" n="150"/>qua virtus moralis est in rationali per participationem, idest
+            <pb ed="#V" n="580"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>in appetitiua, virtus autem intellectualis est in ipsa ratione,
+            <lb ed="#V" n="2"/>sed hoc non est verum, quia peccatum veniale potest esse
+            <lb ed="#V" n="3"/>in ratione, vnde secundum hanc differentiam non potest
+            <lb ed="#V" n="4"/>sumi diuersa ratio vtriusque peccati:
+          </p>
+          <p xml:id="capsco-b2jvi8-d1e1417">
+            quarta vero
+            differen<lb ed="#V" n="5" break="no"/>tia quae est secundum modum diligendi constituit quidem
+            <lb ed="#V" n="6"/>diuersam rationem peccati, sed solum quantum ad actum
+            <lb ed="#V" n="7"/>voluntatis quod est ex parte agentis, peccatum autem veniale
+            <lb ed="#V" n="8"/>non solum consistit in actu interiori voluntatis, sed etiam
+            <lb ed="#V" n="9"/>in actu exteriori, sunt enim quidam actus exteriores qui ex
+            <lb ed="#V" n="10"/>genere suo suntem peccata venialia, vt dicere verbum ociosum
+            <lb ed="#V" n="11"/>vel mendacium iocosum &amp; huiusmodi. Sunt autem quaedam
+            <lb ed="#V" n="12"/>quae ex genere suo sunt peccata mortalia vt homicidium,
+            <lb ed="#V" n="13"/>adulterium, blasphemia, &amp; huiusmodi. Diuersitas autem quae
+            <lb ed="#V" n="14"/>est ex parte actus voluntatis non diuersificat genera
+            exterio<lb ed="#V" n="15" break="no"/>rum actuum. Nam aliquid quod est bonum potest fieri ex
+            <lb ed="#V" n="16"/>mala voluntate, puta si quis det elemosinam propter inanem
+            <lb ed="#V" n="17"/>gloriam, similiter aliquid quod est veniale ex suo genere
+            po<lb ed="#V" n="18" break="no"/>rest esse mortale propter voluntatem facientis, puta si quis
+            <lb ed="#V" n="19"/>dicat verbum ociosum in contemptum Dei, sed exteriores
+            <lb ed="#V" n="20"/>actus differunt genere per sua obiecta.
+          </p>
+          <p xml:id="capsco-b2jvi8-d1e1455">
+            Vnde dicitur
+            comu<lb ed="#V" n="21" break="no"/>niter bonum ingenere est actus cadens supra debitam
+            ma<lb ed="#V" n="22" break="no"/>teriam, &amp; malum in genere est actus cadens supra indebitam
+            <lb ed="#V" n="23"/>materiam oportet ergo quod malum veniale ex genere dicatur
+            <lb ed="#V" n="24"/>ex eo quod cadit super aliquam materiam non debitam, &amp;
+            si<lb ed="#V" n="25" break="no"/>militer mortale ex genere.
+          </p>
+          <p xml:id="capsco-b2jvi8-d1e1468">
+            Ad hoc igitur inuestigandum
+            con<lb ed="#V" n="26" break="no"/>siderandum est quod peccatum consistit in quadam
+            deor<lb ed="#V" n="27" break="no"/>dinatione animae, sicut morbus consistit in quadam
+            deor<lb ed="#V" n="28" break="no"/>dinatione corporis, vnde peccatum est quasi quidam
+            mor<lb ed="#V" n="29" break="no"/>bus animae, &amp; hoc est venia peccato, quod curatio morbo.
+            <lb ed="#V" n="30"/>Sicut igitur sunt quidam morbi curabiles &amp; quidam
+            incu<lb ed="#V" n="31" break="no"/>rabiles, qui dicuntur mortales, ita sunt quaedam peccata quasi
+            <lb ed="#V" n="32"/>curabilia quae dicuntur venialia, quaedam quantum est de
+            <lb ed="#V" n="33"/>se incurabilia, licet a Deo curari possint, quae dicuntur
+            mor<lb ed="#V" n="34" break="no"/>talia. Dicitur autem morbus incurabilis &amp; mortalis per quem
+            <lb ed="#V" n="35"/>tollitur aliquod principium vitae, hoc enim si tollatur non
+            <lb ed="#V" n="36"/>remanet aliquid per quod curari possit, &amp; ideo talis
+            mor<lb ed="#V" n="37" break="no"/>bus curari non potest, sed inducit mortem. Est autem
+            ali<lb ed="#V" n="38" break="no"/>quis morbus qui non tollit aliquod principiorum vitae sed
+            <lb ed="#V" n="39"/>aliquod eorum quae sunt consequentia ad principia vitae,
+            <lb ed="#V" n="40"/>quae per principia vitae reparari possunt, puta febris tertia
+            <lb ed="#V" n="41"/>na quae consistit in superabundantia colere quam virtus
+            na<lb ed="#V" n="42" break="no"/>turae superare potest.
+          </p>
+          <p xml:id="capsco-b2jvi8-d1e1507">
+            Principium autem in operationibus
+            <lb ed="#V" n="43"/>&amp; operabilibus est finis secundum Philosophum 6. Ethic.
+            <lb ed="#V" n="44"/>vnde principium spiritualis vitae quae consistit in
+            rectitudi<lb ed="#V" n="45" break="no"/>ne actionis est finis humanarum actionum, quae est charitas
+            <lb ed="#V" n="46"/>Dei &amp; proximi, finis enim praecepti est charitas vt dicitur
+            <lb ed="#V" n="47"/>prima Thimoth. 1. per charitatem enim anima coniungitur
+            <lb ed="#V" n="48"/>Deo, quod est vita animae sicut anima est vita corporis. Et ideo
+            <lb ed="#V" n="49"/>si charitas excludatur est peccatum mortale, non enim
+            re<lb ed="#V" n="50" break="no"/>manet aliquod principium vitae, per quod iste defectus
+            ro<lb ed="#V" n="51" break="no"/>paretur, sed reparari potest per Spiritum sanctum quia sicut
+            <lb ed="#V" n="52"/>dicitur Rom. 6. charitas Dei diffusa est incordibus
+            nostri<lb ed="#V" n="53" break="no"/>per Spiritum sanctum qui datus est nobis, si autem sit talis
+            <lb ed="#V" n="54"/>defectus rectitudinis qui charitatem non excludat erit
+            pec<lb ed="#V" n="55" break="no"/>catum veniale, quia per charitatem remanentem quasi per
+            <lb ed="#V" n="56"/>principium vitae omnes defectus reparari possunt.
+            Vniuer<lb ed="#V" n="57" break="no"/>sa enim delicta operit charitas vt dicitur prouerbiorum 10.
+            <lb ed="#V" n="58"/>Quod autem aliquod peccatum excludat charitatem, vel
+            <lb ed="#V" n="59"/>non excludat potest contingere dupliciter.
+          </p>
+          <p xml:id="capsco-b2jvi8-d1e1546">
+            Vno modo ex
+            <lb ed="#V" n="60"/>parte peccantis, alio modo ex ipso genere operis. Ex parte
+            <lb ed="#V" n="61"/>quidem peccantis dupliciter, vno modo quia actus
+            pecca<lb ed="#V" n="62" break="no"/>ti est talis potentiae, cuius non est ordinare ad finem, &amp; ideo
+            <lb ed="#V" n="63"/>nec est eius auerti a fine, &amp; ideo motus sensualitatis non
+            po<lb ed="#V" n="64" break="no"/>test esse peccatum mortale, sed veniale tantum. Ordinare
+            <lb ed="#V" n="65"/>enim aliquid in finem pertinet tantum ad rationem, alio
+            <lb ed="#V" n="66"/>modo ex eo quod potentia quae potest ordinare in finem
+            <lb ed="#V" n="67"/>&amp; auerti a fine actum aliquem qui etiam de se non
+            contra<lb ed="#V" n="68" break="no"/>riatur fini potest ordinare in contrarium finis, prout siquis
+            <lb ed="#V" n="69"/>verbum ociosum dicat in contemptum Dei quod
+            contra<lb ed="#V" n="70" break="no"/>riatur charitati, hoc erit peccatum mortale, sed non ex
+            ge<lb ed="#V" n="71" break="no"/>nere operis, sed ex peruersa voluntate facientis.
+          </p>
+          <p xml:id="capsco-b2jvi8-d1e1575">
+            Alio
+            mo<lb ed="#V" n="72" break="no"/>do contingit quod aliquod peccatum contrarietur
+            chari<lb ed="#V" n="73" break="no"/>tati, vel non contrarietur ex ipso genere operis quod est ex
+            <lb ed="#V" n="74"/>parte obiecti vel materiae quae est contraria charitati vel non
+            <lb ed="#V" n="75"/>contraria. Sicut enim aliquis cibus est ex se contrarius
+            vi<cb ed="#V" n="b"/><lb ed="#V" n="76" break="no"/>tae, puta cibus venenosus, aliquid autem cibus non est
+            con<lb ed="#V" n="77" break="no"/>trarius vitae, licet impedimentum aliquod afferat ad
+            re<lb ed="#V" n="78" break="no"/>ctam habitudinem vitae, puta cibus grossus &amp; non bonae
+            <lb ed="#V" n="79"/>digestionis vel etiam si sit bonae digestionis, quia non
+            su<lb ed="#V" n="80" break="no"/>mitur secundum mensuram debitam, ita etiam in
+            actioni<lb ed="#V" n="81" break="no"/>bus humanis aliquid inuenitur quod de se contrariatur
+            cha<lb ed="#V" n="82" break="no"/>ritati Dei &amp; proximi, illa scilicet per quae tollitur debita
+            su<lb ed="#V" n="83" break="no"/>biectio hominis ad Deum &amp; reuerentia, vt est blasphemia
+            <lb ed="#V" n="84"/>&amp; idolatria&amp; huiusmodi, &amp; etiam ea quae tollunt
+            conui<lb ed="#V" n="85" break="no"/>ctum humanae societatis, sicut furtum, &amp; homicidium &amp;
+            <lb ed="#V" n="86"/>huiusmodi, non enim possent homines adinuicem
+            conui<lb ed="#V" n="87" break="no"/>uere vbi passim, id est indifferenter ista perpetrarentur, &amp;
+            <lb ed="#V" n="88"/>ista sunt peccata mortalia ex suo genere, quacunque
+            vo<lb ed="#V" n="89" break="no"/>luntate vel intentione fiant. Quaedam autem sunt quae
+            li<lb ed="#V" n="90" break="no"/>cet aliquam inordinationem contineant, non tamen
+            dire<lb ed="#V" n="91" break="no"/>cte excludunt alterum praedictorum, sicut quod homo
+            di<lb ed="#V" n="92" break="no"/>cat mendacium, non in fide, neque ad nocendum
+            proxi<lb ed="#V" n="93" break="no"/>mo, sed ad delectandum, vel etiam adiuuandum, vel si quis
+            <lb ed="#V" n="94"/>excedat in cibo vel potu aut alio huiusmodi, vnde ista sunt
+            <lb ed="#V" n="95"/>venialia peccata ex suo genere. Haec ille in forma.
+          </p>
+          <p xml:id="capsco-b2jvi8-d1e1631">
+            Ex
+            qui<lb ed="#V" n="96" break="no"/>bus apparet primo quod diuisio peccati per veniale &amp;
+            mor<lb ed="#V" n="97" break="no"/>tale accipiendo veniale primis duobus modis non est
+            diui<lb ed="#V" n="98" break="no"/>sio per opposita, immo idem actus numero potest dici
+            mor<lb ed="#V" n="99" break="no"/>tale &amp; veniale illo modo: secundo sequitur quod
+            accipien<lb ed="#V" n="100" break="no"/>do veniale tertio modo, talis diuisio est diuisio per
+            opposi<lb ed="#V" n="101" break="no"/>ta &amp; incompossibilia: tertio modo dicitur quod talis
+            diui<lb ed="#V" n="102" break="no"/>sio non est diuisio generis per specificas differentias, sed
+            po<lb ed="#V" n="103" break="no"/>tius analogi in ea de quibus dicitur secundum prius &amp; post,
+            <lb ed="#V" n="104"/>&amp; similiter subiecti in accidentia, nam secundum quod
+            di<lb ed="#V" n="105" break="no"/>ctum est prius, tales differentiae non sunt specificae, nec
+            su<lb ed="#V" n="106" break="no"/>muntur ab eo quod dat speciem actui, nec peccato, sed
+            pae<lb ed="#V" n="107" break="no"/>nes quaedam consequentia speciem peccati vel
+            productio<lb ed="#V" n="108" break="no"/>nem peccati.
+          </p>
+          <p xml:id="capsco-b2jvi8-d1e1663">
+            Tunc ad formam argumenti dicitur quod
+            <lb ed="#V" n="109"/>ratio specifica virtutis sumitur non ex ordine ad suam
+            re<lb ed="#V" n="110" break="no"/>gulam, quia tunc omnes virtutes essent eiusdem speciei,
+            <lb ed="#V" n="111"/>sed sumitur ex proprio obiecto &amp; materia, &amp; ideo maior
+            <lb ed="#V" n="112"/>argumenti est falsa, quia specifica diuisio peccati non
+            sumi<lb ed="#V" n="113" break="no"/>tur nec in moralibus, nec Theologicis secundum alium
+            <lb ed="#V" n="114"/>&amp; alium modum deuiandi a regula, quia illa deuiatio est
+            <lb ed="#V" n="115"/>praeter intentionem peccantis &amp; se habet de per accidens,
+            <lb ed="#V" n="116"/>&amp; ideo illa non dat speciem peccato quod est actus
+            volun<lb ed="#V" n="117" break="no"/>tarius, &amp; si non dat speciem peccati: ergo nec diuersitas
+            <lb ed="#V" n="118"/>illius diuersificat speciem peccati. Vnde talis diuisio
+            po<lb ed="#V" n="119" break="no"/>tius diuidit effectum peccati vel passiones consequentes
+            <lb ed="#V" n="120"/>peccatum, scilicet reatum quam diuidat ipsum peccatum,
+            <lb ed="#V" n="121"/>quia vt post dicetur &amp; superius in secunda conclusione
+            ta<lb ed="#V" n="122" break="no"/>ctum est in eadem specie peccati possunt esse duo actus,
+            <lb ed="#V" n="123"/>quorum vnus erit peccatum veniale, &amp; aliud peccatum
+            mor<lb ed="#V" n="124" break="no"/>tale.
+          </p>
+          <p xml:id="capsco-b2jvi8-d1e1700">
+            Sed dices Sanctus Thomas in verbis praeallegatis de
+            ma<lb ed="#V" n="125" break="no"/>lo. quae stio. 7. artic. 1. dicit quod peccatum in quadam
+            de<lb ed="#V" n="126" break="no"/>ordinatione consistit, &amp; in multis alijs locis dicit, quod
+            in<lb ed="#V" n="127" break="no"/>ordinatio vel deuiatio complet rationem peccati: ergo
+            se<lb ed="#V" n="128" break="no"/>cundum alium modum inordinationis diuidetur specifice
+            <lb ed="#V" n="129"/>&amp; essentialiter peccatum.
+          </p>
+          <p xml:id="capsco-b2jvi8-d1e1713">
+            Dicendum quod peccatum est
+            <lb ed="#V" n="130"/>actus malus voluntarius. Inquantum ergo consideratur est
+            <lb ed="#V" n="131"/>malus actus, ratio eius consistit &amp; completur in quadam
+            <lb ed="#V" n="132"/>priuatione &amp; deriuatione &amp; deordinatione. Sed in
+            quan<lb ed="#V" n="133" break="no"/>tum est actus, &amp; voluntarius, &amp; habens rationem culpae,
+            ra<lb ed="#V" n="134" break="no"/>tio eius specifica non consistit in priuatione, sed intendem
+            <lb ed="#V" n="135"/>tia &amp; ordine ad obiectum tale vel tale, ita quod ordo ad
+            <lb ed="#V" n="136"/>obiectum complet eius rationem specificam, sed priuatio
+            <lb ed="#V" n="137"/>dat sibi generalem rationem mali, obiectum autem dat
+            si<lb ed="#V" n="138" break="no"/>bi rationem specificam inquantum est actus intentus ab
+            <lb ed="#V" n="139"/>agente.
+          </p>
+          <p xml:id="capsco-b2jvi8-d1e1737">
+            Item dato quod priuatio daret sibi speciem,
+            con<lb ed="#V" n="140" break="no"/>stat quod non potest hoc facere inquantum priuatio in
+            ge<lb ed="#V" n="141" break="no"/>nerali, nec inquantum priuatio existens in actu, nec
+            inquan<lb ed="#V" n="142" break="no"/>tum priuatio ordinis rationis vel diuinae legis in generali,
+            <lb ed="#V" n="143"/>sed inquantum priuatio specialis, species autem
+            priuatio<lb ed="#V" n="144" break="no"/>num sumuntur penes bona quae priuantur, &amp; tunc
+            finali<lb ed="#V" n="145" break="no"/>ter oportet redire ad hoc, quod species peccati sumitur
+            <lb ed="#V" n="146"/>ex aliqua speciali materia, in quam fertur derelicto ordine
+            <lb ed="#V" n="147"/>rationis. Veniale autem &amp; mortale nihil tale dicunt,
+            ideo<lb ed="#V" n="148" break="no"/>que non constituunt differentiam specificam actuum, sed
+            <lb ed="#V" n="149"/>differentiam actuum peccati vel reatuum.
+          </p>
+          <p xml:id="capsco-b2jvi8-d1e1761">
+            Ad secundum
+            <lb ed="#V" n="150"/>negatur minor, nam vt dictum est deuiatio a regula non est
+            <pb ed="#V" n="581"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>formale in peccato inquantum est actus moralis aut
+            inten<lb ed="#V" n="2" break="no"/>tus ab agente &amp; voluntarius licet inquantum est malus
+            <lb ed="#V" n="3"/>priuatio sit sibi formalis, nec tamen priuatio dat sibi
+            <lb ed="#V" n="4"/>speciem nisi contra ad certam materiam moralem, vt
+            <lb ed="#V" n="5"/>statim dictum est Auaritia enim non habet specialem
+            ra<lb ed="#V" n="6" break="no"/>tionem peccati ex hoc solo quod deuiat a lege diuina, vel
+            <lb ed="#V" n="7"/>a ratione naturali, nec ex hoc quod deuiat per
+            superabun<lb ed="#V" n="8" break="no"/>dantiam vel defectum, nisi talis diuiatio contrahatur ad
+            <lb ed="#V" n="9"/>specialem materiam. Vnde Sanctus Thomas prima parte q.
+            <lb ed="#V" n="10"/>32. art. primo sic dicit.
+          </p>
+          <p xml:id="capsco-b2jvi8-d1e1792">
+            Ad rationem peccati duo concurrunt
+            <lb ed="#V" n="11"/>scilicet actus voluntarius &amp; inordinatio eius quae est per
+            re<lb ed="#V" n="12" break="no"/>cessum a lege Dei. Horum autem duorum vnum per se
+            con<lb ed="#V" n="13" break="no"/>paratur ad peccantem qui intendit talem actum
+            volunta<lb ed="#V" n="14" break="no"/>rium exercere in tali materia, aliud autem, scilicet
+            inordina<lb ed="#V" n="15" break="no"/>tio actus per accidens se habet ad intentionem peccantis,
+            <lb ed="#V" n="16"/>nullus enim intendens ad malum operatur vt dicit Diony.
+            <lb ed="#V" n="17"/>quarto cap. de diui. no. Manifestum est autem quod
+            vnum<lb ed="#V" n="18" break="no"/>quodque consequitur secundum id quod est per se, non
+            au<lb ed="#V" n="19" break="no"/>tem secundum id quod est per accidens, quia ea quae sunt
+            <lb ed="#V" n="20"/>accidens sunt extra rationem speciei, &amp; ideo peccata
+            speci<lb ed="#V" n="21" break="no"/>fice distinguntur ex parte actuum voluntariorum magis
+            <lb ed="#V" n="22"/>quam ex parte inordinationis in peccato existentis. Actus
+            <lb ed="#V" n="23"/>autem voluntarii distinguuntur specie secundum obiecta
+            <lb ed="#V" n="24"/>vnde sequitur quod peccata proprie distinguuntur
+            secun<lb ed="#V" n="25" break="no"/>dum obiecta. Haec ille.
+          </p>
+          <p xml:id="capsco-b2jvi8-d1e1828">
+            Ex quibus patet quod deuiatio a
+            re<lb ed="#V" n="26" break="no"/>gula non est formale specificum peccati, licet possit dici
+            <lb ed="#V" n="27"/>formale genericum. Si enim deuiatio esset differentia
+            speci<lb ed="#V" n="28" break="no"/>fica, tunc omnia peccata mortalia essent vnius speciei, cum
+            <lb ed="#V" n="29"/>deuient eodem modo a regula diuina. Quia si dicatur quod
+            <lb ed="#V" n="30"/>deuiant in diuersis materiis, &amp; contra diuersa praecepta.
+            Ha<lb ed="#V" n="31" break="no"/>betur propositum quia diuersitas praeceptorum attenditur
+            <lb ed="#V" n="32"/>penes obiecta virtutis vel viciorum: Et ideo dicere quod
+            <lb ed="#V" n="33"/>peccata distinguuntur specifice per deuiationem est nihil
+            <lb ed="#V" n="34"/>dicere, vel redditur in id quod creditur euitari. Vnde
+            San<lb ed="#V" n="35" break="no"/>ctus Thomas prima secundae vbi supra arguit sic in secundo
+            <lb ed="#V" n="36"/>loco. Malum cum sit priuatio distinguitur specie secundum
+            <lb ed="#V" n="37"/>diuersas species oppositorum, sed peccatum est quoddam
+            <lb ed="#V" n="38"/>malum in genere actuum humanorum: ergo peccata
+            ma<lb ed="#V" n="39" break="no"/>gis distinguuntur specie secundum opposita quam secundum
+            <lb ed="#V" n="40"/>obiecta. Ecce argumentum. Sequitur responsio. Dicendum
+            <lb ed="#V" n="41"/>inquit quod peccatum non est pura priuatio, sed actus
+            debi<lb ed="#V" n="42" break="no"/>to ordine priuatus, &amp; ideo peccata magis distinguuntur
+            <lb ed="#V" n="43"/>specie secundum obiecta actuum quam secundum
+            opposi<lb ed="#V" n="44" break="no"/>ta. Quamuis etiam si distinguantur secundum oppositas
+            uir<lb ed="#V" n="45" break="no"/>tutes, in idem rediret virtutes enim distinguuntur specie
+            <lb ed="#V" n="46"/>secundum obiecta. Haec ille.
+          </p>
+          <p xml:id="capsco-b2jvi8-d1e1876">
+            Ad tertium dicitur primo quod
+            <lb ed="#V" n="47"/>distinctio venialis a mortali ibidem posita in idem redit
+            cum<lb ed="#V" n="48" break="no"/>illa quae prius posita est quia scilicet vnum tollit charitatem,
+            <lb ed="#V" n="49"/>&amp; aliud non: secundo dicitur quod nec veniale nec
+            morta<lb ed="#V" n="50" break="no"/>le dat speciem peccato proprieloquendo:tertio dicitur quod
+            <lb ed="#V" n="51"/>in eadem specie peccati possunt esse peccatum veniale &amp;
+            <lb ed="#V" n="52"/>mortale. Et de hoc Sanctus Thomas prima secundae quaest.
+            <lb ed="#V" n="53"/>52. art. 5. sic dicit eorum quae specie differunt duplex
+            diffe<lb ed="#V" n="54" break="no"/>rentia inuenitur. Vna. quidem quae constituit diuersitatem
+            <lb ed="#V" n="55"/>specierum, &amp; talis differentia nunquam inuenitur nisi in
+            <lb ed="#V" n="56"/>diuersis specie, sicut rationale &amp; irrationale, animatum &amp;
+            ina<lb ed="#V" n="57" break="no"/>nimatum. Alia autem est differentia consequens
+            diuersita<lb ed="#V" n="58" break="no"/>tem speciei, &amp; talis differentia est si in aliquibus
+            consequa<lb ed="#V" n="59" break="no"/>tur diuersitatem speciei, in aliis tamen potest inueniri in
+            ea<lb ed="#V" n="60" break="no"/>dem specie sicut album &amp; nigrum consequuntur
+            diuersita<lb ed="#V" n="61" break="no"/>tem specie corui &amp; cigni, tamen huiusmodi differentia
+            in<lb ed="#V" n="62" break="no"/>uenitur in eadem specie hominis.
+          </p>
+          <p xml:id="capsco-b2jvi8-d1e1913">
+            Dicendum est ergo quod
+            <lb ed="#V" n="63"/>differentia venialis &amp; mortalis peccati vel quaecunque alia
+            <lb ed="#V" n="64"/>differentiae que sumitur penes reatum non potest esse
+            dif<lb ed="#V" n="65" break="no"/>ferentia, constituens diuersitatem specici. Nunquam enim
+            <lb ed="#V" n="66"/>id quod est per accidens constituit speciem, id autem quod
+            <lb ed="#V" n="67"/>est praeter intentionem agentis est per accidens vt patet in
+            <lb ed="#V" n="68"/>secundo Phy. manifestum est autem quod poena est praeter
+            <lb ed="#V" n="69"/>intentionem peccantis. Ordinatur tamen peccatum ad
+            poe<lb ed="#V" n="70" break="no"/>nam ab exteriori scilicetex iustitia iudicantis qui secundum
+            di<lb ed="#V" n="71" break="no"/>uersas conditiones peccatorum. poenas infligit, vnde
+            diffe<lb ed="#V" n="72" break="no"/>rentia quae est ex reatu poenae potest consequi diuersam
+            <lb ed="#V" n="73"/>speciem peccatorum, non autem constituit diuersitatem
+            <lb ed="#V" n="74"/>speciei. Differentia autem peccati mortalis &amp; venialis
+            con<lb ed="#V" n="75" break="no"/>sequitur diuersitatem inordinationis, quaecomplet
+            ratio<cb ed="#V" n="b"/><lb ed="#V" n="76" break="no"/>nem peccati. Duplex est enim inordinatio. Vna per
+            subtra<lb ed="#V" n="77" break="no"/>ctionem principii ordinis, alia qua saluato principio
+            ordi<lb ed="#V" n="78" break="no"/>nis fit inordinatio circa ea quae sunt post principium. Sicut
+            <lb ed="#V" n="79"/>in corpore animalis quandoque quidem inordinatio
+            com<lb ed="#V" n="80" break="no"/>plexionis procedit usque ad destructionem vitalis
+            princi<lb ed="#V" n="81" break="no"/>pii, &amp; hoc est mors, quandoque vero saluo principio vitae
+            <lb ed="#V" n="82"/>fit inordinatio quaedam in humoribus &amp; tunc est
+            agritu<lb ed="#V" n="83" break="no"/>do. Principium autem totius ordinis in moralibus est finis
+            <lb ed="#V" n="84"/>vltimus, qui ita se habet in operatiuis sicut principium in
+            <lb ed="#V" n="85"/>demonstrabile in speculatiuis, vt dicitur septimo Eth.
+            Vn<lb ed="#V" n="86" break="no"/>de quando anima deordinatur per peccatum vsque ad
+            auer<lb ed="#V" n="87" break="no"/>sionem ab vltimo fine scilicet Deo cui vnimur per charitatem
+            <lb ed="#V" n="88"/>tunc est peccatum mortale. Quando vero fit deordinatio1
+            <lb ed="#V" n="89"/>citra auersionem a Deo, tunc est peccatum veniale. Sicut
+            <lb ed="#V" n="90"/>enim in corporibus deordinatio mortis, quae est per remud
+            <lb ed="#V" n="91"/>tionem principii vitae est ireparabilis secundum naturam
+            <lb ed="#V" n="92"/>inordinatio autem aegritudinis reparari potest propter id
+            <lb ed="#V" n="93"/>quod saluatur principium vitae. Similiter est in his quae
+            per<lb ed="#V" n="94" break="no"/>tinent ad animam &amp;c. Haec ille.
+          </p>
+          <p xml:id="capsco-b2jvi8-d1e1986">
+            Item ibidem primo
+            loco<lb ed="#V" n="95" break="no"/>arguit sic. Ea quae in infinitum differunt non possunt esse
+            <lb ed="#V" n="96"/>vnius speciei, nec etiam vnius generis, sed veniale &amp;
+            morta<lb ed="#V" n="97" break="no"/>le peccatum differunt in infinitum. Veniali enim debetur
+            <lb ed="#V" n="98"/>poena temporalis, mortali poena aeterna: igitur non sunt
+            <lb ed="#V" n="99"/>vnius specie. Ecce argumentum. Sequitur solutio.
+            Dicen<lb ed="#V" n="100" break="no"/>dum inquit quod peccatum mortale &amp; veniale differunt
+            <lb ed="#V" n="101"/>in infinitum ex parte auersionis, non autem ex parte
+            con<lb ed="#V" n="102" break="no"/>uersionis, per quam respicit ad obiectum, vnde peccatum
+            <lb ed="#V" n="103"/>habet speciem. Vnde nihil prohibet in eadem specie
+            inue<lb ed="#V" n="104" break="no"/>niri aliquod peccatum veniale &amp; mortale, sicut primus
+            <lb ed="#V" n="105"/>motus in genere adulterii est peccatum veniale, &amp;
+            ver<lb ed="#V" n="106" break="no"/>bum ociosum quod plerunque est veniale potest etiam
+            <lb ed="#V" n="107"/>esse mortale. Haec ille.
+          </p>
+          <p xml:id="capsco-b2jvi8-d1e2017">
+            Item in solutione secundi sic
+            <lb ed="#V" n="108"/>dicit. Ex hoc quod inuenitur aliquod peccatum mortale
+            <lb ed="#V" n="109"/>ex genere &amp; aliquod peccatum veniale ex genere, sequitur
+            <lb ed="#V" n="110"/>quod talis differentia consequatur diuersitatem
+            peccato<lb ed="#V" n="111" break="no"/>rum secundum speciem, non autem quod causet eam, talis
+            <lb ed="#V" n="112"/>autem differentia potest inueniri etiam in his quae suntem vnius
+            <lb ed="#V" n="113"/>speciei. Haec ille.
+          </p>
+          <p xml:id="capsco-b2jvi8-d1e2033">
+            Ex quibus patet ad argumentum. Nam
+            <lb ed="#V" n="114"/>maior est falsa qua dicitur quod illa peccata differunt
+            spe<lb ed="#V" n="115" break="no"/>cie theologice, quorum vnum tollit amicitiam Dei, &amp; aliud
+            <lb ed="#V" n="116"/>non. Nec valet probatio, quia offensa non dat speciem
+            pec<lb ed="#V" n="117" break="no"/>cato, sicut nec reatus, nec paena, nec inordinatio. Sed si
+            ali<lb ed="#V" n="118" break="no"/>quid concludit solum concludit quod veniale &amp; mortale
+            <lb ed="#V" n="119"/>diuidunt offensam aut reatum, &amp; alia consequentia ipsum
+            <lb ed="#V" n="120"/>peccatum &amp; actuum intentum a peccante.
+          </p>
+          <p xml:id="capsco-b2jvi8-d1e2052">
+            Ad quartum
+            di<lb ed="#V" n="121" break="no"/>citur quod maior habet multas instantias, nam calor
+            inten<lb ed="#V" n="122" break="no"/>sus &amp; remissus sunt vnius speciei, &amp; tamen calor intensus
+            re<lb ed="#V" n="123" break="no"/>pugnat formae substantiali aquae, non autem calor remissus.
+            <lb ed="#V" n="124"/>Et causa est, quia non est, ibi oppositio specifica formalis,
+            <lb ed="#V" n="125"/>sed virtualis. Sic in proposito: nam peccatum mortale
+            op<lb ed="#V" n="126" break="no"/>ponitur charitati non semper ratione suae speciei, sed ex
+            par<lb ed="#V" n="127" break="no"/>te subiecti vel peccantis. Item talis opositio consurgit ex
+            <lb ed="#V" n="128"/>parte auersionis &amp; non ex parte conuersionis, a qua
+            pecca<lb ed="#V" n="129" break="no"/>tum sumit speciem, vt dictum fuit.
+          </p>
+          <p xml:id="capsco-b2jvi8-d1e2074">
+            Ad quintum dicitur quod
+            <lb ed="#V" n="130"/>si maior vniuersaliter intelligatur ad hunc sensum, quod
+            <lb ed="#V" n="131"/>quicunque actus habent oppositas circunstantias differunt
+            <lb ed="#V" n="132"/>specie, falsa est si autem non intelligatur vniuersaliter
+            ar<lb ed="#V" n="133" break="no"/>gumentum non valet, quia est ex puris particularibus. Quae
+            <lb ed="#V" n="134"/>autem circunstantia mutet speciem ostendit Sanctus Thoma
+            <lb ed="#V" n="135"/>prima secundae q. 72. ar. 9. vbi sic ait. Vbi occurrit aliud
+            mo<lb ed="#V" n="136" break="no"/>tiuum ad peccandum: ibi est alia peccati species, quia
+            moti<lb ed="#V" n="137" break="no"/>uum ad peccandum est finis &amp; aliud obiectum, contingit
+            <lb ed="#V" n="138"/>autem quandoque quod in corruptionibus deuersarum
+            <lb ed="#V" n="139"/>circunstantiarum est idem motiuum, sicut illiberalis ab
+            eo<lb ed="#V" n="140" break="no"/>dem mouetur quod accipiat quando non oportet, &amp; vbi
+            <lb ed="#V" n="141"/>non oportet, &amp; plus quam oportet, &amp; similiter de alijs
+            cir<lb ed="#V" n="142" break="no"/>cunstantiis. Hoc enim facit propter in ordinatum
+            appeti<lb ed="#V" n="143" break="no"/>tum pecuniae congregandae, &amp; in talibus diuersarum circum
+            <lb ed="#V" n="144"/>stantiarum corruptione non diuersificant peccatorum
+            <lb ed="#V" n="145"/>species, sed pertinent ad vnam &amp; eandem speciem peccati.
+            <lb ed="#V" n="146"/>Quandoque vero contingit, quod corruptiones diuersarum
+            <lb ed="#V" n="147"/>circunstantiarum proueniunt a diuersis motiuis, puta quod
+            <lb ed="#V" n="148"/>aliquis propere comedat potest peruenire ex hoc quod non
+            <lb ed="#V" n="149"/>potest ferre dilationem cibi propter facilem
+            consumptio<lb ed="#V" n="150" break="no"/>nem humiditatis. Quod vero appetat immoderatum cibum
+            <pb ed="#V" n="582"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>potest contingere propter virtutem naturae potentem ad
+            <lb ed="#V" n="2"/>conuertendum multum cibum. Quod autem aliquis
+            ap<lb ed="#V" n="3" break="no"/>petat cibos deliciosos contingit propter appetitum
+            delecta<lb ed="#V" n="4" break="no"/>tionis quae est in cibo. Vnde in talibus diuersarum
+            circun<lb ed="#V" n="5" break="no"/>stantiarum corruptiones inducunt diuersas species
+            pecca<lb ed="#V" n="6" break="no"/>ti. Haec ille.
+          </p>
+          <p xml:id="capsco-b2jvi8-d1e2139">
+            Item ibidem arguit sic primo loco. Malum
+            <lb ed="#V" n="7"/>inquit contingit ex singulis defectibus, singulares autem
+            de<lb ed="#V" n="8" break="no"/>fectus sunt corruptiones singularium circunstantiarum:
+            <lb ed="#V" n="9"/>ergo ex singulis circunstantijs corruptis consequuntur
+            sin<lb ed="#V" n="10" break="no"/>gulae species peccatorum. Ecce argumentum. Sequitur
+            re<lb ed="#V" n="11" break="no"/>sponsio. Dicendum inquit quod malum inquantum
+            huius<lb ed="#V" n="12" break="no"/>modi est priuatio, &amp; ideo diuersificatur specie secundum
+            <lb ed="#V" n="13"/>ea quae priuantur sicut &amp; caeterae priuationes. Sed peccatum
+            <lb ed="#V" n="14"/>non sortitur speciem ex parte priuationis vel auersionis, sed
+            <lb ed="#V" n="15"/>ex conuersione ad obiectum actus.
+          </p>
+          <p xml:id="capsco-b2jvi8-d1e2161">
+            Item in solutione
+            secun<lb ed="#V" n="16" break="no"/>di sic dicit. Circunstantia nunquam transfert actum in aliam
+            <lb ed="#V" n="17"/>speciem, nisi quando est aliud motiuum. Item articul. 8. sic
+            <lb ed="#V" n="18"/>dicit. Cum in peccato sint duo, scilicet ipse actus &amp;
+            inor<lb ed="#V" n="19" break="no"/>dinatio eius, prout receditur ab ordine rationis &amp; legis
+            di<lb ed="#V" n="20" break="no"/>uinae, species peccati attenditur non ex parte
+            inordinatio<lb ed="#V" n="21" break="no"/>nis quae est praeter intentionem peccantis, sed magis ex
+            par<lb ed="#V" n="22" break="no"/>te ipsius actus secundum quod terminatur ad obiectum in
+            <lb ed="#V" n="23"/>quod fertur intentio peccantis, &amp; ideo vbicunque occurrit
+            <lb ed="#V" n="24"/>diuersum motiuum inclinans intentionem ad peccandum,
+            <lb ed="#V" n="25"/>ibi est diuersa species peccati. Manifestum est autem quod
+            <lb ed="#V" n="26"/>non est idem motiuum ad peccandum in peccatis quae sunt
+            <lb ed="#V" n="27"/>per super abundantiam, &amp; in peccatis quae sunt per defectum,
+            <lb ed="#V" n="28"/>quinimmo sunt contraria motiua. Sicut motiuum in
+            pec<lb ed="#V" n="29" break="no"/>cato intemp erantiae est amor delectationum corporalium
+            <lb ed="#V" n="30"/>motiuum autem insensibilitatis est odium earum. Vnde
+            hu<lb ed="#V" n="31" break="no"/>iusmodi peccata non solum differunt specie, sed etiam sunt
+            <lb ed="#V" n="32"/>sibi inuicem contraria. Haec ille. Ex quibus patet quod
+            nun<lb ed="#V" n="33" break="no"/>quam actus morales distinguuntur specifice propter
+            diuer<lb ed="#V" n="34" break="no"/>sitatem circunstantiarum, nisi talis diuersitas inducat
+            diuer<lb ed="#V" n="35" break="no"/>sitatem obiecti saltem actus interioris.
+          </p>
+          <p xml:id="capsco-b2jvi8-d1e2207">
+            Ad sextum patet
+            re<lb ed="#V" n="36" break="no"/>sponsio ex dictis in solutione tertij, vbi argumentum hoc
+            <lb ed="#V" n="37"/>quasi in forma recitatum est. Conceditur enim quod istae
+            <lb ed="#V" n="38"/>differentiae veniale &amp; mortale distant in infinitum, sed
+            neu<lb ed="#V" n="39" break="no"/>tra illarum est differentia specifica peccati, sed consequitur
+            <lb ed="#V" n="40"/>quandoque speciem peccati, vt ibidem fuit dictum, &amp; ideo
+            <lb ed="#V" n="41"/>possunt reperiri in actibus vnius speciei.
+          </p>
+          <p xml:id="capsco-b2jvi8-d1e2223">
+            Ad primum Duram.
+            <lb ed="#V" n="42"/>quod est directe contra primam conclusionem dicitur quod
+            <lb ed="#V" n="43"/>non solum in venialibus primo modo dictis, immo indictis
+            <lb ed="#V" n="44"/>secundo modo est verum, quod nullum tale habet
+            ratio<lb ed="#V" n="45" break="no"/>nem peccati simpliciter &amp; perfecte, sed solum secundum quid
+            <lb ed="#V" n="46"/>&amp; imperfecte. Quod offendit Sanctus Thomas 2. sentent. praesenti
+            <lb ed="#V" n="47"/>distin. q. 1. artic. 4. vbi sic ait. Tertio modo dicitur peccatum
+            <lb ed="#V" n="48"/>veniale quando ipse actus per se facile remissibilis est, eo quod
+            <lb ed="#V" n="49"/>non perfecte contingit ad plenam rationem peccati, &amp; istud
+            <lb ed="#V" n="50"/>proprie dicitur veniale, de quo nunc agitur quod a
+            morta<lb ed="#V" n="51" break="no"/>li distinguitur. Primo enim &amp; secundo modo dictum
+            ve<lb ed="#V" n="52" break="no"/>niale non distinguitur a mortali, quia mortale potest per
+            igno<lb ed="#V" n="53" break="no"/>rantiam fieri, &amp; illud quod est mortale fit veniale per
+            confes<lb ed="#V" n="54" break="no"/>sionem. Imperfectio autem peccati potest esse dupliciter,
+            <lb ed="#V" n="55"/>vel ex genere actus, vel ex parte peccantis, genus autem
+            ip<lb ed="#V" n="56" break="no"/>sius actus sumitur ex materia vel obiecto. Vnde sicut
+            dici<lb ed="#V" n="57" break="no"/>tur bonum ex genere propter debitam materiam, ita malum
+            <lb ed="#V" n="58"/>ex genere propter indebitam, &amp; veniale ex genere propter
+            <lb ed="#V" n="59"/>materiam in qua peccatur. In illa autem materia peccatum
+            <lb ed="#V" n="60"/>perfecte inuenitur, in qua si peccatur virtus charitatis ad
+            <lb ed="#V" n="61"/>Deum &amp; ad proximum dissoluitur, per quam est vita animae.
+            <lb ed="#V" n="62"/>Et ideo quando aliquis peccat in his, sine quibus recte
+            ser<lb ed="#V" n="63" break="no"/>uatis non remanet subiectio hominis ad Deum, &amp; saedus
+            <lb ed="#V" n="64"/>humanae societatis, tunc est peccatum mortale ex genere.
+            <lb ed="#V" n="65"/>Et talia peccata Philoascus malitias appellat, vnde vult quod non
+            <lb ed="#V" n="66"/>omnis vitiosus sit malus. Sicut autem patet non potest
+            ho<lb ed="#V" n="67" break="no"/>mo Deo esse subiectus, si Deo non credat, &amp; si et non
+            obe<lb ed="#V" n="68" break="no"/>diat &amp; huiusmodi, &amp; similiter societas humanae vitae
+            serua<lb ed="#V" n="69" break="no"/>ri posset, nisi vnicuique seruaretur quod suum est, &amp; ideo
+            fur<lb ed="#V" n="70" break="no"/>tum &amp; aliae species iniustitia sunt peccata mortalia ex
+            gene<lb ed="#V" n="71" break="no"/>re, &amp; similiter in alijs omnibus. Ea vero sine quibus
+            hu<lb ed="#V" n="72" break="no"/>mana vita seruari potest, non faciunt peccatum esse
+            mor<lb ed="#V" n="73" break="no"/>tale ex genere, quamuis etiam actus sit desormis, sicut
+            su<lb ed="#V" n="74" break="no"/>perfluus ludus &amp; huiusmodi, &amp; talia dicuntur venialia ex
+            <lb ed="#V" n="75"/>genere. Sed sicut quod est bonum ex genere potest fieri
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="76"/>malum, sed non econtratita illud quod est veniale ex
+            ge<lb ed="#V" n="77" break="no"/>nere tali modo potest fieri, quod erit mortale, ut si
+            creda<lb ed="#V" n="78" break="no"/>tur esse mortale quod veniale est, vel si tantum quis in re
+            tem<lb ed="#V" n="79" break="no"/>porali delectatur, vt finem sibi in ea constituat, quia sic non
+            <lb ed="#V" n="80"/>seruat debitam reuerentiam ad Deum qui est vltimus finis
+            <lb ed="#V" n="81"/>&amp; citra quem omnia sunt diligenda. Ex parte vero
+            peccan<lb ed="#V" n="82" break="no"/>tis est imperfectio peccati propter imperfectionem
+            poten<lb ed="#V" n="83" break="no"/>tiae elicientis actum, sicut primi motus sensualitatis qui
+            prae<lb ed="#V" n="84" break="no"/>cedunt deliberationem peccata venialia sunt, quamuis sint
+            <lb ed="#V" n="85"/>in materia peccati mortalis, sed haec sunt venialia per
+            acci<lb ed="#V" n="86" break="no"/>dens &amp; ideo adueniente consensu rationis deliberatae
+            effi<lb ed="#V" n="87" break="no"/>ciantur mortalia. Haec ille.
+          </p>
+          <p xml:id="capsco-b2jvi8-d1e2328">
+            Ex quibus apparet quod actus
+            <lb ed="#V" n="88"/>inordinatus dicitur peccatum secundum quid imperfecte
+            <lb ed="#V" n="89"/>non solum propter imperfectionem potentiae elicientis, vel
+            <lb ed="#V" n="90"/>modi eliciendi, vtputa quod non est perfecte in potestate
+            <lb ed="#V" n="91"/>potentiae vel suppositi elicientis immo etiam propter
+            im<lb ed="#V" n="92" break="no"/>perfectionem materiae in qua peccatur, quia scilicet est talis quod
+            <lb ed="#V" n="93"/>recta ordinatio circa illam non est necessaria consecutioni
+            <lb ed="#V" n="94"/>finis, nec inordinatio circa illam tollit ordinem ad finem
+            <lb ed="#V" n="95"/>vltimum. Et ideo ad formam quae fit in argumento dicitur
+            <lb ed="#V" n="96"/>quod minor est falsa quia nullum peccatum veniale est
+            a<lb ed="#V" n="97" break="no"/>ctus simpliciter voluntarius cadens super materiam
+            simpli<lb ed="#V" n="98" break="no"/>citer indebitam, &amp; quod dicitur de mendacio iocoso non
+            <lb ed="#V" n="99"/>valet, quia materia talis medacii non est simpliciter
+            indebi<lb ed="#V" n="100" break="no"/>ta, sed secundum quid, quia talis materia in nullo
+            praeiudi<lb ed="#V" n="101" break="no"/>cat fini vltimo.
+          </p>
+          <p xml:id="capsco-b2jvi8-d1e2361">
+            Ad secundum negatur minor. peccatum enim
+            <lb ed="#V" n="102"/>Veniale non dicitur peccatum nisi per attributionem ad
+            <lb ed="#V" n="103"/>peccatum mortale, quia scilicet est dispositio ad illud, vel quaedam
+            <lb ed="#V" n="104"/>deficiens similitudo illius. Et ad probationem dicitur quod
+            <lb ed="#V" n="105"/>consequentia non valet ibidem facta, scilicet peccatum
+            ve<lb ed="#V" n="106" break="no"/>niale potest esse absque mortali: ergo peccatum veniale non
+            <lb ed="#V" n="107"/>dicitur peccatum ex atributione ad peccatum mortale,
+            <lb ed="#V" n="108"/>quia talis atributio non est per causalitatem vnius ad aliud
+            <lb ed="#V" n="109"/>nec per dependentiam vnius ab alio, nec per coexigitionem
+            <lb ed="#V" n="110"/>vnius ad aliud, sed modo quo dictum est. Probatio autem
+            <lb ed="#V" n="111"/>ad ibidem adducta de animali sano, &amp; medicina sana falsa
+            <lb ed="#V" n="112"/>est quia destructo omni animali, adhuc aliquid dici posset
+            <lb ed="#V" n="113"/>sanum, &amp; destructo omni animali vero, adhuc esse posset
+            <lb ed="#V" n="114"/>animal pictum, quia in talibus analogice dictis non
+            opor<lb ed="#V" n="115" break="no"/>tet vnum dependere ab alio quo ad esse, sed quo ad
+            intelli<lb ed="#V" n="116" break="no"/>gi, vt de se patet.
+          </p>
+          <p xml:id="capsco-b2jvi8-d1e2396">
+            Ad tertium dicitur primo quod non
+            opor<lb ed="#V" n="117" break="no"/>tet esse tot modos virtutis aut actus virtuosi, quot suntem
+            mo<lb ed="#V" n="118" break="no"/>di species aut genera vitii, aut actus viciosi, vt patet ex secum
+            <lb ed="#V" n="119"/>do &amp; tertio Ethi. secundo dicitur quod nullum
+            inconue<lb ed="#V" n="120" break="no"/>niens est dicere aliquem actum esse virtuosum simpliciter,
+            <lb ed="#V" n="121"/>&amp; aliquem secundum quid quod patet. Nam actus
+            indeli<lb ed="#V" n="122" break="no"/>berati cadentes super materiam debitam &amp; debitas
+            circun<lb ed="#V" n="123" break="no"/>stantias sunt secundum quid, &amp; non simpliciter virtuosi, &amp;
+            <lb ed="#V" n="124"/>similiter actus boni extra charitatem eliciti.
+          </p>
+          <p xml:id="capsco-b2jvi8-d1e2416">
+            Ad quartum
+            <lb ed="#V" n="125"/>dicitur, quod minor est falsa accipiendo proprie legem
+            exte<lb ed="#V" n="126" break="no"/>riorem, quia nulla lex praeceptiua vel prohibitiua est nisi de
+            <lb ed="#V" n="127"/>fine, vel de necessariis ad finem, aut oppositis fini. Peccatum
+            <lb ed="#V" n="128"/>autem veniale non est contra aliquam talem legem, licet
+            <lb ed="#V" n="129"/>sit contra aliquod dictamen naturalis rationis. Et hoc
+            inten<lb ed="#V" n="130" break="no"/>dit Sanctus Thomas secundo senten. praesenti dict. 1. arti.
+            ter<lb ed="#V" n="131" break="no"/>tio vbi in solutione tertii sic dicit. Praecepta legis intendunt
+            <lb ed="#V" n="132"/>hominem ordinare ad dilectionem Dei &amp; proximi, quiafi
+            <lb ed="#V" n="133"/>nis praecepti est charitas prima Thi. 1 &amp; ideo illa sola sunt
+            <lb ed="#V" n="134"/>mortalia ex genere de quibus dictum est. Haec enim directe
+            <lb ed="#V" n="135"/>sunt contra praecepta legis, &amp; non solum legis scriptae, sed
+            <lb ed="#V" n="136"/>etiam naturalis. Quauis autem aliquid non fit malum quia
+            <lb ed="#V" n="137"/>est prohibitum lege exteriori, est tamen malum quia
+            prohi<lb ed="#V" n="138" break="no"/>bitum lege exteriori vel interiori. Lex enim interior est
+            ip<lb ed="#V" n="139" break="no"/>sum lumen rationis, quo agenda discernimus, &amp; quicquid
+            <lb ed="#V" n="140"/>in humanis actibus huic lumini est consonum, totum est
+            <lb ed="#V" n="141"/>rectum, quod autem contra hoc lumen est, homini est
+            inna<lb ed="#V" n="142" break="no"/>turale &amp; malum, &amp; pro tanto dicitur malum, quia
+            prohi<lb ed="#V" n="143" break="no"/>betur interiori lege. Haecille. Ex quibus patet quod
+            pecca<lb ed="#V" n="144" break="no"/>tum veniale non est contra legem exteriorem, est tam en
+            con<lb ed="#V" n="145" break="no"/>tra legem interiorem, &amp; similiter nec est contra legem
+            inte<lb ed="#V" n="146" break="no"/>riorem simpliciter &amp; perfecte. Nam Sanctus Thomas ibidem
+            <lb ed="#V" n="147"/>in solutione quarti dicit, quod venialia non directe
+            oppo<lb ed="#V" n="148" break="no"/>nuntur praeceptis affirmatuiis aut negatiuis, sed indirecte,
+            <lb ed="#V" n="149"/>quia disponunt ad ea quae directe opponuntur, &amp; ideo
+            hu<lb ed="#V" n="150" break="no"/>iusmodi sunt praeter praeceptum. Haec enim etiam non hoc
+            <pb ed="#V" n="583"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>modo discordant a lumine rationis vt ab vltimo fine
+            abdu<lb ed="#V" n="2" break="no"/>centia, sed vt quaedam impedimenta finis. Haec ille.
+          </p>
+          <p xml:id="capsco-b2jvi8-d1e2484">
+            Ad
+            pri<lb ed="#V" n="3" break="no"/>mum contra tertiam conclusionem dicitur quod ex
+            inordi<lb ed="#V" n="4" break="no"/>nato appetitu propriae excellentiae natum est sequi quod
+            in<lb ed="#V" n="5" break="no"/>ordinate appetantur &amp; fugiantur non solum illa, quae
+            pro<lb ed="#V" n="6" break="no"/>mouent vel impediunt propriam excellentiam, verum etiam
+            <lb ed="#V" n="7"/>illa quae talem excellentiam manifestant, aut occultant,
+            au<lb ed="#V" n="8" break="no"/>eius aliquam similitudinem habent. Omne autem bonum
+            <lb ed="#V" n="9"/>commutabile est huiusmodi.
+          </p>
+          <p xml:id="capsco-b2jvi8-d1e2502">
+            Nec valet instantia ibidem
+            <lb ed="#V" n="10"/>allegata de turpibus delectationibus venereorum, nam
+            mul<lb ed="#V" n="11" break="no"/>ti jgloriantur in talibus &amp; existimant se excellere alios qui
+            <lb ed="#V" n="12"/>non possunt talibus turpibus perfrui sicut ipsi, &amp; reputant
+            <lb ed="#V" n="13"/>talia esse manifestatiua propriae excellentiae. Insuper alia
+            in<lb ed="#V" n="14" break="no"/>stantia de fuga poenarum &amp; tristitia propter timiditatem in
+            <lb ed="#V" n="15"/>rebus bellicis, non obstat. Nam taliter fugientes intendunt
+            <lb ed="#V" n="16"/>conseruare &amp; protelare vitam suam &amp; incolumitatem
+            prae<lb ed="#V" n="17" break="no"/>caeteris, sic autem conseruare proprium bonum prae
+            caete<lb ed="#V" n="18" break="no"/>ris appraehendunt vt quoddam signum sagacitatis &amp;
+            pro<lb ed="#V" n="19" break="no"/>priae excellentiae. Vnde haec quaestio eadem est cum illa qua
+            <lb ed="#V" n="20"/>quaeritur, vtrum omnia quae quis appetit appetat propter
+            <lb ed="#V" n="21"/>beatitudinem, quae est excellentissimum bonum. Super
+            <lb ed="#V" n="22"/>quo Sanctus Thomas 4 sentent. distin. 49. q. 1. artic. 3. quaestiuncula
+            <lb ed="#V" n="23"/>quarta arguit sic. Illud quod propter beatitudinem
+            desi<lb ed="#V" n="24" break="no"/>derant est ad beatitudinem ordinabile, sed multi volunt
+            ali<lb ed="#V" n="25" break="no"/>qua quae non sunt ordinabilia in beatitudinem, sed
+            magie<lb ed="#V" n="26" break="no"/>ab ea auertunt, sicut est de peccatoribus: igitur non omne
+            <lb ed="#V" n="27"/>quod quis vult propter beatitudinem vult. Ecce
+            argumen<lb ed="#V" n="28" break="no"/>tum. Sequitur responsio. Dicendum inquit quod aliquid
+            <lb ed="#V" n="29"/>ordinari ad beatitudinem contingit dupliciter. Vno
+            mo<lb ed="#V" n="30" break="no"/>do sicut quod quaeritur, vt per hoc homo ad beatitudinem
+            <lb ed="#V" n="31"/>proueniat, sicut aliquis vult operari oncra virtutis vt per
+            <lb ed="#V" n="32"/>hoc beatitudinem mereatur. Alio modo cum quis appetit
+            <lb ed="#V" n="33"/>aliquid ex hoc ipso quod habet aliquam similitudinem
+            bea<lb ed="#V" n="34" break="no"/>titudinis. Cum enim voluntas appetit aliquid, ex hoc
+            ip<lb ed="#V" n="35" break="no"/>so efficitur vt desideret illud in quo eius aliqua similitudo
+            <lb ed="#V" n="36"/>inuenitur, quamuis principale desideratum habere non
+            <lb ed="#V" n="37"/>possit. Et hoc modo omnes qui peccata appetunt ad
+            bea<lb ed="#V" n="38" break="no"/>titudinem tendunt, &amp; ad Dei imitationem, vt dicit
+            Augu<lb ed="#V" n="39" break="no"/>stin. 2. confessionum sic dicens. Superbia celsitudinem
+            imi<lb ed="#V" n="40" break="no"/>tatur, cum tu sis vnus super omnia Deus excelsus.
+            Ambi<lb ed="#V" n="41" break="no"/>tio quid nisi honores &amp; gloriam quaerit, cum tu sis prae
+            cae<lb ed="#V" n="42" break="no"/>teris honorandus, &amp; similiter inducit in alijs vitijs. Haec
+            il<lb ed="#V" n="43" break="no"/>le. Similiter in proposito dico quod ille qui prosequitur
+            tur<lb ed="#V" n="44" break="no"/>pes delectationes aut fugit tristitiam, turpiter talia potest
+            fa<lb ed="#V" n="45" break="no"/>cere appetitu excellentiae, quia talia secundum suam
+            aesti<lb ed="#V" n="46" break="no"/>mationem sunt manifestatiua propriae excellentiae vel
+            ha<lb ed="#V" n="47" break="no"/>bent aliquam similitudinem eius.
+          </p>
+          <p xml:id="capsco-b2jvi8-d1e2588">
+            Ad secundum dicitur
+            <lb ed="#V" n="48"/>quod non solum est cupidus qui appetit diuitias ad
+            reci<lb ed="#V" n="49" break="no"/>piendum, immo qui appetit inordinate ad inordinate
+            ex<lb ed="#V" n="50" break="no"/>pendendum. Vnde Sanct. Thomas secunda secundae.
+            quae<lb ed="#V" n="51" break="no"/>stio. 119. articul. 1. in solutione secundi. Contingit inquit
+            <lb ed="#V" n="52"/>quod aliquis excedit in dando, &amp; in hoc est prodigus. Et
+            <lb ed="#V" n="53"/>simul cum hoc excedat in accipiendo, vel ex quadam
+            ne<lb ed="#V" n="54" break="no"/>cessitate, quia dum superabundat in dando, deficiunt ei
+            <lb ed="#V" n="55"/>propria bona, vnde cogitur indebite acquirere, quod
+            per<lb ed="#V" n="56" break="no"/>tinet ad auaritiam. Vel etiam propter animi
+            inordinatio<lb ed="#V" n="57" break="no"/>nem, dum enim non dat proprium bonum, contempta
+            vir<lb ed="#V" n="58" break="no"/>tute non curat vndecunque &amp; qualitercunque accipiat
+            <lb ed="#V" n="59"/>Haec ille.
+          </p>
+          <p xml:id="capsco-b2jvi8-d1e2617">
+            Vlterius dicitur quod dato quod cupidus
+            inquan<lb ed="#V" n="60" break="no"/>tum huiusmodi appetat diuitias ad recipiendum adhuc
+            ha<lb ed="#V" n="61" break="no"/>betur propositum, quia licet diuitiae retentae non
+            com<lb ed="#V" n="62" break="no"/>pleant actualiter omne prauum desiderium, tamen
+            diui<lb ed="#V" n="63" break="no"/>tiae actualiter habitae &amp; possessae &amp; retentae dant facultatem
+            <lb ed="#V" n="64"/>explendi omne desiderium. Quia enim habet diuitias
+            ha<lb ed="#V" n="65" break="no"/>bet omnia bona sensibilia in virtute &amp; potentia proxima.
+            <lb ed="#V" n="66"/>Vnde Sanctus Thomas secunda secundae. quaestione 118.
+            <lb ed="#V" n="67"/>articulo septimo sic dicit. Illud vitium dicitur capitale ex
+            <lb ed="#V" n="68"/>quo alia vitia oriuntur secundum rationem finis qui cum
+            <lb ed="#V" n="69"/>sit multum appetibilis propter eius appetitum procedit
+            <lb ed="#V" n="70"/>homo ad multa facienda bona vel mala. Finis autem
+            ma<lb ed="#V" n="71" break="no"/>xime amabilis vel appetibilis est beatitudo seu foelicitas
+            <lb ed="#V" n="72"/>quae est vltimus finis vitae humanae. Et ideo quanto
+            ali<lb ed="#V" n="73" break="no"/>quid magis participat conditiones faelicitatis, tanto magis
+            <lb ed="#V" n="74"/>est appetibile. Est autem vna de conditionibus faelicitatis
+            <lb ed="#V" n="75"/>quod sit per se sufficiens, alioquin non quietaret appetitum
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="76"/>tanquam vltimus finis. Sed per se sufficientiam maxime
+            re<lb ed="#V" n="77" break="no"/>promittunt diuitiae vt dicit Boetius tertio de consolatione
+            <lb ed="#V" n="78"/>Cuius ratio est, quia sicut philosophus dicit quinto Eth.
+            de<lb ed="#V" n="79" break="no"/>nario vtimur quasi fideiussore ad omnia habenda, &amp;
+            eccle<lb ed="#V" n="80" break="no"/>siastes. 10. dicitur quod pecuniae obediunt omnia. Et ideo
+            <lb ed="#V" n="81"/>auaritia quae consistit in appetitu pecuniae est vitium
+            capi<lb ed="#V" n="82" break="no"/>tale.
+          </p>
+          <p xml:id="capsco-b2jvi8-d1e2672">
+            Item in solutione secundi sic dicit. Pecunia quidem
+            <lb ed="#V" n="83"/>ordinatur ad aliud sicut ad finem, tamen inquantum
+            vtili<lb ed="#V" n="84" break="no"/>est ad omnia sensibilia acquirenda continet
+            quodammo<lb ed="#V" n="85" break="no"/>do virtute omnia, &amp; ideo habet quandam similitudinem
+            <lb ed="#V" n="86"/>felicitatis. Haec ille.
+          </p>
+          <p xml:id="capsco-b2jvi8-d1e2683">
+            Sciendum tamen quod cum dicimus quod
+            <lb ed="#V" n="87"/>cupiditas est radix omnium peccatorum, &amp; praebet
+            faculta<lb ed="#V" n="88" break="no"/>tem perpetrandi omne peccatum &amp;c. non intendimus quod
+            <lb ed="#V" n="89"/>cupiditas vel habitus cupiditatis hoc faciat immediate &amp;
+            <lb ed="#V" n="90"/>per se, sed quod hoc facit mediate &amp; ex parte sui obiecti
+            <lb ed="#V" n="91"/>Vnde argumentum non vadit ad mentem conclusionis. Ad
+            <lb ed="#V" n="92"/>argumentum in principio. q. respondet Sanctus Thomas se.
+            <lb ed="#V" n="93"/>cundo senten. in praesen. distin. quaest. 1. ar. quarto in
+            solutio<lb ed="#V" n="94" break="no"/>ne primi, d. Venialia non corrumpunt virtutem quantum
+            <lb ed="#V" n="95"/>ad habitum, hoc enim est proprium peccati mortalis, sed
+            <lb ed="#V" n="96"/>exit ab aequalitate, quam ratio ponit in actu virtutis.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

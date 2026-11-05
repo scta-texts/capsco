@@ -1,0 +1,638 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 1, Distinctio 10, Quaestio 1</title>
+        <author ref="#JohannesCapreolus">Johannes Capreolus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 1, Distinctio 10, Quaestio 1</title>
+          <date when="2026-11-04">Nov 4, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-j88c01">Venice, 1589, v. 1</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-04" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="258"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="capsco-a1wh7l"><!-- l1d10q1 -->
+        <head xml:id="capsco-a1wh7l-Hd1e101">Quaestio 1</head>
+        <head xml:id="capsco-a1wh7l-Hd1e103" type="question-title">Utrum Spiritus Sanctus procedat ut amor</head>
+        <p xml:id="capsco-a1wh7l-d1e106">
+          <lb ed="#V" n="16"/>DISTINCTIO X.
+          <lb ed="#V" n="17"/>QVAESTIO I.
+          <lb ed="#V" n="18"/>Vtrum Spiritus sanctus procedat vt amor.
+        </p>
+        <p xml:id="capsco-a1wh7l-d1e115">
+          <lb ed="#V" n="19"/><milestone ed="#V" unit="p" rend="initial"/> Circa decimam distinctionem quaeritur. Vtrum
+          <lb ed="#V" n="20"/>Spiritus sanctus procedat vt amor.
+        </p>
+        <p xml:id="capsco-a1wh7l-d1e123">
+          Et
+          ar<lb ed="#V" n="21" break="no"/>guitur quod non. Illud quod non procedit
+          li<lb ed="#V" n="22" break="no"/>bere non pcedit vt amor, sed Spiritus
+          san<lb ed="#V" n="23" break="no"/>ctus non procedit libere. tum quia
+          naturali<lb ed="#V" n="24" break="no"/>ter. tum quia necessario procedit. ergo &amp;c.
+        </p>
+        <p xml:id="capsco-a1wh7l-d1e135">
+          <lb ed="#V" n="25"/><milestone ed="#V" unit="p" rend="indent"/> In oppositum arguitur sic. Sicut se habet Dei filius ad
+          <lb ed="#V" n="26"/>intellectum, sic Spiritus sanctus ad voluntatem, sed filius
+          <lb ed="#V" n="27"/>Dei procedit vt verbum diuini intellectus. ergo Spiritus
+          <lb ed="#V" n="28"/>sanctus procedit vt amor diuinae voluntatis.
+        </p>
+        <p xml:id="capsco-a1wh7l-d1e147">
+          <lb ed="#V" n="29"/><milestone ed="#V" unit="p" rend="indent"/> In ista quaestione erunt duo articuli. In primo ponentur
+          <lb ed="#V" n="30"/>conclusiones. In secundo mouebuntur obiectiones.
+        </p>
+        <div xml:id="capsco-a1wh7l-Dd1e155">
+          <head xml:id="capsco-a1wh7l-Hd1e157">Articulus 1</head>
+          <p xml:id="capsco-a1wh7l-d1e159">
+            <lb ed="#V" n="31"/><milestone ed="#V" unit="p" rend="initial"/> QVantum ad primum sit prima conclusio. Spiritus
+            <lb ed="#V" n="32"/>sanctus procedit processione amoris, &amp; voluntaris.
+            <lb ed="#V" n="33"/>Probatur sic conclusio. In diuinis procedit aliquid
+            subsi<lb ed="#V" n="34" break="no"/>stens in natura diuina per actum amoris &amp; voluntatis.
+            igi<lb ed="#V" n="35" break="no"/>tur in diuinis est aliqua persona procedens processione
+            <lb ed="#V" n="36"/>amoris &amp; voluntatis, sed non alia quam Spiritus sanctus.
+            <lb ed="#V" n="37"/>igitur conclusio vera. maior probatur per Sanctum
+            Dot<lb ed="#V" n="38" break="no"/>ctorem 1. parte. q. 37. art. 1. Sicut (inquit) ex hoc quod
+            ali<lb ed="#V" n="39" break="no"/>quis rem aliquam intelligit prouenit quaedam
+            intellectua<lb ed="#V" n="40" break="no"/>lis conceptio rei intellectae, quae dicitur verbum, ita ex hoc
+            <lb ed="#V" n="41"/>quod aliquis rem aliquam amat prouenit quaedam impressio
+            <lb ed="#V" n="42"/>vt ita loquar, rei amatae in affectum amantis, secundum
+            <lb ed="#V" n="43"/>quam amatum dicitur esse in amante, sicut &amp; intellectum
+            <lb ed="#V" n="44"/>in intelligente, ita quod cum aliquis seipsum amat &amp;
+            intelli<lb ed="#V" n="45" break="no"/>git, non solum est in seipso per identitatem rei, sed etiam
+            <lb ed="#V" n="46"/>vt intellectum in intelligente, &amp; amatum in amante. Haec
+            <lb ed="#V" n="47"/>ille. Constat autem quod omne quod est diuinis est
+            subsi<lb ed="#V" n="48" break="no"/>stens &amp; est naturae diuinae. ergo illa impressio sic
+            proce<lb ed="#V" n="49" break="no"/>dens est subsistens, &amp; est naturae diuinae, sed consequentia
+            <lb ed="#V" n="50"/>probatur: quia omne subsistens in natura diuina, &amp;
+            proce<lb ed="#V" n="51" break="no"/>dens ab alio est persona, ista autem dicitur processio per
+            <lb ed="#V" n="52"/>modum voluntatis ratione supra dicta in quaestione
+            pri<lb ed="#V" n="53" break="no"/>ma distinctionis. 6. dicitur autem processio amoris: quia
+            <lb ed="#V" n="54"/>per actum amoris.
+          </p>
+          <p xml:id="capsco-a1wh7l-d1e215">
+            Eandem conclusionem tenet 1. sen. dis.
+            <lb ed="#V" n="55"/>10. q. 1. artic. 1. quam tamen aliter probat, &amp; intendit talem
+            <lb ed="#V" n="56"/>rationem. Sicut creaturae procedunt a Deo secundum
+            ali<lb ed="#V" n="57" break="no"/>quam imitationem naturae diuinae sed imperfectam, ita
+            pro<lb ed="#V" n="58" break="no"/>cedunt ab eo ex liberalitate diuinae voluntatis eius
+            libera<lb ed="#V" n="59" break="no"/>litatem imperfecte repraesentantes, sed propter primum
+            <lb ed="#V" n="60"/>oportet processionem creaturarum naturae diuinae
+            perfe<lb ed="#V" n="61" break="no"/>ctionem imperfecte repraesentantium reducere in alicuius
+            <lb ed="#V" n="62"/>processionem diuinam perfectionem plenissimae
+            continen<lb ed="#V" n="63" break="no"/>tem scilicet in processionem filij tanquam in principium, &amp; quasi
+            <lb ed="#V" n="64"/>exemplar, &amp; rationem processionis creaturarum a Deo
+            <lb ed="#V" n="65"/>secundum imitationem naturae. ergo propter secundum
+            <lb ed="#V" n="66"/>oportet processionem creaturarum procedentium ex
+            di<lb ed="#V" n="67" break="no"/>uina liberalitate, quam imperfecte repraesentant, reducere
+            <lb ed="#V" n="68"/>in alicuius processionem, quod sit quasi ratio totius
+            libe<lb ed="#V" n="69" break="no"/>ralis collationis. Hoc autem est amor sub cuius ratione
+            <lb ed="#V" n="70"/>omnia a voluntate conferuntur, &amp; ideo oportet esse aliquid
+            <lb ed="#V" n="71"/>personam in diuinis procedentem per modum amoris, &amp;
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="72"/>hoc est spiritus sanctus &amp; inde est quod quidam Philost
+            phi<lb ed="#V" n="73" break="no"/>totius naturae amorem principium posuerunt. Ista autem
+            <lb ed="#V" n="74"/>ratio secundum quod ipse dicit ibidem tenet, supposito secundum
+            <lb ed="#V" n="75"/>fidem, quod personae distinguantur abinuicem: vnde sicut
+            po<lb ed="#V" n="76" break="no"/>nimus in Deo aliquam personam procedere, quae sit ratio
+            <lb ed="#V" n="77"/>processionis creaturarum, sicut exemplar &amp; verbum
+            arti<lb ed="#V" n="78" break="no"/>ficis dicitur esse ratio productionis artificiatorum, qui
+            imi<lb ed="#V" n="79" break="no"/>tantur verbum artificis, ita oportet ponere personam
+            pro<lb ed="#V" n="80" break="no"/>cedentem, quae sit ratio processionis creaturarum eo
+            mo<lb ed="#V" n="81" break="no"/>do, quo amor artificis dicitur ratio productionis
+            artificia<lb ed="#V" n="82" break="no"/>torum. Hoc idem etiam dicit de potentia Dei. q. 10. art. 2.
+            <lb ed="#V" n="83"/>ad 19.
+          </p>
+          <p xml:id="capsco-a1wh7l-d1e283">
+            Secunda conclusio est. Spiritus sanctus procedit
+            na<lb ed="#V" n="84" break="no"/>turaliter a Patre &amp; filio, non tamen per modum naturae.
+            <lb ed="#V" n="85"/>Ista conclusio probata fuit superius dist. 6. Tertia
+            conclu<lb ed="#V" n="86" break="no"/>sio est. Spiritus sanctus non producitur libere libertate
+            ex<lb ed="#V" n="87" break="no"/>cludente necessitatem, licet producatur libere libertate
+            <lb ed="#V" n="88"/>excludente coactionem, prima pars est Sanctus Thomas in multis
+            <lb ed="#V" n="89"/>locis. praesertim 1. sent. dist. 6. q. 1. artic. 2. vbi dicit, quod
+            <lb ed="#V" n="90"/>solae creaturae procedunt a Deo libere, &amp; exponit
+            quomo<lb ed="#V" n="91" break="no"/>do illud intelligat assignans pro causa: quia scilicet creaturae
+            <lb ed="#V" n="92"/>possunt esse &amp; non esse. Ex quo patet quomodo &amp; de qua
+            <lb ed="#V" n="93"/>libertate loquitur. Idem ponit virtualiter de veritate. q. 22.
+            <lb ed="#V" n="94"/>artic. 6. vbi dicit, quod aliquid dicitur liberum: quia
+            ne<lb ed="#V" n="95" break="no"/>cessitatem non habet. Item. q. 24. artic. 1. dicit, quod Deus
+            <lb ed="#V" n="96"/>non nabet libertatem nisi respectu eorum, quae sunt ad
+            fi<lb ed="#V" n="97" break="no"/>nem scilicet creatorum, per quae patet, quod ipse quandoque
+            vo<lb ed="#V" n="98" break="no"/>cat libertatem potentiam voluntatis ad opposita, &amp; illa
+            <lb ed="#V" n="99"/>dicit fieri, vel produci, vel esse volita libere a Deo, quae no
+            <lb ed="#V" n="100"/>necessario facit, producit, aut vult, sed potest ea
+            produ<lb ed="#V" n="101" break="no"/>cere, vel non producere. Secundam partem
+            conclusio<lb ed="#V" n="102" break="no"/>nis expresse ponit de potentia Dei. q. 10. articulo secundo
+            <lb ed="#V" n="103"/>ad quintum, ut fuit allegatum superius in sexta
+            distin¬<lb ed="#V" n="104" break="no"/>ctione huius.
+          </p>
+        </div>
+        <div xml:id="capsco-a1wh7l-Dd1e332">
+          <head xml:id="capsco-a1wh7l-Hd1e334">Articulus 2</head>
+          <p xml:id="capsco-a1wh7l-d1e336">
+            <lb ed="#V" n="105"/><milestone ed="#V" unit="p" rend="initial"/> QVantum ad secundum articulum primo loco arguit
+            <lb ed="#V" n="106"/>Aureolus contra primam conclusionem
+            multipsici<lb ed="#V" n="107" break="no"/>ter, &amp; praesertim contra primam eius probationem. Primo
+            <lb ed="#V" n="108"/>sic. Actus enim voluntatis qui est amor non est motus rei
+            <lb ed="#V" n="109"/>ad animam, sed animae ad res etiam secundum Doctorem
+            <lb ed="#V" n="110"/>sanctum. vnde ipse dicit prima parte, quaest. 27. articu. 4. quod
+            <lb ed="#V" n="111"/>processio amoris in diuinis non debet dici generatio, quia
+            <lb ed="#V" n="112"/>intellectu fit in actu per hoc, quod res intellecta est in
+            in<lb ed="#V" n="113" break="no"/>tellectus secundum suam similitudinem: voluntas autem
+            <lb ed="#V" n="114"/>sit in actu non per hoc quod aliqua similitudo voliti sit in
+            vo<lb ed="#V" n="115" break="no"/>lente, sed ex hoc quod voluntas habet quandam
+            inclina<lb ed="#V" n="116" break="no"/>tionem in rem volitam: vnde processio quae attenditur
+            se<lb ed="#V" n="117" break="no"/>cundum rationem voluntatis non consideratur secundum
+            <lb ed="#V" n="118"/>rationem similitudinis, sed magis secundum rationem inpellentis
+            <lb ed="#V" n="119"/>&amp; mouentis in aliquid. Haec sunt verbo eius, inquit
+            Aureo<lb ed="#V" n="120" break="no"/>lus, sed constat quod si res amata prouenit in affectum
+            aman<lb ed="#V" n="121" break="no"/>tis: tunc processio amoris erit secundum aliquam similitudinem
+            <lb ed="#V" n="122"/>voliti in uolente, &amp; non secundum rationem impulsus:
+            er<lb ed="#V" n="123" break="no"/>go ista duo stare non possunt: vnde non apparet quin sit
+            re<lb ed="#V" n="124" break="no"/>pugnantia in his dictis.
+          </p>
+          <p xml:id="capsco-a1wh7l-d1e383">
+            Secundo sic. Ipse dicit quod
+            perso<lb ed="#V" n="125" break="no"/>na procedens in diuinis per modum amoris non procedit
+            <lb ed="#V" n="126"/>vt genitum, vel vt filius, quia amor non fit secundum
+            ali<lb ed="#V" n="127" break="no"/>quam similitudinem voliti in volente, sed magis procedit
+            <lb ed="#V" n="128"/>ut spiritus, quo quaedam uitalis motio &amp; impulsus
+            designa<lb ed="#V" n="129" break="no"/>tur prout aliquid ex amore moueri dicitur &amp; impelli, sed
+            <lb ed="#V" n="130"/>si amatum perueniret secundum esse similitudinarium in
+            <lb ed="#V" n="131"/>amantem, uere posset dici quod spiritus importat
+            similitu<lb ed="#V" n="132" break="no"/>dinem rei amatae, &amp; non impulsum: ergo idem quod prius.
+          </p>
+          <p xml:id="capsco-a1wh7l-d1e403">
+            <lb ed="#V" n="133"/>Tertio sic. Haec est differentia inter desiderium quod est
+            <lb ed="#V" n="134"/>amor concupiscentiae, &amp; complacentiam quae est amor
+            ami<lb ed="#V" n="135" break="no"/>citiae, quod desiderium est per modum cuiusdam attractus
+            rei<lb ed="#V" n="136" break="no"/>concupitae ad se, complacentia vero est amor amicitiae per
+            <lb ed="#V" n="137"/>modum cuiusdam condonationis sui ad rem amatam.
+            vn<lb ed="#V" n="138" break="no"/>de patet, quod per amorem concupiscentiae res
+            attrahiun<lb ed="#V" n="139" break="no"/>tur ad amantem, sed per amorem amicitiae amans
+            impel<lb ed="#V" n="140" break="no"/>litur &amp; trahitur ad amatum, sed constat quod in diuinis
+            <lb ed="#V" n="141"/>est amor amicitiae, &amp; non concupiscentiae, non igitur
+            spiri<lb ed="#V" n="142" break="no"/>tus est impressio amati proueniens in amante, sed erit
+            econ<lb ed="#V" n="143" break="no"/>uerso ipsum amans vt condonatum amato.
+          </p>
+          <p xml:id="capsco-a1wh7l-d1e429">
+            Quarto sic.
+            ul<lb ed="#V" n="144" break="no"/>gata auctoritas Bernardi dicit, quod anima verius &amp; melius
+            <lb ed="#V" n="145"/>est, vbi amat, quam vbi habitat vel animat, cui concordat
+            <lb ed="#V" n="146"/>verbum saluatoris dicentis Matthae. 6. quod vbi est thesaurus
+            <pb ed="#V" n="259"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>tuus, ibi corttuum, sed hoc non esset verum si ex vi
+            amo<lb ed="#V" n="2" break="no"/>ris amatum proueniret in amantem, tunc enim anima non esset
+            <lb ed="#V" n="3"/>vbi amat, sed amatum semper esset vbi anima amat nec
+            cor<lb ed="#V" n="4" break="no"/>esset in thesauro, sed theasaurus in corde. ergo impraessio
+            <lb ed="#V" n="5"/>amoris trahit affectum amantis ad rem, nec ponit rem in
+            <lb ed="#V" n="6"/>amante. Quinto. Si res amata habet esse in amante, vel est
+            <lb ed="#V" n="7"/>ibi per essentiam suam, aut per sui similitudinem, sed
+            con<lb ed="#V" n="8" break="no"/>stat quod non per essentiam, cum res amatae sint extra, nec etiam
+            <lb ed="#V" n="9"/>per similitudinem suam. Tum quia oppositum alibi isti
+            di<lb ed="#V" n="10" break="no"/>cunt. Tum quia voluntas similitudines rerum conciperet
+            <lb ed="#V" n="11"/>sicut &amp; intellectus, &amp; esset potentia conceptiua &amp;
+            forma<lb ed="#V" n="12" break="no"/>tiua, &amp; posset Spiritus dici verbum, &amp; spiratio conceptio,
+            <lb ed="#V" n="13"/>&amp; multa alia absona quae sequuntur. ergo virtute amoris
+            <lb ed="#V" n="14"/>res amata non prouenit in amantem.
+          </p>
+          <p xml:id="capsco-a1wh7l-d1e474">
+            Sexto sic. Vis
+            amo<lb ed="#V" n="15" break="no"/>ris est transformare amantem in amatum secundum omnes
+            <lb ed="#V" n="16"/>loquentes, transformare autem non est aliud quam
+            tran<lb ed="#V" n="17" break="no"/>sire in formam amati, sed hoc non esset si similitudo rei
+            <lb ed="#V" n="18"/>amatae transiret in amantem, tunc enim non transiret in
+            ama<lb ed="#V" n="19" break="no"/>tum, nec accederet ad formam illius, sed magis e conuerso
+            <lb ed="#V" n="20"/>forma veniret ad ipsum, non ergo Spiritus potest esse res
+            ama<lb ed="#V" n="21" break="no"/>ta intentionaliter existens in affectu amantis. Haec ille. In
+            <lb ed="#V" n="22"/>secundo loco contra eandem conclusionem arguit
+            Duran<lb ed="#V" n="23" break="no"/>dus probando, quod Spiritus sanctus non procedat vt amor,
+            <lb ed="#V" n="24"/>nec vt aliquid pertinens ad voluntatem. Primo: quia illud
+            <lb ed="#V" n="25"/>non pertinet ad amorem vel voluntatem quod
+            compete<lb ed="#V" n="26" break="no"/>ret Deo exclusa voluntate &amp; amore, sed spiratio Spiritus
+            <lb ed="#V" n="27"/>sancti inest Deo exclusis per intellectum voluntate &amp;
+            acti<lb ed="#V" n="28" break="no"/>bus suis, inest enim sibi hoc radicaliter ex faecunditate naturae,
+            <lb ed="#V" n="29"/>quam faecunditatem habet ex sua infinitate, &amp; non ex hoc
+            <lb ed="#V" n="30"/>quod est volens: ergo Spiritus sanctus non pertinet ad
+            amo<lb ed="#V" n="31" break="no"/>rem.
+          </p>
+          <p xml:id="capsco-a1wh7l-d1e513">
+            Secundo. Illud quod non producitur a voluntate non
+            <lb ed="#V" n="32"/>habet rationem amoris, sed Spiritus sanctus non
+            produci<lb ed="#V" n="33" break="no"/>tur a voluntate: quia voluntas habet conditionem
+            oppo<lb ed="#V" n="34" break="no"/>sitam faecunditati, &amp; principio productiuo, est enim haec
+            con<lb ed="#V" n="35" break="no"/>ditio intellectus, &amp; voluntatis, quod per actus eorum nihil
+            <lb ed="#V" n="36"/>constituitur aut producitur, sed ipsae operationes sunt
+            fi<lb ed="#V" n="37" break="no"/>nes: vnde sunt potentiae non productiuae, sed
+            immanen<lb ed="#V" n="38" break="no"/>tes, vt dicitur 9. Metaphysicae: ergo Spiritus sanctus non
+            <lb ed="#V" n="39"/>procedit vt aliquid pertinens ad voluntatem. Tertio.
+            Qua<lb ed="#V" n="40" break="no"/>lis est ordo rei inter diuersa realiter, talis est ordo rationis
+            <lb ed="#V" n="41"/>inter differentias secundum rationem, sed vbi natura intellectus,
+            <lb ed="#V" n="42"/>&amp; voluntatis differunt realiter, productio est ex vi naturae
+            <lb ed="#V" n="43"/>non intellectus, &amp; voluntatis, sicut patet in generatione
+            <lb ed="#V" n="44"/>filii in humanis, licet enim generet homo intelligens &amp; volens
+            <lb ed="#V" n="45"/>nihilominus productio est ex vi naturae, non ex vi
+            intelle<lb ed="#V" n="46" break="no"/>ctus aut voluntatis: vnde &amp; si calor esset intelligens &amp;
+            vo<lb ed="#V" n="47" break="no"/>lens non cognosceret calorem ex intellectu, &amp; voluntate,
+            <lb ed="#V" n="48"/>sed ex naturae faecunditate. ergo in diuinis nulla productio
+            <lb ed="#V" n="49"/>erit per intellectum &amp; voluntatem, sed ex vi naturae. &amp; per
+            <lb ed="#V" n="50"/>consequens quantum est ex parte principii productiui
+            Spi<lb ed="#V" n="51" break="no"/>ritus sanctus procedit necessitate, &amp; immutabiliter, non
+            <lb ed="#V" n="52"/>igitur procedit, vt amor.
+          </p>
+          <p xml:id="capsco-a1wh7l-d1e561">
+            Quarto. Illud non procedit
+            pro<lb ed="#V" n="53" break="no"/>prte vt amor, aut aliquid pertinens ad voluntatem, cui hoc
+            <lb ed="#V" n="54"/>non competit, nisi ex quadam similitudine ad imaginem
+            <lb ed="#V" n="55"/>quae est in nobis, sed ita est de Spiritu sancto, non enim propter
+            <lb ed="#V" n="56"/>aliud dicitur emanare per modum voluntatis, nisi quia in
+            <lb ed="#V" n="57"/>nobis attenditur imago penes intellectum, &amp; voluntatem,
+            <lb ed="#V" n="58"/>&amp; actus eorum, prima autem emanatio est per intellectum,
+            <lb ed="#V" n="59"/>&amp; secunda per voluntatem, ideo prima correspondet
+            ver<lb ed="#V" n="60" break="no"/>bo, &amp; secunda Spiritui sancto, &amp; haec est ratio sola quare
+            <lb ed="#V" n="61"/>Spiritus sanctus dicitur emanare per modum voluntatis,
+            <lb ed="#V" n="62"/>non igitur procedit vt amor. In tertio loco ad idem arguit
+            <lb ed="#V" n="63"/>Scotus &amp; multi alii, quod Spiritus sanctus proprie procedit,
+            <lb ed="#V" n="64"/>vt actus diligendi, vel vt actus amoris, &amp; non vt talis
+            im<lb ed="#V" n="65" break="no"/>pressio. Quia vbicunque est voluntas habens obiectum q
+            <lb ed="#V" n="66"/>ligibile sibi praesens potest esse amor realiter procedens, talis
+            <lb ed="#V" n="67"/>nanque voluntas est principium faecundum productiuum
+            <lb ed="#V" n="68"/>amoris, sed in Deo est voluntas, cum sit perfectio
+            simpli<lb ed="#V" n="69" break="no"/>citer, &amp; est ibi diuina essentia diligibilis in infinitum. ergo
+            <lb ed="#V" n="70"/>erit ibi amor realiter procedens, amor autem ille erit
+            perso<lb ed="#V" n="71" break="no"/>na subsistens, &amp; non verbum, nec filius. ergo Spiritus
+            san<lb ed="#V" n="72" break="no"/>ctus.
+          </p>
+          <p xml:id="capsco-a1wh7l-d1e607">
+            Secundo. Sicut se habet verbum ad intellectionem.
+            <lb ed="#V" n="73"/>sic Spiritus sanctus ad amorem. Ait enim Augustnus 15. de
+            <lb ed="#V" n="74"/>Trinita. cap. 17. quod sicut proprie verbum Dei dicitur
+            sapien<lb ed="#V" n="75" break="no"/>tia, sic charitas Spiritus sanctus dici debet, sed verbum sic
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="76"/>se habet ad intellectionem, quod vere &amp; formaliter dicitur
+            <lb ed="#V" n="77"/>intellectio, vt procedens. ergo Spiritus sanctus erit amor,
+            <lb ed="#V" n="78"/>vt procedens. Tertio. In his quae tangunt diuinas
+            perso<lb ed="#V" n="79" break="no"/>nas sectanda est sententia sanctorum, sed breuiter omnes
+            <lb ed="#V" n="80"/>sancti loquentes de Spiritu sancto vocant eum amorem,
+            <lb ed="#V" n="81"/>vt patet de Augustino in de cognitione verae vitae
+            respon<lb ed="#V" n="82" break="no"/>sione penulti. Ait enim quod Spiritus sanctus nihil aliud
+            <lb ed="#V" n="83"/>quam amor Dei intelligitur. Et Hyeronimus super Psal.
+            <lb ed="#V" n="84"/>14. ait, quod Spiritus sanctus nec est Pater, nec filius, sed
+            <lb ed="#V" n="85"/>dilectio quam habet pater in filium. Et Auselmus Monol.
+            <lb ed="#V" n="86"/>capit. 50. dicit, quod patet amorem summi Spiritus ex eo
+            <lb ed="#V" n="87"/>procedere, quod si memoria summi Spiritus intelligitur
+            pa<lb ed="#V" n="88" break="no"/>ter, intelligentia vero dicitur filius, manifestum quod a
+            pa<lb ed="#V" n="89" break="no"/>tre pariter &amp; filio summi Spiritus amor procedit. Et
+            Ri<lb ed="#V" n="90" break="no"/>cardus de Trinitate. lib. 6. cap. 14. ait, quod in illa summae
+            <lb ed="#V" n="91"/>simplici natura non est aliud Spuns sanctus, &amp; aliud amor
+            <lb ed="#V" n="92"/>illius, quid enim spiritus sanctus nisi ignis diuinus, omnis
+            <lb ed="#V" n="93"/>autem amor est ignis, sed ignis spiritualis. Idem patet ex
+            <lb ed="#V" n="94"/>dictis omnium doctorum. igitur Spiritus sanctus est
+            pro<lb ed="#V" n="95" break="no"/>prie amor actualis. In quarto loco ad idem arguit
+            Henri<lb ed="#V" n="96" break="no"/>cus in quolibet. Sicut est in humanis, sic ponendum est in
+            <lb ed="#V" n="97"/>diuinis, dum tamen imperfectio non communicetur, sed
+            <lb ed="#V" n="98"/>inter homines est amor quidam complacentiae cuiusdam,
+            <lb ed="#V" n="99"/>quo homo diligit proximum, &amp; amor parentalis, &amp;
+            zela<lb ed="#V" n="100" break="no"/>tiuae amicitiae, quo mater diligit filium, in cuius aspectu
+            li<lb ed="#V" n="101" break="no"/>quescit &amp; feruescit. ergo vltra amorem complacentiae quo
+            <lb ed="#V" n="102"/>Deus diligit essentiam, &amp; omnem creaturam est amor
+            in<lb ed="#V" n="103" break="no"/>centitius &amp; zelatiuus. quo pater diligit filium &amp;
+            econtra<lb ed="#V" n="104" break="no"/>iste autem est Spiritus sanctus. igitur Spiritus sanctus
+            proce<lb ed="#V" n="105" break="no"/>dit, vt talis amor.
+          </p>
+          <p xml:id="capsco-a1wh7l-d1e683">
+            Secundo. Ex his quae experimur in nobis
+            <lb ed="#V" n="106"/>conscendere debemus ad diuina, cum in nobis sit
+            imago<lb ed="#V" n="107" break="no"/>trinitatis: vnde &amp; Augustinus. Ex verbo reperto in nobis
+            ascen<lb ed="#V" n="108" break="no"/>dit ad verbum diuinum, sed nos experimur in nobis
+            du<lb ed="#V" n="109" break="no"/>plicem amorem. Primum scilicet cuiusdam complacentiae, &amp;
+            <lb ed="#V" n="110"/>allectionis quae causatur ex attractione obiecti. Secundum
+            <lb ed="#V" n="111"/>vero incentiuum, &amp; efficacem cum virtute prioris
+            com<lb ed="#V" n="112" break="no"/>placentiae, quo voluntas ad obiectum se mouet. ergo
+            pro<lb ed="#V" n="113" break="no"/>portionaliter isti duo amores sunt in Deo, vt primus sit
+            <lb ed="#V" n="114"/>essentialis &amp; secundus sit personalis, &amp; ita Spiritus sanctus
+            <lb ed="#V" n="115"/>emanabit vt amor incentiuus. Tertio. Quia sicut se habet
+            <lb ed="#V" n="116"/>actus intelligendi ad verbum, sic se habet actus amandi
+            <lb ed="#V" n="117"/>ad Spiritum &amp; zelum ac incendium, sed actus
+            intelligen<lb ed="#V" n="118" break="no"/>di est quasi simplex intelligentia, verbum vero quasi
+            noti<lb ed="#V" n="119" break="no"/>tia declaratiua, nec perficitur actus intelligentiae simplicis
+            <lb ed="#V" n="120"/>donec emanet declaratiua notitia, quae est verbum. ergo
+            <lb ed="#V" n="121"/>sic est de simplici complacentia respectu incendii &amp;
+            com<lb ed="#V" n="122" break="no"/>placentiae zelatiuae, quod non perficietur donec illa
+            ema<lb ed="#V" n="123" break="no"/>net. ergo in diuinis Spiritus sanctus est amor incentiuur
+            <lb ed="#V" n="124"/>emanans ab amore simplicis complacentiae qui est
+            essen<lb ed="#V" n="125" break="no"/>tialis.
+          </p>
+          <p xml:id="capsco-a1wh7l-d1e729">
+            Quarto. Talis est amor qui est Spiritus sanctus,
+            qua<lb ed="#V" n="126" break="no"/>lis est amor qui artificem mouet ad efficaciter agendum,
+            <lb ed="#V" n="127"/>emanatio enim creaturarum praesupponit emanationem
+            <lb ed="#V" n="128"/>personarum, propter quod oportet vt verbum sit talis
+            no<lb ed="#V" n="129" break="no"/>titia, qualis ad producendum exigitur, &amp; similiter
+            Spiri<lb ed="#V" n="130" break="no"/>tus sanctus talis amor, qualis mouet artificem ad
+            produ<lb ed="#V" n="131" break="no"/>cendum, sed per amorem simplicis complacentiae nunquam
+            <lb ed="#V" n="132"/>mouetur artifex ad agendum. videmus enim quod
+            aliquan<lb ed="#V" n="133" break="no"/>do complacemus in opere, &amp; tamen non propter hoc
+            mo<lb ed="#V" n="134" break="no"/>uemurad agendum donec complaceat efficaciter, &amp;
+            in<lb ed="#V" n="135" break="no"/>centiue. ergo Spiritus sanctus in diuinis non erit amor
+            <lb ed="#V" n="136"/>simplicis complacentiae, sed incentiuus, &amp; zelatiuus.
+            Quin<lb ed="#V" n="137" break="no"/>to. Quia nomina. ducunt in notitiam rerum, sed Spiritus
+            <lb ed="#V" n="138"/>sanctus appellatur ardor, ignis, famma. Spiritus: ergo
+            vi<lb ed="#V" n="139" break="no"/>detur quod emanet per modum cuiusdam zeli &amp; incendii.
+          </p>
+          <p xml:id="capsco-a1wh7l-d1e763">
+            <lb ed="#V" n="140"/><milestone ed="#V" unit="p" rend="indent"/> D argumenta Aureoli primo loco facta
+            responde<lb ed="#V" n="141" break="no"/>tur ad primum, &amp; ad secundum &amp; quintum &amp;
+            sex<lb ed="#V" n="142" break="no"/>tum, quod procedunt ex falso fundamento, &amp; ex malo
+            in<lb ed="#V" n="143" break="no"/>tellectu Sanct. Doctoris, fundantur enim in hoc quod si amatum
+            <lb ed="#V" n="144"/>est in amante, aut est ibi per suam essentiam, aut per suam
+            <lb ed="#V" n="145"/>similitudinem, quod falsum est, &amp; contra mentem Sancti Thomae
+            <lb ed="#V" n="146"/>Est enim tertius modus, quo amatum est in amante, quem
+            po<lb ed="#V" n="147" break="no"/>nit Sanct.s Doctor contra Gent. libro. 4. cap. 19. Quod amatur
+            <lb ed="#V" n="148"/>(inquit) non solum est in intellectu amantis, sed etiam in
+            vo<lb ed="#V" n="149" break="no"/>luntate ipsius, aliter tamen &amp; aliter, in intellectu enim est secundum
+            <lb ed="#V" n="150"/>similitudinem suae speciei, in voluntate autem amantis est, sicut
+            <pb ed="#V" n="260"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>terminus motus in principio motiuo proportionato per
+            <lb ed="#V" n="2"/>conuenientiam &amp; proportionem quam habet ad ipsum,
+            <lb ed="#V" n="3"/>sicut in igne quodammodo est locus sursum ratione
+            leui<lb ed="#V" n="4" break="no"/>tatis, secundum quam habet ad ipsum proportionem, &amp;
+            <lb ed="#V" n="5"/>conuenientiam ad talem locum, ignis vero genitus est in
+            <lb ed="#V" n="6"/>igne generante per similitudinem suae formae. Haec ille in
+            <lb ed="#V" n="7"/>forma. Et post pauca subdit. Cum autem (inquit) ostensum
+            <lb ed="#V" n="8"/>sit quod amatum non sit in amante per similitudinem speciei,
+            <lb ed="#V" n="9"/>sicut intellectum in intelligente, omne autem quod procedit
+            <lb ed="#V" n="10"/>ab alio per modum geniti procedit secundum similitudinem
+            spe<lb ed="#V" n="11" break="no"/>ciei a generante. Relinquitur quod processus rei ad hoc quod sit
+            <lb ed="#V" n="12"/>in voluntate, sicut amatum in amante, non sit per modum
+            <lb ed="#V" n="13"/>generationis, sicut processus rei ad hoc quod sit in intellectu
+            <lb ed="#V" n="14"/>habet rationem &amp;c. Haec ille.
+          </p>
+          <p xml:id="capsco-a1wh7l-d1e825">
+            Et post subdit. Deus igitur
+            <lb ed="#V" n="15"/>procedens per modum amoris non procedit, vt genitus,
+            <lb ed="#V" n="16"/>neque igitur filius dici potest, sed quia amatum in voluntate
+            <lb ed="#V" n="17"/>praeexistit vt inclinans, &amp; quodammodo impellens
+            intrin<lb ed="#V" n="18" break="no"/>secus amantem in rem amatam, impulsus autem rei viuentis
+            <lb ed="#V" n="19"/>ab interiori ad Spiritum pertinens conuenit Deo per
+            mo<lb ed="#V" n="20" break="no"/>dum amoris producentis, vt Spiritus dicatur eius
+            proces<lb ed="#V" n="21" break="no"/>sione quasi spiratione quadam existente. Haec ille.
+          </p>
+          <p xml:id="capsco-a1wh7l-d1e843">
+            Ex
+            qui<lb ed="#V" n="22" break="no"/>bus patet quod impressio amati in amantem, per quam vel secundum
+            <lb ed="#V" n="23"/>quam amatum dicitur esse in amante, nec est ipsa essentia
+            <lb ed="#V" n="24"/>rei amatae, nec est eius species aut similitudo, sed est quaedam
+            <lb ed="#V" n="25"/>habitualis inclinatio derelicta ex amore inclinans
+            aman<lb ed="#V" n="26" break="no"/>tem in amatum, eo modo quo grauitas inclinat ad locum
+            <lb ed="#V" n="27"/>deorsum rem grauem, aliter enim res imprimunt in
+            intelle<lb ed="#V" n="28" break="no"/>ctum, aliter in voluntate. Et sic patet quid dicendum ad
+            <lb ed="#V" n="29"/>dicta quatuor argumenta.
+          </p>
+          <p xml:id="capsco-a1wh7l-d1e863">
+            Ad tertium dicitur, quod fundatur
+            <lb ed="#V" n="30"/>in vna falsa consequentia scilicet in ista, amans impellitur in
+            ama<lb ed="#V" n="31" break="no"/>tum. ergo amatum non est in amante, quam constat ex
+            prae<lb ed="#V" n="32" break="no"/>dictis nihil valere, immo antecedens infert oppositum
+            con<lb ed="#V" n="33" break="no"/>sequentis, non enim amor impelleret amantem in amatum, nisi
+            <lb ed="#V" n="34"/>amatum esset in amante per illam inclinationem de qua
+            <lb ed="#V" n="35"/>dictum est.
+          </p>
+          <p xml:id="capsco-a1wh7l-d1e879">
+            Ad quartum negatur minor, bene enim stant simul
+            <lb ed="#V" n="36"/>quod amatum sit in amante, &amp; tamen cum hoc ipsum amans
+            <lb ed="#V" n="37"/>sit in amato: nam amatum est in amante modo supradicto,
+            <lb ed="#V" n="38"/>sed econtra amans est in amato, sicut ea quae ordinantur
+            <lb ed="#V" n="39"/>ad finem sunt in fine, vel aliter secundum Sanct. Doctorem
+            pri<lb ed="#V" n="40" break="no"/>ma secundae. q. 28. artic. 2. vbi quaerit, vtrum mutua
+            inhae<lb ed="#V" n="41" break="no"/>sio sit effectus amoris, vt scilicet amans sit in amato, &amp; econtra,
+            <lb ed="#V" n="42"/>sic enim ait. Iste effectus mutuae inhaesionis potest intelligi
+            quan<lb ed="#V" n="43" break="no"/>tum ad vim appraehensiuam, &amp; quantum ad vim
+            appetiti<lb ed="#V" n="44" break="no"/>uam. Nam quantum ad vim appraehensiuam amatum
+            di<lb ed="#V" n="45" break="no"/>citur esse in amante inquantum amatum immoratur in
+            ap<lb ed="#V" n="46" break="no"/>praehensione amantis secundum illud Phils 1. Eo quod habemus vos
+            <lb ed="#V" n="47"/>in corde, amans vero dicitur esse in amato secundum
+            appraehen<lb ed="#V" n="48" break="no"/>sionem inquantum amans non est contentus
+            superficiali<lb ed="#V" n="49" break="no"/>appraehensione amati, sed nititur singula quae ad amatum
+            <lb ed="#V" n="50"/>pertinent intrinsecus disquirere, &amp; sic ad interiora eius
+            <lb ed="#V" n="51"/>progreditur vel ingreditur, sicut de Spiritu sancto, qui est
+            <lb ed="#V" n="52"/>amor Dei, dicitur primae Corinth. 2. quod scrutatur etiam
+            pro<lb ed="#V" n="53" break="no"/>funda Dei. Sed quantum ad vim appetitiuam amatum
+            di<lb ed="#V" n="54" break="no"/>citur esse in amante prout est per quandam complacentiam
+            <lb ed="#V" n="55"/>in eius affectu, vt delectetur in eo, aut in bonis eius apud
+            <lb ed="#V" n="56"/>praesentiam, vel in absentia per desiderium tendat in ipsum
+            <lb ed="#V" n="57"/>amatum per amorem concupiscentiae, vel in bona, quae
+            <lb ed="#V" n="58"/>vult amato per amorem amicitiae, non quidem ex alia
+            cau<lb ed="#V" n="59" break="no"/>sa extrinseca, sicut cum aliquis desiderat aliquid propter
+            alte<lb ed="#V" n="60" break="no"/>rum, vel cum aliquis vult bonum alteri propter aliquid
+            <lb ed="#V" n="61"/>aliud, sed propter complacentiam amati interius
+            radica<lb ed="#V" n="62" break="no"/>tam: vnde &amp; amor dicitur intimus, &amp; dicuntur viscera
+            <lb ed="#V" n="63"/>charitatis. Econuerso autem amans est in amato aliter quidem
+            <lb ed="#V" n="64"/>propter amorem amicitiae, aliter propter amorem
+            concu<lb ed="#V" n="65" break="no"/>piscentiae, amor autem concupiscentiae non quiescit in
+            qua<lb ed="#V" n="66" break="no"/>cunque re extrinseca aut superficiali adeptione vel
+            fruitio<lb ed="#V" n="67" break="no"/>ne amati, sed quaerit amatum perfecte habere quasi ad
+            inti<lb ed="#V" n="68" break="no"/>ma illius perueniens, in amore vero amicitiae amans est in
+            <lb ed="#V" n="69"/>amato inquantum reputat bona vel mala amici esse sua, &amp;
+            <lb ed="#V" n="70"/>voluntatem amici sicut suam: vt quasi ipse in suo amico
+            <lb ed="#V" n="71"/>videatur bona vel mala pati &amp; affici, &amp; propter hoc
+            ami<lb ed="#V" n="72" break="no"/>corum est eadem velle, &amp; in eodem tristari &amp; gaudere
+            se<lb ed="#V" n="73" break="no"/>cundum Philosophum 9. Ethic. &amp; in 2. Rethori. vt sic
+            in<lb ed="#V" n="74" break="no"/>quantum quae sunt amici aestimat sua amans videatur esse
+            <lb ed="#V" n="75"/>in amato quasi idem factus amato. Inquantum autem
+            econ<cb ed="#V" n="b"/><lb ed="#V" n="76" break="no"/>uerso vult &amp; agit propter amicum, sicut propter seipsum
+            <lb ed="#V" n="77"/>quasi repraesentans amicum idem sibi, sic amatum est in
+            <lb ed="#V" n="78"/>amante. Potest autem tertio modo mutua inhaesio intelligi in
+            <lb ed="#V" n="79"/>amore amicitiae, inquantum mutuo se amant amici,
+            adin<lb ed="#V" n="80" break="no"/>uicemque sibi volunt bona &amp; operantur. Haec ille in
+            for<lb ed="#V" n="81" break="no"/>ma. Et ibidem ad primum dicit. Amatum continetur in
+            <lb ed="#V" n="82"/>amante inquantum est impressum in affectu eius per
+            quan<lb ed="#V" n="83" break="no"/>dam complacentiam, econuerso vero amans continetur in
+            <lb ed="#V" n="84"/>amato inquantum amans sequitur aliquo modo illud, quod
+            <lb ed="#V" n="85"/>est intimum amati, nihil enim prohibet diuerso modo idem
+            <lb ed="#V" n="86"/>esse continens &amp; contentum, sicut genus continetur in
+            spe<lb ed="#V" n="87" break="no"/>cie &amp; econtra. Ex quibus patet quam debilia sunt
+            argumen<lb ed="#V" n="88" break="no"/>ta opponentis contra tam solidam veritatem.
+          </p>
+          <p xml:id="capsco-a1wh7l-d1e998">
+            Ad primum
+            <lb ed="#V" n="89"/>Durandi negatur minor, nec valet probatio, si enim in Deo
+            <lb ed="#V" n="90"/>non esset intellectus, aut voluntas ipse non est productiuus
+            <lb ed="#V" n="91"/>alicuius ad intra, nec verbi, nec Spiritus sancti, sicut
+            osten<lb ed="#V" n="92" break="no"/>dit Sanctus Thomas 1. parte. q. 27. artic. 3. In diuinis non est
+            pro<lb ed="#V" n="93" break="no"/>cessio nisi secundum actionem, quae non intendit in aliquid
+            extrin<lb ed="#V" n="94" break="no"/>secum, sed manet in ipso agente. huiusmodi autem actio
+            <lb ed="#V" n="95"/>in natura intellectuali est actio intellectus, &amp; actus
+            volun<lb ed="#V" n="96" break="no"/>tatis, processio autem verbi attenditur secundum actionem
+            intelligi<lb ed="#V" n="97" break="no"/>bilem, secundum autem operationem voluntatis attenditur in
+            <lb ed="#V" n="98"/>nobis alia quaedam processio scilicet amoris, secundum quam amatum
+            <lb ed="#V" n="99"/>est in amantem, sicut per conceptionem verbi res dicta vel
+            <lb ed="#V" n="100"/>intellecta est in intellectu. Haec ille.
+          </p>
+          <p xml:id="capsco-a1wh7l-d1e1028">
+            Ad secundum negatur
+            <lb ed="#V" n="101"/>minor. Dico enim quod licet non sit de ratione intellectus &amp;
+            vo<lb ed="#V" n="102" break="no"/>luntatis quod per suos actus constituatur aliquid extrinsecum
+            <lb ed="#V" n="103"/>actui, tamen per actum intellectus semper producitur
+            ali<lb ed="#V" n="104" break="no"/>quid distinctum ab actu scilicet verbum, &amp; per actum voluntatis
+            <lb ed="#V" n="105"/>aliquid distinctum ab actu scilicet impressio amati in amatem,
+            <lb ed="#V" n="106"/>talia autem scilicet verbum &amp; impressio non sunt totaliter
+            ex<lb ed="#V" n="107" break="no"/>trinseca ipsi actui, immo sunt termini actus quasi
+            intrinse<lb ed="#V" n="108" break="no"/>ci, nec actus sine illis completur.
+          </p>
+          <p xml:id="capsco-a1wh7l-d1e1048">
+            Ad tertium negatur
+            mi<lb ed="#V" n="109" break="no"/>nor, nec simile quod adducit valet ad propositum. nam
+            ar<lb ed="#V" n="110" break="no"/>guit de productione ad extra, quae sit vi naturae vt natura
+            <lb ed="#V" n="111"/>est, nos autem loquimur de productione immanente illa enim
+            <lb ed="#V" n="112"/>fit vi naturae tanquam principii remoti, sed vi intellectus
+            <lb ed="#V" n="113"/>vel voluntatis tanquam proximi principii, &amp; ita
+            consimili<lb ed="#V" n="114" break="no"/>ter in diuinis, licet natura sit principium vtriusque
+            proces<lb ed="#V" n="115" break="no"/>sionis, tamen inquantum primum productiuum est verbum,
+            <lb ed="#V" n="116"/>principium illius productionis proximum est intellectus,
+            <lb ed="#V" n="117"/>sed principium alterius processionis, inquantum
+            termina<lb ed="#V" n="118" break="no"/>tur ad amorem vel impressionem amoris, est voluntas. Ad
+            <lb ed="#V" n="119"/>quartum negatur minor, nec valet similitudo, cum
+            cor<lb ed="#V" n="120" break="no"/>rumpat dicta sanctorum, quae dicunt filium Dei esse
+            pro<lb ed="#V" n="121" break="no"/>prie verbum, &amp; Spiritum sanctum proprie amorem, vel
+            ali<lb ed="#V" n="122" break="no"/>quid pertinens ad actum voluntatis.
+          </p>
+          <p xml:id="capsco-a1wh7l-d1e1081">
+            Ad primum Scoti
+            ne<lb ed="#V" n="123" break="no"/>gatur maior, non omnis enim voluntas est productiua amoris
+            <lb ed="#V" n="124"/>actualis, nec omnis intellectus est productiuus actualis
+            intel<lb ed="#V" n="125" break="no"/>lectionis, vt patet per Philosophum 12. Metaphys. vbi vult
+            <lb ed="#V" n="126"/>quod in Deo idem est intellectus, &amp; intelligere, &amp; quo
+            intelli<lb ed="#V" n="127" break="no"/>git. Conceditur tamen quod omnis intellectus est per actum suum
+            <lb ed="#V" n="128"/>productiuus verbi: vnde Sanctus Thomas 1. parte. q. 34. arti. 1. ad
+            <lb ed="#V" n="129"/>secundum. Nihil eorum, quae ad intellectum pertinent dicitur
+            <lb ed="#V" n="130"/>personaliter in diuinis nisi solum verbum, solum enim verbum
+            <lb ed="#V" n="131"/>significat aliquid ab alio emanans, illud enim quod intellectus
+            <lb ed="#V" n="132"/>in concipiendo format, verbum est, intellectus autem ipse
+            <lb ed="#V" n="133"/>secundum quod est in actu per speciem intelligibilem
+            consi<lb ed="#V" n="134" break="no"/>deratur absolute, &amp; similiter intelligere, quod se habet ad
+            <lb ed="#V" n="135"/>intellectum in actu, sicut esse ad ens in actu, non enim
+            intelli<lb ed="#V" n="136" break="no"/>gere significat actum ab intellectu exeunte, sed in
+            intelli<lb ed="#V" n="137" break="no"/>gente manente. Haec ille. Similiter dico de voluntate
+            respe<lb ed="#V" n="138" break="no"/>ctu sui actus. Quia si quaeratur cur potius in diuinis
+            intel<lb ed="#V" n="139" break="no"/>lectus est productiuus verbi quam intellectionis actualis
+            <lb ed="#V" n="140"/>cum in nobis nunquam producatur verbum, quin actus
+            <lb ed="#V" n="141"/>intelligendi producatur, &amp; similiter in voluntate.
+            Respon<lb ed="#V" n="142" break="no"/>det Sanctus Thomas de veritate. q. 4. articu. 2.
+          </p>
+          <p xml:id="capsco-a1wh7l-d1e1127">
+            Ad septimum vbi
+            <lb ed="#V" n="143"/>sic dicit. Aliquid potest procedere ab altero uno modo
+            <lb ed="#V" n="144"/>sicut actio ab agente &amp; operatio ab operante. Alio
+            mo<lb ed="#V" n="145" break="no"/>do sicut operatum ab operante, processus autem
+            opera<lb ed="#V" n="146" break="no"/>tionis ad operantem non distinguit rem per se
+            existen<lb ed="#V" n="147" break="no"/>tem ab alia re per se existente, sed distinguit
+            perfectio<lb ed="#V" n="148" break="no"/>nem a perfecto: quia operatio est perfectio operantis,
+            <lb ed="#V" n="149"/>sed processus operati distinguit unam rem ab alia, in
+            di<lb ed="#V" n="150" break="no"/>uinis autem non potest esse secundum rem distinctio
+            per<pb ed="#V" n="261"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>fectionis a perfectibili, inueniuntur tamen in Deo res
+            abinui<lb ed="#V" n="2" break="no"/>cem distinctae sclicetres personae, &amp; ideo processus qui
+            signifi<lb ed="#V" n="3" break="no"/>catur in diuinis, vt operationis ab operante non est nisi
+            ra<lb ed="#V" n="4" break="no"/>tionis tamen, sed processus qui significatur rei a principio potest
+            <lb ed="#V" n="5"/>in Deo realiter inueniri. Haec ille. Ex quo patet cur in
+            diui<lb ed="#V" n="6" break="no"/>nis intellectus non producit suam intellectionem secundum rem,
+            <lb ed="#V" n="7"/>tamen intellectus est principium producendi verbum realiter.
+            <lb ed="#V" n="8"/>Idem dico de voluntate quod non est productiua actus
+            aman<lb ed="#V" n="9" break="no"/>di secundum rem, sed tamen est realiter productiua spiritus, qui
+            <lb ed="#V" n="10"/>se habet ad actum voluntatis, sicut verbum ad actum
+            in<lb ed="#V" n="11" break="no"/>tellectus. Veruntamen Sanctus Thomas ibidem videtur dicere, quod
+            <lb ed="#V" n="12"/>licet intellectus habeat in se aliquid procedens per modum
+            <lb ed="#V" n="13"/>operationis &amp; aliquid per modum operati, tamen voluntas non
+            <lb ed="#V" n="14"/>habet aliquid procedens per modum operati, sed solum
+            <lb ed="#V" n="15"/>per modum operationis. Sed intelligit vt mihi videtur, quod
+            <lb ed="#V" n="16"/>voluntas non operatur obiectum suum, nec similitudinem
+            <lb ed="#V" n="17"/>obiecti sicut intellectus.
+          </p>
+          <p xml:id="capsco-a1wh7l-d1e1186">
+            Ad secundum negatur minor, non
+            <lb ed="#V" n="18"/>enim verbum dicit actualem intellectionem, sed aliquid
+            <lb ed="#V" n="19"/>productum per eam, vt alias patuit.
+          </p>
+          <p xml:id="capsco-a1wh7l-d1e1193">
+            Ad tertium dicitur,
+            <lb ed="#V" n="20"/>quod sicut sancti cum dicunt verbum esse notitiam, vel
+            cogni<lb ed="#V" n="21" break="no"/>tionem, vel sapientiam &amp; huiusmodi, non intelligunt per
+            <lb ed="#V" n="22"/>notitiam actum, vel habitum intellectus, sed aliquid
+            ope<lb ed="#V" n="23" break="no"/>ratum vel productum per actualem intellectionem, ita cum
+            <lb ed="#V" n="24"/>dicunt spiritum esse amorem, non loquuntur de amore qui
+            <lb ed="#V" n="25"/>dicit actum vel habitum proprie, sed aliquid procedens per
+            <lb ed="#V" n="26"/>actum amoris.
+          </p>
+          <p xml:id="capsco-a1wh7l-d1e1212">
+            Ad primum Henrici dicitur, quod deficit in
+            <lb ed="#V" n="27"/>duobus. Primo quod similitudo illa non valet, quod enim
+            homo<lb ed="#V" n="28" break="no"/>habeat tales duos amores contingit ex hoc quod procedit
+            <lb ed="#V" n="29"/>de potentia in actum, &amp; ideo aliqua perfectius &amp; intensius
+            <lb ed="#V" n="30"/>diligit quam alia. Secundo: quia supponit sine
+            probatio<lb ed="#V" n="31" break="no"/>ne, quod Spiritus sanctus sit amor qui est actus diligendi. Ad
+            <lb ed="#V" n="32"/>secundum similiter dicitur: quia dupliciter deficit sicut
+            <lb ed="#V" n="33"/>primum.
+          </p>
+          <p xml:id="capsco-a1wh7l-d1e1230">
+            Ad tertium dicitur, quod false supponit quod
+            ver<lb ed="#V" n="34" break="no"/>bum sit notitia actualis. Ad quartum dicitur, quod sicut
+            <lb ed="#V" n="35"/>verbum artificis non dicit notitiam actualem, sed
+            conce<lb ed="#V" n="36" break="no"/>ptionem operatam per actum intellectus, ita similiter
+            di<lb ed="#V" n="37" break="no"/>co de amore qui impellit eum ad operandum.
+          </p>
+          <p xml:id="capsco-a1wh7l-d1e1241">
+            Ad quintum
+            <lb ed="#V" n="38"/>dicitur, quod si ista inueniantur in dictis sanctorum scilicetardor,
+            <lb ed="#V" n="39"/>slamma, &amp; huiusmodi attribui spiritui sancto, istae
+            meta<lb ed="#V" n="40" break="no"/>phorae sunt exponendae ad hoc quod per talia non
+            intelli<lb ed="#V" n="41" break="no"/>gatur actualis operatio voluntatis, sed aliquid praeuium
+            <lb ed="#V" n="42"/>actui, vel constitutum per actum volendi, aut amandi, vt
+            <lb ed="#V" n="43"/>saepe dictum est.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

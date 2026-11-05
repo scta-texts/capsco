@@ -1,0 +1,2271 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 3, Distinctio 23, Quaestio 1</title>
+        <author ref="#JohannesCapreolus">Johannes Capreolus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 3, Distinctio 23, Quaestio 1</title>
+          <date when="2026-11-04">Nov 4, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-j88c03">Venice, 1589, v. 3</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-04" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="164"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="capsco-c3gqec"><!-- l3d23q1 -->
+        <head xml:id="capsco-c3gqec-Hd1e101">Quaestio 1</head>
+        <head xml:id="capsco-c3gqec-Hd1e103" type="question-title">Utrum virtutes habituales sint homini necessariae</head>
+        <p xml:id="capsco-c3gqec-d1e106">
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="74"/>DISTINCTIO XXIII.
+          <lb ed="#V" n="75"/>QVAESTIO VNICA
+          <lb ed="#V" n="76"/>Vtrum virtutes habituales sint homini necessariae.
+        </p>
+        <p xml:id="capsco-c3gqec-d1e117">
+          <lb ed="#V" n="77"/><milestone ed="#V" unit="p" rend="initial"/> CIRCA vigesimamtertiam
+          distinctio<lb ed="#V" n="78" break="no"/>nem tertij sententiarum quaeritur. Vtrum
+          <lb ed="#V" n="79"/>virtutes habituales sint homini
+          neces<lb ed="#V" n="80" break="no"/>sariae.
+        </p>
+        <p xml:id="capsco-c3gqec-d1e129">
+          Et arguitur quod non. Quia nullus
+          <lb ed="#V" n="81"/>habitus est necessarius, sed virtutes suntem
+          <lb ed="#V" n="82"/>habitus, igitur non sunt necessariae.
+          Mi<lb ed="#V" n="83" break="no"/>nor nota est, maior probatur, quia
+          habi<lb ed="#V" n="84" break="no"/>tus importat ordinem ad actum, sed
+          po<lb ed="#V" n="85" break="no"/>tentia importat principium actus sufficienter: nam &amp;
+          po<lb ed="#V" n="86" break="no"/>tentiae naturales absque habitibus sunt principia actuum:
+          <lb ed="#V" n="87"/>ergo non est necessarium esse habitus.
+        </p>
+        <p xml:id="capsco-c3gqec-d1e148">
+          <lb ed="#V" n="88"/><milestone ed="#V" unit="p" rend="indent"/> In oppositum arguitur sic. Quia habitus &amp; virtutes sunt
+          <lb ed="#V" n="89"/>quaedam perfectiones, sed perfectio est maxime
+          necessa<lb ed="#V" n="90" break="no"/>ria rei, cum habeat rationem finis: ergo necessarium est
+          <lb ed="#V" n="91"/>habitus &amp; virtutes esse.
+        </p>
+        <p xml:id="capsco-c3gqec-d1e160">
+          <lb ed="#V" n="92"/><milestone ed="#V" unit="p" rend="indent"/> In hac quaestione sunt tres articuli. In primo
+          ponen<lb ed="#V" n="93" break="no"/>tur conclusiones. In secundo obiectiones. In tertio
+          so<lb ed="#V" n="94" break="no"/>lutiones.
+        </p>
+        <div xml:id="capsco-c3gqec-Dd1e170">
+          <head xml:id="capsco-c3gqec-Hd1e172">Articulus 1</head>
+          <p xml:id="capsco-c3gqec-d1e174">
+            <lb ed="#V" n="95"/><milestone ed="#V" unit="p" rend="initial"/> QVantum ad primum articulum sit prima conclusio.
+            <lb ed="#V" n="96"/>Habitus sunt homini necessarij. Istam ponit Sanctus Thomas
+            <lb ed="#V" n="97"/>prima secundae quaestio. 49. artic. 4. vbi sic dicit. Habitus
+            im<lb ed="#V" n="98" break="no"/>portat quandam dispositionem in ordine ad naturam rei,
+            <lb ed="#V" n="99"/>&amp; ad operationem vel finem eius, secundum quem aliquid
+            <lb ed="#V" n="100"/>bene vel male disponitur ad aliud. Ad hoc autem quod
+            <lb ed="#V" n="101"/>aliquid indigeat disponi ad alterum tria requiruntur.
+            Pri<lb ed="#V" n="102" break="no"/>mo quidem vt illud quod disponitur sit alterum ab eo, ad
+            <lb ed="#V" n="103"/>quod disponitur, &amp; se habeat ad ipsum vt potentia ad actum.
+            <lb ed="#V" n="104"/>Vnde si aliquid sit, cuius natura non sit composita ex
+            po<lb ed="#V" n="105" break="no"/>tentia &amp; actu, &amp; cuius substantia sit sua operatio, &amp; ipsum
+            <lb ed="#V" n="106"/>sit propter se ipsum, ibi habitus, vel dispositio locum non
+            <lb ed="#V" n="107"/>habet, sicut patet in Deo. Secundo requiritur, quod illud
+            <lb ed="#V" n="108"/>quod est in potentia ad alterum, possit pluribus modis
+            de<lb ed="#V" n="109" break="no"/>terminari &amp; ad diuersa. Vnde si aliquid non sit in
+            poten<lb ed="#V" n="110" break="no"/>tia nisi ad vnum, ibi dispositio vel habitus locum non
+            ha<lb ed="#V" n="111" break="no"/>bet, quia tale subiectum ex sui natura habet debitam
+            habi<lb ed="#V" n="112" break="no"/>tudinem, ad talem actum. Vnde si corpus coeleste sit
+            com<lb ed="#V" n="113" break="no"/>positum ex materia &amp; forma, cum illa materia non sit in
+            po<lb ed="#V" n="114" break="no"/>tentia ad aliam formam, non habet ibi locum dispositio
+            na<lb ed="#V" n="115" break="no"/>turalis habitus ad formam, aut etiam ad operationem, quia
+            na<lb ed="#V" n="116" break="no"/>tura caelestis corporis non est in potentia nisi ad vnum
+            mo<lb ed="#V" n="117" break="no"/>tum determinatum. Tertio requiritur quod plura
+            concur<lb ed="#V" n="118" break="no"/>rant ad disponendum subiectum ad vnum eorum ad quae
+            <lb ed="#V" n="119"/>est in potentia, quae diuersis modis commensurari possunt,
+            <lb ed="#V" n="120"/>vt sic disponantur bene vel male ad formam, vel
+            operatio<lb ed="#V" n="121" break="no"/>nes. Vnde qualitates simplices elementorum, quae
+            secun<lb ed="#V" n="122" break="no"/>dum vnum modum determinatum conueniunt naturis
+            ele<lb ed="#V" n="123" break="no"/>mentorum, non dicimus dispositiones vel habitus, sed
+            sim<lb ed="#V" n="124" break="no"/>plices qualitates. Dicimus autem dispositiones vel
+            habi<lb ed="#V" n="125" break="no"/>tus sanitatem &amp; pulchritudinem, &amp; alia huiusmodi, quae
+            <lb ed="#V" n="126"/>important quandam commensurationem plurium, quae
+            <lb ed="#V" n="127"/>possunt diuersis modis commensurari. Propter quod dicit
+            <lb ed="#V" n="128"/>Philosophus 5. Met. quod habitus est dispositio, &amp;
+            disposi<lb ed="#V" n="129" break="no"/>tio est ordo habentis partes vel secundum potentiam, vel
+            <lb ed="#V" n="130"/>secundum locum, vel secundum speciem. Quia igitur
+            mul<lb ed="#V" n="131" break="no"/>ta sunt entia, ad quorum naturas &amp; operationes necesse est
+            <lb ed="#V" n="132"/>plura concurrere, quae diuersis modis commensurari
+            pos<lb ed="#V" n="133" break="no"/>sunt, ideo necesse est habitus esse. Haec ille.
+          </p>
+          <p xml:id="capsco-c3gqec-d1e262">
+            <lb ed="#V" n="134"/><milestone ed="#V" unit="p" rend="indent"/> Item tertio sent. distinct. vigesimatertia, quaestio. prima
+            <lb ed="#V" n="135"/>articulo primo, sic dicit. In omnibus quae habent regulam
+            <lb ed="#V" n="136"/>&amp; mensuram, eorum bonitas &amp; rectitudo consistit in
+            con<lb ed="#V" n="137" break="no"/>formitate ad suam regulam, vel mensuram, malitia autem
+            <lb ed="#V" n="138"/>secundum quod ab ea discordant. Prima autem mensura
+            <lb ed="#V" n="139"/>&amp; regula omnium est diuina sapientia: vnde bonitas &amp;
+            re<lb ed="#V" n="140" break="no"/>ctitudo siue veritas vniuscuiusque consistit secundum quod
+            <lb ed="#V" n="141"/>attingit ad hoc, ad quod ex diuina sapientia ordinatur, vt
+            <lb ed="#V" n="142"/>Anselm. dicit. Et similiter etiam est de alijs secundis
+            regu<lb ed="#V" n="143" break="no"/>lis, quod in conformitate ad ipsas bonitas, &amp; rectitudo
+            re<lb ed="#V" n="144" break="no"/>gulatorum consistit. Sunt autem quaedam potentiae
+            limi<lb ed="#V" n="145" break="no"/>tatae ad determinatas actiones, vel passiones, &amp; secundum
+            <pb ed="#V" n="165"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>quod illas implent suae regulae consormantur, quia per
+            diui<lb ed="#V" n="2" break="no"/>nam sapientiam ad talia sunt ordinatae. Et quia naturae
+            incli<lb ed="#V" n="3" break="no"/>natio semper est ad vnum, ideo tales potentae ex ipsa natura
+            <lb ed="#V" n="4"/>potentiae rectitudinem sufficienter habere possunt &amp;
+            bo<lb ed="#V" n="5" break="no"/>nitatem, malitia autem in eis contingit ex defectu potentiae
+            <lb ed="#V" n="6"/>Potentiae vero altiores &amp; vniuersaliores, cuiusmodi sunt
+            ra<lb ed="#V" n="7" break="no"/>tionales potentiae, non sunt limitatae ad aliquid vnum vel
+            <lb ed="#V" n="8"/>obiectum, vel modum operandi, quia secundum diuersa &amp;
+            <lb ed="#V" n="9"/>diuersimode rectitudinem habere possunt. Et ideo ex
+            natu<lb ed="#V" n="10" break="no"/>ra potentiae non possunt determinari ad rectum &amp; bonum
+            <lb ed="#V" n="11"/>ipsarum, sed oportet quod rectificentur rectitudinem a
+            su<lb ed="#V" n="12" break="no"/>regula recipientes. Hoc autem contingit dupliciter. Vno
+            <lb ed="#V" n="13"/>modo vt recipiatur per modum passionis, sicut in hoc ipso
+            <lb ed="#V" n="14"/>quod potentia regulata a regulante mouetur. sed quia in
+            <lb ed="#V" n="15"/>hoc quod aliquid patitur, &amp; nihil ad actum confert
+            <lb ed="#V" n="16"/>diffinitio violentiae consistit, vt patet in tertio
+            Ethico<lb ed="#V" n="17" break="no"/>rnm violentia autem difficultatem &amp; tristitiam habet, vt
+            <lb ed="#V" n="18"/>quinto metaph. dicitur ideo praedicta receptio
+            rectitudinis<lb ed="#V" n="19" break="no"/>non sufficit ad perfectam rectisicationem potentiae
+            regula<lb ed="#V" n="20" break="no"/>tae, oportet ergo vt alio modo recipiatur scilicet per modum
+            qua<lb ed="#V" n="21" break="no"/>litatis inhaerentis, vt scilicet rectitudo regulae efficiatur
+            for<lb ed="#V" n="22" break="no"/>ma potentiae regulatae. Sic enim faciliter &amp; delectabiliter
+            <lb ed="#V" n="23"/>quod rectum est operabitur, sicut id quod est conueniens
+            <lb ed="#V" n="24"/>suae formae. Et haec quidem qualitas siue forma dum adhuc
+            <lb ed="#V" n="25"/>imperfecta est, dispositio dicitur. Cum autem iam
+            consuma<lb ed="#V" n="26" break="no"/>ta est, &amp; quasi in naturam versa, habitus nominatur, qui vt
+            <lb ed="#V" n="27"/>ex secundo Ethi. &amp; quinto metaphy. accipitur est secundum
+            <lb ed="#V" n="28"/>quem nos habemus ad aliquid bene vel male. Et inde est quod
+            <lb ed="#V" n="29"/>in praedicamentis dicitur dispositio facile mobilis, &amp;
+            habi<lb ed="#V" n="30" break="no"/>tus difficile mobilis, quia quod naturale est, non cito
+            tran<lb ed="#V" n="31" break="no"/>sumitur. Inde est etiam quod habitus ad vnum inclinat
+            si<lb ed="#V" n="32" break="no"/>cut natura, vt dicitur quinto Ethi. Et propter hoc etiam
+            si<lb ed="#V" n="33" break="no"/>gnum generati habitus est delectatio facta in opere, vt
+            di<lb ed="#V" n="34" break="no"/>citur secundo Ethi. quia quod est naturae conueniens,
+            dele<lb ed="#V" n="35" break="no"/>ctabile &amp; facile est. Et propter hoc etiam habitus a
+            Comen<lb ed="#V" n="36" break="no"/>tatore. tertio de anima diffinitur, quod est quo quis agit cum
+            <lb ed="#V" n="37"/>voluerit quasi in promptu habens quod operandum est. Et
+            <lb ed="#V" n="38"/>ideo habitus possessioni comparatur primo Ethi. secundum
+            <lb ed="#V" n="39"/>quam res possessae ad nutum habentur operatio vero vsui.
+            Pa<lb ed="#V" n="40" break="no"/>tet ergo quod potentiae naturales, quia sunt ex se ipsis
+            deter<lb ed="#V" n="41" break="no"/>minatae ad vnum, habitibus non indigent. Similiter etiam
+            <lb ed="#V" n="42"/>nec apprehensiuae, sensitiuae, quia habent determinatum
+            mo<lb ed="#V" n="43" break="no"/>dum operandi a quo non deficiunt nisi per defectum
+            poten<lb ed="#V" n="44" break="no"/>tiae. Similiter etiam nec voluntas humana secundum quod
+            <lb ed="#V" n="45"/>est determinata naturaliter ad vltimum finem, &amp; ad bonum
+            <lb ed="#V" n="46"/>secundum quod est obiectum eius. Similiter etiam nec
+            intel<lb ed="#V" n="47" break="no"/>lectus agens, qui habet determinatam actionem scilicet facere
+            in<lb ed="#V" n="48" break="no"/>telligibilia in actu, sicut lux facere visibilia in actu.
+            Simili<lb ed="#V" n="49" break="no"/>ter etiam nec in ipso Deo est aliquis habitus cum ipse sit
+            pri<lb ed="#V" n="50" break="no"/>ma regula ab alio non regulata.
+          </p>
+          <p xml:id="capsco-c3gqec-d1e404">
+            Vnde essentialiter bonus
+            <lb ed="#V" n="51"/>est, &amp; non per participationem rectitudinis ab alio, nec
+            ma<lb ed="#V" n="52" break="no"/>lum in ipso potest incidere. Sed intellectus possibilis, qui
+            <lb ed="#V" n="53"/>de se indeterminatus est sicut materia prima, habitu
+            indi<lb ed="#V" n="54" break="no"/>get, quo participet rectitudinem suae regulae. Et naturali
+            quan<lb ed="#V" n="55" break="no"/>tam ad ea, quae ex ipso lumine intellectus agentis, qui est eius
+            <lb ed="#V" n="56"/>regula, statim determinantur sicut sunt prima principia. Et
+            <lb ed="#V" n="57"/>acquisito quantum ad ea, quae ex ipsis principiis educi
+            pos<lb ed="#V" n="58" break="no"/>sunt Et infuso luminesiue habitu, quo participet
+            rectitudi<lb ed="#V" n="59" break="no"/>nem primae regulae in his, quae intellectum agentem
+            exce<lb ed="#V" n="60" break="no"/>dunt. Similiter in voluntate quantum ad illa, ad quae ex
+            na<lb ed="#V" n="61" break="no"/>tura non determinatur, &amp; in irascibili &amp; in
+            concupiscibili<lb ed="#V" n="62" break="no"/>indigemus habitibus secundum quod participant
+            rectitudi<lb ed="#V" n="63" break="no"/>nem rationis, quae est eorum regula, vel rectitudinem primae
+            <lb ed="#V" n="64"/>mensurae in his, quae naturam humanam excedunt, quantum
+            <lb ed="#V" n="65"/>ad habitus infusos. Et similiter in corpore animato est
+            ha<lb ed="#V" n="66" break="no"/>bitus sanitatis prout participat ab anima dispositionem
+            <lb ed="#V" n="67"/>qua potest opus suum recte perficere, quia oculus sanus
+            di<lb ed="#V" n="68" break="no"/>citur, qui opus oculi recte perficere potest, ut dicitur
+            deci<lb ed="#V" n="69" break="no"/>mo de animalibus. Vnde patet quod huiusmodi qualitates
+            <lb ed="#V" n="70"/>quas habitus dicimus, in rebus animatis inueniuntur, &amp;
+            prae<lb ed="#V" n="71" break="no"/>cipue habentibus electionem, utdicitur in quinto metaph.
+            <lb ed="#V" n="72"/>Haec ille. Ex quibus potest sic argui pro conclusione. Illud
+            <lb ed="#V" n="73"/>est necessarium homini in operibus suis, sine quo non potest
+            <lb ed="#V" n="74"/>perfecte rectificare actus suarum potentiarum, sed habitus
+            <lb ed="#V" n="75"/>sunt huiusmodi igitur. &amp;c.
+          </p>
+          <p xml:id="capsco-c3gqec-d1e461">
+            Secunda conclusio. Virtutes
+            hu<cb ed="#V" n="b"/><lb ed="#V" n="76" break="no"/>manae sunt habitus. Hanc ponit Sanctus Thomas tertio
+            senten<lb ed="#V" n="77" break="no"/>tiarum ubi supra articulo tertio quaestione prima ubi sic
+            di<lb ed="#V" n="78" break="no"/>cit. Nomen virtutis secundum primam sui impositionem
+            <lb ed="#V" n="79"/>videtur quandam uiolentiam sonare, vnde tertio coeli &amp;
+            <lb ed="#V" n="80"/>mundi dicitur quod motus accidentalis, idest violentus, quod
+            <lb ed="#V" n="81"/>est a virtute, idest violentia, non cum auxilio naturae, sed quia
+            <lb ed="#V" n="82"/>non potest aliquid alteri violentiam inferre, nisi per
+            poten<lb ed="#V" n="83" break="no"/>tiam perfectam secundum quam agat &amp; non patiatur,
+            in<lb ed="#V" n="84" break="no"/>de tractum est nomen uirtutis ad, significandum omnem
+            <lb ed="#V" n="85"/>potentiam perfectam, sine qua potest aliquid in se ipso
+            sub<lb ed="#V" n="86" break="no"/>sistere siue qua potest operari. Et sic dicitur in primo
+            coeli<lb ed="#V" n="87" break="no"/>&amp; mundi quod uirtus est vltimum potentiae, quia perfectio
+            <lb ed="#V" n="88"/>potentiae mensuratur ex ultimo &amp; maximo, quod quis
+            po<lb ed="#V" n="89" break="no"/>test. Et quia malum in actu contingit ex defectu potentiae
+            <lb ed="#V" n="90"/>agentis, ideo ad perfectionem potentiae exigitur quod bene
+            <lb ed="#V" n="91"/>operetur in genere suo. Et propter hoc dicitur in secundo
+            <lb ed="#V" n="92"/>Ethi. quod virtus est quae bonum facit habentem, &amp; opus
+            <lb ed="#V" n="93"/>eius bonum reddit. Et in septimo phi. dicitur, quod virtus
+            <lb ed="#V" n="94"/>est dispositio perfecti ad optimum eorum scilicet ad quae
+            po<lb ed="#V" n="95" break="no"/>tentia se extendit. Et quia de uirtutibus humanis loquimur
+            <lb ed="#V" n="96"/>ideo virtus humana erit quae perficiet humanam potentiam
+            <lb ed="#V" n="97"/>ad actum bonum &amp; optimum. Cum autem homo ex hoc
+            <lb ed="#V" n="98"/>sit homo quod habet rationem &amp; intellectum, ideo
+            poten<lb ed="#V" n="99" break="no"/>tiae illae sunt humanae quae aliqualiter rationales sunt, vel
+            <lb ed="#V" n="100"/>per essentiam sicut quae sunt in parte intellectiua, uel per
+            p<lb ed="#V" n="101" break="no"/>ticipationem, sicut quae sunt in parte sensitiua rationi
+            obe<lb ed="#V" n="102" break="no"/>dientes. Hae autem potentiae ex natura potentiae non possunt
+            <lb ed="#V" n="103"/>esse determinatae ad actus bonos, nec perfecte
+            determinan<lb ed="#V" n="104" break="no"/>tur nisi per habitus, vnde virtutes humanae, de quibus
+            loqui<lb ed="#V" n="105" break="no"/>mur, non sunt potentiae, sed habitus. Haec ille.
+          </p>
+          <p xml:id="capsco-c3gqec-d1e531">
+            Item prima
+            <lb ed="#V" n="106"/>secundae q. 55. art. primo sic dicit. Vlterius nominat
+            quan<lb ed="#V" n="107" break="no"/>dam potentiae perfectionem. Vniuscuiusque autem
+            perfe<lb ed="#V" n="108" break="no"/>ctio consideratur praecipue in ordine ad finem suum. Finis
+            <lb ed="#V" n="109"/>autem potentiae est actus. Potentia ergo dicitur esse
+            perfe<lb ed="#V" n="110" break="no"/>cta secundum quod determinatur ad suum actum. Sunt
+            au<lb ed="#V" n="111" break="no"/>tem quaedam potentiae, quae secundum se ipsas sunt
+            deter<lb ed="#V" n="112" break="no"/>minatae ad suos actus, sicut potentiae naturales actiuae. &amp; ideo
+            <lb ed="#V" n="113"/>huiusmodi potentiae naturales secundum seipsas dicuntur
+            <lb ed="#V" n="114"/>virtutes. Potentiae autem rationales, quae sunt potentiae
+            pro<lb ed="#V" n="115" break="no"/>priae hominis non sunt determinatae ad vnum, sed se habent
+            <lb ed="#V" n="116"/>indeterminate ad multa. Determinantur autem ad actus
+            <lb ed="#V" n="117"/>per habitus. &amp; ideo uirtutes humanae sunt habitus. Haec ille.
+          </p>
+          <p xml:id="capsco-c3gqec-d1e560">
+            <lb ed="#V" n="118"/>Ex quibus potest sic argui pro conclusione. Illud quod
+            per<lb ed="#V" n="119" break="no"/>fecte determinat potentiam rationalem ad perfectionem
+            <lb ed="#V" n="120"/>suam &amp; ad bonum actum suum, est habitus, sed uirtus
+            hu<lb ed="#V" n="121" break="no"/>mana est huiusmodi, igitur est habitus, Et in hoc primus
+            ar<lb ed="#V" n="122" break="no"/>ticulus terminatur.
+          </p>
+        </div>
+        <div xml:id="capsco-c3gqec-Dd1e574">
+          <head xml:id="capsco-c3gqec-Hd1e576">Articulus 2</head>
+          <p xml:id="capsco-c3gqec-d1e578">
+            <lb ed="#V" n="123"/><milestone ed="#V" unit="p" rend="initial"/> Vantum ad secundum articulum arguendum est
+            con<lb ed="#V" n="124" break="no"/>tra conclusiones. Et quidem contra primam arguit
+            <lb ed="#V" n="125"/>Durandus probando, quod officium vel effectus, aut
+            actiu<lb ed="#V" n="126" break="no"/>tas habitus non sit determinare actum uel potentiam ad
+            <lb ed="#V" n="127"/>actum. Et quod habitus non sit necessarius ad
+            determinan<lb ed="#V" n="128" break="no"/>dum actum probat. Quia determinatio actus est solum
+            se<lb ed="#V" n="129" break="no"/>cundum rationem vniuersalis, &amp; particularis, aut singularis
+            <lb ed="#V" n="130"/>non enim in rerum natura inuenitur aliquis actus, qui non
+            <lb ed="#V" n="131"/>sit determinatus in esse naturae secundum singularitatem,
+            <lb ed="#V" n="132"/>&amp; ad esse moris secundum bonitatem vel malitiam si sit de
+            <lb ed="#V" n="133"/>liberatus. Sed secundum conceptum nostrum possumus
+            in<lb ed="#V" n="134" break="no"/>telligere actum in uniuersali, qui vt sic indiferenter se
+            ha<lb ed="#V" n="135" break="no"/>bet ad istum actum, vel illum, &amp; ad bonum vel malum. Et
+            <lb ed="#V" n="136"/>sicut vniuersale non differt realiter a singulari in quo est
+            si<lb ed="#V" n="137" break="no"/>cut actus indetermniniatus &amp; determinatus non differunt
+            <lb ed="#V" n="138"/>realiter, sed solum secundum conceptum, quia quod
+            inde<lb ed="#V" n="139" break="no"/>terminate concipitur, determinate existit, ita quod sua
+            rea<lb ed="#V" n="140" break="no"/>lis existentia in rerum natura est sua realis determinatio ex se
+            <lb ed="#V" n="141"/>ipsa formaliter, &amp; non per aliquid ipsi adueniens, &amp; hoc
+            quan<lb ed="#V" n="142" break="no"/>tum ad esse naturae. Sed determinatio actus ad bonum
+            quan<lb ed="#V" n="143" break="no"/>tum ad esse morale non est ex sola singularitate suae realis
+            <lb ed="#V" n="144"/>existentiae, quia actus malus singulariter existit, sicut etiam
+            bo<lb ed="#V" n="145" break="no"/>nus, sed est formaliter bonus ex conformitate ad rectam
+            ratio<lb ed="#V" n="146" break="no"/>nem, &amp; malus ex difformitate ad rectam rationem. Hoc praemisso
+            pa<lb ed="#V" n="147" break="no"/>tet primo quod potentia determinatur in seipsa per
+            habi<lb ed="#V" n="148" break="no"/>tum formaliter. Et secundo inquirendum est an ipsa
+            deter<lb ed="#V" n="149" break="no"/>minetur per habitum determinatum ad actum. Primum
+            <lb ed="#V" n="150"/>est de se clarum, quia omne subiectum, quod est in
+            poten<pb ed="#V" n="166"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>tia ad suscipiendum plura sibi inuicem incompossibilia,
+            re<lb ed="#V" n="2" break="no"/>cipiendo vnum determinatur per ipsum, sic quod illo inex
+            <lb ed="#V" n="3"/>stente non potest recipere alterum, sed potentiae rationales
+            <lb ed="#V" n="4"/>sunt in potentia ad recipiendum habitus bonos &amp; malos quod
+            <lb ed="#V" n="5"/>adinuicem suat incompossibiles, ergo potentia, quae recipit
+            <lb ed="#V" n="6"/>vnum eorum determinatur per ipsum, sic quod illo
+            inexi<lb ed="#V" n="7" break="no"/>stente, non est indifferens ad recipiendum alterum. Sed qua
+            <lb ed="#V" n="8"/>habitus habet ordinem ad actum, ideo videndum est, an
+            de<lb ed="#V" n="9" break="no"/>terminet potentiam ad producendum, vel recipiendum
+            de<lb ed="#V" n="10" break="no"/>terminatum actum. Et dicendum est quod ad
+            determinatio<lb ed="#V" n="11" break="no"/>nem actus in esse naturae nihil facit habius bonus vel
+            ma<lb ed="#V" n="12" break="no"/>lus. Cuius ratio est, quia effectus communis requirit causa
+            <lb ed="#V" n="13"/>communem, sed determinatio actus in esse naturae, cum sit
+            <lb ed="#V" n="14"/>sua realis singularitas, est effectus communis omni actui
+            exi<lb ed="#V" n="15" break="no"/>stenti in rerum natura, siue sit ante habitum, siue post, siue
+            <lb ed="#V" n="16"/>sit bonus, siue sit malus: ergo causa talis determinationis est
+            <lb ed="#V" n="17"/>communis omnibus actibus sine quacunque exceptione.
+            <lb ed="#V" n="18"/>Habitus autem non est sic communis &amp; generaliter
+            acce<lb ed="#V" n="19" break="no"/>ptus, cum ante omnem habitum fuerint actus praedicto
+            mo<lb ed="#V" n="20" break="no"/>do determinati. Et multo minus acceptus inspeciali. quare
+            <lb ed="#V" n="21"/>&amp;c. Et haec ratio non solum probat, quod habitus non sit
+            <lb ed="#V" n="22"/>causa per se talis determinationis, sed etiam quod nullo
+            mo<lb ed="#V" n="23" break="no"/>do determinet vel inclinet potentiam ad actum sic
+            deter<lb ed="#V" n="24" break="no"/>minatum. Quia nihil determinatur, nec determinari
+            po<lb ed="#V" n="25" break="no"/>test ad id, quod est omnibus commune, determinatio enim
+            <lb ed="#V" n="26"/>fit ad aliquid speciale, sed singularitas est communis
+            omni<lb ed="#V" n="27" break="no"/>bus actibus in rerum natura existentibus, ergo nulla
+            poten<lb ed="#V" n="28" break="no"/>tia determinatur ad producendum actum singularem.
+          </p>
+          <p xml:id="capsco-c3gqec-d1e705">
+            Item
+            <lb ed="#V" n="29"/>ad illud ad quod potentia de sui natura est sic determinata,
+            <lb ed="#V" n="30"/>quod non potest oppositum, non indiget aliquo
+            determi<lb ed="#V" n="31" break="no"/>nante sed quaelibet potentia ex natura sua est sic
+            determina<lb ed="#V" n="32" break="no"/>ta ad producendum, vel recipiendum actum singularem,
+            <lb ed="#V" n="33"/>quod nullo modo potest in oppositum. Actus enim
+            vniuer<lb ed="#V" n="34" break="no"/>salis nec produci potest, nec recipi, ergo nulla potentia
+            po<lb ed="#V" n="35" break="no"/>test determinari ad producendum, vel recipiendum actum
+            <lb ed="#V" n="36"/>determinatum determinatione singularitatis, quae est
+            secun<lb ed="#V" n="37" break="no"/>dum esse naturae. De determinanione autem actus ad bonum
+            <lb ed="#V" n="38"/>vel malum secundum esse morale aliter dicendum est. Ad
+            <lb ed="#V" n="39"/>hanc enim determinationem quamuis nihil faciat habitus
+            <lb ed="#V" n="40"/>per se facit tamen per accidens. Quod enim habitus
+            nihil<lb ed="#V" n="41" break="no"/>faciat per se ad talem determinationem patet, quia bonitas
+            <lb ed="#V" n="42"/>&amp; malitia actus moralis consistunt in conformitate, vel
+            dif<lb ed="#V" n="43" break="no"/>formitate eius ad rectam rationem, conformitas autem &amp;
+            <lb ed="#V" n="44"/>difformitas sunt respectus, vel relationes ad quas non est
+            pr<lb ed="#V" n="45" break="no"/>se &amp; immediate aliqua actio, sed solum mediante
+            fundamen<lb ed="#V" n="46" break="no"/>to, vt patet ex quinto physicorum. Et ideo nihil potest esse
+            per<lb ed="#V" n="47" break="no"/>se causa talis conformitatis vel difformitatis, sen bonitatis &amp;
+            <lb ed="#V" n="48"/>malitiae, nisi illud quod est per se causa entitatis actus
+            secun<lb ed="#V" n="49" break="no"/>dum esse naturae, quae est fundamentum talium. Constat
+            au<lb ed="#V" n="50" break="no"/>tem quod habitus non est per se causa entitatis actus
+            secun<lb ed="#V" n="51" break="no"/>dum, esse naturale, quia nullus effectus potest poni sine sua
+            <lb ed="#V" n="52"/>causa per se, sed actus qui sunt ante habitum, sunt
+            determi<lb ed="#V" n="53" break="no"/>natae entitatis in qua fundatur conformitas ad rectam
+            ratio<lb ed="#V" n="54" break="no"/>nem, vel difformitas ad eandem. Actus enim, quibus
+            genera<lb ed="#V" n="55" break="no"/>tur habitus bonus, sunt determinate boni, &amp; illi quibus
+            ge<lb ed="#V" n="56" break="no"/>neratur malus habitus, sunt determinate mali, ergo habitus
+            <lb ed="#V" n="57"/>non est per se causa talis determinationis. Vlterius arguit
+            <lb ed="#V" n="58"/>Durandus, quia habitus non reddat actum facilem vel
+            diffi<lb ed="#V" n="59" break="no"/>cilem in se. Primo sic. Quando duo actus sunt penitus
+            simi<lb ed="#V" n="60" break="no"/>les quantum ad omnia, quae sunt in eis, si vnus ex se sit
+            faci<lb ed="#V" n="61" break="no"/>lis, &amp; alter difficilis, vel vnus sit facilior altero, necesse est quod
+            <lb ed="#V" n="62"/>hoc sit totaliter ex parte agentis, &amp; non ex parte actus, ex
+            <lb ed="#V" n="63"/>quo ponitur penitus vniformis, sed actus praecedens
+            habi<lb ed="#V" n="64" break="no"/>tum, &amp; actus sequens ipsum sunt quandoque penitus
+            consi<lb ed="#V" n="65" break="no"/>miles quantum ad omnia, quae sunt in ipsis, ergo cum actus
+            <lb ed="#V" n="66"/>sequens dicatur facilior actu praecedente, necesse est quod
+            <lb ed="#V" n="67"/>hoc sit totaliter ex parte agentis. Maior satis patet. Sed
+            con<lb ed="#V" n="68" break="no"/>tra minorem posset aliquis dicere quod est falsa, quia actus
+            <lb ed="#V" n="69"/>sequens habitum semper est intensior quam praecedens.
+            <lb ed="#V" n="70"/>Sed illud non ualet, quia non est verum vniuersaliter,
+            <lb ed="#V" n="71"/>quod actus sequens habitum sit intensior quam
+            praece<lb ed="#V" n="72" break="no"/>dens. Et dato quod sic esset adhuc magis habetur
+            proposi<lb ed="#V" n="73" break="no"/>tum, quia in eadem specie actus intensior est de se difficilior
+            <lb ed="#V" n="74"/>Si ergo actus sequens habitum sit necessario &amp; semper
+            inten<lb ed="#V" n="75" break="no"/>sior quam actus praecedens, sequitur quod quantum est de
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="76"/>se erit difficilior, si ergo sit operanti facilior, necesse est quod
+            <lb ed="#V" n="77"/>tota facilitas sit ex parte operantis.
+          </p>
+          <p xml:id="capsco-c3gqec-d1e816">
+            Secundo sic patet
+            iden<lb ed="#V" n="78" break="no"/>Facilitas ex parte operis minuit meritum, si ergo per
+            habi<lb ed="#V" n="79" break="no"/>tum esset facilitas conditio operis, sequitur quod habitus
+            <lb ed="#V" n="80"/>diminueret de merito actus, quod est falsum. Tertio sic
+            <lb ed="#V" n="81"/>Quia habitus virtuosus est circa bonum &amp; difficile, sed si
+            <lb ed="#V" n="82"/>per habitum tolleretur bonitas actus, iam habitus virtuosus
+            <lb ed="#V" n="83"/>non prodesset, sed obesset, ergo similiter si per habitum
+            tol<lb ed="#V" n="84" break="no"/>latur difficultas, habitus bonus plus obest quam prodest
+            <lb ed="#V" n="85"/>Vlterius arguit, quod habitus nihil faciat de per se ad
+            inten<lb ed="#V" n="86" break="no"/>sionem actus. Primo. Quia illud quod conuenit per se
+            habi<lb ed="#V" n="87" break="no"/>tui acquisito, conuenit per se omni tali, sed intendere actum
+            <lb ed="#V" n="88"/>non conuenit omni habitui acquisito, igitur &amp;c. Maior
+            pa<lb ed="#V" n="89" break="no"/>tet. Quia quod conuenit per se alicui, conuenit per se
+            om<lb ed="#V" n="90" break="no"/>ni contento sub eo. Minor probatur. Quia omnis habitus
+            <lb ed="#V" n="91"/>acquisitus vel est intellectualis, vel moralis, vt dicitur in
+            fi<lb ed="#V" n="92" break="no"/>ne primi Ethi. sediiti habitus non faciunt per se ad
+            inten<lb ed="#V" n="93" break="no"/>sionem actus, ut patebit, igitur &amp;c. Minor huius patet
+            in<lb ed="#V" n="94" break="no"/>ducendo primo in habitibus intellectualibus, verbi gratia
+            <lb ed="#V" n="95"/>de scientia &amp; opinione, &amp; fide acquisita. Quia qui
+            cogno<lb ed="#V" n="96" break="no"/>scit primo aliquam conclusionem ex sola auctoritate
+            dicen<lb ed="#V" n="97" break="no"/>tis, puta credens eclipsim futuram ex auctoritate
+            astrologi<lb ed="#V" n="98" break="no"/>hanc praedicentis, &amp; nondum habens habitum, si postea
+            <lb ed="#V" n="99"/>firmetur in eo habitus huius credulitatis, &amp; de eadem vel
+            <lb ed="#V" n="100"/>simili conclusione non habeat nisi auctoritatem, quamuis
+            <lb ed="#V" n="101"/>firmius credat propter veritatem, quam sorte expertus est
+            <lb ed="#V" n="102"/>ex dictis astrologi, tamen non clarius cognoscet ueritatem
+            <lb ed="#V" n="103"/>dicti quam prius, licet sorte adhaereat firmius, quae firmitas
+            <lb ed="#V" n="104"/>non est primo &amp; solum ex auctoritate, nec ex habitu
+            cau<lb ed="#V" n="105" break="no"/>sato per auctoritatem, sed ex experientia euentus rerum
+            di<lb ed="#V" n="106" break="no"/>ctarum ab astrologo. Et si sic esset, adhuc de firmitate non
+            <lb ed="#V" n="107"/>quaerimus, sed de claritate cognitionis, quae sola pertinet ad
+            <lb ed="#V" n="108"/>intentionem actus cognoscendi. Firmitas enim adhaesionis
+            <lb ed="#V" n="109"/>nihil facit ad claritatem cognitionis, cum opinans
+            quando<lb ed="#V" n="110" break="no"/>que a que firmiter adhaereat conclusioni opinatae, sicut
+            de<lb ed="#V" n="111" break="no"/>monstrator conclusioni demonstratae, ut dicitur septimo
+            <lb ed="#V" n="112"/>Ethico. Similiter si quis habeat de aliqua conclusione
+            ratio<lb ed="#V" n="113" break="no"/>nem Dialecticam &amp; demonstratiuam, &amp; ex
+            frequentatio<lb ed="#V" n="114" break="no"/>ne eorum causetur in eo habitus opinionis vel scientiae, si
+            <lb ed="#V" n="115"/>post habitum causatum cognoscat eandem conclusionem
+            <lb ed="#V" n="116"/>per idem medium per quod prius cognoscebat non
+            appa<lb ed="#V" n="117" break="no"/>ret quod propter hoc clarius cognoscat, licet promptior sit
+            <lb ed="#V" n="118"/>exire in actum cognoscendi, quia habet habitum, quo
+            vti<lb ed="#V" n="119" break="no"/>potest cum voluerit. Sed de promptitudine non quaerimus,
+            <lb ed="#V" n="120"/>sed de claritate cognitionis, quae sola pertinet ad
+            intentio<lb ed="#V" n="121" break="no"/>nem actus. Quod autem ita sit. probatur sic. Intentio in actu
+            <lb ed="#V" n="122"/>cognitionis non videtur posse contingere per se nisi ex
+            par<lb ed="#V" n="123" break="no"/>te luminis sub quo aliquid cognoscitur, vel obiecti, quod
+            <lb ed="#V" n="124"/>repraesentatur, uel potentiae cognoscentis, vel dispositionis
+            <lb ed="#V" n="125"/>potentiae per se requisitae ad receptionem actus, omnia enim
+            <lb ed="#V" n="126"/>alia videntur se habere per accidens ad actum &amp; ad
+            intesio<lb ed="#V" n="127" break="no"/>nem eius sed habitus intellectualis nihil horum est, quare
+            <lb ed="#V" n="128"/>&amp;c. Maior patet. Videmus enim intensionem variari in actu
+            <lb ed="#V" n="129"/>ex parte solius luminis sicut illud quod videtur in lumine
+            <lb ed="#V" n="130"/>solis, clarius videtur quam illud, quod videtur in lumine
+            <lb ed="#V" n="131"/>lunae caeteris paribus.
+          </p>
+          <p xml:id="capsco-c3gqec-d1e936">
+            Item ex parte praesentationis solius
+            ob<lb ed="#V" n="132" break="no"/>iecti, quia idem visibile praesentatum in eodem lumine
+            vide<lb ed="#V" n="133" break="no"/>tur clarius vel obscurius ratione propinquitatis vel
+            remo<lb ed="#V" n="134" break="no"/>tionis. Similiter ex parte potentiae, quia idem visibile &amp; in
+            <lb ed="#V" n="135"/>eodem lumine, &amp; in eadem distantia clarius videt iuuenis
+            <lb ed="#V" n="136"/>quam senex, quia potentia visiua cum sit corporalis est
+            de<lb ed="#V" n="137" break="no"/>bilior vel fortior secundum conditionem corporis.
+          </p>
+          <p xml:id="capsco-c3gqec-d1e953">
+            Item ex
+            <lb ed="#V" n="138"/>parte dispositionis per se requisitae, quia idem visibile
+            aequa<lb ed="#V" n="139" break="no"/>liter propinquum, &amp; in eodem lumine videtur intensius,
+            <lb ed="#V" n="140"/>vel remissius ab eadem potentia aeque secundum se intensa,
+            <lb ed="#V" n="141"/>si dyaphaneitas oculi, quae per se requiritur ad receptionem
+            <lb ed="#V" n="142"/>speciei, vel visionis, sit alia &amp; alia. Et forte istud coincidit cum
+            <lb ed="#V" n="143"/>tertio. His autem exclusis non apparet, vnde posset esse
+            <lb ed="#V" n="144"/>uarietas intensionis &amp; remissionis in actu, &amp; sic patet maior
+            <lb ed="#V" n="145"/>Et minor similiter manifesta. est. Quia habitus acquisitus
+            <lb ed="#V" n="146"/>non est lumen, sub quo aliquid cognoscitur. Supponitur
+            <lb ed="#V" n="147"/>etiam quod idem obiectum repraesentetur aequaliter ante
+            <lb ed="#V" n="148"/>habitum &amp; post, quia per idem medium repraesentatiuum.
+            <lb ed="#V" n="149"/>Potentia autem intellectiua non suscipit magis &amp; minus
+            <lb ed="#V" n="150"/>Habitus etiam acquisitus non est dispositio uccessaria ad
+            <pb ed="#V" n="167"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>recipiendum actum, cum actus praecedat habitum quare
+            <lb ed="#V" n="2"/>&amp;c. Idem patet secundo sic. Si potentia &amp; habitus per se
+            fa<lb ed="#V" n="3" break="no"/>cerent ad intensionem actus, hoc esset aut quia habitus
+            in<lb ed="#V" n="4" break="no"/>tenderet potentiam, quae intensa exiret in actum intensiore
+            <lb ed="#V" n="5"/>aut quia vt quidam dicunt, potentia &amp; habitus essent duo
+            <lb ed="#V" n="6"/>imperfecta agentia supplentia vicem vnius perfecti agentis
+            <lb ed="#V" n="7"/>respectu actus intensi, in quem nullum istorum agentium
+            <lb ed="#V" n="8"/>esset per se sufficiens ad ipsum producendum. Primum non
+            <lb ed="#V" n="9"/>potest dici, quia potentia intellectiua non recipit
+            intensio<lb ed="#V" n="10" break="no"/>nem, nec remissionem. Nec secundum potest dici, quia illa
+            <lb ed="#V" n="11"/>principia, quae immediate se habent ad aliquem actum, &amp;
+            <lb ed="#V" n="12"/>propria virtute agunt, &amp; habent vniuoce rationem
+            poten<lb ed="#V" n="13" break="no"/>tiae respectu illius actus. Si ergo habitus &amp; potentia se
+            habe<lb ed="#V" n="14" break="no"/>rent vt duo imperfecta agentia supplentia vicem vnius
+            per<lb ed="#V" n="15" break="no"/>fecti agentis cum ad hoc sequatur, quod quodlibet illorum
+            im<lb ed="#V" n="16" break="no"/>mediate se habeat ad actum &amp; virtute propria, alioquin non
+            <lb ed="#V" n="17"/>essent duo agentia imperfecta supplentia vicem vnius
+            perfe<lb ed="#V" n="18" break="no"/>cti agentis modo quo ipsi ponunt, sequeretur quod ratio
+            <lb ed="#V" n="19"/>potentiae vniuocae conueniret potentiae intellectiuae &amp;
+            habi<lb ed="#V" n="20" break="no"/>tui. Hoc autem non est verum, quia quamuis habitus
+            dican<lb ed="#V" n="21" break="no"/>tur potentiae quaedam, hoc tamen non est secundum illam
+            <lb ed="#V" n="22"/>ratione m secundum quam potentia actiua vel passiua
+            di<lb ed="#V" n="23" break="no"/>cta simpliciter dicuntur quaedam potentiae, sed secundum
+            <lb ed="#V" n="24"/>alium modum a praedictis distinctum, vt patet quinto
+            meta<lb ed="#V" n="25" break="no"/>phy.
+          </p>
+          <p xml:id="capsco-c3gqec-d1e1042">
+            Item principia quae per se requiruntur ad actum
+            quem<lb ed="#V" n="26" break="no"/>cunque perfectum in aliqua specie, videntur necessario
+            re<lb ed="#V" n="27" break="no"/>quiri ad quemlibet actum eiusdem speciei, sed habitus non
+            <lb ed="#V" n="28"/>requiritur ad quemlibet actum qui est eiusdem speciei, cum
+            <lb ed="#V" n="29"/>actum sequente habitum, quia actus praecedentes habitum
+            <lb ed="#V" n="30"/>non sunt ab habitu, cum tamen sint eiusdem speciei cum
+            a<lb ed="#V" n="31" break="no"/>ctibus sequentibus, ergo &amp;c. Minor iam patet. Probatur
+            ma<lb ed="#V" n="32" break="no"/>ior. Primo per exemplum eorum, quia sicut acuties &amp;
+            duri<lb ed="#V" n="33" break="no"/>ties requiruntur in securi ad intense vel velociter secandum
+            <lb ed="#V" n="34"/>ita requiruntur ad quodlibet secare. Secundo. Quia
+            eorun<lb ed="#V" n="35" break="no"/>dem effectuum secundum speciem differentium solum
+            se<lb ed="#V" n="36" break="no"/>cundum intensum &amp; remissum sunt eadem principia
+            secun<lb ed="#V" n="37" break="no"/>dum speciem non differentia nisi secundum intensum &amp;
+            re<lb ed="#V" n="38" break="no"/>missum. Et sic patet maior &amp; consequenter tota ratio.
+          </p>
+          <p xml:id="capsco-c3gqec-d1e1073">
+            Ter<lb ed="#V" n="39" break="no"/>tio arguit sic. Illud quod natum est per se intendere actum,
+            <lb ed="#V" n="40"/>potest per se solum causare similem, nisi ex parte receptiui
+            <lb ed="#V" n="41"/>sit praeualens resistentia, sed habitus secundum se, excluso
+            <lb ed="#V" n="42"/>quocunque alio, non potest causare quemcunque actum,
+            <lb ed="#V" n="43"/>ergo non facit per se ad intensionem actus. Minor de se
+            pa<lb ed="#V" n="44" break="no"/>tet. Maior probatur. Quia cum, intensio actus attendatur
+            <lb ed="#V" n="45"/>secundum ipsam essentiam actus, illud quod potest per se
+            <lb ed="#V" n="46"/>in intensionem actus potest in essentiam eius excluso impedimento
+            <lb ed="#V" n="47"/>praeualente dico autem excluso impedimento, quia si agens, quod
+            inten<lb ed="#V" n="48" break="no"/>dit actum, esset debilioris virtutis quam esset resistentia passi
+            ni<lb ed="#V" n="49" break="no"/>hil causaret per se. Sicut cum debilis adiungitur forti trahem
+            <lb ed="#V" n="50"/>ti nauem, &amp; causat motum intensiorem, non oportet quod
+            <lb ed="#V" n="51"/>per se possit causare motum illum nauis, quae forte
+            gra<lb ed="#V" n="52" break="no"/>uior est quam sit virtus istius debilis trahentis. Sed si nihil
+            <lb ed="#V" n="53"/>resisteret, mouens quantumcunque debilis virtutis ipsam
+            <lb ed="#V" n="54"/>moueret. Cum ergo potentiae animae nullam resistentiam
+            <lb ed="#V" n="55"/>habeant ad actus suos, sed quantum est de se sint summe
+            di<lb ed="#V" n="56" break="no"/>spositae, sequitur quod illud, quod intendit per se actus
+            ea<lb ed="#V" n="57" break="no"/>rtum, possit per se solum causare talem actum per secundam
+            <lb ed="#V" n="58"/>speciem, quamuis remissum, &amp; haec est maior. Haec
+            Duran<lb ed="#V" n="59" break="no"/>dus in forma.
+          </p>
+          <p xml:id="capsco-c3gqec-d1e1121">
+            Contra secundam conclusionem arguit
+            Au<lb ed="#V" n="60" break="no"/>reolus probando, quod nulla forma absoluta est virtus nisi
+            <lb ed="#V" n="61"/>vt includit respectum in obliquo, &amp; per modum connotati
+            <lb ed="#V" n="62"/>quia ad hoc quod aliqua forma sit virtus, oportet quod
+            se<lb ed="#V" n="63" break="no"/>cundum illam aliquis se habeat bene vel male, bonitas
+            au<lb ed="#V" n="64" break="no"/>tem &amp; malitia consistunt in congruentia vel discongruentia
+            <lb ed="#V" n="65"/>Secundo arguit. Quia variato illo respectu solum, variatur
+            <lb ed="#V" n="66"/>virtus, immo eadem forma quae erat virtus sit vicium
+            pro<lb ed="#V" n="67" break="no"/>pter variationem respectus, vt taciturnitas in iuuene est
+            <lb ed="#V" n="68"/>virtus. Sed si fiat doctor &amp; accipiat auctoritatem loquendi
+            <lb ed="#V" n="69"/>tunc eadem qualitas fiet vicium. Hoc patet etiam in habitu
+            <lb ed="#V" n="70"/>corporali, quia illud quod est pulchritudo in facie, esset
+            tur<lb ed="#V" n="71" break="no"/>pitudo in alia parte, vel econtra turpitudo in naso esset
+            pul<lb ed="#V" n="72" break="no"/>chritudo in pupilla, aut alia parte, &amp; quod est sanitas in uno
+            <lb ed="#V" n="73"/>esset infirmitas in alio, &amp; haec omnia variantur secundum
+            <lb ed="#V" n="74"/>congruentiam, igitur virtus indirecte, &amp; in obliquo
+            inclu<lb ed="#V" n="75" break="no"/>dit relationem. Arguunt etiam quidam alij, quorum dicta
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="76"/>recitat Scotus probantes, quod virtus non sit forma
+            absolu<lb ed="#V" n="77" break="no"/>ta, sed mera relatio, quia septimo physico. dicitur, quod in
+            <lb ed="#V" n="78"/>iustitia &amp; virtute non est motus, eo quod sunt ad aliquid,
+            <lb ed="#V" n="79"/>aut igitur intelligit Aristotes quod sint ad aliquid solum
+            fun<lb ed="#V" n="80" break="no"/>damentaliter, &amp; tunc ratio philosophi non valet, quia sic
+            al<lb ed="#V" n="81" break="no"/>bedo est fundamentaliter ad aliquid, &amp; tamen ad ipsam est
+            <lb ed="#V" n="82"/>motus. Aut intelligit quod formaliter sint ad aliquid &amp;
+            ha<lb ed="#V" n="83" break="no"/>becur intentum. Secundo. Quia habitus &amp; virtus nonrequi
+            <lb ed="#V" n="84"/>ritur propter substantiam actus, sed propter modum actus
+            <lb ed="#V" n="85"/>ad faciliter &amp; prompte agendum. Et ideo non oportet, quod
+            <lb ed="#V" n="86"/>sit forma absoluta, sed sufficit quod sit quidam modus
+            rea<lb ed="#V" n="87" break="no"/>lis &amp; consuetudinalis propter modum actus. Tertio. Quia
+            <lb ed="#V" n="88"/>isti habitus acquiruntur per actum intellectus &amp;
+            volunta<lb ed="#V" n="89" break="no"/>tis, qui sunt actus immanentes. Quarto. Quia talia
+            corrum<lb ed="#V" n="90" break="no"/>puntur per cessationem actus sine aliquo positiuo corrum
+            <lb ed="#V" n="91"/>pente, quod non esset, si essent formae absolutae. Quinto.
+            <lb ed="#V" n="92"/>Quia non plus requiritur ad agendum in potentia
+            rationa<lb ed="#V" n="93" break="no"/>li, puta intellectu &amp; voluntate quam in potentia irrationali,
+            <lb ed="#V" n="94"/>sed in potentia irrationali non requiritur ad bene &amp;
+            facili<lb ed="#V" n="95" break="no"/>ter agendum aliqua qualitas absoluta, vt patet in brutis,
+            <lb ed="#V" n="96"/>equa enim per modum consuetudinalem sine aliqua
+            qualita<lb ed="#V" n="97" break="no"/>te absoluta disponitur ad arandum, vel trahendum, &amp;
+            hu<lb ed="#V" n="98" break="no"/>iusmodi, igitur &amp;c.
+          </p>
+          <p xml:id="capsco-c3gqec-d1e1210">
+            Sexto arguitur. Quia omnes
+            diffinitio<lb ed="#V" n="99" break="no"/>nes virtutis includunt respectum congruentiae, nec vnquam
+            <lb ed="#V" n="100"/>aliquis virtutem sine isto respectu diffiniuit, nec diffinire
+            <lb ed="#V" n="101"/>potest, ideo Augustinus dicit, quod virtus est bona qualitas
+            <lb ed="#V" n="102"/>mentis. Et philosophus secundo Ethi. dicit, quod virtus est
+            <lb ed="#V" n="103"/>quae habentem perficit, &amp; ibidem dicit, quod in medio
+            con<lb ed="#V" n="104" break="no"/>sistit quo ad nos, &amp; septimo phy. dicit, quod est dispositio
+            <lb ed="#V" n="105"/>perfecti ad optimum, quae omnia dicunt respectum ad
+            natu<lb ed="#V" n="106" break="no"/>ram &amp; congruentiam. Septimo. Quia nullus actus est, aut
+            <lb ed="#V" n="107"/>intelligitur virtuosus, nisi secundum circunstantias
+            intelle<lb ed="#V" n="108" break="no"/>ctus fundaret congruentiam, vt patet ex tertio Ethico. quia
+            <lb ed="#V" n="109"/>circunstantiae semper sumuntur vt congruit &amp; oportet. quam
+            <lb ed="#V" n="110"/>tum scilicet &amp; quando, &amp; vbi, &amp; illius gratia oportet.
+            Vlte<lb ed="#V" n="111" break="no"/>rius arguunt aliqui, quod virtus nec sit pura qualitas, nec
+            <lb ed="#V" n="112"/>purus respectus, sed sit compositum ex vtroque &amp; ens per
+            <lb ed="#V" n="113"/>accidens. Primo sic. Omne quod includit res duorum
+            prae<lb ed="#V" n="114" break="no"/>dicamentorum qualitercunque includat, est ens per accidens
+            <lb ed="#V" n="115"/>&amp; non minus si unum in recto, &amp; reliquum in obliquo quam
+            <lb ed="#V" n="116"/>si vtrunque in recto, immo plus, quia magis cadit ab
+            vnita<lb ed="#V" n="117" break="no"/>te, hoc patet ex septimo metaph. vbi philosophus dicit, quod
+            <lb ed="#V" n="118"/>composita ex substantia &amp; alijs praedicamentis non faciunt
+            <lb ed="#V" n="119"/>vnum per se. Et idem iudicium est de composito ex
+            quibus<lb ed="#V" n="120" break="no"/>libet duobus praedicamentis, sed virtus includit absolutum
+            prin<lb ed="#V" n="121" break="no"/>cipaliter &amp; in recto &amp; respectum in obliquo, quorum primum est
+            <lb ed="#V" n="122"/>in genere qualitatis, secundum in genere relationis, ergo
+            <lb ed="#V" n="123"/>virtus est ens per accidens.
+          </p>
+          <p xml:id="capsco-c3gqec-d1e1267">
+            Secundo sic. Aut virtutis
+            essen<lb ed="#V" n="124" break="no"/>tia consistit totaliter &amp; praecise in puro absoluto, aut non
+            to<lb ed="#V" n="125" break="no"/>taliter &amp; praecise, immo respectum includit partialiter, sed
+            <lb ed="#V" n="126"/>non potest dici primum, quia secundum hoc tertia species
+            <lb ed="#V" n="127"/>qualitatis &amp; prima cum sint idem in illo absoluto non
+            dif<lb ed="#V" n="128" break="no"/>ferent per essentiam. Similiter virtus &amp; vicium eritidem
+            p<lb ed="#V" n="129" break="no"/>essentiam, quia idem absolutum specifice habet rationem
+            <lb ed="#V" n="130"/>virtutis in vno, &amp; vicij: in alio similiter non erunt
+            qualita<lb ed="#V" n="131" break="no"/>tes essentialiter oppositae specifice, quae omnia absona sunt
+            <lb ed="#V" n="132"/>ergo relinquitur quod detur secundum scilicet quod virtutis
+            es<lb ed="#V" n="133" break="no"/>sentiam ingrediatur partialiter ipse respectus congruentiae,
+            <lb ed="#V" n="134"/>sed omnis essentia habens partem sui absolutam &amp; partem
+            <lb ed="#V" n="135"/>respectum est ens per accidens, vt patet in patre, &amp; simili,
+            <lb ed="#V" n="136"/>igitur essentia virtutis erit ens per accidens, dato etiam quod
+            <lb ed="#V" n="137"/>ipse respectus in obliquo sit eius pars.
+          </p>
+          <p xml:id="capsco-c3gqec-d1e1301">
+            Tertio sic. Absolutum
+            <lb ed="#V" n="138"/>sub respectu actu fundans respectum vt sic est aliquid vltra
+            <lb ed="#V" n="139"/>absolutum, est enim illud quod significatur per hanc
+            propo<lb ed="#V" n="140" break="no"/>sitionem scilicet quod potest adesse &amp; abesse manente eodem
+            <lb ed="#V" n="141"/>absoluto sed omne includens vltra absolutum aliquid quod
+            <lb ed="#V" n="142"/>potest adesse &amp; abesse illi, est ens per accidens: includit enim
+            <lb ed="#V" n="143"/>duo quorum unum accidit alteri, &amp; ita est ens per accidens
+            <lb ed="#V" n="144"/>vt patet quinto metaph. &amp; per diffinitionem accidentis,
+            igi<lb ed="#V" n="145" break="no"/>tur uirtus si non praecise importat absolutum, sed vt sub
+            <lb ed="#V" n="146"/>respectu necessario est ens per accidens.
+          </p>
+          <p xml:id="capsco-c3gqec-d1e1323">
+            Confirmatur. Quia
+            <lb ed="#V" n="147"/>actu fundare nec est absolutum cum separetur ab eo, nec
+            re<lb ed="#V" n="148" break="no"/>spectus, qui fundatur: clarum est, igitur erit habitudo
+            me<lb ed="#V" n="149" break="no"/>dia realis uel rationis, quod etiam confirmatur, quia posse
+            <lb ed="#V" n="150"/>sundare includit respectum potentiae medium inter fundamen
+            <pb ed="#V" n="168"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>tum &amp; respectum, quare &amp; actu fundare.
+          </p>
+          <p xml:id="capsco-c3gqec-d1e1341">
+            Quarto sic. Ipse
+            re<lb ed="#V" n="2" break="no"/>spectus congruentiae se habet ad virtutem vt propria passio
+            <lb ed="#V" n="3"/>aut sicut pars essentiae eius, sed non potest poni primum. Tum
+            <lb ed="#V" n="4"/>quia propria passio se habet ad subiectum in secundo
+            mo<lb ed="#V" n="5" break="no"/>do per se &amp; per consequens Deus posset facere virtutem
+            si<lb ed="#V" n="6" break="no"/>ne illo respectu, cuius oppositum dicitur. Tum quia
+            subie<lb ed="#V" n="7" break="no"/>ctum potest intelligi sine propria passione, quamuis non
+            e<lb ed="#V" n="8" break="no"/>conuerso, &amp; secundum hoc non erit ille respectus de
+            coin<lb ed="#V" n="9" break="no"/>tellectu virtutis. Tum quia virtus acquiritur &amp; variatur
+            spe<lb ed="#V" n="10" break="no"/>cificae ex variatione facta in solo isto respectu, &amp; ita videtur
+            <lb ed="#V" n="11"/>esse differentia intrinseca reponens in specie, &amp; non passio.
+            <lb ed="#V" n="12"/>Tum quia omne quod acquiritur ad solam variationem non
+            <lb ed="#V" n="13"/>habet respectum partem sui, nisi sit purus respectus, solo
+            au<lb ed="#V" n="14" break="no"/>tem respectu per se variato fit vicium, quod prius erat
+            vir<lb ed="#V" n="15" break="no"/>tus. Sicut patet de taciturnitate, quae est virtus in iuuene, &amp;
+            <lb ed="#V" n="16"/>vicium in sene, &amp; de albedine, quae est virtus &amp; pulchritudo
+            <lb ed="#V" n="17"/>in cute, &amp; vicium in pupilla, non potest igitur respectus
+            con<lb ed="#V" n="18" break="no"/>gruentiae esse propria passio virtutis, sed potius de
+            essenti<lb ed="#V" n="19" break="no"/>eius aliquo modo, sed constat quod omne includens
+            respe<lb ed="#V" n="20" break="no"/>ctum &amp; absolutum est ens per accidens, igitur idem quod
+            <lb ed="#V" n="21"/>prius.
+          </p>
+          <p xml:id="capsco-c3gqec-d1e1387">
+            Quinto sic. Album est ens per accidens, vnde non est
+            <lb ed="#V" n="22"/>in genere propter duo significare, sed album solam
+            qualita<lb ed="#V" n="23" break="no"/>tem significat, vt dicitur in praedicamentis. connotat autem
+            <lb ed="#V" n="24"/>subiectum, &amp; idem dicit Commentator quinto metaphys.
+            <lb ed="#V" n="25"/>comento. nono contra Auicennam. dicit enim quod primo
+            signi<lb ed="#V" n="26" break="no"/>ficat accidens, &amp; secundo subiectum, ergo nomen quod
+            vl<lb ed="#V" n="27" break="no"/>tra significatum aliquid connotat est ens per accidens, sed
+            <lb ed="#V" n="28"/>virtus est huiusmodi, igitur &amp;c. Sexto. Relatiuum secundum
+            <lb ed="#V" n="29"/>esse est ens per accidens vt pater, simile. aequale, sed virtus est
+            <lb ed="#V" n="30"/>relatiuum secundum esse, saltem aliquae virtutes, vt iustitia,
+            <lb ed="#V" n="31"/>&amp; amicitia. Nam diffinitio relatiui secundum esse, quae dicit
+            <lb ed="#V" n="32"/>Ad aliquid sunt quaecunque hocipsum quod sunt, aliorum
+            <lb ed="#V" n="33"/>sunt, competit eis. Amicitia enim non est ad se virtus, nec
+            <lb ed="#V" n="34"/>iustitia, sed sunt ad alterum, ergo saltem aliquae virtus sunt
+            <lb ed="#V" n="35"/>ens per accidens.
+          </p>
+          <p xml:id="capsco-c3gqec-d1e1420">
+            Septimo sic. Ab solutum sub respectu vt
+            <lb ed="#V" n="36"/>sic vel est aliquid vltra purum absolutum, aut aliqua, aut
+            ni<lb ed="#V" n="37" break="no"/>hil, sed non potest dici quod nihil, quia tunc essentia
+            virtu<lb ed="#V" n="38" break="no"/>tis esset nihil. Nam absolutum praecise sumptum non est
+            <lb ed="#V" n="39"/>essentia virtutis, sed vt sub respectu per te, vt sic autem est
+            <lb ed="#V" n="40"/>non nihil, ergo necesse est quod uel sit aliqua pluraliter
+            mo<lb ed="#V" n="41" break="no"/>do acerui, &amp; sic uirtus erit aceruus essentialiter, &amp; per
+            con<lb ed="#V" n="42" break="no"/>sequens ens per accidens, vel quod sit aliquid, &amp; per
+            conse<lb ed="#V" n="43" break="no"/>quens ens &amp; unum, sed non unum per se, cum includat
+            re<lb ed="#V" n="44" break="no"/>spectum &amp; absolutum, ergo unum per accidens.
+          </p>
+          <p xml:id="capsco-c3gqec-d1e1442">
+            Octauo sic.
+            <lb ed="#V" n="45"/>Philosophus dicit primo elenchorum, quod si nomen &amp;
+            ora<lb ed="#V" n="46" break="no"/>tio idem significant, ut haec dictio duplum. &amp; haec oratio
+            <lb ed="#V" n="47"/>duplum dimidij, sequitur nugatio. Nam dicendo duplum
+            <lb ed="#V" n="48"/>dimidij, dicetur duplum dimidij dimidij. Et ideo hoc nomen
+            <lb ed="#V" n="49"/>duplum aliter significat dimidij, quam haec oratio duplum
+            <lb ed="#V" n="50"/>dimidii. Quaerit ergo an uirtus praecise significet absolutum
+            <lb ed="#V" n="51"/>sic quod respectus non cadat in suo significato, sicut nec
+            di<lb ed="#V" n="52" break="no"/>midii cadit in significatione dupli: aut significet utrunque
+            <lb ed="#V" n="53"/>simul, absolutum in recto, &amp; respectumin obliquo, sicut ista
+            <lb ed="#V" n="54"/>oratio, duplum dimidii, significat duplum in recto &amp;
+            dimi<lb ed="#V" n="55" break="no"/>dii in obliquo. Si detur primum, habetur propositum scilicet quod
+            <lb ed="#V" n="56"/>praecise significat absolutum, &amp; nullo modo respectum, nec
+            <lb ed="#V" n="57"/>in obliquo, nec in recto, &amp; per consequens poterit
+            intelli<lb ed="#V" n="58" break="no"/>gi sine respectu. Si uero detur secundo modo sequitur, quod
+            <lb ed="#V" n="59"/>sicut haec oratio significat ens per accidens cum dicitur
+            du<lb ed="#V" n="60" break="no"/>plum dimidii, sic haec dictio uirtus significat ens per
+            acci<lb ed="#V" n="61" break="no"/>dens, quod enim duo significat sic quod ambo cadunt in
+            <lb ed="#V" n="62"/>suo significato, exprimit ens per accidens.
+          </p>
+          <p xml:id="capsco-c3gqec-d1e1485">
+            Nono sic. Non
+            ma<lb ed="#V" n="63" break="no"/>gis fundat terminatiue absolutum uirtutis respectum
+            con<lb ed="#V" n="64" break="no"/>gruentiae quam absolutum albedinis respectum
+            similitudi<lb ed="#V" n="65" break="no"/>nis, proprium est enim qualitatum secundum eas simile &amp;
+            <lb ed="#V" n="66"/>dissimile dici, &amp; secundum quantitates aequale &amp;
+            inaequa<lb ed="#V" n="67" break="no"/>le, sed nullum nomen imponitur ad significandum
+            albedi<lb ed="#V" n="68" break="no"/>nem, aut alias qualitates ut stat sub respectu similitudinis,
+            <lb ed="#V" n="69"/>uel ut fundat ipsum, ergo nec qualitati ut fundat respectum
+            <lb ed="#V" n="70"/>congruentiae debuit speciale nomen imponi.
+          </p>
+          <p xml:id="capsco-c3gqec-d1e1505">
+            Decimo sic.
+            <lb ed="#V" n="71"/>Tota ratio uirtutis complete est extra intellectum, sed
+            resp¬<lb ed="#V" n="72" break="no"/>ctus congruentiae complete non est extra intellectum saltem
+            <lb ed="#V" n="73"/>secundum ponentes, quod complementum relationis est ab
+            <lb ed="#V" n="74"/>anima, ergo ratio uirtutis non consistit in absoluto ut est
+            a<lb ed="#V" n="75" break="no"/>ctu sub respectu congruentiae.
+          </p>
+          <p xml:id="capsco-c3gqec-d1e1518">
+            Confirmatur. Quia saltem in
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="76"/>Deo attributum iustitiae &amp; uirtutis &amp; scientiae non potest
+            <lb ed="#V" n="77"/>importare diuinitatem ut sub tali respectu reali, quia talis
+            <lb ed="#V" n="78"/>non est in Deo, nec rationis, quia tunc tota ratio iustitiae.
+            <lb ed="#V" n="79"/>scientiae, uel uirtutis non esset in Deo circunscripto actu i
+            <lb ed="#V" n="80"/>tellectus. Et in hoc secundus articulus terminatur.
+          </p>
+        </div>
+        <div xml:id="capsco-c3gqec-Dd1e1535">
+          <head xml:id="capsco-c3gqec-Hd1e1537">Articulus 3</head>
+          <p xml:id="capsco-c3gqec-d1e1539">
+            <lb ed="#V" n="81"/><milestone ed="#V" unit="p" rend="initial"/> Vantum ad tertium articulum respondendum est
+            ob<lb ed="#V" n="82" break="no"/>iectionibus supradictis. &amp; ideo ad argumenta
+            Duran<lb ed="#V" n="83" break="no"/>di primo loco inducta contra primam conclusionem
+            dici<lb ed="#V" n="84" break="no"/>tur primo, quod omnis actus humanus actualiter existens
+            <lb ed="#V" n="85"/>in rerum natura extra suam potentiam clicitiuam est
+            deter<lb ed="#V" n="86" break="no"/>minatus ad esse naturae quantum ad esse speciem, non ex se
+            <lb ed="#V" n="87"/>solo formaliter, sed ex suo principio uel termino secundum
+            <lb ed="#V" n="88"/>quod optime declarat Sanctus Thomas prima secundae. q.
+            pr<lb ed="#V" n="89" break="no"/>ma articulo tertio, Dicitur secundo, quod quilibet talis
+            a<lb ed="#V" n="90" break="no"/>ctus determinatur in esse naturae formaliter quantum ad
+            <lb ed="#V" n="91"/>singularitatem non ex se solo, sed ex suo subiecto, sicut &amp;
+            <lb ed="#V" n="92"/>quodlibet aliud accidens recipit indiuisibilitatem ex suo
+            <lb ed="#V" n="93"/>subiecto, prout dicit Sanctus Thomas in multis locis,
+            potissi<lb ed="#V" n="94" break="no"/>me quarto sententiarum disti. 12. q. 1. arti. primo
+            quaestiun<lb ed="#V" n="95" break="no"/>cula tertia in solutione tertij. Dicitur tertio quod
+            quilibe<lb ed="#V" n="96" break="no"/>talis actus determinatur ad speciem in esse moris, non ex se
+            <lb ed="#V" n="97"/>solo formaliter, sed ex alio, nam secundum quod
+            determi<lb ed="#V" n="98" break="no"/>nat Sanctus Thomas prima secundae quaest. 18. Actio humana
+            <lb ed="#V" n="99"/>in generali accepta habet bonitatem vel malitiam ex
+            obie<lb ed="#V" n="100" break="no"/>cto, &amp; ex circunstantijs, &amp; ex fine, bonitas autem actus
+            inte<lb ed="#V" n="101" break="no"/>rioris voluntatis dependet ex obiecto, ex fine, &amp;
+            conformi<lb ed="#V" n="102" break="no"/>tate ad rectam rationem, &amp; ex lege aeterna prout diffuse ostem
+            <lb ed="#V" n="103"/>dit ibidem quaestione 19. bonitas vero &amp; malitia actus
+            exte<lb ed="#V" n="104" break="no"/>rioris dependet a voluntate interiori quo ad aliquid, &amp; quo
+            <lb ed="#V" n="105"/>ad aliquid dependet ex obiecto vel materia, &amp; ex circunstam
+            <lb ed="#V" n="106"/>tiis prout ostendit Sanctus Thomas prima secundae
+            quaestio<lb ed="#V" n="107" break="no"/>ne vigesima. Dicitur quarto quod quilibet talis sicut
+            deter<lb ed="#V" n="108" break="no"/>minatur formaliter ad singularitatem in esse naturae ex suo
+            <lb ed="#V" n="109"/>subiecto, ita &amp; in esse moris. Dicitur quinto quod actus
+            <lb ed="#V" n="110"/>sequentes habitum ab illo eliciti vtranque determinationem
+            <lb ed="#V" n="111"/>specificam tam quo ad esse naturae quam quo ad esse moris
+            <lb ed="#V" n="112"/>efficienter recipiunt a potentia, &amp; ab habitu, a quibus
+            eli<lb ed="#V" n="113" break="no"/>ciuntur. Dicitur sexto quod habitus non solum determinat
+            <lb ed="#V" n="114"/>formaliter potentiam in se, immo determinat eam
+            formali<lb ed="#V" n="115" break="no"/>ter ad specialem actum producendum vel recipiendum tam
+            <lb ed="#V" n="116"/>in esse naturae quam in esse uel genere moris, &amp; ad
+            huius<lb ed="#V" n="117" break="no"/>modi dicti improbationem dicitur, quod communis causa
+            <lb ed="#V" n="118"/>determinationis actuum uel potentiarum ad suos actus &amp;
+            <lb ed="#V" n="119"/>commune inclinatiuum est illud, quod se habet ad
+            poten<lb ed="#V" n="120" break="no"/>tiam receptiuam uel elicitiuam per modum formae &amp; actus
+            <lb ed="#V" n="121"/>primi. Et quia aliquae potentiae ponuntur in actu primo per
+            <lb ed="#V" n="122"/>habitus, aliae uero non:ideo quaedam determinantur &amp;
+            incli<lb ed="#V" n="123" break="no"/>nantur ad producendum actus suos per habitum. aliae
+            ue<lb ed="#V" n="124" break="no"/>ro non, sicut declaratum est in prima conclusione. Cum
+            au<lb ed="#V" n="125" break="no"/>tem dicit arguens quod actus praecedentes sunt praedicto
+            <lb ed="#V" n="126"/>modo determinati, dicitur quod uerum est, quia pricipium
+            <lb ed="#V" n="127"/>talium non est habitus, sed potentia cum obiecto, secus est
+            <lb ed="#V" n="128"/>de actibus elicitis ab habitu &amp; sequentibus habitum, &amp; ideo
+            <lb ed="#V" n="129"/>plura concurrunt ad detetminationem sequentium quam
+            <lb ed="#V" n="130"/>praecedentium habitum. Cum uero dicit, quod nihil
+            determi<lb ed="#V" n="131" break="no"/>nari potest ad illud, quod est commune omnibus actiuus &amp;c.
+            Dici<lb ed="#V" n="132" break="no"/>tur quod licet actus positus in esse sit determinatus quo
+            <lb ed="#V" n="133"/>ad speciem &amp; indiuiduum in esse naturae, tamen potentia
+            <lb ed="#V" n="134"/>ante productionem illius actus non est quandoque
+            de<lb ed="#V" n="135" break="no"/>terminata ad producendum actus talis speciei nec per
+            con<lb ed="#V" n="136" break="no"/>sequens tale indiuiduum significatur, sicut intellectus
+            possi<lb ed="#V" n="137" break="no"/>bilis antequam sit in actu per speciem intelligibilem est
+            in<lb ed="#V" n="138" break="no"/>determinatus ad producendum cognitionem asini uel
+            ho<lb ed="#V" n="139" break="no"/>minis, determinatur autem ad hanc uel illam per speciem
+            <lb ed="#V" n="140"/>intelligibilem quae potest dici habitus ut dicit Sanctus Thomas
+            <lb ed="#V" n="141"/>prima secundae q. 50. art. sexto &amp; multis aliis locis cum
+            ue<lb ed="#V" n="142" break="no"/>ro ulterius dicit quod quaelibet potentia de sui natura est
+            de<lb ed="#V" n="143" break="no"/>terminata &amp;c. Dicitur primo, quod illud est simpliciter
+            fal<lb ed="#V" n="144" break="no"/>sum, quia multae sunt potestentiae, quae natura sua nullum actum
+            <lb ed="#V" n="145"/>producere possunt sine actu primo eis sua additio, sicut
+            <lb ed="#V" n="146"/>patet de omnipotentia sensitiua &amp; intellectiua saltem
+            hu<lb ed="#V" n="147" break="no"/>mana, uel creata. Dicitur secundo quod licet aliqua
+            poten<lb ed="#V" n="148" break="no"/>tia sit determinata ad producendum uel recipiendum actum
+            <lb ed="#V" n="149"/>singularem hoc modo, quod non potest producere uel
+            recipe<lb ed="#V" n="150" break="no"/>re uniuersalem uel actum non singularem, non tamen est
+            <pb ed="#V" n="169"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>determinata ad producendum vel recipiendum hoc
+            singu<lb ed="#V" n="2" break="no"/>lare vel illud, nec actum huius speciei vel illius, &amp; ideo
+            indi<lb ed="#V" n="3" break="no"/>get aliquo determinatiuo.
+          </p>
+          <p xml:id="capsco-c3gqec-d1e1705">
+            Vnde argumentum istud &amp;
+            prae<lb ed="#V" n="4" break="no"/>cedens peccant per fallaciam aequiuocationis, quia
+            aequi<lb ed="#V" n="5" break="no"/>uocant de hoc, quod dicoactus determinatus. hoc potest
+            <lb ed="#V" n="6"/>habere suppositionem simplicem vel personalem, Vel aliter
+            <lb ed="#V" n="7"/>loquendo potest habere suppositionem confusam vel
+            deter<lb ed="#V" n="8" break="no"/>minatam, modo argumenta ista procedunt iuxta primum
+            <lb ed="#V" n="9"/>sensum, &amp; conclusio nostra procedit iuxta secundum.
+            Con<lb ed="#V" n="10" break="no"/>cedimus enim, quod nulla potentia indiget determinari
+            p<lb ed="#V" n="11" break="no"/>habitum ad producendum actumdeterminatum, si sit
+            sup<lb ed="#V" n="12" break="no"/>positio simplex, vel confusa. Sed si sit suppositio personalis
+            <lb ed="#V" n="13"/>&amp; determinata, dicimus oppositum, quia multae sunt pote
+            <lb ed="#V" n="14"/>tiae indifferentes ad actus diuersarum specierum, sicut
+            sen<lb ed="#V" n="15" break="no"/>sus, intellectus, &amp; voluntas, &amp; ideo frustra laborauit arguens
+            <lb ed="#V" n="16"/>ad probandum illud, quod quilibet concessisset sibi gratis.
+            <lb ed="#V" n="17"/>Nullus enim nisi insanus somniauit, quod aliqua potentia
+            <lb ed="#V" n="18"/>produceret actum vniuersalem sine aliqua determinatione
+            <lb ed="#V" n="19"/>ad genus speciem, &amp; indiduum. Vlterius cum dicit quod
+            ha<lb ed="#V" n="20" break="no"/>bitus nihil per se facit ad determinandum potentiam vel
+            a<lb ed="#V" n="21" break="no"/>ctum in esse morali. Dicitur quod ad ista duo habitus facit
+            <lb ed="#V" n="22"/>non solum per accidens, immo per se, quod enim.
+            determi<lb ed="#V" n="23" break="no"/>net actum ad esse morale constat, quia secundum
+            philoso<lb ed="#V" n="24" break="no"/>phum septimo Ethi. virtutes morales faciunt hominem bene
+            <lb ed="#V" n="25"/>se habere circa finem proximum virtutis, prudentia autem
+            <lb ed="#V" n="26"/>facit hominem bene se habere circa ea, quae sunt ad finem.
+            <lb ed="#V" n="27"/>De hoc Sanctus Thomas in multis locis, potissime prima
+            se<lb ed="#V" n="28" break="no"/>cundae. q. 59. articulo quarto, &amp; quinto &amp; secunda secundae
+            <lb ed="#V" n="29"/>q. 47. articulo sexto &amp; in multis aliis locis. Tunc ad huius
+            so<lb ed="#V" n="30" break="no"/>lutionis improbationem dicitur primo, quod bonitas vel
+            <lb ed="#V" n="31"/>malitia humanorum actuum non consistit praecise vel
+            prio<lb ed="#V" n="32" break="no"/>cipaliter in huiusmodi respectu conformitatis aut
+            difformi<lb ed="#V" n="33" break="no"/>tatis, sed potius in fundamento huius respectus secundum
+            <lb ed="#V" n="34"/>quod in secundo sententiarum visum fuit. Dicitur secundo
+            <lb ed="#V" n="35"/>quod habitus actiuitas non immediate attingit tales
+            respe<lb ed="#V" n="36" break="no"/>ctus sed eorum fundamenta, puta substantiam actus. Et ad
+            <lb ed="#V" n="37"/>huius improbationem dicitur, quod licet actus
+            praeceden<lb ed="#V" n="38" break="no"/>tes sint determinate boni vel mali, &amp; talem determinationem
+            <lb ed="#V" n="39"/>non habeant ab habitu, sicut nec suam entitatem, cum hoc
+            <lb ed="#V" n="40"/>tamen stat quod actus sequentes habitum suam entitatem,
+            <lb ed="#V" n="41"/>&amp; suam determinationem habeant ab habitu, sicut a
+            com<lb ed="#V" n="42" break="no"/>principio, vel concausa, vel ratione agendi ipsius potentiae,
+            <lb ed="#V" n="43"/>&amp; hoc non per accidens sed per se, aliquid enim est per se
+            <lb ed="#V" n="44"/>causa alicuius indiuidui, quod non est causa omnium
+            indi<lb ed="#V" n="45" break="no"/>uiduorum eiusdem speciei. Et hoc maxime apparet, vbi ta.
+            <lb ed="#V" n="46"/>lia indiuidua possunt produci a causis diuersarum
+            specie<lb ed="#V" n="47" break="no"/>rum. sicut patet de igne, qui potest produci ab alio igne, &amp; a
+            <lb ed="#V" n="48"/>sole, &amp; multis aliis causis per se facientibus ad eius
+            produ<lb ed="#V" n="49" break="no"/>ctionem: ideo sicut non sequitur iste ignis per se producit
+            <lb ed="#V" n="50"/>ignem, igitur sine igne non potest produci ignis, ita in
+            pro<lb ed="#V" n="51" break="no"/>posito de actu &amp; habitu, sed est fallacia consequentis ve
+            <lb ed="#V" n="52"/>aequiuocationis arguendo a perseitate causae ad perseitatem
+            <lb ed="#V" n="53"/>propositionis &amp; a perseitate inconuertibili ad conuertibilem
+            <lb ed="#V" n="54"/>&amp; adaequatam. Dicitur tertio quod istud argumentum
+            si<lb ed="#V" n="55" break="no"/>cut &amp; praecedentia non procedunt directe contra
+            conclu<lb ed="#V" n="56" break="no"/>sionem vel intellectum conclusionis. Cum enim dicitur, quod
+            <lb ed="#V" n="57"/>habitus est necessarius ad determinandum potentiam ad
+            a<lb ed="#V" n="58" break="no"/>ctum in esse morali, non est sensus conclusionis quod potem
+            <lb ed="#V" n="59"/>tia nuda sine habitu eliciat actum indifferentem in essentia
+            <lb ed="#V" n="60"/>morali, aut quod sine habitu non possit producere aut
+            reci<lb ed="#V" n="61" break="no"/>pere actum, quod sit determinate bonus, aut determinate
+            <lb ed="#V" n="62"/>malus, sed hoc sit tantum ex habitu. Et ad hunc sensum
+            pro<lb ed="#V" n="63" break="no"/>cedunt omnia dicta Durandi, sed intellectus conclusionis
+            <lb ed="#V" n="64"/>est quod potentia non habituata non plus inclinatur ad
+            bo<lb ed="#V" n="65" break="no"/>num moraliter quam ad actum moraliter malum, nec
+            incli<lb ed="#V" n="66" break="no"/>natur ad agendum delectabiliter, aut faciliter, aut prompte
+            <lb ed="#V" n="67"/>sed remanet in quadam confusa potentialitate ad hoc
+            obie<lb ed="#V" n="68" break="no"/>ctum &amp; illud, &amp; similiter ad actum bonum &amp; malum, &amp;
+            si<lb ed="#V" n="69" break="no"/>militer ad talem modum operandi &amp; oppositum, vel
+            po<lb ed="#V" n="70" break="no"/>tius est inhabilis ad vnum illorum, quantum est ex se, sed
+            per<lb ed="#V" n="71" break="no"/>habitum inclinatur ad hoc obiectum, &amp; retrahitur ab
+            op<lb ed="#V" n="72" break="no"/>posito, &amp; idem dico de actu &amp; de modo operandi, sicut
+            pa<lb ed="#V" n="73" break="no"/>tet de habitu temperantiae, qui inclinat concupiscibilem ad
+            <lb ed="#V" n="74"/>certa obiecta, &amp; ad certos actus &amp; modos operandi. Vnde
+            <lb ed="#V" n="75"/>omnia argumenta ista sunt sophistica.
+          </p>
+          <p xml:id="capsco-c3gqec-d1e1864">
+            Ad argumenta vero
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="76"/>secundo loco inducta contra eandem conclusionem
+            dici<lb ed="#V" n="77" break="no"/>tur, quod responsio ibidem data probabilis est, quae negat
+            <lb ed="#V" n="78"/>minorem, nunquam enim actus praecedens habitum per
+            <lb ed="#V" n="79"/>omnia similis est, aut aequalis actui sequenti habitum, &amp;
+            eli<lb ed="#V" n="80" break="no"/>cito ab habitu. Et de hoc Beatus Thomas secunda secundae
+            <lb ed="#V" n="81"/>quaestione vigesimatertia articulo secundo sic dicit. Nullus
+            <lb ed="#V" n="82"/>actus perfecte producitur ab aliqua potentia passiua, nisi
+            <lb ed="#V" n="83"/>sit ci connaturalis per aliquam. formam, quae sit principium
+            <lb ed="#V" n="84"/>actionis. Vnde Deus qui omnia mouet ad debitos fines
+            sin<lb ed="#V" n="85" break="no"/>gulis rebus indidit formas per quas inclinantur ad fines
+            <lb ed="#V" n="86"/>sibi praescitos a Deo, &amp; secundum hoc disponit omnia
+            sua<lb ed="#V" n="87" break="no"/>uiter, ut dicitur Sapientiae octauo: manifestum est autem,
+            <lb ed="#V" n="88"/>quod actus charitatis excedit naturam potentiae voluntatis,
+            <lb ed="#V" n="89"/>nisi, ergo aliqua forma superadderetur naturali potentiae,
+            <lb ed="#V" n="90"/>per quam inclinaretur ad dilectionis actum, secundum hoc
+            <lb ed="#V" n="91"/>esset iste actus imperfectior actibus naturalibus, &amp; actibus
+            <lb ed="#V" n="92"/>aliarum virtutum, nec esset facilis. &amp; delectabilis. Haec ille.
+          </p>
+          <p xml:id="capsco-c3gqec-d1e1906">
+            Si<lb ed="#V" n="93" break="no"/>mile dicit primo sententiarum distinctione decimaseptima
+            <lb ed="#V" n="94"/>quaest. prima articulo primo &amp; in multis aliis locis. Cum
+            au<lb ed="#V" n="95" break="no"/>tem arguens ad probationem minoris, adducit instantiam
+            <lb ed="#V" n="96"/>de intensione actus &amp;c. Dicitur quod non valet, quia nos non
+            <lb ed="#V" n="97"/>dicimus quod omnis actus sequens habitum sit intensior
+            <lb ed="#V" n="98"/>quolibet actu praecedente habitum. Vnde Beatus Thomas
+            pri<lb ed="#V" n="99" break="no"/>ma secundae quaestio. 52. articulo tertio sic dicit. Quia vsus
+            <lb ed="#V" n="100"/>habituum in uoluntate hominis consistit, sicut contingit quod
+            <lb ed="#V" n="101"/>aliquis habens habitum non vtitur illo, vel etiam agit actum
+            <lb ed="#V" n="102"/>contrarium, ita etiam potest contingere quod vtitur
+            habi<lb ed="#V" n="103" break="no"/>tu secundum actum non respondentem proportionaliter
+            <lb ed="#V" n="104"/>intensioni habitus &amp;c. Et simile dicit secunda secundae
+            quae<lb ed="#V" n="105" break="no"/>stione vigesimaquarta articulo sexto. Dicimus autem quod
+            <lb ed="#V" n="106"/>quamlibet actus elicitus ab habitu potissime secundum qpr
+            <lb ed="#V" n="107"/>portionem habitus est perfectior actibus praecedentibus
+            <lb ed="#V" n="108"/>habitu, &amp; si non intensione.
+          </p>
+          <p xml:id="capsco-c3gqec-d1e1944">
+            Item posito quod diceremus,
+            <lb ed="#V" n="109"/>quod actus sequens habitum esset semper intensior, non
+            <lb ed="#V" n="110"/>ideo potest argui, quod esset difficilior quam praecedens
+            <lb ed="#V" n="111"/>habitum, quia plura principia concurrunt ad secundum
+            <lb ed="#V" n="112"/>quam ad primum vt patet de se, vel dato quod esset
+            diffici<lb ed="#V" n="113" break="no"/>lior in se, non tamen ipsi potentiae agenti, vt post dicetur.
+          </p>
+          <p xml:id="capsco-c3gqec-d1e1957">
+            <lb ed="#V" n="114"/>Ad secundum respondit in forma Sanctus Thomas tertio
+            sen<lb ed="#V" n="115" break="no"/>tentiarum distinctione vigesimatertia quaestio. prima
+            arti<lb ed="#V" n="116" break="no"/>culo primo, vbi arguit sic in quarto loco. Difficultas
+            coope<lb ed="#V" n="117" break="no"/>ratur ad meritum, sed habitus tollit difficultatem, ergo ad
+            <lb ed="#V" n="118"/>actus illos quibus meremur, non sunt dandi nobis habitus.
+            <lb ed="#V" n="119"/>Ecce argumentum. Sequitur responsio. Dicendum inquit,
+            <lb ed="#V" n="120"/>quod sicut dicitur secundo metap. difficultas potest esse ex
+            <lb ed="#V" n="121"/>nobis &amp; ex rebus, &amp; similer facilitas, ergo quae est ex
+            ratio<lb ed="#V" n="122" break="no"/>ne actuum qui non sunt magni ponderis, diminuit quantum
+            <lb ed="#V" n="123"/>est in se rationem meriti, sed facilitas, quae est ex promptitu
+            <lb ed="#V" n="124"/>dine operantis, meritum non diminuit respectu praemii
+            essen<lb ed="#V" n="125" break="no"/>tialis, sed auget, quia quanto charitate maiori facit tanto
+            fa<lb ed="#V" n="126" break="no"/>cilius tolerat, &amp; magis meretur, &amp; similiter quanto delecta
+            <lb ed="#V" n="127"/>bilius operatur propter habitum virtutis, tanto actus est de
+            <lb ed="#V" n="128"/>lectabilior &amp; magis meritorius. Haec ille.
+          </p>
+          <p xml:id="capsco-c3gqec-d1e1992">
+            Ex quibus patet,
+            <lb ed="#V" n="129"/>quod non omnis facilitas operis minuit meritum
+            immo<lb ed="#V" n="130" break="no"/>quandoque talis facilitas auget meritum, sed illa facilitas
+            <lb ed="#V" n="131"/>operis meritorii, quae consurgit ex leuitate operis, quia est
+            <lb ed="#V" n="132"/>parui ponderis in se. Et si dicatur, quod ex hoc sequitur
+            per<lb ed="#V" n="133" break="no"/>positum arguentis scilicet quod talis facilitas non est
+            con<lb ed="#V" n="134" break="no"/>ditio operis in se, sed solum operantis. Dicitur quod
+            argu<lb ed="#V" n="135" break="no"/>mentum non concludit, nisi quod causa facilitatis sit ex
+            par<lb ed="#V" n="136" break="no"/>te operantis, non autem quod facilitas non sit formaliter
+            <lb ed="#V" n="137"/>in actu, facile enim &amp; difficile dicuntur relatiue sicut
+            ma<lb ed="#V" n="138" break="no"/>gnum &amp; paruum. Et ideo aliquid est formaliter facile
+            re<lb ed="#V" n="139" break="no"/>spectu alicuius, quod est difficile respectu alterius. Ad
+            ter<lb ed="#V" n="140" break="no"/>tium dicitur, quod non est simile de bonitate actus, &amp; de
+            <lb ed="#V" n="141"/>difficultate, quia primum est de necessitate actus virtuosi,
+            <lb ed="#V" n="142"/>non autem secundum.
+          </p>
+          <p xml:id="capsco-c3gqec-d1e2025">
+            Item virtus vel habitus non tollit
+            to<lb ed="#V" n="143" break="no"/>taliter difficultatem actus, quia non actus qui est difficilis
+            <lb ed="#V" n="144"/>in se, vel respectu ad potentiam habituatam. Item dato quod
+            <lb ed="#V" n="145"/>habitus tollat difficultatem actus, facit tamen actum
+            melio<lb ed="#V" n="146" break="no"/>rem. De hoc Sanctus Thomas secunda secundae quaestione
+            <lb ed="#V" n="147"/>uigesimaseptima articulo octauo in solutione tertij sic
+            di<lb ed="#V" n="148" break="no"/>cit. Plus facit ad rationem meriti &amp; uirtutis bonum, quam
+            <lb ed="#V" n="149"/>difficile, unde non oportet quod omne difficilius sit
+            ma<lb ed="#V" n="150" break="no"/>gis meritorium, sed solum illud quod est sic difficilius, ut
+            <pb ed="#V" n="170"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>etiam sit melius.
+          </p>
+          <p xml:id="capsco-c3gqec-d1e2051">
+            Item prima secundae quaestio. 114. articulo
+            <lb ed="#V" n="2"/>quarto in solutione secundi sic dicit. Opus aliquod potest
+            <lb ed="#V" n="3"/>esse laboriosum &amp; difficile dupliciter. Vno modo ex
+            magni<lb ed="#V" n="4" break="no"/>tudmne operis, &amp; sic magnitudo laboris pertinet ad
+            augmen<lb ed="#V" n="5" break="no"/>tum meriti, &amp; sic charitas non minuit laborem, immo
+            fa<lb ed="#V" n="6" break="no"/>cit aggredi opera maxima. Magna enim operatur, si est vt
+            <lb ed="#V" n="7"/>dicit Gregorius in quadam omelia. Alio modo ex defectu
+            ip<lb ed="#V" n="8" break="no"/>sius operantis. Vnicuique enim est laboriosum &amp; difficile,
+            <lb ed="#V" n="9"/>quod non prompta voluntate facit, &amp; talis labor diminuit
+            <lb ed="#V" n="10"/>meritum, &amp; a charitate tolliitur. Haec ille.
+          </p>
+          <p xml:id="capsco-c3gqec-d1e2073">
+            Et sicut dicit ipse
+            <lb ed="#V" n="11"/>de charitate, ita potest dici de alijs habitibus virtutum,
+            scili<lb ed="#V" n="12" break="no"/>cet quod tollunt difficultatem, quae impedit meritum, non
+            <lb ed="#V" n="13"/>autem difficultatem, quae auget meritum. posset tamen
+            bre<lb ed="#V" n="14" break="no"/>uius ad omnia supradicta dici, &amp; difficultas praemissa ab
+            hu<lb ed="#V" n="15" break="no"/>meris facilius excuti dicendo quod habitus non facit actum
+            <lb ed="#V" n="16"/>facilem, aut difficilem in se, sed facit quod fiat faciliter, aut
+            <lb ed="#V" n="17"/>difficiliter, opus autem vel actum fieri faciliter est ipsum
+            fie<lb ed="#V" n="18" break="no"/>ri prompte sine necessitate praecedentis inquisitionis, aut
+            de<lb ed="#V" n="19" break="no"/>liberationis. De hoc Sanctus Thom de virtutibus
+            quaestio<lb ed="#V" n="20" break="no"/>ne prima articulo primo sic dicit. Habitibus virtutum ad
+            <lb ed="#V" n="21"/>tria indigemus. Primo vt sit firmitas in sua recta
+            operatio<lb ed="#V" n="22" break="no"/>ne, quia potentia, quae ab alio principio in sua recta
+            opera<lb ed="#V" n="23" break="no"/>tione dependet, facile immutatur, nisi secundum aliquam
+            <lb ed="#V" n="24"/>inclinationem habitualem fuerit stabilita. Secundo vt
+            ope<lb ed="#V" n="25" break="no"/>ratio perfecta in promptu habeatur nisi enim potentia
+            ra<lb ed="#V" n="26" break="no"/>tionalis per habitum aliquo modo inclinetur ad vnum
+            opor<lb ed="#V" n="27" break="no"/>tebit semper cum necesse fuerit operari, praecedere
+            inquisi<lb ed="#V" n="28" break="no"/>tionem de opere, sicut patet de eo qui vult considerare non
+            <lb ed="#V" n="29"/>dum habens habitum scientiae, &amp; qui uult secundum
+            virtu<lb ed="#V" n="30" break="no"/>tem agere habitu virtutis carens. Vnde dicit philosophus
+            <lb ed="#V" n="31"/>tertio Ethi. quod repentina sunt ab habitu. Tertio vt
+            perfe<lb ed="#V" n="32" break="no"/>cta operatio delectabiliter compleatur, quod quidem sit per
+            <lb ed="#V" n="33"/>habitum, qui cum sit inclinatiuus per modum naturae,
+            ope<lb ed="#V" n="34" break="no"/>rationem sibi propriam quasi connaturalem reddit, &amp; per
+            <lb ed="#V" n="35"/>consequens delecrabilem, nam conuenientia est
+            delectatio<lb ed="#V" n="36" break="no"/>nis causa. Vnde philosophus secundo Ethi ponit signum
+            ha<lb ed="#V" n="37" break="no"/>bitus generati delectationem in opere existentem. Haec
+            San<lb ed="#V" n="38" break="no"/>ctus Thomas Ex quibus patet quod prius dictum est, scilicet
+            <lb ed="#V" n="39"/>quod habitus facit prompte &amp; faciliter operari veruntamen
+            <lb ed="#V" n="40"/>praeter praedictum modum facilitatis oportet dicere, quod
+            <lb ed="#V" n="41"/>per habitum redduntur opera facilia operanti enim sine
+            ha<lb ed="#V" n="42" break="no"/>bitu essent ei difficilia, sicut patet de temperato, cui facile est
+            <lb ed="#V" n="43"/>moderari passiones, quod difficile est incontinenti, &amp;
+            simili<lb ed="#V" n="44" break="no"/>ter habenti magnam charitatem facile est vincere omnem
+            <lb ed="#V" n="45"/>tentationem, quod difficile vel impossibile est habenti
+            par<lb ed="#V" n="46" break="no"/>uam charitatem, vel charenti caritate, &amp; gratia. Et de hoc
+            <lb ed="#V" n="47"/>diffuse loquitur Sanctus Thomas tertio sententiarum
+            distin<lb ed="#V" n="48" break="no"/>ctione 31. quaestione secunda articulo tertio vbi sic dicit.
+            Re<lb ed="#V" n="49" break="no"/>sistere tentationi dicitur dupliciter. Vno modo vt quis a
+            ten<lb ed="#V" n="50" break="no"/>tatione non vincatur. Alio modo vt quis tentationem
+            vin<lb ed="#V" n="51" break="no"/>cat: dicitur enim quis a tentatione vinci, quando a
+            proposi<lb ed="#V" n="52" break="no"/>to bono retrahitur per tentationem in consensum peccati
+            <lb ed="#V" n="53"/>sicut est in continente, qui habet rectam rationem, sed
+            deduci<lb ed="#V" n="54" break="no"/>tur. Qui enim non habet bonum propositum vt
+            intempera<lb ed="#V" n="55" break="no"/>tus, siue luxuriosus, non vincitur, quia libenter illud agit,
+            <lb ed="#V" n="56"/>vincit autem qui non solum a tentatione superueniente non
+            <lb ed="#V" n="57"/>vincitur, nec in actum peccati deducitur, sed etiam ex
+            ma<lb ed="#V" n="58" break="no"/>gnitudine virtutis, quam nihil tentationem paruipendit, qui
+            <lb ed="#V" n="59"/>vero difficultatem a tentntione patitur, sed non deducitur,
+            <lb ed="#V" n="60"/>resistit quidem tentationi cum non consentit, sed non
+            vin<lb ed="#V" n="61" break="no"/>cit proprie loquendo. Loquendo ergo primo modo de
+            resi<lb ed="#V" n="62" break="no"/>stentia peccati, sic quaelibet charitas potest resistere
+            peccca<lb ed="#V" n="63" break="no"/>to propter liberum arbitrium liberatum a seruitute
+            pecca<lb ed="#V" n="64" break="no"/>ti, quamuis difficultatem patiatur propter tentationis
+            im<lb ed="#V" n="65" break="no"/>pulsum. Loquendo vero de tentatione secundo modo, sic
+            <lb ed="#V" n="66"/>charitas, quae est parua in principio tentationis potest
+            tenta<lb ed="#V" n="67" break="no"/>tionibus resistere, quia in fine tentationis fit magna, cum
+            <lb ed="#V" n="68"/>Deus pugnanti semper auxilium administret, si tamen
+            po<lb ed="#V" n="69" break="no"/>natur quod semper parua permaneret, non posset per
+            mo<lb ed="#V" n="70" break="no"/>dum dictum tentationi resistere. Haec ille.
+          </p>
+          <p xml:id="capsco-c3gqec-d1e2207">
+            Item quolibet
+            <lb ed="#V" n="71"/>quarto quaestione nona articulo primo sic dicit. In operibus
+            <lb ed="#V" n="72"/>virtutum duo sunt attendenda scilicet id quod sit, &amp; modus
+            <lb ed="#V" n="73"/>faciendi: contingit autem idem factum, quod sit secundum
+            <lb ed="#V" n="74"/>aliquam perfectam virtutem, fieri etiam non solum ab
+            ha<lb ed="#V" n="75" break="no"/>bente paruam virtutem, sed etiam a non habente virtutem,
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="76"/>sicut aliquis non habens iustitiam potest facere aliquod
+            <lb ed="#V" n="77"/>opus iustum, sed si attendamus ad modum faciendi ille
+            qui<lb ed="#V" n="78" break="no"/>non habet virtutem non potest operari, sicut ille qui habet,
+            <lb ed="#V" n="79"/>nec ille qui habet paruam, sicut ille qui habet magnam, &amp;
+            <lb ed="#V" n="80"/>operatur faciliter, &amp; prompte, &amp; delectabiliter, quod non
+            <lb ed="#V" n="81"/>ita facit ille qui caret virtute, vel paruam habet. Sic ergo
+            di<lb ed="#V" n="82" break="no"/>cendom est quod hoc opus, quod est offerre se martyrio, ve
+            <lb ed="#V" n="83"/>etiam martyrium sufferre, potest facere non solum
+            chari<lb ed="#V" n="84" break="no"/>tas perfecta, sed etiam imperfecta. Et quod plus est ille etiam
+            <lb ed="#V" n="85"/>qui caret charitate, secundum illud Apostinus primae cor. 13.
+            <lb ed="#V" n="86"/>Si tradidero corpus meum ita vt ardeam, charitatem autem
+            <lb ed="#V" n="87"/>non habeam &amp;c. Sed charitas perfecta hoc facit prompte &amp;
+            <lb ed="#V" n="88"/>delectabiliter, sicut patet de Laurentio &amp; Vincentio, qui in
+            <lb ed="#V" n="89"/>tormentis hilaritatem ostenderunt. hoc autem non potest
+            fa<lb ed="#V" n="90" break="no"/>cere charitas imperfecta, vel ille qui caret charitate. Haec
+            il<lb ed="#V" n="91" break="no"/>le.
+          </p>
+          <p xml:id="capsco-c3gqec-d1e2257">
+            Ad argumenta vero, quae tertio loco contra eandem
+            pri<lb ed="#V" n="92" break="no"/>mam inducit, respondendum est. Ad primum siquidem
+            di<lb ed="#V" n="93" break="no"/>citur, quod maior potest probabiliter negari, quia
+            intende<lb ed="#V" n="94" break="no"/>re actum potest conuenire alicui habitui acquisito, non ex
+            <lb ed="#V" n="95"/>sola ratione generis scilicet inquantum habitus est, sed es
+            <lb ed="#V" n="96"/>ratione propriae speciei, vel generis proximi, puta
+            inquanti<lb ed="#V" n="97" break="no"/>est habitus partis appetitiuae. Hoc autem dico quia habitus
+            <lb ed="#V" n="98"/>intellectualis aliter se habet ad actum quam moralis, sicut
+            <lb ed="#V" n="99"/>ostendit Sanctus Thomas prima secundae quaest. 50. articulo
+            <lb ed="#V" n="100"/>tertio vbi sic dicit. Virtus est habitus quo quis bene vtitur.
+            <lb ed="#V" n="101"/>Dupliciter autem aliquis habitus ordinatur ad bonum
+            a<lb ed="#V" n="102" break="no"/>ctum. Vno modo inquantum per huiusmodi habitum
+            acquiri<lb ed="#V" n="103" break="no"/>tur homini facultas ad bonum actum sicut per habitum
+            <lb ed="#V" n="104"/>grammaticae habet homo facultatem recte loquendi, non
+            <lb ed="#V" n="105"/>tamen grammatica facit, vt homo semper recte loquatur.
+            <lb ed="#V" n="106"/>Potest enim grammaticus barbarizare, aut solecismum
+            fa<lb ed="#V" n="107" break="no"/>cere, &amp; eadem ratio est in alijs scientijs &amp; artibus. Alio
+            mo<lb ed="#V" n="108" break="no"/>do aliquis habitus non solum facit facultatem agendi, sed
+            <lb ed="#V" n="109"/>etiam facit quod aliquis recte illa facultate vtatur, sicut
+            iu<lb ed="#V" n="110" break="no"/>stitia non solum facit, quod homo sit promptae voluntatis
+            <lb ed="#V" n="111"/>ad iusta operanda, sed etiam facit vt iuste operetur &amp;c. Haec
+            <lb ed="#V" n="112"/>ille.
+          </p>
+          <p xml:id="capsco-c3gqec-d1e2305">
+            Item q. 57. articulo primo sic dicit. Duplici ratione
+            ali<lb ed="#V" n="113" break="no"/>quis habitus dicitur virtus. Vno modo quia facit facultatem
+            <lb ed="#V" n="114"/>bene operandi. Alio modo quia cum facultate facit bonum
+            <lb ed="#V" n="115"/>vsum. Et hoc pertinet solum ad illos habitus, qui pertinent
+            <lb ed="#V" n="116"/>ad vim appetitiuam, eo, quod vis appetitiua animae est, quae
+            <lb ed="#V" n="117"/>facit vti potentijs &amp; habitibus. Cum igitur habitus
+            intelle<lb ed="#V" n="118" break="no"/>ctuales speculatiui non perficiant partem appetitiuam, nec
+            <lb ed="#V" n="119"/>aliquo modo ipsam respiciant, sed solum intellectiuam,
+            pos<lb ed="#V" n="120" break="no"/>sunt quidem dici virtutes inquantum faciunt facultatem
+            <lb ed="#V" n="121"/>bonae operationis, quae est consideratio veri hoc est enim
+            bo<lb ed="#V" n="122" break="no"/>num opus intellectus, non tamen dicuntur uirtutes
+            secun<lb ed="#V" n="123" break="no"/>do modo quasi facientes bene vti potentia seu habitu. Ex
+            <lb ed="#V" n="124"/>hoc enim quod aliquis habet in se habitum scientiae
+            specu<lb ed="#V" n="125" break="no"/>latiuae non inclinatur ad vtendum, sed sit potens
+            speculari<lb ed="#V" n="126" break="no"/>verum in his quorum habet scientiam, sed quod vtatur
+            scien<lb ed="#V" n="127" break="no"/>tia habita hoc est mouente voluntate. Et ideo virtus quae
+            <lb ed="#V" n="128"/>perficit voluntatem, vt charitas, vel iustitia, facit etiam
+            be<lb ed="#V" n="129" break="no"/>ne vti speculatiuis habitibus. Haec ille.
+          </p>
+          <p xml:id="capsco-c3gqec-d1e2344">
+            Ex quibus patet, quod
+            <lb ed="#V" n="130"/>habitus partis intellectiuae aliter se siabet ad actum
+            poten<lb ed="#V" n="131" break="no"/>tiae quem insormant, &amp; aliter habitus partis appetitiuae, &amp;
+            <lb ed="#V" n="132"/>ideo non sequitur, si secundi intendant actum, vel per se
+            fa<lb ed="#V" n="133" break="no"/>ciant ad intensionem actus quod etiam primi hoc faciant.
+            <lb ed="#V" n="134"/>Dicitur secundo quod concesia maiore in aliquo sensu
+            mi<lb ed="#V" n="135" break="no"/>nor est neganda, quia omnis potentia habituata potest
+            in<lb ed="#V" n="136" break="no"/>tensiorem actum elicere quam potentia non habituata, &amp;
+            <lb ed="#V" n="137"/>hoc si vtatur habitu suo ad intendendum actum per
+            impe<lb ed="#V" n="138" break="no"/>rium voluntatis, non tamen oportet, quod per habitum
+            pos<lb ed="#V" n="139" break="no"/>sit intendere omnem actum suum sed tantum illum, ad quem
+            <lb ed="#V" n="140"/>habitus ordinatur. Et ideo apparet, quod probationes
+            mi<lb ed="#V" n="141" break="no"/>noris in hoc sensu intellectae non valent: cum enim dicit quod
+            <lb ed="#V" n="142"/>habitus creditiuus non causat euidentiam, aut claritatem
+            <lb ed="#V" n="143"/>cognitionis &amp;c. apparet quod peccat per fallaciam
+            conse<lb ed="#V" n="144" break="no"/>quentis, arguendo a negatione inferioris ad negationem
+            su<lb ed="#V" n="145" break="no"/>perioris, quia talis habitus licet non intendat cognitionem
+            <lb ed="#V" n="146"/>tamen intendit assensum qui est quidam actus intellectus.
+            <lb ed="#V" n="147"/>Nec ualet quod dicit, quod hic solum quaerimus de
+            inten<lb ed="#V" n="148" break="no"/>sione &amp; claritate cognitionis &amp;c. Hoc enim non est uerum
+            <lb ed="#V" n="149"/>sed quaerimus in generali, utrum habitus faciant per se ad
+            <lb ed="#V" n="150"/>intensionem cuiuscunque actus. Per simile patet quod nihil
+            <pb ed="#V" n="171"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>valet illud, quod 10d dicit de habitu causato per rationem
+            dia<lb ed="#V" n="2" break="no"/>lectican, vel de ennstratiuam, quia licet talis habitus non
+            <lb ed="#V" n="3"/>causet maiorem claritatem aut euidenti am quam actus, a
+            <lb ed="#V" n="4"/>quibus causabatur, causat tamen intensiorem assensum.
+            As<lb ed="#V" n="5" break="no"/>sensus autem est actus quidam intellectus, &amp; de hoc sicut
+            <lb ed="#V" n="6"/>de alijs quaerimus.
+          </p>
+          <p xml:id="capsco-c3gqec-d1e2409">
+            Ad rationem autem, quam ad hoc
+            indu<lb ed="#V" n="7" break="no"/>cit, patet per idem, quia solum concludit, si aliquid
+            conclu<lb ed="#V" n="8" break="no"/>dat, quod habitus acquisitus non causat nouam claritatem
+            <lb ed="#V" n="9"/>aut euidentiam, nec aliquid horum duorum intendit, sed
+            <lb ed="#V" n="10"/>non concludit, quin possit facere ad intensionem aliorum
+            <lb ed="#V" n="11"/>actuum intellectus, ad quos habitus directe ordinatur,
+            cu<lb ed="#V" n="12" break="no"/>iusmodi est assensus, vel iudicium, &amp; huiusmo di.
+            Verunta<lb ed="#V" n="13" break="no"/>men nec illud sufncienter concludit, quia vt dictum fuit,
+            <lb ed="#V" n="14"/>species intelligibilis est quidam habitus, &amp; tamen secundum
+            <lb ed="#V" n="15"/>maiorem vel minorem perfectionem speciei intelligibilis
+            <lb ed="#V" n="16"/>in repraesentando distincte obiectum intelligibile contingit
+            <lb ed="#V" n="17"/>maior vel minor claritas, aut euidentia, &amp; intensior vel
+            re<lb ed="#V" n="18" break="no"/>missior cognitio in intellectu. Et cum dicit, quod habitus
+            <lb ed="#V" n="19"/>non est lumen quo aliquid cognoscitur &amp;c. Non obstat, aa
+            <lb ed="#V" n="20"/>habitus de quo loquimur est lumen, quo ad cognitionem,
+            <lb ed="#V" n="21"/>&amp; est dispositio necessaria potentiae ad hoc quod cognoscat
+            <lb ed="#V" n="22"/>Item sicut prius dictum est haec probatio solum procedit
+            <lb ed="#V" n="23"/>de habitibus partis intellectiuae, non autem de appetitiuis.
+            <lb ed="#V" n="24"/>Quomodo autem species intelligibilis illustrata lumine
+            in<lb ed="#V" n="25" break="no"/>tellectus agentis dicatur habitus ostendit Sanctus Thomas
+            <lb ed="#V" n="26"/>tertio sententiarum distinctione decimaquarta quaestione
+            <lb ed="#V" n="27"/>prima articulo primo quaestiuncula secunda vbi sic dicit.
+            <lb ed="#V" n="28"/>Nulla potentia passiua potest exire in actum nisi completa
+            <lb ed="#V" n="29"/>per formam sui actiui per quam fit in actu quia nihil
+            opera<lb ed="#V" n="30" break="no"/>tur, nisi secundum quod est actu, impressi ones autem
+            acti<lb ed="#V" n="31" break="no"/>uorum possunt esse in passiuis dupliciter. Vno modo per
+            <lb ed="#V" n="32"/>modum passionis, dum scilicet potentia passiua est in
+            trans<lb ed="#V" n="33" break="no"/>mutari.
+          </p>
+          <p xml:id="capsco-c3gqec-d1e2470">
+            Alio modo per modum qualitatis &amp; formae
+            quan<lb ed="#V" n="34" break="no"/>do impressio actiui iam facta est connaturalis ipsi passiuo,
+            <lb ed="#V" n="35"/>sicut etiam philosophus in praedicamentis distinguit
+            pas<lb ed="#V" n="36" break="no"/>sionem &amp; passibilem qualitatem. Sensus autem potentia
+            <lb ed="#V" n="37"/>passiua est, quia non potest esse in actu omnium, ad quae se
+            <lb ed="#V" n="38"/>extendit sua operatio per naturam potentiae. non enim
+            po<lb ed="#V" n="39" break="no"/>test esse aliquid, quod actu habeat omnes colores, &amp; ideo
+            <lb ed="#V" n="40"/>oportet quod visus sit cognitiuus omnium colorum
+            secun<lb ed="#V" n="41" break="no"/>dum quod est potentia omnes colores quodammodo, &amp;
+            <lb ed="#V" n="42"/>sic patiendo a coloribus fit in actu &amp; eis assimilatur, &amp;
+            co<lb ed="#V" n="43" break="no"/>gnoscit eos. Similiter etiam intellectus est cognitiuus
+            om<lb ed="#V" n="44" break="no"/>nium entium, quia ens &amp; vnum conuertuntur, quo d est
+            ob<lb ed="#V" n="45" break="no"/>iectum intellectus. Nulla autem creatura potest esse in actu
+            <lb ed="#V" n="46"/>totius entitatis cumsit ens finitum, hoc enim est solius Dei,
+            <lb ed="#V" n="47"/>quod est fons omnium entium. omnia quodamodo in
+            seip<lb ed="#V" n="48" break="no"/>so praehabens, vt dicit Dionysius: &amp; ideo nulla creatura
+            po<lb ed="#V" n="49" break="no"/>test intelligere sine aliquo intellectu, quae sit potentia
+            passi<lb ed="#V" n="50" break="no"/>ua idest receptiua, vnde nec sensus nec intellectus possibilis
+            <lb ed="#V" n="51"/>possunt operari nisi per sua actiua perficiantur vel
+            mouean<lb ed="#V" n="52" break="no"/>tur. Sed quia sensus non sentit nisi apud praesentiam
+            sensibi<lb ed="#V" n="53" break="no"/>lis, ideo ad eius operationem perfectam sufficit impressio
+            <lb ed="#V" n="54"/>sui actiui per modum passionis tantum. In intellectu autem
+            <lb ed="#V" n="55"/>requiritur ad eius perfectionem, quod impressio sui actiui
+            <lb ed="#V" n="56"/>sit in eo non solum per modum passionis, sed etiam per
+            mo<lb ed="#V" n="57" break="no"/>dum qualitatis &amp; formae connaturalis factae, &amp; hanc formam
+            <lb ed="#V" n="58"/>habitum dicimus, &amp; quia quod est conaturale firmiter
+            ma<lb ed="#V" n="59" break="no"/>net, &amp; in promptu est homini vti sua naturali virtute, &amp; est
+            <lb ed="#V" n="60"/>ei delectabile, quia naturae est conueniens, ideo habitus est
+            <lb ed="#V" n="61"/>difncile mobilis sicut scientia, &amp; eo potest homo vti cum
+            <lb ed="#V" n="62"/>voluerit, &amp; reddit operationem delectabilem. Sicut autem
+            <lb ed="#V" n="63"/>in sensu visus est duplex actiuum vnum quasi primum agens
+            <lb ed="#V" n="64"/>&amp; mouens scilicet lux, aliud quasi mouens motum sicut
+            co<lb ed="#V" n="65" break="no"/>lor factus vsiblis actu per lucem, ita in intellectu est
+            quasi<lb ed="#V" n="66" break="no"/>primum agens lumen in tellectus agentis, &amp; quasi mouens
+            <lb ed="#V" n="67"/>motum est species facta per ipsum intelligibilis in actu, &amp;
+            <lb ed="#V" n="68"/>ideo habitus intellectiuae partis conficitur ex lumine &amp;
+            spe<lb ed="#V" n="69" break="no"/>cie intelligibili illorum, quae per speciem cognoscuntur. Haec
+            <lb ed="#V" n="70"/>ille.
+          </p>
+          <p xml:id="capsco-c3gqec-d1e2554">
+            Ex quibus sequitur, quod aliquis habitus facit ad
+            sub<lb ed="#V" n="71" break="no"/>stantiam &amp; ad intensionem actus &amp; quod aliquis habitus
+            <lb ed="#V" n="72"/>est lumen necessarium ad intellectionem, &amp; dispositio
+            ne<lb ed="#V" n="73" break="no"/>cessaria potentiae ad agendum. A secundum argumentum
+            <lb ed="#V" n="74"/>dicitur, quod potentia &amp; habitus concurrunt ad eundem
+            <lb ed="#V" n="75"/>actum pr oducendum vel intendendum, non primo modo
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="76"/>scilicet quod habitus intendat potentiam, licet eam
+            perfi<lb ed="#V" n="77" break="no"/>ciat, nec secundo modo scilicet quod potentia &amp; habitus
+            <lb ed="#V" n="78"/>sint duo agentia partialia supplentia vicem vnius perfecte
+            <lb ed="#V" n="79"/>agentis, quia habitus non est quod, sed quo, sed tertio
+            mo<lb ed="#V" n="80" break="no"/>do, quia scilicet potentia est quod agit, vt ita dicamus, &amp;
+            ha<lb ed="#V" n="81" break="no"/>bitus est quo agitur, vel ratio agendi vel perfectio potentiae
+            <lb ed="#V" n="82"/>ad agendum. Et si contra hoc velit limitare per suam
+            proba<lb ed="#V" n="83" break="no"/>tionem, quia illa principia, quae immediate se habent &amp;c.
+            D<lb ed="#V" n="84" break="no"/>citur quod hoc habet verum in illis principijs. quorum
+            quod<lb ed="#V" n="85" break="no"/>libet est quod agit, non habet autem necessitatem, vbi unum
+            <lb ed="#V" n="86"/>est quod, aliud quo. sicut patet de sensu, &amp; specie, qua
+            infor<lb ed="#V" n="87" break="no"/>matur.
+          </p>
+          <p xml:id="capsco-c3gqec-d1e2596">
+            Ad secundam improbationem dicitur, quod maior
+            <lb ed="#V" n="88"/>est manifeste falsa, quia plura requiruntur ad actum
+            perfe<lb ed="#V" n="89" break="no"/>ctum quam ad actum imperfectum, &amp; ad huius maioris
+            pri<lb ed="#V" n="90" break="no"/>mam probationem non oportet nos respondere, quia tale
+            <lb ed="#V" n="91"/>exemplum non ponit Sanctus Thomas sed Herueus, vel
+            ali<lb ed="#V" n="92" break="no"/>qui alij, ideo ipsi respondeant si volunti potest tamen dici,
+            <lb ed="#V" n="93"/>quod acuties non requiritur ad quodlibet secare, sed solum
+            <lb ed="#V" n="94"/>ad perfecte secare. Pro secunda vero probatione eiusdem
+            <lb ed="#V" n="95"/>maioris, quae magis vrget dicitur primo, quod si loquamur
+            <lb ed="#V" n="96"/>de habitu incomplexorum, puta de specie intelligibili, illa
+            <lb ed="#V" n="97"/>requiritur ad omnem actum intellectus intensum vel
+            remis<lb ed="#V" n="98" break="no"/>sum. Si vero loquamur de habitu respectu complexorum,
+            <lb ed="#V" n="99"/>puta principiorum, vel conclusionum tunc dicitur, quod
+            a<lb ed="#V" n="100" break="no"/>ctus eliciti a potentia habituata secundum proprtionem
+            <lb ed="#V" n="101"/>habitus non solum differunt secundum intensum &amp;
+            remis<lb ed="#V" n="102" break="no"/>sum, sed aliter, quia vt saepe dictum est, potentia habituata
+            <lb ed="#V" n="103"/>elicit actum delectabiliter, firmiter, &amp; prompte, quod non
+            <lb ed="#V" n="104"/>facit potentia non habituata.
+          </p>
+          <p xml:id="capsco-c3gqec-d1e2635">
+            Item manifeste falsum est quod
+            <lb ed="#V" n="105"/>eorundem actum secundum speciem solum differentium
+            <lb ed="#V" n="106"/>secundum intensum &amp; re nissum necessario sunt eadem
+            prir<lb ed="#V" n="107" break="no"/>cipia secundum speciem solum differentia secundum
+            inten<lb ed="#V" n="108" break="no"/>sum &amp; remissum, &amp; hoc vbi idem effectus secundum
+            spe<lb ed="#V" n="109" break="no"/>ciem potest a diuersis causis specie differentibus &amp; suo
+            ef<lb ed="#V" n="110" break="no"/>fectui aequiuocis produci, sicut patet de igne, qui potest
+            pro<lb ed="#V" n="111" break="no"/>duci ab alio igne, &amp; a sole, &amp; a silice percusso, &amp; multis alijs
+            <lb ed="#V" n="112"/>causis. Nam constat quod talium causarum specie
+            differen<lb ed="#V" n="113" break="no"/>tium effectus sunt eiusdem speciei differentes solum penes
+            <lb ed="#V" n="114"/>intensum &amp; remissum. Sc in proposito dicendum est, quod
+            <lb ed="#V" n="115"/>actus intensus &amp; remissus in eadem specie possunt
+            procede<lb ed="#V" n="116" break="no"/>re a principiis diuersarum specierum, potissime quando
+            ta<lb ed="#V" n="117" break="no"/>lia principia sunt partialia, &amp; non totalia cuiusmodi est
+            ha<lb ed="#V" n="118" break="no"/>bitus concurrens cum potentia ad productionem actus. Ad
+            <lb ed="#V" n="119"/>tertium negatur maior loquendo de illo, quod per se
+            inten<lb ed="#V" n="120" break="no"/>dit actum, non vt principium quod, sed vt quo, nec est
+            a<lb ed="#V" n="121" break="no"/>gens, sed perfectio agentis vel ratio agend, tale enim est quod
+            <lb ed="#V" n="122"/>potest facere de per se ad intensionem actus vna cum
+            poten<lb ed="#V" n="123" break="no"/>tia, nec tamen per se solum sufficit causare actum, sicut
+            pa<lb ed="#V" n="124" break="no"/>tet de specie in sensu vel intellectu, quae vna cum potentia
+            <lb ed="#V" n="125"/>cognitiua concurrit ad causationem, &amp; ad intensionem
+            <lb ed="#V" n="126"/>actus, &amp; tamen non sufficit se sola producere actum. Et ad
+            <lb ed="#V" n="127"/>probationem minoris dicitur, quod illud quod per se facit
+            <lb ed="#V" n="128"/>ad intensionem actus, per se facit ad essentiam eius
+            produ<lb ed="#V" n="129" break="no"/>cendum, sed vtrobique concurrit sicut causa partialis, vel
+            <lb ed="#V" n="130"/>potius non vt quod, sed vt quo, nec proprie sicut agens, sed
+            <lb ed="#V" n="131"/>sicut perfectio agentis, &amp; ideo sicut per se solum non
+            suffi<lb ed="#V" n="132" break="no"/>cit actum intendere, ita nec sufficit illum se solo producere
+            <lb ed="#V" n="133"/>sed ad vtrunque potest per se concurrere modo praedicto.
+            <lb ed="#V" n="134"/>Et haec sufficiant ad dicta Duran. Veruntamen sciendum
+            <lb ed="#V" n="135"/>quod Sanctus Thomas aliquando visus est dicere quarto
+            sen<lb ed="#V" n="136" break="no"/>tentiarum distinctio. quadragesimanona quaestione prima
+            <lb ed="#V" n="137"/>articulo secundo quaestiuncula secunda in solutione
+            secun<lb ed="#V" n="138" break="no"/>di, quod habitus non facit ad substantiam actus, dicit enim
+            <lb ed="#V" n="139"/>ibidem sic. In actu duo sunt consideranda scilicet actus
+            sub<lb ed="#V" n="140" break="no"/>stantia, &amp; forma ipsius, a qua perfectionem habet, actus
+            igi<lb ed="#V" n="141" break="no"/>tur secundum suam substantiam principium est naturalis
+            <lb ed="#V" n="142"/>potentia, sed secundum suam formam pricipium eius est
+            <lb ed="#V" n="143"/>habitus &amp;c. Sed ex dictis eius tamen tam ibi quam alibi
+            ap<lb ed="#V" n="144" break="no"/>paret, quod non fuit mens eius, quod habitus nullo modo
+            <lb ed="#V" n="145"/>faciat ad substantiam actus sed intendit, quod non ita
+            dire<lb ed="#V" n="146" break="no"/>cte facit nec ita necessario requiritur ad substantiam actus
+            <lb ed="#V" n="147"/>sicut ad eius complementum &amp; perfectionem, quae est ex
+            <lb ed="#V" n="148"/>parte obiecti, uel ex parte modi agendi, habitus enim
+            deter<lb ed="#V" n="149" break="no"/>minat potentiam ad determinatum obiectum &amp; modum
+            <lb ed="#V" n="150"/>agendi, sicut ostendit ipse in de veritate quaest. 20. articulo
+            <pb ed="#V" n="172"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>secundo vbi sic dicit. Oportet scire quid sit habitus, &amp; ad
+            <lb ed="#V" n="2"/>quid indigemus habitibus. Quantum igitur in primo
+            aspe<lb ed="#V" n="3" break="no"/>ctu apparet, habitus significare videtur aliquid potentiae
+            su<lb ed="#V" n="4" break="no"/>peradditum, quo perficitur ad suam operationem, indiget
+            <lb ed="#V" n="5"/>autem aliqua potentia aliquo superaddito duplici ratione
+            <lb ed="#V" n="6"/>scilicet propter conditionem naturae, &amp; propter rationem
+            ip<lb ed="#V" n="7" break="no"/>sius potentiae, nec immerito, cum actio, quae a potentia
+            pro<lb ed="#V" n="8" break="no"/>cedit, a natura etiam dependeat, quae est potentiae origo. Ex
+            <lb ed="#V" n="9"/>parte quidem naturae indiget potentia aliquo superaddito
+            <lb ed="#V" n="10"/>ad operandum quando scilicet operatio talis est, quae facultatem
+            <lb ed="#V" n="11"/>&amp; conditionem naturae excedit, sicut conditionem
+            huma<lb ed="#V" n="12" break="no"/>nae naturae excedit ut ad Deum, quasi sociali amore
+            afficia<lb ed="#V" n="13" break="no"/>tur, quasi haereditatis eius consors, vnde ad hanc
+            operatio<lb ed="#V" n="14" break="no"/>nem indiget nostra potentia affectiua habitu charitatis. Ex
+            <lb ed="#V" n="15"/>parte autem potentiae quando potentia est ordinata ad
+            ob<lb ed="#V" n="16" break="no"/>iecta vniuersalia, sicut visus ad cognoscendum omnes
+            colo<lb ed="#V" n="17" break="no"/>res. Non fuit autem possibile, vt in organo visiuo essent
+            om<lb ed="#V" n="18" break="no"/>nes colores in actu, &amp; ideo aliter ordinatum est, vt scilicet
+            <lb ed="#V" n="19"/>potentiae visiuae possit superaddi similitudo cuiuslibet
+            colo<lb ed="#V" n="20" break="no"/>ris, &amp; sic in actum visionis progrediatur.
+          </p>
+          <p xml:id="capsco-c3gqec-d1e2785">
+            Sciendum tamen
+            <lb ed="#V" n="21"/>est quod illud, quod superadditur potentiae, quandoque
+            re<lb ed="#V" n="22" break="no"/>cipitur in ea per modum habitus, &amp; quandoque per modum
+            <lb ed="#V" n="23"/>passionis Per modum pas sionis quando receptum non
+            im<lb ed="#V" n="24" break="no"/>manet recipienti, neque efficitur eius qualitas, sed quasi
+            quo<lb ed="#V" n="25" break="no"/>dam contactu ab aliquo agente immutatur subito, &amp; etiam
+            <lb ed="#V" n="26"/>transit sicut philosophus dicit in praedicamentis ruborem
+            <lb ed="#V" n="27"/>esse passionem &amp; non passibilem qualitatem, quando quis
+            <lb ed="#V" n="28"/>propter verecundiam in rubore subito immutatur. Tunc
+            <lb ed="#V" n="29"/>vero retinetur per modum habitus, quando illud receptum
+            <lb ed="#V" n="30"/>efficitur quasi connaturale ipsi recipienti, &amp; inde est quod
+            <lb ed="#V" n="31"/>habitus dicitur a philosopho qualitas difficile mobilis.
+            In<lb ed="#V" n="32" break="no"/>de est quod operationes ex habitu procedentes
+            delectabi<lb ed="#V" n="33" break="no"/>les sunt, &amp; in promptu habentur &amp; faciliter exercentur, quia
+            <lb ed="#V" n="34"/>sunt quasi connaturales effectae, ea igitur quae
+            superaddun<lb ed="#V" n="35" break="no"/>tur potentijs sensitiuis non superadduntur per modum
+            ha<lb ed="#V" n="36" break="no"/>bitus, sed per modum passionis. potentiis vero animae
+            intel<lb ed="#V" n="37" break="no"/>lectiuae per modum habitus, quia sensitiua pars animae
+            agi<lb ed="#V" n="38" break="no"/>tur instinctu naturae magis quam agat intellectiua autem
+            <lb ed="#V" n="39"/>pars est domina sui actus, &amp; ideo competit ei habere
+            prom<lb ed="#V" n="40" break="no"/>ptitudinem ad actus, vt possit operari quandocunque libet
+            <lb ed="#V" n="41"/>Haec ille.
+          </p>
+          <p xml:id="capsco-c3gqec-d1e2833">
+            Ad argumenta primo loco inducta contra
+            secun<lb ed="#V" n="42" break="no"/>dam conclusionum respondendo praemittenda sunt aliqua
+            <lb ed="#V" n="43"/>Primum est quod non est mens Sancti Thomas quod virtus
+            <lb ed="#V" n="44"/>de qua loquitur sit pura relatio, aut respectus. Secundum
+            <lb ed="#V" n="45"/>est quod mens sua fuit, quod virtus includit respectum ad
+            <lb ed="#V" n="46"/>aliquid. De praedictis duobus Sanctus Thomas super
+            septi<lb ed="#V" n="47" break="no"/>mo physi. exponens illud Aristote neque enim in habitibus
+            <lb ed="#V" n="48"/>habitus enim &amp; virtutes &amp; malitiae sunt, virtus autem
+            om<lb ed="#V" n="49" break="no"/>nis &amp; malitia ad aliquid sunt &amp;c. sic dicit. Habitus qui sunt
+            <lb ed="#V" n="50"/>in prima specie qualitatis etiam corporales sunt quaedam
+            <lb ed="#V" n="51"/>virtutes &amp; malitiae, virtus enim vniuersaliter cuiuslibet rei
+            <lb ed="#V" n="52"/>est, quae bonum facit habentem, &amp; opus eius bonum reddit,
+            <lb ed="#V" n="53"/>vnde virtus corporis dicitur, secundum quam bene se habet
+            <lb ed="#V" n="54"/>&amp; bene operatur vt sanitas, econtrario de malitia, vt de
+            aegri<lb ed="#V" n="55" break="no"/>tudine. Omnis autem virtus &amp; malitia dicuntur ad aliquid
+            <lb ed="#V" n="56"/>Et hoc manifestat per exempla. Sanitas enim, quae est
+            quae<lb ed="#V" n="57" break="no"/>dam virtus corporis est quaedam commensuratio
+            calido<lb ed="#V" n="58" break="no"/>rum &amp; frigidorum, &amp; dico hanc commensurationem fieri
+            <lb ed="#V" n="59"/>per debitam proportionem eorum, quae sunt infra humido
+            <lb ed="#V" n="60"/>rum vel humorum, ex quibus componitur corpus ad
+            inui<lb ed="#V" n="61" break="no"/>cem &amp; ad corpus aliqua enim contemperatio humorum
+            <lb ed="#V" n="62"/>est sanitas in leone, quae non esset sanitas in homine, sed eius
+            <lb ed="#V" n="63"/>extinctio, quia cum ea humana natura stare non posset,
+            si<lb ed="#V" n="64" break="no"/>militer pulchritudo &amp; macies dicuntur ad aliquid, sumitur
+            <lb ed="#V" n="65"/>autem hic macies pro dispositiomue qua aliquis est expeditus
+            <lb ed="#V" n="66"/>ad motum &amp; actione. Huiusmodi enim sunt dispositiones.
+            <lb ed="#V" n="67"/>eius, quod perfectum est in sua natura per comparationem
+            <lb ed="#V" n="68"/>ad optimum, idest ad finem, qui est operatio, ex hoc enim
+            <lb ed="#V" n="69"/>huiusmodi dispositiones virtutes dicuntur, quia bonum
+            fa<lb ed="#V" n="70" break="no"/>ciunt habentem, &amp; opus eius bonum reddunt &amp; sic
+            dicun<lb ed="#V" n="71" break="no"/>tur per relationem ad bonum opus, quod est optimum rei,
+            <lb ed="#V" n="72"/>&amp; ne aliquis recipiat perfectum illud, quod iam adeptum
+            <lb ed="#V" n="73"/>est finem, dicit quod perfectum hic accipitur hoc, quod est
+            <lb ed="#V" n="74"/>sanatiuum &amp; dispositum secundum naturam. Non autem
+            <lb ed="#V" n="75"/>hoc est intelligendum, quod huiusmodi habitus &amp;
+            disposi<cb ed="#V" n="b"/><lb ed="#V" n="76" break="no"/>tiones hoc ipsum quod sunt ad aliquid sunt, quia sic non
+            <lb ed="#V" n="77"/>essent in genere qualitatis, sed relationis, sed quia eorum
+            ra<lb ed="#V" n="78" break="no"/>tio ex aliqua relatione dependet, quia igitur huiusmodi
+            ha<lb ed="#V" n="79" break="no"/>bitus ad aliquid sunt, &amp; in ad aliquid non est motus, neque
+            <lb ed="#V" n="80"/>generatio neque alteratio, vt in quinto physicorum
+            proba<lb ed="#V" n="81" break="no"/>tum est. Manifestum est, quod ad huiusmodi habitus non
+            <lb ed="#V" n="82"/>est alteratio primo &amp; per se, sed eorum transmutatio
+            conse<lb ed="#V" n="83" break="no"/>quitur aliquam priorem transmutationem calidi, aut
+            frigi<lb ed="#V" n="84" break="no"/>di, aut alicuius huiusmodi, sicut etiam relationes esse
+            inci<lb ed="#V" n="85" break="no"/>piunt per consequentiam ad aliquos motus. Haec ille.
+          </p>
+          <p xml:id="capsco-c3gqec-d1e2932">
+            Item
+            <lb ed="#V" n="86"/>quarto sententiarum distinctione prima quaestione prima
+            <lb ed="#V" n="87"/>articulo quarto quaestiuncula secunda sic dicit. Quidam do
+            <lb ed="#V" n="88"/>cunt, quod virtus supernaturalis, quae est in sacramentis, non
+            <lb ed="#V" n="89"/>est nisi quidam ordo ad aliquid, sed hoc nihil est dictu, quia
+            <lb ed="#V" n="90"/>virtus semper nominat principium alicuius actionis, ad
+            ali<lb ed="#V" n="91" break="no"/>quid autem siue relatio non potest esse principium
+            actio<lb ed="#V" n="92" break="no"/>nis vel terminus, vt probatur quinto phy. &amp; ideo ille ordo
+            <lb ed="#V" n="93"/>nullo modo potest habere nomen virtutis, neque rationem.
+            <lb ed="#V" n="94"/>Haec ille.
+          </p>
+          <p xml:id="capsco-c3gqec-d1e2955">
+            Item tertio sententiarum distinctione
+            vigesima<lb ed="#V" n="95" break="no"/>tertia quaestione prima articulo tertio quaestiuncula tertia
+            <lb ed="#V" n="96"/>sic dicit. Virtus proprie loquendo includit respectum ad
+            ali<lb ed="#V" n="97" break="no"/>quid, cuius sit principium, sicut currendi, vel essendi &amp;c. Item
+            <lb ed="#V" n="98"/>de veritate quaestione vigesimaprima articulo sexto sic dicit
+            <lb ed="#V" n="99"/>Aliquod nomen potest respectum importare dupliciter.
+            <lb ed="#V" n="100"/>Vno modo sic, quod nomen imponatur ad significandum
+            <lb ed="#V" n="101"/>ipsum respectum, sicut hoc nomen pater, vel filius, vel
+            pater<lb ed="#V" n="102" break="no"/>nitas ipsa. Quaedam vero dicuntur importare respectum,
+            <lb ed="#V" n="103"/>quia significant rem alicuius generis quam concomitatur
+            <lb ed="#V" n="104"/>quidam respectus, quamuis non sit impositum ad ipsum
+            re<lb ed="#V" n="105" break="no"/>spectum significandum sicut hoc nomen scientia est
+            im<lb ed="#V" n="106" break="no"/>positum ad significandum quandam qualitatem, quam
+            se<lb ed="#V" n="107" break="no"/>quitur quidam respectus non autem ad significandum
+            re<lb ed="#V" n="108" break="no"/>spectum ipsum. Et per hunc modum ratio boni respectum
+            <lb ed="#V" n="109"/>implicat non quia nomen boni significet ipsum respectum
+            <lb ed="#V" n="110"/>solum, sed quia significat id ad quod sequitur respectus cum
+            <lb ed="#V" n="111"/>respectu ipso. Respectus autem importatus in nomine
+            bo<lb ed="#V" n="112" break="no"/>ni est habitudo perfectiui secundum quod aliquid habet
+            p<lb ed="#V" n="113" break="no"/>ficere non solum secundum rationem speciei sed etiam secum
+            <lb ed="#V" n="114"/>dum esse, quod habet in rebus. Haec ille.
+          </p>
+          <p xml:id="capsco-c3gqec-d1e3001">
+            Sicut autem dicit
+            <lb ed="#V" n="115"/>de hoc nomine bonum, ita potest dici secundum mentem
+            <lb ed="#V" n="116"/>eius de hoc nomine uirtus vel vitium. Ex quibus apparet,
+            <lb ed="#V" n="117"/>quod virtus non dicit purum respectum, nec purum
+            absolu<lb ed="#V" n="118" break="no"/>tum, sed dicit quoddam absolutum, quod concomitatur
+            re<lb ed="#V" n="119" break="no"/>spectus, &amp; vtrunque importat absolutum principaliter,
+            re<lb ed="#V" n="120" break="no"/>spectum vero secundario, &amp; in obliquo, sicut dicendo
+            habi<lb ed="#V" n="121" break="no"/>tus factiuus boni operis. His praemissis dicitur ad primum
+            <lb ed="#V" n="122"/>quod est Aureoli, quod recte concludit, quod virtus
+            inclu<lb ed="#V" n="123" break="no"/>dat respectum secundario in obliquo, non autem
+            principa<lb ed="#V" n="124" break="no"/>liter est in recto. Et in hoc non discordat cum Sancto Thomas
+            <lb ed="#V" n="125"/>sed declarat eum nolens, aut volens.
+          </p>
+          <p xml:id="capsco-c3gqec-d1e3027">
+            Ad secundum, quod est
+            <lb ed="#V" n="126"/>eiusdem dicitur primo, quod loquendo de uirtutibus
+            exi<lb ed="#V" n="127" break="no"/>stentibus in potentiis animae de quibus est praesens sermo,
+            <lb ed="#V" n="128"/>concedendum esset in aliquo casu, quod eadem forma &amp;
+            <lb ed="#V" n="129"/>qualitas quae est virtus, posset esse non uirtus, &amp; ipsa manens
+            <lb ed="#V" n="130"/>esse &amp; non esse uirtus, vtputa si perderet formam uel
+            perfe<lb ed="#V" n="131" break="no"/>ctionem, quam recipit a superiori uirtute. De hoc Sanctus
+            <lb ed="#V" n="132"/>Thomas secunda secundae. quaestione quarta articulo quinto
+            <lb ed="#V" n="133"/>sic dicit. Fides formata est uirtus fides autem informis non
+            <lb ed="#V" n="134"/>est uirtus, quia &amp; si habeat perfectionem debitam actui
+            fi<lb ed="#V" n="135" break="no"/>dei informis ex parte intellectus, non tamen habet
+            perfectio<lb ed="#V" n="136" break="no"/>nem debitam ex parte uoluntatis, sicut etiam si
+            temperan<lb ed="#V" n="137" break="no"/>tia esset in concupiscibili, &amp; prudentia non esset in
+            rationa<lb ed="#V" n="138" break="no"/>li temperantia non esset uirtus, sed ad actum temperantiae
+            <lb ed="#V" n="139"/>requiritur ratio &amp; actus concupiscentiae, sicut ad actum
+            fi<lb ed="#V" n="140" break="no"/>dei requiritur actus uoluntatis &amp; actus intellectus. Haec ille
+            <lb ed="#V" n="141"/>Et in articulo praecedenti scilicet quarto ostendit quod iden
+            ha<lb ed="#V" n="142" break="no"/>bitus est quandoque fides formata, &amp; postea informis.
+            Simi<lb ed="#V" n="143" break="no"/>le ponit tertio sententiarum distinctione uigesimatertia q.
+            <lb ed="#V" n="144"/>tertia artic. primo scilicet quod idem habitus &amp; qualitas potest
+            <lb ed="#V" n="145"/>desinere esse uirtus, quae. prius erat uirtus. Dicitur secundo,
+            <lb ed="#V" n="146"/>quod habitus mentis, quae prius erat uirtus, non desinit esse
+            <lb ed="#V" n="147"/>uirtus illo modo, quo dicit arguens scilicet propter uariationem
+            <lb ed="#V" n="148"/>aetatis, aut fortunae personalis, utputa quod habitus, qui fuit
+            <lb ed="#V" n="149"/>uirtus in iuuene uel diuite, desinat esse uirtus in eodem
+            fa<lb ed="#V" n="150" break="no"/>cio, sene uel paupere. Nec ualet probatio de taciturnitate,
+            <pb ed="#V" n="173"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>aut locutione, aut de effusione pecuniarum &amp; non
+            effusio<lb ed="#V" n="2" break="no"/>ue, qui in tasbus actibus non consistit virtus de se, nec
+            si<lb ed="#V" n="3" break="no"/>gnificatum virtutis, sed in interiori electione &amp;
+            praeparatio<lb ed="#V" n="4" break="no"/>ne animi ad tales actus efficiendum secundum rectam
+            ratio<lb ed="#V" n="5" break="no"/>nem. De hoc Sanctus Thomas. secunda secundae
+            quaestio<lb ed="#V" n="6" break="no"/>ne 134. articulo primo arguit sic. Qui habet vnam virtutem
+            <lb ed="#V" n="7"/>habet omnes, sed aliquis potest habere alias virtutes sine
+            <lb ed="#V" n="8"/>magnificentia, dicit enim philosophus quarto Ethicorum
+            <lb ed="#V" n="9"/>non omnis liberalis est magnificus, ergo magnificentia non
+            <lb ed="#V" n="10"/>est virtus. Haec ille.
+          </p>
+          <p xml:id="capsco-c3gqec-d1e3110">
+            Ecce argumentum. Sequitur responsio.
+            <lb ed="#V" n="11"/>Dicendum inquit quod non omnis liberalis est magnificus
+            <lb ed="#V" n="12"/>quantum ad actum, quia desunt sibi ea, quibus vti necesse
+            <lb ed="#V" n="13"/>est ad actum magnificum, tamen omnis liberalis habet
+            habi<lb ed="#V" n="14" break="no"/>tum magnificentiae vel actu, vel propinqua dispositione.
+            <lb ed="#V" n="15"/>Haec ille.
+          </p>
+          <p xml:id="capsco-c3gqec-d1e3123">
+            <lb ed="#V" n="16"/><milestone ed="#V" unit="p" rend="indent"/> Item quaestione. 152. articulo tertio in solutione
+            se<lb ed="#V" n="17" break="no"/>cundi sic dicit. Connexio virtutum accipitur secundum
+            il<lb ed="#V" n="18" break="no"/>lud, quod est formale in virtute, idest secundum charitatem
+            <lb ed="#V" n="19"/>vel prudentiam, non autem secundum illud, quod est
+            mate<lb ed="#V" n="20" break="no"/>riale in virtutibus, nihil enim prohibet alicui virtuoso
+            sup<lb ed="#V" n="21" break="no"/>petere materiam vnius virtutis, non autem materiam
+            alte<lb ed="#V" n="22" break="no"/>rius, sicut pauper habet materiam temperantiae, non autem
+            <lb ed="#V" n="23"/>materiam magnificentiae: &amp; hoc modo alicui habenti alias
+            <lb ed="#V" n="24"/>virtutes deest materia virginitatis scilicet praedicta
+            integri<lb ed="#V" n="25" break="no"/>tas carnis, tamen potest habere illud, quod est formale in
+            <lb ed="#V" n="26"/>virginitate, vt scilicet habeat in praeparatione mentis
+            praedo<lb ed="#V" n="27" break="no"/>dae integritatis conseruandae propoutum, si hoc sibi
+            compe<lb ed="#V" n="28" break="no"/>teret, sicut pauper habet in praeparatione propositum
+            ma<lb ed="#V" n="29" break="no"/>gnificos sumptus faciendi, si hoc sibi competeret. Et
+            simili<lb ed="#V" n="30" break="no"/>ter ille, qui est in prosperitate, habet in praeparatione animi
+            <lb ed="#V" n="31"/>propositum aduersa aequanimiter tolerandi, &amp; sine hac
+            prae<lb ed="#V" n="32" break="no"/>paratione animi non potest aliquis esse virtuosus. Haec ille.
+            <lb ed="#V" n="33"/>Item quaestione 144. articulo quarto sic dicit. Seues &amp;
+            vir<lb ed="#V" n="34" break="no"/>tuosi verecundia carent, sunt tamen sic dispositi, vt in eis
+            <lb ed="#V" n="35"/>esset aliquod turpe, de quo verecundsatentur, vnde dicit ph
+            <lb ed="#V" n="36"/>losophus quarto ethicorum, quod verecundia est ex
+            suppo<lb ed="#V" n="37" break="no"/>sitione studiosi. Haec ille.
+          </p>
+          <p xml:id="capsco-c3gqec-d1e3174">
+            <lb ed="#V" n="38"/><milestone ed="#V" unit="p" rend="indent"/> Item articulo primo eiusdem quaestionis in solutione
+            <lb ed="#V" n="39"/>quinti sic dicit. Ex multotiens verecundari causatur,
+            habi<lb ed="#V" n="40" break="no"/>tus virtutis acquisitae, per quam aliquis turpia vitet, de
+            qui<lb ed="#V" n="41" break="no"/>bus est verecundia, non autem vt vlterius aliquis
+            verecun<lb ed="#V" n="42" break="no"/>detur, sed ex illo habitu virtutis acquisitae sic se habet
+            ali<lb ed="#V" n="43" break="no"/>quis, quod magis verecundaretur si materia uerecundiae ad
+            <lb ed="#V" n="44"/>esset. Haecille.
+          </p>
+          <p xml:id="capsco-c3gqec-d1e3194">
+            <lb ed="#V" n="45"/><milestone ed="#V" unit="p" rend="indent"/> Ex quibus bene prospectis apparet quod habitus, qui
+            pri<lb ed="#V" n="46" break="no"/>mo fuit virtus moralis, non desinit esse virtus moralis, nec
+            <lb ed="#V" n="47"/>mutatur in vitium ex variatione aetatis, vel fortunae, vel
+            sta<lb ed="#V" n="48" break="no"/>tus personae ipso manente, sed solum hoc sequitur quod
+            ha<lb ed="#V" n="49" break="no"/>bitus qui inclinabat ad aliquem actum pro aliquo
+            tempo<lb ed="#V" n="50" break="no"/>ra, vel loco vel conditione personae desinit inclinare ad hoc
+            <lb ed="#V" n="51"/>mutatis circunstantijs praedictis &amp; inclinat ad oppositum
+            <lb ed="#V" n="52"/>illorum actuum, sicut habitus magnificentiae ad aliquid
+            in<lb ed="#V" n="53" break="no"/>clinat diuitem, ad quod non inclinat eundem factum
+            pau<lb ed="#V" n="54" break="no"/>perem. Et similiter virtus modestiae ad alia inclinat
+            iuue<lb ed="#V" n="55" break="no"/>nem quam senem, &amp; idem est de habitu uerecundiae, licet
+            <lb ed="#V" n="56"/>uerecundiae habitus, aut taciturnitatis non sint perfectaeuir
+            <lb ed="#V" n="57"/>tutes secundum quod dicit Beatus Thomas ubi supra.
+            Di<lb ed="#V" n="58" break="no"/>citur tertio quod habitus corporales, sicut sunt pulchritudo
+            <lb ed="#V" n="59"/>&amp; sanitas possunt perdere rationem uirtutis &amp; induere
+            ra<lb ed="#V" n="60" break="no"/>tionem uitti uel malitiae ex sola uariatione proportionis ad
+            <lb ed="#V" n="61"/>subiectum uel naturam, cui applicantur. Et in hoc arguens
+            <lb ed="#V" n="62"/>conformiter dicit Sancto Thomae super septimo physicor.
+            <lb ed="#V" n="63"/>sicut prius allegatum fuit, tamen ex hoc non sequitur, quod
+            <lb ed="#V" n="64"/>uirtus sit relatio, sed solum quod de ratione uirtutis sit
+            re<lb ed="#V" n="65" break="no"/>spectus ad naturam uel subiectum, cui inest, uel ad actum
+            <lb ed="#V" n="66"/>ad quem ordinatur. Et de hoc Sanctus Thomas prima
+            se<lb ed="#V" n="67" break="no"/>cundae quaestione quadragesimanona articulo tertio sic
+            di<lb ed="#V" n="68" break="no"/>cit. Habere ordinem ad actum potest competere habitui,
+            <lb ed="#V" n="69"/>&amp; secundum rationem habitus, &amp; secundum rationem
+            su<lb ed="#V" n="70" break="no"/>biecti in quo est habitus. Secundum quidem rationem
+            ha<lb ed="#V" n="71" break="no"/>bitus conuenit omni habitui aliquo modo habere ordinem
+            <lb ed="#V" n="72"/>ad actum, est enim de ratione habitus, ut importet
+            habitu<lb ed="#V" n="73" break="no"/>dinem quandam &amp; ordinem ad naturam rei secundum
+            <lb ed="#V" n="74"/>quod conuenit uel non conuenit, sed quia natura rei, quae
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="75"/>est finis generationis. Vlterius etiam ordinatur ad alium
+            fi<lb ed="#V" n="76" break="no"/>nem, qui est operatio, uel aliquod operatum, ad quod
+            <lb ed="#V" n="77"/>quis peruenit per operationem, ideo habitus non solum
+            <lb ed="#V" n="78"/>importat ordinem ad ipsam naturam rei, sed etiam
+            con<lb ed="#V" n="79" break="no"/>sequenter ad operationem inquantum est finis naturae
+            <lb ed="#V" n="80"/>uel ducens ad finem, unde quinto metaphysico. dicitur in
+            <lb ed="#V" n="81"/>diffinitione habitus quod est dispositio, secundum quam
+            <lb ed="#V" n="82"/>bene aut male disponitur dispositum, aut secundum se,
+            id<lb ed="#V" n="83" break="no"/>est secundum naturam suam, aut ad aliud idest in ordine
+            <lb ed="#V" n="84"/>ad finem, sed sunt quidam habitus, qui etiam ex parte
+            su<lb ed="#V" n="85" break="no"/>bsecti, in quo sunt primo &amp; principaliter important ordinem
+            <lb ed="#V" n="86"/>ad actum, quia habitus primo &amp; per se importat
+            habitu<lb ed="#V" n="87" break="no"/>dinem ad naturam rei, si igitur natura rei in qua est
+            habi<lb ed="#V" n="88" break="no"/>tus consistit in ipso ordine ad actum, sequitur quod
+            habi<lb ed="#V" n="89" break="no"/>tus principaliter importet ordinem ad actum.
+            Manife<lb ed="#V" n="90" break="no"/>stum est autem, quod natura &amp; ratio potentiae est, ut sit
+            <lb ed="#V" n="91"/>principium actus, unde omnis habitus qui est alicuius
+            po<lb ed="#V" n="92" break="no"/>tentiae ut subiecti importat principaliter ordinem ad actum.
+            <lb ed="#V" n="93"/>Haec ille.
+          </p>
+          <p xml:id="capsco-c3gqec-d1e3306">
+            <lb ed="#V" n="94"/><milestone ed="#V" unit="p" rend="indent"/> Item quaestione quinquagesima articulo primo in
+            solu<lb ed="#V" n="95" break="no"/>tione tertij sic dicit. Commensuratio ipsarum qualitatum
+            <lb ed="#V" n="96"/>passibilium secundum conuenientiam ad naturam habent
+            <lb ed="#V" n="97"/>rationein dispositionis, &amp; ideo facta alteratione circa ipsas
+            <lb ed="#V" n="98"/>qualitates passibiles, quae sunt calidum frigidum,
+            humi<lb ed="#V" n="99" break="no"/>dum &amp; siccum, fit ex consequenti alteratio secundum
+            aegritu<lb ed="#V" n="100" break="no"/>dinem &amp; sanitatem. Primo autem &amp; per se non est altero
+            se<lb ed="#V" n="101" break="no"/>cundum huiusmodi habitus &amp; dispositiones. Haec ille.
+          </p>
+          <p xml:id="capsco-c3gqec-d1e3327">
+            Ex
+            <lb ed="#V" n="102"/>quibus apparet quod habitus corporales disponentes ad
+            a<lb ed="#V" n="103" break="no"/>ctum primum habent rationem boni uel mali habitus,
+            se<lb ed="#V" n="104" break="no"/>cundum quod conueniunt uel disconueniunt suo subiecto
+            <lb ed="#V" n="105"/>&amp; quod eadem qualitas per sui intensionem uel
+            remissio<lb ed="#V" n="106" break="no"/>nem potest nunc esse subiecto conueniens, &amp; podea
+            di<lb ed="#V" n="107" break="no"/>sconueniens, ac per hoc illa qualitas quae primo fuit uirtus
+            <lb ed="#V" n="108"/>potest desinere esse uirtus, &amp; incipere esse uitium.
+            Verunta<lb ed="#V" n="109" break="no"/>men tales qualitates corporales non habent proprie
+            ratio<lb ed="#V" n="110" break="no"/>nem habitus, &amp; per consequens non habent proprie
+            ratio<lb ed="#V" n="111" break="no"/>nem uirtutis, &amp; quod non habent proprie rationem
+            habi<lb ed="#V" n="112" break="no"/>tus ostendit Sanctus Thomas ibidem quaestione
+            quinqua<lb ed="#V" n="113" break="no"/>gesima articulo primo, ubi sic dicit. Si loquamur de
+            dispo<lb ed="#V" n="114" break="no"/>utione subiecti ad formam, sic habitualis
+            dispositio<lb ed="#V" n="115" break="no"/>potest esse in corpore, quod comparatur ad animam,
+            si<lb ed="#V" n="116" break="no"/>cut subiectum ad formam, &amp; hoc modo sanitas &amp;
+            puschiri<lb ed="#V" n="117" break="no"/>tudo &amp; huiusmodi habituales dispositiones dicuntur, non
+            <lb ed="#V" n="118"/>tamen perfecte habent rationem habituum, quia causae
+            <lb ed="#V" n="119"/>eorum ex sui natura de facili sunt transmutabiles. Haec
+            <lb ed="#V" n="120"/>ille.
+          </p>
+          <p xml:id="capsco-c3gqec-d1e3371">
+            Item quaestione quinquagesima articulo secundo sic
+            <lb ed="#V" n="121"/>dicit. Virtus humana de qua loquimur, non potest ad
+            cor<lb ed="#V" n="122" break="no"/>pus pertinere, sed ptinet tantum ad id, quod est proprium
+            <lb ed="#V" n="123"/>animae, unde uirtus humana non importat ordinem ad esse
+            <lb ed="#V" n="124"/>sed magis ad agere Haec ille.
+          </p>
+          <p xml:id="capsco-c3gqec-d1e3382">
+            <lb ed="#V" n="125"/><milestone ed="#V" unit="p" rend="indent"/> Ad primum secundi dicitur, quod diuisio ibidem data
+            <lb ed="#V" n="126"/>est insufficiens, quia non ideo probat Aristoteles ad iustitiam
+            <lb ed="#V" n="127"/>uel uirtutem non esse motum, quia scilicetuirtus sit forma
+            <lb ed="#V" n="128"/>respectiua nec ideo quia fundat respectum aut relationem,
+            <lb ed="#V" n="129"/>sed ideo quia in sui ratione dicit absolutum principaliter,
+            <lb ed="#V" n="130"/>&amp; respectum secundario, ut allegatum est de Sancto
+            Thoa<lb ed="#V" n="131" break="no"/>super septimo physic.
+          </p>
+          <p xml:id="capsco-c3gqec-d1e3401">
+            <lb ed="#V" n="132"/><milestone ed="#V" unit="p" rend="indent"/> Et ulterius quia alteratio secundum huiusmodi
+            habi<lb ed="#V" n="133" break="no"/>tus praesupponit aliquam priorem aiterationem, unde
+            San<lb ed="#V" n="134" break="no"/>ctus Thomas prima secundae quaestione
+            quinquagesimase<lb ed="#V" n="135" break="no"/>cunda articulo primo in solutione tertij sic dicit. Alteratio
+            <lb ed="#V" n="136"/>primo quidem est in qualitatibus tertiae speciei, in
+            qualita<lb ed="#V" n="137" break="no"/>tibus uero primae speciei potest esse alteratio post per
+            po<lb ed="#V" n="138" break="no"/>sterius, facta enim alteratione secundum calidum &amp;
+            frigi<lb ed="#V" n="139" break="no"/>dum sequitur animal asterari secundum sanum &amp; aegrum.
+            <lb ed="#V" n="140"/>&amp; similiter facta alteratione secundum passiones
+            appeti<lb ed="#V" n="141" break="no"/>tus sensitiui, uel secundum uires sensitiuas apprehensiuas,
+            <lb ed="#V" n="142"/>sequitur alteratio secundum scientias &amp; uirtutes, ut dicitur
+            <lb ed="#V" n="143"/>in septimo physicorum. Haec ille. Et idem ponit expressius
+            <lb ed="#V" n="144"/>quaestione 53. articulo tertio.
+          </p>
+          <p xml:id="capsco-c3gqec-d1e3434">
+            <lb ed="#V" n="145"/><milestone ed="#V" unit="p" rend="indent"/> Ad secundam dicitur, quod aliqui habitus directe &amp;
+            prin<lb ed="#V" n="146" break="no"/>cipaliter requiruntur propter substantiam actus, sicut saepe
+            <lb ed="#V" n="147"/>dictum est de speciebus intelligibilibus, sine quibus
+            intel<lb ed="#V" n="148" break="no"/>lectus possibilis non potest producere aliquem actum
+            Ali<pb ed="#V" n="174"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>qui autem habitus licet non requirantur directe &amp;
+            princi<lb ed="#V" n="2" break="no"/>paliter propter substantiam actus, sed propter modum
+            ac<lb ed="#V" n="3" break="no"/>tus, tamen coefficiunt ipsam substantiam actus, &amp; illam
+            in<lb ed="#V" n="4" break="no"/>tendunt, sicut prius dictum est, nullum autem tale potest
+            <lb ed="#V" n="5"/>efficere pura relatio, quae nec potest esse principium nec
+            ter<lb ed="#V" n="6" break="no"/>minus motus.
+          </p>
+          <p xml:id="capsco-c3gqec-d1e3462">
+            <lb ed="#V" n="7"/><milestone ed="#V" unit="p" rend="indent"/> Ad tertium dicitur, quod licet aliqui habitus causentur
+            <lb ed="#V" n="8"/>per actus immanentes intellectus &amp; voluntatis tamen
+            pri<lb ed="#V" n="9" break="no"/>mum principium actiuum talium actuum differt a
+            princi<lb ed="#V" n="10" break="no"/>pio passiuo, sicut ostendit Sanctus Thomas prima
+            secun<lb ed="#V" n="11" break="no"/>dae quaestione quinquagesimaprima articulo secundo, vbi
+            <lb ed="#V" n="12"/>sic dicit. In agente quandoque est solum principium
+            acti<lb ed="#V" n="13" break="no"/>uum sui actus, sicut in igne est solum principium actiuum
+            <lb ed="#V" n="14"/>calefaciendi, &amp; in tali agente non potest aliquis habitus
+            <lb ed="#V" n="15"/>causari ex proprio actu, &amp; inde est quod res naturales non
+            <lb ed="#V" n="16"/>possunt aliquid assuescere vel dissuescere, vt dicitur
+            secun<lb ed="#V" n="17" break="no"/>do Ethicorum. Inuenitur autem aliquod agens, in quo
+            <lb ed="#V" n="18"/>est principium actiuum &amp; passiuum sui actus, sicut
+            pa<lb ed="#V" n="19" break="no"/>tet in actibus humanis, nam actus appetitiuae virtutis
+            pro<lb ed="#V" n="20" break="no"/>cedunt a vi appetitiua secundum quod mouetur a vi
+            appre<lb ed="#V" n="21" break="no"/>hensiua repraesentante obiectum. Et vlterius vis
+            intellecti<lb ed="#V" n="22" break="no"/>ua secundum quod ratiocinatur de conclusionibus habet
+            <lb ed="#V" n="23"/>principium actiuum propositionem per se notam, vnde ex
+            <lb ed="#V" n="24"/>talibus actibus possunt in aliquibus agentibus causari
+            ali<lb ed="#V" n="25" break="no"/>qui habitus non quantum ad primum actiuum principium
+            <lb ed="#V" n="26"/>sed quantum ad principium actus, quod mouet motum.
+            <lb ed="#V" n="27"/>Nam omne quod patitur &amp; mouetur ab alio disponitur per
+            <lb ed="#V" n="28"/>actum agentis, vnde ex multiplicatis actibus generatur
+            quae<lb ed="#V" n="29" break="no"/>dam qualitas in potentia mota, quae habitus nominatur,
+            <lb ed="#V" n="30"/>sicut habitus virtutum moralium causantur in appetitiuis
+            <lb ed="#V" n="31"/>potentijs secundum quod mouentur a ratione, &amp; habitus
+            <lb ed="#V" n="32"/>scientiarum causantur in intellectu secundum quod
+            moue<lb ed="#V" n="33" break="no"/>tur a primis propositionibus. Haec ille.
+          </p>
+          <p xml:id="capsco-c3gqec-d1e3524">
+            <lb ed="#V" n="34"/><milestone ed="#V" unit="p" rend="indent"/> Ex quibus patet, quod ex actibus intellectus &amp;
+            volun<lb ed="#V" n="35" break="no"/>tatis possunt causari formae absolutae, &amp; non solae relationes
+            <lb ed="#V" n="36"/>Ad quartum dicitur negando maiorem. Nam ad
+            corru<lb ed="#V" n="37" break="no"/>ptionem habituum intellectus &amp; voluntatis vel
+            sensualita<lb ed="#V" n="38" break="no"/>tis concurrit aliquod positiuum corrumpens sicut ostendit
+            <lb ed="#V" n="39"/>Sanctus Thomas prima secundae quaestione
+            quinquagesi<lb ed="#V" n="40" break="no"/>matertia articulo primo &amp; tertio. Nam articulo primo sic
+            <lb ed="#V" n="41"/>dicit. Secundum se aliqua forma dicitur corrumpi per
+            con<lb ed="#V" n="42" break="no"/>trarium, per accidens autem per corruptionem sui subiecti.
+            <lb ed="#V" n="43"/>Si igitur fuerit aliquis habitus cuius subiectum est
+            corru<lb ed="#V" n="44" break="no"/>ptibile, &amp; cuius causa habet contrarium vtroque modo
+            <lb ed="#V" n="45"/>corrumpi poterit, sicut patet de habitibus corporalibus,
+            <lb ed="#V" n="46"/>scilicet sanitate &amp; aegritudine, illi vero habitus, quorum
+            <lb ed="#V" n="47"/>subiectum est incorruptibile, corrumpi non possunt per
+            ac<lb ed="#V" n="48" break="no"/>cidens. Sunt tamen quidam habitus qui &amp; si principaliter
+            <lb ed="#V" n="49"/>sint in subiecto incorruptibili, secundario tamen sunt in
+            su<lb ed="#V" n="50" break="no"/>biecto corruptibili sicut habitus scientiae, qui
+            principali<lb ed="#V" n="51" break="no"/>ter quidem est in intellectu possibili, secundario autem in
+            <lb ed="#V" n="52"/>viribus apprehensiuis sensitiuis, &amp; ideo ex parte intellectus
+            <lb ed="#V" n="53"/>possibilis habitus scientiae non potest corrumpi per
+            acci<lb ed="#V" n="54" break="no"/>dens, sed solum ex parte virium inferiorum sensitiuarum.
+            <lb ed="#V" n="55"/>Est igitur considerandum si possint huiusmodi habitus
+            <lb ed="#V" n="56"/>per se corrumpi. Si igitur fuerit aliquis habitus, qui
+            ha<lb ed="#V" n="57" break="no"/>beat aliquod contrarium vel ex parte sua vel ex parte suae
+            <lb ed="#V" n="58"/>causae poterit per se corrumpi, si vero non habeat
+            contra<lb ed="#V" n="59" break="no"/>rium, non poterit per se corrumpi. Manifestum est autem
+            <lb ed="#V" n="60"/>quod species intelligibilis in intellectu possibili existens
+            <lb ed="#V" n="61"/>non habet aliquod contrarium, nec intellectui agenti, qui
+            <lb ed="#V" n="62"/>est causa eius, potest aliquid esse contrarium, vnde si aliquis
+            <lb ed="#V" n="63"/>habitus sit in intellectu possibili immediate ab intellectu
+            <lb ed="#V" n="64"/>agente causatus, talis habitus est incorruptibilis &amp; per se,
+            <lb ed="#V" n="65"/>&amp; per accidens. Huiusmodi autem sunt habitus
+            primo<lb ed="#V" n="66" break="no"/>rum principiorum tam speculabilium quam practicorum,
+            <lb ed="#V" n="67"/>qui nulla obliuione vel deceptione corrumpi possunt,
+            si<lb ed="#V" n="68" break="no"/>cut dicit philosophus sexto Ethicorum de prudentia,
+            <lb ed="#V" n="69"/>quod non perditur per obliuionem. Aliquis vero habitus
+            <lb ed="#V" n="70"/>est in intellectu possibili ex ratione causatus, scilicet
+            ha<lb ed="#V" n="71" break="no"/>bitus conclusionum, qui dicitur scientia, cuius causae
+            du<lb ed="#V" n="72" break="no"/>pliciter potest aliquid esse contrarium. Vno modo ex
+            par<lb ed="#V" n="73" break="no"/>te ipsarum propositionum, ex quibus ratio procedit, &amp;
+            <lb ed="#V" n="74"/>enim enunciationi, quae est, bonum est bonum, contraria
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="75"/>est ea, quae est, bonum non est bonum secundum
+            philoso<lb ed="#V" n="76" break="no"/>phum secundo perihermen. Alio modo quantum ad ipsum
+            <lb ed="#V" n="77"/>processum rationis, prout syllogismus sophisticus
+            oppo<lb ed="#V" n="78" break="no"/>nitur syllogismo Dialectico vel demonstratiuo. Sic igitur
+            <lb ed="#V" n="79"/>patet, quod per falsam rationem potest corrumpi habitus
+            <lb ed="#V" n="80"/>verae opinionis aut scientiae, vnde philosophus dicit, quod
+            <lb ed="#V" n="81"/>deceptio est corruptio scientiae. Virtutum vero quaedam
+            <lb ed="#V" n="82"/>sunt intellectuales, quae sunt in ipsa ratione, vt dicitur
+            se<lb ed="#V" n="83" break="no"/>ptimo Ethicorum de quibus est eadem ratio quae est de
+            <lb ed="#V" n="84"/>scientia vel opinione. Quaedam vero sunt in parte
+            appeti<lb ed="#V" n="85" break="no"/>tiua animae, quae sunt virtutes morales, &amp; eadem ratio est
+            <lb ed="#V" n="86"/>de vitiis oppositis: habitus autem appetitiuae partis
+            causan<lb ed="#V" n="87" break="no"/>tur per hoc, quod ratio nata est mouere partem
+            appeti<lb ed="#V" n="88" break="no"/>uam, vnde per iudicium rationis mouentis in contrarium
+            <lb ed="#V" n="89"/>quocunque modo scilicet ex ignorantia, vel ex passione vel
+            <lb ed="#V" n="90"/>etiam ex electione corrumpitur habitus virtutis, vel vitij
+            <lb ed="#V" n="91"/>Haec ille.
+          </p>
+          <p xml:id="capsco-c3gqec-d1e3655">
+            <lb ed="#V" n="92"/><milestone ed="#V" unit="p" rend="indent"/> Ex quibus patet, quod corruptio virtutum habet
+            cau<lb ed="#V" n="93" break="no"/>sam positiuam.
+          </p>
+          <p xml:id="capsco-c3gqec-d1e3663">
+            <lb ed="#V" n="94"/><milestone ed="#V" unit="p" rend="indent"/> Item articulo tertio ostendit quomodo cessatio ab actu
+            <lb ed="#V" n="95"/>non corrumpit habitum, aut virtutem nisi per accidens, ait
+            <lb ed="#V" n="96"/>enim sic. Sicut dicitur in octauo physicorum aliquis potest
+            <lb ed="#V" n="97"/>esse mouens dupliciter. Vno modo per se, quod scilicet
+            mo<lb ed="#V" n="98" break="no"/>uet per rationem propriae formae, sicut ignis calefacit. Alio
+            <lb ed="#V" n="99"/>modo per accidens, sicut illud, quod remouet prohibens,
+            <lb ed="#V" n="100"/>&amp; hoc modo cessatio ab actu causat corruptionem vel
+            di<lb ed="#V" n="101" break="no"/>minutionem habituum inquantum scilicet remouetur
+            a<lb ed="#V" n="102" break="no"/>ctus, qui prohibebat causas corrumpentes vel diminuentes
+            <lb ed="#V" n="103"/>habitum, habitus enim per se corrumpitur ex contrario
+            a<lb ed="#V" n="104" break="no"/>gente, vnde quorumcunque habituum contraria
+            subcre<lb ed="#V" n="105" break="no"/>scunt per temporis tractum, quae oportet subtrahi per
+            a<lb ed="#V" n="106" break="no"/>ctum ab habitu procedentem, huiusmodi habitus
+            dimi<lb ed="#V" n="107" break="no"/>nuuntur, vel etiam totaliter tolluntur per diuturnitatem
+            <lb ed="#V" n="108"/>cessationis ab actu, vt patet in scientia &amp; virtute.
+            Manife<lb ed="#V" n="109" break="no"/>stum est enim, quod habitus moralis facit hominem
+            prom<lb ed="#V" n="110" break="no"/>ptum ad eligendum medium in operationibus &amp;
+            passioni<lb ed="#V" n="111" break="no"/>bus. Cum autem aliquis non vtitur habitu virtutis ad
+            mo<lb ed="#V" n="112" break="no"/>derandas proprias operationes vel passiones, necesse est
+            <lb ed="#V" n="113"/>quod proueniant multae operationes &amp; passiones praeter
+            <lb ed="#V" n="114"/>modum virtutis ex inclinatione appetitus sensitiui &amp;
+            alio<lb ed="#V" n="115" break="no"/>rum, quae exterius mouent, vnde corrumpitur virtus, vel
+            <lb ed="#V" n="116"/>diminuitur per cessatione ab actu. Similiter est etiam ex
+            <lb ed="#V" n="117"/>parte habituum intellectualium, secundum quos homo est
+            <lb ed="#V" n="118"/>promptus ad recte iudicandum de imaginatis. Cum enim
+            <lb ed="#V" n="119"/>homo cessat ab vsu intellectualis habitus, insurgunt
+            ima<lb ed="#V" n="120" break="no"/>gines extraneae, &amp; quandoque ad contrarium inducentes,
+            <lb ed="#V" n="121"/>ita quod nisi per frequentiam vel frequentem vsum
+            habi<lb ed="#V" n="122" break="no"/>tus intellectualis quodammodo succindantur vel
+            compri<lb ed="#V" n="123" break="no"/>mantur, redditur homo minus aptus ad recte iudicandum
+            <lb ed="#V" n="124"/>&amp; quandoque totaliter disponitur ad contrarium, &amp; sic per
+            <lb ed="#V" n="125"/>cessationem ab actu diminuitur vel corrumpitur habitus
+            <lb ed="#V" n="126"/>intellectualis. Haec ille.
+          </p>
+          <p xml:id="capsco-c3gqec-d1e3738">
+            <lb ed="#V" n="127"/><milestone ed="#V" unit="p" rend="indent"/> Ad quintum dicitur, quod tam maior quam minor sunt
+            <lb ed="#V" n="128"/>falsae De hoc Sanctus Thomas prima secundae quaestione
+            <lb ed="#V" n="129"/>quinquagesima articulo tertio in solutione secundi sic dicit
+            <lb ed="#V" n="130"/>Vires sensitius in brutiae animalibus non operantur ex
+            im<lb ed="#V" n="131" break="no"/>perio rationis, sed si sibi relinquantur bruta animalia,
+            ope<lb ed="#V" n="132" break="no"/>rantur ex instinctu naturae, &amp; sic in brutis animalibus non
+            <lb ed="#V" n="133"/>sunt aliqui habitus ordinati ad operationes, sunt tamen
+            <lb ed="#V" n="134"/>in eis aliquae dispositiones in ordine ad naturam, vt sanitas
+            <lb ed="#V" n="135"/>&amp; pulchritudo. Sed quia bruta animalia a ratione hominis
+            <lb ed="#V" n="136"/>per quandam consuetudinem disponuntur ad operandum
+            <lb ed="#V" n="137"/>sic vel aliter, hoc modo in brutis animalibus habitus
+            quo<lb ed="#V" n="138" break="no"/>dammodo poni possunt, vnde Augustinus dicit in libro
+            <lb ed="#V" n="139"/>octuagesimotertio quaestionum, quod videmus
+            immanissi<lb ed="#V" n="140" break="no"/>mas bestias a maximis voluptatibus abstinere dolorum
+            <lb ed="#V" n="141"/>metu, quod cum in eorum consuetudinem verterit
+            domi<lb ed="#V" n="142" break="no"/>tae &amp; mansuetae vocantur deficit tamen ratio habitus
+            quan<lb ed="#V" n="143" break="no"/>tum ad vsum voluntatis, quia non habent dominium
+            vten<lb ed="#V" n="144" break="no"/>di vel non vtendi, quod videtur ad rationem habitus
+            perti<lb ed="#V" n="145" break="no"/>nere. &amp; ideo proprie loquendo in eis habitus esse non
+            pos<lb ed="#V" n="146" break="no"/>sunt. Haec ille.
+          </p>
+          <p xml:id="capsco-c3gqec-d1e3786">
+            <lb ed="#V" n="147"/><milestone ed="#V" unit="p" rend="indent"/> Ex quibus patet primo, quod non est simile de
+            poten<lb ed="#V" n="148" break="no"/>tijs irrationalibus &amp; rationalibus. Secundo quod in
+            bru<pb ed="#V" n="175"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>tis humana ratione gubernatis, generari possunt quaedam
+            <lb ed="#V" n="2"/>dispositiones consuetudinales, quae sunt verae formae abi
+            <lb ed="#V" n="3"/>sblutae de prima specie qualitatis, &amp; quae quodammodo
+            d<lb ed="#V" n="4" break="no"/>ci possunt habitus, &amp; non solae relationes, aut respectus.
+          </p>
+          <p xml:id="capsco-c3gqec-d1e3805">
+            <lb ed="#V" n="5"/>Ad sextum &amp; septimum dicitur sicut ad primum.
+            Conclu<lb ed="#V" n="6" break="no"/>duut enim, quod virtus in sua ratione includit respectum,
+            <lb ed="#V" n="7"/>quod conceditur, non autem quod sit purus respectus, &amp;
+            <lb ed="#V" n="8"/>totum hoc conceditur.
+          </p>
+          <p xml:id="capsco-c3gqec-d1e3816">
+            <lb ed="#V" n="9"/><milestone ed="#V" unit="p" rend="indent"/> Ad argumenta tertio loco contra secundam
+            conclusio<lb ed="#V" n="10" break="no"/>nem inducta optime respondit Aureolus in suo quolibet.
+            <lb ed="#V" n="11"/>quaestione vndecima vbi praemissis multis finaliter sic
+            con<lb ed="#V" n="12" break="no"/>cludit. Virtus non est respectus congruentiae, nec aliqua
+            <lb ed="#V" n="13"/>relatio essentialiter, vt quidam putauerunt, nec qualitas
+            ab<lb ed="#V" n="14" break="no"/>soluta in essentia sua a respectu illo praecisa, vt aliqui
+            dixe<lb ed="#V" n="15" break="no"/>runt, nec essentia constituta ex absoluta qualitate &amp; illo
+            re<lb ed="#V" n="16" break="no"/>spectu, vt alij existimauerunt, sed est qualitas &amp; essentia
+            <lb ed="#V" n="17"/>illi, respectui copulata, &amp; est multo aliud copulatum ex
+            <lb ed="#V" n="18"/>qualitate &amp; respectu &amp; qualitas copulata respectui.
+            Pri<lb ed="#V" n="19" break="no"/>mum enim non est in genere, &amp; est ens per accidens, &amp;
+            <lb ed="#V" n="20"/>nec est qualitas, nec respectus, sed constitutum ex vtroque
+            <lb ed="#V" n="21"/>Secundum vero est in genere, nec est ens per accidens, &amp;
+            <lb ed="#V" n="22"/>est qualitas praecise, quamuis non praecisa, immo copulata
+            <lb ed="#V" n="23"/>aliud est enim praecise sincathegorematicae, aliud praecisum
+            ca<lb ed="#V" n="24" break="no"/>thegorematicae. Illud enim uadm est qualitas &amp; nihil plus, est
+            <lb ed="#V" n="25"/>praecise qualitas, sed talis qualitas respectui copusata est
+            <lb ed="#V" n="26"/>qualitas &amp; nihil plus, quia non est respectus, cui
+            copula<lb ed="#V" n="27" break="no"/>ta est, nec aliud nisi qualitas. Est ergo praecise qualitas
+            ab<lb ed="#V" n="28" break="no"/>soluta, non est tamen praecisa, quia qualitas copulata
+            re<lb ed="#V" n="29" break="no"/>spectur non est qualitas praecisa, immo copulata, vnde
+            <lb ed="#V" n="30"/>contradictio est, quod sit qualitas praecisa simul &amp;
+            copula<lb ed="#V" n="31" break="no"/>ta. Ignorauerunt igitur praedicti, quod esset dare vltra
+            pu<lb ed="#V" n="32" break="no"/>rum respectum, &amp; purum absolutum, &amp; constitutum ex
+            ab<lb ed="#V" n="33" break="no"/>soluto &amp; respectu, quartum scilicet absolutum copulatum
+            <lb ed="#V" n="34"/>respaectui. Sed Philosophus hoc declarauit, tale est. enim
+            <lb ed="#V" n="35"/>omne relatiuum secundum dici, siue sit substantia, siue
+            <lb ed="#V" n="36"/>qualitas. Est enim praecise in genere substantiae vel
+            quali<lb ed="#V" n="37" break="no"/>tatis, non tamen est qualitas, aut substantia praecisa a
+            re<lb ed="#V" n="38" break="no"/>spectu, immo copulata, &amp; ratione huius copulationis
+            im<lb ed="#V" n="39" break="no"/>possibile est intelligi vel significari talem substantiam, aut
+            <lb ed="#V" n="40"/>qualitatem, vt sit sine respectu. Et propter hoc est
+            relati<lb ed="#V" n="41" break="no"/>uum secundum dici, &amp; ad conuertentiam dicitur, vt
+            ma<lb ed="#V" n="42" break="no"/>nus manuati, &amp; scientia scibilis, &amp; hoc totum patet in
+            prae<lb ed="#V" n="43" break="no"/>dicamentis. Est igitur virtus qualitas, quae congruit
+            natu<lb ed="#V" n="44" break="no"/>raetin qua ponitur inquantum est illud, quod congruit,
+            <lb ed="#V" n="45"/>non est autem virtus congruum vel congruens concretiue,
+            <lb ed="#V" n="46"/>quia tunc esset ens per accidens, sed illud, quod congruit,
+            <lb ed="#V" n="47"/>vt albedo in dente est pulchritudo inquantum est quod
+            <lb ed="#V" n="48"/>congruit, non quod pulchritudo sit aliquid constitutum
+            <lb ed="#V" n="49"/>ex albedine &amp; pulchritudine. Haec Aureolus &amp; bene per
+            <lb ed="#V" n="50"/>omnia, nisi quo ad hoc, quod non ponit alium respectum
+            <lb ed="#V" n="51"/>esse de ratione virtutis nisi congruentiam qualitatis ad
+            su<lb ed="#V" n="52" break="no"/>biectum suum nulla facta mentione de ordine ad finem vel
+            <lb ed="#V" n="53"/>ad actum, &amp; in hoc insufficienter dicit, vt patuit superius
+            <lb ed="#V" n="54"/>in solutione secundi contra secundam conclusionem,
+            reli<lb ed="#V" n="55" break="no"/>qua vero stare possunt.
+          </p>
+          <p xml:id="capsco-c3gqec-d1e3921">
+            <lb ed="#V" n="56"/><milestone ed="#V" unit="p" rend="indent"/> His praemissis dicitur ad primum secundum
+            eundem<lb ed="#V" n="57" break="no"/>Aureolum, quod aliquid includere duo praedicamenta
+            po<lb ed="#V" n="58" break="no"/>test intelligi dupliciter. Primo quidem per modum
+            co<lb ed="#V" n="59" break="no"/>pulati &amp; constituti ex duobus praedicamentis. sicut simum
+            <lb ed="#V" n="60"/>&amp; pater, &amp; simile, &amp; omnia concreta accidentium.
+            Secun<lb ed="#V" n="61" break="no"/>do modo per modum vnius praedicamenti alteri
+            copulati<lb ed="#V" n="62" break="no"/>sicut simitas copulatur naso, &amp; praedicamentum relationis
+            <lb ed="#V" n="63"/>terminis, qui sunt alterius praedicamenti. In primo sensu
+            <lb ed="#V" n="64"/>maior est vera, quia sic includens duo praedicamenta est
+            <lb ed="#V" n="65"/>ens per accidens, sicut simum, sed minor est falsa, quia
+            <lb ed="#V" n="66"/>virtus non sic includit duo praedicamenta. In secundo
+            au<lb ed="#V" n="67" break="no"/>tem sensu maior est falsa, nam simitas esset ens per accidens
+            <lb ed="#V" n="68"/>&amp; omnis respectus, &amp; sic non esset in praedicamento, in hoc
+            <lb ed="#V" n="69"/>autem sensu minor est vera. Et cum dicitur, quod non
+            mi<lb ed="#V" n="70" break="no"/>nus videtur esse ens per accidens quod includit vnum
+            prae<lb ed="#V" n="71" break="no"/>dicamentum in recto &amp; aliud in obliquo, quam si
+            include<lb ed="#V" n="72" break="no"/>ret vtrumque in recto, omnino falsum est, quia tunc diceret
+            <lb ed="#V" n="73"/>constitutum ex duobus, nunc autem dicit praecisae vnum
+            <lb ed="#V" n="74"/>praedicamentum, quamuis non praecisum, sed
+            praedicamen<cb ed="#V" n="b"/><lb ed="#V" n="75" break="no"/>tum alteri copulatum, &amp; hanc copulationem exprimit
+            ha<lb ed="#V" n="76" break="no"/>bitudo in obliquo. Haec ille &amp; bene.
+          </p>
+          <p xml:id="capsco-c3gqec-d1e3971">
+            Ad secundum dicit,
+            <lb ed="#V" n="77"/>quod procedit ab insufficienti, non enim essentia virtutis
+            <lb ed="#V" n="78"/>consistit in absoluto praecise, nec totaliter, nec
+            particulari<lb ed="#V" n="79" break="no"/>ter, immo nec aliquo modo, sed consistit in absoluto
+            copu<lb ed="#V" n="80" break="no"/>lato respectui. Quamuis enim essentia virtutis sit
+            absolu<lb ed="#V" n="81" break="no"/>tum pure, est enim absolutum &amp; nihil plus, non tamen est
+            <lb ed="#V" n="82"/>absolutum purum, sed copulatum est. Exemplum. Simitas
+            <lb ed="#V" n="83"/>enim est qualitas pure &amp; praecise, non tamen pura &amp;
+            praeci<lb ed="#V" n="84" break="no"/>sa, immo copulata cum substantia &amp; cum naso, &amp;sic conmmit
+            <lb ed="#V" n="85"/>titur in hac forma arguendi fallacia figurae dictionis
+            mu<lb ed="#V" n="86" break="no"/>tando qualiter in qualem, &amp; fallacia consequentis
+            arguen<lb ed="#V" n="87" break="no"/>do ab insufficienti.
+          </p>
+          <p xml:id="capsco-c3gqec-d1e3997">
+            <lb ed="#V" n="88"/><milestone ed="#V" unit="p" rend="indent"/> Et cum concluditur quod respectus partialiter
+            perti<lb ed="#V" n="89" break="no"/>net, &amp; includitur in essentia virtutis. Dicendum quod
+            <lb ed="#V" n="90"/>nullo modo est pars essentiae, sed terminus copulatus sicut
+            <lb ed="#V" n="91"/>nec subiectum est pars qualitatis copulatae, non enim
+            na<lb ed="#V" n="92" break="no"/>sus est pars essentiae simitatis, sed terminus copulatus.
+            <lb ed="#V" n="93"/>Per hoc patet quomodo prima species qualitatis, &amp; tertia
+            <lb ed="#V" n="94"/>differunt per essentiam, quamuis idem absolutum
+            reperi<lb ed="#V" n="95" break="no"/>ri possit in vtraque, vt albedo est essentia primae speciei, sed
+            <lb ed="#V" n="96"/>essentia copulata respectui similitudinis est secundae, sed
+            es<lb ed="#V" n="97" break="no"/>sentia tertiae speciei est praecisa non copulata. Constat
+            au<lb ed="#V" n="98" break="no"/>tem quod essentia copulata &amp; non copulata diuersae sunt,
+            <lb ed="#V" n="99"/>&amp; alterius rationis, &amp; diuersorum modorum, vnde
+            Simpli<lb ed="#V" n="100" break="no"/>cius, dicit capitulo de qualitate in fine quod possibile est
+            <lb ed="#V" n="101"/>idem referre ad aliud praedicamentum reducentibus nobis
+            <lb ed="#V" n="102"/>singula, vel ad diuersitates significatorum, vel ad
+            differen<lb ed="#V" n="103" break="no"/>tiam conceptuum, vel diuerso charactere, &amp; per idem patet
+            <lb ed="#V" n="104"/>quod virtus &amp; vitium differunt per essentiam, quia
+            essen<lb ed="#V" n="105" break="no"/>tia virtutis est copulata respectui congruentiae, sed vitij
+            re<lb ed="#V" n="106" break="no"/>spectui incongruentiae. Impossibile est autem quod
+            essen<lb ed="#V" n="107" break="no"/>tiae copulatae contrarijs sint eadem essentia, immo
+            contra<lb ed="#V" n="108" break="no"/>riae, nec valet haec forma arguendi, albedo est pulchritudo
+            <lb ed="#V" n="109"/>dentis, &amp; turpitudo pupillae, &amp; est eadem per essentiam,
+            er<lb ed="#V" n="110" break="no"/>go idem per essentiam est pulchritudo &amp; turpitudo, maior
+            <lb ed="#V" n="111"/>enim est falsa si accipiatur albedo per se praescindendo
+            re<lb ed="#V" n="112" break="no"/>spectum, sed si accipiatur copulata, tunc est vera, sed
+            mi<lb ed="#V" n="113" break="no"/>nor tunc est falsa, scilicet quod albedo copulata
+            congruen<lb ed="#V" n="114" break="no"/>tiae, &amp; copulata incongruentiae inquantum copulata est sub
+            <lb ed="#V" n="115"/>esse copulato sit eadem essentia, vnde magis potest
+            opposi<lb ed="#V" n="116" break="no"/>tum concludi sic arguendo, albedo non inquantum albedo
+            <lb ed="#V" n="117"/>sed inquantum albedo copulata respectui congruentiae est
+            <lb ed="#V" n="118"/>pulchritudo dentis, albedo non inquantum albedo, sed
+            in<lb ed="#V" n="119" break="no"/>quantum copulata respectui incongruentiae est turpitudo
+            <lb ed="#V" n="120"/>pupillae, sed vt isti &amp; illi copulata non est eadem essentia
+            <lb ed="#V" n="121"/>quamuis inquantum albedo sit eadem, igitur pulchritudo
+            <lb ed="#V" n="122"/>&amp; turpitudo nunquam sunt idem, probatur minor, quia
+            es<lb ed="#V" n="123" break="no"/>se copulatum huic, &amp; esse copulatum illi, non est idem
+            co<lb ed="#V" n="124" break="no"/>pulatum esse, ergo essentia copulata illi, &amp; huic non est
+            ea<lb ed="#V" n="125" break="no"/>dem copulata essentia per locum a coniugatis. Ex quo
+            pa<lb ed="#V" n="126" break="no"/>tet, quod idem absolutum secundum suam rationem
+            abio<lb ed="#V" n="127" break="no"/>lutam specificam est virtus in vno, &amp; vitium in alio, cuius
+            <lb ed="#V" n="128"/>oppositum assumebatur, immo secundum suam specificam
+            <lb ed="#V" n="129"/>rationem nec est uirtus, nec uitium, nec in prima specie
+            <lb ed="#V" n="130"/>qualitatis, sed in tribus. Secundum autem quod copulatur
+            <lb ed="#V" n="131"/>huic uel illi respectui est uirtus uel uitium, ut sic autem
+            ac<lb ed="#V" n="132" break="no"/>cidit quod sit talis ratio absoluta specifica uel talis, quia
+            <lb ed="#V" n="133"/>quaecunque sit, dum tamen isti respectui copuletur, uitium
+            <lb ed="#V" n="134"/>erit, si uero alteri erit uirtus. Haec ille.
+          </p>
+          <p xml:id="capsco-c3gqec-d1e4103">
+            <lb ed="#V" n="135"/><milestone ed="#V" unit="p" rend="indent"/> Et quidem satis bene secundum rem, sed logica sua non
+            <lb ed="#V" n="136"/>uidetur multum ualere. Nam cum dicit, quod haec forma
+            ar<lb ed="#V" n="137" break="no"/>guendi non ualet, albedo est pulchritudo dentis &amp;
+            pulchri<lb ed="#V" n="138" break="no"/>tudo pupillae, &amp; haec albedo est eadem per essentiam, igitur
+            <lb ed="#V" n="139"/>idem per essentiam est pulchritudo &amp; turpitudo, procul
+            du<lb ed="#V" n="140" break="no"/>bio forma arguendi ualet demonstrata eadem albedine in
+            <lb ed="#V" n="141"/>numero ad concludendum, quod idem numero est
+            pulchri<lb ed="#V" n="142" break="no"/>tudo &amp; turpitudo, uel si in praemissis non demonstretur
+            <lb ed="#V" n="143"/>idem numero, sed idem specie, forma illa ualet ad concludere
+            <lb ed="#V" n="144"/>dum, quod eadem essentia specifica estturpitudo &amp; pulchritudo.
+            <lb ed="#V" n="145"/>Nec ualet illa suppletio uel additio, quam facit in
+            conclu<lb ed="#V" n="146" break="no"/>sione, quia hoc est arguere ex quattuor terminis. In
+            conclu<lb ed="#V" n="147" break="no"/>sione enim non debet poni nisi quod positum fuit in
+            praemit<lb ed="#V" n="148" break="no"/>sis, sed ad illam formam potest dici, quod nunquam maior &amp; minor sunt
+            <pb ed="#V" n="176"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>simul verae, licet forte successiue si fit sermo de eadem
+            albe<lb ed="#V" n="2" break="no"/>dine. in numero, &amp; ideo nec potest concludi, quod eodem
+            <lb ed="#V" n="3"/>tempore eadem albedo sit pulchritudo &amp; turpitudo, forte
+            <lb ed="#V" n="4"/>tamen successiue posset concedi.
+          </p>
+          <p xml:id="capsco-c3gqec-d1e4150">
+            Ad tertium dicit, quod
+            <lb ed="#V" n="5"/>esse copulatum respectui, vel esse sub respectu, vel actum
+            <lb ed="#V" n="6"/>fundare respectum potest intelligi addere vltra id, quod
+            <lb ed="#V" n="7"/>copulatur, vel quod est sub respectu, vel actu fundat
+            re<lb ed="#V" n="8" break="no"/>spectum aliquid medians secundum rem vel secundum
+            ra<lb ed="#V" n="9" break="no"/>tionem inter absolutum &amp; respectum vel aliquem
+            termi<lb ed="#V" n="10" break="no"/>num extrinsecum scilicet illud, cui copulatur. Si primum
+            <lb ed="#V" n="11"/>intelligatur falsum est, &amp; processus in infinitum. Si vero
+            <lb ed="#V" n="12"/>secundum, verum est exemplum de simitate esse
+            copula<lb ed="#V" n="13" break="no"/>tum, ergo dicetur adesse &amp; abesse ei, quod copulatur per
+            <lb ed="#V" n="14"/>solum adesse &amp; abesse respectus, cui copulatur non quod
+            <lb ed="#V" n="15"/>sit aliquod medium, quod habeat adesse vel abesse. Hae
+            <lb ed="#V" n="16"/>praepostiones autem sub hoc, &amp; cum hoc, &amp; haec oratio
+            <lb ed="#V" n="17"/>actu fundare non exprimunt praecisum fundamentum,
+            <lb ed="#V" n="18"/>nec ipsum tantum fundatum, nec medium, sed
+            funda<lb ed="#V" n="19" break="no"/>mentum intrinsece, &amp; respectum per modum termini &amp;
+            <lb ed="#V" n="20"/>extrinseci: &amp; cum additur in minori quod illud est ens
+            <lb ed="#V" n="21"/>per accidens, quod includit aliqua duo, quorum vnum
+            <lb ed="#V" n="22"/>potest adesse alteri &amp; abesse &amp;c. Verum est si includat per
+            <lb ed="#V" n="23"/>modum cuiusdam tertij compositi ex ipsis sicut simum, si
+            <lb ed="#V" n="24"/>vero vnum per modum copulati, &amp; alterum per modum
+            <lb ed="#V" n="25"/>termini, cui copulatur, non est verum, nisi totum
+            praedi<lb ed="#V" n="26" break="no"/>camentum relationis sit ens per accidens, &amp; masculinitas
+            <lb ed="#V" n="27"/>&amp; foeminitas &amp; omnes qualitates copulatae. Haec ille &amp;
+            be<lb ed="#V" n="28" break="no"/>ne.
+          </p>
+          <p xml:id="capsco-c3gqec-d1e4205">
+            Ad quartum dicit, quod respectus congruentiae
+            po<lb ed="#V" n="29" break="no"/>test comparari vel ad absolutum virtutis, verbi gratia ad
+            <lb ed="#V" n="30"/>albedinem ipsam, ut albedo est, &amp; sic se habet vt passio,
+            <lb ed="#V" n="31"/>&amp; est in ea fundamentaliter &amp; subiectiue, vel ad ipsam
+            ra<lb ed="#V" n="32" break="no"/>tionem virtutis, quae consistit in esse copulato vtpote ad
+            <lb ed="#V" n="33"/>rationem pulchritudinis, &amp; sic respectus non est passio,
+            <lb ed="#V" n="34"/>sed est aliquid essentiae non per modum partis sed per
+            mo<lb ed="#V" n="35" break="no"/>dum termini, sicut in relatione terminus est aliquid
+            relatio<lb ed="#V" n="36" break="no"/>nis, &amp; nasus aliquid simitatis. Secundum hoc ergo non
+            <lb ed="#V" n="37"/>oportet, quod possit intelligi virtus, aut fieri sine illo
+            re<lb ed="#V" n="38" break="no"/>spectui, immo impossibile est.
+          </p>
+          <p xml:id="capsco-c3gqec-d1e4229">
+            <lb ed="#V" n="39"/><milestone ed="#V" unit="p" rend="indent"/> Et cum vlterius probatur, quod sit differentia virtutis
+            <lb ed="#V" n="40"/>essentialis, quia differt a vitio solo respectu, &amp; per ista
+            so<lb ed="#V" n="41" break="no"/>lum variatur &amp; acquiritur. Dicitur quod aliquid potest
+            <lb ed="#V" n="42"/>considerari vel distingui per aliud dupliciter. Primo modo
+            <lb ed="#V" n="43"/>tanquam per intrinsecum &amp; formale, vt homo per
+            rationa<lb ed="#V" n="44" break="no"/>le. Alio modo tanquam per extrinsecum &amp; terminum, vt
+            <lb ed="#V" n="45"/>simitas per nasum, relatio per terminum, habitus per
+            a<lb ed="#V" n="46" break="no"/>ctus &amp; actus per obiectum. Nunc ad propositum virtus
+            di<lb ed="#V" n="47" break="no"/>stinguitur a vitio, &amp; variatur &amp; acquiritur extrinsece per
+            re<lb ed="#V" n="48" break="no"/>spectum tanquam per terminum, intrinsece autem
+            distin<lb ed="#V" n="49" break="no"/>guitur per copulationem ad ipsum. Vnde albedo non est
+            <lb ed="#V" n="50"/>formaliter pulchritudo, nec differt intrinsece a
+            turpitu<lb ed="#V" n="51" break="no"/>dine intrinsece per congruentiam, sed per copulationem
+            <lb ed="#V" n="52"/>ad ipsam, sicut concauitas nasi, quae est simitas differt a
+            <lb ed="#V" n="53"/>concauitate vel curuitate cruris, quae est rictus non per
+            na<lb ed="#V" n="54" break="no"/>sum, sed per copulationem ad ipsum.
+            <lb ed="#V" n="55"/>Cum vero additur, quod illud est purus respectus, vel
+            con<lb ed="#V" n="56" break="no"/>stitutum ex absoluto &amp; respectu, quod variatur facta
+            so<lb ed="#V" n="57" break="no"/>la variatione in respectu extrinseco absoluto. Dicitur
+            <lb ed="#V" n="58"/>quod omittitur tertium membrum scilicet quod vel est
+            <lb ed="#V" n="59"/>respectus, vel copulatum ex absoluto &amp; respectu, vel
+            abso<lb ed="#V" n="60" break="no"/>lutum copulatum respectui. Haec ille &amp; bene nisi quod
+            <lb ed="#V" n="61"/>melius diceretur, quod copulatio absoluti ad respectum
+            <lb ed="#V" n="62"/>est quoddam esse derelictum in absoluto ex respectu. Ad
+            <lb ed="#V" n="63"/>quintum dicit, quod album non significat subiectum in
+            <lb ed="#V" n="64"/>obliquo, &amp; qualitatem in recto, quia nunquam
+            praedica<lb ed="#V" n="65" break="no"/>retur de subiecto. Vnde sicut haec non est vera, nasus est
+            si<lb ed="#V" n="66" break="no"/>mitas, sic nec esset haec vera, corpus est album, sed
+            dicere<lb ed="#V" n="67" break="no"/>tur album corporis, sic ut simitas nasi, significat ergo
+            con<lb ed="#V" n="68" break="no"/>stitutum ex subiecto &amp; accidente, sed actu &amp; determinate
+            <lb ed="#V" n="69"/>clauditur in suo significato accidens scilicet albedo.
+            Su<lb ed="#V" n="70" break="no"/>biectum vero in potentia &amp; indeterminate, quia non
+            de<lb ed="#V" n="71" break="no"/>terminatur quid sit illud album, an scilicet lapis, vel
+            ho<lb ed="#V" n="72" break="no"/>mo, vel aliquid aliud. Et quia quod actu &amp; determinate
+            si<lb ed="#V" n="73" break="no"/>gnificatur principaliter significatur, est enim ratio quod
+            il<lb ed="#V" n="74" break="no"/>lud significetur, quod in potentia &amp; indeterminate
+            signifi<cb ed="#V" n="b"/><lb ed="#V" n="75" break="no"/>catur, sicut album est quodcunque, cui inest albedo,
+            iccit<lb ed="#V" n="76" break="no"/>co Commentator dicit quinto metaphysico. quod album
+            <lb ed="#V" n="77"/>significat primo quidem accidens, secundo subiectum
+            <lb ed="#V" n="78"/>Similiter &amp; Philosophus intelligit hoc cum dicit, quod
+            al<lb ed="#V" n="79" break="no"/>bum solam qualitatem significat. quod vtique verum est
+            <lb ed="#V" n="80"/>determinate &amp; in actu. Haec ille &amp; bene.
+          </p>
+          <p xml:id="capsco-c3gqec-d1e4325">
+            <lb ed="#V" n="81"/><milestone ed="#V" unit="p" rend="indent"/> Ad sextum dicit, quod iustitia &amp; amicitia sunt
+            qualita<lb ed="#V" n="82" break="no"/>tes copulatae respectibus. Vnde Augustinus dicit in suis
+            <lb ed="#V" n="83"/>cathegorijs, quod iustitiae iniustitia contraria est. Et
+            se<lb ed="#V" n="84" break="no"/>quitur quod iustitia qualitas est, iniustitia igitur qualitas
+            <lb ed="#V" n="85"/>erit. Haec ille.
+          </p>
+          <p xml:id="capsco-c3gqec-d1e4339">
+            <lb ed="#V" n="86"/><milestone ed="#V" unit="p" rend="indent"/> Dicuntur autem magis ad alterum quam aliae, quia
+            co<lb ed="#V" n="87" break="no"/>pulantur alicui respectui, cui non aliae. Nam caeterae
+            virtu<lb ed="#V" n="88" break="no"/>tes sunt copulatae respectui congruentiae, &amp; debiti ad
+            homi<lb ed="#V" n="89" break="no"/>nem in se, amicitia uero &amp; iustitia respectui debiti
+            u<lb ed="#V" n="90" break="no"/>nius hominis in ordine ad alterum. Est ergo amicitia
+            vir<lb ed="#V" n="91" break="no"/>tus ad alterum, temperantia ad se propter istam rationem.
+            <lb ed="#V" n="92"/>Haec ille, &amp; bene.
+          </p>
+          <p xml:id="capsco-c3gqec-d1e4359">
+            Ad septimum dicit, quod abso lutum ut
+            <lb ed="#V" n="93"/>sub respectu, uel ut copulatum respectui est ultra
+            absolu<lb ed="#V" n="94" break="no"/>tum aliquid, quod se habet non per modum partis, sed
+            per<lb ed="#V" n="95" break="no"/>modum termini, nec propter hoc est aliquid unum
+            copu<lb ed="#V" n="96" break="no"/>latum ex utroque, exemplum, respectus cum termino est
+            <lb ed="#V" n="97"/>aliquid ultra praecisam realitatem respectus &amp; non nihil, est
+            <lb ed="#V" n="98"/>enim aliquid non partiale, sed terminans. Haec ille &amp; bene
+            <lb ed="#V" n="99"/>Ad octauum dicendum inquit, quod cum significare sit
+            <lb ed="#V" n="100"/>intellectum constituere primo perihermen. oportet loqui
+            <lb ed="#V" n="101"/>de significato proportionaliter intellectioni. Nunc autem
+            <lb ed="#V" n="102"/>simitas concipitur eodem actu intellectus simplici
+            caden<lb ed="#V" n="103" break="no"/>te simul super concauitatem &amp; nasum, sed tamen cadit
+            su<lb ed="#V" n="104" break="no"/>per concauitatem modo principali &amp; ratione, sed super
+            na<lb ed="#V" n="105" break="no"/>sum modo termini &amp; obliquae, &amp; ideo dicitur cointelligi
+            re<lb ed="#V" n="106" break="no"/>ferendo conintellectum non ad intellectionem, sed ad
+            ob<lb ed="#V" n="107" break="no"/>iectum. Nam referendo ad intellectionem non
+            cointelligi<lb ed="#V" n="108" break="no"/>tur, sed intelligitur, cum sit eadem intellectio. Similiter
+            <lb ed="#V" n="109"/>etiam de significatione, nam eadem significatione uox illa
+            <lb ed="#V" n="110"/>quae est simitas, significat concauitatem &amp; nasum, sed non
+            <lb ed="#V" n="111"/>eodem modo &amp; eodem ordine ex parte significati.
+            Pro<lb ed="#V" n="112" break="no"/>pter quod dicitur nasus consignificari per modum
+            ter<lb ed="#V" n="113" break="no"/>mini, concauitas uero significari per modum principalis
+            <lb ed="#V" n="114"/>&amp; recti.
+          </p>
+          <p xml:id="capsco-c3gqec-d1e4409">
+            <lb ed="#V" n="115"/><milestone ed="#V" unit="p" rend="indent"/> Cum igitur quaeritur, an significet respectum, sicut
+            du<lb ed="#V" n="116" break="no"/>plum significat dimidij, uel sicut duplum dimidij,
+            signi<lb ed="#V" n="117" break="no"/>ficat dimidij.
+          </p>
+          <p xml:id="capsco-c3gqec-d1e4419">
+            <lb ed="#V" n="118"/><milestone ed="#V" unit="p" rend="indent"/> Dicendum quod nomen &amp; oratio idem significant
+            se<lb ed="#V" n="119" break="no"/>cundum philosophum septimo metaphysic. &amp; quarto, sed
+            <lb ed="#V" n="120"/>tamen aliter &amp; aliter, quia oratio explicite, nomen
+            implici<lb ed="#V" n="121" break="no"/>te. Simitas ergo implicite dicit nasum, sed concauitas nasi
+            <lb ed="#V" n="122"/>dicit explicite, &amp; ideo non est nugatio ut dicit
+            Commenta<lb ed="#V" n="123" break="no"/>tor septimo metaphysico. commento decimooctauo. Ait
+            <lb ed="#V" n="124"/>enim hoc nomen simitas non significat nasum nisi
+            secun<lb ed="#V" n="125" break="no"/>dum continentiam. Et ideo cum dicitur aperte simitas
+            nasi<lb ed="#V" n="126" break="no"/>non sequitur impossibile scilicet nugatio. &amp; hoc modo
+            ui<lb ed="#V" n="127" break="no"/>tus significat respectum. Haec ille &amp; bene.
+          </p>
+          <p xml:id="capsco-c3gqec-d1e4444">
+            Ad nonum sic
+            di<lb ed="#V" n="128" break="no"/>cit, duplex est genus respectus scilicet principii actiui uel
+            <lb ed="#V" n="129"/>passiui, cui copulatur qualitas de secunda specie, quae
+            dici<lb ed="#V" n="130" break="no"/>tur potentia, &amp; respectus congruentiae &amp; incongruentiae,
+            <lb ed="#V" n="131"/>cui copulantur qualitates de prima specie, quae dicuntur
+            ha<lb ed="#V" n="132" break="no"/>bitus, &amp; habent hoc singulare in ordine ad sua
+            fundamen<lb ed="#V" n="133" break="no"/>ta, quod ipsis fundamenta copulantur, quibus ut sic
+            copula<lb ed="#V" n="134" break="no"/>tis propria nomina imponuntur, &amp; hoc propter duo.
+            Pri<lb ed="#V" n="135" break="no"/>mo quidem, quia qualitates copulatae talibus respectibus
+            <lb ed="#V" n="136"/>denominant &amp; qualificat substantiua sua quodam
+            speciali<lb ed="#V" n="137" break="no"/>modo, &amp; alterius rationis quam aliae scilicet secundum
+            be<lb ed="#V" n="138" break="no"/>ne &amp; male, potens esse uel impotens, quod nullo modo
+            <lb ed="#V" n="139"/>competit eisdem qualitatibus non copulate sumptis, nec
+            <lb ed="#V" n="140"/>etiam respectibus puris. Non enim qualificant uel
+            refe<lb ed="#V" n="141" break="no"/>runt, unde albedo qualificat dentem, &amp; reddit eum
+            pul<lb ed="#V" n="142" break="no"/>chrum inquantum est id quod congruit. Pupillam autem
+            <lb ed="#V" n="143"/>turpem inquantum non congruit, &amp; tamen absolute
+            <lb ed="#V" n="144"/>sumpta non denominat
+          </p>
+          <p xml:id="capsco-c3gqec-d1e4483">
+            <lb ed="#V" n="145"/><milestone ed="#V" unit="p" rend="indent"/> Secundo uero, quia respectus huiusmodi in ratione finis
+            <lb ed="#V" n="146"/>quodam modo sunt priores fundamentis. Qualitates enim
+            <lb ed="#V" n="147"/>illae habent pro fine naturam, cui proportionatur, &amp; pro
+            cu<lb ed="#V" n="148" break="no"/>ius decentia sunt ingenitae quantum ad primam speciem, uel
+            <pb ed="#V" n="177"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>actum secundum &amp; operationem quantum ad secundam
+            <lb ed="#V" n="2"/>speciem potentiae &amp; impotentiae naturalis. Haec ille &amp;
+            be<lb ed="#V" n="3" break="no"/>ne, nisi quod respectum, qui est de ratione virtutis, dicit
+            es<lb ed="#V" n="4" break="no"/>se solam congruentiam ad naturam, quod non est
+            vsquequa<lb ed="#V" n="5" break="no"/>que verum nisi loquamur de solis habitibus &amp; virtutibus
+            <lb ed="#V" n="6"/>corporalibus.
+          </p>
+          <p xml:id="capsco-c3gqec-d1e4513">
+            Ad decimum sic dicit. Si inquit respectus com
+            <lb ed="#V" n="7"/>gruentiae est extra intellectum in actu completo, vt dicunt
+            <lb ed="#V" n="8"/>multi tunc ratio non concludit. Si vero non, sed est,
+            vlti<lb ed="#V" n="9" break="no"/>mata necessitas extra intellectum ad huiusmodi
+            habitu<lb ed="#V" n="10" break="no"/>dinem, quam intellectus reducit in actum, tunc ratio
+            vir<lb ed="#V" n="11" break="no"/>tutis est copulata respectui congruentiae non secundum
+            a<lb ed="#V" n="12" break="no"/>ctum, sed secundum vltimatam necessitatem ad actum.
+            Vn<lb ed="#V" n="13" break="no"/>de virtus est absolutum sub respectu, vel vt fundans
+            respe<lb ed="#V" n="14" break="no"/>ctum non secundum actum completum, sed secundum
+            <lb ed="#V" n="15"/>vltimatam necessitatem. Haec autem vltimata necessitas
+            <lb ed="#V" n="16"/>est in Deo non immediate, &amp; vt fundamentum, sed potius
+            <lb ed="#V" n="17"/>vt terminus exemplum Circunscripto omni actu
+            intelle<lb ed="#V" n="18" break="no"/>ctus Deus est exemplar, quia ratio exemplaris importat
+            diui<lb ed="#V" n="19" break="no"/>nam essentiam copulatam respectui non secundum actum,
+            <lb ed="#V" n="20"/>quia haec relatio est pure rationis, secundum vltimatam
+            ra<lb ed="#V" n="21" break="no"/>tionis necessitatem, non quidem per modum fundamenti,
+            <lb ed="#V" n="22"/>sed termini imitabilitatis creaturae. Haec ille. Et satis
+            con<lb ed="#V" n="23" break="no"/>formiter dictis Sancti Thomas de veritate quaestione quarta
+            <lb ed="#V" n="24"/>articulo quinto in solutione primi, vbi distinguit duplex
+            <lb ed="#V" n="25"/>genus respectuum. Quidam namque dicuntur actuales, &amp;
+            <lb ed="#V" n="26"/>quidam habituales. Et dicitur inquit, respectus habitualis
+            <lb ed="#V" n="27"/>qui non requirit creaturam esse simul in actu. &amp; tales sunt
+            <lb ed="#V" n="28"/>omnes respectus, qui consequuntur actus animae, quia
+            vo<lb ed="#V" n="29" break="no"/>luntas &amp; intellectus potest esse etiam de eo, quod non est
+            <lb ed="#V" n="30"/>actu existens. Haec ille. Et exemplificat de respectu
+            impor<lb ed="#V" n="31" break="no"/>tato in hoc nomine verbum, quod importat ab aeterno
+            respe<lb ed="#V" n="32" break="no"/>ctum ad creaturas. Potest igitur dici quod cum haec
+            no<lb ed="#V" n="33" break="no"/>mina dicta de Deo scilicet virtus &amp; potentia importent
+            re<lb ed="#V" n="34" break="no"/>spectum actum vel effectum, siue existat siue non, talis
+            respe<lb ed="#V" n="35" break="no"/>ctus entis ad non ens non potest esse realis, aut actualis,
+            <lb ed="#V" n="36"/>sed rationis &amp; habitualis.
+          </p>
+          <p xml:id="capsco-c3gqec-d1e4582">
+            <lb ed="#V" n="37"/><milestone ed="#V" unit="p" rend="indent"/> Et cum dicit arguens, quod tota ratio virtutis est extra
+            <lb ed="#V" n="38"/>intellectum &amp;c. Dicitur quod verum est quantum ad id
+            <lb ed="#V" n="39"/>quod importat principaliter &amp; in recto, non autem
+            quan<lb ed="#V" n="40" break="no"/>tum ad illud quod dicit secundario in vel obliquo. De
+            <lb ed="#V" n="41"/>hoc Sanctus Thomas de veritate vbi supra sic dicit. In
+            rela<lb ed="#V" n="42" break="no"/>riuis nominibus inuenimus, quod quaedam nomina
+            impo<lb ed="#V" n="43" break="no"/>nuntur ad significandum ipsos respectus, sicut hoc nomen
+            <lb ed="#V" n="44"/>similitudo, quaedam vero ad significandum aliquid, ad
+            <lb ed="#V" n="45"/>quod sequitur respectus sicut hoc nomen scientia
+            imponi<lb ed="#V" n="46" break="no"/>tur ad significandum quandam qualitatem, quam sequitur
+            <lb ed="#V" n="47"/>quidam respectus. contingit autem vt aliqua res absoluta
+            <lb ed="#V" n="48"/>ad plura possit habere respectum. &amp; inde est quod nomen
+            <lb ed="#V" n="49"/>illud quod imponitur ad significandum aliquid
+            absolu<lb ed="#V" n="50" break="no"/>tum, ad quod sequitur respectus, potest ad plura relatiue
+            di<lb ed="#V" n="51" break="no"/>ci, secundum quod scientia dicitur inquantum est scientia
+            <lb ed="#V" n="52"/>relatiue ad scibile, sed inquantum est accidens quoddam
+            <lb ed="#V" n="53"/>vel forma refertur ad scientem. Haec ille.
+          </p>
+          <p xml:id="capsco-c3gqec-d1e4622">
+            Item tertio
+            senten<lb ed="#V" n="54" break="no"/>tiarum distinctione trigesimatertia quaestione prima
+            articu<lb ed="#V" n="55" break="no"/>lo secundo quaestiuncula quarta ad quartum sic dicit.
+            Quam<lb ed="#V" n="56" break="no"/>uis finis vltimus non faciat identitatem specie, facit
+            tamen<lb ed="#V" n="57" break="no"/>diuersitatem sicut generis diuersitas facit diuersitatem in
+            <lb ed="#V" n="58"/>specie. Tamen sciendum quod relatio actualis ad finem
+            <lb ed="#V" n="59"/>remotum non facit praedictam differentiam, sed originalis
+            <lb ed="#V" n="60"/>relatio ad ipsum, secundum scilicet quod ex diuersitate
+            <lb ed="#V" n="61"/>finis fit diuersa proportio in actu &amp; habitu. Haec ille.
+          </p>
+          <p xml:id="capsco-c3gqec-d1e4642">
+            Ad
+            <lb ed="#V" n="62"/>argumentum vero pro parte quaestio. negatiua respondit
+            <lb ed="#V" n="63"/>Sanctus Thomas prima secunda secundae quaestione
+            qua<lb ed="#V" n="64" break="no"/>dragesimanona articulo quarto in solutione secundi, vbi
+            <lb ed="#V" n="65"/>sic dicit. Potentia quandoque se habet ad multa. &amp; ideo
+            <lb ed="#V" n="66"/>oportet quod aliquo alio determinetur. Si vero sit aliqua
+            <lb ed="#V" n="67"/>potentia, quae non se habeat ad multa, non indiget
+            habi<lb ed="#V" n="68" break="no"/>tu determinante. Et propter hoc vires naturales non
+            a<lb ed="#V" n="69" break="no"/>gunt actiones suas mediantibus aliquibus habitibus, quia
+            <lb ed="#V" n="70"/>secundum seipsas sunt ad vnum determinatae. Haec ille. Et
+            <lb ed="#V" n="71"/>haec de quaestione sufficiant. De qua benedictus Deus.
+            <lb ed="#V" n="72"/>Amen
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

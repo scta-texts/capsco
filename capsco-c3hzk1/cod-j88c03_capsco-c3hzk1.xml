@@ -1,0 +1,1303 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 3, Distinctio 24, Quaestio 1</title>
+        <author ref="#JohannesCapreolus">Johannes Capreolus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 3, Distinctio 24, Quaestio 1</title>
+          <date when="2026-11-04">Nov 4, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-j88c03">Venice, 1589, v. 3</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-04" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="177"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="capsco-c3hzk1"><!-- l3d24q1 -->
+        <head xml:id="capsco-c3hzk1-Hd1e101">Quaestio 1</head>
+        <head xml:id="capsco-c3hzk1-Hd1e103" type="question-title">Utrum fides sit virtus a Deo infusa</head>
+        <p xml:id="capsco-c3hzk1-d1e106">
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="73"/>DISTINCTIO. XXIIII.
+          <lb ed="#V" n="74"/>QVAESTIO VNICA
+          <lb ed="#V" n="75"/>Vtrum fides sit virtus a Deo infusa.
+        </p>
+        <p xml:id="capsco-c3hzk1-d1e117">
+          <lb ed="#V" n="76"/><milestone ed="#V" unit="p" rend="initial"/> CIRCA vigesimam quartam distinctionem
+          <lb ed="#V" n="77"/>tertij sententiarum quaeritur. Vtrum fides
+          <lb ed="#V" n="78"/>sit virtus infusa a Deo.
+        </p>
+        <p xml:id="capsco-c3hzk1-d1e127">
+          Et arguitur quod
+          <lb ed="#V" n="79"/>non. Quia perfectior est virtus infusa
+          <lb ed="#V" n="80"/>quam acquisita, sed fides acquisita
+          pro<lb ed="#V" n="81" break="no"/>pter suam imperfectionem non
+          poni<lb ed="#V" n="82" break="no"/>tur inter virtutes intellectuales
+          acquisi<lb ed="#V" n="83" break="no"/>tas, vt patet per philosophum sexto ethicorum, ergo multo
+          <lb ed="#V" n="84"/>minus potest poni uirtus infusa.
+        </p>
+        <p xml:id="capsco-c3hzk1-d1e144">
+          <lb ed="#V" n="85"/><milestone ed="#V" unit="p" rend="indent"/> IN oppositum arguitur sic. Quia dicitur Eph. secundo.
+          Gra<lb ed="#V" n="86" break="no"/>tia estis saluati per fidem, &amp; non ex uobis, ne quis
+          glorie<lb ed="#V" n="87" break="no"/>tur, Dei enim donum est.
+        </p>
+        <p xml:id="capsco-c3hzk1-d1e154">
+          <lb ed="#V" n="88"/><milestone ed="#V" unit="p" rend="indent"/> In hac quaestione erunt tres articuli In primo ponentur
+          <lb ed="#V" n="89"/>conclusiones in secundo obiectiones. In tertio solutione
+        </p>
+        <div xml:id="capsco-c3hzk1-Dd1e162">
+          <head xml:id="capsco-c3hzk1-Hd1e164">Articulus 1</head>
+          <p xml:id="capsco-c3hzk1-d1e166">
+            <lb ed="#V" n="90"/><milestone ed="#V" unit="p" rend="initial"/> QVantum ad primum articulum sit prima conclusio.
+            <lb ed="#V" n="91"/>fides est uirtus. Hanc ponit Sancts Th. 2. 2. q. 4. arti. 5. vbi sic
+            <lb ed="#V" n="92"/>dicit. Virtus humana est per quam actus humanus
+            redditu<lb ed="#V" n="93" break="no"/>bonus. Vnde quicunque habitus est per se principium
+            boni<lb ed="#V" n="94" break="no"/>actus, potest dici uirtus humana, sed talis habitus est fides
+            <lb ed="#V" n="95"/>formata. Cum enim credere sit actus intellectus
+            assentien<lb ed="#V" n="96" break="no"/>tis uero ex imperio uoluntatis, ad hoc quod iste actus sit
+            <lb ed="#V" n="97"/>perfectus duo requiruntur, quorum unum est ut
+            infallibili<lb ed="#V" n="98" break="no"/>ter intellectus intendat in suum bonum, quod est uerum.
+            <lb ed="#V" n="99"/>Aliud autem est ut infallibiliter ordinetur in ultimum
+            fi<lb ed="#V" n="100" break="no"/>nem, propter quem uoluntas assentit uero. Et utrunque
+            in<lb ed="#V" n="101" break="no"/>uenitur in actu fidei formatae. Nam ex ratione ipsius fidei,
+            <lb ed="#V" n="102"/>est quod intellectus semper fertur in uerum quia fidei non
+            <lb ed="#V" n="103"/>potest subesse falsum. Ex charitate autem secundum quod format
+            fi<lb ed="#V" n="104" break="no"/>dem habet anima, quod infallibiliter ordinetur uoluntas in bonum. Et ideo
+            <lb ed="#V" n="105"/>fides formanta est uirtus. Fides autem informis non est uirtus,
+            <lb ed="#V" n="106"/>quia &amp; si habeat perfectionem debitam actus fidei informis ex
+            <lb ed="#V" n="107"/>parte intellectus non habet perfectionem debitam ex
+            par<lb ed="#V" n="108" break="no"/>te uoluntatis. Sicut etiam si temperantia esset in
+            concupi<lb ed="#V" n="109" break="no"/>scibili, &amp; prudentia non esset in rationali, &amp; temperatia non
+            <lb ed="#V" n="110"/>esset uirtus, quia ad actumtemperantiae requiritur &amp; actus
+            <lb ed="#V" n="111"/>rationis, &amp; actus concupiscibilis sicut ad actum fidei
+            requi<lb ed="#V" n="112" break="no"/>ritur &amp; actus intellectus, &amp; actus uoluntatis. Haec ille. Ex
+            <lb ed="#V" n="113"/>quibus potest sic argui. Omnis habitus qui semper est
+            prin<lb ed="#V" n="114" break="no"/>cipium boni actus humani est uirtus, sed fides formata
+            es<lb ed="#V" n="115" break="no"/>huiusmodi igitur &amp;c.
+          </p>
+          <p xml:id="capsco-c3hzk1-d1e226">
+            Secunda conclusio. fides formata &amp;
+            <lb ed="#V" n="116"/>etiam informis infunditur homini a Deo. Hanc probat
+            San<lb ed="#V" n="117" break="no"/>ctus Thomas secunda secundae quaeclstet 6. articulo primo, ubi sic
+            <lb ed="#V" n="118"/>dicit. Ad fidem duo requiruntur, quorum unum est ut
+            ho<lb ed="#V" n="119" break="no"/>mini credibilia proponantur, hoc enim requiritur ad hoc
+            <lb ed="#V" n="120"/>quod aliquid explicite credat. Aliud autem quod requiritur
+            <lb ed="#V" n="121"/>ad fidem est assensus credentis ad ea, quae proponuntur. Quam
+            <lb ed="#V" n="122"/>tum igitur ad primum horum necesse est quod fides sit a Deo.
+            <lb ed="#V" n="123"/>Ea enim quae sunt fidei, excedunt rationem humanam,
+            un<lb ed="#V" n="124" break="no"/>de non cadunt in contemplatione hominis nisi Deo
+            reue<lb ed="#V" n="125" break="no"/>lante. Sed quibusdam quaedam reuelantur immediate a Deo
+            <lb ed="#V" n="126"/>sicut sunt reuelata apostolis &amp; prophetis, quibusdam autem
+            <lb ed="#V" n="127"/>proponuntur a Deo mittente fidei praedicatores secundum illud
+            <lb ed="#V" n="128"/>Rom. cap. 10. Quomodo praedicabunt nisi mittantur. Quantum
+            <lb ed="#V" n="129"/>uero ad secundum scilicet assensum hominis in ea, quae sunt fidei
+            <lb ed="#V" n="130"/>potest considerari duplex causa. Vna quidem exterius
+            indu<lb ed="#V" n="131" break="no"/>cens sicut miraculum uisum, uel perfuasio hominis inducem
+            <lb ed="#V" n="132"/>tis ad fidem. quorum neutrum est sufficiens causa.
+            Viden<lb ed="#V" n="133" break="no"/>tium enim unum &amp; idem miraculum, &amp; audientium eandem
+            <lb ed="#V" n="134"/>praedicationem quidam credunt, &amp; quidam non credunt.
+            <lb ed="#V" n="135"/>Et ideo oportet ponere aliam causam interiorem, quae
+            mo<lb ed="#V" n="136" break="no"/>uet hominem interius ad assentiendum his, quae sunt
+            fi<lb ed="#V" n="137" break="no"/>dei. Hanc autem causam Pellagiani ponebant solum
+            libe<lb ed="#V" n="138" break="no"/>rum arbitrium hominis. Et propter hoc dicebant, quod
+            ini<lb ed="#V" n="139" break="no"/>tium fidei est ex nobis, inquantum scilicet ex nobis est quod
+            <lb ed="#V" n="140"/>parati sumus ad assentiendum his, quae sunt fidei, sed
+            <lb ed="#V" n="141"/>confirmatio fidei est a Deo, per quam nobis proponuntur
+            <lb ed="#V" n="142"/>ea quae credere debemus. Sed hoc est falsum, quia cum
+            <lb ed="#V" n="143"/>homo assentiendo his, quae sunt fidei, eleuetur supra
+            na<lb ed="#V" n="144" break="no"/>turam sua, oportet quod hoc insit ei ex supernaturali
+            prin<pb ed="#V" n="178"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>cipio interius mouente quod est Deus. Et ideo fides
+            quan<lb ed="#V" n="2" break="no"/>tum ad assensum, qui est principalis actus fidei, est a Deo
+            <lb ed="#V" n="3"/>interius mouente per gratiam. Haec ille. Ex quibus potest
+            <lb ed="#V" n="4"/>formari talis ratio. Ille habitus infunditur homini a
+            <lb ed="#V" n="5"/>Deo, per cuius actus homo eleuatur supra naturam
+            <lb ed="#V" n="6"/>suam, sed fides est huiusmodi, igitur &amp;c.
+          </p>
+          <p xml:id="capsco-c3hzk1-d1e307">
+            Tertia conclusio.
+            <lb ed="#V" n="7"/>Nullus homo pertinaciter aliquem articulum fidei
+            discre<lb ed="#V" n="8" break="no"/>dens habet habitum fidei infusae. Hanc ponit Sanctus
+            <lb ed="#V" n="9"/>Thomas secunda secundae quaestione quinta articulo
+            <lb ed="#V" n="10"/>tertio, vbi sic dicit. Haereticus qui discredit vnum articulum
+            <lb ed="#V" n="11"/>fidei, non habet habitum fidei neque formatae, neque
+            infor<lb ed="#V" n="12" break="no"/>mis. Cuius ratio est, quia species cuiuslibet habitus
+            depen<lb ed="#V" n="13" break="no"/>det ex formali ratione obiecti, qua sublata species habitus
+            <lb ed="#V" n="14"/>remanere non potest, formale autem fiderobiectum est
+            veri<lb ed="#V" n="15" break="no"/>tas prima secundum quod manifestatur in scripturis sacris
+            <lb ed="#V" n="16"/>&amp; doctrina Ecclesiae, quae procedit ex veritate prima. Vnde
+            <lb ed="#V" n="17"/>quicunque non inhaeret sicut infallibili diuinae regulae
+            do<lb ed="#V" n="18" break="no"/>ctrinae Ecclesiae, quae procedit ex veritate prima in scripturis
+            <lb ed="#V" n="19"/>sacris manifestata, ille non habet habitum fidei, sed ea quae
+            <lb ed="#V" n="20"/>sunt fidei alio modo tenet quam per fidem, sicut si aliquis
+            te<lb ed="#V" n="21" break="no"/>neat mente aliquam conclusionem non cognoscens medium
+            <lb ed="#V" n="22"/>demonstrationis illius manifestum est quod non habet
+            scien<lb ed="#V" n="23" break="no"/>tiam illius, sed opinionem solum. Manifestum est autem quod
+            <lb ed="#V" n="24"/>ille, qui inhaeret doctrinae Ecclesiae tanquam infallibili
+            regu<lb ed="#V" n="25" break="no"/>lae omnibus assentit, quae Ecclesia docet, alioquin si de his,
+            <lb ed="#V" n="26"/>quae Ecclesia docet, quae vult tenet, &amp; quae vult non tenet
+            in<lb ed="#V" n="27" break="no"/>haeret doctrinae Ecclesiae, sicut infallibili regulae, sed proprie
+            <lb ed="#V" n="28"/>voluntati. Et sic manifestum est, quod haereticus qui
+            pertina<lb ed="#V" n="29" break="no"/>citer discredit vnum articulum, non est paratus sequi in
+            om<lb ed="#V" n="30" break="no"/>nibus doctrinam Ecclesiae, si enim non pertinaciter, iam non
+            <lb ed="#V" n="31"/>est haereticus, sed errans. Vnde manifestum est quod talis
+            <lb ed="#V" n="32"/>haereticus circa vnum articulum non habet fidem de alijs
+            <lb ed="#V" n="33"/>articulis, sed opinionem quandam secundum propriam
+            vo<lb ed="#V" n="34" break="no"/>luntatem. Haec ille. Ex quibus potest formari talis ratio.
+            <lb ed="#V" n="35"/>Nullus non inhaerens doctrinae Ecclesiae sicut infallibili
+            re<lb ed="#V" n="36" break="no"/>gulae habet habitum fidei, sed quilibet haereticus est
+            huius<lb ed="#V" n="37" break="no"/>modi, igitur &amp;c.
+          </p>
+          <p xml:id="capsco-c3hzk1-d1e377">
+            Quarta conclusio. Fides est vna uirtus, &amp;
+            <lb ed="#V" n="38"/>non multae, &amp; vnus habitus &amp; non multi specie distincti.
+            <lb ed="#V" n="39"/>Hanc probat Sanctus Thomas 2. 2. q. 4. art. 6. vbi sic dicit. Si
+            fi<lb ed="#V" n="40" break="no"/>des sumatur pro habitu dupliciter potest considerari. Vno
+            <lb ed="#V" n="41"/>modo ex parte obiecti, &amp; sic est vna fies, obiectum enim
+            <lb ed="#V" n="42"/>formale fidei est veritas prima, cui inhaerendo credimus
+            <lb ed="#V" n="43"/>quaecunque sub fide continentur. Alio modo ex parte
+            sub<lb ed="#V" n="44" break="no"/>iecti, &amp; sic fides diuersificatur secundum quod en
+            diuerso<lb ed="#V" n="45" break="no"/>rum. Manifestum est autem quod fides sicut quilibet alius
+            <lb ed="#V" n="46"/>habitus ex formali ratione obiecti habet speciem, sed ex
+            su<lb ed="#V" n="47" break="no"/>biecto indiuiduatur. Et ideo si fides sumatur pro habitu,
+            <lb ed="#V" n="48"/>quo credimus, sic fides est vna specie, &amp; differens
+            nume<lb ed="#V" n="49" break="no"/>ro in diuersis. Si vero sumatur pro eo quod creditur, sic est
+            <lb ed="#V" n="50"/>vna fides, quia idem est quod ab omnibus creditur &amp; si sint
+            <lb ed="#V" n="51"/>diuersa credibilia, quae communiter omnes credunt, tamen
+            <lb ed="#V" n="52"/>omnia reducuntur ad vnum. Haec ille. Ex quibus potest
+            for<lb ed="#V" n="53" break="no"/>mari talis ratio. Ille habitus virtutis est vnus &amp; non plures
+            <lb ed="#V" n="54"/>qui habet vnum obiectum formale &amp; non plura, fides est
+            <lb ed="#V" n="55"/>huiusmodi, igitur. Et in hoc primus articulus terminatur.
+          </p>
+        </div>
+        <div xml:id="capsco-c3hzk1-Dd1e420">
+          <head xml:id="capsco-c3hzk1-Hd1e422">Articulus 2</head>
+          <p xml:id="capsco-c3hzk1-d1e424">
+            <lb ed="#V" n="56"/><milestone ed="#V" unit="p" rend="initial"/> Vantum ad secundum articulum arguitur contra
+            con<lb ed="#V" n="57" break="no"/>clusiones. Et quidem contra primam arguit Durandus
+            <lb ed="#V" n="58"/>probando, quod fides quantumcunque formata charitate
+            <lb ed="#V" n="59"/>non sit virtus proprie loquendo de virtute, pro vt virtus
+            di<lb ed="#V" n="60" break="no"/>citur habitus ponens potentiam in vltimo perfectionis
+            de<lb ed="#V" n="61" break="no"/>bitae suo actui, sic enim virtus est vltimum de potentia.
+            A<lb ed="#V" n="62" break="no"/>guit igitur sic omnis virtus proprie dicta perficiens
+            intelle<lb ed="#V" n="63" break="no"/>ctum perficit ipsum ad conspiciendum obiectum in se, vel
+            <lb ed="#V" n="64"/>per resolutionem ad id, quod in se conspicit, in hoc enim
+            <lb ed="#V" n="65"/>consistit efficacia actus intelligendi, quam ponit virtus
+            cir<lb ed="#V" n="66" break="no"/>ca potentiam intellectiuam, sed fides non perficit
+            intelle<lb ed="#V" n="67" break="no"/>ctum ad conspiciendum obiectum in se, vel per
+            resolutio<lb ed="#V" n="68" break="no"/>nem ad illud, quod in se conspicit: ergo non est proprie &amp;
+            <lb ed="#V" n="69"/>simpliciter loquendo virtus. Secundo probat quod fides non
+            <lb ed="#V" n="70"/>est magis virtus charitate praesente vel existente in
+            volun<lb ed="#V" n="71" break="no"/>tate quam non existente. Quia habitus qui non elicit per se
+            <lb ed="#V" n="72"/>ctiorem actum non est perfectior, sed fides non elicit
+            perfe<lb ed="#V" n="73" break="no"/>ctiorem actum charitate existente in voluntate quam non
+            <lb ed="#V" n="74"/>existente, quia actus eius, qui est assentire vero
+            supernatura<lb ed="#V" n="75" break="no"/>li, non est perfectior quantum ad aliquid quod pertineat ad
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="76"/>cognitionem veri, quae mere pertinet ad intellectum, quem
+            <lb ed="#V" n="77"/>perficit fides, licet sit perfectior quantum ad rationem
+            me<lb ed="#V" n="78" break="no"/>riti, quae est perfectio extrinseca, cum pertineat ad
+            charita<lb ed="#V" n="79" break="no"/>tem, quae perficit voluntatem, ergo fides non est magis vel
+            <lb ed="#V" n="80"/>minus virtus charitate existente in voluntate quam non
+            <lb ed="#V" n="81"/>existente, Item tertio arguit, quod non est simile de fide &amp;
+            <lb ed="#V" n="82"/>charitate sicut de prudentia &amp; virtute morali, quia
+            pruden<lb ed="#V" n="83" break="no"/>tia non potest acquiri sine virtute morali, nec moralis
+            vir<lb ed="#V" n="84" break="no"/>tus sine prudentia, &amp; quia vtraque acquiritur ex actibus,
+            <lb ed="#V" n="85"/>ideo actus vtriusque recipit perfectionem ex sibi adiuncto,
+            <lb ed="#V" n="86"/>ita quod impossibile est actum prudentiae esse perfectum,
+            <lb ed="#V" n="87"/>nisi virtus moralis sit in appetitu, nec actum virtutis
+            mora<lb ed="#V" n="88" break="no"/>lis esse perfectum nisi prudentia sit in intellectu. Fides
+            au<lb ed="#V" n="89" break="no"/>tem non dependet a charitate, nec quantum ad habitum
+            <lb ed="#V" n="90"/>cum sit prior ordine naturae, nec in actu recipit aliquam
+            per<lb ed="#V" n="91" break="no"/>fectionem a charitate. Et ideo potest habere aequaliter,
+            ra<lb ed="#V" n="92" break="no"/>tionem virtutis charitate non existente in voluntate, sicut
+            <lb ed="#V" n="93"/>existente. Quamuis enim voluntas inclinet intellectum ad
+            <lb ed="#V" n="94"/>credendum, non tamen oportet quod ipsa sit informata
+            <lb ed="#V" n="95"/>charitate. Haec ille in forma.
+          </p>
+          <p xml:id="capsco-c3hzk1-d1e516">
+            Contra secundam
+            concluso<lb ed="#V" n="96" break="no"/>nem arguit Scotus probando quod praeter acquisitam non
+            <lb ed="#V" n="97"/>requiratur alia infusa. Primo. Quia in primo cui
+            articuli<lb ed="#V" n="98" break="no"/>sunt reuelati sufficit fides acquisita, vt firmiter eis adhaereat
+            <lb ed="#V" n="99"/>vt in Paulo, ergo aliis posterioribus sufficit fides acquisita,
+            <lb ed="#V" n="100"/>vt firmiter credant omnia credenda, quia Augustinus
+            su<lb ed="#V" n="101" break="no"/>per illud Psalm. Suscipiant motestes pacem populo &amp;c. vult
+            <lb ed="#V" n="102"/>quod inferiores illuminentur per superiores, &amp; non magis
+            <lb ed="#V" n="103"/>illuminantur quam superiores illos illuminantes. Patet
+            er<lb ed="#V" n="104" break="no"/>go consequentia, sed antecedens probatur. Ex puris
+            natura<lb ed="#V" n="105" break="no"/>libus includendo habitum acquisitum potest aliquis
+            assenti<lb ed="#V" n="106" break="no"/>re omnibus assertis &amp; reuelatis ab aliquo, quia ex puris
+            na<lb ed="#V" n="107" break="no"/>turalibus assentire potest illum esse vrracem, qui talia
+            asse<lb ed="#V" n="108" break="no"/>rit &amp; reuelat, sed ex puris naturalibus scit hoc &amp; assentit,
+            <lb ed="#V" n="109"/>quod Deus est verax magis quam omnes homines, &amp; hoc
+            <lb ed="#V" n="110"/>scire &amp; assentire potuit Paulus, ergo fide acquisita ex puris
+            <lb ed="#V" n="111"/>naturalibus potest quis firmiter assentire omnibus
+            reuela<lb ed="#V" n="112" break="no"/>tis a Deo &amp; per consequens quilibet alius. Non ergo praeter
+            <lb ed="#V" n="113"/>fidem acquisitam requiritur necessario propter assensum
+            <lb ed="#V" n="114"/>alia fides.
+          </p>
+          <p xml:id="capsco-c3hzk1-d1e560">
+            <lb ed="#V" n="115"/><milestone ed="#V" unit="p" rend="indent"/> Secundo. Quia quamuis aliqua scientia propter suam
+            <lb ed="#V" n="116"/>difficultatem, quam includit, vt geometria vel alia non
+            <lb ed="#V" n="117"/>possit sciri ab homine propria inueutione, &amp; in lumine suo
+            <lb ed="#V" n="118"/>naturali, tamen postquam inuenta est &amp; ordinate tradita
+            <lb ed="#V" n="119"/>potest homo ex puris naturalibus acquirese &amp; scire eam,
+            er<lb ed="#V" n="120" break="no"/>go eodem modo quamuis nullus naturali lumine
+            intelle<lb ed="#V" n="121" break="no"/>ctus possit propria inquisitione venire ad noticiam illius,
+            <lb ed="#V" n="122"/>Deus est trinus &amp; vnus, tamen postquam reuelatum est
+            ali<lb ed="#V" n="123" break="no"/>cui potest alius ex dictis illius, cui reuelatum est, illi
+            firmi<lb ed="#V" n="124" break="no"/>ter adhaerere fide acquisita.
+          </p>
+          <p xml:id="capsco-c3hzk1-d1e585">
+            <lb ed="#V" n="125"/><milestone ed="#V" unit="p" rend="indent"/> Tertio. Quia si fides infusa ponitur, illa erit certior
+            ac<lb ed="#V" n="126" break="no"/>quisita, quia aliter frustra poneretur, sed quod sit minus
+            cer<lb ed="#V" n="127" break="no"/>ta probatur. Quia conclusio est minus certa quam
+            princi<lb ed="#V" n="128" break="no"/>pium, ex quo tota certitudo conclusionis est a certitudine
+            <lb ed="#V" n="129"/>principij, sed huic, Deus est trinus &amp; vnus, assentio fide
+            in<lb ed="#V" n="130" break="no"/>fusa si ponitur, quia hoc reuelatum est a Deo, sed hoc esse
+            <lb ed="#V" n="131"/>reuelatum a Deo credo, quia Ioannes dixit hoc sibi esse
+            re<lb ed="#V" n="132" break="no"/>uelatum, vel alius apostolus, sed si audiuissem eum dixisse
+            <lb ed="#V" n="133"/>hoc sibi reuelatum esse, credidissem sibi fide acquisita,
+            cre<lb ed="#V" n="134" break="no"/>dendo ipsum esse veracem, &amp; nihil falsum velle asserere,
+            er<lb ed="#V" n="135" break="no"/>go &amp; modo credo illi scilicet Deum esse trinum &amp; vnum,
+            <lb ed="#V" n="136"/>reuelatum esse apostolo fide acquisita ex auditu
+            scriptura<lb ed="#V" n="137" break="no"/>rum, vel ex hoc quod lego scripturam, ergo tota firmitas
+            <lb ed="#V" n="138"/>quam modo ponis in fide est a fide acquisita, ergo non est
+            <lb ed="#V" n="139"/>ponenda fides infusa. Haec Scotus.
+          </p>
+          <p xml:id="capsco-c3hzk1-d1e622">
+            <lb ed="#V" n="140"/><milestone ed="#V" unit="p" rend="indent"/> Arguit etiam Aureolus probando quod fides infusa
+            <lb ed="#V" n="141"/>non requiritur propter supernaturalitatem obiecti fidei.
+            <lb ed="#V" n="142"/>Quia supernaturalitas illius obiecti vel intelligitur per
+            in<lb ed="#V" n="143" break="no"/>differentiam ad verum &amp; falsum quia obiectum fidei sit
+            ta<lb ed="#V" n="144" break="no"/>le, quod non apparet vtrum sit uerum uel falsum, sicut
+            v<lb ed="#V" n="145" break="no"/>trum arenae maris sint pares, aut impares, uel intelligitur
+            <lb ed="#V" n="146"/>per repugnantiam ad apparentiam, sicut quod Deus sit
+            tri<lb ed="#V" n="147" break="no"/>nus &amp; unus dicitur repugnare ueris apparentibus. Sed ex
+            <lb ed="#V" n="148"/>neutro illorum requiritur habitus supernaturalis. Non enim
+            <lb ed="#V" n="149"/>propter primum quia homo naturaliter loquendo potest
+            indifferen<lb ed="#V" n="150" break="no"/>tibus firmissime adhaerere sine habitu supernaturali. Nec propter
+            <pb ed="#V" n="179"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>ecundi. Nam homo aliquando adhaeret firmissime
+            opposi<lb ed="#V" n="2" break="no"/>stis primorum principiorum propter sillogismum
+            falsigra<lb ed="#V" n="3" break="no"/>phum, vel propter consuetudinem vel naturalem
+            dispositio<lb ed="#V" n="4" break="no"/>nem suam, puta ex imaginatione. Et si dicas quod veritates
+            <lb ed="#V" n="5"/>fidei sunt de Deo, qui est obiectum supernaturale, &amp; non
+            <lb ed="#V" n="6"/>potest a nobis naturaliter intelligi. Hoc non valet, quia de
+            <lb ed="#V" n="7"/>Deo possumus multa intelligere ex sensatis, &amp; alia multa
+            <lb ed="#V" n="8"/>non ex sensatis possumus tenere firmiter, &amp; hoc patet in
+            hae<lb ed="#V" n="9" break="no"/>reticis. Haereticus enim errans in vno articulo fidei amittit
+            <lb ed="#V" n="10"/>fidem infusam, &amp; tamen tenet alios ita firmiter, quod
+            pro<lb ed="#V" n="11" break="no"/>illis vellet decapitari. Hoc etiam patet de puero non
+            <lb ed="#V" n="12"/>baptizato nutrito inter fideles, qui multa quae fidei sunt
+            te<lb ed="#V" n="13" break="no"/>net ita firmiter sicut baptizatus, qui habet fidem infusam.
+          </p>
+          <p xml:id="capsco-c3hzk1-d1e682">
+            <lb ed="#V" n="14"/>Item fides infusa bene est necessaria et, qui reuelat ea, quae
+            <lb ed="#V" n="15"/>sunt. fidei, sed si reuelat ea a casu vel ex industria naturali non
+            <lb ed="#V" n="16"/>est ei credendum nec adhaerendum eis quae dicit, quia non
+            <lb ed="#V" n="17"/>potest ea reuelare certitudinaliter nisi habeat ea per causam
+            <lb ed="#V" n="18"/>superiorem mediante habitu infuso supernaturali. Sed
+            cre<lb ed="#V" n="19" break="no"/>denti dictis reuelantis non est necessarius habitus
+            superna<lb ed="#V" n="20" break="no"/>turalis infusus. Haec Aureoteues in forma.
+          </p>
+          <p xml:id="capsco-c3hzk1-d1e700">
+            Contra tertiam
+            con<lb ed="#V" n="21" break="no"/>clusionem arguit Durandus probando, quod in haereticis
+            <lb ed="#V" n="22"/>remaneat fides infusa, quo ad articulos, in quibum non
+            er<lb ed="#V" n="23" break="no"/>rant. Et arguit sic. Quia omnis habitus reddit potentiam
+            fa<lb ed="#V" n="24" break="no"/>cilem ad actum debitum respectu obiecti, &amp; per consequens
+            <lb ed="#V" n="25"/>ad refugiendum contraria, vel refutandum illa, &amp; tamen si
+            <lb ed="#V" n="26"/>non refugiantur contraria non propter hoc totaliter
+            tolli<lb ed="#V" n="27" break="no"/>tur habitus, quia &amp; si ponat facilitatem &amp; pronitatem ad
+            <lb ed="#V" n="28"/>actum debitum, &amp; ad refugiendum contrarium, non tamen
+            <lb ed="#V" n="29"/>ponit necessitatem quin possit fieri contrarium, &amp; istud est
+            <lb ed="#V" n="30"/>manifestum in habitibus acquisitis, de quibus praedicta
+            ra<lb ed="#V" n="31" break="no"/>tio aeque concludit sicut de fide infusa. Secundo. Quia ille qui
+            <lb ed="#V" n="32"/>assentit credibilibus similiter nunc vt prius habet fidem
+            si<lb ed="#V" n="33" break="no"/>militer nunc vt prius quia assensus similis arguit
+            simi<lb ed="#V" n="34" break="no"/>lem habitum, sed fidelis denuo seductus circa aliquod
+            <lb ed="#V" n="35"/>credibile per propriam ignorantiam quia non bene
+            intel<lb ed="#V" n="36" break="no"/>ligit sacram scripturam, vel per alterius falsam doctrinam,
+            <lb ed="#V" n="37"/>puta quod non licet iurare assentit caeteris credibilibus
+            <lb ed="#V" n="38"/>similiter nunc vt prius, &amp; omnino consimiliter, ergo assentit per
+            <lb ed="#V" n="39"/>eundem habitum, per quem prius. Sed prius habebat fidem
+            <lb ed="#V" n="40"/>infusam, ergo &amp; nunc &amp; tamen est haereticus. ergo. in
+            haeretico<lb ed="#V" n="41" break="no"/>manet fides infusa. Tertio. Quia si aliquid obstaret hoc
+            vide<lb ed="#V" n="42" break="no"/>retur esse, quia sequeretur hoc dato quod aliquis simul sit
+            fi<lb ed="#V" n="43" break="no"/>delis &amp; infidelis. Sed hoc non obstat, quia fides secundum
+            <lb ed="#V" n="44"/>habitum, &amp; error secundum actum circa aliquod credibile
+            <lb ed="#V" n="45"/>bene possunt simul stare, sicut scientia secundum habitum
+            <lb ed="#V" n="46"/>potest stare cum actu erroneo circa aliquod scibile. Et si
+            fir<lb ed="#V" n="47" break="no"/>maretur habitus in aliquo quod nullo modo esset iurandum,
+            <lb ed="#V" n="48"/>adhuc posset stare cum fide infusa, quia non esset de eodem
+            <lb ed="#V" n="49"/>obiecto, quia quamuis obiectum fidei infusae se extendat ad
+            <lb ed="#V" n="50"/>omnia contenta in sacra scriptura, tamen ipsa potest exire
+            <lb ed="#V" n="51"/>in actum debitum respectu aliquorum, quamuis intellectus
+            <lb ed="#V" n="52"/>habentis fidem insusam possit decipi respectu aliorum,
+            si<lb ed="#V" n="53" break="no"/>cut aliquis potest habere veram scientiam de aliquibus
+            pas<lb ed="#V" n="54" break="no"/>sionibus alicuius subiecti, &amp; decipi circa alias passiones
+            <lb ed="#V" n="55"/>eiusdem. Et sic non videtur improbabile, quin habitus fidei
+            pos<lb ed="#V" n="56" break="no"/>sit remanere in haereticis errantibus de nouo circa aliquod
+            <lb ed="#V" n="57"/>particulare credibile. Haec ille.
+          </p>
+          <p xml:id="capsco-c3hzk1-d1e783">
+            Contra quartam
+            conclusio<lb ed="#V" n="58" break="no"/>nem arguit Scotus probando, quod non ideo de omnibus
+            <lb ed="#V" n="59"/>credibilibus sit vna fides, quia relpicst osniia Crendibilia vt
+            <lb ed="#V" n="60"/>reuelata a Deo Primo. Quia si fides infusa respicit primam
+            <lb ed="#V" n="61"/>veritatem vt reuelantem articulos, &amp; causantem assensum
+            <lb ed="#V" n="62"/>de credibilibus, &amp; non sicut de quo est fides vt de obiecto,
+            <lb ed="#V" n="63"/>sequitur quod nunquam aliquis fidelis assentiret huic, Deus
+            <lb ed="#V" n="64"/>est trinus &amp; vnus, quia secundum te assentio huic, Deus est
+            <lb ed="#V" n="65"/>trinus &amp; vnus, quia est reuelatum a prima veritate. Quaero
+            <lb ed="#V" n="66"/>igitur a te quomodo assentio huic, hoc est reuelatum a Deo
+            <lb ed="#V" n="67"/>quia si assentio huic scilicet Deus est trinus &amp; vnus, propter hoc
+            <lb ed="#V" n="68"/>quia est reuelatum a Deo sicut conclusioni propter
+            princi<lb ed="#V" n="69" break="no"/>pium, sequitur quod magis assentio illi, quod se habet vt
+            <lb ed="#V" n="70"/>principium quam illi quod se habet vt conclusio. &amp; dicas
+            si<lb ed="#V" n="71" break="no"/>cut oportet, quod quia est reuelatum Deum esse trinum &amp;
+            <lb ed="#V" n="72"/>vnum Quaero vltra, quomodo assentio huic reuelatum est
+            <lb ed="#V" n="73"/>a Deo, quod Deum esse trinum &amp; vnum est reuelatum. Si
+            <lb ed="#V" n="74"/>iterum, quia est reuelatum, procedam in infinitum, &amp; per
+            con<lb ed="#V" n="75" break="no"/>sequens nunquam aliquid firmiter credam de articulis fidei
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="76"/>sicut si scientia conclusionis resoluetur in principia, &amp; illa
+            <lb ed="#V" n="77"/>principia in alia, &amp; sic in infinitum, nunquam sciretur aliquod
+            <lb ed="#V" n="78"/>sicut nec aliquid potest esse quod dependeat ex infinitis
+            <lb ed="#V" n="79"/>causis essentialiter. Si dicas quod huic assentio fide
+            acquisi<lb ed="#V" n="80" break="no"/>ta scilicet quod Deum esse trinum &amp; vnum est a Deo
+            reue<lb ed="#V" n="81" break="no"/>latum. Contra. Tunc fides infusa dependet in esse &amp;
+            firmi<lb ed="#V" n="82" break="no"/>tate adhaerens alicui articulo, a fide acquisita sicut a
+            princi<lb ed="#V" n="83" break="no"/>pio, quia non poteris dicere, quod per scientiam ei adhaereas
+            <lb ed="#V" n="84"/>quia hoc non est euidens ex terminis, Deum esse trinum &amp;
+            <lb ed="#V" n="85"/>vnum est a Deo reuelatum plusquam quod Deus est trinus
+            <lb ed="#V" n="86"/>&amp; vnus. Secundo. Quia formalis ratio obiecti habitus realis
+            <lb ed="#V" n="87"/>non est relatio seu ens rationis, sed esse reuelatum a Deo
+            <lb ed="#V" n="88"/>Deum esse trinum &amp; vnum, non dicit vltra Deum esse
+            tri<lb ed="#V" n="89" break="no"/>num &amp; vnum, nisi respectum rationis, sicut esse cognitum
+            <lb ed="#V" n="90"/>dicit respectum rationis tantum vltra rem, quae cognoscitur
+            <lb ed="#V" n="91"/>Si ergo assentis articulo praedicto, quia est reuelatus a Deo,
+            <lb ed="#V" n="92"/>tunc ratio formalis cur assentis per habitum realem est ens
+            <lb ed="#V" n="93"/>rationis, quod est inconueniens, cum habitus realis habeat
+            <lb ed="#V" n="94"/>formale obiectum reale, sicut potentia realis habet obiectum
+            <lb ed="#V" n="95"/>reale. Hoc patet, ergo reuelabile passiue cum sit ens
+            ratio<lb ed="#V" n="96" break="no"/>nis, non potest esse formalis ratio tendendi in istud, Deus
+            <lb ed="#V" n="97"/>est trinus &amp; vnus. Arguit etiam Aureotiaus probando quod
+            ve<lb ed="#V" n="98" break="no"/>ritas prima non sit formale in obiecto fide i scilicet quod fides
+            ad<lb ed="#V" n="99" break="no"/>haereat cuicunque ratione primae veritatis, quia hoc est de
+            <lb ed="#V" n="100"/>ratione formalis obiecti, v. non reducatur ad superiorem
+            <lb ed="#V" n="101"/>causam in eadem scientia, sed non sic est in proposito, quia
+            <lb ed="#V" n="102"/>si quaeratur quare credis articulos fidei, respondetur, quia
+            <lb ed="#V" n="103"/>hoc dicit prima veritas, quae mentiri non potest, quaeratur
+            <lb ed="#V" n="104"/>vltra, quare mentiri non potest, &amp; oportet dicere, quia est
+            <lb ed="#V" n="105"/>Deus, &amp; sic reducitur vlterius ad aliud obiectum formale,
+            <lb ed="#V" n="106"/>ergo prima veritas se habet vt obiectum materiale. Secundo
+            <lb ed="#V" n="107"/>Aut intelligis per primam veritatem dicta a prima veritate
+            <lb ed="#V" n="108"/>&amp; hoc non est possibile, quia aut talia sunt veritates
+            com<lb ed="#V" n="109" break="no"/>plexae, quae sunt obiectum materiale, aut intelligis aliquod
+            <lb ed="#V" n="110"/>attributum speciale in Deo, &amp; hoc non potest dici, quia
+            il<lb ed="#V" n="111" break="no"/>lud nihil addit ad diuinitatem. Et si addit inquantum
+            huius<lb ed="#V" n="112" break="no"/>modi, non est finis, &amp; ita fides non habebit idem pro
+            obie<lb ed="#V" n="113" break="no"/>cto formali &amp; pro fine, ergo relinquitur quod Deus sub
+            rae<lb ed="#V" n="114" break="no"/>tione diuinitatis sit obiectum formale, &amp; non veritas prima
+            <lb ed="#V" n="115"/>Haec ille. Et in hoc secundus articulus terminatur.
+          </p>
+        </div>
+        <div xml:id="capsco-c3hzk1-Dd1e914">
+          <head xml:id="capsco-c3hzk1-Hd1e916">Articulus 3</head>
+          <p xml:id="capsco-c3hzk1-d1e918">
+            <lb ed="#V" n="116"/><milestone ed="#V" unit="p" rend="initial"/> QVantum ad tertium articulum respondendum est
+            ob<lb ed="#V" n="117" break="no"/>iectionibus supradictis. Et quidem ad argumentum
+            Du<lb ed="#V" n="118" break="no"/>randi contra primam conclusionem dicitur primo, quod
+            <lb ed="#V" n="119"/>Sanctus Thomas Tertio sententiarum distinct. 23. q. 2. art. 4
+            <lb ed="#V" n="120"/>quaestiuncula prima apparenter tenuit uiam, quam sequitur
+            <lb ed="#V" n="121"/>Durandus scilicet quod fides stricte loquendo non sit virtus, sed solum
+            <lb ed="#V" n="122"/>large loquendo. Veruntamen. ex uerbis suis non potest
+            con<lb ed="#V" n="123" break="no"/>cludi efficaciter, quod fides non sit uirtus proprie
+            loquen<lb ed="#V" n="124" break="no"/>do, sed solum quod non sit uirtus intellectualis eo modo
+            <lb ed="#V" n="125"/>quo philosophi de tali uirtute loquuntur, quod patet ex
+            mo<lb ed="#V" n="126" break="no"/>do loquendi, ait enim sic. Cum uirtutis sit reddere opus
+            bo<lb ed="#V" n="127" break="no"/>num, operatio potest dici bona uel formaliter inquantum
+            <lb ed="#V" n="128"/>procedit ex potentia, quae mouetur in bonum secundum
+            ra<lb ed="#V" n="129" break="no"/>tionem boni, uel materialiter secundum quod est
+            congrua<lb ed="#V" n="130" break="no"/>&amp; connaturalis potentiae, utroque modo actus fidei est
+            bo<lb ed="#V" n="131" break="no"/>nus, quia congruit intellectui inquantum est uerorum. Et
+            <lb ed="#V" n="132"/>iterum procedit a uoluntate quae mouetur in bonum quasi in
+            <lb ed="#V" n="133"/>obiectum. Ex parte autem intellectus quamuis habeat
+            boni<lb ed="#V" n="134" break="no"/>tatem ex parte obiecti, non tamen habet perfectionem, quia
+            <lb ed="#V" n="135"/>deficit modus eo quod non habet conspicuam ueritatem,
+            <lb ed="#V" n="136"/>cui adhaeret, sed ex parte uoluntatis potest habere
+            perfectio<lb ed="#V" n="137" break="no"/>nem inquantum uoluntas perfecta in appetitu boni
+            firmi<lb ed="#V" n="138" break="no"/>ratem &amp; certitudinem facit in fide. Et ideo dicit Bernardus,
+            <lb ed="#V" n="139"/>quod fides est uoluntaria quaedam &amp; certa praelibatio non
+            <lb ed="#V" n="140"/>dum propalatae ueritatis. Vnde patet quod fides est uirtus,
+            <lb ed="#V" n="141"/>non quidem intellectualis, sed eo modo, quo communiter
+            <lb ed="#V" n="142"/>loquimur de uirtute, quae producit actum bonum ex
+            boni<lb ed="#V" n="143" break="no"/>tate uoluntatis procedentem. Nec tamen est uirtus
+            mora<lb ed="#V" n="144" break="no"/>lis, quia non est ordinatiua appetitus sensibilis, ut consistat
+            <lb ed="#V" n="145"/>circa delectationes, &amp; tristitias &amp; operationes, sicut circa
+            <lb ed="#V" n="146"/>materiam uel obiectum, sed est uirtus theologica, quod
+            <lb ed="#V" n="147"/>quidem genus philosophi non cognouerunt. Haec ille.
+          </p>
+          <p xml:id="capsco-c3hzk1-d1e991">
+            Item
+            <lb ed="#V" n="148"/>articulo tertio quaestiuncula tertia sic dicit. Cum uirtus
+            po<lb ed="#V" n="149" break="no"/>nat potentiam in ultimo quantum ad actum, non sufficit
+            <lb ed="#V" n="150"/>ad ratione uirtutis, quod potentia ponatur in ultimo
+            <pb ed="#V" n="180"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>quantum ad obiectum, sed oportet quod ponatur in vltimo
+            <lb ed="#V" n="2"/>quantum ad modum agendi, vt scilicet actus sit bonum non
+            <lb ed="#V" n="3"/>solum ex eo quod bonum est quod fit, sed ex eo, quod bene
+            <lb ed="#V" n="4"/>fit sicut patet in virtutibus moralibus Bonum autem
+            intel<lb ed="#V" n="5" break="no"/>lectus est verum, quod est finis &amp; perfectio eius. Vnde non
+            <lb ed="#V" n="6"/>sufficit ad rationem virtutis intellectualis, quod per eam
+            <lb ed="#V" n="7"/>cognoscatur verum, sed oportet quod actus quo verum
+            con<lb ed="#V" n="8" break="no"/>sideratur, sit perfectus etiam ex modo, vt bene quis
+            intelli<lb ed="#V" n="9" break="no"/>gat. Bene autem operari intellectum non contingit ex hoc
+            <lb ed="#V" n="10"/>quod ex bona voluntate eius operatio procedit, sed ex
+            effi<lb ed="#V" n="11" break="no"/>cacia intellectus ad obiectum proprium conspiciendum, vel
+            <lb ed="#V" n="12"/>in se vel per resolutionem ad illud, quod in se conspicitur.
+            <lb ed="#V" n="13"/>Fides autem per actum suum ponit intellectum in vltimo
+            <lb ed="#V" n="14"/>quantum ad obiectum inquantum facit assentire primae
+            ve<lb ed="#V" n="15" break="no"/>ritati, non autem quantum ad modum proprium
+            intelle<lb ed="#V" n="16" break="no"/>ctus, quia intellectus noster non est per fidem tantae
+            effica<lb ed="#V" n="17" break="no"/>ciae, vt id quod credit inspicere per se possit, vel ad ea quae
+            <lb ed="#V" n="18"/>inspicit reducere, &amp; ideo fides non est virtus intellectualis.
+            <lb ed="#V" n="19"/>Haec ille.
+          </p>
+          <p xml:id="capsco-c3hzk1-d1e1046">
+            Ex quibus patet, quomodo Durandus ex dictis
+            San<lb ed="#V" n="20" break="no"/>cti Thomae in tertio fabricauit suam opinionem, &amp;
+            quomo<lb ed="#V" n="21" break="no"/>do Sanctus Thomas videtur ibidem fauere suae opinioni scilicet quod
+            <lb ed="#V" n="22"/>fides non sit virtus proprie loquendo de virtute. Nec tamen
+            <lb ed="#V" n="23"/>sauet, quia non asserit quod fides non sit virtus proprie
+            di<lb ed="#V" n="24" break="no"/>cta, sed solum quod non est virtus intellectualis proprie
+            di<lb ed="#V" n="25" break="no"/>cta, quia non ponit potentiam, quam informat in vltimata
+            <lb ed="#V" n="26"/>perfectione quo ad actum, sed potest dici virtus
+            communi<lb ed="#V" n="27" break="no"/>ter &amp; large loquendo de virtute. Secundo dicitur, quod
+            da<lb ed="#V" n="28" break="no"/>to quod Sanctus Thomas in scripto fuisset illius opinionis,
+            ta<lb ed="#V" n="29" break="no"/>men postea hanc opinionem correxit in summa, sicut patet
+            <lb ed="#V" n="30"/>in probatione conclusionis, vbi sine distinctione concedit
+            <lb ed="#V" n="31"/>fidem esse virtutem. Et similiter in de veritate. quaest. 14. art.
+            <lb ed="#V" n="32"/>tertio vbi arguit sic loco. 7. Virtus est vltimum potentiae vt
+            <lb ed="#V" n="33"/>dicitur in primo coeli &amp; mundi, sed fides non est vltimum
+            <lb ed="#V" n="34"/>potentiae humanae, quia potest in aliquid aliud amplius scilicet in
+            <lb ed="#V" n="35"/>apertam visionem, ergo fides non est virtus. Ecce
+            argumen<lb ed="#V" n="36" break="no"/>tum, in quo fundat se Durandus, &amp; in quo Sanct. Thomas in
+            <lb ed="#V" n="37"/>tertio videbatur se fundare, sequitur responsio Dicendum
+            <lb ed="#V" n="38"/>inquit, quod fides secundum hoc dicitur vltimum
+            poten<lb ed="#V" n="39" break="no"/>tiae, quia complet potentiam ad eliciendum actum bonum
+            <lb ed="#V" n="40"/>&amp; meritorium, non autem requiritur ad rationem virtutis
+            <lb ed="#V" n="41"/>quod per eam eliciatur optimus actus, qui potest elici a
+            po<lb ed="#V" n="42" break="no"/>tentia illa cum contingat in eadem potentia esse plures
+            vir<lb ed="#V" n="43" break="no"/>tutes, quarum vna nobiliorem actum elicit sicut magnificem
+            <lb ed="#V" n="44"/>tia liberalitate. Haec ille.
+          </p>
+          <p xml:id="capsco-c3hzk1-d1e1103">
+            Ex quibus patet ad primum
+            Duran<lb ed="#V" n="45" break="no"/>di. Vbi vlterius aduertendum, quod fides vno modo magis
+            <lb ed="#V" n="46"/>proprie dicitur virtus quam scientia. Vnde Sanct. Thomas de
+            <lb ed="#V" n="47"/>veritate ubi supra ar. 3. in solutione. 5. sic dicit. Secundum
+            <lb ed="#V" n="48"/>quod nunc loquimur de uirtute, neque scientia, neque
+            opi<lb ed="#V" n="49" break="no"/>nio uirtus dici potest, sed sola fides, quae quantum ad illud,
+            <lb ed="#V" n="50"/>quod uoluntatis est, prout praedicto modo in genus
+            uirtu<lb ed="#V" n="51" break="no"/>tis cadit, non est media inter scientiam &amp; opinionem. Quia
+            <lb ed="#V" n="52"/>in scientia &amp; opinione non est aliqua inclinatio ex
+            uolunta<lb ed="#V" n="53" break="no"/>te, sed ex ratione tantum. Si autem loqueremur de eis
+            quan<lb ed="#V" n="54" break="no"/>tum ad id, quod est cognitionis tantum, sic nec opinio,
+            ne<lb ed="#V" n="55" break="no"/>que fides esset uirtus, cum non habeat completam
+            cogni<lb ed="#V" n="56" break="no"/>tionem, sed tantummodo scientiam. Haec ille.
+          </p>
+          <p xml:id="capsco-c3hzk1-d1e1133">
+            Ex
+            qui<lb ed="#V" n="57" break="no"/>bus patet, quod licet fides non possit proprie dici
+            uir<lb ed="#V" n="58" break="no"/>tus secundum philosophum, potest tamen dici uirtus secundum
+            <lb ed="#V" n="59"/>dum theologum. &amp; de hoc latius dicetur in sequenti
+            respon<lb ed="#V" n="60" break="no"/>sione.
+          </p>
+          <p xml:id="capsco-c3hzk1-d1e1144">
+            Ad secundum dicitur, quod illa ratio soluit seipsam
+            <lb ed="#V" n="61"/>cum dicit, quod actus fidei non est perfectior praesente
+            cha<lb ed="#V" n="62" break="no"/>ritate in genere cognitionis, licet sit perfectior in esse
+            meri<lb ed="#V" n="63" break="no"/>ti. De hoc Sanctus Thomas de ue. q. 14. articulo tertio sic
+            di<lb ed="#V" n="64" break="no"/>cit. Virtus inquam ex impositione sui nominis significat
+            <lb ed="#V" n="65"/>complementum potentiae actiue. Est autem duplex
+            poten<lb ed="#V" n="66" break="no"/>tia actiua, quaedam cuius actio terminatur ad aliquid actum
+            <lb ed="#V" n="67"/>extra sicut aedificatiuae potentiae actio terminatur ad
+            aedifica<lb ed="#V" n="68" break="no"/>tum. Quaedam uero est cuius actio non terminatur ad extra
+            <lb ed="#V" n="69"/>sed consistit in ipso agente ut uisio in uidente, ut habetur
+            <lb ed="#V" n="70"/>a philosopho nono metaph. In his autem duabus potentijs
+            <lb ed="#V" n="71"/>diuersimode sumitur complementum, actus enim primarum
+            <lb ed="#V" n="72"/>potentiarum ut dicit philosophus ibidem non sunt in faciem
+            <lb ed="#V" n="73"/>te, sed in facto ideo complementum potentiae actiuae
+            accipi<lb ed="#V" n="74" break="no"/>tur ibi penes id, quod fit. Vnde &amp; uirtus deferentis
+            ponde<lb ed="#V" n="75" break="no"/>ra dicitur esse in hoc, quod maximum pondus defert, ut
+            pa<cb ed="#V" n="b"/><lb ed="#V" n="76" break="no"/>tet primo coeli &amp; mundi. Et similiter uirtus aedisicatoris in
+            <lb ed="#V" n="77"/>hoc, quod facit optimam domum. Sed quia actus alterius
+            <lb ed="#V" n="78"/>potentiae consistit in ipso agente, non in aliquo actu, ideo
+            <lb ed="#V" n="79"/>complementum illius potentiae accipitur secundum
+            mo<lb ed="#V" n="80" break="no"/>dum agendi, utputa si bene &amp; conuenienter operetur. Ex
+            <lb ed="#V" n="81"/>quo habet ut actus eius bonus dicatur, &amp; inde est, quod in
+            <lb ed="#V" n="82"/>huiusmodi potentiis uirtus dicitur quae opus bonum
+            red<lb ed="#V" n="83" break="no"/>dit. Aliud autem est bonum ultimum, quod considerat
+            phi<lb ed="#V" n="84" break="no"/>losophus &amp; theologus. Philosophus enim considerat
+            qua<lb ed="#V" n="85" break="no"/>si bonum, quod est humanis uiribus proportionatum, &amp;
+            <lb ed="#V" n="86"/>consistit in actu ipsius hominis, unde felicitatem dicit esse
+            <lb ed="#V" n="87"/>operationem quandam. Et ideo secundum philosophum
+            <lb ed="#V" n="88"/>actus bonus, cuius principium uirtus dicatur, dicitur
+            abso<lb ed="#V" n="89" break="no"/>lute inquantum est conueniens potentiae ut perficiens
+            ip<lb ed="#V" n="90" break="no"/>sam. Vnde quemcunque habitum inuenit philosophus
+            ta<lb ed="#V" n="91" break="no"/>lem actum elicientem dicit eum esse uirtutem, siue sit in
+            par<lb ed="#V" n="92" break="no"/>te intellectiua, ut scientia intellectus, &amp; huiusmodi uirtutes
+            <lb ed="#V" n="93"/>intellectiuales, quarum actus est bonum ipsius potentiae
+            sci<lb ed="#V" n="94" break="no"/>licet considerare uerum, siue in parte affectiua ut
+            temperan<lb ed="#V" n="95" break="no"/>tia, &amp; fortitudo, &amp; aliae uirtutes morales. Sed theologus
+            con<lb ed="#V" n="96" break="no"/>siderat quasi bonum ultimum illud, quod est naturae
+            facul<lb ed="#V" n="97" break="no"/>tatem excedens scilicet uitam aeternam. Vnde bonum in
+            a<lb ed="#V" n="98" break="no"/>ctibus humanis non considerat absolute, quia ibi non ponit
+            <lb ed="#V" n="99"/>finem, sed in ordine ad illud bonum, quod ponit ultimum
+            <lb ed="#V" n="100"/>asserens illum actum tantum esse bonum complete, qui de
+            <lb ed="#V" n="101"/>proximo ad bonum finale ordinatur idest qui est
+            merito<lb ed="#V" n="102" break="no"/>rius uitae aeternae. Et omnem talem actum dicit esse actum
+            <lb ed="#V" n="103"/>uirtutis, &amp; quicunque habitus elicit talem actum, ab ipso
+            ap<lb ed="#V" n="104" break="no"/>pellatur uirtus. Aliquis autem actus meritorius dici non
+            po<lb ed="#V" n="105" break="no"/>test nisi secundum quod est in potentia operantis
+            constitu<lb ed="#V" n="106" break="no"/>tus, quia qui meretur, oportet quod aliquid exhibaeat, nec
+            <lb ed="#V" n="107"/>exhibere potest nisi quod aliquo modo suum est idest ex
+            ip<lb ed="#V" n="108" break="no"/>so. Actus autem aliquis in potestate nostra consistit
+            secun<lb ed="#V" n="109" break="no"/>dum quod est uoluntatis, siue sit eius, ut ab ipsa elicitus, ut
+            <lb ed="#V" n="110"/>diligere &amp; uelle, siue ut ab ipsa imperatus, ut ambulare &amp;
+            <lb ed="#V" n="111"/>loqui. Vnde respectu cuiuslibet talis actus potest poni
+            ali<lb ed="#V" n="112" break="no"/>qua uirtus eliciens actus perfectiores in genere talium
+            a<lb ed="#V" n="113" break="no"/>ctuum. Credere autem non habet assensum nisi ex imperio
+            <lb ed="#V" n="114"/>uoluntatis, unde secundum id quod est a uoluntate
+            depen<lb ed="#V" n="115" break="no"/>det. Et inde est quod ipsum credere potest esse meritorium,
+            <lb ed="#V" n="116"/>&amp; fides quae est habitus eliciens ipsum est secundum
+            theolo<lb ed="#V" n="117" break="no"/>gum uirtus. Haec ille.
+          </p>
+          <p xml:id="capsco-c3hzk1-d1e1271">
+            Ex quibus apparet, quod licet
+            secun<lb ed="#V" n="118" break="no"/>dum philosophum actus non dicatur uirtuosus, nisi
+            inquan<lb ed="#V" n="119" break="no"/>tum est proportionatus humanis uiribus, &amp; ille actus
+            per<lb ed="#V" n="120" break="no"/>fectius actus uirtutis, qui est illo modo proportionatus, at
+            <lb ed="#V" n="121"/>tamen secundum theologum actus humanus potest
+            dici<lb ed="#V" n="122" break="no"/>uirtuosus, licet non sit illo modo proportionatus, puta
+            cor<lb ed="#V" n="123" break="no"/>stituens potentiam actiuam in ultimo, dum tamen sit
+            pro<lb ed="#V" n="124" break="no"/>portionatus ultimo fini supernaturali. Hoc autem habet
+            <lb ed="#V" n="125"/>actus fidei assistente charitate, &amp; non habet hoc non
+            assi<lb ed="#V" n="126" break="no"/>stente charitate. Et per consequens fides formata potius
+            <lb ed="#V" n="127"/>habet rationem uirtutis quam fides informis.
+          </p>
+          <p xml:id="capsco-c3hzk1-d1e1295">
+            Ad tertium
+            <lb ed="#V" n="128"/>dicitur, quod assumit quoddam manifeste falsum scilicet
+            <lb ed="#V" n="129"/>quod actus fidei nullam perfectionem a charitate recipiat
+            <lb ed="#V" n="130"/>Vnde Sanctus Thomas de ueritate quaestione
+            decimaquar<lb ed="#V" n="131" break="no"/>ta articulo secundo in solutione decima sic dicit. Actus
+            fi<lb ed="#V" n="132" break="no"/>dei essentialiter consistit in cognitione, &amp; ibi est eius
+            perfe<lb ed="#V" n="133" break="no"/>ctio quantum ad formam uel speciem, quam habet ex
+            ob<lb ed="#V" n="134" break="no"/>iecto. Sed quantum ad finem perficitur in affectione, quia
+            <lb ed="#V" n="135"/>ex charitate habet quod sit meritorius. Haec ille.
+          </p>
+          <p xml:id="capsco-c3hzk1-d1e1315">
+            Item
+            mi<lb ed="#V" n="136" break="no"/>rum est quomodo arguens dicit, fidem aequaliter habere
+            ra<lb ed="#V" n="137" break="no"/>tionem uirtutis absente charitate, sicut praesente, cum
+            Au<lb ed="#V" n="138" break="no"/>gustin, expresse dicat contra Iulianum, sine charitate nulla
+            <lb ed="#V" n="139"/>ueram esse uirtutem. Et de hoc Sanctus Thomas secunda
+            se<lb ed="#V" n="140" break="no"/>cundae quaestione uigesimatertia articulo septimo sic dicit
+            <lb ed="#V" n="141"/>Virtus ordinatur ad bonum. Bonum autem principaliter
+            <lb ed="#V" n="142"/>est finis, nam ea quae sunt ad finem dicuntur non bona,
+            ni<lb ed="#V" n="143" break="no"/>si in ordine ad finem, sicut autem est duplex finis unus
+            ul<lb ed="#V" n="144" break="no"/>timus &amp; alius proximus, ita etiam est duplex bonum,
+            <lb ed="#V" n="145"/>unum quidem ultimum &amp; principale, &amp; aliud
+            proxi<lb ed="#V" n="146" break="no"/>mum &amp; particulare. Vltimum quidem &amp; principale
+            bonu<lb ed="#V" n="147" break="no"/>hominis est Dei fruitio secundum illud Psalm. Mihi
+            <lb ed="#V" n="148"/>aut em ad haerere Deo bonum est, &amp; ad hoc ordinatur homo
+            <lb ed="#V" n="149"/>per charitatem. Bonum autem secundarium &amp; particulare
+            <lb ed="#V" n="150"/>hominis potest esse duplex. Vnum quidem quod est vere
+            <pb ed="#V" n="181"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>bonum, vtpote ordinabile quantum est in se ad
+            principale<lb ed="#V" n="2" break="no"/>bonum, quod est vltimus finis. Aliud autem est bonum
+            ap<lb ed="#V" n="3" break="no"/>parens &amp; non verum. quia abducit a finali bono. Sic igitur
+            <lb ed="#V" n="4"/>patet, quod vera virtus simpliciter est illa, quae ordinat ad
+            <lb ed="#V" n="5"/>principale bonum hominis, sicut etiam Philosophus dicit
+            <lb ed="#V" n="6"/>7. Physicor. quod virtus est dispositio perfecti ad optimum, &amp;
+            <lb ed="#V" n="7"/>sic nulla vera virtus potest esse sine charitate. Sed si
+            acci<lb ed="#V" n="8" break="no"/>piatur virtus secundum quod est in ordine ad aliquem finem
+            <lb ed="#V" n="9"/>particularem, sic potest dici aliqua vera virtus sine
+            charita<lb ed="#V" n="10" break="no"/>te, inquantum ordinatur ad aliquod particulare bonum,
+            <lb ed="#V" n="11"/>sed si illud particulare bonum non sit verum bonum, sed
+            <lb ed="#V" n="12"/>apparens, virtus etiam, quae est in ordine ad hoc bonum, non
+            <lb ed="#V" n="13"/>est vera virtus, sed falsa similitudo virtutis, sicut non est
+            ve<lb ed="#V" n="14" break="no"/>ra virtus auarorum prudentia, qua excogitant diuersa,
+            gene<lb ed="#V" n="15" break="no"/>ra loculorum, &amp; auarorum iustitia, qua grauium
+            damno<lb ed="#V" n="16" break="no"/>rum metu contemnunt aliena, &amp; auarorum temperantia,
+            <lb ed="#V" n="17"/>quae luxuriae, quae nimis sumptuosa est, cohibet appetitum,
+            <lb ed="#V" n="18"/>&amp; auarorum fortitudo, quae vt ait Horatius. Per mare
+            pau<lb ed="#V" n="19" break="no"/>periem fugiunt, per saxa, per ignes, vt dicit Augustinus quarto
+            <lb ed="#V" n="20"/>contra lulianum. Si vero aliquod bonum particulare sit
+            <lb ed="#V" n="21"/>verum bonum, puta conseruatio Reipublice, vel aliquid
+            hu<lb ed="#V" n="22" break="no"/>iusmodi, erit quidem vera virtus, sed imperfecta, nisi
+            refera<lb ed="#V" n="23" break="no"/>tur ad finem &amp; perfectum bonum, &amp; secundum hoc
+            simpli<lb ed="#V" n="24" break="no"/>citer vera virtus sine charitate esse no potest. Haec ille.
+          </p>
+          <p xml:id="capsco-c3hzk1-d1e1406">
+            Item
+            <lb ed="#V" n="25"/>prima secundae quaestio. 65. artic. 4. sic dicit. Fides &amp; spes,
+            si<lb ed="#V" n="26" break="no"/>cut &amp; virtutes morales dupliciter possunt considerari. Vno
+            <lb ed="#V" n="27"/>modo secundum quandam inchoationem. Alio modo
+            se<lb ed="#V" n="28" break="no"/>cundum perfectum esse virtutis, cum enim virtus
+            ordine<lb ed="#V" n="29" break="no"/>tur ad bonum opus agendum, virtus quidem perfecta
+            dicac<lb ed="#V" n="30" break="no"/>tur ex hoc, quod potest in opus perfecte bonum, quod quidem
+            <lb ed="#V" n="31"/>est, dum non solum bonum est quod fit, sed etiam bene fit.
+            <lb ed="#V" n="32"/>Alioquin si bonum sit quod fit, non autem bene fiat, non erit
+            <lb ed="#V" n="33"/>perfecte bonum. Vnde nec habitus, qui est talis actus
+            prin<lb ed="#V" n="34" break="no"/>cipium, habebit perfecte rationem virtutis. Sicut si aliquis
+            <lb ed="#V" n="35"/>operetur iusta, bonum quidem facit, sed non erit opus
+            per<lb ed="#V" n="36" break="no"/>fectum virtutis, nisi hoc bene faciat, id est secundum rectam
+            <lb ed="#V" n="37"/>electionem, quod est per prudentiam, &amp; ideo iustitia sine
+            <lb ed="#V" n="38"/>prudentia non potest esse virtus perfecta. Sic igitur fides &amp;
+            <lb ed="#V" n="39"/>spes sine charitate possunt quidem esse aliqualiter, perfecte
+            <lb ed="#V" n="40"/>autem virtutis rationem sine charitate non habent. Cum
+            <lb ed="#V" n="41"/>enim fidei opus sit credere Deo, credere autem sit aliquem
+            <lb ed="#V" n="42"/>propria voluntate alicui assentire, si non debito modo
+            ve<lb ed="#V" n="43" break="no"/>lit, non erit perfectum opus fidei. Quia autem debito
+            mo<lb ed="#V" n="44" break="no"/>do velit, habet per charitatem, quae perficit voluntatem.
+            Om<lb ed="#V" n="45" break="no"/>nis enim rectus motus voluntatis ex recto amore procedit,
+            <lb ed="#V" n="46"/>vt dicit Augustnus 14. de ciuitate Dei. Sic igitur fides est sine
+            <lb ed="#V" n="47"/>charitate quidem, sed non perfecta virtus, sicut
+            temperan<lb ed="#V" n="48" break="no"/>tia, vel fortitudo, siue prudentia. Et similiter dicendum de
+            <lb ed="#V" n="49"/>spe: nam actus spei est expectare futuram beatitudinem a
+            <lb ed="#V" n="50"/>Deo, qui quidem actus perfectus est, si fiat ex meritis, quae
+            <lb ed="#V" n="51"/>quis habet, quod non potest esse sine charitate. Si autem
+            <lb ed="#V" n="52"/>aliquis expectet ex meritis, quae nondum habet, sed
+            propo<lb ed="#V" n="53" break="no"/>nit in futurum acquirere, erit actus imperfectus, &amp; hoc
+            po<lb ed="#V" n="54" break="no"/>test esse sine charitate, &amp; ideo fides &amp; spes possunt esse sine
+            <lb ed="#V" n="55"/>charitate. Sed sine charitate proprie loquendo virtutes
+            es<lb ed="#V" n="56" break="no"/>se non possunt. Nam ad rationem virtutis pertinet, vt non
+            <lb ed="#V" n="57"/>solum secundum ipsam aliquod bonum operetur, sed etiam
+            <lb ed="#V" n="58"/>bene, vt dicitur 2. Ethic. Haec ille.
+          </p>
+          <p xml:id="capsco-c3hzk1-d1e1483">
+            Ex quibus apparet, quod
+            <lb ed="#V" n="59"/>actus fidei aliquam, &amp; maximam perfectionem recipit ex
+            <lb ed="#V" n="60"/>praesentia charitatis potissime, dum non solum fit cum
+            cha<lb ed="#V" n="61" break="no"/>ritate, sed ex charitate, scilicet quia ordinatur ad vltimum
+            <lb ed="#V" n="62"/>finem, &amp; ad conspiciendam primam veritatem secundum
+            <lb ed="#V" n="63"/>quod in se est. Vnde secundum omnes catholicos
+            Docto<lb ed="#V" n="64" break="no"/>res, fides sine charitate dicitur informis, &amp; praesente
+            chari<lb ed="#V" n="65" break="no"/>tate dicitur formata, quia scilicet actus fidei per charitatem
+            <lb ed="#V" n="66"/>ordinatur ad primam veritatem, sicut ad vltimum finem, &amp;
+            <lb ed="#V" n="67"/>ille ordo se habet ad actum fidei sicut forma. Et similiter
+            <lb ed="#V" n="68"/>finis actus est forma eius, non quidem intrinseca, sed
+            extrin<lb ed="#V" n="69" break="no"/>seca. De hoc Sanctus Thomas secunda secundae quaestio. 4. artic. 3.
+            <lb ed="#V" n="70"/>&amp; q. 23. artic. 8. &amp; 3. sent. dist. 23. quaestio. 3. artic. 1. &amp; in
+            mul<lb ed="#V" n="71" break="no"/>tis alijs locis. Conceditur tamen, quod fides non magis est
+            vir<lb ed="#V" n="72" break="no"/>tus intellectualis praesente charitate quam absente, quia nec
+            <lb ed="#V" n="73"/>isto modo, nec illo est virtus intellectualis, vt supra dictum
+            <lb ed="#V" n="74"/>est. Non enim omnis virtus, quae est in intellectu
+            subiecti<lb ed="#V" n="75" break="no"/>ue, potest dici virtus intellectualis, nec omnis virtus, quae
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="76"/>est in voluntate potest dici moralis.
+          </p>
+          <p xml:id="capsco-c3hzk1-d1e1527">
+            Ad argumenta contra
+            <lb ed="#V" n="77"/>secundam conclusionem inducta nunc dicendum est. Et
+            <lb ed="#V" n="78"/>quidem ad primum, quod est Scoti, negatur antecedens
+            <lb ed="#V" n="79"/>pro prima sui parte. Et ad eius probationem dicitur, quod
+            li<lb ed="#V" n="80" break="no"/>cet Paulus, vel alius Apostolus auditor Christi posset ex
+            pu<lb ed="#V" n="81" break="no"/>ris naturalibus, hoc est sine habitu supernaturaliter infuso
+            <lb ed="#V" n="82"/>assentire dictis Christi, vel diuinae reuelationi, non tamen
+            <lb ed="#V" n="83"/>perfecto &amp; discreto assensu, &amp; consimili assensui fidei
+            in<lb ed="#V" n="84" break="no"/>fusae. Et de hoc Sanctus Thomas 3. sent. distin. 23. quaestio. 3. artic. 2.
+            <lb ed="#V" n="85"/>sic dicit. Habitus ad hoc sunt necessarii, vt potentiae quae
+            <lb ed="#V" n="86"/>per naturam non sunt determinatae ad actum perfectum,
+            <lb ed="#V" n="87"/>determinentur per habitum. Contingit autem quandoque
+            <lb ed="#V" n="88"/>quod inferior potentia non est determinata ad illum actum
+            per<lb ed="#V" n="89" break="no"/>fectum, sed superior potentia determinatur ad ipsum, sicut
+            <lb ed="#V" n="90"/>concupiscibilis non est determinata ad tenendum medium
+            <lb ed="#V" n="91"/>in delectationibus ex natura propria, sed ratio
+            determina<lb ed="#V" n="92" break="no"/>tur per naturam suam ad illud, &amp; ideo habitus
+            temperan<lb ed="#V" n="93" break="no"/>tiae acquiritur in concupiscibili ex vi superioris potentiae.
+            <lb ed="#V" n="94"/>Nulla autem potentia secundum suam naturam
+            determi<lb ed="#V" n="95" break="no"/>natur ad illa, quae sunt supra naturam rationis humanae,
+            <lb ed="#V" n="96"/>quorum es fides. Et ideo ad hunc actum indigemus
+            habi<lb ed="#V" n="97" break="no"/>tu, qui non est acquisitus, qui quidem in duobus nos
+            adiu<lb ed="#V" n="98" break="no"/>uat, in hoc scilicet quod intellectum facit facilem ad credendum
+            <lb ed="#V" n="99"/>contra duritiam, &amp; discretum ad refugiendum non
+            creden<lb ed="#V" n="100" break="no"/>da contra errorem. Haec ille.
+          </p>
+          <p xml:id="capsco-c3hzk1-d1e1582">
+            Item artic. 3. quaestiuncula
+            se<lb ed="#V" n="101" break="no"/>cunda sic dicit. Habitus fidei infusus in duobus nos
+            adiu<lb ed="#V" n="102" break="no"/>uat, scilicet vt credamus quae credenda sunt, &amp; vt eis quae
+            <lb ed="#V" n="103"/>non sunt credenda nullo modo assentiamus. Primum
+            au<lb ed="#V" n="104" break="no"/>tem potest homo ex ipsa aestimatione sine habitu infuso,
+            <lb ed="#V" n="105"/>sed secundum, scilicet vt discrete in hoc &amp; in illa inclinetur,
+            <lb ed="#V" n="106"/>habet ex habitu infuso tantum, quae quidem discretio est
+            <lb ed="#V" n="107"/>secundum quam non credimus omni spiritui. Quae quia in
+            <lb ed="#V" n="108"/>haeretico non est, constat quod habitus fidei in ipso non
+            ma<lb ed="#V" n="109" break="no"/>net: Et si aliqua credenda credat, hoc est ex ratione
+            huma<lb ed="#V" n="110" break="no"/>na. Si enim habitu fidei ad haec credenda inclinaretur
+            con<lb ed="#V" n="111" break="no"/>traria fidei refutaret. Sicut omnis habitus renititur eis, quae
+            <lb ed="#V" n="112"/>sunt contra illum habitum. Haec ille.
+          </p>
+          <p xml:id="capsco-c3hzk1-d1e1611">
+            Item sexto quolibet
+            <lb ed="#V" n="113"/>quaestio. 4. artic. 1. sic dicit. Si aliquis id quod est commune
+            <lb ed="#V" n="114"/>multis accipiat vt proprium vni, necesse est quod
+            decipia<lb ed="#V" n="115" break="no"/>tur. Certitudo autem adhaesionis non est propria virtutis
+            <lb ed="#V" n="116"/>fidei. Primo quidem quia competit virtutibus
+            intellectua<lb ed="#V" n="117" break="no"/>libus, puta sapientiae, scientiae, intellectui. Secundo. Quia
+            <lb ed="#V" n="118"/>competit non solum fidei vere, sed etiam fidei falsae. Sicut
+            <lb ed="#V" n="119"/>enim est opinio vera vel falsa, ita &amp; fides, nec minus firmiter
+            <lb ed="#V" n="120"/>inhaeret aliquis salsitati quam veritati, vt dicit Philosophus
+            <lb ed="#V" n="121"/>7. Ethicor. Tertio. Quia certitudo inhaesionis non semper
+            <lb ed="#V" n="122"/>prouenit ex aliquo habitu, sed ex proprio arbitrio potest
+            <lb ed="#V" n="123"/>aliquis assensum suum firmare ad aliquod verum vel falsum
+            <lb ed="#V" n="124"/>antequam habeat habitum. Quarto. Quia certitudo
+            in<lb ed="#V" n="125" break="no"/>haesionis non solum competit fidei formatae, quae est virtus,
+            <lb ed="#V" n="126"/>sed etiam fidei informi, quae non est virtus.
+          </p>
+          <p xml:id="capsco-c3hzk1-d1e1644">
+            Dicendum ergo
+            <lb ed="#V" n="127"/>quod in haeretico certitudo adhaesionis est actus falsae fidei.
+            <lb ed="#V" n="128"/>In malo etiam catholico est actus fidei informis, &amp; sicin
+            neu<lb ed="#V" n="129" break="no"/>tro est actus virtutis fidei. Haec ille. Ex quibus apparet, quod
+            <lb ed="#V" n="130"/>licet sine habitu infuso virtutis fidei discipulus, vel
+            aposto<lb ed="#V" n="131" break="no"/>lus posset assentire dictis Christi, adhuc indigeret habitu
+            <lb ed="#V" n="132"/>infuso, non quidem ad simpliciter assentiendum, sed ad
+            di<lb ed="#V" n="133" break="no"/>screte assentiendum, &amp; ad alias conditiones, quas habet actus
+            <lb ed="#V" n="134"/>ex habitu.
+          </p>
+          <p xml:id="capsco-c3hzk1-d1e1664">
+            Ad secundum patet per praedicta, quia non plus
+            <lb ed="#V" n="135"/>concludit quam primum. Ad tertium negatur minor. Et
+            <lb ed="#V" n="136"/>ad probationem dicitur, quod huic articulo, Deus est
+            tri<lb ed="#V" n="137" break="no"/>nus &amp; vnus assentio, quia Deus hoc reuelauit, &amp; non ex hoc
+            <lb ed="#V" n="138"/>quod Io. vel alius homo dicit, hoc esse sibi reuelatum, &amp; hoc
+            lo<lb ed="#V" n="139" break="no"/>quendo de assensu causato ab habitu fidei. Nec est
+            imagi<lb ed="#V" n="140" break="no"/>nandum sicut arguens imaginatur, quod sint ibi duo, vel tres
+            <lb ed="#V" n="141"/>assensus necessarsj, scilicet vnus quo assentio isti, Deus est
+            <lb ed="#V" n="142"/>trinus &amp; vnus, &amp; alius quo assentio isti, Deus hoc
+            reuela<lb ed="#V" n="143" break="no"/>uit, &amp; alius quo assentio isti, Io. dicit quod sibi reuelatum
+            <lb ed="#V" n="144"/>est &amp;c. Immo vnico actu assentio quod Deus est trinus &amp;
+            <lb ed="#V" n="145"/>vnus, &amp; quod Deus hoc reuelauit, sicut idem actus est, quo
+            <lb ed="#V" n="146"/>credo Deo, &amp; credo Deum, &amp; credo in Deum. Vnde
+            San<lb ed="#V" n="147" break="no"/>ctus Thomas 3. sent. dist. 23. quaestio. 2. artic. 2. quaestiuncula
+            se<lb ed="#V" n="148" break="no"/>cunda sic dicit. Actus credentis ex tribus dependet,
+            scili<lb ed="#V" n="149" break="no"/>cet ex intellectu, qui terminatur ad vnum, ex voluntate, quae
+            <lb ed="#V" n="150"/>terminat intellectum per suum imperium, &amp; ex ratione,
+            <pb ed="#V" n="182"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>quae inclinat voluntatem. Et secundum hoc assignantur
+            <lb ed="#V" n="2"/>tres actus fidei. Ex hoc enim quod intellectus terminatur
+            <lb ed="#V" n="3"/>ad vnum, actus fidei est credere Deum, quia obiectum fidei
+            <lb ed="#V" n="4"/>est Deus secundum quod in se consideratur, vel aliquid
+            cir<lb ed="#V" n="5" break="no"/>ca ipsum vel ab ipso. Ex hoc vero quod intellectus
+            determina<lb ed="#V" n="6" break="no"/>tur a voluntate, secundum hoc actus fidei est credere in
+            <lb ed="#V" n="7"/>Deum, id est amando in eum tendere, est enim voluntatis
+            <lb ed="#V" n="8"/>amare. Secundum autem quod ratio voluntatem inclinat,
+            <lb ed="#V" n="9"/>actus fidei est credere Deo. Ratio enim qua voluntas
+            incli<lb ed="#V" n="10" break="no"/>natur ad assentiendum his quae non videt est quia Deus ea
+            <lb ed="#V" n="11"/>dicit. Sicut homo in his, quae non videt credit testimonio
+            <lb ed="#V" n="12"/>alicuius boni viri, qui videt quae ipse non videt. Et per
+            om<lb ed="#V" n="13" break="no"/>nia praedicta non nominatur nisi vnus actus completus
+            fi<lb ed="#V" n="14" break="no"/>dei, sed ex diuersis, quae in fide inueniuntur diuersimode
+            no<lb ed="#V" n="15" break="no"/>minantur, illo enim actu quo credit Deum credit Deo, &amp;
+            <lb ed="#V" n="16"/>credit in Deum. Haec ille.
+          </p>
+          <p xml:id="capsco-c3hzk1-d1e1741">
+            Item secunda secundae quaestio. 2.
+            <lb ed="#V" n="17"/>artic. 2. sic dicit. Actus cuiuslibet potentiae vel habitus
+            ac<lb ed="#V" n="18" break="no"/>cipitur secundum ordinem potentiae vel habitus ad suum
+            <lb ed="#V" n="19"/>obiectum. Obiectum autem fidei tripliciter potest
+            consi<lb ed="#V" n="20" break="no"/>derari. Cum enim credere ad intellectum pertineat, prout
+            <lb ed="#V" n="21"/>est a voluntate motus ad sentiendum, potest obiectum fidei
+            <lb ed="#V" n="22"/>accipi vel ex parte intellectus, vel ex parte voluntatis
+            intel<lb ed="#V" n="23" break="no"/>lectum mouentis. Si quidem ex parte intellectus, sic in
+            obie<lb ed="#V" n="24" break="no"/>cto fidei duo possunt considerari, quorum vnum est
+            mate<lb ed="#V" n="25" break="no"/>riale obiectum fidei, &amp; sic actus fidei ponitur credere Deum,
+            <lb ed="#V" n="26"/>quia nihil proponitur nobis ad credendum nisi secundum
+            <lb ed="#V" n="27"/>quod ad Deum pertinet. Aliud est ratio formalis obiecti, quod
+            <lb ed="#V" n="28"/>est sicut medium, propter quod tali credibili assentitur, &amp;
+            <lb ed="#V" n="29"/>sic ponitur actus fidei credere Deo, quia formale obiectum
+            <lb ed="#V" n="30"/>fidei est veritas prima, cui inhaeret homo, vt propter eam
+            <lb ed="#V" n="31"/>creditis assentiat. Si vero consideret obiectum fidei tertio
+            <lb ed="#V" n="32"/>modo secundum quod intellectus est motus a voluntate, sic
+            <lb ed="#V" n="33"/>ponitur actus fidei credere in Deum. Veritas enim prima
+            <lb ed="#V" n="34"/>refertur ad voluntatem secundum quod habet rationem finis,
+            <lb ed="#V" n="35"/>&amp; per ista tria non designantur diuersi actus fidei, sed vnus
+            <lb ed="#V" n="36"/>&amp; idem actus habens diuersam relationem ad obiectum
+            fi<lb ed="#V" n="37" break="no"/>dei. Haec ille.
+          </p>
+          <p xml:id="capsco-c3hzk1-d1e1789">
+            Ex quibus habetur quomodo eodem actu
+            <lb ed="#V" n="38"/>fidei intellectus inhaeret primae veritati propter se, &amp;
+            articu<lb ed="#V" n="39" break="no"/>lo fidei propter Deum assentit. Nec oportet necessario
+            for<lb ed="#V" n="40" break="no"/>mare duas propositiones, quarum vna dicat, Deus est
+            tri<lb ed="#V" n="41" break="no"/>nus, &amp; alia dicat, Deus reuelauit, quod Deus est trinus &amp; vnus.
+            <lb ed="#V" n="42"/>Dicitur secundo, quod dato quod formentur istae tres
+            proposi<lb ed="#V" n="43" break="no"/>tiones prima, Deus est trinus &amp; vnus, secunda, Deus
+            reue<lb ed="#V" n="44" break="no"/>lauit quod Deus est &amp;c. tertia, Ioan. praedicat quod Deus
+            re<lb ed="#V" n="45" break="no"/>uelauit sibi Deum esse trinum &amp; vnum, in illo casu dico quod
+            <lb ed="#V" n="46"/>assensus primae non dependet effectiue principaliter ex
+            as<lb ed="#V" n="47" break="no"/>sensu tertiae, sed praecise ex habitu fidei, &amp; intellectu, &amp;
+            vo<lb ed="#V" n="48" break="no"/>luntate, licet illa tria propter aliud requirantur, sicut &amp;
+            per<lb ed="#V" n="49" break="no"/>suasio praedicantis &amp; auditus illius. De hoc Sanctus Thomas tertio
+            <lb ed="#V" n="50"/>sent. dist. 23. quaestio. 3. artic. 2. vbi arguit sic. Primo loco,
+            Au<lb ed="#V" n="51" break="no"/>gustin. dicit quod per scientiam fides acquiritur, nutritur, &amp;
+            <lb ed="#V" n="52"/>defenditur, sed nullus habitus acquisitus per aliquam
+            scien<lb ed="#V" n="53" break="no"/>tiam est habitus infusus: igitur &amp; caet. Ecce argumentum.
+            <lb ed="#V" n="54"/>Sequitur responsio. Habitus (inquit) infusus similis est
+            ha<lb ed="#V" n="55" break="no"/>bitui innato, quia sicut naturalis habitus datur in
+            creatio<lb ed="#V" n="56" break="no"/>ne, ita infusus in reparatione. Naturalis autem habitus
+            si<lb ed="#V" n="57" break="no"/>cut intellectus principiorum indiget, vt cognitio
+            determi<lb ed="#V" n="58" break="no"/>netur per sensum, quo acquisitus non indiget, quia dum
+            <lb ed="#V" n="59"/>acquiritur per actum, determinationem recipit. Et
+            simili<lb ed="#V" n="60" break="no"/>ter oportet, quod fidei habitus determinationem recipiat ex
+            <lb ed="#V" n="61"/>parte nostra. Et quantum ad istam determinationem
+            dici<lb ed="#V" n="62" break="no"/>tur fidem acquiri per scientiam theologiae, quae articulos
+            di<lb ed="#V" n="63" break="no"/>stinguit, sicut habitus principiorum dicitur acquiri per
+            sen<lb ed="#V" n="64" break="no"/>sum quantum ad distinctionem principiorum, non tamen
+            <lb ed="#V" n="65"/>quantum ad lumen, quo principia cognoscuntur. Haec
+            il<lb ed="#V" n="66" break="no"/>le.
+          </p>
+          <p xml:id="capsco-c3hzk1-d1e1854">
+            Item in solutione secundi sic dicit. In fide quatuor
+            con<lb ed="#V" n="67" break="no"/>siderantur, scilicet. Ipsum quod credendum est. Ratio
+            vo<lb ed="#V" n="68" break="no"/>luntatem determinans ad credendum. Voluntas intellectui
+            <lb ed="#V" n="69"/>imperans. Intellectus exequens. Et secundum hoc fides
+            <lb ed="#V" n="70"/>quantum ad eius determinationem, &amp; quantum ad eius
+            <lb ed="#V" n="71"/>actum, qui ex nobis est, quamuis habitus sit infusus, dicitur
+            <lb ed="#V" n="72"/>esse ex quatuor, quae in nobis sunt, quia quantum ad ipsum
+            <lb ed="#V" n="73"/>credendum dicitur esse ex auditu, quia determinatio
+            creden<lb ed="#V" n="74" break="no"/>dorum fit in nobis vel per loqutionem interiorem, qua Deus
+            <lb ed="#V" n="75"/>in nobis loquitur, vel per vocem exteriorem. Quantum
+            ve<cb ed="#V" n="b"/><lb ed="#V" n="76" break="no"/>ro ad rationem, quae inducit voluntatem ad credendum,
+            di<lb ed="#V" n="77" break="no"/>citur esse ex visione alicuius, quod offendit Deum esse, qui
+            <lb ed="#V" n="78"/>loquitur in eo, qui fidem annunciat. Quantum vero ad
+            im<lb ed="#V" n="79" break="no"/>perium voluntatis dicitur esse fides ex voluntate. Quantum
+            <lb ed="#V" n="80"/>autem ad executionem intellectus dicitur esse actus fidei es
+            <lb ed="#V" n="81"/>intellectu. Haec ille.
+          </p>
+          <p xml:id="capsco-c3hzk1-d1e1890">
+            Ex quibus patet, quod actus fidei, quo
+            <lb ed="#V" n="82"/>est assensus, dependet quantum ad executionem ab habitu
+            <lb ed="#V" n="83"/>fidei &amp; ab intellectu tanquam a causa proxima. Persuasio
+            <lb ed="#V" n="84"/>vero vel praedicatio exterior requiritur ad determinationem
+            <lb ed="#V" n="85"/>credendorum, &amp; ad proponendum intellectui suum
+            obie<lb ed="#V" n="86" break="no"/>ctum materiale, puta aliquod complexum, non autem ad
+            cau<lb ed="#V" n="87" break="no"/>sandum assensum.
+          </p>
+          <p xml:id="capsco-c3hzk1-d1e1906">
+            Item secunda secundae quaestio. 6. art. 1.
+            <lb ed="#V" n="88"/>in solutione primi sic dicit. Per scientiam gignitur fides, &amp;
+            <lb ed="#V" n="89"/>nutritur per modum exterioris persuasionis, quae sit ab
+            ali<lb ed="#V" n="90" break="no"/>qua scientia, sed principalis &amp; propria causa fidei est illud,
+            <lb ed="#V" n="91"/>quod interius mouet ad assentiendum.
+          </p>
+          <p xml:id="capsco-c3hzk1-d1e1917">
+            Item in solutione
+            <lb ed="#V" n="92"/>tertij sic dicit. Credere quidem in voluntate credentium
+            <lb ed="#V" n="93"/>consistit, sed oportet quod voluntas hominis praeparetur
+            <lb ed="#V" n="94"/>a Deo per gratiam, ad hoc quod eleuetur in ea, quae sunt supra
+            <lb ed="#V" n="95"/>naturam. Haec ille.
+          </p>
+          <p xml:id="capsco-c3hzk1-d1e1929">
+            Ex quibus apparet, quod fides infusa nec
+            <lb ed="#V" n="96"/>quo ad habitum, nec quo ad actum suum principalem, qui
+            <lb ed="#V" n="97"/>est assentire credibilibus, dependet effectiue a fide
+            acquisi<lb ed="#V" n="98" break="no"/>ta. Nec certitudo eius dependet a certitudine fidei
+            acqui<lb ed="#V" n="99" break="no"/>sitae, sicut certitudo conclusionis a certitudine principij, &amp;
+            <lb ed="#V" n="100"/>per consequens tota imaginatio arguentis vana est.
+            Dici<lb ed="#V" n="101" break="no"/>tur tertio, quod concessa vltimata sua conclusione, scilicet
+            <lb ed="#V" n="102"/>quod homo ex puris naturalibus assentiret tribus
+            propositio<lb ed="#V" n="103" break="no"/>nibus supradictis, ex hoc nihil habetur contra conclusionem,
+            <lb ed="#V" n="104"/>quia adhuc habitus fidei infusus est necessarius ad
+            sentien<lb ed="#V" n="105" break="no"/>dum discrete, prompte, firmiter, delectabiliter, vt prius
+            ta<lb ed="#V" n="106" break="no"/>ctum est.
+          </p>
+          <p xml:id="capsco-c3hzk1-d1e1955">
+            Ad primum Aureoli dicitur, quod non aliud
+            conclu<lb ed="#V" n="107" break="no"/>dit, nisi quod aliquis sine habitu infuso potest assentire
+            virtuti<lb ed="#V" n="108" break="no"/>bus super naturalibus, quod concedimus. Non autem quod
+            <lb ed="#V" n="109"/>sine tali habitu possit assentire discrete &amp;c. modo saepe
+            di<lb ed="#V" n="110" break="no"/>cto, ideo haereticus &amp; puer non baptizatus inter fideles
+            nu<lb ed="#V" n="111" break="no"/>tritus possunt habere assensum credendorum sine habitu
+            <lb ed="#V" n="112"/>infuso, non tamen discretum, promptum, facilem, firmum.
+          </p>
+          <p xml:id="capsco-c3hzk1-d1e1971">
+            <lb ed="#V" n="113"/>Ad secundum quod est eiusdem patet per praedicta, vnmem nec
+            <lb ed="#V" n="114"/>praedicanti nec audienti sufficit ad perfecte &amp; secure
+            creden<lb ed="#V" n="115" break="no"/>dum fides acquisita sine infusa.
+          </p>
+          <p xml:id="capsco-c3hzk1-d1e1980">
+            Ad primum Durandi
+            con<lb ed="#V" n="116" break="no"/>tra tertiam conclusionem dicitur, quod non est simile de
+            habi<lb ed="#V" n="117" break="no"/>tu acquisito &amp; de infuso. Primus enim non perditur nec
+            per<lb ed="#V" n="118" break="no"/>cessationem ab actu proprio mox, nec confestim ex actu
+            con<lb ed="#V" n="119" break="no"/>trario, secus est de habitu infuso. Et de hoc Sanctus Thomas
+            secun<lb ed="#V" n="120" break="no"/>da secundae quaestio. 24. artic. 12. vbi quaerit. Vtrum charitas
+            <lb ed="#V" n="121"/>amittatur per vnum actum peccati mortalis sic dicit.
+            Vnum<lb ed="#V" n="122" break="no"/>quodque per aliud contrarium superueniens tollitur.
+            Qui<lb ed="#V" n="123" break="no"/>libet autem actus peccati mortalis contrariatur
+            charitati<lb ed="#V" n="124" break="no"/>secundum propriam rationem, quae consistit in hoc quod
+            <lb ed="#V" n="125"/>Deus diligatur super omma, &amp; quod homo totaliter, scilicet
+            <lb ed="#V" n="126"/>illi subijciatur, omnia sua referendo in ipsum. Est igitur de
+            <lb ed="#V" n="127"/>ratione charitatis vt sic diligat Deum quod in omnibus velit
+            <lb ed="#V" n="128"/>se ei subijcere, &amp; praeceptorum eius regulam sequi. Et ideo
+            <lb ed="#V" n="129"/>quicquid contrariatur praeceptis eius, manifeste
+            contraria<lb ed="#V" n="130" break="no"/>tur charitati, vnde de se habet quod charitatem excludere
+            pos<lb ed="#V" n="131" break="no"/>sit. Et si quidem charitas esset habitus acquisitus ex
+            virtu<lb ed="#V" n="132" break="no"/>te subiecti dependens, non oporteret quod statim per vnum
+            <lb ed="#V" n="133"/>actum contrarium tolleretur. Actus enim non directe
+            contra<lb ed="#V" n="134" break="no"/>riatur habitui, sed actui. Conseruatio autem habitus in
+            su<lb ed="#V" n="135" break="no"/>biecto non requirit continuitatem actus. Vnde ex superne
+            <lb ed="#V" n="136"/>niente contrario actu non statim habitus acquisitus
+            exclu<lb ed="#V" n="137" break="no"/>ditur, sed charitas cum sit habitus infusus dependet ex
+            actio<lb ed="#V" n="138" break="no"/>ne Dei infundentis, qui sic se habet in infusione &amp;
+            conserua<lb ed="#V" n="139" break="no"/>tione charitatis sicut sol in lumine aeris. Et ideo sicut
+            lu<lb ed="#V" n="140" break="no"/>men statim cessaret esse in aere per hoc, quod aliquod
+            obstacu<lb ed="#V" n="141" break="no"/>lum poneretur illuminationi solis, ita etiam charitas deficit
+            <lb ed="#V" n="142"/>statim esse in anima, per hoc quod aliquod obstaculum ponitur
+            <lb ed="#V" n="143"/>influentiae charitatis a Deo in animam. Manifestum est
+            au<lb ed="#V" n="144" break="no"/>tem, quod per quodlibet peccatum mortale, quod diuinis
+            prae<lb ed="#V" n="145" break="no"/>ceptis contrariatur, ponitur praedictae infusioni obstaculum,
+            <lb ed="#V" n="146"/>quia ex hoc ipso quod homo eligendo praefert peccatum
+            diui<lb ed="#V" n="147" break="no"/>nae amicitiae, quae requirit vt Dei voluntatem in omnibus
+            se<lb ed="#V" n="148" break="no"/>quamur, consequens est vt statim per vnum actum
+            peccati<lb ed="#V" n="149" break="no"/>mortalis habitus charitatis perdatur. Haec ille.
+          </p>
+          <p xml:id="capsco-c3hzk1-d1e2056">
+            Et sicut
+            di<lb ed="#V" n="150" break="no"/>cit de habitu charitatis, quod tollitur per quemlibet actum
+            <pb ed="#V" n="183"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>peccati sibi contrarium, quia ponit obstaculum diuinae
+            in<lb ed="#V" n="2" break="no"/>fusioni, ita dicendum est de actu peccati contrario fidei. &amp;
+            <lb ed="#V" n="3"/>spei, ideo habitus fidei tollitur per quemlibet actum
+            pecca<lb ed="#V" n="4" break="no"/>ti mortalis sibi contrarium, cuiusmodi est infidelitas, &amp;
+            simi<lb ed="#V" n="5" break="no"/>liter habitus spei statim tollitur per actum peccati mortalis
+            <lb ed="#V" n="6"/>sibi contrarium cuiusmodi est desperatio, non autem per
+            <lb ed="#V" n="7"/>alia peccata non contraria fidei, aut spei, sicut ipse dicit
+            eo<lb ed="#V" n="8" break="no"/>dem articulo in solutione quarti.
+          </p>
+          <p xml:id="capsco-c3hzk1-d1e2082">
+            Item de virtutibus q. 2.
+            <lb ed="#V" n="9"/>artic. 6. sic dicit. Ea quae ex diuina infusione causantur non
+            <lb ed="#V" n="10"/>solum indigent diuina actione in sui principio, vt esse
+            inci<lb ed="#V" n="11" break="no"/>piant, sed in tota sua duratione, vt conseruetur in esse, sicut
+            <lb ed="#V" n="12"/>illuminatio aeris indiget praesentia solis, non solum cum
+            <lb ed="#V" n="13"/>primo illuminatur aer, sed quandiu illuminatus manet. Et
+            <lb ed="#V" n="14"/>propter hoc si aliquod obstaculum interponatur
+            interci<lb ed="#V" n="15" break="no"/>piens directum aspectum ad solem desinit esse lumen in
+            ae<lb ed="#V" n="16" break="no"/>re. Similiter quando peccatum mortale aduenit, quod
+            im<lb ed="#V" n="17" break="no"/>pedit directum aspectum animae ad Deum, intercipitur
+            in<lb ed="#V" n="18" break="no"/>fluxus Dei &amp;c. Haec ille. Et in multis alijs locis idem
+            po<lb ed="#V" n="19" break="no"/>nit. Ex quibus patet, quod similitudo argumenti de
+            habi<lb ed="#V" n="20" break="no"/>tibus acquisitis &amp; infusis non valet.
+          </p>
+          <p xml:id="capsco-c3hzk1-d1e2112">
+            Ad secundum dicitur,
+            <lb ed="#V" n="21"/>quod si minor intelligitur de errante cum pertinacia, puta do
+            <lb ed="#V" n="22"/>haeretico falsa est. Si autem intelligatur de non haeretico,
+            <lb ed="#V" n="23"/>conceditur totum argumentum, sed non est contra
+            conclu<lb ed="#V" n="24" break="no"/>sionem. Vnde Sanctus Thomas facit simile argumentum sexto
+            quo<lb ed="#V" n="25" break="no"/>libet quaestio. 4. artic. 1. Omne quod agit ad similitudinem
+            <lb ed="#V" n="26"/>alicuius, videtur agere in virtute illius, sed haereticus per
+            cer<lb ed="#V" n="27" break="no"/>titudinem adhaerens his, quae credit, agit ad similitudinem
+            <lb ed="#V" n="28"/>fidei, quia intantum certitudinaliter inhaeret, inquantum
+            <lb ed="#V" n="29"/>existimat se rectam fidem habere: ergo operatur in virtute
+            <lb ed="#V" n="30"/>fidei. Ecce argumentum. Sequitur responsio. Dicendum
+            <lb ed="#V" n="31"/>(inquit) quod aliquid potest agere secundum similitudinem
+            <lb ed="#V" n="32"/>alicuius dupliciter. Vno modo secundum similitudinem
+            <lb ed="#V" n="33"/>veram, &amp; sic vere agit aliqualiter in virtute illius. Alio
+            mo<lb ed="#V" n="34" break="no"/>do secundum similitudinem apparentem, &amp; sic agit in
+            ap<lb ed="#V" n="35" break="no"/>parentia virtutis illius, &amp; ita est in proposito. Vnde in
+            hae<lb ed="#V" n="36" break="no"/>retico certitudo adhaesionis est actus fidei apparentis, non
+            <lb ed="#V" n="37"/>autem fidei verae. Haec ille. In quo autem sit similitudo
+            ad<lb ed="#V" n="38" break="no"/>haesionis catholici &amp; haeretici quantum ad articulum,
+            cui<lb ed="#V" n="39" break="no"/>communiter assentiunt, ostendit Sanctus Thomas secunda secundae
+            <lb ed="#V" n="40"/>quaestio. 5. artic. 3. in solutione primi, vbi sic dicit. Alios
+            ar<lb ed="#V" n="41" break="no"/>ticulos fidei, de quibus haereticus non errat, non tenet eo
+            <lb ed="#V" n="42"/>modo, sicut tenet eos fidelis, scilicet simpliciter inhaerendo
+            <lb ed="#V" n="43"/>primae veritati, ad quod indiget homo adiuuari per
+            habi<lb ed="#V" n="44" break="no"/>tum fidei, sed tenet ea, quae sunt fidei propria voluntate &amp;
+            <lb ed="#V" n="45"/>iudicio. Haec ille. Ex quibus patet, quod ille qui primo fuit
+            fi<lb ed="#V" n="46" break="no"/>delis, &amp; postea lapsus est in haeresim, non credit
+            quemcun<lb ed="#V" n="47" break="no"/>que articulum fidei illo modo quo prius, nec per idem
+            me<lb ed="#V" n="48" break="no"/>dium, sed per aliud.
+          </p>
+          <p xml:id="capsco-c3hzk1-d1e2175">
+            Ad tertium patet modo per dicta ad
+            <lb ed="#V" n="49"/>primum, quia scilicet non est simile de habitu infuso, qui tollitur
+            <lb ed="#V" n="50"/>per vnicum actum, &amp; de habitu acquisito. Et ideo cum
+            ha<lb ed="#V" n="51" break="no"/>bitu scientiae stat existimatio erronea circa aliquam
+            conclu<lb ed="#V" n="52" break="no"/>sionem eiusdem scientiae, non autem error circa vnum
+            arti<lb ed="#V" n="53" break="no"/>culum cum fide circa alium. Et de hoc Sanctus Thomas secunda
+            <lb ed="#V" n="54"/>secundae quaestio. 5. artic. 3. vbi arguit sic. Sicut sub fide
+            con<lb ed="#V" n="55" break="no"/>tinentur multi articuli, ita sub vna scientia, puta geometria
+            <lb ed="#V" n="56"/>multae conclusiones. Sed aliquis homo potest habere
+            scien<lb ed="#V" n="57" break="no"/>tiam geometriae circa quasdam generatas conclusiones alijs
+            <lb ed="#V" n="58"/>ignoratis: ergo aliquis homo potest habere fidem de
+            ali<lb ed="#V" n="59" break="no"/>quibus articulis fidei alios non credendo. Ecce
+            argumen<lb ed="#V" n="60" break="no"/>tum. Sequitur responsio. Dicendum (inquit) quod in diuersis
+            <lb ed="#V" n="61"/>conclusionibus vnius scientiae sunt diuersa media, per quae
+            <lb ed="#V" n="62"/>probantur, quorum vnum potest cognosci sine alio. Et ideo
+            <lb ed="#V" n="63"/>homo potest scire quasdam conclusiones vnius scientiae
+            <lb ed="#V" n="64"/>ignorans alias, sed omnibus articulis fidei inhaeret fides
+            pro<lb ed="#V" n="65" break="no"/>pter vnum medium, scilicet propter primam veritatem
+            pro<lb ed="#V" n="66" break="no"/>positam nobis in scripturis secundum doctrinam Ecclesiae
+            <lb ed="#V" n="67"/>intellectis sane, &amp; ideo qui ab hoc medio decidit, totaliter
+            <lb ed="#V" n="68"/>fide caret. Haec ille.
+          </p>
+          <p xml:id="capsco-c3hzk1-d1e2221">
+            Ad primum Scoti contra conclusionem
+            <lb ed="#V" n="69"/>quartam dicitur primo, quod fides respicit primam veritatem
+            <lb ed="#V" n="70"/>non solum tanquam medium, propter quod assentit
+            credi<lb ed="#V" n="71" break="no"/>bilibus, immo tanquam obiectum, de quo est fides. Et hoc
+            <lb ed="#V" n="72"/>expresse ponit Sanctus Thomas secunda secundae q. 1. artic. 1. vbi sic
+            <lb ed="#V" n="73"/>dicit. Cuiuslibet cognoscitiui habitus obiectum duo
+            ha<lb ed="#V" n="74" break="no"/>bet, scilicet illud quod materialiter cognoscitur, quod est
+            <lb ed="#V" n="75"/>sicut materiale obiectum, &amp; id per quod cognoscitur, quod
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="76"/>est formalis ratio obiecti, sicut in scientia geometriae
+            mate<lb ed="#V" n="77" break="no"/>rialiter scita sunt conclusiones, formalis vero ratio sciendi
+            <lb ed="#V" n="78"/>sunt media demonstrationum, per quae conclusiones
+            co<lb ed="#V" n="79" break="no"/>gnoscuntur. Sic igitur in fide si consideremus formalem
+            ra<lb ed="#V" n="80" break="no"/>tionem obiecti, nihil aliud est quam veritas prima, non enim
+            <lb ed="#V" n="81"/>fides, de qua loquimur, assentit alicui, nisi quia est a Deo
+            re<lb ed="#V" n="82" break="no"/>uelatum, vnde ipsi veritati diuinae innititur tanquam
+            medio<lb ed="#V" n="83" break="no"/>Si vero consideremus materialiter ea, quibus fides assentit
+            <lb ed="#V" n="84"/>non solum est ipse Deus, sed etiam multa alia, quae tamen
+            <lb ed="#V" n="85"/>sub assensu fidei non cadunt, nisi secundum quod habent
+            ali<lb ed="#V" n="86" break="no"/>quem ordinem ad Deum, prout scilicet per aliquos
+            diuini<lb ed="#V" n="87" break="no"/>tatis effectus homo adiuuatur ad tendendum in diuinam
+            <lb ed="#V" n="88"/>fruitionem, &amp; ideo etiam ex hac parte obiectum fidei
+            est<lb ed="#V" n="89" break="no"/>quodammodo veritas prima, inquantum nihil cadit sub fide
+            <lb ed="#V" n="90"/>nisi in ordine ad Deum. Sicut etiam obiectum medicinae
+            <lb ed="#V" n="91"/>est sanitas, quia nihil medicina considerat nisi in ordine ad
+            <lb ed="#V" n="92"/>sanitatem. Haec ille.
+          </p>
+          <p xml:id="capsco-c3hzk1-d1e2278">
+            Simile dicit tertio sent. distinct. 24. q. 1
+            <lb ed="#V" n="93"/>artic. 1. quaestiuncula prima vbi sic dicit. In obiecto alicuius
+            <lb ed="#V" n="94"/>potentiae contingit tria considerare, scilicet id quod est
+            for<lb ed="#V" n="95" break="no"/>male in obiecto, &amp; id quod est materiale &amp; id quod est
+            ac<lb ed="#V" n="96" break="no"/>cidentale, sicut patet in obiecto visus, quia formale in ipso
+            <lb ed="#V" n="97"/>est lumen, quod facit colorem actu visibilem, materiale
+            ve<lb ed="#V" n="98" break="no"/>ros ipse color, qui est potentia visibilis, accidentale vero
+            si<lb ed="#V" n="99" break="no"/>cut quantitas, &amp; alia huiusmodi, quae colorem
+            concomitan<lb ed="#V" n="100" break="no"/>tur. Et quia vnumquodque agit per formam suam, obiectum
+            <lb ed="#V" n="101"/>autem est actiuum in virtutibus passiuis, ideo ratio obiecti,
+            <lb ed="#V" n="102"/>ad quem habet proportionem potentia passiua est illud,
+            <lb ed="#V" n="103"/>quod est formale in obiecto. Et secundum hoc
+            diuersifi<lb ed="#V" n="104" break="no"/>cantur potentiae &amp; habitus, qui ex ratione obiecti speciem
+            <lb ed="#V" n="105"/>recipiunt. Et haec tria est inuenire in obiecto fidei. Cum
+            <lb ed="#V" n="106"/>enim fides non assentiat alicui nisi propter primam
+            verita<lb ed="#V" n="107" break="no"/>tem credibilem, non habet quod sit actu credibile nisi a
+            verita<lb ed="#V" n="108" break="no"/>te prima, sicut color est visibilis ex luce. Et ideo veritas
+            pri<lb ed="#V" n="109" break="no"/>ma est formale in obiecto fidei, &amp; a qua est tota ratio
+            obie<lb ed="#V" n="110" break="no"/>cti. Quicquid autem est illud, quod Deo creditur, sicut est
+            <lb ed="#V" n="111"/>passum esse, vel si quid huiusinodi est, hoc est materiale
+            ir<lb ed="#V" n="112" break="no"/>obiecto fidei, ea autem quae ex istis credibilibus
+            consequun<lb ed="#V" n="113" break="no"/>tur sunt quasi accidentalia, &amp; ideo concedendum est, quod
+            obic<lb ed="#V" n="114" break="no"/>ctum fidei proprie loquendo est veritas prima. Haec ille.
+          </p>
+          <p xml:id="capsco-c3hzk1-d1e2328">
+            Di<lb ed="#V" n="115" break="no"/>citur secundo, quod ex conclusione nostra non sequitur, quod
+            as<lb ed="#V" n="116" break="no"/>sensus huius articuli, Deus est trinus &amp; vnus dependet, vt
+            <lb ed="#V" n="117"/>fingit arguens ex infinitis prioribus assensibus, nec
+            oporter<lb ed="#V" n="118" break="no"/>infinita media pertransire ad hoc quod assentiatur illi articulo
+            <lb ed="#V" n="119"/>Et ad rationem in oppositum dicitur, quod per fidem primo,
+            <lb ed="#V" n="120"/>&amp; directe assentio huic, Deus reuelauit quod Deus est trinus
+            <lb ed="#V" n="121"/>&amp; vnus, sicut visus primo fertur in lucem, &amp; secundario
+            as<lb ed="#V" n="122" break="no"/>sentio huic, Deus est trinus &amp; vnus, sicut visus secundario
+            <lb ed="#V" n="123"/>fertur in colorem, vnico tamen &amp; eodem actu. Et cum
+            vl<lb ed="#V" n="124" break="no"/>terius quaeritur quo assentio huic, Deus reuelauit hoc &amp;c.
+            <lb ed="#V" n="125"/>Dicitur quod fides assentit illi propter se ipsam, &amp; non propter
+            <lb ed="#V" n="126"/>aliquam aliam propositionem, ex cuius assensu causetur
+            as<lb ed="#V" n="127" break="no"/>sensus istius, Deus reuelauit hoc. Hoc est enim primum
+            <lb ed="#V" n="128"/>credibile, Deus vel veritas prima reuelauit quicquid
+            conti<lb ed="#V" n="129" break="no"/>netur in sacra scriptura &amp; in doctrina ecclesiae. Nec
+            assen<lb ed="#V" n="130" break="no"/>sus huius. propositionis effectiue principaliter causatur ex
+            <lb ed="#V" n="131"/>alio assensu praecedente, sed ex Deo interius mouente
+            intel<lb ed="#V" n="132" break="no"/>lectum per habitum fidei ad hunc assensum. Veruntamen
+            <lb ed="#V" n="133"/>ad hunc primum assensum fidei praerequiritur praesentatio
+            <lb ed="#V" n="134"/>huius complexi per locutionem interiorem, vel exteriorem,
+            <lb ed="#V" n="135"/>aut per lectionem sacrae scripturae, aut praedicationem. Et
+            <lb ed="#V" n="136"/>hoc satis diffuse dictum est respondendo ad argumenta
+            con<lb ed="#V" n="137" break="no"/>tra secundam conclusionem, quae tangebant similem
+            diffi<lb ed="#V" n="138" break="no"/>cultatem. Cum autem dicit. Quomodo assentio
+            praeceden<lb ed="#V" n="139" break="no"/>tibus propositionibus, puta isti, reuelatum est a Deo quod
+            <lb ed="#V" n="140"/>Deum esse trinum, &amp; vnum est reuelatum &amp;c. Dicitur quod
+            <lb ed="#V" n="141"/>omnibus illis assentitur a sensu causato ex libero
+            arbitri<lb ed="#V" n="142" break="no"/>vel fide acquisita. Sed tunc negatur consequentia, qua
+            in<lb ed="#V" n="143" break="no"/>fertur quod fides infusa dependeat effectiue ex acquisita
+            <lb ed="#V" n="144"/>quantum ad habitum, aut quantum ad suum principalem
+            <lb ed="#V" n="145"/>actum, qui est assentire.
+          </p>
+          <p xml:id="capsco-c3hzk1-d1e2398">
+            Ad secundum dicitur primo, quod
+            <lb ed="#V" n="146"/>formalis ratio obiecti fidei non est ens rationis, sed reale
+            lo<lb ed="#V" n="147" break="no"/>quendo de formali ratione ex parte rei, licet non sit magnum
+            <lb ed="#V" n="148"/>inconueniens dicere quod formalis ratio ex parte nostra sit ens
+            <lb ed="#V" n="149"/>rationis, vel quod illud includat, puta negationem vel
+            rela<lb ed="#V" n="150" break="no"/>tionem rationis. Et de hoc Sanctus Thomas secunda secundae q. 1.
+            <pb ed="#V" n="184"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>artic. 6. in solutione secunda sic dicit. Ratio formalis
+            obie<lb ed="#V" n="2" break="no"/>cti fidei potest accipi dupliciter. Vno modo ex parte ipsius
+            <lb ed="#V" n="3"/>rei creditae, &amp; sic ratio formalis omnium credibilium est vna
+            <lb ed="#V" n="4"/>scilicet veritas prima, &amp; ex hac parte articuli non
+            distinguun<lb ed="#V" n="5" break="no"/>.tur. Alio modo potest accipi formalis ratio credibilium
+            <lb ed="#V" n="6"/>ex parte nostra, &amp; sic formalis ratio credibilis est, vt sit non
+            <lb ed="#V" n="7"/>visum. Et ex hac parte articuli distinguuntur. Haec ille.
+          </p>
+          <p xml:id="capsco-c3hzk1-d1e2432">
+            Lx
+            <lb ed="#V" n="8"/>quo patet, quod formalis ratio obiecti fidei ex parte credentis
+            <lb ed="#V" n="9"/>est quod sit non visum. Hoc autem est negatio, quae est ens
+            so<lb ed="#V" n="10" break="no"/>lius rationis, ita potest dici de reuelato, licet non legam in
+            <lb ed="#V" n="11"/>dictis Sancti Thomae quod esse reuelatum sit formalis ratio obiecti
+            <lb ed="#V" n="12"/>fidei, nec sequitur ex dictis eius. Et cum dicit arguens, quod si
+            <lb ed="#V" n="13"/>ideo assentio huic, Deus est trinus, quia est a Deo reuelatum,
+            <lb ed="#V" n="14"/>tunc respectus rationis est causa quare assentio, &amp; per
+            con<lb ed="#V" n="15" break="no"/>sequens formalis ratio obiecti. Negatur consequentia, quia
+            <lb ed="#V" n="16"/>licet assentiam isti, Deus est trinus, quia hoc est reuelatum
+            <lb ed="#V" n="17"/>a Deo, hoc non ideo est, quia respectus reuelabilitatis sit
+            ca<lb ed="#V" n="18" break="no"/>assensus, sed potius prima veritas, quae est terminus illius
+            <lb ed="#V" n="19"/>respectus, mouet ad assensum. Sicut etiam cum discipulus
+            <lb ed="#V" n="20"/>assentit dictis magistri, quia magister dicit illa, non hoc ideo
+            <lb ed="#V" n="21"/>est, quia respectus rationis qui importatur in hoc, quod est
+            <lb ed="#V" n="22"/>esse dictum a magistro, causet assensum in discipulo, sed
+            po<lb ed="#V" n="23" break="no"/>tius auctoritas &amp; perfecta scientia magistri, vel verbum eius,
+            <lb ed="#V" n="24"/>quod est terminus praedicti respectus, sic in proposito.
+            Pri<lb ed="#V" n="25" break="no"/>ma veritas tanquam causa primaria, &amp; verba eius tanquam
+            <lb ed="#V" n="26"/>causa proxima causant assensum fidei, &amp; non respectus
+            ra<lb ed="#V" n="27" break="no"/>tionis terminatus ad Deum, vel ad verba eius, quae locutus
+            <lb ed="#V" n="28"/>est per Prophetas, vel Apostolos in humanitate assumpta,
+            <lb ed="#V" n="29"/>tamen sicut dixi, non est inconueniens si formalis ratio
+            ob<lb ed="#V" n="30" break="no"/>iecti fidei ex parte nostra habeat aliquid de ente rationis,
+            <lb ed="#V" n="31"/>cum etiam proximum obiectum materiale fidei sit
+            comple<lb ed="#V" n="32" break="no"/>xum factum per opus animae. De hoc Sanctus Thomas tertio sent.
+            <lb ed="#V" n="33"/>dist. 24. q. 1. artic. 1quaestiuncula secunda in solut. tertij sic
+            di<lb ed="#V" n="34" break="no"/>cit. Obiectum charitatis est bonum, quod secundum
+            bhi<lb ed="#V" n="35" break="no"/>losophum 6. Metaphysic. est in rebus, obiectum autem fidei
+            <lb ed="#V" n="36"/>est verum, quod completur per operationem animae. Et
+            <lb ed="#V" n="37"/>quia compositio, &amp; diuisio quae est in enunciabilibus non est
+            <lb ed="#V" n="38"/>nisi per animam, ideo complexum est obiectum fidei,
+            quam<lb ed="#V" n="39" break="no"/>uis incomplexum sit obiectum charitatis. Haec ille.
+          </p>
+          <p xml:id="capsco-c3hzk1-d1e2504">
+            Idem
+            <lb ed="#V" n="40"/>ponit secunda secundae quaestio. 1. artic. 2. vbi sic dicit.
+            Co<lb ed="#V" n="41" break="no"/>gnita sunt in cognoscente secundum modum
+            cognoscen<lb ed="#V" n="42" break="no"/>tis. Est autem proprius modus intellectus humani vt
+            com<lb ed="#V" n="43" break="no"/>ponendo &amp; diuidendo veritatem cognoscat. Et ideo ea
+            <lb ed="#V" n="44"/>quae sunt in se simplicia humanus intellectus cognoscit
+            se<lb ed="#V" n="45" break="no"/>cundum quandam complexionem, sicut econtrario
+            intelle<lb ed="#V" n="46" break="no"/>ctus diuinus incomplexe cognoscit ea, quae sunt secundum
+            <lb ed="#V" n="47"/>se complexa. Sic igitur obiectum fidei dupliciter potest
+            con<lb ed="#V" n="48" break="no"/>siderari. Vno modo ex parte ipsius rei creditae, &amp; sic
+            obie<lb ed="#V" n="49" break="no"/>ctum fidei est aliquid incomplexum scilicet res ipsa, de qua
+            <lb ed="#V" n="50"/>fides habetur. Alio modo ex parte credentis, &amp; secundum
+            <lb ed="#V" n="51"/>hoc obiectum fidei est aliquid complexum per modum
+            enun<lb ed="#V" n="52" break="no"/>ciabilis. Haec ille.
+          </p>
+          <p xml:id="capsco-c3hzk1-d1e2535">
+            Ad primum Aureoli negatur minor.
+            <lb ed="#V" n="53"/>Nec valet eius probatio, quia ista propositio, prima veritas
+            <lb ed="#V" n="54"/>non potest mentiri, non resoluitur in hanc, Deus non
+            po<lb ed="#V" n="55" break="no"/>test mentiri, immo econtra ideo Deus non potest mentiri,
+            <lb ed="#V" n="56"/>quia est prima veritas. Veruntamen cum dicit Sanctus Thomas quod
+            <lb ed="#V" n="57"/>formale obiectum fidei est prima veritas, non intendit
+            ex<lb ed="#V" n="58" break="no"/>cludere, quod Deus vel diuinitas sit formale obiectum,
+            immo<lb ed="#V" n="59" break="no"/>hoc expresse dicit, secunda secundae quaestio. 1. artic. 1. vt
+            re<lb ed="#V" n="60" break="no"/>citatum fuit in solutione primi contra quartam
+            conclusio<lb ed="#V" n="61" break="no"/>nem.
+          </p>
+          <p xml:id="capsco-c3hzk1-d1e2557">
+            Ad secundum dicitur, quod per primam veritatem
+            intel<lb ed="#V" n="62" break="no"/>ligimus diuinam essentiam, prout induit rationem primae
+            <lb ed="#V" n="63"/>veritatis. Nec dicimus quod tale attributum addat aliquid ad
+            <lb ed="#V" n="64"/>diuinitatem secundum rem, sed solum quantum ad nostrum
+            <lb ed="#V" n="65"/>modum intelligendi &amp; considerandi. Et cum dicitur quod
+            di<lb ed="#V" n="66" break="no"/>uinitas non est finis sub ratione primae veritatis &amp;c. Dicitur
+            <lb ed="#V" n="67"/>quod falsum est, quia cum fides sit in intellectu, bonum autem
+            <lb ed="#V" n="68"/>&amp; finis intellectus sit verum, manifeste patet quod diuinitas est
+            <lb ed="#V" n="69"/>finis fidei &amp; intellectus sub ratione veritatis potius quam
+            <lb ed="#V" n="70"/>sub quacunque alia ratione, licet sub illa ratione non sit
+            fi<lb ed="#V" n="71" break="no"/>nis voluntatis, aut charitatis, sed potius sub ratione
+            boni<lb ed="#V" n="72" break="no"/>tatis primae. Et de hoc supra recitatum fuit dictum Sanctus Thomas
+            <lb ed="#V" n="73"/>secunda secundae quaestio. 2. artic. 2. Si consideretur obiectum
+            <lb ed="#V" n="74"/>fidei secundum quod intellectus est motus a voluntate, sic
+            po<lb ed="#V" n="75" break="no"/>nitur actus fidei credere in Deum, veritas enim prima ad
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="76"/>voluntatem refertur secundum quod habet rationem finis
+            <lb ed="#V" n="77"/>Haec ille. Et in tellige, quod veritas prima refertur ad
+            volunta<lb ed="#V" n="78" break="no"/>tem secundum quod habet rationem finis, non quidem finis
+            <lb ed="#V" n="79"/>voluntatis, sed finis ad quem voluntas mouet intellectum
+            <lb ed="#V" n="80"/>per suum imperium.
+          </p>
+          <p xml:id="capsco-c3hzk1-d1e2603">
+            Ad argumentum pro parte
+            negati<lb ed="#V" n="81" break="no"/>ua quaestionis respondit Sanctus Thomas secunda secundae q. 4. art. 5.
+            <lb ed="#V" n="82"/>in solutione secundi, vbi sic dicit. Fides de qua Philosophus
+            <lb ed="#V" n="83"/>loquitur, innititur rationi humanae non ex necessitate
+            con<lb ed="#V" n="84" break="no"/>cludenti, cui potest subesse falsum, &amp; ideo talis fides non est
+            <lb ed="#V" n="85"/>virtus. Sed fides de qua loquimur innititur veritati diuinae
+            <lb ed="#V" n="86"/>quae infallibilis est, &amp; ita non potest ei subesse falsum, &amp; ideo
+            <lb ed="#V" n="87"/>talis fides potest esse virtus. Haec ille. Et haec de
+            quaestio<lb ed="#V" n="88" break="no"/>ne, de qua benedictus Deus, Amen.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

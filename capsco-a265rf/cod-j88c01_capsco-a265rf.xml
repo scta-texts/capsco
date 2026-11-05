@@ -1,0 +1,522 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 1, Distinctio 19, Quaestio 1</title>
+        <author ref="#JohannesCapreolus">Johannes Capreolus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 1, Distinctio 19, Quaestio 1</title>
+          <date when="2026-11-04">Nov 4, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-j88c01">Venice, 1589, v. 1</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-04" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="336"/>
+        <cb ed="#V" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="capsco-a265rf"><!-- l1d19q1 -->
+        <head xml:id="capsco-a265rf-Hd1e101">Quaestio 1</head>
+        <head xml:id="capsco-a265rf-Hd1e103" type="question-title">Utrum una persona sit in alia</head>
+        <p xml:id="capsco-a265rf-d1e106">
+          <lb ed="#V" n="124"/>DISTINCTIO XIX.
+          <lb ed="#V" n="125"/>QVAESTIO I.
+          <lb ed="#V" n="126"/>Vtrum vna persona sit in alia.
+        </p>
+        <p xml:id="capsco-a265rf-d1e115">
+          <lb ed="#V" n="127"/><milestone ed="#V" unit="p" rend="initial"/> CIRCA decimamnonam
+          distinctio<lb ed="#V" n="128" break="no"/>nem quaeritur. Vtrum vna persona
+          di<lb ed="#V" n="129" break="no"/>uina sit in alia.
+        </p>
+        <p xml:id="capsco-a265rf-d1e125">
+          Et arguitur quod non
+          <lb ed="#V" n="130"/>quia vnum oppositorum non est in
+          a<lb ed="#V" n="131" break="no"/>lio. sed personae diuinae opponuntur
+          <lb ed="#V" n="132"/>relatiue. ergo vna non est in alia.
+          <lb ed="#V" n="133"/>IIoppositum arguitur sic. Ioann.
+          <lb ed="#V" n="134"/>decimoquarto. Ego in patre, &amp;
+          pa<lb ed="#V" n="135" break="no"/>ter in me est.
+        </p>
+        <div xml:id="capsco-a265rf-Dd1e142">
+          <head xml:id="capsco-a265rf-Hd1e144">Articulus 1</head>
+        <p xml:id="capsco-a265rf-d1e146">
+          <lb ed="#V" n="136"/><milestone ed="#V" unit="p" rend="indent"/> In hac quaestione erit vnicus articulus, cuius est ista
+          con<lb ed="#V" n="137" break="no"/>Iclusio. Quaelibet diuina persona est in alia qualibet. Istam
+          <lb ed="#V" n="138"/>conclusionem probat Sanctus Doctor prima parte q. 42.
+          <lb ed="#V" n="139"/>artic. 5. sic. In patre (inquit) &amp; filio est tria considerare,
+          sci<lb ed="#V" n="140" break="no"/>licet essentiam, relationem, &amp; originem, &amp; secundum
+          quod<lb ed="#V" n="141" break="no"/>libet horum filius est in patre, &amp; econuerso, secundum
+          es<lb ed="#V" n="142" break="no"/>sentiam pater est in filio, quia pater est sua essentia, &amp;
+          com<lb ed="#V" n="143" break="no"/>municat suam essentiam filio, non per aliquam suam
+          transmu<lb ed="#V" n="144" break="no"/>tationem. vnde sequitur quod cum essentia patris sit in filio, quod in filio
+          <lb ed="#V" n="145"/>sit pater, &amp; similiter cum filius sit sua essentia, sequitur quod sit in
+          <pb ed="#V" n="337"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>patre in quo est eius essentia, &amp; hoc est quod Hyla. dicit 5.
+          <lb ed="#V" n="2"/>Trin. Naturam suam vt ita dicam sequitur immutabilis Deus,
+          <lb ed="#V" n="3"/>immutabilem gignens Deum subsistentem, igitur in eo Dei
+          <lb ed="#V" n="4"/>naturam intelligimus, cum in Deo Deus sit. Secundum etiam
+          <lb ed="#V" n="5"/>relationes manifestum est, quod vnum oppositorum relatiue
+          <lb ed="#V" n="6"/>est in alio secundum intellectum. Secundum originem etiam
+          manife<lb ed="#V" n="7" break="no"/>stum est, quod processio verbi intelligibilis non est ad extra, sed
+          <lb ed="#V" n="8"/>manet in dicente, illud etiam quod verbo dicitur in verbo
+          conti<lb ed="#V" n="9" break="no"/>netur, &amp; eadem ratio est de Spiritu Sancto. Haec ille.
+        </p>
+        <p xml:id="capsco-a265rf-d1e195">
+          Item
+          <lb ed="#V" n="10"/>ad primum argumentum ibidem factum dicit. Quia ea quae in
+          <lb ed="#V" n="11"/>creaturis sunt non sufficienter repraesentant ea quae
+          Dei<lb ed="#V" n="12" break="no"/>sunt &amp; ideo secundum nullum modorum essendi in alio quos Philus
+          <lb ed="#V" n="13"/>enumerat, filius est in patre, aut econtra, magis tamen accedit ad
+          <lb ed="#V" n="14"/>hoc modus ille, secundum quem dicitur esse aliquid in principio
+          origi<lb ed="#V" n="15" break="no"/>nante, nisi quod deest vnitas essentiae in rebus creatis inter
+          prin<lb ed="#V" n="16" break="no"/>cipium &amp; illud quod est a principio. Haec ille.
+        </p>
+        <p xml:id="capsco-a265rf-d1e213">
+          Idem ponit 1.
+          <lb ed="#V" n="17"/>sent. praesenti dist. Sed hanc opinionem dicit Aurels
+          irrationa<lb ed="#V" n="18" break="no"/>bilem quo ad tria. Primo quamddod dicit essentiam esse rationem
+          <lb ed="#V" n="19"/>quare filius sit in patre faciendo talem deductionem. Essentia
+          <lb ed="#V" n="20"/>filij est in patre: filius est sua essentia: ergo filius est in patre,
+          <lb ed="#V" n="21"/>constat enim quod filius est in patre sicut subsistens in subsistente
+          <lb ed="#V" n="22"/>secundum illud. Hyl. 5. de Tri. dicentis. Quia subsistentem
+          intelligi<lb ed="#V" n="23" break="no"/>mus cum Deo Deus insit, &amp; illud Ambrosii In patre totus filius,
+          <lb ed="#V" n="24"/>&amp; totus in verbo pater. Et illud Augustinus de fide ad Petrum c. 2.
+          <lb ed="#V" n="25"/>Totus pater est in filio, &amp; totus in Spiritu Sancto: sed
+          essen<lb ed="#V" n="26" break="no"/>tia non est in patre sicut subsistens in subsistente sed sicut
+          na<lb ed="#V" n="27" break="no"/>tura in supposito:ergo filius non est in patre ex hoc, quod
+          essen<lb ed="#V" n="28" break="no"/>tia eius in patre.
+        </p>
+        <p xml:id="capsco-a265rf-d1e242">
+          Secundo sic. Essentia filij est in filio: filius est
+          <lb ed="#V" n="29"/>sua essentia: ergo filius est in filio, apparet quod non sequitur, &amp;
+          <lb ed="#V" n="30"/>pari ratione nec consequentia tenebit quod sit in patre ex hoc, quod
+          <lb ed="#V" n="31"/>est sua essentia. Tertio sic. Pater est sua essentia: filius est in
+          <lb ed="#V" n="32"/>patre: ergo filius est in essentia: consequentia non tenet: ergo
+          <lb ed="#V" n="33"/>nec illa. Secundo loco dicit. Quia est irrationabilis in hoc quod
+          <lb ed="#V" n="34"/>dicit vnam personam esse in alia, quia vnum relatiuum est in alio,
+          <lb ed="#V" n="35"/>pater enim &amp; filius inquantum referuntur ad Spiritum sanctum
+          <lb ed="#V" n="36"/>sunt vnum, vnde referuntur ad ipsum inquantum vnus spirator,
+          <lb ed="#V" n="37"/>non inquantum pater aut inquantum filius, sed constat quod sunt
+          <lb ed="#V" n="38"/>in Spiritu sancto secundum totam personalitatem: vnde pater est in
+          <lb ed="#V" n="39"/>eo cum paternitate sua, &amp; filius cum filiatione sua: ergo illud
+          <lb ed="#V" n="40"/>quo spirant non est causa, quod filius &amp; pater sint in Spiritu
+          <lb ed="#V" n="41"/>sancto.
+        </p>
+        <p xml:id="capsco-a265rf-d1e274">
+          Secundo sic. Habitudo ad &amp; habitudo in non sunt
+          <lb ed="#V" n="42"/>eaedem habitudine:sed relatio est causa quod vnum relatiuum
+          <lb ed="#V" n="43"/>dicatur ad aliud: ergo non est ratio quod vnum sit in alio. Et
+          <lb ed="#V" n="44"/>confirmatur, quia non diffiniuntur relatiua quod esse eorum sit
+          <lb ed="#V" n="45"/>inialio esse: sed ad aliud se habere. Tertio sic. Inter patrem &amp;
+          <lb ed="#V" n="46"/>filium in creaturis est verissima ratio paternitatis &amp;
+          filia<lb ed="#V" n="47" break="no"/>tionis, sed non propter hoc in creaturis Sortes est in
+          Pla<lb ed="#V" n="48" break="no"/>tone, quia iste est filius &amp; ille pater: igitur idem quod prius.
+        </p>
+        <p xml:id="capsco-a265rf-d1e292">
+          <lb ed="#V" n="49"/><milestone ed="#V" unit="p" rend="indent"/> Quarto sic. Terminus relationis sic relationi
+          cooppo<lb ed="#V" n="50" break="no"/>nitur &amp; sic ipsam terminat, ita vt a relatione non
+          continea<lb ed="#V" n="51" break="no"/>tur, nec relationi inexistat etiam secundum modum
+          in<lb ed="#V" n="52" break="no"/>telligendi, sed tantummodo terminat &amp; finit, non ergo
+          po<lb ed="#V" n="53" break="no"/>test esse ratio inexistendi vnam personam in alia: vt
+          vide<lb ed="#V" n="54" break="no"/>tur. Et si dicatur quod vnum correlatiuum est in alio, quia
+          <lb ed="#V" n="55"/>dum vnum intelligitur cointelligitur aliud: non valet, quia
+          <lb ed="#V" n="56"/>non intelligitur per modum inexistentis sed per modum
+          <lb ed="#V" n="57"/>termini, quod est multum extraneum ab illo vno modo quo
+          <lb ed="#V" n="58"/>vna persona est alia in diuinis. Tertio loco dicit quod opinio
+          <lb ed="#V" n="59"/>ista est irrationabilis in hoc quod dicit de origine: dicit enim
+          <lb ed="#V" n="60"/>Commentator. 4. Physcs commen. 24. quod remotior &amp;
+          imper<lb ed="#V" n="61" break="no"/>fectior modus essendi in est ille, secundum quem res est est in suo
+          <lb ed="#V" n="62"/>principio agente, sed modus ille quo filius est in patre &amp;
+          <lb ed="#V" n="63"/>vna persona in alia est perfectissimus &amp; summus: ergo non
+          <lb ed="#V" n="64"/>assimilatur illi quo principiatum est in principio. Secundo
+          <lb ed="#V" n="65"/>sic. Philostus 4. Physi.s licet dicat partem esse in toto, &amp; totum
+          <lb ed="#V" n="66"/>reciproce in partibus &amp; similiter genus in specie &amp; species
+          <lb ed="#V" n="67"/>in genere: sic tamen assignat modum quo aliquid est in
+          <lb ed="#V" n="68"/>suo principio quod non dicit reciproce principium esse in
+          prin<lb ed="#V" n="69" break="no"/>cipiato, sed in diuinis est reciprocatio insistentiae: ergo ille
+          <lb ed="#V" n="70"/>modus non est secundum quod originatum est in originante. Et si dicatur
+          <lb ed="#V" n="71"/>quod in creaturis est quod inter principium &amp; principiatum non est
+          <lb ed="#V" n="72"/>vnitas essentiae.
+        </p>
+        <p xml:id="capsco-a265rf-d1e348">
+          Non valet, quia iste intendit assignare tres
+          <lb ed="#V" n="73"/>rationes quarum vnam assignat identitatem essentiae. Altera
+          ve<lb ed="#V" n="74" break="no"/>ro conditionem relationis: &amp; tertia naturam originum: vnde
+          <lb ed="#V" n="75"/>oportet quod quaelibet per se sumpta sit ratio huius
+          inexisten<cb ed="#V" n="b"/><lb ed="#V" n="76" break="no"/>tiae. Tertio sic. Nam ipsi dicunt quod pater est in verbo, sed secundum
+          <lb ed="#V" n="77"/>Augustinus de cognitione verae vitae, Deus totam mundi formam
+          <lb ed="#V" n="78"/>verbo suo dixit &amp; fecit: igitur secundum hoc tota mundi forma erit
+          <lb ed="#V" n="79"/>in verbo eo modo quo pater est in eo, si illa ratio sit
+          suffi<lb ed="#V" n="80" break="no"/>ciens. Haec ille.
+        </p>
+        <p xml:id="capsco-a265rf-d1e369">
+          Contra conclusionem arguit Henricus &amp;
+          Gar<lb ed="#V" n="81" break="no"/>ro probando quod vna persona non sit in alia ratione
+          relatio<lb ed="#V" n="82" break="no"/>num sic. Quamuis sit impossibile quod idem secundum se totum sit
+          pri<lb ed="#V" n="83" break="no"/>mo &amp; per se continens &amp; contentum sicut deducit
+          Phi<lb ed="#V" n="84" break="no"/>losophus. 4. Physicor. quod si vinum esset in amphora &amp;
+          am<lb ed="#V" n="85" break="no"/>phora esset in vino, vinum esset in seipso, tamen possibile est secundum
+          <lb ed="#V" n="86"/>partem, non quidem aliam &amp; aliam partem: quamuis enim auis
+          <lb ed="#V" n="87"/>sit in laqueo secundum pedem, non tamen laqueus est in aue: quia pes
+          <lb ed="#V" n="88"/>non est pars laquei, sed tamen si darentur duo monstra habentia
+          <lb ed="#V" n="89"/>eundem pedem, vnum esset in alio &amp; econtra ratione pedis,
+          <lb ed="#V" n="90"/>sed constat quod in diuinis vna persona est in alia &amp; econtra,
+          <lb ed="#V" n="91"/>nec tamen quaelibet est in seipsa: ergo vna erit in alia per hoc quod
+          <lb ed="#V" n="92"/>sunt idem secundum aliquam partem sui, sed illa non est relatio,
+          <lb ed="#V" n="93"/>immo solum essentia: igitur non ratione relationis sed
+          es<lb ed="#V" n="94" break="no"/>sentiae vna est in alia. Secundo. Si vna persona esset in alia
+          <lb ed="#V" n="95"/>ratione relationis &amp; ratione essentiae: ergo vna est in alia
+          <lb ed="#V" n="96"/>ratione totius constituti, &amp; persona seipsa primo erit in alia,
+          <lb ed="#V" n="97"/>sed consequens est falsum, quia si totum constitutum per se
+          pri<lb ed="#V" n="98" break="no"/>mo sit in alio constituto, tunc aeque per se primo erit
+          pater<lb ed="#V" n="99" break="no"/>nitas in filio sicut &amp; deitas: &amp; denominabitur formaliter
+          pa<lb ed="#V" n="100" break="no"/>ter sicut Deus, quod est falsum, &amp; iterum illud quod
+          con<lb ed="#V" n="101" break="no"/>tinet aliud secundum aliquid sui est extra illud &amp; ambit ipsum,
+          to<lb ed="#V" n="102" break="no"/>tum autem constitutum non potest ambire totum constitutum in
+          per<lb ed="#V" n="103" break="no"/>sonis diuinis, nec hatem aliquid extra ipsum. Et insuper nihil
+          <lb ed="#V" n="104"/>est ab alio primo &amp; per se &amp; econtra, quia tunc idem
+          gigne<lb ed="#V" n="105" break="no"/>ret se, &amp; pari ratione videtur quod nihil sit in alio primo
+          <lb ed="#V" n="106"/>&amp; per se &amp; econuerso: alias sequeretur quod idem esset in
+          <lb ed="#V" n="107"/>se: relinquitur ergo quod vna persona non sit in alia
+          ratio<lb ed="#V" n="108" break="no"/>ne relationis: sed solum essentiae. Arguit Durandus etiam.
+          <lb ed="#V" n="109"/>Illud in quo est aliud debet excedere vel esse in plus quam
+          <lb ed="#V" n="110"/>illud quod est in ipso, sed pater se habet aliquo modo in
+          <lb ed="#V" n="111"/>plus quam filius ratione solius essentiae, &amp; econuerso: ergo
+          <lb ed="#V" n="112"/>vna persona non est in alia nisi ratione essentiae. Secundo
+          ar<lb ed="#V" n="113" break="no"/>guit sic. Secundum illam rationem vna persona non est in
+          <lb ed="#V" n="114"/>alia secundum quam distinguitur ab ea, sed relationes sunt causae
+          <lb ed="#V" n="115"/>quod vna persona ab alia distinguatur: ergo relatio non est
+          rot<lb ed="#V" n="116" break="no"/>quod vna persona sit in alia.
+        </p>
+        <p xml:id="capsco-a265rf-d1e450">
+          Tertio arguit sic. Vnum oppositum
+          <lb ed="#V" n="117"/>non est in alio per rationem oppositam, sed personae diuinae
+          <lb ed="#V" n="118"/>sunt oppositae per relationes: ergo vna non est in alia per
+          re<lb ed="#V" n="119" break="no"/>lationem. Arguit sic Scotus etiam. Illa proprietas quae
+          con<lb ed="#V" n="120" break="no"/>uenit essentiae ratione qua communicabilis est non
+          conue<lb ed="#V" n="121" break="no"/>nit suppositis in diuinis, quod patet per suam conuersam.
+          <lb ed="#V" n="122"/>quod enim competit suppositis vt incommunicabilia sunt
+          vt<lb ed="#V" n="123" break="no"/>pote generare vel generari non competit essentiae diuinae vt
+          pa<lb ed="#V" n="124" break="no"/>tet: sed manifestum est quod essentiae per hoc quod est concabilis
+          <lb ed="#V" n="125"/>competit quod sit in tribus personis: ergo ex hoc non
+          compe<lb ed="#V" n="126" break="no"/>tit suppositis quod sint mutuo in seipsis ratione essentiae.
+          Se<lb ed="#V" n="127" break="no"/>cundo arguit sic. Quandocunque aliquid est in aliquo per
+          <lb ed="#V" n="128"/>aliquid, eo modo quo illud aliquid est in illo, &amp; aliud erit
+          <lb ed="#V" n="129"/>in eo, sicut enim se habet causa sic se debet habere causatum, sed essentia
+          <lb ed="#V" n="130"/>est in filio formaliter, ita vt filius vere sit Deus, pater vero
+          <lb ed="#V" n="131"/>non est in eo formaliter ita vt filius vere sit pater: ergo
+          inexi<lb ed="#V" n="132" break="no"/>stentia essentiae in filio non est ratio quod pater sit in eo, nec
+          pa<lb ed="#V" n="133" break="no"/>ter erit in filio ratione essentiae.
+        </p>
+        <p xml:id="capsco-a265rf-d1e489">
+          Ad argumenta Aureoli
+          re<lb ed="#V" n="134" break="no"/>spondetur: &amp; primo ad primum istorum argumentorum primo
+          <lb ed="#V" n="135"/>loco inductorum negatur consequentia, ille enim modus arguendi
+          <lb ed="#V" n="136"/>non valet, nec aliud concludit nisi quod essentia alio modo est in
+          <lb ed="#V" n="137"/>patre quam filius, quod conceditur sed ex hoc non sequitur quin
+          <lb ed="#V" n="138"/>essentia filij sit ei ratio essendi in patre, sicut corpus meum
+          <lb ed="#V" n="139"/>est mihi ratio quod sim in loco dimensiue, &amp; tamen aliter sum ego
+          <lb ed="#V" n="140"/>in loco quam corpus meum, quia ego sicut subsistens in
+          sub<lb ed="#V" n="141" break="no"/>sistente: corpus autem meum non sic: &amp; infinita alia exempla
+          pos<lb ed="#V" n="142" break="no"/>sunt dari, per quae patet consequentiam primi argumenti nullam
+          <lb ed="#V" n="143"/>esse.
+        </p>
+        <p xml:id="capsco-a265rf-d1e514">
+          Ad secundum dico: quod consequentia illa non est similis nostrae
+          con<lb ed="#V" n="144" break="no"/>sequentiae: quia vt dicit Sanctus Doctor 1. sent. dist. 19. q. 3. artic. 2. ad
+          <lb ed="#V" n="145"/>tertium ista praepositio in dicit aliquam relationem vel
+          rea<lb ed="#V" n="146" break="no"/>lem, cum dicitur, patrem esse in filio, vel rationis cum
+          di<lb ed="#V" n="147" break="no"/>citur, essentia est in patre, ita quod dicit semper aliquam
+          distin<lb ed="#V" n="148" break="no"/>ctionem rei vel rationis, qualis non est filij ad sepsum:
+          <lb ed="#V" n="149"/>&amp; ideo non conceditur quod filius sit in filio proprie
+          lo<lb ed="#V" n="150" break="no"/>quendo: sed conceditur quod essentia est in patre, &amp; vna
+          <pb ed="#V" n="338"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>persona in alia: conceditur etiam quod paternitas est in
+          <lb ed="#V" n="2"/>patre, &amp; tamen non conceditur quod pater sit in patre vel
+          <lb ed="#V" n="3"/>paternitas in paternitate: ad hoc enim quod aliquis sit in
+          <lb ed="#V" n="4"/>aliquo requiritur saltem distinctio rationis, vt dicit
+          San<lb ed="#V" n="5" break="no"/>ctus Thomas primo sentent. distinct. 33. articul. 3. quaest. 1. ad
+          <lb ed="#V" n="6"/>primum. Oportet enim cum dicitur aliquid esse in aliquo,
+          <lb ed="#V" n="7"/>quod vel sint realiter distincta vel saltem secundum
+          ratio<lb ed="#V" n="8" break="no"/>nem, quod vnum significetur vt forma: aliud vero vt
+          ha<lb ed="#V" n="9" break="no"/>bens formam, sicut Deus &amp; diuinitas, pater &amp; paternitas:
+          <lb ed="#V" n="10"/>ita quod illud quod significatur vt forma potest dici esse
+          <lb ed="#V" n="11"/>in eo quod significatur vt habens illam, &amp; non econtra: vt
+          <lb ed="#V" n="12"/>diuinitas est in Deo, &amp; non econtra, vel vnum significetur
+          <lb ed="#V" n="13"/>vt natura, &amp; aliud vt suppositum naturae, vt pater &amp;
+          diui<lb ed="#V" n="14" break="no"/>nitas, vel persona &amp; essentia, &amp; tunc illud quod
+          significa<lb ed="#V" n="15" break="no"/>tur vt natura potest dici esse in eo quod significatur vt
+          sup<lb ed="#V" n="16" break="no"/>positum illius, &amp; non econtra: vel significetur vt
+          praeexi<lb ed="#V" n="17" break="no"/>stens alteri secundum intellectum, sicut se habent
+          paterni<lb ed="#V" n="18" break="no"/>tas &amp; essentia &amp; huiusmodi. Ex quo patet, quod non est
+          <lb ed="#V" n="19"/>simile de illis duabus consequentijs, scilicet nostra &amp; sua.
+        </p>
+        <p xml:id="capsco-a265rf-d1e577">
+          <lb ed="#V" n="20"/>Ad tertium patet per idem: licet enim essentia dicatur
+          es<lb ed="#V" n="21" break="no"/>se in filio: quia sunt idem secundum rem, sed differunt
+          ra<lb ed="#V" n="22" break="no"/>tione vt natura &amp; suppositum, modo natura dicitur esse in
+          <lb ed="#V" n="23"/>supposito &amp; non econtra, &amp; ideo prima consequentia est
+          <lb ed="#V" n="24"/>bona, quia antecedens includit omnia quae sufficiunt ad
+          <lb ed="#V" n="25"/>hoc, quod aliquid sit in aliquo eo modo, quo designatur
+          <lb ed="#V" n="26"/>in consequente, scilicet filius est in patre, &amp; in secunda
+          con<lb ed="#V" n="27" break="no"/>sequentia non. Supposito enim quod pater &amp; filius sint
+          <lb ed="#V" n="28"/>realiter distincti, &amp; quod essentia vnius sit in alio:
+          sequi<lb ed="#V" n="29" break="no"/>tur quod vnus sit in alio: sed quia filius &amp; essentia nec
+          distin<lb ed="#V" n="30" break="no"/>guuntur realiter, nec illo modo quo distinguuntur
+          ratio<lb ed="#V" n="31" break="no"/>ne potest reciproce dici, quod vnum sit in alio &amp; econtra:
+          <lb ed="#V" n="32"/>ideo non sequitur.
+        </p>
+        <p xml:id="capsco-a265rf-d1e608">
+          Ad argumenta secundo loco inducta
+          <lb ed="#V" n="33"/>dicitur, quod Sanctus Doctor ex parte relationis non
+          in<lb ed="#V" n="34" break="no"/>tendit probare, quod vna persona sit in alia secundum
+          es<lb ed="#V" n="35" break="no"/>se, sed secundum intellectum. Vnde ipse dicit primo
+          sen<lb ed="#V" n="36" break="no"/>tentiarum praesenti distinc. quaestione tertia articulo
+          secun<lb ed="#V" n="37" break="no"/>do ad secundum. Quia vna persona dicitur esse in alia vel
+          <lb ed="#V" n="38"/>quantum ad esse vel quantum ad intellectum relationum,
+          <lb ed="#V" n="39"/>quia in vna intelligitur alia. Haec ille. Ex quo patet quod
+          <lb ed="#V" n="40"/>dixi: nec intelligit, quod de natura relationis sit, quod
+          <lb ed="#V" n="41"/>dum vna intelligitur, quod intelligatur habere in se aliam,
+          <lb ed="#V" n="42"/>vel quod alia sit in alia, sed pro tanto vna relatio est in sua
+          <lb ed="#V" n="43"/>opposita secundum intellectum ad hunc sensum, quod in
+          <lb ed="#V" n="44"/>ratione vnius includitur alia, &amp; in consideratione vnius
+          <lb ed="#V" n="45"/>includitur consideratio suae oppositae, &amp; sic patet quod
+          il<lb ed="#V" n="46" break="no"/>la quatuor argumenta procedunt ex falso intellectu: quia
+          <lb ed="#V" n="47"/>non capit quid est dictu aliquid esse in alio secundum
+          in<lb ed="#V" n="48" break="no"/>tellectum, aut secundum rationem.
+        </p>
+        <p xml:id="capsco-a265rf-d1e645">
+          Ad argumenta
+          ter<lb ed="#V" n="49" break="no"/>tio loco facta nunc dicitur: &amp; ad primum quidem dico,
+          <lb ed="#V" n="50"/>quod licet ille modus essendi in aliquo sit improprius, non
+          <lb ed="#V" n="51"/>tamen est inconueniens, quod inter illum &amp; inter
+          mo<lb ed="#V" n="52" break="no"/>dum, quo vna persona est in aliam, sit aliqua similitudo
+          te<lb ed="#V" n="53" break="no"/>nuis &amp; modica non quo ad illud quod imperfectionis est:
+          <lb ed="#V" n="54"/>vtputa quod principiatum essentialiter distinguatur a suo
+          <lb ed="#V" n="55"/>principio, sed quo ad illud quod est perfectionis secundum
+          <lb ed="#V" n="56"/>quod principiatum est simile in forma suo principio: ita
+          <lb ed="#V" n="57"/>quod habet formam huius rationis secundum
+          vniuocatio<lb ed="#V" n="58" break="no"/>nem, vel saltem secundum analogiam.
+        </p>
+        <p xml:id="capsco-a265rf-d1e669">
+          Sciendum tamen
+          <lb ed="#V" n="59"/>quod secundum Sanctum Thomas primo sentent. vbi supra
+          <lb ed="#V" n="60"/>ad primum, modus quo vna persona est in aliam secundum
+          <lb ed="#V" n="61"/>esse non reducitur ad illum modum essendi quo
+          princi<lb ed="#V" n="62" break="no"/>piatum est in principio, sed ad illum, quo genus est in sua
+          <lb ed="#V" n="63"/>specie, sed modus quo vna persona est in alia secundum
+          intelle<lb ed="#V" n="64" break="no"/>ctum reducitur ad illum modum, quo aliquid est in alio
+          <lb ed="#V" n="65"/>sicut in suo principio: dicit enim sic. Stricte accipiendo
+          <lb ed="#V" n="66"/>non omnes modi, quibus aliquid est in aliquo
+          continen<lb ed="#V" n="67" break="no"/>tur in illis octo nisi per quandam similitudinem vel
+          redu<lb ed="#V" n="68" break="no"/>ctionem, sicut esse in tempore reducitur ad illum modum,
+          <lb ed="#V" n="69"/>quo aliquid dicitur esse in loco: quia vtrunque est sicut
+          <lb ed="#V" n="70"/>mensuratum in mensura, sic etiam per quandam
+          similitu<lb ed="#V" n="71" break="no"/>dinem ille modus, quo filius est in patre, potest reduci ad
+          <lb ed="#V" n="72"/>aliquem illorum. Si enim accipiatur quantum ad vnitatem
+          <lb ed="#V" n="73"/>essentiae, tunc pater dicitur esse in filio propter hoc quod
+          <lb ed="#V" n="74"/>essentia eius est in filio: vnde ad illum modum reducetur, ad
+          <lb ed="#V" n="75"/>quem reduceretur, si essentia in filio esse diceretur. Hoc
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="76"/>autem est per modum quo natura communis est in aliquo
+          <lb ed="#V" n="77"/>supposito, &amp; reducitur ad illum modum, quo genus est in
+          <lb ed="#V" n="78"/>specie quamuis in diuinis non sit genus &amp; species. Si autem
+          <lb ed="#V" n="79"/>accipiatur quantum ad relationem, tunc reducitur ad
+          il<lb ed="#V" n="80" break="no"/>lum modum: quo aliquid est in aliquo sicut in principio
+          <lb ed="#V" n="81"/>mouente &amp; efficiente. Et quamuis pater non sit principium
+          <lb ed="#V" n="82"/>efficiens filij: tamen est originans ipsum: vnde filius est in
+          <lb ed="#V" n="83"/>patre sicut originatum in originante, &amp; econuerso pater
+          <lb ed="#V" n="84"/>est in filio sicut originans in originato, adhuc magis
+          pro<lb ed="#V" n="85" break="no"/>prie dicitur in diuinis filius in patre etiam ex parte
+          relatio<lb ed="#V" n="86" break="no"/>nis quam in humanis, quia filius ex ipsa relatione est
+          perso<lb ed="#V" n="87" break="no"/>na subsistens, sua enim relatio est sua personalitas, quod
+          <lb ed="#V" n="88"/>in alijs rebus non contingit. Haec ille.
+        </p>
+        <p xml:id="capsco-a265rf-d1e739">
+          Ex quibus patet quod
+          <lb ed="#V" n="89"/>Sanctus Doctor non assimilat illum modum, quo personae
+          <lb ed="#V" n="90"/>sunt in se inuicem secundum esse verum reale: illo modo
+          <lb ed="#V" n="91"/>quo aliquid est in alio vt in efficiente principio, sed solum
+          <lb ed="#V" n="92"/>illo modo quo sunt in se inuicem secundum relationem:
+          <lb ed="#V" n="93"/>illo modo autem non sunt in se inuicem secundum esse
+          <lb ed="#V" n="94"/>sed secundum intellectum: vt ipse ibidem dicit in
+          respon<lb ed="#V" n="95" break="no"/>sione ad secundum. Et etiam si assimilaret illum modum
+          <lb ed="#V" n="96"/>inexistentiae personarum modo, quo aliquid est in suo
+          prin<lb ed="#V" n="97" break="no"/>cipio, non esset magnum peccatum: quia modus quo
+          prin<lb ed="#V" n="98" break="no"/>cipiatum per actum intellectus aut voluntatis est in
+          prin<lb ed="#V" n="99" break="no"/>cipiante, non est modus infimus nec improprius: sed
+          val<lb ed="#V" n="100" break="no"/>de proprius: non enim verbum improprie est in dicente,
+          <lb ed="#V" n="101"/>sed nec amor in amante, immo valde proprie. Ad
+          secun<lb ed="#V" n="102" break="no"/>dum dicitur, quod licet principium non sit in principiato
+          se<lb ed="#V" n="103" break="no"/>cundum esse, est tamen in eo secundum intellectum eo
+          mo<lb ed="#V" n="104" break="no"/>do quo relatiua sunt in se inuicem. Isto modo autem
+          per<lb ed="#V" n="105" break="no"/>sonae sunt in seinuicem, scilicet secundum intellectum
+          re<lb ed="#V" n="106" break="no"/>ciproce.
+        </p>
+        <p xml:id="capsco-a265rf-d1e782">
+          Ad tertium dico, quod aliquid est in verbo
+          tripli<lb ed="#V" n="107" break="no"/>citer quantum ad propositum spectat: primo modo sicut
+          <lb ed="#V" n="108"/>repraesentatiuum in suo repraesentante secundo modo
+          si<lb ed="#V" n="109" break="no"/>cut cointellectum cum intellecto: tertio modo: sicut duo
+          <lb ed="#V" n="110"/>supposita eiusdem naturae secundum numerum, primo
+          mo<lb ed="#V" n="111" break="no"/>do tota mundi forma est in verbo modo, quo pater est in
+          <lb ed="#V" n="112"/>eo: secundum quandam tamen analogiam, quia pater
+          adae<lb ed="#V" n="113" break="no"/>quat suum verbum, quod eum repraesentat, non autem
+          crea<lb ed="#V" n="114" break="no"/>turae: sed secundo vel tertio modis creaturae non sunt in
+          <lb ed="#V" n="115"/>verbo modo quo pater. Sciendum etiam quod Sanctus
+          <lb ed="#V" n="116"/>Doctor non intendit illis tribus vijs ostendere
+          inexisten<lb ed="#V" n="117" break="no"/>tiam personae in persona secundum esse: sed solum
+          secun<lb ed="#V" n="118" break="no"/>dum primum vel tertium. Ex quo patet quod arguens
+          fal<lb ed="#V" n="119" break="no"/>se exponit eum.
+        </p>
+        <p xml:id="capsco-a265rf-d1e813">
+          Ad primum Henrici dicitur quod
+          conclu<lb ed="#V" n="120" break="no"/>dit quod vna persona sit in alia secundum esse ratione
+          es<lb ed="#V" n="121" break="no"/>sentiae, sed non concludit quin vna persona sit in alia
+          ratio<lb ed="#V" n="122" break="no"/>ne relationis secundum intellectum, quia isto modo
+          ali<lb ed="#V" n="123" break="no"/>quid esse continens &amp; contentum non est per se primo
+          con<lb ed="#V" n="124" break="no"/>tinere &amp; contineri, quia non vnico modo continet
+          secun<lb ed="#V" n="125" break="no"/>dum se totum, nam essentia est ratio continentiae secundum
+          <lb ed="#V" n="126"/>esse, &amp; relatio est ratio continentiae secundum intellectum.
+          <lb ed="#V" n="127"/>Veruntamen modus loquendi est satis improprius, quia
+          ta<lb ed="#V" n="128" break="no"/>lis continentia improprie sumitur. Similiter in diuinis non
+          <lb ed="#V" n="129"/>est pars: veruntamen non est inconueniens aliquid esse
+          pu<lb ed="#V" n="130" break="no"/>mo &amp; per se continens &amp; contentum respectu eiusdem:
+          ac<lb ed="#V" n="131" break="no"/>cipiendo contineri pro esse in alio, &amp; continere pro eo quod
+          <lb ed="#V" n="132"/>est habere aliud in se, &amp; hoc si sit ibi diuersus modus
+          con<lb ed="#V" n="133" break="no"/>tinentiae, nam forma lapidis continet suam materiam
+          pri<lb ed="#V" n="134" break="no"/>mo &amp; per se, &amp; tamen cum primo &amp; per se est in illa
+          ma<lb ed="#V" n="135" break="no"/>teria, ita in proposito persona filii primo &amp; per se est in
+          pa<lb ed="#V" n="136" break="no"/>tre sicut verbum in dicente, &amp; persona patris primo &amp; per
+          <lb ed="#V" n="137"/>se est in filio sicut originans in originato, &amp; sicut res dicta
+          <lb ed="#V" n="138"/>per verbum est in verbo suo, &amp; proportionaliter dicendum
+          <lb ed="#V" n="139"/>est de Spiritu Sancto: vnde pater triplici modo est in filio,
+          <lb ed="#V" n="140"/>scilicet ratione essentiae: ratione relationis: &amp; ratione
+          to<lb ed="#V" n="141" break="no"/>tius personae: &amp; econtra. Et similiter de Spiritu Sancto:
+          <lb ed="#V" n="142"/>tertio modo est primo &amp; per se continens &amp; contentum,
+          <lb ed="#V" n="143"/>sed non primo, nec secundo modo.
+        </p>
+        <p xml:id="capsco-a265rf-d1e868">
+          Ad secundum patet per
+          <lb ed="#V" n="144"/>idem: nam licet pater sit in filio ratione paternitatis &amp;
+          ra<lb ed="#V" n="145" break="no"/>tione essentiae: non tamen per se primo est in filio, quia licet
+          <lb ed="#V" n="146"/>ratione cuiuslibet quod est in eo sit in filio: tamen alio modo est
+          <lb ed="#V" n="147"/>in filio secundum hoc, &amp; alio modo secundum illud, ita quod respectu
+          nul<lb ed="#V" n="148" break="no"/>lius inaexistentiae est ibi primitas, vel perseitas adaequata,
+          <lb ed="#V" n="149"/>quod oporteret ad hoc quod primo esset in filio.
+          Veruntamen<lb ed="#V" n="150" break="no"/>dato quod aeque primo paternitas esset in filio sicut
+          diui<pb ed="#V" n="339"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>nitas, non sequitur quod filius esset formaliter pater, sicut est
+          <lb ed="#V" n="2"/>formaliter Deus: sed est ibi in argumento mutatio de
+          mo<lb ed="#V" n="3" break="no"/>do primitatis ad modum formalitatis, &amp; ideo est fallacia
+          <lb ed="#V" n="4"/>figurae dictionis. Similiter ille modus loquendi de ambitu
+          <lb ed="#V" n="5"/>&amp; continentia improprius est, nec debet admitti nisi ad
+          bo<lb ed="#V" n="6" break="no"/>num sensum scilicet quod pater est in filio per identitatem naturae:
+          <lb ed="#V" n="7"/>illo modo autem existens in alio non oportet quod ambiat aut
+          <lb ed="#V" n="8"/>excedatur ab illo, in quo est: sed quod eius natura sit
+          commu<lb ed="#V" n="9" break="no"/>nior vtroque scilicet tam illo qui inest quam illo in quo est.
+          Simi<lb ed="#V" n="10" break="no"/>liter non est simile de esse ab alio &amp; esse in alio, quia esse in
+          <lb ed="#V" n="11"/>alio potest dupliciter vel tripliciter contingere: esse autem ab
+          <lb ed="#V" n="12"/>alio non, non enim est possibile quod aliquid vno &amp; eodem modo
+          <lb ed="#V" n="13"/>ab alio &amp; econtra: tamen sicut est possibile aliquid esse
+          cau<lb ed="#V" n="14" break="no"/>sam alterius primo &amp; per se &amp; econtra in diuersis
+          generi<lb ed="#V" n="15" break="no"/>bus causarum, ita est possibile idem esse in alio primo &amp;
+          <lb ed="#V" n="16"/>per se: &amp; econtra:quicquid sit in proposito: de quo dico
+          si<lb ed="#V" n="17" break="no"/>cut dicit conclusio &amp; solutio praecedens.
+        </p>
+        <p xml:id="capsco-a265rf-d1e925">
+          Ad primum du.
+          <lb ed="#V" n="18"/>dicitur quod maior non semper habet veritatem nisi de
+          inexi<lb ed="#V" n="19" break="no"/>stentia locali vel partiali, nam totum est in partibus, &amp;
+          for<lb ed="#V" n="20" break="no"/>ma in materia, &amp; genus in specie: vbi tamen regula illa
+          fal<lb ed="#V" n="21" break="no"/>lit, praesertim vbi est inexistentia propter identitatem:
+          vn<lb ed="#V" n="22" break="no"/>de essentia est in filio: a quo tamen non excedit, fallit
+          con<lb ed="#V" n="23" break="no"/>similiter in proposito in modo inexistendi, quo verbum est
+          <lb ed="#V" n="24"/>in dicente.
+        </p>
+        <p xml:id="capsco-a265rf-d1e943">
+          Ad secundum dico quod loquendo de esse in secundum
+          <lb ed="#V" n="25"/>intellectum maior est falsa in relatiue oppositis: illo modo
+          <lb ed="#V" n="26"/>autem dicimus relationem esse rationem inexistentiae. Ad
+          <lb ed="#V" n="27"/>tertium dicitur eodem modo quod procedit inexistentia secundum
+          <lb ed="#V" n="28"/>rem, &amp; de illa non dicimus relationem esse causam
+          inexi<lb ed="#V" n="29" break="no"/>stentiae.
+        </p>
+        <p xml:id="capsco-a265rf-d1e956">
+          Ad quartum negatur maior: est enim possibile talem
+          <lb ed="#V" n="30"/>proprietatem conuenire personis:licet alio modo, sicut
+          es<lb ed="#V" n="31" break="no"/>se in loco conuenit corpori quia est quantum, &amp; tamen
+          li<lb ed="#V" n="32" break="no"/>cet anima non sit quanta, ipsa est in loco ratione corporis,
+          <lb ed="#V" n="33"/>licet alio modo quam corpus. Nec valet probatio ibi
+          fa<lb ed="#V" n="34" break="no"/>cta: non enim oportet proprietates suppositi, ita
+          conueni<lb ed="#V" n="35" break="no"/>re naturae: sicut econtra, sicut Sortes est vnius speciei cum
+          <lb ed="#V" n="36"/>Platone ratione naturae humanae, quae est vna secundum speciem
+          <lb ed="#V" n="37"/>propter suam contatem, nec tamen natura humana dicitur
+          <lb ed="#V" n="38"/>subsistere sicut Sortes. Similiter concessa illa similitudine
+          <lb ed="#V" n="39"/>dico quod sicut in proposito aliqua proprietas conueniens
+          es<lb ed="#V" n="40" break="no"/>sentiae vt communicabilis conuenit suppositis, licet non
+          eo<lb ed="#V" n="41" break="no"/>dem modo, quia essentia est in personis sicut natura in
+          sup<lb ed="#V" n="42" break="no"/>posito proprio: persona autem ratione essentiae non est
+          il<lb ed="#V" n="43" break="no"/>lo modo in persona, sed vt consubstantiale in
+          consubstan<lb ed="#V" n="44" break="no"/>tiali, ita ex alia parte aliquod praedicatum dicitur de
+          perso<lb ed="#V" n="45" break="no"/>na vt est incommunicabilis, quod tamen conuenit essentiae
+          <lb ed="#V" n="46"/>licet alio modo quam persona, patet, nam hoc praedicatum
+          <lb ed="#V" n="47"/>persona dicitur de patre vt est incommunicabilis, &amp; tamen
+          <lb ed="#V" n="48"/>quia pater est persona, conceditur etiam quod essentia diuina est
+          <lb ed="#V" n="49"/>persona, immo est tres personae.
+        </p>
+        <p xml:id="capsco-a265rf-d1e1003">
+          Ad secundum dicitur, quod
+          <lb ed="#V" n="50"/>maior est falsa, vt patet in exemplo dato: anima enim est in
+          <lb ed="#V" n="51"/>loco propter corpus, tamen non eodem modo scilicet
+          circunscri<lb ed="#V" n="52" break="no"/>ptiue.
+        </p>
+        <p xml:id="capsco-a265rf-d1e1012">
+          Ad argumentum in pede quaotonis respotedet Sanctus Doctus dicens
+          <lb ed="#V" n="53"/>1. par. q. 42. arti. 5. ad 3. Dicendum (inquit) quod pater &amp; filius
+          <lb ed="#V" n="54"/>opponuntur secundum relationem non autem secundum essentiam, &amp; tamen
+          oppo<lb ed="#V" n="55" break="no"/>sitorum relatiue vnum est in altero, vt dictum est. Haec ille &amp;c.
+        </p>
+      </div>
+      </div>
+    </body>
+  </text>
+</TEI>

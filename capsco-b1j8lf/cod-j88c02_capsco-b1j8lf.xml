@@ -1,0 +1,1256 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 2, Distinctiones 9 et 10, Quaestio 1</title>
+        <author ref="#JohannesCapreolus">Johannes Capreolus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 2, Distinctiones 9 et 10, Quaestio 1</title>
+          <date when="2026-11-04">Nov 4, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-j88c02">Venice, 1589, v. 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-04" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="279"/>
+        <cb ed="#V" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="capsco-b1j8lf"><!-- l2d9et10q1 -->
+        <head xml:id="capsco-b1j8lf-Hd1e101">Quaestio 1</head>
+        <head xml:id="capsco-b1j8lf-Hd1e103" type="question-title">Utrum angeli habeant corpora naturaliter eis unita potissime caelestia</head>
+        <p xml:id="capsco-b1j8lf-d1e106">
+          <lb ed="#V" n="85"/>DISTINCTIO IX. ET X.
+          <lb ed="#V" n="86"/>QVAESTIO I.
+          <lb ed="#V" n="87"/>Vtrum angeli habeant corpora naturaliter
+          <lb ed="#V" n="88"/>eis unita potissime coelestia.
+        </p>
+        <p xml:id="capsco-b1j8lf-d1e117">
+          <lb ed="#V" n="89"/><milestone ed="#V" unit="p" rend="initial"/> Circa finem praecedentis distinctionis,
+          <lb ed="#V" n="90"/>&amp; circa nonam &amp; decimam
+          distinctio<lb ed="#V" n="91" break="no"/>nem secundi sen. quaeritur occasione
+          <lb ed="#V" n="92"/>quorundam ibidem per magistrum
+          ta<lb ed="#V" n="93" break="no"/>ctorum circa angelos. Vtrum angeli
+          <lb ed="#V" n="94"/>habeant corpora naturaliter eis vnita
+          <lb ed="#V" n="95"/>potissime coelestia.
+        </p>
+        <p xml:id="capsco-b1j8lf-d1e136">
+          Et arguitur quod
+          <lb ed="#V" n="96"/>sic. Quia Origenes in lib. Periarc. dicit. Solius Dei idest
+          pa<lb ed="#V" n="97" break="no"/>tris, &amp; filii, &amp; spiritus sancti naturae illud proprium est, vt
+          si<lb ed="#V" n="98" break="no"/>ne materiali substantia, &amp; absque vlla corporeae adiunctio
+          <lb ed="#V" n="99"/>nis societate intelligatur existere.
+        </p>
+        <p xml:id="capsco-b1j8lf-d1e148">
+          <lb ed="#V" n="100"/><milestone ed="#V" unit="p" rend="indent"/> In oppositum arguitur. Quia dicit Dionyus quarto capi.
+          <lb ed="#V" n="101"/>de diuinis nominibus, quod angeli sicut incorporales
+          <lb ed="#V" n="102"/>ita &amp; immateriales intelliguntur.
+        </p>
+        <p xml:id="capsco-b1j8lf-d1e158">
+          <lb ed="#V" n="103"/><milestone ed="#V" unit="p" rend="indent"/> hacquaestione erunt tres articuli. In primo ponetur
+          <lb ed="#V" n="104"/>determinatio Sancti Thomas in secundo recitabuntur
+          quae<lb ed="#V" n="105" break="no"/>dam obiectiones. In tertio ponentur earum soluliones.
+        </p>
+        <div xml:id="capsco-b1j8lf-Dd1e168">
+          <head xml:id="capsco-b1j8lf-Hd1e170">Articulus 1</head>
+          <p xml:id="capsco-b1j8lf-d1e172">
+            <lb ed="#V" n="106"/><milestone ed="#V" unit="p" rend="initial"/> Vantum ad primum argumentum ponitur prima
+            <lb ed="#V" n="107"/>conclusio. Nullus angelus vnitur corpori caelesti
+            tan<lb ed="#V" n="108" break="no"/>quam forma suae materiae. hanc probat Sanctus Thomas
+            pri<lb ed="#V" n="109" break="no"/>ma parte. q. 70. artic. tertio vbi quaerit. Vtrum corpora
+            cae<lb ed="#V" n="110" break="no"/>lestia sint animata, &amp; dicit sic. Circa istam quaestionem
+            apud<lb ed="#V" n="111" break="no"/>philosophos fuit diuersa opinio: Anaxagoras enim vt refert Augustinus
+            <lb ed="#V" n="112"/>i8. de ciuitate Dei factus est reus apud Athenienses, quia
+            <lb ed="#V" n="113"/>solem dixit esse lapidem, vel lampadem ardentem, negans
+            <lb ed="#V" n="114"/>vtique ipsum esse Deum, vel aliquid animatum. Platonici
+            <lb ed="#V" n="115"/>vero posuerunt corpora caelestia animata. Similiter, &amp; apud
+            <lb ed="#V" n="116"/>doctores fidei fuit circa hoc diuersa opinio. Nam
+            Orige<lb ed="#V" n="117" break="no"/>nes posuit corpora caelestia animata. Hieronymus etiam
+            <lb ed="#V" n="118"/>cum eodem sentire videtur exponens illud Ecclesiastes
+            pri<lb ed="#V" n="119" break="no"/>mo Lustrans vniuersa per circuitum pergit spiritus.
+            Basi<lb ed="#V" n="120" break="no"/>lius vero &amp; Damastasserunt corpora caelestia non esse
+            ani<lb ed="#V" n="121" break="no"/>mata. Augustinus vero sub dubio derelinquit, vt patet
+            se<lb ed="#V" n="122" break="no"/>cundo super Genus ad litteram, &amp; in enchi. Vbi etiam dicit,
+            <lb ed="#V" n="123"/>quod si sint animata caelestia corpora, pertinent ad
+            societa<lb ed="#V" n="124" break="no"/>tem angelorum eorum animae. In hac autem opinionum
+            <lb ed="#V" n="125"/>diuersitate, vt aliqualiter veritas innotescat. considerandum
+            <lb ed="#V" n="126"/>est, quod vnio animae ad corpus non est propter corpus,
+            <lb ed="#V" n="127"/>sed propter animam:non enim forma est propter materiam,
+            <lb ed="#V" n="128"/>sed econtra. Natura autem &amp; virtus animae
+            apprehendi<lb ed="#V" n="129" break="no"/>tur ex operatione eius, quae est quodammodo finis eius.
+            <lb ed="#V" n="130"/>Inuenitur enim corpus necessarium ad aliquam
+            operatio<lb ed="#V" n="131" break="no"/>nem animae, quia exercetur mediante corpore, sicut patet
+            <lb ed="#V" n="132"/>in operationibus animae sensitiuae &amp; nutritiuae.
+          </p>
+          <p xml:id="capsco-b1j8lf-d1e234">
+            Vnde
+            neces<lb ed="#V" n="133" break="no"/>se est tales animas esse vnitas corporibus propter suas
+            ope<lb ed="#V" n="134" break="no"/>rationes. Est aut em alia operatio animae quae non
+            exerce<lb ed="#V" n="135" break="no"/>tur mediante corpore, sed tamen ex corpore aliquod ad.
+            <lb ed="#V" n="136"/>miniculum tali operationi exhibetur, sicut per corpus
+            ex<lb ed="#V" n="137" break="no"/>hibentur animae humanae fantasmata, quibus indiget ad
+            in<lb ed="#V" n="138" break="no"/>telligendum. Vnde etiam talem animam necesse est
+            corpo<lb ed="#V" n="139" break="no"/>ri vniri propter suam operationem, licet contingat ipsam
+            <lb ed="#V" n="140"/>separari. Manifestum est autem, quod anima caelestis
+            cor<lb ed="#V" n="141" break="no"/>poris non potest habere operationes animae nutritiuae quae
+            <lb ed="#V" n="142"/>sunt nutrire, augere, generare. Huiusmodi enim
+            operatio<lb ed="#V" n="143" break="no"/>nes non conueniunt corpori incorruptibili per naturam.
+            <lb ed="#V" n="144"/>Similiter etiam nec operationes animae sensitiuae
+            corpori<pb ed="#V" n="280"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>caelesti conueniunt, quia omnes fundantur supra tactum,
+            <lb ed="#V" n="2"/>qui est apprehensiuus qualitatum elementorum. Omnia
+            <lb ed="#V" n="3"/>etiam organa potentiarum sensitiuarum requirunt
+            deter<lb ed="#V" n="4" break="no"/>minatam proportionem secundum commixtionem
+            aliquo<lb ed="#V" n="5" break="no"/>rum elementorum, a quorum natura corpora caelestia
+            po<lb ed="#V" n="6" break="no"/>nuntur remota. Relinquitur igitur, quod de operationibus
+            <lb ed="#V" n="7"/>animae nulla potest competere copori caelesti nisi duae,
+            in<lb ed="#V" n="8" break="no"/>telligere, &amp; mouere, nam appetere consequitur sensum &amp;
+            <lb ed="#V" n="9"/>intellectum, &amp; cum vtroque coordinatur. Intellectualis
+            au<lb ed="#V" n="10" break="no"/>tem operatio cum non exerceatur per corpus non indiget
+            <lb ed="#V" n="11"/>corpore, nisi inquantum per sensus fantasmata ei ministram
+            <lb ed="#V" n="12"/>tur. Operationes autem animae sensitiuae non conueniunt
+            <lb ed="#V" n="13"/>corporibus caelestibus, vt dictum est, sic ergo propter
+            ope<lb ed="#V" n="14" break="no"/>rationem intellectualem anima corpori caelesti non
+            vnire<lb ed="#V" n="15" break="no"/>tur. Relinquitur ergo, quod propter solam motionem. Ad
+            <lb ed="#V" n="16"/>hoc autem quod moueat non oportet quod vniatur ei
+            ve<lb ed="#V" n="17" break="no"/>forma sed per contactum virtutis, sicut motor vnitur
+            mo<lb ed="#V" n="18" break="no"/>bili.
+          </p>
+          <p xml:id="capsco-b1j8lf-d1e304">
+            Vnde Aristote octauo physi. postquam ostendit quod
+            pri<lb ed="#V" n="19" break="no"/>mum mouens seipsum componitur ex duabus partibus,
+            qua<lb ed="#V" n="20" break="no"/>rum vna est mouens, &amp; alia mota assignans quomodo
+            hae<lb ed="#V" n="21" break="no"/>duae partes vniantur dicit quod per contactum duorum
+            <lb ed="#V" n="22"/>ad inuicem, si vtrunque sit corpus, vel vnius ad alterum
+            <lb ed="#V" n="23"/>&amp; non econuerso, si vnum sit corpus, &amp; aliud non.
+            Platoni<lb ed="#V" n="24" break="no"/>ci autem animas vniri corporibus non ponebant nisi per
+            <lb ed="#V" n="25"/>contactum virtutis, sicut motor mobili, &amp; tunc per hoc
+            <lb ed="#V" n="26"/>quod Plato posuit corpora caelestia animata nihil aliud
+            da<lb ed="#V" n="27" break="no"/>tur intelligi quam quod substantiae spirituales vniuntur
+            <lb ed="#V" n="28"/>corporibus caelestibus vt motores mobilibus. Quia autem
+            <lb ed="#V" n="29"/>corpora caelestia moueantur ab aliqua substantia
+            apprae<lb ed="#V" n="30" break="no"/>hendente, &amp; non solum a natura, vt grauia &amp; leuia, patet
+            <lb ed="#V" n="31"/>ex hoc quod natura non mouet nisi ad vnum, quo habito
+            <lb ed="#V" n="32"/>quiescit, quod in natura corporum caelestium non
+            appa<lb ed="#V" n="33" break="no"/>ret.
+          </p>
+          <p xml:id="capsco-b1j8lf-d1e339">
+            Vnde relinquitur, quod mouentur ab aliqua
+            substan<lb ed="#V" n="34" break="no"/>tia apprehedente. Auguius etiam tertio de trinitate dicit
+            om<lb ed="#V" n="35" break="no"/>nia corpora administrari a Deo per spiritum vitae. Sic
+            igi<lb ed="#V" n="36" break="no"/>tur patet, quod corpora caelestia non sunt animata eo
+            mo<lb ed="#V" n="37" break="no"/>do, quo plantae &amp; animalia, sed aequiuoce. Vnde inter ponem
+            <lb ed="#V" n="38"/>tes ea esse animata, &amp; ponentes ea non animata parua vel
+            <lb ed="#V" n="39"/>nulla differentia inuenitur in re, sed tantum in voce. Haec
+            <lb ed="#V" n="40"/>ille. Ex quibus potest formari talis ratio. Nulla substantia
+            <lb ed="#V" n="41"/>spiritualis vnitur corpori vt forma, nisi tale corpus possit
+            <lb ed="#V" n="42"/>esse instrumentum operationis animae sensitiuae, vel
+            vegeta<lb ed="#V" n="43" break="no"/>tiuae, sed corpus caeleste non potest esse instrumentum talium
+            <lb ed="#V" n="44"/>operationum igitur nulla substantia spiritualis vnitur
+            ei<lb ed="#V" n="45" break="no"/>vt forma, sed solum vt motor.
+          </p>
+          <p xml:id="capsco-b1j8lf-d1e369">
+            Eandem conclusionem &amp;
+            p<lb ed="#V" n="46" break="no"/>bationem ponit de potentia Dei. q. sexta art. sexto. Item de
+            <lb ed="#V" n="47"/>spiritualibus creaturis. q. sexta sic dicit. Circa hanc
+            quaestio<lb ed="#V" n="48" break="no"/>nem fuerunt diuersae opiniones tam inter antiquos
+            philo<lb ed="#V" n="49" break="no"/>sophos quam etiam inter catholicos doctores. Anaxagoras autem
+            <lb ed="#V" n="50"/>aestimanit corpora caelestia esse inanimata vnde ab athenie
+            <lb ed="#V" n="51"/>sibus occisus est. Dixit enim solem esse lapidem accensum.
+            <lb ed="#V" n="52"/>Plato vero &amp; Aristotes &amp; eorum sequaces posuerunt
+            corpo<lb ed="#V" n="53" break="no"/>ra caelestia esse animata. Similiter inter doctores ecclesiae
+            <lb ed="#V" n="54"/>Origenes posuit corpora caelestia animata, quem secutus
+            <lb ed="#V" n="55"/>est Hieronymus, vt patet in quam glosa. ad supra illud
+            Ec<lb ed="#V" n="56" break="no"/>clesiastes primo. Lustrans vniuersa in circuitu pergit
+            spiri<lb ed="#V" n="57" break="no"/>tus. Damascenus vero astra &amp; corpora caelestia dixit inanimata
+            <lb ed="#V" n="58"/>esse. Augutius vero relinquit sub dubio secundo super Genus ad
+            <lb ed="#V" n="59"/>litteram, &amp; in enchi. Vtraque autem opinio rationem
+            pro<lb ed="#V" n="60" break="no"/>babilitatis habet. Consideratio enim nobilitatis corporum
+            <lb ed="#V" n="61"/>caelestium induxit ad ponendum corpora caelestia esse
+            ani<lb ed="#V" n="62" break="no"/>mata, cum in rerum genere viuentia omnibus non
+            viuenti<lb ed="#V" n="63" break="no"/>bus praeferantur. Sed consideratio nobilitatis
+            substantia<lb ed="#V" n="64" break="no"/>rum spiritualium ad contrarium nos inducit, non enim
+            su<lb ed="#V" n="65" break="no"/>periores spirituales substantiae habere possunt de operibus
+            <lb ed="#V" n="66"/>animae, nisi quae pertinent ad intellectum, quia aliae
+            opera<lb ed="#V" n="67" break="no"/>tiones vitae sunt actus animae inquantum est forma
+            corpo<lb ed="#V" n="68" break="no"/>ris corruptibilis transmutabilis, cum quadam enim
+            trans<lb ed="#V" n="69" break="no"/>mutatione &amp; alteratione corporali sunt: intellectus vero
+            <lb ed="#V" n="70"/>superiorum substantiarum non videtur indigere vt a
+            sensi<lb ed="#V" n="71" break="no"/>hilibus cognitionem accipiat, sicut intellectus noster. Si
+            er<lb ed="#V" n="72" break="no"/>go nulla est in eis de operationibus vitae, nisi intelligere &amp;
+            <lb ed="#V" n="73"/>velle, quae non indigent organo corporali, earum dignitas
+            <lb ed="#V" n="74"/>vnionem animae ad corpus excedere videtur. Harum
+            au<lb ed="#V" n="75" break="no"/>tem duarum considerationum secunda efficacior est quam
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="76"/>prima. vnio enim corporis &amp; animae non est propter
+            cor<lb ed="#V" n="77" break="no"/>pus, vt scilicet corpus sic nobilitetur, sed propter animam
+            <lb ed="#V" n="78"/>quae indiget corpore ad sui perfectionem. Si quis autem
+            ma<lb ed="#V" n="79" break="no"/>gis intime consideret forte inueniet in his duabus
+            opinio<lb ed="#V" n="80" break="no"/>nibus aut nullam aut modicam esse differentiam, quod sic
+            <lb ed="#V" n="81"/>intelligendum est. Non enim potest dici, quod motus
+            caele<lb ed="#V" n="82" break="no"/>stis corporis consequatur aliquam formam corpoream
+            si<lb ed="#V" n="83" break="no"/>cut motus sursum consequitur formam ignis. Manifestum
+            <lb ed="#V" n="84"/>est enim, quod vna forma naturalae non inclinat nisi ad vnum.
+            <lb ed="#V" n="85"/>Ratio autem motus repugnat vnitati, quia de ratione
+            mo<lb ed="#V" n="86" break="no"/>tus est, quod aliquid aliter se habeat nunc &amp; prius.
+          </p>
+          <p xml:id="capsco-b1j8lf-d1e463">
+            Vnde
+            <lb ed="#V" n="87"/>non inclinat forma naturalis ad motum propter ipsum
+            <lb ed="#V" n="88"/>motum, sed propter esse in aliquo vbi, quo adaepto
+            quie<lb ed="#V" n="89" break="no"/>scit motus, &amp; sic accideret in motu caeli si consequeretur
+            <lb ed="#V" n="90"/>aliquam formam naturalem. Oportet igitur dicere, quod
+            <lb ed="#V" n="91"/>motus caeli sit ab aliqua substantia intelligente. Nam finis
+            <lb ed="#V" n="92"/>huius motus non potest esse nisi quoddam bonum
+            intelli<lb ed="#V" n="93" break="no"/>gibile abstractum, propter quod mouet substantia
+            intelli<lb ed="#V" n="94" break="no"/>gens, quae mouet caelum, vt scilicet assequatur eius
+            simili<lb ed="#V" n="95" break="no"/>tudinem in mouendo, &amp; vt explicet in actu id, quod
+            virtu<lb ed="#V" n="96" break="no"/>te continetur in illo intelligibili bono, &amp; praecipue
+            comple<lb ed="#V" n="97" break="no"/>tio numeri electorum propter quos omnia alia esse
+            viden<lb ed="#V" n="98" break="no"/>tur. Sic igitur erit duplex ordo substantiarum spiritualium,
+            <lb ed="#V" n="99"/>quorum quaedam erunt motores corporum caelestium, &amp;
+            <lb ed="#V" n="100"/>vniuntur eis sicut motores mobilibus. Sic enim dicit
+            Au<lb ed="#V" n="101" break="no"/>gustnus tertio de trinitate, quod omnia corpora reguntur a
+            <lb ed="#V" n="102"/>Deo per spiritum vitae rationalem. Et idem habetur a
+            Gre<lb ed="#V" n="103" break="no"/>go. quarto dialogorum. Quaedam uero erunt fines horum
+            <lb ed="#V" n="104"/>motuum, quae sunt omnino abstractae, &amp; corporibus non
+            <lb ed="#V" n="105"/>vnitae. Aliae vero vniuntur corporibus caelestibus per
+            mo<lb ed="#V" n="106" break="no"/>dum, quo motor vnitur mobili. Et hoc videtur sufficere
+            <lb ed="#V" n="107"/>ad saluandum intentionem Platonis &amp; Aristote Et de
+            Pla<lb ed="#V" n="108" break="no"/>tone quidem manifestum est. Plato enim etiam corpus
+            hu<lb ed="#V" n="109" break="no"/>manum non aliter dixit animatum, nisi inquantum
+            ani<lb ed="#V" n="110" break="no"/>ma vnitur corpori vt motor. Ex dictis vero Aristote
+            manife<lb ed="#V" n="111" break="no"/>stum est, quod non ponit in corporibus caelestibus de
+            virtuti<lb ed="#V" n="112" break="no"/>bus animae nisi intellectiuam. Intellectus vero secundum
+            <lb ed="#V" n="113"/>ipsum nullius corporis est actus Dicere autem vlterius, quod
+            <lb ed="#V" n="114"/>corpora caelestia hoc modo sint animata, quo inferiora,
+            <lb ed="#V" n="115"/>quae per animam vegetantur, &amp; sensificantur, repugnat in
+            <lb ed="#V" n="116"/>corruptibilitati corporum caelestium. Sic igitur
+            negandun<lb ed="#V" n="117" break="no"/>est corpora caelestia est animata eo modo, quo ista
+            inferio<lb ed="#V" n="118" break="no"/>ra corpora animantur, non est tamen negandum
+            corpora<lb ed="#V" n="119" break="no"/>caelestia esse animata, si per animationem nihil aliud
+            intelli<lb ed="#V" n="120" break="no"/>gatur quam vnio motoris ad mobile. Et istos duos modos
+            <lb ed="#V" n="121"/>videtur Augusins tangere secundo super Genus ad litteram.
+            Di<lb ed="#V" n="122" break="no"/>cit enim Solet quaeri, Vtrum caeli luminaria ista conspicua
+            <lb ed="#V" n="123"/>corpora sola sint, an habeant rectores quosdam spiritus
+            <lb ed="#V" n="124"/>suos. Et si habent, vtrum ab eis etiam vitaliter inspirentur,
+            <lb ed="#V" n="125"/>sicut, animantur carnes per animas animalium. Sed licet
+            <lb ed="#V" n="126"/>ipse sub dubio vtrunque relinquat, vt per sequentia patet,
+            <lb ed="#V" n="127"/>secundum praemissa dicendum est, quod habent rectores
+            <lb ed="#V" n="128"/>spiritus, a quibus tamen non sic animatur, sicut inferiora
+            <lb ed="#V" n="129"/>animalia a suis animabus. Haec ille.
+          </p>
+          <p xml:id="capsco-b1j8lf-d1e559">
+            Et intendit rationem
+            <lb ed="#V" n="130"/>superius dictam scilicet nulla forma vnitur materiae, nisi propter
+            <lb ed="#V" n="131"/>aliquam indigentiam materiae, vel corporis ad suam
+            pro<lb ed="#V" n="132" break="no"/>priam operationem, sed substantia spirituallis in nullo
+            in<lb ed="#V" n="133" break="no"/>diget materia, vel corpore caelesti ad suam operationem,
+            er<lb ed="#V" n="134" break="no"/>go nec vnitur ei vt forma. Simile dicit secundo sententia.
+            <lb ed="#V" n="135"/>rum distinct. octaua quaest. prima arti. primo &amp; secundo
+            <lb ed="#V" n="136"/>contra Gen. cap. 56. &amp; in multis aliis locis. Et in hoc
+            pri<lb ed="#V" n="137" break="no"/>mus arti. terminatur.
+          </p>
+        </div>
+        <div xml:id="capsco-b1j8lf-Dd1e580">
+          <head xml:id="capsco-b1j8lf-Hd1e582">Articulus 2</head>
+          <p xml:id="capsco-b1j8lf-d1e584">
+            <lb ed="#V" n="138"/><milestone ed="#V" unit="p" rend="initial"/> Vantum ad secundum articulum recitabuntur
+            obie<lb ed="#V" n="139" break="no"/>ctiones Aureolus qui conatur probare, quod
+            intelligen<lb ed="#V" n="140" break="no"/>tia se habet omnino ad corpora caelestia, vel ad corpus
+            cae<lb ed="#V" n="141" break="no"/>leste, sicut forma ignis ad materiam, excepto quod non dat
+            <lb ed="#V" n="142"/>sibi actum primum, dat tamen sibi omnes secundas
+            perfe<lb ed="#V" n="143" break="no"/>ctiones, quod est proprium soli formae. Nam motus
+            circu<lb ed="#V" n="144" break="no"/>laris, &amp; figura sphaerica, &amp; debita qutitas, &amp; densitas, &amp;
+            rari<lb ed="#V" n="145" break="no"/>tas sunt in corpore caelesti sequele horum spirituum, eo
+            <lb ed="#V" n="146"/>modo quo accidentia propria ignis sunt sequelae formae
+            <lb ed="#V" n="147"/>ignis. Hanc autem positionem probat primo sic. Nam
+            ta<lb ed="#V" n="148" break="no"/>les spiritus sunt principium motus &amp; quietis, non per
+            mo<lb ed="#V" n="149" break="no"/>dum contactus etiam virtualis. Formae enim abstracte non
+            <lb ed="#V" n="150"/>agunt per huiusmodi contactum secundum
+            Commenta<pb ed="#V" n="281"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>torem in de somno &amp; vigilias, sed sunt principium motus
+            <lb ed="#V" n="2"/>modo formae naturalis, quia motus circularis est sequela
+            <lb ed="#V" n="3"/>istarum formarum in corpore coelesti, sicut formam terrae
+            <lb ed="#V" n="4"/>consequitur grauitas &amp; motus deorsum. Et quod hoc
+            mo<lb ed="#V" n="5" break="no"/>do largiatur intelligentia corpori coelesti motum suum,
+            <lb ed="#V" n="6"/>&amp; non impellendo per virtutem, vt alij opinantur. Vnde
+            Con<lb ed="#V" n="7" break="no"/>mentator primo coeli, commento. quinto vbi quaerit, quae
+            <lb ed="#V" n="8"/>est ista natura, per quam corpus coeleste nec est graue, nec
+            <lb ed="#V" n="9"/>leue, nec aptum moueri nisi circulariter, &amp; quid est
+            princi<lb ed="#V" n="10" break="no"/>pium naturale istius motus, subdit. Dicamus igitur, quod
+            <lb ed="#V" n="11"/>formae abstractae secundum quod sunt formae absolutae in
+            <lb ed="#V" n="12"/>natae sunt vt motum ab eis sit rotundum, &amp;, vt illud quod ab
+            <lb ed="#V" n="13"/>eis mouetur neque sit graue, neque leue, sicut innata est
+            for<lb ed="#V" n="14" break="no"/>ma ignis vt habeat propriam materiam. Dicitur igitur hoc
+            <lb ed="#V" n="15"/>nomen natura, secundum hoc non dicitur de forma ista,
+            si<lb ed="#V" n="16" break="no"/>cut dicitur de formis aliorum simplicium, sed aequiuoce.
+          </p>
+          <p xml:id="capsco-b1j8lf-d1e653">
+            <lb ed="#V" n="17"/>Item secundo tractatu de substantia orbis confirmat hanc
+            <lb ed="#V" n="18"/>rationem dicens, hoc corpus non esse graue, neque leue, &amp;
+            <lb ed="#V" n="19"/>moueri circulariter, quae mobilitas est de genere animae,
+            <lb ed="#V" n="20"/>haec in sunt corpori caelesti ex sua anima. Vnde dicit, quod
+            <lb ed="#V" n="21"/>necesse est, quod principium motus corporis coelestis sit
+            ge<lb ed="#V" n="22" break="no"/>nus animae, &amp; quod motus circularis quem habet, sit animae
+            <lb ed="#V" n="23"/>proprius secundum quod est anima. Et cum ita sit, sequitur quod
+            <lb ed="#V" n="24"/>illa natura,, quae facit eum non esse graue, neque leue, &amp;
+            mo<lb ed="#V" n="25" break="no"/>ueri circulariter, sit anima. Natura igitur illius corporis
+            <lb ed="#V" n="26"/>non est nisi a natura animae mouentis. Et sequitur infra. Et
+            <lb ed="#V" n="27"/>quod corpus caeleste sit materia animarum coelestium. Et
+            in<lb ed="#V" n="28" break="no"/>fra. Corpus igitur caeleste est quasi materia illius formae
+            ab<lb ed="#V" n="29" break="no"/>stractae, &amp; est materia in actu, quod dicit, quia illa forma non
+            <lb ed="#V" n="30"/>dat corpori actum primum. Et infra. Debes scire, quod corpus
+            <lb ed="#V" n="31"/>coeleste non tantum indiget virtute mouente in loco
+            sem<lb ed="#V" n="32" break="no"/>per tantum, sed virtute largiente in se, &amp; in sua substantia
+            <lb ed="#V" n="33"/>permanentiam aeternam, &amp; mensuram propriam istorum
+            <lb ed="#V" n="34"/>corporum, &amp; conuenientiam inter ea adinuicem in
+            ordi<lb ed="#V" n="35" break="no"/>ne &amp; quantitate, ita quod ex ipsis corporibus perficiatur vnum
+            <lb ed="#V" n="36"/>in actu scilicetotus mundus. Nulla enim differentia est inter
+            in<lb ed="#V" n="37" break="no"/>digentiam virtutis in quolibet corpore simplici, &amp; in
+            vno<lb ed="#V" n="38" break="no"/>corpore composito ex corporibus simplicibus, &amp;
+            indiffe<lb ed="#V" n="39" break="no"/>renter siue illud corpus sit generatum, siue non generatum.
+            <lb ed="#V" n="40"/>Vnde videmus coelum habere vnam virtutem non tantum
+            <lb ed="#V" n="41"/>immouentem, sed etiam conseruantem, sicut est dispositio
+            <lb ed="#V" n="42"/>de corpore hominis, &amp; de omni corpore facto propter
+            pro<lb ed="#V" n="43" break="no"/>prium finem. Finis enim significat agens propria &amp; vera
+            <lb ed="#V" n="44"/>significatione sicut motus mouens. Haec Commentator.
+            <lb ed="#V" n="45"/>Ex quibus apparet, quod secundum eum motus &amp; omnes aliae
+            <lb ed="#V" n="46"/>proprietates, quae sunt in caelo, omnes sunt naturales
+            seque<lb ed="#V" n="47" break="no"/>lae formarum separatarum, ita quod formae illae agunt istas
+            p<lb ed="#V" n="48" break="no"/>prietates non causalitate efficientis, sed formae, quae a
+            Con<lb ed="#V" n="49" break="no"/>mentatore dicitur causalitas agentis.
+          </p>
+          <p xml:id="capsco-b1j8lf-d1e727">
+            Item ibidem statim
+            <lb ed="#V" n="50"/>post dicta verba improbat opinionem dicentium, quod
+            sub<lb ed="#V" n="51" break="no"/>stantia separata erat tantummodo mouens coelum, quasi
+            <lb ed="#V" n="52"/>coelum esset in dispositionibus suis, &amp; quod anima nihil
+            <lb ed="#V" n="53"/>haberet facere cum eo, nisi mouere ipsum tantum, &amp; dicit
+            <lb ed="#V" n="54"/>quod hoc fuit absurdum apud Aristes &amp; quod per agens intelligat
+            <lb ed="#V" n="55"/>formam, &amp; non agens, patet, quia exponit se dicens, quod
+            <lb ed="#V" n="56"/>mouens coelum est agens ipsum. 1. quia largitur ei
+            disposi<lb ed="#V" n="57" break="no"/>tiones, per quas acquirit motum proprium. Quia si anima
+            <lb ed="#V" n="58"/>siue intelligentia mouerent caelum solo contactu, esset
+            mo<lb ed="#V" n="59" break="no"/>uens, &amp; non agens.
+          </p>
+          <p xml:id="capsco-b1j8lf-d1e751">
+            Secundo principaliter arguit. Quia
+            se<lb ed="#V" n="60" break="no"/>cundum philosophum &amp; Commentatorem istae formae
+            ha<lb ed="#V" n="61" break="no"/>bent subiectum fixum &amp; determinatum, a quo sunt
+            inse<lb ed="#V" n="62" break="no"/>parabiles, habere autem subiectum fixum, &amp;
+            determina<lb ed="#V" n="63" break="no"/>tum, &amp; esse inseparabile ab eo, sunt conditiones formae
+            ma<lb ed="#V" n="64" break="no"/>terialis. Et hoc est, quod Commentator dicit secundo
+            caeli<lb ed="#V" n="65" break="no"/>Veritas (inquit) est, quod haec natura &amp; loquitur de anima
+            <lb ed="#V" n="66"/>caelesti est aliquid simile formae materiali, &amp; aliquid quod
+            <lb ed="#V" n="67"/>est simile formae abstractae. Assimilatur enim formae
+            mate<lb ed="#V" n="68" break="no"/>riali, quia dat huic corpori motum circularem, &amp; quia est
+            <lb ed="#V" n="69"/>in corpore, quod mouetur per illam. Et in libello de substam
+            <lb ed="#V" n="70"/>tia orbis dicit, quod fuit declaratum ab Arites de corporibus
+            <lb ed="#V" n="71"/>caelestibus eorum formas existere in suis subiectis tali
+            existen<lb ed="#V" n="72" break="no"/>tia, quod non diuiduntur diuisione sui subiecti. Et subdit.
+            <lb ed="#V" n="73"/>Non est dicendum, quod formae quibus mouentur corpora
+            cae<lb ed="#V" n="74" break="no"/>lestia, sint aliae ab aliis formis, ad quas mouentur, quasi illae
+            <lb ed="#V" n="75"/>quae debent esse absque materia omnino, &amp; carere situ sint
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="76"/>formae, ad quas mouentur. Et infra tractatu secundo dicit,
+            <lb ed="#V" n="77"/>quod materia corporis caelestis dicitur dignius secundum quam
+            ma<lb ed="#V" n="78" break="no"/>Materia enim dicitur materia, quae est in potentia ad
+            for<lb ed="#V" n="79" break="no"/>mam, subiectum autem dicitur quod est fixum respectu
+            <lb ed="#V" n="80"/>formae. Et infra in eodem libello dicit, quod necesse est esse
+            ani<lb ed="#V" n="81" break="no"/>mam existentem in eo.
+          </p>
+          <p xml:id="capsco-b1j8lf-d1e804">
+            Item primo coeli, commento. 13.
+            di<lb ed="#V" n="82" break="no"/>cit, quod non sic est de illo corpore coelesti, quod est
+            mate<lb ed="#V" n="83" break="no"/>ria formae corporis caelestis, sicut est de alia materia, quia
+            il<lb ed="#V" n="84" break="no"/>la. est intellecta in actu, &amp; intelligibile in vltimis suis
+            dispo<lb ed="#V" n="85" break="no"/>sitionibus.
+          </p>
+          <p xml:id="capsco-b1j8lf-d1e815">
+            Item secundo caeli dicit, quod Aries non consundit
+            <lb ed="#V" n="86"/>demonstrationem, quod coelum habet motum talem &amp;
+            figu<lb ed="#V" n="87" break="no"/>ram inquantum est animal. Ex quibus patet, quod secundum
+            <lb ed="#V" n="88"/>Commentatorem &amp; Aristeles intelligentiae sunt aliquo
+            mo<lb ed="#V" n="89" break="no"/>do formae materiales, &amp; quodam modo non. Tertio
+            prin<lb ed="#V" n="90" break="no"/>cipaliter arguit sic. Quia Commetator in de substantia
+            <lb ed="#V" n="91"/>orbis dicit, quod in animalibus, quae hic sunt videtur, quod
+            ani<lb ed="#V" n="92" break="no"/>mae eorum sint necesse in esse suorum corporum, &amp; quod non
+            <lb ed="#V" n="93"/>saluarentur nisi per sensibilem animam &amp; per fantasiam.
+            <lb ed="#V" n="94"/>Corpus autem caeleste, quia est simplex &amp; non
+            transmuta<lb ed="#V" n="95" break="no"/>bile ab aliquo extrinseco, non indiget in in suo esse anima
+            <lb ed="#V" n="96"/>sensibili, nec imaginatiua, sed tantum indiget anima ipsum
+            <lb ed="#V" n="97"/>mouente in loco &amp; virtute, quae non sit corpus. Et 12.
+            me<lb ed="#V" n="98" break="no"/>ta. dicit quod bene apparet corpora caelestia esse animata, &amp; quod
+            <lb ed="#V" n="99"/>non habent de virtutibus animae, nisi intellectum &amp;
+            virtu<lb ed="#V" n="100" break="no"/>tem desideratiuam, quae mouet in loco.
+          </p>
+          <p xml:id="capsco-b1j8lf-d1e850">
+            Item septimo
+            meta<lb ed="#V" n="101" break="no"/>phy. dicit de calore qui est in semine, &amp; de virtute diuina
+            <lb ed="#V" n="102"/>in eo existente, quod non est in calore sicut est anima in corpore
+            <lb ed="#V" n="103"/>naturali, sed ita quod est inclusa in eo sicut anima est inclusa
+            <lb ed="#V" n="104"/>in corporibus coelestibus. Et in de substanaia orbis
+            secun<lb ed="#V" n="105" break="no"/>do tractatu dicit, quod corpora caeiestia sunt subiecta animarum
+            <lb ed="#V" n="106"/>fixarum in eis. Et hinc est, quod philosophus &amp; Commentator
+            <lb ed="#V" n="107"/>octauo. phys. dicunt formam motricem esse in parte, vbi
+            <lb ed="#V" n="108"/>maxime apparet eius effectus scilicet in circulo maiori. Et in
+            se<lb ed="#V" n="109" break="no"/>cundo coeli dicit Commentator quod in parte orientali, ibi
+            <lb ed="#V" n="110"/>enim maxime apparet eius effectus. Ex quibus apparet, quod
+            <lb ed="#V" n="111"/>intelligentia mouens caelum est anima eius quodammon &amp;
+            <lb ed="#V" n="112"/>forma. Nam illa quae dicta sunt non competunt formis
+            ab<lb ed="#V" n="113" break="no"/>stractis omni mo abstractionis.
+          </p>
+          <p xml:id="capsco-b1j8lf-d1e881">
+            Quarto arguit sic. Si hoc
+            <lb ed="#V" n="114"/>debet negari a theologo. Aut hoc esset, quia hac
+            positio<lb ed="#V" n="115" break="no"/>ne posita, sequitur, quod caelum esset quoddam compositum
+            <lb ed="#V" n="116"/>nobilius homine. Aut secundo quia videtur sequi, quod sol &amp;
+            <lb ed="#V" n="117"/>luna, &amp; stellae possent rationabiliter adorari, vel saltem
+            pos<lb ed="#V" n="118" break="no"/>set eis honor exhiberi, cum essent substantiae ita nobiles,
+            <lb ed="#V" n="119"/>immo beatae. Aut tertio quia ex quo habent liberum
+            arbi<lb ed="#V" n="120" break="no"/>trium, poterunt peccare sicut angeli, &amp; tunc videtur sequi,
+            <lb ed="#V" n="121"/>quod aut sunt damnati &amp; sunt de consortio daemonum, quod
+            <lb ed="#V" n="122"/>est erroneum, vel sunt boni &amp; de consortio angelorum, &amp;
+            <lb ed="#V" n="123"/>tunc debent coli, &amp; posset fieri festum de sole, sicut de
+            Michae<lb ed="#V" n="124" break="no"/>le. Aut quarto quia videtur sequi, quod si motus caeli est sequela
+            <lb ed="#V" n="125"/>illarum formarum, tunc non cessaret post iudicium, aut
+            il<lb ed="#V" n="126" break="no"/>lae formae remanerent ociosae. Aut quinto, quia haec positio
+            <lb ed="#V" n="127"/>contradixit Augustinus qui videtur dicere, quod spiritus mouentes
+            <lb ed="#V" n="128"/>caelos sunt angeli, ac per hoc missi, sed non essent missi, si
+            <lb ed="#V" n="129"/>essent naturaliter vniti. Aut sexto, quia non videtur vtrum
+            <lb ed="#V" n="130"/>post iudicium illi spiritus separentur perpetuo ab illis
+            cor<lb ed="#V" n="131" break="no"/>poribus, quia tunc essent perpetuo modo eis innaturali, &amp;
+            <lb ed="#V" n="132"/>per consequens retardarentur a sua beatitudine, nec tota
+            <lb ed="#V" n="133"/>intentione ferrentur in illud summum bonum propter
+            <lb ed="#V" n="134"/>desiderium administrandi corpora, sicut Augustinus dicit de anima
+            <lb ed="#V" n="135"/>hominis: vel vtrum perpetuo remanerent vniti corporibus
+            <lb ed="#V" n="136"/>sicut spiritus humani, quia hoc videtur absurdum. Aut
+            <lb ed="#V" n="137"/>septimo, quia videtur quod illi spiritus essent ibi artati ad
+            lo<lb ed="#V" n="138" break="no"/>cum, nec possent moueri, nisi illa corpora secum mouerent,
+            <lb ed="#V" n="139"/>&amp; ita essent affixi corporibus, quod videtur mu. tum
+            repu<lb ed="#V" n="140" break="no"/>gnare enti libero. Non enim possent se mouere ad
+            aliqua<lb ed="#V" n="141" break="no"/>locum, nisi secum trahendo caelum, si caelo naturaliter sunt
+            <lb ed="#V" n="142"/>vniti. Aut octauo. quia coelum empyreum, quod est immnbi
+            <lb ed="#V" n="143"/>le, non habet spiritum aliquem sibi vnitum naturaliter, &amp;
+            <lb ed="#V" n="144"/>tamen est nobilius aliis caelis, cum eos contineat, &amp; ita nec
+            <lb ed="#V" n="145"/>alii debent habere: si inquam illa positio esset neganda,
+            ma<lb ed="#V" n="146" break="no"/>xime videretur propter aliquod illorum octo, sed nullum
+            <lb ed="#V" n="147"/>istorum debet mouere. Non quidem primum. Nam non
+            <lb ed="#V" n="148"/>est conueniens concedere coelum nobilius homine, li et
+            <lb ed="#V" n="149"/>scriptura dicat coelum esse factum propter seruitium
+            ho<lb ed="#V" n="150" break="no"/>minis. Nam &amp; angeli sunt nobilioris naturae quam
+            ho<pb ed="#V" n="282"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>mo, &amp; tamen sunt propter hominem quia omnes sunt admini
+            <lb ed="#V" n="2"/>stratorij spiritus in misterium missi propter eos qui
+            here<lb ed="#V" n="3" break="no"/>ditatem capiunt salutis secundum apostolum. Nec obstat, quod
+            dicit<lb ed="#V" n="4" break="no"/>nobilius non ordinari ad ignobile. Hoc enim est verum prima
+            <lb ed="#V" n="5"/>intentione, non secunda, vt tangit Ariste secundo. coeli, &amp;
+            <lb ed="#V" n="6"/>12. metaphy.
+          </p>
+          <p xml:id="capsco-b1j8lf-d1e979">
+            Vnde coeli &amp; angeli sunt prima intentione
+            <lb ed="#V" n="7"/>propter nobilitatem Dei. propter quod finis omnium moto.
+            <lb ed="#V" n="8"/>rum caelestium est finis eorum prima intentione. Secunda
+            <lb ed="#V" n="9"/>vero intentione est finis generatio &amp; corruptio &amp;
+            conser<lb ed="#V" n="10" break="no"/>uatio rerum in esse. Nec debet mouere secundum, quia
+            an<lb ed="#V" n="11" break="no"/>tiqui adorantes caelum &amp; stellas erant idolatrae, quia
+            attri<lb ed="#V" n="12" break="no"/>buebant eis rationem primi principij. Nec debet mouere
+            <lb ed="#V" n="13"/>tertium quia spiritus motores corporum coelestium non
+            <lb ed="#V" n="14"/>fuerunt creati ante omnem diem cum aliis angelis
+            incoe<lb ed="#V" n="15" break="no"/>lo empyreo, vbi fuit bonorum confirmatio, &amp; malorum
+            <lb ed="#V" n="16"/>auersio, sed creati sunt cum suis corporibus secunda die,
+            <lb ed="#V" n="17"/>sicut anima rationalis creata est cum corpore, &amp; in
+            corne<lb ed="#V" n="18" break="no"/>humano sexta die. Et ideo licet habuerunt liberum
+            arbi<lb ed="#V" n="19" break="no"/>trium ad bonum &amp; malum, tamen scientes malitiam
+            spi<lb ed="#V" n="20" break="no"/>ritum apostatantium, &amp; eorum damnationem, &amp; gloriam
+            <lb ed="#V" n="21"/>bonorum, facti sunt de consortio angelorum beatorum:
+            <lb ed="#V" n="22"/>Sicut dicit Augutinus in enchi. 35. cap. Nec debet eis fieri festum
+            <lb ed="#V" n="23"/>in speciali &amp; solemnitas, quia licet sit probabile, non
+            con<lb ed="#V" n="24" break="no"/>stat eos esse vnitos. Nec est dubium quin angeli, qui de
+            fa<lb ed="#V" n="25" break="no"/>cto dicuntur mouere corpus coeleste. includantur in
+            com<lb ed="#V" n="26" break="no"/>muni festo angelorum. Propter operationem etiam quam
+            <lb ed="#V" n="27"/>habent in haec inferiora, non debent coli in speciali, quia
+            <lb ed="#V" n="28"/>ista necessario procedunt, &amp; non a libero arbitrio ipsorum
+            <lb ed="#V" n="29"/>Propter duo etiam in speciali non sunt colendi. Primo
+            <lb ed="#V" n="30"/>propter periculum idolatriae, secundo quia est dubium vtrum
+            <lb ed="#V" n="31"/>sint naturaliter vniti, vel tantum voluntarie, tamen non est
+            <lb ed="#V" n="32"/>dubium, quod sol &amp; luna cum sint corpora non sunt
+            veneran<lb ed="#V" n="33" break="no"/>da. Motores vero eorum inter caeteros spiritus venerantur.
+            <lb ed="#V" n="34"/>Nec quartum debet mouere, quia &amp; si motus circularis
+            <lb ed="#V" n="35"/>consequatur illos spiritus, sicut accidentia propria ignis
+            con<lb ed="#V" n="36" break="no"/>sequuntur formam ignis, vt sint in corporibus caelestibus
+            <lb ed="#V" n="37"/>spiritus isti, sicut naturale principium, quia tamen
+            mouen<lb ed="#V" n="38" break="no"/>tur per appetitum ex desiderio primi principii, &amp; ad iussum
+            <lb ed="#V" n="39"/>eius, apprehenso in fine iudicii fine vniuersi, a motu
+            cessa<lb ed="#V" n="40" break="no"/>bunt, motus enim animalis finem habet, f. cta mutatione
+            <lb ed="#V" n="41"/>circa intentum. Ex tunc igitur erunt naturaliter in quiete,
+            <lb ed="#V" n="42"/>sicut homo quandoque stat, quandoque quiescit, &amp; vtroque modo
+            <lb ed="#V" n="43"/>naturaliter. Nec quintum debet mouere, quia illi spiritus
+            <lb ed="#V" n="44"/>non aliter dicuntur missi, nisi quia motus exercent pro
+            con<lb ed="#V" n="45" break="no"/>seruatione hominum, &amp; continuatione ipsorum. Sextum
+            <lb ed="#V" n="46"/>etiam non valet, quia post iudicium a suis corporibus non
+            <lb ed="#V" n="47"/>separabuntur, nec vnquam separati sunt. Non enim possunt
+            <lb ed="#V" n="48"/>ab eis voluntarie separari sicut nec anima a corpore, nec
+            <lb ed="#V" n="49"/>per corporis corruptionem sicut anima, nec per diuinam
+            <lb ed="#V" n="50"/>potentiam, quia hoc non expedit, nec aliquid exigit, licet
+            <lb ed="#V" n="51"/>diuina potentia posset eos separare. Erunt autem
+            perpe<lb ed="#V" n="52" break="no"/>tuo beati &amp; contemplationi vacantes, sicut hodie vacant,
+            <lb ed="#V" n="53"/>&amp; mouent illa corpora. Septimum etiam non obuiat, quia
+            <lb ed="#V" n="54"/>illi spiritus cum sint rationales &amp; intellectuales, nullum
+            <lb ed="#V" n="55"/>impossibile appetunt, nunquam igitur desiderant esse,
+            ali<lb ed="#V" n="56" break="no"/>bi, sicut nec boni spiritus optant esse extra corpora
+            secun<lb ed="#V" n="57" break="no"/>dum illud apostoli. Nolumus spoliari. nec isti spiritus
+            reliu<lb ed="#V" n="58" break="no"/>quere corpora sua appetunt, vt intra partes orbium hinc
+            <lb ed="#V" n="59"/>aut illinc possint discurrere. Octauum denique non obuiat,
+            <lb ed="#V" n="60"/>quia caelum empyreum non est animatum, quia nec
+            mo<lb ed="#V" n="61" break="no"/>tus eius nec aliquid apparens videtur hoc pbare. Tamen
+            <lb ed="#V" n="62"/>posito quod non sit animatum, adhuc sua corporeitas est
+            no<lb ed="#V" n="63" break="no"/>bilior corporeitate caelorum mobilium, per eo quod
+            huiusmo<lb ed="#V" n="64" break="no"/>di corpora aliquid participant de ratione materiae, quia non
+            <lb ed="#V" n="65"/>sunt in vltima perfectione, nisi ex alio scilicet intelligentia a coelum
+            <lb ed="#V" n="66"/>autem empyreum ex se est in suis dispositionibus.
+          </p>
+          <p xml:id="capsco-b1j8lf-d1e1112">
+            Quinto
+            <lb ed="#V" n="67"/>principaliter arguit sic. Quia non videtur fidei dissonare,
+            <lb ed="#V" n="68"/>immo videtur sequi ex munstis quae fides tenet, quod motores
+            <lb ed="#V" n="69"/>orbium non tamemnmodo se habeant ad caelos, sicut figulus ad
+            <lb ed="#V" n="70"/>rotam. Quod apparet, quia caeli secundum fidem sunt principium &amp;
+            <lb ed="#V" n="71"/>ca efficiens multorum animatorum, quod est fortissimum
+            ar<lb ed="#V" n="72" break="no"/>gumentum, quod in eis sit spiritus &amp; corpus, sicut dicit
+            Commen<lb ed="#V" n="73" break="no"/>tator. 12. metaphy. 1. possibile est enim, quod purum corpus
+            <lb ed="#V" n="74"/>sit causa in essendo, &amp; conseruando ipsius animati. Nec hoc
+            <lb ed="#V" n="75"/>posset saluari, si illi spuns tantumon vnirentur in ratione
+            mo<cb ed="#V" n="b"/><lb ed="#V" n="76" break="no"/>toris, cum motor nihil faciat ad actionem, quae prouenit
+            <lb ed="#V" n="77"/>ex mobili, nisi quia applicat actiua passiuis Tum secundo
+            <lb ed="#V" n="78"/>quia in caelo apparent virtutes quae non possunt reduci in
+            <lb ed="#V" n="79"/>corporeitatem caeli. Oriens enim habet specialem virtutem
+            <lb ed="#V" n="80"/>vnde est Dextrum caeli. Occidens etiam, habet suam
+            specia<lb ed="#V" n="81" break="no"/>lem virtutem, &amp; similiter meridies, &amp; sic de aliis domibus
+            <lb ed="#V" n="82"/>Probatur enim experimento, quod idem planeta in alia &amp; alia
+            <lb ed="#V" n="83"/>domo habet aliam &amp; aliam virtutem, quod maxime
+            relu<lb ed="#V" n="84" break="no"/>aliam &amp; aliam virtutem, sicut patet in motu acus praecedem
+            <lb ed="#V" n="85"/>te alteratione adamantis. Nec hoc potest atribui stellis,
+            <lb ed="#V" n="86"/>quia in polo antartico non est stella.
+          </p>
+          <p xml:id="capsco-b1j8lf-d1e1160">
+            Vnde si stella nautica
+            <lb ed="#V" n="87"/>mutaret locum, adhuc ille polus haberet eandem virtutem
+            <lb ed="#V" n="88"/>igitur necesse est, quod tales virtutes deriuentur a caelo in
+            uir<lb ed="#V" n="89" break="no"/>tute animae sibi vnitae non enim potest attribui naturalibus
+            <lb ed="#V" n="90"/>partibus corporis. Tum tertio quia quaero an caeli sint
+            in<lb ed="#V" n="91" break="no"/>differentes ad motum circularem, aut naturaliter ad ipsum
+            <lb ed="#V" n="92"/>inclinentur. Si sint indifferentes, igitur motus non est
+            natu<lb ed="#V" n="93" break="no"/>ralis. Si vero habent inclinationem ad illum. quaero ista inclinatio
+            <lb ed="#V" n="94"/>prius animae nec conuenit corpori vt sic. Tunc quarto quia
+            <lb ed="#V" n="95"/>esset in eo principium naturale, ergo non esset corpus physicum:
+            <lb ed="#V" n="96"/>&amp; haec est ratio philosophi primo caeli. Et si dicatur, quod ideo
+            rema<lb ed="#V" n="97" break="no"/>net physicum, quia est principium alterationis in rebus. Non
+            <lb ed="#V" n="98"/>valet, quia omne corpus physicum non tantum habet principium motus,
+            <lb ed="#V" n="99"/>qu. est alteratio vel gnratio, sed hoc hebtem inqutum est principium
+            <lb ed="#V" n="100"/>motus localis. Nullum enim corpus physicum siue sit simplex,
+            si<lb ed="#V" n="101" break="no"/>ue mixtum caret motu locali, ad quem non sit determinatum ex
+            <lb ed="#V" n="102"/>principio naturali intrinseco. Sequitur etiam quod nec figura
+            sphaeri<lb ed="#V" n="103" break="no"/>ca, nec aliqua proprietas erit caelo naturalis, nisi detur
+            prin<lb ed="#V" n="104" break="no"/>cipium naturale intrinsecum determinans ad tales pprietates.
+            <lb ed="#V" n="105"/>laris, inquantum corporeitas est. Et haec est intentio philosophi
+            <lb ed="#V" n="106"/>&amp; Comentatoris secundo caeli, vbi arguit contra ponentes
+            <lb ed="#V" n="107"/>ignem habere figuram pyramidalem, quia corpus nobilius, vbi dicit
+            <lb ed="#V" n="108"/>consequenter, quod corpus non habet talem figuram, quia corpus
+            <lb ed="#V" n="109"/>sed quia animatum. Tu quinto quia aliter non apparet, quo
+            <lb ed="#V" n="110"/>isti spiritus possent mouere illud corpus aut enim impelle
+            <lb ed="#V" n="111"/>do ante se, aut trahendo post se, aut quocunque vis, necesse
+            <lb ed="#V" n="112"/>est illos spiritus mouere localiter motu circulari. Vel si sint
+            in<lb ed="#V" n="113" break="no"/>mobiles, stabuntem in determinata parte orbis, pellendo
+            par<lb ed="#V" n="114" break="no"/>tem post partem si sint in oriente, vel trahendo ad se, si essent
+            <lb ed="#V" n="115"/>in occidente. &amp; sic sunt in continuo tractu vel pulsu, &amp; tunc
+            <lb ed="#V" n="116"/>caelum aliquando moueretur tardius, aliquando velocius. Et si dicatur,
+            <lb ed="#V" n="117"/>quod moueret sola voluntate, hoc est impossibile, nisi per hoc
+            <lb ed="#V" n="118"/>quod est sibi proprium &amp; naturaliter vnitum, sicut anima habet
+            do<lb ed="#V" n="119" break="no"/>minium supra corpus.
+          </p>
+          <p xml:id="capsco-b1j8lf-d1e1234">
+            Sexto principaliter arguit, quod ista
+            posi<lb ed="#V" n="120" break="no"/>tio videtur diuinam potentia magnificare. Mangificatur enim
+            <lb ed="#V" n="121"/>creator ex magnitudine speciei creaturae, sicut dicit sapiens.
+            <lb ed="#V" n="122"/>Si igitur deus sc ordinauit vniuersum, quod dispositis esemens
+            <lb ed="#V" n="123"/>tis &amp; inferioribus superposuit animalia totum mundum
+            <lb ed="#V" n="124"/>causantia &amp; regentia &amp; conseruantia, vniuersa tamen sub
+            <lb ed="#V" n="125"/>eius arbitrio, ita quod ordinem istum &amp; actionem valet
+            immu<lb ed="#V" n="126" break="no"/>tare, sicut habetur de actione ignis in camino puerorum, si
+            <lb ed="#V" n="127"/>tali modo ponatur, non apparet, quod repugnet diuinae
+            poten<lb ed="#V" n="128" break="no"/>mento. 632. dicit, quod in genere animatorum nobilius anima
+            <lb ed="#V" n="129"/>tum est caelum primum, quod mouetur motu diurno. Et
+            <lb ed="#V" n="130"/>12. metaphy. commento. 36. dicit, quod corpora caelestia cum
+            <lb ed="#V" n="131"/>habeant appetitum propter intellectum, necesse est illa
+            es<lb ed="#V" n="132" break="no"/>se nobiliora corporum sensibilium. Et ibidem dicit, quod principium
+            <lb ed="#V" n="133"/>omnium substantiarum sunt anima &amp; corpus, aut intellectus &amp; anima
+            <lb ed="#V" n="134"/>&amp; desiderium tantum, quae sunt corpora caelestia. Quia enim sunt
+            <lb ed="#V" n="135"/>cet in motu martis. Polus etiam articus &amp; antarticus habent
+            <lb ed="#V" n="136"/>a quo est. non enim potest esse a figura specifica, quia motus
+            <lb ed="#V" n="137"/>est causa, quod sit in tali figura, &amp; non econuerso. Nec oritur illa
+            in<lb ed="#V" n="138" break="no"/>clinatio a natura corporeitatis, qua motus circularis est pr
+            <lb ed="#V" n="139"/>corpus caeleste tunc esset corpus mathematicum, quia non
+            <lb ed="#V" n="140"/>Corporeitas enim caeli posset esse figurae oualis, sicut
+            circu<lb ed="#V" n="141" break="no"/>tiae.
+          </p>
+          <p xml:id="capsco-b1j8lf-d1e1284">
+            Septimo arguit. Quia Commentator secundo caeli,
+            com<lb ed="#V" n="142" break="no"/>principia animatorum, fuit necesse, vt essent anima, &amp; vt
+            prin<lb ed="#V" n="143" break="no"/>cipia eorum sint anima &amp; corpus. Item de substantia orbis
+            di<lb ed="#V" n="144" break="no"/>cit, quod caelum dicitur vinum per principium separatum, quod
+            <lb ed="#V" n="145"/>est in eo, non per principium, quod est pars in eo aliquod
+            <lb ed="#V" n="146"/>Vnde est uiuum &amp; appetens &amp; motum in loco
+            vniuersali<lb ed="#V" n="147" break="no"/>ter, non vero tantum est intelligens per partem sui, hoc
+            <lb ed="#V" n="148"/>est quia intellectus copulatur homini per partem sui, puta
+            <lb ed="#V" n="149"/>per fantasmata. Et ideo non est vniuersaliter intelligens
+            <lb ed="#V" n="150"/>per omnes partes suas, sed suum intelligere uiget in
+            de<pb ed="#V" n="283"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>terminata parte, non formaliter, sed obiectiue. Forma vero
+            <lb ed="#V" n="2"/>corporis caelestis, eo quod vnitur sibi, non mediante parte
+            <lb ed="#V" n="3"/>aliqua, dat corpori coelesti, quod sit intelligens
+            vniuersali<lb ed="#V" n="4" break="no"/>ter secundum motum. Et hoc est, quod idem
+            Commenta<lb ed="#V" n="5" break="no"/>tor ait secundo caeli, comment. 3. quod haec corpora sunt
+            intel<lb ed="#V" n="6" break="no"/>lectiua &amp; animata secundum vniuersum, propter hoc quod formae
+            <lb ed="#V" n="7"/>eorum non sunt diuisibiles secundum corporis diuisionem. Ex quibus
+            <lb ed="#V" n="8"/>videtur, quod caelum sit animatum, ac per hoc quod intelligentia sit aliquo
+            <lb ed="#V" n="9"/>modo eius forma. Haec ille. Et in hoc 2. articul. terminatur.
+          </p>
+        </div>
+        <div xml:id="capsco-b1j8lf-Dd1e1329">
+          <head xml:id="capsco-b1j8lf-Hd1e1331">Articulus 3</head>
+          <p xml:id="capsco-b1j8lf-d1e1333">
+            <lb ed="#V" n="10"/><milestone ed="#V" unit="p" rend="initial"/> QVantum ad tertium articulum respondendum est
+            prae<lb ed="#V" n="11" break="no"/>dictis obiectionibus. Et quidem ad primum negatur
+            <lb ed="#V" n="12"/>antecedens scilicet quod intelligentia sit principium motus corporis
+            <lb ed="#V" n="13"/>coelestis ad modum formae naturalis, immo ad modum
+            mo<lb ed="#V" n="14" break="no"/>toris voluntarij. Et ad dicta Commentatoris dicitur, quod
+            nun<lb ed="#V" n="15" break="no"/>quam Commentatoris mens fuit, quod aliqua substantia
+            spi<lb ed="#V" n="16" break="no"/>ritualis &amp; intellectualis posset esse forma alicuius corporis
+            <lb ed="#V" n="17"/>proprie loquendo de forma, sicut patet ex dictis eius in 3. de
+            <lb ed="#V" n="18"/>anima, comment. 5. vbi conatur astruere, quod intellectus
+            <lb ed="#V" n="19"/>possibilis non sit forma corporis humani, nec
+            multiplica<lb ed="#V" n="20" break="no"/>tus ad multiplicationem hominum, sed vnus omnium, &amp;
+            <lb ed="#V" n="21"/>separatus secundum esse a quolibet homine, &amp; a qualibet materia, &amp;
+            <lb ed="#V" n="22"/>quolibet corpore. Quid autem requiratur ad hoc, quod aliquod
+            <lb ed="#V" n="23"/>sit proprie forma corporis vel materiae, ostendit Sanctus Thomas 2.
+            <lb ed="#V" n="24"/>contra Gentil. cap. 68. Ad hoc (inquit) quod aliquid sit
+            for<lb ed="#V" n="25" break="no"/>ma substantialis alterius duo requiruntur, quorum vnum est
+            <lb ed="#V" n="26"/>vt forma sit principium essendi substantialiter ei, cuius est
+            <lb ed="#V" n="27"/>forma. Principium autem dico non efficiens, sed formale,
+            <lb ed="#V" n="28"/>quo aliquid est, &amp; denominatur ens. Aliud est quod sequitur
+            <lb ed="#V" n="29"/>ex primo scilicet quod forma &amp; materia conueniant in vno esse,
+            <lb ed="#V" n="30"/>quod non contingit de principio effectiuo cum eo, cui dat
+            <lb ed="#V" n="31"/>esse. Et hoc esse est, in quo subsistit substantia composita,
+            <lb ed="#V" n="32"/>quae est vna secundum esse ex materia &amp; forma constans. Haec ille.
+          </p>
+          <p xml:id="capsco-b1j8lf-d1e1386">
+            <lb ed="#V" n="33"/>Ex quo patet, quod vana est fictio, quam ponit arguens,
+            di<lb ed="#V" n="34" break="no"/>cens in principio suae positionis ante argumenta recitata, quod
+            <lb ed="#V" n="35"/>intelligentia se habet omnino ad corpus coeleste, sicut
+            for<lb ed="#V" n="36" break="no"/>ma ignis ad materiam excepto quod non dat sibi actum
+            pri<lb ed="#V" n="37" break="no"/>mum, dat tamen sibi omnes secundas perfectiones, quod est
+            pro<lb ed="#V" n="38" break="no"/>prium soli formae &amp;c. Ex hoc nanque sequitur, quod
+            intel<lb ed="#V" n="39" break="no"/>ligentia non proprie nec vniuoce est forma substantialis
+            cor<lb ed="#V" n="40" break="no"/>poris coelestis, ex quo non dat sibi actum primum, qui est
+            es<lb ed="#V" n="41" break="no"/>se, nec conuenit cum illo corpore in vno &amp; eodem esse
+            sub<lb ed="#V" n="42" break="no"/>stantiali. Vlterius dicere, quod intelligentia non dat
+            corpori<lb ed="#V" n="43" break="no"/>coelesti actum primum, sed secundas perfectiones, est aeque
+            <lb ed="#V" n="44"/>vanum &amp; impossibile, sicut dicere quod ignis ab alio habet esse
+            <lb ed="#V" n="45"/>substantiale, &amp; ab alio habet leuitatem, &amp; suas proprias
+            pas<lb ed="#V" n="46" break="no"/>siones. Et ideo ad singula dicta eius respondendo dicitur primo,
+            <lb ed="#V" n="47"/>quod non est impossibile, immo verum, quod substantia
+            se<lb ed="#V" n="48" break="no"/>parata, vel forma abstracta agat in corpus per contactum
+            <lb ed="#V" n="49"/>virtutis, prout declarat Sanctus Thomas 2. contra Gentil. cap. 56. Et
+            <lb ed="#V" n="50"/>Philoastus 8. Physic. vt recitatum est in probatione
+            conclusio<lb ed="#V" n="51" break="no"/>nis. Tamen Commentator vbi allegatur, forte intendebat,
+            <lb ed="#V" n="52"/>quod forma abstracta non agit in corpus per contactum
+            <lb ed="#V" n="53"/>mutuum, ita vt tangat corpus, &amp; tangatur ab illo.
+            Secun<lb ed="#V" n="54" break="no"/>do dicitur, quod intelligentia non dicitur natura corporis
+            <lb ed="#V" n="55"/>coelestis illo modo, quo forma ignis substantialis vel
+            acci<lb ed="#V" n="56" break="no"/>dentalis dicitur eius forma, sed valde aequiuoce, vt etiam
+            <lb ed="#V" n="57"/>verba Commentatoris sonant. Et de hoc Sanctus Thomas de
+            spiri<lb ed="#V" n="58" break="no"/>tualibus creaturis quadragesimasexta in solu. septimi sic
+            di<lb ed="#V" n="59" break="no"/>cit. Substantia spiritualis quae mouet coelum, habet virtutem
+            <lb ed="#V" n="60"/>naturalem determinatam ad coelestis corporis motum. Et
+            <lb ed="#V" n="61"/>similiter corpus coeli habet naturalem aptitudinem, vt
+            tali<lb ed="#V" n="62" break="no"/>motu moueatur, &amp; per hoc motus coeli est naturalis, licet
+            <lb ed="#V" n="63"/>sit a substantia intelligente. Tertio dicitur, quod Commenta.
+            <lb ed="#V" n="64"/>accipit ibi aequiuoce &amp; improprie animam, &amp; animationem,
+            <lb ed="#V" n="65"/>&amp; formam, &amp; informationem. Vnde Sanctus Thomas vbi supra in solu. 2
+            <lb ed="#V" n="66"/>sic dicit. Secundum opinionem Auerrinus coelum est
+            composi<lb ed="#V" n="67" break="no"/>tum ex materia &amp; forma, sicut animal in inferioribus, sed tamen
+            <lb ed="#V" n="68"/>materia vtrobique aequiuoce dicitur. Nam in superioribus
+            cor<lb ed="#V" n="69" break="no"/>poribus non est potentia ad esse, sicut in inferioribus, sed ad
+            <lb ed="#V" n="70"/>vbi tantum. Vnde ipsum corpus actu existens est materia,
+            <lb ed="#V" n="71"/>quae non indiget forma quae det ei esse, cum sit ens actu, sed
+            <lb ed="#V" n="72"/>quae dat ei motum solum &amp;c.
+          </p>
+          <p xml:id="capsco-b1j8lf-d1e1475">
+            Item in solu. 11. arg. sic dicit.
+            <lb ed="#V" n="73"/>Commentator corpora coelestia dicit esse animata, quia substantiae
+            <lb ed="#V" n="74"/>spirituales vniuntur eis vt motores, &amp; non vt formae. Vnde
+            <lb ed="#V" n="75"/>super 7. Met. dicit, quod virtus formatiua seminis non agit, nisi per
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="76"/>calorem qui est in semine, non ita quod sit forma in eo sicut anima
+            <lb ed="#V" n="77"/>in corpore naturali, sed ita quod sit ibi inclusa, sicut anima est
+            in<lb ed="#V" n="78" break="no"/>clusa in corporibus caelestibus &amp;c.
+          </p>
+          <p xml:id="capsco-b1j8lf-d1e1493">
+            Item in solu. 10. sic dicit
+            <lb ed="#V" n="79"/>Commenta. 11. Met. ponit in coelo duos motores, vnum
+            cor<lb ed="#V" n="80" break="no"/>iunctum, quem vocat animam &amp; alium separatum, qui moue
+            <lb ed="#V" n="81"/>vt finis, tamen ex toto hoc non habetur amplius, quam quod
+            sub<lb ed="#V" n="82" break="no"/>stantia spiritualis vnitur corpori coelesti vt motor. Haec
+            <lb ed="#V" n="83"/>ille. Quarto dicitur, quod cum Commenta. dicit, quod coelum
+            <lb ed="#V" n="84"/>indiget non solum virtute mouente in loco, sed etiam
+            vir<lb ed="#V" n="85" break="no"/>tute sargiente ei figuram, mensuram &amp; permanentiam &amp;c
+            <lb ed="#V" n="86"/>si intelligat, quod motor proximus &amp; sibi coniunctus
+            lar<lb ed="#V" n="87" break="no"/>gitur sibi omnia ista, siue per modum formae substantialis,
+            <lb ed="#V" n="88"/>siue per modum causae esse efficientis, falsum dicit, &amp; sua
+            <lb ed="#V" n="89"/>auctoritas nullo modo est in hoc recipienda. Nam secundum
+            San<lb ed="#V" n="90" break="no"/>ctos angeli nullam formam substantialem vel accidentalem
+            <lb ed="#V" n="91"/>absolutam fixam &amp; quietam producere possunt in materia
+            <lb ed="#V" n="92"/>corporali sicut ostendit Sanctus Thomas prima parte. q. 110. arti. 2. &amp;
+            <lb ed="#V" n="93"/>de potentia Dei. q. 6. art. 3. &amp; de malo. q. 16. arti. 9. Si autem
+            <lb ed="#V" n="94"/>intelligat de motore separato, qui est Deus, verum dicit.
+            Vn<lb ed="#V" n="95" break="no"/>dae Sanctus Thomas de spiritualibus creaturis. q. 6. in solu. 10. quod est
+            <lb ed="#V" n="96"/>tale Commentator in 11. Met. dicit quod substantiae
+            separa<lb ed="#V" n="97" break="no"/>tae sunt in optima dispositione, in qua esse possunt. Et hoc
+            <lb ed="#V" n="98"/>est vt vnaquaeque earum moueat corpus coeleste, vt agens,
+            <lb ed="#V" n="99"/>&amp; vt finis, non autem hoc esset, nisi aliquo modo eis vnirentur &amp;c.
+            <lb ed="#V" n="100"/>Et sic respondens sic dicit. Super hoc inuenitur Auerrius varie
+            <lb ed="#V" n="101"/>locutus fuisse. In libro enim de substantia orbis dicit, quod idem
+            <lb ed="#V" n="102"/>est, quod mouet corpora caelestia vt agens, &amp; vt finis. Quod
+            <lb ed="#V" n="103"/>quidem est valde erroneum, praesertim secundum eius opinionem,
+            <lb ed="#V" n="104"/>qua ponit, quod prima causa non est supra substantias
+            mo<lb ed="#V" n="105" break="no"/>uentes, cum primum caelum ipsa moueat. Sic enim sequitur, quod
+            <lb ed="#V" n="106"/>Deus sit anima primi coeli, si substantia, qua mouet primum
+            coe<lb ed="#V" n="107" break="no"/>lum vt agens sit anima eius. Et ratio, qua hoc dixit, est valde
+            insuf<lb ed="#V" n="108" break="no"/>siciens, quia cum in substantijs separatis a materia sit idem
+            <lb ed="#V" n="109"/>intelligens &amp; intellectum, aestimauit, quod sit idem desiderans
+            <lb ed="#V" n="110"/>&amp; desideratum, quod non est simile. Nam cognitio cuiuslibet
+            <lb ed="#V" n="111"/>rei sit secundum quod cognitum est in cognoscente, desiderium autem sit
+            <lb ed="#V" n="112"/>secundum conuersionem desiderantis ad rem desideratam. Si autem
+            <lb ed="#V" n="113"/>bonum desideratum esset desiderans ex seipso, non competeret
+            <lb ed="#V" n="114"/>ei, quod moueret ad consequendum bonum desideratum.
+            <lb ed="#V" n="115"/>Vnde oportet dicere, quod bonum desideratum, quod mouet
+            <lb ed="#V" n="116"/>vt finis est aliud a desiderante, quod mouet vt agens. Et hoc
+            <lb ed="#V" n="117"/>etiam ipse dicit in 11. Met. Haec ille.
+          </p>
+          <p xml:id="capsco-b1j8lf-d1e1581">
+            Quinto dicitur, quod erroneum
+            <lb ed="#V" n="118"/>est ponere, quod aliqua creatura, siue corpus caeleste, vel aliud
+            <lb ed="#V" n="119"/>habeat aliquid positiuum absolutum reale a causa formali.
+            <lb ed="#V" n="120"/>quod non habeat a causa efficienti. Sexto dicitur, quod circa
+            causa<lb ed="#V" n="121" break="no"/>litatem substantiarum separatarum, quam habent circa coelum
+            <lb ed="#V" n="122"/>vel corpora inferiora, non multum standum est opinioni
+            <lb ed="#V" n="123"/>Commenta. cum in materia de intellectu agente &amp; possibili,
+            <lb ed="#V" n="124"/>&amp; de anima humana, &amp; de substantijs separatis multa erronea
+            <lb ed="#V" n="125"/>scripserit, vt docet Sanctus Thomas 2. &amp; 3. contra Gen. Et sic patet, quod
+            <lb ed="#V" n="126"/>primum argumentum in dictis Commenta. fundatum nihil stabile
+            <lb ed="#V" n="127"/>concludit, sed multa falsa &amp; erronea.
+          </p>
+          <p xml:id="capsco-b1j8lf-d1e1605">
+            Ad secundum dicitur, quod
+            au<lb ed="#V" n="128" break="no"/>ctoritas Aristotelis aut Commentatoris aut cuiuslibet alterius dicentis
+            <lb ed="#V" n="129"/>intelligentiam mouentem orbem esse vnitam sibi
+            inseparabi<lb ed="#V" n="130" break="no"/>liter, no est recipienda, sed repudianda tanquam erronea, &amp;
+            con<lb ed="#V" n="131" break="no"/>tra dicta Sanctorum ponentium post iudicium finale omnes &amp;
+            <lb ed="#V" n="132"/>singulos beatos angelos &amp; homines in coelo empyreo
+            collica<lb ed="#V" n="133" break="no"/>ri. Quia autem spiritus mouens orbem habeat aliquas
+            condi<lb ed="#V" n="134" break="no"/>tiones formae materialis, &amp; formae abstractae conceditur, quia
+            <lb ed="#V" n="135"/>ct in aliquo conueniunt cum asino vel lapide, sed negatur, quod
+            <lb ed="#V" n="136"/>sint formae corporum proprie &amp; vniuoce, puta dantes esse
+            <lb ed="#V" n="137"/>subale, aut propria accidentia absoluta, siue qualitatem, siue
+            <lb ed="#V" n="138"/>quantitatem, siue conseruationem, aut permanentiam, aut
+            con<lb ed="#V" n="139" break="no"/>stituentes vnam per se naturam specificam cum corpore, vel materiam, vel
+            <lb ed="#V" n="140"/>subiecto corporali, aut quod necessitate naturali moueant
+            cor<lb ed="#V" n="141" break="no"/>pora, aut quod sint naturaliter inseparabile, a corpore, omni enim
+            <lb ed="#V" n="142"/>ista sunt falsa.
+          </p>
+          <p xml:id="capsco-b1j8lf-d1e1640">
+            Ad tertium dicitur, quod ad hoc, quod substantia
+            spiritua<lb ed="#V" n="143" break="no"/>lis, quae mouet corpus caelelse, exerceat operationem
+            intelle<lb ed="#V" n="144" break="no"/>ctualem, quae est intelligere, &amp; desideratiua, quae est velle, &amp;
+            <lb ed="#V" n="145"/>moueat in loco, non oportet, quod vniatur suo mobili, vt forma
+            <lb ed="#V" n="146"/>substantialis, nec quod sit anima eius, nisi aequiuoce. Illud autem quod
+            <lb ed="#V" n="147"/>allegatur de 7. Met. est gladius goliae, quo suus portitor
+            iu<lb ed="#V" n="148" break="no"/>gulatur. Nam expresse dicit Commenta in illis verbis, quod anima
+            <lb ed="#V" n="149"/>inclusa in corporibus coelestibus non est in eis sicut forma
+            <lb ed="#V" n="150"/>in corpore naturali, sicut nec virtus formatiua in samine.
+          </p>
+          <p xml:id="capsco-b1j8lf-d1e1660">
+            <pb ed="#V" n="284"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>Ad quartum dicitur, quod ista positio, quae ponit corpora
+            coe<lb ed="#V" n="2" break="no"/>lestia esse vere, &amp; proprie, &amp; vniuoce cum caeteris animalibus
+            <lb ed="#V" n="3"/>animata, neganda est propter inconuenientia ibidem tacta
+            <lb ed="#V" n="4"/>ex dicta positione sequentia. Et vltra, quia est contraria
+            di<lb ed="#V" n="5" break="no"/>ctis Sanctorum, &amp; comn opinioni Theologorum. Et vlterius
+            <lb ed="#V" n="6"/>propter rationes tactas in probatione conclusionis, quia scilicet forma
+            <lb ed="#V" n="7"/>non est propter materiam, sed econtra, &amp; ideo nulla forma
+            <lb ed="#V" n="8"/>vnitur materiae, nec alicui corpori naturaliter, nisi corpus
+            il<lb ed="#V" n="9" break="no"/>lud sit necessarium ad exercendum operationem propriam
+            <lb ed="#V" n="10"/>illius formae, ita quod operatio illa non possit procedere a
+            for<lb ed="#V" n="11" break="no"/>ma, nisi illa sit vnita corpori vt forma. Constat autem, quod nulla
+            <lb ed="#V" n="12"/>operatio substantiae separatae requirit talem vnionem eius ad
+            <lb ed="#V" n="13"/>corpus. Tunc ad singula inconuenientia, quae arguens
+            addu<lb ed="#V" n="14" break="no"/>cit dicitur, quod ponere aliquod compositum Physicum ex materia &amp;
+            <lb ed="#V" n="15"/>forma nobilius homine derogat philosophiae. Nam 2. Phys.
+            di<lb ed="#V" n="16" break="no"/>cit Aristoteles quod anima humana est forma vltima ad quam
+            termi<lb ed="#V" n="17" break="no"/>natur consideratio Physici. Derogat etiam Theologiae, quae
+            po<lb ed="#V" n="18" break="no"/>nit quod caelum factum est ad complendum numerum
+            electo<lb ed="#V" n="19" break="no"/>rum tanquam propter finem proximum, licet sit popr
+            integrita<lb ed="#V" n="20" break="no"/>tem vniuersi, &amp; propter diuinam bonitatem, tanquam propter
+            <lb ed="#V" n="21"/>fines remotos.
+          </p>
+          <p xml:id="capsco-b1j8lf-d1e1712">
+            Nec valet solutio per distinctionem, quam
+            ar<lb ed="#V" n="22" break="no"/>guens ponit, quia nunquam indignius potest esse finis naturalis
+            <lb ed="#V" n="23"/>proximus, vel remotus rei se dignioris. Et de hoc Sanctus Thomas de
+            <lb ed="#V" n="24"/>potentia Dei. q. 5. artic. 5. Vbi inquirens vtrum motus
+            coel<lb ed="#V" n="25" break="no"/>quandoque cessaturus sit ait. Ratio permanentiae motus
+            caeli<lb ed="#V" n="26" break="no"/>non potest sumi ex natura caelestis corporis, ex quam tamen est
+            apti<lb ed="#V" n="27" break="no"/>tudo ad motum, sed oportet eam sumere ex principio actiuo
+            <lb ed="#V" n="28"/>separato, &amp; qua omne agens peoper finem agit, oportet considerare
+            <lb ed="#V" n="29"/>quis sit finis motus caeli. Si nanque fini eius congruat, quod
+            mo<lb ed="#V" n="30" break="no"/>tus aliquando terminetur, caelum quandoque quiescet. Si autem fini eius
+            <lb ed="#V" n="31"/>non competit quies, motus eius erit sempiternus, non enim potest
+            <lb ed="#V" n="32"/>esse, quod motus deficiat ex mutatione causae mouentis, cum
+            vo<lb ed="#V" n="33" break="no"/>luntas Dei sit immutabilis, sicut &amp; eius natura, &amp; per eam
+            im<lb ed="#V" n="34" break="no"/>mobilitatem consequantur, si quam sint causae mediae mouentes. In
+            <lb ed="#V" n="35"/>hac autem consideratione tria oportet vitare. Quorum primum
+            <lb ed="#V" n="36"/>est, ne dicamus caelum mouere peror ipsum motum, sicut dicebatur
+            <lb ed="#V" n="37"/>caelum esse propr ipsum esse, in quo Deo assimilatur, motui enim ex
+            <lb ed="#V" n="38"/>ipsa sua rone repugnat ne possit poni finis, eo quod motus est
+            <lb ed="#V" n="39"/>in aliud tendens, vnde non hetem rationem finis, sed magis eius,
+            <lb ed="#V" n="40"/>quod est ad finem. Cui etiam attestatur, quod est actus imperfectus,
+            <lb ed="#V" n="41"/>vt dicitur 2. de anima, &amp; 3. Phys. Finis autem est vltima perfectio rei.
+          </p>
+          <p xml:id="capsco-b1j8lf-d1e1758">
+            Se<lb ed="#V" n="42" break="no"/>cundum est, vt non ponatur motus caeli esse propter aliquod
+            vi<lb ed="#V" n="43" break="no"/>lius. Nam cum finis sit vnde ratio sumitur eorum, quae sunt ad
+            <lb ed="#V" n="44"/>finem, oportet finem praeeminere his, quae sunt ad finem, potest
+            <lb ed="#V" n="45"/>autem contingere quod vilius sit terminus operationis rei
+            nobi<lb ed="#V" n="46" break="no"/>lioris, non autem quod sit finis intentionis, sicut securitas rustici
+            <lb ed="#V" n="47"/>est terminus quidem, ad quem operatio regis gubernantis
+            <lb ed="#V" n="48"/>terminatur, non tamen regimen regis est ordinatum ad huius
+            ru<lb ed="#V" n="49" break="no"/>stici securitatem sicut in finem, sed ad aliquid melius scilicetin
+            bo<lb ed="#V" n="50" break="no"/>num commune. Vnde non potest dici, quod generatio istorum
+            inferio<lb ed="#V" n="51" break="no"/>rum sit finis motus caeli, &amp; si sit effectus vel terminus, qua &amp;
+            <lb ed="#V" n="52"/>caelum istis inferioribus praeeminet, &amp; motus eius motibus,
+            <lb ed="#V" n="53"/>&amp; mutationibus horum.
+          </p>
+          <p xml:id="capsco-b1j8lf-d1e1788">
+            Tertium est, vt non ponatur finis
+            <lb ed="#V" n="54"/>motus caeli aliquid infinitum, quia vt dicitur 2. Met. qui ponit
+            infi<lb ed="#V" n="55" break="no"/>nitum in causa finali, destruit finem, &amp; naturam boni.
+            Per<lb ed="#V" n="56" break="no"/>tingere enim ad id, quod est infinitum, impossibile est, nihil autem
+            <lb ed="#V" n="57"/>mouetur ad id, quod non potest consequi, vt dicitur primo coeli.
+            <lb ed="#V" n="58"/>Vnde non potest dici, quod finis motus caeli sit, vt consequatur in
+            <lb ed="#V" n="59"/>actu vbi, ad quod est in potentia, licet hoc Auicenna
+            dice<lb ed="#V" n="60" break="no"/>re videatur. Hoc enim impossibile est consequi cum infinitum
+            <lb ed="#V" n="61"/>sit, quia dum in vno vbi fit in actu, erit in potentia ad aliud
+            <lb ed="#V" n="62"/>vbi, in quo prius actu existebat. Oportet igitur finem motus
+            <lb ed="#V" n="63"/>caeli ponere aliquid, quod caelum per motum consequi
+            pos<lb ed="#V" n="64" break="no"/>sit quod sit aliud a motu, &amp; eo nobilius. Hoc autem dupliciter
+            <lb ed="#V" n="65"/>potest poni. Vno modo vt ponatur finis motus caeli aliquid
+            <lb ed="#V" n="66"/>in ipso caelo, quod simul cum motu existit, &amp; secundum hoc a
+            qui<lb ed="#V" n="67" break="no"/>busdam Philosophis ponitur, quod similitudo ad Deum in
+            cau<lb ed="#V" n="68" break="no"/>sando est finis motus coeli, quod quidem sit ipso motu
+            du<lb ed="#V" n="69" break="no"/>rante. Vnde secundum hoc non contingit, vt motus coeli deficiat,
+            <lb ed="#V" n="70"/>quia deficiente motu, finis ex motu proueniens cessaret. Alio
+            <lb ed="#V" n="71"/>modo potest poni finis motus coeli, quo cessante illud potest
+            re<lb ed="#V" n="72" break="no"/>manere, &amp; haec est nostra positio. Ponimus enim quod motus
+            caeli<lb ed="#V" n="73" break="no"/>est propter implendum numerum electorum. Anima
+            nam<lb ed="#V" n="74" break="no"/>que rattonalis quolibet corpore nobilior est, etiam ipso caelo.
+            <lb ed="#V" n="75"/>Vnde nullum inconueniens est si ponatur finis motus
+            coeli<cb ed="#V" n="b"/><lb ed="#V" n="76" break="no"/>multiplicatio rationabilium animarum. Haec ille.
+          </p>
+          <p xml:id="capsco-b1j8lf-d1e1842">
+            Ex quibus
+            <lb ed="#V" n="77"/>hoc patet, quod nunquam vilius est finis rei se dignioris. Quia
+            <lb ed="#V" n="78"/>autem homo sit finis caeli ostenditur Deuteronom. 4. Ne forte
+            <lb ed="#V" n="79"/>eleuatis oculis ad coelum videas solem &amp; lunam, &amp; omnia
+            <lb ed="#V" n="80"/>astra coeli, &amp; errore deceptus adores ea &amp; colas, quae
+            crea<lb ed="#V" n="81" break="no"/>uit Deus in ministerium cunctis gentibus. Similiter 2. sent.
+            <lb ed="#V" n="82"/>dist. 1. q. 2. art. 3. probat Sanctus Thomas quod omnis creatura corporalis
+            <lb ed="#V" n="83"/>est facta propter hominem, &amp; sic videtur quod nullum compositum
+            cor<lb ed="#V" n="84" break="no"/>porale est nobilius homine.
+          </p>
+          <p xml:id="capsco-b1j8lf-d1e1862">
+            Item si coelum est nobilius
+            compo<lb ed="#V" n="85" break="no"/>situm quam homo: ergo magis ad imaginem &amp;
+            similitudi<lb ed="#V" n="86" break="no"/>nem Dei, &amp; sic videtur, quod sicut in creatione homnins dictum fuit.
+            Fa<lb ed="#V" n="87" break="no"/>ciamus hominem ad imaginem &amp; similitudinem nostram
+            mul<lb ed="#V" n="88" break="no"/>to plus debuit dici in creatione caeli, &amp; non singulariter
+            de<lb ed="#V" n="89" break="no"/>buit dici, &amp; totiens repeti in sacra scriptura, nec debuit
+            ta<lb ed="#V" n="90" break="no"/>cere de coelo, quin alicubi diceretur, quod caelum est factum ad
+            <lb ed="#V" n="91"/>imaginem Dei.
+          </p>
+          <p xml:id="capsco-b1j8lf-d1e1880">
+            Item sicut totum vniuersum est finaliter
+            fa<lb ed="#V" n="92" break="no"/>ctum perper Deum, ita quaelibet pars vniuersi propter totum
+            <lb ed="#V" n="93"/>vniuersum, &amp; inter partes illa, quae nobilior est, finis est
+            igno<lb ed="#V" n="94" break="no"/>bilioris, vt docet Sanctus Thomas 1. par. q. 23. arti. 7. Et sic caelum potius
+            <lb ed="#V" n="95"/>esset dicendum finis hominis, quam econtra, &amp; quod caelum potius
+            <lb ed="#V" n="96"/>est factus propter hominem quam econtra.
+          </p>
+          <p xml:id="capsco-b1j8lf-d1e1893">
+            Nec valet si dicatur,
+            <lb ed="#V" n="97"/>quod eadem ratione debet dici, quod homo est factus propter
+            ange<lb ed="#V" n="98" break="no"/>lum, cum angelus sit nobilior homine, nam certe hoc est verum
+            <lb ed="#V" n="99"/>ad hunc sensum, quod homo factus est, vt assequatur
+            similitudi<lb ed="#V" n="100" break="no"/>nem angeli tanquam finis proximi, &amp; ideo sicut homo tenetur
+            <lb ed="#V" n="101"/>venerari angelum bonum tanquam digniorem se, ita si caelum
+            <lb ed="#V" n="102"/>sit nobilius homine, vt tu dicis, quilibet homo tenetur venerari
+            <lb ed="#V" n="103"/>astra publice vel occulte, si ex hoc periculum idosatriae apud
+            <lb ed="#V" n="104"/>imprudentes oriretur, quae omnia sunt falsa &amp; erronea, vt post
+            <lb ed="#V" n="105"/>dicetur. De secundo inconuenienti ibidem tacto dicit Sanctus Thomas
+            <lb ed="#V" n="106"/>de spiritualibus creaturis. q. 6. in solutione quinti in
+            oppo<lb ed="#V" n="107" break="no"/>situm quod non dicimus, ora pro me sol: Tum quia
+            substan<lb ed="#V" n="108" break="no"/>tia spiritualis non vnitur corpori coeli, vt forma, sed vr
+            <lb ed="#V" n="109"/>motor. Tum vt auferatur occasio idolatriae. Haec ille.
+          </p>
+          <p xml:id="capsco-b1j8lf-d1e1924">
+            Ex
+            <lb ed="#V" n="110"/>quo videtur sequi, quod si sol esset animatus, vt dicit arguens aeque
+            <lb ed="#V" n="111"/>bene posset adorari sicut Sanctus Martinus, aut alius beatus in
+            <lb ed="#V" n="112"/>corpore &amp; anima, vnde patet quod ista opi. est occasio
+            ma<lb ed="#V" n="113" break="no"/>gna idolatriae. Et cum dicit arguens, quod idolatrae praecise
+            <lb ed="#V" n="114"/>reprehenduntur, quia attribuebant eis rationem primi
+            prin<lb ed="#V" n="115" break="no"/>cipij falsum est, immo multi eorum colebant altra, vt
+            prin<lb ed="#V" n="116" break="no"/>cipia secundaria, cum viderent quaedam astra alijs maiora
+            <lb ed="#V" n="117"/>&amp; principaliora.
+          </p>
+          <p xml:id="capsco-b1j8lf-d1e1945">
+            Item quia ista opinio non euadit quin astra
+            <lb ed="#V" n="118"/>sint salutanda &amp; honoranda, &amp; quin eorum orationes, &amp;
+            <lb ed="#V" n="119"/>suffragia sint imploranda, vt dicatur, sancte sol ora pro me.
+            <lb ed="#V" n="120"/>De tertio inconuenienti non est multum curandom. Nam
+            <lb ed="#V" n="121"/>Sanctus Thomas dicit illam rationem non concludere. Vnde de
+            spiri<lb ed="#V" n="122" break="no"/>tualibus creaturis. q. 6. in solutione quarti in oppositum
+            di<lb ed="#V" n="123" break="no"/>cit. In hoc nulla est dubitatio si sequamur opinionem
+            Da<lb ed="#V" n="124" break="no"/>mas ponentis angelos, qui peccauerunt de numero eorum
+            <lb ed="#V" n="125"/>fuisse, qui corporibus corruptibilibus praeferuntur. Si vero
+            <lb ed="#V" n="126"/>secundum sententiam Gregorii etiam de superioribus aliqui
+            peccaue<lb ed="#V" n="127" break="no"/>runt.
+          </p>
+          <p xml:id="capsco-b1j8lf-d1e1969">
+            Dicendum quod Deus eos, quos ad hoc ministerium
+            de<lb ed="#V" n="128" break="no"/>putauit, custodiuit a casu, sicut &amp; plures aliorum. Cum autem
+            <lb ed="#V" n="129"/>dicit arguens, quod non debet de talibus fieri festum, aut
+            so<lb ed="#V" n="130" break="no"/>lennitats &amp;c. aut loquitur de corpore caelesti, aut de
+            moto<lb ed="#V" n="131" break="no"/>re illius aut de composito ex vtroque, quod secundum eum est
+            ani<lb ed="#V" n="132" break="no"/>mal quoddam beatum. Si primo modo, non euadit quin
+            tan<lb ed="#V" n="133" break="no"/>ta veneratione talia corpora sint veneranda, quanta reliquiae
+            <lb ed="#V" n="134"/>Sanctorum iam Deo fruentium. Si loquitur secundo modo,
+            <lb ed="#V" n="135"/>constat quod venerandi sunt tales spiritus &amp; honorandi, immo
+            <lb ed="#V" n="136"/>adorandi adoratione duliae, &amp; eorum suffragia imploranda.
+            <lb ed="#V" n="137"/>Si tertio modo adhuc sunt veneranda illa composita. tum
+            <lb ed="#V" n="138"/>quia beata. tum quia tam benefica humano generi, cum sint
+            <lb ed="#V" n="139"/>patres omnium, qui de nouo generantur, &amp; conseruatores
+            <lb ed="#V" n="140"/>totius humani generis. Vnde quicunque credit ea, quae
+            po<lb ed="#V" n="141" break="no"/>nit ista positio, tenetur ea colere &amp; orare. Et cum dicit
+            ar<lb ed="#V" n="142" break="no"/>guens quod ille cultus esset periculosus &amp; inductiuus idolatriae,
+            <lb ed="#V" n="143"/>verum dicit, sed illius idolatriae sufficiens causa esset credulitas
+            <lb ed="#V" n="144"/>istius opinionis, quam ipse fingit. Ex qua consequenter hentm
+            po<lb ed="#V" n="145" break="no"/>nere, quod talis cultus non esset idolatria, imo cultus pietatis eo
+            <lb ed="#V" n="146"/>modo, quo cultus Sanctorum, &amp; suarum reliquiarum, ideo opinio sua
+            <lb ed="#V" n="147"/>est periculosa cum pandat aditum idolatriae, immo sequitur quod
+            san<lb ed="#V" n="148" break="no"/>cti martyres, qui passi sunt peropor refutationem talis cultus,
+            iu<lb ed="#V" n="149" break="no"/>ste interfecti sunt, &amp; quod in non colendo astra peccauerunt,
+            <lb ed="#V" n="150"/>&amp; damnati sunt, quod est erroneum. De quarto
+            inconue<pb ed="#V" n="285"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>nienti patet quod solutio quam dat non valet, implicat
+            contra<lb ed="#V" n="2" break="no"/>dictione, quia ex vna parte dicit, quod motus ille est ita
+            natu<lb ed="#V" n="3" break="no"/>ralis coelo, &amp; ita consequens animam coeli, sicut motus
+            sur<lb ed="#V" n="4" break="no"/>sum est naturalis igni, &amp; consequens formam eius. Constat
+            <lb ed="#V" n="5"/>autem quod motus ignis, quia non sequitur formam
+            apprae<lb ed="#V" n="6" break="no"/>hensam sed formam naturalem, necessario consequitur ignem
+            <lb ed="#V" n="7"/>extra locum suum existentem, sic in proposito, si motus
+            coe<lb ed="#V" n="8" break="no"/>li in loco suo sequitur naturaliter formam naturalem caeli,
+            <lb ed="#V" n="9"/>stante illa forma, necessario mouebitur, &amp; quies erit sibi
+            vio<lb ed="#V" n="10" break="no"/>lenta. Ex alia vero parte dicit, quod talis motus sequitur
+            appe<lb ed="#V" n="11" break="no"/>titum animalem vel intellectualem, &amp; consequenter formam
+            <lb ed="#V" n="12"/>non naturalem, sed formam appraehensam. Ex quo
+            sequi<lb ed="#V" n="13" break="no"/>tur, quod talis motus ex parte motoris non est pure naturalis,
+            <lb ed="#V" n="14"/>sed voluntarius, &amp; animalis, sicut motus asinini ad fenum
+            <lb ed="#V" n="15"/>vel auenam, qui sequitur auenam appraehensam, &amp; non ad
+            <lb ed="#V" n="16"/>naturam asini. Quod autem dicit de motu &amp; quiete
+            homi<lb ed="#V" n="17" break="no"/>nis &amp;c. nihil valet, quia ille motus non est proprie &amp; mere
+            <lb ed="#V" n="18"/>naturalis, sed animalis.
+          </p>
+          <p xml:id="capsco-b1j8lf-d1e2063">
+            Item in hoc non sequitur
+            opinio<lb ed="#V" n="19" break="no"/>nem Auerrdus quia ille non concederet, quod in potestate animae
+            <lb ed="#V" n="20"/>coelestis sit mouere, &amp; non mouere coelum, aut quiescere.
+            <lb ed="#V" n="21"/>De quinto inconuenienti dicitur, quod satis bene dicit in hoc
+            <lb ed="#V" n="22"/>quod posita sua positione, adhuc potest saluari, quod illi motores
+            <lb ed="#V" n="23"/>coelorum sunt angeli, &amp; missi large loquendo. De sexto
+            <lb ed="#V" n="24"/>non bene soluit, quia inconueniens videtur, quod spiritus
+            an<lb ed="#V" n="25" break="no"/>gelicus perpetuo &amp; indissolubiliter alligetur alicui
+            corpo<lb ed="#V" n="26" break="no"/>ri.
+          </p>
+          <p xml:id="capsco-b1j8lf-d1e2083">
+            Item quod non omnes beati erunt in eodem coelo post
+            iu<lb ed="#V" n="27" break="no"/>dicium. Item cum contingere possit, quod multi homines sint
+            <lb ed="#V" n="28"/>aequales motori solis in merito, continget quod erunt aequales
+            <lb ed="#V" n="29"/>in praemio &amp; sic oportebit, quod aliqui homines beati post
+            <lb ed="#V" n="30"/>resurrectionem vel ante collocentur in sphaera lunae, &amp;
+            alij<lb ed="#V" n="31" break="no"/>in sphaera solis, &amp; multa alia absurda videntur ex hoc sequi.
+          </p>
+          <p xml:id="capsco-b1j8lf-d1e2096">
+            <lb ed="#V" n="32"/>Item cum nobiliori beato debeatur nobilior locus,
+            incon<lb ed="#V" n="33" break="no"/>ueniens est illos spiritus nunquam esse in coelo empyreo, &amp;
+            <lb ed="#V" n="34"/>tamen quod aliqui homines minoris meriti sint ibidem. Et
+            <lb ed="#V" n="35"/>per idem patet ad alium, quod male euadit inconueniens
+            <lb ed="#V" n="36"/>quia certe sextum &amp; septimum sunt vera inconuenientia,
+            <lb ed="#V" n="37"/>vt tangit Sanctus Thomas de spiritualibus creaturis. q. 6. argum. 2. in
+            <lb ed="#V" n="38"/>contrarium, quod licet non reputet inconueniens, quod
+            <lb ed="#V" n="39"/>sicut vnus angelus deputatur ad custodiam vnius hominis,
+            <lb ed="#V" n="40"/>quandiu viuit ille homo, ita deputetur ad mouendum
+            coe<lb ed="#V" n="41" break="no"/>leste corpus quandiu mouetur. Sed quod perpetuo
+            con<lb ed="#V" n="42" break="no"/>cludatur in corpore, nec vllo modo possit moueri, aut
+            mo<lb ed="#V" n="43" break="no"/>uere localiter, videtur inconueniens magnum. Quod
+            ad<lb ed="#V" n="44" break="no"/>ducitur in octauo loco, gladius est goliae, quia cum coelum
+            <lb ed="#V" n="45"/>empyreum secundum arguentem non habeat animam, &amp; tamen
+            <lb ed="#V" n="46"/>habeat sempiternam permanentiam, &amp; figuram sphaericam,
+            <lb ed="#V" n="47"/>&amp; in multis proprietatibus, &amp; secundis perfectionibus
+            con<lb ed="#V" n="48" break="no"/>ueniat cum reliquis coelis, constat quod non est sufficiens
+            pro<lb ed="#V" n="49" break="no"/>batio, quod aliquod coelum habeat animam ex hoc, quod
+            <lb ed="#V" n="50"/>est figurae sphaericae, vel habeat permanentiam sempiternam.
+            <lb ed="#V" n="51"/>In quibus tamen probationibus fundatur argumentum
+            pri<lb ed="#V" n="52" break="no"/>mum principale &amp; sequens scilicet quartum, vt prius
+            appa<lb ed="#V" n="53" break="no"/>ruit, Oportet ergo si illa probatio sit sufficiens de aliquo
+            <lb ed="#V" n="54"/>coelo, quod teneat in quolibet: cum ergo non probat de
+            quoli<lb ed="#V" n="55" break="no"/>bet, vt arguens concedit: igitur in nullo valet.
+          </p>
+          <p xml:id="capsco-b1j8lf-d1e2151">
+            Ad quintum
+            <lb ed="#V" n="56"/>principale dicitur, quod ponere coelum proprie esse animatum sic,
+            <lb ed="#V" n="57"/>quod aliqua spiritualis substantia sit proprie eius forma,
+            disso<lb ed="#V" n="58" break="no"/>nat dictis Sanctorum, potissime Damastes &amp; Basilij. Item non
+            <lb ed="#V" n="59"/>vidertr bene consonum fidei, quod aliquis spiritus creatus contineat
+            <lb ed="#V" n="60"/>totam vnam sphaeram, ita quod sit totus in qualibet parte illius
+            <lb ed="#V" n="61"/>sphaerae coelestis vel orbis, &amp; contineat totum orbem eo modo,
+            <lb ed="#V" n="62"/>quo anima est tota in qualibet parte humani corporis, &amp;
+            <lb ed="#V" n="63"/>continet totum corpus humanum potius quam ab eo
+            con<lb ed="#V" n="64" break="no"/>tineatur. Et hoc tangit Sanctus Thomas de spiritualibus creaturis. q. 6.
+            <lb ed="#V" n="65"/>vbi sexto loco arguit in oppositum sic. Anima( inquit)
+            con<lb ed="#V" n="66" break="no"/>tinet corpus secundum Philostius 1. de anima. Si igitur corpora
+            coele<lb ed="#V" n="67" break="no"/>stia sunt animata, sequeretur, quod aliqua substantia spiritualis
+            <lb ed="#V" n="68"/>creata contineret totum coelum, quod est absurdum cum
+            <lb ed="#V" n="69"/>hoc sit solius sapientiae increatae, ex cuius persona dicitur
+            Eccle<lb ed="#V" n="70" break="no"/>siastici. 24. Girum coeli circuiui sola. Haec ille.
+          </p>
+          <p xml:id="capsco-b1j8lf-d1e2187">
+            Nec valet si
+            <lb ed="#V" n="71"/>dicatur, quod anima coeli est in aliqua parte eius, &amp; non in toto
+            <lb ed="#V" n="72"/>&amp; sic non circuit girum coeli. Hoc (inquam) posset bene
+            di<lb ed="#V" n="73" break="no"/>ci, si substantia spiritualis vniretur corpori caelesti solum vt
+            <lb ed="#V" n="74"/>motor, sed si vnitur ei, vt forma, &amp; vt anima largiens sibi non
+            <lb ed="#V" n="75"/>solum motum, sed quantitatem, &amp; figuram, &amp; permanentiam,
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="76"/>&amp; omnia accidentia, ista responsio locum non habet, quia forma
+            <lb ed="#V" n="77"/>&amp; suum formabile simul sunt, &amp; quod informat qualibet
+            par<lb ed="#V" n="78" break="no"/>tem alicuius subiecti simul est cum qualibet parte subiecti.
+          </p>
+          <p xml:id="capsco-b1j8lf-d1e2209">
+            <lb ed="#V" n="79"/>Item non valet si dicatur, quod intelligentia non dicitur forma
+            <lb ed="#V" n="80"/>caeli, sic quod informet caelum, aut det sibi esse &amp; actum primum, &amp;
+            <lb ed="#V" n="81"/>sic non oportet, quod sit in qualibet parte sui orbis, sed taundu in
+            <lb ed="#V" n="82"/>vna parte determinata. Hoc (inquam) non valet, tum quia ab
+            <lb ed="#V" n="83"/>eodem res habet actum primum, a quo habet suas proprias
+            pas<lb ed="#V" n="84" break="no"/>siones, &amp; econtra: ergo cum tu ponas coelum ab intelligentia
+            <lb ed="#V" n="85"/>habere suam finitam quantitatem, raritatem, lucem,
+            perma<lb ed="#V" n="86" break="no"/>nentiam, habes necessario ponere, quod ab eadem habet esse &amp;
+            <lb ed="#V" n="87"/>actum primum.
+          </p>
+          <p xml:id="capsco-b1j8lf-d1e2231">
+            Item impossibile est quod caelum ab aliquo
+            ha<lb ed="#V" n="88" break="no"/>beat permanentiam, a quo non habet esse, cum permanentia
+            <lb ed="#V" n="89"/>non sit aliud quam continuatio existentiae actualis. Item per
+            te<lb ed="#V" n="90" break="no"/>intelligentia cuilibet parti caeli largitur perfectiones
+            secun<lb ed="#V" n="91" break="no"/>das: ergo in qualibet parte coeli est, vel cuilibet parti
+            coeli<lb ed="#V" n="92" break="no"/>est praesens.
+          </p>
+          <p xml:id="capsco-b1j8lf-d1e2244">
+            Item quaelibet pars coeli intelligit: ergo aliquis
+            <lb ed="#V" n="93"/>intellectus est praesens cuilibet parti caeli, non autem alius quam
+            in<lb ed="#V" n="94" break="no"/>telligentia: igitur &amp;c. Quia autem quaelibet pars caeli intelligat,
+            <lb ed="#V" n="95"/>tu concedis cum Commentatore. Et sic patet, quod tu habes
+            neces<lb ed="#V" n="96" break="no"/>sario ponere, quod intelligentia sit pemeos cuilibet parti coeli, quod
+            <lb ed="#V" n="97"/>animat.
+          </p>
+          <p xml:id="capsco-b1j8lf-d1e2257">
+            Item per te quaelibet pars caeli est animata: ergo habet
+            <lb ed="#V" n="98"/>animam sibi praesentem. Item omne animatum actuatur per animam, actus
+            <lb ed="#V" n="99"/>autem &amp; potentia sunt simul, immo sunt vnum. Multa alia
+            pos<lb ed="#V" n="100" break="no"/>sent dici contra hoc, sed ista sufficiunt. Tunc cum arguens
+            <lb ed="#V" n="101"/>probat, quod ista positio sequatur ex concessis in fide. Dicitur
+            <lb ed="#V" n="102"/>ad primam probationem, quod consequentia principalis non
+            <lb ed="#V" n="103"/>valet, qua arguitur, caelum est causa rerum animatarum: igitur caelum
+            <lb ed="#V" n="104"/>est animatum, sufficit enim quod agat vt instrumentum alicuius substantiae
+            spi<lb ed="#V" n="105" break="no"/>ritualis. Vnde Sanctus Thomas vbi supra in solut. 12. sic dicit ad illud
+            <lb ed="#V" n="106"/>argumentum. Corpus caeleste inquantum mouetur a
+            substan<lb ed="#V" n="107" break="no"/>tia spirituali, est instrumentum eius, &amp; ita mouet in virtute
+            substan<lb ed="#V" n="108" break="no"/>tiae spiritualis ad causandum vitam in istis inferioribus, sicut
+            <lb ed="#V" n="109"/>serra agit in virtute artis ad causandum archam. Eandem
+            <lb ed="#V" n="110"/>responsionem ponit 1. par. q. 70. arti. 3. in responsione tertij. d.
+            <lb ed="#V" n="111"/>Corpus coeleste cum sit mouens motum habet rationem instrumenti,
+            <lb ed="#V" n="112"/>quod mouet in virtute principalis agentis, &amp; ideo ex virtute
+            <lb ed="#V" n="113"/>sui motoris, quae est substantia viuens, potest causare vitam.
+            <lb ed="#V" n="114"/>Idem dicit de potentia Dei. q. 6. art. 6. in solut. 10. arg. Cum
+            <lb ed="#V" n="115"/>autem dicit arguens, quod motor nihil facit ad actionem, quae
+            pro<lb ed="#V" n="116" break="no"/>uenit ex mobili &amp;c. Dicitur quod falsum est, quia instrumentum plus
+            <lb ed="#V" n="117"/>potest ex virtute motoris qu ex propria natura.
+          </p>
+          <p xml:id="capsco-b1j8lf-d1e2303">
+            Ad secundam dicitur,
+            <lb ed="#V" n="118"/>quod omnes virtutes, quae apparent in caelo possunt reduci
+            tan<lb ed="#V" n="119" break="no"/>quam in principium proximum in formam substantialem
+            <lb ed="#V" n="120"/>ipsius caeli. Nos enim ponimus corpus caeleste esse compositum
+            <lb ed="#V" n="121"/>ex materia &amp; forma substantiali, quae quidem forma non est
+            <lb ed="#V" n="122"/>anima, nec est sola corporeitas accipiendo corporeitatem
+            pro<lb ed="#V" n="123" break="no"/>aliqua forma de genere quantitatis, aut pro aliqua forma
+            <lb ed="#V" n="124"/>substantiali dante suae materiae solum perfectionem
+            corpo<lb ed="#V" n="125" break="no"/>reitatis, sed est forma substantialis dans esse simpliciter, &amp;
+            <lb ed="#V" n="126"/>esse corporeum, &amp; esse hoc, sicut &amp; in homine est eadem
+            for<lb ed="#V" n="127" break="no"/>ma dans esse ens, esse substantiam, esse viuens, esse animal, esse
+            <lb ed="#V" n="128"/>hominem &amp;c. ita in proposito, potissime cum videamus
+            ean<lb ed="#V" n="129" break="no"/>dem formam dare diuersas virtutes diuersis partibus sui
+            su<lb ed="#V" n="130" break="no"/>biecti, sicut patet de forma substantiali arboris, nec oportet,
+            <lb ed="#V" n="131"/>q, omnis forma talis sit anima.
+          </p>
+          <p xml:id="capsco-b1j8lf-d1e2337">
+            Ad tertiam dicitur, quod caelum
+            natu<lb ed="#V" n="132" break="no"/>raliter inclinatur ad motum circularem non ex sola figura,
+            <lb ed="#V" n="133"/>aut quantitate, aut corporeitate vt corporeitas est, sed ex
+            <lb ed="#V" n="134"/>sua forma substantiali, quae est radix suae figurae, &amp;
+            quantita<lb ed="#V" n="135" break="no"/>tis, &amp; corporeitatis, omnium perfectionum secundarum caeli.
+            <lb ed="#V" n="136"/>Dicitur tamen quod caelum ex illa forma non habet principium actiuum
+            <lb ed="#V" n="137"/>talis motus, sed passiuum. Et hoc sufficit ad hoc, quod motus
+            <lb ed="#V" n="138"/>caeli sit ei naturalis. Vnde Sanctus Thomas de potentia Dei. q. 5. art. 5. sic
+            <lb ed="#V" n="139"/>ait. Motus caeli non hoc modo est naturalis caelesti corpori,
+            <lb ed="#V" n="140"/>sicut motus corporis elementaris est sibi naturalis. Habet enim
+            <lb ed="#V" n="141"/>huotmodo motus in mobili principium non solum male &amp; receptiuum,
+            <lb ed="#V" n="142"/>sed etiam formale &amp; actiuum. Formam enim elementaris corporis
+            se<lb ed="#V" n="143" break="no"/>quitur talis motus, sicut aliae pprietates ex essentialibus
+            prin<lb ed="#V" n="144" break="no"/>cipijs consequuntur, sic autem in corpore caelesti esse non potest, vnde
+            <lb ed="#V" n="145"/>non potest suus motus esse naturalis, quasi sequens aliquam
+            inclinatio<lb ed="#V" n="146" break="no"/>nem naturalis virtutis inhaerentis, sicut ferri sursum est motus
+            na<lb ed="#V" n="147" break="no"/>turalis ignis. Dicitur autem motus circularis esse naturalis caelo,
+            in<lb ed="#V" n="148" break="no"/>quantum sua natura hebetm aptitudinem ad talem motum, &amp; sic in
+            <lb ed="#V" n="149"/>seipso habet principium talis motus passiuum. Actiuum autem
+            <lb ed="#V" n="150"/>principium talis motus est aliqua substantia separata &amp;c.
+          </p>
+          <p xml:id="capsco-b1j8lf-d1e2381">
+            <pb ed="#V" n="286"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>Ad quartam dicitur primo, quod si argumentum valeret,
+            pro<lb ed="#V" n="2" break="no"/>baret quod coelum empyreum esset corpus mathematicum, &amp;
+            <lb ed="#V" n="3"/>quod nullum accidens sibi inhaerens esset sibi naturale, ex quo
+            <lb ed="#V" n="4"/>secundum arguentem non habet animam. Secundo dicitur, quod aq
+            <lb ed="#V" n="5"/>hoc, quod caelum sit corpus Physicum, sufficit, quod habeat formam
+            <lb ed="#V" n="6"/>substantialem, quae sit principium suorum propriorum
+            ac<lb ed="#V" n="7" break="no"/>cidentium, &amp; sui motus, actiuum, vel passiuum, vt dictum
+            <lb ed="#V" n="8"/>est, tamen vltra hoc dicit Sanctus Thomas prima parte. q. 70. arti. 3. in
+            solut<lb ed="#V" n="9" break="no"/>tione quinti. Coelum dicitur mouere seipsum inquantum
+            <lb ed="#V" n="10"/>componitur ex motore &amp; mobili, non sicut ex materia &amp;
+            <lb ed="#V" n="11"/>forma, sed secundum contactum virtutis, vt dictum est. Et hoc etiam
+            <lb ed="#V" n="12"/>modo potest dici, quod motor eius est principium intrinsecum, vt
+            <lb ed="#V" n="13"/>sic etiam motus caeli possit dici naturalis ex parte
+            principii<lb ed="#V" n="14" break="no"/>actiui, sicut motus voluntarius dicitur naturalis animali
+            in<lb ed="#V" n="15" break="no"/>quantum est animal, vt dicitur 8. Physi. Item de
+            spirituali<lb ed="#V" n="16" break="no"/>bus creaturis vbi supra in solutione septimi sic dicit.
+            Sub<lb ed="#V" n="17" break="no"/>stantia spiritualis, quae mouet caelum habet virtutem
+            natu<lb ed="#V" n="18" break="no"/>ralem determinatam ad coelestis corporis motum, &amp;
+            simi<lb ed="#V" n="19" break="no"/>liter corpus coeli habet naturalem aptitudinem, vt tali
+            mo<lb ed="#V" n="20" break="no"/>tu moueatur, &amp; per hoc motus coeli est naturalis, licet sit a
+            <lb ed="#V" n="21"/>substantia intelligente.
+          </p>
+          <p xml:id="capsco-b1j8lf-d1e2433">
+            Ad quintam dicitur, quod non oportet,
+            <lb ed="#V" n="22"/>quod motus caeli sit tractus, aut pulsus proprie loquendo, quia
+            <lb ed="#V" n="23"/>mouetur a substantia separata per imperium voluntatis.
+            Vn<lb ed="#V" n="24" break="no"/>de Sanctus Thomas vbi supra in solutione octaui sic dicit.
+            Probabili<lb ed="#V" n="25" break="no"/>ter dicitur, quod imperio voluntatis substantia spiritualis
+            mo<lb ed="#V" n="26" break="no"/>uet corpus coeleste. Quamuis enim materia corporalis
+            secun<lb ed="#V" n="27" break="no"/>dum formalem transmutationem non obediat ad nutum
+            <lb ed="#V" n="28"/>spiritui creato, sed soli Deo, vt Augutinus dicit 3. de Trinitate,
+            ta<lb ed="#V" n="29" break="no"/>men q. ei obedire ad nutum possit secundum
+            transmuta<lb ed="#V" n="30" break="no"/>tionem localem, etiam in nobis apparet, in quibus statim ad
+            <lb ed="#V" n="31"/>imperium voluntatis sequitur motus corporalium
+            mem<lb ed="#V" n="32" break="no"/>brorum. Si tamen supra imperium voluntatis addatur etiam
+            <lb ed="#V" n="33"/>ssuxus virtutis, non propter hoc sequitur fatigatio ex
+            fini<lb ed="#V" n="34" break="no"/>tate virtutis &amp;c.
+          </p>
+          <p xml:id="capsco-b1j8lf-d1e2464">
+            Ad sextum principale dicitur, quod illa
+            posi<lb ed="#V" n="35" break="no"/>tio non tantum magnificat diuinam potentiam, sed vsurpat
+            <lb ed="#V" n="36"/>propriam Dei excellentiam, sicut supra deductum est scilicet quod
+            <lb ed="#V" n="37"/>aliqua substantia spiritualis creata contineat totum
+            mun<lb ed="#V" n="38" break="no"/>dum &amp; circuat girum coeli. Item ex alia parte vilificat naturam
+            <lb ed="#V" n="39"/>angelicam, dum ponit angelum posse informare materiam
+            <lb ed="#V" n="40"/>corporalem, &amp; esse angelicum posse participari a materia
+            cor<lb ed="#V" n="41" break="no"/>porali. Item non oportet omnem positionem esse
+            catholi<lb ed="#V" n="42" break="no"/>cam, quae magnificat diuinam potentiam, sed solum illam,
+            <lb ed="#V" n="43"/>quae diuinae potentiae attribuit rationi consona, &amp; sanctorum
+            <lb ed="#V" n="44"/>dictis, &amp; diuinae scripturae non dissona, alias positio
+            euclisi<lb ed="#V" n="45" break="no"/>starum esset catholica in hoc, quo ponit vnam essentiam
+            es<lb ed="#V" n="46" break="no"/>se tres essentias, sicut diuina essentia est tres personae. Ad
+            se<lb ed="#V" n="47" break="no"/>ptimum dicitur primo, quod Auerdus nunquam concessit, quod
+            sub<lb ed="#V" n="48" break="no"/>stantia intellectualis possit vniri alicui corpori vt forma
+            p<lb ed="#V" n="49" break="no"/>prie &amp; vniuoce loquendo de forma, sed aequiuoce loquendo
+            <lb ed="#V" n="50"/>posuit hoc, vt patet ex dictis eius. Et hoc modo conceditur,
+            <lb ed="#V" n="51"/>corpora coelestia sunt animata &amp; viua, accipiendo coelum
+            <lb ed="#V" n="52"/>pro composito vel aggregato ex corpore coelesti &amp;
+            substan<lb ed="#V" n="53" break="no"/>tia spirituali. secundo dicitur, quod dictum Commentatoris scilicet
+            <lb ed="#V" n="54"/>quod coelum secundum quamlibet sui partem sit intelligens,
+            <lb ed="#V" n="55"/>falsum est &amp; erroneum. Falsum quidem, quia nulla pars
+            cor<lb ed="#V" n="56" break="no"/>poris humani vel coelestis intelligit, nec est principium
+            acti<lb ed="#V" n="57" break="no"/>uum, aut passiuum intellectionis. Erroneum autem in fide,
+            <lb ed="#V" n="58"/>quia ex hoc sequitur quod substantia separata sit in qualibet
+            par<lb ed="#V" n="59" break="no"/>te coeli ab eo moti, &amp; ita circuat girum caeli, aut ambiat
+            to<lb ed="#V" n="60" break="no"/>tum mundum, quod est contra sacram scripturam. Et haec de
+            <lb ed="#V" n="61"/>quaestione sufficiant. De qua benedictus Deus, Amen.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

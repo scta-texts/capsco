@@ -1,0 +1,1400 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 4, Distinctio 10, Quaestio 4</title>
+        <author ref="#JohannesCapreolus">Johannes Capreolus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 4, Distinctio 10, Quaestio 4</title>
+          <date when="2026-11-04">Nov 4, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-j88c04">Venice, 1589, v. 4</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-04" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="115"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="capsco-d3azz4"><!-- l4d10q4 -->
+        <head xml:id="capsco-d3azz4-Hd1e101">Quaestio 4</head>
+        <head xml:id="capsco-d3azz4-Hd1e103" type="question-title">Utrum corpus Christi sit in Eucharistia visibiliter, hoc est utrum possit ibi videri oculo creato</head>
+        <p xml:id="capsco-d3azz4-d1e106">
+          <lb ed="#V" n="64"/>DISTINCTIO X.
+          <lb ed="#V" n="65"/>QVAESTIO IIII.
+          <lb ed="#V" n="66"/>Vtrum corpus Christi sit in Eucharistia visibiliter, hoc
+          <lb ed="#V" n="67"/>est vtrum possit ibi videri oculo creato.
+        </p>
+        <p xml:id="capsco-d3azz4-d1e117">
+          <lb ed="#V" n="68"/><milestone ed="#V" unit="p" rend="initial"/> VLTIMO circa decimam distinctionem quarti
+          <lb ed="#V" n="69"/>quaeritur. Vtrum corpus Christi sit in
+          Eucha<lb ed="#V" n="70" break="no"/>ristia visibiliter, hoc est vtrum possit ibi videri
+          <lb ed="#V" n="71"/>oculo creato.
+        </p>
+        <p xml:id="capsco-d3azz4-d1e129">
+          Et arguitur quod sic, quia corpora
+          <lb ed="#V" n="72"/>gloriosa erunt configurata corpori claritatis Christi, vt
+          di<cb ed="#V" n="b"/><lb ed="#V" n="73" break="no"/>citur Philippens. tertio, sed oculus Christi videt seipsum
+          <lb ed="#V" n="74"/>prout est in sacramento hoc: ergo pari ratione quilibet alius
+          <lb ed="#V" n="75"/>oculus glorificatus potest ipsum videre.
+        </p>
+        <p xml:id="capsco-d3azz4-d1e142">
+          <lb ed="#V" n="76"/><milestone ed="#V" unit="p" rend="indent"/> IN oppositum arguitur sic. Nihil enim idem &amp; eodem
+          mo<lb ed="#V" n="77" break="no"/>do existens potest simul ab eodem videri in diuersis
+          spe<lb ed="#V" n="78" break="no"/>ciebus, sed oculus glorificatus semper videt Christum prout
+          <lb ed="#V" n="79"/>est in sua specie secundum Isaiae. 33. Regem in decore suo
+          <lb ed="#V" n="80"/>videbunt: ergo videtur quod non videant Christum prout est
+          <lb ed="#V" n="81"/>sub specie huius Sacramenti.
+        </p>
+        <p xml:id="capsco-d3azz4-d1e159">
+          <lb ed="#V" n="82"/><milestone ed="#V" unit="p" rend="indent"/> IN hac quaestione erunt tres articuli. In primo ponentur
+          <lb ed="#V" n="83"/>conclusiones. In secundo obiectiones. In tertio solutiones.
+        </p>
+        <div xml:id="capsco-d3azz4-Dd1e167">
+          <head xml:id="capsco-d3azz4-Hd1e169">Articulus 1</head>
+          <p xml:id="capsco-d3azz4-d1e171">
+            <lb ed="#V" n="84"/><milestone ed="#V" unit="p" rend="initial"/> Qvantum ad primum articulum sit prima conclusio.
+            <lb ed="#V" n="85"/>Nullus oculus corporalis potest videre corpus
+            Chri<lb ed="#V" n="86" break="no"/>sti prout est in hoc sacramento. Secunda quilibet oculus
+            <lb ed="#V" n="87"/>intellectualis beatus potest videre corpus Christi prout est
+            <lb ed="#V" n="88"/>in hoc sacramento. Tertia nullus oculus intellectualis non
+            <lb ed="#V" n="89"/>beatus potest videre cursu naturali &amp; propria virtute
+            natu<lb ed="#V" n="90" break="no"/>rali corpus Christi prout est in hoc sacramento. Has tres
+            <lb ed="#V" n="91"/>conclusiones ponit sententialiter beatus Thomas tertia
+            par<lb ed="#V" n="92" break="no"/>te q. 76. artic. 7. vbi sic dicit. Duplex est oculus scilicet corporalis
+            <lb ed="#V" n="93"/>proprie dictus, &amp; intellectualis qui per similitudinem
+            dici<lb ed="#V" n="94" break="no"/>tur. A nullo autem oculo corporali corpus Christi potest
+            <lb ed="#V" n="95"/>videri prout est in hoc sacramento, primo quidem quod corpus
+            <lb ed="#V" n="96"/>visibile per sua accidentia immutat medium, accidentia
+            au<lb ed="#V" n="97" break="no"/>tem corporis Christi sunt in hoc sacramento mediante
+            sub<lb ed="#V" n="98" break="no"/>stantia, ita, scilicet quod accidentia corporis Christi non
+            ha<lb ed="#V" n="99" break="no"/>bent immediatam habitudinem, neque ad locum, neque ad
+            <lb ed="#V" n="100"/>corpora quae ipsum circunstant, &amp; ideo non possunt
+            immu<lb ed="#V" n="101" break="no"/>tare medium, vt sic aliquo corporali oculo videri possint:
+            <lb ed="#V" n="102"/>secundo quia corpus Christi est in hoc sacramento per
+            mo<lb ed="#V" n="103" break="no"/>dum substantiae, substantia autem inquantum huiusmodi
+            <lb ed="#V" n="104"/>non est visibilis oculo corporali neque subiacet alicui
+            sen<lb ed="#V" n="105" break="no"/>sui, neque imaginationi, sed soli intellectui cuius obiectum
+            <lb ed="#V" n="106"/>est quod quid est, vt dicitur tertio de Anima, &amp; ideo
+            pro<lb ed="#V" n="107" break="no"/>prie loquendo corpus Christi secundum modum essendi
+            <lb ed="#V" n="108"/>quem habet in Sacramento isto, neque sensu, neque
+            ima<lb ed="#V" n="109" break="no"/>ginatione perceptibile est, sed solo intellectu qui dicitur
+            <lb ed="#V" n="110"/>oculus spiritualis, percipitur autem diuersimode a
+            diuer<lb ed="#V" n="111" break="no"/>sis intellectibus, quia enim modus essendi quo Christus est
+            <lb ed="#V" n="112"/>in hoc sacramento est penitus spiritualis a spirituali
+            intel<lb ed="#V" n="113" break="no"/>lectu, scilicet diuino secundum se visibilis est, &amp; per
+            conse<lb ed="#V" n="114" break="no"/>quens ab intellectu beato Angeli vel hominis, qui secundum
+            <lb ed="#V" n="115"/>participatam claritatem diuini intellectus videt ea quae
+            spi<lb ed="#V" n="116" break="no"/>ritualia sunt per visionem diuinae essentiae. Ab intellectu
+            au<lb ed="#V" n="117" break="no"/>tem hominis viatoris non potest conspici nisi per fidem,
+            <lb ed="#V" n="118"/>sicut &amp; caetera spiritualia vel supernaturalia, sed nec etiam
+            <lb ed="#V" n="119"/>intellectus angelicus secundum sua naturalia sufficit ad hoc
+            <lb ed="#V" n="120"/>intuendum: vnde Daemones non possunt videre per
+            intel<lb ed="#V" n="121" break="no"/>lectum Christum in hoc sacramento nisi per fidem, cui non
+            <lb ed="#V" n="122"/>voluntate assentiunt, sed ad ea signorum euidentia
+            con<lb ed="#V" n="123" break="no"/>uincuntur, prout dicitur Iacob. secundo quod daemones
+            <lb ed="#V" n="124"/>credunt &amp; contremiscunt. Haec ille.
+          </p>
+          <p xml:id="capsco-d3azz4-d1e263">
+            Item praesenti
+            distin<lb ed="#V" n="125" break="no"/>ctio. quaestio. 1. artic. 4. in solutione primae quaestiunculae sic
+            <lb ed="#V" n="126"/>dicit. Nihil videtur corporali visu nisi per hoc quod
+            ocu<lb ed="#V" n="127" break="no"/>lus eius mouetur ab obiecto secundum similitudinem
+            co<lb ed="#V" n="128" break="no"/>loris in ipso existentis, quae quidem similitudo primo fit in
+            <lb ed="#V" n="129"/>medio, &amp; deinde in sensu. Corpus autem Christi non
+            ha<lb ed="#V" n="130" break="no"/>bet ordinem ad species sub quibus est ratione quantitatis
+            <lb ed="#V" n="131"/>suae, &amp; ideo non potest aggenerari similitudo coloris eius
+            <lb ed="#V" n="132"/>in aere contingente species duplici ratione, primo quia
+            om<lb ed="#V" n="133" break="no"/>nis actio corporalis requirit contactum, tactus autem
+            cor<lb ed="#V" n="134" break="no"/>poralis sequitur quantitatem, quia nihil aliud est quam
+            <lb ed="#V" n="135"/>coniunctio terminorum duarum quantitatum, &amp; ideo
+            <lb ed="#V" n="136"/>corpus Christi non tangit aerem circunstantem, &amp;
+            pro<lb ed="#V" n="137" break="no"/>pter hoc non potest in ipso aggenerare similitudinem sui
+            <lb ed="#V" n="138"/>coloris: secundo quia color sequitur quantitatem, cum
+            im<lb ed="#V" n="139" break="no"/>mediatum subiectum eius sit superficies, &amp; quia corpus
+            <lb ed="#V" n="140"/>Christi non habet ordinem ad hunc locum ratione suae
+            <lb ed="#V" n="141"/>quantitatis, ideo nec ratione sui coloris. Et ideo sicut non
+            <lb ed="#V" n="142"/>coniungitur aeri circunstanti secundum quantitatem, ita
+            <lb ed="#V" n="143"/>non assimilat sibi ipsum aggenerando similitudinem
+            co<lb ed="#V" n="144" break="no"/>loris sui in ipso. Haec ille.
+          </p>
+          <p xml:id="capsco-d3azz4-d1e309">
+            Item ibidem in solutione quartae
+            <lb ed="#V" n="145"/>quaestio. sic dicit. Angelus nihil videt visione corporali,
+            <lb ed="#V" n="146"/>quia licet corpus assumat, non tamen conceditur quod
+            <lb ed="#V" n="147"/>videat per corpus assumptum: vnde relinquitur, quod
+            <pb ed="#V" n="116"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>in eo non est nisi visus intellectus, quod quidem non est in
+            <lb ed="#V" n="2"/>recipiendo a sensibilibus, sed vel per species innatas
+            quan<lb ed="#V" n="3" break="no"/>tum ad ea quae naturali cognitione intelligunt, vel per
+            ver<lb ed="#V" n="4" break="no"/>bum quod vident quantum ad ea quae supra naturalem
+            co<lb ed="#V" n="5" break="no"/>gnitionem ipsorum sunt. Et quia Angeli sunt beati oportet
+            <lb ed="#V" n="6"/>quod habeant plenam visionem omnium eorum de quibus est
+            <lb ed="#V" n="7"/>fides quantum ad visionem gloriosam, quae fidei succedit.
+            <lb ed="#V" n="8"/>Et ideo sicut fides credit corpus Christi esse sub
+            sacramen<lb ed="#V" n="9" break="no"/>to, ita visione beata Angeli vident. Credo autem quod omnia
+            <lb ed="#V" n="10"/>quae sunt fidei sunt supra naturalem cognitionem
+            angelo<lb ed="#V" n="11" break="no"/>rum, sicut supra naturalem rationem hominum, &amp; ideo
+            mi<lb ed="#V" n="12" break="no"/>steria fidei dicuntur esse abscondita a saeculis in Deo vt
+            dici<lb ed="#V" n="13" break="no"/>tur Ephes. 3. Vnde naturali cognitione non vident
+            Angeli<lb ed="#V" n="14" break="no"/>corpus Christi esse sub sacramento, sed solum beata.
+            Daemo<lb ed="#V" n="15" break="no"/>nes vero non vident plenarie, sed credunt &amp; contremiscunt,
+            <lb ed="#V" n="16"/>Haec ille.
+          </p>
+          <p xml:id="capsco-d3azz4-d1e357">
+            Item in solutione quintae quaestiuncule sic dicit
+            <lb ed="#V" n="17"/>Illa tantum intellectus noster videre dicitur proprie
+            soquen<lb ed="#V" n="18" break="no"/>do quorum essentia ei repraesentatur siue lumine
+            natura<lb ed="#V" n="19" break="no"/>li siue gratiae aut gloriae, &amp; ideo per consequens videre
+            di<lb ed="#V" n="20" break="no"/>citur illa principia quae statim cognitis terminis quasi visis
+            <lb ed="#V" n="21"/>essentijs terminorum cognoscuntur, &amp; per consequens
+            om<lb ed="#V" n="22" break="no"/>nia, &amp; tantum illa quae reducuntur in illa principia, sicut
+            con<lb ed="#V" n="23" break="no"/>clusiones scientiarum. Quia vero nullo modo ordinem
+            ha<lb ed="#V" n="24" break="no"/>bent ad principia naturaliter cognita, nec ad sensus
+            perce<lb ed="#V" n="25" break="no"/>ptionem, non potest in statu viae videre. Et quia corpus
+            Chri<lb ed="#V" n="26" break="no"/>sti esse sub sacramento nullum ordinem habet ad principia
+            <lb ed="#V" n="27"/>naturaliter cognita quae sunt principia scientiarum, neque
+            <lb ed="#V" n="28"/>etiam sensu a nobis compraehendi potest, ideo intellectus
+            <lb ed="#V" n="29"/>viatoris nullo modo hoc videre potest, &amp; multo minus
+            con<lb ed="#V" n="30" break="no"/>praeheudere, quia aliquid videtur quod non
+            compraehendi<lb ed="#V" n="31" break="no"/>ur sicut essentia diuina in patria, nisi videre largo modo
+            di<lb ed="#V" n="32" break="no"/>cto secundum quod dicimur videre ea quae sunt fidei in
+            spe<lb ed="#V" n="33" break="no"/>culo &amp; in enigmate prima Corinthu. 13. Haec ille.
+          </p>
+          <p xml:id="capsco-d3azz4-d1e397">
+            Ex quibus
+            <lb ed="#V" n="34"/>possunt formari rationes pro conclusionibus. Et quidem
+            <lb ed="#V" n="35"/>pro prima potest sic formari ratio. Nullum corpus non
+            po<lb ed="#V" n="36" break="no"/>tens immutare medium videndi per sua accidentia, nec
+            or<lb ed="#V" n="37" break="no"/>ganum visus potest videri ab oculo corporali, sed corpus
+            <lb ed="#V" n="38"/>Christi secundum esse quod habet in Eucharistia est
+            huius<lb ed="#V" n="39" break="no"/>modi: igitur secundum tale esse non potest videri ab
+            ocu<lb ed="#V" n="40" break="no"/>lo corporali. Pro secunda arguitur sic. Quilibet oculus
+            bea<lb ed="#V" n="41" break="no"/>tus intellectualis videt actu vel habitu omnia de quibus est
+            <lb ed="#V" n="42"/>fides viatoris, sed de corpore Christi secundum esse quod
+            <lb ed="#V" n="43"/>habet in Eucharistia est fides viatoris: ergo &amp; visio
+            beato<lb ed="#V" n="44" break="no"/>rum est de illo vel esse potest. Pro tertia arguitur sic.
+            Natu<lb ed="#V" n="45" break="no"/>ralis cognitio visiua Angelorum non potest esse de illo de
+            <lb ed="#V" n="46"/>quo directe est fides, sed Christum esse in Eucharistia est
+            hu<lb ed="#V" n="47" break="no"/>iusmodi: igitur &amp;c. In hoc primus articulus terminatur.
+          </p>
+        </div>
+        <div xml:id="capsco-d3azz4-Dd1e431">
+          <head xml:id="capsco-d3azz4-Hd1e433">Articulus 2</head>
+          <p xml:id="capsco-d3azz4-d1e435">
+            <lb ed="#V" n="48"/><milestone ed="#V" unit="p" rend="initial"/> QVantum ad secundum articulum arguendum est
+            con<lb ed="#V" n="49" break="no"/>tra conclusiones. Et quidem contra primam
+            conclu<lb ed="#V" n="50" break="no"/>sionem arguit Scotus probando quod oculus corporalis potest
+            <lb ed="#V" n="51"/>videre corpus Christi vt existens in Eucharistia. Primo, quia
+            <lb ed="#V" n="52"/>si corpus Christi vt existens in Eucharistia non posset
+            im<lb ed="#V" n="53" break="no"/>mutare vsum, hoc esset quia est inextensum, sed hoc non
+            va<lb ed="#V" n="54" break="no"/>let, quia Angelus nusquam est praesens localiter nisi
+            diffini<lb ed="#V" n="55" break="no"/>tiue, mouet tamen localiter corpus sibi proportionatum
+            <lb ed="#V" n="56"/>praesens, &amp; si haberet virtutem alterandiipsum alteraretur
+            <lb ed="#V" n="57"/>corpus vt est praesens: ergo non requiritur ex parte
+            mouen<lb ed="#V" n="58" break="no"/>tis extensio corporalis ad hoc quod alteret organum ad
+            sensa<lb ed="#V" n="59" break="no"/>tioncm. Secundo: quia corpus Christi non est praesens
+            sub<lb ed="#V" n="60" break="no"/>specie alicuius ad minus nisi minimo sensibili, quia nulli
+            in<lb ed="#V" n="61" break="no"/>diuisibili est praesens, minimum autem sensibile potest
+            perci<lb ed="#V" n="62" break="no"/>pi a sensu perfectissimo secundum Philosophum 1. de
+            sen<lb ed="#V" n="63" break="no"/>su &amp; sensato: ergo &amp; istud poterit percipi a visu
+            persectissi<lb ed="#V" n="64" break="no"/>mo non obstante suo modo existendi. Tertio, quia illud quod
+            <lb ed="#V" n="65"/>dicitur de tactu in probatione conclusionis non valet nec
+            <lb ed="#V" n="66"/>concludit, quia contactus vt dicit habitudinem corporis ad
+            <lb ed="#V" n="67"/>corpus extrinsecum, non videtur necessario requiri ad
+            ali<lb ed="#V" n="68" break="no"/>quam actionem absolutam cuiusmodi est mutatio sensus,
+            <lb ed="#V" n="69"/>quia actio absoluta videtur posse praecedere quemcunque
+            <lb ed="#V" n="70"/>talem respectum extrinsecus aduenientem: ergo licet
+            cor<lb ed="#V" n="71" break="no"/>pus Christi, vt hic non contingat excludendo talem
+            respe<lb ed="#V" n="72" break="no"/>ctum extrinsecus aduenientem ad aliud corpus, non
+            sequi<lb ed="#V" n="73" break="no"/>tur quin posset alterare quod est mouere vel mutare ad
+            for<lb ed="#V" n="74" break="no"/>mam absolutam. Quarto, quia illud quod dicitur de
+            quan<lb ed="#V" n="75" break="no"/>titate non concludit nisi quod color non habet ordinem
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="76"/>ad locum eo modo quo quantitas quae est eius subiectum
+            <lb ed="#V" n="77"/>non habet ordinem ad locum, hoc autem non est nisi
+            qui<lb ed="#V" n="78" break="no"/>non est extensio proportionabilis extensioni quantitatis
+            il<lb ed="#V" n="79" break="no"/>lius corporis: ergo inferas quod color non extenditur
+            exten<lb ed="#V" n="80" break="no"/>sioni quantitatis continentis. sed si inferatur: ergo non
+            potes<lb ed="#V" n="81" break="no"/>alterare medium, nihil ad propositum. Quinto, quia
+            simili<lb ed="#V" n="82" break="no"/>ter illud de deriuatione per medium, non valet vt patet
+            per<lb ed="#V" n="83" break="no"/>primam rationem, quia Angelus potest bene habere aliquem
+            <lb ed="#V" n="84"/>effectum ordinate determinatum in passo secundum
+            par<lb ed="#V" n="85" break="no"/>tes passi, licet angelus vt agens non habeat alicubi esse
+            lo<lb ed="#V" n="86" break="no"/>caliter. Sexto, quia cum visio sit forma absoluta potest sine
+            <lb ed="#V" n="87"/>contradictione fieri a Deo in oculo quocunque siue
+            glori<lb ed="#V" n="88" break="no"/>ficato, siue non glorificato sine respectu praesentialitatis ad
+            <lb ed="#V" n="89"/>obiectum, vel quocunque tali respectu, vt videtur. Septimo,
+            <lb ed="#V" n="90"/>quia illud quod additur de miraculo non valet, quia
+            mira<lb ed="#V" n="91" break="no"/>culum non est ad illud quod includit contradictionem, sed
+            <lb ed="#V" n="92"/>quod oculus corporalis videat corpus Christi vt hoc primo
+            <lb ed="#V" n="93"/>implicat, patet quia tam causatio quam terminatio visionis
+            <lb ed="#V" n="94"/>requirit in obiecto primo causante vel terminante
+            dispo<lb ed="#V" n="95" break="no"/>sitionem debitam, &amp; hoc secundum locum, vtpote
+            appro<lb ed="#V" n="96" break="no"/>ximationem &amp; distantiam debitam, sed corpus Christi vt
+            <lb ed="#V" n="97"/>in Eucharistia non potest debite approximari organo, nec
+            <lb ed="#V" n="98"/>distare debite, quia non est hic vt in loco. Haec Scotus in
+            <lb ed="#V" n="99"/>forma.
+          </p>
+          <p xml:id="capsco-d3azz4-d1e553">
+            Contra secundam conclusionem arguit idem Scotus.
+            <lb ed="#V" n="100"/>probando quod beatus per actum beatificum non videt corpus
+            <lb ed="#V" n="101"/>Christi in Eucharistia quia Beatus non distinguitur a non
+            <lb ed="#V" n="102"/>beato nisi beatificum obiectum videndo, &amp; ea quae
+            inclu<lb ed="#V" n="103" break="no"/>duntur in ipso, vt est tale obiectum, sed corpus Christi in
+            <lb ed="#V" n="104"/>Eucharistia non est tale obiectum beatificum, vt patet, nec
+            <lb ed="#V" n="105"/>inclusum in obiecto beatifico, patet: quia aeque naturaliter
+            <lb ed="#V" n="106"/>pertinet ad obiectum beatificum in ratione obiecti videre
+            <lb ed="#V" n="107"/>vnam rem vnius sacramenti, sicut alterius, sicut ad fidem
+            <lb ed="#V" n="108"/>aeque pertinet credere veritatem vnius articuli sicut
+            alte<lb ed="#V" n="109" break="no"/>rius, sed nullo modo pertinet ad obiectum beatificum
+            in<lb ed="#V" n="110" break="no"/>cludere istud sub ratione ostensiscilie gratiam conferri
+            paruu<lb ed="#V" n="111" break="no"/>lo in baptismo, vel gratiam conferri confitenti in
+            confessio<lb ed="#V" n="112" break="no"/>ne, &amp; ista aeque veraciter includuntur in sacramentis sicut
+            <lb ed="#V" n="113"/>corpus Christi in Eucharistia: ergo nullo modo obiectum
+            <lb ed="#V" n="114"/>beatificum vt obiectum tale est includit corpus Christi vt
+            <lb ed="#V" n="115"/>visum in Eucharistia. Et addo iuxta hoc quod multo minus
+            re<lb ed="#V" n="116" break="no"/>quiritur ad beatitudinem quod beatus videat existentiam
+            cor<lb ed="#V" n="117" break="no"/>poris Christi in Eucharistia in proprio genere, quia multo
+            <lb ed="#V" n="118"/>minus requiritur ad beatitudinem talis perfectio visionis
+            <lb ed="#V" n="119"/>quam visionis in verbo. Haec Scotus in forma. Contra
+            ter<lb ed="#V" n="120" break="no"/>tiam conclusionem arguit idem Scotus probando quod
+            intel<lb ed="#V" n="121" break="no"/>lectus angelicus vel animae separatae siue hominis beati
+            na<lb ed="#V" n="122" break="no"/>turaliter potest videre existentiam corporis Christi in
+            Eu<lb ed="#V" n="123" break="no"/>charistia. Primo, quia intellectus se habens ad intelligibilia
+            <lb ed="#V" n="124"/>sicut ipsa sunt intelligibilia in se prius intelligit illud quod
+            <lb ed="#V" n="125"/>prius est intelligibile in se, &amp; per consequens illud quod prius
+            <lb ed="#V" n="126"/>est in se ens, quia vnumquodque sicut se habet ad esse ita ad
+            <lb ed="#V" n="127"/>intelligibilitatem &amp; veritatem secundum se, vt patet 2. met.
+            <lb ed="#V" n="128"/>talis autem intellectus respicit totum ens &amp; quodlibet
+            se<lb ed="#V" n="129" break="no"/>cundum ordinem suae intelligibilitatis, substantia autem
+            <lb ed="#V" n="130"/>est prior sicut in entitate ita in cognoscibilitate quocunque
+            <lb ed="#V" n="131"/>modo accidentali ipsius: ergo talis intellectus prius
+            intelli<lb ed="#V" n="132" break="no"/>git substantiam ipsam quam quemcunque modum eius, &amp;
+            <lb ed="#V" n="133"/>per consequens nullus modus eius sub specie potest
+            impe<lb ed="#V" n="134" break="no"/>dire intellectionem substantiae a tali intellectu. Breuiter
+            ar<lb ed="#V" n="135" break="no"/>guit sic. Modus accidentalis in per se obiecto non impedit
+            <lb ed="#V" n="136"/>cognitionem illius obiecti, ista praesentia in Eucharistia est
+            <lb ed="#V" n="137"/>modus accidentalis substantiae corporis Christi: ergo non
+            <lb ed="#V" n="138"/>impedit illam substantiam cognosci a tali intellectu, cuius
+            <lb ed="#V" n="139"/>ipsa est per se obiectum. Est autem obiectum per se illius
+            <lb ed="#V" n="140"/>intellectus abstracti qui non dependet in intelligendo a
+            sen<lb ed="#V" n="141" break="no"/>sibus: igitur &amp;c.
+          </p>
+          <p xml:id="capsco-d3azz4-d1e647">
+            Dices quod ista concludunt quod talis
+            sub<lb ed="#V" n="142" break="no"/>stantia corporis Christi posset cognosci a tali intellectu,
+            <lb ed="#V" n="143"/>sed non intuitiue videre: quia illa existentia est
+            supernatu<lb ed="#V" n="144" break="no"/>ralis, &amp; per consequens improportionabilis intellectui
+            crea<lb ed="#V" n="145" break="no"/>to vel naturaliter cognoscenti.
+          </p>
+          <p xml:id="capsco-d3azz4-d1e658">
+            Sed contra hoc arguit: quia
+            <lb ed="#V" n="146"/>virtus potens cognoscere obiectum intuitiue dum est praesens,
+            <lb ed="#V" n="147"/>potest cognoscere eius absentiam dum est absens patet 2. de
+            <lb ed="#V" n="148"/>Anima, quia visu non tantum cognoscimus lucem, sed tenebram
+            <lb ed="#V" n="149"/>sed intellectus talis potest cognoscere substantiam panis, vel
+            pe<lb ed="#V" n="150" break="no"/>stantiam panis quando est praesens, quia non est obiectum supernaturale:
+            <pb ed="#V" n="117"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>ergo potest cognoscere absentiam panis quando est absens.
+            <lb ed="#V" n="2"/>Et qua ratione potest cognoscere istam absentiam
+            substan<lb ed="#V" n="3" break="no"/>tiae panis potest cognoscere substantiam corporis Christi,
+            <lb ed="#V" n="4"/>quia illud in se est obiectum proportionatum tali intellectui
+            <lb ed="#V" n="5"/>vt intuenti: ergo modus accidentalis ipsius corporis non
+            im<lb ed="#V" n="6" break="no"/>pedit quin sit obiectum intuibile ipsi intellectui. Secundo
+            <lb ed="#V" n="7"/>sic. Totum ens creatum sicut est obiectum proportionatum
+            <lb ed="#V" n="8"/>tali intellectui quantum ad cognitionem abstractiuam, ita
+            <lb ed="#V" n="9"/>quantum ad intuitiuam. Non enim differt intuitiua ab
+            abstra<lb ed="#V" n="10" break="no"/>ctiua nisi propter praesentiam obiecti aliam, &amp; aliam,
+            quic<lb ed="#V" n="11" break="no"/>quid autem potest esse sibi praesens hac praesentia, hoc &amp;
+            il<lb ed="#V" n="12" break="no"/>la. Si ergo quodcunque ens potest abstractiue cognosci a
+            <lb ed="#V" n="13"/>tali intellectu quando est sibi praesens vno modo, sequitur
+            <lb ed="#V" n="14"/>quod potest intuitiue intelligi quando est sibi praesens in
+            pro<lb ed="#V" n="15" break="no"/>pria existentia actuali.
+          </p>
+          <p xml:id="capsco-d3azz4-d1e709">
+            Tertio sic. Naturale &amp;
+            supernatu<lb ed="#V" n="16" break="no"/>rale non distinguunt naturam alicuius in se, sed tantum in
+            <lb ed="#V" n="17"/>comparatione ad agens, ideo enim dicitur aliquid
+            superna<lb ed="#V" n="18" break="no"/>turale, quia a supernaturali agente, naturale vero quia a
+            na<lb ed="#V" n="19" break="no"/>turali agente, habitudo vero ad agens aliud &amp; aliud non
+            con<lb ed="#V" n="20" break="no"/>cludit aliquid esse aliud &amp; aliud in se secundum
+            Augustin<lb ed="#V" n="21" break="no"/>tertio de Trinitate ca. 9. ergo non concludit illud esse aliud
+            <lb ed="#V" n="22"/>&amp; aliud in ratione intelligibilis. Hoc etiam patet, quia
+            im<lb ed="#V" n="23" break="no"/>perfectum ens posset esse supernaturale, &amp; naturale aliquid
+            <lb ed="#V" n="24"/>posset perfectius eo, sicut omnis substantia est simpliciter
+            <lb ed="#V" n="25"/>perfectior omni accidente 7. Metaphysic. &amp; tamen
+            alicui<lb ed="#V" n="26" break="no"/>substantiae quae est ens mere naturale posset inesse aliquod
+            <lb ed="#V" n="27"/>accidens supernaturale, hoc autem patet, quia virtutes
+            theo<lb ed="#V" n="28" break="no"/>logicae vt charitas &amp; huiusmodi sunt in determinata specie
+            <lb ed="#V" n="29"/>qualitatis, &amp; secundum multos Angelus habet naturaliter
+            <lb ed="#V" n="30"/>principia cognoscendi omnes species entium, &amp;
+            cognoscen<lb ed="#V" n="31" break="no"/>di illas virtutes, licet sint entia supernaturalia. Haec Scotus
+            <lb ed="#V" n="32"/>in forma. Et in hoc secundus articulus terminatur.
+          </p>
+        </div>
+        <div xml:id="capsco-d3azz4-Dd1e749">
+          <head xml:id="capsco-d3azz4-Hd1e751">Articulus 3</head>
+          <p xml:id="capsco-d3azz4-d1e753">
+            <lb ed="#V" n="33"/><milestone ed="#V" unit="p" rend="initial"/> QVantum ad tertium articulum respondendum est
+            ob<lb ed="#V" n="34" break="no"/>iectionibus supra dictis. Ideo ad primum contra
+            con<lb ed="#V" n="35" break="no"/>clunonem dicitur negando minorem seu secundum partem
+            <lb ed="#V" n="36"/>antecedentis. Et ad probationem eius dicitur quod
+            similitu<lb ed="#V" n="37" break="no"/>do adducta de Angelo mouente corpus non valet, quia
+            mo<lb ed="#V" n="38" break="no"/>dus naturalis Angeli mouentis corpus est tangere corpus
+            <lb ed="#V" n="39"/>solo tactu metaphysico vel virtutis, siue contactu
+            mathema<lb ed="#V" n="40" break="no"/>tico &amp; ille tactus sufficit ad hoc quod moueat corpus motu
+            lo<lb ed="#V" n="41" break="no"/>cali. Similiter talis contactus virtutis sufficit ad hoc quod
+            ani<lb ed="#V" n="42" break="no"/>ma rationalis moueat corpus sibi coniunctum motu
+            loca<lb ed="#V" n="43" break="no"/>li &amp; augmenti &amp; alterationis. Secus autem est de agente
+            <lb ed="#V" n="44"/>mere corporali, tale enim non potest naturaliter agere nisi
+            <lb ed="#V" n="45"/>tangat suum proximum &amp; immediatum passum tactu
+            ma<lb ed="#V" n="46" break="no"/>thematieo. De hoc Sanctus Thomas secundo contra Gentiles c. 56
+            <lb ed="#V" n="47"/>Est inquit quidam contactus quo substantia intellectualis
+            <lb ed="#V" n="48"/>corpori vniri potest, corpora enim naturaliter tangendo se
+            al<lb ed="#V" n="49" break="no"/>terant, &amp; sic adinuicem vniuntur non solum secundum
+            vl<lb ed="#V" n="50" break="no"/>tima quantitatis, sed etiam secundum similitudinem
+            quali<lb ed="#V" n="51" break="no"/>tatis aut formae, dum alterans formam suam imprimit in
+            al<lb ed="#V" n="52" break="no"/>teratum, &amp; quamuis si considerentur solum vltima
+            quan<lb ed="#V" n="53" break="no"/>titatis oportet in omnibus vniuocum esse tactum, tamen si
+            <lb ed="#V" n="54"/>attendatur ad actionem &amp; passionem inueniuntur aliqua
+            <lb ed="#V" n="55"/>esse tangentia tantum, &amp; aliqua tacta tantum. Corpora enim
+            <lb ed="#V" n="56"/>coelestia tangunt quidem hoc modo elementaria corpora
+            <lb ed="#V" n="57"/>inquantum alterant ea, non autem tanguntur ab eis: quia
+            <lb ed="#V" n="58"/>ab eis non patiuntur. Si ergo sint aliqua tangentia quae in
+            <lb ed="#V" n="59"/>quantitatis vltimis non tangant, dicetur nihilominus
+            tan<lb ed="#V" n="60" break="no"/>gere inquantum agunt, secundum quem modum dicimus
+            <lb ed="#V" n="61"/>quod contristans nos tangit, hoc modo tangendi possibile est
+            <lb ed="#V" n="62"/>vniri substantiam intellectualem corpori per contactum.
+            <lb ed="#V" n="63"/>Agunt enim substantiae intellectuales in corpora &amp; mouent ea,
+            <lb ed="#V" n="64"/>cum sint immateriales &amp; magis in actu existentes, hic autem
+            <lb ed="#V" n="65"/>tactus non est quantitatis, sed virtutis: vnde differt hic
+            ta<lb ed="#V" n="66" break="no"/>ctus a tactu corporeo in tribus, primo: quia hoc tactu id
+            <lb ed="#V" n="67"/>quod est indiuisibile potest tangere diuisibile, quod in tactu
+            <lb ed="#V" n="68"/>corporeo non potest contingere: nam puncto non potest
+            <lb ed="#V" n="69"/>tangi nisi aliquid indiuisibile. Substantia autem
+            intellectua<lb ed="#V" n="70" break="no"/>lis quamuis sit indiuisibilis potest tangere quantitatem
+            di<lb ed="#V" n="71" break="no"/>uisibilem, inquantum agit in ipsam. Alio enim modo est
+            in<lb ed="#V" n="72" break="no"/>diuisibile punctum, &amp; substantia intellectualis. Punctum
+            <lb ed="#V" n="73"/>quidem sicut quantitatis terminus, &amp; ideo habet situm
+            de<lb ed="#V" n="74" break="no"/>terminatum in continuo vltra quem porrigi non potest,
+            sub<lb ed="#V" n="75" break="no"/>stantia autem intellectualis est indiuisibilis quasi extra
+            ge<cb ed="#V" n="b"/><lb ed="#V" n="76" break="no"/>nus quantitatis existens: vnde non determinatur ei aliquod
+            <lb ed="#V" n="77"/>indiuisibile quantitatis ad tangendum: secundo quia tactus
+            <lb ed="#V" n="78"/>quantitatis est solum secundum vltima, tactus autem
+            virtu<lb ed="#V" n="79" break="no"/>tis est ad totum quod tangitur. Sic enim tangitur secundum
+            <lb ed="#V" n="80"/>quod patitur &amp; mouetur, hoc autem fit secundum quod est in
+            po<lb ed="#V" n="81" break="no"/>tentia. Potentia est autem secundum totum, &amp; non solum
+            <lb ed="#V" n="82"/>secundum vltima totius: vnde totum tangitur. Ex quo
+            pa<lb ed="#V" n="83" break="no"/>tet tertia differentia, quia in tactu quantitatis qui fit
+            secun<lb ed="#V" n="84" break="no"/>dum extrema, oportet tangens extrinsecum esse ei quod
+            tan<lb ed="#V" n="85" break="no"/>gitur, &amp; non potest incedere per ipsum, sed impeditur ab eo.
+            <lb ed="#V" n="86"/>Tactus autem virtutis qui competit substantijs
+            intellectua<lb ed="#V" n="87" break="no"/>libus, &amp; spiritualibus, cum sit ad intima facit substantiam
+            <lb ed="#V" n="88"/>tangentem esse intra id quod tangitur, &amp; incedentem per
+            <lb ed="#V" n="89"/>ipsum absque impedimento. Sic ergo substantia
+            intellectua<lb ed="#V" n="90" break="no"/>lis potest vniri corpori per contactum virtutis. Haec ille.
+          </p>
+          <p xml:id="capsco-d3azz4-d1e883">
+            Si<lb ed="#V" n="91" break="no"/>mile ponit quarto sentontiarum dist. 44. q. 3. artic. 3. q. 1. in
+            <lb ed="#V" n="92"/>solutione septimi argumenti. Ex quo patet nullitas
+            simili<lb ed="#V" n="93" break="no"/>tudinis argumenti, quia in motione qua substantia
+            intellectua<lb ed="#V" n="94" break="no"/>lis mouet corpus qualicunque motu siue locali siue
+            altera<lb ed="#V" n="95" break="no"/>tionis sufficit contactus virtutis sine contactu quantitatiuo,
+            <lb ed="#V" n="96"/>quia alium contactum habere non potest respectu corporis
+            <lb ed="#V" n="97"/>aut alterius passibilis vel mobilis. Corpus autem non potest
+            <lb ed="#V" n="98"/>mouere suum proximum &amp; immediatum mobile nisi illud
+            <lb ed="#V" n="99"/>tangat tactu quantatiuo qui dicitur mathematicus. Nam
+            <lb ed="#V" n="100"/>contactus quo substantia intellectualis tangit corpus,
+            cor<lb ed="#V" n="101" break="no"/>pori conuenire non potest, vt patet ex duabus vltimis
+            con<lb ed="#V" n="102" break="no"/>ditionibus praedicti tactus supradictis. Et tamen mouens &amp;
+            <lb ed="#V" n="103"/>motum oportet esse simul, &amp; mouens tangere aliqualiter
+            mo<lb ed="#V" n="104" break="no"/>bile. Vnde Sanctus Thomas secundo contra Gentiles cap. 20. sic
+            di<lb ed="#V" n="105" break="no"/>cit. Nullum corpus agit nisi moueatur, eo quod oportet agens,
+            <lb ed="#V" n="106"/>&amp; patiens esse simul vel faciens &amp; factum, simul autem sunt
+            <lb ed="#V" n="107"/>quae in eodem loco sunt vt habetur 5. Physic. locum autem
+            <lb ed="#V" n="108"/>non acquirit corpus nisi per motum &amp;c.
+          </p>
+          <p xml:id="capsco-d3azz4-d1e925">
+            Item in fine
+            capi<lb ed="#V" n="109" break="no"/>tuli sic dicit. Mouens &amp; motum faciens &amp; factum oportet
+            <lb ed="#V" n="110"/>simul esse vt probatur 7. Physic. Corpus autem agens non
+            <lb ed="#V" n="111"/>potest adesse suo effectui nisi per contactum quo tangentium
+            <lb ed="#V" n="112"/>vltima simul sunt: vnde impossibile est aliquod corpus
+            age<lb ed="#V" n="113" break="no"/>re nisi tangendo &amp;c. Haec ille.
+          </p>
+          <p xml:id="capsco-d3azz4-d1e938">
+            Ad secundum negatur
+            ante<lb ed="#V" n="114" break="no"/>cedens, quia corpus Christi non solum est praesens minimo
+            <lb ed="#V" n="115"/>sensibili eo modo quo concedendum est minimum
+            sensi<lb ed="#V" n="116" break="no"/>bile posse dari scilicet ad hunc sensum quod tale quid separatum
+            pos<lb ed="#V" n="117" break="no"/>set sentiri &amp; nullum minus eo separatum ab alijs posset
+            sen<lb ed="#V" n="118" break="no"/>tiri, licet inexistentis alicui toti posset cum alijs sentiri,
+            tali<lb ed="#V" n="119" break="no"/>inquam minimo sensibili in partibus Eucharistiae corpus
+            <lb ed="#V" n="120"/>Christi est praesens, &amp; non solum tali immo cuilibet
+            parti<lb ed="#V" n="121" break="no"/>eius. Tale enim minimum in infinitum diuisibile est in partes
+            <lb ed="#V" n="122"/>non solum mathematicae quantitatis immo in partes
+            sensi<lb ed="#V" n="123" break="no"/>biles vt inexistunt toti, licet non in partes separatim
+            sensi<lb ed="#V" n="124" break="no"/>biles. Cum autem dicit arguens quod corpus Christi non est
+            <lb ed="#V" n="125"/>praesens alicui indiuisibili sub specie, &amp;c. Dicitur primo quod
+            <lb ed="#V" n="126"/>substantia corporis Christi est praesens cuilibet parti
+            dimen<lb ed="#V" n="127" break="no"/>sionum, &amp; cuilibet puncto, &amp; lineae, &amp; superficiei, &amp;
+            corpo<lb ed="#V" n="128" break="no"/>ri quibus substantia panis fuit praesens. Quodlibet enim
+            <lb ed="#V" n="129"/>praedictorum fuit subiectiue mediate vel immediate in
+            sub<lb ed="#V" n="130" break="no"/>stantia panis sicut in subiecto adaequato vel inadaequato vt
+            <lb ed="#V" n="131"/>diffuse dictum fuit secundo sententiarum. Dicitur secundo
+            <lb ed="#V" n="132"/>quod posito quod corpus Christi non esset praesens alicui
+            indiui<lb ed="#V" n="133" break="no"/>sibili de genere quantitatis aut substantiae ex hoc non
+            habe<lb ed="#V" n="134" break="no"/>tur quod non sit praesens alicui minori minimo sensibili, quia
+            <lb ed="#V" n="135"/>illud minimum non ideo dicitur minimum sensibile, eo quod
+            <lb ed="#V" n="136"/>omne minus illo, aut ipsum sit indiuisibile, vel quia non
+            <lb ed="#V" n="137"/>habeat partes consensibiles, sed quia non est diuisibile in
+            <lb ed="#V" n="138"/>partes seorsum sensibiles. Dicitur tertio quod haec
+            conse<lb ed="#V" n="139" break="no"/>quentia, in qua argumentum fundatur, scilicet corpus
+            Chri<lb ed="#V" n="140" break="no"/>sti est praesens minimo sensibili in Eucharistia: ergo corpus
+            <lb ed="#V" n="141"/>Christi in Eucharistia est sensibile, non plus valet quam ista,
+            <lb ed="#V" n="142"/>anima rationalis est praesens digito senubili: igitur ipsa est
+            <lb ed="#V" n="143"/>sensibilis in digito, cuius causa est: quia minimum
+            sensi<lb ed="#V" n="144" break="no"/>bile offertur oculo modo extensiuo, non sic est autem
+            cor<lb ed="#V" n="145" break="no"/>pus Christi praesens illi, cum non habeat modum
+            quantita<lb ed="#V" n="146" break="no"/>tiuum in ordine ad locum vel corpus extrinsecum, vt
+            saepe<lb ed="#V" n="147" break="no"/>dictum fuit prius. Obiectum autem oculi corporalis est quid
+            <lb ed="#V" n="148"/>extensiue oblatum oculo.
+          </p>
+          <p xml:id="capsco-d3azz4-d1e1017">
+            Ad tertium negatur antecedens, quia
+            <lb ed="#V" n="149"/>probatio adducta de tactu bona est vt prius patuit. Et ad
+            <lb ed="#V" n="150"/>improbationem illius probationis dicitur quod omnis actio
+            <pb ed="#V" n="118"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>corporis siue absoluta siue respectiua necessario
+            praesuppo<lb ed="#V" n="2" break="no"/>nit contactum corporis ad corpus vt praedictum est.
+          </p>
+          <p xml:id="capsco-d3azz4-d1e1033">
+            <lb ed="#V" n="3"/><milestone ed="#V" unit="p" rend="indent"/> Ad quartum dicitur quod fundatur super illo falso
+            ma<lb ed="#V" n="4" break="no"/>le probato in primo argumento, scilicet quod corpus vel
+            <lb ed="#V" n="5"/>qualitas corporalis possit immutare medium vel
+            orga<lb ed="#V" n="6" break="no"/>num sensus abstracta a quantitate vel a modo
+            quantitatiuo<lb ed="#V" n="7" break="no"/>in ordine ad extrinsecum. Huius enim oppositum saepe dictum
+            <lb ed="#V" n="8"/>fuit.
+          </p>
+          <p xml:id="capsco-d3azz4-d1e1050">
+            Ad quintum, patet per idem quia similitudo de
+            actio<lb ed="#V" n="9" break="no"/>ne Angeli, &amp; de actione corporis vel qualitatis corporeae
+            <lb ed="#V" n="10"/>non valet vt visum fuit in primo argumento, vel in
+            solutio<lb ed="#V" n="11" break="no"/>ne primi argumenti.
+          </p>
+          <p xml:id="capsco-d3azz4-d1e1059">
+            Ad sextum dicitur quod visio corporalis
+            <lb ed="#V" n="12"/>licet sit forma absoluta quantum ad illud quod dicit
+            intrin<lb ed="#V" n="13" break="no"/>sece &amp; in recto, importat tamen in obliquo respectum ad
+            <lb ed="#V" n="14"/>potentiam visiuam sicut ad suum efficiens &amp; subiectum, est
+            <lb ed="#V" n="15"/>enim in illo &amp; ab illo. Et similiter importat respectum
+            pre<lb ed="#V" n="16" break="no"/>sentialitatis ad obiectum proportionatum potentiae &amp;
+            ei<lb ed="#V" n="17" break="no"/>dem debite oblatum, puta sub modo extensiuo, &amp; ideo sicut
+            <lb ed="#V" n="18"/>per nullam potentiam posset fieri visio in oculo
+            corporali<lb ed="#V" n="19" break="no"/>per quem videretur substantia abstracta a quantitate vel
+            co<lb ed="#V" n="20" break="no"/>lor indiuisibilis, &amp; penitus inextensus, sic nulla visione
+            cor<lb ed="#V" n="21" break="no"/>porali potest videri color vel coloratum habens modum
+            exi<lb ed="#V" n="22" break="no"/>stendi spiritualem, &amp; sine coextensione respectu extrinseci
+            <lb ed="#V" n="23"/>medij vel organi, cuiusmodi esse habet corpus Christi in
+            <lb ed="#V" n="24"/>Eucharistia &amp; eius quantitas &amp; color: vnde de hoc Petus de
+            <lb ed="#V" n="25"/>Palude vltima. q. huius dist. sic dicit. Corpus Christi oculo
+            <lb ed="#V" n="26"/>corporali mortali non videtur secundum quod est in sacramento. Et
+            <lb ed="#V" n="27"/>ratio est, quia est velatum speciebus opacis, vltra quas
+            acu<lb ed="#V" n="28" break="no"/>ties visus figi non potest, etiam si esset localiter ibi, qua si in
+            po<lb ed="#V" n="29" break="no"/>ris vel concauitate, sicut medicina cooperta nebula non videtur.
+            <lb ed="#V" n="30"/>Vlterius dico quod nec videtur oculo corporali immortali
+            Vir<lb ed="#V" n="31" break="no"/>ginis beatae, dato etiam quod opacitas medij interpositi non
+            im<lb ed="#V" n="32" break="no"/>pediret visum oculi glorificati, vt quod existentes in coelo sine
+            <lb ed="#V" n="33"/>motu viderent dannatos in inferno non obstante
+            opacita<lb ed="#V" n="34" break="no"/>te terrae, quod forte esset possibile, si non ab obiecto speciem
+            <lb ed="#V" n="35"/>recipit oculus, sicut nunc, sed a Deo, quod hic esse non potest,
+            <lb ed="#V" n="36"/>quia esse sensatum non potest nisi quod sensibile est, sensibile
+            <lb ed="#V" n="37"/>autem proprium non est sine sensibili communi, quia albedo non
+            quan<lb ed="#V" n="38" break="no"/>ta visibilis non est. Idem autem est esse non quantum, &amp; non
+            <lb ed="#V" n="39"/>habere modum quantitatiuum quantum ad propositum,
+            <lb ed="#V" n="40"/>propter quod Christus quantus essentialiter est in parua
+            ho<lb ed="#V" n="41" break="no"/>stia, ac si non esset quantus, quia non est ibi modo
+            quanti<lb ed="#V" n="42" break="no"/>tatiuo: ergo nec oculus glorificatus potest ibi videre
+            cor<lb ed="#V" n="43" break="no"/>pus Christi, vbi non est modo quantitatiuo, sicut nec
+            pos<lb ed="#V" n="44" break="no"/>set videre ipsum vbi esset sine quantitate.
+          </p>
+          <p xml:id="capsco-d3azz4-d1e1133">
+            Dico tertio, quod nec
+            <lb ed="#V" n="45"/>oculus Christi, quamuis Thomas hoc dicat arguendo &amp;
+            sol<lb ed="#V" n="46" break="no"/>uendo, dicit enim quod si esset extra quod non videret se nisi per
+            mi<lb ed="#V" n="47" break="no"/>raculum, vbi tamen non asserit quod existens intra videat se, nec quod
+            <lb ed="#V" n="48"/>per miraculum, &amp; ideo primo ostendo quod non videt se prout
+            <lb ed="#V" n="49"/>est extra, quia oculus Christi est localiter extra &amp; intra
+            sa<lb ed="#V" n="50" break="no"/>cramentaliter, quia licet oculus Christi prout est extra hoc
+            <lb ed="#V" n="51"/>Sacramentum localiter sit visiuus, non tamen est visiuus esse
+            in<lb ed="#V" n="52" break="no"/>tellectualis, sed sensibilis. Cum ergo nullum esse substantiale
+            <lb ed="#V" n="53"/>sit sensibile nisi mediante accidentali, ista mutatio prout est
+            <lb ed="#V" n="54"/>substantialis in nullo attingens accidens non est sensibilis
+            <lb ed="#V" n="55"/>maxime sensu exteriori: quod dico propter aliquos qui dicunt
+            <lb ed="#V" n="56"/>substantiam indiuidualem sentiri per cogitatiuam. Cum
+            er<lb ed="#V" n="57" break="no"/>go accidens Christi non fiat hic nisi per substantiam:
+            ergo<lb ed="#V" n="58" break="no"/>nec suum fieri hic est cognoscibile nisi per fieri substantiae,
+            <lb ed="#V" n="59"/>quia eadem sunt principia essendi &amp; cognoscendi. Vlterius
+            <lb ed="#V" n="60"/>autem si mutatio non est sensibilis, nec per consequens
+            muta<lb ed="#V" n="61" break="no"/>tum esse, vel terminus eius, ita enim est sensibilis dealbatio sicut
+            <lb ed="#V" n="62"/>albedo: ergo &amp;c Praeterea corpus Christi secundum esse
+            sacramen<lb ed="#V" n="63" break="no"/>tale non est praesens, sed absens oculo Christi secundum esse
+            loca<lb ed="#V" n="64" break="no"/>le: ergo oportet quod ei praesentetur. Aut ergo secundum
+            mo<lb ed="#V" n="65" break="no"/>dum qui est in sacramento, &amp; ille non est modus visibilis,
+            <lb ed="#V" n="66"/>cum secundum figuram pyramidalem sit nata fieri visio, &amp; non
+            se<lb ed="#V" n="67" break="no"/>cundum modum indiuisibilem. Aut repraesentabitur aliter
+            <lb ed="#V" n="68"/>quam sit, &amp; sic non videbitur prout est ibi.
+          </p>
+          <p xml:id="capsco-d3azz4-d1e1188">
+            Dico quarto quod
+            <lb ed="#V" n="69"/>nec etiam videt se prout est intra sacramentaliter, &amp; ratio est
+            <lb ed="#V" n="70"/>quia non est ibi Christi oculus modo viuisio cum de ratione
+            <lb ed="#V" n="71"/>oculi vt visiuus est sit extensio, oculus autem Christi non
+            es<lb ed="#V" n="72" break="no"/>in sacramento modo quantitatis, sicut nec corpus Christi,
+            <lb ed="#V" n="73"/>ita quod nec corpus Christi est hic modo visibili, nec
+            ocu<lb ed="#V" n="74" break="no"/>lus modo visiuo, quia neutrum modo quantitatis, qui solus
+            <lb ed="#V" n="75"/>modus est visibilis &amp; visiuus, &amp; ideo oculus Christi
+            abso<cb ed="#V" n="b"/><lb ed="#V" n="76" break="no"/>lute loquendo videbat Christum existentem in
+            sacramen<lb ed="#V" n="77" break="no"/>to in coena, &amp; nunc etiam videt se existentem in
+            sacramen<lb ed="#V" n="78" break="no"/>to, sed non videt oculus Christi prout est extra localiter, ve
+            <lb ed="#V" n="79"/>intra sacramentaliter, vel quomodolibet aliter Christum
+            <lb ed="#V" n="80"/>prout est in sacramento, id est secundum esse sacramentale.
+            <lb ed="#V" n="81"/>Sed secundum esse naturale oculus Christi nunc extra hoc
+            <lb ed="#V" n="82"/>sacramentum semper eum videre potest, secundum autem
+            <lb ed="#V" n="83"/>esse quod habet hic non conuenit sibi videre nec videri
+            <lb ed="#V" n="84"/>Dico quinto quod nec etiam per miraculum hoc fieri potest
+            <lb ed="#V" n="85"/>quia non potest fieri quod potentia feratur nisi in suum
+            obie<lb ed="#V" n="86" break="no"/>ctum. Cum ergo obiectum visus sit quantitas, &amp; qualitas
+            <lb ed="#V" n="87"/>inquantum huiusmodi, non substantia, quantitas quae
+            est<lb ed="#V" n="88" break="no"/>hic per modum substantiae est inuisibilis, &amp; licet Deus
+            face<lb ed="#V" n="89" break="no"/>re possit sine obiecto speciem visibilem, tamen species
+            quan<lb ed="#V" n="90" break="no"/>Deus faceret si repraesentaret corpus Christi prout est ib
+            <lb ed="#V" n="91"/>non repraesentaret eum modo visibili: vnde sicut non potest
+            <lb ed="#V" n="92"/>fieri per miraculum quod oculus videat spiritum, sic nec quod
+            vi<lb ed="#V" n="93" break="no"/>deat corpus secundum quod habet modum Spiritus. Nisi
+            for<lb ed="#V" n="94" break="no"/>te diceretur, quod si aliquis sensus interior cognoscit
+            substan<lb ed="#V" n="95" break="no"/>tiam, potest Deus facere quod sensus exterior cognosceret es
+            <lb ed="#V" n="96"/>vel quantitatem, vt habet modum substantiae, sed nec hoc
+            <lb ed="#V" n="97"/>sequitur, quia Deus non potest facere quod oculus videat
+            so<lb ed="#V" n="98" break="no"/>num, quamuis sonus sit perceptibilis aliquo sensu.
+          </p>
+          <p xml:id="capsco-d3azz4-d1e1258">
+            Praete<lb ed="#V" n="99" break="no"/>rea cum corpus Christi sit ibi modo spirituali non
+            corpo<lb ed="#V" n="100" break="no"/>rali, quia non est ibi situaliter, nec localiter, nec hic, nec nunc
+            <lb ed="#V" n="101"/>sub quibus conditionibus tantum sensus appraehendit, ideo
+            <lb ed="#V" n="102"/>est ibi insensibiliter. Non videtur etiam verum illud quod statim
+            sup<lb ed="#V" n="103" break="no"/>ponebatur scilicet quod aliquis sensus quantumcunque altus possit
+            <lb ed="#V" n="104"/>substantiam appraehendere, quia substantia non est
+            sensibi<lb ed="#V" n="105" break="no"/>le proprium, nec commune, quae sola sentiuntur sensibus
+            interio<lb ed="#V" n="106" break="no"/>ribus &amp; exterioribus excepta estimatiua, quia illa sunt
+            for<lb ed="#V" n="107" break="no"/>mae accidentales, vt patet discurrendo per omnia. Nec
+            etian<lb ed="#V" n="108" break="no"/>per aestimatiuam, quia illa non appraehendit formas
+            inten<lb ed="#V" n="109" break="no"/>tionales, sed tamen accidentales. Vnde nullus sensus
+            apprae<lb ed="#V" n="110" break="no"/>hendit quod quid est substantiae quod est proprium obiectum
+            <lb ed="#V" n="111"/>intellectus, vt dicitur tertio de Anima. Haec Petrus in
+            forma<lb ed="#V" n="112" break="no"/>&amp; bene. Sed in eius dictis sunt duo dubia.
+          </p>
+          <p xml:id="capsco-d3azz4-d1e1291">
+            Primum est. Vtrum
+            <lb ed="#V" n="113"/>substantia sit aliquo sensu interiori perceptibilis: secundum
+            <lb ed="#V" n="114"/>est quid senserit, scilicet Thomas de hoc. Vtrum per
+            miracu<lb ed="#V" n="115" break="no"/>lum oculus corporeus possit sentire corpus Christi
+            secun<lb ed="#V" n="116" break="no"/>dum esse quod habet in Eucharistia. De primo sciendum
+            <lb ed="#V" n="117"/>est quod Sanctus Thomas in tractatu de principio indiuiduationis
+            qui<lb ed="#V" n="118" break="no"/>incipit. Quoniam duae sunt potentiae cognoscitiuae &amp;c. ad
+            <lb ed="#V" n="119"/>illud propositum sic dicit. Nunc restat ostendere vbi
+            sepa<lb ed="#V" n="120" break="no"/>rantur cognitio sensus &amp; intellectus mutuo a se. Manifestum
+            <lb ed="#V" n="121"/>est enim intellectum incipere vbi sensus desinit, sensus autem
+            <lb ed="#V" n="122"/>exteriores ipsa sensibilia accidentia scilicet propria &amp; communia
+            <lb ed="#V" n="123"/>habent pro per se obiectis, quidditas autem particularis
+            rei<lb ed="#V" n="124" break="no"/>in particulari non spectat vt per se obiectum ad istos sensus
+            <lb ed="#V" n="125"/>exteriores, cum quidditas ista substantia sit non accidens,
+            <lb ed="#V" n="126"/>nec ad intellectum pertinet vt per se obiectum eius propr suam
+            <lb ed="#V" n="127"/>materialitatem. Ideo quidditas rei materialis in ipsa sua
+            par<lb ed="#V" n="128" break="no"/>ticularitate est obiectum rationis particularis, cuius est de
+            <lb ed="#V" n="129"/>intentionibus particularibus conscrre, loco cuius in brutis
+            <lb ed="#V" n="130"/>est aestimatiua naturalis, haec enim potentia per sui coniunctum
+            <lb ed="#V" n="131"/>cum intellectu, vbi est ipsa ratio quae confert de
+            vniuersali<lb ed="#V" n="132" break="no"/>bus, participat vim collatiuam. Sed quia pars sensitiua est,
+            <lb ed="#V" n="133"/>non abstrahit omnino a materia, vnde obiectum suum
+            pro<lb ed="#V" n="134" break="no"/>prium manet quidditas rei particularis materialis. Hoc
+            au<lb ed="#V" n="135" break="no"/>tem non est, eo quod ista potentia appraehendat materiam in
+            <lb ed="#V" n="136"/>se, cum ipsa non possit sciri, nisi per analogiam ad formam.
+            <lb ed="#V" n="137"/>sed hoc est quod collatio de materia in ordine ad formam per
+            <lb ed="#V" n="138"/>materiam indiuiduatam spectat ad hanc potentiam, sicut
+            <lb ed="#V" n="139"/>collatio siue consideratio de materia in communi in
+            ordi<lb ed="#V" n="140" break="no"/>ne ad formam speciei spectat ad rationem superiorem. Haec
+            <lb ed="#V" n="141"/>ille. Similia dicit 49. dist. 41. q. 2. artic. 2. Sensu corporali
+            in<lb ed="#V" n="142" break="no"/>quit aliquid sentitur dupliciter: vno modo per se, alio
+            mo<lb ed="#V" n="143" break="no"/>do per accidens. Per se quidem sentitur illud quod per se
+            <lb ed="#V" n="144"/>passionem sensui corporali inferre potest. Per se autem
+            po<lb ed="#V" n="145" break="no"/>test aliquid passionem inferre sensui dupliciter, aut
+            sensui<lb ed="#V" n="146" break="no"/>inquantum sensus est, aut huic sensui inquantum est hic
+            <lb ed="#V" n="147"/>sensus. Quod autem secundo modo inferi passionem
+            sen<lb ed="#V" n="148" break="no"/>sui dicitur sensibile proprium, sicut color respectu visus, &amp;
+            <lb ed="#V" n="149"/>sonus respectu auditus. Quia autem sensus inquantum est
+            <lb ed="#V" n="150"/>sensus vtitur organo corporali, non potest in eo aliquid
+            <pb ed="#V" n="119"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>recipi nisi corporaliter, cu omne quod recipitur in aliquo
+            <lb ed="#V" n="2"/>sit in eo per modum recipientis, &amp; ideo omnia sensibilia
+            <lb ed="#V" n="3"/>inferunt passionem sensui inquantum est sensus secundum
+            <lb ed="#V" n="4"/>quod habent magnitudinem, &amp; ideo magnitudo &amp; omnia
+            conse<lb ed="#V" n="5" break="no"/>quentia vt motus, &amp; quies, numerus, &amp; huiusmodi
+            dicun<lb ed="#V" n="6" break="no"/>tur sensibilia communia, per se tamen, per accidens autem
+            <lb ed="#V" n="7"/>sentitur illud quod non infert passionem sensui neque
+            in<lb ed="#V" n="8" break="no"/>quantum est sensus, neque inquantum est hic sensus, sed
+            con<lb ed="#V" n="9" break="no"/>iunguntur his quae per se sensui inferunt passionem, sicut
+            <lb ed="#V" n="10"/>Sortes &amp; filius Diarij &amp; amicus &amp; alia huiusmodi quae per
+            <lb ed="#V" n="11"/>se cognoscuntur in vniuersali intellectu, in particulari
+            au<lb ed="#V" n="12" break="no"/>tem virtute cogitatiua in homine, estimatiua autem in alijs
+            <lb ed="#V" n="13"/>animalibus. Huiusmodi autem tunc sensus exterior
+            dici<lb ed="#V" n="14" break="no"/>tur sentire quamuis per accidens, quando ex eo quod per se
+            <lb ed="#V" n="15"/>sentitur, vis apprehensiua, cuius est illud cognitum per se
+            <lb ed="#V" n="16"/>cognoscere, statim sine dubitatione &amp; discursu
+            appraehen<lb ed="#V" n="17" break="no"/>dit, sicut videmus aliquid viuere ex hoc quod loquitur.
+            Quan<lb ed="#V" n="18" break="no"/>do autem aliter se habet non dicitur sensus illud videre etiam
+            <lb ed="#V" n="19"/>per accidens &amp;c. Haec ille cum multis alijs facientibus ad
+            <lb ed="#V" n="20"/>materiam de insensibilitate corporis Christi in Eucharistia.
+            <lb ed="#V" n="21"/>Similia dicit prima parte. q. 85. artic. 3. vbi sic ait. Primum
+            <lb ed="#V" n="22"/>secundum sensum iudicamus magis commune quam minus
+            <lb ed="#V" n="23"/>commune, &amp; secundum locum &amp; secundum tempus.
+            Se<lb ed="#V" n="24" break="no"/>cundum locum quidem, sicut cum aliquid videtur a
+            remo<lb ed="#V" n="25" break="no"/>tis, prius depraehenditur esse corpus quam depraehendatus
+            <lb ed="#V" n="26"/>esse animal, &amp; prius depraehenditur esse quam
+            depraehenda<lb ed="#V" n="27" break="no"/>tur esse homo, &amp; prius depraehenditur esse homo quam
+            de<lb ed="#V" n="28" break="no"/>praehendatur esse Sortes vel Plato. Secundum tempus
+            au<lb ed="#V" n="29" break="no"/>tem. quia puer a principio prius distinguit hominem a non
+            <lb ed="#V" n="30"/>homine quam distinguat hunc hominem ab alio homine,
+            <lb ed="#V" n="31"/>&amp; ideo pueri in principio appellant omnes homines patres
+            <lb ed="#V" n="32"/>posterius autem determinant vnumquodque vt dicitur 1. Physcs
+            <lb ed="#V" n="33"/>Haec ille.
+          </p>
+          <p xml:id="capsco-d3azz4-d1e1452">
+            Item q. 86. artic. 2. in solutione secundi dicit
+            con<lb ed="#V" n="34" break="no"/>similia, scilicet quod pars sensitiua format propositiones
+            parti<lb ed="#V" n="35" break="no"/>culares vt istam, Sortes est homo, nec intellectus tales
+            for<lb ed="#V" n="36" break="no"/>mat, nisi cum adminiculo partis sen sitiuae. Et hoc modo
+            <lb ed="#V" n="37"/>intelligendum est quod dicit in principali solutione
+            argu<lb ed="#V" n="38" break="no"/>menti, scilicet quod intellectus tales propositiones indirecte
+            <lb ed="#V" n="39"/>forntat per ressexionem ad phantasmata, quia constat quod
+            nul<lb ed="#V" n="40" break="no"/>lum phantasma est subiectiue in intellectu possibili, nec
+            ali<lb ed="#V" n="41" break="no"/>qua species aut conceptus indiuisibilis Sortis vt Sortes est.
+            <lb ed="#V" n="42"/>Ex quibus &amp; multis alijs apparet ipsum in praedictis locis
+            <lb ed="#V" n="43"/>sensisse quod quidditas substantiae materialis &amp; ipsae
+            substan<lb ed="#V" n="44" break="no"/>tiae particulares possunt cognosci &amp; percipi sensu interiori,
+            <lb ed="#V" n="45"/>qui dicitur virtus cogitatiua seu ratio particularis. Talia enim
+            <lb ed="#V" n="46"/>obiecta simul includunt substantiam cum accidentibus.
+            Econ<lb ed="#V" n="47" break="no"/>tra autem videtur per dicta in probatione primae
+            conclu<lb ed="#V" n="48" break="no"/>sionis ipsum in tertia parte sensisse substantiam nullo
+            sensu<lb ed="#V" n="49" break="no"/>interiori aut exteriori, sed solo intellectu percipi posse. Sed
+            <lb ed="#V" n="50"/>non est vere contradictio, quia in probatione primae
+            con<lb ed="#V" n="51" break="no"/>clusionis adducta de tertia parte loquitur de substantia
+            seor<lb ed="#V" n="52" break="no"/>sum ab accidentibus accepta vel abstracta a modo essendi
+            <lb ed="#V" n="53"/>quantitatiuo, &amp; accepta secundum proprium modum
+            es<lb ed="#V" n="54" break="no"/>sendi substantiae. Constat enim quod substantia sic accepta
+            so<lb ed="#V" n="55" break="no"/>lo intellectu perceptibilis est. Sed in alijs locis loquitur de
+            <lb ed="#V" n="56"/>substantia physica secundum proprium modum naturalem
+            <lb ed="#V" n="57"/>essendi accepta, scilicet quantitatiuo &amp; qualitatiuo &amp; sine
+            <lb ed="#V" n="58"/>abstractione praedicta. Sic autem accepta includit
+            sensibi<lb ed="#V" n="59" break="no"/>lia communia &amp; propria &amp; per accidens, vnde potest
+            perci<lb ed="#V" n="60" break="no"/>pi sensu interiori vt dictum est. De hoc Albertus in
+            commen<lb ed="#V" n="61" break="no"/>to super 1. Phys. tractatu 1. cap. 6. concorditer ad praedicta,
+            <lb ed="#V" n="62"/>vnde non est proprie contradictio in praedictis. Ad
+            secun<lb ed="#V" n="63" break="no"/>dum dubium patebit in sequentibus.
+          </p>
+          <p xml:id="capsco-d3azz4-d1e1520">
+            Ad septimum
+            dicen<lb ed="#V" n="64" break="no"/>dum est quod Sanctus Thomas 1. q. praesentis distinctionis artic. 4. q. 1.
+            ar<lb ed="#V" n="65" break="no"/>guit sic primo loco. Ipse Christus sub speciebus existens
+            vi<lb ed="#V" n="66" break="no"/>det seipsum ibi corporali oculo, sed corpora glorificata
+            con<lb ed="#V" n="67" break="no"/>formantur corpori eius, vt dicitur Philus 3. ergo &amp; alius
+            ocu<lb ed="#V" n="68" break="no"/>lus glorificatus, puta virginis posset hoc ipsum. Ecce
+            argu<lb ed="#V" n="69" break="no"/>mentum, sequitur responsio. Dicendum inquit quod si oculus
+            <lb ed="#V" n="70"/>Christi esset extra species Sacramenti non videret suam
+            sub<lb ed="#V" n="71" break="no"/>stantiam intra species contentam ex natura gloriae nisi
+            mi<lb ed="#V" n="72" break="no"/>raculosae, &amp; ideo non oportet quod oculus glorificatus videat
+            <lb ed="#V" n="73"/>ipsum nisi forte per miraculum. Haec ille.
+          </p>
+          <p xml:id="capsco-d3azz4-d1e1544">
+            Item ibidem in
+            <lb ed="#V" n="74"/>solut. 2. q. sic dicit. Posset fieri diuino miraculo quod
+            simili<lb ed="#V" n="75" break="no"/>tudo corporis Christi fieret in oculo, sicut naturaliter
+            fie<cb ed="#V" n="b"/><lb ed="#V" n="76" break="no"/>ret si corpus Christi praesens esset. Nec est deceptio, quia
+            <lb ed="#V" n="77"/>non sit nisi ad instructionem fidei &amp; deuotionem
+            excitan<lb ed="#V" n="78" break="no"/>dam. Haec ille.
+          </p>
+          <p xml:id="capsco-d3azz4-d1e1558">
+            Ex quibus videretur ipsum sensisse quod per
+            <lb ed="#V" n="79"/>miraculum posset fieri quod aliquis oculus corporalis videret
+            <lb ed="#V" n="80"/>corpus Christi prout est in sacramento. Cuius oppositum
+            <lb ed="#V" n="81"/>praedictum fuit. Sed dicendum quod Sanctus Thomas ibidem loquitur
+            <lb ed="#V" n="82"/>tantum dubitatiue &amp; opinatiue sine firma assertione, quod
+            <lb ed="#V" n="83"/>innuit modus suus loquendi cum ly forte. Potest etiam
+            di<lb ed="#V" n="84" break="no"/>ci quod diuino miraculo posset fieri quod oculus
+            glorifica<lb ed="#V" n="85" break="no"/>tus videret corpus Christi in sacramento non tanquam
+            vi<lb ed="#V" n="86" break="no"/>sibile per se, sed per accidens, scilicet videndo circa
+            sacramen<lb ed="#V" n="87" break="no"/>tum aliqua corporalia &amp; visibilia signa testificantia
+            existen<lb ed="#V" n="88" break="no"/>tiam corporis Christi sub sacramento. Et ad hunc sensum
+            <lb ed="#V" n="89"/>concedit in suo simili quod post resurrectionem oculus
+            corpo<lb ed="#V" n="90" break="no"/>ralis videbit diuinam essentiam. Vnde prima parte. q. 12.
+            <lb ed="#V" n="91"/>arguit sic secundo loco. Auguinus dicit in fine de ciuitate Dei.
+            <lb ed="#V" n="92"/>Vis praecellentior erit oculorum, scilicet glorificatorum non
+            <lb ed="#V" n="93"/>vt acrius videant quam quidam perhibentur videre
+            ser<lb ed="#V" n="94" break="no"/>pentes aut aquilae qui nil aliud possunt videre quam
+            corpo<lb ed="#V" n="95" break="no"/>ra, sed vt videant incorporalia. Quicunque autem potest
+            <lb ed="#V" n="96"/>videre incorporalia potest eleuari ad videndum Deum.
+            igi<lb ed="#V" n="97" break="no"/>tur oculus glorificatus potest videre Deum. Ecce
+            argumen<lb ed="#V" n="98" break="no"/>tum sequitur responsio. Dicendum inquit quod Auutnus
+            loqui<lb ed="#V" n="99" break="no"/>tur inquirendo in illis verbis, &amp; sub conditione, quod
+            pa<lb ed="#V" n="100" break="no"/>tet ex ipso quod praemittitur. Longe itaque alterius
+            poten<lb ed="#V" n="101" break="no"/>tiae erunt, scilicet oculi glorificati si per eos videbitur
+            incor<lb ed="#V" n="102" break="no"/>porea natura. Sed postmodum hoc determinat dicens.
+            Val<lb ed="#V" n="103" break="no"/>de credibile est sic nos visuros mundana tunc corpora
+            coeli<lb ed="#V" n="104" break="no"/>&amp; terrae nouae, vt Deum vbique praesentem &amp; vniuersa
+            cor<lb ed="#V" n="105" break="no"/>pora gubernantem clarissima perspicuitate videamus, non
+            <lb ed="#V" n="106"/>sicut nunc inuisibilia Dei per ea quae facta sunt intellecta
+            <lb ed="#V" n="107"/>conspiciuntur, sed sicut homines mox vt aspicimus non
+            credi<lb ed="#V" n="108" break="no"/>mus viuere, sed videmus. Ex quo patet quod hoc modo
+            intel<lb ed="#V" n="109" break="no"/>ligit oculos glorificatos visuros Deum, sicut nunc oculi
+            no<lb ed="#V" n="110" break="no"/>stri vident alicuius vitam. Vita autem non videtur oculo
+            <lb ed="#V" n="111"/>corporali sicut per se visibile, sed sicut sensibile per
+            acci<lb ed="#V" n="112" break="no"/>dens, quod quidem per visum non cognoscitur, sed statim
+            <lb ed="#V" n="113"/>cum sensu aliqua alia virtute cognoscitiua. Quia autem statim
+            <lb ed="#V" n="114"/>visis corporibus diuina praesentia ex eis cognoscatur per
+            <lb ed="#V" n="115"/>intellectum ex duobus continget, scilicet ex perspicuitate
+            <lb ed="#V" n="116"/>intellectus, &amp; ex refulgentia diuinae claritatis in corporibus
+            <lb ed="#V" n="117"/>innouatis. Haec ille.
+          </p>
+          <p xml:id="capsco-d3azz4-d1e1646">
+            Simile ponit. 49. distin. 4. q. 2. artic. 2.
+            <lb ed="#V" n="118"/>Deus inquit nullo modo potest videri visu corporali, aut
+            <lb ed="#V" n="119"/>aliquo alio sensu sentiri sicut per se visibile, nec hic nec in
+            <lb ed="#V" n="120"/>patria, quia si a sensu remoueatur id quod conuenit sensui
+            <lb ed="#V" n="121"/>inquantum sensus est, non erit sensus. Et similiter a visu
+            re<lb ed="#V" n="122" break="no"/>moueatur id quod est visus non erit visus. Cum ergo
+            sen<lb ed="#V" n="123" break="no"/>sus percipiat magnitudinem &amp; visus inquantum est talis
+            sen<lb ed="#V" n="124" break="no"/>sus percipiat colorem, impossibile quod visus percipiat aliquod
+            <lb ed="#V" n="125"/>quod non est color nec magnitudo, nisi sensus diceretur aeqni
+            <lb ed="#V" n="126"/>uoce. Cum ergo visus &amp; sensus sit futurus idem specie in
+            <lb ed="#V" n="127"/>corpore glorificato, non poterit esse quod diuinam essentiam
+            <lb ed="#V" n="128"/>videat sicut per se visibile, videbit autem eam sicut visibile
+            <lb ed="#V" n="129"/>per accidens, dum ex vna parte visus corporalis tantam
+            glo<lb ed="#V" n="130" break="no"/>riam Dei inspiciet in corporibus &amp; praecipue gloriosis, &amp;
+            <lb ed="#V" n="131"/>maxime in corpore Christi, &amp; ex alia parte intellectus
+            tam<lb ed="#V" n="132" break="no"/>clare videbit Deum quod in rebus corporalibus visis Deus
+            per<lb ed="#V" n="133" break="no"/>cipietur sicut in locutione percipitur vita. Quamuis enim
+            <lb ed="#V" n="134"/>tunc intellectus non videat Deum ex creaturis
+            corporali<lb ed="#V" n="135" break="no"/>ter visis, videbit tamen Deum in illis &amp;c. Haec ille.
+          </p>
+          <p xml:id="capsco-d3azz4-d1e1688">
+            Simili<lb ed="#V" n="136" break="no"/>ter potest dici in proposito de oculo glorificato respectu
+            sub<lb ed="#V" n="137" break="no"/>stantiae corporis Christi in Eucharistia. Potest tertio dici quod
+            <lb ed="#V" n="138"/>Sncts Thomas in scripto fuit illius opinionis, sed in tertia parte
+            <lb ed="#V" n="139"/>summae aliter opinatus est. Quod potest patere, quia ad
+            prae<lb ed="#V" n="140" break="no"/>dictum argumentum aliter respondet nullam de
+            miraculo<lb ed="#V" n="141" break="no"/>faciendo mentionem. Dicit enim sic tertia parte. q. 76. in
+            so<lb ed="#V" n="142" break="no"/>lutione secundi. Oculus corporalis Christi videt seipsum
+            <lb ed="#V" n="143"/>sub sacramento quantum pertinet ad intellectum, nec
+            ta<lb ed="#V" n="144" break="no"/>men est simile de alio oculo glorioso, quia &amp; ipse oculus
+            <lb ed="#V" n="145"/>Christi est sub sacramento, in quo non conformatur ei alius
+            <lb ed="#V" n="146"/>oculus gloriosus. Haec ille.
+          </p>
+          <p xml:id="capsco-d3azz4-d1e1714">
+            Vbi patet expresse quomodo
+            <lb ed="#V" n="147"/>oculus corporalis Christi dicitur se videre sub
+            sacramen<lb ed="#V" n="148" break="no"/>to quantum pertinet ad intellectum, hoc est dictu, quod
+            ocu<lb ed="#V" n="149" break="no"/>lus corporalis videt corpus Christi sub sacramento tanquam
+            <lb ed="#V" n="150"/>visibile per accidens, per se tamen visum ab intellectu eo
+            <pb ed="#V" n="120"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>modo quo dictum est supra oculum corporalem videre
+            vi<lb ed="#V" n="2" break="no"/>tam, &amp; diuinam essentiam visurum post resurrectionem, &amp;
+            <lb ed="#V" n="3"/>innouationem mundi. Et haec sufficiant ad obiecta Scoti
+            <lb ed="#V" n="4"/>contra primam conclusionem.
+          </p>
+          <p xml:id="capsco-d3azz4-d1e1738">
+            Ad primum contra
+            secun<lb ed="#V" n="5" break="no"/>dam conclusionem dicitur negando minorem, licet enim
+            <lb ed="#V" n="6"/>corpus Christi vt in Eucharistia non sit obiectum
+            beatifi<lb ed="#V" n="7" break="no"/>cum, tamen secundum praesentem cursum gratiae &amp; gloriae
+            <lb ed="#V" n="8"/>includitur in obiecto beatifico, hoc est dictu, quod obiectum
+            <lb ed="#V" n="9"/>beatificum inquantum huiusmodi repraesentat videnti
+            ip<lb ed="#V" n="10" break="no"/>sum corpus Christi secundum quod est in Eucharistia, &amp;
+            con<lb ed="#V" n="11" break="no"/>similiter res aliorum sacramentorum, licet secundum
+            po<lb ed="#V" n="12" break="no"/>tentiam Dei absolutam aliter esse posset, nam dato quod sola
+            <lb ed="#V" n="13"/>diuinitas videretur clare, &amp; nulla creatura in ea videretur,
+            <lb ed="#V" n="14"/>adhuc talis visio esset beatifica. Quia autem beati videant
+            <lb ed="#V" n="15"/>res contentas in sacramentis potest haberi tum ex
+            probatio<lb ed="#V" n="16" break="no"/>nibus conclusionum, tum ex dictis Sancti Thomae secunda
+            secun<lb ed="#V" n="17" break="no"/>dae. q. 1. artic. 8. vbi sic dicit. Illa per se pertinent ad fidem
+            <lb ed="#V" n="18"/>quorum visione in vita aeterna perfruemur, &amp; per qua
+            de<lb ed="#V" n="19" break="no"/>ducimur in vitam aeternam. Duo autem nobis ibi videnda
+            <lb ed="#V" n="20"/>proponuntur, scilicet occultum diuinitatis, cuius visio nos
+            <lb ed="#V" n="21"/>beatos facit, &amp; mysterium humanitatis Christi per quem
+            <lb ed="#V" n="22"/>in gloriam filiorum Dei accessum habemus &amp;c.
+          </p>
+          <p xml:id="capsco-d3azz4-d1e1780">
+            Item q. 4.
+            <lb ed="#V" n="23"/>artic. 1. Fides dicitur substantia sperandarum rerum, quia
+            <lb ed="#V" n="24"/>scilicet prima inchoatio rerum sperandarum in nobis est per
+            <lb ed="#V" n="25"/>assensum fidei quae virtute continet omnes res sperandas.
+            <lb ed="#V" n="26"/>In hoc enim speramus beatificari quod videbimus aperta
+            vi<lb ed="#V" n="27" break="no"/>sione veritatem cui per fidem adhaeremus. Haec ille.
+          </p>
+          <p xml:id="capsco-d3azz4-d1e1793">
+            Item
+            <lb ed="#V" n="28"/>prima secundae. q. 67. artic. 5. ostendit quod nihil fidei
+            rema<lb ed="#V" n="29" break="no"/>nebit in patria, sed omnia credita ibi erunt clare visa. Item
+            <lb ed="#V" n="30"/>q. 103. artic. 3. Exterior cultus proportionari debet
+            interio<lb ed="#V" n="31" break="no"/>ri cultui qui consistit in fide spe &amp; charitate, vnde secundum
+            <lb ed="#V" n="32"/>diuersitatem interioris cultus debuit diuersificari cultus
+            exte<lb ed="#V" n="33" break="no"/>rior. Potest autem distingui triplex status interioris cultus.
+            <lb ed="#V" n="34"/>Vnus quidem secundum quod habetur fides &amp; spes de bonis
+            <lb ed="#V" n="35"/>coelestibus &amp; de his per quae in coelestia introducimur. De
+            <lb ed="#V" n="36"/>vtrisque quidem sicut de quibusdam futuris, &amp; talis fuit
+            sta<lb ed="#V" n="37" break="no"/>tus fidei &amp; spei in veteri lege. Alius autem est interioris
+            cul<lb ed="#V" n="38" break="no"/>tus, in quo habetur fides &amp; spes de coelestibus bonis, sicut
+            <lb ed="#V" n="39"/>de quibusdam futuris, sed de his per quae introducimur in
+            <lb ed="#V" n="40"/>coelestia, sicut de praesentibus vel praeteritis, &amp; iste est status
+            <lb ed="#V" n="41"/>nouae legis. Tertius autem status est in quo vtraque
+            haben<lb ed="#V" n="42" break="no"/>tur vt praesentia &amp; nihil creditur vt absens neque speratur
+            <lb ed="#V" n="43"/>vt futurum, &amp; iste est status beatorum. In illo ergo statu
+            <lb ed="#V" n="44"/>beatorum nihil erit figurale ad diuinum cultum pertinens,
+            <lb ed="#V" n="45"/>sed solum gratiarum actio &amp; vox laudis. Haec ille.
+          </p>
+          <p xml:id="capsco-d3azz4-d1e1836">
+            Item
+            <lb ed="#V" n="46"/>3. sentent. distin. 31. q. 2. artic. 1. in solutione primae quaest. sic
+            <lb ed="#V" n="47"/>dicit. In fide est cognitio quaedam &amp; modus cognoscendi,
+            <lb ed="#V" n="48"/>quia cognoscit in speculo &amp; in aenigmate. Modus autem
+            im<lb ed="#V" n="49" break="no"/>perfectionis est &amp; obscuritatem importat. Vnde cum
+            glo<lb ed="#V" n="50" break="no"/>ria adueniens omnem obscuritatem &amp; imperfectionem
+            tol<lb ed="#V" n="51" break="no"/>lat, tollet quidem modum fidei quantum ad modum
+            cogno<lb ed="#V" n="52" break="no"/>scendi, sed remanebit cognitio eorum quorum est fides, non
+            <lb ed="#V" n="53"/>quidem iamaenigmata, sed clara. Haec ille.
+          </p>
+          <p xml:id="capsco-d3azz4-d1e1856">
+            Similia dicit 4.
+            <lb ed="#V" n="54"/>sentent. distin. 1. q. 1. artic. 2. quaestiuncula quinta in
+            solutio<lb ed="#V" n="55" break="no"/>ne primi, vbi sic dicit. Sicut dicit Dionystces in Ecclesiastica
+            <lb ed="#V" n="56"/>Hierarchia. Status nouae legis medius est inter statum
+            ve<lb ed="#V" n="57" break="no"/>teris legis &amp; statum coelestis patriae, &amp; ideo ea quae sunt
+            no<lb ed="#V" n="58" break="no"/>uae legis, sunt veritas respectu signorum veteris legis, &amp; sunt
+            <lb ed="#V" n="59"/>figurae respectu manifestae &amp; plenae cognitionis veritatis quam
+            <lb ed="#V" n="60"/>erit in patria, &amp; ideo oportet ad hoc quod in noua lege
+            ma<lb ed="#V" n="61" break="no"/>neant aliquae figurae. Sed in patria vbi erit plenaria perceptio
+            <lb ed="#V" n="62"/>veritatis, omnes figurae cessabunt. Haec ille &amp; loquitur de
+            <lb ed="#V" n="63"/>figuris sacramentorum. Idem dicit tertia parte. q. 61. art. 4.
+            <lb ed="#V" n="64"/>in solutione primi. Sicut inquit dicit Dionystcs 5. cap.
+            Eccle<lb ed="#V" n="65" break="no"/>siasticae Hierarchiae, status nouae legis medius est inter statum
+            <lb ed="#V" n="66"/>veteris legis cuius figurae implentur in noua lege, &amp; statum
+            <lb ed="#V" n="67"/>gloriae, in qua omnis nude &amp; perfecte manifestabitur
+            veri<lb ed="#V" n="68" break="no"/>tas, &amp; ideo tunc nulla erunt sacramenta. Nunc autem
+            quan<lb ed="#V" n="69" break="no"/>diu per speculum in aenigmate cognoscimus, vt dicitur
+            pri<lb ed="#V" n="70" break="no"/>ma Corinth. 13. Oportet nos per aliqua signa sensibilia in
+            <lb ed="#V" n="71"/>spiritualia deuenire, quod pertinet ad rationem
+            sacramen<lb ed="#V" n="72" break="no"/>torum. Haec ille.
+          </p>
+          <p xml:id="capsco-d3azz4-d1e1900">
+            Ex quibus apparet quod de omnibus de
+            <lb ed="#V" n="73"/>quibus nunc est fides, in gloria erit manifesta visio. Item quod
+            <lb ed="#V" n="74"/>omnia figurata in sacramentis tunc manifeste videbuntur.
+            <lb ed="#V" n="75"/>Dicitur secundo principaliter quod non aequaliter pertinet ad
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="76"/>obiectum beatificum res sacramenti baptismi vel
+            poeniten<lb ed="#V" n="77" break="no"/>tiae, sicut res contenta in Eucharistia. Tum quia res
+            conten<lb ed="#V" n="78" break="no"/>ta in Eucharistia propinquius se habet ad mysterium
+            Chri<lb ed="#V" n="79" break="no"/>ssi, de quo principaliter est fides quam res sacramenti
+            baptis<lb ed="#V" n="80" break="no"/>mi vel poenitentiae, vt de se patet. Tum quia res puta
+            sacra<lb ed="#V" n="81" break="no"/>menti Eucharistiae continetur in Eucharistia, non sic res
+            ba<lb ed="#V" n="82" break="no"/>ptismi vel poenitentiae, quae non continetur actualiter, sed
+            <lb ed="#V" n="83"/>solum virtualiter in sacramento, formaliter vero
+            contine<lb ed="#V" n="84" break="no"/>tur in suscipiente si sit dispositus.
+          </p>
+          <p xml:id="capsco-d3azz4-d1e1931">
+            Tum quia sacramentum
+            <lb ed="#V" n="85"/>Eucharistiae nunquam frustratur sua re, cum semper
+            conti<lb ed="#V" n="86" break="no"/>neat Christum, alia vero sacramenta possunt frustrari ex
+            fi<lb ed="#V" n="87" break="no"/>ctione suscipientis. Tum quia Eucharistia est
+            principalissi<lb ed="#V" n="88" break="no"/>mum inter omnia sacramenta, &amp; ideo perfecta cognitio
+            con<lb ed="#V" n="89" break="no"/>tenti in ipsa &amp; modi quo corpus Christi in ea continetur
+            <lb ed="#V" n="90"/>magis pertinet ad cognitionem beatificam gloriae, sicut nunc
+            <lb ed="#V" n="91"/>magis pertinet ad fidem viae. Tum quia res baptismi vel
+            pae<lb ed="#V" n="92" break="no"/>nitentiae aliquando dependet dispositiue ex cognitione &amp;
+            <lb ed="#V" n="93"/>volitione suscipientis, quae sunt occulta quaedam reseruata
+            <lb ed="#V" n="94"/>diuinae cognitioni, &amp; ipsius cognoscentis vel volentis, &amp;
+            om<lb ed="#V" n="95" break="no"/>nibus alijs ignota, nisi per specialem vel generalem
+            reuela<lb ed="#V" n="96" break="no"/>tionem Dei.
+          </p>
+          <p xml:id="capsco-d3azz4-d1e1960">
+            Ex quibus patet falsitas illius assumpti
+            dicen<lb ed="#V" n="97" break="no"/>tis quod aeque pertinet ad cognitionem beatificam res vnius
+            <lb ed="#V" n="98"/>sacramenti sicut alterius. Dicitur tertio, quod vltimum
+            di<lb ed="#V" n="99" break="no"/>ctum arguentis stare potest, scilicet quod ad beatitudinem non
+            <lb ed="#V" n="100"/>requiritur quod beatus videat existentiam corporis in
+            sa<lb ed="#V" n="101" break="no"/>cramento per visionem eius in proprio genere, hoc est per
+            <lb ed="#V" n="102"/>visionem factam per medium vel speciem creatam &amp; non
+            <lb ed="#V" n="103"/>per ipsum verbum, quae dicatur visio vespertina &amp; non
+            ma<lb ed="#V" n="104" break="no"/>tutina. Veruntamen oportet quod quilibet homo beatus haat
+            <lb ed="#V" n="105"/>de hoc aliquam cognitionem cum de eodem cognitionem
+            <lb ed="#V" n="106"/>fidei habuerit in via, nec sit visibile quod aliquod credibile
+            <lb ed="#V" n="107"/>cognitum per fidem Theologicam in via sit a beato oblitum
+            <lb ed="#V" n="108"/>vel ignoratum, aut totaliter nescitum. Cum ergo de
+            tali<lb ed="#V" n="109" break="no"/>bus non habeat cognitionem aenigmaticam, restat quod
+            ha<lb ed="#V" n="110" break="no"/>bet apertam visionem. Veruntamen contra praedicta potest
+            <lb ed="#V" n="111"/>instari, quia non apparet quod quilibet beatus homo purus
+            <lb ed="#V" n="112"/>videat in verbo aliquid quod non omnes angeli vident in
+            <lb ed="#V" n="113"/>verbo, sed non omnes angeli vident in verbo existentiam
+            cor<lb ed="#V" n="114" break="no"/>poris Christi in Eucharistia: ergo nec quilibet purus
+            ho<lb ed="#V" n="115" break="no"/>mo beatus: maior videtur nota, sed minor probatur, quia
+            <lb ed="#V" n="116"/>non omnes angeli viderunt in verbo a principio suae
+            beati<lb ed="#V" n="117" break="no"/>tudinis existentiam corporis Christi in sacramento
+            Eucha<lb ed="#V" n="118" break="no"/>ristiae, nec alia sacramentorum mysteria: ergo nec nunc
+            vi<lb ed="#V" n="119" break="no"/>dent talia in verbo. Tenet consequentia per ea quae dicta
+            <lb ed="#V" n="120"/>sunt. 3. sentent. cum de scientia animae Christi tractaretur,
+            <lb ed="#V" n="121"/>vbi dictum est quod non est possibile beatum videre in verbo
+            <lb ed="#V" n="122"/>plura nunc quam prius nisi videat clarius ipsum verbum
+            <lb ed="#V" n="123"/>nunc quam prius, &amp; consequenter nisi fiat beatior, quod
+            <lb ed="#V" n="124"/>non conceditur. Ad hoc respondet Petrus de Palude vbi
+            su<lb ed="#V" n="125" break="no"/>pra dicens. Oculus intellectualis beatus tam angeli quam
+            <lb ed="#V" n="126"/>hominis videt clare existentiam corporis Christi in
+            sacra<lb ed="#V" n="127" break="no"/>mento. Hominis quidem, quia quod audiuit hic &amp;
+            credi<lb ed="#V" n="128" break="no"/>dit, illic clare videbit secundum illud. Nisi credideritis, non
+            <lb ed="#V" n="129"/>intelligit, &amp; secundum illud. Sicut audiuimus sic videmus &amp; caet.
+            <lb ed="#V" n="130"/>Idem est de oculo intellectuali angeli, quia Hierarchia
+            no<lb ed="#V" n="131" break="no"/>stra illuminatur a hierarchia coelesti, a qua differt in luce &amp;
+            <lb ed="#V" n="132"/>aenigmate, vnde ipsi clare vident omnia, de quibus
+            creden<lb ed="#V" n="133" break="no"/>dis nos illuminant credibilia nobis &amp; eis pro statu viae
+            com<lb ed="#V" n="134" break="no"/>munia, sicut Trinitatem &amp; huiusmodi, meruerunt ipsi
+            vide<lb ed="#V" n="135" break="no"/>re sicut &amp; nos. Credibilia autem nobis propria sicut
+            arti<lb ed="#V" n="136" break="no"/>culos incarnationis vident per reuelationem, vnde de
+            om<lb ed="#V" n="137" break="no"/>nibus mysterijs gratiae Dei de quibus nos illuminant habent
+            <lb ed="#V" n="138"/>gratuitam visionem. Haec Petrus Mihi videtur quod omnes
+            <lb ed="#V" n="139"/>angeli beati a principio suae beatitudinis viderunt in verbo
+            <lb ed="#V" n="140"/>omnia mysteria gratiae, de quibus est principaliter fides
+            ho<lb ed="#V" n="141" break="no"/>minum viatorum, &amp; de quibus angeli, viatores illuminant,
+            <lb ed="#V" n="142"/>sicut sunt articuli fidei, &amp; sacramenta ad mysterium
+            incar<lb ed="#V" n="143" break="no"/>nationis Christi pertinentia. Alia vero mysteria gratiae de
+            <lb ed="#V" n="144"/>quibus non est principaliter fides, sed pertinent ad
+            instru<lb ed="#V" n="145" break="no"/>ctionem vel promotionem alicuius personae vel
+            commu<lb ed="#V" n="146" break="no"/>nitatis particularis possunt aliqui angeli cognoscere non in
+            <lb ed="#V" n="147"/>verbo, sed in proprio genere, &amp; de talibus nouiter
+            illumi<lb ed="#V" n="148" break="no"/>nari per superiores angelos qui talia vident in verbo. Et hoc
+            <lb ed="#V" n="149"/>sufficit ad obiecta contra secundam conclusionem. Ad
+            pri<lb ed="#V" n="150" break="no"/>mum contra tertiam conclusionem dicitur primo quod minor
+            <pb ed="#V" n="121"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>est simpliciter falsa, quia nec intellectus angelicus nec
+            ani<lb ed="#V" n="2" break="no"/>mae separatae se habent ad omnia intelligibilia sicut illa sunt
+            <lb ed="#V" n="3"/>intelligibilia in se. Nam si ita esset, tunc quilibet talis
+            intel<lb ed="#V" n="4" break="no"/>lectus prius &amp; perfectius intelligeret Deum quam seipsum,
+            <lb ed="#V" n="5"/>&amp;c perfectiora in entibus quam imperfectiora, quod est
+            ma<lb ed="#V" n="6" break="no"/>nifeste falsum. Te hoc Sanctus Thomas de veritate. q. 9. artic. 3.
+            ar<lb ed="#V" n="7" break="no"/>guit sic secundo loco. Quod potest intelligere minus
+            po<lb ed="#V" n="8" break="no"/>test incclligere maius, sed essentia diuina est maxime
+            intel<lb ed="#V" n="9" break="no"/>ligibilis, cum sit a materia immunis, ex quo contingit aliquid
+            <lb ed="#V" n="10"/>esse intelligibile actu, cum tamen intellectus angeli
+            natura<lb ed="#V" n="11" break="no"/>li cognitione possit alia intelligibilia cognoscere, multofor
+            <lb ed="#V" n="12"/>tius poterit ex puris naturalibus intelligere diuinam
+            essen<lb ed="#V" n="13" break="no"/>tiam. Sed dicebat quod licet diuina essentia sit in se
+            maxi<lb ed="#V" n="14" break="no"/>me intelligibilis, non tamen est maxime intelligibilis
+            intel<lb ed="#V" n="15" break="no"/>lectui angelico.
+          </p>
+          <p xml:id="capsco-d3azz4-d1e2116">
+            Sed contra eius quod est magis visibile in
+            <lb ed="#V" n="16"/>se, non esse maxime visibile nobis causa est defectus nostri
+            <lb ed="#V" n="17"/>visus, sed in intellectu angelico non est aliquis defectus, cum
+            <lb ed="#V" n="18"/>angelus sit speculum purum clarissimum incontaminatum
+            <lb ed="#V" n="19"/>vt dicit Dionysius 4 cap. de diuinis nominibus: ergo illud
+            <lb ed="#V" n="20"/>quod est magis intelligibile in se est magis intelligibile
+            an<lb ed="#V" n="21" break="no"/>gelo. Ecce argumentum cum replica, sequitur responsio.
+            <lb ed="#V" n="22"/>Dicendum inquit quod quamuis diuina essentia sit in se
+            maxi<lb ed="#V" n="23" break="no"/>me cognoscibilis, tamen non est maxime cognoscibilis
+            in<lb ed="#V" n="24" break="no"/>tellectui creato, quia est extra genus ipsius. Ad tertium
+            in<lb ed="#V" n="25" break="no"/>quit dicendum quod intellectus angelicus dicitur esse
+            spe<lb ed="#V" n="26" break="no"/>culum purum, &amp; incontaminatum &amp; sine defectu, quia non
+            <lb ed="#V" n="27"/>patitur defectum intelligibilis luminis, considerata natura
+            <lb ed="#V" n="28"/>sui generis, sicut patitur intellectus humanus in quo
+            intel<lb ed="#V" n="29" break="no"/>ligibile lumen obumbratur in tantum vt necesse sit a
+            phan<lb ed="#V" n="30" break="no"/>tasmatibus accipere, &amp; cum continuo &amp; tempore &amp;
+            discur<lb ed="#V" n="31" break="no"/>rendo de vno in aliud. Propter quod ssaac dicit, quod
+            ra<lb ed="#V" n="32" break="no"/>tio oritur in vmbra intelligentiae, &amp; ideo potentia
+            intelle<lb ed="#V" n="33" break="no"/>ctiua eius potest intelligere omnem formam intelligibilem
+            <lb ed="#V" n="34"/>creatam quae est sui generis, sed intellectus angelicus
+            com<lb ed="#V" n="35" break="no"/>paratus ad essentiam diuinam quae est extra genus suum,
+            inue<lb ed="#V" n="36" break="no"/>nitur defectiuus &amp; tenebrosus, &amp; ideo deficit a visione
+            di<lb ed="#V" n="37" break="no"/>uinae essentiae, quamuis ipsa sit in se maxime intelligibilis.
+            <lb ed="#V" n="38"/>Haec ille Item ibidem in solutione quarti sic dicit. Pro
+            tan<lb ed="#V" n="39" break="no"/>to substantia intelligibilis quae in se est maxime
+            intelligibi<lb ed="#V" n="40" break="no"/>lis fit nobis minus intelligibilis, quia excedit formam a sensu
+            <lb ed="#V" n="41"/>abstractam qua naturaliter intelligimus, &amp; similiter multo
+            <lb ed="#V" n="42"/>amplius essentia diuina excedit formam intelligibilem creatam
+            <lb ed="#V" n="43"/>qua intelligit intellectus angeli &amp; ideo intellectus angeli
+            mi<lb ed="#V" n="44" break="no"/>nus intelligit essentiam diuinam, quamuis sit magis
+            intelligibi<lb ed="#V" n="45" break="no"/>lis, sicut&amp; intellectus noster minus intelligit essentiam angeli,
+            <lb ed="#V" n="46"/>quamuis sit magis intelligibilis quam res sensibiles. Haec
+            il<lb ed="#V" n="47" break="no"/>le. Ibi cum multis similibus. Ex quibus patet quod intellectus
+            <lb ed="#V" n="48"/>angelicus non ita se habet ad omnia intelligibilia sicut sunt
+            <lb ed="#V" n="49"/>intelligibilia in seipsis, &amp; vt prius dicebatur. Dicitur
+            secun<lb ed="#V" n="50" break="no"/>do quod concessa conclusione argumenti quae potest
+            infer<lb ed="#V" n="51" break="no"/>ri debite ex praemissis non aliud habetur nisi quod
+            intelle<lb ed="#V" n="52" break="no"/>ctus angelicus potest intelligere substantiam corporis
+            Chri<lb ed="#V" n="53" break="no"/>sti existentem sub specie panis, non tamen concludit quod
+            <lb ed="#V" n="54"/>intelligat illam secundum esse quod habet sub sacramento,
+            <lb ed="#V" n="55"/>nec modum essendi sub illo. Et ideo responsio quam arguens
+            <lb ed="#V" n="56"/>recitat bona est, si recte intelligatur vt aequiualeat huic
+            di<lb ed="#V" n="57" break="no"/>cto. Licet enim non legam in Sancto Thoma illam in forma
+            di<lb ed="#V" n="58" break="no"/>stinctionem de notitia intuitiua &amp; abstractiua, haberi tamen
+            <lb ed="#V" n="59"/>potest in aequiualenti ex dictis eius, vt dicamus quod alia est
+            <lb ed="#V" n="60"/>notitia visionis, alia notitia simplicis intelligentiae, prima
+            <lb ed="#V" n="61"/>dicatur intuitiua: secunda vero abstractiua. Hanc ponit
+            pri<lb ed="#V" n="62" break="no"/>ma parte. q. 14. artic. 9. Horum inquit quae actu non sunt,
+            <lb ed="#V" n="63"/>est attendenda quaedam diuersitas. Quaedam enim licet non
+            <lb ed="#V" n="64"/>sint nunc in actu, tamen fuerunt vel erunt, &amp; ista omnia
+            <lb ed="#V" n="65"/>dicitur Deus scire scientia visionis, quia cum intelligere
+            Dei<lb ed="#V" n="66" break="no"/>quod est eius esse aeternitate mensuretur, quae sine
+            successio<lb ed="#V" n="67" break="no"/>ne existens totum tempus compraehendit, praesens intuitus
+            <lb ed="#V" n="68"/>Dei fertur in totum tempus &amp; in omnia quae sunt in
+            quocun<lb ed="#V" n="69" break="no"/>que tempore, sicut in sibi subiecta praesentialiter. Quaedam
+            <lb ed="#V" n="70"/>vero sunt in potentia Dei vel creaturae, quae tamen nec sunt
+            <lb ed="#V" n="71"/>nec erunt nec fuerunt &amp; respectu horum non dicitur
+            habe<lb ed="#V" n="72" break="no"/>re scientiam visionis, sed simplicis intelligentiae, quod ideo
+            <lb ed="#V" n="73"/>dicitur, quia ea quae videntur apud nos habent esse
+            distin<lb ed="#V" n="74" break="no"/>ctum extra videntem. Haec ille.
+          </p>
+          <p xml:id="capsco-d3azz4-d1e2247">
+            Eandem distinctionem
+            po<lb ed="#V" n="75" break="no"/>nit 1. sent. distin. 39. q. artic. 4. &amp; 3. sent. distin. 14. q. 1. artic. 2.
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="76"/>in solutione secundae quaest. &amp; 4. sent. distinc. 49. q. 2. artic. 5.
+            <lb ed="#V" n="77"/>vbi sic dicit. Deus videndo essentiam suam cognoscit
+            om<lb ed="#V" n="78" break="no"/>nia quae sunt vel erunt vel fuerunt. Et haec dicitur
+            cogno<lb ed="#V" n="79" break="no"/>scere notitia visionis, quia ad similitudinem visionis
+            corpo<lb ed="#V" n="80" break="no"/>ralis cognoscit ea quasi praesentia. Cognoscit insuper
+            vi<lb ed="#V" n="81" break="no"/>dendo essentiam suam omnia quae potest facere, quamuis
+            <lb ed="#V" n="82"/>nunquam fecerit nec facturus sit, alias non perfecte
+            cogno<lb ed="#V" n="83" break="no"/>sceret potentiam suam. Et haec dicitur cognoscere
+            notiti<lb ed="#V" n="84" break="no"/>simplicis intelligentiae. Haec ille.
+          </p>
+          <p xml:id="capsco-d3azz4-d1e2273">
+            Similia ponit de veritate.
+            <lb ed="#V" n="85"/>q. 8. artic. 4. &amp; q. 20. arti. 4. &amp; multis alijs locis. Ex quibus
+            po<lb ed="#V" n="86" break="no"/>test haberi quod illa notitia intellectiua dicitur visionis scientia,
+            <lb ed="#V" n="87"/>per quam cognoscitur res intellecta vt praesens secundum
+            es<lb ed="#V" n="88" break="no"/>se suum &amp; modum essendi ipsi intelligenti. Hoc autem alij
+            <lb ed="#V" n="89"/>dicunt notitiam intuitiuam. Notitiam autem intellectiuam
+            <lb ed="#V" n="90"/>simplicis intelligentiae vocat Sanctus Thomas illam per quam
+            intel<lb ed="#V" n="91" break="no"/>ligitur essentia rei non intellecta eius existentia vel
+            praesen<lb ed="#V" n="92" break="no"/>tialitate aut modo existendi extra ipsum intelligentem. Et
+            <lb ed="#V" n="93"/>hanc vocant alij notitiam abstractiuam: sic itaque
+            intelligen<lb ed="#V" n="94" break="no"/>do distinctionem de notitia intuitiua &amp; abstractiua
+            conce<lb ed="#V" n="95" break="no"/>ditur responsio per arguentem recitata, scilicet quod
+            ange<lb ed="#V" n="96" break="no"/>lus naturali cognitione potest cognoscere substantiam
+            cor<lb ed="#V" n="97" break="no"/>poris Christi quae est sub sacramento abstractiue seu
+            noti<lb ed="#V" n="98" break="no"/>tia simplicis intelligentiae non autem intuitiue vel scientia
+            <lb ed="#V" n="99"/>visionis, quia non videt corpus Christi esse sub sacramento
+            <lb ed="#V" n="100"/>illo modo supernaturali quo est ibi, licet videat modum
+            na<lb ed="#V" n="101" break="no"/>turalem quo est extra sacramentum, cuius ratio est, quia
+            an<lb ed="#V" n="102" break="no"/>geli non cognoscunt plene mysteria gratiae naturali
+            cogni<lb ed="#V" n="103" break="no"/>tione. De hoc Sanctus Thomas prima parte. q. 57. artic. 5. sic dicit
+            <lb ed="#V" n="104"/>In angelis est duplex cognitio, vna quidem naturalis
+            secun<lb ed="#V" n="105" break="no"/>dum quam cognoscunt res, tum per essentiam suam, tum
+            <lb ed="#V" n="106"/>etiam per species innatas, &amp; hac cognitione mysteria gratiae
+            <lb ed="#V" n="107"/>cognoscere non possunt. Haec enim mysteria ex pura
+            Der<lb ed="#V" n="108" break="no"/>voluntate dependent. Si autem vnus angelus non potest
+            co<lb ed="#V" n="109" break="no"/>gnoscere cogitationes alterius ex voluntate eiusdem
+            depen<lb ed="#V" n="110" break="no"/>dentes, multominus potest cognoscere ea quae ex Dei
+            vo<lb ed="#V" n="111" break="no"/>luntate dependent. Et sic argumentatur Apostolus prima
+            <lb ed="#V" n="112"/>Corinthu cap. 2. Quae sunt hominis nemo nouit nisi spiritus
+            <lb ed="#V" n="113"/>hominis qui in ipso est, ita &amp; quae sunt Dei nemo nouit nisi
+            <lb ed="#V" n="114"/>spiritus Dei. Est autem alia angelorum cognitio quae eos
+            <lb ed="#V" n="115"/>beatos facit, qua vident verbum &amp; res in verbo, &amp; hac
+            qui<lb ed="#V" n="116" break="no"/>dem visione cognoscunt mysteria gratiae non quidem
+            om<lb ed="#V" n="117" break="no"/>nia, nec aequaliter, sed secundum quod Deus eis voluerit
+            <lb ed="#V" n="118"/>reuelare secundum illud Apostoli prima Corinth. cap. 2.
+            No<lb ed="#V" n="119" break="no"/>bis autem reuelauit Deus per spiritum suum. Haec ille.
+          </p>
+          <p xml:id="capsco-d3azz4-d1e2351">
+            Di<lb ed="#V" n="120" break="no"/>citur tertio quod replica contra responsionem datam non
+            va<lb ed="#V" n="121" break="no"/>let, quia concesso quod intellectus angelicus naturali
+            cogni<lb ed="#V" n="122" break="no"/>tione possit cognoscere praesentiam &amp; absentiam panis
+            sub<lb ed="#V" n="123" break="no"/>accidentibus Eucharistiae, non tamen praesentiam
+            substan<lb ed="#V" n="124" break="no"/>tiae corporis Christi sub eisdem, nec potest illud ibi
+            intueri<lb ed="#V" n="125" break="no"/>sicut intuebatur ibi substantia panis, quia existentiam
+            pa<lb ed="#V" n="126" break="no"/>nis sub speciebus erat modus panis naturalis existendi
+            sub<lb ed="#V" n="127" break="no"/>illis, non autem modus quo corpus Christi est sub eisdem.
+            <lb ed="#V" n="128"/>Nec sequitur, sicorpus Christi est intuibile in se ab
+            angelo<lb ed="#V" n="129" break="no"/>quod modus quo est sub sacramento sit intuibilis ab eodem.
+            <lb ed="#V" n="130"/>Et sic angelus non intuetur corpus Christi vt est in
+            coelo<lb ed="#V" n="131" break="no"/>vel abstrahendo a qualibet existentia.
+          </p>
+          <p xml:id="capsco-d3azz4-d1e2380">
+            Ad secundum
+            dici<lb ed="#V" n="132" break="no"/>tur primo quod prima pars antecedentis est similiter falsa,
+            <lb ed="#V" n="133"/>quia nullus angelus naturali cognitione sua per sola
+            prin<lb ed="#V" n="134" break="no"/>cipia intrinseca potest cognoscere intuitiuae &amp; in
+            particul<lb ed="#V" n="135" break="no"/>ri cogitationes alterius angeli, vt diffuse tractatum fuit in
+            <lb ed="#V" n="136"/>2. senten. &amp; prout probat Sanctus Thomas in multis locis,
+            vbicun<lb ed="#V" n="137" break="no"/>que loquitur de illa materia, licet possit cognoscere tales
+            co<lb ed="#V" n="138" break="no"/>gitationes abstractiue, &amp; in vniuersali &amp; coniecturaliter per
+            <lb ed="#V" n="139"/>signa exteriora. Est etiam dubium, vtrum angelus
+            natura<lb ed="#V" n="140" break="no"/>liter cognoscat gratiam aut charitatem suam vel alterius
+            <lb ed="#V" n="141"/>angeli quicquid sit de sua loquendo de notitia intuitiua vel
+            <lb ed="#V" n="142"/>visionis.
+          </p>
+          <p xml:id="capsco-d3azz4-d1e2406">
+            Nec valet probatio assumpti de duplici
+            praesen<lb ed="#V" n="143" break="no"/>tia. Tum quia arguens false supponit quod obiectum
+            no<lb ed="#V" n="144" break="no"/>titiae intuitiuae non sit praesens per speciem intellectui
+            ange<lb ed="#V" n="145" break="no"/>lico aut animae separatae, nec illa notitia fiat per mediam
+            spe<lb ed="#V" n="146" break="no"/>ciem inter obiectum &amp; intellectum, sed quod ipsum
+            obe<lb ed="#V" n="147" break="no"/>ctum sit praesens in sua reali existentia, &amp; per illam moueat
+            <lb ed="#V" n="148"/>intellectum ad sui notitiam, obiectum autem abstractiue
+            <lb ed="#V" n="149"/>sit praesens per speciem quae immediate moueat
+            intellectu<lb ed="#V" n="150" break="no"/>ad notitiam obiecti. Hoc enim falsum est, quia nullum
+            ex<pb ed="#V" n="122"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>trinsecum mouet intellectum angelicum immediate, immo
+            <lb ed="#V" n="2"/>cuiuslibet notitiae angelicae species intelligibilis ab obiecto
+            <lb ed="#V" n="3"/>distincta est per proximum productiuum, vna cum
+            poten<lb ed="#V" n="4" break="no"/>tia intellectiua, nisi quando angelus intelligit seipsum vel
+            <lb ed="#V" n="5"/>Deum naturaliter, vel quando videt diuinam essentiam
+            bea<lb ed="#V" n="6" break="no"/>tifice, tunc enim essentia angeli vel essentia diuina tenet
+            lo<lb ed="#V" n="7" break="no"/>tum speciei intelligibilis &amp; actus primi. Et ista determinat
+            <lb ed="#V" n="8"/>diffuse Sanctus Thomas tam in summa quam in scriptis quam in
+            quae<lb ed="#V" n="9" break="no"/>stionibus disputatis. Tum etiam quia illud fa sum assumit,
+            <lb ed="#V" n="10"/>scilicet quod omne obiectum potentiae potens praesentari vel
+            <lb ed="#V" n="11"/>esse praesens angelico intellectui abstractiue possit esse sibi
+            <lb ed="#V" n="12"/>praesens intuitiue naturaliter, hoc enim falsum est de
+            futu<lb ed="#V" n="13" break="no"/>ris contingentibus, quae potest angelus cognoscere
+            abstra<lb ed="#V" n="14" break="no"/>ctiuae in causis suis, non tamen intuitiue quandiu futura sunt,
+            <lb ed="#V" n="15"/>vt ostendit Sanctus Thomas prima parte. q. 75. artic. 3. &amp; multis alijs
+            <lb ed="#V" n="16"/>locis. Similiter falsum est de cogitationibus &amp; volitionibus
+            <lb ed="#V" n="17"/>aliorum angelorum aut hominum quas angelus non
+            po<lb ed="#V" n="18" break="no"/>test naturaliter cognoscere intuitiue, sed tantum
+            abstracti<lb ed="#V" n="19" break="no"/>ue, vt patet per eundem Sanctus Thomas prima parte. q. 75. artic. 4.
+            <lb ed="#V" n="20"/>&amp; de deitate. q. 8. artic. 13. &amp; de malo. q. 16. artic. 8. &amp; multis
+            <lb ed="#V" n="21"/>alijs locis, in quibus ostendit quod angelus naturaliter non
+            <lb ed="#V" n="22"/>potest eas cognoscere secundum quod in se sunt, quod est
+            co<lb ed="#V" n="23" break="no"/>gnoscere intuitiue sed prout sunt in suis causis, vel
+            manife<lb ed="#V" n="24" break="no"/>stantur exterius per signa, quod est cognoscere abstractiue.
+            <lb ed="#V" n="25"/>Et multa alia exempla dari potest in quibus illud assumptum
+            <lb ed="#V" n="26"/>sallit. Tum etiam quia argumentum supponit aliud falsum
+            <lb ed="#V" n="27"/>scilicet quod obiecta exteriora moueant intellectum
+            ange<lb ed="#V" n="28" break="no"/>licum ad sui cognitionem causando in eo actum primum
+            <lb ed="#V" n="29"/>vel secundum. Hoc enim falsum est. Nam omnia quae
+            an<lb ed="#V" n="30" break="no"/>gelus naturaliter cognoscit, cognoscit per essentiam suam,
+            <lb ed="#V" n="31"/>vel per species innatas &amp; concreatas, vt ostendit Sanctus Thomas
+            <lb ed="#V" n="32"/>in multis locis. Tum etiam quia species concreatae
+            angelo<lb ed="#V" n="33" break="no"/>non aequaliter possunt praesentare substantias &amp; accidentia
+            <lb ed="#V" n="34"/>per accidens talibus substantijs, potissime accidentia
+            su<lb ed="#V" n="35" break="no"/>pernaturaliter eis contingentia, vel a sola voluntate Dei,
+            aut<lb ed="#V" n="36" break="no"/>creaturae dependentia, non habentia naturalem &amp;
+            necessa<lb ed="#V" n="37" break="no"/>rium ordinem ad substantias vel aliquam causam
+            natura<lb ed="#V" n="38" break="no"/>lem vniuersi, vt ostendit Sanctus Thomas locis praeallegatis
+            potissi<lb ed="#V" n="39" break="no"/>me de malo. q. 16. artic. 8. vbi arguit sic decimoseptimo loco
+            <lb ed="#V" n="40"/>sicut dicit Augustinus 2. super Genelstcus ad litteram: Angeli per
+            <lb ed="#V" n="41"/>species quas in sui creatione receperunt omnia quae sunt
+            in<lb ed="#V" n="42" break="no"/>fra eos cognoscunt, sed cogitationes nostrae sunt infra eos
+            <lb ed="#V" n="43"/>secundum ordinem naturae, anima enim est inferior
+            ange<lb ed="#V" n="44" break="no"/>lo: ergo daemones per illas species innatas possunt
+            cogno<lb ed="#V" n="45" break="no"/>scere cogitationes hominum. Ecce argumentum, sequitur
+            <lb ed="#V" n="46"/>responsio. Dicendum inquit quod Augustinus intendit loqui de
+            na<lb ed="#V" n="47" break="no"/>turis inferioribus quas angeli naturaliter cognoscunt per
+            <lb ed="#V" n="48"/>formas innatas non autem de cognitionibus voluntatis.
+            <lb ed="#V" n="49"/>Haec ille.
+          </p>
+          <p xml:id="capsco-d3azz4-d1e2534">
+            Item de veritate. q. 8. artic. 13. sic dicit. Motus
+            vo<lb ed="#V" n="50" break="no"/>luntatis alterius non potest angelo notus esse naturali
+            co<lb ed="#V" n="51" break="no"/>gnitione, quia angelus naturaliter cognoscit per formas
+            in<lb ed="#V" n="52" break="no"/>ditas quae sunt similitudines rerum in natura existentium,
+            <lb ed="#V" n="53"/>motus autem voluntatis non habet dependentiam nec
+            con<lb ed="#V" n="54" break="no"/>nexionem ad aliquam causam naturalem, sed solum ad
+            cau<lb ed="#V" n="55" break="no"/>sam diuinam quae in voluntate sola imprimere potest, vnde
+            <lb ed="#V" n="56"/>motus voluntatis &amp; cordis cogitatio non potest
+            cognosci<lb ed="#V" n="57" break="no"/>in aliquibus similitudinibus rerum naturalium, sed solum
+            <lb ed="#V" n="58"/>in diuina essentia &amp;c. Haec ille.
+          </p>
+          <p xml:id="capsco-d3azz4-d1e2557">
+            Sed quaeret aliquis ex quo
+            <lb ed="#V" n="59"/>vnus angelus per species, quas habet apud se non potest
+            na<lb ed="#V" n="60" break="no"/>turaliter cognoscere intuitiue cogitationes alterius,
+            quo<lb ed="#V" n="61" break="no"/>modo ergo alius angelus potest ei loqui vel reuelare
+            cogita<lb ed="#V" n="62" break="no"/>tionem vel volitionem suam 2 Dicitur quod hoc fit non per
+            <lb ed="#V" n="63"/>impressionem nouarum specierum, nec per hoc quod alius
+            <lb ed="#V" n="64"/>angelus causet cognitionem aliquam in alio, sed per hoc
+            <lb ed="#V" n="65"/>quod angelus loquens alteri ordinat conceptum suum ad
+            <lb ed="#V" n="66"/>manifestandum alteri suam voluntatem. Statim enim quod
+            <lb ed="#V" n="67"/>conceptus vnius ordinatur sic ad alium innotescit alteri, vt
+            <lb ed="#V" n="68"/>ostendit Sanctus Thomas prima parte. q. 107. artic. 1. &amp; de veritate.
+            <lb ed="#V" n="69"/>q. 9. artic. 4. &amp; 5. Nec oportet quod causetur in audiente
+            no<lb ed="#V" n="70" break="no"/>ua species, quia per species concreatas diuersimode
+            ordina<lb ed="#V" n="71" break="no"/>tas, vel per confortationem luminis alterius angeli sibi
+            lo<lb ed="#V" n="72" break="no"/>quentis &amp; illuminantis potest aliquid nouiter cognoscere
+            <lb ed="#V" n="73"/>quod prius non poterat, sicut in suo simili ostendit Sanctus Thomas
+            <lb ed="#V" n="74"/>secunda secundae. q. 173. art. 2. loquendo de reuelatione
+            pro<lb ed="#V" n="75" break="no"/>phetica, &amp; de veritate. q. 12. artic. 7. &amp; multis alijs locis. Et
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="76"/>sicut est dictum de reuelatione cogitationum. ita dicendum
+            <lb ed="#V" n="77"/>est de reuelatione secterorum sacramentalium ad quae nati
+            <lb ed="#V" n="78"/>ralis angeli cognitio non potest pertingere, nisi per
+            reuela<lb ed="#V" n="79" break="no"/>tionem eis factam per visionem verbi, vel per species nouiter
+            <lb ed="#V" n="80"/>impressas in eis a Deo concreatas. Et hoc sufficit ad
+            secun<lb ed="#V" n="81" break="no"/>dum Scoti.
+          </p>
+          <p xml:id="capsco-d3azz4-d1e2612">
+            Ad tertium faciliter patet solutio per praedicta
+            <lb ed="#V" n="82"/>Dicitur enim primo quod distinctio naturalium &amp;
+            supernatu<lb ed="#V" n="83" break="no"/>ralium non solum est per respectum ad agens aliud &amp; aliud,
+            <lb ed="#V" n="84"/>immo quandoque est per specificam distinctionem
+            essentia<lb ed="#V" n="85" break="no"/>rum horum &amp; illorum, sicut patet de gratia &amp; gloria, qua
+            <lb ed="#V" n="86"/>distinguuntur ab omnibus effectibus uaturalibus specifice,
+            <lb ed="#V" n="87"/>nec aliquod agens naturale potest producere aliquid idem
+            <lb ed="#V" n="88"/>specie cum charitate aut gratia gratum faciente vel cum
+            se<lb ed="#V" n="89" break="no"/>ptem donis Spiritus sancti, aut cum gloria animae vel
+            cor<lb ed="#V" n="90" break="no"/>poris, vt de se patet. Conceditur tamen quod quicquid
+            pro<lb ed="#V" n="91" break="no"/>ducitur a causa naturali potest produci a causa
+            supernatu<lb ed="#V" n="92" break="no"/>rali. Nec semper quicquid producitur a sola causa
+            superna<lb ed="#V" n="93" break="no"/>turali dicitur supernaturale vel miraculosum, nisi in tribus
+            <lb ed="#V" n="94"/>casibus, quos ponit Sanctus Thomas prima parte q. 105. artic. 8.
+            sci<lb ed="#V" n="95" break="no"/>licet quando effectus productus excedit facultatem naturae
+            <lb ed="#V" n="96"/>quo ad substantiam facti, sicut quod duo corpora sint simul
+            <lb ed="#V" n="97"/>vel quod sol retrocedat vel quod corpus humanum
+            glorifi<lb ed="#V" n="98" break="no"/>cetur, quod natura nullo modo potest facere secundo
+            quan<lb ed="#V" n="99" break="no"/>do effectus excedit facultatem naturae non quantum ad
+            il<lb ed="#V" n="100" break="no"/>lud quod fit, sed quantum ad illud in quo fit sicut
+            resuscita<lb ed="#V" n="101" break="no"/>tio mortuorum vel illuminatio caecorum. Potest enim
+            na<lb ed="#V" n="102" break="no"/>tura causare vitam, sed non in mortuo, &amp; potest praestare
+            vi<lb ed="#V" n="103" break="no"/>sum, sed non in caeco: tertio quando excedit facultatem
+            na<lb ed="#V" n="104" break="no"/>turae quantum ad modum &amp; ordinem faciendi, sicut cum
+            <lb ed="#V" n="105"/>aliquis subito per diuinam potentiam a febre curatur absque
+            <lb ed="#V" n="106"/>curatione &amp; consueto cursu naturae in talibus, &amp; cum mare
+            <lb ed="#V" n="107"/>statim condensatur in pluuias virtute diuina absque
+            natu<lb ed="#V" n="108" break="no"/>ralibus causis, sicut factum est ad preces Samelis &amp; Heliae
+            <lb ed="#V" n="109"/>Dicitur secundo quod posito quod aliquis effectus
+            superna<lb ed="#V" n="110" break="no"/>turalis quandoque sit imperfectior aliquo effectu naturali,
+            <lb ed="#V" n="111"/>&amp; se habeat ad illum vt substantia ad accidens, non tamen
+            <lb ed="#V" n="112"/>sequitur quod si angelus cognoscit naturaliter effectum
+            na<lb ed="#V" n="113" break="no"/>turalem qui est perfectior, quod ideo cognoscat effectum
+            su<lb ed="#V" n="114" break="no"/>pernaturalem qui est imperfectior. Cuius causa est, quia
+            an<lb ed="#V" n="115" break="no"/>gelus habet speciem directe repraesentantem naturalem, &amp;
+            <lb ed="#V" n="116"/>non supernaturalem, vel aliquam substantiam, &amp; non eius
+            <lb ed="#V" n="117"/>accidentia sicut patet de substantia angeli &amp; eius
+            naturali<lb ed="#V" n="118" break="no"/>bus potentijs, idest intellectu &amp; voluntate, quae sunt
+            natu<lb ed="#V" n="119" break="no"/>raliter notae cuilibet angelo, non tamen eius cogitationes aut
+            <lb ed="#V" n="120"/>volitiones aut habitus supernaturaliter infusi. Et de hoc
+            dif<lb ed="#V" n="121" break="no"/>fuse loquitur Sanctus Thomas vbi supra prima parte. q. 57. artic. 4. de
+            <lb ed="#V" n="122"/>veritate. q. 8. artic. 13. de malo. q. 16. artic. 8. Dicitur tertio quod
+            <lb ed="#V" n="123"/>secundum praedicta nullus angelus species concreatas
+            reprae<lb ed="#V" n="124" break="no"/>sentantes directe omnes effectus naturales, hoc est a causis
+            na<lb ed="#V" n="125" break="no"/>turalibus producibiles, praesertim arbitrio libero, quod est
+            <lb ed="#V" n="126"/>causa naturalis, hoc est non supernaturalis, licet non dicatur
+            <lb ed="#V" n="127"/>naturalis distinguendo naturale contra voluntarium
+            libe<lb ed="#V" n="128" break="no"/>rum, &amp; multo minus omnes effectus gratiae vel gloriae, sed
+            <lb ed="#V" n="129"/>species eis concreatae directe repraesentant substantias
+            ma<lb ed="#V" n="130" break="no"/>teriales &amp; immateriales, quae sunt de perfectione naturali
+            <lb ed="#V" n="131"/>vniuersi, vt supra dictum est, quod autem per eas possint
+            no<lb ed="#V" n="132" break="no"/>uiter cognoscere effectus gratiae vel gloriae, aut voluntates
+            <lb ed="#V" n="133"/>vel cogitationes alienas, vel futura contingentia, contingit
+            <lb ed="#V" n="134"/>ex alterius reuelatione, quae qualiter fiat alterius est
+            specula<lb ed="#V" n="135" break="no"/>tionis, &amp; tamen in parte tactum est in praecedenti solutione.
+            <lb ed="#V" n="136"/>Et haec sufficiunt ad obiecta Scoti.
+          </p>
+          <p xml:id="capsco-d3azz4-d1e2734">
+            Sciendum tamen quod
+            <lb ed="#V" n="137"/>Petrus de Palude vltima quaest. huius distin. pro praecedentium
+            <lb ed="#V" n="138"/>intellectu sic dicit. Oculus intellectualis angeli boni vel
+            ma<lb ed="#V" n="139" break="no"/>li non potest videre corpus Christi in altare clare &amp;
+            imme<lb ed="#V" n="140" break="no"/>diate &amp; directe, quia est de supernaturalibus
+            intellectuali<lb ed="#V" n="141" break="no"/>bus, quia supernaturalia sensibilia angelus nouit, cum etiam
+            <lb ed="#V" n="142"/>ad oculum homo videat ea, puta mortuum resuscitatum, vel
+            <lb ed="#V" n="143"/>oculum restitutum. Supernaturalia autem intelligibilia
+            ange<lb ed="#V" n="144" break="no"/>lus non videt naturaliter. Tale autem est esse corporis
+            Christi<lb ed="#V" n="145" break="no"/>in altare, ideo &amp;c. sed quod ex naturalibus angelus
+            cogno<lb ed="#V" n="146" break="no"/>scat hic esse accidentia sine subiecto non autem hic esse
+            cor<lb ed="#V" n="147" break="no"/>pus Christi, dubium est, quia ipse potest scire quid factum
+            est<lb ed="#V" n="148" break="no"/>de substantia panis, quia non est annihilata, &amp; quod non est
+            <lb ed="#V" n="149"/>conuersa in corpus Christi, sicut quod cibus conuertitur in
+            ci<lb ed="#V" n="150" break="no"/>batum &amp; huiusmodi. Scit enim generationem &amp;
+            corruptio<pb ed="#V" n="123"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>nem rerum naturalium, sed corpus Christi non est hic nisi
+            <lb ed="#V" n="2"/>per hoc quod in ipsum conuersum est id quod erat hic:
+            er<lb ed="#V" n="3" break="no"/>go &amp; caetera. Sed potest dici quod angelus scit vel scire
+            po<lb ed="#V" n="4" break="no"/>test nisi prohibeatur specialiter quicquid fit in
+            naturali<lb ed="#V" n="5" break="no"/>bus modo naturali, sed quod fit modo supernaturali non
+            <lb ed="#V" n="6"/>oportet. Nec apparet quare plus cognoscat accidentia esse
+            <lb ed="#V" n="7"/>sine subiecto quam conuersionem factam in corpus Christi,
+            <lb ed="#V" n="8"/>cum vtrunque sit praeter cursum naturae. Vel dicendum est
+            <lb ed="#V" n="9"/>quod sicut nos cognoscimus sensibilia, sic ipse intelligibilia,
+            <lb ed="#V" n="10"/>vnde sicut videmus accidentia corporea non esse, sed non
+            <lb ed="#V" n="11"/>videmus quid de illis factum sit cum apparet in forma
+            car<lb ed="#V" n="12" break="no"/>nis vel pueri, sic angelus videt substantiam ibi non esse, sed
+            <lb ed="#V" n="13"/>non videt vtrum sit annihilata vel conuersa, sed huiusmodi
+            <lb ed="#V" n="14"/>naturalia possunt ipsi citius &amp; certius quam nos conijcere
+            <lb ed="#V" n="15"/>indirecte per miracula facta quae ipsi sciunt esse vera, nos
+            au<lb ed="#V" n="16" break="no"/>tem non, quia qui nobis videtur suscitatus forte est angelus
+            <lb ed="#V" n="17"/>in corpore assumpto, sed talis deceptio non cadit in angelo.
+            <lb ed="#V" n="18"/>Vnde credunt &amp; contremiscunt, credunt quia non vident
+            <lb ed="#V" n="19"/>illud in se, sicut nec Trinitatem, nec vnionem verbi cum
+            car<lb ed="#V" n="20" break="no"/>ne, tamen sciunt indirecte per miracula, quia coniectant quod
+            <lb ed="#V" n="21"/>impossibile est non esse verum, sicut aliter cognosco
+            pue<lb ed="#V" n="22" break="no"/>rum natum quem in se video aliter quando adhuc est in
+            <lb ed="#V" n="23"/>vtero tumescente. Sed nescio quid determinate an viuum
+            <lb ed="#V" n="24"/>aut mortuum, masculus an foemina. Et sic est de
+            supernatu<lb ed="#V" n="25" break="no"/>ralibus respectu daemonum quae per miracula cadentia sub
+            <lb ed="#V" n="26"/>eorum naturali euidentia sunt probata. Oculus ergo
+            ange<lb ed="#V" n="27" break="no"/>li naturalis non videt clare hic esse corpus Christi, sed hoc
+            <lb ed="#V" n="28"/>conijcit infallibiliter ex miraculis sensibilibus, quae clare
+            vi<lb ed="#V" n="29" break="no"/>dit fieri ad testimonium huius veritatis. Haec Petrus &amp;
+            be<lb ed="#V" n="30" break="no"/>ne, &amp; conformiter supradictis potissime pro solutione
+            se<lb ed="#V" n="31" break="no"/>cundi.
+          </p>
+          <p xml:id="capsco-d3azz4-d1e2836">
+            Ad argumentum pro quaestione patet solutio ex
+            di<lb ed="#V" n="32" break="no"/>ctis ad argumentum Scoti contra primam conclusionem.
+            <lb ed="#V" n="33"/>Et de quotine haec sufficiant. De qua benedictus Deus, Amenus
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

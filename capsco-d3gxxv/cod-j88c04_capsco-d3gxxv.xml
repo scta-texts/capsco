@@ -1,0 +1,1571 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 4, Distinctio 15, Quaestio 1</title>
+        <author ref="#JohannesCapreolus">Johannes Capreolus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 4, Distinctio 15, Quaestio 1</title>
+          <date when="2026-11-04">Nov 4, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-j88c04">Venice, 1589, v. 4</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-04" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="182"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="capsco-d3gxxv"><!-- l4d15q1 -->
+        <head xml:id="capsco-d3gxxv-Hd1e101">Quaestio 1</head>
+        <head xml:id="capsco-d3gxxv-Hd1e103" type="question-title">Utrum homo possit Deo satisfacere pro peccato</head>
+        <p xml:id="capsco-d3gxxv-d1e106">
+          <lb ed="#V" n="54"/>DISTINCTIO XV
+          <lb ed="#V" n="55"/>QVAESTIO I
+          <lb ed="#V" n="56"/>Vtrum homo possit Deo satisfacere pro peccato.
+        </p>
+        <p xml:id="capsco-d3gxxv-d1e115">
+          <lb ed="#V" n="57"/><milestone ed="#V" unit="p" rend="initial"/> CIRCA decimamquintam
+          distinctio<lb ed="#V" n="58" break="no"/>nem 4. sent. quaeritur. Vtrum homo possit
+          <lb ed="#V" n="59"/>Deo satisfacere pro peccato.
+        </p>
+        <p xml:id="capsco-d3gxxv-d1e125">
+          Et arguitur
+          <lb ed="#V" n="60"/>quod non, quia ille cuius totum quod
+          ha<lb ed="#V" n="61" break="no"/>bet non sufficit ad vnum debitum exsol
+          <lb ed="#V" n="62"/>uendum, non potest pro alio suo debito
+          sa<lb ed="#V" n="63" break="no"/>tisfacere, sed quicquid homo est &amp; potest
+          <lb ed="#V" n="64"/>&amp; habet non sufficit ad exsoluendum
+          debi<lb ed="#V" n="65" break="no"/>tum pro beneficio creationis. Vnde Isa. 15. dicitur quod ligna
+          <lb ed="#V" n="66"/>libani non fufficient ad holocaustum: ergo nullo modo
+          po<lb ed="#V" n="67" break="no"/>test satisfacere pro debito effensae commissae.
+        </p>
+        <p xml:id="capsco-d3gxxv-d1e146">
+          <lb ed="#V" n="68"/><milestone ed="#V" unit="p" rend="indent"/> In oppositum arguitur, quia sicut dicit Hiero. qui dicit
+          <lb ed="#V" n="69"/>Deum aliquid impossibile praecepisse homini anathema
+          <lb ed="#V" n="70"/>sit, sed satisfactio est praecepto Lucae. 3. Facitae dignos
+          fru<lb ed="#V" n="71" break="no"/>ctus poenitentiae: ergo possibile est Deo satisfacere
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="72"/>In hac quaestione erunt tres articuli. In primo ponentur
+          <lb ed="#V" n="73"/>conclusiones. In secundo obiectiones. In tertio solutiones
+        </p>
+        <div xml:id="capsco-d3gxxv-Dd1e165">
+          <head xml:id="capsco-d3gxxv-Hd1e167">Articulus 1</head>
+          <p xml:id="capsco-d3gxxv-d1e169">
+            <lb ed="#V" n="74"/><milestone ed="#V" unit="p" rend="initial"/> QVantum ad primum articulum sit prima conclusio.
+            Pu<lb ed="#V" n="75" break="no"/>rus homo non potest perfecte satisfacere Deo, nisi in
+            <lb ed="#V" n="76"/>virtute meriti Christi. Hanc conclusionem ponit Sanctus Thoma
+            <lb ed="#V" n="77"/>3. parte q. 1. artic. 2. in solutione secundi, vbi sic dicit. Aliqua
+            <lb ed="#V" n="78"/>satis factio potest dici sufficiens dupliciter, vnomodo perfecte
+            <lb ed="#V" n="79"/>quia est condigna per quandam adaequationem ad
+            recom<lb ed="#V" n="80" break="no"/>pensationem culpae commissae, &amp; sic hominis puri satisfactio esse
+            <lb ed="#V" n="81"/>non potuit sufficiens, quia tota natura humana erat per
+            pec<lb ed="#V" n="82" break="no"/>catum corrupta, nec bonum alicuius personae vel plurium
+            <lb ed="#V" n="83"/>poterat per aequiperantiam totius naturae detrimentum
+            re<lb ed="#V" n="84" break="no"/>compensare, tum etiam quia peccatum contra Deum
+            commissun<lb ed="#V" n="85" break="no"/>quandam infinitatem habet ex infinitate diuinae maiestatis,
+            <lb ed="#V" n="86"/>tanto enim offensa est grauior quanto maior est ille in quem
+            de<lb ed="#V" n="87" break="no"/>linquitur: vnde oportuit ad satisfactionem condignam vt
+            <lb ed="#V" n="88"/>actio satisfactionis satistacientis haberet efficaciam
+            infini<lb ed="#V" n="89" break="no"/>tam, vtputa Dei &amp; homnins existens. Aliomodo potest dici
+            satisfa<lb ed="#V" n="90" break="no"/>ctio sufficiens imperfecte scilicetseundum acceptationem eius qui
+            est<lb ed="#V" n="91" break="no"/>ea contentus, quamuis non sit condigna, &amp; hoc modo
+            satis<lb ed="#V" n="92" break="no"/>factio puri hominis est sufficiens, &amp; quia omne imperfectum
+            prae<lb ed="#V" n="93" break="no"/>supponit aliquid perfectum a quo sustctetur, inde est quod
+            ho<lb ed="#V" n="94" break="no"/>minis puri satisfactio efficaciam habet a satisfactione
+            Chri<lb ed="#V" n="95" break="no"/>sti. Haec ille.
+          </p>
+          <p xml:id="capsco-d3gxxv-d1e220">
+            Eandem ponit 3. sent. dist. 20. q. 1. artic. 2. dicens.
+            <lb ed="#V" n="96"/>Oportebat inquit quod pro peccato naturae humanae fieret
+            con<lb ed="#V" n="97" break="no"/>digna satisfactio tum quia aliter homo non restitueretur
+            pri<lb ed="#V" n="98" break="no"/>mae dignati, tum quia conueniens est esse vnum primum
+            <lb ed="#V" n="99"/>genere satisfactionis perfectum, supra quod omnes aliae
+            satisfa<lb ed="#V" n="100" break="no"/>ctiones imperfectae fundentur. Ad hoc autem quod satisfactio esset
+            <lb ed="#V" n="101"/>condigna, oportebat quod haberet virtutem infinitam, quia
+            pec<lb ed="#V" n="102" break="no"/>catum pro quo fiebat satisfactio infinitatem quandam
+            ha<lb ed="#V" n="103" break="no"/>bebat ex tribus, primo ex infinitate diuinae maiestatis
+            inquan<lb ed="#V" n="104" break="no"/>tum offensa fuerat per contemptum inobedientiae, quanto enim
+            <lb ed="#V" n="105"/>maior est in quem peccatur, tanto grauior est culpa, secundo ex
+            <lb ed="#V" n="106"/>bono quod per peccatum auferebatur quod est infinitum, scilicet
+            <lb ed="#V" n="107"/>Deus ipse cuius participationem fiunt homines beati: tertio ex
+            <lb ed="#V" n="108"/>ipsa natura quae corrupta erat quae infinitatem quandam
+            ha<lb ed="#V" n="109" break="no"/>bet inquantum in ea possunt in infinitum supposita
+            multi<lb ed="#V" n="110" break="no"/>plicari, actio autem purae creaturae non potest habere efficaciam
+            <lb ed="#V" n="111"/>infinitam, &amp; ideo nulla pura creatur a poterat sufficientao
+            <lb ed="#V" n="112"/>satisfactionem facere. Haec ille.
+          </p>
+          <p xml:id="capsco-d3gxxv-d1e259">
+            Item artic. 1. q. 3. in solutione
+            <lb ed="#V" n="113"/>tertij sic dicit. Remissio poenae quae fit alijs homibus praecipue
+            <lb ed="#V" n="114"/>poenae satisfactoriae fundatur super virtutem satisfactionis
+            <lb ed="#V" n="115"/>Christi quae superabundauit ad amouendas omnes paenas
+            quan<lb ed="#V" n="116" break="no"/>tum in se fuit: vnde oportet quod particulata satisfactio
+            fun<lb ed="#V" n="117" break="no"/>detur super satisfactionem Christi condignam, sicut in
+            quo<lb ed="#V" n="118" break="no"/>libet genere imperfectum oritur ex perfecto. Haec ille.
+          </p>
+          <p xml:id="capsco-d3gxxv-d1e275">
+            Item dist. 1.
+            <lb ed="#V" n="119"/>tertij q. 1. art. 2. solutione 6. sic dicit in fine. Dicendum inquit
+            <lb ed="#V" n="120"/>secundum quosdam, quod etiam pro actuali peccato non sufficit purus homo
+            <lb ed="#V" n="121"/>satisfacere nisi praesupposita satisfactione Christi, ex cuius
+            <lb ed="#V" n="122"/>passione etiam antiquorum patrum satisfactio efficax fuit
+            qui<lb ed="#V" n="123" break="no"/>in fide eius saluabantur. Haec ille.
+          </p>
+          <p xml:id="capsco-d3gxxv-d1e289">
+            Ex quibus patet quod in dictis
+            <lb ed="#V" n="124"/>locis sensit quod purus homo non sufficit satisfacere pro
+            pecca<lb ed="#V" n="125" break="no"/>to actuali niortali sicut nec pro originali. verum q4. sent. dis. 15.
+            <lb ed="#V" n="126"/>videtur aliter dicere. Nam q. 1. art. 2. sic dicit. Dupliciter homo Deo
+            <lb ed="#V" n="127"/>debitor efficitur, vno modo ratione beneficij accepti, alio modo
+            <lb ed="#V" n="128"/>ratione peccati commissi, &amp; sicut gratiarum actio vel latria vel
+            si<lb ed="#V" n="129" break="no"/>quid est huiusmodi respicit debitum beneficij accepti ita
+            satisfa<lb ed="#V" n="130" break="no"/>ctio respicit debitum peccati commissi, in his autem
+            honori<lb ed="#V" n="131" break="no"/>bus qui sunt ad parentes &amp; Deos etiam secundum
+            Philosophi<lb ed="#V" n="132" break="no"/>impossibile est aequiualens reddere secundum quantitatem, sed si
+            <lb ed="#V" n="133"/>ficit vt homo reddat quod potest, quia amicitia non exigit
+            aequi<lb ed="#V" n="134" break="no"/>ualens, sed quod possibile est, &amp; hoc etiam est aequale aliqualiterscilicet
+            <lb ed="#V" n="135"/>secundum proportionabilitatem, quia sicut se habet hoc quod Deo esset
+            <lb ed="#V" n="136"/>debitum ad ipsum Deum, ita hoc quod ipse potest reddere ad
+            <lb ed="#V" n="137"/>eum, &amp; sic aliquo modo forma iustitiae seruatur: &amp; similiter est
+            <lb ed="#V" n="138"/>ex parte satisfacientis: vner homo non potest satisfacere si ly satis
+            <lb ed="#V" n="139"/>aequalitatem quantitatis importet, contingit autem quod importet
+            <lb ed="#V" n="140"/>aequalitatem proportionis vt dictum est, &amp; hoc sicut sufficit ad
+            <lb ed="#V" n="141"/>rationem iustitiae, ita sufficit ad rationem satis factionis. Haec ille
+            <lb ed="#V" n="142"/>Item ibidem in solutione primi sic dicit. Sicut offensa habuit
+            <lb ed="#V" n="143"/>quandam infinitatem ex infinitate diuinae maiestatis, ita &amp;
+            satisfa<lb ed="#V" n="144" break="no"/>ctio accipit quandam infinitatem ex infinitate diuinae misericordiae, prout
+            <lb ed="#V" n="145"/>est gratia informata, per quam acceptum redditur quod homo Deo reddere
+            <lb ed="#V" n="146"/>potest. Quidam tamen duentem quod hebetem infinitatem ex parte auersionis, &amp; sic
+            <pb ed="#V" n="183"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>gratis dimittitur, sed ex parte conuersionis finita est, &amp; sic per ea
+            <lb ed="#V" n="2"/>satisfieri potest, sed hoc nihil est, quia satisfactio non
+            respon<lb ed="#V" n="3" break="no"/>det peccato nisi secundum quod est offensa Dei, quod non
+            ha<lb ed="#V" n="4" break="no"/>bet ex parte conuersionis, sed auersionis solum. Alij vero
+            <lb ed="#V" n="5"/>dicunt quod etiam quantum ad auersionem satissieri potest
+            <lb ed="#V" n="6"/>pro peccato virtute meriti Christi, quod quidem infinitum
+            <lb ed="#V" n="7"/>fuit. Et hoc in idem redit quod prius dictum est, quia per
+            <lb ed="#V" n="8"/>fidem mediatoris gratia data est credentibus, si tamen
+            alio<lb ed="#V" n="9" break="no"/>modo gratiam daret, sufficeret satisfactio per modum
+            prae<lb ed="#V" n="10" break="no"/>dictum. Haec ille.
+          </p>
+          <p xml:id="capsco-d3gxxv-d1e367">
+            Ex quibus videtur quod primus homo
+            po<lb ed="#V" n="11" break="no"/>test sufficienter satisfacere pro peccato actuali morali sine
+            <lb ed="#V" n="12"/>merito passionis Christi, cuius oppositum superius dixit
+            <lb ed="#V" n="13"/>sed hic nulla est proprie contradictio, quia superius
+            loqui<lb ed="#V" n="14" break="no"/>tur de satisfactione perfecta, hic vero de imperfecta, vnde
+            <lb ed="#V" n="15"/>potest talis ratio pro conclusione formari. Ad perfectam
+            <lb ed="#V" n="16"/>satisfactionem pro peccato requiritur adaequatio
+            satisfactio<lb ed="#V" n="17" break="no"/>nis ad offensam, sed talem &amp; tantam non potest purus
+            ho<lb ed="#V" n="18" break="no"/>mo exhibere nisi coniuncto merito passionis Christi:
+            er<lb ed="#V" n="19" break="no"/>go &amp;c.
+          </p>
+          <p xml:id="capsco-d3gxxv-d1e389">
+            Secunda conclusio. Nullus potest satisfacere Deo
+            <lb ed="#V" n="20"/>de vno peccato non satisfaciendo de alio, sed illud
+            retinen<lb ed="#V" n="21" break="no"/>do. Hanc ponit Sanctus Thomas praesenti distinc. 15. q. 1. artic. 3. in
+            <lb ed="#V" n="22"/>solutione primae quaest. vbi sic dicit. Quidam dixerunt quod
+            <lb ed="#V" n="23"/>potest fieri satisfactio de vno peccato sine alio vel in alio. vr
+            <lb ed="#V" n="24"/>dicit magister in littera, sed hoc non potest esse, cum enim
+            <lb ed="#V" n="25"/>per satisfactionem debeat tolli offensa praecedens oportet
+            <lb ed="#V" n="26"/>quod talis sit modus satisfactionis qui competat ad
+            tollen<lb ed="#V" n="27" break="no"/>dum offensam, offensae autem ablatio est amicitiae restitutio,
+            <lb ed="#V" n="28"/>&amp; ideo si sit aliquid quod amicitiae restitutionem impediat,
+            <lb ed="#V" n="29"/>etiam apud homines satisfactio esse non potest, cum ergo
+            <lb ed="#V" n="30"/>quodlibet peccatum amicitiam charitatis impediat, quae est
+            <lb ed="#V" n="31"/>hominis ad Deum, impossibile est quod homo de vno
+            pec<lb ed="#V" n="32" break="no"/>cato satisfaciat alio retento, sicut nec homini satisfaceret
+            <lb ed="#V" n="33"/>qui pro alapa sibi data ei se prosterneret, &amp; aliam simul
+            da<lb ed="#V" n="34" break="no"/>ret. Haec ille. Item ibidem arguit sic. Satisfactio est
+            medi<lb ed="#V" n="35" break="no"/>cina curans peccata praeterita, &amp; praeseruans a futuris, sed
+            <lb ed="#V" n="36"/>peccata non possunt sine gratia curari: ergo cum
+            quodli<lb ed="#V" n="37" break="no"/>bet peccatum mortale gratiam auferat, non potest de
+            vno<lb ed="#V" n="38" break="no"/>peccato fieri satisfactio sine altero. Item Isa. 58. dicitur, quod
+            <lb ed="#V" n="39"/>iciunium eorum qui ad contentiones &amp; lites ieiunabant non
+            <lb ed="#V" n="40"/>erat Deo acceptum licet ieiunium sit opus satisfactionis, sed
+            <lb ed="#V" n="41"/>non potest fieri Deo satisfactio nisi per opus Deo acceptum:
+            <lb ed="#V" n="42"/>ergo qui habet aliquod peccatum non potest Deo
+            satisfa<lb ed="#V" n="43" break="no"/>cere. Haec ille. Ex quibus potest formari talis ratio pro
+            con<lb ed="#V" n="44" break="no"/>clusione. Nullum opus insufficiens ad amicitiae
+            restitutio<lb ed="#V" n="45" break="no"/>nem, &amp; cum illius impedimento stans est Deo
+            satisfacto<lb ed="#V" n="46" break="no"/>rium, sed omne opus factum in peccato mortali, vel cum
+            <lb ed="#V" n="47"/>retentione peccati mortalis per affectum est huiusmodi:
+            er<lb ed="#V" n="48" break="no"/>go &amp;c.
+          </p>
+          <p xml:id="capsco-d3gxxv-d1e454">
+            Tertia conclusio. Nullus post remissionem peccati
+            <lb ed="#V" n="49"/>mortalis sibi factam per contritionem nouiter mortaliter
+            <lb ed="#V" n="50"/>peccans potest in statu illo extra charitatem satisfacere
+            pro<lb ed="#V" n="51" break="no"/>peccatis prius sibi dimissis. Hanc ponit Sanctus Thomas vbi supra
+            <lb ed="#V" n="52"/>in solutione secundae quaestiunculae vbi sic dicit. Quidam
+            <lb ed="#V" n="53"/>dixerunt quod postquam omnia peccata per poenitentiam
+            <lb ed="#V" n="54"/>&amp; contritionem dimissa sunt, si aliquis ante satisfactionem
+            <lb ed="#V" n="55"/>peractam in peccatum decidat, &amp; in peccato existens
+            satis<lb ed="#V" n="56" break="no"/>faciat, quod satisfactio talis ei valeat, ita quod si in illo peccato
+            <lb ed="#V" n="57"/>moreretur, in inferno de illis peccatis non puniretur, sed
+            <lb ed="#V" n="58"/>hoc esse non potest, quia in satisfactione oportet quod etiam
+            ami<lb ed="#V" n="59" break="no"/>citia restituta iustitiae aequalitas restituatur, cuius contrarium
+            <lb ed="#V" n="60"/>amicitiam soluit, vt dicit Philosophus 9. Ethic. Aequalitas
+            <lb ed="#V" n="61"/>autem in satisfactione ad Deum non est secundum
+            aequiua<lb ed="#V" n="62" break="no"/>lentiam sed magis secundum acceptionem ipsius, &amp; ideo
+            <lb ed="#V" n="63"/>oportet quod &amp; si offensa sit dimissa per contritionem
+            prae<lb ed="#V" n="64" break="no"/>cedentem quod opera satisfactoria sint Deo accepta quod
+            <lb ed="#V" n="65"/>dat eis charitas, &amp; ideo sine charitate opera non sunt
+            satis<lb ed="#V" n="66" break="no"/>factoria facta. Haec ille. Item ibidem arguitur sic. Quia
+            di<lb ed="#V" n="67" break="no"/>citur Prouerb. 10. vniuersa delicta operit charitas, sed
+            satis<lb ed="#V" n="68" break="no"/>factionis virtus est delere peccata vel delicta: ergo sine
+            cha<lb ed="#V" n="69" break="no"/>ritate non habet virtutem suam. Item praecipuum opus in
+            sa<lb ed="#V" n="70" break="no"/>tisfaciendo est eleemosina, sed eleemosina extra charitatem
+            fa<lb ed="#V" n="71" break="no"/>cta non valet, vt patet prima Corinth. 13. Si distribuero in
+            <lb ed="#V" n="72"/>cibos pauperum &amp;c. ergo nec aliqua satisfactio est extra
+            cha<lb ed="#V" n="73" break="no"/>ritatem. Haec ille. Ex quibus potest formari talis ratio
+            pro<lb ed="#V" n="74" break="no"/>conclusione. Nullum opus Deo non acceptum est
+            satisfa<lb ed="#V" n="75" break="no"/>ctorium, sed omne opus extra charitatem factum est Deo
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="76"/>non acceptum: ergo &amp;c.
+          </p>
+          <p xml:id="capsco-d3gxxv-d1e519">
+            Quarta conclusio. Opera extra
+            <lb ed="#V" n="77"/>charitatem facta sicut non sunt satisfactoria, ita nec
+            alicu<lb ed="#V" n="78" break="no"/>ius praemij etiam temporalis proprie meritoria. Hanc
+            po<lb ed="#V" n="79" break="no"/>nit Sanctus Thomas praesenti distinc. q. 1. artic. 3. in solut. 4. q. vbi sic
+            <lb ed="#V" n="80"/>dicit. Meritum proprie dicitur actio qua efficitur vt ei qui
+            <lb ed="#V" n="81"/>agit iustum sit aliquid dari, sed iustitia dicitur dupliciter.
+            <lb ed="#V" n="82"/>Vno modo proprie quae scilicet respicit debitum ex parte
+            <lb ed="#V" n="83"/>recipientis. Alio modo quasi similitudinarie quae respicit
+            <lb ed="#V" n="84"/>debitum ex parte dantis. Aliquid enim decet dantem dare
+            <lb ed="#V" n="85"/>quod tamen non habet recipiens debitum recipiendi, &amp; sic
+            <lb ed="#V" n="86"/>iustitia dicitur decentia diuinae bonitatis: sic Anselmus dicit quod
+            <lb ed="#V" n="87"/>Deus iustus est cum peccatoribus parcit, quia eum hoc
+            de<lb ed="#V" n="88" break="no"/>cet. Et secundum hoc meritum dicitur dupliciter. Vno
+            mo<lb ed="#V" n="89" break="no"/>do actus per quem efficitur vt ipse agens habeat debitum
+            re<lb ed="#V" n="90" break="no"/>cipiendi, &amp; hoc vocatur meritum condigni. Alio modo
+            <lb ed="#V" n="91"/>actus per quem efficitur vt sit dandi debitum in dante
+            secun<lb ed="#V" n="92" break="no"/>dum decentiam ipsius, &amp; hoc meritum dicitur meritum
+            con<lb ed="#V" n="93" break="no"/>grui, cum autem in omnibus illis quae gratis dantur prima
+            <lb ed="#V" n="94"/>ratio dandi sit amor, impossibile est quod aliquis tale
+            debi<lb ed="#V" n="95" break="no"/>tum sibi efficiat qui amicitia caret, &amp; ideo cum omnia
+            bo<lb ed="#V" n="96" break="no"/>na &amp; temporalia &amp; aeterna ex diuina liberalitate nobis
+            do<lb ed="#V" n="97" break="no"/>nentur, nullus acquirere potest debitum recipiendi aliquod
+            <lb ed="#V" n="98"/>illorum nisi per charitatem, &amp; ideo opera extra charitatem
+            <lb ed="#V" n="99"/>facta non sunt meritoria ex condigno neque aeterni neque
+            <lb ed="#V" n="100"/>temporalis boni alicuius apud Deum, sed quia diuinam
+            bo<lb ed="#V" n="101" break="no"/>nitatem decet, vt vbicunque dispositionem inuenit
+            perfe<lb ed="#V" n="102" break="no"/>ctionem adijciat, ideo ex merito congrui dicitur aliquis
+            me<lb ed="#V" n="103" break="no"/>reri bonum aliquod per opera extra charitatem facta, &amp;
+            se<lb ed="#V" n="104" break="no"/>cundum hoc opera illa ad tripliciter bonum valent, scilicet
+            <lb ed="#V" n="105"/>ad temporalium bonorum assecutionem, ad dispositionem
+            <lb ed="#V" n="106"/>gratiarum &amp; assuetudinem bonorum operum. Et quia cum
+            <lb ed="#V" n="107"/>hoc meritum non proprie dicitur meritum, ideo magis
+            con<lb ed="#V" n="108" break="no"/>cedendum est quod huiusmodi opera non sint alicuius
+            bo<lb ed="#V" n="109" break="no"/>ni meritoria quam quod sint. Haec ille.
+          </p>
+          <p xml:id="capsco-d3gxxv-d1e593">
+            Ex quibus potest
+            <lb ed="#V" n="110"/>formari talis ratio pro conclusione. Ex nullo opere dicitur
+            <lb ed="#V" n="111"/>aliquis proprie mereri aliquod bonum per quod non
+            acqui<lb ed="#V" n="112" break="no"/>rit debitum proprie dictum ex parte sui aliquod bonum
+            re<lb ed="#V" n="113" break="no"/>cipiendi, sed omnia opera hominis extra charitatem facta
+            <lb ed="#V" n="114"/>sunt huiusmodi in respectu ad Deum: ergo per talia nihil
+            <lb ed="#V" n="115"/>meretur apud Deum merito proprie dicto &amp;c
+          </p>
+        </div>
+        <div xml:id="capsco-d3gxxv-Dd1e610">
+          <head xml:id="capsco-d3gxxv-Hd1e612">Articulus 2</head>
+          <p xml:id="capsco-d3gxxv-d1e614">
+            <lb ed="#V" n="116"/><milestone ed="#V" unit="p" rend="initial"/> QVantum ad secundum articulum arguendum est
+            con<lb ed="#V" n="117" break="no"/>tra conclusiones. Et quidem contra primam arguit
+            <lb ed="#V" n="118"/>Scotus probando quod possibile sit de potentia Dei
+            abso<lb ed="#V" n="119" break="no"/>luta Deum accipere aliquem actum paenitentis tanquam
+            sa<lb ed="#V" n="120" break="no"/>tisfactionem iustam pro peccato non coniuncto merito
+            pas<lb ed="#V" n="121" break="no"/>sionis Christi: primo quia non est impossibile filium
+            Dei<lb ed="#V" n="122" break="no"/>non fuisse incarnatum, &amp; per consequens nec passum, &amp;
+            ta<lb ed="#V" n="123" break="no"/>men possibile est Deum produxisse praedestinatum ad
+            beati<lb ed="#V" n="124" break="no"/>tudinem &amp; iuste, non tamen excludendo misericordiam:
+            <lb ed="#V" n="125"/>ergo possibile fuisset modo poenitentem sibi satisfecisse, quia
+            <lb ed="#V" n="126"/>non potest iuste sine satisfactione peccatorem beatificare.
+          </p>
+          <p xml:id="capsco-d3gxxv-d1e641">
+            <lb ed="#V" n="127"/>Confirmatur istud per Augutus 13. de Trinitus cap. 4. Fuit
+            qui<lb ed="#V" n="128" break="no"/>dem &amp; alius modus nostrae redemptionis possibilis quam
+            <lb ed="#V" n="129"/>scilicet per incarnationem &amp; passionem, sed nullus nostrae
+            <lb ed="#V" n="130"/>miseriae sanandae conuenientior ergo lapsus noster potuit
+            sa<lb ed="#V" n="131" break="no"/>nari alia via quam per incarnationem &amp; passionem
+            Chri<lb ed="#V" n="132" break="no"/>sti. Secundo, quia passio Christi non delet culpam nostram
+            <lb ed="#V" n="133"/>nisi vt causa meritoria, &amp; per consequens vt causa secunda
+            <lb ed="#V" n="134"/>quae non est de essentia rei: ergo illa reducitur ad genus
+            cau<lb ed="#V" n="135" break="no"/>sae efficientis: sed quicquid potest Deus per causam
+            secun<lb ed="#V" n="136" break="no"/>dam efficientem potest immediate: ergo sine illa posset
+            iu<lb ed="#V" n="137" break="no"/>ste &amp; ordinate remittere culpam. Si dicatur ad istud quod
+            <lb ed="#V" n="138"/>Deus posset sine Christo mediatore deleuisse iuste culpam
+            <lb ed="#V" n="139"/>viatoris &amp; ita eum produxisse ad beatitudinem secundum
+            <lb ed="#V" n="140"/>primum argumentum, &amp; immediate iustificasse iuxta
+            secun<lb ed="#V" n="141" break="no"/>dum argumentum, sed tamen non per viam satisfactionis,
+            <lb ed="#V" n="142"/>quia non fuisset aliquid aequiualens redditum tunc. Nunc
+            <lb ed="#V" n="143"/>autem est redditum aequiualens per Christi passionem cum
+            <lb ed="#V" n="144"/>ista tamen tali quali satisfactione istius. Contra, satisfactio
+            <lb ed="#V" n="145"/>est redditio aequiualentis pro aequiualenti, sed quantum
+            ma<lb ed="#V" n="146" break="no"/>lum fuit peccatum auertens a Deo tantum bonum est
+            con<lb ed="#V" n="147" break="no"/>uersio ad Deum ex charitate, quantum etiam bonum natum
+            <lb ed="#V" n="148"/>fuit inesse actui nostro, tantum bonum &amp; non plus abstulit
+            <lb ed="#V" n="149"/>peccatum nostrum, &amp; tantum bonum potest inesse actui
+            no<lb ed="#V" n="150" break="no"/>stro secundo: ergo per ipsum omnino aequiualens redditur
+            <pb ed="#V" n="184"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>si dicatur quod actus malus non sit aequiualens in bono
+            il<lb ed="#V" n="2" break="no"/>li malo in displicentia nisi actus ille eliciatur a gratia, sed
+            pri<lb ed="#V" n="3" break="no"/>ma gratia non datur alicui peccatori nisi ex passione
+            Chri<lb ed="#V" n="4" break="no"/>sti. Contra, de potentia Dei absoluta bene posset dari
+            pri<lb ed="#V" n="5" break="no"/>ma gratia sine merito passionis Christi quod probatur. qua
+            <lb ed="#V" n="6"/>summa gratia data creaturae nata est animae Christi, &amp; sine
+            <lb ed="#V" n="7"/>merito quocunque, nulla enim passio eius nec praeuisa nec
+            <lb ed="#V" n="8"/>exhibita erat meritum respectu gratiae conferendae sibi,
+            im<lb ed="#V" n="9" break="no"/>mo praenidebatur vel prius videbatur gratiam habiturus
+            <lb ed="#V" n="10"/>quam passio acceptanda.
+          </p>
+          <p xml:id="capsco-d3gxxv-d1e722">
+            Item passio Christi fuit bonum
+            <lb ed="#V" n="11"/>finitum etiam accepta secundum totam rationem meriti in
+            <lb ed="#V" n="12"/>ea, quia non erat bonum increatum. Nec per consequens
+            ac<lb ed="#V" n="13" break="no"/>ceptatur a Deo infinite ex parte obiecti, quia non fuit Deus
+            <lb ed="#V" n="14"/>beatus acceptando illam passionem sicut amando suam
+            es<lb ed="#V" n="15" break="no"/>sentiam, si ergo infinitas in peccato prohiberet
+            satisfactio<lb ed="#V" n="16" break="no"/>nem esse possibilem etiam prohiberet eam posita passione
+            <lb ed="#V" n="17"/>Christi.
+          </p>
+          <p xml:id="capsco-d3gxxv-d1e740">
+            Tertio sic. Deus de potentia absoluta posset
+            dedis<lb ed="#V" n="18" break="no"/>se peccatori post attritionem tanquam post dispositionem
+            <lb ed="#V" n="19"/>congruam &amp; meritum de congruo gratiam per quam motus eius
+            <lb ed="#V" n="20"/>fieret contritio, &amp; sic per satisfactionem deleuisse peccatum
+            <lb ed="#V" n="21"/>quia per actum illum reddentem Deo aequiualens illi
+            bono<lb ed="#V" n="22" break="no"/>quod abstulit peccatum, posset etiam actus ille esse alias
+            in<lb ed="#V" n="23" break="no"/>debitus, quia licet quicquid sumus &amp; possumus teneamur
+            <lb ed="#V" n="24"/>Deo, tamen ex maxima sua misericordia considerans nostram
+            <lb ed="#V" n="25"/>fragilitatem &amp; difficultatem ad bonum noluit nos
+            regula<lb ed="#V" n="26" break="no"/>riter obligare nisi ad decalogum, &amp; ita potuisset ordinasse
+            <lb ed="#V" n="27"/>&amp; obligasse hominem tantum ad decalogum Christo non
+            <lb ed="#V" n="28"/>incarnato. Posset ergo tunc homo aliqua supererogationis
+            <lb ed="#V" n="29"/>opera exercere quae alias essent sibi indebita, &amp; tunc
+            salua<lb ed="#V" n="30" break="no"/>retur tota ratio satisfactionis, de potentia ordinata tamen
+            <lb ed="#V" n="31"/>Deus non disposuit sibi reconciliare iniustum, nisi per
+            ob<lb ed="#V" n="32" break="no"/>sequium sibi magis gratum quam erat offensa eius sibi
+            di<lb ed="#V" n="33" break="no"/>splicens, &amp; illud est meritum passionis Christi. Haec Scotus
+            <lb ed="#V" n="34"/>in forma.
+          </p>
+          <p xml:id="capsco-d3gxxv-d1e780">
+            Contra eandem conclusionem arguit Aureolus:
+            <lb ed="#V" n="35"/>primo qua rigor iustitiae exigit quod actus satisfactorius si
+            <lb ed="#V" n="36"/>aequiualens in bonitate malitiae actus peccati, sed possibile
+            <lb ed="#V" n="37"/>est habere actum gratia informatum arquiualentem in
+            bo<lb ed="#V" n="38" break="no"/>nitate malitiae peccati: ergo &amp; caet. minor probatur, quia si
+            <lb ed="#V" n="39"/>actus gratia informatus non posset aquiualere vel
+            praepon<lb ed="#V" n="40" break="no"/>derare malitiae peccati, hoc esset vel quia culpa est infinita
+            ra<lb ed="#V" n="41" break="no"/>tione obiecti, vel ratione sui, vel ratione operantis. Si primo
+            <lb ed="#V" n="42"/>modo, non magis est infinitus actus peccati in malitia quam
+            <lb ed="#V" n="43"/>actus bonus gratia informatus in bonitate, quia vterque est
+            <lb ed="#V" n="44"/>in Deum obiectiue: ergo si propter obiectum infinitum actus
+            <lb ed="#V" n="45"/>peccati habet infinitam malitiam, eadem ratione actus
+            gra<lb ed="#V" n="46" break="no"/>tia informatus habet infinitam bonitatem. Si secundo
+            mo<lb ed="#V" n="47" break="no"/>do non, quia actus peccati non est infinitus formaliter, nec
+            <lb ed="#V" n="48"/>actus gratia informatus, sed tertio modo posset intelligi
+            infi<lb ed="#V" n="49" break="no"/>nitas malitiae actus ex parte operantis hoc modo, scilicet
+            <lb ed="#V" n="50"/>quia quantumcunque augeretur actus bonus in bonitate
+            <lb ed="#V" n="51"/>nunquam aequaret gradum malitiae satisfaciendo. Cuius
+            ra<lb ed="#V" n="52" break="no"/>tio est, quia in commissione peccati est magna iniustitia ex
+            <lb ed="#V" n="53"/>parte hominis, quando vero homo elicit actum bonum, non
+            <lb ed="#V" n="54"/>videtur quod possit satisfaciendo illam iniustitiam
+            adaequa<lb ed="#V" n="55" break="no"/>re, quia nullus satisfacit exhibendo illud ad quod alias etiam
+            <lb ed="#V" n="56"/>si non esset fienda satisfactio teneretur, sed homo dato quod
+            <lb ed="#V" n="57"/>non peccaret tenetur. Deo omnem bonum actum exhibere,
+            <lb ed="#V" n="58"/>quem exhibet &amp; plus quam exhibeat. ergo &amp;c. sed ista
+            ra<lb ed="#V" n="59" break="no"/>tio non debet mouere, quia licet de congruo &amp; decenti
+            ho<lb ed="#V" n="60" break="no"/>mo obligetur ad impediendum omnem bonum actum, hoc
+            <lb ed="#V" n="61"/>tamen non est de rigore iustitiae. Alias quilibet obligaretur
+            <lb ed="#V" n="62"/>ad intrandum religionem &amp; actus consimiles qui sunt
+            su<lb ed="#V" n="63" break="no"/>pererogationis: ergo si ad tales actus non tenetur homo de
+            <lb ed="#V" n="64"/>rigore iustitiae, si post peccatum eliciat talem actum,
+            pote<lb ed="#V" n="65" break="no"/>rit sic intensnin elicere in bonitate quod peccati maculam adae
+            <lb ed="#V" n="66"/>quabitur, &amp; per consequens erit satisfactorius. Haec ille in
+            <lb ed="#V" n="67"/>forma. Contra eandem arguit Durandus dicens. Quidam
+            <lb ed="#V" n="68"/>dicunt quod licet homo ex se non possit satisfacere
+            redden<lb ed="#V" n="69" break="no"/>do aequiualens, potest tamen hoc per hoc quod sibi
+            commu<lb ed="#V" n="70" break="no"/>nicatur meritum passionis Christi, quod fuit aliquo modo
+            <lb ed="#V" n="71"/>infinitum, sed hoc non videtur verum, quia nec ipse
+            Chri<lb ed="#V" n="72" break="no"/>stus secundum quod homo potuit Deo reddere pro seipso
+            <lb ed="#V" n="73"/>aequiualens beneficijs acceptis, cum ergo quicquid erat in
+            <lb ed="#V" n="74"/>Christo secundum humanam naturam totum esset
+            obliga<lb ed="#V" n="75" break="no"/>tum Deo &amp; ei debitum, non potuit esse satisfactio de
+            con<cb ed="#V" n="b"/><lb ed="#V" n="76" break="no"/>digno pro quocunque peccato considerando naturam
+            ope<lb ed="#V" n="77" break="no"/>ris vel rei sed solum secundum acceptationem gratuitam Dei.
+          </p>
+          <p xml:id="capsco-d3gxxv-d1e877">
+            <lb ed="#V" n="78"/>Sed contra arguunt quidam ditentes quod praedicta
+            neter<lb ed="#V" n="79" break="no"/>minatio tollit omne meritum &amp; omnem possibilitatem ia
+            <lb ed="#V" n="80"/>tisfaciendi, quod probant, quia qui nihil potest soluere in
+            <lb ed="#V" n="81"/>nullo potest setisfcere, sed secundum praedicta quicquid
+            <lb ed="#V" n="82"/>homo habet est debitum Deo ratione bencficij vel
+            accepti<lb ed="#V" n="83" break="no"/>ergo nullus potest aliquo modo satisfacere pro delicto
+            con<lb ed="#V" n="84" break="no"/>misso, eodem modo etiam tollit omne meritum, quia
+            nul<lb ed="#V" n="85" break="no"/>lus meretur qui non habet aliquid quod possit impendere
+            <lb ed="#V" n="86"/>pro praemio, sed secundum praedicta nullus homo habet
+            ali<lb ed="#V" n="87" break="no"/>quid quod possit impendere pro praemio: ergo nullus
+            ho<lb ed="#V" n="88" break="no"/>mo potest aliquid mereri. sed ista sunt satis fiiuola, quia
+            be<lb ed="#V" n="89" break="no"/>ne concludunt quod nullus potest Deo satisfacere de
+            con<lb ed="#V" n="90" break="no"/>digno secundum aequalitatem emendae ad offensam, nec
+            me<lb ed="#V" n="91" break="no"/>reri de condigno stricte &amp; proprie loquendo de merito
+            con<lb ed="#V" n="92" break="no"/>digni vitam aeternam, &amp; hoc est concedendum, sed de
+            con<lb ed="#V" n="93" break="no"/>gruo &amp; secundum Dei acceptationem gratuitam potest
+            ho<lb ed="#V" n="94" break="no"/>mo mereri apud Deum, &amp; satisfacere Deo de peccato
+            com<lb ed="#V" n="95" break="no"/>misso. Nec praedictae rationes probant oppositum. Acceptat
+            <lb ed="#V" n="96"/>enim Deus nostra bona opera vt meritoria &amp; satisfactoria
+            <lb ed="#V" n="97"/>quamuis sint in nobis ab ipso, &amp; quamuis non reddamus
+            ei<lb ed="#V" n="98" break="no"/>nisi quod suum est, sicut scriptum est 1. Paralit. 29. Tua sunt
+            <lb ed="#V" n="99"/>omnia, &amp; quae de manu tua accepimus dedimus tibi. Et haec
+            <lb ed="#V" n="100"/>opinio magis consonat pietati fidei qua minus attribuimus
+            <lb ed="#V" n="101"/>nobis, &amp; plus Deo, vt dicat quilibet bonus, cum Psal.
+            Sal<lb ed="#V" n="102" break="no"/>uum me fecit quoniam voluit me, &amp; illud Rom. 9. non est
+            <lb ed="#V" n="103"/>volentis neque currentis, sed Dei miserentis. Haec ille
+            Con<lb ed="#V" n="104" break="no"/>tra secundam &amp; tertiam conclusionem arguit Scot. p.o
+            <lb ed="#V" n="105"/>bando quod aliquis manens in vno peccato possit satis
+            fa<lb ed="#V" n="106" break="no"/>cere pro alio, &amp; quod non oportet satisfactiones pro
+            pec<lb ed="#V" n="107" break="no"/>catis habitualiter esse contunctas: primo quia opposita
+            sen<lb ed="#V" n="108" break="no"/>tentia videtur nimis dura contra peccatores, &amp; occasio
+            ma<lb ed="#V" n="109" break="no"/>ioris obstinationis. Si enim iste homo vere poenitens &amp;
+            hu<lb ed="#V" n="110" break="no"/>militer recipiens satisfactionem ieiunium trium dierum,
+            <lb ed="#V" n="111"/>cras recidiuat in peccatum mortale &amp; de illo non poenitens
+            <lb ed="#V" n="112"/>secundo die ieiunet quia sibi, fuit impositum, si dicas quod
+            <lb ed="#V" n="113"/>illud ieiunium secundae diei non est aliqua satisfactio
+            exte<lb ed="#V" n="114" break="no"/>rior, magis est occasio inducendi istum lapsum vt tertio die
+            <lb ed="#V" n="115"/>non ieiunet, &amp; per consequens ad nouum peccatum
+            morta<lb ed="#V" n="116" break="no"/>le, cum sit transgressio praecepti Ecclesiae &amp; vicarij Dei in
+            <lb ed="#V" n="117"/>hoc casu.
+          </p>
+          <p xml:id="capsco-d3gxxv-d1e966">
+            Secundo sic. Si post lapsum ante completam
+            poe<lb ed="#V" n="118" break="no"/>nitentiam non exequatur quis satisfactionem pristinam &amp;
+            <lb ed="#V" n="119"/>sibi impositam peccat mortaliter nouo peccato: si ergo
+            exe<lb ed="#V" n="120" break="no"/>quatur bene facit, quia actum obedientiae facit, sed non
+            fa<lb ed="#V" n="121" break="no"/>cit actum obedientiae nisi inquantum illud est sibi impositum
+            <lb ed="#V" n="122"/>tanquam pars satisfactionis: ergo sutisfacit. Tertio. Quia
+            <lb ed="#V" n="123"/>si alicui offensae in regem correspondeat praecise secundum
+            <lb ed="#V" n="124"/>legem abscisio manus, si isti etiam inuito abscinditur manus
+            <lb ed="#V" n="125"/>satis patitur, &amp; intantum sufficit regi, quia secundum legem
+            <lb ed="#V" n="126"/>&amp; iustitiam non debet ab eo poenam vlteriorem exigere, &amp;
+            <lb ed="#V" n="127"/>tamen non recipit eum in gratiam vel amicitia. Multo
+            ma<lb ed="#V" n="128" break="no"/>gis posset sufficere pro punitionc culpae si aliquis poenam
+            <lb ed="#V" n="129"/>debitam sibi infligeret, licet non esset in gratia vel amicitia
+            <lb ed="#V" n="130"/>ipsius iudicis. Haec Scotus in forma. Contra eandem
+            con<lb ed="#V" n="131" break="no"/>clusionem arguunt quidam alij: primo sc, quia ille qui
+            ac<lb ed="#V" n="132" break="no"/>ceptata poenitentia postea incidit in mortale solum est
+            de<lb ed="#V" n="133" break="no"/>bitor poenae certae &amp; finitae. sed illam excludit: ergo non
+            po<lb ed="#V" n="134" break="no"/>test ab eo plus exigi, &amp; sic satisfacit.
+          </p>
+          <p xml:id="capsco-d3gxxv-d1e1005">
+            Secundo quia secundum
+            <lb ed="#V" n="135"/>iustitiam humanam si quis poenam taxatam &amp; acceptatam
+            <lb ed="#V" n="136"/>pro praecedente offensa sibi dimissa exsoluerit, etiam
+            post<lb ed="#V" n="137" break="no"/>quam denuo offendit liberatus est totaliter: ergo similiter
+            <lb ed="#V" n="138"/>est secundum iustitiam diuinam. Tertio, quia si non esset
+            li<lb ed="#V" n="139" break="no"/>beratus ab hac poena &amp; exsolueret eam in inferno, aut
+            er<lb ed="#V" n="140" break="no"/>go finitam aut infinitam. Si finitam eadem ratione finita
+            poe<lb ed="#V" n="141" break="no"/>na facta in peccato mortali debuit satisfacere vel sufficere,
+            <lb ed="#V" n="142"/>si infinitam hoc videtur inconueniens, quia non erat
+            debi<lb ed="#V" n="143" break="no"/>tor nisi poenae finitae. Quarto. Quia videtur inconueniens
+            <lb ed="#V" n="144"/>quod homo tantum puniatur pro peccato quod fuit sibi
+            ve<lb ed="#V" n="145" break="no"/>raciter dimissum, sicut pro peccato quod nunquam fuit
+            si<lb ed="#V" n="146" break="no"/>bi dimissum, alioquin non prodesset contritio nec
+            confes<lb ed="#V" n="147" break="no"/>sio, sed istud sequeretur si pro peccato dimisso puniretur
+            <lb ed="#V" n="148"/>poena aeterna in inferno: ergo &amp;c. Et si dicatur quod
+            nhil<lb ed="#V" n="149" break="no"/>prohibet quod aliquis puniatur aequali poena pro peccato
+            <lb ed="#V" n="150"/>dimisso ac si non fuisset dimissum, non quidem per se, quia
+            <pb ed="#V" n="185"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>in dimissione culpae dimittitur reatus penae aeternae, sed per
+            <lb ed="#V" n="2"/>accidens, scilicet ratione status, quia in inferno nulla est
+            re<lb ed="#V" n="3" break="no"/>demptio.
+          </p>
+          <p xml:id="capsco-d3gxxv-d1e1053">
+            Non valet, quia quod in inferno non sit status
+            ex<lb ed="#V" n="4" break="no"/>piandi poenam, hoc est quia non est ibi status expiandi
+            cul<lb ed="#V" n="5" break="no"/>pam, &amp; ad culpam sequitur poena, sed istud non habet
+            lo<lb ed="#V" n="6" break="no"/>cum quo ad poenam culpae dimissae debitam, quia illa iam
+            <lb ed="#V" n="7"/>est expiata, &amp; hoc expresse videtur tenere Sanctus Thomas infra
+            di<lb ed="#V" n="8" break="no"/>stin. 22. artic. 1. in solutione quinti argumenti. Contra
+            quar<lb ed="#V" n="9" break="no"/>tam conclusionem arguunt quidam, &amp; primo contra
+            pro<lb ed="#V" n="10" break="no"/>bationem conclusionis dicentes quod non concludit, quia
+            <lb ed="#V" n="11"/>arguit de amore Dei ad nos, per quem nobis dat, &amp; non de
+            <lb ed="#V" n="12"/>amore nostri ad Deum, quo carent mali, qui tamen non
+            ca<lb ed="#V" n="13" break="no"/>rent primo, quia Deus diligit bonos &amp; malos. Secundo
+            <lb ed="#V" n="14"/>arguunt, quia sicut existens in charitate meretur bona
+            gra<lb ed="#V" n="15" break="no"/>tiae quia habet amorem gratuitum, sic existens in statu
+            na<lb ed="#V" n="16" break="no"/>turae meretur bona quae sunt ad conseruationem naturae,
+            <lb ed="#V" n="17"/>quia sicut se habet amor gratuitus ad bona gratiae, sic amor
+            <lb ed="#V" n="18"/>naturalis ad ea quae sunt naturae. Tertio probant quod nullus
+            <lb ed="#V" n="19"/>homo potest aliquid mereri de condigno, quia totum est
+            er<lb ed="#V" n="20" break="no"/>liberalitate dantis secundum gratiam, &amp; non secundum
+            de<lb ed="#V" n="21" break="no"/>bitum. Quarto, quia Deo non possumus reddere
+            aequiua<lb ed="#V" n="22" break="no"/>lens: ergo multo minus possumus eum constituere
+            debi<lb ed="#V" n="23" break="no"/>torem nobis. Si dicatur quod peccans mortaliter meretur
+            <lb ed="#V" n="24"/>ex condigno poenam, &amp; tamen Deus non est debitor
+            infli<lb ed="#V" n="25" break="no"/>gendi talem poenam, ita vt sit iniustus si eam non infligat.
+            <lb ed="#V" n="26"/>Et similiter in bonis potest esse meritum de condigno
+            pro<lb ed="#V" n="27" break="no"/>prie &amp; stricte sumpto, &amp; tamen Deus non erit debitor
+            red<lb ed="#V" n="28" break="no"/>dendi praemium pro tali merito, nec erit iniustus si non
+            red<lb ed="#V" n="29" break="no"/>dat, sed hoc non valet, quia non est simile in bonis &amp; in
+            ma<lb ed="#V" n="30" break="no"/>lis, quia in bonis merenti ex condigno si non reddatur
+            prae<lb ed="#V" n="31" break="no"/>mium, subtrahitur ei bonum quod est ei debitum, &amp; ita fit
+            <lb ed="#V" n="32"/>ei iniustitia, nisi hoc, procederet de voluntate sua, quia
+            nul<lb ed="#V" n="33" break="no"/>lus patitur iniustum volens, sed si peccanti non infligitur
+            <lb ed="#V" n="34"/>poena quam meruit non fit sibi iniustitia, sed gratia, quia
+            <lb ed="#V" n="35"/>poena vt poena est, rationem mali habet, quo quilibet
+            liben<lb ed="#V" n="36" break="no"/>ter caret, &amp; ideo in bonis merenti ex condigno reddendum
+            <lb ed="#V" n="37"/>est praemium ex debito, &amp; ille ad quem pertinet reddere
+            in<lb ed="#V" n="38" break="no"/>iustus est, si non reddat. In malis vero si non redditur paena
+            <lb ed="#V" n="39"/>pro culpa, non fit peccanti iniustitia, sed misericordia. Et
+            <lb ed="#V" n="40"/>in hoc secundus articulus terminatur.
+          </p>
+        </div>
+        <div xml:id="capsco-d3gxxv-Dd1e1137">
+          <head xml:id="capsco-d3gxxv-Hd1e1139">Articulus 3</head>
+          <p xml:id="capsco-d3gxxv-d1e1141">
+            <lb ed="#V" n="41"/><milestone ed="#V" unit="p" rend="initial"/> Vantum ad tertium articulum respondendum est
+            obie<lb ed="#V" n="42" break="no"/>ctionibus supradictis. Ideo ad argumenta Scoti
+            con<lb ed="#V" n="43" break="no"/>tra primam conclusionem dicitur primo in generali quod
+            <lb ed="#V" n="44"/>si aliquid probant non aliud concludunt efficaciter nisi quod
+            <lb ed="#V" n="45"/>de potentia Dei absoluta Deus posset acceptare actionem
+            <lb ed="#V" n="46"/>hominis gratia informatam non coniuncto merito
+            passio<lb ed="#V" n="47" break="no"/>nis Christi vel alio eius merito consimili tanquam iustam
+            <lb ed="#V" n="48"/>satisfactionem pro peccato &amp; sufficientem secundum quid
+            <lb ed="#V" n="49"/>&amp; imperfecte, non autem perfecte sufficientem per
+            adaequa<lb ed="#V" n="50" break="no"/>tionem vel excessum emendaead offensam secundum quod
+            <lb ed="#V" n="51"/>dictum fuit in prima conclusione, vnde in casu illo haberet
+            <lb ed="#V" n="52"/>locum distinctio Durandi quae in idem redit cum nostra.
+            <lb ed="#V" n="53"/>Dicit enim sic. Cum satisfactio sit actus iustitiae
+            reducen<lb ed="#V" n="54" break="no"/>tis id quod est inaequale ad aequalitatem, oportet in
+            satisfa<lb ed="#V" n="55" break="no"/>ctione proprie dicta esse aequalitatem inter emendam &amp;
+            of<lb ed="#V" n="56" break="no"/>fensam. Aequalitas autem inter ista dupliciter accipi potest
+            <lb ed="#V" n="57"/>scilicet vel secundum absolutam comparationem rei ad re,
+            <lb ed="#V" n="58"/>&amp; illa est aequalitas proprie dicta. Vel potest accipi solum
+            <lb ed="#V" n="59"/>secundum acceptationem illius cui fit emenda, &amp; haec est
+            <lb ed="#V" n="60"/>aequalitas interpretatiua solum.
+          </p>
+          <p xml:id="capsco-d3gxxv-d1e1188">
+            Dicendum ergo quod ac.
+            <lb ed="#V" n="61"/>qpiendo satisfactionem proprie quae requirit aequalitatem
+            <lb ed="#V" n="62"/>rei ad rem, impossibile est hominem satisfacere Deo
+            pro<lb ed="#V" n="63" break="no"/>aliquo peccato. Accipiendo tamen large satisfactionem
+            <lb ed="#V" n="64"/>prout requirit solum aequalitatem emendae ad offensam secundum
+            <lb ed="#V" n="65"/>diuinam acceptationem, possibile est hominem Deo
+            satis<lb ed="#V" n="66" break="no"/>facere. Haec Durandus &amp; bene si loquamur in casu
+            arguen<lb ed="#V" n="67" break="no"/>tis, scilicet de satisfactione puri hominis non innixa
+            satis<lb ed="#V" n="68" break="no"/>factioni Dei &amp; hominis Iesu Christi, vnde ad primum Scoti
+            <lb ed="#V" n="69"/>dicitur quod supposito casu illius argumenti, talis
+            poeni<lb ed="#V" n="70" break="no"/>tens praedestinatus non potuisset Deo satisfacere loquendo
+            <lb ed="#V" n="71"/>de satisfactione proprie dicta, potuisset autem satisfacere
+            <lb ed="#V" n="72"/>improprie imperfecte &amp; interpretatiue, &amp; huius ratio
+            pa<lb ed="#V" n="73" break="no"/>tet ex dictis, quia actio talis hominis non innixa
+            satisfactio<lb ed="#V" n="74" break="no"/>ni Christi vel alterius diuinae personae nullo modo aequata
+            <lb ed="#V" n="75"/>fuisset, nec aequari potuisset offensae in Deum commissae. Ad
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="76"/>confirmationem dicitur quod lapsus hominis aliter potuit
+            <lb ed="#V" n="77"/>sanari quam per passionem Christi, sed tunc non fuisset
+            sa<lb ed="#V" n="78" break="no"/>natus per condignam satisfactionem sicut nunc est. Ad
+            secun<lb ed="#V" n="79" break="no"/>dum principale dicitur quod responsio ibidem data suffi.
+            <lb ed="#V" n="80"/>ciens est vt patet ex dictis. Et ad improbationem illius
+            di<lb ed="#V" n="81" break="no"/>citur primo quod non tantum bona est conuersio puri
+            ho<lb ed="#V" n="82" break="no"/>minis ad Deum per gratiam quantum malum est auersio
+            eit<lb ed="#V" n="83" break="no"/>a Deo secundum substantiam actus, &amp; ex parte hominis
+            pec<lb ed="#V" n="84" break="no"/>cantis, loquendo de aequalitate secundum absolutam
+            com<lb ed="#V" n="85" break="no"/>parationem rei ad rem. Nam auersio est infinita.
+          </p>
+          <p xml:id="capsco-d3gxxv-d1e1247">
+            Tum quia
+            <lb ed="#V" n="86"/>est contra infinitam Matestatem Dei. Tum quia aufert
+            in<lb ed="#V" n="87" break="no"/>finitum bonum &amp; ab infinito bono hominem separat,
+            scili<lb ed="#V" n="88" break="no"/>cet a Deo. Tum quia infinitam poenam meretur ex
+            condi<lb ed="#V" n="89" break="no"/>gno, vel etiam annihilationem, &amp; priuationem omnium
+            do<lb ed="#V" n="90" break="no"/>norum Dei propter ingratitudinem peccantis secundum quod
+            <lb ed="#V" n="91"/>ostendit Sanctus Thomas 4. sent. distin. 46. q. 2. artic. 2. vnde Tren. 3.
+            <lb ed="#V" n="92"/>dicitur. Misericordiae Domini quod non sumus
+            consum<lb ed="#V" n="93" break="no"/>pti. Ipsa autem conuersio hominis ad Deum per gratiam.
+            <lb ed="#V" n="94"/>non est taliter infinita potissime inquantum pendet ex
+            li<lb ed="#V" n="95" break="no"/>bero arbitrio, quia vt sic non est meritoria vitae aeternae, nisi
+            <lb ed="#V" n="96"/>de congruo, vt ostendit Sanctus Thomas prima secundae. q. 114. art1. 3
+            <lb ed="#V" n="97"/>Nec sequitur si auersio a Deo sit infinitum demeritum
+            pro<lb ed="#V" n="98" break="no"/>pter infinitatem Dei qui offenditur quod conuersio ad Deum
+            <lb ed="#V" n="99"/>sit infinitum meritum, quia plura requiruntur ad bonum &amp;
+            <lb ed="#V" n="100"/>meritum, quam ad malum &amp; demeritum. Non enim tantum
+            <lb ed="#V" n="101"/>meretur secundum legem humanam qui salutat regem
+            quan<lb ed="#V" n="102" break="no"/>tum demeretur qui maledicit regi, vnde opera nostra bona
+            <lb ed="#V" n="103"/>pro quanto nostra sunt &amp; a libero arbitrio procedunt,
+            par<lb ed="#V" n="104" break="no"/>ui valoris sunt, vt dicit Sanctus Thomas secunda secundae. q. 162.
+            ar<lb ed="#V" n="105" break="no"/>ticul. 6. allegans illud quod habetur Isa. 64. Quasi pannus
+            <lb ed="#V" n="106"/>menstruatae vniuersae iustitiae nostrae.
+          </p>
+          <p xml:id="capsco-d3gxxv-d1e1295">
+            Si autem loquamur de
+            <lb ed="#V" n="107"/>bonis operibus nostris prout sunt informata charitate &amp;
+            <lb ed="#V" n="108"/>gratia, sic potius sunt opera Dei quam opera nostra, vnde
+            <lb ed="#V" n="109"/>beatus Thomas prima secundae. q. 114. artic. 3. sic dicit. Opus
+            <lb ed="#V" n="110"/>meritorium hominis prout potest dupliciter considerari
+            <lb ed="#V" n="111"/>vno modo secundum quod procedit a libero arbitrio, alio
+            <lb ed="#V" n="112"/>modo secundum quod procedit ex gratia Spiritus sancti
+            <lb ed="#V" n="113"/>Si consideretur secundum substantiam operis &amp; secundum
+            <lb ed="#V" n="114"/>quod procedit ex libero arbitrio, sic non potest ibi esse
+            con<lb ed="#V" n="115" break="no"/>dignitas propter maximam inaequalitatem, sed est ibi
+            con<lb ed="#V" n="116" break="no"/>gruitas per quandam aequalitatem proportionis. Videtur
+            <lb ed="#V" n="117"/>enim congruum vt homini operanti secundum suam
+            virtu<lb ed="#V" n="118" break="no"/>tem, Deus recompenset secundum excellentiam suae
+            virtu<lb ed="#V" n="119" break="no"/>tis. Si autem loquamur de opere meritorio secundum quod
+            <lb ed="#V" n="120"/>procedit ex gratia Spiritus sancti, sic est meritorium vitae
+            aeter<lb ed="#V" n="121" break="no"/>nae ex condigno. Sic enim valor meriti attenditur secundum
+            <lb ed="#V" n="122"/>virtutem Spiritus sancti mouentis nos in vitam aeternam secundum
+            <lb ed="#V" n="123"/>illud Ioan. 4. Fiet in eo fons aquae salientis in vitam
+            aeter<lb ed="#V" n="124" break="no"/>nam. Attenditur etiam pretium operis secundum
+            dignita<lb ed="#V" n="125" break="no"/>tem gratiae, per quam homo factus consors diuinae natura
+            <lb ed="#V" n="126"/>adoptatur in filium Dei, cui debetur haereditas ex ipso iure
+            <lb ed="#V" n="127"/>adoptionis secundum illud Rom. 8. Si filij &amp; haeredes. Haec
+            <lb ed="#V" n="128"/>ille.
+          </p>
+          <p xml:id="capsco-d3gxxv-d1e1346">
+            Item in solutione tertij sic dicit. Per gratiam inhabitat
+            <lb ed="#V" n="129"/>hominem Spiritus sanctus qui est sufficiens causa vitae
+            eter<lb ed="#V" n="130" break="no"/>nae &amp;c. Item ibidem arguit secundo loco. Quia super illud
+            <lb ed="#V" n="131"/>Romas 6. gratia Dei vita aeterna, dicit glos. Posset recte
+            dice<lb ed="#V" n="132" break="no"/>re stipendium iustitiae vita aeterna. Sed maluit dicere, gratia
+            <lb ed="#V" n="133"/>Dei vita aeterna, vt intelligeremus Deum ad vitam
+            aeter<lb ed="#V" n="134" break="no"/>nam pro sua miseratione nos producere non meritis nostris
+            <lb ed="#V" n="135"/>Sed illud quod ex condigno quis meretur non ex
+            miseratio<lb ed="#V" n="136" break="no"/>ne, sed ex merito accipit: ergo videtur quod homo non
+            pos<lb ed="#V" n="137" break="no"/>sit mereri vitam aeternam de condigno. Ecce argumentum
+            <lb ed="#V" n="138"/>sequitur responsio. Dicendum inquit quod verbum glosae
+            <lb ed="#V" n="139"/>intelligendum est quantum ad primam causam perueniendi
+            <lb ed="#V" n="140"/>ad vitam aeternam quae est miseratio Dei, meritum autem
+            <lb ed="#V" n="141"/>nostrum est causa subsequens. Haec ille.
+          </p>
+          <p xml:id="capsco-d3gxxv-d1e1377">
+            Item q. 109. artic. 9
+            <lb ed="#V" n="142"/>ostendit quod quilibet viator quantumcunque in gratia
+            con<lb ed="#V" n="143" break="no"/>stitutus adhuc indiget auxilio diuino quo moueatur ad
+            re<lb ed="#V" n="144" break="no"/>cte &amp; meritorie agendum &amp; reale viuendum. Ex quibus
+            pa<lb ed="#V" n="145" break="no"/>tet quod auersio hominis a Deo prout est a libero arbitrio
+            <lb ed="#V" n="146"/>est infinita offensa &amp; demeritum &amp; infinitae poenae
+            merito<lb ed="#V" n="147" break="no"/>ria de condigno. Sed nullus actus humanus prout est a
+            li<lb ed="#V" n="148" break="no"/>bero arbitrio est infinitebonus, aut infinitum mentum, nec
+            <lb ed="#V" n="149"/>meritorius de condigno infiniti praemij. Sed quod sit illius
+            <lb ed="#V" n="150"/>meritorius hoc est ex motione exterioris principij, &amp; vt est
+            <pb ed="#V" n="186"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>a Deo potius quam ab homine. Dicitur secundo quod
+            da<lb ed="#V" n="2" break="no"/>to quod conuersio hominis ad Deum per gratiam aliquam
+            <lb ed="#V" n="3"/>infinitatem habeat ab extrinseco, non tamen per eam potest
+            <lb ed="#V" n="4"/>fieri Deo aequiualens satisfactio. Cuius ratio est, quia
+            qui<lb ed="#V" n="5" break="no"/>libet purus homo quemcunque suum actum debet Deo
+            pro<lb ed="#V" n="6" break="no"/>alio debito, puta pro beneficio conditionis exoluere, si Deus
+            <lb ed="#V" n="7"/>districte secum agere vellet. Quod autem non exigat, hoc
+            <lb ed="#V" n="8"/>est liberalitatis diuinae obligationem talem relaxantis.
+            Vn<lb ed="#V" n="9" break="no"/>de Sanctus Thomas in praesenti distin. q. 1. artic. 2. arguit sic tertio
+            lo<lb ed="#V" n="10" break="no"/>co. Illud cuius totum quod habet non sufficit ad vnum
+            de<lb ed="#V" n="11" break="no"/>bitum exoluendum non potest pro alio debito satisfacere &amp;c.
+            <lb ed="#V" n="12"/>sicut allegatum fuit in principio quaestionis. Et in
+            respon<lb ed="#V" n="13" break="no"/>sione sic dicit. Ratio inquit illa concludit quod Deo non
+            <lb ed="#V" n="14"/>potest fieri satisfactio aequiualens, non autem quod non possit
+            <lb ed="#V" n="15"/>fieri sufficiens. Quamuis enim homo totum posse suum Deo
+            <lb ed="#V" n="16"/>debeat, non tamen ab eo exigitur de necessitate, vt totum
+            <lb ed="#V" n="17"/>quod possit faciat, quia hoc est ei impossibile secundum statum
+            <lb ed="#V" n="18"/>praesentis vitae vt totum posse suum in aliquid vnum
+            expen<lb ed="#V" n="19" break="no"/>dat, cum oporteat eum circa multa solicitum esse. Sed est
+            <lb ed="#V" n="20"/>quaedam mensura homini adhibita quae ab eo requiritur scilicet
+            <lb ed="#V" n="21"/>impletio mandatorum Dei &amp; super ea potest erogare vt
+            sa<lb ed="#V" n="22" break="no"/>tisfaciat. Haec ille.
+          </p>
+          <p xml:id="capsco-d3gxxv-d1e1451">
+            Dicitur tertio quod licet peccatum non
+            <lb ed="#V" n="23"/>auserat formaliter nisi tantum bonum quantum natum est
+            <lb ed="#V" n="24"/>inesse actui humano vel habitui aut potentiae vel essentiae
+            <lb ed="#V" n="25"/>humanae vel menti angelicae, tamen effectiue aufert Deum
+            <lb ed="#V" n="26"/>qui est maius bonum quam quicunque actus vel habitus
+            <lb ed="#V" n="27"/>humanus, &amp; hoc ex condigno, &amp; secundum quod
+            proce<lb ed="#V" n="28" break="no"/>dit a libero arbitrio. Per nullum autem actum bonum
+            se<lb ed="#V" n="29" break="no"/>quentem potest ex condigno secundum substantiam operis
+            <lb ed="#V" n="30"/>&amp; vt procedit a libero arbitrio, tantum bonum reddi Deo.
+            <lb ed="#V" n="31"/>Et si reddatur per actum gratia informatum, hoc est potius
+            <lb ed="#V" n="32"/>a Deo quam ab homine. Et vlterius ille actus non potest
+            <lb ed="#V" n="33"/>esse aequiualens satisfactio expiatiua praecedentis offensae
+            se<lb ed="#V" n="34" break="no"/>cundum rigorem iustitiae, sed ex quadam relaxatione &amp;
+            ac<lb ed="#V" n="35" break="no"/>ceptatione diuina, vt dictum fuit, quia ille non sufficiebat
+            <lb ed="#V" n="36"/>secundum se ad soluendum debita priora ratione
+            beneficii<lb ed="#V" n="37" break="no"/>accepti. Et similiter nullus actus hominis est apud Deum
+            <lb ed="#V" n="38"/>meritorius alicuius praemii secundum iustitiam proprie &amp;
+            <lb ed="#V" n="39"/>stricte acceptam, nisi ex praesuppositione diuinae
+            ordinatio<lb ed="#V" n="40" break="no"/>nis, quia hominis ad Deum est maxima inaequalitas, in
+            infi<lb ed="#V" n="41" break="no"/>nitum enim distant, &amp; totum bonum hominis est a Deo,
+            vn<lb ed="#V" n="42" break="no"/>de non potest hominis ad Deum esse iustitia secundum absolutam
+            <lb ed="#V" n="43"/>aequalitatem, sed secundum proportionem quandam
+            inquan<lb ed="#V" n="44" break="no"/>tum, scilicet vterque operatur secundum modum suum.
+            Mo<lb ed="#V" n="45" break="no"/>dus autem &amp; mensura humanae virtutis est a Deo &amp; ideo
+            <lb ed="#V" n="46"/>meritum hominis apud Deum esse non potest, nisi secundum
+            <lb ed="#V" n="47"/>diuinae ordinationis suppositionem quasi mercedem ad quod
+            <lb ed="#V" n="48"/>Deus ei virtutem operandi deputauit, vt dicit Bus Thomas
+            pri<lb ed="#V" n="49" break="no"/>ma secundae. q. 112. arti. 1. Ex quibus patet quod nulla
+            ope<lb ed="#V" n="50" break="no"/>ratio hominis puri quantuncunque gratia vel charitate
+            for<lb ed="#V" n="51" break="no"/>mata est satisfactoria offensae vel meritoria aeternae vitae quo
+            <lb ed="#V" n="52"/>ad absolutam aequalitatem dati &amp; accepti quo ad meritum,
+            <lb ed="#V" n="53"/>nec offensae &amp; emendae quo ad satisfactionem, &amp; sic nullus
+            <lb ed="#V" n="54"/>purus homo potest perfecte Deo satisfacere pro mortali,
+            <lb ed="#V" n="55"/>sed solum imperfecte propter acceptationem diuinae
+            libera<lb ed="#V" n="56" break="no"/>litatis vt dictum est. Ad hoc etiam addentur postea aliae
+            ra<lb ed="#V" n="57" break="no"/>tiones in responsionibus argumentorum Aureoli, quia vt
+            <lb ed="#V" n="58"/>postea videbitur, omnia ista argumenta fundantur in
+            quo<lb ed="#V" n="59" break="no"/>dam falso principio. Sed forte dicet aliquis, tu concedis quod
+            <lb ed="#V" n="60"/>meritum &amp; satisfactio hominis puri, licet non sit virtutis
+            <lb ed="#V" n="61"/>infinitae secundum substantiam operis, &amp; secundum quod est
+            <lb ed="#V" n="62"/>a libero arbitrio. Cum concedis quod habet infinitam
+            ef<lb ed="#V" n="63" break="no"/>ficaciam ex parte primi principij efficientis, scilicet Dei, &amp;
+            <lb ed="#V" n="64"/>ex parte principij formalis, scilicet habitus gratiae vel
+            chari<lb ed="#V" n="65" break="no"/>ritatis: ergo videtur quod habes concedere quod &amp; si non
+            <lb ed="#V" n="66"/>ex parte hominis puri, tamen ex parte Spiritus sancti
+            mo<lb ed="#V" n="67" break="no"/>uentis &amp; ex parte charitatis vel gratiae informantis aliqua
+            <lb ed="#V" n="68"/>actio humana posset esse perfecte satisfactoria &amp; perfecte
+            <lb ed="#V" n="69"/>meritoria, sicut &amp; actio Christi Dei &amp; hominis propter
+            mo<lb ed="#V" n="70" break="no"/>tionem Spiritus sancti, qui aequatur Christo &amp; excedit
+            om<lb ed="#V" n="71" break="no"/>nem habitum creatum gratiae vel charitatis. Dicitur quod
+            <lb ed="#V" n="72"/>non valet consequentia propter duo. Primo quia in tali
+            sa<lb ed="#V" n="73" break="no"/>tisfactione vel merito hominis puri cum quantacunque
+            gra<lb ed="#V" n="74" break="no"/>tia. nulla diuina persona meretur nec satisfacit, sed solus
+            ho<lb ed="#V" n="75" break="no"/>mo, licet primum &amp; remotum principium actiuum talium
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="76"/>sit Deus vt efficiens: gratia vero vt ratio efficiendi &amp;
+            for<lb ed="#V" n="77" break="no"/>ma talium actuum. Secus est de merito Christi: secundo,
+            <lb ed="#V" n="78"/>quia tales actus a puro homine elicitos Deus non ordinat
+            <lb ed="#V" n="79"/>nec acceptat ad perfectam satisfactionem, nec ad meritum
+            <lb ed="#V" n="80"/>secundum rigorem iustitiae, secus autem est de merito &amp;
+            sa<lb ed="#V" n="81" break="no"/>tisfactione Christi.
+          </p>
+          <p xml:id="capsco-d3gxxv-d1e1584">
+            Ad tertium principale dicitur quod posito
+            <lb ed="#V" n="82"/>quod nulla diuina persona fuisset incarnata vel passa pro
+            hu<lb ed="#V" n="83" break="no"/>mano genere, Deus potuisset alio modo conferre gratiam
+            <lb ed="#V" n="84"/>hominibus quam per fidem lesu Christi &amp; suae passionis,
+            <lb ed="#V" n="85"/>tamen in illo casu nulla satisfactio hominis post peccatum
+            <lb ed="#V" n="86"/>fuisset perfecte satisfactoria, sed secundum quid &amp;
+            imper<lb ed="#V" n="87" break="no"/>fecte &amp; interpretatiue secundum acceptationem diuinam
+            <lb ed="#V" n="88"/>ad modum quo dicit Durandus.
+          </p>
+          <p xml:id="capsco-d3gxxv-d1e1602">
+            Ad quartum negatur
+            an<lb ed="#V" n="89" break="no"/>tecedens. Meritum enim passionis Christi fuit infinitum,
+            <lb ed="#V" n="90"/>vt ostensum fuit lib. 3. distin. 18. Non tamen infinitum
+            infi<lb ed="#V" n="91" break="no"/>nitate simpliciter, sed secundum quid. Nec valet
+            huiusmo<lb ed="#V" n="92" break="no"/>di improbatio qua dicitur quod non erat bonum increatum,
+            <lb ed="#V" n="93"/>nec eius acceptatio erat beatificatiua &amp;c. Hoc enim solum
+            <lb ed="#V" n="94"/>probat meritum illud non fuisse simpliciter extra genus
+            in<lb ed="#V" n="95" break="no"/>finitum sicut est essentia diuina. Non autem quin fuerit
+            in<lb ed="#V" n="96" break="no"/>finitum in genere meriti, vt dictum est in prima
+            conclusio<lb ed="#V" n="97" break="no"/>ne ex dictis Sancti Thomae tertia parte. q. 1. arti. 2. &amp; in multis alijs
+            <lb ed="#V" n="98"/>locis, vt visum est in tertio in materia de gratia &amp; merito
+            <lb ed="#V" n="99"/>Christi, quae non oportet hic replicare.
+          </p>
+          <p xml:id="capsco-d3gxxv-d1e1628">
+            Ad quintum patet
+            <lb ed="#V" n="100"/>ex praedictis, quia solum concludit quod purus homo non
+            <lb ed="#V" n="101"/>concurrente merito passionis Christi posset Deo
+            satisface<lb ed="#V" n="102" break="no"/>re satisfactione imperfecta, non autem quod posset
+            satisfa<lb ed="#V" n="103" break="no"/>ctione perfecta, quia nullus purus homo peccator non
+            adiu<lb ed="#V" n="104" break="no"/>tus satisfactione Christi potest Deo offenso aliquid
+            exhi<lb ed="#V" n="105" break="no"/>bere pro emenda, quod non teneatur reddere Deo pro
+            re<lb ed="#V" n="106" break="no"/>compensatione priorum debitorum, nec aliquid quod sit
+            <lb ed="#V" n="107"/>proprie loquendo suum, sic quod non eius cui satisfacit.,
+            <lb ed="#V" n="108"/>De hoc Sanctus Thomas praesenti distin. q. 1. artic. 2. arguit sic secundo
+            <lb ed="#V" n="109"/>loco. Seruus qui totum quod habet Domini est, non
+            po<lb ed="#V" n="110" break="no"/>test aliquid Domino recompensare, sed nos serui Dei sumus,
+            <lb ed="#V" n="111"/>quicquid habemus boni ab ipso habentes, cum ergo
+            satis<lb ed="#V" n="112" break="no"/>factio sit recompensatio offensae praeteritae, videtur quod Deo
+            sa<lb ed="#V" n="113" break="no"/>tisfacere non possumus. Ecce argumentum sequitur
+            re<lb ed="#V" n="114" break="no"/>sponsio. Dicendum inquit quod homo qui ad imaginem
+            <lb ed="#V" n="115"/>Dei factus est, aliquid liberalitatis participat, quia
+            inquan<lb ed="#V" n="116" break="no"/>tum est Dominus suorum actuum per liberum arbitrium
+            <lb ed="#V" n="117"/>Et ideo ex hoc quod per liberum arbitrium agit Deo
+            satis<lb ed="#V" n="118" break="no"/>facere potest, quia quamuis Dei sit prout a Deo est, tamen
+            <lb ed="#V" n="119"/>quod sibi concessum est libere traditum est vt eius
+            Domi<lb ed="#V" n="120" break="no"/>nus sit, quod seruo non competit. Haec ille. Ex quibus
+            pa<lb ed="#V" n="121" break="no"/>tet quod peccator non potest Deo satisfacere de rebus
+            bei<lb ed="#V" n="122" break="no"/>nisi ex quadam libera &amp; gratuita concessione, quod non est
+            <lb ed="#V" n="123"/>simpliciter &amp; perfecte satisfacere, sed secundum quid &amp;
+            im<lb ed="#V" n="124" break="no"/>perfecte, quia quicquid soluit de alieno soluit, &amp; de bonis
+            <lb ed="#V" n="125"/>eius cui soluit.
+          </p>
+          <p xml:id="capsco-d3gxxv-d1e1688">
+            Ad primum Aureoli contra eandem
+            con<lb ed="#V" n="126" break="no"/>clusionem patet responsio per praedicta. Dicitur enim quod si
+            <lb ed="#V" n="127"/>rigor iustitiae stricte seruetur non solum exigitur quod actus
+            <lb ed="#V" n="128"/>satisfactorius sit aequiualens in bonitate malitiae peccati vt
+            <lb ed="#V" n="129"/>arguens assumit, immo praeter hoc alia tria requiruntur,
+            <lb ed="#V" n="130"/>quorum primum est quod sicut offendens fuit principalis vel
+            <lb ed="#V" n="131"/>totalis causa malitiae in offensa, ita satisfaciens sit
+            principa<lb ed="#V" n="132" break="no"/>lis causa totius bonitatis actus satisfactorij, &amp; non ille
+            cui<lb ed="#V" n="133" break="no"/>fit satisfactio, quia si sic iam non ipse satisfacere volens
+            fa<lb ed="#V" n="134" break="no"/>cit satis Christo offenso, sed ipsemet offensus sibi facit
+            sa<lb ed="#V" n="135" break="no"/>tis: secundum est quod satisfaciens satisfaciat per aliquid
+            totali<lb ed="#V" n="136" break="no"/>ter suum, vel saltem per aliquid quod non sit principalius
+            <lb ed="#V" n="137"/>eius cui sienda est satisfactio quam ipsius satisfacientis, quia
+            <lb ed="#V" n="138"/>si quis offerat regi id quod regis est potius &amp; principalius
+            <lb ed="#V" n="139"/>quam offerentis non per hoc satisfacit proprie &amp; stricte
+            re<lb ed="#V" n="140" break="no"/>gi offenso: tertium est quod illud quod exhibetur in
+            satis<lb ed="#V" n="141" break="no"/>factionem non tenetur alias exhibere propter alia debita
+            da<lb ed="#V" n="142" break="no"/>to quod non offendisset ipsi offenso. Et ista tria
+            concurre<lb ed="#V" n="143" break="no"/>bant in satisfactione Christi qua Christus pro hominibus
+            <lb ed="#V" n="144"/>satisfecit Deo. Ipse si quidem erat principalis causa totius
+            <lb ed="#V" n="145"/>bonitatis suae satisfactionis, &amp; actio &amp; passio sua non erat
+            <lb ed="#V" n="146"/>potius alterius quam eius, quia aequaliter patris &amp; filij &amp;
+            <lb ed="#V" n="147"/>Spiritus sancti &amp; non magis vnius personae quam alterius,
+            <lb ed="#V" n="148"/>&amp; tertio ipse ex nullo priori debito vel obligatione
+            teneba<lb ed="#V" n="149" break="no"/>tur reddere Deo quod eidem obtulit in sua passione vel
+            actio<lb ed="#V" n="150" break="no"/>ne quacunque, &amp; ideo ipse perfecte satisfecit Deo. Nulla
+            <pb ed="#V" n="187"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>autem pura creatura habet aliquam istarum trium
+            condi<lb ed="#V" n="2" break="no"/>tionum, &amp; ideo non sufficit ad perfecte satisfaciendum Deo,
+            <lb ed="#V" n="3"/>nec proprie &amp; stricte, nisi coniuncto merito passionis
+            Chri<lb ed="#V" n="4" break="no"/>sti vt dictum est. Cum autem dicit arguens quod non
+            obli<lb ed="#V" n="5" break="no"/>gatur homo de rigore iustitiae ad impendendum Deo
+            om<lb ed="#V" n="6" break="no"/>nem bonum actum &amp;c. Dicitur quod hoc est ex diuina
+            li<lb ed="#V" n="7" break="no"/>beralitate &amp; misericordia quae talem necessitatem relaxat,
+            <lb ed="#V" n="8"/>sed vtique posset hoc exigere si districte nobiscum agere
+            vel<lb ed="#V" n="9" break="no"/>let, &amp; propter talem relaxationem potest homo Deo
+            satis<lb ed="#V" n="10" break="no"/>facere imperfecte, quia redderet aequale secundum diuinam
+            <lb ed="#V" n="11"/>acceptationem, non autem aequale simpliciter ei quod
+            de<lb ed="#V" n="12" break="no"/>beret si nulla sibi fieret relaxatio. Ad omnia alia quae dicit
+            <lb ed="#V" n="13"/>responsum est supra. Omnia enim argumenta ista &amp;
+            simi<lb ed="#V" n="14" break="no"/>liter Scoti fundantur in ista propositione, scilicet quod ad
+            <lb ed="#V" n="15"/>perfectam satisfactionem sufficit, quod actus satisfactionis
+            <lb ed="#V" n="16"/>in bonitate parificetur malitiae offensae, &amp; quod secundns actus
+            <lb ed="#V" n="17"/>sit aeque bonus sicut primus fuit malus. Haec autem
+            propo<lb ed="#V" n="18" break="no"/>sitio falsa est vt visum est, quia hoc non sufficit nisi
+            addan<lb ed="#V" n="19" break="no"/>tur tria praedicta. Vel vt brenius dicatur oportet quod
+            tan<lb ed="#V" n="20" break="no"/>ta iustitia sit in secundo actu quanta iniustitia fuit in primo,
+            <lb ed="#V" n="21"/>&amp; tanta aequalitas quanta fuit inaequalitas &amp; causa proprie
+            <lb ed="#V" n="22"/>dicta.
+          </p>
+          <p xml:id="capsco-d3gxxv-d1e1797">
+            Ad argumenta Durandi contra eandem
+            conclusio<lb ed="#V" n="23" break="no"/>nem respondet Petus de Palu. dicens. Licet humanitas
+            Chri<lb ed="#V" n="24" break="no"/>sti non posset Deo reddere aequiualens, tamen suppositum
+            <lb ed="#V" n="25"/>potuit, alias pro alio satisfacere non potuisset sed se totum
+            <lb ed="#V" n="26"/>debuisset, vnde ad satisfactionem quae est secundum diuina
+            <lb ed="#V" n="27"/>acceptationem potuit pura creatura, quia si illa est ex gratia
+            <lb ed="#V" n="28"/>habituali, cum tantam gratiam quantam habuit anima
+            Christi<lb ed="#V" n="29" break="no"/>potuerit de potentia Dei absoluta habere pura creatura,
+            <lb ed="#V" n="30"/>per consequens potuit satisfacere, sed ad satisfactionem quae
+            <lb ed="#V" n="31"/>est secundum aequiualentiam absolutam, oportuit
+            satisfa<lb ed="#V" n="32" break="no"/>ctionem esse infiniti valoris. Et quia Christus voluit
+            imple<lb ed="#V" n="33" break="no"/>re omnem iustitiam, ideo ex diuinitate sua fuit quod
+            perfe<lb ed="#V" n="34" break="no"/>cte &amp; plenarie satisfecit, quod creatura pura non potuit.
+            <lb ed="#V" n="35"/>Haec ille, &amp; bene. Et si dicatur quod suppositum Christi
+            <lb ed="#V" n="36"/>quamuis satisfecerit, tamen non secundum diuinitatem sed
+            <lb ed="#V" n="37"/>humanitatem satisfecit, quia secundum illam passus est &amp;
+            <lb ed="#V" n="38"/>meruit: ergo &amp;c. Dicitur quod &amp; si Christi suppositum non
+            <lb ed="#V" n="39"/>satisfecit nec meruit nisi per actionem vel passionem
+            huma<lb ed="#V" n="40" break="no"/>nae naturae, tamen illa actio vel passio habebat in se virtutem
+            <lb ed="#V" n="41"/>diuinae naturae, vnde Beatus Thomas 3. sent. distin. 18. q. 1. artic. 6.
+            <lb ed="#V" n="42"/>in solut. 1. q. sic dicit. Sicut dicit Damascen. in 3. libr. Caro
+            <lb ed="#V" n="43"/>Christi &amp; anima erat quasi instrumentum diuinitatis, vnde
+            <lb ed="#V" n="44"/>quamuis esset alia operatio Dei &amp; hominis, tamen operatio
+            <lb ed="#V" n="45"/>humana habebat in se vim diuinitatis, sicut instrumentum
+            <lb ed="#V" n="46"/>agit in vi principalis agentis. Et propterea dicit Damasccnt
+            <lb ed="#V" n="47"/>quod ea quae hominis sunt supra hominem agebat. Vnde
+            <lb ed="#V" n="48"/>&amp; actio Christi meritoria quamuis esset actio humana
+            ta<lb ed="#V" n="49" break="no"/>men agebat in virtute diuina, &amp; ideo erat potens supra
+            to<lb ed="#V" n="50" break="no"/>tam naturam, quod non poterat esse de aliqua operatione
+            <lb ed="#V" n="51"/>puri hominis, quia homo singularis est minus dignus quam
+            <lb ed="#V" n="52"/>natura communis, quia diuinius est bonum generis quam
+            <lb ed="#V" n="53"/>bonum vnius hominis. Et quia omnes homines sunt vnus
+            <lb ed="#V" n="54"/>homo in natura communi, vt dicit Porphir. inde est quod
+            <lb ed="#V" n="55"/>Christi meritum quod ad totam naturam se extendebat
+            <lb ed="#V" n="56"/>etiam ad singulos se extendere poterat, &amp; ita alijs mereri
+            <lb ed="#V" n="57"/>potuit. Haec ille.
+          </p>
+          <p xml:id="capsco-d3gxxv-d1e1875">
+            Item ibidem arguit sic. Christus non
+            me<lb ed="#V" n="58" break="no"/>ruit secundum quod Deus sed secundum quod homo habens
+            chari<lb ed="#V" n="59" break="no"/>tatem non meretur alteri nisi ex congruo, quod non est per
+            <lb ed="#V" n="60"/>se loquendo meritum: ergo &amp;c. Ecce argumentum
+            sequi<lb ed="#V" n="61" break="no"/>tur responsio. Dicendum inquit quod Christus ea quae sunt
+            <lb ed="#V" n="62"/>hominis supra hominem agebat. Haec ille.
+          </p>
+          <p xml:id="capsco-d3gxxv-d1e1888">
+            Item tertia
+            par<lb ed="#V" n="63" break="no"/>te. q. 19. artic. 1. sic dicit. Actio eius quod mouetur ab alio
+            <lb ed="#V" n="64"/>est duplex. Vna quidem quam habet secundum propriam
+            <lb ed="#V" n="65"/>formam. Alia quam habet secundum quod mouetur ab alio.
+            <lb ed="#V" n="66"/>Sicut securis operatio secundum formam propriam est
+            in<lb ed="#V" n="67" break="no"/>cisio, secundum autem quod mouetur ab artifice operatio
+            <lb ed="#V" n="68"/>eius est facere scamnum. Operatio ergo quae est alicuius
+            rei<lb ed="#V" n="69" break="no"/>secundum suam formam est propria eius, nec pertinet ad
+            <lb ed="#V" n="70"/>mouentem nisi secundum quod vtitur huiusmodi re ad suam
+            <lb ed="#V" n="71"/>operationem. Sicut calefacere est propria operatio ignis,
+            <lb ed="#V" n="72"/>non autem fabri, nisi secundum quod vtitur igne ad
+            calefa<lb ed="#V" n="73" break="no"/>ciendum ferrum, sed illa operatio quae est rei solum
+            secun<lb ed="#V" n="74" break="no"/>dum quod mouetur ab aliquo, non est alia praeter
+            operatio<lb ed="#V" n="75" break="no"/>nem mouentis ipsum, sicut facere scamnum non est
+            seor<cb ed="#V" n="b"/><lb ed="#V" n="76" break="no"/>sum operatio securis ab operatione artificis, &amp; ideo
+            vbicun<lb ed="#V" n="77" break="no"/>que mouens &amp; motum habent diuersas formas operatiuas,
+            <lb ed="#V" n="78"/>ibi oportet quod sit alia propria operatio mouentis &amp; alia
+            <lb ed="#V" n="79"/>propria operatio moti, licet motum participet operationem
+            <lb ed="#V" n="80"/>mouentis, &amp; mouens vtatur operatione moti, &amp; sic
+            vtrum<lb ed="#V" n="81" break="no"/>que agit cum communione alterius. Sic ergo in Christo
+            <lb ed="#V" n="82"/>humana natura habet propriam formam &amp; virtutem, per
+            <lb ed="#V" n="83"/>quam operatur, &amp; similiter diuina. Vnde &amp; humana
+            natu<lb ed="#V" n="84" break="no"/>ra habet propriam operationem distinctam ab operatione
+            <lb ed="#V" n="85"/>diuina &amp; econtra, &amp; tamen diuina natura vtitur
+            operatio<lb ed="#V" n="86" break="no"/>ne naturae humanae sicut operatione sui instrumenti. Et
+            si<lb ed="#V" n="87" break="no"/>militer humana natura participat operationem diuinae
+            na<lb ed="#V" n="88" break="no"/>turae, sicut instrumentum participat operationem
+            principa<lb ed="#V" n="89" break="no"/>lis agentis. Haec ille.
+          </p>
+          <p xml:id="capsco-d3gxxv-d1e1950">
+            Ex quibus apparet quod licet Christus
+            <lb ed="#V" n="90"/>satisfecerit secundum naturam humanam, tamen illa
+            ope<lb ed="#V" n="91" break="no"/>ratio satisfactoria habebat virtutem diuinam, &amp; poterat
+            su<lb ed="#V" n="92" break="no"/>pra totam naturam humana, &amp; singula eius supposita
+            quo<lb ed="#V" n="93" break="no"/>ad meritum &amp; satisfactionem de condigno strictissime
+            sum<lb ed="#V" n="94" break="no"/>pto. Et licet illa operatio satisfactoria vel meritoria esset
+            na<lb ed="#V" n="95" break="no"/>turae humanae sicut principij formalis quo agitur, erat
+            ta<lb ed="#V" n="96" break="no"/>men diuini suppositi vt principij principaliter agentis per
+            <lb ed="#V" n="97"/>eam, ideo suppositum merebatur &amp; satisfaciebat proprie
+            lo<lb ed="#V" n="98" break="no"/>quendo, &amp; non natura humana nisi sicut quo. Et quamuis
+            <lb ed="#V" n="99"/>natura humana in Christo non posset secundum se
+            aequiua<lb ed="#V" n="100" break="no"/>lens &amp; condignum Deo reddere, hoc tamen poterat
+            red<lb ed="#V" n="101" break="no"/>dere suppositum eam sustentans, &amp; ipsa in virtute
+            supposi<lb ed="#V" n="102" break="no"/>ti sicut quo non vt quod, vt dictum fuit in libus diffuse.
+            Ope<lb ed="#V" n="103" break="no"/>ratio enim meritoria &amp; satisfactoria &amp; Deo regratiatoria
+            <lb ed="#V" n="104"/>vt egrediens a Diuino supposito melior erat quam omnia
+            <lb ed="#V" n="105"/>beneficia formalia in humanitate Christi recepta pro
+            quan<lb ed="#V" n="106" break="no"/>to recepta in creatura. Et sic Christus sufficienter
+            recom<lb ed="#V" n="107" break="no"/>pensabat beneficia creata suae humanitati collata.
+          </p>
+          <p xml:id="capsco-d3gxxv-d1e1992">
+            Ad alia
+            <lb ed="#V" n="108"/>vero argumenta contra Durandum adducta &amp; ad
+            respon<lb ed="#V" n="109" break="no"/>siones &amp; obiectiones Durandi non opus est multa dicere,
+            <lb ed="#V" n="110"/>quia responsio eius stat in falso, scilicet quod suppositum
+            diui<lb ed="#V" n="111" break="no"/>num non meruit nobis nec satisfecit pro nobis de condigno.
+            <lb ed="#V" n="112"/>Hoc enim falsum est, immo meruit &amp; satisfecit
+            condignis<lb ed="#V" n="113" break="no"/>sime quantumcunque stricte &amp; proprie accipiatur
+            condi<lb ed="#V" n="114" break="no"/>gnum in satisfactione &amp; merito, &amp; oppositum est
+            blasphe<lb ed="#V" n="115" break="no"/>miam impium &amp; sacrilegium, vt puta derogans passioni
+            Chri<lb ed="#V" n="116" break="no"/>sti. Quia secundum Doctores minima gutta sanguinis Christi
+            fuis<lb ed="#V" n="117" break="no"/>set pretium sufficientissimum pro mundi redemptione, si
+            <lb ed="#V" n="118"/>Christus ad hoc eam obtulisset. De hoc Sanctus Thomas 2 quolibet.
+            <lb ed="#V" n="119"/>q. 2. &amp; tertia parte. q. 46. artic. 5. &amp; multis alijs locis. Ad
+            pri<lb ed="#V" n="120" break="no"/>mum Scoti contra secundam &amp; tertiam conclusionem
+            di<lb ed="#V" n="121" break="no"/>citur negando primum quod assumit, scilicet quod ista
+            sen<lb ed="#V" n="122" break="no"/>tentia de per se est occasio maioris cautelae vitandi peccatum
+            <lb ed="#V" n="123"/>in eo qui vere poenitet &amp; sollicitus est de salutisera
+            satisfa<lb ed="#V" n="124" break="no"/>ctione fienda, ex quo scit vel credit satisfactionem in
+            mor<lb ed="#V" n="125" break="no"/>tali facta non valere.
+          </p>
+          <p xml:id="capsco-d3gxxv-d1e2035">
+            Nec valet probatio assumpti. Nam in
+            <lb ed="#V" n="126"/>casu ibidem posito ei qui ieiunat in mortali secunda die non
+            <lb ed="#V" n="127"/>datur occasio quod tertia die non ieiunet vel omittat
+            prae<lb ed="#V" n="128" break="no"/>ceptum sui confessoris, sed potius datur ei occasio quod
+            poeni<lb ed="#V" n="129" break="no"/>teat de mortali post confessionem &amp; iniunctionem
+            satisfa<lb ed="#V" n="130" break="no"/>ctionis commisso, &amp; sic compleat satisfactionem iniunctam
+            <lb ed="#V" n="131"/>sibi, quia sic ei valet, &amp; sufficit ad satisfaciendum. Et praeter
+            <lb ed="#V" n="132"/>hoc, quia licet ieiunium factum illo modo in mortali non
+            <lb ed="#V" n="133"/>sit satisfactorium, est tamen impletorium praecepti Ecclesiae
+            <lb ed="#V" n="134"/>&amp; quietatorium obligationis &amp; vitatorium nouae
+            transgres<lb ed="#V" n="135" break="no"/>sionis. De hoc Petrus de Palud. in 1. q. praesentis distinctionis
+            <lb ed="#V" n="136"/>sic dicit. Quando homo de omnibus est contritus &amp;
+            con<lb ed="#V" n="137" break="no"/>fessus &amp; recepit paenitentiam cum absolutione, si recidiuans
+            <lb ed="#V" n="138"/>in mortali peragat eam, ipse se liberat ab iniunctione
+            sacer<lb ed="#V" n="139" break="no"/>dotis, nec incurrit peccatum inobedientiae, quod
+            incurre<lb ed="#V" n="140" break="no"/>ret si eam non fecisset, quia non est fortius vinculum
+            con<lb ed="#V" n="141" break="no"/>fessoris quam Dei vel Ecclesiae. Sed homo in mortali
+            exi<lb ed="#V" n="142" break="no"/>stens implendo praeceptum Dei de honoratione parentum
+            <lb ed="#V" n="143"/>vel Ecclesiae de ieiunio quadragesimae ab illo absolute se
+            li<lb ed="#V" n="144" break="no"/>berat: ergo &amp; hic. Haec Petrus &amp; bene.
+          </p>
+          <p xml:id="capsco-d3gxxv-d1e2079">
+            Item licet ieiunium
+            fa<lb ed="#V" n="145" break="no"/>ctum in mortali non sit pro tunc satisfactorium, tamen eius
+            effe<lb ed="#V" n="146" break="no"/>ctus potest esse satisfactorius adueniente charitate, vnde
+            Pe<lb ed="#V" n="147" break="no"/>ibidem. Si inquit poenitentia habet aliquem effectus
+            dere<lb ed="#V" n="148" break="no"/>lictum vt eleemosina priuationem aeris ieiunium
+            debilita<lb ed="#V" n="149" break="no"/>tionem corporis &amp; huiusmodi, si postea poeniteat &amp;
+            perse<lb ed="#V" n="150" break="no"/>uerat, sicut character baptismalis habet effectum suum
+            fi<pb ed="#V" n="188"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>ctione recedente, sic &amp; istud derelictum ex Sacramento quod
+            <lb ed="#V" n="2"/>operatur ex opere operato incipit valere ex subsequente
+            ip<lb ed="#V" n="3" break="no"/>sius approbatione &amp; sacerdotis ratihabitione &amp; non ex
+            sim<lb ed="#V" n="4" break="no"/>plici viuificatione, quia opus operans mortuum nunquam
+            <lb ed="#V" n="5"/>viuificatur. Si autem non habet effectum derelictum
+            paeniten<lb ed="#V" n="6" break="no"/>tia facta in mortali in nullo modo est satisfactoria, quin es
+            <lb ed="#V" n="7"/>integro hic, vel alibi oporteat satisfacere. Et idem est si
+            ha<lb ed="#V" n="8" break="no"/>buisset effectum derelictum, nec fuisset subsecuta
+            poeniten<lb ed="#V" n="9" break="no"/>tia finalis. Haec Petrus &amp; bene concorditer Sanctus Thomas 1. q. huius
+            <lb ed="#V" n="10"/>distin. artic. 3. q. 3. in solutione tertij, vbi sic dicit. Aliquae
+            sa<lb ed="#V" n="11" break="no"/>tisfactiones sunt ex quibus manet aliquis effectus in satisfa
+            <lb ed="#V" n="12"/>cientibus etiam postquam actus satisfactionis transit, sicut
+            <lb ed="#V" n="13"/>in ieiunio manet corporis debilitatio, &amp; ex eleemosinis
+            lar<lb ed="#V" n="14" break="no"/>gitis diminutio substantiae, &amp; sic de similibus &amp; tales
+            sa<lb ed="#V" n="15" break="no"/>tisfactiones in peccatis non oportet quod iterentur, quia
+            <lb ed="#V" n="16"/>quantum ad illud quod in eis manet per paenitentiam
+            Deo<lb ed="#V" n="17" break="no"/>acceptae sunt. Satisfactiones autem quae non derelinquunt
+            ali<lb ed="#V" n="18" break="no"/>quem effectum in satisfaciente postquam actus transijt
+            opor<lb ed="#V" n="19" break="no"/>tet quod iterentur, sicut est de oratione, &amp; similibus. Actus
+            <lb ed="#V" n="20"/>autem interior quia totaliter transijt nullo modo
+            viuifica<lb ed="#V" n="21" break="no"/>tur, sed oportet quod iteretur. Haec ille.
+          </p>
+          <p xml:id="capsco-d3gxxv-d1e2142">
+            Sciendum tamen
+            <lb ed="#V" n="22"/>est quod ibidem in solutione primi argumenti sic dicit.
+            Quan<lb ed="#V" n="23" break="no"/>to est maior contritio tanto magis diminuit de poena, &amp;
+            <lb ed="#V" n="24"/>quanto aliquis plura bona facit in peccato existens magis
+            <lb ed="#V" n="25"/>se ad gratiam contritionis disponit, &amp; ideo probabile est quod
+            <lb ed="#V" n="26"/>minoris poenae sit debitor. Et propter hoc debet de
+            sacer<lb ed="#V" n="27" break="no"/>dote discrete computari vt ei minorem poenam iniungat
+            <lb ed="#V" n="28"/>inquantum inuenit eum melius dispositum. Haec ille.
+          </p>
+          <p xml:id="capsco-d3gxxv-d1e2160">
+            Ad
+            <lb ed="#V" n="29"/>secundum dicitur quod exequens satisfactionem in
+            pecca<lb ed="#V" n="30" break="no"/>to mortali bene facit vel bonum facit, licet non bene. Et quod
+            <lb ed="#V" n="31"/>facit actum obedientiae faciendo illud, quod erat sibi
+            iniun<lb ed="#V" n="32" break="no"/>ctum pro satisfactione, non tamen actus eius est formaliter
+            <lb ed="#V" n="33"/>satisfactio, cum non sit acceptus Deo propter defectum
+            cha<lb ed="#V" n="34" break="no"/>ritatis &amp; gratiae. Potest tamen dici materialiter satisfactio,
+            <lb ed="#V" n="35"/>quia aptus est esse satisfactio si charitate formaretur, vnde
+            <lb ed="#V" n="36"/>argumentum fundatur in ista falsa consequentia. Iste facit
+            <lb ed="#V" n="37"/>illud quod sibi iniunctum est tanquam pars satisfactionis
+            <lb ed="#V" n="38"/>vel ad satisfactientem: ergo satisfacit vere &amp; formaliter. Ad
+            <lb ed="#V" n="39"/>tertium dicitur quod nullus potest satisfacere regi offeuso
+            <lb ed="#V" n="40"/>satisfactione proprie dicta nisi restituat regi aequale honori
+            <lb ed="#V" n="41"/>sibi ablato secundum aequiualentiam, vel absolutam, vel
+            sal<lb ed="#V" n="42" break="no"/>tem aequale secundum acceptationem regis. Constat autem
+            <lb ed="#V" n="43"/>quod nullus post offensam Dei potest Deo reddere aequale
+            <lb ed="#V" n="44"/>secundum aequiualentiam absolutam siue sit in charitate,
+            <lb ed="#V" n="45"/>siue sine charitate. Nec extra charitatem existens potest Deo
+            <lb ed="#V" n="46"/>reddere aequale secundum acceptationem Dei, ideo nullus
+            <lb ed="#V" n="47"/>in peccato mortali existens potest Deo proprie satisfacere,
+            <lb ed="#V" n="48"/>&amp; de hoc multa dicta sunt in secunda &amp; tertia
+            conclusioni<lb ed="#V" n="49" break="no"/>bus. Vlterius constat quod nullus proprie satisfacit regi
+            of<lb ed="#V" n="50" break="no"/>fenso qui regi exhibet aliquid non sibi acceptum vel
+            ingra<lb ed="#V" n="51" break="no"/>tum, similiter nec ille qui continuat offensam regis.
+            Pecca<lb ed="#V" n="52" break="no"/>tor autem non potest exhibere aliquid Deo gratum, &amp;
+            sem<lb ed="#V" n="53" break="no"/>per continuat Dei offensam, vnde argumentum non valet,
+            <lb ed="#V" n="54"/>vt postea melius apparebit.
+          </p>
+          <p xml:id="capsco-d3gxxv-d1e2219">
+            Ad primum eorum quae contra
+            <lb ed="#V" n="55"/>eandem conclusionem alij inducunt, respondet Petrus de
+            Pa<lb ed="#V" n="56" break="no"/>lud. dicens. Peccator postquam est Deo reconciliatus est
+            de<lb ed="#V" n="57" break="no"/>bitor poenae finitae non qualitercunque soluendae, sed in
+            sta<lb ed="#V" n="58" break="no"/>tu gratiae, in quo solum est Deo accepta. Alioquin est
+            debi<lb ed="#V" n="59" break="no"/>tor tantae poenitentiae quantum meretur culpa, &amp; illa est
+            in<lb ed="#V" n="60" break="no"/>finita. Vnde per se quidem peccato debebatur poena
+            infi<lb ed="#V" n="61" break="no"/>nita si erat mortale, sed mutata fuit in temporalem,
+            suppo<lb ed="#V" n="62" break="no"/>sito quod perseueret in amicitia. Nec est simile de
+            recom<lb ed="#V" n="63" break="no"/>pensatione pecuniae quae nec plus nec minus valet
+            tempo<lb ed="#V" n="64" break="no"/>re amicitiae sicut nec tempore inimicitiae, &amp; de satisfactione
+            <lb ed="#V" n="65"/>iniustitiae &amp; maxime Dei, quae non habet valorem nisi ex
+            di<lb ed="#V" n="66" break="no"/>uina acceptatione. Vnde si fiat tempore gratiae satisfacit, si
+            <lb ed="#V" n="67"/>alias nunquam, quia non ex aequiualentia simpliciter nec
+            <lb ed="#V" n="68"/>gratiae habet efficaciam vel aequiualentiam. Vel si dicatur
+            <lb ed="#V" n="69"/>quod habet aequiualentiam ex gratia, respondendum quod
+            <lb ed="#V" n="70"/>non simpliciter, sed sub conditione erat facta dimissio
+            poe<lb ed="#V" n="71" break="no"/>nae, licet dimissio culpae quae statim habet effectum esset
+            fa<lb ed="#V" n="72" break="no"/>cta simpliciter. Haec Petrus. Et pro maiori declaratione huius
+            <lb ed="#V" n="73"/>solutionis dicit ibidem sic contra Durandum. Si dicatur quod
+            <lb ed="#V" n="74"/>Deus non retractat id quod semel acceptauerit, acceptauit
+            <lb ed="#V" n="75"/>autem semel absolutionem a poena aeterna: ergo illa non
+            re<cb ed="#V" n="b"/><lb ed="#V" n="76" break="no"/>dit.
+          </p>
+          <p xml:id="capsco-d3gxxv-d1e2270">
+            Dicendum est quod verum est de acceptatione
+            secun<lb ed="#V" n="77" break="no"/>dum praedestinationem &amp; praescientiam, non autem de illa
+            <lb ed="#V" n="78"/>quae est secundum praesentem iustitiam, cuiusinodi est ista
+            <lb ed="#V" n="79"/>Vel si dicatur quod nihil retractat id quod isto modo
+            acce<lb ed="#V" n="80" break="no"/>ptat, quia peccata dimissa non redeunt etiam in praescito, tunc
+            <lb ed="#V" n="81"/>potest dici, quod secundum praesentem iustitiam non
+            acce<lb ed="#V" n="82" break="no"/>ptat opus nisi quando &amp; contritio &amp; confessio fuerit
+            tem<lb ed="#V" n="83" break="no"/>pore gratiae, ideo eas acceptat irretractabiliter, ita quod non
+            <lb ed="#V" n="84"/>oportet plus confiteri vel conteri, sed opus satisfactorium
+            <lb ed="#V" n="85"/>quod fiebat tempore inimicitiae nunquam fuit Deo gratum
+            <lb ed="#V" n="86"/>nec acceptum, sed acceptauit absolutionem a poena
+            aeter<lb ed="#V" n="87" break="no"/>na, &amp; impositionem poenae finitae sub conditione, scilicet si
+            <lb ed="#V" n="88"/>in gratia fieret. Et si quaeratur quare magis acceptat
+            absolu<lb ed="#V" n="89" break="no"/>tionem a culpa sine conditione quam absolutionem a
+            poe<lb ed="#V" n="90" break="no"/>na.
+          </p>
+          <p xml:id="capsco-d3gxxv-d1e2304">
+            Dicendum quod culpa transit &amp; macula transijt &amp;
+            gra<lb ed="#V" n="91" break="no"/>tia in momento aduenit, sed satisfactio futura est. Futuris
+            <lb ed="#V" n="92"/>autem solet conditio apponi, non autem praeteritis nec
+            prae<lb ed="#V" n="93" break="no"/>sentibus, vel si apponatur conditio, certe est, quia si est in
+            grs<lb ed="#V" n="94" break="no"/>tia pro tunc non potest esse sine gratia, &amp; ideo remissio
+            cul<lb ed="#V" n="95" break="no"/>pae fit sine conditione, vel sit simpliciter, quia conditio
+            exi<lb ed="#V" n="96" break="no"/>itit. Vnde sicut per sacramentum non remitteretur culpa,
+            <lb ed="#V" n="97"/>nisi adesset gratia, sic nec postea per satisfactionem
+            remitti<lb ed="#V" n="98" break="no"/>tur poena nisi adsit gratia.
+          </p>
+          <p xml:id="capsco-d3gxxv-d1e2324">
+            Item non minoris valoris debet
+            <lb ed="#V" n="99"/>esse pecunia, de qua soluitur debitum quam illa de qua
+            emi<lb ed="#V" n="100" break="no"/>tur alienum, sed per nullum opus potest homo coelum
+            me<lb ed="#V" n="101" break="no"/>reri nisi sit factum in gratia: ergo nec soluere peccatum vel
+            <lb ed="#V" n="102"/>poenam peccati.
+          </p>
+          <p xml:id="capsco-d3gxxv-d1e2335">
+            Nec valet respotensio si dicatur ad hoc quod
+            <lb ed="#V" n="103"/>non est simile, quia ad merendum semper requiritur gratia,
+            <lb ed="#V" n="104"/>quia meritum nunquam fuit prius acceptatum, sed non
+            re<lb ed="#V" n="105" break="no"/>quiritur ad satisfaciendum de peccato prius dimisso, quia
+            <lb ed="#V" n="106"/>eius satisfactio temporalis semel fuit acceptata. Hoc quidem
+            <lb ed="#V" n="107"/>non valet, quia opus satisfactorium nunquam fuit acceptatum
+            <lb ed="#V" n="108"/>in se, sed bene fuit acceptatum in sua causa, quod scilicet
+            il<lb ed="#V" n="109" break="no"/>le posset se liberare poena finita supposito quod maneret in
+            <lb ed="#V" n="110"/>gratia. Haec Petrus &amp; bene.
+          </p>
+          <p xml:id="capsco-d3gxxv-d1e2355">
+            Ad secundum respondet, quod non
+            <lb ed="#V" n="111"/>est simile de paena commissa in hominem, cui potest
+            respon<lb ed="#V" n="112" break="no"/>dere emenda aequalis secundum quantitatem rei, &amp; de illa
+            <lb ed="#V" n="113"/>quae debetur pro offensa in Deum commissa, cui respondet
+            <lb ed="#V" n="114"/>emenda aequalis solum secundum acceptationem diuinam,
+            <lb ed="#V" n="115"/>quae non est de operibus extra charitatem factis. Vnde si
+            iu<lb ed="#V" n="116" break="no"/>dex damnaret aliquem ad emendam gratiosam, dum tamen
+            <lb ed="#V" n="117"/>solueret infra tale tempus &amp; caueret ab offensa. Alias si
+            <lb ed="#V" n="118"/>iterum offenderet, exigeret ab eo poenam pristinam, &amp;
+            defi<lb ed="#V" n="119" break="no"/>ciente conditione ad eam teneretur sic est hic, ideo &amp;c. Ad
+            <lb ed="#V" n="120"/>tertium respondet Petrus quod culpa dimissa talis puniretu
+            <lb ed="#V" n="121"/>in inferno paena infinita, non propter commutationem
+            pae<lb ed="#V" n="122" break="no"/>nae finitae in infinitam, sed quia debitor est poenae infinitae ex
+            <lb ed="#V" n="123"/>quo non soluit poenam finitam sub illa conditione qua
+            de<lb ed="#V" n="124" break="no"/>buit. Sicut perdens priuilegium clericale incidit de foro
+            <lb ed="#V" n="125"/>miti ad forum sanguinis, sic qui declinat forum Ecclesiae
+            <lb ed="#V" n="126"/>incidens in mortale ad forum iustitiae exterminantis,
+            inue<lb ed="#V" n="127" break="no"/>nit poenam aeternam. Haec Petrus &amp; bene.
+          </p>
+          <p xml:id="capsco-d3gxxv-d1e2394">
+            Ad quartum
+            di<lb ed="#V" n="128" break="no"/>cit quod in inferno tantum punitur homo pro peccato
+            di<lb ed="#V" n="129" break="no"/>misso pro quo non fecit poenitentiam in statu gratiae, ac si
+            <lb ed="#V" n="130"/>non fuisset dimissum. Nec propter hoc est inutilis
+            contri<lb ed="#V" n="131" break="no"/>tio &amp; satisfactio, quia ista per se introducunt ad regnum, &amp;
+            <lb ed="#V" n="132"/>liberant a poena aeterna. Per accidens autem vtrunque
+            po<lb ed="#V" n="133" break="no"/>test impediri, scilicet per peccaatum superueniens, ratione
+            <lb ed="#V" n="134"/>cuius interimitur praecedens contritio &amp; confessio &amp;
+            poe<lb ed="#V" n="135" break="no"/>na aeterna exolueretur, quia temporalis in quam mutata fuit
+            <lb ed="#V" n="136"/>per contritionem non est soluta in eo statu &amp; conditione,
+            <lb ed="#V" n="137"/>vt debuit. Vel posset dici quod licet puniatur tantum
+            ex<lb ed="#V" n="138" break="no"/>tensiue, non tamen intensiue sicut pro vno peccato
+            tandiu<lb ed="#V" n="139" break="no"/>quantum pro mille, sed non tantum acerbe, si etiam partem
+            <lb ed="#V" n="140"/>poenitentiae fecit &amp; vnus dies remansit pro illa die in
+            aeter<lb ed="#V" n="141" break="no"/>num punietur, non tamen tam acerbe ac si nunquam
+            con<lb ed="#V" n="142" break="no"/>tritus aut confessus fuisset, nec in aliquo satisfactionem
+            fe<lb ed="#V" n="143" break="no"/>cisset, alias peccatum rediret. Instantia autem facta non
+            va<lb ed="#V" n="144" break="no"/>let, vt sequens solutio declarat, non enim propter statum
+            <lb ed="#V" n="145"/>damnatorum dicimus quod paena pro peccato dimisso
+            de<lb ed="#V" n="146" break="no"/>bita sit infinita, sed quia talis est debita absolute nisi
+            tempo<lb ed="#V" n="147" break="no"/>ralis soluatur sicut debet solui. Haec Petrus post Durandum
+            <lb ed="#V" n="148"/>qui easdem solutiones ponit quasi in forma, &amp; in hoc non
+            di<lb ed="#V" n="149" break="no"/>scordant a Sanctus Thomas Ad primum contra quartam
+            conclusio<lb ed="#V" n="150" break="no"/>nem respondet Petus dicens quod altissimus odio habet
+            pec<pb ed="#V" n="189"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>catores, &amp; si eos diligit gratis diligit non ex debito, vnde si
+            <lb ed="#V" n="2"/>quicquid Deus dat, ex amore suo dat, quicunque non
+            me<lb ed="#V" n="3" break="no"/>retur eius amorem, sed potius eius odium, nihil meretur apud
+            <lb ed="#V" n="4"/>Deum. Peccator autem quandiu in peccato manere eligit
+            <lb ed="#V" n="5"/>meretur odium Dei non eius amorem: ergo nihil meretur
+            <lb ed="#V" n="6"/>ab eo de condigno. Et bene verum est quod magis est
+            gra<lb ed="#V" n="7" break="no"/>tuitum quod datur inimico quam quod datur amico, sed
+            <lb ed="#V" n="8"/>propter hoc est minus debitum. Vnde supposito quod dans
+            ni<lb ed="#V" n="9" break="no"/>hil det nisi ex amore suo, quandiu aliquis non meretur eius
+            <lb ed="#V" n="10"/>a morem non potest aliquid de condigno mereri dandum
+            <lb ed="#V" n="11"/>ex eius amore: igitur &amp;c. Haec Petrus &amp; bene.
+          </p>
+          <p xml:id="capsco-d3gxxv-d1e2472">
+            Ad secundum
+            <lb ed="#V" n="12"/>respondet, quod non est simile quod inducitur pro simili,
+            <lb ed="#V" n="13"/>quia qui est in statu gratiae, eius bona opera sunt
+            proportio<lb ed="#V" n="14" break="no"/>nata ad merendum &amp; bona naturae &amp; gratiae &amp; gloriae, quae
+            <lb ed="#V" n="15"/>proportio facit meritum condigni. Sed qui non est in gratia
+            <lb ed="#V" n="16"/>nequaquam, immo ex quo non est dignus diuino amore, nec
+            <lb ed="#V" n="17"/>per consequens aliquo dono amoris. Et praeterea nemo
+            po<lb ed="#V" n="18" break="no"/>test esse in statu dilectionis debitae, quin sit in statu
+            dilectio<lb ed="#V" n="19" break="no"/>nis gratuitae, quia prima est dispositio necessitans ad
+            secun<lb ed="#V" n="20" break="no"/>dam. Et quicunque capax rationis non est in statu
+            dilectio<lb ed="#V" n="21" break="no"/>nis gratuitae, per consequens non est in statu dilectionis
+            na<lb ed="#V" n="22" break="no"/>turalis a Deo debitae, quia est in statu odij habiti &amp; debiti.
+            <lb ed="#V" n="23"/>Et si diligitur secundum quid, hoc est gratuitum non
+            debi<lb ed="#V" n="24" break="no"/>tum, quia ipse non est dignus pane quo vescitur, nec vita
+            ip<lb ed="#V" n="25" break="no"/>sa, &amp; per consequens nihil apud Deum meretur, quia si
+            di<lb ed="#V" n="26" break="no"/>ligitur quo ad bona naturae, hoc ipso indignus est, &amp; per
+            <lb ed="#V" n="27"/>consequens pluri &amp; maiori honore indignus est. Sed qui
+            <lb ed="#V" n="28"/>est in gratia dignus est amore gratuito &amp; consequentibus ad
+            <lb ed="#V" n="29"/>illum. Et dato quod esset proportio amoris naturae ad bona
+            tem<lb ed="#V" n="30" break="no"/>poralia, &amp; gratuiti ad bona gratiae in illo qui esset in puris
+            <lb ed="#V" n="31"/>naturalibus, qui licet non meruerit quod habet sicut nec
+            il<lb ed="#V" n="32" break="no"/>le qui habet gratiam, bene tamen vtendo naturalibus
+            vide<lb ed="#V" n="33" break="no"/>tur dignus his quae habet, &amp; bene vtendo meretur
+            conser<lb ed="#V" n="34" break="no"/>uantia bona naturae, sicut est de habente gratiam, non tamen
+            <lb ed="#V" n="35"/>qui est in peccato mortali est dignus vt dictum est, &amp; ideo
+            <lb ed="#V" n="36"/>non est simile. Haec Petus &amp; bene.
+          </p>
+          <p xml:id="capsco-d3gxxv-d1e2530">
+            Ad tertium respondet Petus
+            <lb ed="#V" n="37"/>quod dare aliquod ex mera liberalitate contingit tripliciter. Vno
+            <lb ed="#V" n="38"/>modo respectu dantis, alio modo respectu accipientis: tertio
+            <lb ed="#V" n="39"/>modo respectu vtriusque. Quandoque enim nec dans tenetur
+            <lb ed="#V" n="40"/>dare, nec recipiens ex persona nec ex opere meretur
+            recipe<lb ed="#V" n="41" break="no"/>re, &amp; tunc respectu vtriusque est liberale donum respectu
+            cu<lb ed="#V" n="42" break="no"/>ius non est meritum nisi congrui: secundo modo &amp; dans
+            te<lb ed="#V" n="43" break="no"/>netur dare &amp; recipiens ex persona &amp; ex opere meretur
+            reci<lb ed="#V" n="44" break="no"/>pere, &amp; sibi debitum fecit, &amp; sic proprie est meritum
+            condi<lb ed="#V" n="45" break="no"/>gni: tertio modo recipiens quidem ex persona &amp; opere
+            pro<lb ed="#V" n="46" break="no"/>portionato mercedi meretur, tamen dans non tenetur dare, quia
+            <lb ed="#V" n="47"/>nec ex promisso, nec aliter est obligatus, &amp; tunc est meritum
+            <lb ed="#V" n="48"/>condigni respectu merentis, quamuis sit gratuitum respectu
+            <lb ed="#V" n="49"/>remunerantis, qui sine iniustitia potuit non remunerare,
+            si<lb ed="#V" n="50" break="no"/>cut si aliquis non conductus faceret pro rege quantum
+            sti<lb ed="#V" n="51" break="no"/>pendiarius. Primo modo se habent faciendo bona
+            peccato<lb ed="#V" n="52" break="no"/>res ad Deum: secundo modo iusti: tertio modo ijdem si Deus
+            <lb ed="#V" n="53"/>non tenetur eis ex promisio. Est ergo meritum condigni
+            ope<lb ed="#V" n="54" break="no"/>ranti debitum, dato quod dans non sit debitor, quia si meritum
+            <lb ed="#V" n="55"/>condigni non est nisi per hoc retribuens sit debitor, tunc non
+            <lb ed="#V" n="56"/>est meritum condigni respectu supplicij plusquam respectu
+            <lb ed="#V" n="57"/>praemij. Non enim plus tenetur Deus damnare Iudam quam
+            sal<lb ed="#V" n="58" break="no"/>uare Petrum, immo saluare Iudam videretur misericordia, &amp;
+            <lb ed="#V" n="59"/>damnare Petrum iniustitia: ergo si potest dici meritum
+            condi<lb ed="#V" n="60" break="no"/>gni respectu poenae non obstante quod Deus non tenetur punire
+            <lb ed="#V" n="61"/>ex sola habitudine peccantis &amp; culpae ad poenam condignam,
+            <lb ed="#V" n="62"/>pari ratione ex parte meriti.
+          </p>
+          <p xml:id="capsco-d3gxxv-d1e2589">
+            Item verum est quod posset Deus
+            <lb ed="#V" n="63"/>iuste exigere ab homine quodcunque bonum facit, sed non
+            exi<lb ed="#V" n="64" break="no"/>git. Et per ea quae non exigit sicut sunt ea quae cadunt sub
+            con<lb ed="#V" n="65" break="no"/>silio meretur homo de condigno, supposito diuino statuto
+            <lb ed="#V" n="66"/>quod bona bonis creata sint, sicut est de bonis comntatis ex
+            sta<lb ed="#V" n="67" break="no"/>tuto principis, qui lege sua ligatus non est. Haec Petrus &amp; bene.
+          </p>
+          <p xml:id="capsco-d3gxxv-d1e2602">
+            <lb ed="#V" n="68"/>Ad quartum dicit quod verum est quod ibi concluditur scilicetquod Deum
+            <lb ed="#V" n="69"/>non possumus constituere nobis debitorem, nec reddere
+            aequi<lb ed="#V" n="70" break="no"/>ualens absolute intelligendo. Sed cum Deus non exigat ab
+            <lb ed="#V" n="71"/>homine quicquid ipse potest, sed quietet ipsum a debito
+            im<lb ed="#V" n="72" break="no"/>plendo praecepta de alijs, potest apud eum mereri quae gratis
+            <lb ed="#V" n="73"/>ei exhibet. Et quamuis nihil faciat dignum ad Deum sibi
+            obli<lb ed="#V" n="74" break="no"/>gandum, tamen ex persona &amp; ex opere proportionato meretur
+            <lb ed="#V" n="75"/>quantum in se est de condigno, &amp; licet faciens debitum
+            ni<cb ed="#V" n="b"/><lb ed="#V" n="76" break="no"/>hil mereatur apud priuatam personam, tamen apud eum qui
+            bo<lb ed="#V" n="77" break="no"/>na communia habet ad hoc seruata vt bonis distribuantur, talis
+            me<lb ed="#V" n="78" break="no"/>retur faciendo illum sibi debitorem qui est solus
+            administra<lb ed="#V" n="79" break="no"/>tor. Sed eum qui est Dominus &amp; non se obligauit, sed sic
+            <lb ed="#V" n="80"/>sponte ordinauit quod bona sua det bene facientibus, sed plus
+            <lb ed="#V" n="81"/>&amp; minus apud talem faciendo etiam illud ad quod tenetur
+            <lb ed="#V" n="82"/>debito legali, puta quod exponit se mortis periculo pro re
+            pu<lb ed="#V" n="83" break="no"/>blica in casu in quo tenetur, vel morali meretur condigne
+            <lb ed="#V" n="84"/>non constituendo illum debitorem, sed ex parte sua faciens
+            <lb ed="#V" n="85"/>se dignum supposita illius ordinatione &amp; sua bona
+            operatio<lb ed="#V" n="86" break="no"/>ne. Nam dicere quod meritum morale non excludit meritum
+            <lb ed="#V" n="87"/>condigni, sed solum legale quod est de praeceptis non est bene
+            <lb ed="#V" n="88"/>dictum, quia si mutuo illi qui mihi mutuauit, non propter
+            <lb ed="#V" n="89"/>hoc mereor, sed soluo debitum, sed ipse prior meruit.
+          </p>
+          <p xml:id="capsco-d3gxxv-d1e2653">
+            Item
+            <lb ed="#V" n="90"/>cum aliquis gerit vtiliter negotia haereditatis iacentis, ipse
+            <lb ed="#V" n="91"/>meretur de condigno &amp; facit sibi debitas espensas, vnde &amp;
+            <lb ed="#V" n="92"/>habet actionem negotiorum gestorum secundum leges, &amp; tamen non
+            <lb ed="#V" n="93"/>est aliquis sibi vere debitor ac si ageret negotia viuentis qui
+            <lb ed="#V" n="94"/>potest ei obligari. Ita ergo pro Deo operans facit sibi
+            mer<lb ed="#V" n="95" break="no"/>cedem debitam, licet Deum non constituat sibi debitorem,
+            <lb ed="#V" n="96"/>sicut si operaretur pro homine qui potest sibi obligari
+            seu<lb ed="#V" n="97" break="no"/>debitor fieri.
+          </p>
+          <p xml:id="capsco-d3gxxv-d1e2673">
+            Item si diceretur quod non debemus Deo totum
+            <lb ed="#V" n="98"/>quod agimus debito legali nisi praecepta, sed debito
+            morali<lb ed="#V" n="99" break="no"/>consilia, non valet, quia tunc saltem non mereremur
+            apud<lb ed="#V" n="100" break="no"/>Deum quicquam implendo praecepta quod est graue. Item
+            <lb ed="#V" n="101"/>si debito morali debemus ei consilia, hoc intelligendum est
+            <lb ed="#V" n="102"/>de debito tam debili quod possumus non soluere sine
+            pec<lb ed="#V" n="103" break="no"/>cato. Propter quod male dicunt qui dicunt quod semper
+            <lb ed="#V" n="104"/>est peccatum saltem veniale quando homo non facit quod
+            <lb ed="#V" n="105"/>debet debito quocunque. Alias omnis homo omittendo
+            quod<lb ed="#V" n="106" break="no"/>cunque bonum peccaret, si quicquid facere potest totum Deo
+            <lb ed="#V" n="107"/>debet. Nec potest dici quod quando facit tunc debet, &amp;
+            quan<lb ed="#V" n="108" break="no"/>do non facit non debet, quia hoc nunquam contingit quod
+            fa<lb ed="#V" n="109" break="no"/>cere bonum causet obligationem, quia magis est natum tollere
+            <lb ed="#V" n="110"/>obligationem quam parere, nihilominus tamen debitum morale
+            <lb ed="#V" n="111"/>impedit meritum aequaliter sicut legale, sicut in exemplo
+            po<lb ed="#V" n="112" break="no"/>sito. Propter hoc alia solutio melior est, quia soluendo
+            de<lb ed="#V" n="113" break="no"/>bitum meretur non inquantum soluit debitum, sed
+            inquan<lb ed="#V" n="114" break="no"/>tum implet illud, sub cuius conditione fuit ordinatum quod
+            ha<lb ed="#V" n="115" break="no"/>beret mercedem vel praemium. Sicut si aliquis promisit mihi
+            <lb ed="#V" n="116"/>scribere librum, &amp; promisi sibi soluere 10. sub conditione
+            <lb ed="#V" n="117"/>si scribit, scribendo librum liberatur ab obligatione qua
+            mi<lb ed="#V" n="118" break="no"/>hi tenebatur, nec possum facere eum incarcerari vt librum
+            <lb ed="#V" n="119"/>scribat sicut prius poteram, &amp; cum hoc nihilominus
+            mere<lb ed="#V" n="120" break="no"/>tur mercedem &amp; constituit me sibi debitorem, non quia
+            sol<lb ed="#V" n="121" break="no"/>uit debitum, sed quia implet conditionem promissi, vnde si
+            <lb ed="#V" n="122"/>ipse non obligasset se ad scribendum cum promisissem sibi
+            <lb ed="#V" n="123"/>mercedem, si scriberet librum, scribendo non solueret
+            debi<lb ed="#V" n="124" break="no"/>tum, &amp; nihilominus praemium mereretur. Ita etiam si ipse
+            <lb ed="#V" n="125"/>promisit mihi scribere librum, &amp; ego nihil promisi ei nisi
+            <lb ed="#V" n="126"/>quod sine aliqua obligatione darem, &amp; insinuaui quod liberaliter
+            <lb ed="#V" n="127"/>ei darem, &amp; non aliter si bene faceret curialitatem, tunc eo
+            <lb ed="#V" n="128"/>bene faciente, ego quidem non sum debitor &amp; tamen illud
+            <lb ed="#V" n="129"/>est sibi debitum, qui ita dignum se fecit, sicut si me sibi
+            obli<lb ed="#V" n="130" break="no"/>gassem, ita est hic: ergo &amp;c. Haec Petrus in forma, &amp; bene
+            <lb ed="#V" n="131"/>Veruntamen Sanctus Thomas prima secundae. q. 114. arti. 1. breuius
+            <lb ed="#V" n="132"/>soluit ad omnia ista, proprie namque primo loco arguit sic.
+            <lb ed="#V" n="133"/>Nullus videtur mercedem mereri ex hoc quod reddit alteri quod
+            <lb ed="#V" n="134"/>debet, sed per omnia bona quae facimus non possumus
+            suffi<lb ed="#V" n="135" break="no"/>cienter recompensare Deo quod debemus quin semper
+            ar<lb ed="#V" n="136" break="no"/>plius debeamus, vt etiam dicit Philostcus 8. Ethic. vnde &amp;
+            Lu<lb ed="#V" n="137" break="no"/>cae. 17. Cum omnia quae praecepta sunt feceritis, dicite
+            serui<lb ed="#V" n="138" break="no"/>inutiles sumus, quae debuimus facere fecimus: ergo
+            homo<lb ed="#V" n="139" break="no"/>non potest aliquid mereri a Deo. Ecce argumentum
+            sequi<lb ed="#V" n="140" break="no"/>tur responsio. Dicendum inquit quod homo inquantum
+            pro<lb ed="#V" n="141" break="no"/>pria voluntate facit illud quod debet, meretur. Alioquin actus
+            <lb ed="#V" n="142"/>quo quis reddit debitum non esset meritorius. Haec ille.
+          </p>
+          <p xml:id="capsco-d3gxxv-d1e2773">
+            <lb ed="#V" n="143"/>Item tertio loco arguit sic. Quicunque apud aliquem aliquod
+            <lb ed="#V" n="144"/>meretur constituit eum sibi debitorem, debitum enim est vt
+            <lb ed="#V" n="145"/>aliquis merenti mercedem impendat, sed Deus nulli est
+            de<lb ed="#V" n="146" break="no"/>bitor, vt dicitur Rom. 11. Quis prior dedit illi &amp; retribuetur
+            <lb ed="#V" n="147"/>eiergo nullus potest a Deo aliquid mereri. Ecce
+            argumen<lb ed="#V" n="148" break="no"/>tum sequitur responsio. Dicendum inquit quod quia actio nostra
+            <lb ed="#V" n="149"/>non habet rationem meriti nisi ex suppositione diuinae
+            or<lb ed="#V" n="150" break="no"/>dinationis, non sequitur quod Deus efficiatur simpliciter
+            debi<pb ed="#V" n="190"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>tor nobis, sed sibijpsi inquantum debitum est vt sua
+            ordina<lb ed="#V" n="2" break="no"/>tio impleatur. Haec ille.
+          </p>
+          <p xml:id="capsco-d3gxxv-d1e2800">
+            Et consimilia dicit 2. sen. dist. 27. q. 1.
+            <lb ed="#V" n="3"/>art. 3. vbi facit praedicta duo argumenta. Vnde ad primum sic
+            <lb ed="#V" n="4"/>soluit tertio loco. Dicendum inquit quod etiam reddendo quod
+            <lb ed="#V" n="5"/>debet meretur aliquis in hoc enim meretur aliquis apud Deum
+            <lb ed="#V" n="6"/>in quo etiam vitae laudabilis constituitur apud homines. Actus
+            <lb ed="#V" n="7"/>autem iustitiae est laudabilis sicut &amp; aliarum virtutum, vnde
+            <lb ed="#V" n="8"/>etiam &amp; actus iustitiae meritorius est, quamuis quidam hoc
+            <lb ed="#V" n="9"/>negauerunt, &amp; tamen actus iustitiae in redditione debiti etiam
+            <lb ed="#V" n="10"/>quod homini debetur consistit. Quamuis enim illud quod
+            red<lb ed="#V" n="11" break="no"/>dit quod debitum est alteri, suum non sit, nihilominus tamen
+            mo<lb ed="#V" n="12" break="no"/>dus in quo fundatur vis merendi &amp; laus reddentis est qui
+            vo<lb ed="#V" n="13" break="no"/>luntarie &amp; propter bonum iustitiae reddit. Hacille.
+          </p>
+          <p xml:id="capsco-d3gxxv-d1e2826">
+            Item
+            ibi<lb ed="#V" n="14" break="no"/>dem ad secundum supra recitatum quarto loco sic dicit.
+            Di<lb ed="#V" n="15" break="no"/>cendum inquit quod Deus non efficitur nobis debitor nisi
+            for<lb ed="#V" n="16" break="no"/>te ex promisso, quia ipse bonum operantibus praemium
+            promi<lb ed="#V" n="17" break="no"/>sit, &amp; ideo non est inconueniens si ab ipso quis mereri possit.
+            <lb ed="#V" n="18"/>Vel dicendum quod in iustitia commutatiua ille apud quem
+            ali<lb ed="#V" n="19" break="no"/>quis meretur efficitur debitor ei qui meretur, vt patet in
+            il<lb ed="#V" n="20" break="no"/>lis qui operas suas locant in seruitium aliorum. Sed in iustitia
+            <lb ed="#V" n="21"/>distributiua non requiritur ratio debiti ex parte eius qui
+            di<lb ed="#V" n="22" break="no"/>stribuit. Potest enim ex liberalitate aliqua distribuere, in quorum
+            <lb ed="#V" n="23"/>tamen distributione iustitia exigitur secundum quod diuersis prout eorum
+            <lb ed="#V" n="24"/>gradus exigit proportionaliter tribuit. Haec ille.
+          </p>
+          <p xml:id="capsco-d3gxxv-d1e2852">
+            Item prima
+            <lb ed="#V" n="25"/>parte. q. 21. artic. 1. arguit sic secundo loco. Adus iustitiae est
+            <lb ed="#V" n="26"/>reddere debitum, sed Deus nulli est debitor: ergo Deo non
+            <lb ed="#V" n="27"/>competit iustitia. Ecce argumentum sequitur responsio.
+            Di<lb ed="#V" n="28" break="no"/>cendum inquit quod vnicuique debetur quod suum est.
+            Dici<lb ed="#V" n="29" break="no"/>tur autem esse suum alicuius quod ad ipsum ordinatur, sicut
+            ser<lb ed="#V" n="30" break="no"/>uus est Dameni, &amp; non econuerso, nam liberum est, quod sui
+            cau<lb ed="#V" n="31" break="no"/>sa est. In nomine ergo debiti importatur quidam ordo
+            exigen<lb ed="#V" n="32" break="no"/>tiae vel necessitatis alicuius, ad quod aliud ordinatur. Est autem
+            <lb ed="#V" n="33"/>duplex ordo considerandus in rebus. Vnus quo aliquid
+            crea<lb ed="#V" n="34" break="no"/>tum ordinatur ad aliud creatum, sicut partes ordinantur ad
+            <lb ed="#V" n="35"/>totum, &amp; vnaquaeque res ad suum finem. Alius ordo quo
+            <lb ed="#V" n="36"/>omnia creataordinantur in Deum. Sic ergo &amp; debitum
+            du<lb ed="#V" n="37" break="no"/>pliciter potest attendi in operatione diuina, aut scilicet secundum quod aliquod
+            <lb ed="#V" n="38"/>debetur Deo, aut secundum quod aliquid debetur rei creatae. Et
+            vtro<lb ed="#V" n="39" break="no"/>que modo Deus debitum reddit. Debitum enim est Deo vt
+            im<lb ed="#V" n="40" break="no"/>pleatur in rebus illud quod eius sapientia &amp; voluntas habet
+            <lb ed="#V" n="41"/>&amp; quod suam bonitatem manifestat. Et secundum hoc iustitia Dei
+            re<lb ed="#V" n="42" break="no"/>spicit decentiam ipsius secundum quam reddit sibi quod sibi
+            de<lb ed="#V" n="43" break="no"/>betur. Debitum etiam est alicuius rei creatae quod habeat illud quod
+            <lb ed="#V" n="44"/>ad ipsam ordinatur, sicut homini quod habeat manus, &amp; quod
+            ei<lb ed="#V" n="45" break="no"/>alia animalia seruiant. Et sic Deus iustitiam operatur quando dat
+            <lb ed="#V" n="46"/>vnicuique quod ei debetur secundum rationem suae naturae &amp;
+            con<lb ed="#V" n="47" break="no"/>ditionis. Sed hoc debitum dependet ex primo, quia vnicuique
+            <lb ed="#V" n="48"/>hoc debetur quod est ordinatum ad ipsum secundum ordinem
+            di<lb ed="#V" n="49" break="no"/>uinae sapientiae. Licet autem Deus hoc modo debitum alicui
+            <lb ed="#V" n="50"/>det, non tamen ipse est alteri debitor, quia ipse ad alia non
+            ordi<lb ed="#V" n="51" break="no"/>natur, sed potius alia ad ipsum. Haec ille.
+          </p>
+          <p xml:id="capsco-d3gxxv-d1e2913">
+            Similia dicit 4. sen.
+            <lb ed="#V" n="52"/>dist. 46. q. 1. artic. 1. per totum. Ex quibus patet quod ad ronem
+            <lb ed="#V" n="53"/>meriti non semper exigitur quod ille qui meretur constituat
+            il<lb ed="#V" n="54" break="no"/>lum apud quem meretur debitorem sibi aut alio modo eum
+            <lb ed="#V" n="55"/>obliget. Et quo ad hoc est bona solutio Petu. Instantia vero
+            <lb ed="#V" n="56"/>quam arguens vltimo recitat videtur esse secundum mentem Petus Et ad
+            <lb ed="#V" n="57"/>probationem illius dicitur quod licet in bonis &amp; in malis non sint
+            <lb ed="#V" n="58"/>omnia similia sed multa dissimilia, tamen sufficit quod ibi sit ista
+            simi<lb ed="#V" n="59" break="no"/>litudo quod neutrum meritum de condigno constituit Deum
+            <lb ed="#V" n="60"/>debitorem creaturae. Cum autem dicit quod merenti de condigno
+            <lb ed="#V" n="61"/>praemium fit iniustitia si non redditur &amp;c.
+          </p>
+          <p xml:id="capsco-d3gxxv-d1e2937">
+            Dicendum quod
+            si<lb ed="#V" n="62" break="no"/>cut supra dictum est, actio creaturae non habet rationem
+            me<lb ed="#V" n="63" break="no"/>riti apud Deum nisi ex praesuppositione diuinae ordinationis,
+            <lb ed="#V" n="64"/>&amp; ideo non constituit Deum debitorem creaturae, sed
+            sibi<lb ed="#V" n="65" break="no"/>ipsi. Ita consimiliter si creaturae merenti de condigno non
+            <lb ed="#V" n="66"/>redditur illud quod meruit secundum diuinam ordinationem, non
+            <lb ed="#V" n="67"/>fit iniustitia ipsi creaturae, sed Deus ipse sibimet irrogaret
+            <lb ed="#V" n="68"/>iniustitiam reddendo se fallacem in promissis, quod est
+            im<lb ed="#V" n="69" break="no"/>possibile. Nec tamen tunc proprie faceret sibijpsi iniustum, quia
+            <lb ed="#V" n="70"/>nullus iniustum patitur volens, nisi diceremus quod non secundum idem
+            <lb ed="#V" n="71"/>attributum, sed secundum diuersa secundum rationem ageret &amp; pateretur
+            <lb ed="#V" n="72"/>iniustum. Et simile esset de merito condigmi in malis si Deus
+            <lb ed="#V" n="73"/>ordinasset quod cuilibet perseueranti finaliter in mortali
+            infer<lb ed="#V" n="74" break="no"/>retur sine gratia quaecunque paena aeterna.
+          </p>
+          <p xml:id="capsco-d3gxxv-d1e2968">
+            Item sicut dicit
+            ar<lb ed="#V" n="75" break="no"/>guens ei qui meretur de condigno bonum non fit iustitia, si
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="76"/>non redditur ei quod meruit, quando de voluntate eius
+            praete<lb ed="#V" n="77" break="no"/>mittitur talis redditio. Cum ergo voluntas Dei reputeru
+            <lb ed="#V" n="78"/>voluntas creaturae, sicut voluntas Dameudi censetur voluntas
+            ser<lb ed="#V" n="79" break="no"/>ui, &amp; voluntas patris censeatur voluntas filij in rebus
+            ciuili<lb ed="#V" n="80" break="no"/>bus, sicut non fit iniustitia filio si non redditur ei quod
+            sud<lb ed="#V" n="81" break="no"/>est, vel quod meruit de condigno in casu quo hoc fieret
+            vo<lb ed="#V" n="82" break="no"/>lente patre suo vel communitate, ita multo minus fit
+            iniu<lb ed="#V" n="83" break="no"/>stitia creaturae quantumcunque merenti de condigno si non
+            <lb ed="#V" n="84"/>redditur ei praemium in casu quo hoc fieret, volente Deo
+            cu<lb ed="#V" n="85" break="no"/>ius est ipsa creatura &amp; suum velle &amp; nolle &amp; omnia sua. Quod enim
+            <lb ed="#V" n="86"/>fieret volente Deo, censeretur fieri volente creatura
+            interpre<lb ed="#V" n="87" break="no"/>tatiue. Posset etiam dici quod si Deus non redderet merenti de
+            con<lb ed="#V" n="88" break="no"/>digno praemium quod meruit, Deus faceret imtustitiam
+            crea<lb ed="#V" n="89" break="no"/>turae, non quidem simpliciter, sed ex suppositione suae
+            ordi<lb ed="#V" n="90" break="no"/>nationis iustae, quam praeteriret vel contra quam faceret
+            <lb ed="#V" n="91"/>quod tamen est impossibile, sed conditionalis nihil ponit,
+            lice<lb ed="#V" n="92" break="no"/>sit vera, sicut dicendo Deus potest peccare, si vult, vt docet
+            <lb ed="#V" n="93"/>Sanctus Thomas 1. par. q. 25. art. 3. Et 6. quolib. q. 4. &amp; alijs locis. De
+            pr<lb ed="#V" n="94" break="no"/>dictis Sancti Thomae 4. sen. dist. 46. q. 1. art. 2. in solu. 1. q. sic dicit. Non
+            <lb ed="#V" n="95"/>ex hoc tantum aliquid dicitur esse iustum, quia est a Deo volitum,
+            <lb ed="#V" n="96"/>sed quia est debitum alicui rei creatae secundum ordinem creatur
+            <lb ed="#V" n="97"/>ad creaturam. Nihil autem alicui rei debitum esse potest
+            ni<lb ed="#V" n="98" break="no"/>ratione suae naturae vel conditionis. Naturae autem &amp;
+            proprie<lb ed="#V" n="99" break="no"/>tatis rei causa est diuina voluntas, &amp; ideo totus ordo iustitia
+            <lb ed="#V" n="100"/>originaliter ad diuinam voluntatem reducitur. Haec ille.
+          </p>
+          <p xml:id="capsco-d3gxxv-d1e3030">
+            Iten<lb ed="#V" n="101" break="no"/>ibidem in solutione quarti argumenti sic dicit. Quamuis
+            <lb ed="#V" n="102"/>Deus non sit debitor alicui creaturae, tamen creaturae potest esse
+            <lb ed="#V" n="103"/>aliquid debitum scilicet quod requiritur ad ipsam, ad hoc quod
+            exem<lb ed="#V" n="104" break="no"/>plar diuinae scscet pientiae imitetur. Et hoc debitum conctrnit
+            <lb ed="#V" n="105"/>iustitia, cum dicitur Deus aliquid iuste facere, quod quidem
+            ma<lb ed="#V" n="106" break="no"/>gis pertinet ad ordinem rei ad rem quam ad ordinem
+            re<lb ed="#V" n="107" break="no"/>creatae ad Deum. Haec ille.
+          </p>
+          <p xml:id="capsco-d3gxxv-d1e3048">
+            Item in solut. 2. q. sic dicit. Deus
+            <lb ed="#V" n="108"/>dominator omnium bonorum est, &amp; in eum omnis peccato
+            <lb ed="#V" n="109"/>peccat, vnde plus posset conferre de bonis quam sit alicui
+            de<lb ed="#V" n="110" break="no"/>bitum, &amp; minus reddere de malis vel et poenam totaliter
+            rel<lb ed="#V" n="111" break="no"/>&amp;tare. Nec in hoc contra iustitiam, sed praeter iustitiam
+            face<lb ed="#V" n="112" break="no"/>ret, sed si alicui minus conferret de bonis quam ei debetur,
+            <lb ed="#V" n="113"/>vel plus puniret quam peccasset, hoc esset contra ordinem
+            <lb ed="#V" n="114"/>iustitiae, nec Deus hoc posset loquendo de potentia
+            ordina<lb ed="#V" n="115" break="no"/>ta, sicut non posset facere quin eius opus secundum quod esse
+            par<lb ed="#V" n="116" break="no"/>ticipat eum imitaretur. Ex hoc enim ipso quod aliquid alicui
+            <lb ed="#V" n="117"/>rei est debitum secundum exigentiam suae conditionis, sine illo
+            exem<lb ed="#V" n="118" break="no"/>plar diuinum imitari non potest. Haec ille.
+          </p>
+          <p xml:id="capsco-d3gxxv-d1e3074">
+            Item ibidem in
+            <lb ed="#V" n="119"/>solutione primi. Deus seipsum negaret, si creaturae non
+            cor<lb ed="#V" n="120" break="no"/>ferret quod ei debetur secundum suam dispositionem. Sic
+            <lb ed="#V" n="121"/>enim veritatem non seruaret in operum conditione vel
+            gu<lb ed="#V" n="122" break="no"/>bernatione.
+          </p>
+          <p xml:id="capsco-d3gxxv-d1e3085">
+            Item in solutione tertij argumenti sic dicit.
+            Dam<lb ed="#V" n="123" break="no"/>nare Petrum cui ex beneficio gratiae sibi collatae salus
+            debe<lb ed="#V" n="124" break="no"/>tur esset contrarium iustitiae, vnde hoc Deus non posset de
+            <lb ed="#V" n="125"/>potentia ordinata, sed saluare Iudam non esset contrarium
+            <lb ed="#V" n="126"/>iustitiae, sed praeter eam, sed tamen esset contrarium eius
+            prae<lb ed="#V" n="127" break="no"/>scientiae &amp; dispositioni qua ei aeternam poenam praeparauit.
+            <lb ed="#V" n="128"/>Vnde iustitiae ordo non impedit quin possit saluare Iudam,
+            <lb ed="#V" n="129"/>sed impedit ordo praescientiae &amp; dispositionis aeternae. Haec
+            <lb ed="#V" n="130"/>ille. Ex quibus patet primo quod totus ordo iustitiae, qua
+            alicu<lb ed="#V" n="131" break="no"/>creaturae aliquid debetur, originatur ex diuina voluntate, &amp;
+            <lb ed="#V" n="132"/>ordine diuinae sapientiae: secundo quod Deus de potentia
+            ordi<lb ed="#V" n="133" break="no"/>nata non potest alicui creaturae minus conferre de bonis quam
+            <lb ed="#V" n="134"/>ei debebatur, nec plus punire creaturam quam meruerit
+            pec<lb ed="#V" n="135" break="no"/>cando, sed vtrunque debitum a diuina voluntate &amp; sapientia
+            <lb ed="#V" n="136"/>originatur: tertio quod Deus non potest suam dispositionem
+            prae<lb ed="#V" n="137" break="no"/>rire nec seipsum negare. quarto quod aeque impossibile est Deum
+            <lb ed="#V" n="138"/>agere contra ordinationem suae aeternae dispositionis sicut
+            con<lb ed="#V" n="139" break="no"/>tra iustitiam suam: quinto quod impossibile est Deum facere
+            ali<lb ed="#V" n="140" break="no"/>quid iniuriosum sibi aut creaturae.
+          </p>
+          <p xml:id="capsco-d3gxxv-d1e3127">
+            Sciendum tamen quod in
+            praedi<lb ed="#V" n="141" break="no"/>ctis videtur sentire quod Deus dicitur iuste facere solum secundum ordinem vnius
+            <lb ed="#V" n="142"/>creaturae ad aliam, &amp; non secundum ordinem creaturae ad Deum,
+            <lb ed="#V" n="143"/>cuius oppositum dicit prima parte vbi supra allegatum est.
+            <lb ed="#V" n="144"/>Sed non est ibi magna contradictio, quia intendit in quarto
+            <lb ed="#V" n="145"/>dicere quod alius modus iustitiae est hic quam ibi, quod patet, quia
+            <lb ed="#V" n="146"/>4. sen. dist. 46. q. 1. art. 1. in solut. 1. q. sic dicit. Duo modi
+            assi<lb ed="#V" n="147" break="no"/>gnantur diuinae iustitiae. Vnus inquantum reddit pro meritis. Alius
+            <lb ed="#V" n="148"/>secundum quod facit illud quod decet suam bonitatem &amp;c. Et simile dicit
+            <lb ed="#V" n="149"/>1. par. q. 21. art. 1. Ad arg. contra quaestionem patet responsio per praedicta.
+            <lb ed="#V" n="150"/>Et haec de quodone sufficiant. De qua benedictus Deus, amen
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

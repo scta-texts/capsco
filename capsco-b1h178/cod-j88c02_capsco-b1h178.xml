@@ -1,0 +1,625 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 2, Distinctio 7, Quaestio 2</title>
+        <author ref="#JohannesCapreolus">Johannes Capreolus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 2, Distinctio 7, Quaestio 2</title>
+          <date when="2026-11-04">Nov 4, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-j88c02">Venice, 1589, v. 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-04" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="268"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="capsco-b1h178"><!-- l2d7q2 -->
+        <head xml:id="capsco-b1h178-Hd1e101">Quaestio 2</head>
+        <head xml:id="capsco-b1h178-Hd1e103" type="question-title">Utrum angelus moveat caelum, vel quodcunque corpus per intellectum et voluntatem, vel per aliquam aliam potentiam</head>
+        <p xml:id="capsco-b1h178-d1e106">
+          <lb ed="#V" n="5"/>DISTINCTIO VII.
+          <lb ed="#V" n="6"/>QVAESTIO II.
+          <lb ed="#V" n="7"/>Vtrum angelus moueat caelum, vel quodcunque corpus
+          <lb ed="#V" n="8"/>per intellectum &amp; voluntatem, vel per
+          <lb ed="#V" n="9"/>aliquam aliam potentiam.
+        </p>
+        <p xml:id="capsco-b1h178-d1e119">
+          <lb ed="#V" n="10"/><milestone ed="#V" unit="p" rend="initial"/> ITERVM circa septimam
+          distinctio<lb ed="#V" n="11" break="no"/>nem secundi quaeritur. Vtrum angelus
+          <lb ed="#V" n="12"/>moueat caelum vel quod cunque corpus
+          <lb ed="#V" n="13"/>per intellectum &amp; voluntatem, vel
+          per<lb ed="#V" n="14" break="no"/>aliquam aliam potentiam.
+        </p>
+        <p xml:id="capsco-b1h178-d1e133">
+          Et videtur,
+          <lb ed="#V" n="15"/>quod per aliam potentiam. Quia angelus
+          <lb ed="#V" n="16"/>in quacunque distantia potest velle &amp;
+          in<lb ed="#V" n="17" break="no"/>telligere rem quamcunque, sed non
+          po<lb ed="#V" n="18" break="no"/>test mouere quancunque rem, nec in quacunque distantia, igitur &amp;c.
+        </p>
+        <p xml:id="capsco-b1h178-d1e145">
+          <lb ed="#V" n="19"/><milestone ed="#V" unit="p" rend="indent"/> In oppositum dicitur sic. Omnis virtus non organica
+          <lb ed="#V" n="20"/>est intellectus, aut voluntas, sed potentia motiua in
+          an<lb ed="#V" n="21" break="no"/>gelo est potentia non organica, igitur est intellectus,
+          <lb ed="#V" n="22"/>aut voluntas.
+        </p>
+        <p xml:id="capsco-b1h178-d1e157">
+          <lb ed="#V" n="23"/><milestone ed="#V" unit="p" rend="indent"/> In hac quaestione erunt tres articuli. In primo ponetur
+          <lb ed="#V" n="24"/>opinio Sancti Thomas In secundo recitabuntur
+          obiectio<lb ed="#V" n="25" break="no"/>nes. In tertio dicetur ad eorum rationes.
+        </p>
+        <div xml:id="capsco-b1h178-Dd1e167">
+          <head xml:id="capsco-b1h178-Hd1e169">Articulus 1</head>
+          <p xml:id="capsco-b1h178-d1e171">
+            <lb ed="#V" n="26"/><milestone ed="#V" unit="p" rend="initial"/> QVantum ad primum arti. sit prima conclusio.
+            Quic<lb ed="#V" n="27" break="no"/>quid angelus agit ad extra agit per intellectum &amp;
+            vo<lb ed="#V" n="28" break="no"/>luntatem, &amp; non per aliam potentiam mediam. Hanc
+            po<lb ed="#V" n="29" break="no"/>nit Sanctus Thomas quolibet 6. art. 2. vbi sic dicit. Omnis actio
+            cuius<lb ed="#V" n="30" break="no"/>cunque rei est per fomam naturae illius rei. Nam &amp; si sint
+            ali<lb ed="#V" n="31" break="no"/>quae formae accidentales principia actionum alicuius rei,
+            <lb ed="#V" n="32"/>oportet quod huiusmodi actiones reducantur, sicut in primum
+            <lb ed="#V" n="33"/>principium in formam specificam illius rei agentis, sicut
+            <lb ed="#V" n="34"/>actio caloris ignis reducitur sicut in primum principium
+            <lb ed="#V" n="35"/>in formam substantialem ipsius, quae est etiam principium
+            <lb ed="#V" n="36"/>omnium accidentium propriorum ignis. Et ideo oportet
+            <lb ed="#V" n="37"/>aliter se habere in actionibus alicuius rei habentis naturam
+            <lb ed="#V" n="38"/>compositam, &amp; aliter in actionibus rei habentis naturam
+            <lb ed="#V" n="39"/>simplicem. Si enim fuerit aliquid habens naturam
+            simpli<lb ed="#V" n="40" break="no"/>cem, omnis actio erit secundum proprietatem, &amp; modum
+            <lb ed="#V" n="41"/>illius naturae, quod non contingit si habeat naturam
+            com<lb ed="#V" n="42" break="no"/>positam, omnis enim actio ignis est secundum
+            proprieta<lb ed="#V" n="43" break="no"/>tem naturae ignis. In cultello autem ignito est quaedam actio
+            <lb ed="#V" n="44"/>non pertinens ad proprietatem, siue naturam ignis scilicet
+            <lb ed="#V" n="45"/>incisio, &amp; hoc etiam considerandum est in substantijs
+            spi<lb ed="#V" n="46" break="no"/>ritualibus. Anima enim humana non est totaliter intellectus,
+            <lb ed="#V" n="47"/>sed participat intellectualitalem. Vnde est in ea aliqua
+            vir<lb ed="#V" n="48" break="no"/>tus &amp; actio. quae non pertinet ad intellectualem naturam,
+            <lb ed="#V" n="49"/>sicut praecipue patet in his quae pertinent ad animam
+            vegeta<lb ed="#V" n="50" break="no"/>bilem, sed angelus est totaliter intellectualis naturae, &amp; ideo
+            <lb ed="#V" n="51"/>oportet, quod omnis eius actio sit secundum intellectum.
+            Vn<lb ed="#V" n="52" break="no"/>de beatus Dionysius dicit. 4. c. de diuinis no. quod angeli
+            ha<lb ed="#V" n="53" break="no"/>bent substantias, &amp; virtutes, &amp; operationes intellectuales.
+            <lb ed="#V" n="54"/>Intellectus etiam non agit, nisi mediante voluntate, quia
+            <lb ed="#V" n="55"/>motus voluntatis est inclinatio sequens formam
+            intelle<lb ed="#V" n="56" break="no"/>ctam, vnde oportet quod quicquid angelus agit, agat per
+            im<lb ed="#V" n="57" break="no"/>perium voluntatis. Sed tamen considerandumest, quod cum
+            <lb ed="#V" n="58"/>virtus sit media inter essentiam &amp; operationem, oportet quod
+            <lb ed="#V" n="59"/>virtus &amp; operatio cuiuslibet rei proportionetur essentiae
+            <lb ed="#V" n="60"/>eius, vnde superioris angeli, cuius est essentia nobilior, est
+            <lb ed="#V" n="61"/>etiam virtus efficacior, sicut ad intelligendum, ita etiam ad
+            <lb ed="#V" n="62"/>agendum in res exteriores, &amp; secundum hoc actio
+            angeli<lb ed="#V" n="63" break="no"/>limitatur ad aliquem effectum, quia nec virtutem, nec
+            es<lb ed="#V" n="64" break="no"/>sentiam habet infinitam. Haec ille.
+          </p>
+          <p xml:id="capsco-b1h178-d1e259">
+            Item ibidem arguendo
+            <lb ed="#V" n="65"/>ad oppositum. q. sic dicit. Omnis actio est ab aliqua
+            virtu<lb ed="#V" n="66" break="no"/>te, sed in angelo non est alia virtus quam intellectus &amp;
+            vo<lb ed="#V" n="67" break="no"/>luntas, intellectus etiam non agit nisi per voluntatem:
+            er<lb ed="#V" n="68" break="no"/>go omnis actio angeli est per imperium voluntatis.
+          </p>
+          <p xml:id="capsco-b1h178-d1e270">
+            Item
+            <lb ed="#V" n="69"/>prima parte quaestione 110. art, 3. probat, quod corpora
+            obedi<cb ed="#V" n="b"/><lb ed="#V" n="70" break="no"/>unt angelis ad motum localem. Item de potentia Dei q.
+            <lb ed="#V" n="71"/>6. articu. 3. dicit. Quia fidei sententia est, quod substantiae
+            sepa<lb ed="#V" n="72" break="no"/>rate siue angeli mouent suo impero corpora caelestia
+            loca<lb ed="#V" n="73" break="no"/>liter, &amp; non solum corpora caelestia, sed etiam alia corpora
+            <lb ed="#V" n="74"/>Deo ordinante &amp; permittente. Idem dicit de malo q. 16.
+            <lb ed="#V" n="75"/>art. 9. in solu. septimi.
+          </p>
+          <p xml:id="capsco-b1h178-d1e289">
+            Item de malo q. 16. art. primo, in
+            so<lb ed="#V" n="76" break="no"/>lutio. 14. sic dicit. In angelo aut daemone, si incorporei
+            po<lb ed="#V" n="77" break="no"/>nantur, non est alia potentia neque operatio nisi intellectus
+            <lb ed="#V" n="78"/>&amp; voluntatis. Vnde Dionysius dicit. 4. ca. de diuinis
+            no<lb ed="#V" n="79" break="no"/>minibus, quod intellectuales sunt omnes eorum substantiae,
+            <lb ed="#V" n="80"/>virtutes, &amp; operationes, oportet enim quod virtus &amp;
+            opera<lb ed="#V" n="81" break="no"/>tio cuiuslibet rei consequatur naturam ipsius. Angelus
+            au<lb ed="#V" n="82" break="no"/>tem non est intellectus secundum suam partem, sicut
+            ani<lb ed="#V" n="83" break="no"/>ma, sed secundum totam naturam suam intellectualis est.
+            <lb ed="#V" n="84"/>Vnde nulla virtus, seu potentia in angelo esse potest, nisi
+            <lb ed="#V" n="85"/>pertinens ad appraehensionem vel appetitum
+            intellectua<lb ed="#V" n="86" break="no"/>lem. Non est autem inconueniens, quod angeli aliqua
+            corpo<lb ed="#V" n="87" break="no"/>ra solo imperio moueant motu duntaxat locali, videmus
+            <lb ed="#V" n="88"/>enim quod anima humana solo intellectu &amp; voluntate
+            mo<lb ed="#V" n="89" break="no"/>uet corpus sibi vnitum. Quanto autem aliqua substantia
+            <lb ed="#V" n="90"/>intellectualis est altior, tanto habet virtutem motiuam
+            <lb ed="#V" n="91"/>magis vniuersalem, vnde substantia intellectualis.
+            separa<lb ed="#V" n="92" break="no"/>ta a corpore potest mouere imperio voluntatis aliquod
+            <lb ed="#V" n="93"/>corpus non sibi vnitum, &amp; tanto magis quanto
+            substan<lb ed="#V" n="94" break="no"/>tia intellectualis fuerit altior, in tantum quod
+            ministe<lb ed="#V" n="95" break="no"/>rio quorundam angelorum corpora caeleitia dicuntur
+            <lb ed="#V" n="96"/>moueri. Est autem solius Dei proprium, quod materia
+            cor<lb ed="#V" n="97" break="no"/>poralis obediat ei ad nutum quantum ad formarum
+            su<lb ed="#V" n="98" break="no"/>sceptionem. Haec ille.
+          </p>
+          <p xml:id="capsco-b1h178-d1e342">
+            Simile tangit secundo sen. distin.
+            <lb ed="#V" n="99"/>7. Et potest formari talis ratio ex eius dictis. In natura
+            <lb ed="#V" n="100"/>totaliter intellectuali non est potentia, nec virtus nisi
+            in<lb ed="#V" n="101" break="no"/>tellectualis, &amp; similiter nec actio non procedens ab
+            intel<lb ed="#V" n="102" break="no"/>lectu, sed angelus est natura totaliter intellectualis,
+            igi<lb ed="#V" n="103" break="no"/>tur in eo non est potentia, virtus, nec actio nisi
+            intellectua<lb ed="#V" n="104" break="no"/>lis Tunc vltra. Omnis potentia intellectualis est
+            intelle<lb ed="#V" n="105" break="no"/>ctus, vel voluntas, sed omnis potentia vel virtus
+            ange<lb ed="#V" n="106" break="no"/>lica est mere intellectualis, igitur quaelibet talis est
+            intel<lb ed="#V" n="107" break="no"/>lectus vel voluntas, maior patet. Tum ex philosopho 2.
+            <lb ed="#V" n="108"/>Ethi. diuidentem rationales potentias in duas, scilicet
+            <lb ed="#V" n="109"/>cognitiuas &amp; appetitiuas, &amp; similiter tertio de anima.
+            <lb ed="#V" n="110"/>Tum per Augustinum quin in mente ponit solum intellectum
+            <lb ed="#V" n="111"/>voluntatem &amp; memoriam, quae memoria ad intellectum
+            <lb ed="#V" n="112"/>pertinet, nunquam autem fecit mentionem de alia
+            poten<lb ed="#V" n="113" break="no"/>tia in mente. Hanc conclusionem probat Bernardus de Gan. in
+            <lb ed="#V" n="114"/>impugnationibus quolibetorum Henrici quolibet. 3. q. 6.
+          </p>
+          <p xml:id="capsco-b1h178-d1e379">
+            <lb ed="#V" n="115"/>Item in impugnationibus quoli. Godofredi quolibet primo
+            <lb ed="#V" n="116"/>q. 4. quaere ibi. Multae conclusiones aliae possent hic
+            poni<lb ed="#V" n="117" break="no"/>de modo, quo angeli mouent corpora, sed quia doctores
+            <lb ed="#V" n="118"/>in eis a Sancto Thoma non discordant, eas dimitto.
+            <lb ed="#V" n="119"/>Et in hoc primus articulus terminatur gratia breuitatis.
+          </p>
+        </div>
+        <div xml:id="capsco-b1h178-Dd1e393">
+          <head xml:id="capsco-b1h178-Hd1e395">Articulus 2</head>
+          <p xml:id="capsco-b1h178-d1e397">
+            <lb ed="#V" n="120"/><milestone ed="#V" unit="p" rend="initial"/> Vantum ad secundum articulum recitandae sunt
+            <lb ed="#V" n="121"/>obiectiones aduersariorum. Quippe contra
+            deter<lb ed="#V" n="122" break="no"/>minationem supra dictam arguit Aureolus primo sic. Quia
+            <lb ed="#V" n="123"/>secundum Commentatorem primo tractatu de
+            substan<lb ed="#V" n="124" break="no"/>tia orbis, &amp; 12. meta commento. 53. In substantijs
+            abstra<lb ed="#V" n="125" break="no"/>ctis &amp; separatis non solum est potentia volitiua &amp;
+            cogni<lb ed="#V" n="126" break="no"/>tiua, sed etiam potentia motiua in loco, &amp; potest ratio
+            se<lb ed="#V" n="127" break="no"/>cundum eius intentionem sic formari. Substantia
+            intelle<lb ed="#V" n="128" break="no"/>ctualis, in eo quod intellectualis habet desiderium, sed
+            vn<lb ed="#V" n="129" break="no"/>de habet desiderium, habet quod habeat virtutem motiua in
+            <lb ed="#V" n="130"/>loco vel ad locum, igitur &amp;c. Maior patet, quia omnem
+            ap<lb ed="#V" n="131" break="no"/>praehensionem sequitur desiderium. Minor probatur, quia
+            <lb ed="#V" n="132"/>desiderium est ad vniendum cum disiderato. Ad huomodi autem
+            <lb ed="#V" n="133"/>vnionem requiritur necessario actus motionis, igitur &amp;c.
+            <lb ed="#V" n="134"/>vnde in omnibus substantijs motiuis sunt ista tria,
+            appraehen<lb ed="#V" n="135" break="no"/>sio, desiderium, &amp; virtus motiua, &amp; secundum quod appraehem
+            <lb ed="#V" n="136"/>sio siue imaginatio est perfectior vel imperfectior, secundum hoc
+            <lb ed="#V" n="137"/>desiderium &amp; motus sunt perfectiora proportionabiliter.
+            <lb ed="#V" n="138"/>Si autem aliqua haberent desiderium, &amp; non haberent
+            vir<lb ed="#V" n="139" break="no"/>tutem motiuam qua possent consequi desiderium, illud
+            <lb ed="#V" n="140"/>esset imperfectum, &amp; natura secisset aliquid frustra, &amp;
+            <lb ed="#V" n="141"/>deficeret in necessarijs. Dicetur forte, quod licet sit in
+            <lb ed="#V" n="142"/>eis potentia motiua, tamen illa non est alia ab
+            intelle<lb ed="#V" n="143" break="no"/>ctu &amp; voluntate, sed sicut ad intellectionem sequitur
+            vo<lb ed="#V" n="144" break="no"/>litio, quam intellectus imprimit in voluntate, ita
+            volitio<pb ed="#V" n="269"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>nem sequitur immediate positio obiecti voliti extra, ita
+            <lb ed="#V" n="2"/>quod in substantijs separatis quando voluntas vult tale
+            <lb ed="#V" n="3"/>quid, statim ponitur in effectu a voluntate eliciente
+            il<lb ed="#V" n="4" break="no"/>lud.
+          </p>
+          <p xml:id="capsco-b1h178-d1e466">
+            Sed contra hoc arguitur. Tum quia incidit in
+            arti<lb ed="#V" n="5" break="no"/>culo excommunicatum Parisijs, qui dicit. Quia
+            ange<lb ed="#V" n="6" break="no"/>lus moueat corpora per intellectum &amp; voluntatem
+            so<lb ed="#V" n="7" break="no"/>lum, error. Tum quia si motio in loco, qua angelus
+            mo<lb ed="#V" n="8" break="no"/>uaet corpus esset a volitione, aut esset a volitione vt est
+            im<lb ed="#V" n="9" break="no"/>perium nullo exequente, aut vt est imperium ipsamet
+            exe<lb ed="#V" n="10" break="no"/>quente, vel vt est imperium aliquo alio exequente.
+            Pri<lb ed="#V" n="11" break="no"/>mus modus est impossibilis, vt scilicet motus fiat nullo
+            <lb ed="#V" n="12"/>exequente. Nec secundus modus, quia velle
+            vollunta<lb ed="#V" n="13" break="no"/>tis nihil aliud est quam imperium, puta, volo quod
+            festu<lb ed="#V" n="14" break="no"/>ca moueatur. Non est autem idem imperium &amp; executio,
+            <lb ed="#V" n="15"/>quod patet, quia tunc voluntas ferretur supra seipsam vt
+            <lb ed="#V" n="16"/>exequens est. Nec tertius modus potest dari, quod
+            exe<lb ed="#V" n="17" break="no"/>cutio sit ab illo mobili, quoniam tunc tale idem moueret
+            <lb ed="#V" n="18"/>se: ergo oportet dare necessario, quod potentia motiua
+            <lb ed="#V" n="19"/>sit alia a mobili &amp; a voluntate &amp; a volitione.
+          </p>
+          <p xml:id="capsco-b1h178-d1e501">
+            Confirmatur.
+            <lb ed="#V" n="20"/>Quia alias actus voluntatis esset productiuus, quod est
+            <lb ed="#V" n="21"/>falsum, vt patet. Nam primo Ethi. &amp;. 9. metaphy. dicit
+            <lb ed="#V" n="22"/>philosophus, quod operationes intellectus &amp; voluntatis
+            <lb ed="#V" n="23"/>sunt fines, ita quod ab ipsis non sunt alia operata.
+          </p>
+          <p xml:id="capsco-b1h178-d1e512">
+            Secun<lb ed="#V" n="24" break="no"/>do sic. Potentia motiua in loco inmediate exequendo non
+            <lb ed="#V" n="25"/>est in nobis voluntas, nec intellectus, igitur nec in
+            ange<lb ed="#V" n="26" break="no"/>lo, tenet consequentia, quia ex hac similitudine in nobis
+            <lb ed="#V" n="27"/>reperta arguit aduersarius putans, quod sicut in nobis
+            <lb ed="#V" n="28"/>non est alia potentia motiua praeter intellectum &amp;
+            volun<lb ed="#V" n="29" break="no"/>tatem, ita nec in angelo. Assumptum probatur &amp;
+            sup<lb ed="#V" n="30" break="no"/>pono, quod idem sit in nobis quandoque motus
+            volunta<lb ed="#V" n="31" break="no"/>rius &amp; naturalis, quod possibile est, &amp; de facto
+            contin<lb ed="#V" n="32" break="no"/>git, sicut motus palpebrarum, &amp; cordis qui est respirare.
+            <lb ed="#V" n="33"/>Potes enim voluntarie respirare, &amp; tamen cogeris
+            necessa<lb ed="#V" n="34" break="no"/>rio respirare. Sunt tamen quidam motus omnino
+            volun<lb ed="#V" n="35" break="no"/>tarii, quidam autem omnino naturales, nunc ostendo,
+            <lb ed="#V" n="36"/>quod motus iste, qui est naturalis, &amp; cum hoc
+            volunta<lb ed="#V" n="37" break="no"/>rius non sit immediate a voluntate, sic. Cessante primo
+            <lb ed="#V" n="38"/>agente, necessario cessat motio, quae attribuitur illi
+            po<lb ed="#V" n="39" break="no"/>tentie, vel cessat eius effectus, sed intellectu, &amp; desiderio,
+            <lb ed="#V" n="40"/>&amp; imaginatione cessante non cessat motus respirationis,
+            <lb ed="#V" n="41"/>nec palpebrarum, igitur &amp;c. Tertio. Quia philosophus. 7.
+            <lb ed="#V" n="42"/>Ethi. dicit, quod virtus motiua est obediens intellectui
+            <lb ed="#V" n="43"/>&amp; voluntati, sicut patet in paraliticis, &amp; comparat illam
+            <lb ed="#V" n="44"/>potentiam motiuam appetitui incontinentis. Tunc sic.
+            Im<lb ed="#V" n="45" break="no"/>possibile est, quod potentia eliciat actum, &amp; quod actus
+            <lb ed="#V" n="46"/>ille non sit in eius obedientia, sed sit totaliter siue
+            princi<lb ed="#V" n="47" break="no"/>paliter elicitus ab ea. Quarto. Potentia motiua ponit
+            <lb ed="#V" n="48"/>obiectum suum in esse reali, ponit enim motum, sed
+            po<lb ed="#V" n="49" break="no"/>tentia intellectiua vel volitiua non ponit sic obiectum
+            <lb ed="#V" n="50"/>suum in esse reali, ex hoc enim quod res est volitio vel
+            in<lb ed="#V" n="51" break="no"/>tellecta, non habet res, quod sit posita in esse reali, igitur
+            <lb ed="#V" n="52"/>&amp;c.
+          </p>
+          <p xml:id="capsco-b1h178-d1e578">
+            Quinto sic. Actus genere differentes reducuntur ad
+            <lb ed="#V" n="53"/>potentias genere differentes, sed intelligere &amp; velle ex vna
+            <lb ed="#V" n="54"/>parte &amp; mouere secundum locum ex alia sunt actus
+            diffe<lb ed="#V" n="55" break="no"/>rentes genere, quia intelligere &amp; velle sunt actus vitales,
+            <lb ed="#V" n="56"/>non autem mouere secundum locum, igitur. Haec ille.
+            <lb ed="#V" n="57"/>arguit etiam Henri 13. quolibet. quaest. sexta. Proprium
+            <lb ed="#V" n="58"/>est inquit Deo, quod sola voluntate producit res: ergo
+            <lb ed="#V" n="59"/>hoc non debet attribui angelo, nec homini, non enim ex
+            <lb ed="#V" n="60"/>hoc, quod angelus vel homo volunt aliquid, statim
+            il<lb ed="#V" n="61" break="no"/>lud est factum sed post voluntatem requiritur alia vis
+            <lb ed="#V" n="62"/>motiua, quae de proximo producit opus. Primum
+            er<lb ed="#V" n="63" break="no"/>go principium motus in nobis est intellectus
+            repraesen<lb ed="#V" n="64" break="no"/>tans appetibile.
+          </p>
+          <p xml:id="capsco-b1h178-d1e607">
+            Secundum est voluntas determinans &amp;
+            <lb ed="#V" n="65"/>imperans viribus motiuis. Tertium sunt vires motiuae,
+            <lb ed="#V" n="66"/>vnde angelus mouet per intellectum, vt per primum
+            <lb ed="#V" n="67"/>principium, per voluntatem tanquam per principium
+            <lb ed="#V" n="68"/>medium, sed per vim motiuam tanquam per
+            principi<lb ed="#V" n="69" break="no"/>um proximum. Arguit etiam Godofre. primo quolibet
+            <lb ed="#V" n="70"/>quaestione quarta. Primo. Quia in solo Deo non differt
+            <lb ed="#V" n="71"/>velle &amp; agere: ergo in angelo virtus motiua est alia a
+            vo<lb ed="#V" n="72" break="no"/>luntate. Secundo. Sicut potentiae apprehensiuae est
+            ap<lb ed="#V" n="73" break="no"/>praehendere actum exterius transeuntem, &amp; in hoc
+            diri<lb ed="#V" n="74" break="no"/>gere appetitum, ita actus appetitus est velle talem
+            a<lb ed="#V" n="75" break="no"/>ctum, &amp; imperare quod fiat, sed velle vel imperare,
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="76"/>quod aliquid moueatur, non est mouere, vel actum
+            eli<lb ed="#V" n="77" break="no"/>cere, vel exequi: ergo in angelo praeter voluntatem
+            requi<lb ed="#V" n="78" break="no"/>ritur alia virtus motiua exequens motum imperatum a
+            <lb ed="#V" n="79"/>voluntate. Tertio. Quia angelus secundum intellectum
+            <lb ed="#V" n="80"/>&amp; voluntatem aequaliter se habet ad propinquum &amp;
+            di<lb ed="#V" n="81" break="no"/>stans, sed secundum potentiam, qua mouet corpus, non
+            <lb ed="#V" n="82"/>aequaliter se habet ad propinquum &amp; distans, quia ibi est,
+            <lb ed="#V" n="83"/>vbi operatur, oportet ergo ponere aliquod principium
+            <lb ed="#V" n="84"/>actiuum praeter intellectum &amp; voluntatem. Potest etiam
+            <lb ed="#V" n="85"/>argui contra conclusionem sic. Primo. Nam Sanctus
+            <lb ed="#V" n="86"/>Thomas de potentia Dei quaest. 6. articulo tertio in solu.
+            <lb ed="#V" n="87"/>secundi dicit contrarium conclusionis. ait enim sic Formae
+            <lb ed="#V" n="88"/>rerum naturalium in mente angelica existentes sunt
+            ma<lb ed="#V" n="89" break="no"/>gis actualis quam formae. quae sunt in materia, &amp; propter
+            <lb ed="#V" n="90"/>hoc sunt immediatum principium operationis, quae est
+            <lb ed="#V" n="91"/>intelligere, operationes vero quae est actio materiam
+            tran<lb ed="#V" n="92" break="no"/>smutans, non sunt immediatum principium, sed
+            median<lb ed="#V" n="93" break="no"/>te voluntate, &amp; voluntas mediante virtute, &amp; virtus
+            im<lb ed="#V" n="94" break="no"/>mediate mouet motum localem, quo motu mediante est
+            <lb ed="#V" n="95"/>causa aliorum motuum, &amp; est causa aliqua inductionis
+            <lb ed="#V" n="96"/>formae in materia.
+          </p>
+          <p xml:id="capsco-b1h178-d1e681">
+            Item in solu. tertij dicit simile. Et sic
+            vi<lb ed="#V" n="97" break="no"/>detur, quod conclusio principalis non est de mente eius,
+            <lb ed="#V" n="98"/>vel si sic, tunc contradicit sibijpsi. Secundo. Quia. 9.
+            quo<lb ed="#V" n="99" break="no"/>libet. articu. 10. in solu. secundi sic dicit. Angelus agit in
+            <lb ed="#V" n="100"/>hec corpora mouendo ea localiter per imperium, sed
+            <lb ed="#V" n="101"/>sed hoc imperium non est sine virtute actiua, quam
+            opor<lb ed="#V" n="102" break="no"/>tet aliquo modo contingere corpus motum, cum mouens
+            <lb ed="#V" n="103"/>&amp; motum oporteat esse simul, vt probatur. 7. phys. Haec
+            <lb ed="#V" n="104"/>ille. Ex quibus videtur dicere contrarium conclusionis. Et
+            <lb ed="#V" n="105"/>in hoc secundus articulus terminatur.
+          </p>
+        </div>
+        <div xml:id="capsco-b1h178-Dd1e704">
+          <head xml:id="capsco-b1h178-Hd1e706">Articulus 3</head>
+          <p xml:id="capsco-b1h178-d1e708">
+            <lb ed="#V" n="106"/><milestone ed="#V" unit="p" rend="initial"/> QVantum ad tertium articulum soluendae sunt in
+            op<lb ed="#V" n="107" break="no"/>positum rationes. Et ad primam siquidem, quae est
+            <lb ed="#V" n="108"/>Aureoli, conceditur, quod quilibet angelus habet
+            poten<lb ed="#V" n="109" break="no"/>tiam motiuam, sed illa non differt realiter ab eius
+            volun<lb ed="#V" n="110" break="no"/>tate. Et ideo responsio ibidem data bona est, &amp; male,
+            <lb ed="#V" n="111"/>&amp; in sufficienter improbatur, sicut patet discurrenti per
+            <lb ed="#V" n="112"/>singulas improbationes. Nam ad primam respondet
+            Du<lb ed="#V" n="113" break="no"/>randus dicens, quod positio nostra non est contra
+            articu<lb ed="#V" n="114" break="no"/>lum, qui dicit, quod angelus non mouet sola voluntate,
+            <lb ed="#V" n="115"/>quia licet inquit angelus non habeat aliam potentiam
+            <lb ed="#V" n="116"/>motiuam nisi voluntatem, non tamen subijcitur
+            volun<lb ed="#V" n="117" break="no"/>tati suae ad actum mouendi, quicquid ei subijcitur quo
+            <lb ed="#V" n="118"/>ad actum volendi. Vnde non potest mouere quascunque
+            <lb ed="#V" n="119"/>res, nec qualitercunque vellet, aut placeret, sed
+            deter<lb ed="#V" n="120" break="no"/>minato modo, prout natura exigit, vel Deus praecipit,
+            <lb ed="#V" n="121"/>seu permittit, sicut &amp; Deus non omnia vult, quae scit
+            <lb ed="#V" n="122"/>quanquam non sit in eo aliud voluntas, &amp; aliud scientia,
+            <lb ed="#V" n="123"/>sed vnum &amp; idem, quia ad plura extendit se obiectum
+            sci<lb ed="#V" n="124" break="no"/>entiae quam voluntatis. Sic in angelo quamuis idem sit
+            vo<lb ed="#V" n="125" break="no"/>luntas, quod sua potentia motiua, ad plura tamen se
+            ex<lb ed="#V" n="126" break="no"/>tendit in volendo quam in mouendo. Haec Duran. Et
+            <lb ed="#V" n="127"/>concordat in hoc cum Sancto Thoma quolibeto. 7. q. 3. in
+            <lb ed="#V" n="128"/>solu. secundi, vbi dicit. Actio vo luntatis limitatur
+            se<lb ed="#V" n="129" break="no"/>cundum modum essentie, &amp; ideo non oportet, quod
+            an<lb ed="#V" n="130" break="no"/>gelus omnia possit agere, quae potest velle. Haec ille.
+          </p>
+          <p xml:id="capsco-b1h178-d1e766">
+            <lb ed="#V" n="131"/>Ex quibus patet, quod articulus non est contra nos, se
+            <lb ed="#V" n="132"/>solum contra ponentes angelum mouere corpora per
+            in<lb ed="#V" n="133" break="no"/>tellectum &amp; voluntatem solum adhuc intellectum, quod
+            <lb ed="#V" n="134"/>voluntas angelica sit efficax ad mouendum quicquid
+            po<lb ed="#V" n="135" break="no"/>test velle mouere, &amp; qualitercunque velit mouere, vel quod
+            <lb ed="#V" n="136"/>a quantacunque distantia possit mouere, &amp; quod non
+            requira<lb ed="#V" n="137" break="no"/>tur simultas vnius ad aliud, nec proportio, quod nos non
+            <lb ed="#V" n="138"/>dicimus.
+          </p>
+          <p xml:id="capsco-b1h178-d1e786">
+            Ad secundam improbationem conceditur
+            se<lb ed="#V" n="139" break="no"/>cundum membrum diuisionis ibidem positae scilicet quod
+            <lb ed="#V" n="140"/>motus localis corporis est a voluntate angeli volente
+            mo<lb ed="#V" n="141" break="no"/>tum &amp; eundem exsequente, ita quodipsamet vult, &amp;
+            impe<lb ed="#V" n="142" break="no"/>rat motum, &amp; eundem exequitur. Et cum dicit arguens
+            <lb ed="#V" n="143"/>contra hoc, quia non est idem imperium, &amp; executio &amp;c.
+            <lb ed="#V" n="144"/>Dicitur primo, quod falsum supponit scilicet quod
+            impe<lb ed="#V" n="145" break="no"/>rium voluntatis sit idem quod velle. Nam beatus Thomas
+            pri<lb ed="#V" n="146" break="no"/>secundae. q. 17. ar. primo probat, quod imperare est actus
+            in<lb ed="#V" n="147" break="no"/>tellectus, &amp; non voluntatis. Secundo. Quia dato, quod
+            impe<lb ed="#V" n="148" break="no"/>rium sit actus voluntatis, non sequitur quod idem actus
+            <lb ed="#V" n="149"/>sit imperium &amp; executio, proprie loquendo, sed quod
+            <lb ed="#V" n="150"/>imperium sit actus voluntatis, &amp; quod executio sit ipsa actio
+            <pb ed="#V" n="270"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>transiens in corpus mobile, sicut enim supra dictum est,
+            mo<lb ed="#V" n="2" break="no"/>tus, &amp; actio, &amp; passio sunt eadem res sub diuersis
+            respecti<lb ed="#V" n="3" break="no"/>bus &amp; rationibus. Dicimus igitur, quod executio est ipsa
+            <lb ed="#V" n="4"/>motio actiua angeli, &amp; non est actus voluntatis
+            imma<lb ed="#V" n="5" break="no"/>nens, sed transiens, ita quod ipsa voluntas angeli, quae
+            cor<lb ed="#V" n="6" break="no"/>pora mouet habet duos actus, vel duas actiones, quarum
+            <lb ed="#V" n="7"/>vna dicitur immanens scilicet ipsum velle, &amp; alia dicitur
+            <lb ed="#V" n="8"/>transiens scilicet motio corporis, &amp; secunda dependet a
+            <lb ed="#V" n="9"/>prima, &amp; sequitur ex prima. False ergo imaginatur arguens
+            <lb ed="#V" n="10"/>scilicet quod velle angeli, &amp; motum corporis, sit
+            necessa<lb ed="#V" n="11" break="no"/>ria executio distincta realiter a motu, hoc enim falsum est,
+            <lb ed="#V" n="12"/>quia cum motus exterior sit quaedam actio &amp; executio,
+            <lb ed="#V" n="13"/>non indiget alia executionae, aut actione, qua ponatur in
+            <lb ed="#V" n="14"/>esse, quia sic esset processus in infinitum. Ad
+            confirmatio<lb ed="#V" n="15" break="no"/>nem conceditur, quod actus voluntatis est productiuus,
+            <lb ed="#V" n="16"/>sicut patet de habitibus intellectualibus &amp; moralibus, qui
+            <lb ed="#V" n="17"/>ex actibus intellectus &amp; voluntatis producuntur, vt
+            pro<lb ed="#V" n="18" break="no"/>batur secundo Ethi. Ad dictum Arisoteles dicitur, quod mens
+            <lb ed="#V" n="19"/>eius est, quod velle &amp; intelligere non sunt tales actiones,
+            <lb ed="#V" n="20"/>quae ex natura sua, vt tales sunt, relinquant effectum extra
+            <lb ed="#V" n="21"/>operantem illas, sed non negat quin intelligere &amp; velle, vt
+            <lb ed="#V" n="22"/>sunt in Deo, vel in angelo sint actiones productiuae motus
+            <lb ed="#V" n="23"/>exterioris, aut formae materialis substantialis, vel
+            acciden<lb ed="#V" n="24" break="no"/>talis, vnde ibi loquebatur de velle &amp; intelligere humano
+            <lb ed="#V" n="25"/>duntaxat.
+          </p>
+          <p xml:id="capsco-b1h178-d1e873">
+            Ad secundum principale negatur
+            consequen<lb ed="#V" n="26" break="no"/>tia. Nec Sanctus Thomas facit illam vnquam, nec probat
+            con<lb ed="#V" n="27" break="no"/>clusionem suam per illud medium, sicut arguens fingit,
+            <lb ed="#V" n="28"/>sed per aliud medium, quod patet in probatione
+            conclu<lb ed="#V" n="29" break="no"/>sionis.
+          </p>
+          <p xml:id="capsco-b1h178-d1e885">
+            Item Sanctus Thomas concedit antecedens scilicet
+            <lb ed="#V" n="30"/>quod in nobis est alia potentia motiua corporis ad motum
+            <lb ed="#V" n="31"/>localem praeter intellectum &amp; voluntatem, quod patet.
+            <lb ed="#V" n="32"/>Nam prima parte. q. 78. art. primo in solutione quarti sic
+            <lb ed="#V" n="33"/>dicit. Quamuis sensus &amp; appetitus sint principia mouentia
+            <lb ed="#V" n="34"/>in animalibus perfectis, non tamen seusus &amp; appetitus,
+            <lb ed="#V" n="35"/>inquantum huiusmodi sufficiunt ad mouendum, nisi
+            su<lb ed="#V" n="36" break="no"/>peradderetur eis alia virtus. Nam in animalibus
+            immo<lb ed="#V" n="37" break="no"/>bilibus est sensus &amp; appetitus, non tamen habent vim
+            mo<lb ed="#V" n="38" break="no"/>tiuam. Haec autem vi motiua non solum est in sensu &amp;
+            <lb ed="#V" n="39"/>sin appetitu, vt in imperante motum, sed est etiam in ipsis
+            <lb ed="#V" n="40"/>partibus corporis, vt sint habilia ad obediendum animae
+            <lb ed="#V" n="41"/>mouenti, cuius signum est, quod quando membra
+            re<lb ed="#V" n="42" break="no"/>mouentur a sua naturali dispositione, non obediunt
+            ap<lb ed="#V" n="43" break="no"/>petitui ad motum. Haec ille.
+          </p>
+          <p xml:id="capsco-b1h178-d1e918">
+            Licet autem voluntas
+            hu<lb ed="#V" n="44" break="no"/>mana non moueat immediate membra corporis ad
+            mo<lb ed="#V" n="45" break="no"/>tum localem, mouet tamen immediate intellectum, &amp;
+            <lb ed="#V" n="46"/>mediante intellectu omnes alias potentias animae ad
+            <lb ed="#V" n="47"/>suos actus, sicut ostendit Sanctus Thomas prima secundae
+            <lb ed="#V" n="48"/>quaest. nona articulo primo.
+          </p>
+          <p xml:id="capsco-b1h178-d1e931">
+            Item prima parte
+            quaestio<lb ed="#V" n="49" break="no"/>ne 28. articulo quarto. Item de malo quaestione sexta
+            ar<lb ed="#V" n="50" break="no"/>ticulo vnico. Item prima secundae quaestione 17.
+            osten<lb ed="#V" n="51" break="no"/>dit, quod actus voluntatis, &amp; rationis, &amp; appetitus
+            <lb ed="#V" n="52"/>sensitiui subduntur imperio rationis, &amp; obediunt ei,
+            <lb ed="#V" n="53"/>licet non in omnibus.
+          </p>
+          <p xml:id="capsco-b1h178-d1e944">
+            Item posito, quod potentia
+            mo<lb ed="#V" n="54" break="no"/>tiua animalis sit alia a virtute cognitiua &amp; appetitiua,
+            <lb ed="#V" n="55"/>forte illa est potentia passiua potius quam actiua. Et tunc
+            <lb ed="#V" n="56"/>dicitur ad argumentum, quod in illo casu cessat mouens
+            <lb ed="#V" n="57"/>partiale scilicet voluntas, non tamen totale, quia
+            ta<lb ed="#V" n="58" break="no"/>lis motus palpebrarum non solum causatur a voluntate,
+            <lb ed="#V" n="59"/>immo a natura. Nam motus cordis &amp; alij motus
+            natu<lb ed="#V" n="60" break="no"/>rales causantur a generante, sicut motus grauium &amp;
+            le<lb ed="#V" n="61" break="no"/>uium, &amp; consequuntur formam animalis, ideo
+            rema<lb ed="#V" n="62" break="no"/>nent cessante actu voluntatis, sed motus animalis, qui
+            <lb ed="#V" n="63"/>non sic est naturalis, causatur ab appetitu mediante
+            vir<lb ed="#V" n="64" break="no"/>tute executiua, quae potius est passiua quam actiua. Ad
+            <lb ed="#V" n="65"/>tertium dicitur, quod verum concludit, sed non
+            con<lb ed="#V" n="66" break="no"/>tra conclusionem. Nam Sanctus Thomas prima
+            secun<lb ed="#V" n="67" break="no"/>dae quaest.. 17. articulo septimo docet quomodo actus
+            <lb ed="#V" n="68"/>appetitus sensitiui non semper subditur imperio
+            ratio<lb ed="#V" n="69" break="no"/>nis. Et articulo nono docet, quod membra corporis
+            <lb ed="#V" n="70"/>non semper obediunt voluntati quo ad motum localem.
+            <lb ed="#V" n="71"/>Et ideo conceditur, quod in homine est alia potentia
+            <lb ed="#V" n="72"/>motiua praeter intellectum &amp; voluntatem, secus est in
+            <lb ed="#V" n="73"/>angelo.
+          </p>
+          <p xml:id="capsco-b1h178-d1e990">
+            Ad quartum dicitur, quod non aliud
+            conclu<lb ed="#V" n="74" break="no"/>dit, nisi quod voluntas angeli non est omnipotens, nec
+            <lb ed="#V" n="75"/>potest mouere quicquid vult, quod conceditur, sed non
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="76"/>concludit, quin aliquem motum localem corporum
+            im<lb ed="#V" n="77" break="no"/>mediate causet, &amp; ponat in esse reali. Et ideo minor
+            <lb ed="#V" n="78"/>argumenti falsa est, si intelligatur vniuersaliter, quod
+            po<lb ed="#V" n="79" break="no"/>tentia volitiua nihil ponit in esse reali. Si autem
+            intelli<lb ed="#V" n="80" break="no"/>gatur solum particulariter, argumentum nihil est
+            con<lb ed="#V" n="81" break="no"/>tra nos.
+          </p>
+          <p xml:id="capsco-b1h178-d1e1012">
+            Ad quintum dicitur, quod si valet, probaret
+            <lb ed="#V" n="82"/>quod in Deo differrent realiter voluntas &amp; potentia
+            <lb ed="#V" n="83"/>motiua, sicut patet applicare volenti: &amp; sic patet quod
+            <lb ed="#V" n="84"/>cum falsum concluderet, argumentum non valet, vel
+            <lb ed="#V" n="85"/>aliqua praemissarum falsa est. Secundo dicitur, quod
+            <lb ed="#V" n="86"/>etiam loquendo de potentiarum distinctione in
+            creatu<lb ed="#V" n="87" break="no"/>ris maior argumenti falsa est, quia possibile est, quod
+            <lb ed="#V" n="88"/>aliqua potentia vna secundum rem extendat se ad actus
+            <lb ed="#V" n="89"/>genere differentes, vel ad obiecta differentia secundum
+            ge<lb ed="#V" n="90" break="no"/>nus, quando respicit talia sub aliqua ratione
+            communi<lb ed="#V" n="91" break="no"/>ad duo genera, sicut intellectus extendit se ad obiecta
+            <lb ed="#V" n="92"/>omnium potentiarum sensitiuarum quantuncunque sint
+            <lb ed="#V" n="93"/>distincta genere, quia respicit illa sub communi ratione
+            <lb ed="#V" n="94"/>entis, aut veri. Et consimiliter extendit se ad actus
+            ge<lb ed="#V" n="95" break="no"/>nere differentes, sicut ad appraehensionem discursiuam &amp;
+            <lb ed="#V" n="96"/>non discursiuam, &amp; huiusmodi inquantum reducuntur
+            <lb ed="#V" n="97"/>ad aliquid omne vtrique appraehensioni. Ita in
+            proposi<lb ed="#V" n="98" break="no"/>to voluntas angeli se potest extendere ad velle, &amp; ad
+            mo<lb ed="#V" n="99" break="no"/>uere, inquantum conueniunt sub aliqua ratione
+            com<lb ed="#V" n="100" break="no"/>muni, puta smpulsione, vel tendentia ad rem, vel
+            lar<lb ed="#V" n="101" break="no"/>gitione, vel communicatione, omnia si quidem talia
+            per<lb ed="#V" n="102" break="no"/>tinent ad officium voluntatis. Et ad hoc facit, quod
+            di<lb ed="#V" n="103" break="no"/>cit Durandus probando conclusionem principialem.
+            Si<lb ed="#V" n="104" break="no"/>cut inquit se habet omnis cognitio nostra ad intellectum
+            <lb ed="#V" n="105"/>angeli, sic omnis vis motiua nostra se habet ad
+            volun<lb ed="#V" n="106" break="no"/>tatem angeli, sed omnia quae nos sensu, &amp; intellectu
+            co<lb ed="#V" n="107" break="no"/>gnoscimus, angelus solo intellectu cognoscit: ergo a
+            si<lb ed="#V" n="108" break="no"/>mili, quicquid nos voluntate, aut alia vi motiua facimus.
+            <lb ed="#V" n="109"/>angelus per voluntatem perficit. Ad argument. Henri
+            <lb ed="#V" n="110"/>dicitur, quod licet sit proprium soli Deo sola voluntate
+            <lb ed="#V" n="111"/>producere ad extra omne producibile, tamen mouere
+            <lb ed="#V" n="112"/>corpora localiter sola voluntate, hoc est interueniente alia
+            <lb ed="#V" n="113"/>potentia media, non est proprium soli Deo, immo
+            con<lb ed="#V" n="114" break="no"/>uenit angelis modo superius dicto. Ad hoc facit optime
+            <lb ed="#V" n="115"/>dictum Sancti Thomas de malo quaest. 16. articulo nono
+            <lb ed="#V" n="116"/>in solutione septimi, vbi sic dicit. Si angeli boni, vel
+            dae<lb ed="#V" n="117" break="no"/>mones per voluntatem &amp; intellectum moueant caelos,
+            <lb ed="#V" n="118"/>non tamen sequitur, quod possint aliter mouere, sed
+            <lb ed="#V" n="119"/>secundum modum proportionatum naturae ipsorum,
+            an<lb ed="#V" n="120" break="no"/>gelus enim non est sua voluntas, sicut Deus, sed habet
+            <lb ed="#V" n="121"/>voluntatem in natura determinata, &amp; secundum
+            mo<lb ed="#V" n="122" break="no"/>dum eius voluntas effectum sortitur. Deus autem, qui
+            <lb ed="#V" n="123"/>est ipsa voluntas indifferenter potest facere quicquid
+            <lb ed="#V" n="124"/>potest cadere sub voluntate. Haec ille.
+          </p>
+          <p xml:id="capsco-b1h178-d1e1109">
+            De hoc
+            quo<lb ed="#V" n="125" break="no"/>modo scilicet materia &amp; res corporales aliter subsunt
+            im<lb ed="#V" n="126" break="no"/>perio voluntatis diuinae quam angelicae, late prosequitur
+            <lb ed="#V" n="127"/>de potentia Dei. quaestio. sexta articulo tertio, &amp; in
+            mul<lb ed="#V" n="128" break="no"/>tis alijs locis.
+          </p>
+          <p xml:id="capsco-b1h178-d1e1120">
+            Ad primum Godofredi, dicitur, quod in
+            <lb ed="#V" n="129"/>solo Deo non differt velle &amp; agere ad extra, nec nos
+            hu<lb ed="#V" n="130" break="no"/>ius oppositum dicimus. Non enim sequitur, angelus
+            <lb ed="#V" n="131"/>per voluntatem, aut intellectum mouet aliqua
+            corpora<lb ed="#V" n="132" break="no"/>aliquo modo sibi a Deo praefixo: ergo suum velle est
+            su<lb ed="#V" n="133" break="no"/>um agere, vel mouere ad extra, quia sicut supra dictum
+            <lb ed="#V" n="134"/>est, angelus dum mouet corpus, habet duplicem
+            actio<lb ed="#V" n="135" break="no"/>nem scilicet immanentem, quae est velle, &amp; transeuntem
+            <lb ed="#V" n="136"/>in aliud, quae est mouere, &amp; sic non sequitur, quod illud
+            <lb ed="#V" n="137"/>quod est proprium Deo, nos attribuamus angelo. Ad
+            se<lb ed="#V" n="138" break="no"/>cundum dicitur, quod consequentia non valet, quia
+            li<lb ed="#V" n="139" break="no"/>cet volitio angeli non sit actio ad extra, nec suum velle
+            <lb ed="#V" n="140"/>sit suum agere ad extra, tamen istae duae actiones ab
+            ea<lb ed="#V" n="141" break="no"/>dem potentia procedunt ordine quodam scilicet velle
+            <lb ed="#V" n="142"/>&amp; mouere, &amp; vna est causa alterius.
+          </p>
+          <p xml:id="capsco-b1h178-d1e1153">
+            Ad tertium negatur
+            <lb ed="#V" n="143"/>maior. Dicitur enim quod angelus secundum
+            volunta<lb ed="#V" n="144" break="no"/>tem, inquantum est volitiua, aequaliter se habet ad
+            pro<lb ed="#V" n="145" break="no"/>pinquum &amp; distans, sed non inquantum est
+            motiua<lb ed="#V" n="146" break="no"/>Vnde argumentum non concludit, quod potentia
+            voliti<lb ed="#V" n="147" break="no"/>ua &amp; motiua in angelo differant realiter, sed solum
+            secun<lb ed="#V" n="148" break="no"/>dum rationem. Ad arg. ex quibus infertur contradictio
+            <lb ed="#V" n="149"/>in dictis Sancti Thomae dicitur, quod Sanctus Thomas in locis ibidem
+            <lb ed="#V" n="150"/>allegatis non intendit ponere inter potentiam motiuam
+            <pb ed="#V" n="271"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>angeli &amp; volitiuam, differentiam secundum rem, sed
+            se<lb ed="#V" n="2" break="no"/>cundum rationem tantum. Vel forte vocat potentiam
+            moti<lb ed="#V" n="3" break="no"/>nam localiter ipsam volitionem angeli, qua vult mouere,
+            <lb ed="#V" n="4"/>vel potius voluntatem sub tali actu, &amp; sic accipiendo
+            po<lb ed="#V" n="5" break="no"/>tentiam motiuam in loco, constat, quod distinguitur a
+            vo<lb ed="#V" n="6" break="no"/>luntate sicut accidens a subiecto, vel sicut pars a toto. Sed
+            <lb ed="#V" n="7"/>prima solutio videtur melior.
+          </p>
+          <p xml:id="capsco-b1h178-d1e1192">
+            Ad argumentum in pede
+            <lb ed="#V" n="8"/>quaestionis factum patet solutio per praedicta. Vnde
+            Du<lb ed="#V" n="9" break="no"/>randus ad hoc respondit dicens, quod argumentum ex
+            <lb ed="#V" n="10"/>falsa imaginatione procedit, quia vt dicit angelus per suam
+            <lb ed="#V" n="11"/>essentiam, nec est loco propinquus, nec remotus. Vnde
+            <lb ed="#V" n="12"/>si poneretur in angelo virtus motiua alia a voluntate, ita
+            <lb ed="#V" n="13"/>esset abstracta a loco &amp; a distantia locali sicut voluntas,
+            <lb ed="#V" n="14"/>Adhuc dato, quod in angelo requireretur approximatio
+            <lb ed="#V" n="15"/>localis ad rem motam, non potest concludi, quin
+            volun<lb ed="#V" n="16" break="no"/>tas angeli sit motiua virtus, quia tunc diceretur, quod
+            li<lb ed="#V" n="17" break="no"/>cet voluntas angeli non requirat approximationem quo
+            <lb ed="#V" n="18"/>ad actum volendi, requirit tamen quo ad actum
+            mouen<lb ed="#V" n="19" break="no"/>di, quia secundum istam positionem habet duplicem
+            a<lb ed="#V" n="20" break="no"/>ctum, scilicet velle &amp; mouere, sicut si calor esset volitiuus
+            <lb ed="#V" n="21"/>&amp; calefactiuus, ad volendum quidem non requireretur
+            <lb ed="#V" n="22"/>approximatio, sed solum ad calefaciendum. Haec ille,
+            <lb ed="#V" n="23"/>&amp; bene. Et haec de quaestione dicta sufficiant.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

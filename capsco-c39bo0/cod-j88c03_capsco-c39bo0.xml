@@ -1,0 +1,945 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 3, Distinctio 13, Quaestio 1</title>
+        <author ref="#JohannesCapreolus">Johannes Capreolus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 3, Distinctio 13, Quaestio 1</title>
+          <date when="2026-11-04">Nov 4, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-j88c03">Venice, 1589, v. 3</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-04" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="95"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="capsco-c39bo0"><!-- l3d13q1 -->
+        <head xml:id="capsco-c39bo0-Hd1e101">Quaestio 1</head>
+        <head xml:id="capsco-c39bo0-Hd1e103" type="question-title">Utrum anima Christi habuerit gratiam creatam formaliter et infinitam</head>
+        <p xml:id="capsco-c39bo0-d1e106">
+          <pb ed="#V" n="95"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>DISTINCTIO IIII.
+          <lb ed="#V" n="2"/>QVAESTIO VNICA
+          <lb ed="#V" n="3"/>Vtrum anima Christi habuerit gratiam creatam
+          <lb ed="#V" n="4"/>formasiter &amp; infinitam.
+        </p>
+        <p xml:id="capsco-c39bo0-d1e122">
+          <lb ed="#V" n="5"/><milestone ed="#V" unit="p" rend="initial"/> CIRCA tertiam decimam
+          distinctio<lb ed="#V" n="6" break="no"/>nem tertij sententiarum quaeritur.
+          <lb ed="#V" n="7"/>Vtrum anima Christi habuerit gratiam
+          <lb ed="#V" n="8"/>creatam formaliter &amp; actu infinitam.
+        </p>
+        <p xml:id="capsco-c39bo0-d1e134">
+          &amp;
+          <lb ed="#V" n="9"/>arguitur quod sic. Quia omne
+          immen<lb ed="#V" n="10" break="no"/>sum est infinitum, sed gratia animae
+          Chri<lb ed="#V" n="11" break="no"/>sti est immensa, dicitur enim Ioan. 3. Non
+          <lb ed="#V" n="12"/>enim ad mensuram dat Deus spiritum scilicet Christo:
+          er<lb ed="#V" n="13" break="no"/>go gratia Christi est infinita.
+        </p>
+        <p xml:id="capsco-c39bo0-d1e148">
+          <lb ed="#V" n="14"/><milestone ed="#V" unit="p" rend="indent"/> In oppositum arguitur. Quia gratia animae Christi est quod
+          <lb ed="#V" n="15"/>creatum in anima, sed omne creatum est finitum
+          secun<lb ed="#V" n="16" break="no"/>dum illud Sa. 11. Omnia in numero, &amp; pondere, &amp;
+          mensu<lb ed="#V" n="17" break="no"/>ra constituisti, ergo gratia Christi non est infinita.
+        </p>
+        <p xml:id="capsco-c39bo0-d1e160">
+          <lb ed="#V" n="18"/><milestone ed="#V" unit="p" rend="indent"/> Inhac quaestione sunt tres articuli. In primo
+          ponen<lb ed="#V" n="19" break="no"/>turconclusiones. In secundo obiectiones. In tertio
+          so<lb ed="#V" n="20" break="no"/>lutiones.
+        </p>
+        <div xml:id="capsco-c39bo0-Dd1e170">
+          <head xml:id="capsco-c39bo0-Hd1e172">Articulus 1</head>
+          <p xml:id="capsco-c39bo0-d1e174">
+            <lb ed="#V" n="21"/><milestone ed="#V" unit="p" rend="initial"/> Vantum ad primum articulum sit prima conclusio.
+            <lb ed="#V" n="22"/>Quia anima Christi habuit gratiam creatam
+            nabitua<lb ed="#V" n="23" break="no"/>lem. Hanc ponit Sanctus Thomas tertia parte q. 7. ar. 1. vbi sic
+            <lb ed="#V" n="24"/>dicit. Necesse est ponere in Christo gratiam habitualem
+            p<lb ed="#V" n="25" break="no"/>pter tria. Primo quidem propter vnionem illius animae ad
+            <lb ed="#V" n="26"/>verbum Dei, quanto enim aliquod receptiuum propinquius
+            <lb ed="#V" n="27"/>est causae influenti, tanto magis participat de influentia
+            ip<lb ed="#V" n="28" break="no"/>sius, influxus autem gratiae est a Deo secundum illud ps.
+            Gra<lb ed="#V" n="29" break="no"/>tiam &amp; gloriam dabit dominus, &amp; ideo maxime fuit
+            con<lb ed="#V" n="30" break="no"/>ueniens vt anima illa reciperet influxum diuinae gratiae.
+            Se<lb ed="#V" n="31" break="no"/>cundo propter nobilitatem illius animae, cuius operationes
+            <lb ed="#V" n="32"/>oportebat propinquissime attingere ad Deum per
+            cogni<lb ed="#V" n="33" break="no"/>tionem &amp; amorem, ad quod necesse est eleuari humanam
+            <lb ed="#V" n="34"/>naturam per gratiam. Tertio propter habitudinem
+            Christi<lb ed="#V" n="35" break="no"/>ad genus humanum, Christus enim quantum homo est
+            me<lb ed="#V" n="36" break="no"/>diator Dei, &amp; hominum, vt dicitur prima Timothei
+            secun<lb ed="#V" n="37" break="no"/>do, &amp; ideo oportebat quod haberet gratiam etiam
+            redundan<lb ed="#V" n="38" break="no"/>tem in alios secundum illud Io primo. De plenitudine eius
+            <lb ed="#V" n="39"/>omnes accepimus gratiam pro gratia. Haec ille.
+          </p>
+          <p xml:id="capsco-c39bo0-d1e219">
+            Item 3. sent.
+            <lb ed="#V" n="40"/>dist. 13. q. 1. art. 1. sic dicit. Gratia principaliter duo facit in
+            <lb ed="#V" n="41"/>anima. Primo enim perficit ipsam in esse spiritu secundum
+            <lb ed="#V" n="42"/>quod Deo assimilatur, vnde &amp; dicitur vita animae. Secundo
+            <lb ed="#V" n="43"/>perficit eam ad opus secundum quod a gratia emanant vir
+            <lb ed="#V" n="44"/>tures, sicut vires ab essentia, quia non potest esse operatio
+            per<lb ed="#V" n="45" break="no"/>fecta nisi progrediatur a potentia perfecta pe habitum, &amp;
+            <lb ed="#V" n="46"/>propter haec duo oportet ponere gratiam in anima
+            Chri<lb ed="#V" n="47" break="no"/>sti, cum anima sit perfectissima in esse spirituali, oportet quod
+            <lb ed="#V" n="48"/>sit aliquid perficiens illam formaliter in esse illo, diuinitas
+            <lb ed="#V" n="49"/>autem non est formaliter, sed effectiue peficiens illam, vnde
+            <lb ed="#V" n="50"/>oportet aliquam formam creatam in ipsa ponere, qua
+            for<lb ed="#V" n="51" break="no"/>maliter perficiatur, &amp; haec est gratia. Similiter etiam cum alia
+            <lb ed="#V" n="52"/>sit operatio eius secundum humanitatem &amp; diuinitatem,
+            <lb ed="#V" n="53"/>sicut &amp; alia natura oportet quod operatio eius humana
+            ha<lb ed="#V" n="54" break="no"/>beat habitum perficientem, alias esset imperfecta, &amp; ideo
+            <lb ed="#V" n="55"/>oportet ponere in Christo gratiam &amp; virtutes. Haec ille.
+          </p>
+          <p xml:id="capsco-c39bo0-d1e256">
+            Ex
+            <lb ed="#V" n="56"/>quibus potest formari multiplex ratio pro conclusione.
+            pri<lb ed="#V" n="57" break="no"/>mo sic. Omne quod perficit formaliter animam in esse
+            spiri<lb ed="#V" n="58" break="no"/>tuali, &amp; ad eliciendum operationes excedentes naturalem
+            <lb ed="#V" n="59"/>facultatem animae est gratia creata habitualis, sed anima
+            <lb ed="#V" n="60"/>Christi habuit aliquid taliter perficiens ipsam. igitur habuit
+            <lb ed="#V" n="61"/>gratiam creatam habitualem.
+          </p>
+          <p xml:id="capsco-c39bo0-d1e272">
+            Secunda conclusio. Gratia
+            <lb ed="#V" n="62"/>habitualis animae Christi fuit &amp; est vno modo infinita. Hanc
+            <lb ed="#V" n="63"/>ponit Sanctus Thomas tertia parte q. 7. arti. 11. vbi sic dicit.
+            <lb ed="#V" n="64"/>In Christo potest duplex ex gratia considerari. Vna quidem
+            <lb ed="#V" n="65"/>est gratia vnionis, quae sicut supra dictum est, est ipsum
+            per<lb ed="#V" n="66" break="no"/>sonaliter vniri filio Dei quod est gratis concessum
+            huma<lb ed="#V" n="67" break="no"/>nae naturae &amp; hanc gratiam constat esse infinitam secundum
+            <lb ed="#V" n="68"/>quod ipsa persona verbi est infinita. Alia vero gratia est
+            ha<lb ed="#V" n="69" break="no"/>bitualis, quae quidem potest dupliciter considerari, vno modo
+            <lb ed="#V" n="70"/>secundum quod est quoddam ens, &amp; sic necesse est quod sit
+            <lb ed="#V" n="71"/>ens finitum. Est enim in anima Christi sicut in subiecto,
+            ani<cb ed="#V" n="b"/><lb ed="#V" n="72" break="no"/>ma autem Christi est creatura quadam habens capacitatem
+            <lb ed="#V" n="73"/>finitam, vnde esse gratiae cum non excedat suum subiectum
+            <lb ed="#V" n="74"/>non potest esse infinitum. Alio modo potest considerari se
+            <lb ed="#V" n="75"/>c dum propriam rationem gratiae, &amp; sic ipsa gratia potest
+            <lb ed="#V" n="76"/>dici infinita, eo quod non limitatur, quia scilicet habet
+            quic<lb ed="#V" n="77" break="no"/>quid potest petinere ad rationem gratiae, &amp; non datur ei
+            se<lb ed="#V" n="78" break="no"/>cundum aliquam certam mensuram id quod ad rationem
+            <lb ed="#V" n="79"/>gratiae pertinet. eo quod secundum propositum gratiae Dei,
+            <lb ed="#V" n="80"/>cuius est gratiam mensurare, gratia confertur animae
+            Chri<lb ed="#V" n="81" break="no"/>sti, sicut cuidam vniuersali principio gratificationis in
+            natu<lb ed="#V" n="82" break="no"/>ra humana secundum illud eph. primo Gratificauit nos in
+            <lb ed="#V" n="83"/>dilecto filio suo. Sicut si dicamus lucem solis esse infinitam
+            <lb ed="#V" n="84"/>non quidem secundum suum esse, sed secundum rationem
+            <lb ed="#V" n="85"/>lucis, quia habet quicquid potest ad rationem lucis
+            perti<lb ed="#V" n="86" break="no"/>tinere. Haec ille.
+          </p>
+          <p xml:id="capsco-c39bo0-d1e331">
+            Eandem ponit tertio sententiarum dist. 13.
+            <lb ed="#V" n="87"/>qu. prima art. secundo quaestiuncula secunda vbi sic dicit.
+            Gra<lb ed="#V" n="88" break="no"/>tia dicitur donum gratis collatum, bonum autem homini
+            <lb ed="#V" n="89"/>Christo sine meritis praecedentibus collatum fuit &amp;
+            increa<lb ed="#V" n="90" break="no"/>tum &amp; creatum. Increatum fuit ipse spiritus sanctus qui in
+            <lb ed="#V" n="91"/>eius anima requieuit, vt dicitur Isa. 11. &amp; ipsa persona verbi
+            <lb ed="#V" n="92"/>quia datum est humanae naturae, vt persona verbi esset eius
+            <lb ed="#V" n="93"/>&amp; secundum hoc est ei datum nomen super omne nomen
+            <lb ed="#V" n="94"/>Philus secundo &amp; sic simpliciter gratia Christi est infinita.
+            <lb ed="#V" n="95"/>Creatum autem, donum eius est ipsa gratia qua formaliter
+            <lb ed="#V" n="96"/>anima eius perficiebatur. Et haec quodammodo fuit finita.
+            <lb ed="#V" n="97"/>&amp; quodammodo infinita, quia secundum essentiam finita
+            <lb ed="#V" n="98"/>fuit, sed tribus modis potest dici infinita, vno modo ex
+            con<lb ed="#V" n="99" break="no"/>iunctione eius ad diuinitatem inquantum concurrit ad
+            <lb ed="#V" n="100"/>eundem actum cum ipsa vt actus gratia ista informatus non
+            <lb ed="#V" n="101"/>tantum sit actus hominis, sed Dei etiam. Secundo quantum
+            <lb ed="#V" n="102"/>ad rationem gratiae. In his enim quae mole magna non sunt,
+            <lb ed="#V" n="103"/>non est accipere finitum &amp; infinitum secundum numeralem
+            <lb ed="#V" n="104"/>vel dimensiuam quantitatem, sed secundum quod aliquid
+            <lb ed="#V" n="105"/>est limitatum vel illtinitatum. Limitatur autem aliquid ex
+            <lb ed="#V" n="106"/>capacitate recipientis, vnde illud, quod non habet esse
+            rece<lb ed="#V" n="107" break="no"/>ptum in aliquo, sed subsistens non habet esse limitatum,
+            <lb ed="#V" n="108"/>sed infinitum sicut Deus. Si autem esset aliqua forma
+            sim<lb ed="#V" n="109" break="no"/>plex subsistens, quae non esset suum esse, haberet quidem
+            fi<lb ed="#V" n="110" break="no"/>nitatem quantum ad esse, quod esset particulatum ad illam
+            <lb ed="#V" n="111"/>formam, sed illa forma non esset limitata, quia non esset in
+            <lb ed="#V" n="112"/>aliquo recepta, sicut si intelligatur calor per se subsistens, &amp;
+            <lb ed="#V" n="113"/>secundum hoc etiam formae vniuersales intellectae habent
+            <lb ed="#V" n="114"/>infinitatem. Sed si forma talis sit recepta in aliquo de
+            neces<lb ed="#V" n="115" break="no"/>sitate limitata est quantum ad esse debitum illi formae, non
+            <lb ed="#V" n="116"/>solum quantum ad esse simpliciter, quia non solum non
+            ha<lb ed="#V" n="117" break="no"/>bet plenitudinem essendi simpliciter, sed nec totum esse.
+            <lb ed="#V" n="118"/>quod naturae illius est possibile fore. Sed possibile est quod
+            <lb ed="#V" n="119"/>non sit limitata quantum ad rationem illius formae, vt
+            scili<lb ed="#V" n="120" break="no"/>cet habeat illam formam secundum omnem modum
+            com<lb ed="#V" n="121" break="no"/>pletionis illius, vt nihil sibi desit de pertinentibus ad
+            perfe<lb ed="#V" n="122" break="no"/>ctionem formae illius. Et hoc erit si ex parte recipientis non
+            <lb ed="#V" n="123"/>sit defectus, vel ex parte agentis. Et hoc modo gratia
+            Chri<lb ed="#V" n="124" break="no"/>sti dicitur infinita, quia quicquid ad perfectionem gratiae
+            <lb ed="#V" n="125"/>potest pertinere, totum in Christo fuit. Tertio quantum ad
+            <lb ed="#V" n="126"/>effectum quia non limitatur ad aliquos determinatos
+            effe<lb ed="#V" n="127" break="no"/>ctus, sed potest per gratiam operari redemptionem in
+            infi<lb ed="#V" n="128" break="no"/>nitos, sicut dicitur in libro de causis, quod virtus
+            intelligen<lb ed="#V" n="129" break="no"/>tiae est infinita inferius. Et hic modus respicit gratiam
+            capi<lb ed="#V" n="130" break="no"/>tis, secundus autem gratiam singularis hominis, sed primus
+            <lb ed="#V" n="131"/>gratiam vnionis. Haec ille.
+          </p>
+          <p xml:id="capsco-c39bo0-d1e431">
+            Eandem ponit de veritate. q. 29.
+            <lb ed="#V" n="132"/>art. tertio. Ex quibus potestest formari talis ratio. Omnis
+            for<lb ed="#V" n="133" break="no"/>ma secundum quid non limitata potest dici secundum quod
+            <lb ed="#V" n="134"/>infinita, sed gratia habitualis animae Christi est secundum
+            <lb ed="#V" n="135"/>quid non limitata, igitur potest dici, &amp; est secundum quid,
+            <lb ed="#V" n="136"/>&amp; aliquo infinita. Et in hoc primus articulus terminatur.
+          </p>
+        </div>
+        <div xml:id="capsco-c39bo0-Dd1e445">
+          <head xml:id="capsco-c39bo0-Hd1e447">Articulus 2</head>
+          <p xml:id="capsco-c39bo0-d1e449">
+            <lb ed="#V" n="137"/><milestone ed="#V" unit="p" rend="initial"/> Vantum ad secundum articulum arguitur contra
+            conclusio<lb ed="#V" n="138" break="no"/>nes Et quidem contra secundam Aurns probando, quod gratia
+            <lb ed="#V" n="139"/>animae Christi nullo modo sit infinita in actu. Primo sic. Nam
+            <lb ed="#V" n="140"/>sit si, ergo Deus ab illa potest remouere aliquem gradum
+            <lb ed="#V" n="141"/>finitum. Quod autem remanebit, adhuc erit infinitum. Et ex
+            <lb ed="#V" n="142"/>nulla parte poterit sibi fieri additio, igitur tali formae
+            infi<lb ed="#V" n="143" break="no"/>nitae non poterit per diuinam potentiam addi pars amota,
+            <lb ed="#V" n="144"/>quod est contra diuinam potentiam, quia sicut illum
+            gra<lb ed="#V" n="145" break="no"/>dum amouit, ita potest reddere.
+          </p>
+          <p xml:id="capsco-c39bo0-d1e472">
+            Secundo sic. Nullum
+            parti<lb ed="#V" n="146" break="no"/>cipabile potest esse infinitum actu ergo &amp;c. antecedens patet,
+            <pb ed="#V" n="96"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>quia si illud participabile est infinitum actu, iam peruenit ad
+            <lb ed="#V" n="2"/>finem &amp; ad terminum, quia actus finit &amp; terminat, non omni finito &amp;
+            <lb ed="#V" n="3"/>terminato repugnat esse infinitum actu.
+          </p>
+          <p xml:id="capsco-c39bo0-d1e488">
+            Tertio sic. Gratia
+            <lb ed="#V" n="4"/>secundum te potest augeri in infinitum intensiuae, ergo in
+            <lb ed="#V" n="5"/>Christo non est summa gratia. Nec valet si dicas, quod gratia
+            <lb ed="#V" n="6"/>in Christo artatur ex capacitate animae, quae non potest
+            re<lb ed="#V" n="7" break="no"/>cipere gratiam infinitam. Quia ista responsio interimit
+            fun<lb ed="#V" n="8" break="no"/>damentum tuum, dicimus enim quod non repugnat charitati
+            <lb ed="#V" n="9"/>augeri in infinitum ex parte obiecti nec ex parte formae, nec
+            <lb ed="#V" n="10"/>ex parte capacitatis, quia capacitas charitatis crescit
+            secun<lb ed="#V" n="11" break="no"/>dum te crescente charitate.
+          </p>
+          <p xml:id="capsco-c39bo0-d1e508">
+            Item dicis quod illa capacitas
+            <lb ed="#V" n="12"/>non est aliud quam conatus voluntatis, vltra quem conatum
+            <lb ed="#V" n="13"/>data est Christo gratia, non igitur capacitas correspondet
+            <lb ed="#V" n="14"/>gratiae. Item. Quando datur aliqua forma, quae mere &amp;
+            im<lb ed="#V" n="15" break="no"/>mediate respicit potentiam sine aliqua dispositionem,
+            poten<lb ed="#V" n="16" break="no"/>tia potest illam formam secundum omnem gradum
+            recipe<lb ed="#V" n="17" break="no"/>re, quia respicit eam essentialiter secundum omnem gradum
+            <lb ed="#V" n="18"/>vt patet de aere respectu luminis, recipit enim lumen
+            can<lb ed="#V" n="19" break="no"/>delae, &amp; lunae &amp; solis indifferenter, sed gratia respicit
+            volun<lb ed="#V" n="20" break="no"/>tatem immediate, &amp; mere sine aliqua dispositione vt
+            vlti<lb ed="#V" n="21" break="no"/>mate dispositam, &amp; sine omni alia dispositione, quia licet
+            <lb ed="#V" n="22"/>mereri requirat in voluntate aliquam dispositionem, tamen
+            <lb ed="#V" n="23"/>voluntas immediate potest sine alia dispositione gratiam
+            re<lb ed="#V" n="24" break="no"/>cipere.
+          </p>
+          <p xml:id="capsco-c39bo0-d1e540">
+            Item. Gratia meretur augeri, si igitur in Christo fuit
+            <lb ed="#V" n="25"/>potuit &amp; debuit augeri, ex quo augmentabilis fuit, quod tamen
+            <lb ed="#V" n="26"/>non tenetur. Forte dices, quod artatur in Christo ex fine, ad
+            <lb ed="#V" n="27"/>quem ordinatur scilicet ex vnione ad diuinum suppositum, quia
+            <lb ed="#V" n="28"/>Christus habuit tantam gratiam, quanta requiritur ad hoc
+            <lb ed="#V" n="29"/>Contra. Aut intelligis quod gratia est dispositio ad vnionem
+            <lb ed="#V" n="30"/>naturaliter, &amp; tunc ex natura sua non potest augeri in
+            infi<lb ed="#V" n="31" break="no"/>nitum, quia dispositio naturalis non augetur in infinitum,
+            <lb ed="#V" n="32"/>maxime vltra illud ad quod natura disponit. Si autem ista
+            <lb ed="#V" n="33"/>sit dispositio voluntaria ex diuina ordinatione tunc stante
+            <lb ed="#V" n="34"/>vnione in Christo potest augeri gratia secundum diuinam
+            <lb ed="#V" n="35"/>voluntatem, &amp; per consequens non est summa quae potest
+            <lb ed="#V" n="36"/>sibi dari. Et sic patet quod implicat contradictionem
+            dice<lb ed="#V" n="37" break="no"/>re ex vna parte, quod in Christo est summa gratia, &amp; ex alia
+            <lb ed="#V" n="38"/>parte quod gratia potest augeri sine statu. Haec Aureolus in
+            for<lb ed="#V" n="39" break="no"/>ma. Arguit Durandus etiam. Quia capacitas Christi finita non est
+            <lb ed="#V" n="40"/>susceptiua perfectionis infinitae, sed anima Christi cum sit
+            <lb ed="#V" n="41"/>eiusdem rationis cum alijs animabus nostris est finitae
+            ca<lb ed="#V" n="42" break="no"/>pacitatis, ergo gratia recepta in ipsa non fuit infinitae
+            per<lb ed="#V" n="43" break="no"/>fectionis.
+          </p>
+          <p xml:id="capsco-c39bo0-d1e584">
+            Secundo arguit. Quia perfectio meriti, vel radicis
+            <lb ed="#V" n="44"/>merendi non excedit perfectionem praemij, sed gratia
+            com<lb ed="#V" n="45" break="no"/>paratur ad gloriam, vel ad visionem beatam, vt principium
+            <lb ed="#V" n="46"/>merendi ad praemium, ergo cum visio beata in Christo non
+            <lb ed="#V" n="47"/>fuerit infinita, alioquin operatio humana in Christo
+            aequa<lb ed="#V" n="48" break="no"/>ta fuisset operationi diuinae, sequitur quod gratia eius non
+            <lb ed="#V" n="49"/>fuit infinita. Haec Durandus. Arguit etiam Adam secundo
+            sen<lb ed="#V" n="50" break="no"/>tentiarum. q. 7. vbi sic dicit. In augmentatione extensiua, quae
+            <lb ed="#V" n="51"/>est per additionem alterius eiusdem rationis prioribus
+            sem<lb ed="#V" n="52" break="no"/>per reseruatis, vtpote aquae ad aquam, &amp; per consequens
+            hu<lb ed="#V" n="53" break="no"/>miditatis ad humiditatem, &amp; frigiditatis ad frigiditatem, &amp;
+            <lb ed="#V" n="54"/>sic de alijs, quocunque dato potest fieri maius, &amp; hoc tam
+            <lb ed="#V" n="55"/>secundum partes eiusdem proportionis quam secundum
+            <lb ed="#V" n="56"/>partes eiusdem quantitatis, ergo cosimiliter ita potest esse
+            <lb ed="#V" n="57"/>de augmentatione intensiua gratiae, quod quacunque gratia
+            <lb ed="#V" n="58"/>data potest dari &amp; creari maior a Deo. Consequentia
+            vide<lb ed="#V" n="59" break="no"/>tur notabilis, antecedens probat Adam per dicta Ocham
+            <lb ed="#V" n="60"/>cuius ratio stat in tribus propositionibus quarum prima est
+            <lb ed="#V" n="61"/>haec in sententia. Deus non potest tot indiuidua causare in
+            <lb ed="#V" n="62"/>eadem specie, quin possit plura causare.
+          </p>
+          <p xml:id="capsco-c39bo0-d1e628">
+            Secunda est.
+            Quo<lb ed="#V" n="63" break="no"/>cunque e indiuiduo posito in aliqua specie in qua possunt
+            es<lb ed="#V" n="64" break="no"/>se plura potest Deus aliud indiuiduum eiusdem rationis
+            il<lb ed="#V" n="65" break="no"/>lo non destructo causare. Tertia est. Quaecunque sunt
+            eius<lb ed="#V" n="66" break="no"/>dem rationis sunt essentialiter vnibilia, sicut alia illius
+            spe<lb ed="#V" n="67" break="no"/>ciei, non tamen alia. Ex istis potest formari talis ratio posse
+            <lb ed="#V" n="68"/>vniri alteri suae speciei ad creationem alicuius proueniens
+            <lb ed="#V" n="69"/>eiusdem speciei conuenit huic indiuiduo eiusdem speciei,
+            <lb ed="#V" n="70"/>simile poterit conuenire scilicet vniri alteri suae speciei ad
+            consti<lb ed="#V" n="71" break="no"/>tutionem cuiusdam totius sed absurdum prima facie
+            vi<lb ed="#V" n="72" break="no"/>deretur, quin data quacunque magnitudine finita aequalis
+            <lb ed="#V" n="73"/>sibi vel maior sibi immediate contiguata non posset
+            con<lb ed="#V" n="74" break="no"/>currere ad vnitatem tertiae ex ambobus resultantis, igitur
+            <lb ed="#V" n="75"/>ita esse potest de augmentatione gratiae intensiua quod ex
+            dua<cb ed="#V" n="b"/><lb ed="#V" n="76" break="no"/>bus quantumcunque magnis potest fieri vna maior
+            amba<lb ed="#V" n="77" break="no"/>bus. Arguit etiam ex dictis Gerardi Odonis, qui vult
+            proba<lb ed="#V" n="78" break="no"/>re, quod non est dare maximam gratiam creabilem &amp;
+            ar<lb ed="#V" n="79" break="no"/>guit sic primo. Quocunque quanto cuius speciem non
+            va<lb ed="#V" n="80" break="no"/>riat additio quantitatis, &amp; extra quod potest esse aliquid
+            <lb ed="#V" n="81"/>eiusdem rationis potest esse maius in eadem specie, sed
+            quae<lb ed="#V" n="82" break="no"/>libet gratia possibilis est huiusmodi, igitur qualibet tali
+            po<lb ed="#V" n="83" break="no"/>test dari maior. Ad euidentiam maioris notandum, quod
+            <lb ed="#V" n="84"/>tripliciter potest contingere, quod aliquo indiuiduo dato
+            <lb ed="#V" n="85"/>non posset Deus creare maius in specie illius dati
+            Pri<lb ed="#V" n="86" break="no"/>mo si illud esset indiuisibile, &amp; hoc excluditur in
+            maio<lb ed="#V" n="87" break="no"/>re per hoc quod dicitur. Esse quantum.
+          </p>
+          <p xml:id="capsco-c39bo0-d1e686">
+            Secundo quia
+            varia<lb ed="#V" n="88" break="no"/>tio quantitatis variat speciem, ideo non potest Deus
+            face<lb ed="#V" n="89" break="no"/>re vnum ternarium maiorem alio, quia omnis vnitas
+            addi<lb ed="#V" n="90" break="no"/>ta variat speciem, &amp; eodem modo haec est causa quare Deus
+            <lb ed="#V" n="91"/>non potest facere vnum bicubitum maius alio. Sed hoc
+            ex<lb ed="#V" n="92" break="no"/>cluditur in maiore per hoc quod dicitur. Cuius additio non
+            <lb ed="#V" n="93"/>variat speciem. Tertio ex hoc quod in tota specie non potest
+            <lb ed="#V" n="94"/>esse nisi vnicum indiuiduum, sicut si tempus sit infinitum a
+            <lb ed="#V" n="95"/>parte ante, &amp; a parte post secundum philosophum, in
+            cu<lb ed="#V" n="96" break="no"/>ius specie non sunt simul compossibilia plura indiuidua,
+            <lb ed="#V" n="97"/>Deus non potest facere aliud tempus maius eo, pro eo quod
+            <lb ed="#V" n="98"/>non potest esse aliud indiuiduum in specie temporis praeter
+            <lb ed="#V" n="99"/>illud &amp; partes suas &amp; haec est etiam ratio quare
+            repugnan<lb ed="#V" n="100" break="no"/>tia &amp; contradictio est, quod sit aliud indiuiduum maius &amp;
+            per<lb ed="#V" n="101" break="no"/>fectius Deo sed hoc excluditur in maiore per illam
+            particu<lb ed="#V" n="102" break="no"/>lam. Extra quod potest esse aliud eiusdem rationis.
+            Vbicun<lb ed="#V" n="103" break="no"/>que igitur nullum istorum impedit, ibi quolibet dato
+            po<lb ed="#V" n="104" break="no"/>test fieri maius a Deo, sed in proposito nihil impedit
+            praedi<lb ed="#V" n="105" break="no"/>ctorum. Gratia enim est quoddam quantum, nec eius
+            varia<lb ed="#V" n="106" break="no"/>tio secundum magis aut minus variat speciem, &amp; similiter
+            <lb ed="#V" n="107"/>extra quantumcunque datam potest dari aliud indiuiduum
+            <lb ed="#V" n="108"/>puta extra indiuiduum gratiae in anima Christi, aliud
+            indi<lb ed="#V" n="109" break="no"/>uiduum in anima pauli.
+          </p>
+          <p xml:id="capsco-c39bo0-d1e736">
+            Confirmatur hoc. Quia licet
+            philo<lb ed="#V" n="110" break="no"/>sophus negaret possibilitatem aliorum mundorum, vel
+            ma<lb ed="#V" n="111" break="no"/>ioris mundi, non tamen catholici. Nec magis videtur
+            qua<lb ed="#V" n="112" break="no"/>re non possit quantacunque data gratia maiorem gratiam
+            <lb ed="#V" n="113"/>facere, quam quare non possit quantocunque corpore
+            da<lb ed="#V" n="114" break="no"/>to maius facere. Vnde Augustinus Epistola quarta ad
+            Ne<lb ed="#V" n="115" break="no"/>bridium dicit. Si minimum in corporibus esse non finitur,
+            <lb ed="#V" n="116"/>cur non etiam nec maximum.
+          </p>
+          <p xml:id="capsco-c39bo0-d1e754">
+            Secundo arguit idem
+            Gerar<lb ed="#V" n="117" break="no"/>dus. Quocunque quanto eiusdem rationis in toto &amp;
+            parti<lb ed="#V" n="118" break="no"/>bus potest Deus facere maius, quia si totum est eiusdem
+            ra<lb ed="#V" n="119" break="no"/>tionis cum partibus suis, &amp; aliae partes eiusdem rationis
+            <lb ed="#V" n="120"/>possunt inueniri, &amp; istae possunt prioribus addi, &amp; sic potest
+            <lb ed="#V" n="121"/>fieri maius, sed gratia est eiusdem rationis in toto &amp; partibus
+            <lb ed="#V" n="122"/>quantumcunque magna detur. Quicunque enim gradus
+            <lb ed="#V" n="123"/>eiusdem rationis additus perficit speciem, sicut dicit
+            philo<lb ed="#V" n="124" break="no"/>sophus de delectatione, quod quaecunque particula addita
+            <lb ed="#V" n="125"/>perficit eam, igitur &amp;c.
+          </p>
+          <p xml:id="capsco-c39bo0-d1e777">
+            Tertio arguit sic. Quia si quod
+            mi<lb ed="#V" n="126" break="no"/>nus videtur in esse &amp; inest, &amp; id quod magis, sed minus
+            vi<lb ed="#V" n="127" break="no"/>deretur quod quacunque figura data possit dari maior quam
+            <lb ed="#V" n="128"/>de gratia, &amp; tamen hoc est verum. igitur &amp; de gratia. Prima
+            <lb ed="#V" n="129"/>pars minoris scilicet quod minus videatur hoc de figura,
+            <lb ed="#V" n="130"/>patet. Quia quaelibet figura de sua ratione includit finitatem
+            <lb ed="#V" n="131"/>&amp; terminum, vt patet de triangulo in cuius diffinitione
+            <lb ed="#V" n="132"/>ponitur, quod sit figura tribus lineis contenta. Ecce quod
+            <lb ed="#V" n="133"/>terminatio &amp; finitas cadit in eis diffinitione. Secunda pars
+            <lb ed="#V" n="134"/>scilicet quod omni figura data possibile sit dari maiorem
+            <lb ed="#V" n="135"/>patet. Quia cuiuscunque trianguli quouis latere potest
+            da<lb ed="#V" n="136" break="no"/>ri maius illo triangulo, possibile est dari maiorem
+            triangu<lb ed="#V" n="137" break="no"/>lum, sed quocunque latere cuiuscunque trianguli &amp;c.
+            mi<lb ed="#V" n="138" break="no"/>nor patet ex demonstratione, qua probatur triangulum
+            ha<lb ed="#V" n="139" break="no"/>bere tres angulos aequales duobus rectis, haec enim
+            proba<lb ed="#V" n="140" break="no"/>tur per hoc quod angulus extrinsecus aequiualet duobus
+            <lb ed="#V" n="141"/>intrinsecis, &amp; hoc supponit latus vnum in longius duci
+            pos<lb ed="#V" n="142" break="no"/>se. Argoit adhuc Adam ex proprijs quod si posset Deus
+            <lb ed="#V" n="143"/>causare aliquam formam corporalem vel spiritualem qua
+            <lb ed="#V" n="144"/>non posset maiorem in eadem specie producere non
+            vide<lb ed="#V" n="145" break="no"/>retur Deus iuste &amp; sufficienter punire quemlibet
+            delinquen<lb ed="#V" n="146" break="no"/>tem. Probatio consequentiae. Quia accipiamus
+            ali<lb ed="#V" n="147" break="no"/>quem qui circa principium mundi, damnatus est
+            aeteran<lb ed="#V" n="148" break="no"/>liter pro culpa mortali qua meruit secundum Dei
+            commu<lb ed="#V" n="149" break="no"/>nem legem puniri maxima illa poena sibi possibili, &amp; alium
+            <lb ed="#V" n="150"/>qui post mille annos a principio damnationis principium
+            <pb ed="#V" n="97"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>pro culpa per omnia aequali incurrit poenam damnationis
+            <lb ed="#V" n="2"/>aeternae, &amp; sic de alijs gradatim. Quaero igitur aut secundus
+            <lb ed="#V" n="3"/>habebit poenam intensiorem primo, vel pro semper, vel
+            pro<lb ed="#V" n="4" break="no"/>aliqua duratione finita, &amp; similiter secundus &amp; tertius, &amp;
+            <lb ed="#V" n="5"/>sic habebitur intentum, quod non est dare maximam
+            poe<lb ed="#V" n="6" break="no"/>nam possibilem secundum intensionem, vel non, &amp; tunc non
+            <lb ed="#V" n="7"/>iuste punietur secundus, nec aliquis posterior. Nam ex quo
+            <lb ed="#V" n="8"/>aequaliter per omnia delinquit quo ad grauitatem culpae
+            <lb ed="#V" n="9"/>debet aeque grauiter puniri secundum aequiualentiam saltem
+            <lb ed="#V" n="10"/>sed hoc non esset si praecise poena aequalis secundum
+            inten<lb ed="#V" n="11" break="no"/>sionem infligeretur sibi sicut primo, quia primus tunc per
+            <lb ed="#V" n="12"/>mille annos portasset poenam, &amp; ille posterior non, &amp; tamen
+            <lb ed="#V" n="13"/>ex nunc praeter illos mille annos aequaliter torquebuntur
+            <lb ed="#V" n="14"/>hoc dato igitur &amp;c. Et in hoc secundus articulus terminatur
+          </p>
+        </div>
+        <div xml:id="capsco-c39bo0-Dd1e869">
+          <head xml:id="capsco-c39bo0-Hd1e871">Articulus 3</head>
+          <p xml:id="capsco-c39bo0-d1e873">
+            <lb ed="#V" n="15"/><milestone ed="#V" unit="p" rend="initial"/> QVantum ad tertium articulum restat respondere
+            obie<lb ed="#V" n="16" break="no"/>ctionibus supradictis. Et quidem ad primum, quod
+            <lb ed="#V" n="17"/>est Aureoteles dicitur primo, quod prima consequentia ibidem
+            <lb ed="#V" n="18"/>facta non valet. Nam ipsa &amp; omnia dicta sequentium
+            argu<lb ed="#V" n="19" break="no"/>mentorum fundantur in quadam falsa opi. de intensione
+            for<lb ed="#V" n="20" break="no"/>marum &amp; earum remissione, quae videlicet ponit quod
+            inten<lb ed="#V" n="21" break="no"/>sio formae fit per additionem gradus ad gradum, &amp; formae
+            <lb ed="#V" n="22"/>ad formam in eodem subiecto primo &amp; adaequato, &amp;
+            con<lb ed="#V" n="23" break="no"/>sequenter quod remissio formae fit per subtractionem vnius
+            <lb ed="#V" n="24"/>gradus vel partis formae a forma totali. Haec autem opinio
+            <lb ed="#V" n="25"/>falsa est, &amp; contra mentem philosophi &amp; Sancti Thomae sicut
+            manife<lb ed="#V" n="26" break="no"/>ste patet ex dictis eius tam in summa quam in scriptis primo
+            <lb ed="#V" n="27"/>sent. di. 17. recitatis. Forma enim non intenditur illo modo, nec
+            <lb ed="#V" n="28"/>remittitur, sed potius eius intentio fit per hoc quod
+            perfe<lb ed="#V" n="29" break="no"/>ctius esse dat suo subiecto, &amp; pfectius actuat subiectum, &amp;
+            <lb ed="#V" n="30"/>perfectius participatur a subiecto sine quacunque additione
+            <lb ed="#V" n="31"/>formae ad formam, aut gradus ad gradum, vnde tota
+            imagina<lb ed="#V" n="32" break="no"/>tio Aureolus Ocham Adam, &amp; Gerardi Odonis, &amp; si qui alij sunt
+            <lb ed="#V" n="33"/>fundatur in falso. Dicitur 2. quod dato quod intensio formae vel
+            <lb ed="#V" n="34"/>remissio fieret modo quo illi fingunt argumentum nil
+            con<lb ed="#V" n="35" break="no"/>cluderet, nam Gregorius de Arimino qui tenet illum modum
+            inten<lb ed="#V" n="36" break="no"/>tensionis &amp; remissionis, &amp; tamen asserit Deum posse
+            pro<lb ed="#V" n="37" break="no"/>ducere formam infinitam intensiue, puta charitatem vel
+            <lb ed="#V" n="38"/>gratiam, faciliter responderet ad illud argumentum. Diceret
+            <lb ed="#V" n="39"/>nempe, quod Deus a tali forma infinita intensiue posset
+            subtra<lb ed="#V" n="40" break="no"/>here, &amp; remouere aliquem gradum, &amp; aliquam partem, &amp;
+            <lb ed="#V" n="41"/>eandem partem residuo readdere, sicut prius abstulit. Nec
+            va<lb ed="#V" n="42" break="no"/>let probatio in oppositum cum dicit, quod tali infinito nulla
+            <lb ed="#V" n="43"/>posset fieri additio. Diceret quippe Gregorius quod immo, quia
+            si<lb ed="#V" n="44" break="no"/>cut infinitae multitudini partium proportionalium
+            conti<lb ed="#V" n="45" break="no"/>nui permanentis, vel successiui potest fieri subtractio, vel
+            <lb ed="#V" n="46"/>additio sicut patet manifeste, ita infinitae multitudini partium
+            <lb ed="#V" n="47"/>gradualium formae spiritualis &amp; inextensae. Ad illam autem
+            <lb ed="#V" n="48"/>maximam quae dicit, quod infinito non potest fieri additio,
+            re<lb ed="#V" n="49" break="no"/>sponsum est in prima quaestione secundi sententiarum, tamen
+            <lb ed="#V" n="50"/>pro nunc dicitur, quod tali multitudini infinitae non potest
+            fie<lb ed="#V" n="51" break="no"/>ri additio se hameus in certa pportione ad illud infinitum, cui fit
+            <lb ed="#V" n="52"/>additio, potest tamen fieri additio &amp; subtractio partis non
+            ha<lb ed="#V" n="53" break="no"/>bentis talem proportionem. Dicitur 3. quod argumentum nullo
+            <lb ed="#V" n="54"/>modo vadit ad propositum Sanctus Thomas quia nec ipse, nec
+            conclu<lb ed="#V" n="55" break="no"/>sio nostra dicit, quod gratia animae Christi sit infinita
+            intensi<lb ed="#V" n="56" break="no"/>ue, aut secundum esse, vel actuationem subiecti, sed solum
+            secun<lb ed="#V" n="57" break="no"/>dum quandam illimitationem rationis gratiae. Et de hoc dictum
+            <lb ed="#V" n="58"/>fuit satis in probatione conclusionis, &amp; iterum aducitur
+            di<lb ed="#V" n="59" break="no"/>ctum Sanctus Thomas de veritate. q. 29. articulo tertio vt melius eius
+            <lb ed="#V" n="60"/>intentio videatur, dicit enim sic ibidem.
+          </p>
+          <p xml:id="capsco-c39bo0-d1e976">
+            Sciendum quod
+            fini<lb ed="#V" n="61" break="no"/>tum &amp; infinitum circa quantitatem considerantur &amp;
+            intel<lb ed="#V" n="62" break="no"/>liguntur secundum philosophum primo physico. Est autem duplex
+            <lb ed="#V" n="63"/>quantitas scilicet dimensiua, quae secundum extensionem consideratur,
+            <lb ed="#V" n="64"/>&amp; virtualis, quae attenditur secundum intensionem, virtus enim rei est
+            <lb ed="#V" n="65"/>eius perfectio secundum illud philosophi 7. phy.
+            vnumquod<lb ed="#V" n="66" break="no"/>que perfectum est quando attingit propriae virtuti, &amp; sic
+            quanti<lb ed="#V" n="67" break="no"/>tas virtualis vniuscuiusque formae attenditur secundum
+            mo<lb ed="#V" n="68" break="no"/>dum suae perfectionis. Vtraque autem per multa
+            diuersifica<lb ed="#V" n="69" break="no"/>tur, nam sub quantitate dimensiua continetur longitudo,
+            <lb ed="#V" n="70"/>latitudo, &amp; profundum, &amp; numerus in potentia, quantitas
+            <lb ed="#V" n="71"/>autem virtualis in tot distinguitur, quot sunt naturae vel
+            <lb ed="#V" n="72"/>formae, quarum perfectionis modus totam mensuram
+            quan<lb ed="#V" n="73" break="no"/>titatis facit, contingit autem illud quod est secundum vnam
+            <lb ed="#V" n="74"/>quantitatem finitum esse secundum aliam infinitum. Et
+            <lb ed="#V" n="75"/>hoc patet si vtraque quantitas accipiatur dimensiua, potest
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="76"/>enim intelligi aliqua superficies finita secundum latitudine
+            <lb ed="#V" n="77"/>&amp; infinita secundum longitudinem. Patet etiam si
+            accipia<lb ed="#V" n="78" break="no"/>tur vna quantitas dimensiua &amp; alia virtualis, si enim
+            intelli<lb ed="#V" n="79" break="no"/>gatur corpus album infinitum, non propter hoc albedo
+            in<lb ed="#V" n="80" break="no"/>tensiue infinita erit, sed solum extensiue per accidens,
+            pote<lb ed="#V" n="81" break="no"/>rit enim aliquid albius inueniri: patet nihilominus idem, si
+            <lb ed="#V" n="82"/>vtraque quantitas sit virtualis, nam in vno &amp; eodem
+            diuer<lb ed="#V" n="83" break="no"/>sa quantitas virtualis attendi potest secundum diuersas
+            ra<lb ed="#V" n="84" break="no"/>tiones eorum, quae de ipso praedicantur, sicut ex hoc quod aliquid
+            <lb ed="#V" n="85"/>dicitur ens consideratur in eo quantitas virtualis quantum
+            <lb ed="#V" n="86"/>ad perfectionem essendi, &amp; ex hoc quod dicitur sensibile
+            <lb ed="#V" n="87"/>ex perfectione sentiendi, &amp; sic de alijs. Quantum
+            igi<lb ed="#V" n="88" break="no"/>tur ad rationem essendi infinitum esse non potest, nisi
+            <lb ed="#V" n="89"/>illud in quo perfectio essendi includitur quae in
+            diuer<lb ed="#V" n="90" break="no"/>sis infinitis modis variari potest. Et hoc modo solus
+            <lb ed="#V" n="91"/>Deus infinitus est secundum essentiam, quia eius esse
+            <lb ed="#V" n="92"/>non limitatur ad aliquam determinatam perfectionem, sed
+            <lb ed="#V" n="93"/>in se includit omnem modum perfectionis, ad quem ratio
+            <lb ed="#V" n="94"/>entitatis se potest extendere. Et ideo ipse est infinitus
+            secun<lb ed="#V" n="95" break="no"/>dum rationem essendi. haec autem infinitas nulli creaturae
+            <lb ed="#V" n="96"/>competere potest. Nam cuiuslibet creaturae esse est
+            limita<lb ed="#V" n="97" break="no"/>tum ad perfectionem propriae speciei. Si ergo intelligatur
+            <lb ed="#V" n="98"/>aliqua anima sensibilis, quae habeat in se quicquid potest
+            con<lb ed="#V" n="99" break="no"/>currere ad perfectionem sentiendi qualitercunque, illa
+            qui<lb ed="#V" n="100" break="no"/>dem anima erit finita secundum essentiam, quia esse suum
+            <lb ed="#V" n="101"/>limitatum est ad aliquam perfectionem essendi scilicet
+            sensi<lb ed="#V" n="102" break="no"/>bilis, quam excedit perfectio intelligibilis, esset tamen
+            infi<lb ed="#V" n="103" break="no"/>nita secundum rationem sensibilitatis quia eius sensibilitas
+            <lb ed="#V" n="104"/>ad nullum determinatum modum sentiendi limitaretur.
+            <lb ed="#V" n="105"/>Et similiter dico de gratia habituali Christi, quia est finita
+            <lb ed="#V" n="106"/>secundum essentiam, quia esse suum est limitatum ad
+            ali<lb ed="#V" n="107" break="no"/>quam speciem entis est tamen infinita secundum rationem
+            <lb ed="#V" n="108"/>gratiae, quia cum infinitis modis. possit considerari perfectio
+            <lb ed="#V" n="109"/>alicuius quantum ad gratiam, nullum eorum defuit
+            Chri<lb ed="#V" n="110" break="no"/>sto, sed habuit in se gratiam secundum omnem
+            plenitudi<lb ed="#V" n="111" break="no"/>nem &amp; perfectionem, ad quam ratio huius speciei, quae est
+            <lb ed="#V" n="112"/>gratia. potest se extendere. Et hunc intellectum
+            manife<lb ed="#V" n="113" break="no"/>ite ponit glo. I0. tertio dicens. Ad mensuram dat Deus
+            spiri<lb ed="#V" n="114" break="no"/>tum hominibus, filio vero non ad mensuram, sed sicut
+            to<lb ed="#V" n="115" break="no"/>tum ex seipso genuit filium suum, ita incarnato filio suo
+            to<lb ed="#V" n="116" break="no"/>tum spiritum suum dedit non particulariter, non per
+            subdi<lb ed="#V" n="117" break="no"/>uisionem, sed vniuersaliter, &amp; generaliter. Augustinus etiam
+            <lb ed="#V" n="118"/>dicit ad Darda. quod Christus est caput, in quo sunt
+            om<lb ed="#V" n="119" break="no"/>nes sensus sed in alijs sanctis quasi solus tactus est quibus
+            <lb ed="#V" n="120"/>datus est spiritus ad mensuram. Sic ergo dicendum, quod
+            <lb ed="#V" n="121"/>gratia Christi finita fuit secundum essentiam, sed infinita
+            <lb ed="#V" n="122"/>fuit secundum perfectionem rationis gratiae. Haec ille.
+          </p>
+          <p xml:id="capsco-c39bo0-d1e1115">
+            Item.
+            <lb ed="#V" n="123"/>ibidem in solutione quarti sic dicit. Forma est principium
+            <lb ed="#V" n="124"/>actus. Secundum autem quod habet esse in actu, non est
+            pos<lb ed="#V" n="125" break="no"/>libile, quod forma cuius est essentia finita, procedat actio
+            <lb ed="#V" n="126"/>infinita secundum intensionem, vnde &amp; meritum
+            Christi<lb ed="#V" n="127" break="no"/>non fuit infinitum secundum intensionem actus, finite, enim
+            <lb ed="#V" n="128"/>diligebat &amp; cognoscebat, sed habuit quandam infinitatem
+            <lb ed="#V" n="129"/>ex circunstantia personae, quae erat dignitatis infinitae,
+            quan<lb ed="#V" n="130" break="no"/>to enim maior est qui se humiliat, tanto eius humilitas
+            lau<lb ed="#V" n="131" break="no"/>dabilior inuenitur. Haec ille.
+          </p>
+          <p xml:id="capsco-c39bo0-d1e1137">
+            Ex quibus apparet quod non
+            in<lb ed="#V" n="132" break="no"/>tendit ponere, quod gratia animae Christi sit infinita
+            inten<lb ed="#V" n="133" break="no"/>siue, hoc est quo ad essentiam, nec quo ad esse gratiae, sic quod
+            <lb ed="#V" n="134"/>infinitae actuet suum subiectum, &amp; sic vltimate, quod
+            nul<lb ed="#V" n="135" break="no"/>lum subiectum posset a forma talis speciei plus actuari, nec
+            <lb ed="#V" n="136"/>aliqua forma eiusdem speciei esse actualior, sed est infinita
+            <lb ed="#V" n="137"/>quo ad rationem gratiae idest non limitata modo
+            praeexpo<lb ed="#V" n="138" break="no"/>sito, eo modo quo lux solis est infinita vt prius dictum fuit
+            <lb ed="#V" n="139"/>Ad secundum articulum eiusdem Aureoli negatur antecedens
+            <lb ed="#V" n="140"/>quia, secundum mentem Sancti Thomae albedo separata ab
+            omni<lb ed="#V" n="141" break="no"/>subiecto esset actu infinita, &amp; tamen esset participabilis.
+            Di<lb ed="#V" n="142" break="no"/>citur secundo, quod nulla forma actualiter &amp; formaliter
+            per<lb ed="#V" n="143" break="no"/>ticipata est infinita quantum ad essentiam nec quantum
+            <lb ed="#V" n="144"/>ad esse, aut actuationem subiecti, potest tamen esse infinita
+            <lb ed="#V" n="145"/>quantum ad illimitationem suae rationis. Dicitur tertio, quod
+            <lb ed="#V" n="146"/>non om infinitum puenit ad finem, immo nullum potissime loquem
+            <lb ed="#V" n="147"/>do de infinitate formarum, quae non dicuntur infinitae, qua non
+            <lb ed="#V" n="148"/>sunt limitatae per aliquod susceptiuum, vel quia nulla differentia
+            forma<lb ed="#V" n="149" break="no"/>lis aut materialis refugit subiectum formae ad aliquod minus tali
+            ra<lb ed="#V" n="150" break="no"/>tione, &amp; imperfectius ea. Dicitur. 4. quod actus receptus in potentia
+            <pb ed="#V" n="98"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>terminat potentiam, &amp; ab ea quodam modo terminatur, sed
+            <lb ed="#V" n="2"/>secus est de actu subsistentiae. Rursus licet actus receptus in
+            <lb ed="#V" n="3"/>potentia finiatur &amp; terminetur ad canacitatem suscipientis
+            <lb ed="#V" n="4"/>quo ad esse, non tamen oportet quod terminetur quantum
+            <lb ed="#V" n="5"/>ad rationem formae, vbi concurrunt duo praedicta in
+            proba<lb ed="#V" n="6" break="no"/>tionem conclusionis.
+          </p>
+          <p xml:id="capsco-c39bo0-d1e1199">
+            Ad tertium eiusdem dicitur, quod Sancts
+            <lb ed="#V" n="7"/>Thomas concedit secunda secundae q. 24 articulo septimo quod
+            <lb ed="#V" n="8"/>charitas quamdiu est in via potest in infinitum augeri in
+            <lb ed="#V" n="9"/>homine qui est pure viator, non autem asserit hoc de
+            homi<lb ed="#V" n="10" break="no"/>ne beato, vnde verba eius ibidem sunt haec. Terminus
+            aug<lb ed="#V" n="11" break="no"/>i menti alicuius formae potest praefigi tripliciter. Vno modo
+            <lb ed="#V" n="12"/>ex ratione ipsius formae, quae habet terminatam mensuram,
+            <lb ed="#V" n="13"/>ad quam cum peruentum fuerit, non potest vltra
+            procedi<lb ed="#V" n="14" break="no"/>in forma, sed si vltra processum fuerit peruenietur ad aliam
+            <lb ed="#V" n="15"/>formam, sicut patet in pallore, cuius terminos per
+            conti<lb ed="#V" n="16" break="no"/>nuam alterationem aliquis transit vsque ad albedinem vel
+            <lb ed="#V" n="17"/>nigredinem perueniens. Alio modo e: parte agentis cuius
+            <lb ed="#V" n="18"/>virtus non se extendit ad vlterius augendi formam in
+            sub<lb ed="#V" n="19" break="no"/>iecto. Tertio modo ex parte subiecti, quod non est capax
+            vl<lb ed="#V" n="20" break="no"/>terioris perfectionis vel amplioris. Nullo autem horum
+            mo<lb ed="#V" n="21" break="no"/>dorum imponitur terminus augmento charitatis in
+            statu<lb ed="#V" n="22" break="no"/>viae. Ipsa enim charitas secundum rationem suae speciei
+            pro<lb ed="#V" n="23" break="no"/>prie terminum augmenti non habet. Est enim participatio
+            <lb ed="#V" n="24"/>quaedam infinitae charitatis quae est Spiritus Sanctus Similiter
+            <lb ed="#V" n="25"/>etiam causa agens charitatem est infinitae virtutis
+            scili<lb ed="#V" n="26" break="no"/>cet Deus. Similiter etiam ex parte subiecti terminus huic
+            <lb ed="#V" n="27"/>augmento praesigi non potest, quia scilicet charitate crescem
+            <lb ed="#V" n="28"/>te supercrescit habilitas ad vlterius augmentum. Vnde
+            re<lb ed="#V" n="29" break="no"/>linquitur quod charitatis augmento nullus terminus
+            praesi<lb ed="#V" n="30" break="no"/>gi possit in hac vita. Haec ille.
+          </p>
+          <p xml:id="capsco-c39bo0-d1e1254">
+            Item primo sententiarum
+            <lb ed="#V" n="31"/>dist. 17. q. secunda articulo quarto dicit similia. Expresse
+            lo<lb ed="#V" n="32" break="no"/>quitur de charitate puri viatoris. Secundo dico quod
+            secun<lb ed="#V" n="33" break="no"/>dum eum nec capacitas, nec gratia comprehensoris, aut
+            <lb ed="#V" n="34"/>beati potest augeri de potentia Dei ordinata, &amp; per
+            conse<lb ed="#V" n="35" break="no"/>quens nec gratia vel charitas Christi qui simul fuit
+            compre<lb ed="#V" n="36" break="no"/>hensor &amp; viator, &amp; de hoc Sanctus Thomas tertia parte quaest.
+            <lb ed="#V" n="37"/>7. arti. 12. sic dicit. Aliquam formam non posse augeri
+            con<lb ed="#V" n="38" break="no"/>tingit dupliciter. Vno modo ex parte ipsius subiecti. Alio
+            <lb ed="#V" n="39"/>modo ex parte illius formae: ex parte quidem subiecti
+            quan<lb ed="#V" n="40" break="no"/>do subiectum attingit ad vltimum in participatione illius
+            <lb ed="#V" n="41"/>formae secundum suum modum sicut si dicatur quod aer
+            <lb ed="#V" n="42"/>non potest crescere in caliditate quando pertingit ad
+            vlti<lb ed="#V" n="43" break="no"/>mum gradum caloris, qui potest saluari in natura aeris,
+            li<lb ed="#V" n="44" break="no"/>cet possit esse maior calor in rerum natura qui est calor ignis
+            <lb ed="#V" n="45"/>Ex parte autem formae excluditur possibilitas augmenti
+            <lb ed="#V" n="46"/>quando aliquod subiectum attingit ad vltimam
+            perfectio<lb ed="#V" n="47" break="no"/>nem, quam potest talis forma habere in natura, sicut si
+            dica<lb ed="#V" n="48" break="no"/>mus quod calor ignis non potest augeri, quia non potest
+            <lb ed="#V" n="49"/>esse perfectior gradus caloris quam ille, ad quem pertingit
+            <lb ed="#V" n="50"/>ignis. Sicut autem aliarum formarum est ex diuina
+            sapien<lb ed="#V" n="51" break="no"/>tia determinata propria mensura, ita &amp; gratiae secundum
+            il<lb ed="#V" n="52" break="no"/>lud sapientiae. 11. Omnia in numero, &amp; pondere, &amp;
+            mensu<lb ed="#V" n="53" break="no"/>ra constituisti vel disposuisti mensura autem vnicuique
+            for<lb ed="#V" n="54" break="no"/>mae praefigitur per comparationem ad suum finem sicut non
+            <lb ed="#V" n="55"/>est maior grauitas quam grauitas terrae, quia non potest
+            <lb ed="#V" n="56"/>esse inferior locus loco terrae. Finis autem gratiae est vnio
+            <lb ed="#V" n="57"/>creaturae rationalis ad Deunu, non potest autem esse, nec
+            in<lb ed="#V" n="58" break="no"/>telligi maior vnio creaturae rationalis ad Deum, quam quae
+            <lb ed="#V" n="59"/>est in persona, &amp; ideo gratia Christi pertingit vsque ad
+            sum<lb ed="#V" n="60" break="no"/>mam mensuram gratiae, sic ergo manifestum est quod
+            gra<lb ed="#V" n="61" break="no"/>tia Christi non potuit ex parte ipsius gratiae, sed neque etiam
+            <lb ed="#V" n="62"/>ex parte ipsius subiecti, quia Christus secundum quod
+            ho<lb ed="#V" n="63" break="no"/>mo a principio instanti suae conceptionis fuit verus &amp;
+            ple<lb ed="#V" n="64" break="no"/>nus comprehensor, vnde in eo non potuit esse augmentum
+            <lb ed="#V" n="65"/>gratiae, sicut nec in beatis, quorum gratia augeri non potest
+            <lb ed="#V" n="66"/>eo quod sunt in termino, hominum vero qui sunt pure
+            <lb ed="#V" n="67"/>viatores gratia potest augeri &amp; ex parte formae, quia non
+            at<lb ed="#V" n="68" break="no"/>tingunt summum gratiae gradum, &amp; ex parte subiecti, quia
+            <lb ed="#V" n="69"/>nondum peruenerunt ad terminum. Haec ille.
+          </p>
+          <p xml:id="capsco-c39bo0-d1e1341">
+            Similia dicit
+            <lb ed="#V" n="70"/>tertio sent. dist. 13. q. 1. ar. 2. quaestiuncula. 2. &amp; 3. Tertio dico
+            <lb ed="#V" n="71"/>quod mens Sanctus Thomas fuisse videtur quod de potentia Dei
+            <lb ed="#V" n="72"/>absoluta quancunque gratiam in formantem aliquod
+            sub<lb ed="#V" n="73" break="no"/>iectum Deus non potest in eodem subiecto intendere
+            auge<lb ed="#V" n="74" break="no"/>re, &amp; maiorem facere. Et ad hoc ponendum moueor ex
+            di<lb ed="#V" n="75" break="no"/>ctis Sanctus Thomas de veritate. q. 29. ar. 3. vbi quaerit. Vtrum gratia
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="76"/>Christi sit infinita, &amp; arguit sic. Quolibet finito Deus
+            pos<lb ed="#V" n="77" break="no"/>set facere maius, sed Deus non potuisset Christo dare
+            ma<lb ed="#V" n="78" break="no"/>iorem gratiam, vt dicit magister dist. 13. lib. tertij, ergo gratia
+            <lb ed="#V" n="79"/>Christi est infinita. Sed dicebat quod hoc non dicitur
+            pro<lb ed="#V" n="80" break="no"/>tanto, quod Deus non posset maiorem gratiam facere, sed
+            <lb ed="#V" n="81"/>quia anima Christi non poterat maiorem recipere, erat enim
+            <lb ed="#V" n="82"/>tota capacitas eius gratia repleta.
+          </p>
+          <p xml:id="capsco-c39bo0-d1e1374">
+            Sed contra. Secundum Au
+            <lb ed="#V" n="83"/>in lib. de natura boni. Bonum creaturae consistit in modo
+            <lb ed="#V" n="84"/>specie &amp; ordine. Et vbi haec tria magna sunt, magnum
+            bo<lb ed="#V" n="85" break="no"/>num est, vbi parua paruum: ergo secundum hoc quod
+            ali<lb ed="#V" n="86" break="no"/>qua creatura crescit in bonitate secundum hoc modus eius
+            <lb ed="#V" n="87"/>crescit, &amp; per consequens eius capacitatis mensura
+            amplia<lb ed="#V" n="88" break="no"/>tur, nam modus mensuram sequitur, &amp; ita quanto plus
+            au<lb ed="#V" n="89" break="no"/>getur gratia plus augetur capacitas. Ecce arg. Sequitur
+            re<lb ed="#V" n="90" break="no"/>sponsio.
+          </p>
+          <p xml:id="capsco-c39bo0-d1e1394">
+            Dicendum quod capacitas creaturae dicitur
+            secun<lb ed="#V" n="91" break="no"/>dum potentiam receptibilitatis, quae est in ipsa, est
+            auten<lb ed="#V" n="92" break="no"/>duplex potentia creaturae ad recipiendum. Vna naturalis
+            <lb ed="#V" n="93"/>quae potest tota impleri, quia haec non extendit se nisi ad l
+            <lb ed="#V" n="94"/>fectiones naturales creaturae. Alia autem est potentia
+            obe<lb ed="#V" n="95" break="no"/>dientiae, secundum quod potest recipere aliquid a Deo, &amp;
+            <lb ed="#V" n="96"/>talis capacitas non potest impleri, quia quicquid Deus de
+            <lb ed="#V" n="97"/>creatura faciat, adhuc remanet in potentia recipiendi a Deo
+            <lb ed="#V" n="98"/>Haec ille.
+          </p>
+          <p xml:id="capsco-c39bo0-d1e1414">
+            Item sexto loco arguit sic. Aut capacitas animae
+            Chri<lb ed="#V" n="99" break="no"/>sti est finita aut infinita, si infinita &amp; tota capacitas sua est
+            <lb ed="#V" n="100"/>plena, ergo habet gratiam infinitam. Si autem finita,
+            quoli<lb ed="#V" n="101" break="no"/>bet autem finito potest Deus aliud maius facere, ergo
+            po<lb ed="#V" n="102" break="no"/>test Deus aliud maius facere, ergo potest facere maiorem
+            ca<lb ed="#V" n="103" break="no"/>pacitatem quam habeat anima Christi, &amp; sic potest facere
+            <lb ed="#V" n="104"/>meliorem Christum, quod est absurdum. Haec ille.
+          </p>
+          <p xml:id="capsco-c39bo0-d1e1431">
+            Ecce arg.
+            <lb ed="#V" n="105"/>Sequitur responsio. Dicendum quod capacitas animae Christi est
+            <lb ed="#V" n="106"/>finita, &amp; potest Deus maiorem capacitatem facere, &amp; meliorem
+            <lb ed="#V" n="107"/>creaturam quam sit anima Christi, si per intellectum separetur
+            <lb ed="#V" n="108"/>a verbo, non tamen sequitur quod possit facere meliorem
+            Chri<lb ed="#V" n="109" break="no"/>stum, quia Christus habet ex alio bonitatem scilicet ex vnione ad
+            ver<lb ed="#V" n="110" break="no"/>bum, ex qua parte eius bonitate maior intelligi nequit. Haec
+            <lb ed="#V" n="111"/>ille. Ex quibus patet, quod mens eius fuit, quod Deus de sua
+            po<lb ed="#V" n="112" break="no"/>tentia absoluta potest omnem formam, cuius creatura
+            spiri<lb ed="#V" n="113" break="no"/>tualis est capax, &amp; cui ex ratione suae speciei non repugnat
+            <lb ed="#V" n="114"/>augeri, augere, &amp; intendere secundum esse, quia capacitas
+            <lb ed="#V" n="115"/>subiecti ad talem formam obedientialis, nunquam potest
+            <lb ed="#V" n="116"/>impleri totaliter. Omnia vero dicta Sanctus Thomas quae videntur
+            so<lb ed="#V" n="117" break="no"/>nare oppositum intelligenda sunt ad hunc sensum scilicet quod
+            <lb ed="#V" n="118"/>Deus non posset intendere charitatem aut gratiam
+            Christi<lb ed="#V" n="119" break="no"/>quantum ad rationem gratiae licet illam &amp; omnem aliam de sua
+            poten<lb ed="#V" n="120" break="no"/>tia absoluta posset intendere in eodem subiecto quantum
+            <lb ed="#V" n="121"/>ad esse &amp; actuationem subiecti. Secus est de potentia
+            ordi<lb ed="#V" n="122" break="no"/>nata, secundum quam gratia vel gloria comprehensoris non
+            <lb ed="#V" n="123"/>potest, nec consueuit augeri. Ex istis patet quid sit dicendum
+            <lb ed="#V" n="124"/>ad argumentum Aureotels Negatur enim prima consequentia
+            <lb ed="#V" n="125"/>accipiendo consequens ad mentem Sancti Thomae scilicet quod in Christo est
+            <lb ed="#V" n="126"/>summa gratia hoc mo quod non est limitata secundum
+            ratio<lb ed="#V" n="127" break="no"/>nem gratiae, licet sit finita &amp; limitata, secundum esse gratiae
+            <lb ed="#V" n="128"/>Vlterius dicitur, quod responsio ibi recitata potest stare scilicet
+            <lb ed="#V" n="129"/>quod capacitas animae est finita in actu licet sit infinita in
+            <lb ed="#V" n="130"/>potentia, &amp; ideo non potest recipere gratiam infinitam in
+            <lb ed="#V" n="131"/>actu licet possit recipere gratiam infinitam in potentia
+            loquen<lb ed="#V" n="132" break="no"/>do de potentia Dei absoluta. Ad improbationem huius respote
+            <lb ed="#V" n="133"/>sionis dicitur, quod illa reatiosio non interimit fundamentum nostrum, quia
+            <lb ed="#V" n="134"/>cum Sanctus Thomas dicit, quod capacitas animae potest crescere &amp;c. intelligit
+            <lb ed="#V" n="135"/>&amp; loquitur de anima, quae est in statu viae. Cum autem dicit quod
+            <lb ed="#V" n="136"/>capacitas animae Christi non potest crescere, nec augeri,
+            loqui<lb ed="#V" n="137" break="no"/>tur de potentia Dei ordinata, secundum quam in anima beata non potest
+            <lb ed="#V" n="138"/>crescere gratia nec gloria, quin tamen de potentia Dei
+            absolu<lb ed="#V" n="139" break="no"/>ta aliter esse posset non negat. Ad aliam formam dicitur, quod capacitas
+            <lb ed="#V" n="140"/>naturalis ipsius animae potest dicere conatum voluntatis, vel
+            vo<lb ed="#V" n="141" break="no"/>luntatem sub tali conatu, aut etiam ipsam voluntatem nudam,
+            <lb ed="#V" n="142"/>sed capacitas obedientiae dicit non repugnantiam animae
+            <lb ed="#V" n="143"/>ad recipiendum quicquid Deus potest velle eam recipere,
+            <lb ed="#V" n="144"/>ex quibus patet, quod anima Christi non recipit gratiam
+            vl<lb ed="#V" n="145" break="no"/>tra suam capacitatem.
+          </p>
+          <p xml:id="capsco-c39bo0-d1e1522">
+            Ad alia formam ibidem factam dicitur, quod
+            <lb ed="#V" n="146"/>loquendo de potentia Dei ordinata, maior falsa est, quia
+            si<lb ed="#V" n="147" break="no"/>militer probaretur quod ignis calor, aut raritas naturaliter
+            pos<lb ed="#V" n="148" break="no"/>set in infinitum augeri, vt lux solis &amp; lunae, quia in talibus forma
+            <lb ed="#V" n="149"/>respicit potentiam sine dispositione media. Et ad probationem dicitur, quod
+            <lb ed="#V" n="150"/>non omnis potentia recipiens aliquam formam sine dispote media
+            re<pb ed="#V" n="99"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>Ipicit eam aequaliter secundum omnem gradum, quia vnus
+            <lb ed="#V" n="2"/>gradus est sibi conuenientior quam alius, vel forte talis
+            for<lb ed="#V" n="3" break="no"/>ma non potest augeri in infinitum secundum potentiam
+            <lb ed="#V" n="4"/>Dei ordminantam, sed habet certum terminum. Dico tamen
+            <lb ed="#V" n="5"/>quod Deus de sua potentia absoluta posset intendere
+            gra<lb ed="#V" n="6" break="no"/>uiam Christi quo ad esse, licet non quo ad rationem gratiae
+            <lb ed="#V" n="7"/>Ad aliam formam dicitur, quod gratia meretur augeri dum
+            <lb ed="#V" n="8"/>est in via, non autem dum est in suo termino. De hoc Sanctus
+            <lb ed="#V" n="9"/>Thomas tertio sententiarum distinctione 13. quaestione
+            pri<lb ed="#V" n="10" break="no"/>ma articulo secundo quaestiuncula tertia sic dicit.
+            Augmen<lb ed="#V" n="11" break="no"/>tum non competit rei secundum quod est in via ad
+            termi<lb ed="#V" n="12" break="no"/>num, quia secundum quod res est in termino tota
+            potentia<lb ed="#V" n="13" break="no"/>lis capacitatis impleta est ex fine implente, &amp; ideo non
+            ha<lb ed="#V" n="14" break="no"/>bet vlterius quo crescat. Et quia anima Christi fuit ab
+            ini<lb ed="#V" n="15" break="no"/>tio conceptionis fini vltimo vnita non solum per finitionem
+            <lb ed="#V" n="16"/>perfectam, sed etiam communicando in persona verbi, ideo
+            <lb ed="#V" n="17"/>gratia eius crescere non potuit. Haec ille.
+          </p>
+          <p xml:id="capsco-c39bo0-d1e1574">
+            Et intelligo
+            capa<lb ed="#V" n="18" break="no"/>citatem illius animae fuisse impletam modo frequenter
+            ex<lb ed="#V" n="19" break="no"/>posito. Vlterius dico quod respotesio, quam arguens recitat,
+            <lb ed="#V" n="20"/>bona est, &amp; est Sancti Thomas tertia parte vbi supra
+            recita<lb ed="#V" n="21" break="no"/>tum est. Et ad improbationem, illius responsionis dicitur
+            <lb ed="#V" n="22"/>quod gratia est dispositio ad vnionem, non naturalis, sed
+            vo<lb ed="#V" n="23" break="no"/>luntaria ex diuina ordinatione. Sed ex hoc non sequitur
+            <lb ed="#V" n="24"/>quod stante vnione gratia illa possit augeri de potentia
+            <lb ed="#V" n="25"/>Dei ordinata: Posset autem augeri de potentia Dei
+            absolu<lb ed="#V" n="26" break="no"/>ta, quia sicut dicit Sanctus Thomas tertio sententiarum vbi
+            <lb ed="#V" n="27"/>supra, nullius rei capacitas extenditur vltra coniunctionem
+            <lb ed="#V" n="28"/>eius cum suo fine, quod est verum secundum ordinem rerum
+            <lb ed="#V" n="29"/>a diuina sapientia inditum. Vlterius dicitur, quod nulla
+            con<lb ed="#V" n="30" break="no"/>tradictio est dicere, quod gratia potest in infinitum augeri
+            <lb ed="#V" n="31"/>secundum esse &amp; actuationem subiecti, &amp; ex alia parte
+            po<lb ed="#V" n="32" break="no"/>nere, quod in Christo est summa gratia quantum ad
+            ra<lb ed="#V" n="33" break="no"/>tionem gratiae, &amp; quod non potest esse maior gratia
+            quan<lb ed="#V" n="34" break="no"/>tum ad rationem gratiae.
+          </p>
+          <p xml:id="capsco-c39bo0-d1e1613">
+            Ad primum Durandus patet solutio
+            <lb ed="#V" n="35"/>per praedicta. Concludit enim quod gratiae animae Christi
+            <lb ed="#V" n="36"/>non est inhnit a in actu quo ad esse, quia capacitas finita non
+            <lb ed="#V" n="37"/>est susceptiua talis infiniti, dicitur tamen quod capacitas
+            <lb ed="#V" n="38"/>finita susceptiua est formae infinitae quo ad aliam
+            conside<lb ed="#V" n="39" break="no"/>rationem.
+          </p>
+          <p xml:id="capsco-c39bo0-d1e1626">
+            Ad secundum patet per idem. Nam vt supra
+            alle<lb ed="#V" n="40" break="no"/>gatum est, sicut visio &amp; fruitio animae Christi sunt actus
+            fi<lb ed="#V" n="41" break="no"/>niti secundum esse, ita &amp; gratia habitualis, tamen vtrunque
+            <lb ed="#V" n="42"/>potest dici infinitum aliquomodo.
+          </p>
+          <p xml:id="capsco-c39bo0-d1e1635">
+            Ad primum Ocham &amp;
+            <lb ed="#V" n="43"/>Adae dicitur, quod fundatur in falsa imaginatione, scilicet
+            <lb ed="#V" n="44"/>quod augmentatio &amp; intensio formarum maxime
+            spiritua<lb ed="#V" n="45" break="no"/>lium fiat per additionem summae ad formam. Huius enim
+            <lb ed="#V" n="46"/>falsitatem ostendit Sanctus Thomas secunda secundae
+            quae<lb ed="#V" n="47" break="no"/>stione vigesimaquarta articulo quinto &amp; in multis alijs
+            lo<lb ed="#V" n="48" break="no"/>cis. Ex quibus patet, quod consequentia argumenti nulla
+            <lb ed="#V" n="49"/>est. Dicitur secundo, quod quicquid sit de potentia Dei
+            ab<lb ed="#V" n="50" break="no"/>soluta, tamen constat de ordinata, quod antecedens
+            argu<lb ed="#V" n="51" break="no"/>menti falsum est, vnde Sanctus Thomas tertia parte
+            quaestio<lb ed="#V" n="52" break="no"/>ne septima articulo duodecimo in solutione primi sic
+            dicis<lb ed="#V" n="53" break="no"/>&amp;i loquamur de quantitatibus mathematicae, cuilibet
+            fini<lb ed="#V" n="54" break="no"/>tae quantitati potest fieri additio, quia ex parte quantitatis
+            <lb ed="#V" n="55"/>finitae non est aliquid quod repugnet additioni, si vero
+            lo<lb ed="#V" n="56" break="no"/>quamur de quantitate naturali sic potest esse repugnantia
+            <lb ed="#V" n="57"/>ex parte formae, cui debetur determinata quantitas, sicut &amp;
+            <lb ed="#V" n="58"/>alia accidentia determinantia, vnde philosophus dicit secum
+            <lb ed="#V" n="59"/>do de anima, quod omnium natura constantium est
+            ter<lb ed="#V" n="60" break="no"/>minus &amp; ratio magnit udinis &amp; augmenti, &amp; inde est quod
+            <lb ed="#V" n="61"/>quantitati totius coeli non potest fieri additio. Multo
+            igi<lb ed="#V" n="62" break="no"/>tur magis in ipsis formis consideratur aliquis terminus
+            vl<lb ed="#V" n="63" break="no"/>tra quem non transgrediuntur Et propter hoc non
+            opor<lb ed="#V" n="64" break="no"/>tuit, quod gratiae Christi posset fieri additio, quauis sit
+            fini<lb ed="#V" n="65" break="no"/>ta secundum sui essentiam. Haec ille.
+          </p>
+          <p xml:id="capsco-c39bo0-d1e1688">
+            Tunc ad probationem
+            <lb ed="#V" n="66"/>antecedentis negati dicitur, quod prima propositio est
+            fal<lb ed="#V" n="67" break="no"/>sa secundum viam Sancti Thomas quia in nulla specie
+            an<lb ed="#V" n="68" break="no"/>gelica possunt secundum eum creari multa indiuidua.
+            Dici<lb ed="#V" n="69" break="no"/>tur secundo, quod secunda propositio apud multos est
+            di<lb ed="#V" n="70" break="no"/>bia, quia multa instantia temporis continui consequentis
+            <lb ed="#V" n="71"/>motum coeli possunt esse successiue, sed non simul. Dicitur
+            <lb ed="#V" n="72"/>tertio quod tertia propositio mauifestam continet salsita
+            <lb ed="#V" n="73"/>tem in partibus totius etherogenei. Nam duae medietates
+            <lb ed="#V" n="74"/>oculi dextri sunt magis vnibiles naturaliter quam medietas
+            <lb ed="#V" n="75"/>oculi dextri cum medietate oculi sinistri, licet sint eiusdem
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="76"/>rationis &amp; multae aliae in stantiae possunt dari. Ex dictis
+            pa<lb ed="#V" n="77" break="no"/>tet ad formam ibi recollectam ex illis tribus
+            propositioni<lb ed="#V" n="78" break="no"/>bus, quod prima consequentia ibi facta non valet vt patet
+            <lb ed="#V" n="79"/>ex tertio dicto contra tertiam propositionem Ocham.
+            V<lb ed="#V" n="80" break="no"/>trum autem quacunque magnitudine data finita similis
+            <lb ed="#V" n="81"/>eiusdem speciei sibi possit vniri dictum est supra. Denique
+            <lb ed="#V" n="82"/>vltima consequentia ibi facta non valet, quia intensio
+            for<lb ed="#V" n="83" break="no"/>marum non fit per additionem formae ad formam. Ad
+            pri<lb ed="#V" n="84" break="no"/>mum Geraus patet responsio ex praedictis, nam maior est
+            fal<lb ed="#V" n="85" break="no"/>sa. Et ad illius probationem dicitur quod diuisio vel
+            cau<lb ed="#V" n="86" break="no"/>sa ibidem assignata est insufficiens, quia quod aliquo
+            indi<lb ed="#V" n="87" break="no"/>uiduo alicuius speciei non possit addi maius in eadem
+            spe<lb ed="#V" n="88" break="no"/>cie potest contingere praeter causas ibidem assignatas, vt
+            <lb ed="#V" n="89"/>puta si forma specifica alicuius indiuidui praefigat sibi
+            cer<lb ed="#V" n="90" break="no"/>tum terminum magnitudinis &amp; augmenti ex natura vel
+            <lb ed="#V" n="91"/>diuina ordinatione, vel sit illimitata quantum ad
+            ratio<lb ed="#V" n="92" break="no"/>nem propriae speciei vt supra frequentius dictum fuit.
+            Vl<lb ed="#V" n="93" break="no"/>terius dico quod argumentum false imaginatur, quod in
+            <lb ed="#V" n="94"/>specie gratiae ex duobus indiuiduis possit constitui tertium
+            <lb ed="#V" n="95"/>Ad confirmationem dicitur primo, quod forte mundus
+            <lb ed="#V" n="96"/>eiusdem speciei cum illo non posset esse maioris
+            quantita<lb ed="#V" n="97" break="no"/>tis de potentia Dei ordinata quicquid sit de absoluta.
+            Di<lb ed="#V" n="98" break="no"/>citur secundo, quod non est simile de augmento
+            quantita<lb ed="#V" n="99" break="no"/>tis corporalis &amp; formae spiritualis, quia prima fit per
+            addi<lb ed="#V" n="100" break="no"/>tionem uel rarefactionem, secunda nequaquam.
+          </p>
+          <p xml:id="capsco-c39bo0-d1e1769">
+            <lb ed="#V" n="101"/><milestone ed="#V" unit="p" rend="indent"/> Dicitur tertio quod licet de potentia Dei absoluta
+            om<lb ed="#V" n="102" break="no"/>nis forma spiritualis accidentalis intensibilis possit in
+            infi<lb ed="#V" n="103" break="no"/>nitum intendi secundum esse, non tamen secundum
+            ratio<lb ed="#V" n="104" break="no"/>nem propriae speciei.
+          </p>
+          <p xml:id="capsco-c39bo0-d1e1781">
+            <lb ed="#V" n="105"/><milestone ed="#V" unit="p" rend="indent"/> Ad secundum negatur minore quicquid sitde maior, quia
+            <lb ed="#V" n="106"/>gratia non habet partes illo modo quo fingit sine
+            quacun<lb ed="#V" n="107" break="no"/>que probatione arguens.
+          </p>
+          <p xml:id="capsco-c39bo0-d1e1791">
+            Ad tertium negaturprima pars
+            <lb ed="#V" n="108"/>minoris. Nec valet eius probatio, quia cum quaelibet
+            spe<lb ed="#V" n="109" break="no"/>cies figurae vel numeri in sua ratione includat certum
+            ter<lb ed="#V" n="110" break="no"/>minum, non tamen genus figurae vel numeri, &amp; ideo
+            qua<lb ed="#V" n="111" break="no"/>cunque specie figurae, vel minori data contingit esse
+            maio<lb ed="#V" n="112" break="no"/>rem, secus est de gratia, cuius aliqua species potest esse
+            illi<lb ed="#V" n="113" break="no"/>mitata quo ad rationem gratiae, sicut est de gratia animae
+            <lb ed="#V" n="114"/>Christi. Et ideo tali gratia nulla potest esse maior quo ad
+            <lb ed="#V" n="115"/>hoc, vnde similitudo non valet, quia nulla species numeri
+            <lb ed="#V" n="116"/>potest habere talem illimitationem, qualem aliqua species
+            <lb ed="#V" n="117"/>gratiae.
+          </p>
+          <p xml:id="capsco-c39bo0-d1e1815">
+            <lb ed="#V" n="118"/><milestone ed="#V" unit="p" rend="indent"/> Ad argumentum Adae dicitur, quod si aliquid
+            conclu<lb ed="#V" n="119" break="no"/>dat, hoc solum concludit, quod quantamcunque poenam
+            <lb ed="#V" n="120"/>Deus infligat damnato, posset intensiorem secundum esse
+            <lb ed="#V" n="121"/>eidem infigere. Et a simili conceditur, quod de potentia
+            <lb ed="#V" n="122"/>Derabsoluta omnis gratia creata posset intendi secundum
+            <lb ed="#V" n="123"/>esse, cum quo stat quod aliqua gratia est summa infinita,
+            <lb ed="#V" n="124"/>&amp; nullo modo intensibilis quantum ad perfectionem
+            ra<lb ed="#V" n="125" break="no"/>tionis gratiae, vt puta quia est dare summam speciem in
+            ge<lb ed="#V" n="126" break="no"/>nere gratiae qua non potest esse superior, non tamen
+            sum<lb ed="#V" n="127" break="no"/>mum indiuiduum, vt ita dicam scilicet quo non possit esse
+            <lb ed="#V" n="128"/>superius quo ad pertinentia ad indiuiduum, cuius est
+            inten<lb ed="#V" n="129" break="no"/>sio secundum est. Et similiter est dare summam poenam
+            <lb ed="#V" n="130"/>quo ad speciem puta priuationem diuinae visionis vel
+            hu<lb ed="#V" n="131" break="no"/>iusmodi: omnia haec ex praedictis elici possunt. Ad argume
+            <lb ed="#V" n="132"/>tum pro parte affirmatiua quaestionis respondit Sanctus
+            <lb ed="#V" n="133"/>Thomas tertia parte quaestione septima articu.o vndecimo
+            <lb ed="#V" n="134"/>in solutione primi sic dicens. Id quod dicitur. Pater non
+            <lb ed="#V" n="135"/>ad mensuram dat spiritum filio. Vno modo exponitur de
+            <lb ed="#V" n="136"/>dono, quod Deus pater ab aeterno dedit filio scilicet
+            diui<lb ed="#V" n="137" break="no"/>nam naturam, quae est donum infinitum, vnde quaedam glo.
+            <lb ed="#V" n="138"/>dicit ibidem, vt tantus sit filius, quantus pater. Alio modo
+            <lb ed="#V" n="139"/>potest referri ad donum, quod datum est humanae naturae,
+            <lb ed="#V" n="140"/>vt vniatur diuinae personae, quod est donum infinitum,
+            vn<lb ed="#V" n="141" break="no"/>de glo. dicit ibidem. Sicut pater plenum &amp; perfectum
+            ge<lb ed="#V" n="142" break="no"/>nuit verbum sic plenum &amp; perfectum vnitum est humanae.
+            <lb ed="#V" n="143"/>naturae. Tertio modo potest referri ad gratiam habitualem
+            <lb ed="#V" n="144"/>inquantum gratia Christi se extendit ad omnia, quae sunt
+            <lb ed="#V" n="145"/>gratiae, vnde Augustinus hoc exponens dicit. Mensura diuisio
+            quae<lb ed="#V" n="146" break="no"/>dam donorum est. Alij enim datur per spiritum sermo
+            sa<lb ed="#V" n="147" break="no"/>pientiae alij sermo scientia, sed Christus qui dat, non ad
+            me<lb ed="#V" n="148" break="no"/>suram accepit. Haec ille. Et haec de praesenti quaestione
+            suffi<lb ed="#V" n="149" break="no"/>ciant de qua benedictus Deus. Amen.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

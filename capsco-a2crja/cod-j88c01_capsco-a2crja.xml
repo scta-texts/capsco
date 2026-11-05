@@ -1,0 +1,990 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 1, Distinctio 23, Quaestio 1</title>
+        <author ref="#JohannesCapreolus">Johannes Capreolus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 1, Distinctio 23, Quaestio 1</title>
+          <date when="2026-11-04">Nov 4, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-j88c01">Venice, 1589, v. 1</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-04" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="352"/>
+        <cb ed="#V" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="capsco-a2crja"><!-- l1d23q1 -->
+        <head xml:id="capsco-a2crja-Hd1e101">Quaestio 1</head>
+        <head xml:id="capsco-a2crja-Hd1e103" type="question-title">Utrum nomen personae sit nomen secundae intentionis</head>
+        <p xml:id="capsco-a2crja-d1e106">
+          <lb ed="#V" n="105"/>DISTINCTIO XXIII
+          <lb ed="#V" n="106"/>QVAESTIO I.
+          <lb ed="#V" n="107"/>Vtrum nomen personae sit nomen secundae intentionis.
+        </p>
+        <p xml:id="capsco-a2crja-d1e115">
+          <lb ed="#V" n="108"/><milestone ed="#V" unit="p" rend="initial"/> CIRCA distinctionem vigesimam
+          se<lb ed="#V" n="109" break="no"/>cundam quaeritur. Vtrum nomen
+          per<lb ed="#V" n="110" break="no"/>sonae sit nomen secundae intentionis.
+        </p>
+        <p xml:id="capsco-a2crja-d1e125">
+          <lb ed="#V" n="111"/>Et arguitur quod sic. Illud in cuius
+          diffi<lb ed="#V" n="112" break="no"/>nitione ponitur secunda intentio
+          vide<lb ed="#V" n="113" break="no"/>tur esse nomen secundae intentionis,
+          <lb ed="#V" n="114"/>sed indiuiduum quod est secunda
+          in<lb ed="#V" n="115" break="no"/>tentio ponitur in diffinitione personae
+          <lb ed="#V" n="116"/>quam ponit Boetius in libus de duabus naturis, &amp; vna
+          per<lb ed="#V" n="117" break="no"/>sona in Christo. di. quod est rationalis naturae indiuidua
+          <lb ed="#V" n="118"/>substantia. ergo videtur quod sit nomen secundae intentionis.
+        </p>
+        <p xml:id="capsco-a2crja-d1e146">
+          <lb ed="#V" n="119"/><milestone ed="#V" unit="p" rend="indent"/> In oppositum arguitur. Illud nomen quod significat
+          ali<lb ed="#V" n="120" break="no"/>quid existens in re vere circumscripto omni actu
+          intelle<lb ed="#V" n="121" break="no"/>ctus non est nomen secundae intentionis, sed manifestum
+          <lb ed="#V" n="122"/>est, quod si non esset aliquis intellectus, adhuc pater esset
+          <lb ed="#V" n="123"/>vna persona, &amp; similiter filius. igitur &amp;c.
+        </p>
+        <p xml:id="capsco-a2crja-d1e160">
+          <lb ed="#V" n="124"/><milestone ed="#V" unit="p" rend="indent"/> Inhac quaestione erunt duo artic. 1. ponentur
+          conclusio<lb ed="#V" n="125" break="no"/>nes. In secundo mouebuntur obiectiones.
+        </p>
+        <div xml:id="capsco-a2crja-Dd1e168">
+          <head xml:id="capsco-a2crja-Hd1e170">Articulus 1</head>
+          <p xml:id="capsco-a2crja-d1e172">
+            <lb ed="#V" n="126"/><milestone ed="#V" unit="p" rend="initial"/> QVantum ad primum sit prima conclusio. Tam prima
+            <lb ed="#V" n="127"/>quam secunda intentio est conceptio intellectus.
+            <lb ed="#V" n="128"/>Istam conclusionem intendit Sanctus Thomas 1. sent. distin. 2. q. 1.
+            <lb ed="#V" n="129"/>art. 3. vbi sic ait. Sciendum (inquit) quod ipsa conceptio
+            intel<lb ed="#V" n="130" break="no"/>lectus tripliciter se habet ad rem, quae est extra animam.
+            Ali<lb ed="#V" n="131" break="no"/>quando enim hoc quod intellectus concipit est similitudo
+            <lb ed="#V" n="132"/>rei existentis extra animam, sicut hoc quod concipitur de
+            <lb ed="#V" n="133"/>hoc nomine homo, &amp; talis conceptio intellectus habet
+            <lb ed="#V" n="134"/>fundamentum in re immediate inquantum res ipsa ex sua
+            <lb ed="#V" n="135"/>conformitate ad intellectum facit quod intellectus sit verus,
+            <lb ed="#V" n="136"/>&amp; quod nomen significans illum intellectum proprie dicatur
+            <lb ed="#V" n="137"/>de re. Aliquando autem hoc quod significat nomen, non est
+            <lb ed="#V" n="138"/>similitudo rei existentis extra animam, sed est aliquid, quod
+            <lb ed="#V" n="139"/>consequitur ex modo intelligendi rem, quae est extra animam
+            <lb ed="#V" n="140"/>&amp; huiusmodi sunt intentiones, quas intellectus noster
+            ad<lb ed="#V" n="141" break="no"/>inuenit, sicut significatum huius nominis genus non est
+            <lb ed="#V" n="142"/>similitudo alicuius rei extra animam existentis, sed ex hoc
+            <lb ed="#V" n="143"/>quod intellectus intelligit animal, vt in pluribus speciebus.
+            <lb ed="#V" n="144"/>attribuit ei intentionem generis, &amp; huius intentionis, licet
+            <lb ed="#V" n="145"/>proximum fundamentum non sit in re, sed in intellectu,
+            ta<lb ed="#V" n="146" break="no"/>men remotum fundamentum est res ipsatvnde intellectus
+            <pb ed="#V" n="353"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>non est falsus, qui has intentiones adinuenit, &amp; est simile
+            <lb ed="#V" n="2"/>de omnibus alijs, quae consequuntur ex modo intelligendi,
+            <lb ed="#V" n="3"/>sicut est abstractio mathematicorum, &amp; huotmodo. Aliquando
+            <lb ed="#V" n="4"/>autem illud quod significatur per nomen non habet
+            fun<lb ed="#V" n="5" break="no"/>damentum in re, neque proximum, neque remotum, sicut
+            con<lb ed="#V" n="6" break="no"/>ceptio chimerae: quia neque est similitudo rei extra animam,
+            ne<lb ed="#V" n="7" break="no"/>que consequitur ex modo intelligendi rem aliquam naturae, &amp;
+            <lb ed="#V" n="8"/>ita conceptio est falsa. Haec ille.
+          </p>
+          <p xml:id="capsco-a2crja-d1e243">
+            Ex quibus patet quomodo
+            <lb ed="#V" n="9"/>omne nomen significat aliquam conceptionem, &amp; quo illa
+            con<lb ed="#V" n="10" break="no"/>ceptio, quae non immediate fundatur in re, sed mediante
+            <lb ed="#V" n="11"/>alia conceptione dicitur secunda intentio, vt conceptio quam
+            <lb ed="#V" n="12"/>significat hoc nomen genus, vel species, vel abstractum, vel
+            <lb ed="#V" n="13"/>huiusmodi, huotsodi enim intentiones secundae non sunt
+            similitu<lb ed="#V" n="14" break="no"/>dines rei extra animam, sed sunt similitudines rerum prout sunt
+            <lb ed="#V" n="15"/>in intellectu: vnde Sanctus Thomas ibidem dicit. Hoc nomen ratio
+            <lb ed="#V" n="16"/>on significat ipsam conceptionem sapientiae: quia illa
+            si<lb ed="#V" n="17" break="no"/>gnificatur per hoc nomen sapientia, sed significat
+            intentio<lb ed="#V" n="18" break="no"/>nem huius conceptionis, sicut &amp; hoc nomen diffinitio, &amp;
+            <lb ed="#V" n="19"/>alia nomina secundae impositionis. Haec ille.
+          </p>
+          <p xml:id="capsco-a2crja-d1e269">
+            Ex quo patet,
+            <lb ed="#V" n="20"/>quod secundae intentiones sunt conceptiones conceptionum
+            <lb ed="#V" n="21"/>immediate fundatarum in re, ipsae autem conceptiones, quae
+            <lb ed="#V" n="22"/>sunt similitudines rerum extra animam sunt primae
+            intentio<lb ed="#V" n="23" break="no"/>nes, quod enim hominis conceptio sit intentio ostendit Sanctus Thomas 1.
+            con<lb ed="#V" n="24" break="no"/>tra Gent. c. 54. Intellectus per speciem rei formatus
+            intelli<lb ed="#V" n="25" break="no"/>gendo format in seipso quandam intentionem rei
+            intelle<lb ed="#V" n="26" break="no"/>ctae, quae est ratio ipsius, quam significat diffinitio. Et subdit. Per
+            <lb ed="#V" n="27"/>hoc quod species intelligibilis, quae est forma intellectus, est
+            si<lb ed="#V" n="28" break="no"/>militudo rei exterioris, sequitur quod intellectus intentionem
+            <lb ed="#V" n="29"/>formet illi rei similem: quia quale est vnumquodque talia
+            <lb ed="#V" n="30"/>operatur, ex hoc autem quod intentio intellecta est similis
+            alicui<lb ed="#V" n="31" break="no"/>rei, sequitur quod intellectus formando huotmiodo intentionem rem
+            <lb ed="#V" n="32"/>illam intelligat. Haec ille.
+          </p>
+          <p xml:id="capsco-a2crja-d1e300">
+            Item 1. sent. dist. 25. q. 1. arti. 1. ad
+            <lb ed="#V" n="33"/>secundum Diffinitio (inquit) considerata secundum suam intentionem
+            <lb ed="#V" n="34"/>non est idem quod diffinitum, sed ductiuum in eius
+            cogni<lb ed="#V" n="35" break="no"/>tionem, &amp; sic diffinitio est composita ex pluribus
+            intentioni<lb ed="#V" n="36" break="no"/>bus, quarum nulla probatur de ipsa, nec econtra: quia
+            in<lb ed="#V" n="37" break="no"/>tentio generis non est intentio diffinitionis. Haec ille.
+          </p>
+          <p xml:id="capsco-a2crja-d1e314">
+            Ex
+            qui<lb ed="#V" n="38" break="no"/>bus patet quo conceptio, quae est similitudo rei &amp;
+            diffini<lb ed="#V" n="39" break="no"/>tio eius dicitur intentio, &amp; constat quod non est secunda
+            in<lb ed="#V" n="40" break="no"/>tentio, relinquitur ergo quod sit prima intentio, similiter quod
+            se<lb ed="#V" n="41" break="no"/>cunda intentio sit similitudo conceptionis rei extra animam
+            <lb ed="#V" n="42"/>patet: nam est intentio talis conceptionis, vt dictum est. ergo
+            <lb ed="#V" n="43"/>conceptio eius, hic enim pro eodem accipimus intentionem,
+            <lb ed="#V" n="44"/>&amp; conceptionem: vnde sicut prima intentio est similitudo
+            <lb ed="#V" n="45"/>rosae vel hominis, immediate eam repraesentans, ita secunda
+            <lb ed="#V" n="46"/>intentio est similitudo talis conceptionis, immediate
+            repn<lb ed="#V" n="47" break="no"/>sentans eam relatiue ad res extra, &amp; mediante tali
+            conceptio<lb ed="#V" n="48" break="no"/>ne est similitudo rei extra, vt est in intellectu: vnde Sanctus Thomas
+            <lb ed="#V" n="49"/>in trac. de esse, &amp; essentia sic ait. Ratio (inquit) speciei accidit
+            na<lb ed="#V" n="50" break="no"/>turae humanae secundum illud esse, quod habet in intellectu ipsa enim
+            na<lb ed="#V" n="51" break="no"/>tura humana hebetam in intellectu esse abstractum ab omnibus
+            indiui<lb ed="#V" n="52" break="no"/>duantibus, &amp; ideo habet rationem vniformem ad omnia indiuidua,
+            <lb ed="#V" n="53"/>quae sunt extra animam, prout equaliter est similitudo omnium,
+            <lb ed="#V" n="54"/>&amp; ducens in omnium cognitionem inquantum sunt homines, &amp; ex
+            <lb ed="#V" n="55"/>hoc quod talem relationem habet ad omnia indiuidua, intellectus
+            <lb ed="#V" n="56"/>adinuenit rationem speciei, &amp; attribuit sibi, &amp; quamuis haec natura
+            <lb ed="#V" n="57"/>intellecta habet rationem vniuersalis secundum quod comparatur ad res
+            <lb ed="#V" n="58"/>extra animam: quia vna est similitudo omnium, tamen secundum quod est
+            <lb ed="#V" n="59"/>in hoc intellectu vel in illo, est quaedam spes intellecta
+            par<lb ed="#V" n="60" break="no"/>ticularis, non enim est vniuersalitas illius formae secundum hoc esse,
+            <lb ed="#V" n="61"/>quod hebetem in intellectu, sed secundum quod refertur ad res, vt
+            similitu<lb ed="#V" n="62" break="no"/>do rerum, sicut etiam si esset vna statua corporalis repraesentans
+            <lb ed="#V" n="63"/>multos honies, constat quod illa imago hateet esse singulare, &amp;
+            <lb ed="#V" n="64"/>proprium secundum quod esset in hac materia, sed hitet rationem comnta
+            <lb ed="#V" n="65"/>tis, secundum quod est commune repraesentatiuum plurium. Haec ille.
+          </p>
+          <p xml:id="capsco-a2crja-d1e377">
+            Ex
+            qui<lb ed="#V" n="66" break="no"/>bus patet quomodo secundae intentiones sunt quidam conceptus
+            <lb ed="#V" n="67"/>respectiui rerum, vt intellectarum, qui conueniunt immediate
+            <lb ed="#V" n="68"/>primis intentionibus, &amp; mediate rebus extra animam. Huius
+            men<lb ed="#V" n="69" break="no"/>tis fuit Auicenna scilicet quod intentiones huiusmodi sint accidentia intellectus
+            <lb ed="#V" n="70"/>nostri vnde 3. suae Met. c. 7. vbi intendit probare, quod scientia humana sit
+            <lb ed="#V" n="71"/>accidens, ita dicit. De rebus (inquit) separatis non acquiritur
+            intel<lb ed="#V" n="72" break="no"/>lectibus humanis nisi intentiones quidditatum suarum. nam
+            ip<lb ed="#V" n="73" break="no"/>se &amp; est idem iudicium de eis sicut est iudicium de alijs
+            substa<lb ed="#V" n="74" break="no"/>tijs intellectis corporalibus, excepto vno, quodscilicet illae aliae egent
+            <lb ed="#V" n="75"/>abstractione quousque abstrahatur ab eis intentio quod possit
+            in<cb ed="#V" n="b"/><lb ed="#V" n="76" break="no"/>telligi, istae vero non egent aliquo, nisi vt intelligantur esse
+            <lb ed="#V" n="77"/>vt sunt, &amp; sigilletur anima per eas, &amp; quod inuenitur in nobis de
+            <lb ed="#V" n="78"/>illis est impressio, quam assimilatur illis sine dubio, &amp; haec est
+            no<lb ed="#V" n="79" break="no"/>stra scientia de illis, quae acquiritur animabus nostris, &amp; sunt
+            impressio<lb ed="#V" n="80" break="no"/>nes animae non essentiae illarum, &amp; sunt accidentes in anima. Haec Auicenna
+            <lb ed="#V" n="81"/>Idem etiam dicit, quod intellectum de quidditate sit accidens, cum est
+            <lb ed="#V" n="82"/>in anima non sicut pars. Item lib. 5. c. 1. sic ait. Sicut animal in se
+            ha<lb ed="#V" n="83" break="no"/>bet plures modos, sic &amp; in intellectu, in intellectu etenim
+            <lb ed="#V" n="84"/>est forma animalis abstracta, &amp; hoc modo ipsum dicitur forma
+            intel<lb ed="#V" n="85" break="no"/>ligibilis, in intellectu enim forma animalis taliter est, quod in
+            intelle<lb ed="#V" n="86" break="no"/>ctu conuenit ex vna, &amp; eadem dispositione multis
+            particula<lb ed="#V" n="87" break="no"/>ribus, quapropter vna forma apud intellectum erit relata
+            <lb ed="#V" n="88"/>ad multitudinem, &amp; secundum hunc respectum est vniuersale: quia
+            <lb ed="#V" n="89"/>ipsum est vna intentio in intellectu, cuius comparatio non
+            va<lb ed="#V" n="90" break="no"/>riatur ad quodcunque acceperis animalium, haec autem forma
+            qua<lb ed="#V" n="91" break="no"/>uis respectu indiuiduorum sit vniuersalis, tamen respectu animae
+            sin<lb ed="#V" n="92" break="no"/>gularis, cui imprimitur est indiuidua, ipsa enim est vna ex formis,
+            <lb ed="#V" n="93"/>quae sunt in intellectu, &amp; qua animae singulae sunt multae
+            nume<lb ed="#V" n="94" break="no"/>ro, tunc eo modo, quo sunt particulares, habebunt ipsae aliud
+            <lb ed="#V" n="95"/>intellectum vniuersale. Haec Auiu. Ex quibus patet conclusio.
+          </p>
+          <p xml:id="capsco-a2crja-d1e446">
+            Se<lb ed="#V" n="96" break="no"/>cunda conclusio est. Tales intentiones quaedam
+            conueniun<lb ed="#V" n="97" break="no"/>naturis, &amp; quaedam conueniunt suppositis naturarum. Haec
+            con<lb ed="#V" n="98" break="no"/>clusio probatur per Sanctum Doctorem &amp; quidem quod aliquae intentiones
+            <lb ed="#V" n="99"/>conueniant naturis, &amp; non suppositis naturarum ostendit Sanctus Thomas
+            <lb ed="#V" n="100"/>in praefato tractatu, vbi sic ait. Quia naturae humanae secundum
+            <lb ed="#V" n="101"/>suam absolutam considerationem conuenit, quod praedicetur de
+            <lb ed="#V" n="102"/>sorte, &amp; ratio spem non conuenit ei secundum suam absolutam
+            conside<lb ed="#V" n="103" break="no"/>rationem, sed est de accidentibus, quae consequuntur eam secundum
+            <lb ed="#V" n="104"/>esse, quod habet in intellectu, ideo nomen speciei non praedicatur
+            <lb ed="#V" n="105"/>de sorte, vt dicatur, Sortes est species, quod de necessitate
+            ac<lb ed="#V" n="106" break="no"/>cideret, si ratio speciei conueniret homini secundum esse, quod habet
+            <lb ed="#V" n="107"/>in Sorte, vel secundum suam considerationem absolutam scilicet inqutum
+            <lb ed="#V" n="108"/>est homo, quicquid enim conuenit homini inquantum est homo
+            praedica<lb ed="#V" n="109" break="no"/>tur de sorte. Et subdit. Sic ergo patet qualiter essentia vel
+            na<lb ed="#V" n="110" break="no"/>tura se habet ad rationem speciei: quia ratio speciei non est de his,
+            <lb ed="#V" n="111"/>quae conueniunt ei secundum absolutam considerationem suam, nec
+            <lb ed="#V" n="112"/>est de his accidentibus, quae consequuntur eam secundum esse Ad
+            <lb ed="#V" n="113"/>habet extra animam, vt albedo &amp; nigredo, sed est de accidentibus
+            <lb ed="#V" n="114"/>quae consequuntur eam secundum esse, quod habet in intellectu, per
+            <lb ed="#V" n="115"/>hunc modum conuenit ei ratio generis, &amp; ratio differentiae. Haec ille.
+          </p>
+          <p xml:id="capsco-a2crja-d1e492">
+            Ex
+            <lb ed="#V" n="116"/>quibus patet, quod intentio generis, spei, vel dicituriae non competit
+            sup<lb ed="#V" n="117" break="no"/>positis naturae humanae, vt possit dici, Sortes est species, aut
+            <lb ed="#V" n="118"/>genus, aut diciturnia. Idem ponit 1. parte. q. 30. art. 4. vbi sic ait.
+            <lb ed="#V" n="119"/>Nomina generum &amp; specierum, vel homo, vel animal sunt
+            imposi<lb ed="#V" n="120" break="no"/>ta ad significandum naturas cones. Haec ille.
+          </p>
+          <p xml:id="capsco-a2crja-d1e505">
+            Quia autem aliquae
+            <lb ed="#V" n="121"/>secundae intentiones conueniant suppositis naturarum, patet
+            <lb ed="#V" n="122"/>de intentionibus significatis per haec nomina, suppositum,
+            par<lb ed="#V" n="123" break="no"/>ticulare, indiuiduum, singulare, haec enim nomina dicunt
+            intentio<lb ed="#V" n="124" break="no"/>nes conuenientes suppositis naturarum, quod onndit Sanctus Thomas
+            <lb ed="#V" n="125"/>3. sent. dist. 6. q. 1 art. 1. quaestiunc. 1. vbi sic ait. Cum omne
+            (in<lb ed="#V" n="126" break="no"/>quit) particulare ad naturam conem, &amp; ad proprietates possit
+            <lb ed="#V" n="127"/>secundum vtrunque nominari tam per nomen primae impositionis
+            <lb ed="#V" n="128"/>signerans particulare per respectum ad naturam conem, hoc vero
+            <lb ed="#V" n="129"/>nomen suppositum est nomen secundae intentionis signenans
+            ip<lb ed="#V" n="130" break="no"/>sam habitudinem particularis ad naturam communem inquantum
+            <lb ed="#V" n="131"/>subsistit in ea, particulare vero inquantum exceditur ab ea, sed
+            <lb ed="#V" n="132"/>quia accetentia consequuntur naturam, ideo omne nomen significans
+            <lb ed="#V" n="133"/>particulare per respectum ad pprietates designat etiam ipsum
+            <lb ed="#V" n="134"/>per respectum ad naturam communem, hoc autem potest fieri
+            duplici<lb ed="#V" n="135" break="no"/>ter, vel per nomen primae impositionis, &amp; sic est hypostasis
+            <lb ed="#V" n="136"/>comniter omnibus substantijs, vel per nomen sconae impositionis, &amp;
+            <lb ed="#V" n="137"/>sic est indiuiduum inqutum est indiuisum in se, singulare vero
+            <lb ed="#V" n="138"/>inquantum est diuisum ab alijs: vnde sigillatum idem est quod
+            diui<lb ed="#V" n="139" break="no"/>sum. Haec ille.
+          </p>
+          <p xml:id="capsco-a2crja-d1e549">
+            Idem ponit 1. sen. di. 23. q. 1. ar. 3. &amp; 1. parte q. 29
+            <lb ed="#V" n="140"/>ar. 2. Ex quibus habetur quod aliquae intentiones conueniunt suppositis
+            <lb ed="#V" n="141"/>naturarum, puta intentio suppoteonis, &amp; singularitatis, &amp;
+            parti<lb ed="#V" n="142" break="no"/>cularitatis, &amp; indiuidualitatis, ratio enim suppositi non conuenit
+            <lb ed="#V" n="143"/>alicui, nisi vt est cognitum vel intellectum per modum subsistem
+            <lb ed="#V" n="144"/>tis in aliqua natura communi, &amp; similiter ratio particularis, &amp; sic de
+            <lb ed="#V" n="145"/>alijs.
+          </p>
+          <p xml:id="capsco-a2crja-d1e566">
+            Tertia conclusio est. Nomen hoc persona non est nomc
+            <lb ed="#V" n="146"/>scoumnmae intentionis, licet sit nomen rei, cui conuenit scoumr a intentio.
+            <lb ed="#V" n="147"/>Istam ponit Sanctus Thomas 1. parte. q. 29. ar. 1. ad 3. vbi sic dicit. Differentiae
+            sub<lb ed="#V" n="148" break="no"/>stantiales non sunt nobis notae vel etiam nomnatae non sunt, &amp; id
+            <lb ed="#V" n="149"/>onndet interdum vti dicturijs accendentalib.s loco subalium, puta si quos
+            <lb ed="#V" n="150"/>diceret. ignis est corpus simplex calidum &amp; siccum, accidentia enim
+            pro<pb ed="#V" n="354"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>pria sunt effectus substantialium formarum, &amp; manifestant
+            <lb ed="#V" n="2"/>eas, &amp; similiter nomina intentionum possunt accipi ad
+            dif<lb ed="#V" n="3" break="no"/>siniendum res, secundum quod assumuntur pro aliquibus
+            nomi<lb ed="#V" n="4" break="no"/>nibus rerum, quae sunt imposita, &amp; sic hoc nomen
+            indiui<lb ed="#V" n="5" break="no"/>duum ponitur in diffinitione personae ad designandum
+            mo<lb ed="#V" n="6" break="no"/>dum subsistendi, qui competit substantijs particularibus.
+            <lb ed="#V" n="7"/>Haec ille.
+          </p>
+          <p xml:id="capsco-a2crja-d1e597">
+            Item 1. sent. dist. 25. q. 1. artic. 1. hoc nomen
+            perso<lb ed="#V" n="8" break="no"/>na secundum suam communitatem sumptum non est nomen
+            in<lb ed="#V" n="9" break="no"/>tentionis, sicut hoc nomen singulare, vel genus, aut species
+            <lb ed="#V" n="10"/>sed est nomen rei, cui accidit aliqua intentio scilicet intentio
+            par<lb ed="#V" n="11" break="no"/>ticularis, &amp; in natura determinata scilicet rationali vel
+            intelle<lb ed="#V" n="12" break="no"/>ctuali, &amp; ideo in diffinitione naturae ponuntur tria scilicet genus
+            <lb ed="#V" n="13"/>illius rei, quod significatur nomine personae, dum dicitur
+            <lb ed="#V" n="14"/>substantia, &amp; differentia, per quam contrahitur ad naturam
+            <lb ed="#V" n="15"/>determinatam, in qua ponitur res, quae est persona in hoc
+            <lb ed="#V" n="16"/>quod dicitur rationalis naturae, &amp; ponitur etiam aliquid pertinens
+            <lb ed="#V" n="17"/>ad intentionem illam, sub qua nomen personae rem suam
+            <lb ed="#V" n="18"/>significat, non enim significat substantiam rationalem
+            absolu<lb ed="#V" n="19" break="no"/>te, sed secundum quod subintelligitur intentio particularis, &amp; ideo
+            <lb ed="#V" n="20"/>additur indiuidua. Haec ille.
+          </p>
+          <p xml:id="capsco-a2crja-d1e628">
+            Et ad octauum sic ait.
+            Perso<lb ed="#V" n="21" break="no"/>na non nominat intentionem, sed rem cui accidit illa
+            in<lb ed="#V" n="22" break="no"/>tentio, &amp; ideo non nominat accidens, sed substantiam, nec
+            <lb ed="#V" n="23"/>hoc quod est indiuiduum est differentia substantiae: quia
+            <lb ed="#V" n="24"/>particulare non addit aliquam differentiam super speciem, sed tantum
+            <lb ed="#V" n="25"/>particulare efficit indiuiduum per aliquod principium
+            essen<lb ed="#V" n="26" break="no"/>tiale, quod quidem in rebus compositis est materia, &amp;, in
+            <lb ed="#V" n="27"/>rebus diuinis distinguens, &amp; quia principia essentialia sunt
+            <lb ed="#V" n="28"/>nobis ignota, frequenter ponimus in diffinitionibus aliquid
+            <lb ed="#V" n="29"/>accidentale ad designandum aliquid essentiale, &amp; sic etiam
+            <lb ed="#V" n="30"/>nomen indiuidui, quod est nomen accidentis, ponitur ad
+            <lb ed="#V" n="31"/>designandum principium substantiale, per quod fit
+            indiui<lb ed="#V" n="32" break="no"/>duum. Haec ille.
+          </p>
+          <p xml:id="capsco-a2crja-d1e657">
+            Et nota quomodo indiuiduum significat
+            <lb ed="#V" n="33"/>accidens: quia vt dicit ibidem arguendo significat
+            inten<lb ed="#V" n="34" break="no"/>tionem quandam, sicut &amp; nomen generis. Eandem ponit
+            <lb ed="#V" n="35"/>conclusionem de potentia Dei. q. 9art. 2. ad secundum, &amp;
+            <lb ed="#V" n="36"/>quintum. Et sic terminatur primus articulus.
+          </p>
+        </div>
+        <div xml:id="capsco-a2crja-Dd1e669">
+          <head xml:id="capsco-a2crja-Hd1e671">Articulus 2</head>
+          <p xml:id="capsco-a2crja-d1e673">
+            <lb ed="#V" n="37"/><milestone ed="#V" unit="p" rend="initial"/> Vantum ad secundum articulum restat arguere, &amp;
+            <lb ed="#V" n="38"/>quidem contra primam conclusionem arguit Aurilus
+            <lb ed="#V" n="39"/>probando quod prima intentio sit obiectum intellectus primo
+            <lb ed="#V" n="40"/>&amp; principaliter, &amp; non conceptio facta per intellectum.
+            Pri<lb ed="#V" n="41" break="no"/>mo sic. Illud dicitur tale formaliter in ordine ad quod
+            om<lb ed="#V" n="42" break="no"/>nia alia dicuntur talia, vt patet, quod sanitas animalis dicitur
+            <lb ed="#V" n="43"/>formaliter sanitas: quia in ordine ad ipsam medicina, &amp;
+            <lb ed="#V" n="44"/>dieta &amp; omnia alia dicuntur sana, sed species vel actus aut
+            <lb ed="#V" n="45"/>conceptiones ex hoc dicuntur intentiones, quod intellectus
+            <lb ed="#V" n="46"/>per ea tendit in aliud obiectiue ergo obiectum cognitum
+            <lb ed="#V" n="47"/>formaliter est intentio. Secundo. Quia ibi primo &amp;
+            for<lb ed="#V" n="48" break="no"/>maliter reperitur intentio, vbi formaliter reperitur
+            diffcren<lb ed="#V" n="49" break="no"/>tia intentionalis, sed illa inuenitur primo in obiecto,
+            nul<lb ed="#V" n="50" break="no"/>lus enim dicit, quod duae species, aut conceptus intellectus tamuendu
+            in<lb ed="#V" n="51" break="no"/>tentionaliter differunt, immo vere realiter, de duob. autem
+            <lb ed="#V" n="52"/>conceptibus obiectiuis de eadem re formatis, quales sunt
+            <lb ed="#V" n="53"/>conceptus hominis, &amp; animalis consuetum est dici, quod differunt
+            <lb ed="#V" n="54"/>intentionaliter, &amp; sunt duae intentiones eiusdem rei, non
+            <lb ed="#V" n="55"/>autem duae res, aut duo distincta realiter. ergo manifeste
+            pa<lb ed="#V" n="56" break="no"/>tet, quod ratio intentionis per prius inuenitur in conceptibus obie
+            <lb ed="#V" n="57"/>ctiuis quam in conceptibus, vel speciebus, aut actibus
+            for<lb ed="#V" n="58" break="no"/>matis per intellectum.
+          </p>
+          <p xml:id="capsco-a2crja-d1e724">
+            Tertio. Sicut se habet suo modo
+            in<lb ed="#V" n="59" break="no"/>tentio, &amp; esse intentionale in sensu, sic se habet in
+            intelle<lb ed="#V" n="60" break="no"/>ctu, sed quaerentes de coloribus iridis, aut de coloribus, qui
+            <lb ed="#V" n="61"/>sunt in collo columbae, aut de imagine, quae apparet in
+            spe<lb ed="#V" n="62" break="no"/>culo, aut de candela apparente extra situm, vtrum habeant
+            <lb ed="#V" n="63"/>tamen esse reale, aut intentionale tantum, intendunt quaerere
+            <lb ed="#V" n="64"/>vtrum habeant esse obiectiuum tamen, &amp; fictitium seu
+            appa<lb ed="#V" n="65" break="no"/>rens, aut habeant esse reale, &amp; fixum extra in rerum
+            natu<lb ed="#V" n="66" break="no"/>ra absque omni appraehensione per quod patet, quod esse
+            <lb ed="#V" n="67"/>intentionale non est aliud quam visio vel apparitio obiectiua.
+            <lb ed="#V" n="68"/>ergo nec intentio est aliud quam conceptus obiectiuus, &amp;
+            <lb ed="#V" n="69"/>non conceptus formalis inhaerens intellectui. Quarto. Ibi
+            <lb ed="#V" n="70"/>est prius &amp; formalius scoma intentio &amp; prima vbi est prius,
+            <lb ed="#V" n="71"/>&amp; formalius fundatio secundae super primam, est enim communis
+            <lb ed="#V" n="72"/>omnium loquentium acceptatio, quod sconma intentio fundatur
+            <lb ed="#V" n="73"/>super primam, sed manifestum est quod hoc reperitur per prius
+            <lb ed="#V" n="74"/>&amp; formalius ex parte conceptuum formatorum obiectiue:
+            <lb ed="#V" n="75"/>nam conceptus vniuersalitatis fundatur supra conceptum
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="76"/>anialitatis, &amp; inest sibi formaliter tanquam subiecto proprio,
+            <lb ed="#V" n="77"/>vt quilibet experitur, nullus autem actus intellectus inest
+            tan<lb ed="#V" n="78" break="no"/>quam subiecto conceptui animalis, quamuis enim inter eos sit
+            or<lb ed="#V" n="79" break="no"/>do suppositionis, non tamen inhaerentiae habitudo. ergo prima
+            <lb ed="#V" n="80"/>&amp; secunda intentio per prius, &amp; formalius se tenent ex
+            par<lb ed="#V" n="81" break="no"/>te obiectorum vel obiectiuorum conceptuum quam actuum,
+            <lb ed="#V" n="82"/>vel aliorum accidentium intellectus.
+          </p>
+          <p xml:id="capsco-a2crja-d1e781">
+            Quinto. Illud non est
+            <lb ed="#V" n="83"/>intentio primo &amp; formaliter &amp; in abstracto, sine quo
+            inten<lb ed="#V" n="84" break="no"/>tio logice diffinitur, logicales enim diffinitiones formales suntem
+            <lb ed="#V" n="85"/>sicut &amp; Metaphysicae, sed logicus diffiniens genus tanquam
+            <lb ed="#V" n="86"/>illud, quod praedicatur de pluribus differentibus specie in eo
+            <lb ed="#V" n="87"/>quod quid, nullam mentionem facit de actu vel specie, aut alio
+            <lb ed="#V" n="88"/>accidente intellectus, praedicari enim non est formaliter
+            intel<lb ed="#V" n="89" break="no"/>ligere, alioquin actus intelligendi praedicaretur de rebus quae
+            <lb ed="#V" n="90"/>sunt extra, non est igitur praedicatio in intellectu
+            formali<lb ed="#V" n="91" break="no"/>ter, sed obiectiue, nec inest alicui accidenti intellectus, sed
+            <lb ed="#V" n="92"/>est ab actu intelligendi effectiue &amp; formatiue. igitur
+            acci<lb ed="#V" n="93" break="no"/>dens nullum intellectus est formaliter intentio, sed magis
+            <lb ed="#V" n="94"/>conceptus obiectiuus.
+          </p>
+          <p xml:id="capsco-a2crja-d1e810">
+            Sexto Auicus dicit 1. Meta. quod logica
+            <lb ed="#V" n="95"/>est de secundis intentionibus adiunctis primis, sed manifestum
+            <lb ed="#V" n="96"/>est, quod logica non coniungit actum intellectum actui
+            intel<lb ed="#V" n="97" break="no"/>lectus, aut accidens accidenti, sed conceptus secundarios
+            <lb ed="#V" n="98"/>conceptibus primis, vtpote praedicari animali &amp; homim, affirmari
+            <lb ed="#V" n="99"/>vel negari, &amp; sic de alijs. ergo manifestum est, quod secunda
+            <lb ed="#V" n="100"/>intentio, &amp; prima non sunt accidentia intellectus, sed
+            con<lb ed="#V" n="101" break="no"/>ceptus obiectiui. Septimo. Omnes concedunt quod logica est de
+            <lb ed="#V" n="102"/>secundis intentionibus siue tanquam de subiecto adaequato, siue
+            <lb ed="#V" n="103"/>aliter secundum quod opinantur diuersimode, sed constat quod logica
+            <lb ed="#V" n="104"/>est de dicibili incomplexo, de quo determinatur in libus
+            prae<lb ed="#V" n="105" break="no"/>dicamentorum, &amp; de enunciantione, de qua determinatur
+            <lb ed="#V" n="106"/>in lib. Periher. &amp; de omrtione syllogistica simpliciter, &amp;
+            ora<lb ed="#V" n="107" break="no"/>tione demonstratiua &amp; dialectica, sicut patet, nullum autem
+            <lb ed="#V" n="108"/>istorum est aliquod accidens intellectus formaliter, &amp; si sint
+            <lb ed="#V" n="109"/>formata per actum intellectus, nusquam autem reperitur
+            tra<lb ed="#V" n="110" break="no"/>ctatum aut discussum in logica de actibus intellectus
+            for<lb ed="#V" n="111" break="no"/>malibus, sed tantummodo de formatis per intellectum.
+            er<lb ed="#V" n="112" break="no"/>go mirum est quod in imaginationem alicuius ascenderit, quod
+            pri<lb ed="#V" n="113" break="no"/>ma &amp; secunda intentio sit accidentia intellectus, aut
+            con<lb ed="#V" n="114" break="no"/>ceptus formales, &amp; non potius conceptus formati.
+          </p>
+          <p xml:id="capsco-a2crja-d1e857">
+            Octauo.
+            <lb ed="#V" n="115"/>In omnibus iuxta doctrinam Philosophi loquendum est,
+            <lb ed="#V" n="116"/>vt plures, &amp; maxime secundum Philosophantes, sed Commendus
+            vo<lb ed="#V" n="117" break="no"/>cat intentiones conceptus obiectiuos, dicit enim 3. de Anima,
+            <lb ed="#V" n="118"/>quod intentiones intellectae continuantur cum intentionibus
+            <lb ed="#V" n="119"/>imaginatis, &amp; sunt in eis quasi forma in materia, &amp; sicut
+            co<lb ed="#V" n="120" break="no"/>lor in pariete, hoc enim ponit commento. 18. &amp; 43. Manifestum
+            <lb ed="#V" n="121"/>est autem quod loquitur de intentionibus obiectiuis, quae sunt
+            in<lb ed="#V" n="122" break="no"/>tellectae &amp; imaginatae: quia de illis experimur, quod intellecta
+            <lb ed="#V" n="123"/>innitiuntur imaginatis, sicut color parieti, quod non est
+            ve<lb ed="#V" n="124" break="no"/>rum de actibus, aut accidentibus intellectus: vnde com. 18.
+            <lb ed="#V" n="125"/>dicit quod sensationes non sunt intentiones aliae ab
+            intentioni<lb ed="#V" n="126" break="no"/>bus rerum existentium extra animam in materia.
+          </p>
+          <p xml:id="capsco-a2crja-d1e886">
+            Ex quo
+            pa<lb ed="#V" n="127" break="no"/>tet quod intelligit per sensationes &amp; intentiones, apparitiones
+            <lb ed="#V" n="128"/>rerum obiectiuas, quae sunt realiter eaedem cum his, quae
+            <lb ed="#V" n="129"/>sunt extra. ergo secundum modum loquendi Physicum
+            intentio<lb ed="#V" n="130" break="no"/>nes non sunt actus, nec actiones intellectus, sed aliquid
+            <lb ed="#V" n="131"/>obiectiuum. Nono. Illa quorum distinctio nullo modo est
+            <lb ed="#V" n="132"/>realis inquantum sunt huomodi, sed penitus intentionalis, illa
+            <lb ed="#V" n="133"/>inquantum huotiodo sunt intentiones, impossibile est enim quod
+            <lb ed="#V" n="134"/>aliqua distinguantur realiter, nisi alterum vel vtrunque sit res,
+            <lb ed="#V" n="135"/>alterum quidem, vt ens &amp; nihil, quae differunt realiter
+            ratio<lb ed="#V" n="136" break="no"/>ne alterius extremi, vtrunque vero, vt lapis, &amp; homo. Similiter
+            <lb ed="#V" n="137"/>et impossibile est quod aliqua differant intentionaliter, nisi
+            vtrun<lb ed="#V" n="138" break="no"/>que vel alterum fuerit intentio, sed manifestum est, quod homo
+            <lb ed="#V" n="139"/>inquantum homo, &amp; animal inquantum animal differunt, non
+            qui<lb ed="#V" n="140" break="no"/>dem realiter, sed intentionaliter &amp; secundum rationem. ergo necesse
+            <lb ed="#V" n="141"/>est, quod homo &amp; animal sint intentiones.
+          </p>
+          <p xml:id="capsco-a2crja-d1e921">
+            Decimo Illud quod non
+            <lb ed="#V" n="142"/>est exmens in rerum natura, nec habet esse fixum extra secundum quod huoi,
+            <lb ed="#V" n="143"/>illud inquantum est quid intentionale, sed manifestum est, quod homo
+            inquan<lb ed="#V" n="144" break="no"/>tum differt a sorte, &amp; animal prout distinguitur ab homine: horum
+            <lb ed="#V" n="145"/>inquantum rationes, vt sic acceptae non sunt in rerum natura habentes
+            <lb ed="#V" n="146"/>esse extra, alioquin redit error Platonis, &amp; erit dare tertium
+            <lb ed="#V" n="147"/>hominem separatum ab omnibus singularibus, &amp; similiter animal
+            separa<lb ed="#V" n="148" break="no"/>tum, quod esse non potest. ergo necesse est quod homo &amp; animal secundum quod
+            <lb ed="#V" n="149"/>huomodi sint intentiones. constat autem quod non sunt accnmna
+            intelle<lb ed="#V" n="150" break="no"/>ctus. igitur &amp;c. Vndecimo Omne fabricatum per intellectum, quod non
+            <pb ed="#V" n="355"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>est nisi conceptus obiectiue formatus est vna intentio,
+            con<lb ed="#V" n="2" break="no"/>stat enim quod intellectus non fabricat res, sed intentiones, sed
+            ma<lb ed="#V" n="3" break="no"/>nifestum est, quod ratio homnins &amp; animalis prout distinguuntur a
+            <lb ed="#V" n="4"/>sorte est fabricata per intellectum, nec est aliquid nisi
+            conce<lb ed="#V" n="5" break="no"/>ptus obiectiue formatus, non enim natura fecit has distinctas
+            <lb ed="#V" n="6"/>rationes in existentia actuali. ergo necesse est quod sint
+            intentio<lb ed="#V" n="7" break="no"/>nes, constat autem quod non sunt accidentia intellectus.
+            igi<lb ed="#V" n="8" break="no"/>tur &amp;c. Duodecimo. Impossibile est quod vna res sit plura
+            qu<lb ed="#V" n="9" break="no"/>dam realiter, sed tantum intentionaliter, &amp; secundum
+            ratio<lb ed="#V" n="10" break="no"/>nem, vna quidem, candela potest apparere plures, &amp; esse
+            <lb ed="#V" n="11"/>multae in esse intentionali, &amp; apparenti, sed in esse reali non
+            <lb ed="#V" n="12"/>est possibile, sed manifestum est quod homo, &amp; animal sunt
+            <lb ed="#V" n="13"/>vna res, vt quaedam plura, &amp; distincta, rationale enim &amp;
+            ani<lb ed="#V" n="14" break="no"/>mal important duas rationes distinctas, quarum vna non
+            <lb ed="#V" n="15"/>est alia, &amp; tamen sunt vna res. igitur homo, &amp; animal sunt
+            <lb ed="#V" n="16"/>intentiones. igitur vt prius. Decimotertio. Illud quo
+            tota<lb ed="#V" n="17" break="no"/>liter praeciso, &amp; amoto aliquid remanet vere intentio non
+            <lb ed="#V" n="18"/>est intentionalitas in abstracto, qua formaliter sit intentio,
+            <lb ed="#V" n="19"/>quicquid est intentio in concreto, alioquin remaneret
+            effe<lb ed="#V" n="20" break="no"/>ctus formalis sine causa formali: vnde illud non est
+            forma<lb ed="#V" n="21" break="no"/>liter albedo, quo dempto aliquid remaneret album. Et Auicenna
+            <lb ed="#V" n="22"/>dicit 5. Metaphysi. c. 1. quod quidditas abstrahit ab esse vnum &amp;
+            <lb ed="#V" n="23"/>multa, &amp; ab esse in intellectu &amp; extra: vnde equinitas non
+            <lb ed="#V" n="24"/>est nisi equinitas tantum, a qua praescinditur habitudo rei
+            intel<lb ed="#V" n="25" break="no"/>lectae ad intellectum, &amp; tamen constat quod vt sic est intentio,
+            <lb ed="#V" n="26"/>nec habet esse reale, immo tamen intentionale inquantum
+            hu<lb ed="#V" n="27" break="no"/>iusmodi, &amp; per consequens cessante opere intellectus,
+            re<lb ed="#V" n="28" break="no"/>manet equinitas intentio. ergo non est verum quod aliquid
+            exi<lb ed="#V" n="29" break="no"/>stens subiectiue in intellectu sit intentio vel
+            intentionali<lb ed="#V" n="30" break="no"/>tas formaliter. Decimoquarto. Secundae substantiae, quae
+            <lb ed="#V" n="31"/>sunt homo &amp; animal, &amp; similia inquantum huiusmodi sunt
+            <lb ed="#V" n="32"/>primae intentiones, quando inquantum huiusmodi non sunt res
+            ex<lb ed="#V" n="33" break="no"/>tra existentes, nec significant hoc aliquid, sed quale quid secundum
+            <lb ed="#V" n="34"/>Philosophum in praedicamentis, sed manifestum est, quod
+            se<lb ed="#V" n="35" break="no"/>cundae substantiae inquantum huiusmodi non sunt
+            subie<lb ed="#V" n="36" break="no"/>ctiue in intellectu, nec includunt respectum ad intellectum,
+            <lb ed="#V" n="37"/>alioquin non essent in praedicamento substantiae, cum
+            es<lb ed="#V" n="38" break="no"/>sent intrinsece relatiua. ergo sine opere intellectus adhuc
+            <lb ed="#V" n="39"/>remanent primae intentiones. Contra tertiam
+            conclusio<lb ed="#V" n="40" break="no"/>nem arguit sic Henricus, &amp; multi alij, primo per
+            argumen<lb ed="#V" n="41" break="no"/>tum factum in principio quaestionis.
+          </p>
+          <p xml:id="capsco-a2crja-d1e1036">
+            Secundo sic. Illud quod
+            <lb ed="#V" n="42"/>opponitur secundae intentioni relatiue importat secundam
+            <lb ed="#V" n="43"/>intentionem, opposita enim debent esse eiusdem generis, &amp;
+            <lb ed="#V" n="44"/>conditionis, sed persona opponitur vniuersali, sicut
+            indiui<lb ed="#V" n="45" break="no"/>duum, &amp; singulare: vnde nullum vniuersale est persona,
+            <lb ed="#V" n="46"/>vniuersale autem est res secundae intentionis. ergo persona
+            si<lb ed="#V" n="47" break="no"/>gnificat intentionem. Tertio. Illud quod dicit rem vel
+            pri<lb ed="#V" n="48" break="no"/>mam intentionem in diuinis non potest plurificari, sed
+            per<lb ed="#V" n="49" break="no"/>sona plurificatur in diuinis. ergo non significat rem, aut
+            pri<lb ed="#V" n="50" break="no"/>mam intentionem, sed tantummodo secundam. Quarto.
+            <lb ed="#V" n="51"/>Si persona significaret primam intentionem, eius
+            commu<lb ed="#V" n="52" break="no"/>nitas esset generis vel speciei, omnis enim prima intentio, quae
+            <lb ed="#V" n="53"/>praedicatur in quid de pluribus, est genus vel species, nunc
+            <lb ed="#V" n="54"/>autem ad interrogationem factam per quid de Patre &amp;
+            fi<lb ed="#V" n="55" break="no"/>lio, &amp; Spiritu sancto, respondetur de quolibet, quod est
+            perso<lb ed="#V" n="56" break="no"/>na, &amp; per consequens si persona sit nomen primae
+            imposi<lb ed="#V" n="57" break="no"/>tionis erit genus vel species respectu trium personarum, sed
+            <lb ed="#V" n="58"/>Augustinus 7. de trinitate cap. 9. negat rationem speciei, aut
+            gene<lb ed="#V" n="59" break="no"/>ris a diuinis. ergo vt prius. Quinto. Persona &amp; suppositum
+            <lb ed="#V" n="60"/>idem esse videntur, sed suppositum est secundae
+            intentio<lb ed="#V" n="61" break="no"/>nis a subsistendo quidditati, &amp; vniuersali naturae. ergo
+            per<lb ed="#V" n="62" break="no"/>sona significat intentionem secundam. Sexto. Indiuiduum
+            <lb ed="#V" n="63"/>est nomen secundae impositionis, &amp; secundae intentionis,
+            <lb ed="#V" n="64"/>sed Damasc. dicit lib. 4. quod hypostasis &amp; persona
+            indiui<lb ed="#V" n="65" break="no"/>duum demonstrat. ergo illud quod supra. Septimo. Illud
+            <lb ed="#V" n="66"/>quod est commune secundum rem in diuinis est vnum
+            nu<lb ed="#V" n="67" break="no"/>mero sicut dicit Damasc. lib. 1. c. 11. quod communitas in
+            di<lb ed="#V" n="68" break="no"/>uinis est secundum rem, distinctio vero secundum rationem,
+            <lb ed="#V" n="69"/>sed persona non est vna numero in diuinis. ergo non est
+            <lb ed="#V" n="70"/>aliquid reale, sed tantum intentionale. Octauo. Illud quod
+            <lb ed="#V" n="71"/>dicit puram negationem non videtur esse nisi secunda
+            in<lb ed="#V" n="72" break="no"/>tentio: quia negationes sunt entia rationis, sed persona
+            <lb ed="#V" n="73"/>significat negationem, quoniam diffinitur per
+            incommu<lb ed="#V" n="74" break="no"/>nicabilitatem, quae negationem importat. ergo significat
+            <lb ed="#V" n="75"/>tantum secundam intentionem.
+          </p>
+          <p xml:id="capsco-a2crja-d1e1112">
+            Nono arguit Petrus de
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="76"/>Palude recitans quandam opinionem. Nomina debent esse
+            <lb ed="#V" n="77"/>consona rebus, res autem sunt in triplici genere, nam
+            quae<lb ed="#V" n="78" break="no"/>dam habent esse tantum in re extra, &amp; non per animam vt
+            <lb ed="#V" n="79"/>singularia Sortes, &amp; Plato, &amp; caetera quae non sunt nisi a
+            na<lb ed="#V" n="80" break="no"/>tura, &amp; quicquid est extra est huiusmodi. Aliae vero sunt solum
+            <lb ed="#V" n="81"/>in intellectu &amp; ab intellectu, sicut intentiones logicales
+            cir<lb ed="#V" n="82" break="no"/>ca singularia. Aliae vero sunt partim extra, &amp; partim intra
+            <lb ed="#V" n="83"/>ab intellectu, vt secundae substantiae, &amp; species &amp; genera
+            <lb ed="#V" n="84"/>aliorum ptedicamentorum: natura enim in his occultae
+            opera<lb ed="#V" n="85" break="no"/>tur, vt dicit auctor. 6. principiorum scilicet praebendo
+            fundamen<lb ed="#V" n="86" break="no"/>tum, sed intellectus agens est qui facit vniuersalitatem in
+            <lb ed="#V" n="87"/>rebus completiue &amp; formaliter. scilicet abstrahendo. ergo omnia
+            <lb ed="#V" n="88"/>nomina propria indiuiduorum, vt Sortes, &amp; Plato, &amp;
+            hu<lb ed="#V" n="89" break="no"/>iusmodi quae significant res solum secundum esse quod
+            ha<lb ed="#V" n="90" break="no"/>bent extra animam, &amp; non per animam, sicut nomina rerum
+            <lb ed="#V" n="91"/>nullo modo sunt nomina intentionis primae vel secundae,
+            <lb ed="#V" n="92"/>nomina vero propria substantiarum secundarum &amp; omnis
+            ge<lb ed="#V" n="93" break="no"/>neris vniuersalium, vt homo, animal, &amp; albedo, &amp; color &amp;
+            hu<lb ed="#V" n="94" break="no"/>iusmodi quae significant ea, quae partim sunt intra, partim
+            <lb ed="#V" n="95"/>extra sunt primae intentionis, vt per hoc designetur quod non
+            <lb ed="#V" n="96"/>totaliter hoc vel illud, &amp; intentio referatur ad vnum, prima
+            <lb ed="#V" n="97"/>vero ad aliud, nomina autem communia tam indiuiduorum quam
+            <lb ed="#V" n="98"/>specierum quam generum, quae significant huotmodio, vt spes.
+            <lb ed="#V" n="99"/>genus, indiuiduum, persona &amp;c. sunt nomina secundae
+            in<lb ed="#V" n="100" break="no"/>tentionis: quia pure intentionalia.
+          </p>
+          <p xml:id="capsco-a2crja-d1e1171">
+            Decimo arguit. Quia
+            <lb ed="#V" n="101"/>haec est differentia inter nomen primae impositionis, &amp;
+            se<lb ed="#V" n="102" break="no"/>cundae intentionis: quia nomen primae impositionis non
+            <lb ed="#V" n="103"/>transcendit determinatos limites, sed nomen intentionis
+            <lb ed="#V" n="104"/>secundae transcendit limites sui fundamenti: quia si
+            funda<lb ed="#V" n="105" break="no"/>tur super illud quod praedicatur tamen de differentibus numero,
+            <lb ed="#V" n="106"/>ipsum praedicabitur de differentibus specie, vel de diuersis
+            spe<lb ed="#V" n="107" break="no"/>ciebus, si super praedicabile de differentibus specie, ipsum
+            <lb ed="#V" n="108"/>praedicabitur de differentibus genere. 1. 3. super hanc rem quae
+            <lb ed="#V" n="109"/>est homo fundatur secunda intentio, quae est species, &amp; non
+            se<lb ed="#V" n="110" break="no"/>lum homo est species, sed brutum, &amp; albedo, &amp; huotmodo.
+            simi<lb ed="#V" n="111" break="no"/>liter genus quod est secunda intentio est in omni genere.
+            <lb ed="#V" n="112"/>non tamen animal quod est res subiecta intentioni, sed
+            nomi<lb ed="#V" n="113" break="no"/>na communia indiuiduorum, de quibus agimus, transcendunt
+            ambi<lb ed="#V" n="114" break="no"/>tum rei subiectae, sicut Sornus &amp; Plato. igitur &amp;c. Vndecimo.
+            <lb ed="#V" n="115"/>Quia nomen commune differentibus genere secundum rem, &amp;
+            <lb ed="#V" n="116"/>secundum vocem est secundae intentionis, talibus enim nec
+            <lb ed="#V" n="117"/>Physicum, nec Metaphysic. potest esse commune, sed sola
+            <lb ed="#V" n="118"/>ratio logica, sed persona, &amp; omnia talia sunt humodi. igitur &amp;c.
+          </p>
+          <p xml:id="capsco-a2crja-d1e1214">
+            <lb ed="#V" n="119"/><milestone ed="#V" unit="p" rend="initial"/> Dm argumentum primum contra primam
+            conclusio<lb ed="#V" n="120" break="no"/>nem. Dico quod aliquid dicitur in ordine ad aliud: vno
+            <lb ed="#V" n="121"/>modo, sicut analogum ad coanalogum, sicut arguens
+            exen<lb ed="#V" n="122" break="no"/>plificat de sanitate animalis in ordine, ad quam vrina dicitur sana,
+            <lb ed="#V" n="123"/>&amp; isto modo negatur minor, &amp; conceditur maior, alio
+            mo<lb ed="#V" n="124" break="no"/>do sicut relatiuum &amp; correlatiuum, sicut imago dicitur imago
+            <lb ed="#V" n="125"/>in ordine ad imaginatum, &amp; via dicitur via in ordine ad
+            termi<lb ed="#V" n="126" break="no"/>num, &amp; sic maior est falsa, &amp; minor vera, non enim conceptio
+            <lb ed="#V" n="127"/>intellectus dicitur intentio ex hoc, quod est signum intentionis, quae
+            <lb ed="#V" n="128"/>sit in obiecto, vel quia habet aliam proportionem ad aliquam
+            <lb ed="#V" n="129"/>intentionem, quae sit in obiecto, sed dicitur intentio in ordine
+            <lb ed="#V" n="130"/>ad aliquid, quia per talem conceptionem intellectus tendit
+            <lb ed="#V" n="131"/>in rem, cuius est intentio, &amp; est ibi ordo talis
+            conceptio<lb ed="#V" n="132" break="no"/>nis ad obiectum, sicut imaginis ad imaginatum, &amp; sicut viae
+            <lb ed="#V" n="133"/>ad terminum: quia per talem formam intellectus venit in
+            <lb ed="#V" n="134"/>notitiam rei, &amp; res venit ad intellectum, &amp; intellectus
+            ter<lb ed="#V" n="135" break="no"/>dit, &amp; intellectus tenetur.
+          </p>
+          <p xml:id="capsco-a2crja-d1e1254">
+            Ad secundum dicitur, quod minor est
+            <lb ed="#V" n="136"/>falsa: nam distinctio rationis vel intentionalis non est
+            so<lb ed="#V" n="137" break="no"/>maliter in obiecto, sed tantummodo fundamentaliter, in
+            <lb ed="#V" n="138"/>intellectu autem est formaliter &amp; in actu, &amp; ibi est formaliter
+            <lb ed="#V" n="139"/>intentio. Et ad probationem dicitur, quod duae species vel duae
+            <lb ed="#V" n="140"/>conceptiones formales differunt realiter, vt sunt quaedam
+            <lb ed="#V" n="141"/>accidentia, &amp; non solum ratione vel intentionaliter, sed res
+            <lb ed="#V" n="142"/>vt in talibus conceptionibus distinguitur a seipsa
+            intentio<lb ed="#V" n="143" break="no"/>naliter, &amp; solum ratione. v. 3. anima vt in manu distinguitur
+            <lb ed="#V" n="144"/>a se, vt in pede secundum rationem, &amp; tamen manus &amp; pes per quos
+            <lb ed="#V" n="145"/>anima distinguitur a seipsa secundum rationem solum non sola ratione
+            <lb ed="#V" n="146"/>distinguuntur, immo realiter, non enim oportet tantam esse
+            di<lb ed="#V" n="147" break="no"/>uersitatem inter distincta, sicut inter dist inctiua.
+          </p>
+          <p xml:id="capsco-a2crja-d1e1283">
+            Ad 3. dicitur, quod
+            <lb ed="#V" n="148"/>tam in sensu quam in intellectu esse intentionale formaliter est
+            <lb ed="#V" n="149"/>esse intentionis, vel rei in sua intentione, quae est accidens
+            dimi<lb ed="#V" n="150" break="no"/>bla &amp; similitudo reisieut species color in acredi
+            inten<pb ed="#V" n="356"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>tio coloris, &amp; illud esse est esse reale illius intentionis, sed
+            <lb ed="#V" n="2"/>est esse intentionale respectu coloris. Et ad probationem
+            <lb ed="#V" n="3"/>dico, quod quaerere an colores illi habeant solum esse
+            intentio<lb ed="#V" n="4" break="no"/>nale est quaerere an colores, qui videntur vel apparent,
+            ha<lb ed="#V" n="5" break="no"/>beant solum esse in cognoscente per suam similitudinem,
+            <lb ed="#V" n="6"/>&amp; hoc est quaerere esse intentionale solum, vel vltra illud
+            <lb ed="#V" n="7"/>esse habeant esse extra cognoscentem, quod est habere esse
+            <lb ed="#V" n="8"/>reale, potissime si sit in subiecto disposito ad esse
+            naturali<lb ed="#V" n="9" break="no"/>ter conueniens formae, &amp; non intendunt quaerere, an sit
+            ali<lb ed="#V" n="10" break="no"/>quid distinctum a colore reali, &amp; a specie coloris, nisi vane
+            <lb ed="#V" n="11"/>quaerant.
+          </p>
+          <p xml:id="capsco-a2crja-d1e1318">
+            Ad quartum negatur minor, non enim conceptus
+            <lb ed="#V" n="12"/>vniuersalitatis inest conceptui animalis, sicut accidens suo
+            <lb ed="#V" n="13"/>subiecto, sed consequitur ad illum, &amp; ad sibi consimiles, dum
+            <lb ed="#V" n="14"/>enim intellectus intellexit animal abstrahendo quidditatem
+            <lb ed="#V" n="15"/>ab omni extraneo, &amp; post resiectitur super conceptum illum
+            <lb ed="#V" n="16"/>&amp; rem, vt in tali conceptu format aliam intentionem, quam
+            <lb ed="#V" n="17"/>attribuit tali conceptui &amp; rei in tali conceptu cognitae, vt
+            <lb ed="#V" n="18"/>dictum fuit in prima conclusione, &amp; isto modo secunda
+            in<lb ed="#V" n="19" break="no"/>tentio fundatur in prima vel in re mediante prima. Illa
+            au<lb ed="#V" n="20" break="no"/>tem sundatio non est intelligenda per illum modum, quo
+            <lb ed="#V" n="21"/>accidens fundatur in subiecto, vt ostendit Sanctus Thomas 1. sent.
+            <lb ed="#V" n="22"/>dist. 2. vbi supra, sed potius illo modo, quo aliquid dicitur
+            <lb ed="#V" n="23"/>fundari metaphorice in illo, a quo firmitatem suae veritatis
+            <lb ed="#V" n="24"/>habet.
+          </p>
+          <p xml:id="capsco-a2crja-d1e1349">
+            Ad quintum dicitur, quod argumentum supponit
+            fal<lb ed="#V" n="25" break="no"/>sum, scilicet quod genus sit intentio secunda. Dico enim quod genus
+            <lb ed="#V" n="26"/>non est secunda intentio, sed est res substracta intentioni
+            <lb ed="#V" n="27"/>secundae, &amp; fundans talem intentionem mediante prima
+            <lb ed="#V" n="28"/>intentione. Vnde Sanctus Thomas 1. sent. dist. 33. q. 1. artic. 1. ad
+            ter<lb ed="#V" n="29" break="no"/>tium dicit. In omnibus intentionibus communiter verum
+            <lb ed="#V" n="30"/>est, quod intentiones ipsae non sunt in rebus, sed in anima, sed
+            <lb ed="#V" n="31"/>habent in re correspondens scilicet naturam cui intellectus
+            hu<lb ed="#V" n="32" break="no"/>iusmodi intentionem attribuit, sicut intentio generis non
+            <lb ed="#V" n="33"/>est in asino, sed natura animalis, cui per intellectum haec
+            in<lb ed="#V" n="34" break="no"/>tentio attribuitur. Haec ille.
+          </p>
+          <p xml:id="capsco-a2crja-d1e1373">
+            Ex quo patet quod genus non est
+            <lb ed="#V" n="35"/>intentio, sed fundamentum intentionis, &amp; correspondens
+            <lb ed="#V" n="36"/>intentioni, si enim genus esset intentio, nulla natura realis
+            di<lb ed="#V" n="37" break="no"/>ceretur genus. Item dist. 19. q. 5. artic. 1. Quaedam (inquit)
+            <lb ed="#V" n="38"/>sunt quae habent fundamentum in re extra animam, sed
+            com<lb ed="#V" n="39" break="no"/>plementum rationis eorum, quantum ad illud quod est
+            <lb ed="#V" n="40"/>formale, est per operationem animae, vt patet in vniuersali,
+            <lb ed="#V" n="41"/>humanitas enim est aliquid in re, non tamen habet ibi rationem
+            vni<lb ed="#V" n="42" break="no"/>uersalis, cum non sit extra animam aliqua humanitas
+            mul<lb ed="#V" n="43" break="no"/>tis communis, sed secundum quod accipitur in intellectu
+            <lb ed="#V" n="44"/>adiungitur ei per operationem intellectus intentio
+            secun<lb ed="#V" n="45" break="no"/>dum quam dicitur species. Haec ille.
+          </p>
+          <p xml:id="capsco-a2crja-d1e1400">
+            Tunc ad argumentum
+            <lb ed="#V" n="46"/>dico, quod nulla intentio potest diffiniri quantum ad quid rei,
+            <lb ed="#V" n="47"/>quin oporteat fieri mentionem de opere intellectus,
+            simili<lb ed="#V" n="48" break="no"/>ter nec res, vt subest intentioni diffinitur nisi fiat mentio
+            <lb ed="#V" n="49"/>de actu intellectus, si enim diffinitur genus diffinietur per hoc
+            <lb ed="#V" n="50"/>quod est praedicari. Et si quaeratur quid est praedicari
+            vlte<lb ed="#V" n="51" break="no"/>rius. Dicetur quod praedicari est attribui alicui pe intellectum
+            <lb ed="#V" n="52"/>cum nota compositionis vel diuisionis, veruntamen illa
+            <lb ed="#V" n="53"/>diffinitio generis non est diffinitio intentionis, sed rei vt est
+            <lb ed="#V" n="54"/>sub intentione, illa enim intentio quam significat genus potius
+            <lb ed="#V" n="55"/>est diffinitio quaedam: vnde si illa vlterius diffiniretur
+            quan<lb ed="#V" n="56" break="no"/>tum ad quid rei, oporteret in eius diffinitione ponere
+            soco<lb ed="#V" n="57" break="no"/>generis hoc quod dico conceptio intellectus, vel similitudo
+            <lb ed="#V" n="58"/>in intellectu, vel aliquid operatiuum ab intellectu &amp;
+            huius<lb ed="#V" n="59" break="no"/>modi. Cum autem dicit arguens, quod praedicari non est
+            intel<lb ed="#V" n="60" break="no"/>ligere &amp;c.
+          </p>
+          <p xml:id="capsco-a2crja-d1e1435">
+            Dico quod idem est actus, quo intellectus intelligit
+            <lb ed="#V" n="61"/>&amp; praedicatur aliquid de aliquo, praedicari autem dicit
+            re<lb ed="#V" n="62" break="no"/>lationem per modum passionis fundatam in re mediante
+            <lb ed="#V" n="63"/>conceptione, quam intellectus componit cum alia,
+            praedi<lb ed="#V" n="64" break="no"/>catum autem dicit intentionem secundam, nec sequitur quod
+            <lb ed="#V" n="65"/>actus intellectus vel conceptio praedicetur de re, sed solum
+            <lb ed="#V" n="66"/>quod praedicari non conuenit rei nisi prout est sub
+            conceptio<lb ed="#V" n="67" break="no"/>ne, ita quod talis relatio non potest fundari in re nuda
+            immedia<lb ed="#V" n="68" break="no"/>te.
+          </p>
+          <p xml:id="capsco-a2crja-d1e1455">
+            Ad sextum dicitur, quod logica est de intentionibus, non vt
+            <lb ed="#V" n="69"/>sunt res: quia sic de talibus est tertius liber de Anima, sed
+            <lb ed="#V" n="70"/>est de intentionibus, vt sunt intentiones &amp; viae, per quas
+            in<lb ed="#V" n="71" break="no"/>tellectus perquirit verum &amp; falsum, sicut sunt diffinitio,
+            enun<lb ed="#V" n="72" break="no"/>ciatio, syllogismus, praedicatum, &amp; subiectum, praedicabile,
+            <lb ed="#V" n="73"/>&amp; vniuersale, &amp; sic de caeteris, quae significant secundas
+            in<lb ed="#V" n="74" break="no"/>tentiones, dicitur autem coniungere intentionem secundam
+            pri<lb ed="#V" n="75" break="no"/>mae: quia docet quomodo ea, quae includunt secundas
+            intentio<cb ed="#V" n="b"/><lb ed="#V" n="76" break="no"/>nes conueniunt illis, quae important primas scilicet quomodo homo
+            <lb ed="#V" n="77"/>est species, animal est genus &amp; docet quomodo talia
+            com<lb ed="#V" n="78" break="no"/>binanda sunt ad veritatem inquirendam formando
+            propp<lb ed="#V" n="79" break="no"/>sitiones, &amp; syllogismos. Potest tamen dici, quod intentio potest
+            du<lb ed="#V" n="80" break="no"/>pliciter sumi: vno modo in vi vnius abstracti, &amp; sic non est
+            <lb ed="#V" n="81"/>aliud quam conceptio intellectus, vt dictum est, alio
+            mo<lb ed="#V" n="82" break="no"/>do in vi concreti, sicut si albedo poneretur loco huius
+            no<lb ed="#V" n="83" break="no"/>minis album: quia in proposito vocabula. deficiunt, cum
+            <lb ed="#V" n="84"/>non habeamus nomen concretum significans concretiue,
+            <lb ed="#V" n="85"/>sicut intentio abstractiue, &amp; isto modo intentio dicit rem
+            <lb ed="#V" n="86"/>substractam conceptui animae, &amp; isto modo omnis res
+            fun<lb ed="#V" n="87" break="no"/>dans primam intentionem abstractiue dictam potest
+            dici<lb ed="#V" n="88" break="no"/>prima intentio, &amp; omne quod fundat secundam
+            intentio<lb ed="#V" n="89" break="no"/>nem primo modo dictam immediate potest dici secunda
+            <lb ed="#V" n="90"/>intentio: vnde homo illo modo diceretur prima intentio,
+            <lb ed="#V" n="91"/>sed genus diceretur secunda intentio, &amp; illo modo
+            intell.<lb ed="#V" n="92" break="no"/>go Sanctus Thomas 2. sent. dis. 5. q. 3. art. 1. vbi sic dicit. Sicut genus
+            <lb ed="#V" n="93"/>est quaedam intentio quam intellectus ponit circa formam
+            <lb ed="#V" n="94"/>intellectam, &amp; ita &amp; differentia, tamen huic intentioni
+            in<lb ed="#V" n="95" break="no"/>tellectae respondet natura quaedam, quae est in
+            particulari<lb ed="#V" n="96" break="no"/>bus, licet secundum quod est in particularibus non habeat
+            ra<lb ed="#V" n="97" break="no"/>tionem generis aut speciei. Haec ille.
+          </p>
+          <p xml:id="capsco-a2crja-d1e1522">
+            Et intendit quod genus
+            <lb ed="#V" n="98"/>dicit quandam intentionem, non quod illud quod est
+            ge<lb ed="#V" n="99" break="no"/>nus sit intentio nisi denominatiue, &amp; in concreto, homo enim
+            <lb ed="#V" n="100"/>prout est in intellectu per suum conceptum immediate
+            re<lb ed="#V" n="101" break="no"/>praesentantem eum potest illo modo dici prima intentio,
+            <lb ed="#V" n="102"/>vt autem est in intellectu per alium conceptum
+            consequen<lb ed="#V" n="103" break="no"/>tem actum reflexum super primum conceptum, quo
+            scilicein<lb ed="#V" n="104" break="no"/>telligitur homo, vt habens esse vniuersale in intellectu,
+            dici<lb ed="#V" n="105" break="no"/>tur secunda intentio concretiue, nec tamen conceditur quod
+            <lb ed="#V" n="106"/>homo sit secunda intentio: quia homo dicit meram rem,
+            <lb ed="#V" n="107"/>sed conceditur, quod species est secunda intentio: quia hoc quod
+            <lb ed="#V" n="108"/>dico species significat rem cum conceptu, vel rem, vt
+            con<lb ed="#V" n="109" break="no"/>ceptam.
+          </p>
+          <p xml:id="capsco-a2crja-d1e1551">
+            Ad septimum dicitur, sicut ad praecedens, quod
+            lo<lb ed="#V" n="110" break="no"/>gica est de secundis intentionibus, inquantum est de illis,
+            <lb ed="#V" n="111"/>quae in sua ratione important secundam intentionem,
+            pu<lb ed="#V" n="112" break="no"/>ta genus, &amp; species, &amp; subiectum &amp; praedicatum, &amp; hoc
+            in<lb ed="#V" n="113" break="no"/>quantum talia sunt includentia intentionem. Q uia autem
+            <lb ed="#V" n="114"/>logica non agat de actibus intellectus, dictum est: quia non
+            <lb ed="#V" n="115"/>agit de intentionibus, vt sunt res, sed vt sunt instrumenta
+            <lb ed="#V" n="116"/>perquirendi verum, &amp; quia potius agit de substractis
+            inten<lb ed="#V" n="117" break="no"/>tionum quam de intentionibus: vnde licet diffinitio sit
+            ra<lb ed="#V" n="118" break="no"/>tio formata per intellectum, logicus non habet inquirere,
+            <lb ed="#V" n="119"/>quae res sit illa ratio, an substantia vel accidens, quamuis in
+            <lb ed="#V" n="120"/>omnibus suis diffinitionibus semper ponat aliquid
+            perti<lb ed="#V" n="121" break="no"/>nens ad intellectum, vt hoc quod dico praedicare, vel
+            signi<lb ed="#V" n="122" break="no"/>ficare, vel aliquid huiusmodi.
+          </p>
+          <p xml:id="capsco-a2crja-d1e1582">
+            Ad octauum dico, quod
+            Com<lb ed="#V" n="123" break="no"/>men. 3. de Anima errauit opinatus, quod intellectus possit esse
+            <lb ed="#V" n="124"/>aliqua forma separata ab anima nostra secundum esse, &amp;
+            <lb ed="#V" n="125"/>ideo oportuit eum multa falsa fingere, quorum vnum fuit,
+            <lb ed="#V" n="126"/>quod species intelligibilis est subiectiue in fantasmatibus, &amp;
+            <lb ed="#V" n="127"/>est in intellectu possibili alio modo, &amp; istam fictionem
+            adin<lb ed="#V" n="128" break="no"/>uenit, vt saluaret continuationem intellectus possibilis cum
+            <lb ed="#V" n="129"/>anima nostra per illam speciem, vnde intentionem
+            intelle<lb ed="#V" n="130" break="no"/>ctam vocauit speciem intelligibilem, &amp; intentionem
+            imagi<lb ed="#V" n="131" break="no"/>natam vocauit fantasma, quod licet verum sit, tamen illa
+            <lb ed="#V" n="132"/>inhaerentia, quam ponit huius ad hoc scilicet speciei intelligibilis
+            <lb ed="#V" n="133"/>ad fantasma nihil est.
+          </p>
+          <p xml:id="capsco-a2crja-d1e1609">
+            Ad nonum dico, quod quaecunque dist
+            in<lb ed="#V" n="134" break="no"/>guuntur intentionaliter sunt intentiones secundum esse,
+            <lb ed="#V" n="135"/>quod habent in intellectu, non autem oportet quod sint
+            intentio<lb ed="#V" n="136" break="no"/>nes simpliciter loquendo nisi eo modo quo dictum est in
+            <lb ed="#V" n="137"/>solutione sexti: vnde sicut recitatum est in probatione
+            pri<lb ed="#V" n="138" break="no"/>mae conclusionis: natura vt est in intellectu, est quaedam
+            spe<lb ed="#V" n="139" break="no"/>cies intelligibilis, &amp; similiter dico de natura animalis, &amp; de hoc
+            <lb ed="#V" n="140"/>alias diffusius est dictum.
+          </p>
+          <p xml:id="capsco-a2crja-d1e1627">
+            Ad 10. dicitur, quod homo &amp; animal sunt
+            sub<lb ed="#V" n="141" break="no"/>stantiae merae prout substantia dicit quidditatem, non autem
+            <lb ed="#V" n="142"/>prout dicit suppositum, &amp; de hoc artic. dictum fuit satis in
+            <lb ed="#V" n="143"/>q. 2. distinctionis huius art. 3. in solutione 5. principalis. Ad
+            <lb ed="#V" n="144"/>vndecimum dicitur, quod si arguens per rationem hominis
+            intelli<lb ed="#V" n="145" break="no"/>gat quidditatem hominis, minor est falsa, non enim
+            quid<lb ed="#V" n="146" break="no"/>ditas hominis est facta per intellectum, aut quidditas
+            ani<lb ed="#V" n="147" break="no"/>malis, immo praecedit actum intellectus creati humani.
+            <lb ed="#V" n="148"/>Et cum dicit quod natura non fecit &amp;c. Dico quod natura non
+            <lb ed="#V" n="149"/>fecit distinctionem humanitatis, &amp; animalitatis in actu,
+            fe<lb ed="#V" n="150" break="no"/>cit tamen animalitatem &amp; humanitatem. Si autem arguens
+            <pb ed="#V" n="357"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>per rationem intelligat conceptum hominis, quem
+            signi<lb ed="#V" n="2" break="no"/>ficat hoc nomen homo, dico quod ille est intentio formata per
+            <lb ed="#V" n="3"/>actum intelligendi.
+          </p>
+          <p xml:id="capsco-a2crja-d1e1662">
+            Ad duodecimum dicitur, quod licet sit
+            im<lb ed="#V" n="4" break="no"/>possibile vnam rem absolutam esse multa absoluta extra
+            <lb ed="#V" n="5"/>intellectum, seu in esse reali, tamen non est inconueniens
+            <lb ed="#V" n="6"/>eandem rem secundum esse quod habet in intellectu esse
+            <lb ed="#V" n="7"/>plura quaedam, puta conceptus, eo modo quo res dicitur
+            <lb ed="#V" n="8"/>esse sua imago vel similitudo, nec aliter concedo, quod
+            homo<lb ed="#V" n="9" break="no"/>&amp; animal sint duo apparentia distincta ab omni accidente
+            <lb ed="#V" n="10"/>intellectus. Ad decimumtertium dico, quod equinitas sic
+            ab<lb ed="#V" n="11" break="no"/>stracta non est nisi in intellectu, &amp; in illo est quaedam
+            inten<lb ed="#V" n="12" break="no"/>tio intellecta, si enim nullus intellectus esset, aut si nullus
+            <lb ed="#V" n="13"/>intelligeret equinitatem, ipsa non esset intentio. Ad
+            deci<lb ed="#V" n="14" break="no"/>mum quartum dicitur, quod secundae substantiae non sunt
+            in<lb ed="#V" n="15" break="no"/>tentiones, licet eis attribuantur secundae intentiones,
+            ta<lb ed="#V" n="16" break="no"/>men improprie loquendo dici possunt intentiones eo
+            mo<lb ed="#V" n="17" break="no"/>do, quo dictum est in solutione sexti.
+          </p>
+          <p xml:id="capsco-a2crja-d1e1695">
+            Ad primum contra
+            <lb ed="#V" n="18"/>tertiam conclusionem dicitur, quod licet in diffinitione
+            per<lb ed="#V" n="19" break="no"/>sonae ponatur aliquid pertinens ad secundam intentionem
+            <lb ed="#V" n="20"/>hoc est ex defectu nominum differentiarum primae
+            intentio<lb ed="#V" n="21" break="no"/>nis: vnde talia nomina non ponerentur in diffinitione
+            per<lb ed="#V" n="22" break="no"/>sonae, si nomina imposita sufficienter haberemus, ideo
+            ta<lb ed="#V" n="23" break="no"/>lis diffinitio circumlocuta licet implicet aliquid pertinens
+            <lb ed="#V" n="24"/>ad secundam intentionem, non concludit suum diffinitum
+            <lb ed="#V" n="25"/>includere secundam intentionem.
+          </p>
+          <p xml:id="capsco-a2crja-d1e1715">
+            Ad secundum dicitur,
+            <lb ed="#V" n="26"/>quod persona non opponitur formaliter alicui dicenti
+            secun<lb ed="#V" n="27" break="no"/>dam intentionem, sed primam, licet forte oppositum eius
+            <lb ed="#V" n="28"/>non sit incomplexe nominatum, &amp; est non subsistens in
+            na<lb ed="#V" n="29" break="no"/>tura rationali, sub hoc autem formali opposito personae
+            <lb ed="#V" n="30"/>continetur vniuersale &amp; pars, &amp; multa alia, quae non
+            subsi<lb ed="#V" n="31" break="no"/>stunt in natura rationali.
+          </p>
+          <p xml:id="capsco-a2crja-d1e1731">
+            Ad tertium negatur maior. Nam
+            <lb ed="#V" n="32"/>res plurificatur in diuinis, &amp; constat, quod non dicit secundam
+            <lb ed="#V" n="33"/>intentionem.
+          </p>
+          <p xml:id="capsco-a2crja-d1e1739">
+            Ad quartum negatur antecedens, nec valet
+            <lb ed="#V" n="34"/>probatio: quia aliud requiritur ad rationem generis vel
+            <lb ed="#V" n="35"/>vniuersalis quam praedicari de pluribus in quid scilicet quod habeat
+            <lb ed="#V" n="36"/>diuersum esse in illis, de quibus praedicatur, in diuinis autem
+            <lb ed="#V" n="37"/>non est nisi vnicum esse. Similiter falsum est, quod persona
+            prae<lb ed="#V" n="38" break="no"/>dicetur in quid de Patre &amp; filio, cum non significet
+            quid<lb ed="#V" n="39" break="no"/>ditatem eorum. Vnde Sanctus Thomas 1. sent. dist. 23. q. 1. artic. 3. in
+            <lb ed="#V" n="40"/>fine dicit. Inuenimus quatuor modos significandi in
+            diui<lb ed="#V" n="41" break="no"/>nis, aliquid enim significat absolutum per modum absoluti,
+            <lb ed="#V" n="42"/>vt Deus, aliquid relationem per modum relationis, vt
+            pa<lb ed="#V" n="43" break="no"/>ter, aliquid absolutum per modum relationis, vt potentia
+            <lb ed="#V" n="44"/>generandi, aliquid relationem per modum absoluti, vt
+            per<lb ed="#V" n="45" break="no"/>sona. Haec ille.
+          </p>
+          <p xml:id="capsco-a2crja-d1e1768">
+            Ad quintum dicitur, quod licet eadem res sit
+            <lb ed="#V" n="46"/>suppositum &amp; persona, tamen vnum nominatur per nomen
+            <lb ed="#V" n="47"/>secundae intentionis, aliud per nomen primae. Vnde Sanctus Thomas
+            <lb ed="#V" n="48"/>prima parte. q. 25. artic. 2. Substantia (inquit) dicitur
+            dupli<lb ed="#V" n="49" break="no"/>citer, vno modo dicitur substantia quidditas rei, quam
+            si<lb ed="#V" n="50" break="no"/>gnificat diffinitio, secundum quod dicimus quod diffinitio
+            si<lb ed="#V" n="51" break="no"/>gnificat substantiam rei, quam quidem substantiam
+            graeci<lb ed="#V" n="52" break="no"/>vsiam vocant, quod nos essentiam dictriae dicere possumus:
+            <lb ed="#V" n="53"/>alio modo dicitur substantia subiectum vel suppositum,
+            <lb ed="#V" n="54"/>quod subsistit in genere substantiae, &amp; hoc quidem
+            commu<lb ed="#V" n="55" break="no"/>niter accipiendo nominari potest nomine significante
+            in<lb ed="#V" n="56" break="no"/>tentionem, &amp; sic dicitur suppositum, nominatur etiam
+            tri<lb ed="#V" n="57" break="no"/>bus nominibus significantibus rem, quae quidem sunt res
+            <lb ed="#V" n="58"/>naturae subsistentia, &amp; hypostasis secundum triplicem
+            con<lb ed="#V" n="59" break="no"/>siderationem substantiae sic dictae, secundum enim quod per se
+            exi<lb ed="#V" n="60" break="no"/>stit, &amp; non in alio vocatur subsistentia, illa enim subsistere
+            di<lb ed="#V" n="61" break="no"/>cimus quae non in alio, sed in seipsis existunt, secundum
+            ve<lb ed="#V" n="62" break="no"/>ro quod supponitur alicui naturae communi sic dicitur res
+            na<lb ed="#V" n="63" break="no"/>turae, sicut haec homo est res naturae humanae, secundum
+            <lb ed="#V" n="64"/>vero quod supponitur accidentibus dicitur hypostasis vel
+            sub<lb ed="#V" n="65" break="no"/>stantia, quod autem haec tria nomina significant in toto
+            ge<lb ed="#V" n="66" break="no"/>nere substantiarum, hoc nomen persona significat in
+            gene<lb ed="#V" n="67" break="no"/>re substantiarum rationalium. Haec ille.
+          </p>
+          <p xml:id="capsco-a2crja-d1e1818">
+            Ad sextum patet
+            <lb ed="#V" n="68"/>responsio per idem. Nam vt dicit Sanctus Thomas 1. sen. dist. 6. q. 1.
+            <lb ed="#V" n="69"/>artic. 1. quaestiuncula prima. Particulare in genere
+            substan<lb ed="#V" n="70" break="no"/>tiae potest nominari nominibus primae impositionis scilicet res
+            <lb ed="#V" n="71"/>naturae, hypostasis, persona, habet etiam alia nomina
+            secun<lb ed="#V" n="72" break="no"/>dae intentionis, vtpote particulare, suppositum, indiuiduum,
+            <lb ed="#V" n="73"/>singulare.
+          </p>
+          <p xml:id="capsco-a2crja-d1e1834">
+            Ad septimum dico, quod modus arguendi nihil
+            va<lb ed="#V" n="74" break="no"/>let: quia eodem modo probaretur quod relatio &amp; res in
+            diui<lb ed="#V" n="75" break="no"/>nis dicant secundas intentiones cum sint ibi tres
+            relatio<cb ed="#V" n="b"/><lb ed="#V" n="76" break="no"/>nes, &amp; tres res, ideo dico quod argumentum solum probat, quod
+            <lb ed="#V" n="77"/>persona in diuinis non sit communis secundum rem, sed
+            <lb ed="#V" n="78"/>non probat quin dicat rem meram.
+          </p>
+          <p xml:id="capsco-a2crja-d1e1848">
+            Ad octauum dicitur
+            <lb ed="#V" n="79"/>quod persona non dicit negationem in recto, sed tantum in
+            <lb ed="#V" n="80"/>obliquo, &amp; dato quod diceret, non propter hoc esset secunda
+            <lb ed="#V" n="81"/>intentio, non enim omne ens rationis est secunda intentio: qua
+            <lb ed="#V" n="82"/>dextrum in columna dicit relationem rationis nec tamen
+            <lb ed="#V" n="83"/>est nomen secundae intentionis.
+          </p>
+          <p xml:id="capsco-a2crja-d1e1861">
+            Ad nonum dicit Petrus de
+            <lb ed="#V" n="84"/>Palude, quod primum membrum illius diuisionis falsum est:
+            <lb ed="#V" n="85"/>quia omne illud super quod fundatur immediate secunda
+            <lb ed="#V" n="86"/>intentio est prima intentio, nec ostendet ponere secundam
+            <lb ed="#V" n="87"/>intentionem sine prima, sed ista secunda intentio, quam
+            di<lb ed="#V" n="88" break="no"/>cit particulare, fundatur super Sortem, &amp; Platonem, &amp;
+            <lb ed="#V" n="89"/>huiusmodi. ergo ipsa possunt nominari nominibus primae
+            <lb ed="#V" n="90"/>intentionis: secundum membrum concedendum est, sed
+            <lb ed="#V" n="91"/>tertium est falsum: quia sicut fundantur secundae
+            inten<lb ed="#V" n="92" break="no"/>tiones super indiuidua, sic, &amp; super species, &amp; plus quanto
+            <lb ed="#V" n="93"/>vniuersalia sunt plus intelligibilia, &amp; plus de realitate
+            ha<lb ed="#V" n="94" break="no"/>bent singularia: vnde sicut inter nomina communia
+            secun<lb ed="#V" n="95" break="no"/>darum substantiarum quaedam sunt secundae intentionis,
+            <lb ed="#V" n="96"/>vt species genus, &amp; huiusmodi, quaedam autem sunt primae
+            <lb ed="#V" n="97"/>intentionis, vt animal est nomen commune omnibus
+            spe<lb ed="#V" n="98" break="no"/>ciebus sub se contentis, &amp; sic ascendendo ad ens, sic etiam
+            <lb ed="#V" n="99"/>quaedam nomina indiuiduorum communia dicuntur primae
+            <lb ed="#V" n="100"/>intentionis, &amp; non omnia secundae. Haec ille. Quicquid
+            <lb ed="#V" n="101"/>sit de hoc ego dico, quod illa diuisio rerum est falsa quo ad
+            <lb ed="#V" n="102"/>tertium membrum: nam homo &amp; animal sunt extra sine
+            <lb ed="#V" n="103"/>opere intellectus, &amp; ideo totum quod in illo fundatur est
+            <lb ed="#V" n="104"/>falsum: vnde sicut non omne commune est per intellectum,
+            <lb ed="#V" n="105"/>nam natura cui attribuitur communitas praecedit actum
+            <lb ed="#V" n="106"/>intellectus: ita nec oportet quod omne nomen commune
+            <lb ed="#V" n="107"/>significet secundam intentionem.
+          </p>
+          <p xml:id="capsco-a2crja-d1e1917">
+            Ad decimum dico, quod
+            <lb ed="#V" n="108"/>illa differentia quae datur non valet: quia illud quod
+            dici<lb ed="#V" n="109" break="no"/>tur ibi competere nominibus secundae intentionis,
+            compe<lb ed="#V" n="110" break="no"/>tit etiam nominibus primae intentionis, puta generibus
+            su<lb ed="#V" n="111" break="no"/>perioribus, &amp; transcendentibus, homo enim praedicatur de
+            plu<lb ed="#V" n="112" break="no"/>ribus differentibus numero, &amp; animal praedicatur de
+            plu<lb ed="#V" n="113" break="no"/>ribus differentibus specie.
+          </p>
+          <p xml:id="capsco-a2crja-d1e1933">
+            Ad vndecimum dicitur, quod
+            <lb ed="#V" n="114"/>maior est falsa. Nam ens est primae impositionis, &amp; tamen
+            <lb ed="#V" n="115"/>est commune differentibus genere non communitate
+            vni<lb ed="#V" n="116" break="no"/>uoci, sed analogi. Ad argumentum in pede quaestionis
+            fa<lb ed="#V" n="117" break="no"/>ctum patet solutio per praedicta. Haec de quaestione.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

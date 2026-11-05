@@ -1,0 +1,1203 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 2, Distinctio 23, Quaestio 1</title>
+        <author ref="#JohannesCapreolus">Johannes Capreolus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 2, Distinctio 23, Quaestio 1</title>
+          <date when="2026-11-04">Nov 4, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-j88c02">Venice, 1589, v. 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-04" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="402"/>
+        <cb ed="#V" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="capsco-b20siq"><!-- l2d23q1 -->
+        <head xml:id="capsco-b20siq-Hd1e101">Quaestio 1</head>
+        <head xml:id="capsco-b20siq-Hd1e103" type="question-title">Utrum in statu innocentiae Adam viderit Deum per essentiam</head>
+        <p xml:id="capsco-b20siq-d1e106">
+          <lb ed="#V" n="120"/>DISTINCTIO XXIII.
+          <lb ed="#V" n="121"/>QVAESTIO I.
+          <lb ed="#V" n="122"/>Vtrum in statu innocentiae Adam viderit Deum
+          <lb ed="#V" n="123"/>per essentiam.
+        </p>
+        <p xml:id="capsco-b20siq-d1e117">
+          <lb ed="#V" n="124"/><milestone ed="#V" unit="p" rend="initial"/> CIRCA vigesimamtertiam
+          distinctio<lb ed="#V" n="125" break="no"/>nem 2. sentent. quaeritur. Vtrum in
+          sta<lb ed="#V" n="126" break="no"/>tu innocentiae Adam viderit Deum per
+          <lb ed="#V" n="127"/>essentiam.
+        </p>
+        <p xml:id="capsco-b20siq-d1e129">
+          Et videtur quod sic. Quia
+          <lb ed="#V" n="128"/>secundum Augustinus 14. de ciuitate Dei,
+          <lb ed="#V" n="129"/>primo homini non deerat quicquam,
+          <lb ed="#V" n="130"/>quod bona voluntas adipisceretur, sed
+          <lb ed="#V" n="131"/>nihil melius bona voluntas potest
+          adi<lb ed="#V" n="132" break="no"/>pisci visione diuinae essentiae: ergo hoc homini in statu
+          in<lb ed="#V" n="133" break="no"/>nocentiae non deerat.
+        </p>
+        <p xml:id="capsco-b20siq-d1e146">
+          <lb ed="#V" n="134"/><milestone ed="#V" unit="p" rend="indent"/> I oppositum arguitur. Quia dicit Ioannes in canonica
+          <lb ed="#V" n="135"/>sua. Deum nemo vidit vnquam. igitur &amp;ec
+        </p>
+        <p xml:id="capsco-b20siq-d1e154">
+          <lb ed="#V" n="136"/><milestone ed="#V" unit="p" rend="indent"/> Inhac quaestione erunt tres articuli. In primo ponentur
+          <lb ed="#V" n="137"/>conclusiones. In secundo obiectiones. In tertio solutiones.
+        </p>
+        <div xml:id="capsco-b20siq-Dd1e162">
+          <head xml:id="capsco-b20siq-Hd1e164">Articulus 1</head>
+          <p xml:id="capsco-b20siq-d1e166">
+            <lb ed="#V" n="138"/><milestone ed="#V" unit="p" rend="initial"/> Quantum ad primum articulum sic haec prima
+            conclu<lb ed="#V" n="139" break="no"/>sio. Primus homo Deum per essentiam non vidit
+            <lb ed="#V" n="140"/>secundum communem statum illius vitae. Hanc
+            con<lb ed="#V" n="141" break="no"/>clusionem ponit Sanctus Thomas prima parte. q. 94. articu. 1. vbi sic
+            <lb ed="#V" n="142"/>dicit. Primus homo Deum per essentiam non vidit
+            secun<lb ed="#V" n="143" break="no"/>dum communem statum illius vitae, nisi forte dicatur, quod
+            <lb ed="#V" n="144"/>vidit Deum in raptu quando immisit soporem in Adam,
+            <lb ed="#V" n="145"/>vt dicitur Geness. Et huius ratio est, quia cum diuina
+            es<lb ed="#V" n="146" break="no"/>sentia sit propria beatitudo, hoc modo se habet intellectus
+            <pb ed="#V" n="403"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>videntis diuinam essentiam, ad Deum, sicut se habet
+            quili<lb ed="#V" n="2" break="no"/>bet homo ad beatitudinem. Manifestum est autem, quod
+            <lb ed="#V" n="3"/>nullus homo potest per voluntatem a beatitudine auerti.
+            <lb ed="#V" n="4"/>Naturaliter enim &amp; ex necessitate homo vult beatitudinem,
+            <lb ed="#V" n="5"/>&amp; fugit miseriam. Vnde nullus videns Deum potest
+            volun<lb ed="#V" n="6" break="no"/>tate auerti a Deo, quod est peccare. Et propter hoc
+            om<lb ed="#V" n="7" break="no"/>nes videntes Deum per essentiam sic in amore Dei
+            stabiliun<lb ed="#V" n="8" break="no"/>tur, quod in aeternum peccare non possunt. Cum ergo Adam
+            <lb ed="#V" n="9"/>peccauerit, manifestum est, quod Deum per essentiam non
+            <lb ed="#V" n="10"/>videbat. Haec ille.
+          </p>
+          <p xml:id="capsco-b20siq-d1e215">
+            Item de veritate. q. 18. artic. 1. sic dicit.
+            <lb ed="#V" n="11"/>Quidam dixerunt, quod Deum per essentiam videri
+            con<lb ed="#V" n="12" break="no"/>tingit non solum in patria, sed etiam in via, quamuis non
+            <lb ed="#V" n="13"/>ita perfecte in via sicut in patria. Et secundum hoc
+            homo<lb ed="#V" n="14" break="no"/>in statu innocentiae mediam habuit visionem inter
+            visio<lb ed="#V" n="15" break="no"/>nem beatorum, &amp; hominis visionem post peccatum, quia
+            <lb ed="#V" n="16"/>minus perfecte vidit quam beati, perfectius vero vidit quam
+            <lb ed="#V" n="17"/>homo post peccatum. Sed istud dictum est contrarium
+            scri<lb ed="#V" n="18" break="no"/>pturae testimonijs, quae concorditer in diuina visione
+            bea<lb ed="#V" n="19" break="no"/>titudinem ponunt vltimam hominis. Vnde ex hoc ipso, quod
+            <lb ed="#V" n="20"/>aliquis Deum per essentiam videt, beatus est. Et sic nullus
+            <lb ed="#V" n="21"/>adhuc in via ad beatitudinem existens, Deum per essentiam
+            <lb ed="#V" n="22"/>videre potuit, nec etiam ipse Adam in statu innocentiae, vt
+            <lb ed="#V" n="23"/>communis opinio tenet. Cuius etiam veritas ratione
+            osten<lb ed="#V" n="24" break="no"/>di potest. Cuiuslibet enim naturae conuenit aliquod
+            vlti<lb ed="#V" n="25" break="no"/>mum assignare, in quo eius vltima perfectio consistit.
+            Ho<lb ed="#V" n="26" break="no"/>minis autem inquantum homo est, perfectio non consistit
+            <lb ed="#V" n="27"/>nisi in actu intellectus, ex quo habet quod homo sit. In
+            ope<lb ed="#V" n="28" break="no"/>ratione autem intellectus possunt differentes gradus
+            distin<lb ed="#V" n="29" break="no"/>gui dupliciter. Vno modo ex diuersitate intelligibilium.
+            <lb ed="#V" n="30"/>Quanto enim obiectum intelligibile perfectius est, tanto
+            <lb ed="#V" n="31"/>excellentior est eius intelligentia. Vnde vt dicitur 10. Ethi.
+            <lb ed="#V" n="32"/>perfectissima operatio intellectus est operatio intellectus
+            <lb ed="#V" n="33"/>bene dispositi ad optimum intelligibile. Sicut pulcherrima
+            <lb ed="#V" n="34"/>visio corporalis est visus bene dispositi ad pulcherrimum
+            <lb ed="#V" n="35"/>sub visu. Alio modo in operatione intellectus accipiuntur
+            <lb ed="#V" n="36"/>gradus ex modo intelligendi. Possibile est vnum &amp; idem
+            <lb ed="#V" n="37"/>intelligibile diuersimode a diuersis intelligi ab vno
+            perfe<lb ed="#V" n="38" break="no"/>ctius, &amp; ab alio minus perfecte. Non est autem possibile
+            <lb ed="#V" n="39"/>vt vltimus terminus perfectionis humanae accipiatur
+            secun<lb ed="#V" n="40" break="no"/>dum aliquem modum intelligendi, quia in istis modis
+            in<lb ed="#V" n="41" break="no"/>telligendi possunt considerari infiniti gradus, quorum vnus
+            <lb ed="#V" n="42"/>alio perfectius intelligit. Nec est aliquis ita perfecte
+            intelli<lb ed="#V" n="43" break="no"/>gens, quo non possit cogitari alium perfectius intelligere,
+            <lb ed="#V" n="44"/>nisi Deus, qui infinita limpidiate omnia intelligit. Vnde
+            opor<lb ed="#V" n="45" break="no"/>tet quod vltimus terminus humanae perfectionis sit in
+            in<lb ed="#V" n="46" break="no"/>telligendo aliquod perfectissimum intelligibile, quod est
+            <lb ed="#V" n="47"/>essentia diuina. In hoc igitur vnaquaeque tota rationalis
+            <lb ed="#V" n="48"/>creatura beata est, quod essentiam Dei videt, non ex hoc quod
+            <lb ed="#V" n="49"/>ita limpide vel plus vel minus eam videt. Non ergo visio
+            <lb ed="#V" n="50"/>viatoris a visione beati distinguitur per hoc, quod est perfe
+            <lb ed="#V" n="51"/>dtius &amp; minus petsecte videre, sed per hoc quod est videre, &amp;
+            <lb ed="#V" n="52"/>non videre. Et ideo cum Adam adhuc fuerit in via ad
+            bea<lb ed="#V" n="53" break="no"/>titudinem, Deum per essentiam non vidit. Haec ille.
+          </p>
+          <p xml:id="capsco-b20siq-d1e311">
+            Ex
+            qui<lb ed="#V" n="54" break="no"/>bus potest formari duplex ratio pro conclusione. Prima
+            ta<lb ed="#V" n="55" break="no"/>lis est. Nullus potens peccare Deum per essentiam videt ex
+            <lb ed="#V" n="56"/>conditione status. Adam in primo statu erat potens
+            pecca<lb ed="#V" n="57" break="no"/>re: igitur in illo statu ex conditione status non videbat Deum
+            <lb ed="#V" n="58"/>per essentiam. Secunda talis est. Nullus viator nondum
+            bea<lb ed="#V" n="59" break="no"/>tus Deum per essentiam videt, sed Adam in primo statu ex
+            <lb ed="#V" n="60"/>conditione status erat viator, &amp; nondum beatus: igitur non
+            <lb ed="#V" n="61"/>competebat ei ex tali statu Deum per essentiam videre.
+          </p>
+          <p xml:id="capsco-b20siq-d1e331">
+            Se<lb ed="#V" n="62" break="no"/>cunda conclusio. Adam in primo statu videbat, seu
+            cogno<lb ed="#V" n="63" break="no"/>scebat Deum quadam altiori cognitione quam aliquis
+            pu<lb ed="#V" n="64" break="no"/>rus viator post peccatum communiter videat. Hanc ponit
+            <lb ed="#V" n="65"/>Sanctus Thomas prima parte, vbi supra. Vnde post verba superius
+            <lb ed="#V" n="66"/>allegata sic subdit. Cognoscebat tamen Deum quadam
+            al<lb ed="#V" n="67" break="no"/>tiori cognitione quam nunc cognoscamus, &amp; sic
+            quodam<lb ed="#V" n="68" break="no"/>modo eius cognitio media erat inter cognitionem
+            praesen<lb ed="#V" n="69" break="no"/>tis status, &amp; cognitionem patriae, qua Deus per essentiam
+            <lb ed="#V" n="70"/>videtur. Ad cuius euidentiam considerandum est, quod visio
+            <lb ed="#V" n="71"/>Dei per essentiam diuiditur contra visionem Dei per
+            crea<lb ed="#V" n="72" break="no"/>turam. Quanto autem aliqua creatura est altior &amp; Deo
+            si<lb ed="#V" n="73" break="no"/>milior, tanto per eam Deus clarius videtur, sicut homo
+            ex<lb ed="#V" n="74" break="no"/>pressius videtur per speculum, in quo clarius eius imago
+            <lb ed="#V" n="75"/>resultat. Et sic patet, quod multo eminentius videtur Deus
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="76"/>per intelligibiles effectus, quam per sensibiles &amp; corporeos.
+            <lb ed="#V" n="77"/>A consideratione autem plena &amp; lucida intelligibilium
+            ef<lb ed="#V" n="78" break="no"/>fectuum impeditur homo in statu praesenti per hoc, quod
+            di<lb ed="#V" n="79" break="no"/>strahitur a sensibilibus, &amp; circa ea occupatur. Sed sicut
+            di<lb ed="#V" n="80" break="no"/>citur Eccles. 7. Deus fecit hominem rectum. Haec autem fuit
+            <lb ed="#V" n="81"/>rectitudo hominis diuinitus instituti, vt inferiora
+            superio<lb ed="#V" n="82" break="no"/>ribus subderentur, &amp; superiora ab inferioribus non
+            impe<lb ed="#V" n="83" break="no"/>direntur. Vnde primus homo non impediebatur per res
+            ex<lb ed="#V" n="84" break="no"/>teriores a clara &amp; firma contemplatione intelligibilium
+            ef<lb ed="#V" n="85" break="no"/>fectuum, quam scilicet ex irradiatione primae veritatis
+            per<lb ed="#V" n="86" break="no"/>cipiebat, siue naturali cognitione, siue gratuita. Vnde Augutinus
+            <lb ed="#V" n="87"/>dicit 11. super Genestes ad literam, quod fortassis Deus
+            pri<lb ed="#V" n="88" break="no"/>mis hominibus antea loquebatur, sicut cum angelis
+            loqui<lb ed="#V" n="89" break="no"/>tur ipsa incommutabili veritate illustrans mentes eorum,
+            <lb ed="#V" n="90"/>&amp; si non tanta participatione diuinae essentiae, quantam
+            ca<lb ed="#V" n="91" break="no"/>piunt angeli. Sic igitur per huiusmodi effectus
+            intelligibi<lb ed="#V" n="92" break="no"/>les Dei Deum clarius cognoscebat quam modo
+            cognosci<lb ed="#V" n="93" break="no"/>mus. Haec ille.
+          </p>
+          <p xml:id="capsco-b20siq-d1e406">
+            Item de veritate vbi supra in solutione
+            pri<lb ed="#V" n="94" break="no"/>mi sic dicit. In aliqua visione triplex medium est
+            conside<lb ed="#V" n="95" break="no"/>rare, vnum est medium sub quo videtur, aliud quo videtur,
+            <lb ed="#V" n="96"/>quod est species rei visae, aliud a quo accipitur cognitio
+            rei<lb ed="#V" n="97" break="no"/>visae, sicut in visione corporali medium, sub quo videtur, est
+            <lb ed="#V" n="98"/>lumen, quo aliquid fit actu visibile, &amp; visus perficitur ad
+            vi<lb ed="#V" n="99" break="no"/>dendum. Medium autem quo videtur, est ipsa species rei
+            <lb ed="#V" n="100"/>visibilis in oculo existens, quae sicut forma videntis,
+            inquan<lb ed="#V" n="101" break="no"/>tum est videns, principium est visiuae operationis. Medium
+            <lb ed="#V" n="102"/>autem, a quo accipitur est, sicut speculum, a quo interdum
+            <lb ed="#V" n="103"/>species alicuius visibilis, puta lapidis fit in oculo, non
+            im<lb ed="#V" n="104" break="no"/>mediate ab ipso lapide. Et haec tria in visione intellectuali
+            <lb ed="#V" n="105"/>inueniuntur, vt lumini corporali correspondeat lumen
+            <lb ed="#V" n="106"/>intellectus agentis, quasi medium sub quo intellectus
+            vi<lb ed="#V" n="107" break="no"/>det, speciei vero visibili species intelligibilis, qua
+            intelle<lb ed="#V" n="108" break="no"/>ctus possibilis fit actu intelligens, medio vero a quo
+            acci<lb ed="#V" n="109" break="no"/>pitur visi cognitio, sicut speculo comparatur effectus, a
+            <lb ed="#V" n="110"/>quo in cognitionem causae deuenimus, ita etiam
+            similitu<lb ed="#V" n="111" break="no"/>do causae nostro intellectui non imprimitur immediate ex
+            <lb ed="#V" n="112"/>causa, sed ex effectu, in quo similitudo causae resplendet,
+            vn<lb ed="#V" n="113" break="no"/>de huiusmodi cognitio dicitur specularis propter
+            similitu<lb ed="#V" n="114" break="no"/>dinem, quam habet ad visionem, quae fit per speculum.
+            Ho<lb ed="#V" n="115" break="no"/>mo igitur in statu post peccatum indiget ad cognoscendum
+            <lb ed="#V" n="116"/>Deum medio, quod est quasi speculum, in quo resultat
+            ip<lb ed="#V" n="117" break="no"/>sius Dei similitudo. Oportet enim vt per ea quae facta sunt,
+            <lb ed="#V" n="118"/>in inuisibilia eius deueniamus, vt dicitur Romas 1. Hoc
+            au<lb ed="#V" n="119" break="no"/>tem medio non indigebat homo in statu innocentiae.
+            Indi<lb ed="#V" n="120" break="no"/>gebat autem medio, quod est quasi species rei visae, quia
+            per<lb ed="#V" n="121" break="no"/>aliquod spirituale lumen menti hominis influxum
+            diuini<lb ed="#V" n="122" break="no"/>tus, quod erat quasi similitudo expressa lucis increatae, Deum
+            <lb ed="#V" n="123"/>videbat, sed hoc medio non indigebit in patria, quia ipsam
+            <lb ed="#V" n="124"/>Dei essentiam per seipsam videbit, non per aliquam
+            simili<lb ed="#V" n="125" break="no"/>tudinem eius intelligibilem vel sensibilem, cum nulla
+            crea<lb ed="#V" n="126" break="no"/>ta similitudo a Deo possit perfecte Deum repraesentare, vt
+            <lb ed="#V" n="127"/>per eam videns ipsam Dei essentiam cognoscere aliquis
+            pos<lb ed="#V" n="128" break="no"/>sit. Indigebit autem lumine gloriae in patria, quod erit,
+            quasi<lb ed="#V" n="129" break="no"/>medium, sub quo videtur secundum illud Psalm. In
+            lumi<lb ed="#V" n="130" break="no"/>ne tuo videbimus lumen, eo quod ipsa visio nulli creaturae est
+            <lb ed="#V" n="131"/>naturalis, sed soli Deo, vnde nulla creatura in eam ex sua
+            na<lb ed="#V" n="132" break="no"/>tura pertingere potest, sed ad eam consequendam oportet, quod
+            il<lb ed="#V" n="133" break="no"/>lustretur lumine diuinitus emisso. Secunda autem visio,
+            <lb ed="#V" n="134"/>quae est per medium, quod est species, est naturalis
+            angelo<lb ed="#V" n="135" break="no"/>sed est supra naturam hominis, vnde ad eam indiget
+            lumi<lb ed="#V" n="136" break="no"/>ne gratiae. Tertia vero est competens naturae hominis, &amp;
+            <lb ed="#V" n="137"/>ideo ea sola sibi relinquitur post peccatum, &amp; ideo patet quod
+            <lb ed="#V" n="138"/>visio, qua homo Deum in statu innocentiae vidit, media
+            <lb ed="#V" n="139"/>fuit inter visionem, qua nunc videmus, &amp; visionem
+            beato<lb ed="#V" n="140" break="no"/>rum. Patet igitur quod homo post peccatum triplici
+            me<lb ed="#V" n="141" break="no"/>dio indiget ad videndum Deum, scilicet ipsa creatura, qua
+            <lb ed="#V" n="142"/>in diuinam cognitionem ascendit, &amp; similitudine ipsius Dei,
+            <lb ed="#V" n="143"/>quam ex creatura accipit, &amp; lumine, quo perficitur ad hoc,
+            <lb ed="#V" n="144"/>vt in Deum dirigatur, siue sit lumen naturae, vt lumen
+            in<lb ed="#V" n="145" break="no"/>tellectus agentis, siue gratiae, vt lumen fidei &amp; sapientiae.
+            <lb ed="#V" n="146"/>In statu vero ante peccatum indigebat duplici medio,
+            sci<lb ed="#V" n="147" break="no"/>licet medio, quod est similitudo Dei, quod est lumen
+            ele<lb ed="#V" n="148" break="no"/>uans vel dirigens mentem. Beati autem vno tantum medio
+            <lb ed="#V" n="149"/>indigent scilicet lumine eleuante mentem. Ipse autem Deus
+            <lb ed="#V" n="150"/>seipsum videt absque omni medio, ipse enim met est lumen,
+            <pb ed="#V" n="404"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>quo seipsum videt. Haec ibi. Similia dicit 2. sentent. dist. 23.
+            <lb ed="#V" n="2"/>q. 2. artic. 1. vbi sic ait. Sicut in litera dicitur modus, quo
+            <lb ed="#V" n="3"/>Adam Deum cognouit, medius fuit inter cognitionem viae,
+            <lb ed="#V" n="4"/>qua nunc Deum cognoscimus, &amp; cognitionem patriae, qua
+            <lb ed="#V" n="5"/>Sancti eum in gloria vident. Vnde ad huius euidentiam
+            vi<lb ed="#V" n="6" break="no"/>dendum est quot modis Deus possit videri.
+          </p>
+          <p xml:id="capsco-b20siq-d1e549">
+            Sciendum
+            au<lb ed="#V" n="7" break="no"/>tem quod tripliciter videri potest. Vno modo per suam
+            essen<lb ed="#V" n="8" break="no"/>tiam. Alio modo per effectum aliquem eius fluentem in
+            in<lb ed="#V" n="9" break="no"/>tellectu videntis. Tertio modo per effectum aliquem extra
+            <lb ed="#V" n="10"/>intellectum videntis, in quo diuina similitudo resultat.
+            Hu<lb ed="#V" n="11" break="no"/>ius exemplum in visione corporali inspici potest. Lux enim
+            <lb ed="#V" n="12"/>non videtur ab oculo per aliquam similitudinem sui in
+            ipso<lb ed="#V" n="13" break="no"/>relictam, sed per suam essentiam oculum informans, &amp; huic
+            <lb ed="#V" n="14"/>comparatur primus modus videntis Deum, qui est per
+            es<lb ed="#V" n="15" break="no"/>sentiam. Et hic quidem modus ex conditione suae naturae
+            <lb ed="#V" n="16"/>nulli naturae debetur, nisi diuinae, in qua idem est sciens &amp;
+            <lb ed="#V" n="17"/>scitum. Lapis autem videtur ab oculo corporali per
+            simili<lb ed="#V" n="18" break="no"/>tudinem suam in ipso oculo relictam, &amp; huic comparatur
+            <lb ed="#V" n="19"/>secundus modus, qui est per effectum relictum in intellectu
+            <lb ed="#V" n="20"/>videntis. Et hic quidem modus videndi conuenit
+            angelo<lb ed="#V" n="21" break="no"/>secundum conditionem suae naturae, quia vt in libro de
+            cau<lb ed="#V" n="22" break="no"/>sis dicitur. Omnis intelligentia scit quod est supra se, per id
+            <lb ed="#V" n="23"/>quod est ei causa, vnde cognoscens ipsum lumen naturae suae
+            <lb ed="#V" n="24"/>quod est similitudo luminis increati Deum videt. Vultus
+            <lb ed="#V" n="25"/>autem hominis relucens in speculo videtur ab oculo, non
+            <lb ed="#V" n="26"/>quidem per similitudinem eius immediate in oculo
+            reli<lb ed="#V" n="27" break="no"/>ctam, sed per similitudinem eius relucentem inspeculo, ex
+            <lb ed="#V" n="28"/>quo resultat in pupilla, &amp; huic comparatur illa visio, qua
+            <lb ed="#V" n="29"/>Deus videtur per effectum extra intellectum videntis, siue
+            <lb ed="#V" n="30"/>per effectum naturalem, sicut per cognitionem creaturarum
+            <lb ed="#V" n="31"/>naturali cognitione Philosophi in Deum deuenerunt, siue
+            <lb ed="#V" n="32"/>per effectum spiritualem, sicut est in visione fidei illius, qui
+            <lb ed="#V" n="33"/>adhaeret his, quae alijs reuelata sunt per influentiam
+            spiritua<lb ed="#V" n="34" break="no"/>lis luminis. Et ideo dicimur nunc in speculo videre
+            secun<lb ed="#V" n="35" break="no"/>dum Apostns Modus enim iste competit homini secundum
+            <lb ed="#V" n="36"/>conditionem naturae suae, quia intellectus noster nec
+            seip<lb ed="#V" n="37" break="no"/>sum intelligere potest, nisi per speciem rerum, quas apud se
+            <lb ed="#V" n="38"/>habet, quia per obiecta venit in cognitionem actuum, &amp;
+            pe<lb ed="#V" n="39" break="no"/>actus in cognitionem potentiarum.
+          </p>
+          <p xml:id="capsco-b20siq-d1e623">
+            Ad primum ergo
+            mo<lb ed="#V" n="40" break="no"/>dum visionis, qui soli Deo ex conditione naturae suae
+            debe<lb ed="#V" n="41" break="no"/>tur, eleuatur angelus &amp; homo per gloriam. Vnde illa est
+            <lb ed="#V" n="42"/>visio beatorum, quam homo in primo statu non habuit.
+          </p>
+          <p xml:id="capsco-b20siq-d1e632">
+            <lb ed="#V" n="43"/>Ad secundum vero modum, qui est naturalis ipsi angelo, &amp;
+            <lb ed="#V" n="44"/>supra naturam hominis eleuatur homo per gratiam, etiam
+            <lb ed="#V" n="45"/>post statum culpae, sicut in viris contemplatiuis patet, quod
+            di<lb ed="#V" n="46" break="no"/>uinas reuelationes merentur, &amp; multo amplius fuit in
+            pri<lb ed="#V" n="47" break="no"/>mo statu per gratiam originalis iustitiae. Tertius autem
+            mo<lb ed="#V" n="48" break="no"/>dus est communiter viatorum etiam post statum culpae.
+            Vn<lb ed="#V" n="49" break="no"/>de patet, quod modus, quo Adam in primo statu Deum
+            vi<lb ed="#V" n="50" break="no"/>debat, medius erat inter vtrunque. Haec ille. Ex quibus
+            po<lb ed="#V" n="51" break="no"/>test formari talis ratio. Cognoscere Deum per speciem non
+            <lb ed="#V" n="52"/>a phantasmatibus abstractam sed ex irradiatione diuini
+            lu<lb ed="#V" n="53" break="no"/>minis impressam est cognitio minor visione Dei beatifica,
+            <lb ed="#V" n="54"/>&amp; maior visione Dei a puro viatore post peccatum
+            secun<lb ed="#V" n="55" break="no"/>dum communem cursum habita, sed cognitio Dei, quam
+            <lb ed="#V" n="56"/>habebat Adam in primo statu fuit huiusmodi: igitur &amp;c.
+          </p>
+          <p xml:id="capsco-b20siq-d1e665">
+            <lb ed="#V" n="57"/>Tertia conclusio. Adam in statu primo non solum
+            cogno<lb ed="#V" n="58" break="no"/>scebat Deum per speciem immediate a Deo impressam,
+            im<lb ed="#V" n="59" break="no"/>mo per species a rebus creatis acceptas. Istam ponit Sanctus
+            Thoa<lb ed="#V" n="60" break="no"/>de veritate. q. 28. artic. 2. vbi sic ait. Secundum Boetium
+            li<lb ed="#V" n="61" break="no"/>bro de consolatione. Natura a perfectis principium sumit,
+            <lb ed="#V" n="62"/>quod etiam in operibus diuinis considerari potest. In
+            quo<lb ed="#V" n="63" break="no"/>libet enim opere ea, quae prima sunt, perfectionem habent,
+            <lb ed="#V" n="64"/>vnde cum in statu innocentiae constitueretur Adam ab ipso
+            <lb ed="#V" n="65"/>Deo, vt totius generis humani principium, non solum a quo
+            <lb ed="#V" n="66"/>natura propagaretur in posteros, sed etiam quod in alios
+            origi<lb ed="#V" n="67" break="no"/>nalem iustitiam transfunderet, oportet ponere hominem
+            <lb ed="#V" n="68"/>in statu innocentiae duplicem perfectionem habuisse, vnam
+            <lb ed="#V" n="69"/>quidem naturalem, aliam autem gratis a Deo concessam
+            <lb ed="#V" n="70"/>supra debitum naturalium principiorum. Secundum autem
+            <lb ed="#V" n="71"/>naturalem perfectionem sibi competere non poterat, vt Deum
+            <lb ed="#V" n="72"/>cognosceret, nisi ex creaturis, quod sic patet. In nullo enim
+            <lb ed="#V" n="73"/>genere potentia passiua extenditur, nisi ad illa, ad quae
+            ex<lb ed="#V" n="74" break="no"/>tendit se potentia actiua, &amp; ideo dicit Conimentator 9.
+            Me<lb ed="#V" n="75" break="no"/>taphys. quod non est aliqua potentia passiua in natura,
+            cui<cb ed="#V" n="b"/><lb ed="#V" n="76" break="no"/>non correspondeat potentia actiua. In natura autem
+            hu<lb ed="#V" n="77" break="no"/>mana duplex potentia ad intelligendum inuenitur. Vna
+            quasi<lb ed="#V" n="78" break="no"/>passiua, quae est intellectus possibilis, alia quasi actiua, quae
+            <lb ed="#V" n="79"/>est intellectus agens, &amp; ideo intellectus possibilis secundum
+            <lb ed="#V" n="80"/>naturalem viam non est in potentia, nisi ad illas formas, quae
+            <lb ed="#V" n="81"/>per intellectum agentem intelligibiles sunt. Haec autem non
+            <lb ed="#V" n="82"/>sunt nisi formae sensibilium rerum, quae a phantasmatibus
+            <lb ed="#V" n="83"/>abstrahuntur. Nam substantiae immateriales sunt
+            intelligi<lb ed="#V" n="84" break="no"/>biles per seipsas, non quia nos eas intelligibiles faciamus, &amp;
+            <lb ed="#V" n="85"/>ideo intellectus noster possibilis non potest se extendere ad
+            <lb ed="#V" n="86"/>aliqua intelligibilia nisi per illas formas, quas intellectus
+            <lb ed="#V" n="87"/>agens a phantasmatibus abstrahit, &amp; inde est quod nec Deum,
+            <lb ed="#V" n="88"/>nec aliquas substantias immateriales cognoscere possumus,
+            <lb ed="#V" n="89"/>nisi per res sensibiles, sed ex perfectione gratiae hoc habebat
+            <lb ed="#V" n="90"/>homo in primo statu, vt Deum cognosceret per
+            inspiratio<lb ed="#V" n="91" break="no"/>nem internam ex irradiatione diuinae sapientiae, per quem
+            <lb ed="#V" n="92"/>modum Deum cognoscebat non ex visibilibus creaturis,
+            <lb ed="#V" n="93"/>sed ex quadam spirituali similitudine suae menti impressa,
+            <lb ed="#V" n="94"/>ita igitur in homine duplex Dei cognitio erat, vna, qua
+            co<lb ed="#V" n="95" break="no"/>gnoscebat Deum conformiter angelis per inspirationem
+            in<lb ed="#V" n="96" break="no"/>ternam, aliam qua cognoscebat Deum conformiter nobis
+            <lb ed="#V" n="97"/>per sensibiles creaturas. Differebat autem haec eius secunda
+            <lb ed="#V" n="98"/>cognitio a cognitione nostra, sicut differt inquisitio
+            haben<lb ed="#V" n="99" break="no"/>tis habitum scientiae, qui ex notis considerat ea, quae antea
+            <lb ed="#V" n="100"/>nouerat ab inquisitione addiscentis, qui ex notis ad ignota
+            <lb ed="#V" n="101"/>nititur peruenire. Nos autem aliter Deum notum habere
+            <lb ed="#V" n="102"/>non possumus, nisi ex creaturis ad eius notitiam
+            peruenia<lb ed="#V" n="103" break="no"/>mus. Adam vero Deum aliter sibi notum, scilicet per inter
+            <lb ed="#V" n="104"/>nam illustrationem ex creaturis considerabat. Haec ille.
+          </p>
+          <p xml:id="capsco-b20siq-d1e773">
+            Ex
+            <lb ed="#V" n="105"/>quibus potest formari talis ratio. Perfectio gratiae non
+            ex<lb ed="#V" n="106" break="no"/>cludit perfectionem naturae, sed potius quicquid
+            constitui<lb ed="#V" n="107" break="no"/>tur vt principium proximum propagandi naturam, &amp;
+            trans<lb ed="#V" n="108" break="no"/>ferendi gratiam, debet esse vtraque perfectione perfectum
+            <lb ed="#V" n="109"/>Adam autem constitutus fuit in primo statu, vt principium
+            <lb ed="#V" n="110"/>propagandi naturam rationalem, &amp; transferendi gratiam
+            <lb ed="#V" n="111"/>aliquo modo: igitur debuit esse vtraque perfectione
+            perfe<lb ed="#V" n="112" break="no"/>ctus: tunc vltra sed perfectio naturalis hominis quo ad
+            intel<lb ed="#V" n="113" break="no"/>lectum est, vt cognoscat Deum ex sensibilibus
+            creaturis:igi<lb ed="#V" n="114" break="no"/>tur hoc in statu primo habuit. Et haec de primo articulo.
+          </p>
+        </div>
+        <div xml:id="capsco-b20siq-Dd1e798">
+          <head xml:id="capsco-b20siq-Hd1e800">Articulus 2</head>
+          <p xml:id="capsco-b20siq-d1e802">
+            <lb ed="#V" n="115"/><milestone ed="#V" unit="p" rend="initial"/> Vantum ad secundum articulum arguitur contra
+            prae<lb ed="#V" n="116" break="no"/>dicta. Et quidem contra secundam conclusionem
+            ar<lb ed="#V" n="117" break="no"/>guit Durandus, probando quod Adam in statu primo non
+            co<lb ed="#V" n="118" break="no"/>gnouerit Deum per talem speciem influxam. Primo. Quia
+            <lb ed="#V" n="119"/>nulla cognitio sensitiua, aut intellectiua humana vel
+            ange<lb ed="#V" n="120" break="no"/>lica fit per speciem, sicut dicit se sufficienter probasse.
+            Se<lb ed="#V" n="121" break="no"/>cundo. Quia si aliqua cognitio per speciem fieret, &amp;
+            homo<lb ed="#V" n="122" break="no"/>in statu innocentiae cognouisset Deum per tales species, illa
+            <lb ed="#V" n="123"/>cognitio fuisset beata, quia beata visio est ex hoc quod Deus
+            <lb ed="#V" n="124"/>clare videtur, &amp; non aenigmatice, sed cognitio vel visio
+            di<lb ed="#V" n="125" break="no"/>uinae essentiae per speciem immediate a Deo acceptam est
+            <lb ed="#V" n="126"/>clara &amp; non aenigmatica, sed est facie ad faciem, sic enim vnus
+            <lb ed="#V" n="127"/>videt alium: ergo &amp;c. Tertio. Quia aut talis cognitio erat
+            <lb ed="#V" n="128"/>intuitiua, aut abstractiua, non intuitiua, quia tunc fuisset
+            <lb ed="#V" n="129"/>beatifica, nec abstractiua, quia vel per illam cognoscebatur
+            <lb ed="#V" n="130"/>Deus esse trinus &amp; vnus euidenter, aut non. Si detur
+            secun<lb ed="#V" n="131" break="no"/>dum, tunc talis non erat altior omni cognitione Dei, quae
+            <lb ed="#V" n="132"/>potest haberi per creaturas, quia non apparet aliqua altior
+            <lb ed="#V" n="133"/>nisi illa, quae est per fidem, quae extendit se etiam in nobis
+            <lb ed="#V" n="134"/>ad aliqua ad quae ratio naturalis sumpta ex creaturis non se
+            <lb ed="#V" n="135"/>extendit. Si detur primum. Contra hoc arguitur
+            multipli<lb ed="#V" n="136" break="no"/>citer. Primo sic. Impossibile est cognitionem abstractiuam
+            <lb ed="#V" n="137"/>cuiuscunque rei esse primam, sed necessario sequitur aliam
+            <lb ed="#V" n="138"/>priorem, ex qua deducitur, sed in puro viatore non potest
+            <lb ed="#V" n="139"/>praeesse aliqua cognitio, ex qua euidens cognitio
+            abstracti<lb ed="#V" n="140" break="no"/>ua de Deo possit deduci: ergo impossibile est, quod
+            cogni<lb ed="#V" n="141" break="no"/>tio abstractiua de Deo communicetur viatori. Maior
+            pro<lb ed="#V" n="142" break="no"/>batur inductione &amp; ratione. Inductione sic. Deus nihil
+            co<lb ed="#V" n="143" break="no"/>gnoscit abstractiue, puta res antequam sint, nisi
+            cognoscen<lb ed="#V" n="144" break="no"/>do essentiam suam intuitiue, similiter &amp; angelus primo
+            co<lb ed="#V" n="145" break="no"/>gnoscit essentiam suam intuitiue &amp; ex ea deducitur
+            cogni<lb ed="#V" n="146" break="no"/>tio abstractiua aliorum. Similiter experimur in nobis, quod
+            <lb ed="#V" n="147"/>omnem cognitionem abstractiuam intellectiuam praecedit
+            <lb ed="#V" n="148"/>cognitio sensitiua, &amp; similiter est in brutis, si habeant aliquam
+            <lb ed="#V" n="149"/>cognitionem abstractiuam. Non autem sunt plura
+            cogno<lb ed="#V" n="150" break="no"/>scentia quam Deus, angelus, nos, &amp; bruta, quare &amp; caeter
+            <pb ed="#V" n="405"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>Dicetur forte, quod haec inductio solum concludit illud, quod
+            <lb ed="#V" n="2"/>est consuetum secundum cursum naturae, sed non concludit
+            <lb ed="#V" n="3"/>quin aliter possit fieri diuina virtute.
+          </p>
+          <p xml:id="capsco-b20siq-d1e894">
+            Sed contra hoc
+            argui<lb ed="#V" n="4" break="no"/>tur sic. Certum est, quod Deus non intelligit, nec intelligere
+            po<lb ed="#V" n="5" break="no"/>test abstractiue alia a se, nisi cognoscendo intuitiue essentiam
+            <lb ed="#V" n="6"/>suam per quam cognoscit alia: angelos dimittamus, quia
+            pa<lb ed="#V" n="7" break="no"/>rum scimus de eis, &amp; loquamur de nobis, de quibus est quaestio.
+            <lb ed="#V" n="8"/>Concessum est ab omnibus, quod secundum cursum naturae
+            vi<lb ed="#V" n="9" break="no"/>res interiores tam sensitiuae quam intellectiuae non possunt
+            <lb ed="#V" n="10"/>exire in actum nisi prima cognitione intuitiua alicuius
+            sen<lb ed="#V" n="11" break="no"/>sus exterioris, quia non habent immediatum ordinatum
+            or<lb ed="#V" n="12" break="no"/>dinem ad res exteriores, sed solum mediante cognitione
+            <lb ed="#V" n="13"/>sensitiua exteriore, &amp; propter hanc mediationem omnes actus
+            <lb ed="#V" n="14"/>interiorum virium sunt abstractiui &amp; non intuitiui. Ex hoc
+            <lb ed="#V" n="15"/>arguo sic. Si virtute diuina fieret quod intellectus, &amp; aliae vires
+            <lb ed="#V" n="16"/>interiores exirent in actus suos respectu rerum exteriorum
+            <lb ed="#V" n="17"/>absque vlla praesuppositione quorumcunque actuum
+            sen<lb ed="#V" n="18" break="no"/>suum exteriorum, tunc intellectus &amp; vires interiores
+            sensi<lb ed="#V" n="19" break="no"/>tiuae haberent quo ad tales actus immediatum ordinem ad
+            <lb ed="#V" n="20"/>res exteriores, sicut &amp; sensus, sed actus sensuum exteriorum
+            <lb ed="#V" n="21"/>sunt intuitiui propter immediatum ordinem ad obiecta sua:
+            <lb ed="#V" n="22"/>ergo &amp; actus intellectus &amp; aliarum virium interiorum
+            es<lb ed="#V" n="23" break="no"/>sent intuitiui &amp; non abstractiui propter eandem causam. Si
+            <lb ed="#V" n="24"/>ergo aliqua cognitio sit abstractiua, oportet quod eam
+            praece<lb ed="#V" n="25" break="no"/>dat aliqua alia, quam praesupponat, vel ex qua deducatur,
+            <lb ed="#V" n="26"/>&amp; sic patet, quod illa inductio concludit, quod sicut est in Deo, ita
+            <lb ed="#V" n="27"/>est in nobis, nec possibile est oppositum fieri. Quarto
+            prin<lb ed="#V" n="28" break="no"/>cipaliter sic. Prima cognitio necessario est entis in actu, sed
+            <lb ed="#V" n="29"/>talis necessario est intuitiua, vt probatur: ergo omnis alia
+            <lb ed="#V" n="30"/>cognitio supponit intuitiuam &amp; ex ea deducitur. Maior
+            <lb ed="#V" n="31"/>patet, quia non ens non potest cognosci, nisi per ens, nec
+            <lb ed="#V" n="32"/>ens in potentia, nisi per ens in actu, vt habetur 9. Metaphy.
+            <lb ed="#V" n="33"/>ergo prima cognitio ex qua omnis alia dependet, est entis
+            <lb ed="#V" n="34"/>in actu. Minor probatur, quia illa cognitio est intuitiua,
+            <lb ed="#V" n="35"/>quae fertur immediate in rem, vt sibi praesentem secundum
+            <lb ed="#V" n="36"/>eius actualem existentiam, quod patet ex ratione
+            cognitio<lb ed="#V" n="37" break="no"/>nis intuitiuae prius posita. Sed prima cognitio, quae est
+            en<lb ed="#V" n="38" break="no"/>tis in actu, vt praecogniti fertur in ens actu secundum eius
+            <lb ed="#V" n="39"/>actualem existentiam, cum hoc sit formaliter, vt ratio
+            su<lb ed="#V" n="40" break="no"/>obiecti, &amp; fertur immediate in ipsum, quia non mediante
+            <lb ed="#V" n="41"/>alia cognitione, cum illa sit prima, nec mediante aliquo
+            co<lb ed="#V" n="42" break="no"/>gnito, cum illud sit primum: ergo talis cognitio est
+            intui<lb ed="#V" n="43" break="no"/>tiua, quam supponit omnis alia cognitio, tunc vltra, sed in
+            <lb ed="#V" n="44"/>puro viatore non potest praecedere aliqua cognitio, ex qua
+            <lb ed="#V" n="45"/>deducatur talis abstractiua, quam tu ponis, quia fla
+            cogni<lb ed="#V" n="46" break="no"/>tio, vel esset eiusdem cogniti, scilicet Dei, aut alterius. Non
+            <lb ed="#V" n="47"/>alterius, quia illud esset creatum ex nihilo, nullo autem
+            crea<lb ed="#V" n="48" break="no"/>to praecognito potest deduci talis cognitio Dei, per quam
+            <lb ed="#V" n="49"/>certitudinaliter, &amp; expresse cognoscatur Deus esse trinus
+            <lb ed="#V" n="50"/>&amp; vnus. Nec potest esse eiusdem cogniti scilicet Dei, quia vel
+            es<lb ed="#V" n="51" break="no"/>set abstractiua, vel intuitiua, si abstractiua, adhuc ipsam
+            prae<lb ed="#V" n="52" break="no"/>cederet alia quaedam, de qua quaereretur, vt prius, &amp; esset
+            <lb ed="#V" n="53"/>processus in infinitum. Relinquitur ergo, quod illa esset
+            intui<lb ed="#V" n="54" break="no"/>tiua, sed non potest communicari viatori, cum sit beatifica:
+            <lb ed="#V" n="55"/>ergo nec abstractiua.
+          </p>
+          <p xml:id="capsco-b20siq-d1e1009">
+            Quinto sic. Si talis cognitio
+            abstra<lb ed="#V" n="56" break="no"/>ctiua esset possibilis viatori, aut essentia diuina secundum
+            <lb ed="#V" n="57"/>se, &amp; immediate praesentaretur intellectui, aut mediante
+            ali<lb ed="#V" n="58" break="no"/>quo alio. Si primo modo, tunc esset cognitio intuitiua,
+            si<lb ed="#V" n="59" break="no"/>cut visio coloris in pariete, &amp; talis non potest
+            communica<lb ed="#V" n="60" break="no"/>ri viatori. Si secundo modo, aut illud esset medium
+            cogni<lb ed="#V" n="61" break="no"/>tum, aut ratio cognoscendi, sicut quidam ponunt de specie,
+            <lb ed="#V" n="62"/>non medium cognitum, quia nihil creatum potest per
+            mo<lb ed="#V" n="63" break="no"/>dum obiecti cogniti ducere in tam perfectam cognitionem
+            <lb ed="#V" n="64"/>Dei, quod expresse cognoscatur esse trinus &amp; vnus. Si autem
+            <lb ed="#V" n="65"/>illud medium sit solum ratio cognoscendi vt species, tale
+            <lb ed="#V" n="66"/>medium non faceret cognitionem abstractiuam, sed
+            intuiti<lb ed="#V" n="67" break="no"/>uam, quia quandocunque aliqua res est praesens secundum se
+            reali<lb ed="#V" n="68" break="no"/>ter potentiae cognitiuae, &amp; praesentatur er in ratione obiecti
+            <lb ed="#V" n="69"/>cognoscibilis per solam speciem, illa cognitio est intuitiua,
+            <lb ed="#V" n="70"/>quia potentia fertur in talem rem, vt sibi realiter praesentem
+            <lb ed="#V" n="71"/>in ratione obiecti immediate cogniti, quia species non est
+            <lb ed="#V" n="72"/>medium cognitum, sed solum ratio cognoscendi. Exemplum
+            <lb ed="#V" n="73"/>de cognitione sensitiua visiua. Sed essentia diuina est
+            secun<lb ed="#V" n="74" break="no"/>dum se praesens realiter cuicunque potentiae cognitiuae, &amp;
+            <lb ed="#V" n="75"/>cuilibet rei. Si ergo ipsa praesentetur in ratione obiecti
+            co<cb ed="#V" n="b"/><lb ed="#V" n="76" break="no"/>gnoscibilis per solam speciem illi potentiae, quae est capax
+            <lb ed="#V" n="77"/>eius, necesse est talem cognitionem esse intuitiuam. Sexto.
+            <lb ed="#V" n="78"/>Quia cognitio abstractiua de Deo aut est aeque perfecta
+            si<lb ed="#V" n="79" break="no"/>cut intuitiua, aut perfectior, aut minus perfecta. Si sit aeque
+            <lb ed="#V" n="80"/>perfecta, vel perfectior, tunc sicut vna est beatifica, &amp;
+            in<lb ed="#V" n="81" break="no"/>communicabilis viatori, ita &amp; alia. Si autem dicatur, quod sit
+            <lb ed="#V" n="82"/>minus perfecta. Contra. Deus non habuit ab aeterno de
+            re<lb ed="#V" n="83" break="no"/>bus creabilibus nisi cognitionem abstractiuam, quia
+            crea<lb ed="#V" n="84" break="no"/>turae non fuerunt ab aeterno praesentes Deo secundum suum esse
+            <lb ed="#V" n="85"/>reale, eo quod ab aeterno nihil erant, nunc autem habet de eis vel
+            <lb ed="#V" n="86"/>de aliquibus earum cognitionem intuitiuam. Haec autem non
+            <lb ed="#V" n="87"/>est perfectior prima, alioquin Deus prosecisset in
+            cognitio<lb ed="#V" n="88" break="no"/>ne rerum, quod est impossibile: ergo cognitio
+            abstractiu<lb ed="#V" n="89" break="no"/>non est minus perfecta quam intuitiua, &amp; per consequens
+            <lb ed="#V" n="90"/>est beatifica, &amp; incommunicabilis viatori sicut intuitiua.
+            <lb ed="#V" n="91"/>Haec Durandus. Ex quibus videtur velle, quod nulla notitia
+            abstra<lb ed="#V" n="92" break="no"/>ctiua possit communicari puro viatori per speciem
+            infu<lb ed="#V" n="93" break="no"/>sam altior communi cognitione, qua Deus cognoscitur
+            naturali<lb ed="#V" n="94" break="no"/>ter ex creaturis, vel per lumen commune fidei. Contra eandem
+            con<lb ed="#V" n="95" break="no"/>clusionem arguit Scotus opposito modo probando, quod virtute
+            <lb ed="#V" n="96"/>diuina possit concari puro viatori cognitio certa &amp; expressa
+            <lb ed="#V" n="97"/>&amp; euidens de articulus fidei puta quod Deus sit trinus &amp; vnus,
+            <lb ed="#V" n="98"/>ac per hoc quod talis notitia comncata fuerit Adae in primo
+            sta<lb ed="#V" n="99" break="no"/>tu, vel saltem potuit concari. Et arguit primo sic. Illa
+            cogni<lb ed="#V" n="100" break="no"/>tio potuit concari viatori, quae non ponit ipsum extra
+            termi<lb ed="#V" n="101" break="no"/>nos viae, sed cognitio abstractiua, quod Deus si trinus &amp; vnus,
+            <lb ed="#V" n="102"/>quantumcunque sit certa vel expressa, aut scientifica non
+            po<lb ed="#V" n="103" break="no"/>nit hominem exta terminos viae: igitur potest communicari viatori.
+            <lb ed="#V" n="104"/>Maior patet, quia nihil repugnat viatori, vt viator est,
+            nii<lb ed="#V" n="105" break="no"/>illud, quod faceret eum extra terminos viae, omnis enim
+            re<lb ed="#V" n="106" break="no"/>pugnantia resoluitur in contradictionem. Minor probatur,
+            <lb ed="#V" n="107"/>quia sola cognitio intuitiua, quam Apostolus vocat a facie
+            <lb ed="#V" n="108"/>ad faciem, est beatifica, &amp; ponit hominem extra statum viae,
+            <lb ed="#V" n="109"/>sed cognitio abstractiua quantunque sit expressa &amp;
+            perfe<lb ed="#V" n="110" break="no"/>cta citra intuitiuam imperfectionem importat, quia habens
+            <lb ed="#V" n="111"/>abstractiuam adhuc desiderat intuitiuam: igitur nulla
+            co<lb ed="#V" n="112" break="no"/>gnitio abstractiua ponit hominem extra statum viae.
+          </p>
+          <p xml:id="capsco-b20siq-d1e1136">
+            Secun<lb ed="#V" n="113" break="no"/>do sic. Prior cognitio potest haberi sine posteriori, sed
+            co<lb ed="#V" n="114" break="no"/>gnitio abstractiua quantumcunque perfecta &amp; scientifica
+            <lb ed="#V" n="115"/>est prior intuitiua, quae sola est beatifica: ergo potest
+            habe<lb ed="#V" n="116" break="no"/>ci ab homine sine ea, &amp; sic homo remanebit purus viator.
+            <lb ed="#V" n="117"/>Maior de se patet. Minor probatur, quia cognitio intuitiua
+            <lb ed="#V" n="118"/>cum respiciat rem secundum esse praesentialis existentiae, se
+            <lb ed="#V" n="119"/>habet per additionem ad abstractiuam, quae respicit rem
+            <lb ed="#V" n="120"/>secundum eius quidditatem absolute, &amp; sic est posterior ea.
+            <lb ed="#V" n="121"/>Tertio. Quia quicquid faceret essentia diuina, si esset
+            prae<lb ed="#V" n="122" break="no"/>sens intellectui sub ratione obiecti naturaliter mouentis, potest
+            <lb ed="#V" n="123"/>facere voluntas diuina, dato quod diuina essentia non sit illo
+            <lb ed="#V" n="124"/>modo praesens, sed si essentia diuina esset praesens intellectui
+            <lb ed="#V" n="125"/>nostro in ratione obiecti naturaliter mouentis, ipsa causaret
+            <lb ed="#V" n="126"/>cognitionem quidditatis suae &amp; omnium, quae sunt in ea,
+            ex<lb ed="#V" n="127" break="no"/>pressam &amp; perfectam: igitur hoc idem potest facere
+            volun<lb ed="#V" n="128" break="no"/>tas diuina absque praedicta praesentia, sed illa cognitio esset
+            <lb ed="#V" n="129"/>abstractiua &amp;c. Maior patet, quia voluntas diuina potest
+            sup<lb ed="#V" n="130" break="no"/>plere vicem cuiuscunque causae mouentis. Minor de se
+            pa<lb ed="#V" n="131" break="no"/>tet. Quarto. Quia Paulus qui in raptu vidit diuinam
+            essen<lb ed="#V" n="132" break="no"/>tiam, &amp; post raptum habuit memoriam de visione, &amp; de
+            re<lb ed="#V" n="133" break="no"/>visa, quia ipse locutus est de hoc secunda Corinth. 12. Illa
+            <lb ed="#V" n="134"/>autem cognitio memoratiua non fuit intuitiua, sed
+            abstra<lb ed="#V" n="135" break="no"/>ctiua: ergo ista impossibilis homini sine illa, &amp; sic idem
+            <lb ed="#V" n="136"/>quod prius. Et in hoc secundus articulus terminatur.
+          </p>
+        </div>
+        <div xml:id="capsco-b20siq-Dd1e1192">
+          <head xml:id="capsco-b20siq-Hd1e1194">Articulus 3</head>
+          <p xml:id="capsco-b20siq-d1e1196">
+            <lb ed="#V" n="137"/><milestone ed="#V" unit="p" rend="initial"/> QVantum ad tertium restat praedictis obiectionibus
+            re<lb ed="#V" n="138" break="no"/>spondere. Et quidem ad primum Durandi negatur
+            <lb ed="#V" n="139"/>antecedens. Sicut enim patet ex praecedentibus
+            quae<lb ed="#V" n="140" break="no"/>stionibus tam humana quam angelica cognitio fit per
+            spe<lb ed="#V" n="141" break="no"/>cies, nec suae probationes ad oppositum valent, vt supra
+            osten<lb ed="#V" n="142" break="no"/>sum fuit.
+          </p>
+          <p xml:id="capsco-b20siq-d1e1213">
+            Ad secundum negatur conditionalis assumpta.
+            <lb ed="#V" n="143"/>Et ad probationem illius negatur minor. Omnis enim
+            co<lb ed="#V" n="144" break="no"/>gnitio habita de Deo per quamcunque speciem est
+            aenigma<lb ed="#V" n="145" break="no"/>tica, quia nulla talis repraesentat diuinam essentiam
+            perfe<lb ed="#V" n="146" break="no"/>cte. Vnde B. Thomas prima parte. q. 12. artic. 2. sic dicit. Ad
+            <lb ed="#V" n="147"/>videndum Deum requiritur aliqua similitudo Dei ex parte
+            <lb ed="#V" n="148"/>visiuae potentiae, qua scilicet intellectus sit efficax ad
+            viden<lb ed="#V" n="149" break="no"/>dum Deum, sed ex parte rei visae, qua necesse est aliquo
+            mo<lb ed="#V" n="150" break="no"/>do vniri videnti, per nullam similitudinem creatam Dei
+            es<pb ed="#V" n="406"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>sentiam videri dicit. Primo quidem, quia sicut dicit
+            Dio<lb ed="#V" n="2" break="no"/>nys. primo capitulo de diuinis nominibus. Per
+            similitudi<lb ed="#V" n="3" break="no"/>nes inferioris ordinis rerum nullo modo possunt
+            superio<lb ed="#V" n="4" break="no"/>ra cognosci, sicut per speciem corporis non potest
+            cogno<lb ed="#V" n="5" break="no"/>sci essentia rei incorporeae. Multo igitur minus per
+            spe<lb ed="#V" n="6" break="no"/>ciem creatam quantacunque potest essentia Dei
+            vide¬<lb ed="#V" n="7" break="no"/>ri. Secundo. Quia essentia Dei est ipsum esse ipsius quod
+            <lb ed="#V" n="8"/>nulli formae creatae competere potest. Non potest
+            igi<lb ed="#V" n="9" break="no"/>tur aliqua forma creata esse similitudo repraesentans
+            vi<lb ed="#V" n="10" break="no"/>denti Dei essentiam. Tertio. Quia diuina essentia est
+            ali<lb ed="#V" n="11" break="no"/>quid incircunscriptum continens in se supereminenter
+            quic<lb ed="#V" n="12" break="no"/>quid potest significari &amp; intelligi ab intellectu creato, &amp; hoc
+            <lb ed="#V" n="13"/>nullo modo potest repraesentari per aliquam speciem creatam
+            <lb ed="#V" n="14"/>quia omnis forma creata determinata est secundum
+            ratio<lb ed="#V" n="15" break="no"/>nem aliquam sapientiae, vel virtutis, vel ipsius esse, vel
+            ali<lb ed="#V" n="16" break="no"/>cuius huiusmodi, vnde dicere Deum per similitudinem
+            vi<lb ed="#V" n="17" break="no"/>deri, est dicere diuinam essentiam non videri, quod est er.
+            <lb ed="#V" n="18"/>roneum.
+          </p>
+          <p xml:id="capsco-b20siq-d1e1274">
+            Dicendum est ergo, quod ad videndam Dei
+            essen<lb ed="#V" n="19" break="no"/>tiam requiritur aliqua similitudo ex parte visiuae potentiae,
+            <lb ed="#V" n="20"/>scilicet lumen gloriae confortans intellectum ad videndum
+            <lb ed="#V" n="21"/>Deum, de quo dicitur in Psalm. In lumine tuo videbimus
+            <lb ed="#V" n="22"/>lumen. Non autem per aliquam similitudinem creatam
+            Dei<lb ed="#V" n="23" break="no"/>essentia videri potest, quae ipsam diuinam essentiam
+            repre<lb ed="#V" n="24" break="no"/>sentet, vt ipsa in se est. Haec ille.
+          </p>
+          <p xml:id="capsco-b20siq-d1e1290">
+            Cum autem dicat arguens,
+            <lb ed="#V" n="25"/>quod cognitio, quae est per speciem immediate acceptam,
+            <lb ed="#V" n="26"/>dicitur visio facie ad faciem, falsum est. Vnde Sanctus Thomas
+            <lb ed="#V" n="27"/>quarto sententiarum distinct. 49. questione secunda
+            articu<lb ed="#V" n="28" break="no"/>lo primo, in solutione decimisexti argumenti sic dicit.
+            Crea<lb ed="#V" n="29" break="no"/>turae corporales non dicuntnr immediate videri nisi
+            quan<lb ed="#V" n="30" break="no"/>do id quod est in eis coniungibile visui, vel intellectui ei
+            <lb ed="#V" n="31"/>coniungitur. Non sunt autem coniungibiles per essentiam
+            <lb ed="#V" n="32"/>suam ratione materialitatis, &amp; ideo tunc immediate
+            viden<lb ed="#V" n="33" break="no"/>tur quando earum similitudo intellectui coniungitur, sed
+            <lb ed="#V" n="34"/>Deus per essentiam suam est coniungibilis intellectui,
+            vn<lb ed="#V" n="35" break="no"/>de non immediate videretur, nisi essentia sua
+            coniungere<lb ed="#V" n="36" break="no"/>tur intellectui, &amp; haec visio immediata dicitur visio faciei.
+            <lb ed="#V" n="37"/>Et praeterea. Similitudo rei corporalis recipitur in visu
+            se<lb ed="#V" n="38" break="no"/>cundum eandem rationem, qua est in re, licet non
+            secun<lb ed="#V" n="39" break="no"/>dum eundem modum essendi, &amp; ideo similitudo illa ducit
+            <lb ed="#V" n="40"/>in illam rem directe. Non autem potest hoc modo ducere
+            <lb ed="#V" n="41"/>aliqua similitudo intellectus nostri in Deum. Haec ille.
+          </p>
+          <p xml:id="capsco-b20siq-d1e1330">
+            Ex
+            <lb ed="#V" n="42"/>quibus patet, quod ad claram Dei visionem nullo modo
+            <lb ed="#V" n="43"/>aenigmaticam non sufficit quaeque species creata, &amp; quod
+            <lb ed="#V" n="44"/>cognoscere Deum per talem speciem non est cognoscere
+            <lb ed="#V" n="45"/>clare, nec facie ad faciem, sed in aenigmate, sicut dicit
+            Au<lb ed="#V" n="46" break="no"/>gustin. 15. de Trinitate, &amp; recitat Sanctus Thomas prima
+            <lb ed="#V" n="47"/>parte vbi supra. Cum enim (inquit) dicit Apostolus. Vr
+            <lb ed="#V" n="48"/>demus nunc per speculum &amp; in aenigmate, speculi &amp;
+            aenig<lb ed="#V" n="49" break="no"/>matis nomine quaeque similitudines ab Apostolo signatae
+            <lb ed="#V" n="50"/>intelligi possunt, quae accommodatae sunt ad intelligendum
+            <lb ed="#V" n="51"/>Deum.
+          </p>
+          <p xml:id="capsco-b20siq-d1e1354">
+            Ad tertium dicitur, quod cognitio illa quam
+            ha<lb ed="#V" n="52" break="no"/>buit Adam in primo statu de Deo per speciem infusam non
+            <lb ed="#V" n="53"/>fuit intuitiua, sed abstractiua. Et cum quaeritur an per
+            il<lb ed="#V" n="54" break="no"/>lam Adam cognosceret euidenter Deum esse trinum &amp; vnum.
+            <lb ed="#V" n="55"/>Dicitur quod non, sed hoc tenebat fide implicite vel
+            expli<lb ed="#V" n="56" break="no"/>cite. Nec tamen ex hoc sequitur, quod eius cognitio non
+            <lb ed="#V" n="57"/>esset altior nostra. Vnde Sanctus Thomas de veritate.
+            quae<lb ed="#V" n="58" break="no"/>stione decimaoctaua articulo tertio, sic dicit. Adam in
+            pri<lb ed="#V" n="59" break="no"/>mo statu fidem habuit, quod quidem apparet si fidei
+            obie<lb ed="#V" n="60" break="no"/>ctum consideremus. Ipsa enim veritas prima prout est non
+            <lb ed="#V" n="61"/>apparens, est fidei obiectum. Dico autem non apparens
+            <lb ed="#V" n="62"/>neque per speciem, sicut beatis apparet, neque per
+            natura<lb ed="#V" n="63" break="no"/>lem rationalem, sicut aliqua Philosophis de Deo nota sunt,
+            <lb ed="#V" n="64"/>vt eum esse incorruptibilem, &amp; alia huiusmodi. Adam
+            au<lb ed="#V" n="65" break="no"/>tem non solum sciebat illa de Deo, quae naturali
+            cognitio<lb ed="#V" n="66" break="no"/>ne cognosci possunt, sed amplius, nec tamen ad videndum
+            <lb ed="#V" n="67"/>essentiam peruenerat, vnde constat, quod de Deo fidei
+            co<lb ed="#V" n="68" break="no"/>gnitionem habebat. Sed fides est duplex, scilicet secundum
+            <lb ed="#V" n="69"/>duplicem auditum, &amp; duplicem locutionem, est enim fides
+            <lb ed="#V" n="70"/>ex auditu, vt dicitur Romands 10. Est enim quaedam locutio
+            <lb ed="#V" n="71"/>exterior, qua Deus nobis per Praedicatores loquitur,
+            quae<lb ed="#V" n="72" break="no"/>dam interior, qua loquitur nobis per inspirationem
+            inter<lb ed="#V" n="73" break="no"/>nam. Dicitur autem ipsa interior inspiratio locutio
+            quae<lb ed="#V" n="74" break="no"/>dam ad similitudinem locutionis exterioris. Sicut enim in
+            <lb ed="#V" n="75"/>exteriori locutione proferimus ad ipsum audientem, non
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="76"/>ipsam rem, quam notificare cupimus, sed signum illius rei,
+            <lb ed="#V" n="77"/>scilicet vocem significatiuam, ita Deus interius inspiciens
+            <lb ed="#V" n="78"/>do non exhibet essentiam suam ad videndum, sed aliquod
+            <lb ed="#V" n="79"/>suae essentiae signum, quod est aliqua spiritnalis similitudo
+            <lb ed="#V" n="80"/>suae sapientiae, ab vtroque auditu, fides in cordibus fide,
+            <lb ed="#V" n="81"/>lium oritur, per auditum interiorem in his, qui primo
+            fi<lb ed="#V" n="82" break="no"/>dem acceperunt &amp; docuerunt sicut in Apostolis &amp;
+            Pro<lb ed="#V" n="83" break="no"/>phetis. Vnde Psalm. Audiam quid loquatur in me
+            Domi<lb ed="#V" n="84" break="no"/>nus Deus. Per secundum vero auditum fides oritur in
+            cor<lb ed="#V" n="85" break="no"/>dibus aliorum fidelium, qui per alios homines
+            cognitio<lb ed="#V" n="86" break="no"/>nem fidei accipiunt. Adam autem primo fidem habuit, vt
+            <lb ed="#V" n="87"/>primo fidem edoctus a Deo, ideo per internam
+            locutio<lb ed="#V" n="88" break="no"/>nem fidem adhibere debuit. Haec ille.
+          </p>
+          <p xml:id="capsco-b20siq-d1e1439">
+            Simile dicit
+            se<lb ed="#V" n="89" break="no"/>cunda secundae. quaestione quinta articulo primo. Ad
+            om<lb ed="#V" n="90" break="no"/>nia vero alia, quae adducit non necessario oportet
+            respon<lb ed="#V" n="91" break="no"/>dere, quia non procedunt contra nos, sed contra
+            Sco<lb ed="#V" n="92" break="no"/>tum, qui ponit talem notitiam abstractiuam possibilem
+            <lb ed="#V" n="93"/>communicari viatori, qua euidenter cognosceretur Deus
+            <lb ed="#V" n="94"/>esse trinus &amp; vnus. Sanctus Thomas vero hoc non ponit,
+            <lb ed="#V" n="95"/>verum quia argumenta illa non solum procedunt contra
+            <lb ed="#V" n="96"/>ponentes notitiam abstractiuam &amp; euidentem, immo
+            con<lb ed="#V" n="97" break="no"/>tra ponentes obscuram &amp; aenigmaticam, ideo inquantum
+            <lb ed="#V" n="98"/>possunt laedere opinionem Sancti Thomae dicendum est ad
+            <lb ed="#V" n="99"/>illas. Vnde ad illud, quod adducitur in tertio argumento
+            <lb ed="#V" n="100"/>scilicet quod omnis notitia abstractiua alicuius obiecti
+            prae<lb ed="#V" n="101" break="no"/>supponit aliquam intuitiuam priorem, ex qua deducatur.
+            <lb ed="#V" n="102"/>Respondendum est per interruptionem, illa enim maior
+            <lb ed="#V" n="103"/>falsa est.
+          </p>
+          <p xml:id="capsco-b20siq-d1e1474">
+            Nec valet probatio per inductionem, nec per
+            ra<lb ed="#V" n="104" break="no"/>tionem, &amp; quidem ad inductionem dicitur primo, quod
+            <lb ed="#V" n="105"/>illa inductio falsum assumit ex parte Dei, scilicet quod in
+            <lb ed="#V" n="106"/>Deo sit duplex cognitio, quarum vna deducatur ex alia. In
+            <lb ed="#V" n="107"/>Deo siquidem non est nisi vnica cognitio, quae tamen
+            ha<lb ed="#V" n="108" break="no"/>bet pro primario obiecto essentiam diuinam, &amp; pro
+            obie<lb ed="#V" n="109" break="no"/>cto secundario creaturas, &amp; ita arguens non probat
+            maio<lb ed="#V" n="110" break="no"/>rem assumptam veritatem habere in Deo, sed solum, quod
+            <lb ed="#V" n="111"/>Deus prius secundum nostrum modum intelligendi
+            intel<lb ed="#V" n="112" break="no"/>licit essentiam suam intuitiue quam creaturas abstractiue
+            <lb ed="#V" n="113"/>Hoc tamen non est ex aliquo essentiali ordine abstractiue
+            <lb ed="#V" n="114"/>ad intuitiuam, sed hoc accidit ex eo, quia per eandem
+            in<lb ed="#V" n="115" break="no"/>telligibilem formam intelligit principale obiectum &amp;
+            secun<lb ed="#V" n="116" break="no"/>darium, &amp; ideo prius intelligit primum quam secundarium.
+            <lb ed="#V" n="117"/>Si autem per diuersas species intelligibiles intelligeret illa
+            <lb ed="#V" n="118"/>duo obiecta, tunc non oporteret esse ibi talem ordinem,
+            <lb ed="#V" n="119"/>quod cognitio creaturarum vllo modo dependeret a
+            co¬<lb ed="#V" n="120" break="no"/>gnitione diuinae essentiae. Dicitur secundo, quod illud quod
+            <lb ed="#V" n="121"/>adducit de angelo expresse falsum est, quia cognitio, qua
+            <lb ed="#V" n="122"/>angelus cognoscit alia a se, non deducitur causaliter a
+            no<lb ed="#V" n="123" break="no"/>titia intuitiua, qua seipsum cognoscit, quia per aliud
+            intel<lb ed="#V" n="124" break="no"/>ligit se, &amp; per aliud alia a se, scilicet per species influxas &amp;
+            <lb ed="#V" n="125"/>concreatas. Nec vllo modo intuitiua sui causat
+            abstracti<lb ed="#V" n="126" break="no"/>uam cognitionem, quam habet angelus de alijs a se.
+          </p>
+          <p xml:id="capsco-b20siq-d1e1526">
+            Item
+            <lb ed="#V" n="127"/>falsum est, quod angelus non cognoscat alia a se intuitiue,
+            <lb ed="#V" n="128"/>sed tantum abstractiue, nec solum est falsum, immo
+            erro<lb ed="#V" n="129" break="no"/>neum, quia tunc nec esset beatificabilis, nec damnabilis.
+            <lb ed="#V" n="130"/>Dicitur tertio, quod causa cur in nobis omnem
+            abstracti<lb ed="#V" n="131" break="no"/>uam praecedit intuitiua est, quia nos intelligimus. per
+            spe<lb ed="#V" n="132" break="no"/>cies a phantasmatibus abstractas, sed si intelligeremus per
+            <lb ed="#V" n="133"/>species a Deo influxas, tunc non oporteret, quod
+            abstracti<lb ed="#V" n="134" break="no"/>ua causaretur in nobis ab intuitiua mediate vel
+            immedia<lb ed="#V" n="135" break="no"/>te, &amp; istud apparet in anima separata, quae cognoscit per
+            spe<lb ed="#V" n="136" break="no"/>cies influxas seipsam, &amp; alias animatas, &amp; angelos, saltem
+            <lb ed="#V" n="137"/>daemones, &amp; multa alia, sicut ostendit Sanctus Thomas
+            pri<lb ed="#V" n="138" break="no"/>ma parte. quaestio. 89. articulo primo &amp; secundo, &amp; quarto
+            <lb ed="#V" n="139"/>sententiarum distinct. 50. quaestione prima articulo primo.
+            <lb ed="#V" n="140"/>Dicitur quarto, quod probatio maioris negatae per
+            ratio<lb ed="#V" n="141" break="no"/>nem non valet. Tum, quia illud quod adducit de
+            cognitio<lb ed="#V" n="142" break="no"/>ne Dei solutum est. Tum secundo, quia illud quod false
+            <lb ed="#V" n="143"/>assumit de angelis probari non potest. Tum tertio quia
+            il<lb ed="#V" n="144" break="no"/>lius quod dicitur de nobis, scilicet quod sensus interiores
+            <lb ed="#V" n="145"/>&amp; intellectus secundum cursum consuetum non possunt
+            <lb ed="#V" n="146"/>exire in actum non praesupposita sensatione exteriori,
+            cau<lb ed="#V" n="147" break="no"/>sa est, non illa, quam arguens assignat, scilicet quod
+            cogn<lb ed="#V" n="148" break="no"/>tio abstractiua essentialiter inquantum huiusmodi
+            praesup<lb ed="#V" n="149" break="no"/>ponat intuitiuam, sicut causam sui. Sed causa huius est,
+            <lb ed="#V" n="150"/>quia secundum communem cursum intellectus &amp; vires
+            sen<pb ed="#V" n="407"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>sitiuae interiores non acquirunt actum primum, scilicet
+            spe<lb ed="#V" n="2" break="no"/>ciem sensibilem, aut intelligibilem, nisi in ministerio
+            vi<lb ed="#V" n="3" break="no"/>rium sensitiuarum exteriorum. Huiusmodi autem
+            oppo<lb ed="#V" n="4" break="no"/>situm factum fuit in angelis, &amp; in Adam, &amp; posset fieri in
+            <lb ed="#V" n="5"/>quolibet nostrum virtute diuina, &amp; sic de per accidens est,
+            <lb ed="#V" n="6"/>quod intellectio abstractiua praesupponat sensationem
+            in<lb ed="#V" n="7" break="no"/>tuitiuam. Dicitur quinto, quod causa, quare sensus
+            exte<lb ed="#V" n="8" break="no"/>riores sunt intuitiui, sensus autem interiores, &amp; ipse
+            intelle<lb ed="#V" n="9" break="no"/>ctus sunt abstractiui, non est illa, quam assignat arguens.
+            <lb ed="#V" n="10"/>scilicet quia sensus exteriores habent immediatum
+            ordi<lb ed="#V" n="11" break="no"/>nem ad res extra, non autem sensus interiores, nec
+            intelle<lb ed="#V" n="12" break="no"/>ctus, loquendo de immediatione ordinis potentiae ad
+            obie<lb ed="#V" n="13" break="no"/>ctum, de qua procedit argumentum, scilicet quod ideo
+            poten<lb ed="#V" n="14" break="no"/>tia dicatur intuitiua, quia cognitio eius immediate
+            causa<lb ed="#V" n="15" break="no"/>tur ab obiecto sine specie media, aut quia talis cognitio non
+            <lb ed="#V" n="16"/>sequitur aliam cognitiondm primam, a qua causetur. Sed
+            <lb ed="#V" n="17"/>causa vera est, quia intellectus &amp; vires sensitiuae interiores
+            <lb ed="#V" n="18"/>pro statu isto non directe &amp; immediate cognoscunt
+            singu<lb ed="#V" n="19" break="no"/>lare sensibile, &amp; materiale extrinsecum inquantum
+            huius<lb ed="#V" n="20" break="no"/>modi, quo ad suum existere &amp; alias conditiones
+            indiuidua<lb ed="#V" n="21" break="no"/>les, sed feruntur in essentiam rei, cum aliquali
+            abstractio<lb ed="#V" n="22" break="no"/>ne a conditionibus indiuidualibus, cum quibus habet esse
+            <lb ed="#V" n="23"/>in rerum natura. Cuius signum est, quia huiusmodi
+            poten<lb ed="#V" n="24" break="no"/>tiae indifferenter cognoscunt rem, siue sit existens, siue non
+            <lb ed="#V" n="25"/>existens, praesens aut absens, &amp; ideo per talem
+            cognitio<lb ed="#V" n="26" break="no"/>nem non potest per certitudinem iudicari de obiecto, vtrum
+            <lb ed="#V" n="27"/>sit vel non sit, vtrum sit praesens vel absens, nec de alijs
+            con<lb ed="#V" n="28" break="no"/>ditionibus contingentibus obiecti. Talia autem possunt
+            <lb ed="#V" n="29"/>certitudinaliter iudicari per sensum exteriorem. Cuius
+            cau<lb ed="#V" n="30" break="no"/>sa est, quia species, qua sensus exterior fit in actu,
+            repraesen<lb ed="#V" n="31" break="no"/>tat huiusmodi conditiones particulares obiecti, non autem
+            <lb ed="#V" n="32"/>species obiecti, quae est in intellectu humano, aut sensu
+            in<lb ed="#V" n="33" break="no"/>teriori certitudinaliter. Si autem species recepta viribus
+            <lb ed="#V" n="34"/>interioribus sensitiuis, aut intellectiuis infallibiliter
+            reprae<lb ed="#V" n="35" break="no"/>sentaret existentiam &amp; non existentiam, praesentiam, aut
+            di<lb ed="#V" n="36" break="no"/>stantiam obiecti, sicut contingit in speciebus concreatis
+            <lb ed="#V" n="37"/>angelo, tunc sicut angelus intuitiue intelligit obiecta
+            exte<lb ed="#V" n="38" break="no"/>riora, &amp; habet immediatum ordinem ad illa, sic similiter
+            es<lb ed="#V" n="39" break="no"/>set de intellectu humano, &amp; de viribus sentiuis
+            interiori<lb ed="#V" n="40" break="no"/>bus.
+          </p>
+          <p xml:id="capsco-b20siq-d1e1669">
+            Item aliud falsum assumit, scilicet quod sensus
+            inte<lb ed="#V" n="41" break="no"/>riores, aut intellectus nullo modo sint intuitiui, sed
+            tan<lb ed="#V" n="42" break="no"/>tum abstractiui. Cuius falsitas patet, quia intellectus
+            po<lb ed="#V" n="43" break="no"/>rest intueri actum suum, &amp; seipsum, &amp; essentiam animae.
+            <lb ed="#V" n="44"/>Ipsa etiam phantasia intuetur idola, &amp; phantasmata sua,
+            <lb ed="#V" n="45"/>quicquid sit de rebus sensibilibus exterioribus. Vnde
+            se<lb ed="#V" n="46" break="no"/>cundum Gregorius &amp; multos alios omnis cognitio
+            abstracti<lb ed="#V" n="47" break="no"/>ua respectu vnius obiecti est intuitiua respectu alterius,
+            si<lb ed="#V" n="48" break="no"/>cut mnemoratio, vel phantasiatio, qua recolo aliquod
+            prae<lb ed="#V" n="49" break="no"/>teritum, vel absens, est abstractiua respectu illius obiecti
+            ex<lb ed="#V" n="50" break="no"/>terioris, &amp; est intuitiua respectu alicuius speciei vel
+            phan<lb ed="#V" n="51" break="no"/>tasmatis repraesentantis illud obiectum exterius. Erroneum
+            <lb ed="#V" n="52"/>etiam est dicere, quod intellectus humanus nullam rem
+            exte<lb ed="#V" n="53" break="no"/>riorem possit intueri. Dico sexto, quod vera causa
+            distin<lb ed="#V" n="54" break="no"/>ctionis notitiae intuitiuae ab abstractiua, si talis distinctio
+            <lb ed="#V" n="55"/>admitti debeat, est ista, quia notitia intuitiua habet
+            imme<lb ed="#V" n="56" break="no"/>diatum ordinem ad obiectum in ratione termini, hoc est, quia
+            <lb ed="#V" n="57"/>cognitio intuitiua immediate terminatur ad obiectum, &amp;
+            <lb ed="#V" n="58"/>ad indiuiduales conditiones obiecti necessarias, aut
+            con<lb ed="#V" n="59" break="no"/>tingentes, siue causetur ab obiecto immediate, siue non.
+            Co<lb ed="#V" n="60" break="no"/>gnitio autem illa dicitur abstractiua, quae non immediate
+            <lb ed="#V" n="61"/>terminatur ad obiectum quantum ad tales indiuiduales
+            con<lb ed="#V" n="62" break="no"/>ditiones, ita quod ex natura huius notitiae non est, quod per
+            <lb ed="#V" n="63"/>illam talia certitudinaliter possint deprehendi, sed talis
+            no<lb ed="#V" n="64" break="no"/>titia solum terminatur ad nudam quidditatem obiecti, aut
+            <lb ed="#V" n="65"/>ad quidditatem sub conditionibus praesentibus, aut
+            praete<lb ed="#V" n="66" break="no"/>ritis, aut confictis per ipsum cognoscentem, sicut patet de
+            <lb ed="#V" n="67"/>phantasia. Vbi sciendum est, quod ipse Durandus 1. senten.
+            <lb ed="#V" n="68"/>q. 1. prologi. artic. 3. sic dicit. Ponentes dictam opinionem,
+            <lb ed="#V" n="69"/>scilicet Scotistae distinguunt duplicem cognitionem,
+            scili<lb ed="#V" n="70" break="no"/>cet intuitiuam &amp; abstractiuam. Vocant autem
+            cognitio<lb ed="#V" n="71" break="no"/>nem intuitiuam illam, qnae immediate tendit ad rem sibi
+            <lb ed="#V" n="72"/>praesentem obiectiue secundum eius actualem existentiam,
+            <lb ed="#V" n="73"/>sicut cum video colorem existentem in pariete, vel rosam,
+            <lb ed="#V" n="74"/>quam mn manu teneo. Abitractiuam autem vocant omnem
+            <lb ed="#V" n="75"/>cognitionem, quae habetur de re, non sic realiter praesente
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="76"/>in ratione obiecti immediate cogniti, vnde secundum istos
+            <lb ed="#V" n="77"/>cognitio abstractiua dicitur non solum per abstractionem
+            <lb ed="#V" n="78"/>ab esse, &amp; non esse, sicut est illa cognitio, per quam
+            cogno<lb ed="#V" n="79" break="no"/>scitur de aliqua re, puta de rosa, quid sit non considerando
+            <lb ed="#V" n="80"/>an sit, vel non sit. Sed etiam dicitur abstractiua illa
+            cogni<lb ed="#V" n="81" break="no"/>tio, per quam cognoscitur de re, quod sit in rerum natura
+            <lb ed="#V" n="82"/>Dum tamen ipsa vt sic non sit praesens in ratione obiecti
+            im<lb ed="#V" n="83" break="no"/>mediate cogniti, verbi gratia, si eclypsis Lunae sit in rerum
+            <lb ed="#V" n="84"/>natura, &amp; astrologus existens in domo sciat lunam, tunc
+            <lb ed="#V" n="85"/>actualiter eclypsari, quia scit adesse tempus, &amp; horam
+            inter<lb ed="#V" n="86" break="no"/>positionis terrae inter Solem &amp; Lunam, dum tamen non
+            vi<lb ed="#V" n="87" break="no"/>deat eclypsim in se, dicitur habere de eclypsi notitiam
+            ab<lb ed="#V" n="88" break="no"/>stractiuam, &amp; non intuitiuam, &amp; eodem modo Philosces sciens
+            <lb ed="#V" n="89"/>demonstratiue Deum esse, habet de Deo cognitionem
+            ab<lb ed="#V" n="90" break="no"/>stractiuam, non per abstractionem quidditatis ab esse, sed
+            <lb ed="#V" n="91"/>quia cognitio eius non tendit immediate in Deum, vt sibi
+            <lb ed="#V" n="92"/>realiter praesentem, sed solum cognoscit ipsum esse ex
+            effe<lb ed="#V" n="93" break="no"/>ctibus, vnde omnis cognitio, cuiuscunque rei, quae non est
+            <lb ed="#V" n="94"/>de eius actuali existentia immediate vt praesente
+            cognoscen<lb ed="#V" n="95" break="no"/>ti, est abstractiua, &amp; non intuitiua. Haec Durandus. Et
+            qui<lb ed="#V" n="96" break="no"/>dem bene, si intelligat praesentiam obiecti ad cognoscentem
+            <lb ed="#V" n="97"/>in ratione immediate cogniti modo supra dicto, quia
+            scili<lb ed="#V" n="98" break="no"/>cet ille dicitur intueri rem aliquam, cuius cognitio
+            imme<lb ed="#V" n="99" break="no"/>diate terminatur ad rem illam &amp; ad eius indiuiduales
+            con<lb ed="#V" n="100" break="no"/>ditiones praesentes, dato quod res illa non moueat potentiam
+            <lb ed="#V" n="101"/>cognitiuam ad huiusmodi cognitionem. Et per oppositum
+            <lb ed="#V" n="102"/>illa notitia dicitur, vel dici potest abstractiua, quae non
+            ter<lb ed="#V" n="103" break="no"/>minatur immediate ad suum obiectum, &amp; ad eius
+            indiui<lb ed="#V" n="104" break="no"/>duales conditiones. Et isto modo Sanctus Thomas prima parte.
+            <lb ed="#V" n="105"/>q. 14. artic. 9. &amp; 1. sen. dist. 38. q. 1. arti. 4. dicit, quod Deus scit
+            <lb ed="#V" n="106"/>scientia visionis omnia praesentia, praeterita, &amp; futura, non
+            <lb ed="#V" n="107"/>autem possibilia, quae non sunt, nec erunt, nec fuerunt, sed
+            <lb ed="#V" n="108"/>talia scit scientia simplicis intelligentiae.
+          </p>
+          <p xml:id="capsco-b20siq-d1e1822">
+            Vnde sicut ipse
+            be<lb ed="#V" n="109" break="no"/>ne dicit, ad hoc quod aliqua notitia sit intuitiua non sufficit,
+            <lb ed="#V" n="110"/>quod per illam cognoscatur quidditas obiecti, &amp; eius essentia,
+            <lb ed="#V" n="111"/>nisi vlterius per illam cognoscantur conditiones
+            indiui<lb ed="#V" n="112" break="no"/>duales, cum quibus existit in rerum natura praesentialiter
+            <lb ed="#V" n="113"/>&amp; in actu, &amp; ideo credo, quod distinctio ista de notitia
+            intuiti<lb ed="#V" n="114" break="no"/>ua &amp; abstractiua aequipollet illi distinctioni antiquae, quam
+            <lb ed="#V" n="115"/>ponit Sanctus Thomas &amp; alij de duplici notitia, scilicet quid est, &amp;
+            <lb ed="#V" n="116"/>an est, vel de notitia in vniuersali &amp; in singulari,
+            intelligen<lb ed="#V" n="117" break="no"/>do per notitiam rei an est, &amp; in singulari notitiam per quam
+            <lb ed="#V" n="118"/>potest iudicari vere, &amp; per certitudinem de existentia &amp;
+            <lb ed="#V" n="119"/>praesentia obiecti, &amp; de conditionibus eius indiuidualibus.
+            <lb ed="#V" n="120"/>Praesentia autem obiecti in ratione motiui non dat
+            noti<lb ed="#V" n="121" break="no"/>tiae, quod sit intuitiua, nec absentia illi opposita dat
+            noti<lb ed="#V" n="122" break="no"/>tiae, quod sit abstractiua, sed sola praesentia vel absentia in
+            <lb ed="#V" n="123"/>ratione termini quo ad conditiones indiuiduales obiecti,
+            <lb ed="#V" n="124"/>cum quibus est in rerum natura actu, &amp; praesentialiter
+            con<lb ed="#V" n="125" break="no"/>fert notitiae, quod sit intuitiua, vel abstractiua. Potest etiam
+            <lb ed="#V" n="126"/>dici, quod notitia abstractiua est idem quod notitia
+            simpli<lb ed="#V" n="127" break="no"/>cis intelligentiae, notitia vero intuitiua idem est quod
+            noti<lb ed="#V" n="128" break="no"/>tia visionis, tamen distinctio illa Durandi bene intellecta
+            <lb ed="#V" n="129"/>in nullo iuuat eum in hac parte, scilicet quod notitia
+            abstra<lb ed="#V" n="130" break="no"/>ctiua illo modo sumpta de necessitate deriuetur ab aliqua
+            <lb ed="#V" n="131"/>intuitiua, vt patet ex praedictis.
+          </p>
+          <p xml:id="capsco-b20siq-d1e1874">
+            Ad quartum negatur
+            ma<lb ed="#V" n="132" break="no"/>ior, si intelligatur vniuersaliter vera &amp; necessaria, quia
+            pos<lb ed="#V" n="133" break="no"/>sibile est, quod prima cognitio alicuius animae vel
+            angeli<lb ed="#V" n="134" break="no"/>sit cognitio alicuius suturi non existentis in actu, &amp; hoc si
+            <lb ed="#V" n="135"/>tali animae in primo instanti suae creationis infunderetur
+            <lb ed="#V" n="136"/>talis cognitio, &amp; suspenderetur omnis alia cognitio
+            respe<lb ed="#V" n="137" break="no"/>ctu cuiuslibet obiecti alterius.
+          </p>
+          <p xml:id="capsco-b20siq-d1e1890">
+            Nec valet probatio, quia
+            <lb ed="#V" n="138"/>auctoritas Aristotelis non loquitur de ente in actu, nec de
+            <lb ed="#V" n="139"/>actu actualis existentiae, sed de actu &amp; actualitate essentiae.
+            <lb ed="#V" n="140"/>vt puta, quia nec materia, nec compositum cognoscitur a
+            <lb ed="#V" n="141"/>nobis, nisi per formam, quae quidem forma est actus, siue
+            <lb ed="#V" n="142"/>existat, siue non, &amp; hoc in genere essentiarum, licet
+            quan<lb ed="#V" n="143" break="no"/>doque sit actu, &amp; quandoque non in genere existentiarum,
+            <lb ed="#V" n="144"/>immo intellectus noster pro statu isto in prima sui
+            intelle<lb ed="#V" n="145" break="no"/>ctione nunquam intelligit rem existentem in actu
+            inquan<lb ed="#V" n="146" break="no"/>tum huiusmodi. Quia primum quod intelligit est quid
+            con<lb ed="#V" n="147" break="no"/>fusum &amp; vniuersale abstrahens ab esse &amp; non esse. Dicitur
+            <lb ed="#V" n="148"/>secundo, quod minor est falsa, quia ens in actu secundum
+            <lb ed="#V" n="149"/>sententiam ipsius arguentis potest cognosci abstractiuae, vt
+            <lb ed="#V" n="150"/>patet de eclypsi Lunae.
+          </p>
+          <p xml:id="capsco-b20siq-d1e1921">
+            Nec valet probatio quam adducit
+            <pb ed="#V" n="408"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>pro minore, scilicet quod omnis illa cognitio sit intuitiua,
+            <lb ed="#V" n="2"/>quae non praesupponit aliam priorem cognitionem, nec
+            <lb ed="#V" n="3"/>aliud obiectum praecognitum. Hoc enim non sufficit ad
+            ra<lb ed="#V" n="4" break="no"/>tionem intuitiuae. Sed est in argumento petitio principij,
+            <lb ed="#V" n="5"/>vult enim probare quod omnis abstractiua causatur ex
+            in<lb ed="#V" n="6" break="no"/>tuitiua, &amp; hoc assumit in sibi aequipollenti, scilicet quod prima
+            <lb ed="#V" n="7"/>cognitio entis in actu sit intuitiua tanquam per se notum.
+            <lb ed="#V" n="8"/>Dicitur tertio, quod concessis maiore &amp; minore
+            conse<lb ed="#V" n="9" break="no"/>quentia non valet. Dato enim quod prima cognitio
+            ange<lb ed="#V" n="10" break="no"/>li sit intuitiua, non sequitur, quod omnis abstractiua sequens
+            <lb ed="#V" n="11"/>sit causata ab illa intuitiua, quia non semper prioritas
+            tem<lb ed="#V" n="12" break="no"/>poris arguit prioritatem causalitatis, potissime vbi
+            priori<lb ed="#V" n="13" break="no"/>tas temporis de per accidens interuenit inter illas. Ad
+            quin<lb ed="#V" n="14" break="no"/>tum dicitur primo quod directe procedit contra Scotus
+            po<lb ed="#V" n="15" break="no"/>nentem notitiam abstractiuam euidentem respectu
+            articu<lb ed="#V" n="16" break="no"/>lorum Trinitatis communicabilem viatori, non autem
+            pro<lb ed="#V" n="17" break="no"/>cedit directe contra Sanctus Thomas qui hoc non ponit.
+            Verunta<lb ed="#V" n="18" break="no"/>men quia assumit, quod omnis notitia habita per speciem
+            <lb ed="#V" n="19"/>immediate sumptam ab obiecto est intuitiua, negatur
+            di<lb ed="#V" n="20" break="no"/>ctum eius. Et ad probationem illius dicitur, quod ad hoc
+            <lb ed="#V" n="21"/>quod cognitio dicatur intuitiua non sufficiunt illa, quae
+            ar<lb ed="#V" n="22" break="no"/>guens ponit, scilicet quod obiectum sit secundum se
+            reali<lb ed="#V" n="23" break="no"/>ter praesens potentiae cognitiuae, &amp; quod repraesentetur
+            po<lb ed="#V" n="24" break="no"/>tentiae cognitiuae in ratione obiecti. Vltra hoc enim
+            requi<lb ed="#V" n="25" break="no"/>ritur quod repraesentetur potentiae cognitiuae ipsum
+            obie<lb ed="#V" n="26" break="no"/>ctum, vel per essentiam obiecti vnitam potentiae per
+            mo<lb ed="#V" n="27" break="no"/>dum formae intelligibilis, aut sensibilis, vel per aliquam
+            spe<lb ed="#V" n="28" break="no"/>ciem obiecti perfecte repraesentantem obiectum, non
+            so<lb ed="#V" n="29" break="no"/>lum quantum ad quidditatem obiecti, vel aliqua
+            genera<lb ed="#V" n="30" break="no"/>lia praedicata affirmatiua vel negatiua, sed vlterius
+            quan<lb ed="#V" n="31" break="no"/>tum ad esse, vel non esse obiecti, &amp; alias conditiones
+            indiui<lb ed="#V" n="32" break="no"/>duales contingenres, aut necessarias, secundum quas
+            exi<lb ed="#V" n="33" break="no"/>stit in rerum natura in se. Non autem est necessarium, quod
+            <lb ed="#V" n="34"/>omnis species repraesentans diuinam essentiam repraesentet
+            <lb ed="#V" n="35"/>eam cum omnibus istis, &amp; ideo non omnis cognitio
+            Dei<lb ed="#V" n="36" break="no"/>per speciem est intuitiua, quod manifeste patet, quia vt
+            di<lb ed="#V" n="37" break="no"/>cit Augustinus de Trinitate, &amp; recitat Sanctus Thomas prima parte.
+            <lb ed="#V" n="38"/>quaestio. 12. artic. 2. quandocunque in via Deum
+            cognosci<lb ed="#V" n="39" break="no"/>mus, fit aliqua similitudo Dei in nobis. Et constat, quod
+            nul<lb ed="#V" n="40" break="no"/>lus viator Deum intuitiue cognoscit.
+          </p>
+          <p xml:id="capsco-b20siq-d1e2015">
+            Ad sextum dicitur,
+            <lb ed="#V" n="41"/>quod cognitio abstractiua habita de Deo a viatore est
+            mi<lb ed="#V" n="42" break="no"/>nus perfecta quam eius intuitiua. Et cum probatur
+            oppo<lb ed="#V" n="43" break="no"/>situm. Dicitur primo quod probabiliter potest dici quod
+            <lb ed="#V" n="44"/>Deus omnia praesentia, &amp; futura, &amp; praeterita cognoscit
+            in<lb ed="#V" n="45" break="no"/>tuitiue, quia secundum Sanctum Thomam vbi supra, omnia talia
+            sci<lb ed="#V" n="46" break="no"/>scientia visionis. Secundo dicitur, quod posito quod Deus
+            <lb ed="#V" n="47"/>de talibus non habeat notitiam intuitiuam, sed abstractiuam
+            <lb ed="#V" n="48"/>tantum, tunc consequentia ibidem facta non valet. Notitia
+            <lb ed="#V" n="49"/>intuitiua Dei de Antichristo non est perfectior quam
+            abstra<lb ed="#V" n="50" break="no"/>stractiua: igitur ita est in nobis. Tum quia in Deo eadem
+            <lb ed="#V" n="51"/>notitia quandoque est intuitiua, quandoque abstractiua
+            <lb ed="#V" n="52"/>sine quacunque variatione notitiae ipsius, aut potentiae
+            co<lb ed="#V" n="53" break="no"/>gnitiuae, sed per solam variationem, aut mutationem
+            obie<lb ed="#V" n="54" break="no"/>cti, secus est in nobis. Tum quia in Deo notitia abstractiua
+            <lb ed="#V" n="55"/>ad tot se extendit obiecta ad quot intuitiua, secus in nobis.
+            <lb ed="#V" n="56"/>Tum quia perfectio vel nobilitas diuinae notitiae non
+            men<lb ed="#V" n="57" break="no"/>suratur ex parte obiecti creati, quod est secundarium, sed
+            <lb ed="#V" n="58"/>ex parte obiecti increati, quod est primarium. Secus autem
+            <lb ed="#V" n="59"/>est in nobis, vbi tales notitiae habent diuersa obiecta
+            prin<lb ed="#V" n="60" break="no"/>cipalia. Obiectum autem principale diuinae cognitionis
+            <lb ed="#V" n="61"/>semper est idem. Et haec sufficiant ad obiectiones ipsius
+            <lb ed="#V" n="62"/>Durandi pro nunc.
+          </p>
+          <p xml:id="capsco-b20siq-d1e2065">
+            Ad argumenta Scoti respondet
+            Duran<lb ed="#V" n="63" break="no"/>dus. Ad primum siquidem dicit, quod cum dicitur, omnis
+            <lb ed="#V" n="64"/>illa cognitio est communicabilis viatori &amp;c. Hic est duplex
+            <lb ed="#V" n="65"/>defectus. Primus est quia ad hoc quod aliqua perfectio sit
+            <lb ed="#V" n="66"/>communicabilis alicui, oportet quod illa perfectio sit in se
+            <lb ed="#V" n="67"/>possibilis, quia quod est impossibile esse, non potest
+            alicui<lb ed="#V" n="68" break="no"/>communicari, &amp; ideo debet dici sic in maiori propositione,
+            <lb ed="#V" n="69"/>quod omnis illa cognitio, quae est secundum se possibilis &amp;c.
+            <lb ed="#V" n="70"/>&amp; tunc minor propositio si directe sumatur sub maiore est
+            <lb ed="#V" n="71"/>falsa, quia cognitio abstractiua, qualem isti ponunt, non est
+            <lb ed="#V" n="72"/>secundum se possibilis, quia cum omnis cognitio sit
+            alicu<lb ed="#V" n="73" break="no"/>ius cognoscentis, ista nullius est, nec esse potest, nec Dei, nec
+            <lb ed="#V" n="74"/>creaturae, neque pro statu viae, nec patriae: &amp; quod non sit
+            possi<lb ed="#V" n="75" break="no"/>bilis Deo, de se clarum est, quia illa cognitio est imperfecta
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="76"/>respectu cognitionis intuitiuae, vt ipsimet dicunt. Nihil
+            au<lb ed="#V" n="77" break="no"/>tem imperfectum potest esse in Deo. Quia etiam non sit
+            <lb ed="#V" n="78"/>possibilis creaturae beatae, vt beata est, patet per idem, quia
+            <lb ed="#V" n="79"/>cognitio creaturae beatae, vt beata est, &amp; qua distinguitur a
+            <lb ed="#V" n="80"/>non beata, non est nisi cognitio beata, quae est intuitiua, &amp;
+            <lb ed="#V" n="81"/>non abstractiua. Quia autem non sit possibilis creaturae in
+            <lb ed="#V" n="82"/>statu viae, ipsis incumbit probatio, vel manifeste petunt
+            prin<lb ed="#V" n="83" break="no"/>cipium. Secundus defectus est, quia homo viator duo dicit.
+            <lb ed="#V" n="84"/>quae se habent sicut excedentia &amp; excessa, quia non omnis
+            <lb ed="#V" n="85"/>homo est viator, immo quidam sunt comprehensores, nec
+            <lb ed="#V" n="86"/>omnis viator est homo, quia angeli fuerunt viatores, &amp;
+            ad<lb ed="#V" n="87" break="no"/>huc Deus posset creare angelos, qui essent in statu viae.
+            Po<lb ed="#V" n="88" break="no"/>test ergo aliquid repugnare homini viatori quatenus
+            ho<lb ed="#V" n="89" break="no"/>mo est, quod non repugnat ei quatenus viator est, sicut esse
+            <lb ed="#V" n="90"/>angelum repugnat homini viatori inquantum homo est,
+            <lb ed="#V" n="91"/>quia idem non potest esse homo &amp; angelus, sed non
+            repu<lb ed="#V" n="92" break="no"/>gnat ei inquantum est viator, quia angeli fuerunt, &amp; adhuc
+            <lb ed="#V" n="93"/>possunt esse viatores sicut homines. Debet ergo poni in
+            <lb ed="#V" n="94"/>maiori propositione, quod illa cognitio, quae est possibilis
+            <lb ed="#V" n="95"/>secundum se, nec repugnat omni viatori, nec inquantum
+            <lb ed="#V" n="96"/>homo, nec inquantum viator, potest ei communicari. Et
+            <lb ed="#V" n="97"/>tunc in minori propositione debet probari, quod cognitio
+            <lb ed="#V" n="98"/>abstractiua sit talis quo ad singula membra, quod non fit
+            <lb ed="#V" n="99"/>nisi de vltimo membro, &amp; ideo ratio est dupliciter
+            defe<lb ed="#V" n="100" break="no"/>ctuosa. Haec Durandus. Mihi apparet, quod Durandus
+            <lb ed="#V" n="101"/>non sufficienter probat talem abstractiuam esse
+            impossibi<lb ed="#V" n="102" break="no"/>lem, potissime creaturae beatae, non videtur enim
+            repugna<lb ed="#V" n="103" break="no"/>re quin virtute intuitiuae, qua beatus intuetur Deum posset
+            <lb ed="#V" n="104"/>in ipso creari abstractiua talis, qua euidenter apparet Deum
+            <lb ed="#V" n="105"/>esse trinum &amp; vnum, potissime diuina virtute. Nec
+            Duran<lb ed="#V" n="106" break="no"/>dus oppositum probat, sed solum, quod cognitio beati, &amp;
+            <lb ed="#V" n="107"/>beatifica est intuitiua. Sed cum hoc stat quod beatus
+            ha<lb ed="#V" n="108" break="no"/>beat duplicem cognitionem, vnam beatificam, &amp; aliam
+            <lb ed="#V" n="109"/>non beatificam.
+          </p>
+          <p xml:id="capsco-b20siq-d1e2173">
+            Item talem abstractiuam esse nullam
+            im<lb ed="#V" n="110" break="no"/>plicat contradictionem, ideo dicitur, quod quicquid sit
+            <lb ed="#V" n="111"/>de possibilitate talis cognitionis, non tamen valet
+            conse<lb ed="#V" n="112" break="no"/>quentia talis. Abstractiua est communicabilis viatori ex
+            di<lb ed="#V" n="113" break="no"/>uina gratia: igitur fuit Adae vel angelo communicata in
+            <lb ed="#V" n="114"/>statu viae, quia non omne possibile communicari viatori
+            <lb ed="#V" n="115"/>fuit eis communicatum.
+          </p>
+          <p xml:id="capsco-b20siq-d1e2189">
+            Ad secundam rationem
+            respon<lb ed="#V" n="116" break="no"/>det Durandus negando minorem, quia vt dicit, cognitio
+            <lb ed="#V" n="117"/>intuitiua prior est quam abstractiua, vt dicit se probasse, &amp;
+            <lb ed="#V" n="118"/>ideo intuitiua potest haberi sine abstractiua, &amp; non
+            econ<lb ed="#V" n="119" break="no"/>uerso. Et cum probatur, quod abstractiua sit prior, quia
+            ten<lb ed="#V" n="120" break="no"/>dit in quidditatem rei absolutae, intuitiua autem tendit in
+            <lb ed="#V" n="121"/>rem secundum esse actualis existentiae. Concedatur, quam.
+            <lb ed="#V" n="122"/>uis abstractiua ad aliud se extendat quam ad cognitionem
+            <lb ed="#V" n="123"/>quidditatis, vt prius dictum fuit, sed illo concesso ex hoc
+            <lb ed="#V" n="124"/>non sequitur, quod abstractiua sit prior. Nam sensitiua
+            ex<lb ed="#V" n="125" break="no"/>terior, quae praecedit illam abstractiuam tendit in rem
+            secun<lb ed="#V" n="126" break="no"/>dum esse praesentialis existentiae. Quia autem additur quod
+            <lb ed="#V" n="127"/>talis cognitio se habet per additionem ad abstractiuam, non
+            <lb ed="#V" n="128"/>est verum, sed totum econtra, sicut vna cognitio potest se
+            <lb ed="#V" n="129"/>habere per additionem ad aliam, scilicet secundum
+            praesup<lb ed="#V" n="130" break="no"/>positionem. Nec argumentum ex parte cognitorum valet,
+            <lb ed="#V" n="131"/>nec simpliciter, nec in proposito, non simpliciter, quia
+            acci<lb ed="#V" n="132" break="no"/>dentia se habent per additionem ad substantiam tanquam
+            <lb ed="#V" n="133"/>posteriora, &amp; tamen cognitio accidentium tam sensitiua
+            <lb ed="#V" n="134"/>quam intellectiua praecedit cognitionem substantiae.
+          </p>
+          <p xml:id="capsco-b20siq-d1e2233">
+            Item
+            <lb ed="#V" n="135"/>in proposito esse actualis existentiae non se habet in Deo per
+            <lb ed="#V" n="136"/>additionem ad quidditatem, cum fuerit penitus idem,
+            vn<lb ed="#V" n="137" break="no"/>de illa ratio nihil concludit. Haec Durandus. Mihi
+            appa<lb ed="#V" n="138" break="no"/>ret, quod ista responsio continet aliqua falsa. Primum est,
+            <lb ed="#V" n="139"/>quod omnis notitia abstractiua praesupponit intuitiuam,
+            <lb ed="#V" n="140"/>vt causam sui. Hoc enim falsum est, vt prius saepe dictum
+            <lb ed="#V" n="141"/>fuit.
+          </p>
+          <p xml:id="capsco-b20siq-d1e2251">
+            Nec valet quod dicit de praesuppositione sensationis
+            <lb ed="#V" n="142"/>ad intellectionem, quia licet ita de facto sit, tamen Deus
+            <lb ed="#V" n="143"/>alicui caeco nato posset impriinere species colorum, quibus
+            <lb ed="#V" n="144"/>abstractiue intelligeret colores, &amp; in tali casu abstractiua
+            <lb ed="#V" n="145"/>non dependeret ab aliqua intuitiua sensitiua. Secundum
+            <lb ed="#V" n="146"/>falsum est, quod astractiua se habet per additionem ad
+            in<lb ed="#V" n="147" break="no"/>tuitiuam, &amp; hoc siue additio illa intelligatur secundum
+            prae<lb ed="#V" n="148" break="no"/>suppositionem, vt ipse dicit, siue intelligatur sic, quod
+            quic<lb ed="#V" n="149" break="no"/>quid cognoscitur per intuitiuam cognoscitur per
+            abstra<lb ed="#V" n="150" break="no"/>ctiuam, &amp; vltra. In hoc enim sensu dictum illud est falsum,
+            <pb ed="#V" n="409"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>&amp; oppositum eius est verum, &amp; in hoc sensu loquitur
+            Sco<lb ed="#V" n="2" break="no"/>tus. Tertio dicitur, quod instantia quam affert contra
+            Sco<lb ed="#V" n="3" break="no"/>tum de accidentibus respectu substantiae non est ad
+            propo<lb ed="#V" n="4" break="no"/>situm, quia Scotus intelligit sicut &amp; verum est, quod obie.
+            <lb ed="#V" n="5"/>ctum intuitiue se habet ex additione ad obiectum
+            abstra<lb ed="#V" n="6" break="no"/>ctiue hoc modo, quia includit illud, &amp; aliqua alia, hoc
+            mo<lb ed="#V" n="7" break="no"/>do vero non se habent accidentia ad substantiam, vel si sic
+            <lb ed="#V" n="8"/>se habent, tunc falsum dicit Durandus, quod accidentia
+            <lb ed="#V" n="9"/>cognosci possunt nou cognita substantia explicite vel
+            im<lb ed="#V" n="10" break="no"/>plicite. Quarto dicitur, quod instantia quam affert in
+            pro<lb ed="#V" n="11" break="no"/>posito de indistinctione esse ab essentia in Deo non valet,
+            <lb ed="#V" n="12"/>quia licet talia non distinguantur realiter, differunt tamen
+            <lb ed="#V" n="13"/>ratione, intantum quod vnum illorum potest cognosci
+            ab<lb ed="#V" n="14" break="no"/>stractiue sine alio. Quinto dicitur ad argumentum Scot.
+            <lb ed="#V" n="15"/>quod dato, quod illa notitia abstractiua de Deo esset
+            pos<lb ed="#V" n="16" break="no"/>sibilis, non tamen sequitur, quod fuerit communicata
+            pri<lb ed="#V" n="17" break="no"/>mo parenti.
+          </p>
+          <p xml:id="capsco-b20siq-d1e2314">
+            Ad tertium respondet Durandus, quod ista
+            <lb ed="#V" n="18"/>ratio nihil concludit pro opinione Scoti sed pro opposito,
+            <lb ed="#V" n="19"/>si tamen aliquid concludat, quod sic patet resumendo
+            ra<lb ed="#V" n="20" break="no"/>tionem Scotus quicquid faceret essentia diuina, si esset
+            prae<lb ed="#V" n="21" break="no"/>sens intellectui in ratione obiecti naturaliter mouentis,
+            po<lb ed="#V" n="22" break="no"/>test facere voluntas diuina sine tali praesentia essentiae, sed
+            <lb ed="#V" n="23"/>si diuina essentia esset praesens intellectui nostro in ratione
+            <lb ed="#V" n="24"/>obiecti naturaliter mouentis, ipsa causaret perfectam
+            co<lb ed="#V" n="25" break="no"/>gnitionem intuitiuam sui, &amp; non abstractiuam: ergo
+            vo<lb ed="#V" n="26" break="no"/>luntas diuina sine praesentia essentiae in ratione naturaliter
+            <lb ed="#V" n="27"/>mouentis potest causare notitiam perfectam intuitiuam,
+            <lb ed="#V" n="28"/>&amp; non abstractiuam, quod est contra eos. Haec Durandus,
+            <lb ed="#V" n="29"/>&amp; bene in hoc.
+          </p>
+          <p xml:id="capsco-b20siq-d1e2343">
+            Ad quartum dicit, quod memoria quam
+            <lb ed="#V" n="30"/>habuit Beatus Paulus post raptum de visione quam
+            habue<lb ed="#V" n="31" break="no"/>rat in raptu, &amp; de re visa non fuit expressa cognitio
+            diui<lb ed="#V" n="32" break="no"/>nae essentiae, qualem isti ponunt, nec expressa cognitio
+            vi<lb ed="#V" n="33" break="no"/>sionis beatae, sed solum in quodam confuso recordabatur
+            <lb ed="#V" n="34"/>se Deum vidisse, sicut Nabuchodonosor recordabatur se
+            <lb ed="#V" n="35"/>vidisse in somno aliquid mirum &amp; mirabile, &amp; non
+            recor<lb ed="#V" n="36" break="no"/>dabatur quid esset in speciali. Cuius ratio est, quia
+            om<lb ed="#V" n="37" break="no"/>nis cognitio memoratiua fit per aliquam impressionem
+            re<lb ed="#V" n="38" break="no"/>praesentantem rem memoratam per modum obiecti
+            me<lb ed="#V" n="39" break="no"/>dij, sed quicquid sit de specie in visione beata, nullus
+            ta<lb ed="#V" n="40" break="no"/>men vnquam posuit, quod essentia diuina possit expresse,
+            <lb ed="#V" n="41"/>&amp; quo ad quidditatem repraesentari per aliquid creatum se
+            <lb ed="#V" n="42"/>habens in ratione obiecti medij, &amp; ideo illa memoria
+            Bea<lb ed="#V" n="43" break="no"/>ti Pauli non potuit esse expressa cognitio Dei abstractiua,
+            <lb ed="#V" n="44"/>qualem isti ponunt. Haec Durandus &amp; bene. Nisi quod
+            <lb ed="#V" n="45"/>semper refugit ponere speciem praeuiam actui intelligendi,
+            <lb ed="#V" n="46"/>vel ab eo derelictam, licet latenter eam confiteatur. Cum
+            <lb ed="#V" n="47"/>autem dicit, quod nullus posuit ante Scotum essentiam
+            <lb ed="#V" n="48"/>Dei expresse repraesentari per aliquid creatum se habens in
+            <lb ed="#V" n="49"/>ratione obiecti cogniti, videtur falsum. Nam Beathus
+            Tho<lb ed="#V" n="50" break="no"/>mas prima parte. quaestio. 94. articulo primo sic dicit, in
+            so<lb ed="#V" n="51" break="no"/>lutione tertij. Duplex est medium, quoddam, in quo simul
+            <lb ed="#V" n="52"/>videtur illud, quod per medium videri dicitur, sicut
+            homo<lb ed="#V" n="53" break="no"/>videtur per speculum, &amp; simul videtur cum speculo. Aliud
+            <lb ed="#V" n="54"/>medium est per cuius notitiam in aliud ignotum
+            deueni<lb ed="#V" n="55" break="no"/>mus, sicut est medium demonstrationis, &amp; sine tali medio
+            <lb ed="#V" n="56"/>Deus videbatur, non tamen sine primo medio, non enim
+            <lb ed="#V" n="57"/>oportebat primum hominem in Dei cognitionem
+            deueni<lb ed="#V" n="58" break="no"/>re per demonstrationem sumptam ab aliquo effectu, sicut
+            <lb ed="#V" n="59"/>nobis est necessarium, sed simul in effectibus praecipue
+            in<lb ed="#V" n="60" break="no"/>telligibilibus Deum suo modo cognoscebat. Haec ille.
+          </p>
+          <p xml:id="capsco-b20siq-d1e2414">
+            Et
+            <lb ed="#V" n="61"/>si dicatur quod tale medium non erat expressa Dei
+            simili<lb ed="#V" n="62" break="no"/>tudo, patet quod immo secundum eum in de veritate vbi
+            <lb ed="#V" n="63"/>supra. Veruntamen dicitur, quod talis species primo
+            ho<lb ed="#V" n="64" break="no"/>mini impressa licet repraesentaret diuinam essentiam
+            expres<lb ed="#V" n="65" break="no"/>se, quo ad rationem alicuius attributi, puta sapientiae, non
+            <lb ed="#V" n="66"/>tamen quo ad omnium attributalium perfectionum
+            ratio<lb ed="#V" n="67" break="no"/>nem, &amp; ideo per talem speciem non habebatur visio
+            pro<lb ed="#V" n="68" break="no"/>pria diuinae essentiae, aut cognitio abstractiua, qualem
+            po<lb ed="#V" n="69" break="no"/>nit Scotus.
+          </p>
+          <p xml:id="capsco-b20siq-d1e2436">
+            Ad argumentum in principio qnaestionis
+            fa<lb ed="#V" n="70" break="no"/>stim dicit Sanctus Thomas prima parte vbi supra in
+            solu<lb ed="#V" n="71" break="no"/>tione secundi, quod bona voluntas est voluntas
+            ordina<lb ed="#V" n="72" break="no"/>ta. Non autem esset primi hominis ordinata voluntas, si
+            <lb ed="#V" n="73"/>in statu meriti vellet habere quod ei promittebatur
+            pro<lb ed="#V" n="74" break="no"/>premio. Haec ille. Et haec de quaestione. Benedictus Deus,
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

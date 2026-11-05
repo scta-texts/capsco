@@ -1,0 +1,954 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 4, Distinctio 50, Quaestio 2</title>
+        <author ref="#JohannesCapreolus">Johannes Capreolus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 4, Distinctio 50, Quaestio 2</title>
+          <date when="2026-11-04">Nov 4, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-j88c04">Venice, 1589, v. 4</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-04" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="457"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="capsco-d4ev0l"><!-- l4d50q2 -->
+        <head xml:id="capsco-d4ev0l-Hd1e101">Quaestio 2</head>
+        <head xml:id="capsco-d4ev0l-Hd1e103" type="question-title">Utrum anima hominis separata possit corpora movere localiter</head>
+        <p xml:id="capsco-d4ev0l-d1e106">
+          <lb ed="#V" n="34"/>QVAESTIO II.
+          <lb ed="#V" n="35"/>Vtrum anima hominis separata possit corpora
+          moue<lb ed="#V" n="36" break="no"/>re localiter.
+        </p>
+        <p xml:id="capsco-d4ev0l-d1e115">
+          <lb ed="#V" n="37"/><milestone ed="#V" unit="p" rend="initial"/> VLTIMO circa quinquagesimam
+          di<lb ed="#V" n="38" break="no"/>stinctionem quaeritur. Vtrum anima
+          <lb ed="#V" n="39"/>hominis separata possit corpora
+          mo<lb ed="#V" n="40" break="no"/>uere localiter.
+        </p>
+        <p xml:id="capsco-d4ev0l-d1e127">
+          Et arguitur quod sic, quia
+          <lb ed="#V" n="41"/>substantiae spirituali obedit
+          naturali<lb ed="#V" n="42" break="no"/>ter corpus ad motum localem, sed
+          ani<lb ed="#V" n="43" break="no"/>ma separata est substantia spiritualis:
+          er<lb ed="#V" n="44" break="no"/>go suo imperio potest mouere corpora.
+        </p>
+        <p xml:id="capsco-d4ev0l-d1e139">
+          <lb ed="#V" n="45"/><milestone ed="#V" unit="p" rend="indent"/> I oppositum arguitur sic. Quia Philosophus dicit in
+          <lb ed="#V" n="46"/>secundo de Anima, quod anima non potest mouere
+          quod<lb ed="#V" n="47" break="no"/>cunque corpus, sed solummodo proprium.
+        </p>
+        <p xml:id="capsco-d4ev0l-d1e149">
+          <lb ed="#V" n="48"/><milestone ed="#V" unit="p" rend="indent"/> In hac quaestione erunt tres articuli. In primo
+          ponen<lb ed="#V" n="49" break="no"/>tur conclusiones. In secundo obiectiones. In tertio
+          <lb ed="#V" n="50"/>solutiones.
+        </p>
+        <div xml:id="capsco-d4ev0l-Dd1e159">
+          <head xml:id="capsco-d4ev0l-Hd1e161">Articulus 1</head>
+          <p xml:id="capsco-d4ev0l-d1e163">
+            <lb ed="#V" n="51"/><milestone ed="#V" unit="p" rend="initial"/> QVantum ad primum articulum sit prima conclusio.
+            <lb ed="#V" n="52"/>Anima separata sua naturali virtute non potest
+            mo<lb ed="#V" n="53" break="no"/>uere aliquod corpus. Hanc ponit Sanctus Thomas prima parte
+            <lb ed="#V" n="54"/>q. 117. artic. 4. vbi sic dicit. Anima separata sua naturali
+            vir<lb ed="#V" n="55" break="no"/>tute non potest mouere aliquod corpus. Manifestum est enim
+            <lb ed="#V" n="56"/>quod cum est corpori vnita non mouet corpus nisi viuificatum,
+            <lb ed="#V" n="57"/>vnde si aliquod membrum corporis mortificetur, non
+            obe<lb ed="#V" n="58" break="no"/>dit animae ad motum. Manifestum est autem quod ab anima
+            <lb ed="#V" n="59"/>separata nullum corpus viuificatur. Vnde nullum corpus
+            <lb ed="#V" n="60"/>obedit ei ad motum localem quantum ex virtute suae
+            natu<lb ed="#V" n="61" break="no"/>rae, supra quam potest ei conferri aliquid virtute diuina.
+            <lb ed="#V" n="62"/>Haec ille. Ex quibus patet ratio in forma pro conclusione.
+          </p>
+          <p xml:id="capsco-d4ev0l-d1e193">
+            <lb ed="#V" n="63"/>Secunda conclusio. Anima separata virtute diuinitus &amp;
+            su<lb ed="#V" n="64" break="no"/>pernaturaliter sibi collata potest mouere localiter corpora.
+            <lb ed="#V" n="65"/>Haec conclusio patet ex dictis eius statim recitatis. Et
+            po<lb ed="#V" n="66" break="no"/>test probari, quia animae separatae saepe apparent in
+            corpo<lb ed="#V" n="67" break="no"/>ribus assumptis, &amp; ab eis localiter portatis &amp; motis. De hoc
+            <lb ed="#V" n="68"/>Sanctus Thomas 4. sent. dist. 45. quaestio. 1. art. 1. quaestiuncula tertia
+            <lb ed="#V" n="69"/>vbi quaerit, vtrum animae in Paradiso, vel in inferno
+            existen<lb ed="#V" n="70" break="no"/>tes egredi valeant. Et in hoc primus articulus terminatur.
+          </p>
+        </div>
+        <div xml:id="capsco-d4ev0l-Dd1e214">
+          <head xml:id="capsco-d4ev0l-Hd1e216">Articulus 2</head>
+          <p xml:id="capsco-d4ev0l-d1e218">
+            <lb ed="#V" n="71"/><milestone ed="#V" unit="p" rend="initial"/> QVantum ad secundum articulum arguitur contra
+            con<lb ed="#V" n="72" break="no"/>clusiones. Et quidem contra primam arguit Scotus
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="73"/>primo, quia inconueniens videtur, quod anima separata sit in
+            <lb ed="#V" n="74"/>aliquo loco, vnde non posset mouere se libere, &amp; praecipue
+            <lb ed="#V" n="75"/>si sit in loco sibi disconuenienti, cum quodlibet elementum
+            <lb ed="#V" n="76"/>moueat se de tali loco. Secundo. Quia agens quod potest
+            <lb ed="#V" n="77"/>habere in sua virtute actiua aliquem terminum potest in
+            <lb ed="#V" n="78"/>illum, sed terminus motus localis non est nisi vbi, quem
+            <lb ed="#V" n="79"/>terminum potest habere anima in virtute sua, quia nullum
+            <lb ed="#V" n="80"/>est corpus, ita imperfectum quin habeat in virtute illum
+            ter<lb ed="#V" n="81" break="no"/>minum, &amp; similiter ad mouendum aliud ad illum
+            termi<lb ed="#V" n="82" break="no"/>num, quia lapis trahit secum aliud corpus ad locum suum
+            <lb ed="#V" n="83"/>si sibi coniungatur, cum ergo anima sit susceptiua illius
+            ter<lb ed="#V" n="84" break="no"/>mini, quia est in loco diffinitiue, oportet quod habeat illud in
+            <lb ed="#V" n="85"/>virtute actiua: ergo anima separata potest se &amp; aliud
+            cor<lb ed="#V" n="86" break="no"/>pus mouere non organice.
+          </p>
+          <p xml:id="capsco-d4ev0l-d1e258">
+            Confirmatur, quia si repugnat
+            <lb ed="#V" n="87"/>animae separatae mouere aliud corpus localiter secum, aut
+            <lb ed="#V" n="88"/>hoc esset ex sua immaterialitate, aut propter suam
+            imperfe<lb ed="#V" n="89" break="no"/>ctionem. Non primo modo, quia mouere se &amp; aliud
+            cor<lb ed="#V" n="90" break="no"/>pus conuenit naturae intellectuali, vt Angelo, qui potest
+            mo<lb ed="#V" n="91" break="no"/>uere se &amp; coelum. Nec secundo modo, quia conuenit
+            cor<lb ed="#V" n="92" break="no"/>pori quod est imperfectius ens. Similiter anima in virtute
+            <lb ed="#V" n="93"/>sua habet formam perfectiorem, scilicet intelligere &amp; velle,
+            <lb ed="#V" n="94"/>non ergo sibi repugnat ratione imperfectionis. Tertio. Quia
+            <lb ed="#V" n="95"/>corpora glorificata post resurrectionem mouebuntur ab
+            <lb ed="#V" n="96"/>anima, &amp; non organice, sed totum corpus simul
+            mouebi<lb ed="#V" n="97" break="no"/>tur, non vna parte mota &amp; alia quiescente, quia volabunt,
+            <lb ed="#V" n="98"/>&amp; non deficient, haec autem motio simul totius corporis
+            <lb ed="#V" n="99"/>non est per organum: ergo tunc erit in ea virtus qua
+            pote<lb ed="#V" n="100" break="no"/>rit mouere corpus non organice, &amp; si tunc ergo &amp; nunc,
+            <lb ed="#V" n="101"/>quia nulla noua potentia sibi dabitur in resurrectione. Haec
+            <lb ed="#V" n="102"/>Scot.
+          </p>
+          <p xml:id="capsco-d4ev0l-d1e295">
+            Contra eandem conclusionem arguit Aureoteus Primo
+            <lb ed="#V" n="103"/>quia anima Christi descendit ad inferos, &amp; constat quod
+            <lb ed="#V" n="104"/>non est dicendum, quin potuerit secum deferre vnam
+            pa<lb ed="#V" n="105" break="no"/>leam si voluisset, aut mouere localiter aliquod corpus.
+            Con<lb ed="#V" n="106" break="no"/>firmatur, quia aliqui pie ponunt quod secum portanit
+            bacu<lb ed="#V" n="107" break="no"/>lum imperialem.
+          </p>
+          <p xml:id="capsco-d4ev0l-d1e308">
+            Secundo sic. Anima coniuncta potest
+            <lb ed="#V" n="108"/>mouere aliquod corpus immediate, non mediante aliquo
+            <lb ed="#V" n="109"/>organo, sed solum per potentiam motiuam quam habet in
+            <lb ed="#V" n="110"/>se: ergo anima separata potest mouere aliquod corpus
+            lo<lb ed="#V" n="111" break="no"/>caliter per eandem potentiam motiuam. Tenet consequer
+            <lb ed="#V" n="112"/>tia, quia non propter aliud negatur ab aduersario quod anima
+            <lb ed="#V" n="113"/>separata moueat aliquod corpus localiter, nisi quia dicunt
+            <lb ed="#V" n="114"/>potentiam motiuam in loco esse organicam, &amp; ideo
+            secun<lb ed="#V" n="115" break="no"/>dum eos anima non mouet corpus immediate, sed
+            median<lb ed="#V" n="116" break="no"/>te aliquo organo, sicut nec immediate videt anima, sed
+            ocu<lb ed="#V" n="117" break="no"/>lus. Assumptum probatur, quia ista est expressa intentio
+            <lb ed="#V" n="118"/>Aristes in libu.s decausa motus animalium cap. 6. vnde ibidem
+            <lb ed="#V" n="119"/>dicit quod non oportet quod in corpore animalis sit aliqua pars
+            <lb ed="#V" n="120"/>immobilis sic quod non totum moueatur. Contingit enim
+            quan<lb ed="#V" n="121" break="no"/>doque quod totum mouetur, &amp; nihil est immobile nisi
+            pun<lb ed="#V" n="122" break="no"/>ctus. Quomodo ergo &amp; a quo tunc est motus, respondet quod
+            <lb ed="#V" n="123"/>immediate est ab anima, quae primo mouet spiritum, &amp;
+            me<lb ed="#V" n="124" break="no"/>diante spiritu totum corpus. Similiter ista est expressa
+            inten<lb ed="#V" n="125" break="no"/>tio Commentatoris in 8. Physic. vbi cap. 36. dicit quod in
+            ani<lb ed="#V" n="126" break="no"/>mali primo mouens est anima, motum vero immediate ab
+            <lb ed="#V" n="127"/>ea est spiritus in musculis &amp; lacertis. Et idem dicit in
+            mul<lb ed="#V" n="128" break="no"/>tis alijs locis. Ex quibus apparet quod mens Commentatoris
+            <lb ed="#V" n="129"/>est quod anima mouet corpus imniediate scilicet aliquam eius partem
+            <lb ed="#V" n="130"/>immediate mouendo, non per aliquam partem mediam.
+            <lb ed="#V" n="131"/>Nam secundum eum manifestum est quod res mouens, &amp; res
+            <lb ed="#V" n="132"/>mota differunt. Nihil autem mouetur nisi a quiescente illo
+            <lb ed="#V" n="133"/>motu. Tum quaeritur, illud quiescens aut est anima sola, &amp;
+            <lb ed="#V" n="134"/>habeo propositum, vel aliqua pars corporis, &amp; hoc est
+            con<lb ed="#V" n="135" break="no"/>tra mentem Aritote &amp; Commentatoris, quia secundum eos
+            <lb ed="#V" n="136"/>contingit quandoque vt totum corpus sit motum excepto
+            <lb ed="#V" n="137"/>aliquo punctali, sicut ille qui saltat mouet se totaliter vsque
+            <lb ed="#V" n="138"/>ad aliquem punctum gibbi, &amp; cum punctus non habeat
+            vir<lb ed="#V" n="139" break="no"/>tutem motiuam in loco, necesse est quod illud mouens
+            immo<lb ed="#V" n="140" break="no"/>bile praecise sit anima.
+          </p>
+          <p xml:id="capsco-d4ev0l-d1e383">
+            Tertio quia ista opinio tua non
+            sta<lb ed="#V" n="141" break="no"/>cum opinione Commentatoris qui. 12. Metaphys. com. 33.
+            <lb ed="#V" n="142"/>dicit quod potentia motiua est in substantiatijs separatis
+            di<lb ed="#V" n="143" break="no"/>cens. De virtutibus animae tantum reperitur in eis
+            intelle<lb ed="#V" n="144" break="no"/>ctiua &amp; appetitiua &amp; secundum locum motiua. Quarto.
+            <lb ed="#V" n="145"/>Quia contradicit illis quae fide tenemus. Legimus enim
+            aliquan<lb ed="#V" n="146" break="no"/>do animas sanctorum apparuisse in corporibus assumptis,
+            <lb ed="#V" n="147"/>sicut legimus de Agatha apparente sanctae Luciae. Quinto.
+            <pb ed="#V" n="458"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>Quia cum anima intellectiua sit substantia media inter
+            sub<lb ed="#V" n="2" break="no"/>stantias abstractas &amp; substantias corporeas, inquantum est
+            <lb ed="#V" n="3"/>forma conueniens cum substantijs abstractis, habet
+            poten<lb ed="#V" n="4" break="no"/>tiam intellectiuam &amp; voluntatem &amp; motiuam secundum
+            <lb ed="#V" n="5"/>locum non organicam, inquantum vero conuenit cum
+            cor<lb ed="#V" n="6" break="no"/>poribus habet potentias sensitiuas &amp; motiuam ad locum
+            <lb ed="#V" n="7"/>organice. Haec Aureolus. Et in hoc secundus articulus
+            <lb ed="#V" n="8"/>terminatur.
+          </p>
+        </div>
+        <div xml:id="capsco-d4ev0l-Dd1e423">
+          <head xml:id="capsco-d4ev0l-Hd1e425">Articulus 3</head>
+          <p xml:id="capsco-d4ev0l-d1e427">
+            <lb ed="#V" n="9"/><milestone ed="#V" unit="p" rend="initial"/> QVantum ad tertium articulum respondendum est
+            <lb ed="#V" n="10"/>obiectionibus supradictis. Et quidem ad primum
+            Sco<lb ed="#V" n="11" break="no"/>ti dicitur primo quod animae separatae secundum
+            condi<lb ed="#V" n="12" break="no"/>tionem suae naturae proprie loquendo nullus locus est
+            con<lb ed="#V" n="13" break="no"/>ueniens vel disconueniens, sed solum merita vel demerita
+            <lb ed="#V" n="14"/>quia secundum naturam suam competit sibi esse in loco vt
+            <lb ed="#V" n="15"/>locus est, nec ad modum proprie localium. De hoc Sanctus Thomas
+            <lb ed="#V" n="16"/>4. sent. dist. 45. q. 1. artic. 1. in solutione primae quaestiunculae
+            <lb ed="#V" n="17"/>sic dicit. Quamuis substantiae spirituales secundum esse suum
+            <lb ed="#V" n="18"/>a corpore non dependeant, corporalia tamen a Deo
+            me<lb ed="#V" n="19" break="no"/>diantibus spiritualibus gubernantur, vt dicit Augustinus tertio
+            <lb ed="#V" n="20"/>de trinit. &amp; Gregorius 4. Dialog. Et ideo est quaedam
+            conuenien<lb ed="#V" n="21" break="no"/>tia spiritualium substantiarum ad corporales substantias
+            <lb ed="#V" n="22"/>per quandam congruentiam, vt scilicet dignioribus
+            substan<lb ed="#V" n="23" break="no"/>tijs digniora corpora adaptentur, vnde &amp; Philosophi
+            secun<lb ed="#V" n="24" break="no"/>dum ordinem mobilium posuerunt ordinem substantiarum
+            <lb ed="#V" n="25"/>separatarum. Quamuis autem animabus post mortem non
+            <lb ed="#V" n="26"/>assignentur aliqua corpora quorum sint formae, vel
+            deter<lb ed="#V" n="27" break="no"/>minati motores, determinantur tamen eis quaedam
+            corpo<lb ed="#V" n="28" break="no"/>ralia loca per congruentiam quandam secundum gradum
+            <lb ed="#V" n="29"/>dignitatis earum in quibus sint quasi in loco, eo modo quo
+            <lb ed="#V" n="30"/>incorporalia in loco esse possunt, secundum quod magis vel
+            <lb ed="#V" n="31"/>minus accedunt ad primam substantiam, cui locus superior
+            <lb ed="#V" n="32"/>per congruentiam deputatur, scilicet Denm, cuius Sedem
+            <lb ed="#V" n="33"/>Coelum scriptura esse denunciat, &amp; ideo animas quae sunt
+            <lb ed="#V" n="34"/>in participatione sanctae diuinitatis in coelo est ponimus.
+            <lb ed="#V" n="35"/>Animas vero quae a participatione huiusmodi impediuntur
+            <lb ed="#V" n="36"/>loco contrario dicimus deputari. Haec ille.
+          </p>
+          <p xml:id="capsco-d4ev0l-d1e491">
+            Item ibidem in
+            <lb ed="#V" n="37"/>solutione primi sic dicit. Incorporalia non sunt in loco
+            ali<lb ed="#V" n="38" break="no"/>quo modo nobis noto &amp; consuetudo, secundum quod dicimus
+            <lb ed="#V" n="39"/>corpora proprie esse in loco. Sunt tamen in loco modo
+            <lb ed="#V" n="40"/>substantijs spiritualibus conuenienti qui nobis plene
+            mani<lb ed="#V" n="41" break="no"/>sestus ese non potest. Haec ille.
+          </p>
+          <p xml:id="capsco-d4ev0l-d1e504">
+            Item in solutione secundi
+            <lb ed="#V" n="42"/>sic dicit. Duplex est conuenientia vel similitudo. Vna quae
+            <lb ed="#V" n="43"/>est per participationem eiusdem qualitatis, sicut calida
+            ad<lb ed="#V" n="44" break="no"/>inuicem conueniunt, &amp; talis conuenientia incorporalium
+            <lb ed="#V" n="45"/>ad corporalia loca esse non potest. Alia per quandam
+            pro<lb ed="#V" n="46" break="no"/>portionabilitatem secundum quam in scripturis
+            Metaphy<lb ed="#V" n="47" break="no"/>sicae corporalia ad spiritualia transferuntur, vt quod Deus
+            di<lb ed="#V" n="48" break="no"/>citur esse sol, quia est principium vitae spiritualis, sicut sol
+            <lb ed="#V" n="49"/>vitae corporalis. Et secundum hanc conuenientia quaedam
+            <lb ed="#V" n="50"/>animae quibusdam locis magis conueniunt, sicut animae
+            spi<lb ed="#V" n="51" break="no"/>ritualiter illuminatae cum corporibus luminosis, animae
+            ve<lb ed="#V" n="52" break="no"/>ro obtenebratae per culpam cum locis tenebrosis. Haec ille.
+          </p>
+          <p xml:id="capsco-d4ev0l-d1e530">
+            <lb ed="#V" n="53"/>Ex quibus patet quod animae separatae proprie loquendo
+            secun<lb ed="#V" n="54" break="no"/>dum naturam suam nullus locus debetur, nec conuenit, sed
+            <lb ed="#V" n="55"/>solum &amp; duntaxat per quandam congruentiam ad merita,
+            <lb ed="#V" n="56"/>vel demerita praecedentia, quod fit virtute Dei punientis vel
+            <lb ed="#V" n="57"/>praemiantis animam per deputationem ad corporalia loca,
+            <lb ed="#V" n="58"/>vel operatione alicuius Angeli animam corpori alligantis,
+            <lb ed="#V" n="59"/>&amp; non propria virtute ipsius animae separatae, vnde
+            proba<lb ed="#V" n="60" break="no"/>bile videtur quod anima separata si nulli loco taliter
+            deputa<lb ed="#V" n="61" break="no"/>retur, nullibi esset. Dicitur secundo quod anima separata sicut
+            <lb ed="#V" n="62"/>propria virtute non acquirit locum, nec facit se esse in
+            loco<lb ed="#V" n="63" break="no"/>vt locus est, sed sola diuina vel angelica virtute deputatur
+            <lb ed="#V" n="64"/>aliquibus corporibus, ita nec propria virtute perdit locum
+            <lb ed="#V" n="65"/>vel corpus cui deputatur, nec ab eo recedit nisi virtute
+            diu<lb ed="#V" n="66" break="no"/>na vel angelica, per quam animae separatae aliquando a suis
+            <lb ed="#V" n="67"/>receptaculis egrediuntur, secundum quod ostendit Sanctus Thomas
+            <lb ed="#V" n="68"/>4. sent. vbi supra in solutione tertiae quaestiunculae. Aliquem
+            <lb ed="#V" n="69"/>inquit exire de inferno, vel Paradiso potest intelligi
+            dupli<lb ed="#V" n="70" break="no"/>citer. Vno modo ita quod simpliciter inde exeat vt iam eius
+            lo<lb ed="#V" n="71" break="no"/>cus non sit paradisus vel infernus, &amp; sic nullus inferno vel
+            <lb ed="#V" n="72"/>paradiso finaliter deputatus inde exire potest. Alio modo
+            <lb ed="#V" n="73"/>potest intelligi vt exeat inde ad tempus, &amp; in hoc
+            distinguen<lb ed="#V" n="74" break="no"/>dum est quid eis conueniat secundum legem naturae, &amp;
+            <lb ed="#V" n="75"/>quid eis conueniat secundum ordinem diuinae
+            prouiden<cb ed="#V" n="b"/><lb ed="#V" n="76" break="no"/>tiae, quia vt dicit Augustinus in lib. de cura pro mortuis agenda, alia
+            <lb ed="#V" n="77"/>sunt humanarum limites rerum, alia diuinarum signa
+            vir<lb ed="#V" n="78" break="no"/>tutum, alia sunt quae naturaliter, alia quae mirabiliter fiunt
+            <lb ed="#V" n="79"/>Secundum ergo naturalem cursum animae separatae
+            rece<lb ed="#V" n="80" break="no"/>ptaculis proprijs deputatae a conuersatione viuentium
+            pe<lb ed="#V" n="81" break="no"/>nitus segregantur. Non enim secundum cursum naturae
+            he<lb ed="#V" n="82" break="no"/>mines in mortali carne viuentes substantijs separatis
+            imme<lb ed="#V" n="83" break="no"/>diate coniunguntur, cum omnis eorum cognitio a
+            sensu<lb ed="#V" n="84" break="no"/>oriatur, nec propter aliud a suis receptaculis eas exire
+            con<lb ed="#V" n="85" break="no"/>ueniret nisi vt rebus viuentium interessent, sed secundum
+            <lb ed="#V" n="86"/>dispositionem diuinae prouidentiae aliquando animae
+            sepa<lb ed="#V" n="87" break="no"/>ratae a suis receptaculis egressae conspectibus hominum
+            prae<lb ed="#V" n="88" break="no"/>sentantur sicut Augusnus narrat in praedicto libus de faelice martire,
+            <lb ed="#V" n="89"/>qui ciuibus no. annis visibiliter apparuit cum a barbaris
+            op<lb ed="#V" n="90" break="no"/>pugnarentur, &amp; hoc etiam credi potest quod de damnatis
+            con<lb ed="#V" n="91" break="no"/>tigeri: quod ad eruditionem hominum &amp; terrorem
+            permittun<lb ed="#V" n="92" break="no"/>tur viuentibus apparere, aut etiam ad suffragia expetenda
+            <lb ed="#V" n="93"/>quantum ad illos qui in purgatorio detinentur, vt patet per
+            <lb ed="#V" n="94"/>multa qua in 4. dialo. narrantur. Sed hoc interest inter
+            san<lb ed="#V" n="95" break="no"/>ctos &amp; damnatos, quia sancti cum volunt, apparere possunt
+            <lb ed="#V" n="96"/>viuentibus, non autem damnati. Sicut enim sancti
+            viuen<lb ed="#V" n="97" break="no"/>tes in carne per donum gratiae gratis accipiunt vt sanitates.
+            <lb ed="#V" n="98"/>&amp; signa perficiant quae non nisi diuina virtute mirabiliter
+            <lb ed="#V" n="99"/>fiunt, quae quidem signa ab alijs hoc dono carentibus
+            per<lb ed="#V" n="100" break="no"/>fici non possunt, ita etiam non est inconueniens, vt ex
+            vir<lb ed="#V" n="101" break="no"/>tute gloriae aliqua potestas animabus Sanctorum detur per
+            <lb ed="#V" n="102"/>quam possunt mirabiliter apparere viuentibus cum volunt,
+            <lb ed="#V" n="103"/>quod alij non possunt nisi interdum permissi. Haec ille.
+          </p>
+          <p xml:id="capsco-d4ev0l-d1e645">
+            Item
+            <lb ed="#V" n="104"/>prima parte q. 89. arti. 8. in solutione secundi sic dicit. Quia
+            <lb ed="#V" n="105"/>hoc quod mortui viuentibus appareant qualitercunque, hoc
+            <lb ed="#V" n="106"/>contingit per specialem Dei dispensationem, vt animae
+            mor<lb ed="#V" n="107" break="no"/>tuorum rebus viuentium intersint, &amp; est inter diuina
+            mira<lb ed="#V" n="108" break="no"/>cula computandum, vel huiusmodi apparitiones fiunt per
+            <lb ed="#V" n="109"/>operationem angelorum bonorum, vel malorum etiam
+            igno<lb ed="#V" n="110" break="no"/>rantibus mortuis &amp;c. Haec ille.
+          </p>
+          <p xml:id="capsco-d4ev0l-d1e663">
+            Ex quibus apparet quod sola
+            <lb ed="#V" n="111"/>diuina vel angelica virtute sit quod animae separatae viuentibus
+            <lb ed="#V" n="112"/>appareant vel locis, aut rebus viuentium intersint. Et
+            simi<lb ed="#V" n="113" break="no"/>liter dicendum de quacunque alia mutatione locali
+            anima<lb ed="#V" n="114" break="no"/>rum separatarum, quia nec sunt in loco nisi agendo in
+            cor<lb ed="#V" n="115" break="no"/>pora vel patiendo a corporibus vel interueniente aliquo
+            <lb ed="#V" n="116"/>alio contactu virtutis inter animam separatam &amp; corpus,
+            <lb ed="#V" n="117"/>puta alligationem eius ad corpus vel praesidentiam supra
+            <lb ed="#V" n="118"/>corpus vel qualemcunque vnitionem, &amp; coniunctionem
+            <lb ed="#V" n="119"/>vnius ad alterum. Dicitur tertio quod dato quod anima
+            sepa<lb ed="#V" n="120" break="no"/>rata propria naturali virtute faceret se praesentem alicui
+            lo<lb ed="#V" n="121" break="no"/>co vel virtute angelica fieret praesens alicui loco vel
+            corpo<lb ed="#V" n="122" break="no"/>ri, non tamen conceditur quod posset a quocunque loco
+            rece<lb ed="#V" n="123" break="no"/>dere vel ad quemcunque locum accedere propria virtute,
+            <lb ed="#V" n="124"/>quod patet in simili de daemonibus alligatis annulis vel
+            ima<lb ed="#V" n="125" break="no"/>ginibus virtute alicuius superioris daemonis. De hoc alias
+            re<lb ed="#V" n="126" break="no"/>citaui dicta Sanctus Thomas de anima q. 21. vbi sic dicit. Anima
+            (in<lb ed="#V" n="127" break="no"/>quit) &amp; quaelibet incorporalis substantia quantum est de
+            <lb ed="#V" n="128"/>sui natura non obligatur alicui loco, sed transcendit totum
+            <lb ed="#V" n="129"/>ordinem corporalium, quod ergo alligetur alicui &amp;
+            determi<lb ed="#V" n="130" break="no"/>netur ad aliquem locum per quandam necessitatem est
+            con<lb ed="#V" n="131" break="no"/>tra naturam eius, &amp; contrarium appetitui naturali, &amp; hoc
+            <lb ed="#V" n="132"/>dico non inquantum coniungitur corpori cuius est forma
+            <lb ed="#V" n="133"/>substantialis naturalis, in quo aliquam perfectionem
+            con<lb ed="#V" n="134" break="no"/>sequitur. Quia autem aliqua spiritualis substantia
+            alicui<lb ed="#V" n="135" break="no"/>corpori alligetur non est ex virtute corporis potentis
+            sub<lb ed="#V" n="136" break="no"/>stantiam incorpoream detinere, sed est ex virtute alicuius
+            <lb ed="#V" n="137"/>superioris substantiae alligantis talem spiritualem
+            substan<lb ed="#V" n="138" break="no"/>tiam tali corpori, sicut etiam arte magica permissione
+            di<lb ed="#V" n="139" break="no"/>uina virtute superiorum daemonum aliqui spiritus rebus
+            ali<lb ed="#V" n="140" break="no"/>quibus alligantur vel annulis, vel imaginibus, vel
+            huiusmo<lb ed="#V" n="141" break="no"/>di rebus. Et per hunc modum animae &amp; daemones
+            alligan<lb ed="#V" n="142" break="no"/>tur virtute diuina in sui poena corporeo igni, vnde Augusie
+            <lb ed="#V" n="143"/>dicit 21. de ciuitate Dei. Cur non dicamus quamuis miris,
+            <lb ed="#V" n="144"/>veris tamen modis etiam spiritus incorporeos posse
+            poena<lb ed="#V" n="145" break="no"/>corporalis ignis affligi si spiritus hominum etiam ipsi
+            incor<lb ed="#V" n="146" break="no"/>porei nunc possunt includi corporalibus membris, &amp; tunc
+            <lb ed="#V" n="147"/>poterunt corporum suorum vinculis insolubilibus
+            alliga<lb ed="#V" n="148" break="no"/>ri, adhaerebunt ergo spiritus &amp; daemones incorporei
+            corpo<lb ed="#V" n="149" break="no"/>reis ignibus cruciandi, accipientes ex ignibus poenas non
+            <lb ed="#V" n="150"/>dantes ignibus vitam. Haec ille.
+          </p>
+          <p xml:id="capsco-d4ev0l-d1e752">
+            Similia dicit multis alijs
+            lo<pb ed="#V" n="459"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>cis. Ex quibus patet quod angelus bonus, vel malus posset
+            pro<lb ed="#V" n="2" break="no"/>pria virtute alligare animam separatam alicui corpori a quo
+            <lb ed="#V" n="3"/>recedere non posset propria virtute naturali. Dicitur
+            quar<lb ed="#V" n="4" break="no"/>to quod motus localis, &amp; locus non vniuoce, sed mere
+            aequiuo<lb ed="#V" n="5" break="no"/>ce conueniunt corporibus &amp; spiritibus incorporeis, ideo
+            <lb ed="#V" n="6"/>non sequitur, si elementum propria virtute potest se
+            moue<lb ed="#V" n="7" break="no"/>re de loco disconuenienti suae naturae, ita sit de spiritu.
+            Dici<lb ed="#V" n="8" break="no"/>tur quinto, quod non solum spiritus, immo corpus siue sit
+            ele<lb ed="#V" n="9" break="no"/>mentum siue elementatum potest violenter detineri in
+            ali<lb ed="#V" n="10" break="no"/>quo loco ne propria virtute possit inde recedere. Ad
+            secun<lb ed="#V" n="11" break="no"/>dum dicitur primo negando minorem pro illa parte quae
+            <lb ed="#V" n="12"/>dicit quod anima separata potest habere in virtute sua proprium
+            <lb ed="#V" n="13"/>vbi vel situm proprie dictum, cum enim anima abstrahat a
+            to<lb ed="#V" n="14" break="no"/>to genere quantitatis corporeae de necessitate abstrahit ab
+            <lb ed="#V" n="15"/>vbi &amp; a situ proprie dictis, quia talia non possunt suscipi
+            nisi<lb ed="#V" n="16" break="no"/>in subiecto quanto &amp; corporeo, vt patet ex diffinitione vbi
+            <lb ed="#V" n="17"/>&amp; situs. Dicitur secundo quod esse in loco diffinitiue, eo
+            mo<lb ed="#V" n="18" break="no"/>do quo conuenit spiritui non est idem quod habere, vel
+            es<lb ed="#V" n="19" break="no"/>se subiectum vbi, sed est contingere corpus vel locum, vel ab
+            <lb ed="#V" n="20"/>ipso contingi tactu virtutis, vt alias visum est secundo
+            sen<lb ed="#V" n="21" break="no"/>tentiarum. Dicitur tertio quod omne corpus physicum
+            con<lb ed="#V" n="22" break="no"/>tinet in virtute sua terminum qui est vbi ratione
+            grauita<lb ed="#V" n="23" break="no"/>tis, aut leuitatis vel alterius qualitatis sensibilis, anima autem
+            <lb ed="#V" n="24"/>separata talium capax esse non potest. Dicitur quarto quod
+            si<lb ed="#V" n="25" break="no"/>militudo quae adducitur de lapide vel alijs corporibus
+            phy<lb ed="#V" n="26" break="no"/>sicis quae ad loca sua mouentur, &amp; secum trahunt corpora
+            <lb ed="#V" n="27"/>eis colligata ad suum vbi &amp;c. non valet, sed est multum
+            ru<lb ed="#V" n="28" break="no"/>dis. Tum quia moueri ad locum vel esse in loco aequiuoce
+            <lb ed="#V" n="29"/>dicuntur &amp; non vniuoce de anima separata &amp; de corpore
+            <lb ed="#V" n="30"/>physico. Tum quia corpus physicum non mouet, nec
+            tra<lb ed="#V" n="31" break="no"/>hit aliud corpus sibi alligatum de loco ad locum, eodem
+            mo<lb ed="#V" n="32" break="no"/>do motionis quo anima nata est mouere corpus, nam
+            ani<lb ed="#V" n="33" break="no"/>ma nullum corpus extrinsecum sibi suppositaliter non
+            con<lb ed="#V" n="34" break="no"/>iunctum nata est mouere nisi per hoc quod mouet corpus quod
+            <lb ed="#V" n="35"/>informat, &amp; mediante illo mouet corpora extrinseca sicut
+            <lb ed="#V" n="36"/>nec grauitas totius terrae si esset separata, &amp; nulli corpori
+            <lb ed="#V" n="37"/>physico formaliter vnita quantumcunque alligaretur
+            pa<lb ed="#V" n="38" break="no"/>leae non propter hoc moueret eam deorsum naturaliter &amp;
+            <lb ed="#V" n="39"/>sine spirituali miraculo, quia ordine naturae primo mouet
+            <lb ed="#V" n="40"/>subiectum suum quam aliquid aliud &amp; mediante suo
+            subie<lb ed="#V" n="41" break="no"/>cto potest mouere alia corpora suo subiecto alligata.
+            Cor<lb ed="#V" n="42" break="no"/>pus autem physicum natum est mouere aliud corpus sibi
+            <lb ed="#V" n="43"/>alligatum tanquam principium motus extrinsecum &amp;
+            vio<lb ed="#V" n="44" break="no"/>lentum, nec oportet quod prius ordine naturae moueat aliquod
+            <lb ed="#V" n="45"/>corpus tanquam principium intrinsecum &amp; naturale, vnde
+            <lb ed="#V" n="46"/>patet quod similitudo non valet, &amp; ideo non sequitur quod anima
+            <lb ed="#V" n="47"/>separata possit mouere localiter aliquod corpus si lapis hoc
+            <lb ed="#V" n="48"/>potest.
+          </p>
+          <p xml:id="capsco-d4ev0l-d1e861">
+            Ad confirmationem dicitur primo quod diuisio ibidem
+            <lb ed="#V" n="49"/>facta non valet, quod enim anima separata non possit aliquod
+            cor<lb ed="#V" n="50" break="no"/>pus localiter mouere non contingit, nec propter suam
+            im<lb ed="#V" n="51" break="no"/>materialitatem, nec propter suam imperfectionem, sed perop
+            <lb ed="#V" n="52"/>aliud scilicet quia anima naturaliter est apta informare
+            cor<lb ed="#V" n="53" break="no"/>pus &amp; esse pars compositi, &amp; ideo non conuenit sibi
+            moue<lb ed="#V" n="54" break="no"/>re corpus separatum nisi mediante coniuncto. Ad huius
+            <lb ed="#V" n="55"/>declarationem Sanctus Thomas prima parte q. 117. artic. 4. in
+            solu<lb ed="#V" n="56" break="no"/>tione primi sic dicit. Substantiae separatae quaedam sunt
+            qua<lb ed="#V" n="57" break="no"/>rum virtutes non determinantur ad aliqua corpora, sicut
+            <lb ed="#V" n="58"/>sunt angeli qui sunt naturaliter a corporibus absoluti, &amp;
+            <lb ed="#V" n="59"/>ideo diuersa corpora eis possunt obedire ad motum si
+            ta<lb ed="#V" n="60" break="no"/>men alicuius substantiae spiritualis separatae virtus motiua
+            <lb ed="#V" n="61"/>determinetur naturaliter ad mouendum aliquod corpus non
+            <lb ed="#V" n="62"/>poterit illa substantia mouere corpus maius, sed minus,
+            si<lb ed="#V" n="63" break="no"/>cut secundum Philosophos motor inferioris coeli non
+            pos<lb ed="#V" n="64" break="no"/>set mouere coelum superius: vnde cum anima secundum
+            <lb ed="#V" n="65"/>naturam suam determinetur ad mouendum corpus cuius
+            <lb ed="#V" n="66"/>est forma, nullum aliud corpus sua naturali virtute
+            moue<lb ed="#V" n="67" break="no"/>re potest immediate. Haec ille.
+          </p>
+          <p xml:id="capsco-d4ev0l-d1e905">
+            Item de malo q. 16. artic. 10.
+            <lb ed="#V" n="68"/>in solutione secundi sic dicit. Anima humana infimum
+            gra<lb ed="#V" n="69" break="no"/>dum tenet in ordine substantiarum spiritualium, vnde non
+            <lb ed="#V" n="70"/>habet virtutem mouendi corpus etiam localiter nisi
+            propor<lb ed="#V" n="71" break="no"/>tionatum sibi per hoc quod est viuificatum ab ipsa. Haec ille.
+          </p>
+          <p xml:id="capsco-d4ev0l-d1e916">
+            <lb ed="#V" n="72"/>Dicitur secundo quod licet anima separata habeat in virtute
+            <lb ed="#V" n="73"/>sua intelligere &amp; velle quae sunt formae perfectiores quam
+            <lb ed="#V" n="74"/>mouere paleam vel aliud corpus extrinsecum, non
+            tamen<lb ed="#V" n="75" break="no"/>sequitur quod si potest primum possit secundum, quia primum
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="76"/>&amp; secundum non sunt eiusdem ordinis, nec aeque
+            propor<lb ed="#V" n="77" break="no"/>tionata vel conuenientia naturae ipsius animae, vt patet ex
+            <lb ed="#V" n="78"/>dictis, vnde si consequentia illa valeret sequeretur quod
+            ange<lb ed="#V" n="79" break="no"/>lus posset causare sensationem, ex quo causat intellectionem
+            <lb ed="#V" n="80"/>quae est actus perfectior sensatione.
+          </p>
+          <p xml:id="capsco-d4ev0l-d1e941">
+            Ad tertium dicitur
+            pri<lb ed="#V" n="81" break="no"/>mo quod si argumentum valeret concluderet quod anima
+            ratio<lb ed="#V" n="82" break="no"/>nalis dum est in corpore posset mouere corpus motu
+            vola<lb ed="#V" n="83" break="no"/>tus &amp; motu non organico, ex quo habet potentiam
+            vola<lb ed="#V" n="84" break="no"/>tiuam eandem quam habebit post glorificationem
+            corpo<lb ed="#V" n="85" break="no"/>ris, &amp; multa alia falsa concluderet sicut ostendit Petus de
+            Pal<lb ed="#V" n="86" break="no"/>4. sent. dist. 44q. 4. artic. 2. Dicitur secundo, quod anima beata
+            <lb ed="#V" n="87"/>post assumptionem corporis glorificati non habebit nouam
+            <lb ed="#V" n="88"/>potentiam motiuam, nec virtutem motiuam respectu
+            cor<lb ed="#V" n="89" break="no"/>poris quae sit potentia vel virtus naturae, habebit tamen
+            no<lb ed="#V" n="90" break="no"/>uam potentiam vel virtutem gratiae vel gloriae, vnde Petrus
+            <lb ed="#V" n="91"/>vbi supra recitat dicta Scoti in hunc modum in alio
+            propo<lb ed="#V" n="92" break="no"/>sito dicens. Vtrum autem corporibus beatis competat
+            ali<lb ed="#V" n="93" break="no"/>quis motus quo moueatur corpus ab anima non organice
+            <lb ed="#V" n="94"/>id est non pars post partem, sicut nunc fit, sed totum simul
+            <lb ed="#V" n="95"/>&amp; ex aequo, sicut nunc graue descendit deorsum &amp; leue
+            ascen<lb ed="#V" n="96" break="no"/>dit sursum, videtur quibusdam quod sic, quod probant, quia
+            <lb ed="#V" n="97"/>in anima est virtus mouendi sic actiue, &amp; in corpore est
+            vir<lb ed="#V" n="98" break="no"/>tus passiua optime disposita vt moueatur: ergo talis motus
+            <lb ed="#V" n="99"/>erit vel esse poterit in corporibus gloriosis, consequentia
+            <lb ed="#V" n="100"/>patet, quia posito sufficienti motiuo &amp; mobili sufficienter
+            <lb ed="#V" n="101"/>disposito, sequitur motus vel saltem potest sequi,
+            antece<lb ed="#V" n="102" break="no"/>dens declaratur quantum ad duas partes eius, primo quod
+            <lb ed="#V" n="103"/>in anima sit talis virtus motiua, quia inconueniens videtur
+            <lb ed="#V" n="104"/>quod anima separata non possit se mouere ad vbi conueniens
+            <lb ed="#V" n="105"/>sibi, sed talis motus animae separatae non sit organice: ergo
+            <lb ed="#V" n="106"/>in anima separata est virtus ad mouendum non organice,
+            <lb ed="#V" n="107"/>nec istud repugnat suae perfectioni, qua angeli qui sunt
+            per<lb ed="#V" n="108" break="no"/>factiores animabus separatis mouentur de loco ad locum
+            <lb ed="#V" n="109"/>&amp; non organice.
+          </p>
+          <p xml:id="capsco-d4ev0l-d1e1006">
+            Item ex parte corporis videtur esse
+            conue<lb ed="#V" n="110" break="no"/>niens dispositio ad talem motum: nam corpora beatorum
+            <lb ed="#V" n="111"/>secundum omnem sui partem nata sunt ab anima moueri
+            <lb ed="#V" n="112"/>&amp; non vna pars mediante alia. Haec Scotus. Contra quod
+            <lb ed="#V" n="113"/>dicit Petrus ista opinio videtur in se vera, licet sit falsa in
+            ra<lb ed="#V" n="114" break="no"/>tione, falsum enim videtur quod anima sit nata mouere se ad
+            om<lb ed="#V" n="115" break="no"/>nem locum sibi conuenientem, quia secundum naturam
+            <lb ed="#V" n="116"/>nullus locus est sibi conueniens aut disconueniens.
+          </p>
+          <p xml:id="capsco-d4ev0l-d1e1024">
+            Item
+            <lb ed="#V" n="117"/>quod dicunt nullam virtutem addi corpori &amp; animae &amp; tamen
+            <lb ed="#V" n="118"/>sic differenter mouere, est ficticium, quia idem manens idem
+            <lb ed="#V" n="119"/>natum est agere &amp; pati idem, vnde quod anima non variata
+            <lb ed="#V" n="120"/>quo ad potentiam actiuam mouendi, nec corpus quo ad
+            <lb ed="#V" n="121"/>potentiam passiuam moueatur ab illa nouo modo non est
+            <lb ed="#V" n="122"/>probabile, haec Petus Concordat Sanctus Thomas 4. sent. dist. 44. q. 2.
+            <lb ed="#V" n="123"/>art. 3. quaestiuncula prima vbi sic dicit. Post resurrectionem
+            <lb ed="#V" n="124"/>anima perfecte damnabitur corpori. Tum propter
+            perfe<lb ed="#V" n="125" break="no"/>ctionem propriae virtutis. Tum propter habilitatem
+            corpo<lb ed="#V" n="126" break="no"/>ris gloriosi ex redundantia gloriae ab anima in ipsum, ideo
+            <lb ed="#V" n="127"/>non erit aliquis labor in motu Sanctorum, &amp; sic dici
+            pos<lb ed="#V" n="128" break="no"/>sunt corpora sanctorum agilia. Haec ille.
+          </p>
+          <p xml:id="capsco-d4ev0l-d1e1053">
+            Item ibidem in
+            so<lb ed="#V" n="129" break="no"/>lutione quarti sic dicit. Sicut natura dat velocioribus
+            ani<lb ed="#V" n="130" break="no"/>malibus instrumenta diuersae dispositionibus in figura, &amp;
+            <lb ed="#V" n="131"/>quantitate, ita Deus dabit corporibus sanctorum aliam
+            di<lb ed="#V" n="132" break="no"/>spositionem quam nunc habeant, non quidem in figura &amp;
+            <lb ed="#V" n="133"/>quantitate, sed proprietate gloriae quae dicitur agilitas. Haec
+            <lb ed="#V" n="134"/>ille. Dicitur tertio quod ista consequentia non valet, anima
+            <lb ed="#V" n="135"/>potest mouere corpus sibi vnitum non organice, igitur
+            po<lb ed="#V" n="136" break="no"/>test mouere corpus separatum non organice, cuius ratio
+            <lb ed="#V" n="137"/>patet ex dictis, &amp; magis patebit ex post dicendis.
+          </p>
+          <p xml:id="capsco-d4ev0l-d1e1075">
+            Ad primum
+            <lb ed="#V" n="138"/>Aureoli contra eandem conclusionem dicitur, quod per illud
+            <lb ed="#V" n="139"/>argumentum &amp; confirmationem eius probatur secunda
+            con<lb ed="#V" n="140" break="no"/>clusio, scilicet quod anima separata virtute diuina potest
+            mo<lb ed="#V" n="141" break="no"/>uere corpora localiter, sed ex hoc non habetur quod hoc
+            pos<lb ed="#V" n="142" break="no"/>sit sua naturali virtute, ideo non militat contra primam
+            con<lb ed="#V" n="143" break="no"/>clusionem quae hoc negat.
+          </p>
+          <p xml:id="capsco-d4ev0l-d1e1091">
+            Ad secundum dico primo quod
+            con<lb ed="#V" n="144" break="no"/>sequentia non valet, nec similiter valet probatio, quia quod
+            <lb ed="#V" n="145"/>anima separata non possit mouere corpora localiter ponit
+            <lb ed="#V" n="146"/>opinio beati Thomae non solum propter hoc quod dicit arguens
+            <lb ed="#V" n="147"/>quod omnis animae potentia motiua secundum locum sit
+            or<lb ed="#V" n="148" break="no"/>ganica vel quod anima nullum corpus vel partem animalis
+            mo<lb ed="#V" n="149" break="no"/>ueat immediate, sed solum mediante organo, sed hoc ponit
+            <lb ed="#V" n="150"/>propter aliud, quia scilicet non est nata immediate mouere
+            <pb ed="#V" n="460"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>nisi corpus quod viuificat, vt patet ex supradictis Sanctus Thomas
+            <lb ed="#V" n="2"/>enim concedit quod motus localis cordis est immediate ab
+            ani<lb ed="#V" n="3" break="no"/>ma etiam sine potentia organica. Motus autem aliorum
+            <lb ed="#V" n="4"/>membrorum est ab anima mediante corde &amp; eius motu, &amp;
+            <lb ed="#V" n="5"/>per potentiam motiuam organicam quae est in corde
+            pri<lb ed="#V" n="6" break="no"/>mordialiter.
+          </p>
+          <p xml:id="capsco-d4ev0l-d1e1127">
+            Vnde in tractatu de motu cordis sic dicit. Quia
+            <lb ed="#V" n="7"/>omne quod mouetur necesse est habere motorem,
+            dubita<lb ed="#V" n="8" break="no"/>bile videtur quid moueat Cor. &amp; qualis sit motus eius &amp;c.
+            <lb ed="#V" n="9"/>Et post multa subdit. Principium ergo huius
+            consideratio<lb ed="#V" n="10" break="no"/>nis hinc oportet accipere, quia vt dicit Aristotes 8a.s Physicor.
+            <lb ed="#V" n="11"/>Quorumcunque principium motus in seipsis est, haec
+            na<lb ed="#V" n="12" break="no"/>tura dicimus moueri, vnde animal quidem totum natura
+            ip<lb ed="#V" n="13" break="no"/>sum seipsum mouet, corpus tamen eius contingit natura&amp;
+            <lb ed="#V" n="14"/>extra naturam moueri. Differt enim secundum qualem
+            mo<lb ed="#V" n="15" break="no"/>dum quod mouetur eueniat, &amp; ex quali elemento constet.
+            <lb ed="#V" n="16"/>Cum enim animal mouetur deorsum est quidem motus eius
+            <lb ed="#V" n="17"/>naturalis &amp; toti animali, &amp; corpori, eo quod in corpore animalis
+            <lb ed="#V" n="18"/>elementum graue praedominatur. Cum autem animal
+            mo<lb ed="#V" n="19" break="no"/>uetur sursum est quidem naturalis motus animalis, quia est
+            <lb ed="#V" n="20"/>a principio intrinseco ipsius quod est anima, non tamen est
+            <lb ed="#V" n="21"/>naturalis corpori graui vnde &amp; magis satigatur in hoc
+            mo<lb ed="#V" n="22" break="no"/>tu, motus autem secundum locum in animalibus causatur
+            <lb ed="#V" n="23"/>ex appetitu &amp; apprehensione sensitiua vel intellectiua, vt
+            <lb ed="#V" n="24"/>dicit Aristeles 3. de Anima. In alijs quidem animalibus totus
+            <lb ed="#V" n="25"/>processus motus est naturalis, non enim agunt a proposito
+            <lb ed="#V" n="26"/>sed a natura, naturaliter enim hirundo facit nidum, &amp;
+            ara<lb ed="#V" n="27" break="no"/>nea telam, solius autem hominis est a proposito operari &amp;
+            <lb ed="#V" n="28"/>non a natura, sed tamen cuiuslibet operationis suae
+            princi<lb ed="#V" n="29" break="no"/>pium naturale est, quamuis enim conclusiones scientiarum
+            spe<lb ed="#V" n="30" break="no"/>culatiuarum &amp; practicarum non naturaliter scit, sed
+            ratio<lb ed="#V" n="31" break="no"/>cinando inueniat, prima tamen principia indemonsttabilia
+            <lb ed="#V" n="32"/>sunt ei naturaliter nota.
+          </p>
+          <p xml:id="capsco-d4ev0l-d1e1186">
+            Ex quibus ad alia scienda procedit.
+            <lb ed="#V" n="33"/>Similiter ex parte finis, quia appetere vltimum finem qui
+            <lb ed="#V" n="34"/>est faelicitas est homini naturale, &amp; fugere miseriam, sed
+            ap<lb ed="#V" n="35" break="no"/>petere alia non est ei naturale, sed ex appetitu vltimi finis
+            <lb ed="#V" n="36"/>procedit in appetitum aliorum, sic enim est finis in
+            appetibili<lb ed="#V" n="37" break="no"/>bus vt principium indemonstrabile in intelligibilibus, vt
+            <lb ed="#V" n="38"/>dicitur 2. Physic. sic ergo cum motus omnium aliorum
+            mem<lb ed="#V" n="39" break="no"/>brorum causentur ex motu cordis vt probat Aristoteles in lib. de
+            <lb ed="#V" n="40"/>motu animalium, motus quidem alij possunt esse
+            volunta<lb ed="#V" n="41" break="no"/>rij, sed primus motus qui est cordis est naturalis, oportet
+            er<lb ed="#V" n="42" break="no"/>go considerare quod motus sursum est naturalis ignis eo quod
+            con<lb ed="#V" n="43" break="no"/>sequitur formam eius, vnde &amp; generans quod dat formam
+            <lb ed="#V" n="44"/>est per se mouens secundum locum, sicut autem formam
+            <lb ed="#V" n="45"/>elementi consequitur aliquis motus naturalis, nihil
+            prohi<lb ed="#V" n="46" break="no"/>bet &amp; alias formas alios motus sequi naturales, videmus
+            <lb ed="#V" n="47"/>enim quod ferrum naturaliter mouetur ad magnetem, qui
+            ta<lb ed="#V" n="48" break="no"/>men motus non est ei naturalis secundum naturam grauis
+            <lb ed="#V" n="49"/>&amp; leuis, sed secundum quod habet talem formam, sic ergo &amp;
+            <lb ed="#V" n="50"/>animal inquantum habet talem formam, quae est anima
+            ni<lb ed="#V" n="51" break="no"/>hil prohibet habere aliquem motum naturalem, &amp; mouens
+            <lb ed="#V" n="52"/>hunc motum est quod dat formam. Dico autem motum
+            <lb ed="#V" n="53"/>naturalem animalis eum qui est cordis, quia vt dicit Aristoteles
+            <lb ed="#V" n="54"/>lib. de motu animalium. Existimandum est constare animal
+            <lb ed="#V" n="55"/>quemadmodum ciuitatem bene legimus rectam. In
+            ciuita<lb ed="#V" n="56" break="no"/>te enim quando semel stabilitus fuerit ordo nihil opus est
+            <lb ed="#V" n="57"/>separato monarcha quem oporteat esse ad singula eorum
+            <lb ed="#V" n="58"/>quae fiunt, sed quilibet facit quod ipsi ordinatum est, &amp; fit
+            <lb ed="#V" n="59"/>hoc post hoc propter consuetudinem. In animalibus autem
+            <lb ed="#V" n="60"/>idem hoc propter naturam fit, &amp; quia natum est sic
+            vnum<lb ed="#V" n="61" break="no"/>quodque constantium facere proprium opus, vt nihil opus
+            <lb ed="#V" n="62"/>sit in vnoquoque esse animam, scilicet inquantum est
+            prin<lb ed="#V" n="63" break="no"/>cipium motus, sed in quodam principio corporis existente,
+            <lb ed="#V" n="64"/>alia quidem viuere eo quod adunata sunt, facere autem
+            pro<lb ed="#V" n="65" break="no"/>prium opus propter naturam, sic ergo motus cordis est
+            na<lb ed="#V" n="66" break="no"/>turalis quasi consequens animam inquantum est forma
+            ta<lb ed="#V" n="67" break="no"/>lis corporis &amp; principaliter cordis, &amp; forte secundum hunc
+            <lb ed="#V" n="68"/>intellectum aliqui dixerunt motum cordis esse ab
+            intelli<lb ed="#V" n="69" break="no"/>gentia inquantum posuerunt animam ab intelligentia esse
+            <lb ed="#V" n="70"/>sicut Aristeles dicit motum grauium &amp; leuium esse a
+            generan<lb ed="#V" n="71" break="no"/>te inquantum dat formam quae est principium motus,
+            om<lb ed="#V" n="72" break="no"/>mis autem proprietas &amp; motus consequitur aliquam forma
+            <lb ed="#V" n="73"/>secundum conditionem illius, sicut formam nobilissimi
+            ele<lb ed="#V" n="74" break="no"/>menti, puta ignis consequitur motus ad locum
+            nobilissi<lb ed="#V" n="75" break="no"/>mum qui est sursum, forma autem nobilissima in
+            corpori<cb ed="#V" n="b"/><lb ed="#V" n="76" break="no"/>bus est anima quae maxime accedit ad similitudinem
+            prin<lb ed="#V" n="77" break="no"/>cipij motus coeli, vnde &amp; motus ipsam consequens
+            simili<lb ed="#V" n="78" break="no"/>mus est motui coeli, sicut enim est motus cordis in
+            anima<lb ed="#V" n="79" break="no"/>li, sic motus coeli in mundo, sed tamen necesse est motum
+            <lb ed="#V" n="80"/>cordis a motu coeli deficere, sicut &amp; principiatum differt a
+            <lb ed="#V" n="81"/>principio, est autem motus coeli circularis &amp; continuus, &amp;
+            <lb ed="#V" n="82"/>hoc competit ei inquantum est principium omnium motuum
+            <lb ed="#V" n="83"/>mundi, accessu enim &amp; recessu suo corpus coeleste imponit
+            <lb ed="#V" n="84"/>rebus principium &amp; finem essend, &amp; sua continuitate
+            con<lb ed="#V" n="85" break="no"/>seruat ordinem in motibus qui fiunt semper, motus autem
+            <lb ed="#V" n="86"/>cordis principium quidem est omnium motuum qui sunt
+            <lb ed="#V" n="87"/>in animali, vnde Arslte dicit tertio de partibus animalium quod
+            <lb ed="#V" n="88"/>motus delectabilium &amp; tristium &amp; totaliter omnis sensus
+            <lb ed="#V" n="89"/>hinc incipientes videntur scilicet in corde &amp; ad hoc terminari,
+            <lb ed="#V" n="90"/>vnde ad hoc quod cor esset principium, &amp; finis omnium
+            mo<lb ed="#V" n="91" break="no"/>tuum habet quendam motum non quidem circularem, sed
+            <lb ed="#V" n="92"/>similem circulari compositum ex tractu &amp; pulsu.
+          </p>
+          <p xml:id="capsco-d4ev0l-d1e1320">
+            Vnde Aristele
+            <lb ed="#V" n="93"/>dicit tertio de Anima quod mouens organice est vbi est
+            prin<lb ed="#V" n="94" break="no"/>cipium &amp; finis idem, omnia autem tractu &amp; pulsu
+            mouen<lb ed="#V" n="95" break="no"/>tur, propter quod oportet sicut in circulo manere aliquid
+            <lb ed="#V" n="96"/>&amp; hinc incipere motum. Est etiam motus iste continuus
+            <lb ed="#V" n="97"/>durante vita animalis nisi inquantum necesse est
+            intercide<lb ed="#V" n="98" break="no"/>re morulam mediam inter pulsum &amp; tractum eo quod
+            defi<lb ed="#V" n="99" break="no"/>ciat a motu circulari. Per hoc ergo de facili soluuntur quae
+            <lb ed="#V" n="100"/>in contrarium obijci possunt, neque enim dicimus motum
+            <lb ed="#V" n="101"/>cordis esse naturalem corpori inquantum est graue vel
+            le<lb ed="#V" n="102" break="no"/>ue, sed inquantum est animatum anima tali, &amp; duo motus
+            <lb ed="#V" n="103"/>qui videntur quasi contrarij sunt quasi partes vnius motus
+            <lb ed="#V" n="104"/>compositi ex vtroque inquantum deficit a simplicitate
+            mo<lb ed="#V" n="105" break="no"/>tus circularis, quem tamen imitatur inquantum est ab
+            eo<lb ed="#V" n="106" break="no"/>dem in idem, &amp; sic non est inconueniens si quodammodo
+            <lb ed="#V" n="107"/>sit ad diuersas parte, quia &amp; motus circularis sic est, nec
+            <lb ed="#V" n="108"/>oportet quod causetur ex appraehensione &amp; appetitu quamuis
+            <lb ed="#V" n="109"/>causetur ab anima sensitiua, non enim causatur ab anima
+            sensi<lb ed="#V" n="110" break="no"/>tiua per operationem suam, sed inquantum est forma &amp;
+            na<lb ed="#V" n="111" break="no"/>tura talis corporis. Motus autem progressiuus animalis
+            cau<lb ed="#V" n="112" break="no"/>satur per operationem sensus &amp; appetitus, &amp; propter hoc
+            <lb ed="#V" n="113"/>medici distinguunt operationes vitales ab operationibus
+            ani<lb ed="#V" n="114" break="no"/>malibus, &amp; animalibus cessantibus remanent vitales.
+            Vita<lb ed="#V" n="115" break="no"/>lia autem appellantes quae motum cordis concomitantur,
+            <lb ed="#V" n="116"/>&amp; hoc rationabiliter, viuere enim viuentibus est esse, vt dicitur
+            <lb ed="#V" n="117"/>secundo de Anima. Esse autem vnicuique est a propria
+            for<lb ed="#V" n="118" break="no"/>ma. Hoc autem differt inter animam &amp; principium motus
+            <lb ed="#V" n="119"/>coeli, quod illud principium non mouetur per se nec per
+            acci<lb ed="#V" n="120" break="no"/>dens, anima autem sensitiua, &amp; si non mouetur per se
+            mo<lb ed="#V" n="121" break="no"/>uetur tamen per accidens, vnde proueniunt in ea diuersae
+            <lb ed="#V" n="122"/>appraehensiones &amp; affectiones, vnde motus coeli semper est
+            <lb ed="#V" n="123"/>vniformis. Motus autem cordis variatur secundum
+            diuer<lb ed="#V" n="124" break="no"/>sas appraehensiones, &amp; affectiones animae, non enim
+            affectio<lb ed="#V" n="125" break="no"/>nes animae causantur ab alterationibus cordis, sed potius
+            <lb ed="#V" n="126"/>causant eas, vnde in passionibus animae vtputa in ira
+            forma<lb ed="#V" n="127" break="no"/>le est quod est ex parte affectionis, scilicet quod sit appetitus
+            vin<lb ed="#V" n="128" break="no"/>dictae, materiale autem est quod pertinet ad alterationem
+            <lb ed="#V" n="129"/>cordis, vtpote quod sit accensio sanguinis circa cor. Non autem
+            <lb ed="#V" n="130"/>in rebus naturalibus forma est propter materiam, sed
+            econ<lb ed="#V" n="131" break="no"/>uerso materia propter formam, vt probatur 2. Physicorum,
+            <lb ed="#V" n="132"/>sed in materia est dispositio ad formam Non ergo propter
+            <lb ed="#V" n="133"/>hoc aliquis appetit vindictam, quia sanguis accenditur
+            cir<lb ed="#V" n="134" break="no"/>ca cor. sed ex hoc aliquis est dispositus ad iram, irascitur
+            au<lb ed="#V" n="135" break="no"/>tem ex appetitu vindictae quamuis enim aliqua variatio
+            acci<lb ed="#V" n="136" break="no"/>dat in motu cordis ex appraehensione diuersa &amp; affectione,
+            <lb ed="#V" n="137"/>non tamen ista variatio motus est voluntaria, sed
+            inuolun<lb ed="#V" n="138" break="no"/>taria, quia non fit per imperium voluntatis. Dicit enim Arisotele
+            <lb ed="#V" n="139"/>in lib.s de causa motus animalium quod multotiens appetente
+            <lb ed="#V" n="140"/>aliquo, non tamen iubente intellectu mouentur cor &amp;
+            pu<lb ed="#V" n="141" break="no"/>denda, &amp; huius causam assignat, quoniam necesse est
+            alte<lb ed="#V" n="142" break="no"/>rari naturali alteratione animalia, alteratis autem partibus
+            <lb ed="#V" n="143"/>hoc quidem augeri, hoc autem detrimentum pati, vt iam
+            mo<lb ed="#V" n="144" break="no"/>ueantur &amp; permutentur natis habere permutationem adir
+            <lb ed="#V" n="145"/>uicem. Causae autem motuum cordis sunt caliditas &amp;
+            fri<lb ed="#V" n="146" break="no"/>giditas, quae deforis &amp; intus sunt existentes naturales, &amp;
+            prae<lb ed="#V" n="147" break="no"/>ter rationem vtique facti motus dictarum partium. 1. cordis,
+            <lb ed="#V" n="148"/>&amp; pudendi alterationes incidentes fiunt. Intellectus autem
+            <lb ed="#V" n="149"/>&amp; fantasia factiua passionem afferunt, vt concupiscentiae &amp;
+            <lb ed="#V" n="150"/>irae, ex quibus corcalescit &amp; infrigidatur. Haec Sanctus Thomas de
+            <pb ed="#V" n="461"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>motu cordis.
+          </p>
+          <p xml:id="capsco-d4ev0l-d1e1455">
+            Ex quibus patet primo quod aliquis motus
+            cor<lb ed="#V" n="2" break="no"/>dis causatur ab anima inimediate &amp; non organice, scilicet
+            <lb ed="#V" n="3"/>motus cordis, &amp; alij sibi necessario conexi: secundo quod
+            om<lb ed="#V" n="4" break="no"/>nis alius motus localis animalis praeter motum cordis
+            cau<lb ed="#V" n="5" break="no"/>satur ab anima organice mediante corde &amp; spiritibusa corde
+            <lb ed="#V" n="6"/>procedentibus ad reliqua corporis membra: tertio quod
+            ani<lb ed="#V" n="7" break="no"/>ma per nullam potentiam motiuam non organicam
+            moue<lb ed="#V" n="8" break="no"/>corpus, dum est corpori coniuncta, quia motus cordis non
+            <lb ed="#V" n="9"/>causatur per potentiam mediam inter animam &amp; corplus
+            <lb ed="#V" n="10"/>quam motus grauium &amp; leuium, sed sequitur animam vt
+            <lb ed="#V" n="11"/>est forma talis corporis. Motus autem aliorum membrorum
+            <lb ed="#V" n="12"/>causatur per aliquam potentiam organicam, vtputa
+            median<lb ed="#V" n="13" break="no"/>te sensitiua potentia &amp; appetitiua quae originatur in corde
+            <lb ed="#V" n="14"/>&amp; capite, &amp; per quandam potentiam executiuam quae est in
+            <lb ed="#V" n="15"/>neruis &amp; musculis &amp; huiusmodi partibus corporis: quarto
+            <lb ed="#V" n="16"/>quod anima separata nullam naturalem potentiam habet ad
+            <lb ed="#V" n="17"/>mouendum corpus ab ea non viuificatum immediate non
+            <lb ed="#V" n="18"/>organice, quia nullam talem habet in corpore sibi
+            coniun<lb ed="#V" n="19" break="no"/>cto. Dicitur secundo principaliter quod auctoritas Aristotelis
+            <lb ed="#V" n="20"/>in libus de motibus animalium non facit ad propositum.
+            Con<lb ed="#V" n="21" break="no"/>ceditur enim quod nulla pars corporis animalis est immobilis,
+            im<lb ed="#V" n="22" break="no"/>mo quaelibet mouetur ab anima, sed differenter, quia quaedam
+            <lb ed="#V" n="23"/>mouetur ab anima inquantum est eius forma, scilicet cor,
+            <lb ed="#V" n="24"/>aliae vero mediante potentia organica. Anima autem
+            sepa<lb ed="#V" n="25" break="no"/>rata non informat aliquod corpus, nec habet potentiam
+            or<lb ed="#V" n="26" break="no"/>ganicam, ideo non est simile de coniuncta &amp; de separata.
+            Di<lb ed="#V" n="27" break="no"/>citur tertio quod auctoritas Commentatoris 8. Physicor. non
+            <lb ed="#V" n="28"/>valet ad propositum, quia cum dicit quod primum mouens est
+            <lb ed="#V" n="29"/>anima &amp;c. ex hoc non habetur nisi quod primum principium
+            <lb ed="#V" n="30"/>&amp; prima radix intrinseca motus animalis secundum locum
+            <lb ed="#V" n="31"/>est anima. Sed ex hoc non habetur quod sit principium
+            proxi<lb ed="#V" n="32" break="no"/>mum, loquendo de reliquis motibus praeter motum cordis,
+            <lb ed="#V" n="33"/>quia secundum eum &amp; Aristotelem tertio de Anima, alij
+            <lb ed="#V" n="34"/>motus causantur per appraehensionem &amp; appetitum de
+            pro<lb ed="#V" n="35" break="no"/>ximo, &amp; vt supra visum est per motum cordis. De hoc
+            mo<lb ed="#V" n="36" break="no"/>tu qui fit per potentiam motiuam organicam Sanctus Thomas
+            pri<lb ed="#V" n="37" break="no"/>ma parte q. 76. artic. 4. in sol. secundi sic dicit. Anima non
+            <lb ed="#V" n="38"/>mouet corpus per esse suum secundum quod vnitur corpori,
+            <lb ed="#V" n="39"/>vt forma, sed per potentiam motiuam cuius actus
+            praesup<lb ed="#V" n="40" break="no"/>ponit iam corpus effectum in actu per animam, vt sic
+            ani<lb ed="#V" n="41" break="no"/>ma secundum vim motiuam sit pars mouens, &amp; corpus
+            ani<lb ed="#V" n="42" break="no"/>matum sit pars mota. Haec ille.
+          </p>
+          <p xml:id="capsco-d4ev0l-d1e1546">
+            Item q. 78. artic. 1. in sol. 4.
+            <lb ed="#V" n="43"/>sic dicit. Quamuis sensus &amp; appetitus sint principia
+            moti<lb ed="#V" n="44" break="no"/>ua in animalibus perfectis, non tamen sensus &amp; appetitus
+            <lb ed="#V" n="45"/>inquantum huiusmodi sufficiunt ad mouendum; nisi
+            super<lb ed="#V" n="46" break="no"/>adderetur eis aliqua virtus alia. Nam in immobilibus
+            ani<lb ed="#V" n="47" break="no"/>malibus est sensus &amp; appetitus, non tamen habent vim
+            mo<lb ed="#V" n="48" break="no"/>tiuam. Haec autem motiua non solum est in sensu &amp;
+            appe<lb ed="#V" n="49" break="no"/>titu vt imperante motum, sed etiam est in ipsis partibus
+            cor<lb ed="#V" n="50" break="no"/>poris, vt sint habilia ad obediendum animae mouenti,
+            cu<lb ed="#V" n="51" break="no"/>ius signum est quod quando membra mouentur a sua
+            natu<lb ed="#V" n="52" break="no"/>rali dispositione non obediunt appetitui ad motum. Haec
+            <lb ed="#V" n="53"/>ille. Ex quibus patet, quod proximum mouens animal est
+            po<lb ed="#V" n="54" break="no"/>tentia sensitiua &amp; appetitiua, licet primum mouens sit
+            ani<lb ed="#V" n="55" break="no"/>ma vt praecedit potentias. Et similiter quod anima non habet
+            <lb ed="#V" n="56"/>aliquam potentiam motiuam non organicam. Et vlterius
+            <lb ed="#V" n="57"/>quod nec anima nec suae potentiae sufficiant ad mouendum
+            cor<lb ed="#V" n="58" break="no"/>pus sibi vnitum, nisi tale corpus sit debite qualificatum &amp;
+            <lb ed="#V" n="59"/>dispositum ad exequendum imperium voluntatis: ergo
+            <lb ed="#V" n="60"/>mu to ininus anima separata sufficit ad mouendum
+            cor<lb ed="#V" n="61" break="no"/>pus separatum vbi deficiunt illa tria, scilicet appraehensio
+            <lb ed="#V" n="62"/>sensitiua, appetitus sensitiuus ex parte animae, &amp; potentia
+            exe<lb ed="#V" n="63" break="no"/>cutiua vel obedientialis ex parte corporis. Dicitur quarto
+            <lb ed="#V" n="64"/>quod in illo qui saltat quaelibet pars corporis mouetur, &amp; sola
+            <lb ed="#V" n="65"/>anima quiescit sic quod anima non per se, sed per accidens
+            mul<lb ed="#V" n="66" break="no"/>tum remote mouetur. Cor vero animalis mouetur per se
+            <lb ed="#V" n="67"/>ab anima motu vitali, qui constat ex tractu &amp; pulsu, sed
+            mo<lb ed="#V" n="68" break="no"/>tu anima i qui per potentias appraehensiuas &amp; appetitiuas
+            <lb ed="#V" n="69"/>exercetur, cor non per se mouetur, immo tali motu mouet
+            <lb ed="#V" n="70"/>omnia alia membra, &amp; consequenter de per accidens mouet
+            <lb ed="#V" n="71"/>seipsum, sicut mouetur nauta mouendo nauem. Sic ergo
+            <lb ed="#V" n="72"/>patet, quod in tali motu saltus anima non mouet immediate
+            <lb ed="#V" n="73"/>aliquam partem corporis motu animali, sed immediate
+            mo<lb ed="#V" n="74" break="no"/>uet cor motu vitasi, quo mediante mouet alia membra
+            mo<lb ed="#V" n="75" break="no"/>tu animali. Neutro autem illorum modorum potest
+            mo<cb ed="#V" n="b"/><lb ed="#V" n="76" break="no"/>uere corpus separatum. Et de praedictis Sanctus Thomas de anima
+            <lb ed="#V" n="77"/>quaestio. 9. in solutione sexti argumenti sic dicit. Animal
+            di<lb ed="#V" n="78" break="no"/>uiditur in duas partes, quarum vna est corpus mobile, &amp;
+            <lb ed="#V" n="79"/>alia motor, sed oportet intelligere quod anima mouet corpus
+            <lb ed="#V" n="80"/>secundum appraehensionem &amp; appetitum. Appraehensio
+            <lb ed="#V" n="81"/>autem &amp; appetitus in homine duplex est. Vna quidem quae
+            <lb ed="#V" n="82"/>est animae tantum, non per organum corporale, quae est
+            par<lb ed="#V" n="83" break="no"/>tis intellectiuae, alia est coniuncti &amp; partis sensitiuae. Illa
+            au<lb ed="#V" n="84" break="no"/>tem quae est partis intellectiue non mouet corpus nisi
+            me<lb ed="#V" n="85" break="no"/>diante ea, quae est partis sensitiuae, quia cum motus sit circa
+            <lb ed="#V" n="86"/>aliquod singulare, appraehensio vniuersalis quae est
+            intelle<lb ed="#V" n="87" break="no"/>ctus non mouet nisi mediante particulari qui est sensus. Sic
+            <lb ed="#V" n="88"/>ergo homo vel animal cum diuiditur in partem mouentem,
+            <lb ed="#V" n="89"/>&amp; partem motam non est haec diuisio in solam animam &amp;
+            <lb ed="#V" n="90"/>solum corpus, sed in vnam partem corporis animalis, &amp;
+            <lb ed="#V" n="91"/>aliam. Nam illa pars corporis animati, cuius operatio est
+            <lb ed="#V" n="92"/>appraehendere &amp; appetere, monet totum corpus. Sed si
+            sup<lb ed="#V" n="93" break="no"/>ponatur quod pars intellectiua immediate moueat, ita quod
+            <lb ed="#V" n="94"/>pars mouens in homine sit anima tantum, adhuc
+            remane<lb ed="#V" n="95" break="no"/>bit responsio secundum praehabita. Nam anima humana
+            <lb ed="#V" n="96"/>erit mouens secundum id quod est supremum in ipsa,
+            scili<lb ed="#V" n="97" break="no"/>cet partem intellectiuam, motum autem erit non materia
+            <lb ed="#V" n="98"/>prima tantum, sed materia prima secundum quod
+            consti<lb ed="#V" n="99" break="no"/>tuta est in esse corporali, &amp; in tali non per aliam formam nisi
+            <lb ed="#V" n="100"/>per eandem animam. Vnde non erit necessarium ponere
+            <lb ed="#V" n="101"/>formam substantialem mediam inter animam, &amp; materiam
+            <lb ed="#V" n="102"/>primam. Sed quia est in animali quidam motus qui non est
+            <lb ed="#V" n="103"/>per appraehensionem &amp; appetitum, scilicet motus cordis &amp;
+            <lb ed="#V" n="104"/>etiam motus augmenti, &amp; motus alimenti diffusi per totum
+            <lb ed="#V" n="105"/>corpus quod est etiam commune plantis quantum ad hos
+            <lb ed="#V" n="106"/>motus.
+          </p>
+          <p xml:id="capsco-d4ev0l-d1e1688">
+            Dicendum quod cum anima animali non solum det
+            <lb ed="#V" n="107"/>id quod est proprium sibi, sed etiam id quod est inferiorum
+            <lb ed="#V" n="108"/>formarum, sicut inferiores formae sunt principia naturalis
+            <lb ed="#V" n="109"/>motus in corporibus naturalibus, ita etiam anima in
+            cor<lb ed="#V" n="110" break="no"/>pore animalis, vnde Philosophus dicit in 2. de Anima quod
+            <lb ed="#V" n="111"/>anima est natura talis corporis. Et propter hoc
+            operatio<lb ed="#V" n="112" break="no"/>nes animae distinguuntur in animales, &amp; naturales, vt illae
+            di<lb ed="#V" n="113" break="no"/>cantur animales quae sunt ab anima secundum illud quod
+            <lb ed="#V" n="114"/>est proprium sibi, naturales autem quae sunt ab anima
+            secun<lb ed="#V" n="115" break="no"/>dum quod facit effectum inferiorum formarum naturalium.
+            <lb ed="#V" n="116"/>Secundum hoc ergo dicendum, quod sicut ignis per suam
+            <lb ed="#V" n="117"/>formam naturalem habet naturalem motum quo tendit
+            sur<lb ed="#V" n="118" break="no"/>sum, ita aliqua pars corporis animati in qua primo
+            inueni<lb ed="#V" n="119" break="no"/>tur motus qui non est per appraehensionem habet hunc
+            mo<lb ed="#V" n="120" break="no"/>tum naturaliter per animam. Sicut enim ignis naturaliter
+            <lb ed="#V" n="121"/>mouetur sursum, ita sanguis naturaliter mouetur ad
+            loca<lb ed="#V" n="122" break="no"/>propria &amp; determinata. Et similiter cor naturaliter
+            moue<lb ed="#V" n="123" break="no"/>tur motu sibi proprio, licet ad hoc cooperetur resolutio
+            spi<lb ed="#V" n="124" break="no"/>rituum facta ex sanguine, quibus cor dilatatur &amp;
+            constrin<lb ed="#V" n="125" break="no"/>gitur, vt Aritote dicit, vbi agit de respiratione &amp; aspiratione.
+            <lb ed="#V" n="126"/>Sic ergo prima pars in qua talis motus inuenitur non
+            mo<lb ed="#V" n="127" break="no"/>uet seipsam, sed mouetur naturaliter, sicut ignis, sed ista pars
+            <lb ed="#V" n="128"/>mouet alias, &amp; sic totum animal est mouens seipsum cum
+            vna<lb ed="#V" n="129" break="no"/>pars eius sit mouens &amp; alia mota. Haec ille.
+          </p>
+          <p xml:id="capsco-d4ev0l-d1e1741">
+            Ad tertium
+            di<lb ed="#V" n="130" break="no"/>citur, quod auctoritas Commentatoris ibidem allegata non
+            <lb ed="#V" n="131"/>procedit contra nos. Conceditur enim quod potentia secundum
+            <lb ed="#V" n="132"/>locum motiua communis est animae &amp; substantijs separatis
+            <lb ed="#V" n="133"/>communitate analogiae, vel generis multum remoti, non
+            au<lb ed="#V" n="134" break="no"/>tem communitate specifica, &amp; ideo aliud obiectum habet
+            <lb ed="#V" n="135"/>potentia motiua Angeli, &amp; aliud potentia motiua animae.
+            <lb ed="#V" n="136"/>Angelus enim potest naturaliter mouere corpus non ab eo
+            <lb ed="#V" n="137"/>viuificatum, non autem anima. De hoc Sanctus Thomas de malo
+            <lb ed="#V" n="138"/>q. 16. artic. 10. sic dicit. In actionibus virtutum actiuarum
+            <lb ed="#V" n="139"/>considerandus est ordo rerum qui non solum attenditur
+            <lb ed="#V" n="140"/>secundum naturas ipsarum, sed etiam secundum earum
+            mo<lb ed="#V" n="141" break="no"/>tus, habent etiam ipsi motus quandam rationem, &amp;
+            se<lb ed="#V" n="142" break="no"/>cundum hoc motus localis ad alios motus duplicem habet
+            <lb ed="#V" n="143"/>comparationem. Vno modo quia est primus motuum.
+            <lb ed="#V" n="144"/>Alio modo quia per motum localem minima variatio fit
+            <lb ed="#V" n="145"/>circa mobile. Nam cum per alios motus varietur aliquid
+            <lb ed="#V" n="146"/>quod est intrinsecum rei, puta quantitas, aut qualitas, aut
+            <lb ed="#V" n="147"/>etiam forma substantialis, per motum locale variatur
+            cor<lb ed="#V" n="148" break="no"/>pus solum secundum aliquid extrinsecum, scilicet secundum
+            lo<lb ed="#V" n="149" break="no"/>cum, &amp; quantum ad vtrunque secundum praedicta
+            compe<lb ed="#V" n="150" break="no"/>tit quod corpora moueantur a substantijs separatis
+            motu<pb ed="#V" n="462"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>locali immediatius quam alijs motibus. Primo quidem quia
+            <lb ed="#V" n="2"/>posteriora perficiuntur mediantibus prioribus, vnde &amp;
+            alij<lb ed="#V" n="3" break="no"/>motus causantur a substantia spirituali mediante motu
+            lo<lb ed="#V" n="4" break="no"/>cali. Alio modo quia effectus debiles possunt fieri
+            imme<lb ed="#V" n="5" break="no"/>diate a ramotiori agente, vnde minima variatio corporalis
+            <lb ed="#V" n="6"/>quae fit per motum localem potest immediate fieri per
+            sub<lb ed="#V" n="7" break="no"/>stantialem quasi per agens remotum, non autem aliqua
+            ma<lb ed="#V" n="8" break="no"/>ior variatio, qualis est aliorum motuum. Alio modo
+            consi<lb ed="#V" n="9" break="no"/>deratur ordo motuum secundum ordinem mobilium, sicut
+            <lb ed="#V" n="10"/>i motus coeli est prior motu corporis elementaris, &amp;
+            secun<lb ed="#V" n="11" break="no"/>dum hoc competit superioribus substantijs spiritualibus
+            mo<lb ed="#V" n="12" break="no"/>uere superius corpus, ita quod motor orbis Saturni non posset
+            <lb ed="#V" n="13"/>mouere coelum stellatum, nec motor eius posset eum
+            mo<lb ed="#V" n="14" break="no"/>uere, si haberet plures stellas, vt dicitur in secundo de caelo.
+            <lb ed="#V" n="15"/>Sicut ergo superiores substantiae spirituales mouent
+            superio<lb ed="#V" n="16" break="no"/>ra corpora coelestia, ita etiam inferiores mouere possunt
+            lo<lb ed="#V" n="17" break="no"/>caliter inferiora corpora, quales sunt daemones, siue hoc
+            ha<lb ed="#V" n="18" break="no"/>beant ex conditione naturae suae secundum illos qui dicunt,
+            <lb ed="#V" n="19"/>quod daemones non fuerunt ex illis superioribus Angelis, sed
+            <lb ed="#V" n="20"/>ex illis qui praeficiuntur a Deo huic terrestri ordini
+            secun<lb ed="#V" n="21" break="no"/>dum proportionem suae naturae, siue hoc etiam eis
+            conue<lb ed="#V" n="22" break="no"/>niat pro poena peccati propter quam detrusi sunt a
+            coele<lb ed="#V" n="23" break="no"/>stibus sedibus in hunc aerem secundum Gregorius qui ponit
+            <lb ed="#V" n="24"/>aliquos de supremis angelis per peccatum cecidisse.
+            Ani<lb ed="#V" n="25" break="no"/>ma autem humana infimum gradum tenet in ordine
+            sub<lb ed="#V" n="26" break="no"/>stantiarum spiritualium, vnde non habet virtutem
+            mouen<lb ed="#V" n="27" break="no"/>di corpus etiam localiter nisi pro portionatum sibi per hoc
+            <lb ed="#V" n="28"/>e quod est viuificatum ab ipsa. Haec ille.
+          </p>
+          <p xml:id="capsco-d4ev0l-d1e1852">
+            Ex quibus patet, quod
+            <lb ed="#V" n="29"/>licet vis motiua sit communiter in Angelis &amp; in anima,
+            ta<cb ed="#V" n="b"/><lb ed="#V" n="30" break="no"/>men aliud obiectum habet vna quam alia. Ideoque non
+            se<lb ed="#V" n="31" break="no"/>quitur si angelus qui est substantia totaliter a materia
+            sepa<lb ed="#V" n="32" break="no"/>rata potest mouere corpus ab eo non viuificatum, quod ideo
+            <lb ed="#V" n="33"/>consimiliter anima, cui naturale est esse formam corporis
+            <lb ed="#V" n="34"/>possit mouere corpus non viuificatum ab ea.
+          </p>
+          <p xml:id="capsco-d4ev0l-d1e1869">
+            Ad quartum
+            <lb ed="#V" n="35"/>dicitur, quod non facit coutra primam conclusionem, sed
+            ar<lb ed="#V" n="36" break="no"/>guit pro secunda. Tales enim animarum apparitiones, vt
+            <lb ed="#V" n="37"/>supra allegatum fuit, sunt inter diuina miracula
+            compu<lb ed="#V" n="38" break="no"/>tandae.
+          </p>
+          <p xml:id="capsco-d4ev0l-d1e1880">
+            Ad quintum dicitur quod similitudo ibidem
+            addu<lb ed="#V" n="39" break="no"/>cta non valet, quia licet anima conueniat cum substantijs
+            <lb ed="#V" n="40"/>separatis in virtute motiua, non tamen oportet, nec
+            sequi<lb ed="#V" n="41" break="no"/>tur quod illa conuenientia sit secundum vniuocationem
+            spe<lb ed="#V" n="42" break="no"/>cificam, sed secundum conuenientiam generis remoti
+            ve<lb ed="#V" n="43" break="no"/>alicuius analogi, &amp; ideo non sequitur quod potentia motiua
+            <lb ed="#V" n="44"/>Angeli &amp; potentia motiua animae coniunctae vel separatae
+            <lb ed="#V" n="45"/>habeant vniuocum obiectum, sicut patet ex praedictis. Ad
+            <lb ed="#V" n="46"/>argumentum principale pro conclusione patet responsio
+            <lb ed="#V" n="47"/>ex dictis Sancti Thomae superius recitatis. Et haec de quaestione
+            <lb ed="#V" n="48"/>sufficiant. De qua Benedictus in aeternum Deus. Ad cuius
+            <lb ed="#V" n="49"/>honorem &amp; Christiferae Mariae &amp; Beatorum Dominici,
+            Pe<lb ed="#V" n="50" break="no"/>tri Martyris, &amp; Thomae Doctoris hae &amp; praecedentes
+            in<lb ed="#V" n="51" break="no"/>choatae &amp; consummatae fuerunt. Haec nostra scripta
+            su<lb ed="#V" n="52" break="no"/>per quartum sententiarum completa fuerunt Anno
+            Do<lb ed="#V" n="53" break="no"/>mini Millesimo quadringentesimo trigesimo secundo,
+            de<lb ed="#V" n="54" break="no"/>cimaoctaua die Februarij, Ruthenae, Dontificatus domini
+            <lb ed="#V" n="55"/>Eugenij quarti anno primo. Quae omnia subijciantur
+            to<lb ed="#V" n="56" break="no"/>tali correctioni eiusdem summi Pontificis, &amp; Romanae
+            <lb ed="#V" n="57"/>Ecclesiae, nec non Generalis Concilij nunc Sedentis
+            <lb ed="#V" n="58"/>Basileae.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

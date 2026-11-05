@@ -1,0 +1,946 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 2, Distinctio 20, Quaestio 1</title>
+        <author ref="#JohannesCapreolus">Johannes Capreolus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 2, Distinctio 20, Quaestio 1</title>
+          <date when="2026-11-04">Nov 4, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-j88c02">Venice, 1589, v. 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-04" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="393"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="capsco-b1yehi"><!-- l2d20q1 -->
+        <head xml:id="capsco-b1yehi-Hd1e101">Quaestio 1</head>
+        <head xml:id="capsco-b1yehi-Hd1e103" type="question-title">Utrum in statu innocentiae virgines peperissent duntaxat praedestinatos</head>
+        <p xml:id="capsco-b1yehi-d1e106">
+          <lb ed="#V" n="22"/>DISTINCTIO XX.
+          <lb ed="#V" n="23"/>QVAESTIO I.
+          <lb ed="#V" n="24"/>Vtrum in statu innocentiae uirgines
+          pe<lb ed="#V" n="25" break="no"/>perissent duntaxat
+          prae<lb ed="#V" n="26" break="no"/>destinatos.
+        </p>
+        <p xml:id="capsco-b1yehi-d1e119">
+          <lb ed="#V" n="27"/><milestone ed="#V" unit="p" rend="initial"/> Circa vigesimam distinct. secundi senten.
+          <lb ed="#V" n="28"/>quaeritur. Vtrum in statu innocentiae
+          <lb ed="#V" n="29"/>virgines peperissent duntaxat
+          praedesti<lb ed="#V" n="30" break="no"/>natos.
+        </p>
+        <p xml:id="capsco-b1yehi-d1e131">
+          Et arguitur quod sic. in illo
+          sta<lb ed="#V" n="31" break="no"/>tu non fuisset amissio virginitatis, &amp;
+          <lb ed="#V" n="32"/>soli praedestinati nati fuissent, igitur
+          con<lb ed="#V" n="33" break="no"/>clusio vera: antecedens pro prima
+          par<lb ed="#V" n="34" break="no"/>te probatur, quia amissio virginitatis est quid paenale,
+          igi<lb ed="#V" n="35" break="no"/>tur non fuissent in statu innocentiae. Pro secunda vero
+          pro<lb ed="#V" n="36" break="no"/>batur, quia Gregorius quarto moralium dicit. Si primum
+          pa<lb ed="#V" n="37" break="no"/>rentem nulla putredo peccati corrumperet, nequaquam
+          <lb ed="#V" n="38"/>ex se filios gebennae generaret, sed hi qui nunc per
+          redem<lb ed="#V" n="39" break="no"/>storem saluandi sunt, soli ab eo electi nascerentur
+        </p>
+        <p xml:id="capsco-b1yehi-d1e154">
+          <lb ed="#V" n="40"/><milestone ed="#V" unit="p" rend="indent"/> Noppositum arguitur. Et primo quod in illo statu
+          fuis<lb ed="#V" n="41" break="no"/>set amissio virginitatis, quia in illo statu fuisset
+          genera<lb ed="#V" n="42" break="no"/>tio per coitum. igitur &amp;c. Tenet consequentia, quia coitus
+          <lb ed="#V" n="43"/>non potest esse sine amissione virginitatis, antecedens
+          pro<lb ed="#V" n="44" break="no"/>batur, quia tunc essent masculus &amp; faemina, sed diuisio
+          se<lb ed="#V" n="45" break="no"/>xuum ordinatum ad coitum, igitur &amp;c. Secundo
+          proba<lb ed="#V" n="46" break="no"/>tur, quod non solum fuissent nati praedestinati, sed alii
+          <lb ed="#V" n="47"/>nam electi habuissent eundem patrem, quem modo
+          habue<lb ed="#V" n="48" break="no"/>runtem licet multorum electorum parentes non fuerunt
+          prae<lb ed="#V" n="49" break="no"/>destinati, igitur &amp;c.
+        </p>
+        <p xml:id="capsco-b1yehi-d1e179">
+          <lb ed="#V" n="50"/><milestone ed="#V" unit="p" rend="initial"/> In hac quaestione erunt tres articuli. In primo
+          ponen<lb ed="#V" n="51" break="no"/>tur conclusiones. In secundo obiectiones. In tertio
+          so<lb ed="#V" n="52" break="no"/>lutiones.
+        </p>
+        <div xml:id="capsco-b1yehi-Dd1e189">
+          <head xml:id="capsco-b1yehi-Hd1e191">Articulus 1</head>
+          <p xml:id="capsco-b1yehi-d1e193">
+            <lb ed="#V" n="53"/><milestone ed="#V" unit="p" rend="initial"/> QVantum ad primum articulum sit prima conclusio.
+            <lb ed="#V" n="54"/>In statu innocentiae fuisset generatio per coitum
+            <lb ed="#V" n="55"/>Hanc ponit Sanctus Thomas prima parte q. 98. articu.
+            secun<lb ed="#V" n="56" break="no"/>do vbi sic ait. Quidam antiquorum doctorum
+            consideran<lb ed="#V" n="57" break="no"/>tes concupiscentiae faeditatem, quae inuenitur in coitu in
+            sta<lb ed="#V" n="58" break="no"/>tu isto, posuerunt quod in statu innocentiae non fuisset
+            ge<lb ed="#V" n="59" break="no"/>neratio per coitum. Vnde Gregorius niscensus, in lib. quem
+            fa<lb ed="#V" n="60" break="no"/>cit de homine dicit, quod in Paradiso aliter fuisset
+            multi<lb ed="#V" n="61" break="no"/>plicatum genus humanum, sicut multiplicati sunt angeli
+            <lb ed="#V" n="62"/>absque concubitu per operationem diuinae virtutis: &amp;
+            di<lb ed="#V" n="63" break="no"/>di quod Deus ante peccatum fecit masculum &amp;
+            foemi<lb ed="#V" n="64" break="no"/>nam respiciens ad modum generationis qui futurus erat
+            <lb ed="#V" n="65"/>post peccatum, cuius Deus praescius erat, sed hoc non dic,
+            <lb ed="#V" n="66"/>tur rationabiliter. Ea enim quae sunt naturalia homini
+            ne<lb ed="#V" n="67" break="no"/>que subtrahuntur, neque dantur homini per peccatum.
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="68"/>Manifestum est autem, quod homini secundum
+            anima<lb ed="#V" n="69" break="no"/>lem vitam quam etiam ante peccatum habebat, naturale
+            <lb ed="#V" n="70"/>est generare per coitum, sicut &amp; caeteris animalibus
+            perfe<lb ed="#V" n="71" break="no"/>ctis, &amp; hoc declarant naturalia membra, &amp; ad hunc vsum
+            <lb ed="#V" n="72"/>deputata. Et ideo non est dicendum, quod vsus horum
+            <lb ed="#V" n="73"/>membrorum naturalium non fuisset ante peccatum, sicut
+            <lb ed="#V" n="74"/>&amp; caeterorum membrorum. Sunt igitur in coitu duo
+            con<lb ed="#V" n="75" break="no"/>sideranda secundum praesentem statum, vnum quod
+            natu<lb ed="#V" n="76" break="no"/>rae est scilicet maris &amp; foemine coniunctio ad generandum
+            <lb ed="#V" n="77"/>In omni enim generatione requiritur virtus actiua &amp;
+            pas<lb ed="#V" n="78" break="no"/>siua, vnde cum in omnibus in quibus est distinctio sexuu
+            <lb ed="#V" n="79"/>virtus actiua sit in mare, virtus vero passiua in foemina,
+            na<lb ed="#V" n="80" break="no"/>turae ordo exigit, vt ad generandum conueniant per
+            coi<lb ed="#V" n="81" break="no"/>tum mas &amp; foemina. Aliud autem quod considerari potest
+            <lb ed="#V" n="82"/>est quaedam deformitas immoderatae concupiscentiae, quae
+            <lb ed="#V" n="83"/>in statu innocentiae non fuisset, quando inferiores vires
+            om<lb ed="#V" n="84" break="no"/>nino rationi subdebantur. Vnde Auguus ait. 14. de ciuitate
+            <lb ed="#V" n="85"/>Dei. Absit vt suspicemur prolem tunc seri cum libidinis
+            <lb ed="#V" n="86"/>morbo, sed eo voluntatis nutu mouerentur illa membra,
+            <lb ed="#V" n="87"/>quo caetera, &amp; sine ardore &amp; illecebroso stimulo cum
+            tran<lb ed="#V" n="88" break="no"/>quillitate animae &amp; corporis. Haec ille.
+          </p>
+          <p xml:id="capsco-b1yehi-d1e277">
+            Ex quibus potest
+            <lb ed="#V" n="89"/>formari talis ratio. Illud quod pertinet ad perfectionem
+            <lb ed="#V" n="90"/>hominis secundum statum animalis vitae non defuisset
+            ho<lb ed="#V" n="91" break="no"/>mini in statu innocentiae, sed generare sibi simile in specie
+            <lb ed="#V" n="92"/>&amp; per coitum pertinet ad perfectionem hominis
+            secun<lb ed="#V" n="93" break="no"/>dum statum animalis vitae, ergo non defuisset homini in
+            <lb ed="#V" n="94"/>statu innocentiae. Maior &amp; minor patent ex. dictis.
+          </p>
+          <p xml:id="capsco-b1yehi-d1e293">
+            Secun<lb ed="#V" n="95" break="no"/>da conclusio. In statu innocentiae coitus coniugalis non
+            <lb ed="#V" n="96"/>soluisset totaliter virginitatem, sed quo ad aliquid. Hanc
+            <lb ed="#V" n="97"/>ponit Sanctus Thomas secundo senten. dist. 20. quaest. prima
+            <lb ed="#V" n="98"/>artic. secundo in sol. 1. vbi sic ait. Ad perfectionem
+            virgini<lb ed="#V" n="99" break="no"/>tatis duo concurrunt scilicet integritas carnis cum
+            inte<lb ed="#V" n="100" break="no"/>gritate mentis, quorum alterum scilicet mentis integritas
+            <lb ed="#V" n="101"/>honorabilius est. Reliquum vero essentialius est
+            virginita<lb ed="#V" n="102" break="no"/>ti.
+          </p>
+          <p xml:id="capsco-b1yehi-d1e313">
+            Dicendum ergo quod in omni concubitu soluitur
+            virgi<lb ed="#V" n="103" break="no"/>nitas quantum ad integritatem carnis etiam in primo
+            sta<lb ed="#V" n="104" break="no"/>tu, sed integritatem mentis contingit solui dupliciter, vel
+            <lb ed="#V" n="105"/>quantum ad habitum, &amp; sic soluitur per illicitum
+            concu<lb ed="#V" n="106" break="no"/>bitum, qui tollit habitum castitatis. Vel quantum ad
+            ac<lb ed="#V" n="107" break="no"/>tum, &amp; sic in statu post peccatum soluitur etiam per
+            con<lb ed="#V" n="108" break="no"/>cubitum matrimonialem, eo quod propter vehementiam
+            <lb ed="#V" n="109"/>delectationis ratio in ipso actu absorbetur. In primo
+            ve<lb ed="#V" n="110" break="no"/>ro statu neutro modo integritas mentis soluta fuisset, sed
+            <lb ed="#V" n="111"/>sola integritas carnis, cui praeponderaret saecunditas prolis
+            <lb ed="#V" n="112"/>Haec ille.
+          </p>
+          <p xml:id="capsco-b1yehi-d1e338">
+            Item prima parte quaest. 96. art. secundo in solu.
+            <lb ed="#V" n="113"/>4. argumenti sic dicit. In illo statu, vt dicit Augustns 14. de
+            ci<lb ed="#V" n="114" break="no"/>uitate Dei. Nulla corruptione integritatis infunderetur
+            <lb ed="#V" n="115"/>gremio maritus vxoris. Ita enim poterat vtero coniugis
+            sal<lb ed="#V" n="116" break="no"/>ua integritate foeminei genitalis virile semen immitti,
+            si<lb ed="#V" n="117" break="no"/>cut nunc potest eadem integritate salua ex vtero virginis
+            <lb ed="#V" n="118"/>fluxus menstrui cruoris emitti Vt enim ad pariendum non
+            <lb ed="#V" n="119"/>doloris gemitus, sed maturitatis impulsus foeminea
+            visce<lb ed="#V" n="120" break="no"/>ra relaxaret, sic ad concipiendum non libidinis appetitus,
+            <lb ed="#V" n="121"/>sed voluntarius usus naturam utranque coniungeret. Haec
+            <lb ed="#V" n="122"/>ille.
+          </p>
+          <p xml:id="capsco-b1yehi-d1e362">
+            Item secunda secundae quaest. 152. articu. primo dicit.
+            <lb ed="#V" n="123"/>Nomen uirginitatis a uirore sumptum uidetur, &amp; sicut
+            il<lb ed="#V" n="124" break="no"/>lud uirens dicitur in suo uirore persistere, quod non est ex
+            <lb ed="#V" n="125"/>super abundantia caloris adustum, uel adustionem exper
+            <lb ed="#V" n="126"/>tum, ita etiam uirginitas hoc importat, quod persona,
+            cui<lb ed="#V" n="127" break="no"/>inest, immunis sit a concupiscentiae adustione, quae esse
+            ui<lb ed="#V" n="128" break="no"/>detur in consummatione maxime delectationis
+            corpora<lb ed="#V" n="129" break="no"/>lis, qualis est uenereorum delectatio. Vnde Ambroius dicit
+            <lb ed="#V" n="130"/>in lib. de uirginitate, quod castitas uirginalis est expers
+            con<lb ed="#V" n="131" break="no"/>tagionis integritas. In delectatione autem uenereorum
+            <lb ed="#V" n="132"/>est tria considerare, unum quod est ex parte corporis
+            scili<lb ed="#V" n="133" break="no"/>cet uiolatio signaculi uirginalis. Aliud autem est in
+            quo<lb ed="#V" n="134" break="no"/>coniungitur id, quod est animae cum eo, quod est
+            corpo<lb ed="#V" n="135" break="no"/>ris scilicet ipsa resolutio seminis delectationem
+            sensibi<lb ed="#V" n="136" break="no"/>lem causans. Tertium autem est solum ex parte animae
+            sc<lb ed="#V" n="137" break="no"/>licet propositum perueniendi ad illam delectationem. in
+            <lb ed="#V" n="138"/>quibus tribus, illud quod primo positum est, per
+            acciden<lb ed="#V" n="139" break="no"/>se habet ad actum moralem, qui non consideratur per se.
+            <lb ed="#V" n="140"/>nisi secundum ea quae sunt animae. Secundum uero
+            mate<lb ed="#V" n="141" break="no"/>terialiter se habet ad actum moralem, nam sensibiles
+            pa<pb ed="#V" n="394"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>siones sunt materia uirtutum moralium, uel moralium
+            <lb ed="#V" n="2"/>actuum. Tertium uero se habet formaliter &amp; completiue,
+            <lb ed="#V" n="3"/>quia ratio moralium in eo quod est rationis completur.
+            <lb ed="#V" n="4"/>Quia igitur virginitas dicitur per remotionem praedictae
+            <lb ed="#V" n="5"/>corruptionis, conseqens est, quod integritas membri
+            cor<lb ed="#V" n="6" break="no"/>poralis per accidens se habeat ad virginitatem. Ipsa autem
+            <lb ed="#V" n="7"/>immunitas a delectatione, quae consistit in seminis
+            resolu<lb ed="#V" n="8" break="no"/>tione, se habet materialiter. Ipsum autem propositum
+            <lb ed="#V" n="9"/>perpetuo abstinendi a tali delectatione se habet formaliter
+            <lb ed="#V" n="10"/>&amp; complectiue in virginitate. Haec ille.
+          </p>
+          <p xml:id="capsco-b1yehi-d1e430">
+            Ex quibus potest
+            <lb ed="#V" n="11"/>formari talis ratio. Coitus qui non tollit omnia, nec
+            prin<lb ed="#V" n="12" break="no"/>cipaliter pertinentia ad virginitatem, non tollit
+            simplici<lb ed="#V" n="13" break="no"/>ter virginitatem, sed coitus qui fuisset in statu
+            innocen<lb ed="#V" n="14" break="no"/>tiae, non sustulisset omnia, immo nec principaliter
+            per<lb ed="#V" n="15" break="no"/>tinentia ad virginitatem igitur &amp;c. Maior nota est.
+            Mi<lb ed="#V" n="16" break="no"/>nor probatur, quia principale in virginitate est
+            proposi<lb ed="#V" n="17" break="no"/>tum abstinendi ab experimento delectationis venereae
+            <lb ed="#V" n="18"/>contra rectam rationem, vel integritas carnis, sed in
+            sta<lb ed="#V" n="19" break="no"/>tu innocentiae alterum vel vtrunque illorum
+            permansis<lb ed="#V" n="20" break="no"/>set cum coitu coniugali, igitur &amp;c.
+          </p>
+          <p xml:id="capsco-b1yehi-d1e454">
+            Tertia conclusio.
+            <lb ed="#V" n="21"/>In statu innocentiae non omnes, qui nunc sunt electi
+            na<lb ed="#V" n="22" break="no"/>ti fuissent, &amp; multi qui nunc sunt damnandi nati essent,
+            <lb ed="#V" n="23"/>licet tunc non damnarentur. Hanc ponit Sanct. Thomas
+            <lb ed="#V" n="24"/>sententialiter quolibet sexto, quaestio. octaua ubi sic ait.
+            <lb ed="#V" n="25"/>Cum in generatione hominis sicut &amp; aliorum animalium
+            <lb ed="#V" n="26"/>semen patris sit agens, materia vero a matre ministrata sit
+            <lb ed="#V" n="27"/>sicut patiens, ex quo corpus humanum formatur
+            impos<lb ed="#V" n="28" break="no"/>sibile est eundem filium nasci, siue sit alius pater, siue
+            <lb ed="#V" n="29"/>sit alia mater. Sicut etiam non est idem sigillum in
+            nu<lb ed="#V" n="30" break="no"/>mero, siue sit alia cera, siue sit aliud corpus sigilli, ex
+            cu<lb ed="#V" n="31" break="no"/>ius impressione cera sigillatur, &amp; quamuis superfluum
+            <lb ed="#V" n="32"/>alimenti sit semen secundum philosophum, diuersitas
+            ta<lb ed="#V" n="33" break="no"/>men alimentorum non sufficeret ad diuersificandum
+            fi<lb ed="#V" n="34" break="no"/>lios, qui ex semine nascuntur, quia ex illis cibis non
+            sumi<lb ed="#V" n="35" break="no"/>tur semen, nisi quatenus aliqualiter in substantiam
+            pa<lb ed="#V" n="36" break="no"/>rentum conuertuntur. Dicunt autem quidam sequentes
+            <lb ed="#V" n="37"/>Anselmum, quod si homo non peccasset in illa prima
+            <lb ed="#V" n="38"/>tentatione statim confirmatus fuisset ipse &amp; omnes qui ab
+            <lb ed="#V" n="39"/>eo nascerentur, ita quod omnes qui nascerentur essent
+            <lb ed="#V" n="40"/>electi. Vnde cum nunc multi qui saluantur ex
+            peccatori<lb ed="#V" n="41" break="no"/>bus nascantur, consequens est quod essent aliis
+            paren<lb ed="#V" n="42" break="no"/>tes saluandorum, &amp; per consequens alii filii, sed haec
+            po<lb ed="#V" n="43" break="no"/>sitio non videtur esse vera, quia secundum Augustinum
+            <lb ed="#V" n="44"/>14. de ciuitate Dei, status corporis in homine
+            proportio<lb ed="#V" n="45" break="no"/>nabiliter respondet statui animae. Quandiu ergo homo
+            <lb ed="#V" n="46"/>habuit corpus animale, potens mori &amp; non mori,
+            indi<lb ed="#V" n="47" break="no"/>gens alimenti, tandiu habuit animam potentem
+            pecca<lb ed="#V" n="48" break="no"/>re, &amp; non peccare. Habuit autem corpus animale
+            quan<lb ed="#V" n="49" break="no"/>diu fuit in statu generandi, quod etiam fuisset, si post
+            il<lb ed="#V" n="50" break="no"/>lam primam tentationem non peccasset, &amp; ideo
+            possibi<lb ed="#V" n="51" break="no"/>le fuisset, si primus homo tunc non peccasset, quod
+            e<lb ed="#V" n="52" break="no"/>tiam ipse, vel eius posteriori postmodum peccassent, vt
+            <lb ed="#V" n="53"/>dicit Hugo de Sancto victore. Vnde ex hoc non sequitur
+            <lb ed="#V" n="54"/>parentum diuersitas, quod nunc sint aliqui peccatores,
+            <lb ed="#V" n="55"/>tunc autem non essent, sed est aliud, vnde necesse est
+            po<lb ed="#V" n="56" break="no"/>nere diuersitatem parentum, quia in primo statu vnus
+            <lb ed="#V" n="57"/>homo non habuisset plures vxores, nec etiam aliqui ex
+            <lb ed="#V" n="58"/>fornicatione, vel adulterio nascerentur, quod nunc
+            con<lb ed="#V" n="59" break="no"/>tingit etiam in his, qui saluantur. Multi enim filii vnius
+            <lb ed="#V" n="60"/>patris ex pluribus vxoribus nati saluantur, sicut patet do
+            <lb ed="#V" n="61"/>filiis Iacob. Multi etiam ex fornicatione vel adulterio
+            <lb ed="#V" n="62"/>nati, alioquin eis frustra sacramenta salutis
+            adhiberen<lb ed="#V" n="63" break="no"/>tur. Vnde relinquitur, quod aliqui nunc saluantur,
+            qui<lb ed="#V" n="64" break="no"/>si primus homo non peccasset, non nascerentur, &amp; per
+            <lb ed="#V" n="65"/>consequens non saluarentur. Nec tamen Dei
+            praedesti<lb ed="#V" n="66" break="no"/>natio falleretur, quia Deus praedestinauit homines
+            ha<lb ed="#V" n="67" break="no"/>bens scientiam futuri euentus. Quod vero dicit
+            Grego<lb ed="#V" n="68" break="no"/>rius quod si primus homo non peccasset, nequaquam
+            <lb ed="#V" n="69"/>ex se filios gehennae generranet, indubitater verum est. Non
+            <lb ed="#V" n="70"/>enim in filios transfunderet peccatum originale
+            secun<lb ed="#V" n="71" break="no"/>dum quod homines nascuntur filii irae. Quod etiam
+            sub<lb ed="#V" n="72" break="no"/>dit, quod hi soli, qui nunc saluandi sunt nascerentur,
+            <lb ed="#V" n="73"/>intelligendum est, quod pronomen facit simplicem
+            de<lb ed="#V" n="74" break="no"/>monstrationem, quia scilicet soli electi nascerentur
+            quan<cb ed="#V" n="b"/><lb ed="#V" n="75" break="no"/>tum est ex ratione originis, non autem
+            demonstratio<lb ed="#V" n="76" break="no"/>nem personalem, quia, aliae personae essent hominum,
+            <lb ed="#V" n="77"/>qui saluantur. Haec ille.
+          </p>
+          <p xml:id="capsco-b1yehi-d1e581">
+            Ex quibus potest formari talis
+            <lb ed="#V" n="78"/>ratio. Variatis parentibus variantur fili, sed in statu
+            in<lb ed="#V" n="79" break="no"/>nocentiae non idem, sed alii fuissent parentes &amp;
+            geni<lb ed="#V" n="80" break="no"/>tores, quam modo sint saluandorum: ergo non omnino
+            <lb ed="#V" n="81"/>idem, sed alii fuissent filii, &amp; saluati quam modo sint.
+            Ma<lb ed="#V" n="82" break="no"/>ior supponitur. Minor probatur. Tum quia vnus vir non
+            <lb ed="#V" n="83"/>coisset cum multis mulieribus. Tum quia nulla mulier
+            <lb ed="#V" n="84"/>coisset cum pluribus viris, cuius oppositum modo
+            con<lb ed="#V" n="85" break="no"/>tingit, &amp; ex tali concubitu nascuntur modo filii, qui
+            sal<lb ed="#V" n="86" break="no"/>uantur, tunc autem nec nati, nec saluati essent. Et in hoc
+            <lb ed="#V" n="87"/>primus articulus terminatur.
+          </p>
+        </div>
+        <div xml:id="capsco-b1yehi-Dd1e606">
+          <head xml:id="capsco-b1yehi-Hd1e608">Articulus 2</head>
+          <p xml:id="capsco-b1yehi-d1e610">
+            <lb ed="#V" n="88"/><milestone ed="#V" unit="p" rend="initial"/> Quantum ad secundum articulum arguitur contra
+            <lb ed="#V" n="89"/>conclusiones. Et quidem contra secundam arguit
+            <lb ed="#V" n="90"/>Durandum. Primo quod probatio adducta de secundo
+            sen<lb ed="#V" n="91" break="no"/>tentia. male accipit integritatem mentis, quae ad
+            virgini<lb ed="#V" n="92" break="no"/>tatem requiritur. Illa enim est firmissimum propositum
+            <lb ed="#V" n="93"/>abstinendi a delectatione, quae consistit in venereis, &amp;
+            <lb ed="#V" n="94"/>haec integritas se habet formaliter in virginitate. Ipsa
+            au<lb ed="#V" n="95" break="no"/>tem immunitas uel inexperientia delectationum se habet
+            <lb ed="#V" n="96"/>in virginitate materialiter. Neutrum autem horum
+            po<lb ed="#V" n="97" break="no"/>tuit saluari cum actu matrimonii, vnde male accipitur
+            <lb ed="#V" n="98"/>integritas mentis pro persistentia rationis in actu suo.
+            <lb ed="#V" n="99"/>Absorbetur enim iudicium rationis in somno, &amp; in
+            mul<lb ed="#V" n="100" break="no"/>tis aegritudinibus, ratione quorum nihil deperit
+            cuicun<lb ed="#V" n="101" break="no"/>que virtuti. Persistentia enim rationis, quae requiritur
+            <lb ed="#V" n="102"/>ad virtutem, est quod ratio imperet actum. debitum, &amp;
+            <lb ed="#V" n="103"/>non diuertat ad aliquid contrarium virtuti, qua
+            existen<lb ed="#V" n="104" break="no"/>te non soluitur virtus nec quo ad actum, nec quo ad
+            ha<lb ed="#V" n="105" break="no"/>bitum, Secundo arguit contra hoc, quod dicit positio,
+            <lb ed="#V" n="106"/>quod in statu innocentiae soluta fuisset integritas carnis.
+            <lb ed="#V" n="107"/>Si enim per integritatem carnis intelligatur integritas
+            <lb ed="#V" n="108"/>membri corporalis, cum talis non saluatur sine diuisione
+            <lb ed="#V" n="109"/>aliquarum partium illius membri, quae in sentientibus
+            <lb ed="#V" n="110"/>non est sine dolore, sequeretur quod passio animalis
+            <lb ed="#V" n="111"/>fuisset in statu innocentiae, quod est falsum.
+          </p>
+          <p xml:id="capsco-b1yehi-d1e666">
+            Tertio arguit. Quia
+            <lb ed="#V" n="112"/>vt dicit Sanctus Thomas alibi dicit oppositum scilicet ir
+            <lb ed="#V" n="113"/>prima parte, vbi tenet, quod mulieres concepissent &amp;
+            pe<lb ed="#V" n="114" break="no"/>perissent sine amissione virginitatis, potissime quantum
+            <lb ed="#V" n="115"/>ad integritatem corruptionis, &amp; sic videtur quod
+            proba<lb ed="#V" n="116" break="no"/>tio adducta de scripto contradicat probationi adductae
+            <lb ed="#V" n="117"/>de summa.
+          </p>
+          <p xml:id="capsco-b1yehi-d1e682">
+            Quarto arguit. Quia virginitas non pertinet
+            <lb ed="#V" n="118"/>ad dignitatem naturae humanae absolute, quia nulla
+            priua<lb ed="#V" n="119" break="no"/>tio boni conuenientis naturae est bona secundum se,
+            alio<lb ed="#V" n="120" break="no"/>quin naturalis inclinatio esset ad malum, cum illud sit
+            ma<lb ed="#V" n="121" break="no"/>lum, cuius priuatio est bona. Contingit autem eam esse
+            <lb ed="#V" n="122"/>bonam propter aliud inquantum promouet ad maius
+            <lb ed="#V" n="123"/>bonum quam sit illud, quod priuat. Virginitas autem
+            <lb ed="#V" n="124"/>est priuatio actus generationis, qui est conueniens
+            natu<lb ed="#V" n="125" break="no"/>rae, &amp; intentus ab ea ad conseruationem speciei, igitur
+            <lb ed="#V" n="126"/>non est licita secundum se, nec bona, sed solum
+            inquan<lb ed="#V" n="127" break="no"/>tum promouet ad maius bonum, &amp; hoc modo in statu
+            <lb ed="#V" n="128"/>naturae corrupte est licita virginitas, qua quis abstinet a
+            <lb ed="#V" n="129"/>delectationibus venereis, vt liberius vacet diuinae
+            contem<lb ed="#V" n="130" break="no"/>plationi, a qua impeditur homo iunctus matrimonio,
+            <lb ed="#V" n="131"/>sed in statu innocentiae nullam retardationem habuisset
+            <lb ed="#V" n="132"/>homo a contemplatione diuinorum ex matrimonio, &amp;
+            <lb ed="#V" n="133"/>ideo tunc non fuisset licita virginitas. Quinto. Quia dato
+            <lb ed="#V" n="134"/>quod fuisset licita non tamen fuisset possibile virginem
+            <lb ed="#V" n="135"/>concipere aut parere secundum cursum naturae, quia
+            vir<lb ed="#V" n="136" break="no"/>ginitas est inexperientia delectationum venerearum, sed
+            <lb ed="#V" n="137"/>conceptus secundum viam naturae non est sine
+            experien<lb ed="#V" n="138" break="no"/>tia earum, ergo contradictionem implicat virginem
+            con<lb ed="#V" n="139" break="no"/>cipere modo naturae.
+          </p>
+          <p xml:id="capsco-b1yehi-d1e732">
+            <lb ed="#V" n="140"/><milestone ed="#V" unit="p" rend="indent"/> Sexto Quia male accipitur illud, quod est materiale in
+            <lb ed="#V" n="141"/>virginitate. Non enim hoc est integritas corruptibilis
+            <lb ed="#V" n="142"/>membri immo omnino per accidens se habet ad
+            virgini<lb ed="#V" n="143" break="no"/>tatem. Materia enim virtutum moralium est aliqua
+            pas<lb ed="#V" n="144" break="no"/>sio animae, &amp; non illud, quod pertinet ad naturam
+            cor<lb ed="#V" n="145" break="no"/>ruptionis, propter quod si absque delectatione venerea
+            <lb ed="#V" n="146"/>violetur signaculum corporalis membri aliquo casu,
+            <lb ed="#V" n="147"/>non magis praeiudicat virginitari quam si laedatur manus
+            <lb ed="#V" n="148"/>aut pes. Vnde Augustinus primo de ciuitate Dei, dicit quod
+            <pb ed="#V" n="395"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>membra illa possunt diuersis casibus vulnerata vim
+            perpe<lb ed="#V" n="2" break="no"/>ti, &amp; medici saluti opitulantes quandoque haec faciunt ibi,
+            <lb ed="#V" n="3"/>quae horret aspectus. Obstetrix enim virginis cuiusdam
+            ma<lb ed="#V" n="4" break="no"/>nu velut virginitatem explorans, dum in spiceret perdidit.
+            <lb ed="#V" n="5"/>Et subdit. Non opinor quemquam tam stolide sapere, hic
+            <lb ed="#V" n="6"/>perisse aestimet aliquid, &amp; de ipsius corporis sanctitate,
+            quan<lb ed="#V" n="7" break="no"/>uis membri illius integritate iam perdita: igitur materia
+            <lb ed="#V" n="8"/>virginitatis non consistit in integritate membri
+            corpora<lb ed="#V" n="9" break="no"/>lis, nisi per accidens, praecipue cum contingat virum sicut
+            <lb ed="#V" n="10"/>mulierem virginitatem amittere, in quo tamen non est
+            ne<lb ed="#V" n="11" break="no"/>cesse aliquam violentiam membri corporalis fieri.
+            Pro<lb ed="#V" n="12" break="no"/>pterea ergo materia virginitatis est in experientia
+            delecta<lb ed="#V" n="13" break="no"/>tionis, quae consistit in seminis resolutione, quae si fiat ex
+            <lb ed="#V" n="14"/>mentis proposito, &amp; maxime per concubitum, soluit
+            vir<lb ed="#V" n="15" break="no"/>ginitatem. Patet ergo quod in actu matrimoniali in
+            quo<lb ed="#V" n="16" break="no"/>libet statu soluitur simpliciter virginitas. Haec Durandus.
+          </p>
+          <p xml:id="capsco-b1yehi-d1e795">
+            <lb ed="#V" n="17"/>Contra tertiam conclusionem arguit Scotus probando,
+            <lb ed="#V" n="18"/>quod soli nunc electi fuissent nati in statu innocentiae.
+            Pri<lb ed="#V" n="19" break="no"/>mo quia omnis ordinate volens, post volitionem finis,
+            <lb ed="#V" n="20"/>immediate vult illud, quod est immediatius &amp; proximius
+            <lb ed="#V" n="21"/>fini. Deus autem est ordinate volens, qui vult seipsum &amp;
+            <lb ed="#V" n="22"/>bonitatem suam tanquam finem. Quod autem est
+            proxi<lb ed="#V" n="23" break="no"/>mius isti fini est bonum creaturae rationalis vltimatum,
+            si<lb ed="#V" n="24" break="no"/>ue communicatio beatifica suae bonitatis. Ergo primo
+            <lb ed="#V" n="25"/>vult illud bonum creaturae rationali, &amp; postea vult
+            gra<lb ed="#V" n="26" break="no"/>tiam, quae ordinatur ad beatitudinem huius beati, vel ad
+            <lb ed="#V" n="27"/>fruitionem eius, &amp; posterius vult istum beatum vel
+            beatifi<lb ed="#V" n="28" break="no"/>cabilem esse nasciturum a tali parente. Si igitur prius sunt
+            <lb ed="#V" n="29"/>beatificandi determinati quam nascantur a talibus
+            paren<lb ed="#V" n="30" break="no"/>tibus, &amp; per quoscunque parentes nascantur ex quo
+            ha<lb ed="#V" n="31" break="no"/>bent rationem posterioris, huiusmodi parentes non
+            po<lb ed="#V" n="32" break="no"/>terunt variare determinandos vel determinatos
+            beatifi<lb ed="#V" n="33" break="no"/>candos a diuina voluntate, quin in certo vel eodem
+            nu<lb ed="#V" n="34" break="no"/>mero nascantur. Secundo. Quia Gregorius in quarto
+            <lb ed="#V" n="35"/>Moralium in fine sic dicit.. Si parentem primum nulla
+            ru<lb ed="#V" n="36" break="no"/>bigo peccati corrumperet, nequaquam ex se filios Gehemnae
+            <lb ed="#V" n="37"/>generaret, sed illi qui nunc per Redemptorem saluandi sunt,
+            <lb ed="#V" n="38"/>soli ab illo electi nascerentur. Tertio. Quia si hoc
+            nega<lb ed="#V" n="39" break="no"/>retur, hoc videretur pro tanto, quia aliqui electi ex
+            repro<lb ed="#V" n="40" break="no"/>bis sunt nati, sed tunc non fuissent reprobati: ergo nec
+            fi<lb ed="#V" n="41" break="no"/>lij eorum, vel oporteret dicere, quod vnus &amp; idem homo
+            <lb ed="#V" n="42"/>filius electus possit esse a diuersis parentibus ita quod ille
+            <lb ed="#V" n="43"/>electus, qui nunc natus est de patre malo, oportuisset eum
+            <lb ed="#V" n="44"/>natum fuisse ab alio patre, quod est inconueniens. Si
+            in<lb ed="#V" n="45" break="no"/>quam conclusio illa poneretur, maxime videretur propter
+            <lb ed="#V" n="46"/>istam nunc factam rationem, sed ista non cogit, quia
+            con<lb ed="#V" n="47" break="no"/>ceditur tanquam possibile, quod idem effectus numero
+            <lb ed="#V" n="48"/>potest generari a diuersis causis, quod patet, nam ignis a,
+            <lb ed="#V" n="49"/>talis quantitatis &amp; virtutis, si ex tali materia talem ignem
+            <lb ed="#V" n="50"/>generaret, ignis b, eiusdem virtutis &amp; quantitatis pro
+            eo<lb ed="#V" n="51" break="no"/>dem instanti si in istam materiam ageret, eundem ignem
+            <lb ed="#V" n="52"/>in numero produceret, non obstante quod generans sit
+            <lb ed="#V" n="53"/>aliud &amp; aliud numero, quia generatum non consequitur
+            <lb ed="#V" n="54"/>praecise vnitatem vel pluralitatem ex generante. Vnde
+            <lb ed="#V" n="55"/>corpus organicum ad hoc, quod sit idem numero non
+            <lb ed="#V" n="56"/>requirit agens idem numero, licet requiratur ibi materia
+            <lb ed="#V" n="57"/>eadem numero, &amp; existente materia eadem numero
+            indu<lb ed="#V" n="58" break="no"/>ceretur a diuersis agentibus eadem forma in numero: si
+            po<lb ed="#V" n="59" break="no"/>namus ergo filios procreari de semine, quod est superfluum
+            <lb ed="#V" n="60"/>alimenti, idem alimentum in numero, quod etiam potuit
+            <lb ed="#V" n="61"/>esse in vtroque statu, vel eadem materia nutrimenti, quae
+            <lb ed="#V" n="62"/>potuit esse hic sub vna forma, &amp; ibi sub alia forma seminis
+            <lb ed="#V" n="63"/>inducta ab vno agente per actum virtutis vegetatiuae
+            pos<lb ed="#V" n="64" break="no"/>set transmutari ad eandem formam ab alio agente, &amp; sic
+            <lb ed="#V" n="65"/>esset idem numero, &amp; tunc ille, qui nunc est filius reprobi,
+            <lb ed="#V" n="66"/>potuit fuisse filius electi. Haec Scot. Et in hoc secundus
+            ar<lb ed="#V" n="67" break="no"/>ticulus terminatur.
+          </p>
+        </div>
+        <div xml:id="capsco-b1yehi-Dd1e909">
+          <head xml:id="capsco-b1yehi-Hd1e911">Articulus 3</head>
+          <p xml:id="capsco-b1yehi-d1e913">
+            <lb ed="#V" n="68"/><milestone ed="#V" unit="p" rend="initial"/> QVantum ad tertium articulum respondendum est
+            <lb ed="#V" n="69"/>obiectionibus praelibatis. Et ad primam contra
+            se<lb ed="#V" n="70" break="no"/>cundam conclusionem dicitur, quod virginitas
+            po<lb ed="#V" n="71" break="no"/>test quintupliciter accipi. Primo modo pro integritate
+            <lb ed="#V" n="72"/>mentis &amp; corporis, cum firmo proposito conseruandi
+            ta<lb ed="#V" n="73" break="no"/>lem integritatem quantum in se est, &amp; vlterius cum voto
+            <lb ed="#V" n="74"/>firmante tale propositum. Secundo modo prout
+            inclu<lb ed="#V" n="75" break="no"/>dit duo prima, non autem tertium. Tertio modo prout
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="76"/>includit solum primum, scilicet integritatem mentis &amp;
+            <lb ed="#V" n="77"/>corporis. Quarto modo prout includit integritatem
+            men<lb ed="#V" n="78" break="no"/>tis solum, non autem integritatem corporis. Quinto
+            mo<lb ed="#V" n="79" break="no"/>do prout importat solam integritatem corporis. Horum
+            <lb ed="#V" n="80"/>autem modorum primus est strictissimus, &amp; illo soluto
+            <lb ed="#V" n="81"/>virginitas est virtus, vt dicit Sanctus Thomas secunda
+            se<lb ed="#V" n="82" break="no"/>cundae. quaestio. 152. articulo tertio in solutione.
+          </p>
+          <p xml:id="capsco-b1yehi-d1e951">
+            Secun<lb ed="#V" n="83" break="no"/>do modo dicitur minus proprie, nec est proprie virtus,
+            <lb ed="#V" n="84"/>sed habitus, aut dispositio laudabilis. Tertio modo non
+            <lb ed="#V" n="85"/>est virtus nec habitus, aut dispositio, sed status personae.
+            <lb ed="#V" n="86"/>Quarto &amp; quinto modo similiter non dicit virtutem, nec
+            <lb ed="#V" n="87"/>habitum, aut dispositionem, sed statum, &amp; sic
+            huiusmo<lb ed="#V" n="88" break="no"/>di modus est magis improprius quam quartus, &amp; quartus
+            <lb ed="#V" n="89"/>quam tertius, &amp; tertius quam secundus, &amp; secundus quam
+            <lb ed="#V" n="90"/>primus. Secundo noto, quod integritas mentis, quam 1.
+            <lb ed="#V" n="91"/>importat virginitas, potest esse quadruplex. Quandoque
+            <lb ed="#V" n="92"/>enim importat rectitudinem rationis &amp; appetitus, &amp; cum
+            <lb ed="#V" n="93"/>hoc immunitatem a consensu in delectationem veneream
+            <lb ed="#V" n="94"/>pro praeterito, &amp; praesenti, &amp; futuro, ita quod mens
+            nun<lb ed="#V" n="95" break="no"/>quam consensit in talem delectatiouem, nec proponit
+            con<lb ed="#V" n="96" break="no"/>sentire in futurum. Quandoque vero importat dissensum
+            <lb ed="#V" n="97"/>in talem delectationem in futurum, non autem
+            priuatio<lb ed="#V" n="98" break="no"/>nem aut negationem consensus pro praeterito.
+            Quando<lb ed="#V" n="99" break="no"/>que vero importat solum actualem persistentiam mentis
+            <lb ed="#V" n="100"/>tam quo ad rationem quam quo ad appetitum in bono
+            vir<lb ed="#V" n="101" break="no"/>tutis, ita quod vtraque potentia actualiter tendit in
+            casti<lb ed="#V" n="102" break="no"/>tatis bonum, licet non in hoc particulare bonum, quod
+            <lb ed="#V" n="103"/>est abstinere a delectatione venerea, puta in castitatem
+            con<lb ed="#V" n="104" break="no"/>iugalem. Quandoque vero importat solam priuationem
+            <lb ed="#V" n="105"/>peruersae rationis &amp; peruersi appetitus. Harum autem
+            in<lb ed="#V" n="106" break="no"/>tegritatum prima est perfectior quam secunda, &amp;
+            secun<lb ed="#V" n="107" break="no"/>da quam tertia, &amp; tertia quam quarta, quia prior
+            inclu<lb ed="#V" n="108" break="no"/>dit sequentem, &amp; aliquid addit. Sic enim intelligo
+            prae<lb ed="#V" n="109" break="no"/>dictam diuisionem.
+          </p>
+          <p xml:id="capsco-b1yehi-d1e1012">
+            Tertio noto, quod integritas
+            corpo<lb ed="#V" n="110" break="no"/>ris ad virginatem requisita in proposito poteit esse triplex.
+            <lb ed="#V" n="111"/>prima importat inexperientiam venereae voluptatis, &amp;
+            in<lb ed="#V" n="112" break="no"/>tegritatem membri corporalis. Secunda vero importat
+            <lb ed="#V" n="113"/>primum, &amp; non secundum. Tertia vero importat
+            secun<lb ed="#V" n="114" break="no"/>dum, &amp; non primum. Prima est perfectior secunda, &amp;
+            <lb ed="#V" n="115"/>secunda quam tertia. Quarto noto, quod propositum
+            ser<lb ed="#V" n="116" break="no"/>uandi tales integritates potest esse triplex. Primum est
+            pro<lb ed="#V" n="117" break="no"/>positum seruandi talia in futurum in omnem euentum, ita
+            <lb ed="#V" n="118"/>quod pro nullo bono temporali vel spirituali aeque bono
+            <lb ed="#V" n="119"/>vel mesiori talia dimittantur. Secundum est propositum,
+            <lb ed="#V" n="120"/>quo quis proponit talia seruare, nec ea dimittere pro
+            mi<lb ed="#V" n="121" break="no"/>nori bono, paratus tamen relinquere talia pro meliori
+            bo<lb ed="#V" n="122" break="no"/>no, si occurreret casus aut necessitas. Tertium est
+            pro<lb ed="#V" n="123" break="no"/>positum, quo quis paratus esset talia seruare si posset, vel
+            <lb ed="#V" n="124"/>si Deus iuberet, aut recta ratio dictaret, dato quod actu
+            <lb ed="#V" n="125"/>non seruet talia, quia non potest, vel quia Deus, vel
+            ra<lb ed="#V" n="126" break="no"/>tio dictat sibi oppositum pro nunc, puta quod nubat vel
+            <lb ed="#V" n="127"/>reddat debitum vxori. His praemissis dico, quod in
+            quo<lb ed="#V" n="128" break="no"/>cunque statu tam innocentiae quam culpae per coitum
+            vo<lb ed="#V" n="129" break="no"/>luntarium coniugalem amittitur virginitas stricte
+            sum<lb ed="#V" n="130" break="no"/>pta, sic quod non stat cum tali coitu. Patet quia cum
+            ta<lb ed="#V" n="131" break="no"/>li voluntario coitu non stat integritas mentis aut
+            corpo<lb ed="#V" n="132" break="no"/>ris, nec propositum, nec votum inclusa in perfecta
+            vir<lb ed="#V" n="133" break="no"/>ginltate.
+          </p>
+          <p xml:id="capsco-b1yehi-d1e1067">
+            Secundo dico, quod in statu innocentiae cum
+            <lb ed="#V" n="134"/>coitu comniugali staret virginitas secundo vel tertio vel
+            quar<lb ed="#V" n="135" break="no"/>to modo dicta. Patet quia cum tali coitu conceptu &amp;
+            par<lb ed="#V" n="136" break="no"/>tu staret integritas mentis tertio &amp; quarto modo dicta,
+            sta<lb ed="#V" n="137" break="no"/>ret etiam integritas corporis tertio modo dicta, staret
+            in<lb ed="#V" n="138" break="no"/>super propositum seruandi tales integritates, immo
+            om<lb ed="#V" n="139" break="no"/>nem integritatem loquendo de proposito tertio modo
+            <lb ed="#V" n="140"/>dicto. Tunc ad primum argumentum Durandi dicitur,
+            <lb ed="#V" n="141"/>quod Sanctus Thomas in secundo sententiarum
+            sufficien<lb ed="#V" n="142" break="no"/>ter accipit integritatem mentis, quae sufficit ad
+            virginita<lb ed="#V" n="143" break="no"/>tem improprie dictam. Ad illam enim non requiritur
+            ta<lb ed="#V" n="144" break="no"/>le propositum, de quo loquitur arguens, vt patet per
+            prae<lb ed="#V" n="145" break="no"/>dicta. Quia autem dicit arguens de absorptione
+            ratio<lb ed="#V" n="146" break="no"/>nis per somnum &amp; aegritudinem &amp; caeter. dicitur, quod
+            li<lb ed="#V" n="147" break="no"/>cet talis absorptio non praeiudicet virtuti quo ad habitum,
+            <lb ed="#V" n="148"/>praeiudicat tamen virtuti quo ad suum esse potissimum &amp;
+            <lb ed="#V" n="149"/>perfectissimum, quod consistit in actuali operatione, vnde
+            <lb ed="#V" n="150"/>talis absorptio concomitatur in statu isto coitum
+            coniu<pb ed="#V" n="396"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>galem, non autem in statu innocentiae.
+          </p>
+          <p xml:id="capsco-b1yehi-d1e1112">
+            Ad secundum
+            dici<lb ed="#V" n="2" break="no"/>tur, quod in statu innocentiae fuisset soluta integritas carnis
+            <lb ed="#V" n="3"/>primo modo &amp; secundo modo sumpta, non autem tertio
+            <lb ed="#V" n="4"/>modo sumpta.
+          </p>
+          <p xml:id="capsco-b1yehi-d1e1121">
+            Ad tertium dicitur, quod Sanctus Thomas cum dicit
+            <lb ed="#V" n="5"/>in 2. sent. quod in statu innocentiae amissa fuisset integritas
+            <lb ed="#V" n="6"/>carnis, loquitur de integritate primo modo &amp; secundo
+            mo<lb ed="#V" n="7" break="no"/>do sumpta. Cum autem dicit in prima parte, quod talis
+            inte<lb ed="#V" n="8" break="no"/>gritas mansisset, loquitur de integritate tertio modo
+            sum<lb ed="#V" n="9" break="no"/>pta, vt patet expresse per verba Augustinus quae introducit, &amp;
+            <lb ed="#V" n="10"/>sic non est in dictis eius contradictio.
+          </p>
+          <p xml:id="capsco-b1yehi-d1e1137">
+            Ad quartum negatur
+            <lb ed="#V" n="11"/>minor, si recte sumatur sub maiori, quia virginitas primo
+            <lb ed="#V" n="12"/>modo &amp; secundo modo &amp; tertio modo &amp; quarto modo
+            <lb ed="#V" n="13"/>sumpta non includit puram priuationem immo habitum,
+            <lb ed="#V" n="14"/>aut actum recta ratione regulatum. Item posito quod
+            vir<lb ed="#V" n="15" break="no"/>ginitas stricte sumpta esset talis priuatio, non tamen
+            virgi<lb ed="#V" n="16" break="no"/>nitas improprie sumpta, quae non priuat, immo stat cum
+            <lb ed="#V" n="17"/>actu coniugali, &amp; talis fuisset in statu innocentiae, non
+            au<lb ed="#V" n="18" break="no"/>tem prima.
+          </p>
+          <p xml:id="capsco-b1yehi-d1e1157">
+            Ad quintum patet per praedicta, quia loquitur
+            <lb ed="#V" n="19"/>&amp; procedit de virginitate stricte sumpta. Nos autem non
+            <lb ed="#V" n="20"/>ponimus illam stare cum coitu coniugali, aut conceptu, vel
+            <lb ed="#V" n="21"/>partu naturali.
+          </p>
+          <p xml:id="capsco-b1yehi-d1e1166">
+            Ad sextum dicitur, quod non vadit ad
+            men<lb ed="#V" n="22" break="no"/>tem Sanctus Thomas in 2. sent. nec in prima parte nullam facit
+            men<lb ed="#V" n="23" break="no"/>tionem de formali, nec de materiali virginitatis, sed solum
+            <lb ed="#V" n="24"/>dicit, quod ad rationem virginitatis duo concurrunt,
+            scili<lb ed="#V" n="25" break="no"/>cet integritas mentis, &amp; corporis, &amp; per integritatem
+            cor<lb ed="#V" n="26" break="no"/>poris intelligit integritatem primo modo vel secundo
+            mo<lb ed="#V" n="27" break="no"/>do dictam, non autem tertio modo dictam. Verum est
+            ta<lb ed="#V" n="28" break="no"/>men, quod in 2. senten. non ita expressit naturam
+            virginita<lb ed="#V" n="29" break="no"/>tis, sicut secunda secundae, vbi supra, &amp; 4. sentent. distin. 33.
+            <lb ed="#V" n="30"/>q. 3. articul. 1. Vbi tractat materiam a proposito. Virginitas
+            <lb ed="#V" n="31"/>(inquit) integritas quaedam est, vnde per priuationem
+            cor<lb ed="#V" n="32" break="no"/>ruptionis dicitur quae in actu generationis accidit. Vbi
+            tri<lb ed="#V" n="33" break="no"/>plex est corruptio, vna corporalis tantum, in hoc quod
+            csau<lb ed="#V" n="34" break="no"/>stra pudoris franguntur, alia spiritualis &amp; corporalis simul,
+            <lb ed="#V" n="35"/>ex hoc quod per decisionem &amp; motum seminis in sensu
+            dele<lb ed="#V" n="36" break="no"/>ctatio generatur: tertia est spiritualis tantum, ex hoc quod
+            <lb ed="#V" n="37"/>ratio huic delectationi se subijcit, in qua integritatem per.
+            <lb ed="#V" n="38"/>dit quantum ad actum, quia impossibile est aliquid
+            intel<lb ed="#V" n="39" break="no"/>ligere in ipsa, vt dicit Philostt 7. Ethicorum, &amp; ipsa rationis
+            <lb ed="#V" n="40"/>absorptio corruptio dicitur. Haec autem corruptio tertia
+            <lb ed="#V" n="41"/>non est rationis actus, sed quaedam passio per accidens
+            er<lb ed="#V" n="42" break="no"/>conueniens ex passione inferioris partis, sicut per somnum
+            <lb ed="#V" n="43"/>vel frenesi &amp; alias passiones corporales contingit actum
+            <lb ed="#V" n="44"/>rationis impediri per accidens. Cum ergo virtus &amp; vitium
+            <lb ed="#V" n="45"/>in actu rationis consentientis aut dissentientis perficiant,
+            <lb ed="#V" n="46"/>in omnibus praedictis corruptionibus non inuenitur
+            suffi<lb ed="#V" n="47" break="no"/>ciens ratio vicij aut virtutis, sed oportet addere rationis
+            <lb ed="#V" n="48"/>consensum vel dissensum. Et quia virginitas in genere
+            mo<lb ed="#V" n="49" break="no"/>ris est pertinens ad virtutem, ideo dicit Lucia, quod non
+            in<lb ed="#V" n="50" break="no"/>quinatur corpus nisi de consensu mentis inquinatione,
+            sci<lb ed="#V" n="51" break="no"/>licet opposita puritati virginitatis. Prima ergo corruptio,
+            <lb ed="#V" n="52"/>quae est corporalis tantum, non est materia virtutis, &amp;
+            vi<lb ed="#V" n="53" break="no"/>cij, nisi per accidens mediante aliqua animae passione.
+            Vn<lb ed="#V" n="54" break="no"/>de si per aliquam incisionem claustra pudoris rumpantur,
+            <lb ed="#V" n="55"/>non magis inerit detrimentum virginitati, quam si pes aut
+            <lb ed="#V" n="56"/>manus gladio incideretur. Sed secunda &amp; tertia corruptio
+            <lb ed="#V" n="57"/>sunt materia virginitatis, &amp; oppositi eius, sicut &amp; aliae
+            ani<lb ed="#V" n="58" break="no"/>mae passiones sunt materia virtutum moralium, &amp;
+            opposi<lb ed="#V" n="59" break="no"/>torum vitiorum. Sed in actu rationis eligentis vel
+            repu<lb ed="#V" n="60" break="no"/>diantis corruptiones praedictas finaliter perficitur
+            inquina<lb ed="#V" n="61" break="no"/>tio, quam negat virginitas. Haec ille.
+          </p>
+          <p xml:id="capsco-b1yehi-d1e1255">
+            Et multa alia bona
+            <lb ed="#V" n="62"/>ponit ibidem circa istam materiam. Vt puta quomodo
+            vir<lb ed="#V" n="63" break="no"/>ginitas quandoque dicit habitum cum tali statu, quod
+            pos<lb ed="#V" n="64" break="no"/>sit exire in actum electionis seruandi incorruptionem.
+            Quan<lb ed="#V" n="65" break="no"/>doque vero dicit habitum sine tali statu.
+          </p>
+          <p xml:id="capsco-b1yehi-d1e1267">
+            Item quomodo
+            <lb ed="#V" n="66"/>virginitas primo modo potest perdi cum peccato, &amp; sine
+            <lb ed="#V" n="67"/>peccato, nec potest recuperari per poenitentiam &amp; caet.
+            <lb ed="#V" n="68"/>Vnde patet, quod arguens dissimulat se legisse Sanctum Thomam
+            <lb ed="#V" n="69"/>cum tamen in hac materia nil boni dicat, nisi quod de
+            di<lb ed="#V" n="70" break="no"/>ctis Sancti Thomae vsurpauit, vt patet legenti quaestio. 152.
+            <lb ed="#V" n="71"/>in secunda secundae.
+          </p>
+          <p xml:id="capsco-b1yehi-d1e1283">
+            Ad primum Scoti contra tertiam
+            con<lb ed="#V" n="72" break="no"/>clusionem patet responsio ex dictis Sancti Thomae in
+            pro<lb ed="#V" n="73" break="no"/>batione conclusionis huius. Nam licet Deus ab aeterno
+            de<lb ed="#V" n="74" break="no"/>terminauerit numerum electorum, hoc tamen fecit cum
+            <lb ed="#V" n="75"/>praescientia futuri casus. Vnde si nullus vnquam peccasset,
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="76"/>multi essent nunc electi, qui non sunt electi nunc, &amp;
+            econ<lb ed="#V" n="77" break="no"/>tra multi sunt nunc saluati electi &amp; praedestinati, qui tunc
+            <lb ed="#V" n="78"/>nec nati nec praedestinati fuissent.
+          </p>
+          <p xml:id="capsco-b1yehi-d1e1303">
+            Nec valet consequentia
+            <lb ed="#V" n="79"/>parentes non possunt variare determinationem numeri
+            prae<lb ed="#V" n="80" break="no"/>destinatorum: igitur non alij sunt nunc, &amp; alij essent
+            tunc<lb ed="#V" n="81" break="no"/>Nec econtra alij sunt nunc praedestinati, &amp; alij essent tunc:
+            <lb ed="#V" n="82"/>igitur parentes variauerunt aliquid circa diuinam
+            praede<lb ed="#V" n="83" break="no"/>stinationem. Cuius ratio est, quia variatio importat
+            mo<lb ed="#V" n="84" break="no"/>tum &amp; successionem, qua aliquid prius existens destructum
+            <lb ed="#V" n="85"/>sit. Hoc autem non infertur ex hoc quod dicitur, quod in
+            <lb ed="#V" n="86"/>tali casu sic fuisset, &amp; in praesenti aliter est, quia isti duo
+            ca<lb ed="#V" n="87" break="no"/>sus non sibi succedunt, cum vnus eorum nunquam fuerit
+            <lb ed="#V" n="88"/>Item non videtur verum quod arguens concludit, scilicet
+            <lb ed="#V" n="89"/>quod Deus prius voluerit ab aeterno gloriam &amp; gratiam
+            <lb ed="#V" n="90"/>Petri aut Mariae quam personam ipsorum, aut eorum
+            pa<lb ed="#V" n="91" break="no"/>rentes, vel accidens quam subiectum illius.
+          </p>
+          <p xml:id="capsco-b1yehi-d1e1334">
+            Nec valet
+            pro<lb ed="#V" n="92" break="no"/>batio ad hoc facta, quia licet gloria &amp; gratia sint
+            secun<lb ed="#V" n="93" break="no"/>dum vnum ordinem proximiora &amp; similiora Deo &amp; suae
+            <lb ed="#V" n="94"/>bonitati, aut vltimo fini secundum vnam
+            consideratio<lb ed="#V" n="95" break="no"/>nem quam substantiae in quibus sunt, fuerunt, aut erunt,
+            <lb ed="#V" n="96"/>tamen secundum aliam considerationem sunt posteriora,
+            <lb ed="#V" n="97"/>habent enim se sicut excedens &amp; excessum in perfectione.
+            <lb ed="#V" n="98"/>Vno modo enim accidens est perfectius subiecto, &amp; Deo
+            <lb ed="#V" n="99"/>similius. Alio modo econtra, potissime cum accidentia
+            <lb ed="#V" n="100"/>ordinentur ad perfectionem subiecti.
+          </p>
+          <p xml:id="capsco-b1yehi-d1e1356">
+            Item quicquid sit de
+            <lb ed="#V" n="101"/>hoc concesso, quod prius ordine rationis Deus voluerit
+            <lb ed="#V" n="102"/>talia accidentia quam eorum substantiam, non oportet
+            vl<lb ed="#V" n="103" break="no"/>teriorem processum valere, quia bene stat, quod Deus ab
+            <lb ed="#V" n="104"/>aeterno praeuidit homines peccaturos, &amp; posse non
+            pecca<lb ed="#V" n="105" break="no"/>re damnandos, &amp; posse non damnari, &amp; ideo parte sui tot
+            <lb ed="#V" n="106"/>praedestinauerit, tamen simul cum hoc potuerit non tot
+            <lb ed="#V" n="107"/>nec tales, nec hos, sed alios plures, aut pauciores
+            praede<lb ed="#V" n="108" break="no"/>stinare. Nec ex tali possibilitate sequitur, quod in Deo
+            <lb ed="#V" n="109"/>fuerit aut esse potuerit mutatio, sed solum quod in ipso
+            fue<lb ed="#V" n="110" break="no"/>rit &amp; esse potuerit potentia ad contraria, vel
+            contradicto<lb ed="#V" n="111" break="no"/>ria, quod nullus catholicus negare potest.
+          </p>
+          <p xml:id="capsco-b1yehi-d1e1382">
+            Ad secundum
+            <lb ed="#V" n="112"/>patet responsio per dicta Sancti Thomae in probatione
+            con<lb ed="#V" n="113" break="no"/>clusionis. Prima enim pars illius auctoritatis non aliud
+            <lb ed="#V" n="114"/>concludit, nisi quod ista conditionalis est vera. Si Adam
+            <lb ed="#V" n="115"/>non peccaret, in nullum peccatum originale
+            transfunde<lb ed="#V" n="116" break="no"/>ret. Non autem concludit istam. Si Adam non peccasset:
+            <lb ed="#V" n="117"/>Adam non genuisset Caym. De quo tamen constat, quod
+            <lb ed="#V" n="118"/>fuit filius irae &amp; Gehennae. Similiter secunda pars
+            auctori<lb ed="#V" n="119" break="no"/>tatis non est intelligenda, quodin illo casu quo Adam non
+            <lb ed="#V" n="120"/>peccasset soli Abel, Enoch, Noe, Abraam, Isaac, &amp; sic de
+            <lb ed="#V" n="121"/>alijs nunc saluatis nati essent: Sed quod nullus natus ex
+            <lb ed="#V" n="122"/>Adam ex tali origine haberet obstaculum suae salutis,
+            si<lb ed="#V" n="123" break="no"/>cut nunc multi habent.
+          </p>
+          <p xml:id="capsco-b1yehi-d1e1412">
+            Ad tertium negatur minor, qua
+            <lb ed="#V" n="124"/>dicitur, quod idem filius numero, qui nunc est generatus
+            <lb ed="#V" n="125"/>a talibus parentibus potuit generari ab alijs parentibus
+            nu<lb ed="#V" n="126" break="no"/>mero distinctis. Et ad probationem ad hoc adductam
+            di<lb ed="#V" n="127" break="no"/>citur primo, quod ignis ille idem numero qui generatur
+            <lb ed="#V" n="128"/>ex a, agente naturali, non potest naturaliter generari ab alio
+            <lb ed="#V" n="129"/>agente naturali quantumcunque sit eiusdem speciei cum
+            <lb ed="#V" n="130"/>a, &amp; aequalis virtutis, &amp; omnino similis dispositionis ad
+            <lb ed="#V" n="131"/>agendum. Secundo dicitur, quod illud idem numero
+            cor<lb ed="#V" n="132" break="no"/>pus organicum, quod generatum est a talibus parentibus,
+            <lb ed="#V" n="133"/>puta Adam &amp; Eua non potuit naturaliter generari ab Abraam
+            <lb ed="#V" n="134"/>&amp; Sarra. Tertio dicitur, quod illud semen, vel illa caro, aut
+            il<lb ed="#V" n="135" break="no"/>le sanguis, qui generatus est ex virtute digestiua vel
+            vege<lb ed="#V" n="136" break="no"/>tatiua Petri, nunquam potuit naturaliter generari a
+            virtu<lb ed="#V" n="137" break="no"/>te vegetatiua Ioannis. Quorum omnium rationem esse
+            cre<lb ed="#V" n="138" break="no"/>do istam, quia scilicet causa &amp; effectus sibi
+            proportiona<lb ed="#V" n="139" break="no"/>biliter correspondent, vt sicut a calido fit calidum, ita ab
+            <lb ed="#V" n="140"/>hoc calido fit hoc calidum, &amp; hic calor. Aliter inter
+            cau<lb ed="#V" n="141" break="no"/>sam efficientem &amp; suum effectum non esset ordo per se, sed
+            <lb ed="#V" n="142"/>a casu. Nec effectus particularis &amp; signatus haberet
+            cau<lb ed="#V" n="143" break="no"/>sam signatam. sed indifferentem.
+          </p>
+          <p xml:id="capsco-b1yehi-d1e1458">
+            Item quia concessa illa
+            ma<lb ed="#V" n="144" break="no"/>xima Scoti, sequerentur multa inconuenientia. Vt puta,
+            <lb ed="#V" n="145"/>quod in casu quo multa luminaria aequalis virtutis &amp;
+            aequa<lb ed="#V" n="146" break="no"/>liter approximata eidem diaphano essent, non intensius
+            <lb ed="#V" n="147"/>lumen causarent omnia quam vnum solum. Patet
+            conse<lb ed="#V" n="148" break="no"/>quentia, quia secundum imaginationem arguentis illum
+            <lb ed="#V" n="149"/>&amp; eundem effectum quem causaret vnum illorum
+            lumina<lb ed="#V" n="150" break="no"/>rium, causaret quodlibet illorum, &amp; non alium effectum.
+            <pb ed="#V" n="397"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>Consequens est manifeste falsum.
+          </p>
+          <p xml:id="capsco-b1yehi-d1e1482">
+            Item sicut arguit Adam
+            <lb ed="#V" n="2"/>super primo sententiarum. quaestione decimaseptima. Non
+            <lb ed="#V" n="3"/>minus repugnat actiuo vnico mere naturali producere in
+            <lb ed="#V" n="4"/>passo aliquo realiter &amp; situaliter distincto effectum
+            eun<lb ed="#V" n="5" break="no"/>dem numero, quem aliud eiusdem speciei natum esset
+            suf<lb ed="#V" n="6" break="no"/>ficienter illo circunscripto producere, quam alteri actiuo
+            <lb ed="#V" n="7"/>mere naturali alterius speciei respectu effectus ab eo
+            pro<lb ed="#V" n="8" break="no"/>ducibilis in passo competenti realiter &amp; situaliter
+            distin<lb ed="#V" n="9" break="no"/>cto: igitur si vni repugnat, videtur quod cuilibet
+            repu<lb ed="#V" n="10" break="no"/>gnabit. Sed alicui repugnat hoc, quia visionem
+            sensiti<lb ed="#V" n="11" break="no"/>uam vel intellectiuam eandem numero, quam causat
+            respe<lb ed="#V" n="12" break="no"/>ctu sui hoc visibile, vel hoc intelligibile, nullum aliud
+            vi<lb ed="#V" n="13" break="no"/>sibile eiusdem speciei posset producere, quia nullum aliud
+            <lb ed="#V" n="14"/>sensibile natum esset sufficienter hoc circunscripto
+            produ<lb ed="#V" n="15" break="no"/>cere visionem propriam istius. Tum quia tunc non
+            pro<lb ed="#V" n="16" break="no"/>pria huius esset, vel nulli alteri debetur propria visio
+            cau<lb ed="#V" n="17" break="no"/>sabilis per naturam, vel propositum. Tum quia actiuum
+            <lb ed="#V" n="18"/>mere naturale agit secundum vltimum suae potentiae, &amp;
+            <lb ed="#V" n="19"/>ideo si potest haec albedo causare visionem propriam
+            alte<lb ed="#V" n="20" break="no"/>rius albedinis, sufficienter facit, &amp; non solum vnius
+            alte<lb ed="#V" n="21" break="no"/>rius a se quam cuiuslibet infinitarum: igitur cum non sit
+            <lb ed="#V" n="22"/>maior ratio quod causet vnius quam alterius visionem, vel
+            <lb ed="#V" n="23"/>causabit propriam cuiuslibet, vel nullius, &amp; non cuiuslibet
+            <lb ed="#V" n="24"/>alterius, quia tunc infinitas simul: igitur nullius alterius.
+            <lb ed="#V" n="25"/>igitur tantum propriam sui ipsius. Et sicut non potest
+            cau<lb ed="#V" n="26" break="no"/>sare visionem propriam alterius, ita nec albedo alia
+            visio<lb ed="#V" n="27" break="no"/>mem huius.
+          </p>
+          <p xml:id="capsco-b1yehi-d1e1541">
+            Praeterea. Omnis cognitio est signum
+            natu<lb ed="#V" n="28" break="no"/>rale illius, quod per se signat tali potentiae, quam informat
+            <lb ed="#V" n="29"/>primo, aliter eadem cognitio posset esse non tot quin
+            plu<lb ed="#V" n="30" break="no"/>rrium distincta cognitio. Item nihil in mundo esset
+            cogno<lb ed="#V" n="31" break="no"/>scibile cognitione sibi propria. Et hoc sequitur
+            correla<lb ed="#V" n="32" break="no"/>rie, quod haec albedo siue posset causare plures visiones
+            <lb ed="#V" n="33"/>sui, siuetantum vnicam, nunquam tamen poterit causare
+            <lb ed="#V" n="34"/>nec in eadem potentia, nec in alia aliquam de omnibus
+            in<lb ed="#V" n="35" break="no"/>finitis causabilibus in eadem potentia vel alia proprijs,
+            re<lb ed="#V" n="36" break="no"/>spectu cuiuscunque alterius albedinis. Et cum hoc stat, &amp;
+            <lb ed="#V" n="37"/>verum est, quod omnes visiones propriae quarumcunque
+            <lb ed="#V" n="38"/>calbedinum causabiles sufficienter ab illis albedinibus, &amp;
+            <lb ed="#V" n="39"/>potentijs visiuis eiusdem speciei specialissimae sunt
+            eius<lb ed="#V" n="40" break="no"/>dem rationis, quia omnes causae concurrentes sunt
+            eius<lb ed="#V" n="41" break="no"/>dem speciei cum causis concurrentibus respectu alterius
+            <lb ed="#V" n="42"/>causandae: igitur &amp; caetera. Et quamuis via haec arguendi
+            <lb ed="#V" n="43"/>de diuersis ignibus respectu eiusdem ignis numero
+            causan<lb ed="#V" n="44" break="no"/>di non possit ita euidens sumi ex proprijs conditionibus
+            <lb ed="#V" n="45"/>ignium, sicut haec ex proprijs conditionibus actuum &amp;
+            o<lb ed="#V" n="46" break="no"/>biectorum, tamen omne argumentum quod fieret ad
+            pro<lb ed="#V" n="47" break="no"/>bandum oppositum de ignibus, aeque probaret oppositum
+            <lb ed="#V" n="48"/>de obiectis &amp; visionibus, &amp; ita naturalis &amp; necessaria
+            cau<lb ed="#V" n="49" break="no"/>salitas est ex vna parte sicut ex alia. Ex quo patet
+            euiden<lb ed="#V" n="50" break="no"/>ter, quod falsum est dicere, quod idem numero causabile
+            <lb ed="#V" n="51"/>sit a diuersis naturaliter obiectis, si aliqua sit possibilis
+            co<lb ed="#V" n="52" break="no"/>gnitio vel propria visio huius albedinis: igitur per locum
+            <lb ed="#V" n="53"/>a simili innotescit haec ibi. Haec Adam in forma. Sed in
+            <lb ed="#V" n="54"/>oppositum arguit Scotus &amp; Ocham, quod de eadem
+            ma<lb ed="#V" n="55" break="no"/>teria numero a diuersis agentibus numero distinctis
+            pro<lb ed="#V" n="56" break="no"/>ducatur idem effectus numero. Quia accipiamus
+            mini<lb ed="#V" n="57" break="no"/>mam materiam naturaliter per se existibilem summe
+            dispo<lb ed="#V" n="58" break="no"/>sitam ad combustionem, puta stupam, &amp; approximentur
+            <lb ed="#V" n="59"/>sibi per diuinam potentiam duo vel tres ignes in eodem
+            si<lb ed="#V" n="60" break="no"/>tu adaequato, quo facto illa stupa a quolibet illorum
+            in<lb ed="#V" n="61" break="no"/>cenderetur alio amoto, &amp; in casu illo generabitur ex
+            stu<lb ed="#V" n="62" break="no"/>pa vnicus ignis a quolibet illorum existentium in eodem
+            <lb ed="#V" n="63"/>situ, vel a nullo. Nulla enim proteruia quae habeat
+            colo<lb ed="#V" n="64" break="no"/>rem posset assignari, quare magis esset ab vno quam ab
+            <lb ed="#V" n="65"/>alio, &amp; tamen a quolibet omnium manifeste ibi
+            produce<lb ed="#V" n="66" break="no"/>retur si alij non adessent. Igitur quilibet illorum est
+            cau<lb ed="#V" n="67" break="no"/>sa totalis illius effectus illo modo, quo creatura potest
+            es<lb ed="#V" n="68" break="no"/>se causa totalis alicuius effectus. Ad hoc respondet Adam
+            <lb ed="#V" n="69"/>&amp; bene, quod in illo casu ille effectus idem numero, qui
+            <lb ed="#V" n="70"/>producitur a duobus pluribus ignibus simul non posset
+            <lb ed="#V" n="71"/>produci ab vno illorum per se &amp; solitarie sumpto, quia
+            va<lb ed="#V" n="72" break="no"/>riato efficiente qualitercunque in numero vel entitate
+            sem<lb ed="#V" n="73" break="no"/>per erit alius &amp; alius effectus secundum numerum. Posset
+            <lb ed="#V" n="74"/>etiam dici secundum eundem, quod in tali casu materia
+            <lb ed="#V" n="75"/>reciperet diuersas formas secundum diuersa agentia, vel
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="76"/>quod vna pars integralis vel intensiua formae causabitur
+            <lb ed="#V" n="77"/>ab vno illorum ignium, &amp; alia ab alio, vel quod neutram
+            <lb ed="#V" n="78"/>recipiet ab hoc, nec ab illo: &amp; alias vias ponit ibi Adam,
+            <lb ed="#V" n="79"/>sed non videntur probabiles.
+          </p>
+          <p xml:id="capsco-b1yehi-d1e1658">
+            Item ad argumentum
+            Sco<lb ed="#V" n="80" break="no"/>ti secundo loco inductum contra tertiam conclusionem
+            <lb ed="#V" n="81"/>dicit Adam, quod si Adam non peccasset, electi
+            habuis<lb ed="#V" n="82" break="no"/>sent easdem animas, non autem eadem corpora, &amp; sic non
+            <lb ed="#V" n="83"/>oportet concedere, quod idem corpus potuit produci a
+            <lb ed="#V" n="84"/>diuersis patribus. Sed quia apud me dubium est, an
+            ea<lb ed="#V" n="85" break="no"/>dem anima in numero possit infundi diuersis corporibus
+            <lb ed="#V" n="86"/>numero totaliter distinctis, ideo non teneo illam
+            solutio<lb ed="#V" n="87" break="no"/>nem, sed eam quam ponit Beatus Thomas vbi supra.
+            Gre<lb ed="#V" n="88" break="no"/>gorus tamen de Arimino super secundo sententiarum
+            sequi<lb ed="#V" n="89" break="no"/>tur viam ipsius Adae quasi de verbo ad verbum. Sed adhuc
+            <lb ed="#V" n="90"/>potest argui pro via Scoti, &amp; Ocham, sicut arguebat
+            qui<lb ed="#V" n="91" break="no"/>dam socius Gregorius quod idem effectus numero
+            naturali<lb ed="#V" n="92" break="no"/>ter producibilis ab hoc agente &amp; ab alio, est
+            improducibi<lb ed="#V" n="93" break="no"/>lis agente totaliter distincto &amp; naturali. Primo sic. Idem
+            <lb ed="#V" n="94"/>effectus numero est corruptibilis naturaliter ab hoc
+            agen<lb ed="#V" n="95" break="no"/>te, &amp; ab alio totaliter distincto: igitur &amp; producibilis.
+            Te<lb ed="#V" n="96" break="no"/>net consequentia. Quiamnon maior ratio videtur hic quam
+            <lb ed="#V" n="97"/>ibi. Antecedens patet, quia idem calor numero qui
+            cor<lb ed="#V" n="98" break="no"/>rumpitur ab hac aqua, ita bene potuit corrumpi ab alia aqua.
+            <lb ed="#V" n="99"/>Secundo. Quia duae possunt esse causae totales effectiuae
+            eius<lb ed="#V" n="100" break="no"/>dem effectus, &amp; qui est producibilis ab vna, est
+            produci<lb ed="#V" n="101" break="no"/>bilis ab alia. Antecedens probatur, quia si duo ignes
+            suf<lb ed="#V" n="102" break="no"/>ficienter approximarentur eidem stipulae, quilibet illorum
+            <lb ed="#V" n="103"/>sufficienter igniret illam sine alio. Tertio. Quia eiusdem
+            <lb ed="#V" n="104"/>effectus possunt esse duo fines totales: igitur duo causae
+            <lb ed="#V" n="105"/>agentes. Consequentia patet, quia non est maior ratio
+            <lb ed="#V" n="106"/>hinc quam inde. Antecedens patet, quia aliquis potest
+            ali<lb ed="#V" n="107" break="no"/>quem effectum facere propter duos fines, quorum
+            quili<lb ed="#V" n="108" break="no"/>bet si per se esset, sufficienter moueret agens ad causandum
+            <lb ed="#V" n="109"/>illum effectum. Quarto. Quia si ille idem calor in
+            nume<lb ed="#V" n="110" break="no"/>ro, qui producitur ab a igne, non posset produci ab alio
+            <lb ed="#V" n="111"/>igne, tunc inter indiuidua eiusdem speciei esset ordo
+            essen<lb ed="#V" n="112" break="no"/>tialis dependentiae. Quinto. Quia illam eandem
+            sensatio<lb ed="#V" n="113" break="no"/>nem in numero, quam causat nunc istud ouum, potest
+            ali<lb ed="#V" n="114" break="no"/>quod ouum naturaliter conseruare &amp; continuare: igitur
+            <lb ed="#V" n="115"/>potest eam producere vel produxisse. Consequentia tenet.
+            <lb ed="#V" n="116"/>Sed antecedens probatur, quia si Deus poneret vnum aliud
+            <lb ed="#V" n="117"/>ouum totaliter simile in eodem situ cum isto, subtrahendo
+            <lb ed="#V" n="118"/>causalitatem prioris, adhuc remaneret prior sensatio.
+            Alio<lb ed="#V" n="119" break="no"/>quin posset sentiens percipere differentiam inter vnum ouum,
+            <lb ed="#V" n="120"/>&amp; aliud, quod est falsum.
+          </p>
+          <p xml:id="capsco-b1yehi-d1e1749">
+            Ad primum istorum respondet
+            <lb ed="#V" n="121"/>Gregorius negando consequentiam, &amp; eius probationem.
+            <lb ed="#V" n="122"/>Vnde a simil posset probari, quod a pluribus &amp; diuersis
+            se<lb ed="#V" n="123" break="no"/>cundum speciem equus &amp; bos sint naturaliter
+            producibi<lb ed="#V" n="124" break="no"/>les. Et ita de alijs speciebus animalium perfectorum, quod
+            <lb ed="#V" n="125"/>tamen constat esse falsum. Nam equus est corruptibilis ab
+            <lb ed="#V" n="126"/>aqua, &amp; ab igne &amp; lapide cadente, &amp; a multis alijs specie
+            <lb ed="#V" n="127"/>differentibus.
+          </p>
+          <p xml:id="capsco-b1yehi-d1e1768">
+            Ad secundum dicit, quod si antecedens
+            in<lb ed="#V" n="128" break="no"/>telligatur de eodem effectu secundum numerum, sicut
+            opor<lb ed="#V" n="129" break="no"/>tet intelligi, si consequens debeat inferri ad propositum,
+            il<lb ed="#V" n="130" break="no"/>lud est negandum. Nam quamuis quilibet igniret per se,
+            <lb ed="#V" n="131"/>neuter tamen causaret formam ignis causabilem ab alio,
+            <lb ed="#V" n="132"/>vnde argumentum non probat, nisi quod idem effectus
+            spe<lb ed="#V" n="133" break="no"/>cie est producibilis ab vtroque.
+          </p>
+          <p xml:id="capsco-b1yehi-d1e1784">
+            Ad tertium dicit, quod
+            quic<lb ed="#V" n="134" break="no"/>quid sit de antecedente intellecto de fine voluntario
+            prae<lb ed="#V" n="135" break="no"/>stituto ab agente, de quali procedit probatio eius, negatur
+            <lb ed="#V" n="136"/>consequentia. Nec probatio ibi facta valet, scilicet quod non
+            <lb ed="#V" n="137"/>est maior ratio hinc quam inde. Vnde tali
+            argumentationi<lb ed="#V" n="138" break="no"/>sufficiat instare. Similiter arguendo de quolibet effectu
+            na<lb ed="#V" n="139" break="no"/>turali, quod produci possit naturaliter ab agentibus
+            natu<lb ed="#V" n="140" break="no"/>ralibus specie differentibus.
+          </p>
+          <p xml:id="capsco-b1yehi-d1e1802">
+            Ad quartum dicitur, quod
+            conse<lb ed="#V" n="141" break="no"/>quens potest concedi ad hunc sensum, quod vnum indiuiduum
+            <lb ed="#V" n="142"/>dependet ab alio eiusdem speciei tanquam a per se causa
+            ex<lb ed="#V" n="143" break="no"/>trinseca. Et si arguitur contra hoc, quia in essentialiter
+            or<lb ed="#V" n="144" break="no"/>dinatis non est processus infinitum qualitercunque
+            ordinen<lb ed="#V" n="145" break="no"/>tur essentialiter: igitur inter indiuidua eius speciei non est
+            <lb ed="#V" n="146"/>ordo essentialis dependentiae. Et probatur consequentia,
+            <lb ed="#V" n="147"/>quia in illis est processus in infinitum. Et antecedens
+            pa<lb ed="#V" n="148" break="no"/>tet secundo Metaphy sic. Dicitur ad hoc quod antecedens
+            <lb ed="#V" n="149"/>potest dupliciter intelligi. Vno modo quod respectu vnius
+            <lb ed="#V" n="150"/>effectus non sunt infinitae causae essentialiter ordinatae.
+            <pb ed="#V" n="398"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>Et hunc sensum habet Philosophus 2. Met. &amp; sic conceditur
+            <lb ed="#V" n="2"/>antecedens, &amp; negetur consequentia, accipiendo consequens
+            <lb ed="#V" n="3"/>in hoc sensu, quod scilicet vnum indiuiduum sit per se causa
+            <lb ed="#V" n="4"/>extrinseca alterius eiusdem speciei. Hoc enim nullatenus
+            <lb ed="#V" n="5"/>repugnat antecedenti. Alio modo potest antecedens
+            intel<lb ed="#V" n="6" break="no"/>ligi sic, scilicet quod non est possibile, vt aliquo tanquam a,
+            <lb ed="#V" n="7"/>per se causa dependeat aliud, vt ab a, dependeat b, sic quod bs
+            <lb ed="#V" n="8"/>non possit naturaliter produci nisi ab a, Et iterum eodem
+            <lb ed="#V" n="9"/>modo ab ipso b, dependeat c, &amp; a, c, dependeat d, &amp; sic in
+            <lb ed="#V" n="10"/>infinitum, negatur antecedens. Nec in hoc sensu loquitur
+            <lb ed="#V" n="11"/>Philosophus. Sic enim non ponitur vnus effectus numero
+            <lb ed="#V" n="12"/>dependere a causis infinitis essentialiter ordinatis. Nam
+            cau<lb ed="#V" n="13" break="no"/>sae essentialiter ordinatae omnes simul causant, quod in
+            pro<lb ed="#V" n="14" break="no"/>posito non contingit, &amp; ideo non sunt tales causae
+            essentia<lb ed="#V" n="15" break="no"/>liter ordinatae in causando.
+          </p>
+          <p xml:id="capsco-b1yehi-d1e1863">
+            Ad quintum dicit, quod
+            quic<lb ed="#V" n="16" break="no"/>quid sit de consequentia, negatur antecedens. Et ad
+            pro<lb ed="#V" n="17" break="no"/>bationem dicit, quod illo casu dato non remaneret eadem
+            sen<lb ed="#V" n="18" break="no"/>satio. Et quod infertur vlterius, negatur consequentia, quia
+            <lb ed="#V" n="19"/>non quacunque variatione possibili posita notificationis
+            <lb ed="#V" n="20"/>in anima ex alietate obiectorum, potest homo naturaliter
+            <lb ed="#V" n="21"/>percipere illorum alietatem &amp; differentiam, sicut in multis
+            <lb ed="#V" n="22"/>casibus posset dari exemplum. Haec Gregorius &amp; bene. Ad
+            argu<lb ed="#V" n="23" break="no"/>menta in principio quaestionis facta patet solutio per
+            prae<lb ed="#V" n="24" break="no"/>dicta. Et haec de quaestione. Benedictus Deus, Amen.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

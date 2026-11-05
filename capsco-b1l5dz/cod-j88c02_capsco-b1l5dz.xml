@@ -1,0 +1,770 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 2, Distinctio 11, Quaestio 2</title>
+        <author ref="#JohannesCapreolus">Johannes Capreolus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 2, Distinctio 11, Quaestio 2</title>
+          <date when="2026-11-04">Nov 4, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-j88c02">Venice, 1589, v. 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-04" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="290"/>
+        <cb ed="#V" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="capsco-b1l5dz"><!-- l2d11q2 -->
+        <head xml:id="capsco-b1l5dz-Hd1e101">Quaestio 2</head>
+        <head xml:id="capsco-b1l5dz-Hd1e103" type="question-title">Utrum angeli ex mutua illuminatione proficiant</head>
+        <p xml:id="capsco-b1l5dz-d1e106">
+          <lb ed="#V" n="83"/>QVAESTIO II.
+          <lb ed="#V" n="84"/>Vtrum angeli ex mutua illuminatione proficiant.
+        </p>
+        <p xml:id="capsco-b1l5dz-d1e113">
+          <lb ed="#V" n="85"/><milestone ed="#V" unit="p" rend="initial"/> ITERVM circa vndecimam distinctionem secundi
+          <lb ed="#V" n="86"/>quaeritur. Vtrum angeli ex mutua illuminatione
+          pro<lb ed="#V" n="87" break="no"/>ficiant.
+        </p>
+        <p xml:id="capsco-b1l5dz-d1e123">
+          Et arguitur quod non. Quia triplex est lumen
+          <lb ed="#V" n="88"/>in angelis, scilicet naturae, gratiae, &amp; gloriae, sed
+          ange<lb ed="#V" n="89" break="no"/>lus illuminatur lumine naturae a creante, lumine gratiae a
+          <lb ed="#V" n="90"/>iustificante, gloriae a beatificante, quod totum Dei est:
+          igi<lb ed="#V" n="91" break="no"/>tur vnus angelus non illuminat alium.
+        </p>
+        <p xml:id="capsco-b1l5dz-d1e135">
+          <lb ed="#V" n="92"/><milestone ed="#V" unit="p" rend="indent"/> In oppositum arguitur. Quia Dionysius 4 cap. coelestis
+          <lb ed="#V" n="93"/>Hierarchiae dicit, quod angeli secundae Hierarchiae
+          pur<lb ed="#V" n="94" break="no"/>gantur &amp; illuminantur &amp; perficiuntur per angelos primae
+          <lb ed="#V" n="95"/>Hierarchiae.
+        </p>
+        <p xml:id="capsco-b1l5dz-d1e147">
+          <lb ed="#V" n="96"/><milestone ed="#V" unit="p" rend="indent"/> In hac quaestione sunt tres articuli. In primo ponetur
+          <lb ed="#V" n="97"/>determinatio Sanctus Thomas per conclusiones. In secundo
+          re<lb ed="#V" n="98" break="no"/>citabuntur obiectiones. In tertio dabuntur solutiones.
+        </p>
+        <div xml:id="capsco-b1l5dz-Dd1e157">
+          <head xml:id="capsco-b1l5dz-Hd1e159">Articulus 1</head>
+          <p xml:id="capsco-b1l5dz-d1e161">
+            <lb ed="#V" n="99"/><milestone ed="#V" unit="p" rend="indent"/> Vantum ad primum articulum sit prima conclusio.
+          </p>
+          <p xml:id="capsco-b1l5dz-d1e167">
+            <lb ed="#V" n="100"/><milestone ed="#V" unit="p" rend="indent"/> Vnus angelus illuminat alium. Hanc ponit Sanctus Thomas
+            <lb ed="#V" n="101"/>prima parte. quaestio. 106. arti. 1. vbi sic ait. Vnus
+            an<lb ed="#V" n="102" break="no"/>gelus illuminat alium. Ad cuius euidentiam
+            consideran<lb ed="#V" n="103" break="no"/>dum est, quod lumen secundum quod ad intellectum
+            per<lb ed="#V" n="104" break="no"/>tinet, nihil est aliud quam manifestatio veritatis secundum
+            <lb ed="#V" n="105"/>illud Apostoli ad Ephes. 5. Omne quod manifestatur lumen
+            <lb ed="#V" n="106"/>est, vnde illuminare nihil aliud est quam manifestationem
+            <lb ed="#V" n="107"/>cognitae veritatis alteri tradere, secundum quem modum
+            <lb ed="#V" n="108"/>dicit Apostolus Ephes. 3. Mihi omnium sanctorum
+            mini<lb ed="#V" n="109" break="no"/>mo data est gratia haec illuminare omnes, quae dispensatio
+            <lb ed="#V" n="110"/>Sacramenti absconditi a seculis in Deo: sic igitur vnus
+            an<lb ed="#V" n="111" break="no"/>gelus dicitur illuminare alium inquantum ei manifestat
+            ve<lb ed="#V" n="112" break="no"/>ritatem quam ipse cognoscit. Vnde Dionysius 7. cap.
+            coe<lb ed="#V" n="113" break="no"/>lest. Hierarchiae dicit, quod Theologi plane monstrant
+            coe<lb ed="#V" n="114" break="no"/>lestium substantiarum ornatus a supremis mentibus
+            doce<lb ed="#V" n="115" break="no"/>ri deificas scientias. Haec ille. Ex quibus potest
+            formar<lb ed="#V" n="116" break="no"/>talis ratio. Quicunque manifestat alteri veritatem
+            intelli<lb ed="#V" n="117" break="no"/>gibilem, vere potest dici alterum illuminare, sed vnus
+            an<lb ed="#V" n="118" break="no"/>gelus manifestat alteri veritatem intelligibilem: ergo vere
+            <lb ed="#V" n="119"/>potest dici, quod vnus angelus alium illuminat. Maior &amp;
+            <lb ed="#V" n="120"/>minor patent ex dictis.
+          </p>
+          <p xml:id="capsco-b1l5dz-d1e216">
+            Secunda conclusio. Dicta
+            illumi<lb ed="#V" n="121" break="no"/>natio fit secundum duo. primum est intellectus
+            conforta<lb ed="#V" n="122" break="no"/>tio: secundum est veritatis proportionatae capacitati
+            illu<lb ed="#V" n="123" break="no"/>minandi propositio. Hanc ponit Sanctus Thomas vbi supra sic
+            di<lb ed="#V" n="124" break="no"/>cens. Cum ad intelligendum duo concurrant, scilicet
+            vir<lb ed="#V" n="125" break="no"/>tus intellectiua, &amp; similitudo rei intellectae, secundum haec
+            <lb ed="#V" n="126"/>duo vnus angelus veritatem ei notam alteri notificare
+            po<lb ed="#V" n="127" break="no"/>test. Primo quidem fortificando virtutem intellectiuam eius,
+            <lb ed="#V" n="128"/>sicut enim virtus corporis inferioris confortatur ex
+            situali<lb ed="#V" n="129" break="no"/>propinquitate corporis perfectioris, vt minus calidum
+            cre<lb ed="#V" n="130" break="no"/>scit in calore ex praesentia magis calidi, ita virtus
+            intellecti<lb ed="#V" n="131" break="no"/>ua inferioris angeli confortatur ex conuersione superioris
+            <lb ed="#V" n="132"/>angeli ad ipsum. Hoc enim in spiritualibus facit ordo
+            con<lb ed="#V" n="133" break="no"/>uersionis, quod in corporalibus facit ordo localis
+            propin<lb ed="#V" n="134" break="no"/>quitatis. Secundo autem vnus angelus alteri manifestat
+            <lb ed="#V" n="135"/>veritatem ex parte similitudinis intellectae. Superior enim
+            <lb ed="#V" n="136"/>angelus notitiam veritatis accipit in vniuersali quadam
+            con<lb ed="#V" n="137" break="no"/>ceptione, ad quam capiendam intellectus inferioris
+            angeli<lb ed="#V" n="138" break="no"/>non esset sufficiens, sed est ei connaturale vt magis
+            parti<lb ed="#V" n="139" break="no"/>culariter veritatemaccipiat. Superior ergo angelus
+            veri<lb ed="#V" n="140" break="no"/>tatem, quam vniuersaliter concipit, quodammodo
+            distin<lb ed="#V" n="141" break="no"/>guit, vt ab inferiori capi possit, &amp; tunc eam cognoscendam
+            <lb ed="#V" n="142"/>illi proponit. Sicut etiam apud nos doctores, quod in
+            sum<lb ed="#V" n="143" break="no"/>ma capiunt, multipliciter distinguunt prouidentes
+            capaci<lb ed="#V" n="144" break="no"/>tati aliorum. Et hoc est quod dicit Dionysius 15. caelest. Hierar.
+            <lb ed="#V" n="145"/>Vnaquaeque substantia intellectualis datam sibi a
+            diuinio<lb ed="#V" n="146" break="no"/>re vniformem intelligentiam prouida virtute diuidit, &amp;
+            mul<lb ed="#V" n="147" break="no"/>riplicat ad inferioris sursum ductricem analogiam. Haec ille.
+          </p>
+          <p xml:id="capsco-b1l5dz-d1e277">
+            <pb ed="#V" n="291"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>Eandem sententiam ponit de veritate q. 9. artic. 1. sic vbi
+            di<lb ed="#V" n="2" break="no"/>cit. De lumine intellectuali oportet loqui ad similitudine
+            <lb ed="#V" n="3"/>luminis corporalis. Lumen autem corporale est medium,
+            <lb ed="#V" n="4"/>quo videmus, &amp; seruit nostro visui in duobus. Vno
+            mo<lb ed="#V" n="5" break="no"/>do in hoc quod ipsum fit in nobis visibile act, quod erat
+            po<lb ed="#V" n="6" break="no"/>tentia visibile. Alio modo in hoc quod ipse visus
+            confor<lb ed="#V" n="7" break="no"/>tatur ad videndum ex luminis natura: vnde &amp; oportet
+            es<lb ed="#V" n="8" break="no"/>se lumen in compositione organi. Vnde &amp; lumen
+            intelle<lb ed="#V" n="9" break="no"/>ctuale dici potest ipse vigor intellectus ad intelligendum
+            <lb ed="#V" n="10"/>vel etiam illud, quo aliquid sit nobis notum. Vnde
+            secun<lb ed="#V" n="11" break="no"/>dum duo potest aliquis illuminari ab alio, scilicet secundum
+            <lb ed="#V" n="12"/>quod eius intellectus confortatur ad cognoscendum, &amp;
+            secun<lb ed="#V" n="13" break="no"/>dum quod intellectus ex aliquo manuducitur in aliquid
+            co<lb ed="#V" n="14" break="no"/>gnoscendum. Et haec duo coniunguntur in intellectu.
+            Si<lb ed="#V" n="15" break="no"/>cut patet cum aliquis per aliquod medium quod mente
+            <lb ed="#V" n="16"/>concipit, confortatur intellectus eius ad alia
+            cognoscen<lb ed="#V" n="17" break="no"/>da vel videnda quae prius videre non poterat. Secundum
+            <lb ed="#V" n="18"/>hoc ergo vnus intellectus ab alio dicitur illuminari
+            inquan<lb ed="#V" n="19" break="no"/>tum traditur ei aliquod medium cognoscendi, quo
+            intel<lb ed="#V" n="20" break="no"/>lectus confortatus potest in alia cognoscibilia, in quae prius
+            <lb ed="#V" n="21"/>non poterat. Quod quidem apud nos dupliciter
+            contin<lb ed="#V" n="22" break="no"/>git. Vno modo per sermonem, vt cum docens loquendo
+            <lb ed="#V" n="23"/>verbo suo tradit aliquod medium discipulo, per quod
+            in<lb ed="#V" n="24" break="no"/>tellectus eius confortatur ad alia intelligenda, quae prius
+            <lb ed="#V" n="25"/>intelligere non poterat. Et sic magister dicitur illuminare
+            <lb ed="#V" n="26"/>discipulum. Alio modo inquantum alicui proponitur
+            ali<lb ed="#V" n="27" break="no"/>quod sensibile signum, ex quo quis potest manuduci in
+            ali<lb ed="#V" n="28" break="no"/>cuius intelligibilis cognitionem, &amp; sic dicitur sacerdos
+            il<lb ed="#V" n="29" break="no"/>luminare populum secundum Dionysium inquantum
+            po<lb ed="#V" n="30" break="no"/>pulo sacramenta ministrat, &amp; ostendit quae sunt
+            manudu<lb ed="#V" n="31" break="no"/>ctiones in diuina intelligenda, sed angeli neque per
+            sensi<lb ed="#V" n="32" break="no"/>bilia signa in cognitionem diuinorum deueniunt, neque
+            <lb ed="#V" n="33"/>media intelligibilia recipiunt cum varietate &amp; discursu
+            si<lb ed="#V" n="34" break="no"/>cut nos recipimus, sed immaterialiter. Et hoc est quod
+            di<lb ed="#V" n="35" break="no"/>cit Dionysius 7. cap. caelest. hierarchiae ostendens
+            quomo<lb ed="#V" n="36" break="no"/>do superiores. angeli illuminentur. Contemplatiuae
+            (in<lb ed="#V" n="37" break="no"/>quit) sunt primae angelorum essentiae sensibilium
+            symbo<lb ed="#V" n="38" break="no"/>lorum, aut intelligibilium speculatiuae, non varietate
+            scri<lb ed="#V" n="39" break="no"/>pturae in Deum reductae, sed sunt immaterialis scientiae
+            al<lb ed="#V" n="40" break="no"/>tiori lumine repletae. Nihil ergo aliud est angelum ab
+            An<lb ed="#V" n="41" break="no"/>gelo illuminari quam confortari intellectum inferioris
+            <lb ed="#V" n="42"/>Angeli per aliquid inspectum in superiori ad alia
+            cogno<lb ed="#V" n="43" break="no"/>scenda. Et hoc quidem modo hoc fieri potest, sicut enim
+            <lb ed="#V" n="44"/>in corporibus superiora sunt quasi actus respectu
+            inferio<lb ed="#V" n="45" break="no"/>rum, vt ignis respectu aeris, ita &amp; superiores spiritus sunt
+            <lb ed="#V" n="46"/>quasi actus respectu inferiorum. Omnis autem potentia
+            <lb ed="#V" n="47"/>confortatur &amp; perficitur ex coniunctione ad actum suum
+            <lb ed="#V" n="48"/>unde &amp; corpora inferiora conseruantur in superioribus,
+            <lb ed="#V" n="49"/>quae sunt locus eorum. Et ideo etiam angeli inferiores
+            con<lb ed="#V" n="50" break="no"/>fortantur ex eorum continuatione ad superiores. Quae
+            <lb ed="#V" n="51"/>quidem continuatio est per intuitum intellectus, &amp; ideo
+            <lb ed="#V" n="52"/>pro tanto dicuntur ab eis illuminari. Haec ille.
+          </p>
+          <p xml:id="capsco-b1l5dz-d1e398">
+            Ex quibus
+            <lb ed="#V" n="53"/>potest formari talis ratio. Verisimile est, quod intellectus
+            an<lb ed="#V" n="54" break="no"/>geli superioris se habeat ad intellectum Angeli inferioris
+            <lb ed="#V" n="55"/>sicut maius lumen ad minus lumen, &amp; sicut Doctor ad
+            di<lb ed="#V" n="56" break="no"/>scipulum, sed maius lumen per sui praesentiam confortat
+            <lb ed="#V" n="57"/>minus lumen, &amp; Doctor proponit veritatem intelligibilem
+            <lb ed="#V" n="58"/>discipulo sub conceptibus suae capacitati proportionatis,
+            <lb ed="#V" n="59"/>per quos intellectus discipuli, efficitur potentior ad
+            intel<lb ed="#V" n="60" break="no"/>ligendum quae prius non poterat: igitur illa duo facit
+            an<lb ed="#V" n="61" break="no"/>gelus superior inferiori. Eandem sententiam ponit. 2. sent.
+            <lb ed="#V" n="62"/>21. dist. q. 1. artic. 2.
+          </p>
+          <p xml:id="capsco-b1l5dz-d1e422">
+            Tertia conclusio est. Illuminatio sit de
+            <lb ed="#V" n="63"/>rationibus diuinorum operum, &amp; non de pertinentibus
+            <lb ed="#V" n="64"/>ad deitatem in se, sicut de attributis, aut relationibus. Hanc
+            <lb ed="#V" n="65"/>ponit Sanctus Thomas prima parte q. 105. artic. 1. in solutione
+            pri<lb ed="#V" n="66" break="no"/>mi, vbi sic ait. Omnes Angeli tam superiores quam
+            infe<lb ed="#V" n="67" break="no"/>riores immediate vident Dei essentiam, &amp; quantum ad hoc
+            <lb ed="#V" n="68"/>vnus non docet alium. De hac enim doctrina Propheta
+            <lb ed="#V" n="69"/>loquitur vbi dicit. Non docebit vir fratrem suum dicens,
+            <lb ed="#V" n="70"/>cognosce Deum. Omnes enim a minimo eorum vsque ad
+            ma<lb ed="#V" n="71" break="no"/>ximum cognoscent me. Sed rationes diuinorum operum.
+            <lb ed="#V" n="72"/>quae in Deo cognoscuntur sicut in causa, omnes quidem
+            <lb ed="#V" n="73"/>Deus in seipso cognoscit, qui seipsum comprehendit.
+            Alio<lb ed="#V" n="74" break="no"/>rrum vero Deum videntium tanto vnusquisque plures
+            ra<lb ed="#V" n="75" break="no"/>tiones in Deo cognoscit, quanto eum perfectius videt, vnde
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="76"/>superior angelus plura in Deo de rationibus diuinorum
+            <lb ed="#V" n="77"/>operum videt quam inferior, &amp; de his eum illuminat, &amp;
+            <lb ed="#V" n="78"/>hoc est quod dicit Dionysius. 4. cap. de diuinis nomi. quod
+            <lb ed="#V" n="79"/>Angeli existentium rationibus illuminantur. Haec ille.
+          </p>
+          <p xml:id="capsco-b1l5dz-d1e464">
+            Item
+            <lb ed="#V" n="80"/>2. sent. vbi supra sic dicit. Cum Deus sit vniuersalissima
+            <lb ed="#V" n="81"/>causa omnium entium, in visione essentiae eius non
+            cogno<lb ed="#V" n="82" break="no"/>scuntur omnes eius effectus de necessitate, nisi intellectus
+            <lb ed="#V" n="83"/>totam virtutem eius compraehendat, &amp; quanto aliquis
+            in<lb ed="#V" n="84" break="no"/>tellectus limpidius eum videt, tanto plura in eum
+            cogno<lb ed="#V" n="85" break="no"/>scere potest, sicut in principijs primis speculatiuis, qui
+            per<lb ed="#V" n="86" break="no"/>spicatioris intellectus est, plures conclusiones in eis videt.
+            <lb ed="#V" n="87"/>Et ita superiores Angeli plures effectus in diuina essentia
+            <lb ed="#V" n="88"/>cognoscunt quam inferiores, &amp; de illis superiores
+            illumi<lb ed="#V" n="89" break="no"/>nare possunt &amp; instruere inferiores. Et tamen aliqui
+            effe<lb ed="#V" n="90" break="no"/>ctus sunt quos omnes immediate in visione diuinae
+            essen<lb ed="#V" n="91" break="no"/>tiae percipiunt. Quamuis etiam hos superiores perfectius
+            <lb ed="#V" n="92"/>cognoscant, sicut &amp; diuinam essentiam clarius intuentur,
+            <lb ed="#V" n="93"/>&amp; vnusquisque ordo, ex illo nomen &amp; rationem recipit,
+            <lb ed="#V" n="94"/>quod est vltimum virtutis suae, ad capiendum rerum
+            co<lb ed="#V" n="95" break="no"/>gnitionem immediate in visione diuinae essentiae. Haec ille.
+          </p>
+          <p xml:id="capsco-b1l5dz-d1e501">
+            <lb ed="#V" n="96"/>Simile ponit de veritate q. 9. artic. 1. in solutione 13.
+            expo<lb ed="#V" n="97" break="no"/>nens illud Apoc. 22. Ciuitas illa non eget sole &amp; luna &amp;c.
+            <lb ed="#V" n="98"/>Auctoritas illa (inquit) intelligitur de his, quae pertinent
+            <lb ed="#V" n="99"/>ad cognitionem beatitudinis, quibus omnes Angeli
+            illu<lb ed="#V" n="100" break="no"/>minantur a Deo.
+          </p>
+          <p xml:id="capsco-b1l5dz-d1e514">
+            Item in solutione 9. sic dicit.
+            Illumina<lb ed="#V" n="101" break="no"/>tio, qua vnus Angelus illuminat alium, non est dehis, quae
+            <lb ed="#V" n="102"/>ad naturalem cognitionem pertinent, quia sic omnes ex
+            <lb ed="#V" n="103"/>principio suae conditionis habent perfectam cognitionem
+            <lb ed="#V" n="104"/>naturalem, nisi forte poneremus quod angeli superiores essent
+            <lb ed="#V" n="105"/>causa inferiorum, quod est contra fidem, sed cognitio ista
+            <lb ed="#V" n="106"/>est de his, quae reuelantur Angelis eorum cognitionem
+            <lb ed="#V" n="107"/>naturaliter excedentibus, sicut de diuinis misterijs
+            perti<lb ed="#V" n="108" break="no"/>nentibus ad ecclesiam superiorem vel inferiorem: vnde &amp;
+            <lb ed="#V" n="109"/>ponitur actio hierarchica a Diony. Nec sequitur, quod
+            quam<lb ed="#V" n="110" break="no"/>uis omnes verbum videant, quod quicquid vident in verbo
+            <lb ed="#V" n="111"/>superiores Angeli, videant &amp; inferiores. Haec ille.
+          </p>
+          <p xml:id="capsco-b1l5dz-d1e540">
+            Ex
+            qui<lb ed="#V" n="112" break="no"/>bus potest formari talis ratio. Omnis cognitio
+            angelica<lb ed="#V" n="113" break="no"/>vel est de diuinis, aut de rebus naturalibus, aut de actibus
+            <lb ed="#V" n="114"/>liberi arbitrij, aut de ministerijs gratiae, sed angeli non
+            il<lb ed="#V" n="115" break="no"/>luminantur quo ad prima tria cognoscibilia vnus ab alio:
+            <lb ed="#V" n="116"/>ergo illuminatio fit quo ad quartum cognoscibile. Et in
+            <lb ed="#V" n="117"/>hoc primus articulus terminatur.
+          </p>
+        </div>
+        <div xml:id="capsco-b1l5dz-Dd1e557">
+          <head xml:id="capsco-b1l5dz-Hd1e559">Articulus 2</head>
+          <p xml:id="capsco-b1l5dz-d1e561">
+            <lb ed="#V" n="118"/><milestone ed="#V" unit="p" rend="initial"/> Vantum ad secundum articulum arguitur contra
+            con<lb ed="#V" n="119" break="no"/>clusiones. Et quidem contra primam arguit
+            Duran<lb ed="#V" n="120" break="no"/>dus probando quod omnes Angeli illuminantur immediate
+            <lb ed="#V" n="121"/>a Deo, &amp; non vnus ab alio causaliter, sed per quandam
+            con<lb ed="#V" n="122" break="no"/>sequentiam, quod probat sic. Illa quae pertinent ad
+            cogni<lb ed="#V" n="123" break="no"/>tionem gloriosam, pertinent ad solum Deum tanquam ad
+            <lb ed="#V" n="124"/>confortantem naturam, &amp; proponentem obiectum, sed
+            il<lb ed="#V" n="125" break="no"/>la, de quo est illuminatio sunt huiusmodi. Pertinent enim
+            <lb ed="#V" n="126"/>ad cognitionem beatam, quamuis non ad illam, in qua
+            <lb ed="#V" n="127"/>consistit essentialiter beatitudo, sed ad illam, in qua
+            consi<lb ed="#V" n="128" break="no"/>stit accidentalis beatitudo: ergo pertinet ad Deum
+            tan<lb ed="#V" n="129" break="no"/>quam ad proponentem obiectum, &amp; confortantem
+            intel<lb ed="#V" n="130" break="no"/>lectum. Non enim videtur quod beatitudo vnius essentialis.
+            <lb ed="#V" n="131"/>aut accidentalis dependeat ab alio quam a Deo. Secundo.
+            <lb ed="#V" n="132"/>Quia cum dicit Dionysius aliquos angelos immediate
+            il<lb ed="#V" n="133" break="no"/>luminari, alios autem mediate. Exponendum est non per
+            <lb ed="#V" n="134"/>causalitatem, sed per quandam consequentiam. Cum enim
+            <lb ed="#V" n="135"/>ista, de quibus angeli illuminantur, non sunt secundum se
+            <lb ed="#V" n="136"/>praesentia cognitioni angelicae, fiunt ei praesentia per hoc
+            <lb ed="#V" n="137"/>quod Deus eis talem cognitionem tradidit, &amp; quia omnes
+            An<lb ed="#V" n="138" break="no"/>geli continuantur in irradiatione diuini luminis siue
+            natu<lb ed="#V" n="139" break="no"/>ralis siue superadditi, ideo quod praesentatur primo
+            ordi<lb ed="#V" n="140" break="no"/>ne cuiusdam consequentiae, praesentatur omnibus, &amp; ideo
+            <lb ed="#V" n="141"/>a Deo omnes illuminantur, &amp; simul tempore, sed prius
+            <lb ed="#V" n="142"/>vnus quam alius natura vel dignitate, &amp; ita vnus
+            median<lb ed="#V" n="143" break="no"/>te alio mediatione cuiusdam consequentiae. Haec ille.
+          </p>
+          <p xml:id="capsco-b1l5dz-d1e621">
+            Con<lb ed="#V" n="144" break="no"/>tra secundam conclusionem arguit idem Durandus
+            multipli<lb ed="#V" n="145" break="no"/>citer. Et primo improbat primam partem conclusionis,
+            <lb ed="#V" n="146"/>qua dicitur quod vnus Angelus illuminat alium
+            confortan<lb ed="#V" n="147" break="no"/>do virtutem eius intellectiuam. Et contra hoc arguit
+            pri<lb ed="#V" n="148" break="no"/>mo sic. Omnis confortatio est per aliquam actionem, sic
+            <lb ed="#V" n="149"/>enim minus calidum confortatur ex praesentia magis
+            ca<lb ed="#V" n="150" break="no"/>lidi, dum magis calidum agit in minus calidum intendem
+            <pb ed="#V" n="292"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>ipsum, qualiter enim conformabit illud, in quod nihil agit:
+            <lb ed="#V" n="2"/>Cum igitur lumen intellectuale vnius angeli nihil agat in
+            <lb ed="#V" n="3"/>lumen alterius, nec imprimendo lumen, quia hoc solum
+            <lb ed="#V" n="4"/>est a creante, nec intendendo ipsum, quia non recipit
+            ma<lb ed="#V" n="5" break="no"/>gis &amp; minus, sequitur quod nullo modo. Forte dicetur
+            negan<lb ed="#V" n="6" break="no"/>go illud, quod assumitur, scilicet quod lumen intellectuale
+            an<lb ed="#V" n="7" break="no"/>geli non possit esse intensius &amp; remissius.
+          </p>
+          <p xml:id="capsco-b1l5dz-d1e658">
+            Sed contra hoc
+            <lb ed="#V" n="8"/>arguitur. Quia cum virtus intellectiua angeli
+            consequa<lb ed="#V" n="9" break="no"/>tur per se ad essentiam angeli, non est probabile, quod
+            pona<lb ed="#V" n="10" break="no"/>tur possibilis intentio in lumine intellectuali nisi
+            ponere<lb ed="#V" n="11" break="no"/>tur in essentia angeli, quod nullus ponit. Et confirmatur
+            <lb ed="#V" n="12"/>Quia in nobis non dicitur, quod intellectus possibilis, aut agens
+            <lb ed="#V" n="13"/>qui ab Aristoteles vocatur lumen tertio de anima, recipiat
+            ma<lb ed="#V" n="14" break="no"/>gis, aut minus.
+          </p>
+          <p xml:id="capsco-b1l5dz-d1e676">
+            Secundo sic. Omne illud, quod intendit per
+            <lb ed="#V" n="15"/>se aliquam formam, potest similem secundum speciem
+            pro<lb ed="#V" n="16" break="no"/>ducere, quia vt dicitur 2. Ethic. ex eisdem augetur habitus
+            <lb ed="#V" n="17"/>&amp; generatur, sed vnus angelus non potest producere
+            lu<lb ed="#V" n="18" break="no"/>men alterius: ergo nec intendere. Dicetur forte quod non
+            <lb ed="#V" n="19"/>omne illud, quod potest aliquam formam intendere,
+            po<lb ed="#V" n="20" break="no"/>test eandem vel similem causare, quod declaratur per
+            si<lb ed="#V" n="21" break="no"/>mile in quantitate. Quia virtus creata potest extendere
+            <lb ed="#V" n="22"/>quantitatem existentem sine subiecto, vt patet in
+            sacra<lb ed="#V" n="23" break="no"/>mento, &amp; tamen non potest facere vel causare quantitatem
+            <lb ed="#V" n="24"/>sine subiecto. Simili modo dicetur, quod lumen vnius
+            Angeli<lb ed="#V" n="25" break="no"/>potest intendi per lumen alterius, licet non possit ab eo
+            <lb ed="#V" n="26"/>causari. Sed hoc non valet, quia omne, quod potest
+            exten<lb ed="#V" n="27" break="no"/>dere aliquam quantitatem, potest causare similem
+            secun<lb ed="#V" n="28" break="no"/>dum speciem.
+          </p>
+          <p xml:id="capsco-b1l5dz-d1e710">
+            Nec valet instantia de extensione
+            quantita<lb ed="#V" n="29" break="no"/>tis in sacramento sine subiecto, quia licet agens naturale,
+            <lb ed="#V" n="30"/>quod potest eam extendere, non possit causare
+            quantita<lb ed="#V" n="31" break="no"/>tem habentem eundem modum essendi, potest tamen
+            cau<lb ed="#V" n="32" break="no"/>sare quantitatem similem secundum speciem. Et hoc
+            suf<lb ed="#V" n="33" break="no"/>ficit ad propositum, quia cum lumen vnius angeli non
+            pos<lb ed="#V" n="34" break="no"/>sit causare lumen simile lumini alterius angeli, nullo
+            mo<lb ed="#V" n="35" break="no"/>do poterit ipsum intendere.
+          </p>
+          <p xml:id="capsco-b1l5dz-d1e728">
+            Tertio arguit sic. Lumen
+            an<lb ed="#V" n="36" break="no"/>geli superioris est alterius speciei a lumine angeli
+            inferio<lb ed="#V" n="37" break="no"/>ris secundum opinionem tuam, qui ponis omnes angelos
+            <lb ed="#V" n="38"/>specie differentes. Talia autem non sunt nata intendere
+            <lb ed="#V" n="39"/>se mutuo per se saltem nisi vnum haberet virtutem causam
+            <lb ed="#V" n="40"/>di aliud, quod non est ponendum in Angelis. Si dicatur quod
+            <lb ed="#V" n="41"/>non oportet lumen diuersorum angelorum esse diuersum
+            <lb ed="#V" n="42"/>specie, quamuis lumen vnius habeat maiorem efficaciam
+            <lb ed="#V" n="43"/>quam lumen alterius propter diuersam conditionem
+            sub<lb ed="#V" n="44" break="no"/>iecti, in quo recipitur, sicut patet de calore in igne &amp; in aere.
+            <lb ed="#V" n="45"/>Contra hoc arguitur. Quia inconueniens est quod
+            proprie<lb ed="#V" n="46" break="no"/>tates, quae per se consequuntur essentias specie differentes,
+            <lb ed="#V" n="47"/>quales sunt essentiae angelicae, secundum te non sint
+            spe<lb ed="#V" n="48" break="no"/>cie differentes. Forte dicetur ad ista tua argumenta quod
+            <lb ed="#V" n="49"/>vnus Angelus illuminat alium non quidem confortando
+            <lb ed="#V" n="50"/>lumen ipnus per modum intensionis, sed concurrendo cum
+            <lb ed="#V" n="51"/>ipso ad vnam intellectionem, quae est perfectior ex
+            concur<lb ed="#V" n="52" break="no"/>su duplicis luminis quam si alterum solum concurreret,
+            si<lb ed="#V" n="53" break="no"/>cut est perfectius lumen positis duobus candelis quam
+            po<lb ed="#V" n="54" break="no"/>sita vna tantum, quamuis lumen vnius candelae non
+            inten<lb ed="#V" n="55" break="no"/>dat lumen alterius. Ita per hunc modum concurrente
+            du<lb ed="#V" n="56" break="no"/>plici lumine angeli superioris &amp; inferioris ad
+            intellectio<lb ed="#V" n="57" break="no"/>nem angeli inferioris, intellectio eius est perfectior, &amp;
+            ali<lb ed="#V" n="58" break="no"/>qua potest intelligere, quae non posset ex solo lumine. Sed
+            <lb ed="#V" n="59"/>istud omnino videtur improbabiliter dictum, quod lumen
+            in<lb ed="#V" n="60" break="no"/>tcllectuale vnius concurrat ad intellectionem alterius, cum
+            <lb ed="#V" n="61"/>enim lumen intellectuale Angeli non sit aliud quam eius
+            <lb ed="#V" n="62"/>intellectus, oportet quod vtrunque lumen, vel vterque
+            intelle<lb ed="#V" n="63" break="no"/>ctus se habeat ad intelligere eodem modo, scilicet
+            eliciti<lb ed="#V" n="64" break="no"/>ue &amp; receptiue, cum sit actio immanens in agente, vel
+            rece<lb ed="#V" n="65" break="no"/>ptiue tantum, sed neutro istorum duorum modorum
+            pos<lb ed="#V" n="66" break="no"/>sunt se habere intellectus duorum angelorum ad vnum
+            <lb ed="#V" n="67"/>intelligere, quia semper sequeretur quod vnum intelligere
+            es<lb ed="#V" n="68" break="no"/>set in duobus angelis, quod est impossibile. Vlterius
+            repro<lb ed="#V" n="69" break="no"/>bat secundam partem dictae conclusionis, scilicet quod vnus
+            <lb ed="#V" n="70"/>Angelus illuminat alium proponendo ei veritatem, quam
+            <lb ed="#V" n="71"/>intelligat particulando &amp; diuidendo eam ad hoc vt
+            capi<lb ed="#V" n="72" break="no"/>possit ab angelo inferiori. Quia talis explicatio veritatis
+            <lb ed="#V" n="73"/>intelligibilis non est accipienda ex parte rei cognitae, quae
+            <lb ed="#V" n="74"/>secundum se manet eadem, &amp; in nulio mutatur. Nec ex
+            <lb ed="#V" n="75"/>parte actus intelligendi superioris Angeli quasi superior
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="76"/>angelus mutet suum modum intelligendi, semper enim
+            intel<lb ed="#V" n="77" break="no"/>ligit secundum modum suae naturae, sed est intelligenda ex
+            <lb ed="#V" n="78"/>parte signi, mediante quo veritas cognita ab angelo
+            supe<lb ed="#V" n="79" break="no"/>riori proponitur angelo inferiori, hoc enim modo &amp; non
+            <lb ed="#V" n="80"/>aliter Doctor particulat suum conceptum. Proponere
+            au<lb ed="#V" n="81" break="no"/>tem sic veritatem alteri pertinet ad locutionem, quae fit per
+            <lb ed="#V" n="82"/>signa, vt prius dictum fuit. Locutio autem interior non fit
+            <lb ed="#V" n="83"/>per signa, sed per hoc solum, quod vnus angelus ordinat
+            con<lb ed="#V" n="84" break="no"/>ceptum suum ad alterum. Haec ille.
+          </p>
+          <p xml:id="capsco-b1l5dz-d1e839">
+            Contra eandem
+            con<lb ed="#V" n="85" break="no"/>clusionem, &amp; quasi per eadem media arguit Aureotes primo
+            <lb ed="#V" n="86"/>sic. Ab eodem agente res causatur &amp; intenditur: vnde quia
+            <lb ed="#V" n="87"/>charitas est per solam creationem, ideo intenditur per solam
+            <lb ed="#V" n="88"/>creationem, vel solum creatorem, sed secundum te
+            lumen<lb ed="#V" n="89" break="no"/>angeli est a solo Deo per creationem: ergo a solo Deo
+            po<lb ed="#V" n="90" break="no"/>test intendi. Dicetur forte quod ratio nulla est, quia videmus
+            <lb ed="#V" n="91"/>quod dimensiones interminatas non potest dare materiae
+            ali<lb ed="#V" n="92" break="no"/>quod agens creatum, &amp; tamen agens creatum potest illas
+            <lb ed="#V" n="93"/>intendere. Contra. Non est verum, quod dimensiones
+            inter<lb ed="#V" n="94" break="no"/>minatae intendantur, sed quantitas, quae erat in potentia
+            <lb ed="#V" n="95"/>ad terminationem deducitur de potentia materiae ad actum,
+            <lb ed="#V" n="96"/>sed lumen non est in potentia angeli, vt de angelo possit
+            <lb ed="#V" n="97"/>educi, quare oportet quod intendatur &amp; perficiatur a solo
+            Deo<lb ed="#V" n="98" break="no"/>Secundo. Quia ista positio vel imaginatio est
+            mathematr<lb ed="#V" n="99" break="no"/>ca. Imaginatur enim quod lumen angeli sit quaedam qualitas
+            <lb ed="#V" n="100"/>radiosa, quod falsum est. Talis enim qualitas non
+            inueni<lb ed="#V" n="101" break="no"/>tur iu substantia spirituali, sed lumen in ea non est aliud
+            <lb ed="#V" n="102"/>quam vigor intellectus. Dicetur forte ad omnia ista, quod
+            <lb ed="#V" n="103"/>ista intensio luminis non est intelligenda modo praedicto,
+            <lb ed="#V" n="104"/>quod scilicet vnus Angelus intendat lumen alterius, sed isto
+            <lb ed="#V" n="105"/>modo, quia scliesuperior coagit lumini inferioris, sicut quod
+            <lb ed="#V" n="106"/>ignis appositus paruo igni adiuuat ipsum, ita angelus
+            su<lb ed="#V" n="107" break="no"/>perior per suum lumen adiuuat lumen inferioris, vt si
+            in<lb ed="#V" n="108" break="no"/>ferior non possit intelligere vnam conclusionem, quam
+            pro<lb ed="#V" n="109" break="no"/>ponit sibi superior, statim ille superior iuuat eum suo
+            lumi<lb ed="#V" n="110" break="no"/>ne quasi coagendo. Contra. Quia illud lumen est lumen
+            <lb ed="#V" n="111"/>intellectus agentis, sed posito quod meus intellectus agens
+            <lb ed="#V" n="112"/>esset praesens tuo, non propter hoc te adiuuaret ad
+            intelli<lb ed="#V" n="113" break="no"/>gendum vnam conclusionem.
+          </p>
+          <p xml:id="capsco-b1l5dz-d1e904">
+            Item. Haec lumina habent
+            <lb ed="#V" n="114"/>sua possibilia distincta, quia lumen istius habet pro
+            adaequa<lb ed="#V" n="115" break="no"/>to possibili intellectum possibilem eiusdem: ergo lumen
+            <lb ed="#V" n="116"/>Angeli superioris non est actiuum respectu intellectus
+            pos<lb ed="#V" n="117" break="no"/>sibilis angeli inferioris. Haec ille in forma.
+          </p>
+          <p xml:id="capsco-b1l5dz-d1e915">
+            Contra tertiam
+            <lb ed="#V" n="118"/>conclusionem arguit idem Aureolus probando, quod
+            illumi<lb ed="#V" n="119" break="no"/>natio possit esse de illis, &amp; respectu illorum, quae videntur
+            <lb ed="#V" n="120"/>in verbo. Primo, quia alia est notitia rei in se proprio
+            ge<lb ed="#V" n="121" break="no"/>nere, alia est notitia rei in verbo, alia habitudinis rei ad
+            ver<lb ed="#V" n="122" break="no"/>bum. Quantum igitur ad primam notitiam non potest
+            <lb ed="#V" n="123"/>fieri illuminatio rei in verbo, nec quantum ad secundam,
+            <lb ed="#V" n="124"/>sed bene quantum ad tertiam. Angelus enim inferior
+            vi<lb ed="#V" n="125" break="no"/>det verbum Dei beatifice, &amp; videt res in se, sed ex istis
+            dua<lb ed="#V" n="126" break="no"/>bus, non necessario consurgit notitia habitudinis, quam
+            ha<lb ed="#V" n="127" break="no"/>bet res ad verbum, vtrum habeant ad ipsum habitudinem,
+            <lb ed="#V" n="128"/>vt ad causam extra rem, vel alio modo. Angelus igitur
+            su<lb ed="#V" n="129" break="no"/>perior potest ei ostedere illam habitudinem, &amp; hoc modo
+            <lb ed="#V" n="130"/>fiet illuminatio de his, quae videntur in verbo. Exemplum.
+            <lb ed="#V" n="131"/>Ponatur, quod vna conclusio dependeat a duobus principijs,
+            <lb ed="#V" n="132"/>&amp; quod aliquis cognoscat illam conclusionem per diuersas
+            <lb ed="#V" n="133"/>demonstrationes constantes ex illis principijs, ponatur etiam
+            <lb ed="#V" n="134"/>alius, qui conclusionem istam sciat dependere ex vno
+            prin<lb ed="#V" n="135" break="no"/>cipio tantum, &amp; ideo tantum sciat illam per vnam
+            demon<lb ed="#V" n="136" break="no"/>strationem ex vno vel ex primo principio. Tunc ille primus,
+            <lb ed="#V" n="137"/>qui cognoscit illam conclusionem per duo principia,
+            po<lb ed="#V" n="138" break="no"/>test docere alium, &amp; dicere. Vide quomodo etiam haec
+            con<lb ed="#V" n="139" break="no"/>clusio deducitur, &amp; demonstratur ex isto alio principio, &amp;
+            <lb ed="#V" n="140"/>tunc ille cognoscit aliquo modo aliquid, quod ante non
+            <lb ed="#V" n="141"/>cognoscebat. Sic in proposito, Angelus superior videns
+            <lb ed="#V" n="142"/>quomodo haec veritas dependet ex illa veritate, quod in.
+            <lb ed="#V" n="143"/>ferior non cognoscit dicit. Vide quomodo haec veritas
+            <lb ed="#V" n="144"/>rei increatae dependet a veritate increata, &amp; a verbo, &amp;
+            <lb ed="#V" n="145"/>secundum quam habitudinem, &amp; tunc ille videt, &amp; hoc
+            <lb ed="#V" n="146"/>modo dicitur illuminari. Haec ille. Et in hoc secundus
+            <lb ed="#V" n="147"/>artic. terminatur.
+          </p>
+        </div>
+        <div xml:id="capsco-b1l5dz-Dd1e984">
+          <head xml:id="capsco-b1l5dz-Hd1e986">Articulus 3</head>
+          <p xml:id="capsco-b1l5dz-d1e988">
+            <lb ed="#V" n="148"/><milestone ed="#V" unit="p" rend="initial"/> Quantum ad tertium articulum respondendum est
+            <lb ed="#V" n="149"/>obiectionibus supradictis. Et quidem ad primum
+            <lb ed="#V" n="150"/>Durandi contra primam conclusionem negatur maior
+            <pb ed="#V" n="293"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>vniuersaliter intellecta. Licet enim ea quae pertinent ad
+            co<lb ed="#V" n="2" break="no"/>gnitionem gloriosam secundario, &amp; de per accidens,
+            redu<lb ed="#V" n="3" break="no"/>cantur in solum Deum, sicut in primum principium, tamen
+            <lb ed="#V" n="4"/>reduci possunt in creaturam tanquam in proximum
+            princi<lb ed="#V" n="5" break="no"/>pium. Sic autem est in proposito. Item ad cognitionem
+            <lb ed="#V" n="6"/>essentialiter gloriosam aliquid agit creatura, sicut
+            intelle<lb ed="#V" n="7" break="no"/>ctus ipsius beati confortatus lumine gloriae, qui tali
+            lumi<lb ed="#V" n="8" break="no"/>ne illustratus elicit visionem gloriosam. Item lumen
+            glo<lb ed="#V" n="9" break="no"/>riae est creatura, &amp; confortat naturam beatificabilem ad
+            <lb ed="#V" n="10"/>hoc vt possit elicere actus beatificos, &amp; sic de alijsdotibus,
+            <lb ed="#V" n="11"/>quae se habent ad actus beatificos, sicut actus primus ad
+            <lb ed="#V" n="12"/>actus secundos, sicut docet Sanctus Thomas 4. sent. dist. 49. q. 4.
+            ar<lb ed="#V" n="13" break="no"/>tic. 2. Item creatura potest esse obiectum cognitionis ad
+            <lb ed="#V" n="14"/>gloriam accidentaliter pertinentis: ergo non repugnabit
+            <lb ed="#V" n="15"/>creaturae ostendere tale obiectum ipsi beato.
+          </p>
+          <p xml:id="capsco-b1l5dz-d1e1035">
+            Ad secundum
+            <lb ed="#V" n="16"/>dicitur, quod illa glosa dicta ad dicta Dionysij est multum
+            <lb ed="#V" n="17"/>voluntaria, &amp; contra mentem eius, &amp; caeterorum
+            docto<lb ed="#V" n="18" break="no"/>rum, ideo praesumptuosa est, potissime quia sicut est ordo
+            <lb ed="#V" n="19"/>in hominibus, ita &amp; in angelis per Dionysium, sed in
+            ho<lb ed="#V" n="20" break="no"/>minibus superiores illuminant inferiores, vt dicitur Ephe. 4.
+            <lb ed="#V" n="21"/>Mihi autem omnium sanctorum minimo data est gratia
+            <lb ed="#V" n="22"/>haec illuminare omnes: ergo superiores angeli illuminant
+            <lb ed="#V" n="23"/>inferiores. Item lumen spirituale efficacius est quam
+            cor<lb ed="#V" n="24" break="no"/>porale, sed superiora corpora illuminant inferiora:
+            igi<lb ed="#V" n="25" break="no"/>tur &amp; angeli superiores illuminant inferiores.
+          </p>
+          <p xml:id="capsco-b1l5dz-d1e1059">
+            Ad primum
+            <lb ed="#V" n="26"/>Durandi contra primam partem secundae conclusionis
+            di<lb ed="#V" n="27" break="no"/>citur, quod vnus angelus confortat virtutem intellectiuam
+            <lb ed="#V" n="28"/>alterius, non per modum, quem arguens somniat
+            scilicetinten<lb ed="#V" n="29" break="no"/>dendo lumen naturale alterius angeli, sed alio modo. Ille
+            <lb ed="#V" n="30"/>autem modus potest esse, &amp; intelligi, &amp; assignari duplex,
+            <lb ed="#V" n="31"/>primus est, quod angelus superior per suum lumen
+            intellectua<lb ed="#V" n="32" break="no"/>le influit alteri angelo virtutem quandam, eo modo quo
+            <lb ed="#V" n="33"/>in nobis intellectus agens influit phantasmatibus, vt in
+            <lb ed="#V" n="34"/>praecedentibus quaestionibus dictum fuit. Quae quidem
+            vir<lb ed="#V" n="35" break="no"/>tus, vt ibidem dicebatur habet in angelo recipiente illam
+            <lb ed="#V" n="36"/>esse imperfectum, &amp; intentionale, quale esse habent species
+            <lb ed="#V" n="37"/>colorum in medio, &amp; virtus causae principalis influxa
+            in<lb ed="#V" n="38" break="no"/>strumento. Per influxum autem talis luminis lumen
+            intel<lb ed="#V" n="39" break="no"/>lectus inferioris Angeli confortatur, quod non fiat intensius
+            <lb ed="#V" n="40"/>ex illius additione, sed vigorosius, quia ex ambobus
+            resul<lb ed="#V" n="41" break="no"/>tat quid potentius extensiue, licet non intensiue, sicut
+            om<lb ed="#V" n="42" break="no"/>ne instrumentum fit potentius ex hoc, quod mouetur a causa
+            <lb ed="#V" n="43"/>principali, &amp; ex hoc quod recipit eius influxum. Alius
+            mo<lb ed="#V" n="44" break="no"/>dus est, quem tangit Sanctus Thomas de veritate q. 9. art. 1. in
+            solu<lb ed="#V" n="45" break="no"/>tione secundi argumenti. Illud enim argumentum
+            secun<lb ed="#V" n="46" break="no"/>dum est tale in forma. In angelis non est aliud lumen
+            nisi<lb ed="#V" n="47" break="no"/>naturae &amp; gratiae, sed lumine naturae vnus Angelus alium
+            <lb ed="#V" n="48"/>non illuminat, quia vnusquisque habet naturalia sua
+            im<lb ed="#V" n="49" break="no"/>mediate a Deo, similiter nec lumine gratiae, quae
+            immedia<lb ed="#V" n="50" break="no"/>te a solo Deo est: ergo vnus angelus alium illuminare non
+            <lb ed="#V" n="51"/>potest. Ecce argumentum. Sequitur responsio. Ad
+            secun<lb ed="#V" n="52" break="no"/>qum (inquit) dicendum est, quod ab angelo illuminante non
+            <lb ed="#V" n="53"/>sit nouum lumen gratiae, vel naturae, nisi vt participatum.
+            <lb ed="#V" n="54"/>Cum enim omne, quod intelligitur ex vi intellectualis
+            lumi<lb ed="#V" n="55" break="no"/>nis cognoscatipsum cognitum inquantum huiusmodi
+            in<lb ed="#V" n="56" break="no"/>cludit in se intellectuale lumen vt participatum, ex cuius
+            <lb ed="#V" n="57"/>virtute habet confortare intellectum. Sicut patet quando
+            <lb ed="#V" n="58"/>magister tradit discipulo aliquod medium alicuius
+            demon<lb ed="#V" n="59" break="no"/>strationis, in quo participatur lumen intellectus agentis
+            <lb ed="#V" n="60"/>vt in instrumento, prima enim principia sunt quasi
+            instru<lb ed="#V" n="61" break="no"/>mentum intellectus agentis, vt dicit Commentator in
+            ter<lb ed="#V" n="62" break="no"/>tio de anima. Et similiter etiam omnia principia secunda,
+            <lb ed="#V" n="63"/>quae continent principia demonstrationum, vnde per hoc,
+            <lb ed="#V" n="64"/>quod superior angelus suum cognitum alteri angelo
+            demon<lb ed="#V" n="65" break="no"/>strat, eius intellectus confortatur ad aliqua cognoscenda,
+            <lb ed="#V" n="66"/>quae prius non cognoscebat, &amp; sic in in angelo illuminato
+            <lb ed="#V" n="67"/>non fit nouum lumen naturae, vel gratiae, sed lumen quod
+            <lb ed="#V" n="68"/>prius inerat confortatur per lumen contentum in
+            cogni<lb ed="#V" n="69" break="no"/>to percepto a superiori angelo. Haec ille.
+          </p>
+          <p xml:id="capsco-b1l5dz-d1e1157">
+            Ex quo patet, quod
+            <lb ed="#V" n="70"/>mens eius non fuit, quod angelus superior causet nouum
+            lu<lb ed="#V" n="71" break="no"/>men, nec nouum gradum luminis in inferiori eius
+            lumen<lb ed="#V" n="72" break="no"/>intendendo. Sed sic, quia proponit ei aliquod obiectum
+            <lb ed="#V" n="73"/>luminosum participans lumen superioris angeli, quo
+            ob<lb ed="#V" n="74" break="no"/>iecto hausto, vt ita dicam, lumen angeli inferioris
+            fortifi<lb ed="#V" n="75" break="no"/>catur, sicut fortificatur lumen discipuli hausto a magistro
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="76"/>aliquo principio, ex quo fortificatur ad cognoscenda
+            mul<lb ed="#V" n="77" break="no"/>ta, quae prius cognoscere solo suo naturali lumine non
+            va<lb ed="#V" n="78" break="no"/>lebat. Vnde sicut pulcherrime tradit Sanctus Thomas secunda
+            se<lb ed="#V" n="79" break="no"/>cundae q. 15. artic. 1. triplex lumen concurrere potest in
+            in<lb ed="#V" n="80" break="no"/>tellectuali visione.
+          </p>
+          <p xml:id="capsco-b1l5dz-d1e1187">
+            Primum est lumen naturalis rationis,
+            <lb ed="#V" n="81"/>quod pertinet ad speciem animae rationalis, &amp; quo nunquam
+            <lb ed="#V" n="82"/>priuatur, licet quandoque a proprio actu impediatur.
+            Se<lb ed="#V" n="83" break="no"/>cundum est lumen habituale naturali lumini rationis
+            su<lb ed="#V" n="84" break="no"/>peradditum.
+          </p>
+          <p xml:id="capsco-b1l5dz-d1e1198">
+            Tertium est aliquod intelligibile primum, per
+            <lb ed="#V" n="85"/>quod homo intelligit alia &amp;c. Vide totum articulum, quia
+            <lb ed="#V" n="86"/>pulcher est. Ex quo patet, quod confortatio luminis potest c
+            <lb ed="#V" n="87"/>fieri sine intensione naturalis luminis dupliciter. Primo
+            <lb ed="#V" n="88"/>per superadditionem alicuius habitus, &amp; hoc solus Deus
+            <lb ed="#V" n="89"/>potest facere in angelo. Secundo per acquisitionem
+            alicu<lb ed="#V" n="90" break="no"/>ius nouae cognitionis, vel noui obiecti cogniti, &amp; ad hoc
+            <lb ed="#V" n="91"/>potest cooperari angelus superior, vt in praecedenti
+            quae<lb ed="#V" n="92" break="no"/>stione dictum fuit. Et potest addi tertius modus, qui
+            supe<lb ed="#V" n="93" break="no"/>rius tactus est cum scilicet angelus superior influit
+            participatio<lb ed="#V" n="94" break="no"/>nem sui luminis angelo inferiori. Nec sic faciendo causat
+            <lb ed="#V" n="95"/>nouum lumen naturale in angelo inferiori, quia illa
+            parti<lb ed="#V" n="96" break="no"/>cipatio luminis non habet esse ratum in natura, sed esse
+            in<lb ed="#V" n="97" break="no"/>tentionale modo alias exposito. Sed forte dicetur, quod
+            qua<lb ed="#V" n="98" break="no"/>lecunque esse habeat, &amp; quantumcunque sit debile lumen
+            <lb ed="#V" n="99"/>illud influxum videtur sequi, quod Angelus superior aliquid
+            <lb ed="#V" n="100"/>creet in inferiori. Dicitur quod hoc non valet. Quod ostendit
+            <lb ed="#V" n="101"/>Sanctus Thomas de verita. q. 9. arti. 1. in sol. 5. quintum enim
+            argumen<lb ed="#V" n="102" break="no"/>tum tale erat. Si vnus angelus alium illuminat, aut hoc est
+            <lb ed="#V" n="103"/>per hoc, quod tradidit ei lumen proprium, aut per hoc, quod
+            <lb ed="#V" n="104"/>dat ei aliquod aliud lumen. Sed non primo, quia sic vnum
+            <lb ed="#V" n="105"/>&amp; idem lumen esset in diuersis illuminatis. Nec secundo
+            <lb ed="#V" n="106"/>modo: quia sic oporteret, quod illud lumen esset factum a
+            su<lb ed="#V" n="107" break="no"/>periori angelo. Ex quo sequeretur, quod angelus esset creator
+            <lb ed="#V" n="108"/>illius luminis, cum illud lumen non fiat ex materia &amp;c.
+            Ec<lb ed="#V" n="109" break="no"/>ce argumentum. Sequitur responsio. Dicendum (inquit)
+            <lb ed="#V" n="110"/>quod vnum &amp; idem medium, quod cognoscitur a superiori
+            <lb ed="#V" n="111"/>angelo, cognoscitur ab inferiori. Sed cognitio superioris
+            <lb ed="#V" n="112"/>angeli de illo alia est a cognitione inferioris, &amp; sic
+            quodan<lb ed="#V" n="113" break="no"/>modo est vnum lumen, &amp; quodammodo aliud. Nec tamen
+            <lb ed="#V" n="114"/>sequitur, quod secundum hoc, quod est aliud, sit causatum a
+            <lb ed="#V" n="115"/>superiori Angelo, quia res non per se subsistentes non fiuntem
+            <lb ed="#V" n="116"/>per se loquendo, sicut nec per se sunt. Vnde non fit color,
+            <lb ed="#V" n="117"/>sed fit coloratum, vt dicitur 7. Metaphysic. Et ideo non fit
+            <lb ed="#V" n="118"/>ipsum lumen angeli, sed fit ipsum illuminatum de
+            poten<lb ed="#V" n="119" break="no"/>tia illuminata actu illuminatum. Haec ille.
+          </p>
+          <p xml:id="capsco-b1l5dz-d1e1276">
+            Ex praedictis
+            ap<lb ed="#V" n="120" break="no"/>paret, quod prima tria argumenta Durandi ex falsa
+            imagina<lb ed="#V" n="121" break="no"/>tione procedunt, ideo ad illa non oportet respondere, quia
+            <lb ed="#V" n="122"/>solum procedunt contra ponentes fortificationem
+            angeli<lb ed="#V" n="123" break="no"/>illuminati fieri per intentionem sui naturalis luminis, a
+            <lb ed="#V" n="124"/>quo somnio longe sumus. Quia autem vlterius addit
+            con<lb ed="#V" n="125" break="no"/>tra ponentes duo lumina concurrere ad eandem
+            intelle<lb ed="#V" n="126" break="no"/>ctionem causandam, quae via in parte concessa est. Dicitur
+            <lb ed="#V" n="127"/>quod falsum assumit in hoc quod dicit, quod lumen
+            intelle<lb ed="#V" n="128" break="no"/>ctus non est aliud, nisi intellectus ipse. Hoc enim negandum
+            <lb ed="#V" n="129"/>est, quia praeter illud lumen possunt poni alia tertia
+            lumi<lb ed="#V" n="130" break="no"/>na, vt puta habitus superadditus, item obiectum cognitum,
+            <lb ed="#V" n="131"/>vel medium cognoscendi aliquid, item influxus virtutis.
+            <lb ed="#V" n="132"/>Haec autem lumina possunt concurrere cum lumine
+            natu<lb ed="#V" n="133" break="no"/>rali intellectus illuminati ad causandam cognitionem, quam
+            <lb ed="#V" n="134"/>solus intellectus recipit.
+          </p>
+          <p xml:id="capsco-b1l5dz-d1e1311">
+            Ad illud, quod obijcit contra
+            se<lb ed="#V" n="135" break="no"/>cundam partem conclusionis dicitur, quod explicatio
+            verita<lb ed="#V" n="136" break="no"/>tis intellectualis, quam facit angelus superior inferiori, non
+            <lb ed="#V" n="137"/>fit ex parte rei cognoscentis, nec ex parte actus
+            intelligen<lb ed="#V" n="138" break="no"/>di, quo angelus superior appraehendit veritatem. Fit tamen
+            <lb ed="#V" n="139"/>ex parte actus intelligendi, quo format conceptus
+            particu<lb ed="#V" n="140" break="no"/>latos, &amp; proportionatos capacitati angeli inferioris, &amp; cum
+            <lb ed="#V" n="141"/>illi conceptus sint quaedam intelligibilia signa veritatis,
+            <lb ed="#V" n="142"/>conceditur quod particulatio illa sit per signa non
+            exte<lb ed="#V" n="143" break="no"/>riora, sed interiora. Et hoc modo etiam Doctor, qui
+            ha<lb ed="#V" n="144" break="no"/>bet proponere aliqua subtilia discipulis, non solum
+            propo<lb ed="#V" n="145" break="no"/>nit signa vocalia proportionata caumpacitati discipulorum,
+            <lb ed="#V" n="146"/>immo prius natura format in se conceptus particulatos
+            <lb ed="#V" n="147"/>quos significant voces, quas exterius proponit, licet
+            disci<lb ed="#V" n="148" break="no"/>puli voces, &amp; non conceptus magistri in seipsis percipiant.
+            <lb ed="#V" n="149"/>Cum autem arguens dicit se probare, quod locutio
+            inte<lb ed="#V" n="150" break="no"/>riornon sit per signa, patet ex praecedenti quaestione quod
+            <pb ed="#V" n="294"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>suae probationes infirmae sunt. Nec mirum si negat
+            intelli<lb ed="#V" n="2" break="no"/>gibilia signa, cum neget omnes species in potentijs
+            cogni<lb ed="#V" n="3" break="no"/>tiuis, nos autem ponimus in intellectu angelico &amp;
+            huma<lb ed="#V" n="4" break="no"/>no duplex signum, &amp; duplex repraesentatiuum.
+          </p>
+          <p xml:id="capsco-b1l5dz-d1e1361">
+            Primum est
+            <lb ed="#V" n="5"/>species intelligibilis, quae est principium elicitiuum actus
+            <lb ed="#V" n="6"/>intelligendi, &amp; est similitudo obiecti, quasi habitualiter
+            re<lb ed="#V" n="7" break="no"/>praesentatiua. Secundum est conceptus vel verbum, quod
+            <lb ed="#V" n="8"/>se habet quasi terminus actualis intellectionis, &amp; quasi quod
+            <lb ed="#V" n="9"/>constitutum &amp; formatum per eam, &amp; est similitudo
+            expres<lb ed="#V" n="10" break="no"/>sa obiecti, quasi actualis. Vnde ab vna specie habituali
+            pos<lb ed="#V" n="11" break="no"/>sunt formari multi conceptus, quorum quidam sunt
+            tran<lb ed="#V" n="12" break="no"/>scendentes, quidam generici, quidam differentiales, quidam
+            <lb ed="#V" n="13"/>specifici, &amp; tales potest formare in seipso angelus si vult, &amp;
+            <lb ed="#V" n="14"/>proponere Angelo inferiori. Ex quibus patet solutio ad
+            <lb ed="#V" n="15"/>omnia eius dicta.
+          </p>
+          <p xml:id="capsco-b1l5dz-d1e1387">
+            Ad primum Aureoli contra eandem
+            <lb ed="#V" n="16"/>conclusionem patet solutio per praedicta, quia non est
+            pro<lb ed="#V" n="17" break="no"/>prie contra nos, sed contra ponentes lumen Angeli
+            infe<lb ed="#V" n="18" break="no"/>rioris fortificari per modum intentionis. Nos autem
+            po<lb ed="#V" n="19" break="no"/>nimus illam sortificationem fieri per modum extensionis,
+            <lb ed="#V" n="20"/>vel plurificationis luminum, vt supra dictum est. Ad
+            secun<lb ed="#V" n="21" break="no"/>dum dicitur, quod imaginatio Sancti Thomas non est
+            ma<lb ed="#V" n="22" break="no"/>thematica, sed metaphysica, immo physica, vtpote
+            funda<lb ed="#V" n="23" break="no"/>ta in sibris physicis, vt in 3. de Anima. Et cum dicit, quod
+            <lb ed="#V" n="24"/>in substantijs abstractis non est aliqua qualitas radiosa,
+            di<lb ed="#V" n="25" break="no"/>citur quod nulla qualitas substantiae abstractae est radiosa hoc
+            <lb ed="#V" n="26"/>modo quo lux solis vel ignis emittens radios naturali
+            ne<lb ed="#V" n="27" break="no"/>cessitate in passum, vel receptiuum materiale. Sed verum
+            <lb ed="#V" n="28"/>est, quod lumen intellectus angelici est quaedam qualitas de
+            <lb ed="#V" n="29"/>secunda specie qualitatis, quae ad imperium voluntatis
+            po<lb ed="#V" n="30" break="no"/>test emittere radios infra se, &amp; extra se, vtputa illustrando
+            <lb ed="#V" n="31"/>fantasiam vel intellectum humanum, aut angelicum
+            infra<lb ed="#V" n="32" break="no"/>se positos. Ad improbationem responsionis ibidem positae
+            <lb ed="#V" n="33"/>vltimo, patet quid dicendum sit ex praedictis. Dicitur enim
+            <lb ed="#V" n="34"/>quod duo lumina angelica possunt concurrere ad
+            causan<lb ed="#V" n="35" break="no"/>dum eandem cognitionem, sed diuersimode. Vnum
+            scilicetan<lb ed="#V" n="36" break="no"/>quam princi pium proximum elicitiuum, &amp; receptiuum
+            <lb ed="#V" n="37"/>intellectionis. Aliud vero tanquam principium remotum
+            <lb ed="#V" n="38"/>influens alteri lumen intelligibile modis prius expositis.
+            <lb ed="#V" n="39"/>Vnde illud argumentum assumit multa falsa.
+          </p>
+          <p xml:id="capsco-b1l5dz-d1e1443">
+            Primum est,
+            <lb ed="#V" n="40"/>quod lumen intelligibile nil aliud sit nisi intellectus agens.
+            <lb ed="#V" n="41"/>Secundum est, quod in angelis sit vere &amp; proprie
+            intelle<lb ed="#V" n="42" break="no"/>ctus agens, &amp; possibilis. Tertium est, quod sicut
+            intelle<lb ed="#V" n="43" break="no"/>ctus humanus non potest immediate agere in alium
+            intel<lb ed="#V" n="44" break="no"/>lectum humanum, ita nec vnus intellectus angelicus in
+            <lb ed="#V" n="45"/>alium. Hoc enim non est simile, quia omnes intellectus
+            huma<lb ed="#V" n="46" break="no"/>gelici.
+          </p>
+          <p xml:id="capsco-b1l5dz-d1e1461">
+            Quartum est, quod intellectus agens non habeat
+            quam<lb ed="#V" n="47" break="no"/>cunque actionem, nisi in intellectum possibilem, quod est
+            <lb ed="#V" n="48"/>falsum, quia agit in phantasmata, vt alias dictum fuit. Ad
+            <lb ed="#V" n="49"/>argumenta vltimo adducta contra tertiam conclusionem
+            <lb ed="#V" n="50"/>pro quanto sunt contra eam dicitur, quod de illis, quae
+            an<lb ed="#V" n="51" break="no"/>gelus inferior videt in verbo pro quanto videntur in
+            ver<lb ed="#V" n="52" break="no"/>bo non oportet eum illuminari a superiori, sed si inferior
+            <lb ed="#V" n="53"/>videt ibi aliquam creaturam, quo ad aliquas eius
+            habitu<lb ed="#V" n="54" break="no"/>dines, &amp; non quo ad omnes, tunc quo ad illas
+            habitudi<lb ed="#V" n="55" break="no"/>nes, aut rationes, quas ibi non videt, poterit illuminari a
+            <lb ed="#V" n="56"/>superiori, sed hoc non est illuminari de visis in verbo,
+            im<lb ed="#V" n="57" break="no"/>mo de non visis in verbo. Constat enim quod asinus potest
+            <lb ed="#V" n="58"/>videri a Gabriele in verbo quo ad aliquas rationes vel
+            ha<lb ed="#V" n="59" break="no"/>bitudines eius, &amp; non quo ad omnes. Et idem est de
+            miste<lb ed="#V" n="60" break="no"/>rio incarnationis, aut passionis Christi. Solus enim Deus
+            <lb ed="#V" n="61"/>&amp; anima Christi sciunt omnes habitudines quas habet
+            <lb ed="#V" n="62"/>passio Christi, vtputa ad quos se extendit, vt saluandos per
+            <lb ed="#V" n="63"/>illam, &amp; sic patet quod argumentum non procedit directe
+            <lb ed="#V" n="64"/>contra conclusionem.
+          </p>
+          <p xml:id="capsco-b1l5dz-d1e1503">
+            Ad argumentum factum in pede
+            <lb ed="#V" n="65"/>quaestionis respondit Sanctus Thomas prima parte q. 106. artic. 1. in
+            <lb ed="#V" n="66"/>solut. secundi, vbi sic dicit. Vnus angelus non illuminat
+            <lb ed="#V" n="67"/>alium tradendo ei lumen naturae, vel gratiae, vel gloriae,
+            <lb ed="#V" n="68"/>sed confortando lumen naturale illius, &amp; manifestando
+            <lb ed="#V" n="69"/>ei veritatem de his, quae pertinent ad statum gratiae, vel
+            glo<lb ed="#V" n="70" break="no"/>riae. Haec ille. Aliter soluit de veritate q. 9. artic. 1. in solut.
+            <lb ed="#V" n="71"/>quinti sic. Ab angelo illuminante non fit nouum
+            lumen<lb ed="#V" n="72" break="no"/>gratiae, vel naturae, nisi vt participatum, cum enim omne &amp;c.
+            <lb ed="#V" n="73"/>vt supra recitatum est in principio huius, articuli. Et haec
+            <lb ed="#V" n="74"/>de quaestione sufficiant. De qua benedictus Deus. Amen.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,1517 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 1, Distinctio 7, Quaestio 1</title>
+        <author ref="#JohannesCapreolus">Johannes Capreolus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 1, Distinctio 7, Quaestio 1</title>
+          <date when="2026-11-04">Nov 4, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-j88c01">Venice, 1589, v. 1</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-04" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="166"/>
+        <cb ed="#V" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="capsco-a1r2pi"><!-- l1d7q1 -->
+        <head xml:id="capsco-a1r2pi-Hd1e101">Quaestio 1</head>
+        <head xml:id="capsco-a1r2pi-Hd1e103" type="question-title">Utrum respectu actus generationis divinae in Patre sit aliqua potentia</head>
+        <p xml:id="capsco-a1r2pi-d1e106">
+          <lb ed="#V" n="130"/>DISTINCTIO VII.
+          <lb ed="#V" n="131"/>QVAESTIO I.
+          <lb ed="#V" n="132"/>Vtrum respectu actus generationis diuinae
+          <lb ed="#V" n="133"/>in patre sit aliqua potentia.
+        </p>
+        <p xml:id="capsco-a1r2pi-d1e117">
+          <lb ed="#V" n="134"/><milestone ed="#V" unit="p" rend="initial"/> CIRCA septimam distinctionem
+          quaeri<lb ed="#V" n="135" break="no"/>tur. Vtrum in patre sit aliqua potentia
+          <lb ed="#V" n="136"/>respectu actus generationis aeternae
+        </p>
+        <p xml:id="capsco-a1r2pi-d1e127">
+          Et
+          <lb ed="#V" n="137"/>arguitur quod non. Omnis potentia vel
+          <lb ed="#V" n="138"/>est actiua vel passiua, sed neutra illarum
+          <lb ed="#V" n="139"/>i1proposito potest competere potentia enim
+          <lb ed="#V" n="140"/>passiua in Deo non est, potentia vero
+          <lb ed="#V" n="141"/>actiua non potest competere vni
+          per<lb ed="#V" n="142" break="no"/>sonae respectu alterius, cum personae diuinae non sint factae.
+          <lb ed="#V" n="143"/>ergo in diuinis non est potentia ad actum generandi, nec
+          <lb ed="#V" n="144"/>ad alium actum notionalem.
+        </p>
+        <p xml:id="capsco-a1r2pi-d1e148">
+          <lb ed="#V" n="145"/>In oppositum arguitur sic. Nam dicit Auutnus contra
+          Ma<lb ed="#V" n="146" break="no"/>ximum. Si Deus pater non potuit generare filium, vbi
+          <lb ed="#V" n="147"/>est impotentia Dei patrisrergo sequitur quod pater habet
+          <pb ed="#V" n="167"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>potentiam respectu actus, quo generat filium.
+        </p>
+        <p xml:id="capsco-a1r2pi-d1e164">
+          <lb ed="#V" n="2"/><milestone ed="#V" unit="p" rend="indent"/> In hac quaestione erunt duo articuli. In primo ponentur
+          <lb ed="#V" n="3"/>conclusiones. In secundo mouebuntur dubitationes.
+        </p>
+        <div xml:id="capsco-a1r2pi-Dd1e172">
+          <head xml:id="capsco-a1r2pi-Hd1e174">Articulus 1</head>
+          <p xml:id="capsco-a1r2pi-d1e176">
+            <lb ed="#V" n="4"/><milestone ed="#V" unit="p" rend="initial"/> Quantum ad primum sit prima conclusio. Generans
+            <lb ed="#V" n="5"/>in diuinis habet potentiam generandi, &amp; spirans
+            <lb ed="#V" n="6"/>habet potentiam spirandi. Istam probat Thomas prima
+            par<lb ed="#V" n="7" break="no"/>te. q. 41. art. 4. Sicut (inquit) in diuinis ponuntur actus
+            no<lb ed="#V" n="8" break="no"/>tionales, ita necesse est ibi ponere potentiam respectu
+            hu<lb ed="#V" n="9" break="no"/>iusmodi actuum, cum potentia nihil aliud significet quam
+            <lb ed="#V" n="10"/>principium alicuius actus: vnde cum patrem intelligamus,
+            <lb ed="#V" n="11"/>vt principium generationis, &amp; patrem &amp; filium, vt
+            princi<lb ed="#V" n="12" break="no"/>pium spirationis, necesse est quod patri attribuamus
+            po<lb ed="#V" n="13" break="no"/>tentiam generandi, &amp; patri &amp; filio potentiam spirandi,
+            <lb ed="#V" n="14"/>quia potentia generandi significat illud, quo generans
+            ge<lb ed="#V" n="15" break="no"/>nerat, omne autem generans generat aliquo: vnde in
+            om<lb ed="#V" n="16" break="no"/>ni generante oportet ponere potentiam generandi, &amp; in
+            <lb ed="#V" n="17"/>omni spirante potentiam spirandi. Haec ille.
+          </p>
+          <p xml:id="capsco-a1r2pi-d1e210">
+            Item in de
+            po<lb ed="#V" n="18" break="no"/>tentia Dei q. 2. artic. 1. Quia (inquit) de diuinis loquimur
+            <lb ed="#V" n="19"/>secundum modum nostrum, quem intellectus capit ex
+            re<lb ed="#V" n="20" break="no"/>bus inferioribus, ex quibus scientiam sumit, ideo sicut in
+            <lb ed="#V" n="21"/>rebus inferioribus cuicunque attribuitur actio, attribuitur
+            <lb ed="#V" n="22"/>aliquod actionis principium, quod potentia nominatur,
+            <lb ed="#V" n="23"/>ita &amp; in diuinis, quamuis in Deo non sit potentiae
+            differen<lb ed="#V" n="24" break="no"/>tia, &amp; actionis, sicut est in rebus creatis, &amp; propter hoc
+            ge<lb ed="#V" n="25" break="no"/>neratione in Deo posita, quae per modum actionis
+            signifi<lb ed="#V" n="26" break="no"/>catur, oportet ibi concedere potentiam generandi vel
+            po<lb ed="#V" n="27" break="no"/>tentiam generatiuam. Haec ille.
+          </p>
+          <p xml:id="capsco-a1r2pi-d1e234">
+            Item primo sent. dist. 7. q. 1.
+            <lb ed="#V" n="28"/>art. 1. In creaturis (inquit) producitur aliquid per
+            poten<lb ed="#V" n="29" break="no"/>tiam naturalem, &amp; hoc producitur in similitudinem
+            natu<lb ed="#V" n="30" break="no"/>rae ipsius producentis, sicut cum homo generat hominem,
+            <lb ed="#V" n="31"/>producitur etiam aliquid per potentiam rationalem, &amp;
+            <lb ed="#V" n="32"/>hoc producitur in similitudinem producentis, non
+            quan<lb ed="#V" n="33" break="no"/>tum ad speciem naturae, sed quantum ad speciem in
+            ratio<lb ed="#V" n="34" break="no"/>ne existentem, cum omne agens agat sibi simile aliquo
+            mo<lb ed="#V" n="35" break="no"/>do, sicut domus producitur ab artifice, &amp; recipit
+            similitu<lb ed="#V" n="36" break="no"/>dinem speciei, quam artifex habet in mente. Secundum hos
+            <lb ed="#V" n="37"/>duos modos aliquid producitur a Deo, procedit enim
+            ali<lb ed="#V" n="38" break="no"/>quid a Deo in similitudinem naturae recipiens totam
+            natu<lb ed="#V" n="39" break="no"/>ram, non eandem specie tantum, sed numero, &amp; sic
+            proce<lb ed="#V" n="40" break="no"/>dit a patre per actum generationis filius: vnde in Deo est
+            <lb ed="#V" n="41"/>potentia ad generandum similis potentiae naturali
+            produ<lb ed="#V" n="42" break="no"/>centi, procedit etiam aliquid a Deo in similitudinem ideae
+            <lb ed="#V" n="43"/>existentis in mente diuina, quod non recipit naturam
+            diui<lb ed="#V" n="44" break="no"/>nam, sicut creaturae: vnde potentia producendi creaturas
+            <lb ed="#V" n="45"/>est potentia rationalis in Deo, &amp; secundum istam
+            poten<lb ed="#V" n="46" break="no"/>tiam attenditur omnipotentia Dei, persona enim diuina,
+            <lb ed="#V" n="47"/>quae procedit per potentiam naturalem non est aliquid
+            con<lb ed="#V" n="48" break="no"/>numeratum omnibus. vnde potentia generandi non
+            con<lb ed="#V" n="49" break="no"/>tinetur sub omni potentia, sicut potentia creandi. Haec
+            il<lb ed="#V" n="50" break="no"/>le.
+          </p>
+          <p xml:id="capsco-a1r2pi-d1e286">
+            Secunda conclusio est. Potentia generandi dicit
+            princi<lb ed="#V" n="51" break="no"/>paliter, &amp; in recto diuinam naturam, hanc probat Sanctus Thomas
+            <lb ed="#V" n="52"/>prima parte. q. 41. art. 5. vbi sic ait. Quidam (inquit)
+            dixe<lb ed="#V" n="53" break="no"/>runt, quod potentia generandi significat relationem in
+            diui<lb ed="#V" n="54" break="no"/>nis. Sed hoc esse non potest. Nam illud proprie dicitur
+            po<lb ed="#V" n="55" break="no"/>tentia in quocunque agente, quo agens agit, omne autem
+            <lb ed="#V" n="56"/>producens aliquid per suam actionem producit sibi
+            simi<lb ed="#V" n="57" break="no"/>le quantum ad formam qua agit, sicut homo genitus est
+            <lb ed="#V" n="58"/>similis homini generanti in natura humana, cuius virtute
+            <lb ed="#V" n="59"/>pater potest generare hominem. Illud ergo est potentia
+            <lb ed="#V" n="60"/>generatiua in aliquo generante in quo generatum
+            assimi<lb ed="#V" n="61" break="no"/>latur generanti. Filius autem Dei assimilatur patri
+            gignen<lb ed="#V" n="62" break="no"/>ti in natura diuina: vnde natura diuina in patre est
+            poten<lb ed="#V" n="63" break="no"/>tia generandi in ipso. vnde &amp; Hylarius dicit 5. de Trinit.
+            <lb ed="#V" n="64"/>Natiuitas Dei non potest eam, ex qua perfecta est, non
+            te<lb ed="#V" n="65" break="no"/>nere naturam, nihil enim aliud quam Deus subsistit, quod non
+            <lb ed="#V" n="66"/>aliunde quam de Deo subsistit. Sic igitur dicendum est quod
+            <lb ed="#V" n="67"/>potentia generandi principaliter significat diuinam
+            natu<lb ed="#V" n="68" break="no"/>ram, vt magister dicit in septima dist. primi sen. non autem
+            <lb ed="#V" n="69"/>relationem tantum, nec etiam inquantum est idem
+            relatio<lb ed="#V" n="70" break="no"/>ni, vt significet ex aequo vtrunque, licet enim paternitas
+            signi<lb ed="#V" n="71" break="no"/>ficet vt forma patris, est enim proprietas personalis se habens
+            <lb ed="#V" n="72"/>ad personam patris vt forma indiuidualis ad aliquod
+            indi<lb ed="#V" n="73" break="no"/>uiduum creatum, forma autem indiuidualis in rebus creatis
+            <lb ed="#V" n="74"/>constituit personam generantem, non autem est quo generans
+            <lb ed="#V" n="75"/>generat, alioquin fortes generaret fortem. vnde nec
+            pater<cb ed="#V" n="b"/><lb ed="#V" n="76" break="no"/>nitas potest intelligi, vt quo pater generet, sed constituens
+            <lb ed="#V" n="77"/>personam patris generantis, alioquin pater generaret
+            pa<lb ed="#V" n="78" break="no"/>trem, sed illud quo pater generat est natura diuina, in qua
+            <lb ed="#V" n="79"/>sibi filius similatur, &amp; secundum hoc dicit Damascenus quod
+            ge<lb ed="#V" n="80" break="no"/>neratio est opus naturae non sicut generantis sed sicut quo
+            <lb ed="#V" n="81"/>generans generat, &amp; ideo potentia generandi significat in
+            <lb ed="#V" n="82"/>recto diuinam naturam. Haec ille.
+          </p>
+          <p xml:id="capsco-a1r2pi-d1e360">
+            Idem ponit de potentia
+            <lb ed="#V" n="83"/>Dei q. 2. artic. 2. &amp; primo sen. vbi supra arti. 2. Tertia
+            con<lb ed="#V" n="84" break="no"/>clusio est. Potentia generandi dicit relationem, puta
+            pater<lb ed="#V" n="85" break="no"/>nitatem in obliquo. Istam conclusionem probat Sanctus Thomas de
+            <lb ed="#V" n="86"/>potentia Dei q. 2. arti. 2. Quidam (inquit) dixerunt quod
+            po<lb ed="#V" n="87" break="no"/>tentia generandi significat tantum essentiam. Sed illud
+            con<lb ed="#V" n="88" break="no"/>ueniens non videtur. Actio enim, quae fit virtute naturae
+            com<lb ed="#V" n="89" break="no"/>munis per aliquod sub natura communi contentum aliquem
+            mo<lb ed="#V" n="90" break="no"/>dum accipit ex propriis principiis, sicut actio quae debetur
+            <lb ed="#V" n="91"/>naturae animalis fit in homine secundum quod competit speciei
+            huma<lb ed="#V" n="92" break="no"/>nae. vnde &amp; homo perfectius habet actum virtutis
+            imagi<lb ed="#V" n="93" break="no"/>natiuae quam alia animalia secundum quod competit eius
+            rationabi<lb ed="#V" n="94" break="no"/>litati. Similiter &amp; actio hominis inuenitur in hoc, &amp; in illo
+            <lb ed="#V" n="95"/>homine, secundum quod competit principiis indiuidualibus huius
+            <lb ed="#V" n="96"/>vel illius, ex quo contingit, quod vnus homo clarius alio
+            in<lb ed="#V" n="97" break="no"/>telligit. Et ideo dicendum, quod si natura diuina, quae est communis,
+            <lb ed="#V" n="98"/>sit principium alicuius operationis, quae solum patri
+            com<lb ed="#V" n="99" break="no"/>petit, oportet quod sit principium secundum quod competit
+            proprieta<lb ed="#V" n="100" break="no"/>ti personalis patris, &amp; propter hoc in ratione potentiae
+            in<lb ed="#V" n="101" break="no"/>cluditur quodammodo paternitas quantum ad illud, quod
+            <lb ed="#V" n="102"/>est generationis principium, &amp; propter hoc cum alias dicendum
+            <lb ed="#V" n="103"/>est, quod potentia generandi simul essentiam, &amp; notionem
+            si<lb ed="#V" n="104" break="no"/>gnificat. Haec ille.
+          </p>
+          <p xml:id="capsco-a1r2pi-d1e410">
+            Et ibidem ad quintum. In qualibet
+            gene<lb ed="#V" n="105" break="no"/>ratione principium generans principaliter non est aliqua
+            <lb ed="#V" n="106"/>forma indiuidualis, sed forma quae pertinet ad naturam
+            spe<lb ed="#V" n="107" break="no"/>ciei, &amp; ideo non oportet quod generatum assimiletur
+            generan<lb ed="#V" n="108" break="no"/>ti quo ad conditiones indiuiduales, sed quantum ad
+            natu<lb ed="#V" n="109" break="no"/>ram speciei, paternitas autem non est in patre per modum
+            for<lb ed="#V" n="110" break="no"/>mae speciei sicut humanitas in homine, sic enim in eo est
+            diui<lb ed="#V" n="111" break="no"/>na natura, sed est in eo, vt ita dicam vt principium
+            indiui<lb ed="#V" n="112" break="no"/>duale, est enim proprietas personalis, &amp; ideo non oportet quod sit
+            <lb ed="#V" n="113"/>principium generationis principaliter, sed quodammodo
+            <lb ed="#V" n="114"/>&amp; cointellectum ratione supradicta.
+          </p>
+          <p xml:id="capsco-a1r2pi-d1e434">
+            Item prima parte vbi
+            su<lb ed="#V" n="115" break="no"/>pra. Potentia generandi significat in recto diuinam
+            natu<lb ed="#V" n="116" break="no"/>ram sed in obliquo relationem. Item 1. sent. vbi supra ar. 2.
+            <lb ed="#V" n="117"/>Quidam dixerunt, quod potentia generandi simpliciter est ad
+            <lb ed="#V" n="118"/>aliquid non tantum ex parte actus, sed etiam ex parte ipsius
+            po<lb ed="#V" n="119" break="no"/>tentiae. potentia enim dicit relationem principii, sed hoc nihil
+            <lb ed="#V" n="120"/>est: quia potentia non est relatiuum secundum suum esse, sed
+            fo<lb ed="#V" n="121" break="no"/>lum secundum dici, immo potentia secundum illud quod est significat
+            <lb ed="#V" n="122"/>etiam illud quod est principium, &amp; non tantum relationem
+            prin<lb ed="#V" n="123" break="no"/>cipii. sic enim quaerimus de potentia generandi, principium
+            <lb ed="#V" n="124"/>autem cuiuslibet operationis, vt supra dictum est est diuina
+            <lb ed="#V" n="125"/>essentia: sed ab essentia diuina egreditur aliquis actus, secundum
+            <lb ed="#V" n="126"/>quod est sapientia &amp; aliquis secundum quod est bonitas, &amp; sic de aliis
+            at<lb ed="#V" n="127" break="no"/>tributis. similiter dico quod cum paternitas sit ipsa essentia
+            di<lb ed="#V" n="128" break="no"/>uina. essentia secundum quod paternitas, est principium huius actus,
+            <lb ed="#V" n="129"/>qui est generare non sicut agens, sed sicut illud quo agitur.
+            <lb ed="#V" n="130"/>vnum principium generationis est essentiale sub ratione
+            relatio<lb ed="#V" n="131" break="no"/>nis. vnde est quasi medium inter essentiale, &amp; personale.
+            <lb ed="#V" n="132"/>ex parte enim illa qua potentia quae est medium inter
+            es<lb ed="#V" n="133" break="no"/>sentiam, &amp; operationem radicatur in essentia est quid
+            ab<lb ed="#V" n="134" break="no"/>solutum. ex parte autem qua coniungitur operationi est
+            <lb ed="#V" n="135"/>relatiuum. Et ibidem ad tertium. Natura communis in
+            <lb ed="#V" n="136"/>vnoquoque operatur secundum conditionem ipsius:
+            vn<lb ed="#V" n="137" break="no"/>de anima sensibilis habet in diuersis animalibus diuersas
+            <lb ed="#V" n="138"/>operationes, &amp; in diuersis organis sentiendi, &amp; hoc est,
+            <lb ed="#V" n="139"/>ideo quia natura communis determinatur &amp; contrahitur
+            <lb ed="#V" n="140"/>in vnoquoque secundum proprietates inuentas in illo, diuina
+            au<lb ed="#V" n="141" break="no"/>tem natura non contrahitur, nec determinatur secundum
+            proprie<lb ed="#V" n="142" break="no"/>tates suppositorum, cum natura diuina in patre sit
+            pro<lb ed="#V" n="143" break="no"/>prietas patris, &amp; in filio proprietas filii, ideo autem non
+            <lb ed="#V" n="144"/>contrahitur: quia proprietas non est aliud ab ipsa vt
+            adue<lb ed="#V" n="145" break="no"/>niat sibi quasi dispositio contrahens, ideo etiam non
+            deter<lb ed="#V" n="146" break="no"/>minatur nec distinguitur: quia relatio non distinguit secundum
+            <lb ed="#V" n="147"/>illud quod est, &amp; secundum hoc tantum comparatur ad essentiam
+            <lb ed="#V" n="148"/>cum qua est idem re, sed secundum quod ad alterum est, &amp; sic respicit
+            <lb ed="#V" n="149"/>personam &amp; distinguit eam, &amp; ideo essentia in patre est principium
+            <lb ed="#V" n="150"/>operationis secundum proprietatem patris, &amp; in filio secundum proprietatem
+            <pb ed="#V" n="168"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>filij. vnde eiusdem operationis principium est natura
+            com<lb ed="#V" n="2" break="no"/>munis &amp; forma propria ipsius patris, &amp; ideo potentia
+            ge<lb ed="#V" n="3" break="no"/>nerandi medium est inter absolutum &amp; relatiuum, &amp; hoc
+            <lb ed="#V" n="4"/>voluerunt quidam dicentes potentiam generandi esse quid
+            <lb ed="#V" n="5"/>absolutum si consideretur potentia remota, &amp;
+            indisposi<lb ed="#V" n="6" break="no"/>ta, &amp; ad aliquid consideretur potentia disposita quamuis
+            <lb ed="#V" n="7"/>improprie sint loquti, quia proprietas non disponit
+            essen<lb ed="#V" n="8" break="no"/>tiam sed suppositum. Haec ille.
+          </p>
+          <p xml:id="capsco-a1r2pi-d1e536">
+            Sciendum tamen quod in
+            <lb ed="#V" n="9"/>summa videtur corrigere quod dixerat in scripto, in
+            scri<lb ed="#V" n="10" break="no"/>pto enim dicit, vt statim allegatum est, quod principium
+            <lb ed="#V" n="11"/>quo pater generat est essentia diuina, vt est paternitas,
+            di<lb ed="#V" n="12" break="no"/>cit etiam quod eiusdem operationis principium est
+            essen<lb ed="#V" n="13" break="no"/>tia diuina &amp; paternitas, huius autem oppositum dicit in
+            <lb ed="#V" n="14"/>summa ponendo quod nec paternitas est principium
+            ge<lb ed="#V" n="15" break="no"/>nerationis, nec essentia, vt est idem paternitati, &amp; quod
+            essen<lb ed="#V" n="16" break="no"/>tia, &amp; paternitas non sunt ex aequo principium generandi,
+            <lb ed="#V" n="17"/>licet de intellectu talis principii vel potentiae sit essentia
+            <lb ed="#V" n="18"/>in recto, &amp; relatio in obliquo, potentia enim generandi
+            <lb ed="#V" n="19"/>est essentia patris, &amp; sicut hoc quod dico essentia patris duo
+            <lb ed="#V" n="20"/>includit scilicet essentiam, &amp; paternitatem, ita hoc quod dico
+            <lb ed="#V" n="21"/>potentia generandi. Et in hoc terminatur primus articul.
+          </p>
+        </div>
+        <div xml:id="capsco-a1r2pi-Dd1e568">
+          <head xml:id="capsco-a1r2pi-Hd1e570">Articulus 2</head>
+          <p xml:id="capsco-a1r2pi-d1e572">
+            <lb ed="#V" n="22"/><milestone ed="#V" unit="p" rend="initial"/> QVantum ad secundum arguit Aureolus contra
+            pri<lb ed="#V" n="23" break="no"/>mam conclusionem multipliciter. Primo sic. Vbi
+            <lb ed="#V" n="24"/>productiones non sunt elscitae vanum est, qua Tere
+            Potesi<lb ed="#V" n="25" break="no"/>tiam productiuam aut principium producendi, sed in
+            di<lb ed="#V" n="26" break="no"/>uinis generare, &amp; spirare non sunt productiones elicitae,
+            <lb ed="#V" n="27"/>pater enim nihil habet elicitum, aut capiens entitatem, &amp;
+            <lb ed="#V" n="28"/>potissime illud quo formaliter constituitur in esse
+            suppo<lb ed="#V" n="29" break="no"/>siti non potest esse aliunde, alias non esset suppositum
+            im<lb ed="#V" n="30" break="no"/>productum. ergo vanum est quaerere potentiam
+            producti<lb ed="#V" n="31" break="no"/>uam vel principium producendi respectu istarum
+            produ<lb ed="#V" n="32" break="no"/>ctionum.
+          </p>
+          <p xml:id="capsco-a1r2pi-d1e599">
+            Secundo sic. Posse esse patrem non est posse
+            po<lb ed="#V" n="33" break="no"/>tentiae productinae, sed est posse connexionis necessariae, eo
+            <lb ed="#V" n="34"/>modo quo homo potest esse animal, vel diameter potest non
+            <lb ed="#V" n="35"/>commensurari costae, si enim posse esse patrem caderent
+            sub<lb ed="#V" n="36" break="no"/>aliqua potentia productiua, pater necessario
+            producere<lb ed="#V" n="37" break="no"/>tur in esse patris in diuinis quod est erroneum, sed non est
+            <lb ed="#V" n="38"/>alia potentia qua pater potest esse pater, &amp; qua potest
+            gene<lb ed="#V" n="39" break="no"/>rare. Idem enim est actus cum actu, generare enim &amp; paternitas
+            <lb ed="#V" n="40"/>sunt eadem res. ergo eadem erit potentia qua pater potest
+            ge<lb ed="#V" n="41" break="no"/>nerare, &amp; qua pater potest esse actu pater. Et patet in
+            om<lb ed="#V" n="42" break="no"/>nibus quod eadem est potentia qua quis potest generare, &amp;
+            <lb ed="#V" n="43"/>potest se facere patrem. Magister etiam dicit, quod simile est
+            <lb ed="#V" n="44"/>inter duas potentias &amp; impotentias, pater potest esse pater.
+            <lb ed="#V" n="45"/>filius non potest esse pater, pater potest generare. filius non
+            po<lb ed="#V" n="46" break="no"/>test generare, hoc autem non esset simile, nisi omnino idem
+            es<lb ed="#V" n="47" break="no"/>set patrem posse esse patrem, &amp; patrem posse generare.
+            er<lb ed="#V" n="48" break="no"/>go impossibile est quod potentia generandi sit potentia
+            pro<lb ed="#V" n="49" break="no"/>ductiua nisi esset potentia productiua respectu huius quod
+            <lb ed="#V" n="50"/>est esse patrem in diuinis, quod est erroneum. Tertio. Si
+            po<lb ed="#V" n="51" break="no"/>tentia generandi sit principium productiuum, &amp; aliqua
+            po<lb ed="#V" n="52" break="no"/>tentia elicitiua, aliqua perfectio simpliciter est in patre quae
+            <lb ed="#V" n="53"/>non est in filio, potentia enim productiua creaturae importat
+            <lb ed="#V" n="54"/>perfectionem, &amp; multo plus potentia productiua Dei, &amp;
+            <lb ed="#V" n="55"/>creatoris, haec autem potentia generatiua non potest poni in
+            fi<lb ed="#V" n="56" break="no"/>lio, &amp; ita aliqua perfectio simpliciter erit in patre quae non
+            <lb ed="#V" n="57"/>erit in filio, &amp; sequitur quod filius non erit simpliciter
+            perfe<lb ed="#V" n="58" break="no"/>ctus, hoc autem er roneum est. igitur non potest poni quod
+            poten<lb ed="#V" n="59" break="no"/>tia generandi dicat aliquod productiuum principium. Nec
+            <lb ed="#V" n="60"/>valet inquit si dicatur, quod pari ratione generare dicit
+            perfe<lb ed="#V" n="61" break="no"/>ctionem simpliciter, non valet inquam, quia productiones
+            <lb ed="#V" n="62"/>non dicunt perfectionem simpliciter. posse autem producere
+            <lb ed="#V" n="63"/>dicit, vt patet, quia posse creare pertinet ad omnipotentiam
+            <lb ed="#V" n="64"/>&amp; est perfectio simpliciter. creare autem non alias cum pater
+            <lb ed="#V" n="65"/>ab aeterno non crearet non fuisset simpliciter perfectus,
+            qua<lb ed="#V" n="66" break="no"/>re autem potentiae dicant perfectiones, actus vero non,
+            sa<lb ed="#V" n="67" break="no"/>tis patet, actus enim sunt transeuntes, potentiae vero
+            immanen<lb ed="#V" n="68" break="no"/>tes, propter hoc, non id eo perfectum est aliquid: quia
+            ge<lb ed="#V" n="69" break="no"/>nerat sibi simile, sed cum potest sibi simile generare, secundum Philas
+            <lb ed="#V" n="70"/>4. Metheor.
+          </p>
+          <p xml:id="capsco-a1r2pi-d1e684">
+            Nec valet similiter si dicatur quod potentia
+            gene<lb ed="#V" n="71" break="no"/>ratiua terminatur ad relationem, &amp; ideo non est perfectio
+            <lb ed="#V" n="72"/>simpliciter, potentia autem creatiua terminatur ad absolutum,
+            <lb ed="#V" n="73"/>hoc nimirum non valet: quia nec essentiae creaturarum sunt
+            <lb ed="#V" n="74"/>perfectiones simpliciter, &amp; tamen potentia creatiua terminatur
+            <lb ed="#V" n="75"/>ad eas, constat autem quod res filiationis melior est omni re.
+            crea<cb ed="#V" n="b"/><lb ed="#V" n="76" break="no"/>ta. Iuxta illud ad Ephe. 3. Ex diuina paternitate deriuatur
+            <lb ed="#V" n="77"/>omnis paternitas in coelo, &amp; in terra, &amp; pari ratione omnis
+            filia<lb ed="#V" n="78" break="no"/>tio deriuatur ex filiatione diuina: vnde nullum dubium
+            <lb ed="#V" n="79"/>quin filius Dei sit nobilius productum quocunque creato,
+            <lb ed="#V" n="80"/>&amp; quin generare sit nobilior productio, quam creatio,
+            no<lb ed="#V" n="81" break="no"/>apparet ergo si potentia creatiua sit perfectio simpliciter,
+            <lb ed="#V" n="82"/>quin multo esset perfectior si tamen esset possibilis potentia
+            re<lb ed="#V" n="83" break="no"/>spectu generationis, non potest autem dici quod sit in filio aut
+            re<lb ed="#V" n="84" break="no"/>spectu alterius filii, aut respectu Spiritus Sancti, aut
+            respe<lb ed="#V" n="85" break="no"/>ctu patris, aut respectu sui. igitur poni non potest quod potentia
+            <lb ed="#V" n="86"/>generatiua sit principium productiuum.
+          </p>
+          <p xml:id="capsco-a1r2pi-d1e722">
+            Quarto sic. Cuius
+            <lb ed="#V" n="87"/>negatio non est negatio potentiae, ipsum non est formaliter
+            <lb ed="#V" n="88"/>potentia, negatio enim potentiae est negatio illius quod est
+            for<lb ed="#V" n="89" break="no"/>maliter potentia, sed Augustinus docet expresse quod negatio
+            gene<lb ed="#V" n="90" break="no"/>ratiuae potentiae, non est negatio alicuius potentiae, sed
+            pos<lb ed="#V" n="91" break="no"/>sibilitatis terminorum tantummodo. Ait enim Augustinus contra
+            <lb ed="#V" n="92"/>Maximum lib. 3. c. 13. quod filius non genuit, non quia non
+            po<lb ed="#V" n="93" break="no"/>tuit, sed quia non oportuit. Quod exponit magister dicens,
+            <lb ed="#V" n="94"/>quod non potuit est dictu quod nulla impotentia seu negatio
+            po<lb ed="#V" n="95" break="no"/>tentiae fuit, alioquin denegaretur aliqua potentia filio qua
+            <lb ed="#V" n="96"/>habet pater, &amp; ita esset potentior pater, &amp; plures potentias
+            <lb ed="#V" n="97"/>habens, cuius oppositum Augustinus dicit &amp; fides. ergo potentia
+            <lb ed="#V" n="98"/>generandi non est aliter potentia quam potentia
+            commen<lb ed="#V" n="99" break="no"/>surandi diametrum costae quae non est productiua, sed
+            no<lb ed="#V" n="100" break="no"/>tat connexionem terminorum.
+          </p>
+          <p xml:id="capsco-a1r2pi-d1e756">
+            Quinto sic. In ente
+            forma<lb ed="#V" n="101" break="no"/>liter necessario, non potest poni aliqua potentia medians
+            in<lb ed="#V" n="102" break="no"/>ter ipsum, &amp; suum formale, nisi potentia, quae dicit
+            possibi<lb ed="#V" n="103" break="no"/>litatem simul, &amp; connexionem terminorum vel
+            necessita<lb ed="#V" n="104" break="no"/>tem terminorum, si enim poneretur potentia productiua
+            in<lb ed="#V" n="105" break="no"/>ter ipsum, &amp; suum formale, sequeretur quod ipsum
+            produce<lb ed="#V" n="106" break="no"/>ret suum formale, quod est omnino impossibile, sed res
+            im<lb ed="#V" n="107" break="no"/>portata per generare &amp; paternitatem, est formalis in
+            sup<lb ed="#V" n="108" break="no"/>posito patris, ita quod per illam rem est suppositum reale. ergo
+            <lb ed="#V" n="109"/>potentia generandi medians iuter patrem, &amp; generare non
+            <lb ed="#V" n="110"/>erit potentia productiua, sed pura necessitas, &amp; actualitas
+            <lb ed="#V" n="111"/>terminorum, sicut homo habet potentiam quod sit animal, de
+            <lb ed="#V" n="112"/>qua patet quod non est productiua. Sexto. Philosophus dicit
+            <lb ed="#V" n="113"/>7. Metaph. quod negatio alicuius proprietatis debitae generi,
+            <lb ed="#V" n="114"/>aut alicui speciei dicitur priuatio in contento infra genus vel
+            <lb ed="#V" n="115"/>speciem: vnde talpa dicitur priuari visu: quia genus
+            anima<lb ed="#V" n="116" break="no"/>lis habet visum. Ex quo patet quod cum priuatio potentiae sit
+            <lb ed="#V" n="117"/>impotentia, illud potest dici impotens quod caret potentia
+            <lb ed="#V" n="118"/>debita generi sed constat quod filius caret potentia
+            generan<lb ed="#V" n="119" break="no"/>di. ergo si in patre est potentia productiua, filius carebit
+            po<lb ed="#V" n="120" break="no"/>tentia aliqua eiusdem rationis, &amp; per consequens poterit
+            <lb ed="#V" n="121"/>dici impotens, &amp; erit in eo potentia, quod magister &amp; Augustnus
+            <lb ed="#V" n="122"/>&amp; fides negant. Septimo. Cuius oppositum non est
+            impo<lb ed="#V" n="123" break="no"/>tentia, sed impossibilitas, ipsum non est potentia
+            produ<lb ed="#V" n="124" break="no"/>ctiua, sed tantum possibilitas terminorum, sicut patet quod
+            <lb ed="#V" n="125"/>diametrum non posse commensurare costam non est
+            im<lb ed="#V" n="126" break="no"/>potentia. sed impossibilitas, sed magister dicit expresse, quod
+            <lb ed="#V" n="127"/>filium non posse generare non est impotentia sed est
+            opor<lb ed="#V" n="128" break="no"/>tere ita esse: quia filius proprietate natiuitatis filius est,
+            <lb ed="#V" n="129"/>qua oportet eum non esse patrem. ergo potentia
+            generan<lb ed="#V" n="130" break="no"/>di non est principium productiuum. Octauo. Quia
+            ma<lb ed="#V" n="131" break="no"/>gister in praesenti distinctione ita etiam aequiperat istas duas
+            <lb ed="#V" n="132"/>propositiones, pater non habet potentiam, qua possit esse
+            <lb ed="#V" n="133"/>filius, filius non habet potentiam qua possit esse pater, sed
+            <lb ed="#V" n="134"/>constat quod impotentia qua pater non potest esse filius
+            <lb ed="#V" n="135"/>non est carere alicuius potentiae, patet inductiue, sed
+            pu<lb ed="#V" n="136" break="no"/>ra impossibilitas, aut repugnantia terminorum. ergo nec
+            <lb ed="#V" n="137"/>impotentia qua filius non potest esse pater, haec autem
+            ea<lb ed="#V" n="138" break="no"/>dem est cum illa qua non potest generare. ergo non posse
+            <lb ed="#V" n="139"/>generare non est negatio potentiae productiuae. Nono.
+            Po<lb ed="#V" n="140" break="no"/>tentia productiua non recipit intra se actum, sed actus
+            <lb ed="#V" n="141"/>egreditur ab ea, sed generare non egreditur a patre, immo
+            <lb ed="#V" n="142"/>est ipse pater &amp; in patre. ergo potentia quam habet pater
+            <lb ed="#V" n="143"/>ad generare non est productiua, immo magis
+            identificati<lb ed="#V" n="144" break="no"/>ua, nihil enim aliud sonat patrem posse generare quam patrem
+            <lb ed="#V" n="145"/>posse esse patrem, cum pater sit ipsummet generare, quod
+            <lb ed="#V" n="146"/>non pertinet ad potentiam productiuam.
+          </p>
+          <p xml:id="capsco-a1r2pi-d1e858">
+            Decimo sic. Per
+            <lb ed="#V" n="147"/>generare in diuinis impossibile est quod producatur
+            ali<lb ed="#V" n="148" break="no"/>quid distinctum a generante nisi in solo generare, &amp; sibi
+            <lb ed="#V" n="149"/>opposito, cuiusmodi est generari, pater enim &amp; filius sunt idem
+            <lb ed="#V" n="150"/>in omnibus praeter generare &amp; generari, sed tale generare
+            <pb ed="#V" n="169"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>impossibile est quod habeat respectum sui potentiam
+            produ<lb ed="#V" n="2" break="no"/>&amp;iuam, si enim haberet in illa, esset idem productum cum
+            <lb ed="#V" n="3"/>producente, &amp; ita productum haberet potentiam
+            gene<lb ed="#V" n="4" break="no"/>randi &amp; posset generare, &amp; sic in infinitum: ergo
+            genera<lb ed="#V" n="5" break="no"/>re non habet respectu sui potentiam productiuam. Si
+            di<lb ed="#V" n="6" break="no"/>catur quod potentia generandi non communicatur
+            geni<lb ed="#V" n="7" break="no"/>to, tunc habetur propositum, quod potentia generandi
+            <lb ed="#V" n="8"/>non est aliud quam ipsummet generari &amp; actus
+            generan<lb ed="#V" n="9" break="no"/>di, si enim sit aliud iam non differt in solo generare &amp;
+            ge<lb ed="#V" n="10" break="no"/>nerari, immo cum hoc in potentia generandi, quae ponitur
+            <lb ed="#V" n="11"/>aliud. Vndecimo. Si potentia generandi sit aliquod
+            forma<lb ed="#V" n="12" break="no"/>le principium quo pater eligat generare, aut illud est
+            pater<lb ed="#V" n="13" break="no"/>nitas, aut essentia, aut tota persona vtrunque includens, sed
+            <lb ed="#V" n="14"/>non potest dici paternitas, generare nanque &amp; paternitas
+            <lb ed="#V" n="15"/>sunt eadem res solum distincta nominaliter, vt magister
+            <lb ed="#V" n="16"/>dicit infra, &amp; omnes concedunt. Idem autem non potest
+            <lb ed="#V" n="17"/>poni principium producendi respectu suiipsius, nec potest
+            <lb ed="#V" n="18"/>poni tota persona, quia tunc generare egrederetur a
+            per<lb ed="#V" n="19" break="no"/>sona &amp; esset aliud realiter ab ea. Nec potest poni, quod
+            es<lb ed="#V" n="20" break="no"/>sentia per eandem rationem: nam ab ea egrederetur res
+            ge<lb ed="#V" n="21" break="no"/>nerationis, &amp; per consequens esset aliud cum nihil
+            egre<lb ed="#V" n="22" break="no"/>diatur realiter a se: ergo impossibile est poni, quod pater
+            <lb ed="#V" n="23"/>importet aliquod principium productiuum respectu
+            ip<lb ed="#V" n="24" break="no"/>sius generare. Duodecimo. Nam Philosophus dicit
+            expres<lb ed="#V" n="25" break="no"/>se 12. Metaphysic. quod quamuis videatur quod omne agens
+            <lb ed="#V" n="26"/>habeat potentiam, qua possit agere, tamen non sic est, quod
+            <lb ed="#V" n="27"/>exponens Commentator commento 30. dicit. Impossibile
+            <lb ed="#V" n="28"/>est quod omnis motor &amp; agens habeat potentiam
+            agendi<lb ed="#V" n="29" break="no"/>&amp; mouendi, omne enim aeternum est actio pura, &amp; omne
+            <lb ed="#V" n="30"/>quod est actio pura non habet potentiam, sed constat, quod
+            <lb ed="#V" n="31"/>Deus pater est producens aeternus &amp; est actio pura in
+            pro<lb ed="#V" n="32" break="no"/>ducendo: ergo non oportet quod habeat potentiam
+            pro<lb ed="#V" n="33" break="no"/>ductiuam. Decimotertio sic. Si generare profuit ab
+            ali<lb ed="#V" n="34" break="no"/>qua potentia productiua vel elicitiua, pater esset quoddam
+            <lb ed="#V" n="35"/>possibile pro duci, inquantum generare facit ipsum esse
+            pa<lb ed="#V" n="36" break="no"/>trem, &amp; iterum praeter agere in se, causando in se
+            genera<lb ed="#V" n="37" break="no"/>tionem &amp; spirationem, &amp; multa impossibilia, quae
+            sequun<lb ed="#V" n="38" break="no"/>tur, non igitur potest poni generare profluere ab aliqua
+            po<lb ed="#V" n="39" break="no"/>tentia tanquam a principio productiuo. Decimoquarto.
+            <lb ed="#V" n="40"/>Quia si potentia generandi sit productiua, aut dicit
+            essen<lb ed="#V" n="41" break="no"/>tiam materiae, &amp; hoc esse non potest, quia terminus
+            produ<lb ed="#V" n="42" break="no"/>ctus non est essentia, sed proprietas generationis, aut dicit
+            <lb ed="#V" n="43"/>relationem materiae, &amp; hoc esse non potest, quia in nullo
+            <lb ed="#V" n="44"/>genere oppositionis vnum oppositum est formalis ratio
+            pro<lb ed="#V" n="45" break="no"/>ducendi aliud, vt patet quod nigredo non producit
+            albe<lb ed="#V" n="46" break="no"/>dinem, nec raritas denstatem, vt dicit Philosophus
+            pri<lb ed="#V" n="47" break="no"/>mo physicorum. Constat autem quod paternitas &amp;
+            filia<lb ed="#V" n="48" break="no"/>tio relatiue opponuntur, nec potest poni simul vtrunque:
+            <lb ed="#V" n="49"/>quia cum productio sit simplex, oportet esse vnum
+            forma<lb ed="#V" n="50" break="no"/>le principium simplex: ergo potentia productiua non
+            po<lb ed="#V" n="51" break="no"/>test poni in patre respectu generationis. Contra secundam
+            <lb ed="#V" n="52"/>conclusionem arguunt multi vtpote Bonauentura &amp;
+            Gar<lb ed="#V" n="53" break="no"/>ro probando, quod paternitas sit ratio generandi ipsi
+            pa<lb ed="#V" n="54" break="no"/>tri, &amp; per consequens potentia productiua. Arguunt
+            igi<lb ed="#V" n="55" break="no"/>tur primo sic. Illud quod est principium essendi est
+            princi<lb ed="#V" n="56" break="no"/>pium operandi vnumquodque enim agit eo quo
+            formali<lb ed="#V" n="57" break="no"/>ter est, actus nanque secundus procedit ex actu primo, vt
+            <lb ed="#V" n="58"/>patet secundo de anima, sed paternitas est principium
+            for<lb ed="#V" n="59" break="no"/>male, quo pater est pater: igitur est sibi principium formale
+            <lb ed="#V" n="60"/>generandi.
+          </p>
+          <p xml:id="capsco-a1r2pi-d1e1004">
+            Secundo sic. Sicut se habet essentialis operatio
+            <lb ed="#V" n="61"/>ad essentiam, sic se videtur habere personalis productio ad
+            <lb ed="#V" n="62"/>personam, sed essentia est formalis ratio producendi
+            crea<lb ed="#V" n="63" break="no"/>turam, &amp; intelligendi, &amp; omnis operationis essentialis:
+            er<lb ed="#V" n="64" break="no"/>go videtur quod proprietas personalis, quae est paternitas
+            <lb ed="#V" n="65"/>sit sibi ratio generandi, cum generatio sit actus personalis.
+            <lb ed="#V" n="66"/>Tertio. In tantum repugnat relationi esse principium
+            es<lb ed="#V" n="67" break="no"/>sendi &amp; constituendi suppositum, quantum sibi repugnat
+            <lb ed="#V" n="68"/>esse principium operandi &amp; eliciendi actum, sicut enim
+            re<lb ed="#V" n="69" break="no"/>latio non est formalis terminus, aut principium actionis,
+            <lb ed="#V" n="70"/>sic nec est principium agendi, aut constitutiuum
+            supposi<lb ed="#V" n="71" break="no"/>ti, sed relationi diuinae communicatur quod sit principium
+            <lb ed="#V" n="72"/>essendi &amp; constituendi suppositum: ergo sibi
+            communica<lb ed="#V" n="73" break="no"/>tur quod sit principium generandi.
+          </p>
+          <p xml:id="capsco-a1r2pi-d1e1035">
+            Confirmatur. Quia
+            <lb ed="#V" n="74"/>imperfectionis esset si posset dare actum &amp; non actum
+            se<lb ed="#V" n="75" break="no"/>cundum. Quarto. Generatio non solum habet assimilare
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="76"/>genitum generanti, immo distinguere idem enim non
+            ge<lb ed="#V" n="77" break="no"/>nerat se: eo ergo pater generat filium, quo distinguit eum
+            <lb ed="#V" n="78"/>a se, sed pater distinguit filium a se per paternitatem
+            for<lb ed="#V" n="79" break="no"/>maliter: ergo generat per paternitatem, &amp; per consequens
+            <lb ed="#V" n="80"/>est ratio producendi. Quinto. Productiones distinctae
+            spe<lb ed="#V" n="81" break="no"/>cie reducuntur ad principia distincta specie, sed generare
+            <lb ed="#V" n="82"/>a spirare est alterius rationis, in patre autem paternitas &amp;
+            <lb ed="#V" n="83"/>spiratio actiua alterius rationis sunt, essentia vero vnius
+            ra<lb ed="#V" n="84" break="no"/>tionis: ergo principium generandi erit paternitas &amp;
+            spi<lb ed="#V" n="85" break="no"/>randi spiratio actiua. Sexto. Nulla propria operatio inest
+            <lb ed="#V" n="86"/>alicui, nisi per propriam rationem, sed generare est proprium
+            <lb ed="#V" n="87"/>patri: ergo non inest sibi per essentiam, quae est communis
+            <lb ed="#V" n="88"/>tribus, sed per paternitatem. Septimo. Eo pater generat
+            <lb ed="#V" n="89"/>quo est pater, dicit enim Augustnus quod eo est filius, quo est
+            ge<lb ed="#V" n="90" break="no"/>nitus, a simili eo est pater quo est generans, sed constat, quod
+            <lb ed="#V" n="91"/>est pater paternitate: ergo generat paternitate. Henricus
+            <lb ed="#V" n="92"/>etiam arguit contra eandem conclusionem, primo sic.
+            Quan<lb ed="#V" n="93" break="no"/>docunque aliquid est formalis ratio alicuius actionis,
+            de<lb ed="#V" n="94" break="no"/>betur sibi illa actio etiam si sit separatum, vnde albedo
+            se<lb ed="#V" n="95" break="no"/>parata a subiecto disgregat, &amp; humiditas humectat, vt
+            pa<lb ed="#V" n="96" break="no"/>tet in speciebus sacramentalibus, sed essentiae diuinae
+            sepa<lb ed="#V" n="97" break="no"/>ratae a paternitate non competit generare, non enim est
+            ve<lb ed="#V" n="98" break="no"/>rum quod essentia generet, sed pater generat, ergo essentia
+            <lb ed="#V" n="99"/>non est formalis ratio vel principium generandi, nisi
+            pro<lb ed="#V" n="100" break="no"/>ut determinatur per paternitatem.
+          </p>
+          <p xml:id="capsco-a1r2pi-d1e1098">
+            Secundo arguit sic.
+            Quan<lb ed="#V" n="101" break="no"/>docunque aliquid continet plura immediate, &amp; sine
+            ordi<lb ed="#V" n="102" break="no"/>ne non potest ratio assignare, quare primo producit vnum
+            <lb ed="#V" n="103"/>quam aliud, sed essentia diuina est primitus ratio
+            produ<lb ed="#V" n="104" break="no"/>cendi respectu generare quam respectu spirationis: ergo
+            <lb ed="#V" n="105"/>oportet quod per aliquid ordinetur, &amp; determinetur ad
+            <lb ed="#V" n="106"/>illud, sed non potest poni aliud ordinans nisi paternitas:
+            er<lb ed="#V" n="107" break="no"/>go vt prius. Tertio. Vnum inquantum vnum semper est
+            <lb ed="#V" n="108"/>aptum natum facere vnum, sed essentia est principium
+            plu<lb ed="#V" n="109" break="no"/>rium productionum, puta generationis &amp; spirationis:
+            igi<lb ed="#V" n="110" break="no"/>tur non inquantum vnum, &amp; ita oportet vt per
+            paternita<lb ed="#V" n="111" break="no"/>tem determinetur. Quarto. Quia nullum indeterminatum
+            <lb ed="#V" n="112"/>potest in plura, nisi prius determinetur, vt patet, calor enim
+            <lb ed="#V" n="113"/>qui est indeterminatus ad actum primum, qui est facere
+            cali<lb ed="#V" n="114" break="no"/>dum, &amp; ad actum secundum qui est calefacere aliud
+            opor<lb ed="#V" n="115" break="no"/>tet quod praedeterminetur, ad primum quidem per
+            respe<lb ed="#V" n="116" break="no"/>ctum ad subiectum, ad secundum vero per respectum ad
+            <lb ed="#V" n="117"/>actum vel passum, sed constat quod essentia est
+            indetermi<lb ed="#V" n="118" break="no"/>nata, vt sit principium spirandi &amp; generandi: ergo necesse
+            <lb ed="#V" n="119"/>est vt determinetur ad generare per paternitatem. Scotus
+            <lb ed="#V" n="120"/>quoque arguit contra illam conclusionem. Producens,
+            <lb ed="#V" n="121"/>quod determinatur ex se ad certum numerum
+            productio<lb ed="#V" n="122" break="no"/>num, producit per principia alterius rationis quantum
+            es<lb ed="#V" n="123" break="no"/>set ex se produceret infinita, nec determinaretur ad certum
+            <lb ed="#V" n="124"/>numerum, sicut quod homo in generando non
+            determi<lb ed="#V" n="125" break="no"/>nat se ad certam multitudinem filiorum, nec sol ad certam
+            <lb ed="#V" n="126"/>multitudinem radiorum, nec scriptor ad certum numerum
+            <lb ed="#V" n="127"/>syllabarum eiusdem rationis, sed constat quod pater
+            deter<lb ed="#V" n="128" break="no"/>minatur ad certum numerum productionum, puta ad
+            ge<lb ed="#V" n="129" break="no"/>nerare &amp; spirare: ergo producit per principia alterius
+            ra<lb ed="#V" n="130" break="no"/>tionis, vtpote, quia generat per memoriam, &amp; spirat per
+            <lb ed="#V" n="131"/>voluntatem.
+          </p>
+          <p xml:id="capsco-a1r2pi-d1e1168">
+            Secundo. Productiones alterius rationis
+            exi<lb ed="#V" n="132" break="no"/>gunt producens &amp; rationem producendi alterius rationis,
+            <lb ed="#V" n="133"/>sicut enim producens oritur a producente per rationem
+            <lb ed="#V" n="134"/>producendi, sic diuersitas rationis in productionibus
+            de<lb ed="#V" n="135" break="no"/>bet reduci ad diuersitatem productiuae rationi, sed spirare
+            <lb ed="#V" n="136"/>&amp; generare sunt alterius rationis: ergo principia
+            produ<lb ed="#V" n="137" break="no"/>ctiua erunt alterius rationis, constat autem quod essentia
+            <lb ed="#V" n="138"/>est vnius rationis: ergo prout induit rationem memoriae
+            <lb ed="#V" n="139"/>erit ratio producendi verbum, &amp; prout induit rationem
+            vo<lb ed="#V" n="140" break="no"/>luntatis erit ratio producendi Spiritum sanctum. Tertio.
+            <lb ed="#V" n="141"/>Sicut in nobis est, ita excellentiori modo est in Deo, sed
+            es<lb ed="#V" n="142" break="no"/>sentia animae sub ratione qua memoria producit verbum,
+            <lb ed="#V" n="143"/>sub ratione vero qua voluntas producit amorem in nobis:
+            <lb ed="#V" n="144"/>ergo in Deo essentia diuina sub ratione qua memoria est
+            <lb ed="#V" n="145"/>principium elicitiuum verbi, sub ratione vero voluntatis
+            <lb ed="#V" n="146"/>Spiritus sancti.
+          </p>
+          <p xml:id="capsco-a1r2pi-d1e1204">
+            Quarto. Augustnus frequenter dicit &amp;
+            Ansel<lb ed="#V" n="147" break="no"/>mus concordat, quod filius procedit de memoria patris,
+            <lb ed="#V" n="148"/>sed hoc non esset nisi quatenus est ratio producendi vt
+            in<lb ed="#V" n="149" break="no"/>duit rationem memoriae: igitur &amp;c. Durandus etiam
+            ar<lb ed="#V" n="150" break="no"/>guit contra eandem conclusionem. Formalia principia
+            <pb ed="#V" n="170"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>productionis debet correspondere formalibus terminis
+            <lb ed="#V" n="2"/>sed in filio est essentia vt communicata, relatio vero prout
+            <lb ed="#V" n="3"/>producta, essentia enim non potest poni terminus
+            produ<lb ed="#V" n="4" break="no"/>ctionis, quia terminus non solum debet esse
+            communica<lb ed="#V" n="5" break="no"/>tus, immo productus: ergo cum essentia per modum
+            ter<lb ed="#V" n="6" break="no"/>mini communicati, &amp; proprietas per modum termini
+            pro<lb ed="#V" n="7" break="no"/>ducti, sint in filio, necesse est vt in patre essentia &amp;
+            proprie<lb ed="#V" n="8" break="no"/>tas sint correspondenter principium generandi.
+          </p>
+          <p xml:id="capsco-a1r2pi-d1e1237">
+            Secundo.
+            <lb ed="#V" n="9"/>Quandocunque in aliqua generatione concurrunt vna
+            con<lb ed="#V" n="10" break="no"/>municatio eiusdem naturae in numero, &amp; vna productio
+            <lb ed="#V" n="11"/>alicuius alterius, necesse est in productiuo principio
+            ali<lb ed="#V" n="12" break="no"/>quid poni quod sit principium communicationis, &amp; aliud
+            <lb ed="#V" n="13"/>quod sit formale principium productionis. Cuius ratio
+            <lb ed="#V" n="14"/>est, quia oportet formale principium productionis, &amp;
+            ter<lb ed="#V" n="15" break="no"/>minum formalem communicationis realiter distingui,
+            ter<lb ed="#V" n="16" break="no"/>minum autem communicationis &amp; principium non
+            opor<lb ed="#V" n="17" break="no"/>tet, sed in productione filij est vna communicatio essentiae
+            <lb ed="#V" n="18"/>&amp; productio relationis: ergo necesse est essentiam esse
+            prin<lb ed="#V" n="19" break="no"/>cipium communicationis, proprietatem vero principium
+            <lb ed="#V" n="20"/>productionis.
+          </p>
+          <p xml:id="capsco-a1r2pi-d1e1266">
+            Tertio. Emanationes debent reduci in talia
+            <lb ed="#V" n="21"/>principia, quibus propositis statim apparet status in
+            ema<lb ed="#V" n="22" break="no"/>nationibus sed si tota essentia ponitur principium non
+            ap<lb ed="#V" n="23" break="no"/>paret status in emanationibus vel productionibus, qua
+            ra<lb ed="#V" n="24" break="no"/>tione enim est principium duarum emanationum potest
+            <lb ed="#V" n="25"/>esse principium plurium nisi determinetur per
+            paternita<lb ed="#V" n="26" break="no"/>tem &amp; spirabilitatem, posito autem pro principio essentia
+            <lb ed="#V" n="27"/>&amp; proprietate statim apparet certus numerus
+            productio<lb ed="#V" n="28" break="no"/>num: ergo haec duo concurrunt in rationem principij
+            pro<lb ed="#V" n="29" break="no"/>ductiui. Quarto. Nullus potest negare quin essentia hic
+            <lb ed="#V" n="30"/>concurrat, alias non communicaretur, nec potest negare
+            <lb ed="#V" n="31"/>quin proprietas concurrat, cum vere in filio relatio sit
+            pro<lb ed="#V" n="32" break="no"/>ducta: igitur vt prius.
+          </p>
+          <p xml:id="capsco-a1r2pi-d1e1295">
+            <lb ed="#V" n="33"/><milestone ed="#V" unit="p" rend="initial"/> D primum contra primam conclusionem negatur
+            ma<lb ed="#V" n="34" break="no"/>ior. Nam non solum necesse est quaerere potentiam
+            <lb ed="#V" n="35"/>elicitiuam respectu productionis, immo respectu
+            produ<lb ed="#V" n="36" break="no"/>cti, licet ergo vanum sit quaerere potentiam productiuam
+            <lb ed="#V" n="37"/>generationis diuinae, quae illam realiter eliciat, tamen
+            ne<lb ed="#V" n="38" break="no"/>cessarium est quaerere potentiam in patre, quae filium
+            reali<lb ed="#V" n="39" break="no"/>ter producat, vnde Sanctus Thomas prima parte. q. 41. arti. 4.
+            <lb ed="#V" n="40"/>dicit respondendo ad tertium. Potentia (inquit significat
+            <lb ed="#V" n="41"/>principium, principium autem distinctionem importat ab
+            <lb ed="#V" n="42"/>eo, cuius est principium. Consideratur autem duplex
+            di<lb ed="#V" n="43" break="no"/>stinctio in his quae dicuntur de Deo, vna secundum rem:
+            <lb ed="#V" n="44"/>alia secundum rationem tantum, secundum rem quidem
+            <lb ed="#V" n="45"/>Deus distinguitur per essentiam a rebus, quarum est
+            prin<lb ed="#V" n="46" break="no"/>cipium per creationem, sicut vna persona distinguitur ab
+            <lb ed="#V" n="47"/>alia cuius est principium secundum actum notionalem, sed
+            <lb ed="#V" n="48"/>actio ab agente non distinguitur in Deo nisi secundum
+            ra<lb ed="#V" n="49" break="no"/>tionem tantum: alias actio esset accidens in Deo, &amp; ideo
+            <lb ed="#V" n="50"/>respectu illarum actionum secundum quas aliquae res
+            pro<lb ed="#V" n="51" break="no"/>cedunt distincte a Deo vel essentialiter vel personaliter
+            po<lb ed="#V" n="52" break="no"/>test Deo attribui potentia secundum propriam rationem
+            <lb ed="#V" n="53"/>principij, &amp; ideo sicut ponimus potentiam creandi in Deo,
+            <lb ed="#V" n="54"/>ita possumus ponere potentiam generandi vel spirandi, sed
+            <lb ed="#V" n="55"/>intelligere &amp; velle non sunt actus tales, qui designent
+            pro<lb ed="#V" n="56" break="no"/>cessionem alicuius rei a Deo distincte vel essentialiter vel
+            <lb ed="#V" n="57"/>personaliter, vnde respectu horum actuum non potest
+            sal<lb ed="#V" n="58" break="no"/>uari ratio potentiae in Deo, nisi secundum modum
+            intelli<lb ed="#V" n="59" break="no"/>gendi &amp; significandi tantum prout diuersimode
+            significa<lb ed="#V" n="60" break="no"/>tur in Deo intellectus &amp; intelligere, cum ipsum tamen
+            in<lb ed="#V" n="61" break="no"/>telligere Dei sit eius essentia non habens principium. Haec
+            <lb ed="#V" n="62"/>ille.
+          </p>
+          <p xml:id="capsco-a1r2pi-d1e1364">
+            Item q. 25. artic. 1. ad tertium sic ait. Potentia in rebus
+            <lb ed="#V" n="63"/>creatis non solum est principium actionis sed effectus, sic
+            <lb ed="#V" n="64"/>igitur in Deo saluatur ratio potentiae, quantum ad hoc quod
+            <lb ed="#V" n="65"/>est principium actionis, quae est diuina essentia, nisi forte
+            <lb ed="#V" n="66"/>secundum modum intelligendi. Haec ille.
+          </p>
+          <p xml:id="capsco-a1r2pi-d1e1375">
+            Idem dico &amp;
+            <lb ed="#V" n="67"/>ipse dicit vbi supra de potentia generandi secundum quod
+            <lb ed="#V" n="68"/>est producti, non autem secundum quod est principium
+            pro<lb ed="#V" n="69" break="no"/>ductionis, nisi secundum modum intelligendi. Idem dicit
+            <lb ed="#V" n="70"/>contra Gentiles lib. 3. cap. 10. Quia (inquit) nihil est
+            prin<lb ed="#V" n="71" break="no"/>cipium suiipsius, cum diuina actio non sit aliud quam
+            po<lb ed="#V" n="72" break="no"/>tentia eius, manifestum est, quod potentia non dicitur in
+            <lb ed="#V" n="73"/>Deo sicut principium actionis, sed sicut principium facti.
+            <lb ed="#V" n="74"/>Haec ille.
+          </p>
+          <p xml:id="capsco-a1r2pi-d1e1396">
+            Et post pauca dicit, quod respectu actus
+            intelli<lb ed="#V" n="75" break="no"/>gendi aut volendi non est in Deo proprie potentia, nec
+            in<cb ed="#V" n="b"/><lb ed="#V" n="76" break="no"/>tellectus &amp; voluntas in Deo sunt proprie loquendo
+            poten<lb ed="#V" n="77" break="no"/>tiae, sed sunt in eo vt actiones. Idem ponit 1. sent. distin. 42.
+            <lb ed="#V" n="78"/>q. 1. artic. 1. ad quartum, vbi ait. Deus non agit operatione
+            <lb ed="#V" n="79"/>media, quae sit aliud a sua substantia vel essentia sed suum
+            <lb ed="#V" n="80"/>esse est suum operari, &amp; suum esse est sua essentia &amp;
+            poten<lb ed="#V" n="81" break="no"/>tia, nihilominus tamen sua essentia significatur vt
+            princi<lb ed="#V" n="82" break="no"/>pium essendi, &amp; eadem ratione sua potentia pot est
+            signifi<lb ed="#V" n="83" break="no"/>cari vt principium operandi, &amp; praeter hoc vt principium
+            <lb ed="#V" n="84"/>operati. Haec ille.
+          </p>
+          <p xml:id="capsco-a1r2pi-d1e1421">
+            Idem ponit de potentia Dei. q. 2. arti. 1.
+            <lb ed="#V" n="85"/>vt allegatum fuit in prima conclusione. Item 4.
+            quolibet<lb ed="#V" n="86" break="no"/>q. 2. artic. 1. Ex quibus omnibus dico, quod potentia
+            gene<lb ed="#V" n="87" break="no"/>randi in patre non est productiua generationis actionis in
+            <lb ed="#V" n="88"/>se, sed filij geniti, &amp; est principium quo generatio actio
+            at<lb ed="#V" n="89" break="no"/>tingit genitum, &amp; ideo dicitur potentia generandi, aliter
+            <lb ed="#V" n="90"/>tamen quam in creatis, vbi potentia generantis dicitur
+            po<lb ed="#V" n="91" break="no"/>tentia generandi, quia per illam generans elicit actiuam
+            ge<lb ed="#V" n="92" break="no"/>nerationem, &amp; cum hoc genitum. In diuinis autem
+            gene<lb ed="#V" n="93" break="no"/>rans per potentiam generatiuam producit genitum, non
+            <lb ed="#V" n="94"/>tamen generationem, licet ibidem illa potentia sit ratio
+            ipsi<lb ed="#V" n="95" break="no"/>generationi, quod habeat talem terminum. Quia vero
+            di<lb ed="#V" n="96" break="no"/>uina intelligimus per creaturas, sicut intelligimus, ita
+            no<lb ed="#V" n="97" break="no"/>minamus, ideo alio actu intelligimus essentiam, vt est
+            po<lb ed="#V" n="98" break="no"/>tentia, alio vt est actio, &amp; similiter alio nomine
+            nomina<lb ed="#V" n="99" break="no"/>mus eam. Et quia in creaturis potentia est principium
+            actio<lb ed="#V" n="100" break="no"/>nis, ideo dicitur quod in diuinis potentia est principium
+            <lb ed="#V" n="101"/>actionis secundum rationem vel modum intelligendi, quod
+            <lb ed="#V" n="102"/>non est aliud dicere, nisi quod simili modo concipimus
+            ta<lb ed="#V" n="103" break="no"/>lia diuina, sicut si realiter vnum principiaret aliud, quia
+            con¬<lb ed="#V" n="104" break="no"/>cipimus ea secundum modum, quo concipimus creata, vbi
+            <lb ed="#V" n="105"/>potentia ab actu distinguitur secundum rem, &amp; est
+            princi<lb ed="#V" n="106" break="no"/>pium realiter actionis. Iste autem modus intelligendi non
+            <lb ed="#V" n="107"/>est vanus, quia quaelibet illarum conceptionum habet
+            fun<lb ed="#V" n="108" break="no"/>damentum in re quantum ad illud quod repraesentat, non
+            <lb ed="#V" n="109"/>autem quantum ad omnem modum representandi. Ad
+            sae<lb ed="#V" n="110" break="no"/>cundum dicitur, quod paternitas potest dupliciter accipi,
+            <lb ed="#V" n="111"/>scilicet vt est relatio, &amp; vt est forma constitutiua suppositi
+            <lb ed="#V" n="112"/>paterni, quod habet inquantum est eadem diuinae naturae
+            <lb ed="#V" n="113"/>Hanc distinctionem ponit Sanctus Thomas prima parte.
+            <lb ed="#V" n="114"/>q. 40. artic. 4. Et primo sent. distin. 27. q. 1. artic. 2. Et de
+            po<lb ed="#V" n="115" break="no"/>tentia Dei. q. 8. artic. 3. Tunc vlterius dico, quod capiendo
+            <lb ed="#V" n="116"/>paternitatem primo modo, concedo quod eadem est
+            poten<lb ed="#V" n="117" break="no"/>tia, qua pater in diuinis potest generare, &amp; qua potest esse
+            <lb ed="#V" n="118"/>pater, quia secundum illum modum capiendi paternitatem,
+            <lb ed="#V" n="119"/>ipsa consequitur secundum modum intelligendi ad
+            gene<lb ed="#V" n="120" break="no"/>rationem actionem, &amp; illa fundatur, vt dicit Sanctus
+            Do<lb ed="#V" n="121" break="no"/>ctor in locis allegatis, &amp; ideo eadem potentia, qua pater
+            po<lb ed="#V" n="122" break="no"/>test generare potest esse pater, cum ipsum esse patrem illo
+            <lb ed="#V" n="123"/>modo consequatur ad ipsum generare &amp; supponat
+            gene<lb ed="#V" n="124" break="no"/>rare. Capiendo autem paternitatem vt est constitutiua
+            sup<lb ed="#V" n="125" break="no"/>posti dico, quod ipsa praecedit generare secundum
+            San<lb ed="#V" n="126" break="no"/>ctum Thomas vbi prius, immo cointelligitur, vt dictum fuit in
+            <lb ed="#V" n="127"/>ratione principij generandi, &amp; tunc negatur, quod eadem
+            <lb ed="#V" n="128"/>potentia pater possit esse pater, qua potest generare: nam
+            <lb ed="#V" n="129"/>respectu generationis quia signatur vt actio potest
+            signifi<lb ed="#V" n="130" break="no"/>cari aliquid in diuinis se habens vt elicitiuum, non autem
+            <lb ed="#V" n="131"/>respectu paternitatis sic consideratae, quia nec habet se per
+            <lb ed="#V" n="132"/>modum actionis, nec per modum relationis consequentis
+            <lb ed="#V" n="133"/>actionem, nec per modum producti, sed per modum
+            for<lb ed="#V" n="134" break="no"/>mae constitutiuae suppositi producentis totaliter
+            improdu<lb ed="#V" n="135" break="no"/>cti, &amp; ideo probatio adducta non valet, cum dicitur,
+            pa<lb ed="#V" n="136" break="no"/>ternitas &amp; generare sunt eadem res: igitur potentia
+            respe<lb ed="#V" n="137" break="no"/>ctu vnius erit potentia respectu alterius, nec enim hoc, nec
+            <lb ed="#V" n="138"/>illud est elicitum realiter, sed tamen sicut dictum est
+            respe<lb ed="#V" n="139" break="no"/>ctu vnius oportet signa ri aliquid per modum potentiae,
+            <lb ed="#V" n="140"/>non autem per respectum alterius.
+          </p>
+          <p xml:id="capsco-a1r2pi-d1e1545">
+            Ad illud quod arguens
+            <lb ed="#V" n="141"/>addit de dicto magistri, dico, quod similitudo inter illas
+            <lb ed="#V" n="142"/>duas, scilicet pater potest generare filius non potest
+            gene<lb ed="#V" n="143" break="no"/>rare, pater potest esse pater, filius non potest esse pater,
+            at<lb ed="#V" n="144" break="no"/>tenditur prout pater dicitur a paternitate considerata vt
+            <lb ed="#V" n="145"/>est relatio, non autem vt est constitutiua, &amp; illo modo
+            con<lb ed="#V" n="146" break="no"/>cedo quod idem esset, patrem posse generare, &amp; posse esse
+            <lb ed="#V" n="147"/>patrem, &amp; eadem potentia cadit vel non cadit supra
+            vtrun<lb ed="#V" n="148" break="no"/>que.
+          </p>
+          <p xml:id="capsco-a1r2pi-d1e1565">
+            Ad secundum negatur consequentia, vnde sicut dicit
+            <lb ed="#V" n="149"/>Sanctus Thomas prima parte. q. 41. articu. 5. ad tertium. Cum
+            <lb ed="#V" n="150"/>dicitur potentia generandi essentia signatur in recto,
+            rela<pb ed="#V" n="171"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>tio in obliquo, sicut si dicerem essentia patris, vnde
+            quan<lb ed="#V" n="2" break="no"/>tum ad essentiam, quae signatur in recto potentia
+            generan<lb ed="#V" n="3" break="no"/>di est communis tribus personis, sed quantum ad
+            notio<lb ed="#V" n="4" break="no"/>nem, quae connotatur. propria est personae patris. Haec ille.
+          </p>
+          <p xml:id="capsco-a1r2pi-d1e1583">
+            <lb ed="#V" n="5"/>Ex quo patet quod potentia generandi quo ad essentiam,
+            <lb ed="#V" n="6"/>quam includit, est in tribus personis, &amp; quo ad hoc dicit
+            <lb ed="#V" n="7"/>perfectionem simpliciter, sed quo ad notionem est in solo
+            <lb ed="#V" n="8"/>patre, &amp; quo ad hoc non dicit perfectionem simpliciter,
+            re<lb ed="#V" n="9" break="no"/>latio enim inquantum huiusmodi non dicit perfectionem,
+            <lb ed="#V" n="10"/>cum inquantum huiusmodi nihil ponat in eo cui
+            attribui<lb ed="#V" n="11" break="no"/>tur, ideo non sequitur quod habeat pater aliquam
+            perfe<lb ed="#V" n="12" break="no"/>ctionem simpliciter quam aliae personae non habent, sed quod
+            <lb ed="#V" n="13"/>habet perfectionem cum alia relatione quam aliae personae,
+            <lb ed="#V" n="14"/>vnde Sanctus Thomas q. 2. huius dist. artic. 2. ad vltimum
+            sol<lb ed="#V" n="15" break="no"/>uit hoc argumentum in suo simili, arguit enim sic. Posse
+            ge<lb ed="#V" n="16" break="no"/>nerare est aliqua dignitas patris: alias non esset proprietas
+            <lb ed="#V" n="17"/>personalis: sed nulla dignitas est in patre, quae non sit in
+            fi<lb ed="#V" n="18" break="no"/>lio, cum sint omnino aequales in dignitate. igitur filius
+            po<lb ed="#V" n="19" break="no"/>test omnino generare. Ecce argumentum suum. Et
+            respon<lb ed="#V" n="20" break="no"/>det. Dignitas (inquit) est de absolute dictis, &amp; ideo eadem
+            <lb ed="#V" n="21"/>est dignitas patris &amp; filij numero, sicut eadem essentia,
+            vn<lb ed="#V" n="22" break="no"/>de sicut paternitas in patre est essentia, &amp; eadem essentia in
+            <lb ed="#V" n="23"/>filio est non paternitas, sed filiatio, ita eadem dignitas
+            nu<lb ed="#V" n="24" break="no"/>mero, quae in patre est paternitas, in filio est filiatio. Haec
+            il<lb ed="#V" n="25" break="no"/>le. Consimile dicit prima parte. q. 42. articu. 6. ad tertium.
+            <lb ed="#V" n="26"/>Sicut (inquit) eadem essentia, quae in patre est paternitas
+            <lb ed="#V" n="27"/>in filio est filiatio, ita eadem potentia est, qua pater
+            gene<lb ed="#V" n="28" break="no"/>rat, &amp; qua filius generatur, vnde verum est quod quicquid
+            <lb ed="#V" n="29"/>potest pater potest filius, non tamen ex hoc sequitur quod
+            <lb ed="#V" n="30"/>filius possit generare, quia mutatur quid in ad aliquid: nam
+            <lb ed="#V" n="31"/>generatio signat relationem in diuinis, habet ergo eandem
+            <lb ed="#V" n="32"/>omnipotentiam quam pater habet, sed cum alia relatione,
+            <lb ed="#V" n="33"/>quia pater habet eam, vt dans &amp; hoc signatur cum dicitur,
+            <lb ed="#V" n="34"/>quod potest generare, filius autem habet eam vt accipiens,
+            <lb ed="#V" n="35"/>&amp; hoc signatur cum dicitur, quod potest generari. Haec
+            il<lb ed="#V" n="36" break="no"/>le. Eandem ponit solutionem de potentia Dei. q. 2. arti. 5.
+            <lb ed="#V" n="37"/>vbi dicit, quod eandem potentiam quam habet pater habet
+            <lb ed="#V" n="38"/>filius, sed tamen secundum vnum respectum conuenit
+            pa<lb ed="#V" n="39" break="no"/>tri, &amp; secundum alium filio. Idem dicit de actione. Idem
+            <lb ed="#V" n="40"/>ego dico de perfectione simpliciter, vnde si sic arguitur.
+            <lb ed="#V" n="41"/>Qmeem perfectionem quam habet pater habet filius, sed
+            perfe<lb ed="#V" n="42" break="no"/>ctionem potentiae generatiuae habet pater: igitur illam
+            ha<lb ed="#V" n="43" break="no"/>bet filius, mutatur quid in ad aliquid, &amp; ideo est fallacia
+            <lb ed="#V" n="44"/>figurae dictionis, potentia enim generandi dicit absolutum
+            <lb ed="#V" n="45"/>cum relatione.
+          </p>
+          <p xml:id="capsco-a1r2pi-d1e1674">
+            Ad quartum negatur modus arguendi, quia
+            <lb ed="#V" n="46"/>peccat per fallaciam figurae dictionis, vt prius dictum est:
+            <lb ed="#V" n="47"/>cum enim dicitur sic. Illud cuius negatio non est negatio
+            <lb ed="#V" n="48"/>potentiae &amp;c. subiectum dicit quid, &amp; si addatur signum
+            <lb ed="#V" n="49"/>distributiuum erit de praedicamento substantiae, dicendo
+            <lb ed="#V" n="50"/>sic. Nihil cuius negatio non est negatio potentiae est
+            poten<lb ed="#V" n="51" break="no"/>tia. Cum vero subsumitur, sed potentiae generandi
+            nega<lb ed="#V" n="52" break="no"/>tio non est negatio potentiae, iam sumitur vnum, quod
+            di<lb ed="#V" n="53" break="no"/>cit ad aliquid, scilicet potentia generandi, vt prius dictum
+            <lb ed="#V" n="54"/>est, &amp; ideo mutatur quid in ad aliquid, vt enim ponit
+            San<lb ed="#V" n="55" break="no"/>ctus Thomas 1. sent. dist. 7. q. 2. artic. 1. ad secundum.
+            Po<lb ed="#V" n="56" break="no"/>tentia generandi dicit essentiam cum paternitate. Sciendum
+            <lb ed="#V" n="57"/>etiam quod potentia generandi non negatur a filio
+            quan<lb ed="#V" n="58" break="no"/>tum ad illud quod dicit potentiam, sed quantum ad
+            rela<lb ed="#V" n="59" break="no"/>tionem paternitatis, quam dicit in obliquo potentia
+            genc<lb ed="#V" n="60" break="no"/>randi. Et ideo potest aliter dici ad argumentum dicendo,
+            <lb ed="#V" n="61"/>quod si negetur potentia generandi a filio quantum ad
+            il<lb ed="#V" n="62" break="no"/>lud quod dicit in recto, vtique ab ipso negaretur aliqua
+            po<lb ed="#V" n="63" break="no"/>tentia, si autem negetur ab eo quantum ad illud, quod
+            po<lb ed="#V" n="64" break="no"/>tentia generandi dicit in obliquo, non negatur ab eo
+            poten<lb ed="#V" n="65" break="no"/>tia, sed modus habendi potentiam.
+          </p>
+          <p xml:id="capsco-a1r2pi-d1e1721">
+            Ad quintum dico
+            pri<lb ed="#V" n="66" break="no"/>mo, quod sicut fuit dictum in solutione primi, nos non
+            po<lb ed="#V" n="67" break="no"/>nimus aliquod principium elicitiuum diuinae
+            generatio<lb ed="#V" n="68" break="no"/>nis actiuae secundum rem, sed solum filij qui est terminus
+            <lb ed="#V" n="69"/>generationis. Secundo dico, quod argumentum falsum
+            <lb ed="#V" n="70"/>supponit, scilicet quod pater constituatur in esse
+            personali<lb ed="#V" n="71" break="no"/>per generare, vt post quandoque ostendetur, sed per
+            pa<lb ed="#V" n="72" break="no"/>ternitatem, non vt est relatio, sed vt est forma quaedam
+            ea<lb ed="#V" n="73" break="no"/>dem diuinae essentiae. Nec valet ista consequentia,
+            paterni<lb ed="#V" n="74" break="no"/>tas &amp; generare sunt eadem res: ergo si ponimus aliquod
+            <lb ed="#V" n="75"/>principium respectu generationis secundum modum
+            in<cb ed="#V" n="b"/><lb ed="#V" n="76" break="no"/>telligendi, ita &amp; respectu paternitatis, &amp; est constitutiua,
+            <lb ed="#V" n="77"/>cuius ratio est dicta in solutione secundi.
+          </p>
+          <p xml:id="capsco-a1r2pi-d1e1751">
+            Ad sextum
+            dici<lb ed="#V" n="78" break="no"/>tur, quod totus processus fundatur in ista falsa consequentia.
+            <lb ed="#V" n="79"/>Filius caret potentia generandi, &amp; pater habet potentiam
+            <lb ed="#V" n="80"/>generandi: igitur filius caret aliqua potentia
+            conuenienti<lb ed="#V" n="81" break="no"/>alteri supposito eiusdem generis vel speciei, aut eiusdem
+            <lb ed="#V" n="82"/>rationis: argumentum enim est paralogismus figurae
+            dictio<lb ed="#V" n="83" break="no"/>nis, quia mutatur quid in ad aliquid, quia sub hoc quod dico
+            <lb ed="#V" n="84"/>aliqua potentia, subsumitur potentia generandi. Ad
+            septi<lb ed="#V" n="85" break="no"/>mum dicitur, sicut ad praecedens, cum enim sic arguitur.
+            <lb ed="#V" n="86"/>Illud cuius oppositum non est in potentia &amp;c. sed
+            poten<lb ed="#V" n="87" break="no"/>tia generandi est illud, cuius oppositum &amp;c. est expressa
+            <lb ed="#V" n="88"/>fallacia figurae dictionis. Ad dictum magistri dicitur, quod
+            <lb ed="#V" n="89"/>ipse intendit, quod cum dicitur, filius non potest generare,
+            <lb ed="#V" n="90"/>non negatur potentia aliqua a filio, sed negatur ab eo
+            mo<lb ed="#V" n="91" break="no"/>dus habendi potentiam, scilicet cum tali relatione.
+            Simili<lb ed="#V" n="92" break="no"/>ter cum dicit, quod filium non posse generare non est
+            im<lb ed="#V" n="93" break="no"/>potentia, sed non oportere &amp;c. intendit, quod ideo
+            nega<lb ed="#V" n="94" break="no"/>tur potentia generandi a filio, quia potentia generandi in
+            <lb ed="#V" n="95"/>sua ratione includit relationem oppositam relationi filij,
+            <lb ed="#V" n="96"/>&amp; ideo non potest attribui filio, nec hoc tamen sonat in
+            im<lb ed="#V" n="97" break="no"/>potentiam filij, quia omne illud quod est pertinens ad
+            ra<lb ed="#V" n="98" break="no"/>tionem potentiae simpliciter, in hoc quod dico potentia
+            <lb ed="#V" n="99"/>generandi, totum illud conuenit filio, non autem modus
+            <lb ed="#V" n="100"/>habendi illam potentiam, quod vlterius dicit potentia
+            ge<lb ed="#V" n="101" break="no"/>nerandi praeter potentiam diuinam.
+          </p>
+          <p xml:id="capsco-a1r2pi-d1e1806">
+            Ad octauum dicitur,
+            <lb ed="#V" n="102"/>quod cum dicitur, filius non potest esse pater, non negatur
+            <lb ed="#V" n="103"/>ab eo aliqua potentia, nec cum dicitur filius non potest
+            ge<lb ed="#V" n="104" break="no"/>nerare, cum quo tamenstat, quod potentia generandi est
+            <lb ed="#V" n="105"/>potentia productiua, immo si arguitut sic: quicquid est
+            po<lb ed="#V" n="106" break="no"/>tentia productiua, ipsum negare ab aliquo, est negare ab eo
+            <lb ed="#V" n="107"/>aliquam potentiam productiuam, sed potentia generandi
+            <lb ed="#V" n="108"/>est potentia productiua: igitur &amp;c. In omni tali processu
+            <lb ed="#V" n="109"/>est fallacia supra dicta.
+          </p>
+          <p xml:id="capsco-a1r2pi-d1e1826">
+            Ad nonum dicitur, quod licet
+            ge<lb ed="#V" n="110" break="no"/>nerare non realiter egrediatur a patre, tamen secundum
+            <lb ed="#V" n="111"/>modum significandi intelligitur vt profsuens a supposito
+            <lb ed="#V" n="112"/>paterno, vnde secundum Sanctum Thomas prima parte. q. 4c.
+            <lb ed="#V" n="113"/>arti. 2. Origo in diuinis actiue signata, significatur, vt
+            pro<lb ed="#V" n="114" break="no"/>diens a persona subsistente, vnde supponit eam, sed origo
+            <lb ed="#V" n="115"/>passiue significata, vt natiuitas signatur vt via ad personam
+            <lb ed="#V" n="116"/>subsistentem. Idem ponit de potentia Dei. quaest. 8. artic. 3.
+            <lb ed="#V" n="117"/>Item primo sent. distin. 27. q. 1. artic. 2. Sciendum tamen quod
+            <lb ed="#V" n="118"/>maior huius argumenti falsa est. Nam omnis operatio
+            im<lb ed="#V" n="119" break="no"/>manens est perfectio operantis &amp; non egreditur extra, vt
+            <lb ed="#V" n="120"/>dicitur 9. Metaphys. generatio vero filij Dei attenditur
+            se<lb ed="#V" n="121" break="no"/>cundum operationem intelligibilem, &amp; ideo licet pater
+            <lb ed="#V" n="122"/>realiter eliccret talem generationem, adhuc ipsa maneret
+            <lb ed="#V" n="123"/>in patre, non tamen dicimus eam realiter elicitam, &amp; hoc
+            <lb ed="#V" n="124"/>patet in operatione, qua intellectus creatus format verbum.
+          </p>
+          <p xml:id="capsco-a1r2pi-d1e1861">
+            <lb ed="#V" n="125"/>Ad decimum dicitur, sicut ad primum Non enim
+            poni<lb ed="#V" n="126" break="no"/>mus in diuinis aliquod principium productiuum realiter
+            <lb ed="#V" n="127"/>ipsius actiuae generationis, nisi secundum modum nostrum
+            <lb ed="#V" n="128"/>intelligendi, vt prius fuit expositum, sed quia non solum est
+            <lb ed="#V" n="129"/>in diuinis generatio actiua, immo etiam est ibi suppositum
+            <lb ed="#V" n="130"/>per illam productionem, ideo oportet assignare aliquid
+            <lb ed="#V" n="131"/>quo pater generet filium non solum formaliter, scilicet
+            ge<lb ed="#V" n="132" break="no"/>nerationem actiuam, qua pater formaliter dicitur generans,
+            <lb ed="#V" n="133"/>immo aliquid quo generat tanquam principio &amp; virtute
+            <lb ed="#V" n="134"/>generatiua, sicut ponit magister in praesenti dist. &amp;
+            Hila<lb ed="#V" n="135" break="no"/>rius ac Damascenus, vt recitat Sanctus Thomas de potentia
+            <lb ed="#V" n="136"/>Dei. q. 2. artic. 2. Cum autem infert arguens, pater &amp; filius
+            <lb ed="#V" n="137"/>non differunt nisi in generare &amp; generari solum: igitur si
+            <lb ed="#V" n="138"/>pater habet potentiam productiuam vel potentiam
+            gene<lb ed="#V" n="139" break="no"/>randi, illam habet filius: negatur consequentia, quia licet
+            <lb ed="#V" n="140"/>pater &amp; filius non differant per alia secundum rem quam
+            <lb ed="#V" n="141"/>penes generare &amp; generari, non sequitur quin differant
+            pe<lb ed="#V" n="142" break="no"/>nes paternitatem &amp; filiationem, penes posse generare &amp;
+            <lb ed="#V" n="143"/>posse gigni, quia generatio actiua est relatio, quam
+            nomi<lb ed="#V" n="144" break="no"/>namus paternitatem, quae includitur in ratione potentiae
+            <lb ed="#V" n="145"/>generatiuae, &amp; ideo sicut generare non conuenit filio, licet
+            <lb ed="#V" n="146"/>conueniat patri, ita dico de potentia generandi, quae
+            in<lb ed="#V" n="147" break="no"/>cludit dictam notionem.
+          </p>
+          <p xml:id="capsco-a1r2pi-d1e1913">
+            Ad vndecimum dicendum est
+            <lb ed="#V" n="148"/>sicut ad primum. Semper enim iste arguit ac si poneremus,
+            <lb ed="#V" n="149"/>quod generare egrediatur a supposito paterno: igitur
+            ni<lb ed="#V" n="150" break="no"/>hil contra nos.
+          </p>
+          <p xml:id="capsco-a1r2pi-d1e1923">
+            Ad duodecimum dicitur, quod si illud
+            ar<pb ed="#V" n="172"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>gumentum concludat, vtique concluderet quod in
+            Deo<lb ed="#V" n="2" break="no"/>nulla omnino est potentia, nec ad extra productiua, &amp; sic
+            <lb ed="#V" n="3"/>Deus est omnipotens quod est erroneum. Dico ad dictum
+            <lb ed="#V" n="4"/>Commentatoris &amp; Philosophi, quod ipsi solum negant a
+            <lb ed="#V" n="5"/>primo principio potentiam passiuam, quae scilicet possitur
+            <lb ed="#V" n="6"/>transiri vel aliquid recipere, negant etiam ab ipso
+            poten<lb ed="#V" n="7" break="no"/>tiam actiuam exeuntem de ocio in actum secundum sed quod
+            <lb ed="#V" n="8"/>non semper in eo sit potentia actiua semper coniuncta
+            ope<lb ed="#V" n="9" break="no"/>rationi non negant, cum ponant primum motorem
+            infini<lb ed="#V" n="10" break="no"/>tum in virtute, sicut enim dicit Sanctus Thomas prima parte.
+            <lb ed="#V" n="11"/>q. 45. art. 1. Quanto Deus est actus purus vniuersalissimus,
+            <lb ed="#V" n="12"/>tanto potissime ratio principij actiui sibi competit, &amp;
+            nul<lb ed="#V" n="13" break="no"/>lo modo potentia passiua, quia potentia actiua fundatur
+            <lb ed="#V" n="14"/>in actu, non autem passiua. Ad decimumtertium dicitur
+            <lb ed="#V" n="15"/>sicut ad primum, quod generare non profluit ab aliqua
+            po<lb ed="#V" n="16" break="no"/>tentia elicitiua secundum rem, sed solum secundum
+            mo<lb ed="#V" n="17" break="no"/>dum intelligendi, &amp; si contra hoc procedat argumentum,
+            <lb ed="#V" n="18"/>negatur consequentia: ergo pater est quoddam possibile
+            <lb ed="#V" n="19"/>produci etiam secundum rationem &amp; cum probatur, quia
+            <lb ed="#V" n="20"/>generare facit ipsum esse patrem, si ly pater dicatur a
+            pa<lb ed="#V" n="21" break="no"/>ternitate, vt est constitutiua suppositi, ita quod pater
+            nomi<lb ed="#V" n="22" break="no"/>net hypostasim: negatur illud assumptum, quia isto modo
+            <lb ed="#V" n="23"/>pater prius est pater quam generet, si vero pater
+            nomi<lb ed="#V" n="24" break="no"/>netur a paternitate, vt est relatio sic dicitur, quod ideo
+            <lb ed="#V" n="25"/>quia genuit est pater, cum relatio in actione fundetur, sed
+            <lb ed="#V" n="26"/>tunc pater non dicit hypostasim, sed relationem, &amp; ideo
+            <lb ed="#V" n="27"/>nullo modo probatur, quia pater in esse hypostasis
+            produ<lb ed="#V" n="28" break="no"/>citur, etiam secundum rationem ibi esset relatio.
+          </p>
+          <p xml:id="capsco-a1r2pi-d1e1988">
+            Ad alia
+            <lb ed="#V" n="29"/>quae ibi inferuntur, quod pater ageret in se generationem &amp;c.
+            <lb ed="#V" n="30"/>si intelligatur, quod realiter agat: consequentia negatur,
+            <lb ed="#V" n="31"/>si intelligatur, quod quantum ad nostrum modum
+            intel<lb ed="#V" n="32" break="no"/>ligendi pater intelligitur per modum cuiusdam
+            intelligen<lb ed="#V" n="33" break="no"/>tis, qui per suam intellectionem ab eo profluentem
+            produ<lb ed="#V" n="34" break="no"/>cit verbum. conceditur. tales enim actiones immanentes
+            <lb ed="#V" n="35"/>non transeunt in materiam exteriorem. Ad
+            decimumquar<lb ed="#V" n="36" break="no"/>tum dicitur quod potentia generandi dicit principaliter in
+            <lb ed="#V" n="37"/>recto diuinam essentiam, &amp; in obliquo relationem, &amp; ideo
+            <lb ed="#V" n="38"/>non dicit vtrunque ex aequo. Et ad improbationem quod
+            <lb ed="#V" n="39"/>non dicat essentiam &amp;c. dicitur quod licet productum sit
+            <lb ed="#V" n="40"/>relatio subsistens, tamen formalis terminus illius
+            produ<lb ed="#V" n="41" break="no"/>ctionis non est relatio, sed diuina essentia, &amp; hoc sufficit.
+            <lb ed="#V" n="42"/>Cum etiam dicitur, quod relatio non est ratio
+            producen<lb ed="#V" n="43" break="no"/>di suum oppositum, conceditur, &amp; ideo dicitur quod
+            pa<lb ed="#V" n="44" break="no"/>ternitas vt est relatio non includitur in ratione potentiae
+            <lb ed="#V" n="45"/>generandi, sed vt est forma constitutiua. Cum etiam
+            dici<lb ed="#V" n="46" break="no"/>tur quod vna productio simplex &amp;c. dicit quod productio
+            sim<lb ed="#V" n="47" break="no"/>plex requirit vnum formale principium, quod est
+            princi<lb ed="#V" n="48" break="no"/>paliter elicitiuum, sed alia. possunt concurrere vt modi
+            ta<lb ed="#V" n="49" break="no"/>lis principij, cuiusmodi est in proposito de paternitate, quae
+            <lb ed="#V" n="50"/>est modus potentiae, &amp; includitur in ratione potentiae
+            ge<lb ed="#V" n="51" break="no"/>nerandi vt est modus.
+          </p>
+          <p xml:id="capsco-a1r2pi-d1e2040">
+            Ad argumenta contra secundam
+            con<lb ed="#V" n="52" break="no"/>clusionem dicitur. Et primo ad illa quae primo loco
+            indu<lb ed="#V" n="53" break="no"/>cuntur dicitur, ad primum quidem negatur minor
+            intel<lb ed="#V" n="54" break="no"/>lecta ad sensum, in quo debet concedi maior, non enim
+            pa<lb ed="#V" n="55" break="no"/>ternitas est ipsi patri principium essendi, vel principium quo
+            <lb ed="#V" n="56"/>pater est, sed potius essentia diuina: namlicet tam essentia
+            <lb ed="#V" n="57"/>diuina quam paternitas significetur vt forma patris, tamen
+            <lb ed="#V" n="58"/>essentia significatur vt forma specifica cuiuslibet personae,
+            <lb ed="#V" n="59"/>relatio autem vt forma indiuidualis, forma autem
+            specifi<lb ed="#V" n="60" break="no"/>ca est principium tam essendi quam generandi, vt dicit
+            San<lb ed="#V" n="61" break="no"/>ctus Thomas de potentia Dei. q. 2. artic. 2. ad quintum.
+            Dicen<lb ed="#V" n="62" break="no"/>dum (inquit) quod in qualibet generatione principium
+            ge<lb ed="#V" n="63" break="no"/>nerationis principaliter non est aliqua forma indiuidualis,
+            <lb ed="#V" n="64"/>sed forma quae pertinet ad naturam speciei. Item non
+            opor<lb ed="#V" n="65" break="no"/>tet quod genitum assimiletur generanti quantum ad
+            con<lb ed="#V" n="66" break="no"/>ditiones indiuiduales, sed quantum ad naturam speciei,
+            <lb ed="#V" n="67"/>paternitas autem non est in patre per modum formae
+            spe<lb ed="#V" n="68" break="no"/>ciei, sicut humanitas in homine, sic enim in eo est diuina
+            <lb ed="#V" n="69"/>natura, sed in eo est vt ita dicam sicut principium
+            indiui<lb ed="#V" n="70" break="no"/>duale, est enim proprietas personalis, &amp; ideo non oportet
+            <lb ed="#V" n="71"/>quod sit principium generationis principaliter, sed
+            quo<lb ed="#V" n="72" break="no"/>dam modo cointellectum, aliter sequeretur, quod pater per
+            <lb ed="#V" n="73"/>generationem non solum diuinitatem communicaret, sed
+            <lb ed="#V" n="74"/>etiam paternitatem. Haec ille.
+          </p>
+          <p xml:id="capsco-a1r2pi-d1e2092">
+            Ad secundum dicitur, quod
+            <lb ed="#V" n="75"/>maior est falsa, si similitudo quo ad omnia intelligatur, s
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="76"/>enim pater sua operatione personali communicaret illud
+            <lb ed="#V" n="77"/>quod est ibi proprium, scilicet suam relationem, sicut tota
+            <lb ed="#V" n="78"/>Trinitas communicat alicui extra perfectiones communes
+            <lb ed="#V" n="79"/>essentiales sua operatione essentiali, tunc similitudo esset
+            <lb ed="#V" n="80"/>bona, &amp; sic oporteret quod sicut essentia est principium
+            <lb ed="#V" n="81"/>producendi creaturas, quod proprietas personalis esset
+            prin<lb ed="#V" n="82" break="no"/>cipium producendi personam, non sic autem est in
+            propo<lb ed="#V" n="83" break="no"/>sito, vt dictum est, ideo similitudo non valet conceditur
+            <lb ed="#V" n="84"/>tamen, quod principium operationis personalis non dicit
+            <lb ed="#V" n="85"/>solam essentiam, immo dicit proprietatem, licet minus
+            prin<lb ed="#V" n="86" break="no"/>cipaliter &amp; in obliquo.
+          </p>
+          <p xml:id="capsco-a1r2pi-d1e2123">
+            Ad tertium negatur maior si
+            loqua<lb ed="#V" n="87" break="no"/>mur in diuinis: nam relationi diuinae conuenit, quod
+            con<lb ed="#V" n="88" break="no"/>stituat inquantum se habet ibi per modum formae
+            indiui<lb ed="#V" n="89" break="no"/>dualis, &amp; ex illa ratione repugnat sibi, quod sit principium
+            <lb ed="#V" n="90"/>principale generationis vel productionis &amp; ic patet, quod
+            <lb ed="#V" n="91"/>plus repugnat sibi esse principium cliciendi actum, quam
+            <lb ed="#V" n="92"/>principium constituendi, vel saltem dato quod tantum
+            re<lb ed="#V" n="93" break="no"/>pugnaret sibi vnum quantum aliud, tamen ex quo habet
+            <lb ed="#V" n="94"/>vim constituendi in esse incommunicabili, non potest
+            ha<lb ed="#V" n="95" break="no"/>bere vim principiandi productionem aut productum. Ad
+            <lb ed="#V" n="96"/>confirmationem dico, quod imperfectionis esset, si
+            pater<lb ed="#V" n="97" break="no"/>nitas daret patri actum primum per modum formae
+            speci<lb ed="#V" n="98" break="no"/>ficae, &amp; non actum secundum, sed nullum est inconueniens
+            <lb ed="#V" n="99"/>si det sibi actum primum per modum formae indiuidualis,
+            <lb ed="#V" n="100"/>non actum secundum, hoc enim non est dare simpliciter,
+            <lb ed="#V" n="101"/>sed ipsum specificare, vel vt ita dicam indiuiduare, sicut
+            <lb ed="#V" n="102"/>enim dicit Sanctus Thomas de potentia Dei. q. 8 articu. 2. ad
+            <lb ed="#V" n="103"/>vndecimum. In diuinis non est esse nisi quod dat essentia,
+            <lb ed="#V" n="104"/>sicut nec intelligere nisi intellectus.
+          </p>
+          <p xml:id="capsco-a1r2pi-d1e2165">
+            Ad quartum negatur
+            <lb ed="#V" n="105"/>consequentia, quae sit ibi, generatio distinguit genitum a
+            <lb ed="#V" n="106"/>generante: ergo illud quod est principium generationis
+            <lb ed="#V" n="107"/>est principium distinctionis, consequens est falsum, quia
+            se<lb ed="#V" n="108" break="no"/>cundum quod dicit Sanctus Thomas prima parte. q. 41. arti. 5.
+            <lb ed="#V" n="109"/>ad primum. Illud quo generans generat est commune
+            ge<lb ed="#V" n="110" break="no"/>nito &amp; generanti, &amp; tanto perfectius, quanto perfectior
+            fue<lb ed="#V" n="111" break="no"/>rit generatio. Antecedens autem est verum: nam
+            genera<lb ed="#V" n="112" break="no"/>tio dicit relationem originis inter generans &amp; genitum, &amp;
+            <lb ed="#V" n="113"/>semper importat distinctionem illorum. Non valet ergo
+            <lb ed="#V" n="114"/>consequentia facta, sed antecedens est falsum, si loquamur
+            <lb ed="#V" n="115"/>vniformiter de principio distinctiuo, &amp; de productiuo,
+            sci<lb ed="#V" n="116" break="no"/>licet quod oporteat idem esse formale productiuum &amp;
+            for<lb ed="#V" n="117" break="no"/>male distinctiuum, sed conceditur quod illud quod est
+            for<lb ed="#V" n="118" break="no"/>male productiuum siue illud quo pater formaliter
+            produ<lb ed="#V" n="119" break="no"/>cit, sicut principio quo non ncut generatione, est illud quo
+            <lb ed="#V" n="120"/>elicit distinctiuum formale, quia illud distinctiuum, scilicet
+            <lb ed="#V" n="121"/>relatio consequitur secundum modum intelligendi ad
+            pro<lb ed="#V" n="122" break="no"/>ductionem, sic ergo principum generandi non est formale
+            <lb ed="#V" n="123"/>principium distinguendi, sed eius illatiuum, idest est illud,
+            <lb ed="#V" n="124"/>quo infertur distinctiuum.
+          </p>
+          <p xml:id="capsco-a1r2pi-d1e2212">
+            Ad quintum potest dici, quod
+            <lb ed="#V" n="125"/>sicut illae productiones, scilicet generatio actiua &amp; spiratio
+            <lb ed="#V" n="126"/>actiua distinguuntur ratione, &amp; sunt alterius &amp; alterius
+            ra<lb ed="#V" n="127" break="no"/>tionis, tamen sunt idem realiter, cum quaelibet earum sit
+            <lb ed="#V" n="128"/>in patre, ita sufficit quod principium productiuum vnius
+            <lb ed="#V" n="129"/>sit idem secundum rem cum principio productiuo
+            alte<lb ed="#V" n="130" break="no"/>rius, licet sint alterius rationis: nam cum filius procedat
+            <lb ed="#V" n="131"/>vt verbum, Spiritus sanctus, vt amor, principium
+            produ<lb ed="#V" n="132" break="no"/>ctionis vnius erit essentia sub ratione intellectus, &amp; ipsa
+            es<lb ed="#V" n="133" break="no"/>sentia sub ratione voluntatis est principium alterius, istud
+            <lb ed="#V" n="134"/>enim sufficit ad distinctionem productionum actiuarum,
+            <lb ed="#V" n="135"/>quae in diuinis non distinguuntur secundum rem, sed
+            lo<lb ed="#V" n="136" break="no"/>quendo de productionibuns passiuis dico, quod ad hoc quod
+            <lb ed="#V" n="137"/>distinguantur secundum rationem vel quasi secundum
+            spe<lb ed="#V" n="138" break="no"/>ciem sufficit illud quod dictum est, sed ad hoc quod
+            reali<lb ed="#V" n="139" break="no"/>ter distinguantur non oportet, quod principia illarum
+            reali<lb ed="#V" n="140" break="no"/>ter distinguantur, sed sufficit ordo originis inter illas, quia
+            <lb ed="#V" n="141"/>scilicet processio Spiritus sancti est quodammodo a
+            pro<lb ed="#V" n="142" break="no"/>cessione filij inquantum Spiritus sanctus est a filio, &amp; de
+            <lb ed="#V" n="143"/>hoc plus dicetur alias, vnde Sanctus Thomas de potentia
+            <lb ed="#V" n="144"/>Dei. q. 10. artic. 2. Solus (inquit) ordo processionum qui
+            <lb ed="#V" n="145"/>attenditur secundum originem processiones multiplicat
+            <lb ed="#V" n="146"/>in diuinis. Similiter disiunctiuum illarum secundum
+            spe<lb ed="#V" n="147" break="no"/>ciem, vel quasi speciem est distinctio terminorum illarum
+            <lb ed="#V" n="148"/>processionum, vnde ibidem ad duodecimum.
+            Processio<lb ed="#V" n="149" break="no"/>nes in diuinis sunt differentes quasi secundum speciem,
+            <lb ed="#V" n="150"/>propter differentiam proprietatum personalium, licet in
+            <pb ed="#V" n="173"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>procedentibus fit vna natura communis. Haec ille. Patet
+            <lb ed="#V" n="2"/>igitur quomodo distinguuntur productiones actiuae &amp;
+            pas<lb ed="#V" n="3" break="no"/>siuae in diuinis.
+          </p>
+          <p xml:id="capsco-a1r2pi-d1e2282">
+            Ad sextum respondet Sanctus Thomas de
+            <lb ed="#V" n="4"/>potentia Dei. q. 2. artic. 2. ad quintum, quae solutio recitata
+            <lb ed="#V" n="5"/>est soluendo ad primum: arguit enim sic. Propriae
+            actio<lb ed="#V" n="6" break="no"/>nis est propria forma non communis, sed generare est
+            pro<lb ed="#V" n="7" break="no"/>prie operatio patris vt pater est: ergo eius principium est
+            <lb ed="#V" n="8"/>paternitas, quae est propria forma patris. Et respondet vt
+            <lb ed="#V" n="9"/>supra fuit recitatum, licet enim illa operatio sit propria
+            <lb ed="#V" n="10"/>patris, non oportet quod illius principium sit principaliter
+            <lb ed="#V" n="11"/>forma quasi indiuidualis patris, sed forma eius quasi
+            speci<lb ed="#V" n="12" break="no"/>fica cointellecta tamen illa forma propria, quia vt saepe
+            di<lb ed="#V" n="13" break="no"/>ctum est operatio facta virtute naturae communis per
+            ali<lb ed="#V" n="14" break="no"/>quid sub illa contentum, aliquem modum proprium
+            acci<lb ed="#V" n="15" break="no"/>pit ex principijs eius, &amp; ita efficitur propria, licet
+            principa<lb ed="#V" n="16" break="no"/>liter hac virtute naturae communis.
+          </p>
+          <p xml:id="capsco-a1r2pi-d1e2313">
+            Ad septimum dicitur
+            <lb ed="#V" n="17"/>negando antecedens, nisi loquendo de quo formali &amp; non
+            <lb ed="#V" n="18"/>elicitiuo, conceditur enim quod eadem proprietate pater
+            <lb ed="#V" n="19"/>dicitur formaliter pater &amp; formaliter generans, &amp; ita
+            ea<lb ed="#V" n="20" break="no"/>dem notione verbum est filius &amp; genitus: quia illa
+            proprie<lb ed="#V" n="21" break="no"/>tas significatur vt actio cum dicitur generatio, &amp; vt
+            rela<lb ed="#V" n="22" break="no"/>tio cum dicitur paternitas, sed si loquamur de quo
+            eliciti<lb ed="#V" n="23" break="no"/>uo ad hunc sensum, quod illo pater elicit generationem
+            <lb ed="#V" n="24"/>quo formaliter est pater; falsum est, sicut &amp; falsum est, quod
+            <lb ed="#V" n="25"/>illo filius sit formaliter filius, quo vel cuius virtute est
+            pro<lb ed="#V" n="26" break="no"/>ductus vel genitus: patet ergo quod cum dicitur, eo est pater
+            <lb ed="#V" n="27"/>quo generat: si ly eo &amp; ly quo teneantur vniformiter,
+            sci<lb ed="#V" n="28" break="no"/>licet formaliter, vera est propositio, si autem ly eo teneatur
+            <lb ed="#V" n="29"/>formaliter, &amp; ly quo elicitiue falsa est.
+          </p>
+          <p xml:id="capsco-a1r2pi-d1e2344">
+            Ad primum illorum
+            <lb ed="#V" n="30"/>quae secundo loco sunt inducta dicitur, quod maior vera
+            <lb ed="#V" n="31"/>est, si illud tale sit absolute formalis ratio talis, sed ad illum
+            <lb ed="#V" n="32"/>sensum non dicimus, quod essentia diuina sit formalis
+            ra<lb ed="#V" n="33" break="no"/>tio actionis absolute, sed potius vt est sub tali proprietate,
+            <lb ed="#V" n="34"/>est ergo falsa maior si intelligatur de illo, quod est
+            forma<lb ed="#V" n="35" break="no"/>lis ratio principalis, sed non totalis, cuiusmodi est in
+            pro<lb ed="#V" n="36" break="no"/>posito: nam potentia generandi dicit essentiam simul &amp;
+            <lb ed="#V" n="37"/>notionem, licet non ex aequo.
+          </p>
+          <p xml:id="capsco-a1r2pi-d1e2364">
+            Ad secundum dicitur, quod
+            <lb ed="#V" n="38"/>non concludit aliud nisi quod essentia absolute sumpta non
+            <lb ed="#V" n="39"/>est principium vel potentia generandi, sed essentia sub
+            ta<lb ed="#V" n="40" break="no"/>li relatione.
+          </p>
+          <p xml:id="capsco-a1r2pi-d1e2373">
+            Ad tertium per idem, licet modus loquendi
+            <lb ed="#V" n="41"/>sit improprius, scilicet cum dicitur, quod natura
+            determi<lb ed="#V" n="42" break="no"/>natur, sola enim supposita in diuinis determinantur, sed
+            <lb ed="#V" n="43"/>natura non determinatur per relationes, licet actio, quae
+            <lb ed="#V" n="44"/>sit virtute essentiae modificetur secundum quod profluit ab
+            <lb ed="#V" n="45"/>alio &amp; alio supposito naturae diuinae, quae quidem
+            supposi<lb ed="#V" n="46" break="no"/>ta quasi specie differunt, secundum quod ponit Sanctus
+            Do<lb ed="#V" n="47" break="no"/>ctor de potentia Dei. q. 10. artic. 1. ad 12. Licet enim in
+            di<lb ed="#V" n="48" break="no"/>uinis non proprie dicatur genus vel species vel vniuersale
+            <lb ed="#V" n="49"/>&amp; particulare, tamen vt de diuinis secundum quandam
+            <lb ed="#V" n="50"/>similitudinem creaturarum loquamur Pater &amp; Filius &amp;
+            <lb ed="#V" n="51"/>Spiritus sanctus distinguuntur sicut plura indiuidua vnius
+            <lb ed="#V" n="52"/>speciei, vt etiam Damascenus dicit. Sed attendendum quod
+            <lb ed="#V" n="53"/>in aliquo indiuiduo in genere substantiae possumus speciem
+            <lb ed="#V" n="54"/>dupliciter considerare. Vno modo speciem ipsius
+            hypo<lb ed="#V" n="55" break="no"/>stasis. Alio modo speciem proprietatis indiuidualis: dato
+            <lb ed="#V" n="56"/>enim quod Sortes sit albus &amp; Plato niger, &amp; posito quod
+            al<lb ed="#V" n="57" break="no"/>bedo &amp; nigredo sint proprietates indiuiduantes Sortem
+            <lb ed="#V" n="58"/>&amp; Platonem, verum erit dicere, quod Sortes &amp; Plato vnum
+            <lb ed="#V" n="59"/>sunt specie, sub qua specie hypostases continentur,
+            conue<lb ed="#V" n="60" break="no"/>niunt enim in humanitate, sed distinguuntur secundum
+            spe<lb ed="#V" n="61" break="no"/>ciem proprietatis, albedo enim &amp; nigredo specie differunt,
+            <lb ed="#V" n="62"/>&amp; similiter est in patre &amp; filio, considerantur enim vt vnum
+            <lb ed="#V" n="63"/>specie, cuius ipsae hypostases sunt supposita, inquantum
+            con<lb ed="#V" n="64" break="no"/>ueniunt in vna natura diuinitatis, sed secundum speciem
+            <lb ed="#V" n="65"/>proprietatis personalis inueniuntur differre, paternitas
+            <lb ed="#V" n="66"/>enim &amp; filiatio sunt relationes secundum speciem diuersae.
+          </p>
+          <p xml:id="capsco-a1r2pi-d1e2433">
+            <lb ed="#V" n="67"/>Ad quartum patet per idem, concludit enim quod relatio est
+            <lb ed="#V" n="68"/>de ratione potentiae generandi, sicut modus principij non
+            <lb ed="#V" n="69"/>sicut principium principale, sed tale principium est
+            essen<lb ed="#V" n="70" break="no"/>tia, quae potest esse principium multarum operationum
+            se<lb ed="#V" n="71" break="no"/>cundum quod habet esse sub tali relatione, vel sub tali, quae
+            <lb ed="#V" n="72"/>quidem relationes sunt modi habendi essentiam. Ad ea quae
+            <lb ed="#V" n="73"/>tertio inducta sunt.
+          </p>
+          <p xml:id="capsco-a1r2pi-d1e2451">
+            Ad primum quidem dicitur, quod solum
+            <lb ed="#V" n="74"/>probat, quod diuina essentia absolute, &amp; sub tali ratione
+            <lb ed="#V" n="75"/>sumpta non est principium plurium productionum alterius
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="76"/>rationis, scilicet generationis &amp; spirationis &amp; solum talium,
+            <lb ed="#V" n="77"/>ita quod ex ratione essentiae determinetur ad duas
+            produ<lb ed="#V" n="78" break="no"/>ctiones &amp; non plures, sed secundum Sanctum Thomam 1. sent.
+            <lb ed="#V" n="79"/>dist. 6. q. 1. artic. 3. Essentia diuina est principium omnium
+            <lb ed="#V" n="80"/>actuum diuinorum, licet essentia sub ratione essentiae non
+            <lb ed="#V" n="81"/>dicat principium actus, qui est operatio, sed qui est esse, sed
+            <lb ed="#V" n="82"/>cum in essentia sit considerare diuersa attributa, quae sunt
+            <lb ed="#V" n="83"/>realiter vnum in ipsa tantum ratione distincta, actus
+            refer<lb ed="#V" n="84" break="no"/>tur ad essentiam secundum illud attributum, quod exigit
+            <lb ed="#V" n="85"/>actus conditio, sicut intelligere est ab essentia, inquantum
+            <lb ed="#V" n="86"/>ipsa est intellectus, &amp; res volitae, quae possunt esse &amp; non esse
+            <lb ed="#V" n="87"/>producuntur ab essentia inquantum ipsa est voluntas. Haec
+            <lb ed="#V" n="88"/>ille. Ex quibus patet quod essentia est principium actus
+            ge<lb ed="#V" n="89" break="no"/>nerandi &amp; spirandi, non quidem sub ratione qua essentia,
+            <lb ed="#V" n="90"/>sed cum generatio in diuinis attendatur secundum
+            proces<lb ed="#V" n="91" break="no"/>sionem intelligibilem verbi a dicente, &amp; spiratio
+            attenda<lb ed="#V" n="92" break="no"/>tur secundum processionem amoris a diligente, oportet
+            <lb ed="#V" n="93"/>quod essentia sub ratione qua est intellectus sit principium
+            ge<lb ed="#V" n="94" break="no"/>nerationis verbi, licet sub ratione qua est natura diuina sit
+            <lb ed="#V" n="95"/>principium generandi filium Dei, sed sub ratione qua
+            vo<lb ed="#V" n="96" break="no"/>luntas sit principium spirationis, veruntamen quia in Deo
+            <lb ed="#V" n="97"/>intellectus &amp; voluntas sola ratione differunt, illa distinctio
+            <lb ed="#V" n="98"/>inter intellectum &amp; voluntatem non sufficeret ad hoc quod
+            <lb ed="#V" n="99"/>generatio &amp; spiratio essent productiones vel processiones
+            <lb ed="#V" n="100"/>realiter distinctae, quia secundum eundem primo sent.
+            di<lb ed="#V" n="101" break="no"/>stin. 13. q. 1. artic. 2. quia voluntas &amp; natura in diuinis sola
+            <lb ed="#V" n="102"/>ratione distinguuntur, talis eorum distinctio distinctionis
+            <lb ed="#V" n="103"/>realis esse non potest, ratio quia principium nunquam
+            po<lb ed="#V" n="104" break="no"/>test esse debilius principiato. Et per istam maximam
+            pro<lb ed="#V" n="105" break="no"/>bat, quod processio Spiritus sancti non potest distingui a
+            <lb ed="#V" n="106"/>processione filij ex hoc, quod vna est processio naturae, alia
+            <lb ed="#V" n="107"/>est processio voluntatis. Sic in proposito, licet dicimus, quod
+            <lb ed="#V" n="108"/>essentia vt est memoria, vel intellectus est principium
+            ge<lb ed="#V" n="109" break="no"/>nerationis verbi, &amp; vt est voluntas est principium amoris
+            <lb ed="#V" n="110"/>spirati, tamen hoc non sufficit ad hoc quod illae
+            productio<lb ed="#V" n="111" break="no"/>nes actiuae realiter distinguantur, illae enim sunt idem
+            secun<lb ed="#V" n="112" break="no"/>dum rem licet ratione distinguantur, scilicet generare &amp;
+            <lb ed="#V" n="113"/>spirare, cum sint in eodem supposito patris, ipsae autem
+            pro<lb ed="#V" n="114" break="no"/>cessiones passiuae, puta natiuitas &amp; processio Spiritus
+            san<lb ed="#V" n="115" break="no"/>cti realiter distinguuntur, sed potentia generandi &amp;
+            poten<lb ed="#V" n="116" break="no"/>tia spirandi, siue illae ponantur essentia vt intellectus, &amp;
+            es<lb ed="#V" n="117" break="no"/>sentia vt voluntas, siue paternitas &amp; spiratio actiua, siue
+            in<lb ed="#V" n="118" break="no"/>tellectus sub paternitate, &amp; voluntas sub relatione
+            spira<lb ed="#V" n="119" break="no"/>tionis, non distinguuntur realiter, quia licet paternitas &amp;
+            <lb ed="#V" n="120"/>spiratio sint duae relationes, non tamen sunt duae res, sed
+            <lb ed="#V" n="121"/>earum realis distinctio attenditur, quia habent adinuicem
+            <lb ed="#V" n="122"/>ordinem originis, &amp; vna est ab vno, &amp; alia a duobus
+            sup<lb ed="#V" n="123" break="no"/>positis.
+          </p>
+          <p xml:id="capsco-a1r2pi-d1e2564">
+            Ad secundum patet responsio per idem conceditur
+            <lb ed="#V" n="124"/>enim quod principia istarum productionum sunt alterius
+            <lb ed="#V" n="125"/>rationis modo praedicto, sed illa diuersitas rationis in
+            prin<lb ed="#V" n="126" break="no"/>cipio non sufficeret ad diuersificandum productiones, aut
+            <lb ed="#V" n="127"/>processiones secundum rem, nec etiam sufficit dicere, quod
+            <lb ed="#V" n="128"/>essentia vt est intellectus est principium vnius
+            productio<lb ed="#V" n="129" break="no"/>nis, &amp; vt est voluntas alterius, nisi etiam in ratione talis
+            prin<lb ed="#V" n="130" break="no"/>cipij relatio includatur, alias non apparet, cur non
+            conue<lb ed="#V" n="131" break="no"/>nirent istae productiones Spiritui sancto sicut Patri. Ad
+            ter<lb ed="#V" n="132" break="no"/>tium conceditur totum, praeter hoc quod opinio ista
+            di<lb ed="#V" n="133" break="no"/>minute loquitur, quia dicit solum absolutum esse
+            princi<lb ed="#V" n="134" break="no"/>pium totale productionis personae, relatione totaliter
+            ex<lb ed="#V" n="135" break="no"/>cludendo, quod non bene dictum est, quia tunc potentia
+            <lb ed="#V" n="136"/>generandi est quid commune toti Trinitati, immo non
+            ap<lb ed="#V" n="137" break="no"/>paret, cur non conueniret diuinae essentiae, ex quo dicit
+            pu<lb ed="#V" n="138" break="no"/>rum quid &amp; non ad aliquid.
+          </p>
+          <p xml:id="capsco-a1r2pi-d1e2599">
+            Ad quartum conceditur, quod
+            <lb ed="#V" n="139"/>essentia vt induit rationem memoriae vel intellectus est
+            prin<lb ed="#V" n="140" break="no"/>cipium generandi verbum principale, sed non totale,
+            im<lb ed="#V" n="141" break="no"/>mo de ratione talis potentiae est essentia tali ratione
+            indu<lb ed="#V" n="142" break="no"/>ta sub tali relatione, quae est paternitas, &amp; similiter
+            essen<lb ed="#V" n="143" break="no"/>tia vt induit rationem voluntatis est principium spirandi
+            <lb ed="#V" n="144"/>amorem loquendo de voluntate non vt libera libertate
+            <lb ed="#V" n="145"/>contradictionis, sed vt natura quaedam, talis inquam est
+            <lb ed="#V" n="146"/>ratio spirandi amorem in filium, &amp; ideo est principaliter
+            prin<lb ed="#V" n="147" break="no"/>cipium spirandi cointellecta relatione communi patri &amp;
+            <lb ed="#V" n="148"/>filio, sicut de potentia generandi dictum fuit saepe. Et sic
+            <lb ed="#V" n="149"/>patet quod ista opinio est insufficiens, licet aliqua vera dicat.
+          </p>
+          <p xml:id="capsco-a1r2pi-d1e2625">
+            <lb ed="#V" n="150"/>Sed contra responsiones istas arguit Guido de Carmelo
+            <pb ed="#V" n="174"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>sexto quolibe. q. 5. probando, quod essentia non sit
+            princi<lb ed="#V" n="2" break="no"/>pium generandi verbum sub ratione intellectus, vel
+            alte<lb ed="#V" n="3" break="no"/>rius attributi. Arguit enim sic. Si ratio principiandi
+            ver<lb ed="#V" n="4" break="no"/>bum esset sub propria ratione in diuinis, dato per
+            impossi<lb ed="#V" n="5" break="no"/>bile, quod nulla esset possibilis creatura, hoc enim dato adhuc ibi
+            <lb ed="#V" n="6"/>esset propria emanatio verbi, ex possibilitate enim
+            creatu<lb ed="#V" n="7" break="no"/>rae non confertur fecunditas diuinae perfectioni, immo
+            ma<lb ed="#V" n="8" break="no"/>gis econuerso propter omnimodam perfectionem diuinam
+            <lb ed="#V" n="9"/>est possibilitas creaturarum, &amp; ita si nulla esset possibilis
+            <lb ed="#V" n="10"/>creatura, esset infinita Dei essentia secunda ad
+            productio<lb ed="#V" n="11" break="no"/>nem ad intra: igitur ibi esset propria ratio emanationis
+            ver<lb ed="#V" n="12" break="no"/>bi, sed nulla esset possibilis creatura, nulla esset distincta
+            <lb ed="#V" n="13"/>&amp; propria ratio attributalis: igitur propria ratio
+            attribu<lb ed="#V" n="14" break="no"/>talis non est principium producendi verbum diuinum.
+          </p>
+          <p xml:id="capsco-a1r2pi-d1e2664">
+            <lb ed="#V" n="15"/><milestone ed="#V" unit="p" rend="indent"/> Secundo in agente non per instrumentum
+            productio<lb ed="#V" n="16" break="no"/>nis principium non est inferioris ordinis ac minoris
+            con<lb ed="#V" n="17" break="no"/>tinentiae quam terminus productionis: patet, quia tunc
+            pro<lb ed="#V" n="18" break="no"/>ductum concerneret virtutem producentis, quod est
+            im<lb ed="#V" n="19" break="no"/>possibile: dico autem in generante non per instrumentum,
+            <lb ed="#V" n="20"/>quia quod agens agat principio non sic perfecto, sicut
+            ter<lb ed="#V" n="21" break="no"/>minus contingit ex imperfectione agentis vel modi
+            agen<lb ed="#V" n="22" break="no"/>di, sed essentia est terminus in productione verbi, quae
+            es<lb ed="#V" n="23" break="no"/>sentia cum sit primus actus dans esse simpliciter omnium
+            <lb ed="#V" n="24"/>rationum attributalium contentiua &amp; prior in diuinis
+            com<lb ed="#V" n="25" break="no"/>paratur ad attributa, vt prima perfectio ad secundas &amp; quasi
+            <lb ed="#V" n="26"/>qualitates, vt dicit Auguuinus 15. de Trinitate cap. 5. ergo ipsa
+            <lb ed="#V" n="27"/>&amp; non aliquod attributum est in patre non producente per
+            <lb ed="#V" n="28"/>instrumentum principium productionis verbi. Tertio.
+            Il<lb ed="#V" n="29" break="no"/>lud quod est in effectu per se vel secundum se non videtur
+            <lb ed="#V" n="30"/>reduci ad illud, quod est in causa non secundum se, sed per
+            <lb ed="#V" n="31"/>comparationem ad effectum, sed distinctio productionum
+            <lb ed="#V" n="32"/>est in Deo secundum se, &amp; non per comparationem ad
+            ef<lb ed="#V" n="33" break="no"/>fectus, scilicet creaturas, distinctae autem rationes
+            attribu<lb ed="#V" n="34" break="no"/>tales, &amp; secundum earum distinctionem non sunt in Deo,
+            <lb ed="#V" n="35"/>sed sumuntur per comparationem ad creaturas: ergo
+            di<lb ed="#V" n="36" break="no"/>stinctio emanationum non debet reduci ad distinctas
+            ra<lb ed="#V" n="37" break="no"/>tiones attributales principaliter. Quarto. Qualem
+            ordi<lb ed="#V" n="38" break="no"/>nem habent aliqua secundum rem, vbi sunt distincta
+            secun<lb ed="#V" n="39" break="no"/>dum rem, talem habent secundum rationem vbi sunt
+            di<lb ed="#V" n="40" break="no"/>stincta secundum rationem, sed vbi intellectus secundum
+            <lb ed="#V" n="41"/>rem differt a natura, non est principium in virtute naturae
+            <lb ed="#V" n="42"/>nisi secundi actus &amp; perfectionis accidentalis: igitur vbi
+            <lb ed="#V" n="43"/>differt secundum rationem intellectus a natura, non erit
+            <lb ed="#V" n="44"/>in virtute naturae principium nisi secundi actus &amp;
+            perfe<lb ed="#V" n="45" break="no"/>ctionis secundae distinctae a natura secundum rationem,
+            vn<lb ed="#V" n="46" break="no"/>de videmus quod animalia non generant per aliud nisi per
+            <lb ed="#V" n="47"/>naturam.
+          </p>
+          <p xml:id="capsco-a1r2pi-d1e2740">
+            Nec valet si dicatur per potentiam generatiuam,
+            <lb ed="#V" n="48"/>quia secundum aliquos potentia generatiua non est nisi
+            na<lb ed="#V" n="49" break="no"/>tura, vel si sit aliud a natura est instrumentum naturae, Deus
+            <lb ed="#V" n="50"/>autem non producit ad intra per instrumentum. Quinto.
+            <lb ed="#V" n="51"/>Distinctio attributorum est per actum rationis &amp;
+            intelle<lb ed="#V" n="52" break="no"/>ctus, sed nullum intelligere praecedit productionem
+            verbi<lb ed="#V" n="53" break="no"/>igitur illud quod causatur ab actu intellectus, sicut sunt
+            <lb ed="#V" n="54"/>distinctae rationes attributorum, non erit principium sub
+            <lb ed="#V" n="55"/>tali distincta ratione emanationis verbi.
+          </p>
+          <p xml:id="capsco-a1r2pi-d1e2760">
+            Ad primum
+            isto<lb ed="#V" n="56" break="no"/>rum conceditur maior &amp; minor pro nunc, &amp; ideo
+            argu<lb ed="#V" n="57" break="no"/>mentum non plus infert, nisi quod attributum vt est
+            di<lb ed="#V" n="58" break="no"/>stinctum ab essentia non est principium producendi
+            ver<lb ed="#V" n="59" break="no"/>bum, ita quod distinctio illa aliquid faciat ad rationem
+            prin<lb ed="#V" n="60" break="no"/>cipij, vel sit quocunque modo requisita ad principiandum,
+            <lb ed="#V" n="61"/>sed non concludit, quod illud cui intellectus attribuit
+            ra<lb ed="#V" n="62" break="no"/>tionem attributi, &amp; distinguit illud ab essentia non sit
+            prin<lb ed="#V" n="63" break="no"/>cipium producendi verbum: licet enim nulla creatura esset
+            <lb ed="#V" n="64"/>possibilis adhuc esset intellectus in Deo, licet forte non
+            es<lb ed="#V" n="65" break="no"/>set distinctus a diuina essentia.
+          </p>
+          <p xml:id="capsco-a1r2pi-d1e2784">
+            Ad secundum dico, quod
+            <lb ed="#V" n="66"/>intellectus vt distinguitur ab essentia diuina non habet, quod
+            <lb ed="#V" n="67"/>sit principium producendi verbum, quod sit essentia
+            diui<lb ed="#V" n="68" break="no"/>na, sed solum producendi verbum, sed quod intellectus sit
+            <lb ed="#V" n="69"/>principium producendi verbum, quod sit Deus, vel quod
+            <lb ed="#V" n="70"/>sit principium productionis, cuius terminus est essentia,
+            <lb ed="#V" n="71"/>hoc habet, vt est intellectus diuinus idem essentiae diuinae:
+            <lb ed="#V" n="72"/>argumentum ergo bene concludit, quod intellectus vt
+            prae<lb ed="#V" n="73" break="no"/>scinditur ab essentia non est principium productionis
+            ter<lb ed="#V" n="74" break="no"/>minatae ad essentiam diuinam, vnde sicut persona
+            produ<lb ed="#V" n="75" break="no"/>cta per generationem est filius, &amp; verbum, &amp; Deus, ita
+            prin<cb ed="#V" n="b"/><lb ed="#V" n="76" break="no"/>cipium producendi est natura, &amp; intellectus, &amp; diuinitas,
+            <lb ed="#V" n="77"/>ita quod singulae rationes in producto correspondent
+            n<lb ed="#V" n="78" break="no"/>mul rationibus in principio producente, quae tamen dicunt
+            <lb ed="#V" n="79"/>principium actionis sicut natura, &amp; intellctus, vel formam
+            <lb ed="#V" n="80"/>specificam producentis vt diuinitas.
+          </p>
+          <p xml:id="capsco-a1r2pi-d1e2820">
+            Ad tertium dico, quod
+            <lb ed="#V" n="81"/>supponit duo falsa. Primum est, quod productiones
+            acti<lb ed="#V" n="82" break="no"/>uae sint distinctae a natura ex natura rei, immo realiter, secum
+            <lb ed="#V" n="83"/>dum est quod supponit. quod nos intelligamus, quod
+            di<lb ed="#V" n="84" break="no"/>stinctio attributorum aliquid faciat ad producendum
+            ver<lb ed="#V" n="85" break="no"/>bum.
+          </p>
+          <p xml:id="capsco-a1r2pi-d1e2833">
+            Ad quartum dico, quod bene concludit, quod
+            intel<lb ed="#V" n="86" break="no"/>sectus ex hoc quod intellectus non habet quod sit
+            princi<lb ed="#V" n="87" break="no"/>pium generandi aliquid habens naturam diuinam, sed
+            so<lb ed="#V" n="88" break="no"/>lum actus intelligendi &amp; gignendi verbum, sed non
+            pro<lb ed="#V" n="89" break="no"/>bat quin natura diuina vt est intellectus sit principium
+            gi<lb ed="#V" n="90" break="no"/>gnendi verbum, licet non vt intellectus est habeat, quod
+            <lb ed="#V" n="91"/>sit principium gignendi Deum, sed vt est diuinitas vel
+            na<lb ed="#V" n="92" break="no"/>tura diuina, &amp; hoc est quod nos dicimus. Cum enim
+            ad<lb ed="#V" n="93" break="no"/>dit, quod animal per essentiam, &amp; non per potentiam
+            ge<lb ed="#V" n="94" break="no"/>nerat animal, nisi instrumentaliter dicitur quod verum est,
+            <lb ed="#V" n="95"/>&amp; ideo concedo quod pater secundum diuinitatem siue
+            <lb ed="#V" n="96"/>naturam diuinam gignit Deum. Cum hoc tamen stat, quod
+            <lb ed="#V" n="97"/>sicut animal, puta homo per intellectum gignit verbum,
+            <lb ed="#V" n="98"/>&amp; non per essentiam vel naturam, pater virtute intellectus
+            <lb ed="#V" n="99"/>inquantum huiusmodi producit verbum, vnde principium
+            <lb ed="#V" n="100"/>generandi filium est natura inquantum huiusmodi, sed quod
+            <lb ed="#V" n="101"/>ille filius sit verbum, hoc est quia natura est intellectus,
+            po<lb ed="#V" n="102" break="no"/>tentia ergo generandi filium est essentia diuina vt natura,
+            <lb ed="#V" n="103"/>principium similiter generandi verbum est essentia, vt
+            in<lb ed="#V" n="104" break="no"/>tellectus.
+          </p>
+          <p xml:id="capsco-a1r2pi-d1e2877">
+            Ad quintum dicitur, sicut ad primum, scilicet quod
+            <lb ed="#V" n="105"/>nihil quod causatur ab actu intellectus est principium
+            pro<lb ed="#V" n="106" break="no"/>ducendi verbum diuinum, &amp; ideo bene concluditur, quod
+            <lb ed="#V" n="107"/>distinctio illa, quam intellectus facit inter attributa, vel
+            <lb ed="#V" n="108"/>intentio attributi, vt est attributum nihil faciunt ad
+            ratio<lb ed="#V" n="109" break="no"/>nem principij productiui ad intra, sed non probatur
+            quin<lb ed="#V" n="110" break="no"/>illud, cui intellectus attribuit rationem attributi, vtpote
+            <lb ed="#V" n="111"/>intellectus, vel illud quod ratio distinguit ab essentia
+            diui<lb ed="#V" n="112" break="no"/>na, sit principium producendi verbum, tale enim est in Deo
+            <lb ed="#V" n="113"/>ab aeterno, etiam posito quod nulla esset possibilis distinctio
+            <lb ed="#V" n="114"/>rationis. Ad ea vero quae quarto loco inducta sunt
+            dici<lb ed="#V" n="115" break="no"/>tur.
+          </p>
+          <p xml:id="capsco-a1r2pi-d1e2904">
+            Ad primum quidem dicitur, quod terminus formalis
+            <lb ed="#V" n="116"/>productionis verbi est essentia, &amp; non relatio signata in
+            ab<lb ed="#V" n="117" break="no"/>stracto, scilicet paternitas. Dicitur vlterius quod in illa
+            ge<lb ed="#V" n="118" break="no"/>neratione non est aliquis terminus formalis productus, &amp;
+            <lb ed="#V" n="119"/>ideo distinctio ibidem facta de termino communicato &amp;
+            <lb ed="#V" n="120"/>de termino producto nulla est, si loquamur de formali
+            ter<lb ed="#V" n="121" break="no"/>mino. Dicitur vlterius, quod terminus productus est
+            ip<lb ed="#V" n="122" break="no"/>sum suppositum, falsa est ergo imaginatio fundata in hoc,
+            <lb ed="#V" n="123"/>quod sicut in filio est aliquis terminus formalis productus, &amp;
+            <lb ed="#V" n="124"/>aliquis terminus formalis communicatus, ita in patre sit
+            <lb ed="#V" n="125"/>principium communicandi, &amp; aliud principium
+            produ<lb ed="#V" n="126" break="no"/>cendi.
+          </p>
+          <p xml:id="capsco-a1r2pi-d1e2930">
+            Ad secundum dicitur negando maiorem, nec
+            va<lb ed="#V" n="127" break="no"/>let probatio, cum falsum assumat, scilicet quod in omni
+            pro<lb ed="#V" n="128" break="no"/>ductione formale principium productionis distinguatur
+            <lb ed="#V" n="129"/>a formali termino illius, vt patuit in alia quaestione:
+            fal<lb ed="#V" n="130" break="no"/>sum etiam supponitur in minori, scilicet quod in filio sit
+            <lb ed="#V" n="131"/>aliquid communicatum, &amp; aliquid productum distinctum
+            <lb ed="#V" n="132"/>realiter ab illo, quod communicatur. Iste quidem Doctor
+            <lb ed="#V" n="133"/>errat non modicum ponendo, quod relatio diuina
+            secun<lb ed="#V" n="134" break="no"/>dum rem ab essentia distinguatur.
+          </p>
+          <p xml:id="capsco-a1r2pi-d1e2950">
+            Ad tertium negatur
+            mi<lb ed="#V" n="135" break="no"/>nor, dico enim, quod ponens essentiam diuinam esse
+            prin<lb ed="#V" n="136" break="no"/>cipium actuum notionalium, potest assignare rationem,
+            <lb ed="#V" n="137"/>cur in diuinis non sunt plures emanationes quam duae,
+            <lb ed="#V" n="138"/>scilicet essentia &amp; principium talium actuum sub ratione
+            <lb ed="#V" n="139"/>intellectus, aut memoriae, &amp; sub ratione voluntatis, &amp; non
+            <lb ed="#V" n="140"/>absolute sub ratione, qua essentia. Constat autem, quod in
+            <lb ed="#V" n="141"/>natura intellectuali processio immanens non attenditur
+            <lb ed="#V" n="142"/>nisi secundum actionem intellectus vel voluntatis, &amp; ideo
+            <lb ed="#V" n="143"/>cum in diuinis sit solum processio, quae inuenitur in
+            na<lb ed="#V" n="144" break="no"/>tura intellectuali, solum sunt ibi duae productiones
+            se<lb ed="#V" n="145" break="no"/>cundum speciem distinctae. Cur autem nulla earum potest
+            <lb ed="#V" n="146"/>multiplicari secundum numerum, dicetur in alia
+            quaestio<lb ed="#V" n="147" break="no"/>ne.
+          </p>
+          <p xml:id="capsco-a1r2pi-d1e2981">
+            Ad quartum dicitur, quod essentia diuina est
+            princi<lb ed="#V" n="148" break="no"/>pale principium quo pater generat, paternitas autem est
+            <lb ed="#V" n="149"/>principium non ita principale, sed scilicet cointellectum.
+            <lb ed="#V" n="150"/>Nec valet ratio, filiatio est in filio vere productio: igitur
+            <pb ed="#V" n="175"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>paternitas est in patre vere producens vel productiua. tum
+            <lb ed="#V" n="2"/>quia consequentia non valet, quia relatio licet possit
+            pro<lb ed="#V" n="3" break="no"/>duci saltem consecutiue ad productionem hypostasis, non
+            <lb ed="#V" n="4"/>tamen habet rationem productiui, licet possit esse modus
+            <lb ed="#V" n="5"/>agentis, vel modus principij productiui, cuiusmodi est in
+            <lb ed="#V" n="6"/>proposito, tum quia filiatio non proprie producitur, sed
+            fi<lb ed="#V" n="7" break="no"/>lius. Et sic patet, quod rationes contra conclusiones factae
+            <lb ed="#V" n="8"/>non procedunt.
+          </p>
+          <p xml:id="capsco-a1r2pi-d1e3012">
+            Ad rationem factam in pede quaestionis
+            <lb ed="#V" n="9"/>dicitur, quod potentia generandi non dicitur proprie
+            acti<lb ed="#V" n="10" break="no"/>ua nec passiua, sed productiua: nam personae diuinae non
+            <lb ed="#V" n="11"/>sunt factae, sed productae. Et hanc responsionem in
+            senten<lb ed="#V" n="12" break="no"/>tia dat Sanctus Thomas prima parte. q. 41. artic. 4. Item de
+            <lb ed="#V" n="13"/>potentia Dei. q. 2. art. 1. dicit, quod potentia generandi nec
+            <lb ed="#V" n="14"/>est actiua, nec passiua, licet per modum potentiae actiuae
+            si<lb ed="#V" n="15" break="no"/>gnificetur. Item primo sent. dist. 7. q. 1. artic. 1. dicit, quod
+            <lb ed="#V" n="16"/>potentia Dei non est actiua, nec passiua, sed superactiua.
+            <lb ed="#V" n="17"/>Et haec de quaestione dicta sufficiant.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

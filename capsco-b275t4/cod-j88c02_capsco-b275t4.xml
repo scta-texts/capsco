@@ -1,0 +1,785 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 2, Distinctio 32, Quaestio 1</title>
+        <author ref="#JohannesCapreolus">Johannes Capreolus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 2, Distinctio 32, Quaestio 1</title>
+          <date when="2026-11-04">Nov 4, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-j88c02">Venice, 1589, v. 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-04" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="503"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="capsco-b275t4"><!-- l2d32q1 -->
+        <head xml:id="capsco-b275t4-Hd1e101">Quaestio 1</head>
+        <head xml:id="capsco-b275t4-Hd1e103" type="question-title">Utrum omnes animae humanae ab origine sint aequales</head>
+        <p xml:id="capsco-b275t4-d1e106">
+          <lb ed="#V" n="19"/>DISTINCTIO XXXII.
+          <lb ed="#V" n="20"/>QVAESTIO I.
+          <lb ed="#V" n="21"/>Vtrum omnes animae humanae ab origine sint aequales.
+        </p>
+        <p xml:id="capsco-b275t4-d1e115">
+          <lb ed="#V" n="22"/><milestone ed="#V" unit="p" rend="initial"/> CIRCA trigesimam secundam
+          distin<lb ed="#V" n="23" break="no"/>ctionen 2. sent. quaeritur. Vtrum
+          om<lb ed="#V" n="24" break="no"/>nes animae humanae ab origine sint
+          aequa<lb ed="#V" n="25" break="no"/>les.
+        </p>
+        <p xml:id="capsco-b275t4-d1e127">
+          Et arguitur quod non, quia videmus
+          <lb ed="#V" n="26"/>vnum hominem naturaliter
+          subtilio<lb ed="#V" n="27" break="no"/>rem altero, sed haec diuersitas non potest
+          <lb ed="#V" n="28"/>esse ex parte corporis, vt probabo:
+          igi<lb ed="#V" n="29" break="no"/>tur est ex parte animae. Minor probatur, quia si diuerliras
+          <lb ed="#V" n="30"/>subtilitatis intellectuum esset ex parte corporis, hoc esset.
+          <lb ed="#V" n="31"/>quia intellectus vtitur corpore vt subiecto, vel vt obiecto.
+          <lb ed="#V" n="32"/>Non est dicendum, quod vtatur corpore vt subiecto, quia non
+          <lb ed="#V" n="33"/>est virtus organica, nec qua vtitur eo vt obiecto, quia eodem
+          <lb ed="#V" n="34"/>obiecto proposito in fantasia duorum eodem modo disposita
+          <lb ed="#V" n="35"/>contingit vnum subtilius intelligere quam alterum: igitur &amp;c.
+        </p>
+        <p xml:id="capsco-b275t4-d1e152">
+          <lb ed="#V" n="36"/><milestone ed="#V" unit="p" rend="indent"/> INoppositum arguitur, quia sicut dicitur 3. Metaphysic.
+          <lb ed="#V" n="37"/>species aequaliter praedicatur de indiuiduis, sed istud non
+          <lb ed="#V" n="38"/>esset nisi formae substantiales secundum se essent aequales:
+          <lb ed="#V" n="39"/>igitur &amp; caetera.
+          <lb ed="#V" n="40"/>IN hac quaestione erunt tres articuli. In primo
+          ponen<lb ed="#V" n="41" break="no"/>tur conclusiones. In secundo obiectiones. In tertio
+          so<lb ed="#V" n="42" break="no"/>lutiones.
+        </p>
+        <div xml:id="capsco-b275t4-Dd1e171">
+          <head xml:id="capsco-b275t4-Hd1e173">Articulus 1</head>
+          <p xml:id="capsco-b275t4-d1e175">
+            <lb ed="#V" n="43"/><milestone ed="#V" unit="p" rend="initial"/> Vantum ad primum articulum ponitur talis
+            conclu<lb ed="#V" n="44" break="no"/>sio. In animalibus rationalibus sunt diuersi gradus,
+            <lb ed="#V" n="45"/>eiusdem tamen speciei. Hanc conclusionem probat Sanctus Thomas
+            <lb ed="#V" n="46"/>2. sentent. distinctio. 32. quaestio. 2. articul. 3. vbi sic dicit. De
+            <lb ed="#V" n="47"/>anima &amp; de angelis duplex est opinio. Quidam enim
+            di<lb ed="#V" n="48" break="no"/>cunt animam &amp; angelum ex materia &amp; forma compositum,
+            <lb ed="#V" n="49"/>vel ex aliquibus duobus, quae sunt partes essentiae eius, &amp;
+            <lb ed="#V" n="50"/>secundum hoc forte posset aliquis modus inueniri, quo
+            as<lb ed="#V" n="51" break="no"/>signetur differentia animarum &amp; angelorum, vt sint plures
+            <lb ed="#V" n="52"/>in specie vna, etiam ex seipsis, quia vnitas speciei erit ex
+            prin<lb ed="#V" n="53" break="no"/>cipio formali in ipsis, diuersitas autem indiuiduorum erit
+            <lb ed="#V" n="54"/>ex parte materialis principij, &amp; ex eius diuersitate. Et ex
+            <lb ed="#V" n="55"/>hoc posset etiam gradus in ipsis quidam nobilitatis
+            atten<lb ed="#V" n="56" break="no"/>di. Et hoc videntur verba magistri sonare, qui dicit, eo
+            mo<lb ed="#V" n="57" break="no"/>do in animabus esse differentiam, quo &amp; in angelis est. Sed
+            <lb ed="#V" n="58"/>quia supra dictum est secundum aliam opinionem, quod
+            ani<lb ed="#V" n="59" break="no"/>ma &amp; angelus sunt naturae simplices, &amp; non est in eis
+            com<lb ed="#V" n="60" break="no"/>positio nisi ex esse, &amp; quod est, ideo oportet, quod quaecunque
+            <lb ed="#V" n="61"/>differentia in eis est ex seipsis, quod sit formalis differentia, &amp;
+            <lb ed="#V" n="62"/>speciei diuersitatem inducens, &amp; propter hoc etiam dictum
+            <lb ed="#V" n="63"/>est, quod in angelis tot sunt species quot indiuidua, &amp; ideo
+            <lb ed="#V" n="64"/>non est possibile, vt differentia animarum ponatur ad
+            mo<lb ed="#V" n="65" break="no"/>dum illum, quo distinguuntur gradus in natura, cum
+            om<lb ed="#V" n="66" break="no"/>nes animae rationales vnius speciei sint, &amp; solo numero
+            dif<lb ed="#V" n="67" break="no"/>ferant. Omnis autem talis diuersitas ex materia causatur,
+            <lb ed="#V" n="68"/>&amp; ideo cum anima non habeat materiam partem sui
+            opor<lb ed="#V" n="69" break="no"/>tet quod diuersitas &amp; distinctio gradus in animalibus
+            cau<lb ed="#V" n="70" break="no"/>setur ex diuersitate corporis, vt quanto corpus melius
+            com<cb ed="#V" n="b"/><lb ed="#V" n="71" break="no"/>plexionatum fuerit, nobiliorem animam sortiatur. Cum tis
+            <lb ed="#V" n="72"/>omne, quod recipitur ab alio per modum recipientis sit
+            re<lb ed="#V" n="73" break="no"/>ceptiuum. Et hoc quidem duplici signo patet. Primo ex
+            <lb ed="#V" n="74"/>his, quae diuersi generis sunt, quorum vnumquodque
+            inue<lb ed="#V" n="75" break="no"/>nitur tanto nobilius genus animae participare, quanto
+            cor<lb ed="#V" n="76" break="no"/>pus eius ad nobilius genus complexionis pertingit, vt in
+            <lb ed="#V" n="77"/>hominibus, &amp; brutis, &amp; plantis apparet. Vnde etiam in
+            <lb ed="#V" n="78"/>his, quae sunt vnius generis, ex hoc continget diuersitas
+            <lb ed="#V" n="79"/>animarum, quod est in corporibus diuersitas. Hoc etiam
+            <lb ed="#V" n="80"/>apparet ex signo boni intellectus, vt ostendit Philosophus
+            <lb ed="#V" n="81"/>secundo de anima dicens, eos qui sunt boni tactus &amp;
+            mol<lb ed="#V" n="82" break="no"/>les carne, aptos mente esse. Bonitas autem tactus ex
+            aequa<lb ed="#V" n="83" break="no"/>litate complexionis contingit, quia oportet, vt
+            instrumen<lb ed="#V" n="84" break="no"/>tum tactus inter contraria tangibilia sit medium, &amp;
+            quan<lb ed="#V" n="85" break="no"/>to magis prouenit ad medium, tanto melior erit tactus.
+            <lb ed="#V" n="86"/>Vnde patet, quod ex diuersitate corporis, animarum
+            diuer<lb ed="#V" n="87" break="no"/>sitas resultat. Haec ille.
+          </p>
+          <p xml:id="capsco-b275t4-d1e277">
+            Item primo sententiarum distin. 8.
+            <lb ed="#V" n="88"/>quaestio. 5. articu. 2. in solutione sexti sic dicit. Quamuis
+            in<lb ed="#V" n="89" break="no"/>diuiduatio animarum dependeat a corpore quantum ad
+            <lb ed="#V" n="90"/>suum principium, non tamen quantum ad suum finem, ita
+            <lb ed="#V" n="91"/>quod cessantibus corporibus cesset indiuiduatio animarum.
+            <lb ed="#V" n="92"/>Cuius ratio est, quia cum omnis perfectio infundatur
+            ma<lb ed="#V" n="93" break="no"/>teriae secundum capacitatem suam, natura animae
+            infundi<lb ed="#V" n="94" break="no"/>tur diuersis corporibus non secundum eandem
+            nobilita<lb ed="#V" n="95" break="no"/>tem &amp; puritatem. Vnde in vnoquoque corpore habebit
+            <lb ed="#V" n="96"/>esse terminatum secundum mensuram corporis. Hoc
+            au<lb ed="#V" n="97" break="no"/>tem esse terminatum quamuis acquiratur animae in
+            corpo<lb ed="#V" n="98" break="no"/>re, non tamen ex corpore, nec per dependentiam ad corpus,
+            <lb ed="#V" n="99"/>vnde remotis corporibus adhuc remanebit vnicuique
+            ani<lb ed="#V" n="100" break="no"/>mae esse suum terminatum secundum affectiones vel
+            dispo<lb ed="#V" n="101" break="no"/>sitiones, quae consecute sunt ipsam, prout fuit perfectio
+            ta<lb ed="#V" n="102" break="no"/>lis corporis &amp; caet. Haec ille.
+          </p>
+          <p xml:id="capsco-b275t4-d1e312">
+            Item prima parte. q. 85. artic. 8.
+            <lb ed="#V" n="103"/>Quanto (inquit) corpus est melius dispositum tanto
+            me<lb ed="#V" n="104" break="no"/>liorem sortitur animam, quod manifeste apparet in his, quae
+            <lb ed="#V" n="105"/>sunt secundum speciem diuersa, cuius ratio est, quia actus
+            <lb ed="#V" n="106"/>&amp; forma recipitur in materia secundum materiae
+            capacita<lb ed="#V" n="107" break="no"/>ten. vnde etiam cum in hominibus quidam habeant
+            cor<lb ed="#V" n="108" break="no"/>pus melius dispositum, sortiuntur animam maioris
+            virtu<lb ed="#V" n="109" break="no"/>tis in intelligendo. Vnde dicitur in secundo de anima, quod
+            <lb ed="#V" n="110"/>molles carne bene aptos mente videmus. Haecille. Ex
+            qui<lb ed="#V" n="111" break="no"/>bus potest talis ratio colligi. Formae naturaliter
+            proportio<lb ed="#V" n="112" break="no"/>natae suis susceptinis secundum inaequalitatem susceptiuorum
+            <lb ed="#V" n="113"/>habent inaequalitatem inter se, sed animae humanae sunt
+            hu<lb ed="#V" n="114" break="no"/>iusmodi formae naturaliter suis susceptiuis proportionatae,
+            <lb ed="#V" n="115"/>&amp; recipiuntur in susceptiuis inaequalibus, &amp; inaequaliter
+            di<lb ed="#V" n="116" break="no"/>spositis: igitur &amp;c. Et in hoc primus articulus terminatur.
+          </p>
+        </div>
+        <div xml:id="capsco-b275t4-Dd1e346">
+          <head xml:id="capsco-b275t4-Hd1e348">Articulus 2</head>
+          <p xml:id="capsco-b275t4-d1e350">
+            <lb ed="#V" n="117"/><milestone ed="#V" unit="p" rend="initial"/> Vantum ad secundum articulum arguendum est
+            con<lb ed="#V" n="118" break="no"/>tra conclusionem. vnde Durandus contra hanc
+            de<lb ed="#V" n="119" break="no"/>terminationem sic inquit. Aequalitas vel inaequalitas
+            ani<lb ed="#V" n="120" break="no"/>marum potest attendi dupliciter, scilicet secundum
+            perfe<lb ed="#V" n="121" break="no"/>ctiones earum gratuitas, &amp; secundum perfectiones
+            natura<lb ed="#V" n="122" break="no"/>les. Si quaeratur de aequalitate animarum quo ad
+            perfectio<lb ed="#V" n="123" break="no"/>nes gratuitas, sic dicendum est, quod animae non sunt aequales ab
+            <lb ed="#V" n="124"/>origine, sed inaequales, quia cum hae perfectiones
+            depen<lb ed="#V" n="125" break="no"/>deant ex sola liberalitate diuina, communicat eas
+            quibus<lb ed="#V" n="126" break="no"/>dam, &amp; quibusdam non communicat, vt placet. Et quibus
+            <lb ed="#V" n="127"/>communicat, communicat aequaliter vel inaequaliter
+            secun<lb ed="#V" n="128" break="no"/>dum suum beneplacitum. Et per hunc modum anima
+            Chri<lb ed="#V" n="129" break="no"/>sti ab origine excessit omnes animas in donis spiritualibus.
+            <lb ed="#V" n="130"/>Ab instanti enim suae creationis perfecta fuit donis gratiae
+            <lb ed="#V" n="131"/>&amp; gloriae, quod alteri nemini concessum est. Isto modo etiam
+            <lb ed="#V" n="132"/>anima Adae, &amp; anima Euae, quae creatae sunt cum originali
+            iu<lb ed="#V" n="133" break="no"/>stitia, fuerunt perfectiores animabus omnium posterorum,
+            <lb ed="#V" n="134"/>quae statim vt sunt creatae, sunt obnoxiae peccato originali.
+            <lb ed="#V" n="135"/>Et dico istud esse ab origine quo ad tempus, quia non prius
+            <lb ed="#V" n="136"/>duratione fuerunt quam essent sub ista inaequalitate. Et sic
+            <lb ed="#V" n="137"/>videtur, quod conclusio prima diminute procedat non
+            assignan<lb ed="#V" n="138" break="no"/>do aliam inaequalitatem nisi ratione corporum.
+          </p>
+          <p xml:id="capsco-b275t4-d1e401">
+            Secundo.
+            <lb ed="#V" n="139"/>Quia si animae comparentur quo ad perfectiones naturales,
+            <lb ed="#V" n="140"/>tunc est distinguendum, quia vel comparantur ad suas
+            es<lb ed="#V" n="141" break="no"/>sentias, vel quo ad suas proprietates naturales essentiam
+            con<lb ed="#V" n="142" break="no"/>sequentes, aut quo ad proprietates communes toti
+            compo<lb ed="#V" n="143" break="no"/>sito, vel subiecto, sicut sunt potentiae vegetatiuae &amp;
+            sensiti<lb ed="#V" n="144" break="no"/>uae, aut quo ad proprietates proprias ipsi animae, in quibus
+            <lb ed="#V" n="145"/>no communicat corpori, vt subiecto, sicut sunt intellectus
+            <pb ed="#V" n="504"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>&amp; voluntas. Si comparentur quo ad proprietates toti
+            com<lb ed="#V" n="2" break="no"/>posito communes, sic non omnes animae sunt aequales ab
+            <lb ed="#V" n="3"/>origine, immo in vna sunt nobiliores &amp; perfectiores
+            poten<lb ed="#V" n="4" break="no"/>tiae sensitiuae &amp; vegetatiuae quam in alia. Cuius ratio est,
+            <lb ed="#V" n="5"/>quia sicut diuersitas actuum transeuntium in aliud
+            secun<lb ed="#V" n="6" break="no"/>dum rem prouenit ex diuersitate principij actiui, vel ex
+            di<lb ed="#V" n="7" break="no"/>uersa dispositione subiecti receptiui, sic diuersitas actuum
+            <lb ed="#V" n="8"/>transeuntium in aliud solum secundum rationem prouenit
+            <lb ed="#V" n="9"/>ex diuersa perfectione principij elicitiui, vel ex diuersa
+            re<lb ed="#V" n="10" break="no"/>praesentatione obiecti, sed actus sensitiuae &amp; vegetatiuae
+            po<lb ed="#V" n="11" break="no"/>tentiae sunt diuersi &amp; inaequales in perfectione, quia vnus
+            <lb ed="#V" n="12"/>perfectius, &amp; clarius videt, &amp; audit acutius quam alius:
+            er<lb ed="#V" n="13" break="no"/>go istud est vel ex diuersitate potentiae cognitiuae, vel ex
+            di<lb ed="#V" n="14" break="no"/>uersitate obiecti. Non ex diuersitate obiecti, quia idem
+            obie<lb ed="#V" n="15" break="no"/>ctum modo repraesentatum videtur, vel auditur perfectius
+            <lb ed="#V" n="16"/>ab vno quam ab alio: igitur ex diuersitate potentiae, non
+            <lb ed="#V" n="17"/>sunt ergo aequales, sed potius inaequales. Et istud videtur
+            <lb ed="#V" n="18"/>multum sufficere ad saluandum articulum Parisienstus qui
+            di<lb ed="#V" n="19" break="no"/>cit sic. Dicere animam Christi non esse nobiliorem anima
+            <lb ed="#V" n="20"/>Iudae, error est. Hic enim articulus dicit, quod animae sunt
+            <lb ed="#V" n="21"/>inaequales, sed non determinat in quo: igitur conclusio
+            prae<lb ed="#V" n="22" break="no"/>cedens videtur diminute tractare inaequalitatem
+            anima<lb ed="#V" n="23" break="no"/>rum, cum de hoc nihil dicat.
+          </p>
+          <p xml:id="capsco-b275t4-d1e473">
+            Tertio. Quia si animae
+            compa<lb ed="#V" n="24" break="no"/>rentur quantum ad proprietates proprias ipsi animae, vt
+            po<lb ed="#V" n="25" break="no"/>nit tua conclusio, quae sunt intellectus &amp; voluntas, sic
+            dif<lb ed="#V" n="26" break="no"/>ficile est videre, quomodo inter duas animas sit
+            inaequali<lb ed="#V" n="27" break="no"/>tas perfectionis quantum ad has duas potentias, nisi
+            pona<lb ed="#V" n="28" break="no"/>tur inter eas inaequalitas quo ad essentias, quia huiusmodi
+            <lb ed="#V" n="29"/>potentiae respiciunt essentiam animae tanquam proprium,
+            <lb ed="#V" n="30"/>&amp; per se subiectum, cui insunt inseparabiliter, vnde sunt in
+            <lb ed="#V" n="31"/>anima separata sicut in coniuncta, &amp; ideo non videtur, quod
+            <lb ed="#V" n="32"/>in talibus potentijs possit esse inaequalitas, nisi ponatur
+            inae<lb ed="#V" n="33" break="no"/>qualitas in animabus quo ad essentias, quod sic potest
+            pro<lb ed="#V" n="34" break="no"/>bari. Si in talibus potentijs esset inaequalitas, hoc esset ex
+            <lb ed="#V" n="35"/>parte subiecti, vel ex parte agentis. Subiecto enim &amp;
+            agen<lb ed="#V" n="36" break="no"/>te eodem modo se habentibus, necesse est effectum eodem
+            <lb ed="#V" n="37"/>modo se habere, sed talis inaequalitas non potest esse ex
+            par<lb ed="#V" n="38" break="no"/>te subiecti, nec ex parte agentis: igitur &amp;c. Minor probatur.
+            <lb ed="#V" n="39"/>Primo quod ex parte subiecti non possit esse talis inaequalitas
+            <lb ed="#V" n="40"/>supposita aequalitate animarum quo ad essentias, quia
+            aequa<lb ed="#V" n="41" break="no"/>litas subiecti non potest esse causa inaequalitatis
+            proprieta<lb ed="#V" n="42" break="no"/>tum, quia identitas vt sic non est causa diuersitatis, nec
+            aequa<lb ed="#V" n="43" break="no"/>litas inaequalitatis. Nec ex parte agentis, quia quanuis Deus
+            <lb ed="#V" n="44"/>creans animas posset in animabus aequalibus quo ad
+            essen<lb ed="#V" n="45" break="no"/>tias communicare inaequales proprietates, seu potentias, si
+            <lb ed="#V" n="46"/>tamen rerum natura hoc permitteret, tamen sicut dicit
+            Bea<lb ed="#V" n="47" break="no"/>tus Augutius super Genestct ad litteram, in institutione rerum, &amp;
+            <lb ed="#V" n="48"/>eadem ratio est in creatione vel productione animarum, quae
+            <lb ed="#V" n="49"/>sunt a solo Deo, non est quaerendum quid Deus possit, sed
+            <lb ed="#V" n="50"/>quid natura rerum permittit. Cum igitur aequalitas in
+            es<lb ed="#V" n="51" break="no"/>sentijs animarum non requirat inaequalitatem potentiarum,
+            <lb ed="#V" n="52"/>sed potius oppositum, non est probabile, quod in animabus
+            aequa<lb ed="#V" n="53" break="no"/>libus secundum essentiam sit inaequalitas potentiarum per se, &amp;
+            inse<lb ed="#V" n="54" break="no"/>parabiliter consequentium essentias. Si ergo possibile est
+            <lb ed="#V" n="55"/>inaequalitatem esse in animabus secundum essentias, sequitur quod &amp;
+            <lb ed="#V" n="56"/>in potentijs illis. Si vero non, nec in illis potentijs, ideo de
+            <lb ed="#V" n="57"/>hoc inquirendum est.
+          </p>
+          <p xml:id="capsco-b275t4-d1e549">
+            Quarto igitur loco arguit, quod in
+            ani<lb ed="#V" n="58" break="no"/>mabus nullo modo possit esse inaequalitas essentiarum, nec
+            <lb ed="#V" n="59"/>in quibuscunque formis essentialibus. Quia in
+            quibuscun<lb ed="#V" n="60" break="no"/>que formis eiusdem speciei est dare perfectius &amp;
+            imperfe<lb ed="#V" n="61" break="no"/>ctius nobilius &amp; ignobilius secundum intensionem, inest
+            <lb ed="#V" n="62"/>dare magis &amp; minus pprie dicta. Et hoc apparet ex 7. Phyasocus
+            <lb ed="#V" n="63"/>vbi dicitur, quod propria comparatio secundum magis &amp;
+            mi<lb ed="#V" n="64" break="no"/>nus est eorum, quae participant vnam formam secundum
+            <lb ed="#V" n="65"/>speciem, sed secundum alium gradum. Sed si in animabus
+            <lb ed="#V" n="66"/>est inaequalitas quo ad essentiam secundum per fectius &amp;
+            im<lb ed="#V" n="67" break="no"/>perfectius, nobilius &amp; ignobilius, talis inaequalitas esset in
+            <lb ed="#V" n="68"/>eadem specie, &amp; secundum intensionem, quia in formis,
+            ex<lb ed="#V" n="69" break="no"/>cepta quantitate, non est alius gradus nisi secundum
+            inten<lb ed="#V" n="70" break="no"/>sionem: ergo secundum formas substantiales esset dare
+            ma<lb ed="#V" n="71" break="no"/>gis &amp; minus, &amp; sic vnus ignis diceretur magis ignis quam
+            <lb ed="#V" n="72"/>alius, &amp; vnus homo diceretur magis homo quam alius, quod
+            <lb ed="#V" n="73"/>nullus dicit, &amp; est contra Pnilostces n praedicamentis, &amp;
+            vbi<lb ed="#V" n="74" break="no"/>cunque loquitur de hac materia.
+          </p>
+          <p xml:id="capsco-b275t4-d1e589">
+            Quinto ad idem: Quia
+            <lb ed="#V" n="75"/>si in formis substantialibus esset talis gradus, hoc esset vel
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="76"/>ex parte subiecti, vel ex parte agentis, vel ex parte
+            disposi<lb ed="#V" n="77" break="no"/>tionum praecedentium, vel concomitantium
+            introductio<lb ed="#V" n="78" break="no"/>nem formae substantialis in materia. Non ex parte subiecti,
+            <lb ed="#V" n="79"/>quia materia, in qua immediate recipitur forma
+            substan<lb ed="#V" n="80" break="no"/>tialis cuiuslibet rei generabilis &amp; corruptibilis, non habet
+            <lb ed="#V" n="81"/>gradus inaequalitatis, ratione quorum possit esse
+            inaequali<lb ed="#V" n="82" break="no"/>tas in formis, nec secundo ex parte agentis, quia diuersitas
+            <lb ed="#V" n="83"/>agentis vel esset secundum speciem vel secundum numerum.
+            <lb ed="#V" n="84"/>bl secundum speciem, illa per se non causaret diuersitatem
+            <lb ed="#V" n="85"/>nisi secundum speciem, &amp; non secundum magis &amp; minus
+            <lb ed="#V" n="86"/>in specie eadem, de qua nunc quaerimus. Si vero diuersitas
+            <lb ed="#V" n="87"/>agentium esset solum secundum numerum, vel illa agentia
+            <lb ed="#V" n="88"/>essent aequalia, &amp; sic non causarent, nisi aequales effectus. Vel
+            <lb ed="#V" n="89"/>essent inaequalia, &amp; differentia secundum magis &amp; minus,
+            <lb ed="#V" n="90"/>tunc quaerendum esset de causa istius differentiae, quia vel
+            <lb ed="#V" n="91"/>esset ex parte subiecti, vel ex parte agentis, vel dispositionum,
+            <lb ed="#V" n="92"/>sicut prius, &amp; proceditur in infinitum, quod est inconueniens.
+            <lb ed="#V" n="93"/>Nec tertio hoc esset ex diuersitate dispositionum, ex qua
+            <lb ed="#V" n="94"/>causa tenentes oppositum sumunt probabilius
+            argumen<lb ed="#V" n="95" break="no"/>tum dicentes, quod actus actiuorum sunt in patiente bene
+            di<lb ed="#V" n="96" break="no"/>sposito. Propter quod cum materia plus &amp; minus
+            dispo<lb ed="#V" n="97" break="no"/>natur, recipitur in ea forma perfectior vel imperfectior.
+            <lb ed="#V" n="98"/>Vnde in corpore minus disposito recipitur ignobilior
+            ani<lb ed="#V" n="99" break="no"/>ma, vt dicunt, &amp; in corpore melius disposito nobilior. Istud
+            <lb ed="#V" n="100"/>autem non valet, quia si ex parte dispositionum esset
+            inae<lb ed="#V" n="101" break="no"/>qualitas formarum substantialium non minus, immo
+            ma<lb ed="#V" n="102" break="no"/>gis esset ex parte dispositionum existentium in materia cum
+            <lb ed="#V" n="103"/>forma, quam ex parte dispositionum praecedentium
+            intro<lb ed="#V" n="104" break="no"/>ductionem formae, quia illae corrumpuntur in aduentu
+            for<lb ed="#V" n="105" break="no"/>mae, sicut earum subiectum. Nunc est ita, quod ex parte
+            dispo<lb ed="#V" n="106" break="no"/>sitionum concomitantium formam in materia non potest
+            <lb ed="#V" n="107"/>argui inaequalitas formarum substantialium, alioquin cum
+            <lb ed="#V" n="108"/>in eodem supposito pro alio &amp; alio tempore sint
+            disposi<lb ed="#V" n="109" break="no"/>tiones inaequales, sequeretur quod alio &amp; alio tempore eadem
+            <lb ed="#V" n="110"/>forma substantialis esset nobilior, &amp; ignobilior, quod est
+            ab<lb ed="#V" n="111" break="no"/>surdum: ergo ex parte dispositionum non potest argui
+            ta<lb ed="#V" n="112" break="no"/>lis inaequalitas formarum.
+          </p>
+          <p xml:id="capsco-b275t4-d1e676">
+            Sexto ad idem, &amp; est
+            confirma<lb ed="#V" n="113" break="no"/>tio praecedentis. Quia dispositiones materiae non
+            redun<lb ed="#V" n="114" break="no"/>dant in forma, quae non educitur de potentia materiae, nisi
+            <lb ed="#V" n="115"/>forte quantum ad operationes, in quibus indiget materia,
+            <lb ed="#V" n="116"/>seu corpore, sed anima humana ponitur esse talis forma, quae
+            <lb ed="#V" n="117"/>non dependet quantum ad esse a materia, nec a corpore, nec
+            <lb ed="#V" n="118"/>educitur de potentia materiae, quamuis dependeat a
+            corpo<lb ed="#V" n="119" break="no"/>re quantum ad aliquas operationes sensitiuas &amp;
+            vegetati<lb ed="#V" n="120" break="no"/>uas: ergo ex diuersitate dispositionum materiae, vel
+            corpo<lb ed="#V" n="121" break="no"/>ris potest solum argui diuersitas animarum, quantum ad
+            prae<lb ed="#V" n="122" break="no"/>dictas operationes, &amp; non quantum ad earum essentias. Haec
+            <lb ed="#V" n="123"/>Durandus. Contra eandem arguit Henricus 3. quolib. q. 5.
+            <lb ed="#V" n="124"/>vbi sic dicit. Triplex est genus formae. Vnum pure
+            spiritua<lb ed="#V" n="125" break="no"/>lis non vnibilis materiae, vt essentia angeli: secundum pure
+            <lb ed="#V" n="126"/>corporalis nullo modo a materia separabilis, vt formae
+            ma<lb ed="#V" n="127" break="no"/>teriales. tertium pure spiritualis materiae vnibilis, &amp; tamen a
+            <lb ed="#V" n="128"/>materia separabilis, vt anima rationalis. Quantum ad
+            pri<lb ed="#V" n="129" break="no"/>mum genus formae determinatur. q. 8. Met. quod
+            quemadmo<lb ed="#V" n="130" break="no"/>dum in numero non erit magis &amp; minus, nec in substantia,
+            <lb ed="#V" n="131"/>quae est quasi forma, nisi sit substantia, quae sit cum materia.
+          </p>
+          <p xml:id="capsco-b275t4-d1e720">
+            <lb ed="#V" n="132"/>Vnde dicit Commentator, quod sicut forma numeri non
+            su<lb ed="#V" n="133" break="no"/>scipit inagis &amp; minus, ita nec forma substantialis. Non enim
+            <lb ed="#V" n="134"/>est homo vnus maioris humanitatis quam alius secundum
+            <lb ed="#V" n="135"/>formam. Sed si fuerit, erit hoc secundum quod forma est in materia.
+            <lb ed="#V" n="136"/>Ex quo patet, quod si plura supposita angelorum sint sub
+            vna<lb ed="#V" n="137" break="no"/>specie, quod tamen Philas non ponebat, oportet ea omnino
+            aequa<lb ed="#V" n="138" break="no"/>lia esse, cum ratio speciei in indiuisibili consistat, &amp; in
+            quoli<lb ed="#V" n="139" break="no"/>bet sit totum esse speciei, &amp; per consequens omnes
+            proprie<lb ed="#V" n="140" break="no"/>tates speciem consequentes. Vnde si differant hoc erit per
+            <lb ed="#V" n="141"/>pprietates a causa exteriori collatas, vt plura dona
+            gratia<lb ed="#V" n="142" break="no"/>rum vni collata quam alteri, quod licet Philostces non
+            conce<lb ed="#V" n="143" break="no"/>deret nobis, nullum inconueniens esset. Per omnia videtur idem
+            <lb ed="#V" n="144"/>esse dicendum in animabus rationalibus, quamuis
+            corpo<lb ed="#V" n="145" break="no"/>ribus vniantur. Totum. esse speciei in quolibet supposito
+            <lb ed="#V" n="146"/>animae consistit, &amp; quaelibet anima non aliud quam ipsa
+            spe<lb ed="#V" n="147" break="no"/>cies esse videtur. Nec obstat quod non nisi in corpore creantur
+            <lb ed="#V" n="148"/>Tum quia Deus posset ipsas extra corpora creare, vnde quod
+            <lb ed="#V" n="149"/>accipiat esse suum in corpore accidit eis.
+          </p>
+          <p xml:id="capsco-b275t4-d1e762">
+            Tum quia
+            indiui<lb ed="#V" n="150" break="no"/>duatio non sit per aliquid accidentale realiter diuersum a
+            <pb ed="#V" n="505"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>specie. Ad idem arguit Bernardus de Gannaco ibidem primo.
+            <lb ed="#V" n="2"/>Quia si vna anima sit nobilior alia in in substantialibus, aut
+            <lb ed="#V" n="3"/>hoc esset quantum ad substantialia pertinentia ad speciem,
+            <lb ed="#V" n="4"/>aut quantum ad pertinentia ad indiuiduum, sed nec
+            sic:igi<lb ed="#V" n="5" break="no"/>tur nullo modo. Minor probatur. Et primo quo ad
+            pri<lb ed="#V" n="6" break="no"/>mam sui partem. Tum quia quicquid de substantialibus
+            <lb ed="#V" n="7"/>pertinentibus ad speciem pertinet ad vnam animarum,
+            perti<lb ed="#V" n="8" break="no"/>net ad quamcunque aliam, &amp; ideo nihil de substantialibus
+            <lb ed="#V" n="9"/>speciei potest habere vna anima, quod non habeat alia. Tum
+            <lb ed="#V" n="10"/>quia essentia speciei in indiuisibili consistit, &amp; ideo si vna
+            <lb ed="#V" n="11"/>anima sit nobilior alia in his, quae pertinent ad speciem,
+            mu<lb ed="#V" n="12" break="no"/>tabit primam speciem, sicut vnitas addita trinario mutat
+            spe<lb ed="#V" n="13" break="no"/>ciem trinarij: ergo illae duae animae non essent eiusdem
+            spe<lb ed="#V" n="14" break="no"/>ciei, quod patet esse falsum.
+          </p>
+          <p xml:id="capsco-b275t4-d1e801">
+            Tum quia cum non sint
+            ponen<lb ed="#V" n="15" break="no"/>di gradus in forma substantiali nihil essentiale potest esse
+            <lb ed="#V" n="16"/>in vna anima, quod non sit in alia, &amp; sic omnes animae sunt
+            <lb ed="#V" n="17"/>aequalis nobilitatis quantum ad omnia, quae pertinent ad
+            <lb ed="#V" n="18"/>speciem, siue sint essentialia sine accidentalia per se
+            conse<lb ed="#V" n="19" break="no"/>quentia speciem: secundo probatur eadem minor, si
+            loqua<lb ed="#V" n="20" break="no"/>mur de animabus quantum ad perfectionem essentialem &amp;
+            <lb ed="#V" n="21"/>substantialem quam habent in indiuiduo, quod vna anima non
+            <lb ed="#V" n="22"/>sit perfectior alia, quia indiuidua non addunt aliquid
+            sub<lb ed="#V" n="23" break="no"/>stantiale supra speciem. Non formam, quia forma specifica
+            <lb ed="#V" n="24"/>est vltima forma, vnde Sortes non addit supra hominem
+            <lb ed="#V" n="25"/>aliquam formam substantialem, quia forma hominis,
+            vn<lb ed="#V" n="26" break="no"/>de homo est homo, est anima rationalis, &amp; haec eadem est.
+            <lb ed="#V" n="27"/>forma Sortis: ergo cum vna anima non sit nobilior alia in
+            <lb ed="#V" n="28"/>substantialibus pertinentibus ad speciem, nec erit etiam in
+            <lb ed="#V" n="29"/>substantialibus pertinentibus ad indiuiduum. Eadem enim
+            <lb ed="#V" n="30"/>substantialia pertinent ad speciem &amp; ad indiuiduum.
+          </p>
+          <p xml:id="capsco-b275t4-d1e838">
+            Secun<lb ed="#V" n="31" break="no"/>do arguit. Quia si daretur oppositum, hoc maxime
+            videre<lb ed="#V" n="32" break="no"/>tur de anima Christi, sed hoc non debet mouere, quia
+            ani<lb ed="#V" n="33" break="no"/>ma Christi quantum ad substantialia, aut essentialia directe
+            <lb ed="#V" n="34"/>non est nobilior alijs, sed in hoc quod assumpta est ad esse
+            di<lb ed="#V" n="35" break="no"/>uinum &amp; substantificata in supposito diuino, &amp; sic
+            nobi<lb ed="#V" n="36" break="no"/>lior est etiam quam angelus. Sed haec nobilitas non est ei
+            <lb ed="#V" n="37"/>essentialis, sicut nec assumptio, nec omnino accidentalis,
+            <lb ed="#V" n="38"/>quia assumpta est ad esse diuinum, esse autem substantiale
+            <lb ed="#V" n="39"/>non est omnino accidens, immo reducitur ad genus
+            essen<lb ed="#V" n="40" break="no"/>tiae, cuius est esse: secundo quia corpus, cui vnita fuit, fuu
+            <lb ed="#V" n="41"/>optime dispositum quantum ad dispositiones, quae
+            respi<lb ed="#V" n="42" break="no"/>ciunt animam, inquantum est forma corporis, quia
+            quan<lb ed="#V" n="43" break="no"/>tum erat de se, diu poterat viuere, &amp; quantum ad
+            disposi<lb ed="#V" n="44" break="no"/>tiones, quae respiciunt animam, inquantum est motrix
+            cor<lb ed="#V" n="45" break="no"/>poris, quia corpus illud fuit optime dispositum ad omnia
+            <lb ed="#V" n="46"/>opera animae. Et ista fuit bonitas naturalis, in qua Christus
+            <lb ed="#V" n="47"/>excessit omnes homines alios, vt creditur: secunda fuit
+            bo<lb ed="#V" n="48" break="no"/>nitas supernaturalis in dono gratiae. Et sic non incidimus
+            <lb ed="#V" n="49"/>in articulum Parisienstus quia simpliciter dicimus animam
+            <lb ed="#V" n="50"/>Christi nobiliorem omni alia anima illo triplici modo
+            prae<lb ed="#V" n="51" break="no"/>dicto. Haec ille. Et in hoc secundus articulus terminatur
+          </p>
+        </div>
+        <div xml:id="capsco-b275t4-Dd1e887">
+          <head xml:id="capsco-b275t4-Hd1e889">Articulus 3</head>
+          <p xml:id="capsco-b275t4-d1e891">
+            <lb ed="#V" n="52"/><milestone ed="#V" unit="p" rend="initial"/> Vantum ad tertium articulum restat praedictis
+            obie<lb ed="#V" n="53" break="no"/>ctionibus respondere. Et ideo ad prima tria argumer
+            <lb ed="#V" n="54"/>ta Durandi dicitur, quod verum concludunt, sed non
+            con<lb ed="#V" n="55" break="no"/>tra nos. Nam primum concludit istud verum, quod animae
+            hy<lb ed="#V" n="56" break="no"/>manae in sua origine sunt inaequales quo ad perfectiones
+            <lb ed="#V" n="57"/>gratuitas supernaturaliter eis collatas: secundum
+            conclu<lb ed="#V" n="58" break="no"/>dit istud verum, quod animae humanae ab origine sunt
+            inaequa<lb ed="#V" n="59" break="no"/>les quo ad proprietates &amp; potentias naturales communes
+            <lb ed="#V" n="60"/>toti composito: tertium concludit hoc verum, quod potentiae
+            <lb ed="#V" n="61"/>immateriales &amp; abstractae subiectiuae solam essentiam animae
+            <lb ed="#V" n="62"/>informantes, cuiusmodi sunt intellectus &amp; voluntas, non
+            <lb ed="#V" n="63"/>possunt naturaliter esse in diuersis animabus inaequales, nisi
+            <lb ed="#V" n="64"/>animae, a quibus tales potentiae fluunt sint quo ad suas
+            es<lb ed="#V" n="65" break="no"/>sentias aliqualiter inaequales. Et totum hoc conceditur
+            <lb ed="#V" n="66"/>tam antecedens, quam consequentia, quam consequens.
+          </p>
+          <p xml:id="capsco-b275t4-d1e927">
+            <lb ed="#V" n="67"/>Ad quartum &amp; sequentia dicitur, quod duas animas, aut duas
+            <lb ed="#V" n="68"/>formas substantiales vnius &amp; eiusdem rationis vel speciei
+            <lb ed="#V" n="69"/>specialissimae esse inaequales quo ad suas essentias potest
+            in<lb ed="#V" n="70" break="no"/>telligi tripliciter. Primo modo, quia vna illarum habet
+            plu<lb ed="#V" n="71" break="no"/>res partes diuersarum rationum eius essentiam
+            constituen<lb ed="#V" n="72" break="no"/>tes quam habeat alia, vtputa aliud genus, vel aliam
+            differen<lb ed="#V" n="73" break="no"/>riam, vel aliam formam, aut formale, aut aliam materiam, vel
+            <lb ed="#V" n="74"/>materiale alterius rationis quam habeat alia, &amp; iste
+            intelle<lb ed="#V" n="75" break="no"/>ctus falsus est. Secundo modo, quia vna illarum constituta
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="76"/>est ex pluribus partibus eiusdem rationis quam alia, per quem
+            <lb ed="#V" n="77"/>modum Ochanistae &amp; Scotistae, &amp; multi alij ponunt
+            inten<lb ed="#V" n="78" break="no"/>sionem &amp; remissionem in formis accidentalibus dicentes
+            <lb ed="#V" n="79"/>illam albedinem esse intensiorem, quae habet plures partes
+            <lb ed="#V" n="80"/>vnius rationis in eodem subiecto, &amp; situ adaequato
+            consti<lb ed="#V" n="81" break="no"/>tuentes eam, &amp; similiter hic intellectus falsus est.
+          </p>
+          <p xml:id="capsco-b275t4-d1e964">
+            Tertio
+            mo<lb ed="#V" n="82" break="no"/>do, quia vna illarum habet &amp; dat perfectius esse substantiale
+            <lb ed="#V" n="83"/>quam alia, &amp; plus actuat subiectum quam alia, &amp; magis
+            par<lb ed="#V" n="84" break="no"/>ticipatur a subiecto quam alia. Talis autem participatio
+            ma<lb ed="#V" n="85" break="no"/>ior vel minor formae a sua materia, vel subiecto non est aliud
+            <lb ed="#V" n="86"/>nisi esse, quod dat forma subiecto suo, &amp; isto modo
+            conce<lb ed="#V" n="87" break="no"/>ditur, quod duae animae sunt inaequales quantum ad suas
+            essen<lb ed="#V" n="88" break="no"/>tias, idest quantum ad aliquid adhaerens essentiae, &amp; quantum
+            <lb ed="#V" n="89"/>ad illud, quod est actus essentiae. Et hunc credo fuisse
+            intel<lb ed="#V" n="90" break="no"/>lectum Beati Thomae in hac materia. Tunc ad formam quarti
+            ar<lb ed="#V" n="91" break="no"/>gumenti negatur maior. Nam ad hoc, quod secundum aliquam
+            <lb ed="#V" n="92"/>formam sit dare, proprie loquendo magis &amp; minus, non
+            suf<lb ed="#V" n="93" break="no"/>ficit quod in specie talis formae sit reperire perfectius &amp;
+            imper<lb ed="#V" n="94" break="no"/>fectius nobilius &amp; ignobilius, sed vltra hoc requiritur, quod
+            ta<lb ed="#V" n="95" break="no"/>lis forma eadem numero possit subiectum suum perficere,
+            <lb ed="#V" n="96"/>nunc plus, nunc minus, &amp; dare diuersa esse subiecto suo
+            suc<lb ed="#V" n="97" break="no"/>cessiue, quorum vnum sit alio perfectius, quod non
+            contin<lb ed="#V" n="98" break="no"/>git de aliqua forma substantiali, sed solum de accidentali.
+            <lb ed="#V" n="99"/>Et de hoc Beatus Thomas prima secundae. q. 52. artic. 1.
+            Augmen<lb ed="#V" n="100" break="no"/>tum (inquit) sicut &amp; alia ad quantitatem pertinentia a
+            quan<lb ed="#V" n="101" break="no"/>titatibus corporalibus ad res spirituales intelligibiles
+            trans<lb ed="#V" n="102" break="no"/>feruntur propter conaturalitatem intellectus nostri ad res
+            <lb ed="#V" n="103"/>corporeas, quae sub imaginatione cadunt. Dicitur autem
+            <lb ed="#V" n="104"/>in quantitatibus corporeis aliquid magnum secundum quod
+            <lb ed="#V" n="105"/>ad debitam perfectionem quantitatis producitur.
+          </p>
+          <p xml:id="capsco-b275t4-d1e1019">
+            Vnde
+            <lb ed="#V" n="106"/>aliqua quantitas reputatur magna in homine, quae non
+            re<lb ed="#V" n="107" break="no"/>putatur magna in elephante. Vnde &amp; in formis aliquid
+            di<lb ed="#V" n="108" break="no"/>citur magnum ex hoc, quod est perfectum. Et quia bonum
+            ha<lb ed="#V" n="109" break="no"/>bet rationem perfecti, propter hoc in his, quae non mole
+            ma<lb ed="#V" n="110" break="no"/>gna sunt idem est esse maius, quod melius, vt Augustinus dicit
+            <lb ed="#V" n="111"/>5. de Trinitate. Perfectio autem formae dupliciter potest
+            con<lb ed="#V" n="112" break="no"/>siderari. Vno modo secundum ipsam formam. Alio modo
+            <lb ed="#V" n="113"/>secundum quod subiectum participat formam. Inquantum
+            igi<lb ed="#V" n="114" break="no"/>tur attenditur perfectio formae secundum ipsam formam,
+            <lb ed="#V" n="115"/>sic dicitur ipsa esse parua vel magna, puta parua vel
+            magna<lb ed="#V" n="116" break="no"/>sanitas, vel scientia. Inquantum vero attenditur perfectio
+            <lb ed="#V" n="117"/>formae secundum participationem subiecti, dicitur magis
+            <lb ed="#V" n="118"/>&amp; minus, puta magis aut minus album vel sanum. Non
+            au<lb ed="#V" n="119" break="no"/>tem ista distinctio procedit secundum hoc, quod forma habeat
+            <lb ed="#V" n="120"/>esse praeter materiam, aut subiectum, sed quia alia est
+            consi<lb ed="#V" n="121" break="no"/>deratio eius secundum rationem suae speciei, &amp; alia
+            secun<lb ed="#V" n="122" break="no"/>dum quod participatur in subiecto. Secundum hoc igitur
+            cir<lb ed="#V" n="123" break="no"/>ca intensionem &amp; remissionem habituum &amp; formarum
+            fue<lb ed="#V" n="124" break="no"/>runt quatuor opiniones apud Philoastces vt Simplicius narrat
+            <lb ed="#V" n="125"/>in commento praedicamentorum, Plotinus enim &amp; alij
+            Pla<lb ed="#V" n="126" break="no"/>tonici ponebant ipsas qualitates &amp; habitus suscipere magis
+            <lb ed="#V" n="127"/>&amp; minus propter hoc quod materiales erant, &amp; ex hoc
+            habe<lb ed="#V" n="128" break="no"/>bant indeterminationem quandam propter materiae
+            infini<lb ed="#V" n="129" break="no"/>tatem. Alii vero in contrarium ponebant, quod ipsae
+            qualita<lb ed="#V" n="130" break="no"/>tes &amp; habitus secundum se non recipiebant magis &amp; minus.
+            <lb ed="#V" n="131"/>sed qualia dicuntur magis &amp; minus secundum diuersam
+            par<lb ed="#V" n="132" break="no"/>ticipationem, puta quod iustitia non dicatur magis &amp; minus,
+            <lb ed="#V" n="133"/>sed iustum, &amp; hanc opinionem tangit Aristotele in
+            praedica<lb ed="#V" n="134" break="no"/>mentis. Tertia fuit opinio Stoicorum media inter has.
+            Po<lb ed="#V" n="135" break="no"/>suerunt enim quod aliqui habitus secundum se recipiunt
+            ma<lb ed="#V" n="136" break="no"/>gis &amp; minus, sicuti artes, quidam autem non, sicut virtutes.
+            <lb ed="#V" n="137"/>Quarta autem opinio fuit quorundam dicentium, quod
+            for<lb ed="#V" n="138" break="no"/>mae &amp; qualitates immateriales non recipiunt magis &amp;
+            mi<lb ed="#V" n="139" break="no"/>nus, materiales autem recipiunt. Vt igitur huius rei veritas
+            <lb ed="#V" n="140"/>manifestetur, considerandum est quod illud secundum quod
+            ali<lb ed="#V" n="141" break="no"/>quid speciem sortitur, oportet esse fixum &amp; stans, &amp; q.
+            indi<lb ed="#V" n="142" break="no"/>uisibile, quaecunque enim ad illud attingunt sub specie
+            con<lb ed="#V" n="143" break="no"/>tinentur, quaecunque autem recedunt ab illo in plus vel in
+            <lb ed="#V" n="144"/>minus pertinent ad aliam speciem perfectiorem, vel
+            imper<lb ed="#V" n="145" break="no"/>fectiorem.
+          </p>
+          <p xml:id="capsco-b275t4-d1e1109">
+            Vnde Philossdicit 8. Metaphys. quod species rerum
+            <lb ed="#V" n="146"/>sunt sicut numeri, in quibus additio vel diminutio variat
+            <lb ed="#V" n="147"/>speciem. Si igitur aliqua forma, vel quaecunque res
+            secun<lb ed="#V" n="148" break="no"/>dum seipsam speciem sortiatur, vel secundum aliquid sui
+            <lb ed="#V" n="149"/>necesse est, quod secundum se considerata habeat determinata
+            <lb ed="#V" n="150"/>rationem, quae neque in plus excedere, neque in minus
+            de<pb ed="#V" n="506"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>ficere possit, &amp; huiusmodi sunt color &amp; albedo, &amp;
+            huius<lb ed="#V" n="2" break="no"/>modi aliae qualitates, quae non dicuntur in ordine ad aliud
+            <lb ed="#V" n="3"/>etiam multomagis substantia, quae est per se ens. Illa vero
+            <lb ed="#V" n="4"/>quae recipiunt species ex aliquo ad quod ordinantur,
+            pos<lb ed="#V" n="5" break="no"/>sunt secundum seipsa diuersificari in plus vel minus, &amp;
+            ni<lb ed="#V" n="6" break="no"/>hilominus sunt eadem specie propter vnitatem eius, ad
+            <lb ed="#V" n="7"/>quod ordinantur, ex quo recipiunt speciem, sicut motus
+            se<lb ed="#V" n="8" break="no"/>cundum se est intensior &amp; remissior, &amp; tamen manet eadem
+            spe<lb ed="#V" n="9" break="no"/>cies propter vnitatem termini, ex quo specificatur. Et idem
+            <lb ed="#V" n="10"/>considerari potest in sanitate. Nam corpus pertingit ad
+            ra<lb ed="#V" n="11" break="no"/>tionem sanitatis secundum quod habet dispositionem
+            conue<lb ed="#V" n="12" break="no"/>nientem naturae animalis, cui possunt diuersae dispositiones
+            <lb ed="#V" n="13"/>esse conuenientes.
+          </p>
+          <p xml:id="capsco-b275t4-d1e1153">
+            Vnde potest variari dispositio in plus vel
+            <lb ed="#V" n="14"/>in minus, &amp; tamen semper remanet ratio sanitatis. Vnde
+            <lb ed="#V" n="15"/>Philostce dicit 10. Ethi. quod sanitas ipsa recipit magis &amp; minus.
+            <lb ed="#V" n="16"/>Non enim eadem est commensuratio in omnibus, nec in
+            <lb ed="#V" n="17"/>vno semper, sed remissa permanet sanitas vsque ad aliquid.
+            <lb ed="#V" n="18"/>Huiusmodi autem diuersae dispositiones vel
+            commensura<lb ed="#V" n="19" break="no"/>tiones sanitatis se habent secundum excedens &amp; excessum.
+            <lb ed="#V" n="20"/>Vnde si nomen sanitatis esset impositum soli perfectissimae
+            <lb ed="#V" n="21"/>tommensurationi, tunc ipsa sanitas non diceretur maior
+            <lb ed="#V" n="22"/>vel minor. Sic igitur patet qualiter aliqua forma vel
+            quali<lb ed="#V" n="23" break="no"/>tas possit secundum seipsam augeri vel minui, &amp; qualiter
+            <lb ed="#V" n="24"/>non. Si vero consideremus qualitatem vel formam
+            secun<lb ed="#V" n="25" break="no"/>dum participationem subiecti, sic etiam inueniuntur
+            quae<lb ed="#V" n="26" break="no"/>dam qualitates vel formae recipere magis &amp; minus, &amp;
+            quae<lb ed="#V" n="27" break="no"/>dam non. Huiusmodi autem diuersitatis causam assignat
+            <lb ed="#V" n="28"/>Simplicius ex hoc, quod substantia secundum seipsam non potest
+            re<lb ed="#V" n="29" break="no"/>cipere magis &amp; minus, quia est ens per se. Et ideo omnis
+            for<lb ed="#V" n="30" break="no"/>ma, quae substantialiter participatur in subiecto caret
+            inten<lb ed="#V" n="31" break="no"/>sione &amp; remissione, vnde in genere substantiae nihil dicitur
+            <lb ed="#V" n="32"/>secundum magis &amp; minus. Et quia quantitas propinqua est
+            sub<lb ed="#V" n="33" break="no"/>stantiae, &amp; figura etiam consequitur quantitatem, inde est
+            <lb ed="#V" n="34"/>quod neque in istis dicitur aliquid secundum magis aut minus.
+          </p>
+          <p xml:id="capsco-b275t4-d1e1201">
+            Vnde
+            <lb ed="#V" n="35"/>Philoscs dicit 7. Phys quod cum aliquid recipit formam, aut
+            fi<lb ed="#V" n="36" break="no"/>guram non dicitur alterari, sed magis fieri. Aliae vero
+            qua<lb ed="#V" n="37" break="no"/>litates, quae sunt magis distantes a substantia, &amp;
+            coniungun<lb ed="#V" n="38" break="no"/>tur actionibus &amp; passionibus, recipiuntem magis &amp; minus secundum
+            <lb ed="#V" n="39"/>participationem subiecti. Potest autem magis explicari huius
+            <lb ed="#V" n="40"/>diuersitatis ratio. Vt enim dictum est id, a quo aliquid habet
+            <lb ed="#V" n="41"/>speciem, oportet manere fixum, &amp; stans, &amp; indiuisibile.
+            Duo<lb ed="#V" n="42" break="no"/>bus igitur modis potest contingere, quod forma non
+            participa<lb ed="#V" n="43" break="no"/>tur secundum magis &amp; minus. Vno modo, quia participans habet
+            <lb ed="#V" n="44"/>speciem secundum ipsam, &amp; inde est, quod nulla forma substantialis
+            <lb ed="#V" n="45"/>participatur secundum magis &amp; minus. Et propter hoc Philostes
+            di<lb ed="#V" n="46" break="no"/>cit 8. Met. quod sicut numerus non habet magis &amp; minus, sic
+            <lb ed="#V" n="47"/>nec substantia, quae est secundum speciem, idest inquantum
+            <lb ed="#V" n="48"/>ad participationem formae specificae, sed si quid est cum
+            ma<lb ed="#V" n="49" break="no"/>teria, idest secundum materiales dispositiones inuenitur magis &amp;
+            <lb ed="#V" n="50"/>minus in substantia. Alio modo potest contingere ex hoc
+            <lb ed="#V" n="51"/>quod ipsa indiuisibilitas est de ratione formae, vnde oportet quod
+            <lb ed="#V" n="52"/>si aliquid participat formam, quod participet illam secundum rationem
+            <lb ed="#V" n="53"/>indiuisibilitatis. Et inde est, quod species numeri non
+            dicun<lb ed="#V" n="54" break="no"/>tur secundum magis &amp; minus, quia vnaquaeque species in eis
+            con<lb ed="#V" n="55" break="no"/>stituitur per indiuisibilem vnitatem. Et eadem ratio est de
+            <lb ed="#V" n="56"/>speciebus quantitatis continuae, quae secundum numeros
+            accipiun<lb ed="#V" n="57" break="no"/>tur, vt bicubitum tricubitum, &amp; de relationibus, vt duplum
+            <lb ed="#V" n="58"/>triplum, &amp; de figuris, vt trigonicum &amp; tetragonicum, &amp; hanc
+            <lb ed="#V" n="59"/>rationem ponit Philoastus in praedicamentis &amp;c. Haec ille.
+          </p>
+          <p xml:id="capsco-b275t4-d1e1258">
+            Simi<lb ed="#V" n="60" break="no"/>lia dicit in de virtutibus. q. 1. artic. 11. vbi sic ait. Quia
+            perfe<lb ed="#V" n="61" break="no"/>ctio vniuscuiusque rei est eius bonitas. Et ideo Augustinus dicit
+            <lb ed="#V" n="62"/>quod in his, quae non mole magna sunt, idem est esse maius, quod
+            <lb ed="#V" n="63"/>melius, moueri autem de forma imperfecta ad perfectam
+            ni<lb ed="#V" n="64" break="no"/>hil est aliud quam subiectum magis reduci in actum, nam
+            <lb ed="#V" n="65"/>forma actus est, vnde subiectum magis participare formam
+            <lb ed="#V" n="66"/>nihil aliud est quam ipsum reduci magis in actum illius
+            for<lb ed="#V" n="67" break="no"/>mae. Et sicut ab agente reducitur aliquid de pura potentia
+            <lb ed="#V" n="68"/>in actum formae, ita etiam per actionem agentis reducitur
+            <lb ed="#V" n="69"/>de actu imperfecto in actum perfectum, sed hoc non
+            conue<lb ed="#V" n="70" break="no"/>nit in omnibus formis propter duo. Primo quidem ex ipsa
+            <lb ed="#V" n="71"/>ratione formae, eo scilicet quod illud quod perficit rationem formae
+            <lb ed="#V" n="72"/>est aliquid indiuisibile, puta in numeris. Nam vnitas
+            ad<lb ed="#V" n="73" break="no"/>dita constituit speciem. Vnde binarius, aut trinarius non dicitur
+            <lb ed="#V" n="74"/>secundum magis aut minus, &amp; per consequens non inuenitur
+            ma<lb ed="#V" n="75" break="no"/>gis &amp; minus iu quantitatibus, quae denominantur a numeris
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="76"/>puta bicubitum, tricubitum, neque in figuris, puta
+            triangula<lb ed="#V" n="77" break="no"/>re &amp; quadratum, neque in proportionabilibus, puta duplum
+            <lb ed="#V" n="78"/>triplum. Alio modo ex comparatione formae ad subiectum,
+            <lb ed="#V" n="79"/>quia inhaeret ei modo indiuisibili. Et propter hoc forma
+            sub<lb ed="#V" n="80" break="no"/>stantialis non recipit intensionem nec remissionem, quia dat
+            <lb ed="#V" n="81"/>esse substantiale, quod est vno modo. Vbi enim est aliud esse
+            <lb ed="#V" n="82"/>substantiale, alia res est. Et propter hoc Philostus 8. Met.
+            assi<lb ed="#V" n="83" break="no"/>milat diffinitiones numeris. Et inde est etiam, quod nihil
+            prae<lb ed="#V" n="84" break="no"/>dicatur substantialiter de aliquo cum magis &amp; minus etiam
+            <lb ed="#V" n="85"/>si sit in genere accidentis. Non enim dicitur albedo magis &amp;
+            <lb ed="#V" n="86"/>minus color. Et propter hoc etiam qualitates in abstracto
+            <lb ed="#V" n="87"/>significatae, quia significantur per modum substantiae, non
+            in<lb ed="#V" n="88" break="no"/>tenduntur. Non enim dicitur albedo magis vel minus, sed album. Haec
+            <lb ed="#V" n="89"/>ille. Ex quibus patet, quod nulla forma recipit magis aut
+            mi<lb ed="#V" n="90" break="no"/>nus, nisi inhaereat suo subiecto diuisibiliter, &amp; possit dare
+            il<lb ed="#V" n="91" break="no"/>li diuersa esse.
+          </p>
+          <p xml:id="capsco-b275t4-d1e1332">
+            Item quod nulla forma suscipit magis &amp;
+            mi<lb ed="#V" n="92" break="no"/>nus, nisi subiectum participans eam sortiatur speciem aliunde
+            <lb ed="#V" n="93"/>quam per eam, &amp; ante aduentum eius habeat suam speciem.
+            <lb ed="#V" n="94"/>Et propter hoc nulla forma substantialis suscipit magis &amp;
+            <lb ed="#V" n="95"/>minus pprie loquendo de suscipere magis &amp; minus. Hoc enim
+            <lb ed="#V" n="96"/>non es aliud quam formam posse intendi &amp; remitti eandem
+            <lb ed="#V" n="97"/>in numero, &amp; posse induci per motum in subiecto. Si quis
+            <lb ed="#V" n="98"/>autem large accipiat magis &amp; minus pro perfectius &amp;
+            imper<lb ed="#V" n="99" break="no"/>fectius participari formam in subiecto, tunc conceditur, quod
+            <lb ed="#V" n="100"/>forma substantialis eadem in specie suscipit magis &amp; minus,
+            <lb ed="#V" n="101"/>non autem eadem in numero. Et hoc concedit Scotus
+            <lb ed="#V" n="102"/>in quaestionibus super Met. q. 1. octaui. Vbi ponit talem
+            di<lb ed="#V" n="103" break="no"/>stinctionem, quod formam substantialem suscipere magis &amp;
+            mi<lb ed="#V" n="104" break="no"/>nus potest intelligi, aut de forma secundum speciem, &amp; hoc vel
+            pro<lb ed="#V" n="105" break="no"/>intentione logical, vel pro esse quidditatiuo &amp; specifico, aut
+            <lb ed="#V" n="106"/>de forma, vt cum materia. 1. cum gradu indiuiduali cum
+            mate<lb ed="#V" n="107" break="no"/>ria reali &amp; sensibili, &amp; hoc dupliciter, quia vel magis &amp;
+            mi<lb ed="#V" n="108" break="no"/>nus feruntur ad idem numero, vel ad diuersa numero, &amp; hoc
+            <lb ed="#V" n="109"/>eiusdem speciei. Et postea ponit tres conclusiones, quarum
+            <lb ed="#V" n="110"/>prima est, quod forma substantialis siue substantia quantum ad
+            <lb ed="#V" n="111"/>esse specificum, siue logicale, siue quidditatiuum non suscipit
+            <lb ed="#V" n="112"/>magis &amp; minus: secunda est, quod forma substantialis vt in
+            ma<lb ed="#V" n="113" break="no"/>teria hac suscipit magis &amp; minus inferendo magis &amp; minus
+            <lb ed="#V" n="114"/>ad diuersa numero: tertia est, quod ex magis &amp; minus in
+            sub<lb ed="#V" n="115" break="no"/>stantia non sequitur esse motum in ipsa. Vide illam quoonem,
+            <lb ed="#V" n="116"/>quia multa bona ibidem dicit pro nostra conclusione. Cum
+            <lb ed="#V" n="117"/>autem arguens ex hoc infert quod tunc vnus homo diceretur magis
+            <lb ed="#V" n="118"/>homo quam alius, negatur consequentia, cuius causa est, qua
+            <lb ed="#V" n="119"/>talia nomina substantiua de genere substantiae important naturam
+            <lb ed="#V" n="120"/>specificam in esse quidditatiuo &amp; specifico, &amp; quantum ad
+            tale<lb ed="#V" n="121" break="no"/>esse forma non suscipit magis &amp; minus. Possent tamen fingi
+            ali<lb ed="#V" n="122" break="no"/>qua nomina in genere substantiae quae praedicarentur cum
+            ma<lb ed="#V" n="123" break="no"/>gis &amp; minus, quia significarent participationem formae a
+            su<lb ed="#V" n="124" break="no"/>biecto, &amp; non forma in se, vt forte talia, amatus, humanatus,
+            <lb ed="#V" n="125"/>vel similia.
+          </p>
+          <p xml:id="capsco-b275t4-d1e1408">
+            Ad quintum conceditur tertium membrum diuisionis
+            <lb ed="#V" n="126"/>ibidem positae. Et ad eius improbationem dicitur negando
+            conse<lb ed="#V" n="127" break="no"/>quentiam ibidem factam. Cuius ratio est, quia esse substantiale
+            inua<lb ed="#V" n="128" break="no"/>riabile est, licet vnum esse subtenrale sit pfectius alio eiusdem speei.
+            <lb ed="#V" n="129"/>Et ideo non oportet quod si secundum diuersitatem dispositionum
+            praece<lb ed="#V" n="130" break="no"/>dentium forma in materia, vel simul cum forma incipientium sit
+            <lb ed="#V" n="131"/>inaequalitas formarum subtralium, quod a simili secundum diuersitatem
+            di<lb ed="#V" n="132" break="no"/>spositionum sequentium formam intendatur vel remittatur, quia
+            <lb ed="#V" n="133"/>dispositiones praecedentes, vel simul incipientes cum forma
+            <lb ed="#V" n="134"/>aliquem modum causalitatis habent respectu formae
+            suba<lb ed="#V" n="135" break="no"/>lis, non autem dispositiones sequentes, ideo posteriores non
+            va<lb ed="#V" n="136" break="no"/>riant formam sicut priores.
+          </p>
+          <p xml:id="capsco-b275t4-d1e1435">
+            Ad sextum negatur antecedens.
+            <lb ed="#V" n="137"/>Dispositiones enim materiae redundant non solum in formam
+            <lb ed="#V" n="138"/>eductam de potentia materiae, immo in formam vnibilem
+            ma<lb ed="#V" n="139" break="no"/>teriae, &amp; proportionatam materiae, cuiusmodi est anima humana.
+          </p>
+          <p xml:id="capsco-b275t4-d1e1444">
+            <lb ed="#V" n="140"/>Ad primum Henri. dicitur primo, quod auctoritas Philas false &amp;
+            va<lb ed="#V" n="141" break="no"/>rie ibidem exponitur. Nam Phils non loquitur specialiter ibi
+            <lb ed="#V" n="142"/>de substantijs separatis, sed generaliter de omni forma potissime de
+            <lb ed="#V" n="143"/>subtirali ad hunc sensum, quod nulla forma quantum ad id quod
+            <lb ed="#V" n="144"/>est de ratione formae, aut quantum ad esse quidditatiuum recipit
+            <lb ed="#V" n="145"/>magis aut minus, vt dictum est in distinctione facta in solu. 4.
+            <lb ed="#V" n="146"/>Sed tamen forma substantialis potest suscipere magis &amp; minus
+            <lb ed="#V" n="147"/>quantum ad esse, quod dat materiae vel subiecto. Et de hoc
+            al<lb ed="#V" n="148" break="no"/>legatum est dictum Sanctus Thomas prima secundae.
+          </p>
+          <p xml:id="capsco-b275t4-d1e1466">
+            Item in scripto
+            <lb ed="#V" n="149"/>super 8. Met. sic dicit. Sicut numerus non suscipit magis &amp;
+            <lb ed="#V" n="150"/>minus, ita nec substantia, quae dicitur secundum speciem, sed forte
+            <pb ed="#V" n="507"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>illa quae dicitur secundum materiam. Sicut enim ratio
+            nume<lb ed="#V" n="2" break="no"/>ri in aliquo determinato consistit, cui non est addere, nec
+            <lb ed="#V" n="3"/>subtrahere, ita nec formae. sed magis &amp; minus contingit ex
+            <lb ed="#V" n="4"/>hoc quod materia magis vel minus pfecte pticipat formam,
+            vn<lb ed="#V" n="5" break="no"/>de etiam albedo non suscipit magis &amp; minus, sed album.
+            <lb ed="#V" n="6"/>Dicitur secundo quod illud, quod ibi dicitur de pluribus
+            sup<lb ed="#V" n="7" break="no"/>positis angelorum sub vna specie est nobis tantum
+            incon<lb ed="#V" n="8" break="no"/>ueniens, sicut fuit philoso. Dicitur tertio quod non est simile
+            <lb ed="#V" n="9"/>de animabus rationalibus &amp; angelis, quia animae rationales
+            ha<lb ed="#V" n="10" break="no"/>bent naturalem habitudinem ad corpora, &amp; ideo
+            pos<lb ed="#V" n="11" break="no"/>sunt esse plures animae in eadem specie, non sic de angelis
+            <lb ed="#V" n="12"/>qui nulla naturale habent habitudinem ad materiam, ideo
+            <lb ed="#V" n="13"/>possunt esse plures in eadem specie solo numero differentes
+            <lb ed="#V" n="14"/>Dicitur quarto quod indiuiduatio animarum rationalium fit per
+            ali<lb ed="#V" n="15" break="no"/>quid accidentale, quod est extra rationem animae, quia scilicet per
+            <lb ed="#V" n="16"/>quantitatem, vt per principium primum distinctionis, cum
+            <lb ed="#V" n="17"/>ipsa de natura sua sit diuisibilis in partes eiusdem rationis
+            <lb ed="#V" n="18"/>&amp; omnes aliae formae hoc habent ex quantitate materiam
+            diui<lb ed="#V" n="19" break="no"/>dente. Vnde animae quae causarentur extra corpora haberent
+            <lb ed="#V" n="20"/>habitudinem ad corpora indiuiduanda pet quantitatem,
+            <lb ed="#V" n="21"/>quod de angelis fingi non potest. Ista solutio praeter
+            pri<lb ed="#V" n="22" break="no"/>mum dictum habetur a Berus de gannaco in impugnatione
+            <lb ed="#V" n="23"/>3. quolibet Godo. q. 5.
+          </p>
+          <p xml:id="capsco-b275t4-d1e1527">
+            Ad secundum dicitur, quod vna
+            ani<lb ed="#V" n="24" break="no"/>ma est perfectior alia in substantialibus pertinentibus ad
+            <lb ed="#V" n="25"/>indiuiduum, non autem in substantialibus pertinentibus
+            <lb ed="#V" n="26"/>ad speciem. Nec improbatio huius ibidem facta valet, quia
+            <lb ed="#V" n="27"/>male &amp; insufficienter accipit huiusmodi excessum animae
+            <lb ed="#V" n="28"/>ad animam. Non enim est propter alietatem partium
+            alte<lb ed="#V" n="29" break="no"/>rius rationis, aut eiusdem rationis, sed tantummodo
+            pro<lb ed="#V" n="30" break="no"/>pter excessum esse vnius ad esse alterius, vt dictum est in
+            <lb ed="#V" n="31"/>solutione quarti. Et hoc intendit Sanctus Thomas secundo senten. in
+            <lb ed="#V" n="32"/>praesenti distinctione, vbi sic dicit. art. vltimo in solutione
+            <lb ed="#V" n="33"/>primi, diuersitas formalis duplex est quaedam quae est
+            for<lb ed="#V" n="34" break="no"/>mae per se secundum illud, quod ad rationem formae
+            perti<lb ed="#V" n="35" break="no"/>net, &amp; talis diuersitas formae diuersitatem speciei inducit.
+            <lb ed="#V" n="36"/>Est autem quaedam diuersitas formae non per se, sed per
+            ac<lb ed="#V" n="37" break="no"/>cidens ex diuersitate materiae resultans secundum quod in
+            <lb ed="#V" n="38"/>materia melius disposita dignius forma participatur, &amp;
+            <lb ed="#V" n="39"/>talis formae diuersitas speciem non diuersificat, &amp; haec est
+            <lb ed="#V" n="40"/>diuersitas animarum. Haec ille.
+          </p>
+          <p xml:id="capsco-b275t4-d1e1566">
+            Ad tertium dicitur, quod non
+            <lb ed="#V" n="41"/>solum anima Christi excedit alias animas, immo aliorum
+            <lb ed="#V" n="42"/>hominum vna excedit aliam modis supradictis. Ad
+            ratio<lb ed="#V" n="43" break="no"/>nem in oppositum quasi respondit Sanctus Thomas secundo sen.
+            mo<lb ed="#V" n="44" break="no"/>do quo statim dictum est in solutione primi Bernus
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

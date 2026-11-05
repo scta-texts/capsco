@@ -1,0 +1,682 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 1, Distinctio 41, Quaestio 1</title>
+        <author ref="#JohannesCapreolus">Johannes Capreolus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 1, Distinctio 41, Quaestio 1</title>
+          <date when="2026-11-04">Nov 4, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-j88c01">Venice, 1589, v. 1</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-04" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="537"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="capsco-a2wrt8"><!-- l1d41q1 -->
+        <head xml:id="capsco-a2wrt8-Hd1e101">Quaestio 1</head>
+        <head xml:id="capsco-a2wrt8-Hd1e103" type="question-title">Utrum meritorum praescientia sit causa praedestinationis vel reprobationis</head>
+        <p xml:id="capsco-a2wrt8-d1e106">
+          <lb ed="#V" n="43"/>DISTINCTIO XLI.
+          <lb ed="#V" n="44"/>QVAESTIO I.
+          <lb ed="#V" n="45"/>Vtrum meritorum praescientia sit causa
+          pre<lb ed="#V" n="46" break="no"/>destinationis vel reprobationis.
+        </p>
+        <p xml:id="capsco-a2wrt8-d1e117">
+          <lb ed="#V" n="47"/><milestone ed="#V" unit="p" rend="initial"/> IRCAquadragesimamprimam
+          di<lb ed="#V" n="48" break="no"/>stinctionem quaeritur. Vtrum
+          praescien<lb ed="#V" n="49" break="no"/>tia meritorum sit causa
+          praedeitina<lb ed="#V" n="50" break="no"/>tionis vel reprobationis.
+        </p>
+        <p xml:id="capsco-a2wrt8-d1e129">
+          Et arguitur
+          <lb ed="#V" n="51"/>quod sic. Non est iniquitas apud Deum,
+          <lb ed="#V" n="52"/>vt dicitur Romas 6. iniquum autem est,
+          <lb ed="#V" n="53"/>vt aequalibus inaequalia dentur, omnes
+          <lb ed="#V" n="54"/>homines aequales sunt secundum
+          na<lb ed="#V" n="55" break="no"/>turam &amp; secundum peccatum originale, attenditur autem
+          <lb ed="#V" n="56"/>inaequalitas secundum merita vel demerita propriorum
+          <lb ed="#V" n="57"/>actuum: non igitur praeparat Deus inaequalia hominibus
+          <lb ed="#V" n="58"/>praedestinando, vel reprobando nisi propter praescientiam
+          <lb ed="#V" n="59"/>differentium meritorum.
+        </p>
+        <p xml:id="capsco-a2wrt8-d1e152">
+          <lb ed="#V" n="60"/><milestone ed="#V" unit="p" rend="indent"/> In oppositum arguitur sic. Deus praedestinauit nos
+          sal<lb ed="#V" n="61" break="no"/>uos fieri, sicut saluat nos, sed secundum Apostolum ad
+          <lb ed="#V" n="62"/>Titum. 3. Non ex operibus iustitiae quae fecimus nos, sed
+          <lb ed="#V" n="63"/>secundum suam misericordiam saluos nos fecit. non
+          ergo<lb ed="#V" n="64" break="no"/>praescientia meritorum est causa, vel ratio praedestinationis.
+        </p>
+        <p xml:id="capsco-a2wrt8-d1e166">
+          <lb ed="#V" n="65"/><milestone ed="#V" unit="p" rend="indent"/> In hac quaestione erunt duo articuli. In primo
+          ponen<lb ed="#V" n="66" break="no"/>tur conclusiones. In secundo mouebuntur dubitationes.
+        </p>
+        <div xml:id="capsco-a2wrt8-Dd1e174">
+          <head xml:id="capsco-a2wrt8-Hd1e176">Articulus 1</head>
+          <p xml:id="capsco-a2wrt8-d1e178">
+            <lb ed="#V" n="67"/><milestone ed="#V" unit="p" rend="initial"/> QVantum ad primum sit prima conclusio. Nec
+            meri<lb ed="#V" n="68" break="no"/>ta aut demerita sunt causae praedestinationis ex
+            par<lb ed="#V" n="69" break="no"/>te actus praedestinantis. Istam probat Sanctus Thomas
+            pri<lb ed="#V" n="70" break="no"/>ma parte. q. 23. artic. 5. Cum praedestinatio (inquit)
+            inclu<lb ed="#V" n="71" break="no"/>dat voluntatem, sic inquirenda estratio
+            praedestinatio<cb ed="#V" n="b"/><lb ed="#V" n="72" break="no"/>nis sicut inquiritur ratio diuinae voluntatis, dictum est
+            au<lb ed="#V" n="73" break="no"/>tem supra quod non est assignare causam diuinae
+            volunta<lb ed="#V" n="74" break="no"/>tis ex parte actus volendi, sed potest assignari ratio ex
+            par<lb ed="#V" n="75" break="no"/>te volitorum inquantum, scilicet Deus vult aliquid esse
+            <lb ed="#V" n="76"/>propter aliud, nullus igitur fuit ita insanae mentis, qui
+            di<lb ed="#V" n="77" break="no"/>ceret merita esse causam diuinae praedestinationis ex parte
+            <lb ed="#V" n="78"/>actus praedestinantis, sed hoc sub quaestione vertitur, vtrum
+            <lb ed="#V" n="79"/>praedestinatio ex parte effectus habeat aliquam causam, &amp;
+            <lb ed="#V" n="80"/>hoc est quaerere, vtrum praedestinauerit se daturum
+            effe<lb ed="#V" n="81" break="no"/>ctum praedestinationis alicui propter aliqua merita. Haec
+            <lb ed="#V" n="82"/>ille. Eandem ponit 1. sentent. dist. 41q. 1. artic. 3. Praescientia
+            <lb ed="#V" n="83"/>(inquit) meritorum, vel aliquorum operum nullo modo
+            <lb ed="#V" n="84"/>est causa diuinae praedestinationis, quod patet si
+            conidere<lb ed="#V" n="85" break="no"/>tur totum illud, quod est in praedestinatione de essentia
+            <lb ed="#V" n="86"/>ipsius, sed nihil prohibet illud, quod est effectus
+            praedesti<lb ed="#V" n="87" break="no"/>nationis, scilicet gratiam &amp; gloriam, quae oblique
+            ponun<lb ed="#V" n="88" break="no"/>tur in eius diffinitione habere aliquam causam ex parte
+            <lb ed="#V" n="89"/>operum nostrorum, praedestinatio enim est praescientia &amp;
+            <lb ed="#V" n="90"/>voluntas salutis aliquorum, scientia autem Dei de salute
+            <lb ed="#V" n="91"/>aliquorum non causatur a scientia aliquorum operum:
+            <lb ed="#V" n="92"/>quia ipse non venit in cognitionem per causam, sed per
+            se<lb ed="#V" n="93" break="no"/>ipsum: vnde non potest dici in eo, quod ipse scit hoc, quia scit
+            <lb ed="#V" n="94"/>causam huius, sed inquantum intuetur essentiam suam,
+            <lb ed="#V" n="95"/>quae est omnium similitudo, videt vnumquodque in se tam
+            <lb ed="#V" n="96"/>causam quam causatum: similiter &amp; voluntas sua cum
+            li<lb ed="#V" n="97" break="no"/>bera sit magis etiam quam aliqua voluntas non habet causam
+            <lb ed="#V" n="98"/>nisi finem voluntatis suae, finis autem voluntatis diuinae est
+            <lb ed="#V" n="99"/>sua bonitas, quae est ipsemet: vnde dicitur conuenienter,
+            <lb ed="#V" n="100"/>quare Deus vult, hoc propter bonitatem suam, non quis
+            <lb ed="#V" n="101"/>sciuit vel quia factum est, sed tamen effectus diuinae
+            volun<lb ed="#V" n="102" break="no"/>tatis, scilicet ipsum volitum ordinatum ad bonitatem suam
+            <lb ed="#V" n="103"/>potest procedere ex aliqua causa quam Deus praesciuit ab
+            <lb ed="#V" n="104"/>aeterno, &amp; istum ordinem causae ad causatum deus vult,
+            <lb ed="#V" n="105"/>&amp; vult quod effectus sit quia causa est, non ita quod causalitas
+            <lb ed="#V" n="106"/>referatur ad voluntatem, sed ad volitum, &amp; ista causa
+            voli<lb ed="#V" n="107" break="no"/>ti &amp; non volendi dicitur ratio quaedam voluntatis ex
+            par<lb ed="#V" n="108" break="no"/>te effectus. Haec ille.
+          </p>
+          <p xml:id="capsco-a2wrt8-d1e274">
+            Secunda conclusio. Effectus
+            praedesti<lb ed="#V" n="109" break="no"/>nationis non praeordinatur alicui propter merita
+            praeexi<lb ed="#V" n="110" break="no"/>stentia in alia vita eo modo, quo posuit Origes dicens
+            hu<lb ed="#V" n="111" break="no"/>manas animas ab initio esse creatas, &amp; secundum
+            diuersi<lb ed="#V" n="112" break="no"/>tatem suorum operum diuersos status eas sortiri in hoc
+            <lb ed="#V" n="113"/>mundo corporibus vnitas. Istam conclusionem probat
+            <lb ed="#V" n="114"/>Sanctus Thomas prima parte vbi supra per dictum Apostoli ad
+            <lb ed="#V" n="115"/>Rom. 9. dicentis. Cum nondum nati essent, aut aliquid
+            <lb ed="#V" n="116"/>egissent boni aut mali non ex operibus, sed ex vocante
+            di<lb ed="#V" n="117" break="no"/>ctum est: quia Iacob dilexi, Esau autem odio habui.
+          </p>
+          <p xml:id="capsco-a2wrt8-d1e296">
+            Ter<lb ed="#V" n="118" break="no"/>tia conclusio. Merita praeexiftentia in hac vita non sunt
+            ra<lb ed="#V" n="119" break="no"/>tio vel causa praedestinationis effectus eo modo, quo
+            po<lb ed="#V" n="120" break="no"/>suerunt pelagiani dicentes, quod bene faciendi initium sit ex
+            <lb ed="#V" n="121"/>nobis, sed consummatio ex Deo, &amp; sic dicebant quod ex hoc
+            <lb ed="#V" n="122"/>contingit quod vni datur effectus praedestinationis, &amp; non
+            al<lb ed="#V" n="123" break="no"/>teri: quia vnus initium dedit se praeparando &amp; non alius.
+            <lb ed="#V" n="124"/>Istam conclusionem contra pelagianos probat Sanctus Thoma
+            <lb ed="#V" n="125"/>per dictum Apostoli ibidem secundae. Cor. 3. dicentem, quod
+            <lb ed="#V" n="126"/>non sumus sufficientes cogitare aliquid ex nobis, nullum
+            <lb ed="#V" n="127"/>autem interius principium potest quam cogitatio: vnde
+            <lb ed="#V" n="128"/>non potest dici quod aliquod initium in nobis existat, quod
+            <lb ed="#V" n="129"/>sit ratio effectus praedestinationis.
+          </p>
+          <p xml:id="capsco-a2wrt8-d1e325">
+            Quarta conclusio. Nec
+            <lb ed="#V" n="130"/>merita sequentia effectum praedestinationis sunt causa
+            effe<lb ed="#V" n="131" break="no"/>ctus praedestinationis eo modo, quo dicunt aliqui, scilicet
+            <lb ed="#V" n="132"/>quod ideo Deus dat alicui gratiam, &amp; praeordinauit se daturum
+            <lb ed="#V" n="133"/>illi: quia praesciuit eum vsurum bene gratia huiusmodi,
+            si<lb ed="#V" n="134" break="no"/>cut rex dat alicui equum, quem scit bene vsurum eo. Istam
+            <lb ed="#V" n="135"/>conclusionem probat Sanctus Thomas ibidem. Isti (inquit)
+            viden<lb ed="#V" n="136" break="no"/>tur distinxisse inter illud, quod est gratia, &amp; illud quod est
+            <lb ed="#V" n="137"/>ex libero arbitrio, quasi non possit esse idem ex vtroque,
+            <lb ed="#V" n="138"/>manifestum est autem quod illud quod est ex gratia, est
+            prae<lb ed="#V" n="139" break="no"/>destinationis effectus, &amp; hoc non potest poni vt ratio
+            prae<lb ed="#V" n="140" break="no"/>destinationis, cum hoc sub praedestinatione concludatur,
+            <lb ed="#V" n="141"/>si igitur aliquid aliud ex parte nostra sit ratio
+            praedestina<lb ed="#V" n="142" break="no"/>tionis, hoc erit praeter effectum praedestinationis, non est
+            <lb ed="#V" n="143"/>autem distinctum quod est ex libero arbitrio &amp; ex
+            praede<lb ed="#V" n="144" break="no"/>stinatione, sicut non est distinctum quod est ex causa
+            se<lb ed="#V" n="145" break="no"/>cunda, &amp; quod est ex prima, diuina enim prouidentia
+            pro<lb ed="#V" n="146" break="no"/>ducit effectus per operationes causarum secundarum, vnde
+            <pb ed="#V" n="538"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>&amp; illud, quod est ex libero arbitrio, est ex
+            praedestinatio<lb ed="#V" n="2" break="no"/>ne. Haec ille.
+          </p>
+          <p xml:id="capsco-a2wrt8-d1e374">
+            Item de veritate q. 6. artic. 2. probat istam &amp;
+            <lb ed="#V" n="3"/>praecedentem conclusionem sic. Hoc distat inter causam,
+            <lb ed="#V" n="4"/>&amp; effectum, quod quicquid est causa causae oportet esse causam
+            <lb ed="#V" n="5"/>effectus, non autem quicquid est causa effectus oportet quod
+            <lb ed="#V" n="6"/>sit causa causae, sicut patet quod causa prima per causam
+            secun<lb ed="#V" n="7" break="no"/>dam producit effectum eius, &amp; sic causa secunda aliquo
+            <lb ed="#V" n="8"/>modo causat effectum causae primae, cuius causae causa non
+            <lb ed="#V" n="9"/>est, in praedestinatione autem est duo accipere, scilicet
+            ip<lb ed="#V" n="10" break="no"/>sam praedestinationem aeternam &amp; effectum eius
+            tempora<lb ed="#V" n="11" break="no"/>lem, scilicet gratiam &amp; gloriam, quorum alter habet
+            cau<lb ed="#V" n="12" break="no"/>sam meritoriam actum humanum, scilicet gloriam, sed
+            gra<lb ed="#V" n="13" break="no"/>tiae causa non potest esse actus humanus per modum
+            me<lb ed="#V" n="14" break="no"/>riti, sed dispositio materialis quidem inquantum
+            praepara<lb ed="#V" n="15" break="no"/>mur ad gratiae susceptionem, sed ex hoc non sequitur, quod
+            <lb ed="#V" n="16"/>actus nostri siue gratiam praecedant siue sequantur sint
+            ip<lb ed="#V" n="17" break="no"/>sius praedestinationis causa.
+          </p>
+          <p xml:id="capsco-a2wrt8-d1e409">
+            Quinta conclusio. Licet
+            ali<lb ed="#V" n="18" break="no"/>quis particularis effectus praedestinationis habeat causam
+            <lb ed="#V" n="19"/>ex parte nostra, tamen totalis effectus praedestinationis in
+            <lb ed="#V" n="20"/>communi nullam causam habet ex parte nostri. Istam
+            con<lb ed="#V" n="21" break="no"/>clusionem probat Sanctus Thomas prima parte ibidem dicens.
+            Ef<lb ed="#V" n="22" break="no"/>fectum praedestinationis considerare possumus
+            duplici<lb ed="#V" n="23" break="no"/>ter. Vno modo in particulari, &amp; sic nihil prohibet aliquem
+            <lb ed="#V" n="24"/>effectum praedestinationis esse causam, &amp; rationem alterius,
+            <lb ed="#V" n="25"/>posteriorem quidem prioris secundum rationem causae
+            fi<lb ed="#V" n="26" break="no"/>nalis, priorem autem posterioris secundum rationem
+            cau<lb ed="#V" n="27" break="no"/>sae meritoriae, quae reducitur ad dispositionem materiae,
+            si<lb ed="#V" n="28" break="no"/>cut si dicamus, quod Deus praeordinauit se daturum
+            ali<lb ed="#V" n="29" break="no"/>cui gloriam ex meritis, &amp; alicui gratiam vt meretur
+            glo<lb ed="#V" n="30" break="no"/>riam. Alio modo potest considerari praedestinationis
+            effe<lb ed="#V" n="31" break="no"/>ctus in communi, &amp; sic impossibile est quod totus
+            praedestina<lb ed="#V" n="32" break="no"/>tionis effectus in communi habeat aliquam causam ex
+            par<lb ed="#V" n="33" break="no"/>te nostra: quia quicquid est in homine ordinans ipsum in
+            <lb ed="#V" n="34"/>salutem totum compraehenditur sub esse actu
+            praedestina<lb ed="#V" n="35" break="no"/>tionis, etiam ipsa praeparatio ad gratiam, neque enim hoc
+            <lb ed="#V" n="36"/>fit nisi per auxilium diuinum secundum illud Trenuas vlti.
+            <lb ed="#V" n="37"/>Conuerte nos Domine ad te, &amp; conuertemur. Sexta
+            con<lb ed="#V" n="38" break="no"/>clusio. Totalis effectus praedestinationis causa est Dei
+            bo<lb ed="#V" n="39" break="no"/>nitas.
+          </p>
+          <p xml:id="capsco-a2wrt8-d1e459">
+            Istam probat Sanctus Thomas prima parte ibidem, vbi post
+            <lb ed="#V" n="40"/>illa quae dicta sunt, scilicet, quod totalis effectus
+            praedesti<lb ed="#V" n="41" break="no"/>nationis non habet causam ex parte nostra, subdit statim.
+            <lb ed="#V" n="42"/>Habet tamen hoc modo praedestinatio ex parte totius
+            ef<lb ed="#V" n="43" break="no"/>fectus pro ratione diuinam bonitatem, ad quam totus
+            ef<lb ed="#V" n="44" break="no"/>fectus praedestinationis ordinatur vt in finem &amp; ex qua
+            pro<lb ed="#V" n="45" break="no"/>cedit, sicut ex principio mouente. Haec ille.
+          </p>
+          <p xml:id="capsco-a2wrt8-d1e475">
+            Idem ponit
+            <lb ed="#V" n="46"/>quo ad vltimam partem de veritate. q. 6. artic. 2. dicens. Ad
+            <lb ed="#V" n="47"/>inueniendum (inquit) praedestinationis causam oportet
+            <lb ed="#V" n="48"/>accipere, quod prius dictum est, scilicet quod praedestinatio
+            <lb ed="#V" n="49"/>est quaedam directio in finem, quod facit ratio a
+            volunta<lb ed="#V" n="50" break="no"/>te mota: vnde secundum hoc potest esse aliquid
+            praedesti<lb ed="#V" n="51" break="no"/>nationis causa prout potest esse voluntatis motiuum.
+            Cir<lb ed="#V" n="52" break="no"/>ca quod sciendum est, quod aliquid mouet voluntatem dupl
+            <lb ed="#V" n="53"/>citer vno modo per modum debiti, alio modo per modi
+            <lb ed="#V" n="54"/>meriti, per modum autem debiti mouet aliquid
+            volunta<lb ed="#V" n="55" break="no"/>tem dupliciter, vnomodo absolute, alio modo ex
+            supposi<lb ed="#V" n="56" break="no"/>tione alterius, absolute quidem ipse finis vltimus, qui est
+            <lb ed="#V" n="57"/>voluntatis obiectum &amp; hoc modo mouet voluntatem, vt
+            <lb ed="#V" n="58"/>ab ipso diuertere non possit: vnde nullus homo potest velle
+            <lb ed="#V" n="59"/>non esse beatus, vt dicit Augustinus in lib. de libero arbi. sed ex
+            <lb ed="#V" n="60"/>suppositione alterius mouet secundum debitum illud, sine
+            <lb ed="#V" n="61"/>quo finis haberi non potest, sed illud quod facit ad bene
+            <lb ed="#V" n="62"/>esse finis, non mouet secundum debitum voluntatem, sed
+            <lb ed="#V" n="63"/>est libera inclinatio voluntatis in ipsum, sed tamen ex quo
+            <lb ed="#V" n="64"/>voluntas iam liberi inclinatur in ipsum inclinatur in
+            om<lb ed="#V" n="65" break="no"/>nia, sine quibus hoc haberi non potest per modum debiti,
+            <lb ed="#V" n="66"/>ex suppositione tamen illius, quod primo volitum
+            pone<lb ed="#V" n="67" break="no"/>batur, sicut rex ex sua liberalitate facit aliquem militem,
+            <lb ed="#V" n="68"/>sed quia non potest esse miles, nisi habeat equum, efficitur
+            <lb ed="#V" n="69"/>debitum, &amp; necessarium ex suppositione liberalitatis
+            prae<lb ed="#V" n="70" break="no"/>dictae, quod ei det equum, finis autem diuinae voluntatis est
+            <lb ed="#V" n="71"/>ipsa eius bonitas, quae non dependet ab aliquo alio: vnde
+            <lb ed="#V" n="72"/>ad hoc quod habeatur a Deo, nullo alio indiget, &amp; ideo
+            vo<lb ed="#V" n="73" break="no"/>luntas eius non inclinatur primo ad aliquid faciendum
+            <lb ed="#V" n="74"/>per modum debiti, sed liberaliter tantum, inquantum sua
+            <lb ed="#V" n="75"/>bonitas in opere manifestatur, sed ex quo supponitur, quod
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="76"/>Deus aliquid velit facere ex suppositione liberalitatis
+            ip¬<lb ed="#V" n="77" break="no"/>sius, per modum debiti cuiusdam sequitur, quod faciat illud
+            <lb ed="#V" n="78"/>sine quo res volita esse non potest, sicut si facere vult
+            ho<lb ed="#V" n="79" break="no"/>minem quod det ei rationem, vbicunque autem occurrit
+            ali<lb ed="#V" n="80" break="no"/>quid sine quo aliud a Deo volitum esse potest, hoc non
+            pro<lb ed="#V" n="81" break="no"/>cedit a Deo secundum rationem alicuius debiti, sed
+            secun<lb ed="#V" n="82" break="no"/>dum meram liberalitatem, perfectio autem gratiae &amp;
+            glo<lb ed="#V" n="83" break="no"/>riae sunt haec bona, quod sine eis natura esse potest, excedunt
+            <lb ed="#V" n="84"/>enim naturalis virtutis limites: vnde quod Deus velit
+            alicui<lb ed="#V" n="85" break="no"/>dare gratiam &amp; gloriam, hoc ex mera liberalitate
+            proce<lb ed="#V" n="86" break="no"/>dit, in his autem, quae tantum ex liberalitate procedunt,
+            <lb ed="#V" n="87"/>causa volendi est ipsa superabundans affectio volentis ad
+            <lb ed="#V" n="88"/>finem, in quo attenditur perfectio bonitatis ipsius: vnde
+            <lb ed="#V" n="89"/>causa praedestinationis nihil aliud est quam bonitas Dei,
+            <lb ed="#V" n="90"/>&amp; modo praedicto potest solui quaedam controuersia, quae
+            <lb ed="#V" n="91"/>inter quosdam versabatur quibusdam dicentibus omnia
+            <lb ed="#V" n="92"/>a Deo secundum simplicem voluntatem procedere,
+            qui<lb ed="#V" n="93" break="no"/>busdam vero asserentibus omnia procedere secundum
+            de<lb ed="#V" n="94" break="no"/>bitum a Deo, quarum opinionum vtraque falsa est, prima
+            <lb ed="#V" n="95"/>tollit necessarium ordinem, qui est inter diuinos effectus
+            <lb ed="#V" n="96"/>adinuicem, secunda vero ponit omnia procedere secundum
+            <lb ed="#V" n="97"/>necessitatem naturae, media autem via est eligenda, vt
+            po<lb ed="#V" n="98" break="no"/>namus ea quae sunt a Deo primo volita procedere ab ipso
+            <lb ed="#V" n="99"/>secundum simplicem voluntatem, ea vero quae ad hoc
+            re<lb ed="#V" n="100" break="no"/>quiruntur procedere secundum debitum, ex suppositione
+            <lb ed="#V" n="101"/>tamen quod debitum non ostendit Deum esse debitorem
+            re<lb ed="#V" n="102" break="no"/>bus, sed suae voluntati, ad cuius repletionem debetur illud,
+            <lb ed="#V" n="103"/>quod dicitur procedere secundum debitum ab ipso. Haec
+            <lb ed="#V" n="104"/>ille. Et ad nonum dicit. Electio Dei, qua vnum eligit &amp; alium
+            <lb ed="#V" n="105"/>reprobat rationabilis est, nec tamen oportet quod ratio
+            ele<lb ed="#V" n="106" break="no"/>ctionis sit meritum, sed electionis ratio est diuina bonitas,
+            <lb ed="#V" n="107"/>ratio autem reprobationis in hominibus est, peccatum
+            ori<lb ed="#V" n="108" break="no"/>ginale, vt dicit Auguslines vel etiam fuit hoc, quod est non
+            habere<lb ed="#V" n="109" break="no"/>debitum ad hoc quod eis gratia conferatur, rationabiliter enim
+            <lb ed="#V" n="110"/>possum velle me debere aliquid alicui quod sibi non
+            debe<lb ed="#V" n="111" break="no"/>tur. Haec ille.
+          </p>
+          <p xml:id="capsco-a2wrt8-d1e623">
+            Septima conclusio. Ex diuina bonitate potest
+            <lb ed="#V" n="112"/>sumi ratio praedestinationis aliquorum, &amp; reprobationis
+            <lb ed="#V" n="113"/>aliorum, &amp; sola diuina voluntas est ratio, quod istos reprobet
+            <lb ed="#V" n="114"/>&amp; illos eligat in gloriam. Istam probat Sanctus Thomas prima
+            par<lb ed="#V" n="115" break="no"/>te ibidem ad tertium dicens. Ex bonitate diuina ratio
+            su<lb ed="#V" n="116" break="no"/>mi potest praedestinationis aliquorum, &amp; reprobationis
+            <lb ed="#V" n="117"/>aliorum, sic enim dicitur Deus omnia propter suam
+            bonita<lb ed="#V" n="118" break="no"/>tem fecisse, vt in rebus diuina bonitas repraesentetur,
+            ne<lb ed="#V" n="119" break="no"/>cesse est autem quod diuina bonitas, quae in se vna &amp; simplex
+            <lb ed="#V" n="120"/>est, multiformiter repraesentetur in rebus propter hoc quod
+            <lb ed="#V" n="121"/>res ad simplicitatem diuinam attingere non possunt, &amp;
+            <lb ed="#V" n="122"/>idem est quod ad completionem vniuersi requiruntur diuersi
+            <lb ed="#V" n="123"/>gradus rerum, quarum quaedam altum, quaedam infimum
+            <lb ed="#V" n="124"/>locum tenent in vniuerio, &amp; vt multiformitas graduum
+            <lb ed="#V" n="125"/>conseruetur in rebus Deus permittit aliqua mala fieri,
+            ne<lb ed="#V" n="126" break="no"/>multa bona impediantur, sic igitur consideremus totum
+            <lb ed="#V" n="127"/>humanum genus sicut totam rerum vniuerutatem, voluit
+            <lb ed="#V" n="128"/>ergo Deus in hominibus quantum ad aliquos quos predae
+            <lb ed="#V" n="129"/>stinauit suam bonitatem repraesentare per modum
+            miseri<lb ed="#V" n="130" break="no"/>cordiae parcendo, &amp; quantum ad alios, quos reprobat per
+            <lb ed="#V" n="131"/>modum iustitiae puniendo, &amp; haec est ratio, quare quosdam
+            <lb ed="#V" n="132"/>eligit &amp; quosdam reprobat, &amp; hanc causam assignat
+            Apo<lb ed="#V" n="133" break="no"/>stolus Rom. 9. dicens. Volens Deus ostendere iram, i.
+            vindi<lb ed="#V" n="134" break="no"/>ctam iustitiae, &amp; notam facere potentiam suam, sustinuit
+            <lb ed="#V" n="135"/>id est permiut in multa patientia vasa irae apta in interitum,
+            <lb ed="#V" n="136"/>vt ostenderet diuitias gloriae suae in vasa misericordiae, quae
+            <lb ed="#V" n="137"/>praeparauit in gloriam. Et ad Titum secundo dicit. In
+            ma<lb ed="#V" n="138" break="no"/>gna domo non solum sunt vasa aurea &amp; argentea, sed
+            lu<lb ed="#V" n="139" break="no"/>tea &amp; fictilia, &amp; quaedam quidem in honorem quaedam in
+            <lb ed="#V" n="140"/>contumeliam, sed quare hos elegit in gloriam, &amp; illos
+            re<lb ed="#V" n="141" break="no"/>probauit, non habet rationem nisi diuinam voluntatem:
+            <lb ed="#V" n="142"/>vnde Augustinus dicit super Ioan. Quare hunc trahat, &amp; illum non
+            <lb ed="#V" n="143"/>trahat noli velle diiudicare, si non vis errare, sicut etiam in
+            <lb ed="#V" n="144"/>rebus naturalibus potest ratio assignari, cum prima
+            mate<lb ed="#V" n="145" break="no"/>ria in se sit tota vniformis, quare vna pars eius est sub
+            for<lb ed="#V" n="146" break="no"/>ma ignis, &amp; alia sub forma terrae a Deo in principio
+            condi<lb ed="#V" n="147" break="no"/>ta vt scilicet sit diuersitas specierum in rebus naturalibus,
+            <lb ed="#V" n="148"/>quare autem haec pars materiae est sub illa forma, &amp; illa sub
+            <lb ed="#V" n="149"/>alia dependet ex simplici voluntate diuina, &amp; similiter ex
+            <lb ed="#V" n="150"/>voluntate artificis dependet, quod hic lapis sit in ista parte
+            <pb ed="#V" n="539"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>parietis, &amp; ille in alia, quamuis ratio artis habeat, quod aliqui sint
+            <lb ed="#V" n="2"/>in hac, &amp; aliqui in illa, nec tamen propter hoc est
+            iniquita<lb ed="#V" n="3" break="no"/>apud Deum, si inaequalia non inaequalibus praeparat, hoc
+            <lb ed="#V" n="4"/>vero esset contra rationem iustitiae si praedestinationis
+            ef<lb ed="#V" n="5" break="no"/>fectus ex debito redderetur &amp; non daretur ex gratia, in
+            <lb ed="#V" n="6"/>his enim quae gratia dantur potest aliquis pro libito suo
+            da<lb ed="#V" n="7" break="no"/>re, cui vult plus, vel minus dummodo nulli subtrahat
+            debi<lb ed="#V" n="8" break="no"/>tum absque praeiudicio iustitiae, &amp; hoc est quod dicit
+            pa<lb ed="#V" n="9" break="no"/>terfamilias Matth. 10. Tolle quod tuum est &amp; vade, an non
+            <lb ed="#V" n="10"/>licet mihi quod volo facere. Et hoc de primo articulo.
+          </p>
+        </div>
+        <div xml:id="capsco-a2wrt8-Dd1e737">
+          <head xml:id="capsco-a2wrt8-Hd1e739">Articulus 2</head>
+          <p xml:id="capsco-a2wrt8-d1e741">
+            <lb ed="#V" n="11"/><milestone ed="#V" unit="p" rend="initial"/> Vantum ad secundum articulum arguitur contra
+            <lb ed="#V" n="12"/>conclusiones. Et quidem contra primam partem
+            con<lb ed="#V" n="13" break="no"/>clulionis septimae arguit Aureolus, in qua dicitur quod
+            gene<lb ed="#V" n="14" break="no"/>ralis causa quare Deus aliquos praedestinat, &amp; alios
+            repro<lb ed="#V" n="15" break="no"/>bat est, vt appareat misericordia in electis, &amp; iustitia in
+            re<lb ed="#V" n="16" break="no"/>probis. Primo sic. Illud non debet poni propter
+            relucen<lb ed="#V" n="17" break="no"/>tiam diuinae misericordiae, vel iustitiae, sine quo ista, &amp; illa
+            <lb ed="#V" n="18"/>manifestatur &amp; lucet, sed dato quod nullus esset damnatus,
+            <lb ed="#V" n="19"/>adhuc misericordia, &amp; iustitia diuina sufficienter
+            reluce<lb ed="#V" n="20" break="no"/>rent: nam in gloria electorum vtrunque relucet,
+            miseri<lb ed="#V" n="21" break="no"/>cordia quidem quia scriptum est. Secundum suam
+            miseri<lb ed="#V" n="22" break="no"/>cordiam saluos nos fecit. ad Titum tertio. Iustitia vero:
+            <lb ed="#V" n="23"/>quia ad Timoths 4. dicit Apostolus quod reposita est sibi
+            coro<lb ed="#V" n="24" break="no"/>na iustitiae, quam reddet illi Dominus in illa die iustus
+            iu<lb ed="#V" n="25" break="no"/>dex. igitur relucentia illarum non videtur esse causa, quod
+            <lb ed="#V" n="26"/>aliqui sint reprobati, &amp; alij electi. Secundo. Nullum per se
+            <lb ed="#V" n="27"/>intentum potest esse causa, quod aliquid fiat in vniuerso, quod
+            <lb ed="#V" n="28"/>tamen per accidens intenditur tantum, omne enim quod
+            <lb ed="#V" n="29"/>sit propter illud, quod est per se intentum, oportet quod
+            inten<lb ed="#V" n="30" break="no"/>datur per se &amp; non per accidens, sed quia Dei misericordia
+            <lb ed="#V" n="31"/>&amp; iustitia, &amp; caeterae diuinae perfectiones est intentum per
+            <lb ed="#V" n="32"/>se, reprobatio autem malorum est intenta per accidens,
+            ma<lb ed="#V" n="33" break="no"/>lum enim non intenditur per se, &amp; de malo culpae vtique
+            <lb ed="#V" n="34"/>manifestum est, malum autem poenae supponit malum
+            cul<lb ed="#V" n="35" break="no"/>pae praecedere, &amp; idcirco vtrunque per accidens est
+            inten<lb ed="#V" n="36" break="no"/>tum. ergo relucentia diuinae iustitiae non est causa, quod
+            ali<lb ed="#V" n="37" break="no"/>quis reprobetur. Tertio. Sicut non sunt facienda a nobis
+            <lb ed="#V" n="38"/>mala, vt eueniant bona secundum Apostolum ad Rom. 3.
+            <lb ed="#V" n="39"/>sic nec a Deo, sed manifestum est quod reprobatio malorum si
+            <lb ed="#V" n="40"/>esset absque omni causa, malum esset. ergo Deus non
+            re<lb ed="#V" n="41" break="no"/>probat propter hoc solum, vt appareat sua iustitia.
+            Quar<lb ed="#V" n="42" break="no"/>to. Aut intendis per illud dictum, quod reprobatio inquantum
+            <lb ed="#V" n="43"/>respicit malitiam sit a Deo propter relucentiam suae
+            iusti<lb ed="#V" n="44" break="no"/>tiae, aut inquantum respicit paenam aeternam supposita
+            ma<lb ed="#V" n="45" break="no"/>litia &amp; peccato. Sed non potest dariprimum, tum quia Deus
+            <lb ed="#V" n="46"/>intenderet per se peccatum, tum quia actor esset &amp; causa
+            <lb ed="#V" n="47"/>peccati, &amp; per consequens non deberet peccatoribus
+            im<lb ed="#V" n="48" break="no"/>putari. Nec potest dari secundum, licet enim supposito
+            <lb ed="#V" n="49"/>peccato elucescat iustitia punitiua, nihilominus
+            supponi<lb ed="#V" n="50" break="no"/>tur peccatum, &amp; ita causa reprobationis principaliter erit
+            <lb ed="#V" n="51"/>peccatum, &amp; non relucentia diuinae iustitiae, cuius
+            opposi<lb ed="#V" n="52" break="no"/>tum isti dicunt. Quinto. Iustitia punitiua in hoc differt ab
+            <lb ed="#V" n="53"/>alijs speciebus iustitiae, quod non potest esse per se intenta,
+            nul<lb ed="#V" n="54" break="no"/>lus enim per se poenam intendit qui iustus sit, sed tantum
+            <lb ed="#V" n="55"/>ex suppositione, praeexistente punibili culpa, secus autem
+            <lb ed="#V" n="56"/>dettuititia distributiua. ergo nulla necessitas est, quod aliquid
+            <lb ed="#V" n="57"/>fuit in vniuerso, vt iustitia punitiua elucescat, sed
+            manife<lb ed="#V" n="58" break="no"/>stum est, quod iustitia Dei, quae manifestatur in reprobatis, est
+            <lb ed="#V" n="59"/>punitiua, &amp; vindicatiua. ergo reprobis non potest esse
+            fina<lb ed="#V" n="60" break="no"/>lis &amp; vltimata manifestatio talis iustitiae, immo illa
+            suppo<lb ed="#V" n="61" break="no"/>nit aliam, si peccatum praecessisset &amp; culpa. Haec ille.
+          </p>
+          <p xml:id="capsco-a2wrt8-d1e855">
+            Secun<lb ed="#V" n="62" break="no"/>do arguitur contra secundam partem, quae ponit, quod non est
+            <lb ed="#V" n="63"/>alia causa in speciali, quare iste sit reprobatus, &amp; ille
+            praede<lb ed="#V" n="64" break="no"/>stinatus, nisi simplex Dei voluntas, &amp; quod hoc est pro libito
+            <lb ed="#V" n="65"/>eius. Primo sic. Omnis qui pro libito voluntatis aliquem
+            <lb ed="#V" n="66"/>affligit &amp; punit, &amp; in peccatum labi permittit solum ad hoc
+            <lb ed="#V" n="67"/>vt puniat &amp; asfsigat, crudelis est &amp; iniustus, delectatur enim
+            <lb ed="#V" n="68"/>per se in poenis, sed si pro libito voluntatis Deus aliquem
+            <lb ed="#V" n="69"/>reprobaret, sequitur quod delectaretur per se in poena, &amp;
+            pro<lb ed="#V" n="70" break="no"/>suo libito vellet affligere &amp; punire, &amp; ad hunc finem
+            per<lb ed="#V" n="71" break="no"/>mitteret de hominibus quod peccarent, vt saturaretur poenis
+            <lb ed="#V" n="72"/>eorum. igitur Deus erit crudelis &amp; iniustus. Et cum haec
+            <lb ed="#V" n="73"/>absonum sit, magis absonum fit dicere, quod aliquem
+            repro<lb ed="#V" n="74" break="no"/>baret pro libito voluntatis.
+          </p>
+          <p xml:id="capsco-a2wrt8-d1e886">
+            Secundo ad idem. Licet in
+            ca<lb ed="#V" n="75" break="no"/>rentibus sensu &amp; experientia mali possit artifex
+            dispone<cb ed="#V" n="b"/><lb ed="#V" n="76" break="no"/>re pro libito voluntatis absquehota crudelitatis &amp;
+            iniusti<lb ed="#V" n="77" break="no"/>tiae, vtpote aedificator potest ponere lapides inferius illum,
+            <lb ed="#V" n="78"/>&amp; superius illum in loco magis honorabili vel minus absquod
+            <lb ed="#V" n="79"/>nota iniuriae, &amp; similiter figulus ex eadem massa possit
+            fa<lb ed="#V" n="80" break="no"/>cere vas in honorem, &amp; vas in contumeliam, absque hoc quod
+            <lb ed="#V" n="81"/>isti iniurietur, &amp; similiter Deus absque iniuria potest
+            pone<lb ed="#V" n="82" break="no"/>re vnam partem materiae sub forma ignis, &amp; aliam sub
+            for<lb ed="#V" n="83" break="no"/>ma terrae, nihilominus in habentibus experientiam mali,
+            <lb ed="#V" n="84"/>&amp; boni, honoris &amp; contumeliae, illud fieri non potest absque
+            <lb ed="#V" n="85"/>iniuria, debitum enim naturae est, vt fiat sub perfectione,
+            <lb ed="#V" n="86"/>quae est apta nata sibi inesse, &amp; ideo non est absque iniuria
+            <lb ed="#V" n="87"/>facere hominem in sempiterna tristitia, &amp; miseria absque
+            <lb ed="#V" n="88"/>demerito eius pro solo libito voluntatis, sed sic esset in
+            pro<lb ed="#V" n="89" break="no"/>posito secundum istum modum dicendi. ergo non est
+            ve<lb ed="#V" n="90" break="no"/>rum, quod Deus sic reprobet, &amp; eligat pro libito voluntatis.
+            <lb ed="#V" n="91"/>Et si dicatur quod Apostolus vtitur exemplo de figulo. Non
+            <lb ed="#V" n="92"/>valet vtique: quia loquitur de massa per peccatum
+            origi<lb ed="#V" n="93" break="no"/>nale, quo supposito nulli iniuriatur, si eo non redempto ab
+            <lb ed="#V" n="94"/>originali, alium misericorditer purget &amp; redimat, nec
+            pro<lb ed="#V" n="95" break="no"/>pter hoc sequitur, quod reprobet absque culpa pro libito
+            vo<lb ed="#V" n="96" break="no"/>luntatis, sicut fingunt positores praedicti. Tertio. Licet in
+            <lb ed="#V" n="97"/>gratuitis possit tribuere plus vel minus, cui vult
+            retribu<lb ed="#V" n="98" break="no"/>tor iustitiae absque vllo praeiudicio iustitiae, non tamen est
+            <lb ed="#V" n="99"/>verum, quod possit cui vult poenam infligere absque culpa
+            si<lb ed="#V" n="100" break="no"/>ne iniuria, &amp; sic intelligitur verbum patrisfamilias. An non
+            <lb ed="#V" n="101"/>licet mihi quod volo facere? &amp;c. plus scilicet vel minus cui
+            vo<lb ed="#V" n="102" break="no"/>luero tribuendo, non autem. cui voluero poenam
+            infligen<lb ed="#V" n="103" break="no"/>do, sed in reprobatione poena infligitur. ergo non potest
+            <lb ed="#V" n="104"/>esse absque iniuria, quod fiat reprobatio absque causa
+            pro<lb ed="#V" n="105" break="no"/>solito libito voluntatis. Haec ille.
+          </p>
+          <p xml:id="capsco-a2wrt8-d1e957">
+            <lb ed="#V" n="106"/><milestone ed="#V" unit="p" rend="indent"/> ID primum contra primam partem septimae
+            conclu<lb ed="#V" n="107" break="no"/>Asionis negatur maior, nisi addatur, quod sine illo aeque
+            <lb ed="#V" n="108"/>bene, &amp; tot modis diuina misericordia, &amp; iustitia
+            reluce<lb ed="#V" n="109" break="no"/>ret, &amp; concessa maiore cum illo addito, negatur minor, si
+            <lb ed="#V" n="110"/>enim nullus damnaretur, non reluceret in vniuerso
+            iusti<lb ed="#V" n="111" break="no"/>tia punitiua aeternaliter, sicut modo relucet, licet in
+            saluan<lb ed="#V" n="112" break="no"/>dis reluceret iustitia praemiatiua.
+          </p>
+          <p xml:id="capsco-a2wrt8-d1e977">
+            Ad secundum negatur
+            <lb ed="#V" n="113"/>minor, non enim reprobatio est mala, aut per accidens
+            inten<lb ed="#V" n="114" break="no"/>ta, immo per se, praesciens enim Deus quorundam peccata, quae
+            <lb ed="#V" n="115"/>ab ipso nullo modo sunt intenta, proposuit eos non libera
+            <lb ed="#V" n="116"/>re in praesenti immo deserere, &amp; in futuro punire, quod est
+            <lb ed="#V" n="117"/>reprobare.
+          </p>
+          <p xml:id="capsco-a2wrt8-d1e990">
+            Ad tertium dico, quod secundum Sanctum Thomam de
+            veri<lb ed="#V" n="118" break="no"/>tate. q. 5. artic. 4. ad decimum. Facere malum propter
+            bo<lb ed="#V" n="119" break="no"/>num in homine repraehensibile est, nec Deo potest attribui,
+            <lb ed="#V" n="120"/>sed ordinare malum in bonum, hoc non contrariatur
+            bo<lb ed="#V" n="121" break="no"/>nitati, &amp; ideo permittere malum propter aliquod bonum
+            <lb ed="#V" n="122"/>inde eliciendum Deo attribuitur. Haec ille.
+          </p>
+          <p xml:id="capsco-a2wrt8-d1e1003">
+            Dico ergo quod
+            <lb ed="#V" n="123"/>Deus reprobando aliquos, vt sua iustitia reluceat, non
+            fa<lb ed="#V" n="124" break="no"/>cit malum vt eueniat bonum, sed proponit permittere
+            ma<lb ed="#V" n="125" break="no"/>la, vt aliqua bona inde eliciantur, reprobare enim non est
+            fa<lb ed="#V" n="126" break="no"/>cere malum, nec reprobatio est mala, immo summe bona:
+            <lb ed="#V" n="127"/>secundum enim quod dicit Sanctus Thomas de veritate vbi supra, ad
+            <lb ed="#V" n="128"/>quartum. Quilibet prudens sustinet aliquod paruum
+            ma<lb ed="#V" n="129" break="no"/>lum, ne impediatur magnum bonum, quodlibet autem
+            par<lb ed="#V" n="130" break="no"/>ticulare bonum est paruum respectu alicuius naturae
+            vni<lb ed="#V" n="131" break="no"/>uersalis. Similiter prima parte. q. 22. artic. 2. ad secundum
+            <lb ed="#V" n="132"/>dicit. Aliter est de eo qui habet curam alicuius
+            particula<lb ed="#V" n="133" break="no"/>ris, &amp; de prouisore vniuersali, prouisor enim particularis
+            <lb ed="#V" n="134"/>excludit defectum ab eo, quod eius curae subditur quantum
+            <lb ed="#V" n="135"/>potest, sed prouisor vniuersalis permittit aliquem defectum
+            <lb ed="#V" n="136"/>in aliquo particulari accidere, ne impediatur bonum totius:
+            <lb ed="#V" n="137"/>vnde corruptiones &amp; defectus dicuntur esse contra
+            natu<lb ed="#V" n="138" break="no"/>ram particularem, sed tamen sunt de intentione
+            vniuersa<lb ed="#V" n="139" break="no"/>lis inquantum defectus vnius cedit in bonum alterius, vel
+            <lb ed="#V" n="140"/>etiam totius vniuersi. Haec ille.
+          </p>
+          <p xml:id="capsco-a2wrt8-d1e1045">
+            Ex quo patet, quod reprobare
+            <lb ed="#V" n="141"/>aliquos sine alia causa quam illa quae ponitur in
+            conclusio<lb ed="#V" n="142" break="no"/>ne, non est malum, sed pertinet ad optimum prouisorem,
+            <lb ed="#V" n="143"/>cum enim bonum vniuersi sit post diuinam bonitatem
+            opti<lb ed="#V" n="144" break="no"/>mum bonum, ideo cum bonum eius, quod consistit in
+            mul<lb ed="#V" n="145" break="no"/>tiplicitate &amp; varietate graduum bonitatis impediretur, si
+            <lb ed="#V" n="146"/>nullus permitteretur cadere in peccatum, aut si nullus
+            aeter<lb ed="#V" n="147" break="no"/>naliter puniretur, ideo bonum est talia permittere propter
+            <lb ed="#V" n="148"/>bonum vniuersi, quamuis cedat in malum aliquorum
+            par<lb ed="#V" n="149" break="no"/>ticularium vniuersi, quorum bonis praeponderat bonum
+            <lb ed="#V" n="150"/>vniuersi: vnde Sanctus Thomas de veritate vbisupra artic. 5. ad
+            ter<pb ed="#V" n="540"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>tium, dicit. Deus plus amat quod est magis bonum, &amp; ideo
+            <lb ed="#V" n="2"/>magis vult praesentiam magis boni quam absentiam minus
+            <lb ed="#V" n="3"/>mali: quia &amp; absentia mali quoddam bonum est, &amp; ideo
+            <lb ed="#V" n="4"/>ad hoc, quod aliqua bona maiora eliciantur permittit aliquos
+            <lb ed="#V" n="5"/>etiam in mala culpae cadere, quae maxime secundum genus
+            <lb ed="#V" n="6"/>sunt odibilia, quamuis vnum eorum sit magis odibile alio.
+            <lb ed="#V" n="7"/>Haec ille.
+          </p>
+          <p xml:id="capsco-a2wrt8-d1e1087">
+            Ad quartum dico quod reprobatio inquantum
+            re<lb ed="#V" n="8" break="no"/>spicit punitionem est propter relucentiam iustitiae, &amp;
+            in<lb ed="#V" n="9" break="no"/>quantum respicit malitiam, licet enim vtrunque respiciat
+            si<lb ed="#V" n="10" break="no"/>cut &amp; diuina pronidentia, tamen aliter &amp; aliter, vt enim
+            <lb ed="#V" n="11"/>dicit Sanctus Thomas vbi supra artic. 4. Dupliciter aliquid subest
+            <lb ed="#V" n="12"/>prouidentiae. Vno modo sicut illud, ad quod aliquid
+            ordi<lb ed="#V" n="13" break="no"/>natur. Alio modo sicut illud, quod ad aliud ordinatur, in
+            <lb ed="#V" n="14"/>ordine autem eorum, quae sunt ad finem, omnia
+            interme<lb ed="#V" n="15" break="no"/>dia sunt finis, &amp; ad finem, vt dicitur 2. Physicorum, &amp;
+            quin<lb ed="#V" n="16" break="no"/>to. Metaphysicae, &amp; ideo quicquid est in recto ordine
+            pro<lb ed="#V" n="17" break="no"/>uidentiae cadit sub prouidentia, non solum sicut ordinatum
+            <lb ed="#V" n="18"/>ad aliud, sed sicut illud, ad quod aliud ordinatur, sed illud
+            <lb ed="#V" n="19"/>quod exit a recto ordine cadit sub prouidentia solum
+            secun<lb ed="#V" n="20" break="no"/>dum quod ordinatur ad aliud, non secundum quod aliud
+            ordina<lb ed="#V" n="21" break="no"/>tur ad ipsum, sicut actus virtutis generatiuae, qua homo
+            ge<lb ed="#V" n="22" break="no"/>nerat hominem perfectum in natura, est ordinatus a Deo
+            <lb ed="#V" n="23"/>ad aliquid aliud, scilicet ad formam humanam, &amp; ad illum
+            <lb ed="#V" n="24"/>ordinatur aliquid scilicet vis generatiua, sed actus deficiens, quo
+            <lb ed="#V" n="25"/>interdum monstra generantur in natura, ordinatur quidem
+            <lb ed="#V" n="26"/>a Deo ad aliquam vtilitatem, sed ad hoc nihil aliud
+            ordi<lb ed="#V" n="27" break="no"/>natur, incidit enim ex defectu alicuius causae, &amp; respectu
+            <lb ed="#V" n="28"/>primi est prouidentia approbationis, respectu secundi est
+            <lb ed="#V" n="29"/>prouidentia concessionis, quos duos modos prouidentiae
+            <lb ed="#V" n="30"/>Damasc. ponit lib. 2. Haec ille.
+          </p>
+          <p xml:id="capsco-a2wrt8-d1e1139">
+            Dico igitur, quod cum
+            reproba<lb ed="#V" n="31" break="no"/>tio sit pars prouidentiae, vt dicit ibidem prima parte q. 23.
+            <lb ed="#V" n="32"/>artic. 3. ipsa respicit malitiam primo modo, &amp; poenam
+            se<lb ed="#V" n="33" break="no"/>cundo modo, &amp; respiciendo vtrunque est propter
+            relucen<lb ed="#V" n="34" break="no"/>tiam iustitiae. Illa autem quae iste obijcit friuola sunt, non
+            <lb ed="#V" n="35"/>enim sequitur quod si reprobatio respicit malitiam propter
+            re<lb ed="#V" n="36" break="no"/>lucentiam iustitiae, quod Deus sit causa malitiae, vel actor
+            <lb ed="#V" n="37"/>peccati: quia secundum quod dicit de veritate vbi supra ad
+            <lb ed="#V" n="38"/>primum. Non omne, quod prouidetur a Deo fit a Deo
+            ali<lb ed="#V" n="39" break="no"/>quo modo, nisi intelligatur de prouidentia approbationis,
+            <lb ed="#V" n="40"/>malum autem non cadit sub prouidentia approbationis,
+            <lb ed="#V" n="41"/>sed concessionis tantum.
+          </p>
+          <p xml:id="capsco-a2wrt8-d1e1166">
+            Ad quintum negatur minor,
+            di<lb ed="#V" n="42" break="no"/>co enim quod quaelibet species iustitiae est propter se
+            appe<lb ed="#V" n="43" break="no"/>tenda, siue punitiua, siue distributiua, vel commutatiua. Et
+            <lb ed="#V" n="44"/>cum arguitur, quod nullus appetit poenam propter se &amp;c.
+            <lb ed="#V" n="45"/>Dico quod poena non estlidem, quod iustitia punitiua, &amp;
+            <lb ed="#V" n="46"/>ideo probatio nihil valet. Dico tamen quod secundum
+            <lb ed="#V" n="47"/>Sanctus Thomas 4. sent. dist. 50. q. 2. art. 4. quaestiuncula tertia ad
+            pri<lb ed="#V" n="48" break="no"/>mum. Laetari de malo alterius inquantum huiusmodi
+            per<lb ed="#V" n="49" break="no"/>tinet ad odium, non autem laetari de malo alterius ratione
+            <lb ed="#V" n="50"/>alicuius adiuncti, &amp; ideo Deus licet non delectetur in
+            pae<lb ed="#V" n="51" break="no"/>nis inquantum huiusmodi, tamen delectatur in eis
+            inquan<lb ed="#V" n="52" break="no"/>tum sunt per suam iustitiam ordinatae. Haec ille. Patet
+            er<lb ed="#V" n="53" break="no"/>go quod poena alterius non propter se appetenda est, sed
+            <lb ed="#V" n="54"/>propter ordinem iustitiae in ea relucentem, ipsa autem
+            iu<lb ed="#V" n="55" break="no"/>stitia punitiua est propter se appetenda.
+          </p>
+          <p xml:id="capsco-a2wrt8-d1e1199">
+            Ad primam
+            con<lb ed="#V" n="56" break="no"/>tra secundam partem conclusionis dicitur negando
+            mino<lb ed="#V" n="57" break="no"/>rem, non enim sequitur, quod si Deus pro libito
+            volunta<lb ed="#V" n="58" break="no"/>tis aliquem reprobat, quod ipse per se delectetur in poena,
+            <lb ed="#V" n="59"/>nec quod velit saturari paenis damnatorum, non enim
+            in<lb ed="#V" n="60" break="no"/>tendit poenam per se, aut afflictionem miserorum, sed
+            or<lb ed="#V" n="61" break="no"/>dinationem iustitiae, qua culpa ordinatur in paenam, &amp;
+            pae<lb ed="#V" n="62" break="no"/>na in relucentiam diuinae iustitiae, &amp; illa relucentia in
+            diui<lb ed="#V" n="63" break="no"/>nam bonitatem: vnde istud argumentum faciliter
+            solui<lb ed="#V" n="64" break="no"/>tur ex praedictis &amp;c.
+          </p>
+          <p xml:id="capsco-a2wrt8-d1e1221">
+            Ad secundum dico, quod tam in
+            ha<lb ed="#V" n="65" break="no"/>bentibus experientiam boni &amp; mali, honoris &amp;
+            contume<lb ed="#V" n="66" break="no"/>liae, quam in non habentibus artifex illorum potest sine
+            no<lb ed="#V" n="67" break="no"/>ta crudelitatis aut iniuriae negare artificiato illud, quod
+            li<lb ed="#V" n="68" break="no"/>mites artificiati excedit, &amp; illi tribuere quod artificiato
+            de<lb ed="#V" n="69" break="no"/>betur secundum suam naturam, vel secundum suas
+            disposi<lb ed="#V" n="70" break="no"/>tiones, &amp; ideo quia gratia, &amp; gloria excedunt limites
+            natu<lb ed="#V" n="71" break="no"/>rae humanae, vel angelicae, naturae autem peccanti debetur
+            <lb ed="#V" n="72"/>poena, ideo Deus aeternaliter praesciens quorundam
+            pecca<lb ed="#V" n="73" break="no"/>ta, quorum ipse causa non erat futurus, sed peccantium
+            ini<lb ed="#V" n="74" break="no"/>qua voluntas, potuit sine quacunque nota crudelitatis aut
+            <lb ed="#V" n="75"/>iniustitiae proponere se non daturum eis gloriam, qua
+            fi<cb ed="#V" n="b"/><lb ed="#V" n="76" break="no"/>naliter a peccato liberarentur, sed poenam, qua culpae
+            eo<lb ed="#V" n="77" break="no"/>rum ordinarentur, &amp; hoc fecit eos reprobando, &amp; ideo
+            il<lb ed="#V" n="78" break="no"/>la, quae arguens ibi narrat, falsa sunt. Primum scilicet quod
+            ali<lb ed="#V" n="79" break="no"/>quod debitum naturae reprobatorum illis subtrahatur, si
+            <lb ed="#V" n="80"/>intelligit de donis gratuitis, non enim debetur naturae. Si
+            <lb ed="#V" n="81"/>autem intelligat de alijs perfectionibus puta foelicitate, quod
+            <lb ed="#V" n="82"/>humana natura potest naturaliter adipisci.
+          </p>
+          <p xml:id="capsco-a2wrt8-d1e1264">
+            Dico quod Deus
+            <lb ed="#V" n="83"/>non subtrahit eam alicui sine suo demerito. secundum
+            fa<lb ed="#V" n="84" break="no"/>sum, quod ibi supponit est, quod scilceDeus pro libito
+            volun<lb ed="#V" n="85" break="no"/>tatis sine causa ex parte reprobati ponat eum in summa
+            tri<lb ed="#V" n="86" break="no"/>stitia &amp; poena. Hoc enim non dicimus nos, sicut ipse
+            im<lb ed="#V" n="87" break="no"/>ponit: nam licet reprobatio sit causa effectiua
+            derelictio<lb ed="#V" n="88" break="no"/>nis a Deo in praesenti, &amp; poenae in futuro, tamen illius
+            pae<lb ed="#V" n="89" break="no"/>nae culpa creaturae est causa meritoria, sicut, &amp;
+            derelictio<lb ed="#V" n="90" break="no"/>nis a Deo in praesenti, &amp; ideo non sequitur, quod si
+            repro<lb ed="#V" n="91" break="no"/>bationis nulla sit causa alia a Dei voluntate, quod Deus
+            pro<lb ed="#V" n="92" break="no"/>solo libito facultatis absque demerito hominis ponat eum
+            <lb ed="#V" n="93"/>in aeterna miseria. Dictum enim est prius, quod licet nulla
+            <lb ed="#V" n="94"/>causa reprobationis habeat causam ex parte reprobati,
+            ta<lb ed="#V" n="95" break="no"/>men effectus reprobationis habet causam ex parte
+            reproba<lb ed="#V" n="96" break="no"/>ti, scilicet culpam, quae non est effectus reprobationis, sed
+            <lb ed="#V" n="97"/>est causa effectus reprobationis meritoria, cuius
+            reproba<lb ed="#V" n="98" break="no"/>tio est effectiua.
+          </p>
+          <p xml:id="capsco-a2wrt8-d1e1301">
+            Ad illud quod dicit de exemplo dato de
+            fi<lb ed="#V" n="99" break="no"/>gulo. Dico quod Apostolus vtitur illo exemplo ad sensum,
+            <lb ed="#V" n="100"/>ad quem Sanctus Thomas loquitur, &amp; non cum illa
+            praesuppositio<lb ed="#V" n="101" break="no"/>ne originalis peccati, licet enim supposita massa originali
+            <lb ed="#V" n="102"/>peccato corrupta nulla fiat iniuria, si vnus homo liber a
+            <lb ed="#V" n="103"/>&amp; alius non, sicut dicit arguens, tamen illa massa non
+            sup<lb ed="#V" n="104" break="no"/>posita, adhuc vnum pro libito reprobaret, &amp; alium non.
+            <lb ed="#V" n="105"/>Quaero enim a sic dicente: vnde est quod vnam animam
+            <lb ed="#V" n="106"/>ponat in tali massa infecta, sicut fecit de anima Iudae, &amp; aliam
+            <lb ed="#V" n="107"/>non ponat, sicut fecit de anima Christi, &amp; certe non
+            pote<lb ed="#V" n="108" break="no"/>rit rationem reddere, nisi diuinae libitum voluntatis. Dicat
+            <lb ed="#V" n="109"/>igitur similiter de hominibus, quod ex sola diuina
+            volunta<lb ed="#V" n="110" break="no"/>te est, quod iste sit vas misericordiae, alius autem vas irae, id
+            <lb ed="#V" n="111"/>est reprobatum, non autem vas culpae, hoc enim non est a
+            <lb ed="#V" n="112"/>Deo volitum, sed permissum.
+          </p>
+          <p xml:id="capsco-a2wrt8-d1e1334">
+            Ad tertium dicitur, quod
+            fal<lb ed="#V" n="113" break="no"/>sum supponit scilicet quod nos dicamus Deum infligere
+            alicui<lb ed="#V" n="114" break="no"/>poenam sine illius demerito, non enim reprobare est paenam
+            <lb ed="#V" n="115"/>dare, sed est proponere debitam poenam reddere, vt
+            expo<lb ed="#V" n="116" break="no"/>situm est ad secundum: non tamen fiat vis in hoc, quod
+            di<lb ed="#V" n="117" break="no"/>co reprobationem, vel praedestinationem esse propositum,
+            <lb ed="#V" n="118"/>aut actum voluntatis, hoc enim non est verum, nisi sit
+            prae<lb ed="#V" n="119" break="no"/>dicatio per concomitantiam, vel consequentiam, vt supra
+            <lb ed="#V" n="120"/>dictum fuit.
+          </p>
+          <p xml:id="capsco-a2wrt8-d1e1355">
+            Ad argumentum in pede quaestionis factum
+            re<lb ed="#V" n="121" break="no"/>sponsum est in fine probationis septimae conclusionis. Et
+            <lb ed="#V" n="122"/>haec dicta de praesenti quaestione sufficiant.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

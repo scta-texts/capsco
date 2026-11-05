@@ -1,0 +1,977 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 1, Distinctio 32, Quaestio 1</title>
+        <author ref="#JohannesCapreolus">Johannes Capreolus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 1, Distinctio 32, Quaestio 1</title>
+          <date when="2026-11-04">Nov 4, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-j88c01">Venice, 1589, v. 1</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-04" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="439"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="capsco-a2l214"><!-- l1d32q1 -->
+        <head xml:id="capsco-a2l214-Hd1e101">Quaestio 1</head>
+        <head xml:id="capsco-a2l214-Hd1e103" type="question-title">Utrum Pater et Filius diligant se Spiritu Sancto</head>
+        <p xml:id="capsco-a2l214-d1e106">
+          <lb ed="#V" n="21"/>DISTINCTIO XXXII
+          <lb ed="#V" n="22"/>QVAESTIO I.
+          <lb ed="#V" n="23"/>Vtrum pater &amp; filius diligant se Spiritu Sancto.
+        </p>
+        <p xml:id="capsco-a2l214-d1e115">
+          <lb ed="#V" n="24"/><milestone ed="#V" unit="p" rend="initial"/> CIRCA trigesimam secundam distinctionem
+          <lb ed="#V" n="25"/>quaeritur. Vtrum Pater &amp; Filius diligant se
+          <lb ed="#V" n="26"/>Spiritu Sancto.
+        </p>
+        <p xml:id="capsco-a2l214-d1e125">
+          Et arguitur quod non. Sicut se
+          <lb ed="#V" n="27"/>habent pater &amp; filius ad sapere, sic se habent
+          <lb ed="#V" n="28"/>ad diligere, sed pater non sapit sapientia
+          ge<lb ed="#V" n="29" break="no"/>nita, quae est filius secundum Augustinus 7. de Trinit. c. 1. igitur nec pater
+          <lb ed="#V" n="30"/>&amp; filius diligunt amore procedente, qui est Spiritus sanctus.
+        </p>
+        <p xml:id="capsco-a2l214-d1e137">
+          <lb ed="#V" n="31"/><milestone ed="#V" unit="p" rend="indent"/> In oppositum arguitur sic. Circa materiam diuinorum
+          <lb ed="#V" n="32"/>stare debet homo dictis Sanctorum, sed Sancti
+          commu<lb ed="#V" n="33" break="no"/>niter concedunt, quod Pater &amp; Filius diligunt se Spiritu
+          <lb ed="#V" n="34"/>sancto: igitur illa est concedenda.
+        </p>
+        <p xml:id="capsco-a2l214-d1e149">
+          <lb ed="#V" n="35"/><milestone ed="#V" unit="p" rend="indent"/> I hac quaestione erunt duo artic. in primo videbitur de
+          <lb ed="#V" n="36"/>quaesito: in secundo videbitur an pater sit sapiens
+          sapien<lb ed="#V" n="37" break="no"/>tia, quam genuit.
+        </p>
+        <div xml:id="capsco-a2l214-Dd1e159">
+          <head xml:id="capsco-a2l214-Hd1e161">Articulus 1</head>
+          <p xml:id="capsco-a2l214-d1e163">
+            <lb ed="#V" n="38"/><milestone ed="#V" unit="p" rend="initial"/> QVantum ad primum sit prima conclusio. Ista
+            propo<lb ed="#V" n="39" break="no"/>sitio, pater &amp; filius diligunt se spiritu sancto est
+            ve<lb ed="#V" n="40" break="no"/>ra, &amp; nihilominus est propria. Probatur ista
+            con<lb ed="#V" n="41" break="no"/>clusio pro prima parte Sanctus Thomas 1. senten. distin. 32. q. 1. art. 1.
+            <lb ed="#V" n="42"/>ex hoc quod tam Augustinus quam alij Sancti communiter tali
+            locu<lb ed="#V" n="43" break="no"/>tione vtuntur, vnde eam negare praesumptuosum videtur.
+            <lb ed="#V" n="44"/>Pro secunda parte probatur per eundem ibidem: si enim ista
+            <lb ed="#V" n="45"/>esset impropria &amp; deberet exponi ad hunc sensum quod pater
+            <lb ed="#V" n="46"/>&amp; filius diligunt se spiritu sancto. 1. amore essentiali qui
+            ap<lb ed="#V" n="47" break="no"/>propriatur spiritui sancto, eadem ratione pater diceretur
+            <lb ed="#V" n="48"/>bonus spiritu sancto, &amp; sapiens filio, quod tamen non
+            con<lb ed="#V" n="49" break="no"/>ceditur.
+          </p>
+          <p xml:id="capsco-a2l214-d1e193">
+            Secunda conclusio. Cum dicitur, pater &amp; filius diligunt
+            <lb ed="#V" n="50"/>se spiritu sancto, ille ablatiuus spiritu sancto non solum
+            con<lb ed="#V" n="51" break="no"/>struitur in habitudine signi, vt sit sensus, pater &amp; filius
+            dili<lb ed="#V" n="52" break="no"/>gunt se spiritu sancto. 1. spiritus sanctus est signum, quod pater
+            <lb ed="#V" n="53"/>&amp; filius se diligunt. Istam conclusionem probat ipse ibidem
+            <lb ed="#V" n="54"/>sic, quia etiam amor creatus est signum dilectionis, qua
+            pa<lb ed="#V" n="55" break="no"/>ter &amp; filius se diligunt, sed tamen non ideo dicitur, quod
+            dili<lb ed="#V" n="56" break="no"/>gant amore creato.
+          </p>
+          <p xml:id="capsco-a2l214-d1e211">
+            Tertia conclusio. Ille ablatiuus non
+            suf<lb ed="#V" n="57" break="no"/>ficit dicere quod sit resoluendus in propositionem, vt sit
+            sen<lb ed="#V" n="58" break="no"/>sus, pater diligit filium spiritu sancto. 1. per spiritum sanctum,
+            <lb ed="#V" n="59"/>ita quod ly per designet subauctoritatem in spiritu sancto, &amp;
+            <lb ed="#V" n="60"/>auctoritatem in patre &amp; filio. Istam probat sic ibidem, quia
+            <lb ed="#V" n="61"/>per praepositionem designatur habitudo causae in causali,
+            <lb ed="#V" n="62"/>cui adiungitur, quamuis non respectum operantis, sed
+            re<lb ed="#V" n="63" break="no"/>sbectum operati, filius enim habet causalitatem respectu
+            <lb ed="#V" n="64"/>causae, quamuis non sit principium operationis in patre, &amp;
+            <lb ed="#V" n="65"/>id ed dicitur quod pater operatur per filium, sed cum dicitur pater
+            <lb ed="#V" n="66"/>diligit filium per spiritum sanctum, non denotatur aliquis
+            <lb ed="#V" n="67"/>effectus in creatura, nec aliquid cuius sit spiritus sanctus
+            <lb ed="#V" n="68"/>principium, &amp; ideo non est similis ratio dicendi. Quarta
+            <lb ed="#V" n="69"/>conclusio. Ille ablatiuus non construitur in habitudine
+            for<lb ed="#V" n="70" break="no"/>mae, ita quod sit sensus, quod pater &amp; filius diligunt formaliter
+            amo<lb ed="#V" n="71" break="no"/>re, qui est spiritus sanctus. Istam probat sic ibidem. A forma
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="72"/>inquit non denominatur aliquid nisi inhaereat, &amp; ita cum
+            <lb ed="#V" n="73"/>spiritus sanctus non se habeat ad patrem inhaerens, sed vt
+            <lb ed="#V" n="74"/>per se subsistens, non potest esse quod sit sicut forma eliciens
+            <lb ed="#V" n="75"/>actum dilectionis, &amp; praeterea forma habet rationem
+            prin<lb ed="#V" n="76" break="no"/>cipij respectu eius, cuius est forma quaecunque forma sit
+            <lb ed="#V" n="77"/>vel quantum ad esse substantiale vel quantum ad esse
+            acci<lb ed="#V" n="78" break="no"/>dentale &amp; operationem consequentem, &amp; ita spiritus
+            san<lb ed="#V" n="79" break="no"/>ctus esset principium alicuius in patre, quod falsum est.
+          </p>
+          <p xml:id="capsco-a2l214-d1e266">
+            Quin<lb ed="#V" n="80" break="no"/>ta conclusio. Ille ablatiuus construitur in habitudine
+            quasi<lb ed="#V" n="81" break="no"/>effectus formalis, vt dicatur effectus largo modo omne quod
+            <lb ed="#V" n="82"/>a principio est, quia proprie in diuinis non est efficiens &amp;
+            ef<lb ed="#V" n="83" break="no"/>fectus, &amp; formale dicatur, quod habet actum formae in
+            deno<lb ed="#V" n="84" break="no"/>minando, &amp; est sensus quod a patre &amp; filio procedit amor
+            qui<lb ed="#V" n="85" break="no"/>est spiritus sanctus, quo se diligunt. Ad cuius explanationem
+            <lb ed="#V" n="86"/>considerandum (inquit) quod secundum diuersam generis naturam
+            <lb ed="#V" n="87"/>diuersus est modus denominationis, quaedam enim genera secundum
+            <lb ed="#V" n="88"/>rationem suam significant vt inhaerens, sicut qualitas, &amp;
+            quan<lb ed="#V" n="89" break="no"/>titas, &amp; huomod, &amp; in talibus non fit denoiatio nisi per formam
+            <lb ed="#V" n="90"/>inhaerentem, quae est principium secundum aliquod esse substantiale,
+            <lb ed="#V" n="91"/>aut accidentale. Quaedam autem significant secundum rationem suam
+            <lb ed="#V" n="92"/>vt ab alio exiens &amp; non vt inhaerens, sicut praecipue patet in
+            <lb ed="#V" n="93"/>actione, actio enim secundum quod est actio significatur vt ab agente.
+            <lb ed="#V" n="94"/>Vnde in genere actionis denoniatur agens per id, quod est
+            <lb ed="#V" n="95"/>ab eo, &amp; non quod est principium eius, sicut cum dicitur actione
+            <lb ed="#V" n="96"/>agens, nec tamen actio est principium agentis, sed econuerso, &amp;
+            <lb ed="#V" n="97"/>si per impossibile poneretur esse aliquam actionem, quae non
+            <lb ed="#V" n="98"/>esset accidens, non esset inhaerens, &amp; tamen denoiaret agentem,
+            <lb ed="#V" n="99"/>&amp; tunc agens denominaretur per id, quod ab eo esset, &amp; non
+            <lb ed="#V" n="100"/>esset in eo, vt inhaerens, sed quia cuiuslibet actionis
+            princi<lb ed="#V" n="101" break="no"/>pium est aliqua forma inhaerens, ideo aliquid potest dici agens
+            <lb ed="#V" n="102"/>duobus modis, vel ipsa actione, quae denominat agentem,
+            <lb ed="#V" n="103"/>sed non est principium eius, vel forma, quae est principium
+            <lb ed="#V" n="104"/>actionis in agente &amp; secundum quid principium agentis, sicut
+            dici<lb ed="#V" n="105" break="no"/>mus ignem moueri sursum motu proprio &amp; leuitate. His
+            vi<lb ed="#V" n="106" break="no"/>sis patet faciliter qualiter concedendum sit, quod dictum est, &amp;
+            <lb ed="#V" n="107"/>quid sit quod dubitatione induxit. Diligere enim in diuinis potest
+            <lb ed="#V" n="108"/>dici essentialiter secundum quod non importat processionem nisi secundum
+            <lb ed="#V" n="109"/>rationem, &amp; notionaliter secundum quod importat processionem
+            rea<lb ed="#V" n="110" break="no"/>lem amoris ab amante, &amp; ab vtroque modo inuenitur amor
+            <lb ed="#V" n="111"/>dupliciter dicisclcet vt qualitas prout amor significat habitum
+            <lb ed="#V" n="112"/>amantis, &amp; vt est operatio prout amor significat actum vel
+            <lb ed="#V" n="113"/>passionem amantis in amatum vel ab amante. Si igitur
+            di<lb ed="#V" n="114" break="no"/>ligere sumatur essentialiter cum dicitur, pater diligit filium,
+            <lb ed="#V" n="115"/>dicetur diligere denominatiue amore qui est actus
+            essen<lb ed="#V" n="116" break="no"/>tialis, &amp; sicut principio illius actus ipsa charitate, quae est
+            <lb ed="#V" n="117"/>diuina substantia. Si autem sumatur notionaliter tunc amor
+            <lb ed="#V" n="118"/>significat formam, quae est principium huius actus, &amp; dicetur
+            pa<lb ed="#V" n="119" break="no"/>ter diligere filium ipsa proprietate, quae est principium
+            proces<lb ed="#V" n="120" break="no"/>sionis spiritus sancti, sicut paternitas est principium
+            genera<lb ed="#V" n="121" break="no"/>tionis filij. Si autem amor nomnet ipsam actionem procedentem, sic
+            <lb ed="#V" n="122"/>pater dicitur si ipsum diligere amore qui est spiritus sanctus, licet
+            <lb ed="#V" n="123"/>hoc non adeo contineat veritatem, &amp; similiter in alijs
+            nomi<lb ed="#V" n="124" break="no"/>nibus, quae significant per modum operationis &amp; verbum, &amp;
+            <lb ed="#V" n="125"/>ideo dicitur, quod pater dicit verbo suo. Haec ille.
+          </p>
+          <p xml:id="capsco-a2l214-d1e369">
+            Et ibidem ad
+            <lb ed="#V" n="126"/>secundum dicit. Amor personalis non se habet ad patrem
+            <lb ed="#V" n="127"/>diligentem vt principium dilectionis, sed magis vt actus
+            de<lb ed="#V" n="128" break="no"/>nominans, &amp; ideo non construitur in habitudine alicuius
+            <lb ed="#V" n="129"/>principij, nec in habitudine formae inquantum forma est
+            <lb ed="#V" n="130"/>principium, sed solum inquantum forma est denominans,
+            <lb ed="#V" n="131"/>vt cum dicitur iste est agens actione. Item ad tertium sic
+            ait<lb ed="#V" n="132" break="no"/>Diligere (inquit) in dicta propositione scilicet pater diligit filium
+            <lb ed="#V" n="133"/>spiritu sancto, non dicit actum essentialem, sed notionalem.
+          </p>
+          <p xml:id="capsco-a2l214-d1e389">
+            Scien<lb ed="#V" n="134" break="no"/>dum tamen quod in actu notionali, qui est diligere, duo
+            intelligun<lb ed="#V" n="135" break="no"/>tur scilicet actus ipse, &amp; exitus actus ab agente, &amp; ipse actus est
+            <lb ed="#V" n="136"/>psona spiritus sancti, sed emanatio actus ab agente est
+            pro<lb ed="#V" n="137" break="no"/>prie notio siue actus notionalis, &amp; ideo etiam persona
+            spiri<lb ed="#V" n="138" break="no"/>tus sancti non significatur per actum designatum verbo, quia
+            ver<lb ed="#V" n="139" break="no"/>bu significat actum vt egredientem ab agente, sed significatur
+            <lb ed="#V" n="140"/>per actum designatum nomine, quod significat actum absolute vt
+            <lb ed="#V" n="141"/>amor vel dilectio. Diligere autem proprie dicit notionem, quia
+            <lb ed="#V" n="142"/>diligere idem est quod amorem emittere, vnde m verbo
+            di<lb ed="#V" n="143" break="no"/>ligendi importatur &amp; ipse actus, qui est psona, ratione cuius secundum
+            <lb ed="#V" n="144"/>actum illum pater denoiatur diligens amore, quod est psona spiritus
+            <lb ed="#V" n="145"/>sancti, &amp; importat emissionem actus, ratione cuius est notionale,
+            <lb ed="#V" n="146"/>sed hoc verbum spirat significat ipsam emistionem actus &amp; non
+            <pb ed="#V" n="440"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>actum emissum, &amp; ideo pater non dicitur spirans Spiritu
+            <lb ed="#V" n="2"/>Sancto, sed actu vel proprietatis spirationis. &amp; simile est de
+            <lb ed="#V" n="3"/>generatione, quia generatio dicit emissionem geniti, vnde
+            <lb ed="#V" n="4"/>non dicitur quod pater generat verbo, sed dicere dicit
+            emis<lb ed="#V" n="5" break="no"/>sionem verbi &amp; verbum emissum, &amp; ideo dicitur quod dicit
+            ver<lb ed="#V" n="6" break="no"/>bos verbum autem nominat id, quod emissum est &amp; non
+            <lb ed="#V" n="7"/>emissionem, &amp; ideo verbum est personale sicut &amp; amor, &amp;
+            <lb ed="#V" n="8"/>diligere, &amp; dicere notionale. Haec ille.
+          </p>
+          <p xml:id="capsco-a2l214-d1e441">
+            Item art. 2. ad 4.
+            di<lb ed="#V" n="9" break="no"/>cit. (Si diligere dicat actum notionalem, tunc in hoc
+            ver<lb ed="#V" n="10" break="no"/>bo diligere importatur quasi duplex actus scilicet ipse actus
+            a<lb ed="#V" n="11" break="no"/>moris, qui significat personam Spiritus sancti, &amp;
+            emissio<lb ed="#V" n="12" break="no"/>nem amoris, vnde diligere notionaliter sumptum nihil aliud
+            <lb ed="#V" n="13"/>est quam spirare amorem, per spirare enim significatur ipsa emissio,
+            <lb ed="#V" n="14"/>sed per amorem persona Spiritus sancti. Haec ille.
+          </p>
+          <p xml:id="capsco-a2l214-d1e457">
+            Eandem
+            <lb ed="#V" n="15"/>conclusionem ponit prima parte. q. 37. art. 2. Sciendum (inquit)
+            <lb ed="#V" n="16"/>quod res communiter denominatur a suis formis, sicut album ab
+            albe<lb ed="#V" n="17" break="no"/>dine, &amp; homo e humanitate, omne enim illud, a quo aliquid
+            <lb ed="#V" n="18"/>denominatur quantum ad hoc habet rationem formae, vel
+            ha<lb ed="#V" n="19" break="no"/>bitudinem formae, vt si dicatur, iste indutus est vestimento,
+            <lb ed="#V" n="20"/>iste ablatiuus construitur in habitudine causae formalis.
+            <lb ed="#V" n="21"/>quauis non sit forma, contingit autem aliquid denominari
+            <lb ed="#V" n="22"/>per illud, quod ab eo procedit, non solum sicut agens actione,
+            <lb ed="#V" n="23"/>sed etiam sicut termino actionis, quod est effectus, quando iste effectus
+            <lb ed="#V" n="24"/>in intellectu actionis includitur, dicimus enim quod ignis est
+            ca<lb ed="#V" n="25" break="no"/>lefaciens calefactione, quauis calefactio non sit calor, qui
+            <lb ed="#V" n="26"/>est forma ignis, sed actio ab igne procedens, &amp; dicimus quod
+            <lb ed="#V" n="27"/>arbor est florens fsoribus, quauis flores non sint forma
+            arbo<lb ed="#V" n="28" break="no"/>ris, sed quidam effectus ab arbore procedentes, sin hoc
+            ergo<lb ed="#V" n="29" break="no"/>dicendum, quod diligere in diuinis sumitur essentialiter &amp;
+            no<lb ed="#V" n="30" break="no"/>tionaliter secundum quod essentialiter sumitur, sic pater &amp; filius non
+            <lb ed="#V" n="31"/>diligunt se Spiritu sancto, sed essentia sua. Vnde Auguius in
+            <lb ed="#V" n="32"/>11. de Trinita. Quis audet dicere patrem nec se, nec filium,
+            <lb ed="#V" n="33"/>nec Spiritum sanctum diligere, nisi per Spiritum sanctum: secundum
+            <lb ed="#V" n="34"/>vero quod notionaliter sumitur, sic diligere nihil aliud est quam
+            <lb ed="#V" n="35"/>spirare amorem, sicut dicere est producere verbum, &amp;
+            flo<lb ed="#V" n="36" break="no"/>rere est producere florem, sicut igitur dicitur arbor
+            forere<lb ed="#V" n="37" break="no"/>foribus, ita dicitur pater diligens Spiritu sancto, vel dicens
+            <lb ed="#V" n="38"/>verbo se &amp; creaturam, &amp; pater &amp; filius dicmtdur
+            diligentesspi<lb ed="#V" n="39" break="no"/>ritum vel amore procedente se &amp; nos. Haec ille.
+          </p>
+          <p xml:id="capsco-a2l214-d1e514">
+            Et ibidem
+            <lb ed="#V" n="40"/>ad argumentum sic ait. Quandocunque in intellectu
+            alicu<lb ed="#V" n="41" break="no"/>ius actionis importatur determinatus effectus potest
+            deter<lb ed="#V" n="42" break="no"/>minari principium actionis &amp; ab actione &amp; ab effectu, sicut
+            <lb ed="#V" n="43"/>possumus dicere quod arbor est florens foritionem &amp;
+            flori<lb ed="#V" n="44" break="no"/>bus, sed quando in actione non includitur determinatus
+            <lb ed="#V" n="45"/>effectus, tunc non potest principium actionis denominari
+            <lb ed="#V" n="46"/>ab effectu, sed solum ab actione, non enim dicimus quod
+            arbor<lb ed="#V" n="47" break="no"/>producat florem flore, sed productione floris. In hoc
+            igi<lb ed="#V" n="48" break="no"/>tur quod dico spirat vel generat importatur actus notionalis
+            <lb ed="#V" n="49"/>tantum, vnde non possumus dicere, quod pater spiret Spiritu
+            <lb ed="#V" n="50"/>sancto, vel generet filio, possumus autem dicere quod pater
+            di<lb ed="#V" n="51" break="no"/>cit verbo tanquam procedente persona, &amp; dicit dictione
+            <lb ed="#V" n="52"/>tanquam actu notionali, quia dicere importat
+            determina<lb ed="#V" n="53" break="no"/>tam personam procedentem, cum dicere sit producere
+            ver<lb ed="#V" n="54" break="no"/>bum, &amp; similiter diligere prout notionaliter sumitur est
+            <lb ed="#V" n="55"/>producere amorem, &amp; ideo potest dici quod pater diligit
+            fi<lb ed="#V" n="56" break="no"/>lium Spiritu sancto tanquam persona procedente, &amp; ipsa
+            <lb ed="#V" n="57"/>dilectione tanquam actu notionali. Haec ille.
+          </p>
+          <p xml:id="capsco-a2l214-d1e556">
+            Sexta
+            conclu<lb ed="#V" n="58" break="no"/>sio. Pater diligit se Spiritu sancto. Istam conclusionem
+            pro<lb ed="#V" n="59" break="no"/>bat prolixe sanctus Thomas primo sen. vbi supra vnde arti. 2.
+            <lb ed="#V" n="60"/>sic dicit. Cum dicitur quod pater diligit Spiritu sancto, potest
+            <lb ed="#V" n="61"/>intelligi de dilectione essentiali vel notionali, si de
+            dile<lb ed="#V" n="62" break="no"/>ctione essentiali sic nec se, nec filium diligit Spiritu sancto,
+            <lb ed="#V" n="63"/>sed charitate essentiali, &amp; operatione essentiali. Si autem
+            in<lb ed="#V" n="64" break="no"/>telligatur de notionali, sic sicut filium, ita se Spiritu sancto
+            <lb ed="#V" n="65"/>amat, quia diligere notionaliter sumptum nihil aliud dicit
+            <lb ed="#V" n="66"/>quam esse principium amoris personalis: qui est Spiritus
+            <lb ed="#V" n="67"/>sanctus, qui amor quia significatur per modum
+            operatio<lb ed="#V" n="68" break="no"/>nis denominat patrem a quo est, vt dicatur Spiritu sancto
+            di<lb ed="#V" n="69" break="no"/>ligere, &amp; cum tota ratio dilectionis quae est in filio sit in
+            pa<lb ed="#V" n="70" break="no"/>tre &amp; econtra, ex neutra parte potest impediri quin pater
+            Spi<lb ed="#V" n="71" break="no"/>ritu sancto seipsum diligat scilicet nec ex parte spirantis amorem,
+            <lb ed="#V" n="72"/>nec ex parte diligibilis, quia ex vna parte pater est sufficiens
+            <lb ed="#V" n="73"/>principium Spiritus sancti, &amp; ex alia parte sufficiens ratio
+            diligi<lb ed="#V" n="74" break="no"/>bilitatis in ipso est, vnde sicut pater filium Spiritu sancto
+            di<lb ed="#V" n="75" break="no"/>ligit, ita seipsum &amp; Spiritum sanctum diligit Spiritu sancto.
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="76"/>Haec ille.
+          </p>
+          <p xml:id="capsco-a2l214-d1e603">
+            Et ibi ad principium dicit. Cum omnis actus notionalis
+            <lb ed="#V" n="77"/>importet rationem principij quantum ad or. tnem diuin ae
+            per<lb ed="#V" n="78" break="no"/>sonae, hoc contingit dupliciter, aut quando designatur ratio
+            prin<lb ed="#V" n="79" break="no"/>cipij respectu eius, in quod terminatur actus notionalis: vt
+            <lb ed="#V" n="80"/>cum dicitur: pater generat filium: generare enim importat habitudinem
+            <lb ed="#V" n="81"/>principij respectu geniti, &amp; in talibus non potest fieri
+            recipro<lb ed="#V" n="82" break="no"/>catio vt dicatur quod pater generat se, quia nulla persona est
+            <lb ed="#V" n="83"/>principium suiipsius. Quandoque autem habitudo principij non
+            impor<lb ed="#V" n="84" break="no"/>tatur respectu eius, in quod transit actus: vt patet cum dicitur: pater
+            <lb ed="#V" n="85"/>dat essentiam filio: non enim significatur patrem esse principium
+            da<lb ed="#V" n="86" break="no"/>ti quod est essentia: sed eius cui datur: &amp; similiter est in hoc
+            <lb ed="#V" n="87"/>verbo diligere, quod importat habitudinem principij non
+            dili<lb ed="#V" n="88" break="no"/>gentis ad dilectum in quod transit actus: sed diligentis ad
+            amo<lb ed="#V" n="89" break="no"/>rem, qui importatur in verbo diligit: &amp; ideo in talibus potest
+            <lb ed="#V" n="90"/>esse reciprocatio: &amp; hoc contingit: quia verbum diligere non
+            <lb ed="#V" n="91"/>tantum importat emissionem sed ipsum amorem emissum:
+            vn<lb ed="#V" n="92" break="no"/>de si accipiatur separatim id quod ad originem pertinet non
+            <lb ed="#V" n="93"/>erit conuersio: non enim potest dici quod pater spiret se. Haec ille.
+          </p>
+          <p xml:id="capsco-a2l214-d1e642">
+            Se<lb ed="#V" n="94" break="no"/>ptima conclusio. Pater diligit creaturas Spiritu sancto. Istam
+            <lb ed="#V" n="95"/>probat ibidem arti. 3. dicens Processio (inquit) diuinarum
+            <lb ed="#V" n="96"/>personarum est quaedam origo processionis creaturarum:
+            <lb ed="#V" n="97"/>cum omne quod est principium in aliquo genere sit causa
+            <lb ed="#V" n="98"/>eorum, quae sunt post, sed tamen efficientia creaturarum
+            essen<lb ed="#V" n="99" break="no"/>tiae communi attribuitur. Vnde sciendum est quod cum
+            dici<lb ed="#V" n="100" break="no"/>tur, quod pater &amp; filius diligit nos Spiritu sancto: hoc verbum
+            <lb ed="#V" n="101"/>diligere potest sumi essentialiter, &amp; vtroque modo est vera
+            <lb ed="#V" n="102"/>locutio. Si enim sumatur essentialiter, tunc in verbo
+            dile<lb ed="#V" n="103" break="no"/>ctionis designabitur efficientia totius trinitatis: &amp; in
+            abla<lb ed="#V" n="104" break="no"/>tiuo designat personam Spiritus sancti designabitur
+            ra<lb ed="#V" n="105" break="no"/>tio efficientiae: non ex parte efficientis: sed ex parte
+            effecto<lb ed="#V" n="106" break="no"/>rum, quorum ratio &amp; origo est processio Spiritus sancti:
+            <lb ed="#V" n="107"/>sicut &amp; verbum: quamuis verbum sit proprie ratio
+            creatu<lb ed="#V" n="108" break="no"/>rarum secundum quod exeuntem a Deo per modum intellectus:
+            <lb ed="#V" n="109"/>vnde dicitur quod pater dicit omnia verbo vel arte sua: sed
+            <lb ed="#V" n="110"/>Spiritus sanctus est ratio earum prout exeunt ab eo per
+            li<lb ed="#V" n="111" break="no"/>bertatem voluntatis: &amp; ideo dicitur proprie diligere
+            crea<lb ed="#V" n="112" break="no"/>turam Spiritu sancto: &amp; non verbo. Si autem sumatur
+            no<lb ed="#V" n="113" break="no"/>tionaliter: tunc etiam vera est locutio: sed habet aliam
+            ra<lb ed="#V" n="114" break="no"/>tionem veritatis: quia verbum dilectionis non importabit
+            <lb ed="#V" n="115"/>ex principali intentione habitudinem efficientis respectu
+            <lb ed="#V" n="116"/>creaturae, sed principaliter denominabit rationem huius
+            <lb ed="#V" n="117"/>efficientiae ex parte effectorum, &amp; consequenter dabit
+            in<lb ed="#V" n="118" break="no"/>telligere habitudinem efficientiae, &amp; tunc sensus est, pater
+            <lb ed="#V" n="119"/>diligit creaturam verbo. 1. spirat amorem personalem, qui est
+            <lb ed="#V" n="120"/>ratio omnis liberals collationis a Deo factae creaturae. Et
+            <lb ed="#V" n="121"/>ibidem ad secundum dicit. Sicut in egressu artificiatorum
+            <lb ed="#V" n="122"/>ab artifice est considerare duplicem processum scilicet ipsius
+            ar<lb ed="#V" n="123" break="no"/>tis ab artifice, quam de corde suo adinuenit, &amp; secundo
+            <lb ed="#V" n="124"/>processum artificiatorum ab ipsa arte inuenta, ita &amp; in
+            pro<lb ed="#V" n="125" break="no"/>cessu voluntatis est duo considerare scilicet exitum amoris ab
+            <lb ed="#V" n="126"/>amante: &amp; secundo exitum ipsius rei datae per amorem ab
+            <lb ed="#V" n="127"/>amante. Vnde quantum ad primum exitum se habet Spiritus
+            <lb ed="#V" n="128"/>sanctus in comparatione Dei ad creaturam vt effectus, siue quod
+            <lb ed="#V" n="129"/>est de principio sicut &amp; verbum: sed quantum ad secundum exitum
+            <lb ed="#V" n="130"/>vtrunque se habet vt principium scilicet verbum &amp; amor, sed
+            creatu<lb ed="#V" n="131" break="no"/>ra vt effectus. Haec ille.
+          </p>
+          <p xml:id="capsco-a2l214-d1e727">
+            Sciendum tamen quod parte prima. q. 37.
+            ar<lb ed="#V" n="132" break="no"/>ti. 2. ad 3. aliter probat istas duas conclusiones scilicetsextam &amp;
+            <lb ed="#V" n="133"/>septimam: ait enim sic. Pater non solum filium, sed etiam se &amp; nos
+            <lb ed="#V" n="134"/>diligit spiritu sancto, quia diligere secundum quod notionaliter
+            su<lb ed="#V" n="135" break="no"/>mitur non solum importat productionem diuin personae,
+            <lb ed="#V" n="136"/>sed etiam personam productam per modum amoris, qui
+            ha<lb ed="#V" n="137" break="no"/>bet habitudinem ad rem dilectam: vnde sicut pater dicit se &amp;
+            <lb ed="#V" n="138"/>omnem creaturam verbo, quod genuit inquantum verbum
+            <lb ed="#V" n="139"/>genitum sufficienter representat patrem &amp; omnem
+            creatu<lb ed="#V" n="140" break="no"/>ram, ita diligit se &amp; omnem creaturam Spiritu sancto,
+            in<lb ed="#V" n="141" break="no"/>quantum Spiritus sanctus procedit vt amor bonitatis
+            pri<lb ed="#V" n="142" break="no"/>mae, secundum qua pater amat se &amp; omnem creaturam. Et sic etiam
+            <lb ed="#V" n="143"/>patet, quod respectus importatur ad creaturam in verbo &amp; in
+            <lb ed="#V" n="144"/>amore procedente quasi secundario inquantum scilicet veritas &amp;
+            bo<lb ed="#V" n="145" break="no"/>nitas diuina est principium intelligendi &amp; amandi omnem
+            creatu<lb ed="#V" n="146" break="no"/>ram. Haec ille.
+          </p>
+          <p xml:id="capsco-a2l214-d1e762">
+            Octaua conclusio. Spiritus sanctus diligit se
+            <lb ed="#V" n="147"/>Spiritu sancto: vno modo est vera, &amp; alio modo non. Istam
+            <lb ed="#V" n="148"/>ponit primo sen. vbi supra arti. 2. ad 4. vbi sic ait. Cum
+            (in<lb ed="#V" n="149" break="no"/>quit) dicitur sanctus spiritus diligit Spiritu sancto. si
+            intel<lb ed="#V" n="150" break="no"/>ligatur de dilectione essentiali, expresse verum est, sicut enim
+            <pb ed="#V" n="441"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>seipso Deus, ita seipso essentialiter diligens est. Si autem
+            <lb ed="#V" n="2"/>intelligatur de dilectione notionali, tunc in hoc verbo
+            dili<lb ed="#V" n="3" break="no"/>gere importatur quasi duplex actus scilicet ipse actus amoris,
+            <lb ed="#V" n="4"/>qui significat personam Spiritus sancti, &amp; emissionem
+            amo<lb ed="#V" n="5" break="no"/>ris. Vnde diligere notionaliter sumptum nihil aliud est
+            <lb ed="#V" n="6"/>quam spirare amorem, per spirare enim significatur ipsa
+            emis<lb ed="#V" n="7" break="no"/>sio, sed per amorem persona Spiritus sancti, ac si diceretur
+            <lb ed="#V" n="8"/>generare filium: vnde sicut filio non competit generare
+            <lb ed="#V" n="9"/>filium, ita nec Spiritui sancto spirare amorem, nec ex hoc
+            <lb ed="#V" n="10"/>aliquid imperfectionis in Spiritu sancto vel filio
+            derelin<lb ed="#V" n="11" break="no"/>quitur, &amp; ideo secundum hunc sensum non conceditur quod
+            <lb ed="#V" n="12"/>Spiritus sanctus notionaliter diligat. Si autem ab intellecti
+            <lb ed="#V" n="13"/>huius verbi diligit separetur actus originis, per quem
+            effi<lb ed="#V" n="14" break="no"/>citur notionale, remanet tantum illud, quod est personale
+            <lb ed="#V" n="15"/>scilicet ipse amor, sic Spiritui sancto conueniret: quia
+            ipse<lb ed="#V" n="16" break="no"/>procedit vt operatio subsistens: vnde ipsa operatio est
+            ope<lb ed="#V" n="17" break="no"/>rans, &amp; secundum hoc Spiritus sanctus etiam seipso
+            dilige<lb ed="#V" n="18" break="no"/>ret filium, vel patrem, aut seipsum, &amp; tunc diligere non
+            im<lb ed="#V" n="19" break="no"/>portaret emissionem amoris a Spiritu sancto realem, sed
+            <lb ed="#V" n="20"/>tantum secundum rationem: vnde secundum hoc diligere non
+            im<lb ed="#V" n="21" break="no"/>portaret aliquid notionale, sed tantum personam alio
+            mo<lb ed="#V" n="22" break="no"/>do significatam. Vnde hoc verbum diligere potest sumi
+            tri<lb ed="#V" n="23" break="no"/>pliciter. Aut secundum quod dicit essentiam tantum, &amp; tunc
+            <lb ed="#V" n="24"/>dicit exitum secundum rationem operationis essentialis quae est
+            <lb ed="#V" n="25"/>ipsa essentia ab essentia diuina, &amp; sic pater diligit Spiritum
+            <lb ed="#V" n="26"/>sanctum, &amp; similiter filius &amp; Spiritus sanctus. Aut
+            secun<lb ed="#V" n="27" break="no"/>dum quod nominat tantum personam Spiritus sancti, &amp; sic
+            <lb ed="#V" n="28"/>non dicit etiam exitum nisi secundum rationem: vnde secundum
+            <lb ed="#V" n="29"/>hoc tantum conuenit Spiritui sancto diligere, sed iste
+            mo<lb ed="#V" n="30" break="no"/>dus inconsuetus est. Aut dicit realem exitum, &amp; tunc simul
+            <lb ed="#V" n="31"/>importat notionem actiuam &amp; personam Spiritus sancti,
+            <lb ed="#V" n="32"/>&amp; tunc non conuenit nisi patri &amp; filio. Haec ille. Consimilem
+            <lb ed="#V" n="33"/>distinctionem trimembrem de amore ponit distin. 10. q. 1.
+            <lb ed="#V" n="34"/>artic. 1. ad quartum, quam recitaui supra dist. 18. in
+            respon<lb ed="#V" n="35" break="no"/>sione primi contra conclusionem tertiam.
+          </p>
+          <p xml:id="capsco-a2l214-d1e853">
+            Sed contra
+            prae<lb ed="#V" n="36" break="no"/>dicta arguit Aureolus Et primo contra quintam
+            conclusio<lb ed="#V" n="37" break="no"/>nem in hoc quod dicit illum ablatiuum construi in
+            habitudi<lb ed="#V" n="38" break="no"/>ne effectus formalis, vt cum dicitur homo est indutus
+            ve<lb ed="#V" n="39" break="no"/>stimento. Manifestum inquit est quod flos non se habet ad
+            <lb ed="#V" n="40"/>florere, sicut effectus formalis ad causam, imo potius
+            econ<lb ed="#V" n="41" break="no"/>tra, nec vestimentum est effectus formalis quin potius esse
+            <lb ed="#V" n="42"/>vestitum, quod est de praedicamento habitus est eius
+            effe<lb ed="#V" n="43" break="no"/>ctus formalis indubitanti, cum supra dictum sit quod habitus
+            <lb ed="#V" n="44"/>significat aliquid quod intellectus concipit derelinqui
+            cir<lb ed="#V" n="45" break="no"/>ca habituatum, sed secundum istos inquit arguens
+            construi<lb ed="#V" n="46" break="no"/>tur ablatiuus in habitudine effectus formalis. ergo causa
+            for<lb ed="#V" n="47" break="no"/>malis construitur in habitudine effectus formalis, quod
+            di<lb ed="#V" n="48" break="no"/>ci non potest.
+          </p>
+          <p xml:id="capsco-a2l214-d1e884">
+            Secundo ad idem. Spiritus sanctus magis
+            ha<lb ed="#V" n="49" break="no"/>bet rationem effectus causae efficientis respectu patris &amp;
+            fi<lb ed="#V" n="50" break="no"/>lij quam effectus causae formalis. ergo multo melius isti
+            de<lb ed="#V" n="51" break="no"/>perent dicere, quod construitur ablatiuus in habitudine
+            effe<lb ed="#V" n="52" break="no"/>ctus causae efficientis quam effectus formalis. Secundo
+            lo<lb ed="#V" n="53" break="no"/>co arguit contra illud exemplum de florere &amp; floribus.
+            Flo<lb ed="#V" n="54" break="no"/>rere inquit non est florem producere, sed florem habere,
+            da<lb ed="#V" n="55" break="no"/>to enim quod Deus flores arbori impressisset, nihilominus
+            ar<lb ed="#V" n="56" break="no"/>bor diceretur florere, sed diligere sumptum notionaliter est
+            <lb ed="#V" n="57"/>producere Spiritum sanctum. ergo non est similis
+            constru<lb ed="#V" n="58" break="no"/>ctio cum dicitur, quod arbor floret floribus, vel quod hortus
+            ru<lb ed="#V" n="59" break="no"/>bet rosis cum illa, qua dicitur quod pater &amp; filius diligunt se
+            <lb ed="#V" n="60"/>Spiritu sancto.
+          </p>
+          <p xml:id="capsco-a2l214-d1e914">
+            Secundo ad idem. Sic est de florere respectu
+            <lb ed="#V" n="61"/>arboris, sicut de calere respectu ignis, sed cum dicitur, ignis
+            <lb ed="#V" n="62"/>calet calore, ablatiuus non construitur cum verbo per
+            mo<lb ed="#V" n="63" break="no"/>dum termini productionis, non enim calor producitur per
+            ca<lb ed="#V" n="64" break="no"/>lere. ergo nec cum dicitur arbor floret floribus, ablatiuus
+            <lb ed="#V" n="65"/>construitur vt terminus productionis. Tertio sic. Licet
+            ver<lb ed="#V" n="66" break="no"/>bum actiuum construatur cum termino in ablatiuo, vt cum
+            <lb ed="#V" n="67"/>dicitur quod sol radiat radio, vel quod ignis calefacit calore
+            im<lb ed="#V" n="68" break="no"/>presso illi, tamen verbum neutrum non construitur cum
+            ter<lb ed="#V" n="69" break="no"/>mino productionis, cum non habeat terminum, non enim
+            si<lb ed="#V" n="70" break="no"/>gnificat actionem productiuam, sicut patet de lucere &amp;
+            ca<lb ed="#V" n="71" break="no"/>lere, sed fforere est verbum neutrum non actiuum. ergo cum
+            <lb ed="#V" n="72"/>dicitur, arbor floret fforibus, ablatiuus non construitur vt
+            <lb ed="#V" n="73"/>terminus actionis. Tertio loco arguitur contra hoc quod
+            <lb ed="#V" n="74"/>dictum est ibidem, quod in actu spirandi non includitur
+            deter<lb ed="#V" n="75" break="no"/>minato effectus, sicut in actu diligendi. In actu nanque
+            in<cb ed="#V" n="b"/><lb ed="#V" n="76" break="no"/>cludi dicitur terminus quando vnum denominatur ab alio,
+            <lb ed="#V" n="77"/>sicut flos &amp; florere, dilectio &amp; diligere, &amp; sic de similibus,
+            <lb ed="#V" n="78"/>sed Spiritus &amp; spirare, genitus &amp; generare dicuntur
+            deno<lb ed="#V" n="79" break="no"/>minatiua abinuicem multo fortius quam spiritus &amp;
+            dilige<lb ed="#V" n="80" break="no"/>re: nam Spiritus non dicitur diligere, sed spirare, vel forte
+            <lb ed="#V" n="81"/>econtra spirare a spiritu. ergo multo fortius spiritus
+            inclu<lb ed="#V" n="82" break="no"/>ditur in spirare quam in diligere, &amp; genitus in generare.
+            qua<lb ed="#V" n="83" break="no"/>re multo fortius concedendum esset, quod pater &amp; filius
+            spira<lb ed="#V" n="84" break="no"/>rent Spiritu sancto quam vel quod pater generat genito, vel
+            <lb ed="#V" n="85"/>quam quod diligit Spiritu sancto, si regula illa sit vera scilicet
+            quan<lb ed="#V" n="86" break="no"/>do terminus productus includitur in productione, tunc
+            <lb ed="#V" n="87"/>terminus additur in ablatiuo principio producenti
+            cum<lb ed="#V" n="88" break="no"/>ipsa productione, sicut cum dicitur, arbor floret floribus.
+          </p>
+          <p xml:id="capsco-a2l214-d1e978">
+            <lb ed="#V" n="89"/>Secundo ad idem. Aedificare includit in suo intellectu
+            edi<lb ed="#V" n="90" break="no"/>ficium, &amp; similiter producere productum, sed nullus
+            con<lb ed="#V" n="91" break="no"/>cedit quod aedificator aedificet aedificio, nec quod producens
+            pro<lb ed="#V" n="92" break="no"/>ducat producto. ergo regula non est vera. Quarto loco
+            ar<lb ed="#V" n="93" break="no"/>guit contra d stinctionem factam de diligere essentiali, &amp;
+            <lb ed="#V" n="94"/>notionali, &amp; de amore qui in diuinis potest sumi
+            essentiali<lb ed="#V" n="95" break="no"/>ter, &amp; personaliter, &amp; notionaliter. Impossibile inquit est
+            <lb ed="#V" n="96"/>duas diuinitates poni in diuinis, vnam essentialem, &amp; aliam
+            <lb ed="#V" n="97"/>personalem, sed amor cum sit perfectio simpliciter non est
+            <lb ed="#V" n="98"/>aliud quam diuinitatis, immo cum amor sit quoddam
+            for<lb ed="#V" n="99" break="no"/>maliter infinitum, esset in diuinis multitudo eorum, quae
+            <lb ed="#V" n="100"/>sunt formaliter infinita, quod est omnino impossibile.
+            er<lb ed="#V" n="101" break="no"/>go nullo modo poni possunt duo amores.
+          </p>
+          <p xml:id="capsco-a2l214-d1e1009">
+            Secundo sic. Si
+            <lb ed="#V" n="102"/>ponantur duo amores vnus essentialis, &amp; alius subsistens,
+            <lb ed="#V" n="103"/>aut in spiritu sancto est solus amor subsistens sine
+            essentia<lb ed="#V" n="104" break="no"/>li, aut subsistens cum essentiali distinctus ab eo realiter,
+            au<lb ed="#V" n="105" break="no"/>subsistens cum essentiali omnino indistinctus ab eo re, sed
+            <lb ed="#V" n="106"/>ratione. Non potest dici primum: quia amor essentialis non
+            <lb ed="#V" n="107"/>esset in spiritu sancto, quod est erroneum. Nec secundum:
+            <lb ed="#V" n="108"/>quia tunc duplici realitate esset amans scilicet amore essentiali,
+            <lb ed="#V" n="109"/>&amp; tunc cum illi sint infiniti, sequeretur quod spiritus sanctus
+            <lb ed="#V" n="110"/>esset magis infinitus quam pater, &amp; filius secundum rem.
+            <lb ed="#V" n="111"/>Nec potest dari tertium: quia idem sequitur scilicet quod saltem
+            se<lb ed="#V" n="112" break="no"/>cundum rationem spiritus sanctus esset magis infinitus &amp;
+            <lb ed="#V" n="113"/>perfectior quam pater. Nec potest poni quartum: quia amor
+            <lb ed="#V" n="114"/>essentialis est improductus, iste vero est procedens, ille
+            ve<lb ed="#V" n="115" break="no"/>ro communis tribus, iste proprius vni personae. ergo duplex
+            <lb ed="#V" n="116"/>amor in diuinis poni non potest, vnus essentialis &amp; alius
+            sub<lb ed="#V" n="117" break="no"/>sistens. Quinto loco probat quod nullo modo concedendum
+            <lb ed="#V" n="118"/>est, quod aliquis amor producatur in diuinis. Quandocunque
+            <lb ed="#V" n="119"/>enim aliqua sunt vnum &amp; idem secundum rem &amp; rationem,
+            <lb ed="#V" n="120"/>s: vnum non attingitur per realem productionem, nec
+            re<lb ed="#V" n="121" break="no"/>liquum, sed essentia in diuinis est idem quod amor secundum
+            <lb ed="#V" n="122"/>rem, &amp; rationem solum connotatiue differens, vt supra
+            pro<lb ed="#V" n="123" break="no"/>batum est, nec aliquis negat, quin saltem secundum rem sint
+            <lb ed="#V" n="124"/>idem. ergo non est possibile quod amor producatur, cum
+            con<lb ed="#V" n="125" break="no"/>cilium determinet, quod essentia diuina non producit, nec
+            pro<lb ed="#V" n="126" break="no"/>ducitur.
+          </p>
+          <p xml:id="capsco-a2l214-d1e1066">
+            Secundo sic. Quamuis tota persona spiritus
+            sancti<lb ed="#V" n="127" break="no"/>producatur &amp; dicatur producta, non tamen in ea est aliqua
+            <lb ed="#V" n="128"/>realitas esse capiens productiue, nisi sola proprietas
+            perso<lb ed="#V" n="129" break="no"/>nalis, alioquin si essentia, quae est in spiritu sancto, non
+            so<lb ed="#V" n="130" break="no"/>lum capiet esse in eo, sed accipiet simpliciter esse,
+            impossibi<lb ed="#V" n="131" break="no"/>le foret quod esset eadem cum essentia patris, quae est a se, nec
+            <lb ed="#V" n="132"/>capit esse aliunde, sic igitur patet quod nulla realitas, quae sit
+            <lb ed="#V" n="133"/>in spiritu sancto capit esse, nisi proprietas personalis. Sed
+            <lb ed="#V" n="134"/>constat quod amor infinitus non est idem quod processio, quae
+            <lb ed="#V" n="135"/>est proprietas personalis spiritus sancti. ergo non potest
+            ca<lb ed="#V" n="136" break="no"/>tholice concedi, quod in spiritu sancto sit aliquis amor
+            produ<lb ed="#V" n="137" break="no"/>ctus. Tertio. Cum dicitur quod spiritus sanctus est amor
+            <lb ed="#V" n="138"/>productus, aut intelligitur communicatio, aut vera
+            produ<lb ed="#V" n="139" break="no"/>ctio, sed non potest primum intelligi: quia aeque posset
+            di<lb ed="#V" n="140" break="no"/>ci, quod spiritus sanctus est essentia producta: quia per
+            pro<lb ed="#V" n="141" break="no"/>ctionem sibi communicatur essentia. Et si dicatur quod prius
+            <lb ed="#V" n="142"/>communicatur sibi amor quam essentia diuinitatis, non
+            v<lb ed="#V" n="143" break="no"/>let: quia tunc per prius spiritus sanctus erit amor qu Deus
+            <lb ed="#V" n="144"/>&amp; ita pater qui per prius &amp; ordine rationis est Deus quam
+            <lb ed="#V" n="145"/>amans, erit per prius secundum rationem quid nobilius quam
+            spi<lb ed="#V" n="146" break="no"/>ritus sanctus. Nec potest dari secundum: quia tunc amor
+            <lb ed="#V" n="147"/>qui est in spiritu sancto vere caperet esse, &amp; cum ipse amor
+            <lb ed="#V" n="148"/>non sit aliud quam essentia diuinitatis, sequitur quod
+            es<lb ed="#V" n="149" break="no"/>sentia diuinitatis vere produceretur, quod est crioneum.
+            <lb ed="#V" n="150"/>ergo concedi non potest quod in Spiritu sancto sit aliquis
+            <pb ed="#V" n="442"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>amor productus accipiendo amorem pro actuali
+            dilectio<lb ed="#V" n="2" break="no"/>nc.
+          </p>
+          <p xml:id="capsco-a2l214-d1e1129">
+            Ad primum istorum dicitur, quod non vadit ad mentem
+            <lb ed="#V" n="3"/>Sanct. Doctoris: nam Sanctus Thomas non capit in hac materia effectum
+            <lb ed="#V" n="4"/>formalem pro effectu causae formalis, ad quam mentem
+            <lb ed="#V" n="5"/>currunt argumenta arguentis, sed vocat effectum
+            forma<lb ed="#V" n="6" break="no"/>lem effectum illum, qui habet modum formae in
+            denomi<lb ed="#V" n="7" break="no"/>nando suum principium, vel suam causam, vt expresse
+            pa<lb ed="#V" n="8" break="no"/>tet 1. sent. vt recitaui in quinta conclusione, &amp; isto modo
+            <lb ed="#V" n="9"/>loquendi effectus causae efficientis potest dici effectus
+            for<lb ed="#V" n="10" break="no"/>malis, aliud enim est dicere aliquid esse effectum formalem, &amp;
+            <lb ed="#V" n="11"/>aliud dicere quod sit effectus causae formalis, flos enim est
+            effe<lb ed="#V" n="12" break="no"/>ctus arboris formalis, quae tamen est causa efficiens floris,
+            <lb ed="#V" n="13"/>nec flos est effectus causae formalis, &amp; sic patet quod non arguit
+            <lb ed="#V" n="14"/>ad propositum. Cum etiam dicit quod vestimentum non est
+            <lb ed="#V" n="15"/>effectus formalis vestitionis, conceditur, nec enim Sanctus Thomas
+            <lb ed="#V" n="16"/>oppositum intendit immo, dicit quod cum dicitur, iste est
+            in<lb ed="#V" n="17" break="no"/>dutus vestimento, ablatiuus construitur in habitudine
+            cau<lb ed="#V" n="18" break="no"/>sae formalis, vt allegaui. Solum igitur vult quod aliquid, quod
+            <lb ed="#V" n="19"/>non est realiter forma alicuius potest habere actum
+            for<lb ed="#V" n="20" break="no"/>mae in denominando, &amp; exemplificauit de indumento, &amp;
+            <lb ed="#V" n="21"/>ex hoc concludebat quod sicut vestimentum dicitur formale
+            <lb ed="#V" n="22"/>respectu vestiti, licet non sit forma vestiti, ita aliquis
+            effe<lb ed="#V" n="23" break="no"/>ctus exiens a causa sua potest dici formalis respectu suae
+            cau<lb ed="#V" n="24" break="no"/>sae, &amp; habere actum formae ad suam causam denominando
+            <lb ed="#V" n="25"/>eam, &amp; quod ista sit mens eius, patet 1. sent. vt recitaui in
+            pro<lb ed="#V" n="26" break="no"/>batione quintae conclusionis.
+          </p>
+          <p xml:id="capsco-a2l214-d1e1184">
+            Ad secundum patet per idem,
+            <lb ed="#V" n="27"/>non enim loquimur de effectu causae formalis, sed de effectu
+            <lb ed="#V" n="28"/>formali. 1. habente modum formae, &amp; talis vt sic potest
+            de<lb ed="#V" n="29" break="no"/>nominarae causam, non sic de effectu causae efficientis vt est
+            <lb ed="#V" n="30"/>talis, licet in proposito sint idem sclceteffectus formalis, &amp;
+            esse<lb ed="#V" n="31" break="no"/>ctus causae efficientis Spiritus Sancti videlicet, licet
+            impro<lb ed="#V" n="32" break="no"/>prie dicatur effectus.
+          </p>
+          <p xml:id="capsco-a2l214-d1e1201">
+            Ad argumenta secundo loco inducta
+            <lb ed="#V" n="33"/>dicitur, quod exemplorum ad exemplata non requiritur
+            om<lb ed="#V" n="34" break="no"/>nimoda similitudo, licet enim forere vel rubere non dicant
+            <lb ed="#V" n="35"/>forte actionem productiuam sicut tangit arguens, &amp;
+            dili<lb ed="#V" n="36" break="no"/>gere notionaliter sumptum sit producere, tamen nihil
+            in<lb ed="#V" n="37" break="no"/>terest quantum ad propositum pertinet, solum enim hanc
+            quae<lb ed="#V" n="38" break="no"/>rimus similitudinem scilicet quod sicut flos non est forma
+            arbo<lb ed="#V" n="39" break="no"/>ris, nec inhaerens arbori, &amp; tamen denominat arborem ad
+            <lb ed="#V" n="40"/>modum formae, cum sit eius effectus, ita Spiritus sanctus,
+            <lb ed="#V" n="41"/>licet non sit forma principij productiui scilicet patris, nec se
+            ha<lb ed="#V" n="42" break="no"/>beat per modum inexistentis illi, attamen denominat
+            pa<lb ed="#V" n="43" break="no"/>trem qui est eius principium, &amp; habet modum formae
+            cir<lb ed="#V" n="44" break="no"/>ca eum: vnde quo ad hoc est similis constructio in illis
+            dua<lb ed="#V" n="45" break="no"/>bus propositionibus scilicet arbor foret fforibus, &amp; pater diligit
+            <lb ed="#V" n="46"/>coiritu sancto, quod vterque ablatiuus construitur in
+            habitu<lb ed="#V" n="47" break="no"/>dine effectus formalis modo praeexposito.
+          </p>
+          <p xml:id="capsco-a2l214-d1e1236">
+            Ad secundum
+            <lb ed="#V" n="48"/>negatur maior: nam ignis denominatur calere aliquo, vel
+            <lb ed="#V" n="49"/>per aliquid extrinsecum, sed solum calore sibi inexistente,
+            <lb ed="#V" n="50"/>arbor autem denominatur florere aliquo extrinseco scilicet
+            fo<lb ed="#V" n="51" break="no"/>re. Vnde denominatio prima est a forma, secunda autem
+            <lb ed="#V" n="52"/>ab effectu formali, id est se habente per modum formae. Ad
+            <lb ed="#V" n="53"/>tertium dico, quod neutrum non construitur cum ablatiuo
+            <lb ed="#V" n="54"/>significante terminum productionis, quam importat
+            neu<lb ed="#V" n="55" break="no"/>trum, cum neutrum non dicat actionem habentem realem
+            <lb ed="#V" n="56"/>terminum praesertim neutrum absolutum, sed nihil
+            prohi<lb ed="#V" n="57" break="no"/>bet, quod construatur cum ablatiuo in habitudine effectus
+            for<lb ed="#V" n="58" break="no"/>malis qui producitur per actionem importatam per
+            ver<lb ed="#V" n="59" break="no"/>bum actiuum, vt cum dicitur hortus rubet rosis, rosa non
+            <lb ed="#V" n="60"/>est effectus illius actionis, quam importat rubere, sed quam
+            <lb ed="#V" n="61"/>importat pullulare, vel emittere, aut producere, &amp; ita in
+            <lb ed="#V" n="62"/>proposito dico de ista, arbor floret fforibus. Vtrum autem
+            <lb ed="#V" n="63"/>norere sit producere vel non, non est magna cura, credo
+            ta<lb ed="#V" n="64" break="no"/>men quod licet forere non sit transitiuum potens regere
+            ac<lb ed="#V" n="65" break="no"/>cusatiuum expressum extra se, vt dicendo arbor floret
+            flo<lb ed="#V" n="66" break="no"/>rem, vel huiusmodi, tamen includit in se significatum
+            tran<lb ed="#V" n="67" break="no"/>sitiui cum termino actionis. Idem enim est florere, quod florem
+            <lb ed="#V" n="68"/>emittere, ecce quod includit in se emittere, quod est
+            tran<lb ed="#V" n="69" break="no"/>sitiuum cum hoc accusatiuo fforem, &amp; talia neutra
+            con<lb ed="#V" n="70" break="no"/>strui possunt cum ablatiuo significante terminum, in quem
+            <lb ed="#V" n="71"/>transit verbum transitiuum inclusum in eis, non ergo
+            di<lb ed="#V" n="72" break="no"/>cit actionem transeuntem in accusatiuum expressum, sed
+            <lb ed="#V" n="73"/>in accusatiuum inclusum, &amp; ideo non est simile de forere,
+            <lb ed="#V" n="74"/>&amp; de rubere. Et ista est alia responsio a prima, &amp; secundum
+            <lb ed="#V" n="75"/>istam negaretur antecedens primi argumenti secundo
+            lo<cb ed="#V" n="b"/><lb ed="#V" n="76" break="no"/>co facti scilicet quod florere non sit florem emittere, &amp; dicitur in
+            ca<lb ed="#V" n="77" break="no"/>su illo posito ibi quod talis arbor non floreret, sed esset
+            fo<lb ed="#V" n="78" break="no"/>rid a vel florigera. Adargumenta tertio loco facta dicitur.
+          </p>
+          <p xml:id="capsco-a2l214-d1e1307">
+            <lb ed="#V" n="79"/>Ad primum quidem negando maiorem ibi positam per
+            mo<lb ed="#V" n="80" break="no"/>dum regulae, non enim est ista mens Sanctus Thomas quod, scilicet tunc
+            <lb ed="#V" n="81"/>actus includat determinatum effectum quando
+            denomi<lb ed="#V" n="82" break="no"/>natur ab illo vel econtra, sed intelligit quod tunc in intellectu
+            <lb ed="#V" n="83"/>actus includitur determinatus effectus quando verbum
+            il<lb ed="#V" n="84" break="no"/>lud simul importat effectum &amp; emissionem illius effectus,
+            <lb ed="#V" n="85"/>sicut frequenter allegaui quomodo differt diligere &amp;
+            spi<lb ed="#V" n="86" break="no"/>rare: quia spirare dicit solam emissionem actus amoris,
+            <lb ed="#V" n="87"/>sed diligere dicit actum amoris &amp; emissionem eius: vnde
+            <lb ed="#V" n="88"/>includit actionem &amp; eius terminum vel effectum, non
+            au<lb ed="#V" n="89" break="no"/>tem spirare vel generare aut producere, quod in hoc
+            co<lb ed="#V" n="90" break="no"/>gnoscitur: quia ad ly spirare conuenienter additur effectus
+            <lb ed="#V" n="91"/>eius scilicet spiritus dicendo, pater spirat spiritum, &amp;
+            conuenien<lb ed="#V" n="92" break="no"/>ter dicitur, Pater generat verbum, immo nec aliter est
+            sen<lb ed="#V" n="93" break="no"/>sus perfectus. Sed ad ly diligit, non conuenienter additur
+            <lb ed="#V" n="94"/>effectus importatus, scilicet amor, vt dicatur, diligit
+            amo<lb ed="#V" n="95" break="no"/>rem, cum enim dicitur diligit, intelligitur quod amorem
+            produ<lb ed="#V" n="96" break="no"/>cit. Item non oportet dicere, pater dicit verbum: quia in
+            di<lb ed="#V" n="97" break="no"/>cere intelligitur producere verbum, potest dici tamen
+            pa<lb ed="#V" n="98" break="no"/>ter diligit creaturam spiritu, &amp; dicit creaturam verbo, ita
+            <lb ed="#V" n="99"/>quod diligere &amp; dicere regunt accusatiuum, qui non designat
+            <lb ed="#V" n="100"/>effectum illarum actionum, sed accusatiuum designantem
+            <lb ed="#V" n="101"/>rem, ad quam talis effectus habet habitudinem, oppositum
+            <lb ed="#V" n="102"/>autem est de his verbis spirare, &amp; generare, signum est quod
+            <lb ed="#V" n="103"/>diligere, &amp; dicere includunt in se determinatos effectus,
+            <lb ed="#V" n="104"/>non sic generare &amp; spirare, sed solum emissionem illorum.
+          </p>
+          <p xml:id="capsco-a2l214-d1e1366">
+            <lb ed="#V" n="105"/>Ad secundum dicitur, quod aedificare non incliidit in suo
+            <lb ed="#V" n="106"/>intellectu aedificium, sed aedificationem, nec producere
+            pro<lb ed="#V" n="107" break="no"/>ductum, sed productionem, quod patet ex hoc quod
+            tali<lb ed="#V" n="108" break="no"/>bus verbis aedificare producere conuenienter, immo
+            neces<lb ed="#V" n="109" break="no"/>sario ad habendum perfectum sensum additur
+            accausati<lb ed="#V" n="110" break="no"/>uus significans effectum actionis in generali vel in
+            specia<lb ed="#V" n="111" break="no"/>li, vt cum dicitur, aedificator aedificat aedificium vel
+            pala<lb ed="#V" n="112" break="no"/>cium, producens producit productum vel ignem, secus est
+            <lb ed="#V" n="113"/>de hoc quod dico diligere vel dicere. Et enim si dicatur,
+            pa<lb ed="#V" n="114" break="no"/>ter dicit verbum, idem importatur per ly dicere, quod
+            pa<lb ed="#V" n="115" break="no"/>tet cum dicimus, pater dicit creaturam in qua locutione
+            ly<lb ed="#V" n="116" break="no"/>dicit importat producere verbum, quod viterius habet
+            ha<lb ed="#V" n="117" break="no"/>bitudinem repraesentatiui ad creaturas.
+          </p>
+          <p xml:id="capsco-a2l214-d1e1397">
+            Ad argumenta
+            quar<lb ed="#V" n="118" break="no"/>to loco facta dico, quod non ponimus duos amores
+            secun<lb ed="#V" n="119" break="no"/>dum rem in diuinis, sed vnum amorem, qui absolute
+            con<lb ed="#V" n="120" break="no"/>ceptus est essentialis. Idem autem sub relatione quadam
+            di<lb ed="#V" n="121" break="no"/>citur personalis, &amp; ideo potest dici duo secundum rationem,
+            <lb ed="#V" n="122"/>&amp; tunc ad primum argumentum conceditur maior &amp;
+            mi<lb ed="#V" n="123" break="no"/>nor, sed consequentia nulla est, non enim sequitur, si diuinitas
+            <lb ed="#V" n="124"/>est eadem cum persona, quod si nullo modo diuinitas
+            mul<lb ed="#V" n="125" break="no"/>tiplicatur secundum rem quod nullo modo persona
+            mul<lb ed="#V" n="126" break="no"/>tiplicetur secundum rem, multo minus valet consequentia,
+            <lb ed="#V" n="127"/>si diuinitas, &amp; amor sunt idem secundum rem, quod vno
+            <lb ed="#V" n="128"/>secundum rationem non multiplicato aliud non
+            multi<lb ed="#V" n="129" break="no"/>plicetur secundum rationem, cuius causa est: quia essentia
+            <lb ed="#V" n="130"/>secundum rationem suam non potest tam multipliciter
+            con<lb ed="#V" n="131" break="no"/>cipi quam amor, qui potest concipi vt operatio, &amp; vt
+            for<lb ed="#V" n="132" break="no"/>ma quae est principium operationis sicut habitus, &amp; potest
+            <lb ed="#V" n="133"/>concipi vt subsistens, &amp; ideo amor dicitur tripliciter in
+            di<lb ed="#V" n="134" break="no"/>uinis, non autem essentia.
+          </p>
+          <p xml:id="capsco-a2l214-d1e1436">
+            Ad secundum dico, quod amor
+            <lb ed="#V" n="135"/>essentialis, &amp; amor subsistens qui est persona Spiritus
+            san<lb ed="#V" n="136" break="no"/>cti non dist inguuntur nisi ratione, nec tamen sequitur quod
+            <lb ed="#V" n="137"/>spiritus sanctus sit magis infinitus aut perfectus quam
+            pa<lb ed="#V" n="138" break="no"/>ter: quia licet amor absolute sumptus dicat perfectionem
+            <lb ed="#V" n="139"/>simpliciter &amp; quid infinitum, tamen amor subsistens, qui
+            <lb ed="#V" n="140"/>non est aliud secundum rem quam amor absolutus cum
+            re<lb ed="#V" n="141" break="no"/>latione non dicit ex parte relationis aliquam perfectionem,
+            <lb ed="#V" n="142"/>nec aliquam quantitatem, cum ex illa parte non ponat
+            ali<lb ed="#V" n="143" break="no"/>quid in eo, de quo dicitur. Nec iterum ex parte absoluti
+            di<lb ed="#V" n="144" break="no"/>cit aliquam perfectionem a seipso: vnde amor subsistens
+            <lb ed="#V" n="145"/>non addit perfectionem secundum rem, nec secundum
+            ra<lb ed="#V" n="146" break="no"/>tionem ad perfectionem amoris essentialis. In diuinis enim
+            <lb ed="#V" n="147"/>perfectio cum dicat absolutum attenditur secundum
+            com<lb ed="#V" n="148" break="no"/>munem essentiam, &amp; non secundum relationes, &amp; ideo non
+            <lb ed="#V" n="149"/>sequitur quod si spiritus sanctus habeat in se amore
+            esen<lb ed="#V" n="150" break="no"/>tialem &amp; amorem subsistentem, quod ideo sit perfectior vel
+            <pb ed="#V" n="443"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>infinitior patre, aut filio.
+          </p>
+          <p xml:id="capsco-a2l214-d1e1481">
+            Ad argumenta quinto loco
+            fa<lb ed="#V" n="2" break="no"/>cta dicitur, &amp; primo ad primum negatur minor. Dico enim quod
+            <lb ed="#V" n="3"/>amor personalis differt secundum intelligere rationem ab
+            <lb ed="#V" n="4"/>essentia, &amp; ideo non est inconueniens quod ex illa parte,
+            <lb ed="#V" n="5"/>qua differt sibi conueniat produci, subsistenti enim conuenit
+            <lb ed="#V" n="6"/>produci vel producere, &amp; praesertim incommunicabili, &amp;
+            <lb ed="#V" n="7"/>distincto in diuinis, hoc autem non conuenit nisi
+            relatio<lb ed="#V" n="8" break="no"/>ni subsistenti: quia nihil in diuinis est distinctum a
+            produ<lb ed="#V" n="9" break="no"/>cente, nec incommunicabile nisi relatio subsistens. Ad
+            se<lb ed="#V" n="10" break="no"/>cundum maior conceditur, sed minor negatur, scilicet quod
+            <lb ed="#V" n="11"/>proprietas Spiritus sancti non sit ipse amor subsistens. Ad
+            <lb ed="#V" n="12"/>tertium dicitur, quod cum dicitur quod Spiritus sanctus est
+            <lb ed="#V" n="13"/>amor procedens, intelligitur vera productio, &amp;
+            concedi<lb ed="#V" n="14" break="no"/>tur quod amor procedens vere capit esse, dicit enim amorem
+            <lb ed="#V" n="15"/>cum relatione subsistenti, cui competit produci, non tamen
+            <lb ed="#V" n="16"/>sequitur quod essentia vel diuinitas producatur: quia
+            di<lb ed="#V" n="17" break="no"/>uinitas non dicit aliquid ex parte cuius sibi possit
+            conue<lb ed="#V" n="18" break="no"/>nire productio sicut amor personalis. Et sic primus
+            arti<lb ed="#V" n="19" break="no"/>culus terminatur.
+          </p>
+        </div>
+        <div xml:id="capsco-a2l214-Dd1e1524">
+          <head xml:id="capsco-a2l214-Hd1e1526">Articulus 2</head>
+          <p xml:id="capsco-a2l214-d1e1528">
+            <lb ed="#V" n="20"/><milestone ed="#V" unit="p" rend="initial"/> Vantum ad secundum artic. sit prima conclusio.
+            Pa<lb ed="#V" n="21" break="no"/>ter licet omnia videat in sapientia genita vel verbo,
+            <lb ed="#V" n="22"/>non tamen est sapiens sapientia genita vel verbo. Istam
+            pro<lb ed="#V" n="23" break="no"/>bat Sanctus Thomas 1. sent. dist. 32. q. 2. artic. 1. Et quo ad primam
+            <lb ed="#V" n="24"/>partem sic ait ad tertium. Videre (inquit) in aliquo
+            dici<lb ed="#V" n="25" break="no"/>tur dupliciter, aut quia cognitionem in eo accipit sicut
+            in<lb ed="#V" n="26" break="no"/>tellectus accipit scientiam in sensibilibus, vel intellectus
+            <lb ed="#V" n="27"/>possibilis in lumine intellectus agentis, vel discipulus in
+            <lb ed="#V" n="28"/>verbo magistri dicto vel scripto. Aut secundo modo rem
+            <lb ed="#V" n="29"/>cognitam in aliquo repraesentatam intueri, vel
+            repraesen<lb ed="#V" n="30" break="no"/>tando intueri, sicut aedificator videt artem suam in domo
+            <lb ed="#V" n="31"/>quam facit, vel sicut aliquid videt illud, quod scit in libus vbi
+            <lb ed="#V" n="32"/>scriptum est, primo modo ergo pater nihil videt in filio:
+            <lb ed="#V" n="33"/>quia non accipit cognitionem a filio, sed secundo modo scilicet
+            <lb ed="#V" n="34"/>quod ipse rationes omnium creaturarum in verbo suo posuit
+            <lb ed="#V" n="35"/>ipsum generando, sicut autem praedicto modo creaturam
+            <lb ed="#V" n="36"/>in verbo videt, quae ibi relucet, multo magis in verbo se
+            vi<lb ed="#V" n="37" break="no"/>det &amp; perfectissime in verbo suo repraesentatur, &amp; sic etiam
+            <lb ed="#V" n="38"/>non est inconueniens, quod per modum istum in creatura se
+            <lb ed="#V" n="39"/>videat, quae ipsius diuinae bonitatis repraesentatiua est per
+            <lb ed="#V" n="40"/>imaginem vel vestigium. Haec ille.
+          </p>
+          <p xml:id="capsco-a2l214-d1e1577">
+            Sed pro secunda parte
+            <lb ed="#V" n="41"/>probat eam sic. Quamuis( inquit) pater dicat se verbo suo,
+            <lb ed="#V" n="42"/>nullo tamen modo concedendum est, quod sit sapiens
+            sapien<lb ed="#V" n="43" break="no"/>tia genita, &amp; hoc propter diuersum modum significandi in
+            <lb ed="#V" n="44"/>vtroque, verbum enim significat per modum operationis,
+            <lb ed="#V" n="45"/>quae denominat illud, a quo progreditur scilicet operantem.
+            Vn<lb ed="#V" n="46" break="no"/>de pater denominatur verbo genito, sicut &amp; diligens
+            amo<lb ed="#V" n="47" break="no"/>re procedente, sed sapientia significatur per modum formae
+            <lb ed="#V" n="48"/>manentis in eo, cuius est. Vnde non potest aliquis
+            denomi<lb ed="#V" n="49" break="no"/>nari sapiens nisi per illud, quod in ipso est, quicquid autem
+            <lb ed="#V" n="50"/>significatur esse in aliquo, per modum formae vel
+            substan<lb ed="#V" n="51" break="no"/>tialis vel accidentalis significatur, vt principium alicuius
+            <lb ed="#V" n="52"/>in ipso: quia forma substantialis est principium
+            substantia<lb ed="#V" n="53" break="no"/>lis esse, &amp; accidentalis dat aliquod esse scilicet accidentale, &amp;
+            vtrun<lb ed="#V" n="54" break="no"/>que principium est operationis eius, in quo est, cum autem
+            <lb ed="#V" n="55"/>filius nullam rationem principij habeat respectu patris, non
+            <lb ed="#V" n="56"/>potest dici quod pater sapientia genita sapiens sit, nec filio
+            <lb ed="#V" n="57"/>Haec ille.
+          </p>
+          <p xml:id="capsco-a2l214-d1e1616">
+            Secunda conclusio. Filius potest dici sapiens
+            sa<lb ed="#V" n="58" break="no"/>pientia genita, &amp; sapientia ingenita. Istam ponit ibidem
+            <lb ed="#V" n="59"/>Sanctus Thomas artic. 2. Et primam partem probat sic. Istae duae
+            <lb ed="#V" n="60"/>(inquit) praepositiones a &amp; per in hoc differunt, quod a tantum
+            <lb ed="#V" n="61"/>designat habitudinem principij per modum efficientis, sed
+            <lb ed="#V" n="62"/>per designat habitudinem secundum quodlibet genus
+            cau<lb ed="#V" n="63" break="no"/>sae: vnde omne quod est ab aliquo, est per illud, sed non
+            con<lb ed="#V" n="64" break="no"/>uertitur. In diuinis autem non potest esse habitudo
+            nis<lb ed="#V" n="65" break="no"/>secundum duplex genus causae, quarum vna tantum est
+            <lb ed="#V" n="66"/>realis scilicet per modum causae efficientis vel originantis, sicut
+            <lb ed="#V" n="67"/>principium dicitur filij. Alia vero habitudo principij potest
+            <lb ed="#V" n="68"/>designari in diuinis secundum rationem tantum &amp; non
+            rea<lb ed="#V" n="69" break="no"/>liter, scilicet habitudo formae, vt cum dicitur, quod pater est
+            <lb ed="#V" n="70"/>Deus per diuinitatem. Cum ergo dicitur quod filius est
+            sa<lb ed="#V" n="71" break="no"/>piens sapientia genita, ablatiuus iste non potest construi
+            <lb ed="#V" n="72"/>nisi in habitudine causae efficientis, &amp; sic falsa est, &amp; est eius
+            <lb ed="#V" n="73"/>sensus, quod filius sit sapiens, a sapientia genita, &amp; sit ita
+            sa<lb ed="#V" n="74" break="no"/>piens a seipso, quod falsum est: quia sicut esse, ita &amp; sapere
+            <lb ed="#V" n="75"/>habet a parte, qui sapientia ingenita est: vnde dicitur per
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="76"/>modum istum sapiens a sapientia ingenita, vel per
+            sapien<lb ed="#V" n="77" break="no"/>tiam ingenitam, si per designet habitudinem principij
+            ef<lb ed="#V" n="78" break="no"/>ficicntis, &amp; similiter sapientia ingenita non a seipso, vel per
+            <lb ed="#V" n="79"/>seipsum, vel seipso sapiens. Aut construitur in habitudine
+            <lb ed="#V" n="80"/>quasi principij formalis, hoc autem contingit dupliciter:
+            <lb ed="#V" n="81"/>quia quod sequitur formam alicuius rei potest esse per
+            il<lb ed="#V" n="82" break="no"/>lam formam, sicut homo dicitur intelligere per animam, vel
+            <lb ed="#V" n="83"/>per habentem formam, sicut dicitur quod homo per se est
+            ra<lb ed="#V" n="84" break="no"/>tionalis: quia per illud, quod est de essentia sua scilicet per animam
+            <lb ed="#V" n="85"/>rationalem, per se enim secundum Philosophum 5. Metaphys.
+            <lb ed="#V" n="86"/>significat illud quod est per essentiam rei, si igitur
+            conside<lb ed="#V" n="87" break="no"/>retur illud, quo formaliter filius est sapiens, hoc est sapictia
+            <lb ed="#V" n="88"/>essentialis, quae neque genita, neque ingenita est, &amp; sic
+            per<lb ed="#V" n="89" break="no"/>eam &amp; ea sapiens dicitur, sed nullo modo ab ea: quia
+            essen<lb ed="#V" n="90" break="no"/>tia non generat. Si consideretur autem habens illam
+            for<lb ed="#V" n="91" break="no"/>mam, quae est hypostasis filij, quae etiam sapientia ingenita
+            <lb ed="#V" n="92"/>dicitur, sic per sapientiam genitam, vel per se capiens dicitur,
+            <lb ed="#V" n="93"/>vel seipso. Secundam partem probat sic. Filius (inquit) est
+            <lb ed="#V" n="94"/>sapiens sapientia ingenita, si ablatiuus construatur in
+            habi<lb ed="#V" n="95" break="no"/>tudine quasi principij efficientis, non autem si construatur
+            <lb ed="#V" n="96"/>in habitudine quasi principij formalis, immo sic sapientia
+            <lb ed="#V" n="97"/>essentiali sapiens est vel seipso. Haec ille.
+          </p>
+          <p xml:id="capsco-a2l214-d1e1707">
+            Sed contra
+            secun<lb ed="#V" n="98" break="no"/>dam partem primae conclusionis arguit Aureolus primo sic
+            <lb ed="#V" n="99"/>Ait Augustinus de Trini. cap. 1. contra haereticum, quod si
+            aliquan<lb ed="#V" n="100" break="no"/>do fuit pater, quando non fuit filius, sequitur quod aliquando
+            <lb ed="#V" n="101"/>fuit pater sine virtute, &amp; sapientia: quia dicit Apostolus
+            <lb ed="#V" n="102"/>Christum Dei virtutem, &amp; Dei sapientiam, hoc autem
+            ar<lb ed="#V" n="103" break="no"/>gumentum non teneret, nisi aliquo modo, &amp; in aliqua
+            habi<lb ed="#V" n="104" break="no"/>tudine verbum ad Dei sapientiam pertineret. ergo videtur
+            <lb ed="#V" n="105"/>quod aliquo modo ad sapientiam patris pertineat. Nec
+            v<lb ed="#V" n="106" break="no"/>let si dicatur, quod Augusinu loquitur de sapientia essentiali: quia
+            <lb ed="#V" n="107"/>secundum hoc nihil probaret de coaeternitate filij Augustnus qua
+            <lb ed="#V" n="108"/>tamen probare intendit. Secundo sic. Res posita in esse
+            ap<lb ed="#V" n="109" break="no"/>parenti &amp; obiectiuo facit ad intellectionem, &amp; sapientiam
+            <lb ed="#V" n="110"/>actualem, impossibile enim est imaginari sapientiam vel
+            intel<lb ed="#V" n="111" break="no"/>ligentiam actualem sine sapientia vel intelligentia
+            obiecti<lb ed="#V" n="112" break="no"/>ua, sed verbum in diuinis procedit per modum
+            intelligen<lb ed="#V" n="113" break="no"/>tiae obiectiue, est enim quid positum in diuinis in esse
+            conspicuo<lb ed="#V" n="114" break="no"/>&amp; apparenti. ergo verbum aliquid facit ad intellectionem
+            <lb ed="#V" n="115"/>&amp; sapientiam Dei patris, immo ad intelligentiam diuinam
+            <lb ed="#V" n="116"/>in, quacunque persona. Tertio sic. Non minus dilectio
+            de<lb ed="#V" n="117" break="no"/>nominatur per modum formae manentis in eo cuius est
+            <lb ed="#V" n="118"/>forma quam sapientia: nam diligere est operatio manens
+            <lb ed="#V" n="119"/>in agente sicut sapere, &amp; hoc non obstante diligere habet
+            <lb ed="#V" n="120"/>aliquam habitudinem ad ipsum patrem, vt concedatur,
+            <lb ed="#V" n="121"/>quod pater diligit se Spiritu sancto. igitur verbum habebit
+            <lb ed="#V" n="122"/>aliquam habitudinem ad sapere, vel intelligere in diuinis
+            <lb ed="#V" n="123"/>Nec valet si dicatur, quod diligere notionaliter teneatur,
+            <lb ed="#V" n="124"/>non valet inquam: quia non conceditur, quod pater
+            Spi<lb ed="#V" n="125" break="no"/>ritu sancto se spiret, &amp; tamen conceditur quod Spiritus
+            <lb ed="#V" n="126"/>sanctus se diligit.
+          </p>
+          <p xml:id="capsco-a2l214-d1e1773">
+            Ad primum istorum respondet Sanctus Thomas
+            <lb ed="#V" n="127"/>1. sent. dist. 32. q. 2. artic. 1. ad secundum dicens. Quia Augustinus
+            <lb ed="#V" n="128"/>in illa ratione contra haereticum accipit essentialem
+            sapien<lb ed="#V" n="129" break="no"/>tiam sine qua pater sapiens non esset: vnde oportet filium
+            <lb ed="#V" n="130"/>patri coaeternum esse, sicut &amp; sapientiam secundum quod
+            <lb ed="#V" n="131"/>filio ab Apostolo appropriata est, quae tamen ab aeterno
+            ap<lb ed="#V" n="132" break="no"/>propriata non esset, si filius non esset: vnde oportet filium
+            <lb ed="#V" n="133"/>patri coaeternum esse, sicut &amp; sapientiam filio appropriatam.
+            <lb ed="#V" n="134"/>Haec ille. Ex quibus patet ad argumentum.
+          </p>
+          <p xml:id="capsco-a2l214-d1e1793">
+            Ad secundum
+            <lb ed="#V" n="135"/>dico, quod fundatur in falso scilicet quod intellectus ponat res
+            <lb ed="#V" n="136"/>in esse apparenti, quod non habet res in rerum natura, nec
+            <lb ed="#V" n="137"/>in aliqua conceptione intellectus, hoc enim alias saepius
+            nega<lb ed="#V" n="138" break="no"/>tum fuit. Verumtamen loco illius apparentiae nos
+            poni<lb ed="#V" n="139" break="no"/>mus verbum, &amp; tunc dico quod verbum aut conceptio,
+            <lb ed="#V" n="140"/>quam format intelligens nihil facit ad intellectionem
+            actua<lb ed="#V" n="141" break="no"/>lem, non enim est producens eam, nec ratio productiua,, sed
+            <lb ed="#V" n="142"/>est eius terminus, &amp; isto modo concedo, quod se habet,
+            fi<lb ed="#V" n="143" break="no"/>lius Dei ad sapere paternum, sed hoc non est contra
+            con<lb ed="#V" n="144" break="no"/>clusionem, in ea enim solum negatur, quod sapientia genita
+            <lb ed="#V" n="145"/>in forma eliciens intellectionem patris: vel sic intellectio
+            <lb ed="#V" n="146"/>actualis, qua pater actualiter intelligit. Ita non habet vicem
+            <lb ed="#V" n="147"/>actus aut habitus patri vt intelligat, licet sit terminus
+            in<lb ed="#V" n="148" break="no"/>tellectionis vt est in parte, scilicet dictionis paternae, quae non
+            <lb ed="#V" n="149"/>aliud est quam intellectio sub tali relatione scilicet paternitatis
+            <lb ed="#V" n="150"/>Ad tertium negatur maior, dilectio enim significatur per
+            mo<pb ed="#V" n="444"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>dum actus egredientis a supposito, non autem sapientia,
+            <lb ed="#V" n="2"/>vt dictum est prius, diligere enim vel dilectio si gnificatur
+            pe<lb ed="#V" n="3" break="no"/>modum actionis, actio autem inquantum huiusmodi non
+            <lb ed="#V" n="4"/>se habet per modum formae. sed per modum egredientis ab
+            <lb ed="#V" n="5"/>agente, sapientia vero significatur per modum formae, &amp;
+            <lb ed="#V" n="6"/>immanentis in co, cuius est, concedo tamen quod aeque
+            dile<lb ed="#V" n="7" break="no"/>dio patris immanet sibi sicut sapientia, sed ad veritatem
+            <lb ed="#V" n="8"/>propositionum non solum attendenda est rei existentia, sed
+            <lb ed="#V" n="9"/>modus quo res significatur secundum quod ipse dicit 1. parte
+            <lb ed="#V" n="10"/>q. 32. artic. 4. Et si contra arguatur quod saltem poterit
+            di<lb ed="#V" n="11" break="no"/>ci, quod pater intelligit filio: quia intellectio significatur per
+            <lb ed="#V" n="12"/>modum egredientis, &amp; per modum actionis. Detur
+            respon<lb ed="#V" n="13" break="no"/>sio quam recitat arguens scilicet quod intelligere non sumitur
+            <lb ed="#V" n="14"/>in diuinis nisi essentialiter, &amp; nunquam notionaliter, aut
+            <lb ed="#V" n="15"/>personaliter, secus est de diligere, quod quandoque tenetur
+            <lb ed="#V" n="16"/>sic, quandoque aliter, quod facit nominum penuria,
+            secun<lb ed="#V" n="17" break="no"/>dum enim quod dicit Sanctus Thomas 1. parte. q. 37. artic. 1. Ex parte
+            in<lb ed="#V" n="18" break="no"/>tellectus sunt inuenta vocabula ad significandum
+            respe<lb ed="#V" n="19" break="no"/>ctum intelligentis ad rem intellectam, vt patet in hoc quod
+            <lb ed="#V" n="20"/>dico intelligere, &amp; sunt etiam alia vocabula adinuenta ad
+            <lb ed="#V" n="21"/>significandum processum intellectualis conceptionis scilicet
+            ip<lb ed="#V" n="22" break="no"/>sum dicere, &amp; verbum: vnde in diuinis intelligere solum
+            <lb ed="#V" n="23"/>dicitur essentialiter: quia non importat habitudinem
+            prin<lb ed="#V" n="24" break="no"/>cipij verbi ad ipsum verbum, ex parte autem voluntatis
+            <lb ed="#V" n="25"/>praeter diligere &amp; amare, quae important habitudinem ipsius
+            <lb ed="#V" n="26"/>impressionis, vel affectionis rei amatae, quae prouenit in
+            <lb ed="#V" n="27"/>amante ex hoc quod amat ad suum principium, &amp; econtra, &amp;
+            <lb ed="#V" n="28"/>ideo propter vocabulorum inopiam huiusmodi
+            habitudi<lb ed="#V" n="29" break="no"/>nes significamus vocabulis amoris, &amp; dilectionis, sicut si
+            <lb ed="#V" n="30"/>verbum nominaret sapientiam conceptam vel genitam.
+            <lb ed="#V" n="31"/>Haec ille.
+          </p>
+          <p xml:id="capsco-a2l214-d1e1900">
+            Et cum arguit aduersarius in oppositum: quia non
+            <lb ed="#V" n="32"/>conceditur quod pater se spiret Spiritu sancto, licet
+            conce<lb ed="#V" n="33" break="no"/>datur quod diligit se Spiritu sancto. Concedo totum, sed hoc
+            <lb ed="#V" n="34"/>non est ideo: quia diligere notionaliter sumptum sit idem
+            <lb ed="#V" n="35"/>quod spirare, sed propter alium modum significandi
+            vtrius<lb ed="#V" n="36" break="no"/>que: quia spirare dicit habitudinem principij respectu
+            ac<lb ed="#V" n="37" break="no"/>cusatiui quem regit, non autem diligere, vt dictum fuit
+            su<lb ed="#V" n="38" break="no"/>perius in quinta conclusione, &amp; ideo diligere potest
+            refse<lb ed="#V" n="39" break="no"/>cti super vnum principium dicendo, pater diligit se etiam
+            <lb ed="#V" n="40"/>notionaliter sumendo, non autem spirare vt dicatur,
+            pa<lb ed="#V" n="41" break="no"/>ter spirat se.
+          </p>
+          <p xml:id="capsco-a2l214-d1e1924">
+            Ad argumentum in pede quaestionis factum
+            <lb ed="#V" n="42"/>patet responsio per praedicta. Sciendum tamen quod Sanctus Thomas
+            <lb ed="#V" n="43"/>in scripto dicit, quod in hac locutione, pater diligit se Spiritu
+            <lb ed="#V" n="44"/>sancto, est denominatio agentis a sua actione. Sed in
+            pri<lb ed="#V" n="45" break="no"/>ma parte dicit, quod est denominatio non ab actione, sed ab
+            <lb ed="#V" n="46"/>effectu, vbi videtur esse aliqua contradictio. Sed credo quod
+            <lb ed="#V" n="47"/>non est: quia enim Spiritus sanctus procedit per modum
+            amo<lb ed="#V" n="48" break="no"/>ris, qui videtur dicere quandam actualem operationem,
+            <lb ed="#V" n="49"/>ideo dicit in scripto, quod denominatio a Spiritu sancto
+            <lb ed="#V" n="50"/>est denominatio ab actu vel actione, sed quia amor dum
+            <lb ed="#V" n="51"/>dicitur de spiritu sancto non dicit actualem operationem,
+            <lb ed="#V" n="52"/>qua formaliter pater agat vel producat, sed stat potius
+            pro<lb ed="#V" n="53" break="no"/>aliqua impressione producta per actum amoris, ideo in
+            <lb ed="#V" n="54"/>1. parte dicit, quod talis denominatio est ab effectu actionis
+            <lb ed="#V" n="55"/>potius quam ab actione, nominum enim penuria est causa, quod
+            <lb ed="#V" n="56"/>isto nomine quandoque vtamur pro actu voluntatis,
+            quan<lb ed="#V" n="57" break="no"/>doque vero pro termino constituto per illum actum, ac si
+            <lb ed="#V" n="58"/>intellectio quandoque staret pro actu intellectus,
+            quan<lb ed="#V" n="59" break="no"/>doque pro verbo eius. Et haec de quaestione sufficiant.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

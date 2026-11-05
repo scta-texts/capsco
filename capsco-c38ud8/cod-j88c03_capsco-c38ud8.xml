@@ -1,0 +1,608 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 3, Distinctio 12, Quaestio 1</title>
+        <author ref="#JohannesCapreolus">Johannes Capreolus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 3, Distinctio 12, Quaestio 1</title>
+          <date when="2026-11-04">Nov 4, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-j88c03">Venice, 1589, v. 3</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-04" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="91"/>
+        <cb ed="#V" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="capsco-c38ud8"><!-- l3d12q1 -->
+        <head xml:id="capsco-c38ud8-Hd1e101">Quaestio 1</head>
+        <head xml:id="capsco-c38ud8-Hd1e103" type="question-title">Utrum Christus potuerit peccare</head>
+        <p xml:id="capsco-c38ud8-d1e106">
+          <lb ed="#V" n="131"/>DISTTICTIO. XII.
+          <lb ed="#V" n="132"/>QVAESTIO. VNICA.
+          <lb ed="#V" n="133"/>Vtrum Christus potuerit peccare.
+        </p>
+        <p xml:id="capsco-c38ud8-d1e115">
+          <lb ed="#V" n="134"/><milestone ed="#V" unit="p" rend="initial"/> CIRCA duodecimam distinctionem
+          <lb ed="#V" n="135"/>tertii sententiarum quaeritur Vtrum
+          <lb ed="#V" n="136"/>Christus potuerit peccare,
+        </p>
+        <p xml:id="capsco-c38ud8-d1e125">
+          &amp; arguitur
+          <lb ed="#V" n="137"/>quod sic. Quia dicitur a Christo. lo. 7. S
+          <lb ed="#V" n="138"/>dixero quia non noui eum. ero similis
+          <lb ed="#V" n="139"/>vobis mendax, sed potuit illa verba
+          di<lb ed="#V" n="140" break="no"/>cere sine additione, sicut cum
+          additio<lb ed="#V" n="141" break="no"/>ne dicit, ergo potuit mentiri, ergo potuit peccare.
+        </p>
+        <p xml:id="capsco-c38ud8-d1e139">
+          <lb ed="#V" n="142"/><milestone ed="#V" unit="p" rend="indent"/> In oppositum arguitur. Quicquid ille homo fecit,
+          po<lb ed="#V" n="143" break="no"/>test dici Deus fecisse, si ergo ille homo peccasset,
+          seque<lb ed="#V" n="144" break="no"/>retur quod Deus peccasset, quod est impossibile
+        </p>
+        <p xml:id="capsco-c38ud8-d1e149">
+          <pb ed="#V" n="92"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/><milestone ed="#V" unit="p" rend="indent"/> I hac quaestione sunt tres articuli. In primo ponentur
+          <lb ed="#V" n="2"/>conclusiones. In secundo obiectiones. In tertio
+          solu<lb ed="#V" n="3" break="no"/>tiones.
+        </p>
+        <div xml:id="capsco-c38ud8-Dd1e163">
+          <head xml:id="capsco-c38ud8-Hd1e165">Articulus 1</head>
+          <p xml:id="capsco-c38ud8-d1e167">
+            <lb ed="#V" n="4"/><milestone ed="#V" unit="p" rend="initial"/> Vantum ad primum articulum sit prima conclusio.
+            <lb ed="#V" n="5"/>Simpliciter loquendo Christus nullo modo potuit
+            <lb ed="#V" n="6"/>peccare. Hanc conclusionem ponit Sanctus Thomas tertio
+            sen<lb ed="#V" n="7" break="no"/>ten. dist. 12. q. 2. ar. 1. vbi sic dit. Simpliciter loquendo
+            dicen<lb ed="#V" n="8" break="no"/>dum est, quod Christus nullo modo peccare potuit, vnde
+            <lb ed="#V" n="9"/>Damastdicit in tertio libro quod impeccabilis est Deus
+            Ie<lb ed="#V" n="10" break="no"/>sus Christus. Potest enim considerari vt viator, &amp; vt
+            com<lb ed="#V" n="11" break="no"/>prehensor, vt Deus. Vt viator quidem dux noster est
+            diri<lb ed="#V" n="12" break="no"/>gens nos secundum viam rectam. In quolibet autem
+            genc<lb ed="#V" n="13" break="no"/>re oportet primum regulans retorqueri non posse, quia
+            a<lb ed="#V" n="14" break="no"/>lias esset error in omnibus, quae ad ipsum regulartur. Et
+            <lb ed="#V" n="15"/>ideo ipse Christus tantam gratiae plenitudinem habuit, vt
+            <lb ed="#V" n="16"/>etiam inquantum viator peccare non posset. Vnde etiam
+            <lb ed="#V" n="17"/>&amp; illi qui proximi sibi fuerunt confirmati vt Apostoli etiam
+            <lb ed="#V" n="18"/>viatores existentes peccare mortaliter non potuerunt
+            quan<lb ed="#V" n="19" break="no"/>uis potuerunt peccare venialiter, secundum vero quod fuit
+            <lb ed="#V" n="20"/>comprehensor, mens eius fuit totaliter coniuncta fini vt
+            age<lb ed="#V" n="21" break="no"/>re non posset nisi secundum ordinem ad finem, sicut in
+            se<lb ed="#V" n="22" break="no"/>cundo lib. dictum est de angelis confirmatis. Secundum
+            au<lb ed="#V" n="23" break="no"/>tem quod fuit Deus anima eius &amp; corpus fuerunt quasi
+            or<lb ed="#V" n="24" break="no"/>ganum diuinitatis, secundum quod diuinitas vt dicit
+            Da<lb ed="#V" n="25" break="no"/>mastregabat animam, &amp; anima corpus, vnde non poterat
+            <lb ed="#V" n="26"/>peccatum attingere ad animam eius, sicut nec Deus potest
+            <lb ed="#V" n="27"/>peccare tamen sub conditione potest concedi, quod
+            pecca<lb ed="#V" n="28" break="no"/>re potuit scilicet si voluisset, quamuis hoc antecedens sit
+            impossibi<lb ed="#V" n="29" break="no"/>bile, quia ad veritatem conditionalis non requiritur neque
+            <lb ed="#V" n="30"/>veritas antecedentis, neque veritas consequentis sed
+            neces<lb ed="#V" n="31" break="no"/>saria habitudo vnius ad alterum. Haec ille.
+          </p>
+          <p xml:id="capsco-c38ud8-d1e231">
+            Item idem arguit
+            <lb ed="#V" n="32"/>sic quia super illud Heb. secundo. Eum qui paulominus &amp;c.
+            <lb ed="#V" n="33"/>dicit glo. quod natura humanae mentis, quam Deus
+            assum<lb ed="#V" n="34" break="no"/>psit, &amp; quae nullo modo deprauari potuit solus Deus maior
+            <lb ed="#V" n="35"/>est, sed quicunque potest peccare, mens eius potest peccato
+            <lb ed="#V" n="36"/>deprauari, ergo Christus non potuit peccare.
+          </p>
+          <p xml:id="capsco-c38ud8-d1e244">
+            Item haec est
+            <lb ed="#V" n="37"/>perfectio naturae glorificatae, vt iam peccare non possit, sed
+            <lb ed="#V" n="38"/>Christus ab instanti suae conceptionis fuit verus
+            compre<lb ed="#V" n="39" break="no"/>hensor, ergo nunquam potuit peccare. Item quicquid fecit
+            <lb ed="#V" n="40"/>ille homo potest dici Deus fecisse &amp;c. vt prius in principio
+            <lb ed="#V" n="41"/>in oppositum.
+          </p>
+          <p xml:id="capsco-c38ud8-d1e257">
+            Secunda conclusio. Christus proprie, &amp;
+            sim<lb ed="#V" n="42" break="no"/>pliciter loquendo non habuit potentiam peccandi. Hanc
+            <lb ed="#V" n="43"/>ponit Sanctus Thomas tertio sent. vbi supra arti. secundo vbi
+            <lb ed="#V" n="44"/>sic dicit. Actus se habet ad potentiam dupliciter, quia actus
+            <lb ed="#V" n="45"/>egreditur a potentia, &amp; iterum per actum specificatur potem
+            <lb ed="#V" n="46"/>tia, &amp; ideo cum dicitur potentia aliquid faciendi vt
+            poten<lb ed="#V" n="47" break="no"/>tia videndi dupliciter intelligitur, quia potest designari vel
+            <lb ed="#V" n="48"/>ordo potentiae ad actum secundum quod actus sumitur vt
+            ef<lb ed="#V" n="49" break="no"/>fectus potentiae, vel designatur potentia ipsa specificata per
+            <lb ed="#V" n="50"/>actum secundum quod actus sumitur loco differentiae
+            spe<lb ed="#V" n="51" break="no"/>cificae ipsius potentiae, &amp; primo modo non potest dici, quod
+            <lb ed="#V" n="52"/>ille qui habet visum impeditum habeat potentiam
+            videndi<lb ed="#V" n="53" break="no"/>sicut non potest dici, quod possit videre, sed secundo
+            mo<lb ed="#V" n="54" break="no"/>do potest dici quod habet potentiam visiuam, haec autem
+            <lb ed="#V" n="55"/>distinctio habet locum in illis actibus, quibus specificantur
+            <lb ed="#V" n="56"/>potentiae, huiusmodi autem sunt actus ad quos potentiae
+            or<lb ed="#V" n="57" break="no"/>dinantur, sed liberum arbitrium non ordinatur ad
+            peccan<lb ed="#V" n="58" break="no"/>dum, immo peccatum incidit ex defectu eius, vnde peccare
+            <lb ed="#V" n="59"/>non specificat potentiam liberi arbitrij. Et ideo cum
+            dici<lb ed="#V" n="60" break="no"/>tur quod aliquis habet potentiam peccandi, non
+            intelligi<lb ed="#V" n="61" break="no"/>tur quod habeat li. art. sed quod habeat ipsum ordinatum
+            <lb ed="#V" n="62"/>ad peccandum, ita vt peccare possit, &amp; ideo sicut de
+            Chri<lb ed="#V" n="63" break="no"/>sto non dicitur quod possit peccare, ita nec quod habet
+            po<lb ed="#V" n="64" break="no"/>tentiam peccandi proprie loquendo &amp; secundum se, sed
+            po<lb ed="#V" n="65" break="no"/>test concedi sub hoc sensu vt dicatur habere potentiam
+            <lb ed="#V" n="66"/>peccandi, quia habet potentiam quae in aliis est potentia
+            <lb ed="#V" n="67"/>peccandi. Haec ille.
+          </p>
+          <p xml:id="capsco-c38ud8-d1e317">
+            Ex quibus potest formari talis ratio. Idem
+            <lb ed="#V" n="68"/>est dicere habere potentiam peccandi &amp; posse peccare, sed
+            <lb ed="#V" n="69"/>Christo non conuenit posse peccare, ergo nec sibi
+            conue<lb ed="#V" n="70" break="no"/>nit habere potentiam peccandi. Item ibidem arguit sic.
+            Po<lb ed="#V" n="71" break="no"/>tentia peccandi secundum Anselmum non est libertas
+            arbi<lb ed="#V" n="72" break="no"/>trij, nec pars libertatis, immo diminuit libertatem, sed in
+            <lb ed="#V" n="73"/>Christo libertas arbitrij non fuit diminuta, ergo ipse non
+            <lb ed="#V" n="74"/>habuit potentiam peccandi. Haec ille. Et in hoc primus
+            arti<lb ed="#V" n="75" break="no"/>culus terminatur
+          </p>
+        </div>
+        <div xml:id="capsco-c38ud8-Dd1e338">
+          <head xml:id="capsco-c38ud8-Hd1e340">Articulus 2</head>
+          <p xml:id="capsco-c38ud8-d1e342">
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="76"/><milestone ed="#V" unit="p" rend="initial"/> QVantum ad secundum articuluni arguitur contra
+            <lb ed="#V" n="77"/>conclusiones. Et quidem contra primam arguit
+            Du<lb ed="#V" n="78" break="no"/>ran. &amp; quidam alii primo. Quia si Christus assumpsisset
+            na<lb ed="#V" n="79" break="no"/>turam humanam in puris naturalibus constitutam
+            potus<lb ed="#V" n="80" break="no"/>set peccare, sed primum potuit, ergo &amp; secundum. Maior
+            <lb ed="#V" n="81"/>vel prima pars antecedentis probatur. Quia potentia quae
+            <lb ed="#V" n="82"/>non est perfectior in ratione actus primi vel in essendo, non
+            <lb ed="#V" n="83"/>est perfectior in ratione actus secundi vel in operando, sed
+            <lb ed="#V" n="84"/>stante praedicta suppositione nulla maior perfectio esset in
+            <lb ed="#V" n="85"/>natura humana in ratione actus primi quam si esset sibi
+            de<lb ed="#V" n="86" break="no"/>relicta, ergo nulla maior psectio esset in ea respectu actus
+            se<lb ed="#V" n="87" break="no"/>cundi vel in operando, sed constat quod natura humana
+            si<lb ed="#V" n="88" break="no"/>bi derelicta potest peccare, ergo sic assumpta peccare
+            posse<lb ed="#V" n="89" break="no"/>Maior patet, quia actus secundus supponit primum, &amp;
+            age<lb ed="#V" n="90" break="no"/>re supponit esse. Minor patet ex suppositione.
+          </p>
+          <p xml:id="capsco-c38ud8-d1e380">
+            Secundo
+            ar<lb ed="#V" n="91" break="no"/>guit sic. Quia si negaretur Christum potuisse peccare, hoc
+            <lb ed="#V" n="92"/>potissime videretur, vel quia actiones sunt suppositorum,
+            <lb ed="#V" n="93"/>in Christo autem non est nisi vnum suppositum scilicet
+            di<lb ed="#V" n="94" break="no"/>uinum, quod nullo modo potest peccare, vel quia
+            humani<lb ed="#V" n="95" break="no"/>tas in Christo fuit instrumentum diuinitatis, modo actio
+            <lb ed="#V" n="96"/>instrumenti magis attribuenda est principali agenti quam
+            <lb ed="#V" n="97"/>instrumento, &amp; constat quod peccare non potest
+            attribui<lb ed="#V" n="98" break="no"/>deitati, sed neutra praedictarum rationum valet, igitur non
+            <lb ed="#V" n="99"/>est negandum quin Christus posset peccare, vel potuisset
+            <lb ed="#V" n="100"/>in casu quo naturam humanam in puris naturalibus
+            assum<lb ed="#V" n="101" break="no"/>psisset. Minor probatur, &amp; primo quo ad primam partem,
+            <lb ed="#V" n="102"/>scilicet quod prima ratio non valeat. Quia cum dicitur quod
+            <lb ed="#V" n="103"/>actiones sunt suppositorum, verum est tanquam eorum
+            <lb ed="#V" n="104"/>quae agunt, nec aliter agere dicuntur, nisi quia sustentant
+            <lb ed="#V" n="105"/>ea quae sunt principia actionum, &amp; hoc modo actio
+            vnius<lb ed="#V" n="106" break="no"/>cuiuscunque naturae in Christo est actio diuini suppositi,
+            <lb ed="#V" n="107"/>tanquam eius quod denominatur agere, quia sistentant
+            <lb ed="#V" n="108"/>naturam, quae est principium actionis. In nullo tamen plus
+            <lb ed="#V" n="109"/>potest imputari supposito diuino vt diuinum est talis actio,
+            <lb ed="#V" n="110"/>quam si non esset vnitum humanitati. Quod patet quia si
+            ei<lb ed="#V" n="111" break="no"/>plus imputaretur propter vnionem, hoc esset aut quia
+            mo<lb ed="#V" n="112" break="no"/>ueraet naturam ad sic agendum, aut quia si non moueret ad
+            <lb ed="#V" n="113"/>peccandum, deberet tamen prohibere &amp; impedire talem
+            <lb ed="#V" n="114"/>actum. His enim duobus modis imputantur homini
+            actio<lb ed="#V" n="115" break="no"/>nes partium corporis sui, neutrum autem istorum est in
+            per<lb ed="#V" n="116" break="no"/>posito. Non primum, quia cum actiones ad extra sint
+            com<lb ed="#V" n="117" break="no"/>munes toti trinitati, non plus mouet naturam humanam
+            <lb ed="#V" n="118"/>ad agendum persona filij, quae est ei vnita quam persona
+            pa<lb ed="#V" n="119" break="no"/>tris, aut Spiritus Sancti quae non sunt vnitae, &amp; ideo hoc
+            <lb ed="#V" n="120"/>modo non plus potest imputari talis actio filio quam
+            patri<lb ed="#V" n="121" break="no"/>aut Spiritui Sancts Istis at non plus imputatur actio humanae
+            na<lb ed="#V" n="122" break="no"/>turae quam actio cuiuscunque alterius naturae non coniunctae,
+            qua<lb ed="#V" n="123" break="no"/>re nec filio. Nec secundum habet locum, quia Deus sic administrat
+            <lb ed="#V" n="124"/>res, vt eas proprios motus agere sinat secundum
+            Augusti<lb ed="#V" n="125" break="no"/>num, nec tamen propter hoc peccata creaturae Deo
+            impu<lb ed="#V" n="126" break="no"/>tantur, quia ea posset impedire, suum enim est dare naturam
+            <lb ed="#V" n="127"/>liberi arbitrij, nostrum autem est vti prout volumus, sic Deus
+            <lb ed="#V" n="128"/>potuit naturam humanam assumere, &amp; eam proprio
+            mo<lb ed="#V" n="129" break="no"/>tui relinquere vt ageret, ac si assumpta non fuisset, nec
+            ta<lb ed="#V" n="130" break="no"/>men propter hoc imputaretur personae assumenti plusquam
+            <lb ed="#V" n="131"/>non assumenti, quia permitteret sic agere, quia permissio
+            si<lb ed="#V" n="132" break="no"/>cut &amp; motio respicit potentiam, quae est communis
+            omni<lb ed="#V" n="133" break="no"/>bus personis. Et forte Deus potuit assumere naturam
+            hu<lb ed="#V" n="134" break="no"/>manam, quae nesciuisset se esse assumptam, de qua non esset
+            <lb ed="#V" n="135"/>mirum, si relinqueretur proprio motui in agendo, peccare
+            <lb ed="#V" n="136"/>posset.
+          </p>
+          <p xml:id="capsco-c38ud8-d1e482">
+            Dicendum est ergo ad formam argumenti, quod
+            a<lb ed="#V" n="137" break="no"/>ctiones sunt suppositorum tanquam eorum quae
+            denomi<lb ed="#V" n="138" break="no"/>nantur agere, quia substantificant naturam quae est
+            princi<lb ed="#V" n="139" break="no"/>pium actionis, &amp; hoc modo posset dici, quod filius Dei
+            se<lb ed="#V" n="140" break="no"/>cundum quod homo peccare potuit. Et licet ista
+            denomi<lb ed="#V" n="141" break="no"/>natio secundum nomen videatur inconueniens, quia
+            no<lb ed="#V" n="142" break="no"/>bis est inconueniens dicere, quod peccauerimus secundum
+            <lb ed="#V" n="143"/>rem tamen non est inconueniens, quia quamuis in nobis
+            <lb ed="#V" n="144"/>actiones partium imputentur supposito, quia mouet ad
+            <lb ed="#V" n="145"/>eas, aut non prohibet quas prohibere, deberet actiones
+            ta<lb ed="#V" n="146" break="no"/>men naturae assumptae non imputantur diuino supposito,
+            <lb ed="#V" n="147"/>quia non oporteret quod moueret ad eas, nec tenetur eas
+            <lb ed="#V" n="148"/>prohibere, vt dictum fuit.
+          </p>
+          <p xml:id="capsco-c38ud8-d1e511">
+            Item si suppositum diuinum
+            as<lb ed="#V" n="149" break="no"/>sumpsisset naturam ignis, non teneretur prohibere, aut in
+            <lb ed="#V" n="150"/>aliquo regulare actionem eius, quin indifferenter
+            combu<pb ed="#V" n="93"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>reret domum pauperis boni sicut mali diuitis, &amp; similiter
+            as<lb ed="#V" n="2" break="no"/>sumendo naturam humanam non tenetur regulare motum
+            <lb ed="#V" n="3"/>liberi arbitrij, quin flectatur in malum sicut in bonum.
+            Con<lb ed="#V" n="4" break="no"/>gruum tamen fuit vt regularet &amp; inclinaret ad bonum, &amp;
+            <lb ed="#V" n="5"/>sic factum est quamuis aliud fieri potuit. Et sic patet, quod
+            pri<lb ed="#V" n="6" break="no"/>mum motiuum pro prima conclusione con procedit. Nec
+            <lb ed="#V" n="7"/>secundum valet, quia cum dicit Damasts humanam naturam fuisse
+            <lb ed="#V" n="8"/>&amp; esse instrumentum diuinitatis, &amp; aliae sanctorum
+            auctori<lb ed="#V" n="9" break="no"/>tates, ipsi dicunt id, quod factum est. Humanitas enim in
+            <lb ed="#V" n="10"/>Christo ad actus suos mouebatur secundum imperium
+            su<lb ed="#V" n="11" break="no"/>perioris partis rationis, quae semper fuit conforms diuinae
+            <lb ed="#V" n="12"/>voluntati, ad quosdam etiam actus miraculosos vsa est
+            di<lb ed="#V" n="13" break="no"/>uinitas humanitate tanquam instrumento, &amp; in his
+            pecca<lb ed="#V" n="14" break="no"/>re non potuit, nec isto modo fuit magis instrumentum
+            filij<lb ed="#V" n="15" break="no"/>quam totius trinitatis. Damastcetamen non dicitequod
+            humani<lb ed="#V" n="16" break="no"/>tas non potuerit assumi, quin omnes actus eius essent actus
+            <lb ed="#V" n="17"/>diuinitatis tanquam principalis mouentis. Et si d dicatur, quod
+            <lb ed="#V" n="18"/>immo, quia vbi natura, cur correspondet actio non
+            consti<lb ed="#V" n="19" break="no"/>tuit suppositum, nec inhaeret ei, oportet quod suppositum
+            di<lb ed="#V" n="20" break="no"/>catur per eam agere sicut per instrumentum.
+          </p>
+          <p xml:id="capsco-c38ud8-d1e564">
+            Non valet. Non
+            <lb ed="#V" n="21"/>enim oportet hoc, sed sufficit quod agat per eam sicut per
+            <lb ed="#V" n="22"/>naturam, quam sustentat, dato quod eam ad actionem non
+            <lb ed="#V" n="23"/>moueat. Vlterius si dicatur, quod Ansels dicit quod nullum
+            in<lb ed="#V" n="24" break="no"/>conueniens Deo est possibile, sed Deum peccare non est
+            mi<lb ed="#V" n="25" break="no"/>nimum, sed maximum inconueniens Deo, ergo non valet,
+            <lb ed="#V" n="26"/>quia nullum inconueniens secundum rem est dicere, quod
+            <lb ed="#V" n="27"/>Christus secundum quod homo peccauit, vel quod
+            pecca<lb ed="#V" n="28" break="no"/>re potuit, vt declaratum est. Vlterius. Si dicatur quod si
+            Chri<lb ed="#V" n="29" break="no"/>stus potuit peccare, potuit etiam damnari, conceditur, quia
+            <lb ed="#V" n="30"/>cum damnatio sonet in paenam, non est maius inconueniens
+            <lb ed="#V" n="31"/>dicere Christum damnari vel damnatum, quam mortuum
+            <lb ed="#V" n="32"/>vel passum, vtrunque enim conuenienter fuisset factum ex
+            <lb ed="#V" n="33"/>parte Dei, si voluisset, nec video quare persona diuina non
+            <lb ed="#V" n="34"/>possit assumere naturam hominis damnati. Haec Durandus in
+            <lb ed="#V" n="35"/>forma. Et in hoc secundus articulus terminatur.
+          </p>
+        </div>
+        <div xml:id="capsco-c38ud8-Dd1e600">
+          <head xml:id="capsco-c38ud8-Hd1e602">Articulus 3</head>
+          <p xml:id="capsco-c38ud8-d1e604">
+            <lb ed="#V" n="36"/><milestone ed="#V" unit="p" rend="initial"/> QVantum ad tertium articulum restat praedictis
+            obie<lb ed="#V" n="37" break="no"/>ctionibus respondere. Et ideo ad primum
+            argumen<lb ed="#V" n="38" break="no"/>tum negatur maior seu prima pars antecedentis. Dicitur enim
+            <lb ed="#V" n="39"/>quod nulla natura humana vel angelica assumpta a
+            perso<lb ed="#V" n="40" break="no"/>na diuina, siue in puris naturalibus, siue cum gratia vel
+            glo<lb ed="#V" n="41" break="no"/>ria potest peccare stante assumptione, vel loquendo in
+            sen<lb ed="#V" n="42" break="no"/>su composito. Et ad probationem negati dicitur, quod
+            con<lb ed="#V" n="43" break="no"/>cessa maiore illius argumenti negatur minor.
+          </p>
+          <p xml:id="capsco-c38ud8-d1e625">
+            Nec valet
+            pro<lb ed="#V" n="44" break="no"/>batio inducta, cum fundetur in falso scilicet quod natura assumpta
+            <lb ed="#V" n="45"/>a verbo in puris naturalibus constituta, hoc est sine gratia
+            <lb ed="#V" n="46"/>habituali vel gloria in nullo esset perfectior quo ad actum
+            <lb ed="#V" n="47"/>primum quam natura talis non assumpta. Huius enim falsitas
+            <lb ed="#V" n="48"/>patet ex dictis Sancti Thomae frequenter in praedictis
+            conclusioni<lb ed="#V" n="49" break="no"/>bus recitatis. Quia natura humana assumpta a verbo, dato
+            <lb ed="#V" n="50"/>quod non haberet huiuscemodi gratiam aut gloriam
+            necessa<lb ed="#V" n="51" break="no"/>rio tamen perfectior est in esse substantiali, quia trahitur
+            <lb ed="#V" n="52"/>ad diuinum esse personale, sicut saepius recitatum fuit, &amp; ideo
+            <lb ed="#V" n="53"/>nimirum si perfectior &amp; indefectibilior est quo ad actum secundum
+            <lb ed="#V" n="54"/>Ad secundum negatur minor. Quia vtraque illarum
+            ratio<lb ed="#V" n="55" break="no"/>num bona est, &amp; est Sancti Thomas tam in scriptis quam in
+            <lb ed="#V" n="56"/>summa. Et cum improbatur prima ratio seu primum
+            mo<lb ed="#V" n="57" break="no"/>tiuum. Dicitur primo, quod non solum actio cuius principium
+            <lb ed="#V" n="58"/>est forma attribuitur supposito, quia sustentat illam formam
+            <lb ed="#V" n="59"/>vel naturam effectiue vel conseruatiue, immo quia
+            supposi<lb ed="#V" n="60" break="no"/>tum illud &amp; natura vel forma communicat in eodem esse
+            <lb ed="#V" n="61"/>modo quo prius declaratum fuit. Secundo dicitur, quod actio,
+            <lb ed="#V" n="62"/>cuius principium est forma vel natura assumpta plus
+            impu<lb ed="#V" n="63" break="no"/>tanda est supposito assumenti quam actio naturae non
+            assum<lb ed="#V" n="64" break="no"/>ptae.
+          </p>
+          <p xml:id="capsco-c38ud8-d1e673">
+            Nec valet prima probatio huius negati, quia quod actio
+            <lb ed="#V" n="65"/>naturae assumptae plus imputetur supposito assumenti quam
+            <lb ed="#V" n="66"/>non assumenti, vel quam actio naturae non assumptae non
+            <lb ed="#V" n="67"/>prouenit ex aliqua rationum ibidem asignatarum in
+            argu<lb ed="#V" n="68" break="no"/>mento, sed potius hoc contingeret, quia natura assumpta
+            <lb ed="#V" n="69"/>trahitur ad esse personale personae assumentis. Non sic autem
+            <lb ed="#V" n="70"/>trahitur ad esse personale personae non assumentis, nec sic
+            trahi<lb ed="#V" n="71" break="no"/>tur ad esse diuinae personae natura non assumpta, vnde
+            perso<lb ed="#V" n="72" break="no"/>na assumens concurrit ad actionem naturae assumptae non
+            <lb ed="#V" n="73"/>solum per modum mouentis naturam ad suam actionem,
+            <lb ed="#V" n="74"/>nec solum per modum non prohibentis, immo per modum
+            <lb ed="#V" n="75"/>elicientis illam immediate, quia cui principaliter
+            immedia<cb ed="#V" n="b"/><lb ed="#V" n="76" break="no"/>t e conuenit esse, conuenit agere &amp; elicere actionem. Cum
+            <lb ed="#V" n="77"/>ergo secundum praehabita principia Sanctus Thomas in Christo non
+            <lb ed="#V" n="78"/>sit nisi vnicum esse substantiale, quod immediate &amp;
+            princi<lb ed="#V" n="79" break="no"/>paliter conuenit supposito diuino, restat quod nulla forma
+            <lb ed="#V" n="80"/>aut natura substantialis est principale aut immediatum
+            prin<lb ed="#V" n="81" break="no"/>cipium actionis Christi, vt quod agit, nisi diuinum
+            supposi<lb ed="#V" n="82" break="no"/>tum. Et licet natura assumpta sit principium actionis vt quo
+            <lb ed="#V" n="83"/>non tamen proprie agit, sicut nec proprie existit, nec
+            susten<lb ed="#V" n="84" break="no"/>tat, nec elicit actionem. Tertio dicitur, quod posito, sed non
+            <lb ed="#V" n="85"/>concesso, quod Deus assumere posset naturam humanam
+            <lb ed="#V" n="86"/>ipsa nesciente, sicut posset assumere naturam lapidis, quae
+            <lb ed="#V" n="87"/>suam assumptionem nullo modo scire potest, non tamen
+            <lb ed="#V" n="88"/>posse eam sic relinquere proprio motui, sicut arguens fingit,
+            <lb ed="#V" n="89"/>quia ipsa sic assumpta sicut non haberet proprium existere
+            <lb ed="#V" n="90"/>sic nec proprium agere, quod non principalius &amp; directius
+            <lb ed="#V" n="91"/>conueniret supposito assumenti quam naturae assumptae.
+            <lb ed="#V" n="92"/>Et breuiter tota ista deductio erronea procedit ex isto
+            fal<lb ed="#V" n="93" break="no"/>so principio, quod alias exclusum est scilicet quod in
+            Chri<lb ed="#V" n="94" break="no"/>sto sint duo esse actualis existentiae, vnum diuinitatis, &amp;
+            a<lb ed="#V" n="95" break="no"/>liud humanitatis. Quarto dicitur, quod sicut est
+            inconue<lb ed="#V" n="96" break="no"/>niens homini quod peccat, ita &amp; Deo &amp; omni diuino
+            sup<lb ed="#V" n="97" break="no"/>posito, quia non solum actio partis imputatur supposito,
+            <lb ed="#V" n="98"/>quia mouet partem ad suam operationem, aut quia non
+            <lb ed="#V" n="99"/>prohibet eam, immo quia ipsum suppositum est illud, quod
+            <lb ed="#V" n="100"/>principaliter agit. Et ideo si aliqua operatio Christi esset
+            vi<lb ed="#V" n="101" break="no"/>ciosa, illa potius attribuenda esset supposito diuino, &amp;
+            ma<lb ed="#V" n="102" break="no"/>gis imputanda quam naturae humanae. Praedictae solutiones
+            <lb ed="#V" n="103"/>haberi possunt ex dictis Sancti Thomas primo sententiarum
+            <lb ed="#V" n="104"/>distinctione quinta quaestio. prima articulo primo vbi sic
+            <lb ed="#V" n="105"/>dicit. In creaturis actus sunt suppositorum, &amp; essentia non
+            <lb ed="#V" n="106"/>agit, sed est principium actus in supposito. Non enim
+            huma<lb ed="#V" n="107" break="no"/>nitas generat, sed sortes virtute suae naturae, in creaturis
+            au<lb ed="#V" n="108" break="no"/>tem essentia realiter differt a supposito. &amp; ideo nullus actus
+            <lb ed="#V" n="109"/>proprie de essentia praedicatur nisi causaliter. Haec ille.
+          </p>
+          <p xml:id="capsco-c38ud8-d1e774">
+            Si<lb ed="#V" n="110" break="no"/>milia dicit distinctione trigesimatertia quaestione prima
+            ar<lb ed="#V" n="111" break="no"/>ticulo 4. &amp; dist. 34. q. 1. art. 1. Item prima parte q. 75. artic. 2.
+            <lb ed="#V" n="112"/>Nihil inquit potest per se operari, nisi quod per se subsistit,
+            <lb ed="#V" n="113"/>non enim est operari nisi entis in actu. Vnde eo modo
+            ali<lb ed="#V" n="114" break="no"/>quid operatur quo est, propter quod non dicimus, quod
+            <lb ed="#V" n="115"/>calor calefaciat, sed calidum.
+          </p>
+          <p xml:id="capsco-c38ud8-d1e791">
+            Item ibidem in soltitione secum
+            <lb ed="#V" n="116"/>di sic dicit. Per se agere conuenit per se existenti, sed per se
+            <lb ed="#V" n="117"/>existens quandoque potest dici aliquid si non sit inhaerens
+            <lb ed="#V" n="118"/>vt accidens vel vt forma materialis etiam si sit pars, sed
+            pro<lb ed="#V" n="119" break="no"/>prie &amp; per se subsistens dicitur, quod neque praedicto modo
+            <lb ed="#V" n="120"/>est inhaerens, neque est pars, sed quemadmodum oculus vel
+            <lb ed="#V" n="121"/>manus non potest dici per se subsistens, &amp; per consequens
+            <lb ed="#V" n="122"/>nec per se operans. vnde operationes partium attribuuntur
+            <lb ed="#V" n="123"/>toti per partes, dicimus enim quod homo videt per oculum,
+            <lb ed="#V" n="124"/>&amp; palpat per manum aliter quam calidum calefaciat per
+            <lb ed="#V" n="125"/>calorem, quia calor nullo modo calefacit proprie
+            loquen<lb ed="#V" n="126" break="no"/>do. Potest igitur dici quod anima intelligit sicut oculus
+            vi<lb ed="#V" n="127" break="no"/>det, sed magis proprie dicitur quod homo intelligat per animam
+            <lb ed="#V" n="128"/>Haec ille.
+          </p>
+          <p xml:id="capsco-c38ud8-d1e822">
+            Et similia dicit in multis alijs. &amp; ideo cum natura
+            <lb ed="#V" n="129"/>humana in Christo non per se subsistat, non potest per se
+            <lb ed="#V" n="130"/>operari, nec aliqua operatio potest sibi attribui sicut agenti
+            <lb ed="#V" n="131"/>sed solum causaliter sicut principio, quo diuinum
+            sup<lb ed="#V" n="132" break="no"/>positum agit. Et hoc modo debent intelligi verba Sancti Thomae
+            <lb ed="#V" n="133"/>3. parte q. 19. art. 1. vbi sic dicit. Actio eius quod mouetur ab
+            <lb ed="#V" n="134"/>aliquo duplex est. Vna quidem quam habet secundum
+            pro<lb ed="#V" n="135" break="no"/>priam formam, alia autem est quam habet secundum quod
+            <lb ed="#V" n="136"/>mouetur ab alio, sicut securis operatio secundum propriam formam
+            <lb ed="#V" n="137"/>est incisio, secundum autem quod mouetur ab artifice operatio eius est
+            <lb ed="#V" n="138"/>facere scamnum. Operatio igitur quae est alicuius rei secundum
+            per<lb ed="#V" n="139" break="no"/>priam formam est propria eius, nec pertinet ad mouentem,
+            <lb ed="#V" n="140"/>nisi secundum quod vtitur huotmodi re ad suam operationem, sicut
+            caleface<lb ed="#V" n="141" break="no"/>re est propria operatio ignis, non autem fabri, nisi quatenus
+            vti<lb ed="#V" n="142" break="no"/>tur igne ad calefaciendum ferrum. Sed illa operatio quae est rei
+            <lb ed="#V" n="143"/>solum secundum quod mouetur ab alio non est alia praeter operationem
+            <lb ed="#V" n="144"/>mouentis ipsum, sicut facere scamnum non est seorsum operatio
+            <lb ed="#V" n="145"/>securis alia ab operatione artificis, sed securis participat
+            in<lb ed="#V" n="146" break="no"/>strumentaliter operationem artificis. Et ideo vbicunque mouens &amp;
+            <lb ed="#V" n="147"/>motum habent diuersas formas, seu virtutes operatiuas, ibi
+            <lb ed="#V" n="148"/>oportet quod sit alia propria operatio mouentis, &amp; alia propria
+            ope<lb ed="#V" n="149" break="no"/>ratio moti, licet motum participet operationem mouentis, &amp;
+            mo<lb ed="#V" n="150" break="no"/>uens vtatur operatione miot, &amp; uc vtrunque agit cum
+            conio<pb ed="#V" n="94"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>ne alterius. Sic ergo in Christo humana natura habet
+            pro¬<lb ed="#V" n="2" break="no"/>priam formam &amp; virtutem, per quam operatur, &amp; similiter
+            <lb ed="#V" n="3"/>diuina. Vnde &amp; natura humana habet propriam
+            operatio<lb ed="#V" n="4" break="no"/>nem distinctam ab operatione diuina &amp; econtra, &amp; tamen
+            <lb ed="#V" n="5"/>diuina natura vtitur operatione humanae naturae, sicut
+            ope<lb ed="#V" n="6" break="no"/>ratione sui instrumenti. Et similiter humana natura
+            partici<lb ed="#V" n="7" break="no"/>pat operationem diuinae naturae sicut instrumentum
+            partici<lb ed="#V" n="8" break="no"/>pat operationem principalis agentis. Haec ille.
+          </p>
+          <p xml:id="capsco-c38ud8-d1e892">
+            In quibus
+            non<lb ed="#V" n="9" break="no"/>intendit quod humana natura in Christo habeat propria
+            <lb ed="#V" n="10"/>operationem vt quod, sed vt quo. Dicitur quinto quod
+            di<lb ed="#V" n="11" break="no"/>uinum suppositum tenetur, vel debet regulare operationes
+            <lb ed="#V" n="12"/>naturae assumptae plusquam non assumptae, quia illae
+            princi<lb ed="#V" n="13" break="no"/>paliter sibi imputantur, non autem aliae Nec valet
+            exemplum<lb ed="#V" n="14" break="no"/>de igne vel de natura ignis assumpta, quia operatio ignis non
+            <lb ed="#V" n="15"/>indiget regula illo modo quo operatio liberi arbitrij, in quo
+            <lb ed="#V" n="16"/>potest esse culpa &amp; meritum. De hoc Sanctus Thomas tertio sen.
+            <lb ed="#V" n="17"/>dist. 29. q. 1. ar. 1. sic dicit. In omnibus habentibus regulam
+            <lb ed="#V" n="18"/>&amp; mensuram, eorum bonitas &amp; rectitudo consistit in
+            confor<lb ed="#V" n="19" break="no"/>mitate ad suam regulam vel mensuram, malitia autem secum
+            <lb ed="#V" n="20"/>dum quod ab ea discordat. Prima aut em mensura &amp; regula
+            om<lb ed="#V" n="21" break="no"/>nium est diuina sapientia, vnde bonitas &amp; rectitudo, siue
+            <lb ed="#V" n="22"/>veritas vniuscuiusque consistit secundum quod attingit ad
+            <lb ed="#V" n="23"/>hoc, ad quod ex diuina sapientia ordinatur, vt Anselmus dicit
+            <lb ed="#V" n="24"/>Et similiter est de alijs secundis regulis quod in
+            conformi<lb ed="#V" n="25" break="no"/>tate ad ipsas bonitas &amp; rectitudo regulatarum consistit. Suntem
+            <lb ed="#V" n="26"/>autem quaedam potentiae limitatae ad determinatas actiones
+            <lb ed="#V" n="27"/>vel passiones, &amp; secundum quod illas implent suae
+            regulae<lb ed="#V" n="28" break="no"/>conformantur, quia per diuinam sapientiam ad talia sunt
+            <lb ed="#V" n="29"/>ordinatae. Et quia naturae inclinatio semper est ad vnum, ideo
+            <lb ed="#V" n="30"/>tales potentiae ex ipsa natura potentiae &amp; rectitudinem
+            suffi<lb ed="#V" n="31" break="no"/>cienter habere possunt &amp; bonitatem, malitia autem in eis
+            <lb ed="#V" n="32"/>conuenit ex defectu potentiae. Potentiae vero altiores &amp;
+            vni<lb ed="#V" n="33" break="no"/>uersaliores, cuiusmodi sunt potentiae rationales, non sunt
+            <lb ed="#V" n="34"/>limitatae ad aliquid vnum, vel obiectum, vel modum operam
+            <lb ed="#V" n="35"/>di, quia secundum diuersa &amp; diuersimode rectitudinem
+            <lb ed="#V" n="36"/>habere possunt, &amp; ideo ex natura potentiae non possunt
+            de<lb ed="#V" n="37" break="no"/>terminari ad rectitudinem &amp; bonum ipsarum, sed oportet
+            <lb ed="#V" n="38"/>quod rectificentur rectitudinem a sua regula suscipientes.
+            <lb ed="#V" n="39"/>Haec ille.
+          </p>
+          <p xml:id="capsco-c38ud8-d1e962">
+            Ex quibus patet, quod aliter indiget regula natura
+            <lb ed="#V" n="40"/>ignis &amp; aliter natura humana. Secundo quod nullus
+            defe<lb ed="#V" n="41" break="no"/>ctus incidens in actione ignis vel alterius naturae
+            irrationa<lb ed="#V" n="42" break="no"/>lis, aut in eius effectu imputandus est naturae humanae, quae
+            <lb ed="#V" n="43"/>est principium actionis, nec supposito agenti, ita vt tale
+            sup<lb ed="#V" n="44" break="no"/>positum possit dici causa mali culpae, licet potest dici causa
+            ma<lb ed="#V" n="45" break="no"/>li naturae, vel causa mali: poenae. Haec autem duo non
+            negan<lb ed="#V" n="46" break="no"/>tur, immo attribuuntur Deo, sed primum nullo modo, vt
+            <lb ed="#V" n="47"/>in secundo latius dictum fuit. Et ista sufficiant pro
+            respon<lb ed="#V" n="48" break="no"/>sione ad improbationem primi motiui primae conclusionis.
+            <lb ed="#V" n="49"/>Ad improbationem secundi motiui pro eadem
+            conclusio<lb ed="#V" n="50" break="no"/>ne dicitur primo, quod tam Damascenus quam alij doctores
+            lo<lb ed="#V" n="51" break="no"/>quuntur non solum de eo quod factum est, immo de illo
+            <lb ed="#V" n="52"/>quod necesse est fieri supposita personali vnione naturae
+            hu<lb ed="#V" n="53" break="no"/>manae ad verbum, aut quodcunque diuinum suppositum,
+            <lb ed="#V" n="54"/>quia supposita tali vnione oportet naturam humana, &amp;
+            quan<lb ed="#V" n="55" break="no"/>libet eius partem, &amp; virtutem, &amp; naturalem potentiam, &amp;
+            <lb ed="#V" n="56"/>habitum trahi ad diuinum esse modo superius exposito, &amp;
+            <lb ed="#V" n="57"/>per consequens oportet omnem operationem naturae
+            hu<lb ed="#V" n="58" break="no"/>manae se habere ad diuinum suppositum, vt ad princi
+            pale<lb ed="#V" n="59" break="no"/>agens &amp; vt ad id quod agit, sicut se habet operatio oculi, aut
+            <lb ed="#V" n="60"/>intellectus ad hominem. Ad naturam vero humanam non
+            <lb ed="#V" n="61"/>subsistentem oportet se habere vt ad instrumentum, &amp; vt
+            <lb ed="#V" n="62"/>ad principium quo, &amp; non quod. Dicitur secundo quod
+            <lb ed="#V" n="63"/>humanitas potius, &amp; specialissimo modo fuit
+            instrumen<lb ed="#V" n="64" break="no"/>tum personae verbi quam patris, aut Spiritus Sancti, quia
+            <lb ed="#V" n="65"/>specialissimo modo tracta fuit ad esse personale filij quam
+            <lb ed="#V" n="66"/>aliorum diuinorum suppositorum. Et ideo quia specialius
+            <lb ed="#V" n="67"/>participabat actum primum, consequens est quod specialius
+            <lb ed="#V" n="68"/>se haberet ad verbum vt instrumentum non quidem quod
+            <lb ed="#V" n="69"/>potius moueretur a verbo motione causae efficientis quam
+            <lb ed="#V" n="70"/>a patre, aut Spiritu Sancto sed quia specialiori modo fuit
+            <lb ed="#V" n="71"/>tracta ad esse personale filii quam aliorum diuinorum
+            sup<lb ed="#V" n="72" break="no"/>positorum. Et ideo quia specialius participabat actum
+            pri<lb ed="#V" n="73" break="no"/>mum, consequens est quod specialius se haberet ad verbum
+            <lb ed="#V" n="74"/>ut instrumentum non quidem quod potius moueretur a
+            <lb ed="#V" n="75"/>verbo motione causae efficientis, sed quia mouebatur
+            con<cb ed="#V" n="b"/><lb ed="#V" n="76" break="no"/>iuncte &amp; vnite sicut aliter mouetur manus ab anima, &amp;
+            ali<lb ed="#V" n="77" break="no"/>ter ab alia manu eiusdem hominis sicut, cum dextra mouet
+            <lb ed="#V" n="78"/>sinistram. Vel vt loquamur ad modum Sancti Thomas in alio
+            <lb ed="#V" n="79"/>proposito motione efficientis proximi: aliae autem
+            perso<lb ed="#V" n="80" break="no"/>nae motione mouentis primi &amp; remoti. De hoc in suo simili
+            <lb ed="#V" n="81"/>Sanctus Thomas tertio sententiarum distinctione decimano
+            <lb ed="#V" n="82"/>na quaestione prima articulo quarto quaestiuncula secunda sic
+            <lb ed="#V" n="83"/>dicit. Effectus redemptionis potest attribui causae proximae,
+            <lb ed="#V" n="84"/>&amp; causae remotae. Si attribuatur causae proximae, sic Christus
+            <lb ed="#V" n="85"/>nos redemit per ea quae in natura humana fecit &amp; sustinuit
+            <lb ed="#V" n="86"/>quibus &amp; patri satisfecit pro omnibus hominibus, &amp; hostem
+            <lb ed="#V" n="87"/>uicit eius tentationibus resistendo. Si autem referatur ad
+            <lb ed="#V" n="88"/>causam primam &amp; remotam, sic attribuit toti trinitati
+            in<lb ed="#V" n="89" break="no"/>quantum tota trinitas acceptauit nostram redemptionem,
+            <lb ed="#V" n="90"/>&amp; filium dedit nobis redemptionem. Et inquantum per
+            vir<lb ed="#V" n="91" break="no"/>tutem diuinitatis habuit passio efficaciam ad satisfaciendum
+            <lb ed="#V" n="92"/>pro toto genere humano. Sed quia ille proprie dicitur
+            eme<lb ed="#V" n="93" break="no"/>re, qui emptionis pretium soluit magis quam ille qui
+            em<lb ed="#V" n="94" break="no"/>ptorem mittit, ideo proprie loquendo dicitur Christus
+            tan<lb ed="#V" n="95" break="no"/>tum redemptor, quamuis tota trinitas possit dici
+            redem<lb ed="#V" n="96" break="no"/>ptor. Haec ille.
+          </p>
+          <p xml:id="capsco-c38ud8-d1e1089">
+            Simile dicit tertia parte quaestione
+            quadrage<lb ed="#V" n="97" break="no"/>simaoctaua articulo quinto. Veruntamen arguens in
+            aliqui<lb ed="#V" n="98" break="no"/>bus dictis suis super tertium sententiarum videtur sensisse
+            <lb ed="#V" n="99"/>humanitatem Christi cuilibet diuinae personae esse vnitam,
+            <lb ed="#V" n="100"/>ideo non mirum, si ita loquitur in proposito. Dicitur tertio
+            <lb ed="#V" n="101"/>quod humana natura non potuit assumi in vnitatem
+            per<lb ed="#V" n="102" break="no"/>sonalem diuini suppositi. quin omnes eius actiones
+            attribue<lb ed="#V" n="103" break="no"/>rentur diuino supposito sicut principali agenti, quia vt
+            pa<lb ed="#V" n="104" break="no"/>tet ex praedictis nihil potest esse principale agens actionis
+            <lb ed="#V" n="105"/>nisi subsistat, in Christo autem nihil subsistit nisi persona
+            <lb ed="#V" n="106"/>aeterna, &amp; non aliquid creatum aut temporale. Dicitur
+            <lb ed="#V" n="107"/>quarto, quod vbi natura trahitur ad personale alieni
+            sup<lb ed="#V" n="108" break="no"/>positi, nec habet proprium esse, ipsa non est principale
+            a<lb ed="#V" n="109" break="no"/>gens, nec vt quod agit respectu alicuius actionis, sed
+            opo<lb ed="#V" n="110" break="no"/>tet quod sit quasi agens instrumentale, vel vt principium
+            <lb ed="#V" n="111"/>quo, &amp; non quod.
+          </p>
+          <p xml:id="capsco-c38ud8-d1e1124">
+            <lb ed="#V" n="112"/><milestone ed="#V" unit="p" rend="indent"/> Dicitur quinto quod Deum peccare hoc modo quod sit
+            <lb ed="#V" n="113"/>principale agens peccati non solum est inconueniens,
+            im<lb ed="#V" n="114" break="no"/>mo haereticum blasphemum, &amp; tam offensiuum piarum
+            au<lb ed="#V" n="115" break="no"/>rium, quod quicunque pertinax assertor huius non verbis,
+            <lb ed="#V" n="116"/>sed igne corripiendus est. Illud autem inconueniens
+            sequi<lb ed="#V" n="117" break="no"/>tur ex opposito conclusionis, &amp; ex dictis arguentis sicut
+            sae<lb ed="#V" n="118" break="no"/>pius est ostensum.
+          </p>
+          <p xml:id="capsco-c38ud8-d1e1144">
+            <lb ed="#V" n="119"/><milestone ed="#V" unit="p" rend="indent"/> Dicitur sexto, quod sicut praecedens propositio, ita &amp;
+            se<lb ed="#V" n="120" break="no"/>quens est erronea, scilicet possibile est Deum esse
+            damna<lb ed="#V" n="121" break="no"/>tum, nec contra sic dicentem oportet arguere verbis, sed
+            <lb ed="#V" n="122"/>igne. Nec valet probatio in simili de morte vel passione, &amp;
+            <lb ed="#V" n="123"/>huiusmodi, quia damnatio non importat solum malum
+            <lb ed="#V" n="124"/>poenae sed potius poenam cum reatu sequente ex malo
+            cul<lb ed="#V" n="125" break="no"/>pae illius qui dicitur damnari, qui reatus Deo non potest
+            <lb ed="#V" n="126"/>conuenire nec secundum se, nec secundum naturam
+            huma<lb ed="#V" n="127" break="no"/>nam, vt ex praedictis liquet.
+          </p>
+          <p xml:id="capsco-c38ud8-d1e1167">
+            <lb ed="#V" n="128"/><milestone ed="#V" unit="p" rend="indent"/> Dicitur septimo quod proprie loquendo persona diuina
+            <lb ed="#V" n="129"/>non potest assumere naturam hominis damnati
+            vocando<lb ed="#V" n="130" break="no"/>damnatum vel naturam damnatam illam, quae actualiter
+            <lb ed="#V" n="131"/>peccat, &amp; in actu peccati obstinata est, ex cuius reatu
+            mere<lb ed="#V" n="132" break="no"/>tur &amp; patitur priuationem diuinae visionis, &amp; poenam
+            sen<lb ed="#V" n="133" break="no"/>sus. Talis enim culpa redundaret in diuinum suppositum,
+            <lb ed="#V" n="134"/>sicut in principale agens, quod est inconueniens. Vtrum
+            au<lb ed="#V" n="135" break="no"/>tem posset assumere naturam nude cum poena sine
+            culpa<lb ed="#V" n="136" break="no"/>non est ad propositum, quia talis natura non esset perfecte
+            <lb ed="#V" n="137"/>damnata, quia potissimum &amp; principale in omni miseria
+            <lb ed="#V" n="138"/>&amp; damnatione est operatio praua. Et sic patet, quod
+            argu<lb ed="#V" n="139" break="no"/>menta Durandi non procedunt. 
+          </p>
+          <p xml:id="capsco-c38ud8-d1e1197">
+            Ad argumentum
+            <lb ed="#V" n="140"/>pro parte affirmatiua quaestionis respondet
+            San<lb ed="#V" n="141" break="no"/>ctus Thomas tertio sententiarum in praesenti
+            <lb ed="#V" n="142"/>distinctione dicens. Christus
+            potuis<lb ed="#V" n="143" break="no"/>set verba illa exprimere si
+            volui<lb ed="#V" n="144" break="no"/>set, sed velle non potuit. Hae
+            <lb ed="#V" n="145"/>ille. Et haec de
+            quaestio<lb ed="#V" n="146" break="no"/>ne sufficiant
+            bene<lb ed="#V" n="147" break="no"/>dictus Deus.
+            <lb ed="#V" n="148"/>Amen.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

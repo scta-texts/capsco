@@ -1,0 +1,611 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 2, Distinctio 22, Quaestio 1</title>
+        <author ref="#JohannesCapreolus">Johannes Capreolus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 2, Distinctio 22, Quaestio 1</title>
+          <date when="2026-11-04">Nov 4, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-j88c02">Venice, 1589, v. 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-04" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="399"/>
+        <cb ed="#V" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="capsco-b1zycm"><!-- l2d22q1 -->
+        <head xml:id="capsco-b1zycm-Hd1e101">Quaestio 1</head>
+        <head xml:id="capsco-b1zycm-Hd1e103" type="question-title">Utrum alicui creaturae potuerit vel possit conferri quod sit impeccabilis per naturam</head>
+        <p xml:id="capsco-b1zycm-d1e106">
+          <lb ed="#V" n="86"/>DISTINCTIO XXII.
+          <lb ed="#V" n="87"/>QVAESTIO I.
+          <lb ed="#V" n="88"/>Vtrum alicui creaturae potuerit vel possit conferri
+          <lb ed="#V" n="89"/>quod sit impeccabilis per naturam..
+        </p>
+        <p xml:id="capsco-b1zycm-d1e117">
+          <lb ed="#V" n="90"/><milestone ed="#V" unit="p" rend="initial"/> CIRCA vigesimamsecundam
+          distin<lb ed="#V" n="91" break="no"/>ctionem secundi sententiarum
+          quaeri<lb ed="#V" n="92" break="no"/>tur. Vtrum alicui creaturae potuerit
+          <lb ed="#V" n="93"/>vel possit conferri quod sit
+          impeccabi<lb ed="#V" n="94" break="no"/>lis per naturam.
+        </p>
+        <p xml:id="capsco-b1zycm-d1e131">
+          Et arguitur quod sic.
+          <lb ed="#V" n="95"/>Quia impossibile est illum actum esse
+          <lb ed="#V" n="96"/>defectuosum, cuius principium est
+          im<lb ed="#V" n="97" break="no"/>mutabiliter vnitum suae regulae, sed
+          ali<lb ed="#V" n="98" break="no"/>cui creaturae potest conferri, quod per naturam suam sit
+          <lb ed="#V" n="99"/>immutabiliter Deo vnita per visionem claram, sicut nunc
+          <lb ed="#V" n="100"/>vniuntur beati per gratiam: ergo sicut beati sunt
+          impecca<lb ed="#V" n="101" break="no"/>biles per gratiam ex immutabili vnione suae voluntatis ad
+          <lb ed="#V" n="102"/>Deum tanquam ad regulam, sic illa creatura esset
+          impec<lb ed="#V" n="103" break="no"/>cabilis per naturam. Maior patet, quia non est defectus
+          <lb ed="#V" n="104"/>in actione, nisi quia discordat a rectitudine suae regulae
+          <lb ed="#V" n="105"/>Minor patet, quia illud potest communicari creaturae, quod
+          <lb ed="#V" n="106"/>non trahit ipsam extra limites creaturae, quia nihil trahit
+          <lb ed="#V" n="107"/>creaturam extra suos limites, nisi sit perfectionis infinitae,
+          <lb ed="#V" n="108"/>hoc enim solum facit creaturam non esse creaturam, sed
+          <lb ed="#V" n="109"/>creatorem. Videre autem Deum per essentiam &amp; ex
+          natu<lb ed="#V" n="110" break="no"/>ralibus non est perfectionis infinitae. Demus enim quod
+          <lb ed="#V" n="111"/>aliquis videat Deum per naturam, sicut vident nunc beati
+          <lb ed="#V" n="112"/>per gloriam, nec hic, nec ibi est perfectio infinita, sed
+          fini<lb ed="#V" n="113" break="no"/>ta, &amp; actus finitus.
+        </p>
+        <p xml:id="capsco-b1zycm-d1e176">
+          <lb ed="#V" n="114"/><milestone ed="#V" unit="p" rend="indent"/> IN oppositum arguitur. Quia impossibile est eidem
+          se<lb ed="#V" n="115" break="no"/>cundum idem inesse opposita, secundum aliud vero
+          ni<lb ed="#V" n="116" break="no"/>hil prohibet. Sed libero arbitrio creaturae secundum
+          natu<lb ed="#V" n="117" break="no"/>ram inest posse adhaerere suae regulae, vel non ahaerere, quod
+          <lb ed="#V" n="118"/>est posse peccare, vel posse non peccare: ergo per naturam
+          <lb ed="#V" n="119"/>non potest ei inesse non posse peccare.
+        </p>
+        <p xml:id="capsco-b1zycm-d1e193">
+          <lb ed="#V" n="120"/><milestone ed="#V" unit="p" rend="indent"/> I hac quaestione erunt tres articuli. In primo
+          ponen<lb ed="#V" n="121" break="no"/>tur conclusiones. In secundo obiectiones. In tertio
+          <lb ed="#V" n="122"/>solutiones.
+        </p>
+        <div xml:id="capsco-b1zycm-Dd1e203">
+          <head xml:id="capsco-b1zycm-Hd1e205">Articulus 1</head>
+          <p xml:id="capsco-b1zycm-d1e207">
+            <lb ed="#V" n="123"/><milestone ed="#V" unit="p" rend="initial"/> QVantum ad primum articulum sit haec conclusio.
+            Im<lb ed="#V" n="124" break="no"/>possibile est aliquam naturam rationalem factam
+            <lb ed="#V" n="125"/>vel factibilem esse impeccabilem per naturam. Hanc
+            <lb ed="#V" n="126"/>ponit Beatus Thomas prima parte. quaestio. 63. articulo
+            pri<lb ed="#V" n="127" break="no"/>mo, vbi sic dicit. Tam angelus quam quaecunque
+            creatu<lb ed="#V" n="128" break="no"/>ra rationalis si in sua sola natura consideretur potest
+            pec<lb ed="#V" n="129" break="no"/>care. Et cuicunque creaturae hoc conuenit vt peccare non
+            <lb ed="#V" n="130"/>possit, hoc habet ex dono gratiae, non ex conditione
+            na<lb ed="#V" n="131" break="no"/>turae. Cuius ratio est, quia peccare nil aliud est quam
+            de<lb ed="#V" n="132" break="no"/>clinare a rectitudine actus, quem debet habere, siue
+            acci<lb ed="#V" n="133" break="no"/>piatur peccatum in naturalibus, siue in artificialibus, siue
+            <lb ed="#V" n="134"/>in moralibus. Solum autem illum actum a rectitudine de.
+            <lb ed="#V" n="135"/>clinare non contingit, cuius regula est ipsa virtus agentis.
+            <lb ed="#V" n="136"/>Si enim manus artificis esset ipsa regula incisionis,
+            nun<lb ed="#V" n="137" break="no"/>quam posset artifex nisi recte lignum incidere. Sed si
+            recti<lb ed="#V" n="138" break="no"/>tudo incisionis sit aliud ab ipsa regula, contingit
+            incisio<lb ed="#V" n="139" break="no"/>nem &amp; rectam &amp; non rectam esse. Sola autem diuina
+            vo<lb ed="#V" n="140" break="no"/>luntas est regula sui actus, quia non ordinatur ad
+            supe<lb ed="#V" n="141" break="no"/>riorem finem. Omnis autem voluntas cuiuslibet
+            creatu<lb ed="#V" n="142" break="no"/>rae rectitudinem in suo actu non habet, nisi secundum quod
+            re<lb ed="#V" n="143" break="no"/>gulatur a diuina voluntate, ad quam pertinet vltimus finis,
+            <lb ed="#V" n="144"/>sicut quaelibet voluntas inferioris debet regulari secundum
+            <lb ed="#V" n="145"/>voluntatem superioris, vt voluntas militis secundum
+            volun<pb ed="#V" n="400"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>tatem ducis exercitus. Sic igitur in sola diuina voluntate
+            <lb ed="#V" n="2"/>peccatum esse non potest. In qualibet autem voluntate
+            crea<lb ed="#V" n="3" break="no"/>turae peccatum potest esse secundum conditionem suae
+            na<lb ed="#V" n="4" break="no"/>turae. Haec ille.
+          </p>
+          <p xml:id="capsco-b1zycm-d1e271">
+            Idem ponit 2. senten. distinct. 23. quaestio. 1.
+            <lb ed="#V" n="5"/>artic. 1. vbi sic ait. Nulli creaturae communicatum est, nec
+            <lb ed="#V" n="6"/>communicabile fuit, quod peccare non posset per
+            condi<lb ed="#V" n="7" break="no"/>tionem suae naturae. Cuius ratio est, quia cum omne
+            causa<lb ed="#V" n="8" break="no"/>tum dependet sicut a causa sui esse a Deo, oportet quod si
+            <lb ed="#V" n="9"/>sibi relinquatur deficiat, quandiu autem inffuentiam
+            cau<lb ed="#V" n="10" break="no"/>sae recipit, conseruetur. Sed applicatio causati ad causam
+            <lb ed="#V" n="11"/>suam potest esse dupliciter, vel ita quod sit in potestate
+            cau<lb ed="#V" n="12" break="no"/>sati a causa sua recedere quantum ad aliquid, vel non
+            rece<lb ed="#V" n="13" break="no"/>dere, vel ita quod non sit in potestate eius. Et primum
+            per<lb ed="#V" n="14" break="no"/>tinet ad liberum arbitrium, quia hoc est essentiale libero
+            <lb ed="#V" n="15"/>arbitrio, vt possit facere vel non facere. Si autem causae suae
+            <lb ed="#V" n="16"/>non adhaeret, oportet quod deficiat. Vnde dicit Augustns 8.
+            <lb ed="#V" n="17"/>super Genesstct ad literam. Homo sibi Deo praesente
+            illumi<lb ed="#V" n="18" break="no"/>natur, absente autem continuo tenebratur, &amp; ita
+            impossi<lb ed="#V" n="19" break="no"/>bile fuit vt seruata libertate arbitrij alicui creaturae
+            confer<lb ed="#V" n="20" break="no"/>retur, vt secundum conditionem naturae suae peccare non
+            <lb ed="#V" n="21"/>posset. Est enim ibi quasi quaedam contradictionis i.
+            npli<lb ed="#V" n="22" break="no"/>catio, quia si est liberum arbitrium, oportet quod causae suae
+            <lb ed="#V" n="23"/>possit inhaerere, vel non inhaerere. Et si non potest
+            pecca<lb ed="#V" n="24" break="no"/>re, non potest causae suae non inhaerere, &amp; sic sequuntur
+            con<lb ed="#V" n="25" break="no"/>tradictoria. Sed naturae diuinae, quae ex se rectitudinem
+            ha<lb ed="#V" n="26" break="no"/>bet, conuenit per conditionem naturae suae vt deficere non
+            <lb ed="#V" n="27"/>possit, sicut nec ab esse, ita nec a rectitudine bonitatis. Et
+            <lb ed="#V" n="28"/>quibuscunque hoc confertur, vt peccare non possint, vel
+            <lb ed="#V" n="29"/>vt per gratiam confirmentur in bono, hoc habent per
+            do<lb ed="#V" n="30" break="no"/>num gratiae, per quod filij Dei efficiuntur, &amp;
+            quodammo<lb ed="#V" n="31" break="no"/>do diuinae naturae consortes. Haec ille.
+          </p>
+          <p xml:id="capsco-b1zycm-d1e332">
+            Idem ponit de
+            ve<lb ed="#V" n="32" break="no"/>ritate. quaestio. 24. articul. 7. vbi sic ait. Nulla est, nec esse
+            po<lb ed="#V" n="33" break="no"/>test creatura, cuius liberum arbitrium sit naturaliter
+            con<lb ed="#V" n="34" break="no"/>firmatum in bono, vt hoc ei ex puris naturalibus
+            conue<lb ed="#V" n="35" break="no"/>niat, quod peccare non possit. Cuius ratio est. Nam ex
+            de<lb ed="#V" n="36" break="no"/>fectu principiorum actionis causatur actionis defectus.
+            Vn<lb ed="#V" n="37" break="no"/>de si quid est, in quo principia actionis nec in se deficere
+            <lb ed="#V" n="38"/>possint, nec ab aliquo extrinseco impediri, impossibile est
+            <lb ed="#V" n="39"/>illius actionem deficere, sicut patet in motibus coelestium
+            <lb ed="#V" n="40"/>corporum. Ea vero in actionibus deficere possibile est, in
+            <lb ed="#V" n="41"/>quibus principia agendi possunt deficere vel impediri,
+            si<lb ed="#V" n="42" break="no"/>cut patet in generabilibus &amp; corruptibilibus, quae ratione
+            <lb ed="#V" n="43"/>suae naturae transmutabilis defectum in principijs actiuis
+            <lb ed="#V" n="44"/>patiuntur, vnde &amp; eorum actiones deficientes proueniunt.
+            <lb ed="#V" n="45"/>Propter quod in operibus naturae frequenter peccatum
+            ac<lb ed="#V" n="46" break="no"/>cidit, sicut patet in partubus monstruosis. Nam nihil aliud
+            <lb ed="#V" n="47"/>est peccatum siue in rebus naturalibus, siue artificialibus,
+            <lb ed="#V" n="48"/>siue voluntarijs dicatur, quam defectus vel inordinatio
+            <lb ed="#V" n="49"/>propriae actionis, cum aliquid agitur non secundum quod
+            <lb ed="#V" n="50"/>debitum est agi, vt patet in secundo Physic. Differt autem
+            <lb ed="#V" n="51"/>natura rationalis praedita libero arbitrio ab omni alia
+            na<lb ed="#V" n="52" break="no"/>tura agente. Nam quaelibet alia natura ordinatur ad
+            ali<lb ed="#V" n="53" break="no"/>quod particulare bonum, &amp; actiones eius sunt
+            determina<lb ed="#V" n="54" break="no"/>tae respectu illius boni. Natura vero rationalis ordinatur
+            <lb ed="#V" n="55"/>ad bonum simpliciter. Sicut enim verum absolute est
+            obie<lb ed="#V" n="56" break="no"/>ctum intellectus, ita etiam &amp; bonum absolute est
+            obie<lb ed="#V" n="57" break="no"/>ctum voluntatis. Et inde est, quod ad ipsum vniuersale
+            bo<lb ed="#V" n="58" break="no"/>norum principium voluntas se extendit, ad quod nullus
+            <lb ed="#V" n="59"/>alius appetitus pertingere potest. Et propter hoc
+            creatu<lb ed="#V" n="60" break="no"/>ra rationalis non habet determinatas actiones, sed se
+            ha<lb ed="#V" n="61" break="no"/>bet sub quadam indifferentia respectu immaterialium
+            actio<lb ed="#V" n="62" break="no"/>num. Cum autem omnis actio ab agente proueniat sub
+            <lb ed="#V" n="63"/>ratione cuiusdam similitudinis, sicut calidum calefacit,
+            <lb ed="#V" n="64"/>oportet si aliquod agens est, quod secundum suam
+            actio<lb ed="#V" n="65" break="no"/>nem ordinetur ad aliquod particulare bonum, ad hoc quod
+            <lb ed="#V" n="66"/>eius actio naturaliter sit indefectibilis, quod ratio illius
+            <lb ed="#V" n="67"/>boni naturaliter &amp; immobiliter insit ei. Sicut si alicui
+            cor<lb ed="#V" n="68" break="no"/>pori inest naturaliter immutabilis, immutabiliter calefacit.
+            <lb ed="#V" n="69"/>Vnde &amp; natura rationalis, quae ordinata est ad bonum
+            <lb ed="#V" n="70"/>absolute per actiones multifarias non potest habere
+            natu<lb ed="#V" n="71" break="no"/>raliter actiones indeficientes a bono, nisi ei insit
+            naturali<lb ed="#V" n="72" break="no"/>ter &amp; immobiliter ratio vniuersalis &amp; perfecti boni, quod
+            <lb ed="#V" n="73"/>quidem esse non potest nisi in natura diuina. Nam Deus
+            <lb ed="#V" n="74"/>solus est actus nullius potentiae permixtionem recipiens,
+            <lb ed="#V" n="75"/>&amp; per hoc est bonitas pura &amp; absoluta. Quaelibet vero
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="76"/>creatura, cum in natura sua habeat permixtionem
+            poten<lb ed="#V" n="77" break="no"/>tiae, est bonum particulare. Quae quidem permixtio
+            poten<lb ed="#V" n="78" break="no"/>tiae ei accidit propter hoc, quod est ex nihilo. Et inde est,
+            <lb ed="#V" n="79"/>quod inter naturas rationales solus Deus habet liberum
+            ar<lb ed="#V" n="80" break="no"/>bitrium naturaliter impeccabile, &amp; confirmatum in
+            bono<lb ed="#V" n="81" break="no"/>Creaturae vero hoc inesse est impossibile, propter hoc quod
+            <lb ed="#V" n="82"/>est ex nihilo, vt Damascenu. &amp; Gregorius Nissenus dicunt. Et
+            <lb ed="#V" n="83"/>ex hoc quod est particulare bonum, in quo fundatur ratio
+            <lb ed="#V" n="84"/>mali, vt dicit Dionysius quarto capitulo de diuinis
+            nomi<lb ed="#V" n="85" break="no"/>nibus. Haec ille.
+          </p>
+          <p xml:id="capsco-b1zycm-d1e454">
+            Ex quibus potest formari triplex ratio.
+            <lb ed="#V" n="86"/>Prima talis est. Omne voluntarium agens, cuius virtus
+            <lb ed="#V" n="87"/>differt a regula suae actionis, potest habere actum rectum
+            <lb ed="#V" n="88"/>&amp; non rectum, sed omnis creatura rationalis est
+            huius<lb ed="#V" n="89" break="no"/>modi: igitur &amp; caetera. Secunda sic. Omne agens, in
+            cu<lb ed="#V" n="90" break="no"/>ius potestate est adhaerere causae suae, &amp; non adhaerere,
+            po<lb ed="#V" n="91" break="no"/>test in suo actu a rectitudine declinare, &amp; defectuosum
+            <lb ed="#V" n="92"/>actum elicere, sed omnis creatura rationaiis est
+            huiusmo<lb ed="#V" n="93" break="no"/>di: igitur &amp; caetera. Tertia talis. Omne agens, cuius
+            actio<lb ed="#V" n="94" break="no"/>nis principia deficere possunt vel impediri, potest
+            causa<lb ed="#V" n="95" break="no"/>re actionem defectuosam &amp; peccatum, sed omnis
+            creatu<lb ed="#V" n="96" break="no"/>ra rationalis naturae suae derelicta est huiusmodi: igitur &amp;
+            <lb ed="#V" n="97"/>caetera. Maior patet, &amp; minor probatur, quaelibet
+            natu<lb ed="#V" n="98" break="no"/>ra rationalis potest habere actum respectu vniuersalis
+            bo<lb ed="#V" n="99" break="no"/>ni, non autem habet in se rationem vniuersalis boni:
+            er<lb ed="#V" n="100" break="no"/>go potest deficere &amp; impediri in suis actibus, quibus
+            ap<lb ed="#V" n="101" break="no"/>petit bonum. Et in hoc primus articulus causa breuitatis
+            <lb ed="#V" n="102"/>terminatur.
+          </p>
+        </div>
+        <div xml:id="capsco-b1zycm-Dd1e494">
+          <head xml:id="capsco-b1zycm-Hd1e496">Articulus 2</head>
+          <p xml:id="capsco-b1zycm-d1e498">
+            <lb ed="#V" n="103"/><milestone ed="#V" unit="p" rend="initial"/> Vantum ad secundum articulum ponendae sunt
+            obie<lb ed="#V" n="104" break="no"/>ctiones. Et quidem contra praemissa arguit
+            Du<lb ed="#V" n="105" break="no"/>randus. Primo sic. Aut tu loqueris absolute de
+            <lb ed="#V" n="106"/>creatura, an possit fieri impeccabilis per naturam, vel
+            stri<lb ed="#V" n="107" break="no"/>cte de creatura intellectuali, quae est liberi arbitrij. Si
+            pri<lb ed="#V" n="108" break="no"/>mo modo, certum est, quod Deus potest facere, &amp; fecit
+            <lb ed="#V" n="109"/>multas creaturas impeccabiles per naturam, scilicet
+            om<lb ed="#V" n="110" break="no"/>nes creaturas irrationales, quia liberum arbitrium est, quo
+            <lb ed="#V" n="111"/>peccatur, &amp; recte viuitur, sicut nunc loquimur de
+            pecca<lb ed="#V" n="112" break="no"/>to. Sed creaturae irrationales carent libero arbitrio: ergo
+            <lb ed="#V" n="113"/>peccare non possunt, sicut nec recte viuere rectitudine
+            me<lb ed="#V" n="114" break="no"/>riti. Si secundo modo, sic esset videndum per quid
+            com<lb ed="#V" n="115" break="no"/>petit creaturae posse peccare. Et vtrum illud insit
+            necessa<lb ed="#V" n="116" break="no"/>rio omni creaturae, vel vtrum oppositum possit ei inesse
+            <lb ed="#V" n="117"/>per naturam. Primum autem istorum dicit se alibi
+            decla<lb ed="#V" n="118" break="no"/>rasse, &amp; ostendisse, quod impossibile est peccatum esse in
+            <lb ed="#V" n="119"/>voluntate, nisi praecedente aliquo defectu in ratione, siue
+            <lb ed="#V" n="120"/>ille defectus sit error, vel nescientia, vel inconsideratio.
+            <lb ed="#V" n="121"/>Ac per hoc patet, quod si potest communicari creaturae,
+            <lb ed="#V" n="122"/>quod ex suis essentialibus semper actu &amp; sine errore
+            con<lb ed="#V" n="123" break="no"/>sideret omnes circunstantias, ex quibus aliquid potest
+            iu<lb ed="#V" n="124" break="no"/>dicari eligibile, vel fugibile, vel etiam si hoc actu
+            conside<lb ed="#V" n="125" break="no"/>ret quandocunque occurrit aliquid eligendum vel
+            fugien<lb ed="#V" n="126" break="no"/>dum, quod talis creatura esset impeccabilis per naturam.
+            <lb ed="#V" n="127"/>Et si non, dicendum ergo, quod eligibilia &amp;
+            circunstan<lb ed="#V" n="128" break="no"/>tiae eligibilium aut deducuntur ex principijs legis naturae,
+            <lb ed="#V" n="129"/>aut deducuntur ex principijs &amp; dictamine legis
+            superna<lb ed="#V" n="130" break="no"/>ruralis, puta fidei vel disciplinae. Si primo modo, sic
+            di<lb ed="#V" n="131" break="no"/>cendum est, quod Deus potuit facere &amp; forte fecit
+            crea<lb ed="#V" n="132" break="no"/>turam impeccabilem per naturam. Quod sic probatur,
+            <lb ed="#V" n="133"/>quia maioris ambitus sunt ea, quae deducuntur ex primis
+            <lb ed="#V" n="134"/>principijs speculabilibus, quam ea quae deducuntur ex
+            prin<lb ed="#V" n="135" break="no"/>cipijs practicis, quia plura sunt cognoscibilia a creatura
+            <lb ed="#V" n="136"/>quam agibilia per illam, sed Deus potest facere, &amp; forte
+            fe<lb ed="#V" n="137" break="no"/>cit creaturam, quae actu cognoscit omnia speculabilia
+            na<lb ed="#V" n="138" break="no"/>turalia, &amp; omnes habitudines eorum naturales, vel saltem
+            <lb ed="#V" n="139"/>dum cognoscit actu aliquod ens naturale, videt in eo
+            om<lb ed="#V" n="140" break="no"/>nes habitudines &amp; circunstantias. Hoc enim ponitur de
+            <lb ed="#V" n="141"/>angelis, qui non per discursum, sed intuitiue vident in
+            na<lb ed="#V" n="142" break="no"/>tura rei quaecunque ei attribuuntur naturaliter, vel ab ea
+            <lb ed="#V" n="143"/>remouentur: ergo similiter potest communicari alicui
+            crea<lb ed="#V" n="144" break="no"/>turae, vel im communicatum est, quod actu &amp; sine errore
+            con<lb ed="#V" n="145" break="no"/>sideret omnia agibilia ab ipsa, vel saltem dum occurrit
+            ali<lb ed="#V" n="146" break="no"/>quid eligendum in actu, &amp; sine defectu videret omnes
+            cir<lb ed="#V" n="147" break="no"/>cunstantias secundum, quas illud est eligibile, vel non
+            eli<lb ed="#V" n="148" break="no"/>gibile, quo inexistente peccare non potest.
+          </p>
+          <p xml:id="capsco-b1zycm-d1e601">
+            Secundo sic.
+            <lb ed="#V" n="149"/>Sicut est gradus in corporalibus, ita &amp; in spiritualibus,
+            <lb ed="#V" n="150"/>sed est aliquod corpus, quod ex gradu suae naturae habet
+            <pb ed="#V" n="401"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>non solum quod sit perfectum in se, sed etiam in operatione
+            <lb ed="#V" n="2"/>actu aliquo ad omnia alia, quae sunt vel esse possunt, sic quod
+            <lb ed="#V" n="3"/>statim dum essent, actioni ipsius subijcerentur, vt patet de
+            <lb ed="#V" n="4"/>sole, vel saltem de corpore coelesti. Ergo similiter in
+            crea<lb ed="#V" n="5" break="no"/>turis spiritualibus est dare aliquam, quae non solum est
+            per<lb ed="#V" n="6" break="no"/>fecta in se, sed in propria operatione respectu omnium
+            alio<lb ed="#V" n="7" break="no"/>rum, quae sunt vel esse possunt, sic quod statim vt essent,
+            actio<lb ed="#V" n="8" break="no"/>ni illius subijcerentur. Operatio autem substantiae
+            spiritua<lb ed="#V" n="9" break="no"/>lis est intelligere: igitur &amp;c. His autem stantibus non
+            po<lb ed="#V" n="10" break="no"/>test peccare: igitur possibile est dare creaturam quae per
+            na<lb ed="#V" n="11" break="no"/>turam sit impeccabilis quo ad legem naturalem. Ad idem
+            <lb ed="#V" n="12"/>arguitur ab alijs primo sic. Illud quod non arguit infinitam
+            <lb ed="#V" n="13"/>perfectionem, est communicabile creaturae, sed esse
+            impec<lb ed="#V" n="14" break="no"/>cabile per naturam, non arguit infinitam perfectionem:
+            igi<lb ed="#V" n="15" break="no"/>tur &amp;c. Maior nota est, sed minor probatur per
+            argumen<lb ed="#V" n="16" break="no"/>tum factum in principio.
+          </p>
+          <p xml:id="capsco-b1zycm-d1e647">
+            Secundo sic. Lumen gloriae non
+            <lb ed="#V" n="17"/>excedit in infinitum lumen naturale, cum vtrunque sit
+            fini<lb ed="#V" n="18" break="no"/>tum &amp; creatum. Poterit ergo creari angelus, cuius lumen
+            <lb ed="#V" n="19"/>naturale aequabitur in essentia &amp; virtute lumini gloriae
+            alte<lb ed="#V" n="20" break="no"/>rius, &amp; sic ex naturalibus videbit Deum per essentiam, sicut
+            <lb ed="#V" n="21"/>nunc vident beati per gloriam, &amp; eodem modo erit
+            impec<lb ed="#V" n="22" break="no"/>cabilis. Tertio. Sicut se habet visus corporalis ad omnia
+            <lb ed="#V" n="23"/>visibilia, sic se habet intellectus ad omnia intelligibilia, sed
+            <lb ed="#V" n="24"/>Deus posset facere visum corporalem tantae efficaciae, quod
+            <lb ed="#V" n="25"/>videret omnia visibilia absque exteriori lumine
+            superaddi<lb ed="#V" n="26" break="no"/>to: ergo similiter posset facere intellectum tantae efficaciae,
+            <lb ed="#V" n="27"/>quod videret vel intelligeret omne intelligibile absque
+            lu<lb ed="#V" n="28" break="no"/>mine gloriae superaddito, &amp; sic idem quod prius. Aureoleues
+            <lb ed="#V" n="29"/>quoque arguit contra quoddam tactum in tertia
+            proba<lb ed="#V" n="30" break="no"/>tione, scilicet quod ideo nulla voluntas creata sit
+            impec<lb ed="#V" n="31" break="no"/>cabilis, quia est ex nihilo. Contra hoc arguit, quia
+            secun<lb ed="#V" n="32" break="no"/>dum te creatura ex gratia potest esse impeccabilis, &amp; tamen
+            <lb ed="#V" n="33"/>etiam gratia est de nihilo.
+          </p>
+          <p xml:id="capsco-b1zycm-d1e686">
+            Item potest argui. Quia Deus
+            <lb ed="#V" n="34"/>posset creare vnam intelligentiam, quae esset essentialiter
+            <lb ed="#V" n="35"/>visio Dei &amp; dilectio, &amp; fruitio sine aliquo accidente sibi
+            su<lb ed="#V" n="36" break="no"/>peraddito, sed talis intelligentia esset naturaliter
+            impecca<lb ed="#V" n="37" break="no"/>bilis. igitur &amp;c. Maior patet. Tum quia non implicat
+            con<lb ed="#V" n="38" break="no"/>tradictionem. Tum quia Philosophi posuerunt, quod
+            quae<lb ed="#V" n="39" break="no"/>libet intelligentia est visio, vel cognitio suimet: ergo
+            possi<lb ed="#V" n="40" break="no"/>bile est intelligentiam esse cognitionem alterius a se. Nec
+            <lb ed="#V" n="41"/>apparet quare non ita respectu obiecti, quod est Deus quam
+            <lb ed="#V" n="42"/>alterius. Tum quia hoc tenent multi, sicut Adam 1. senten.
+            <lb ed="#V" n="43"/>Minor probatur, quia implicat aliquem esse beatum, &amp;
+            <lb ed="#V" n="44"/>peccare, vel clare videre Deum &amp; peccare. Et in hoc
+            secun<lb ed="#V" n="45" break="no"/>dus articulus terminatur.
+          </p>
+        </div>
+        <div xml:id="capsco-b1zycm-Dd1e716">
+          <head xml:id="capsco-b1zycm-Hd1e718">Articulus 3</head>
+          <p xml:id="capsco-b1zycm-d1e720">
+            <lb ed="#V" n="46"/><milestone ed="#V" unit="p" rend="initial"/> Vantum ad tertium articulum respondendum est
+            <lb ed="#V" n="47"/>obiectionibus supradictis. Et quidem ad duo
+            pri<lb ed="#V" n="48" break="no"/>ma dicitur, quod efficaciter concludunt verum, sed non
+            <lb ed="#V" n="49"/>contra nos. Nam totum illud, quod concluditur,
+            conce<lb ed="#V" n="50" break="no"/>dit Sanctus Thomas de malo. quaestio. 16. artic. 3. vbi sic ait.
+            <lb ed="#V" n="51"/>In nullo quod ad ordinem naturae pertineat, potuit
+            ma<lb ed="#V" n="52" break="no"/>lum angeli consistere. Malum enim non inuenitur in his,
+            <lb ed="#V" n="53"/>quae sunt semper in actu, sed solum in his, in quibus
+            poten<lb ed="#V" n="54" break="no"/>tia potest separari ab actu, vt dicitur 9. Metaphysi. Angeli
+            <lb ed="#V" n="55"/>autem omnes sic conditi sunt, vt quicquid pertinet ad
+            na<lb ed="#V" n="56" break="no"/>turalem perfectionem eorum statim a principio habuerunt,
+            <lb ed="#V" n="57"/>tamen erant in potentia ad supernaturalia bona, quae per
+            <lb ed="#V" n="58"/>Dei gratiam consequi poterant. Vnde relinquitur, quod
+            <lb ed="#V" n="59"/>peccatum diaboli non fuit in aliquo, quod pertinet ad
+            or<lb ed="#V" n="60" break="no"/>dinem naturalem, sed secundum aliquid supernaturale.
+            <lb ed="#V" n="61"/>Haec ille.
+          </p>
+          <p xml:id="capsco-b1zycm-d1e758">
+            Item articulo secundo sic dicit. Appetitus nihil
+            <lb ed="#V" n="62"/>aliud est quam inclinatio quaedam in appetibile, &amp; sicut
+            ap<lb ed="#V" n="63" break="no"/>petitus naturalis consequitur formam naturalem, ita
+            ap<lb ed="#V" n="64" break="no"/>petitus sensitiuus, vel intellectiuus, vel rationalis
+            sequi<lb ed="#V" n="65" break="no"/>tur formam appraehensam. Non enim est nisi boni
+            apprae<lb ed="#V" n="66" break="no"/>hensi per sensum, vel intellectum. Non ergo potest
+            ma<lb ed="#V" n="67" break="no"/>lum in appetitu accidere ex hoc, quod discordet ab
+            apprae<lb ed="#V" n="68" break="no"/>hensione, quam sequitur, sed ex eo quod discordat ab
+            ali<lb ed="#V" n="69" break="no"/>qua superiori regula. Et ideo considerandum est vtrum
+            il<lb ed="#V" n="70" break="no"/>la apprehensio, quam sequitur inclinatio huius appetitus,
+            <lb ed="#V" n="71"/>sit dirigibilis aliqua superiori regula, vel uon. Si enim non
+            <lb ed="#V" n="72"/>habeat superiorem regulam, qua dirigi debeat,
+            impossibi<lb ed="#V" n="73" break="no"/>bile est, quod sit malum in tali appetitu, &amp; hoc quidem
+            con<lb ed="#V" n="74" break="no"/>tinget in duobus. Apprehensio enim bruti animalis non
+            <lb ed="#V" n="75"/>habet superiorem regulam, qua dirigi debeat, &amp; ideo in eius
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="76"/>appetitu non potest esse malum. Bonum enim est, quod
+            <lb ed="#V" n="77"/>moueatur huiusmodi animal ad concupiscentiam vel iram
+            <lb ed="#V" n="78"/>secundum formam sensibilem apprehensam. Vnde
+            Diony<lb ed="#V" n="79" break="no"/>sius dicit quarto capitulo de diuinis nominibus, quod
+            bo<lb ed="#V" n="80" break="no"/>num canis est esse furibundum. Similiter etiam intellectus
+            <lb ed="#V" n="81"/>diuinis, quia non habet superiorem regulam, qua
+            dirigi<lb ed="#V" n="82" break="no"/>possit, ideo in eius appetitu vel voluntate malum esse non
+            <lb ed="#V" n="83"/>potest. In homine autem est duplex apprehensio
+            superio<lb ed="#V" n="84" break="no"/>ri regula digenda. Nam cognitio sensitiua habet dirigi per
+            <lb ed="#V" n="85"/>rationem, &amp; cognitio rationis per sapientiam seu legem
+            <lb ed="#V" n="86"/>diuinam. Dupliciter igitur potest esse malum in appetitu
+            <lb ed="#V" n="87"/>hominis. Vno modo, quia appraehensio sensitiua non
+            re<lb ed="#V" n="88" break="no"/>gulatur secundum rationem. Et secundum hoc dicit
+            Dio<lb ed="#V" n="89" break="no"/>nysius quarto capitulo de diuinis nominibus, quod malum
+            <lb ed="#V" n="90"/>hominis est praeter rationem esse. Alio modo, quia ratio
+            <lb ed="#V" n="91"/>humana est dirigenda secundum sapientiam &amp; legem
+            di<lb ed="#V" n="92" break="no"/>uinam. Et secundum hoc Ambrostas dicit, quod peccatum
+            <lb ed="#V" n="93"/>est transgressio legis diuinae. In substantijs autem a
+            corpo<lb ed="#V" n="94" break="no"/>re separatis est vna cognitio tantum, scilicet intellectualis
+            <lb ed="#V" n="95"/>regulanda vel dirigenda secundum regulam sapientiae
+            di<lb ed="#V" n="96" break="no"/>uinae, &amp; ideo in voluntate earum potest esse malum ex hoc,
+            <lb ed="#V" n="97"/>quod non sequitur ordinem superioris regulae, scilicet
+            sa<lb ed="#V" n="98" break="no"/>pientiae diuinae. Et per hunc modum daemones facti sunt
+            <lb ed="#V" n="99"/>mali voluntate. Haec ille.
+          </p>
+          <p xml:id="capsco-b1zycm-d1e845">
+            Ex quibus patet, quod mens
+            San<lb ed="#V" n="100" break="no"/>cti Thomas est, quod aliqua natura rationalis vel
+            intellectua<lb ed="#V" n="101" break="no"/>lis potuit esse impeccabilis hoc modo, quod non potest
+            <lb ed="#V" n="102"/>transgredi legem naturalem, cum quo stat, quod nulla
+            crea<lb ed="#V" n="103" break="no"/>tura rationalis potest esse impeccabilis per naturam,
+            habi<lb ed="#V" n="104" break="no"/>to respectu ad legem supernaturalem. Et in hoc bene dicit
+            <lb ed="#V" n="105"/>Durandus. Vbicunque (inquit) potest esse error, vel
+            in<lb ed="#V" n="106" break="no"/>coasideratio circunstantiarum rei eligibilis, ibi potest esse
+            <lb ed="#V" n="107"/>peccatum &amp; defectus debite electionis. Sed in omni
+            crea<lb ed="#V" n="108" break="no"/>tura potest esse error vel inconsideratio circunstantiarum
+            <lb ed="#V" n="109"/>rei eligibilis, circunstantiarum dico, quae sumuntur ex
+            le<lb ed="#V" n="110" break="no"/>ge supernaturali fidei vel discipline, has enim nulla
+            crea<lb ed="#V" n="111" break="no"/>tura potest secundum se nosce, cum dependeant ex mera
+            <lb ed="#V" n="112"/>Dei voluntate, sed noscuntur ex diuina reuelatione, &amp;
+            se<lb ed="#V" n="113" break="no"/>mel reuelata non semper considerantur, quotiens illud
+            eli<lb ed="#V" n="114" break="no"/>gendum occurrit, saltem non hoc habet conditio
+            creatu<lb ed="#V" n="115" break="no"/>rae, immo contrarium. Nam sicut intellectus noster
+            pro<lb ed="#V" n="116" break="no"/>pter sui imperfectionem discursiuus est respectu
+            intelligibi<lb ed="#V" n="117" break="no"/>lium naturalium, nec simul omnes conditiones
+            intelligibi<lb ed="#V" n="118" break="no"/>les appraehendit, sic intellectus angelicus imperfectus est
+            <lb ed="#V" n="119"/>respectu supernaturalium intelligibilium, nec simul
+            om<lb ed="#V" n="120" break="no"/>nes conditiones eorum appraehendit. Et ideo circa talia
+            <lb ed="#V" n="121"/>potest habere errorem, vel nescientiam, aut
+            inconsidera<lb ed="#V" n="122" break="no"/>tionem. Patet ergo, quod nulla creatura intellectualis
+            po<lb ed="#V" n="123" break="no"/>test esse impeccabilis per naturam quo ad eligibilia, quae
+            de<lb ed="#V" n="124" break="no"/>ducuntur ex principijs legis supernaturalis fidei vel disce
+            <lb ed="#V" n="125"/>plinae, licet possit esse impeccabilis modo praedicto. Ad
+            <lb ed="#V" n="126"/>primum aliorum negatur minor. Patet, quia si esset
+            ali<lb ed="#V" n="127" break="no"/>qua natura rationalis vel intellectualis simpliciter
+            impec<lb ed="#V" n="128" break="no"/>cabilis per naturam, hoc non posset contingere, nisi quia
+            <lb ed="#V" n="129"/>non haberet superiorem regulam a qua dirigi deberet, ucut
+            <lb ed="#V" n="130"/>dictum est, &amp; si sic, ipsa esset Deus, &amp; infinitae perfectionis.
+          </p>
+          <p xml:id="capsco-b1zycm-d1e915">
+            <lb ed="#V" n="131"/>Ad secundum, negatur consequentia. Cuius rationem
+            as<lb ed="#V" n="132" break="no"/>signat Sanctus Thomas secundo sententiarum distinct. 23.
+            <lb ed="#V" n="133"/>q. 1. arti. 1. in solutione quinti vbi sic ait. Quando alicui
+            na<lb ed="#V" n="134" break="no"/>turae conuenit aliquod accidens ex influentia superioris
+            tan<lb ed="#V" n="135" break="no"/>tum, non potest inferior natura illud accidens per se
+            habe<lb ed="#V" n="136" break="no"/>re, nisi efficeretur naturae superioris, sicut si aer illuminatur
+            <lb ed="#V" n="137"/>actu per ignem, non potest esse, quod sit de natura sua
+            luci<lb ed="#V" n="138" break="no"/>dus in actu, nisi fiat ignis. Dico ergo, quod si confirmatio insit
+            <lb ed="#V" n="139"/>creaturae rationali solum per gratiam, quae est quoddam
+            <lb ed="#V" n="140"/>spiritualem lumen &amp; similitudo luminis increati, non
+            po<lb ed="#V" n="141" break="no"/>test esse, quod aliqua creatura ex natura sua confirmationem
+            <lb ed="#V" n="142"/>hanc habeat vel gratiam, nisi efficeretur diuinae naturae,
+            <lb ed="#V" n="143"/>quod est omnino impossibile. Haec ille. Ex quo patet, quod
+            <lb ed="#V" n="144"/>licet lumen gloriae non excedat in infinitum lumen
+            natu<lb ed="#V" n="145" break="no"/>rale, non tamen sequitur, quod possit creari aliquod
+            na<lb ed="#V" n="146" break="no"/>turale lumen aequale lumini gloriae, quia illa duo lumina
+            <lb ed="#V" n="147"/>sunt diuersarum specierum. Sicut non valet consequentia.
+            <lb ed="#V" n="148"/>Homo non in infinitum excedit brutorum genus: ergo
+            po<lb ed="#V" n="149" break="no"/>test dari brutum aequale homini.
+          </p>
+          <p xml:id="capsco-b1zycm-d1e960">
+            Sed contra solutionem
+            <lb ed="#V" n="150"/>Sanctus Thomas arguit Durandus. d. quod illa maxima, quam
+            <pb ed="#V" n="402"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>assumit, scilicet quod quando aliquod accidens inest
+            infe<lb ed="#V" n="2" break="no"/>riori naturae tantum ex influentia superioris, non potest
+            in<lb ed="#V" n="3" break="no"/>ferior natura illud accidens per naturam habere, nisi
+            effice<lb ed="#V" n="4" break="no"/>retur naturae inferioris naturae &amp;c. Illa (inquit) habet
+            ve<lb ed="#V" n="5" break="no"/>ritatem, si illud accidens esset vnius rationis vtrobique, vt
+            <lb ed="#V" n="6"/>patet in exemplo dato ibidem. Si autem illud accidens non
+            <lb ed="#V" n="7"/>sit vnius rationis in eis, non oportet quod si efficiatur
+            con<lb ed="#V" n="8" break="no"/>naturale naturae inferiori, quod peroper hoc ipsa efficiatur in
+            gradu<lb ed="#V" n="9" break="no"/>superioris naturae, immo oppositum, quia cum effectus
+            aequi<lb ed="#V" n="10" break="no"/>uocus nunquam aequetur suae causae aequiuocae, si gratia &amp;
+            <lb ed="#V" n="11"/>gloria, quae sunt effectus Dei aequiuoci millesies fierent
+            crea<lb ed="#V" n="12" break="no"/>turae naturales, non propter hoc ipsa aequaretur creatori. Et
+            <lb ed="#V" n="13"/>iterum non ponitur, quod gratia vel gloria possint fieri
+            con<lb ed="#V" n="14" break="no"/>naturales alicui creaturae, sed quod potest talis creatura fieri a
+            <lb ed="#V" n="15"/>Deo, quae tantum possit per suum lumen naturale, quantum
+            <lb ed="#V" n="16"/>potest nunc beatus per lumen gloriae, sicut posset creare
+            ocu<lb ed="#V" n="17" break="no"/>lum, ita luminosum in se, quod se videret sine exteriori
+            lu<lb ed="#V" n="18" break="no"/>mine, sicut nos videmus cum adiutorio exterioris luminis.
+            <lb ed="#V" n="19"/>Ad istud dicitur primo, quod illa maxima non solum
+            ha<lb ed="#V" n="20" break="no"/>bet veritatem, vbi tale accidens est vnius rationis, immo vbi
+            <lb ed="#V" n="21"/>est alterius, quia lumen gloriae siue sit vnius rationis in
+            om<lb ed="#V" n="22" break="no"/>nibus videntibus Deum, siue in Deo &amp; creaturis, siue
+            alte<lb ed="#V" n="23" break="no"/>rius rationis, tamen ipsum est necessaria, &amp; sufficies
+            dispo<lb ed="#V" n="24" break="no"/>sitio ad hoc, quod diuina essentia vniatur intellectni
+            crea<lb ed="#V" n="25" break="no"/>to tanquam forma intelligibilis, &amp; quodammodo
+            deifor<lb ed="#V" n="26" break="no"/>met intellectum creatum ad videndum Deum, ita quod &amp;
+            <lb ed="#V" n="27"/>tenet locum virtutis actiuae in hoc quod fortificat lumen
+            in<lb ed="#V" n="28" break="no"/>tellectus creati, &amp; virtutis passiuae in hoc, quod disponit
+            in<lb ed="#V" n="29" break="no"/>tellectum creatum ad hoc, quod sit capax formae diuinae per
+            <lb ed="#V" n="30"/>modum formae intelligibilis, sine inhaesione tamen &amp;
+            depen<lb ed="#V" n="31" break="no"/>dentia. Et ideo sicut est impossibile aliquid habere
+            natura<lb ed="#V" n="32" break="no"/>liter vltimam dispositionem ad formam ignis, &amp; propriam
+            <lb ed="#V" n="33"/>virtutem ignis, vel saltem virtutem inseparabilem a forma
+            <lb ed="#V" n="34"/>ignis, &amp; cum hoc non habere formam substantialem ignis
+            <lb ed="#V" n="35"/>naturaliter sibi vnitam, ita impossibile est, quod alicui
+            crea<lb ed="#V" n="36" break="no"/>turae sit connaturale lumen gloriae, &amp; quod diuina essentia
+            <lb ed="#V" n="37"/>non sit sibi conaturalis tanquam naturaliter sibi vnita per
+            <lb ed="#V" n="38"/>modum formae intelligibilis. Dicitur secundo, quod vtique
+            <lb ed="#V" n="39"/>verum est, quod dato, quod gratia &amp; gloria essent alicui
+            creatu<lb ed="#V" n="40" break="no"/>rae connaturales, non propter hoc sequeretur, quod illa
+            creatu<lb ed="#V" n="41" break="no"/>ra aequaretur Deo simplidter. Sequeretur tamen, quod illa
+            <lb ed="#V" n="42"/>creatura naturaliter esset Deus per participationem
+            vlti<lb ed="#V" n="43" break="no"/>matam, quod est impossibile. Dicitur tertio, quod
+            impossi<lb ed="#V" n="44" break="no"/>bile est, quod aliquod lumen naturale creaturae factae vel
+            fa<lb ed="#V" n="45" break="no"/>ctibili sit aeque potens lumini gloriae in quocunque
+            gradu<lb ed="#V" n="46" break="no"/>participato, aut quod in tantum eleuet, aut deiformet
+            intel<lb ed="#V" n="47" break="no"/>lectum creatum, sicut lumen gloriae facit. Dicitur quarto,
+            <lb ed="#V" n="48"/>quod lumen corporale potest esse connaturale alicui
+            oculo<lb ed="#V" n="49" break="no"/>creato, non autem lumen gloriae alicui creaturae. Cuius
+            ra<lb ed="#V" n="50" break="no"/>tio est dicta, quia scilicet lumen gloriae est dispositio vltima
+            <lb ed="#V" n="51"/>ad formam infinitam &amp; increatam, non autem
+            quodcun<lb ed="#V" n="52" break="no"/>quae lumen corporale.
+          </p>
+          <p xml:id="capsco-b1zycm-d1e1082">
+            Ad tertium patet per praedicta, quod
+            <lb ed="#V" n="53"/>similitudo non valet. Hic tamen dicit Durandus, quod dato
+            <lb ed="#V" n="54"/>quod aliqua creatura posset ex suis puris naturalibus
+            vide<lb ed="#V" n="55" break="no"/>re Deum per essentiam, non tamen ex hoc esset
+            impeccabi<lb ed="#V" n="56" break="no"/>lis, quia etiam nec in beatis visio diuina secundum se &amp;
+            ab<lb ed="#V" n="57" break="no"/>solute sufficit ad impeccabilitatem, quia videntes Deum, vt
+            <lb ed="#V" n="58"/>dicit, non propter hoc vident omnia, quae ad eos pertinent,
+            <lb ed="#V" n="59"/>nisi eis reuelentur. Et vlterius dicit, quod absque visione Dei
+            <lb ed="#V" n="60"/>per essentiam creatura posset esse impeccabilis, dummodo
+            <lb ed="#V" n="61"/>actu consideraret circumstantias omnium eligibilium ab ipsa.
+            <lb ed="#V" n="62"/>Sed ista responsio multa falsa implicat, &amp; contraria viae
+            San<lb ed="#V" n="63" break="no"/>cti Thomas Primum est, quod possibile est creaturam clare
+            <lb ed="#V" n="64"/>videntem Deum peccare, &amp; non diligere Deum super
+            om<lb ed="#V" n="65" break="no"/>nia. Secundum, quod possibile est creaturam clare videntem
+            <lb ed="#V" n="66"/>Deum per essentiam ignorare aliqua pertinentia ad ipsam,
+            <lb ed="#V" n="67"/>&amp; necessaria ad vitandum peccatum mortale, vel veniale,
+            <lb ed="#V" n="68"/>vel ad benefaciendum moraliter. Et de his forte alias
+            Do<lb ed="#V" n="69" break="no"/>mino concedente videbitur. Ad arg. Aureoli dicitur, quod
+            <lb ed="#V" n="70"/>licet anima beata sit de nihilo tam quo ad essentiam quam
+            <lb ed="#V" n="71"/>quo ad omnia eius accidentia, tamen gratia consummata,
+            <lb ed="#V" n="72"/>quae est lumen gloriae, est vltimata participatio diuinitatis,
+            <lb ed="#V" n="73"/>&amp; quaedam densormatio, ita quod anima per tale lumen si
+            <lb ed="#V" n="74"/>sit inhaerens non solum per modum passionis cito
+            transeun<lb ed="#V" n="75" break="no"/>tis, vt in Paulo &amp; Moyse in raptu, sed per modum habitus
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="76"/>fixi trahit animam ad Deum, qui non est ex nihilo, sed esse
+            sub<lb ed="#V" n="77" break="no"/>sistens infinitum, aeternum, in annihilabile. Et ideo
+            simili<lb ed="#V" n="78" break="no"/>tudo non valet, nec instantia. Ad argum. vlti. loc. adductum
+            <lb ed="#V" n="79"/>negatur maior. Et ad primam probationem dicitur, quod
+            <lb ed="#V" n="80"/>contradictionem implicat aliquid naturaliter subsistens esse
+            <lb ed="#V" n="81"/>visionem Dei, &amp; non esse infinitum.
+          </p>
+          <p xml:id="capsco-b1zycm-d1e1150">
+            Ad secundam dicitur,
+            <lb ed="#V" n="82"/>quod positio Philosophi, &amp; Adae implicat contradictionem
+            <lb ed="#V" n="83"/>Cuius causam assignat Sanctus Thomas prima parte. q. 54. artic. 1.
+            <lb ed="#V" n="84"/>Vbi quaerit. Vtrum essentia angeli sit suum intelligere. Sed
+            <lb ed="#V" n="85"/>pro confirmatione eorum, quae dicta sunt in solutione
+            secun<lb ed="#V" n="86" break="no"/>di aliorum contra obiectionem &amp; instantiam Durandi
+            no<lb ed="#V" n="87" break="no"/>tandum est, quod Sanctus Thomas 4. sentent. distinct 49. q. 2. arti. 2. Ac
+            <lb ed="#V" n="88"/>hoc (inquit) quod intellectus Deum per essentiam videat,
+            <lb ed="#V" n="89"/>oportet quod diuina essentia vniatur intellectui vt
+            intelli<lb ed="#V" n="90" break="no"/>gibilis forma quodammodo. Forma autem non
+            coniungi<lb ed="#V" n="91" break="no"/>tur perfectibili, nisi quando perfectibile habet dispositiones,
+            <lb ed="#V" n="92"/>quibus efficitur susceptibile talis formae, sicut corpus non
+            <lb ed="#V" n="93"/>vnitur animae, nisi quando in corpore sunt dispositiones
+            con<lb ed="#V" n="94" break="no"/>uenientes ad animam suscipiendam. Vnde oportet ad hoc,
+            <lb ed="#V" n="95"/>quod intellectus vniatur essentiae diuinae modo praedicto,
+            <lb ed="#V" n="96"/>quod sit in eo aliquid per modum dispositionis, praeparans
+            <lb ed="#V" n="97"/>ipsum ad vnionem praedictam. Et hoc est lumen, quo
+            intel<lb ed="#V" n="98" break="no"/>lectus perficitur ad videndum Deum per essentiam. Haec
+            <lb ed="#V" n="99"/>autem dispositio non potest esse naturalis alicui intellectui
+            <lb ed="#V" n="100"/>creato. Vltima enim dispositio ad formam secundum
+            ean<lb ed="#V" n="101" break="no"/>dem rationem recipitur in perfectibili &amp; forma ipsa, ita quod
+            <lb ed="#V" n="102"/>si vnum est naturale &amp; aliud, quia perfectibile per vltimam
+            <lb ed="#V" n="103"/>dispositionem ad formam contingit ipsam formam. Forma
+            <lb ed="#V" n="104"/>autem, quae est diuina essentia, omnem facultatem &amp;
+            capa<lb ed="#V" n="105" break="no"/>citatem naturalem excedit. Potentia enim &amp; proprius eius
+            <lb ed="#V" n="106"/>actus semper accipiuntur in eodem genere. Vnde potentia
+            <lb ed="#V" n="107"/>&amp; actus diuidunt quodlibet genus entis, vt patet 3. Physic.
+            <lb ed="#V" n="108"/>Et ideo facultas siue potentia creaturae non se extendit nisi
+            <lb ed="#V" n="109"/>ad formam sui generis. Et sic essentia diuina, quae est extra
+            <lb ed="#V" n="110"/>omne genus, excedit naturalem facultatem cuiuslibet
+            intel<lb ed="#V" n="111" break="no"/>lectus creati. Et ideo dispositio vltima, quae est ad vnionem
+            <lb ed="#V" n="112"/>intellectus cum tali essentia excedit omnem facultatem
+            na<lb ed="#V" n="113" break="no"/>turae, vnde non potest esse naturalis, sed supra naturam. Et
+            <lb ed="#V" n="114"/>ista dispositio est lumen gloriae, de quo dicitur in Psalmo
+            <lb ed="#V" n="115"/>In lumine tuo videbimus lumen &amp;c. Haec ille. Ex quibus
+            <lb ed="#V" n="116"/>patet, quomodo solutio ibidem data secundum mentem
+            <lb ed="#V" n="117"/>Sanctus Thomas procedit.
+          </p>
+          <p xml:id="capsco-b1zycm-d1e1231">
+            Ad argumenta in principio quaestionis
+            <lb ed="#V" n="118"/>facta patet solutio per praedicta. Et haec de quaestione. Be.
+            <lb ed="#V" n="119"/>nedictus Deus, Amen.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,1291 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 2, Distinctio 42, Quaestio 1</title>
+        <author ref="#JohannesCapreolus">Johannes Capreolus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 2, Distinctio 42, Quaestio 1</title>
+          <date when="2026-11-04">Nov 4, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-j88c02">Venice, 1589, v. 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-04" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="569"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="capsco-b2il5d"><!-- l2d42q1 -->
+        <head xml:id="capsco-b2il5d-Hd1e101">Quaestio 1</head>
+        <head xml:id="capsco-b2il5d-Hd1e103" type="question-title">Utrum actus exterior et interior sunt duo peccata vel tantum unum</head>
+        <p xml:id="capsco-b2il5d-d1e106">
+          <lb ed="#V" n="50"/>DISTINCTIO XLII.
+          <lb ed="#V" n="51"/>QVAESTIO I.
+          <lb ed="#V" n="52"/>Vtrum actus exterior &amp; interior sunt duo peccata
+          <lb ed="#V" n="53"/>vel tantum vnum.
+        </p>
+        <p xml:id="capsco-b2il5d-d1e117">
+          <lb ed="#V" n="54"/><milestone ed="#V" unit="p" rend="initial"/> CIRCA quadragesimam secundam
+          di<lb ed="#V" n="55" break="no"/>stinctionem secundi sen. quaeritur.
+          <lb ed="#V" n="56"/>Vtrum actus exterior &amp; interior sunt
+          <lb ed="#V" n="57"/>duo peccata, vel tantum vnum.
+        </p>
+        <p xml:id="capsco-b2il5d-d1e129">
+          Et
+          <lb ed="#V" n="58"/>arguitur quod sint duo, quia illa sunt
+          <lb ed="#V" n="59"/>plura peccata quae opponuntur
+          pluri<lb ed="#V" n="60" break="no"/>bus praeceptis, sed actus interior &amp;
+          <lb ed="#V" n="61"/>exterior opponuntur pluribus praeceptis: ergo &amp;c. Minor
+          <lb ed="#V" n="62"/>probatur, quia duo praecepta sunt, per quorum vnum
+          <lb ed="#V" n="63"/>prohibetur actus exterior scilicet non furtum facies, &amp; per
+          al<lb ed="#V" n="64" break="no"/>terum interior, vt est illud, non concupisces rem proximi tui.
+        </p>
+        <p xml:id="capsco-b2il5d-d1e148">
+          <lb ed="#V" n="65"/><milestone ed="#V" unit="p" rend="indent"/> In oppositum arguitur, quia paena respondet culpae, sed
+          <lb ed="#V" n="66"/>pro actu malo interiore &amp; exteriore non imponitur
+          ni<lb ed="#V" n="67" break="no"/>si vna paenitentia, igitur non est ibi nisi vnica culpa.
+        </p>
+        <p xml:id="capsco-b2il5d-d1e158">
+          <lb ed="#V" n="68"/><milestone ed="#V" unit="p" rend="indent"/> In hac quaestione sunt tres articuli. In primo ponentur.
+          <lb ed="#V" n="69"/>conclusiones. in sconmo obiectiones. In tertio solutiones
+        </p>
+        <div xml:id="capsco-b2il5d-Dd1e166">
+          <head xml:id="capsco-b2il5d-Hd1e168">Articulus 1</head>
+          <p xml:id="capsco-b2il5d-d1e170">
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="70"/>QVantum ad primum articulum sit haec prima
+            conclu<lb ed="#V" n="71" break="no"/>sio. actus interior &amp; actus exterior sibi coniunctus
+            <lb ed="#V" n="72"/>in malis non sunt duo peccata, sed tantummodo vnum.
+            <lb ed="#V" n="73"/>Hanc ponit Sanctus Thomas secundo. sen. dis. 42. q. 1. art. 1. vbi sic d.
+            <lb ed="#V" n="74"/>Cum vnum &amp; ens conuertantur, oportet vt secundum id
+            <lb ed="#V" n="75"/>a quo habet res esse, iudicium de eius vnitate &amp;
+            multipli<lb ed="#V" n="76" break="no"/>citate accipiatur. Sicut in rebus naturalibus vbi res habet
+            <lb ed="#V" n="77"/>esse per formam, habet etiam vnitatem per formam, vnde
+            opor<lb ed="#V" n="78" break="no"/>tet, quod diuersarum rerum sint diuersae formae, quamuis
+            for<lb ed="#V" n="79" break="no"/>tassis principium multiplicationis formae sit diuisio
+            mate<lb ed="#V" n="80" break="no"/>riae, vt in his quae tantummodo differunt numero,
+            nihilo<lb ed="#V" n="81" break="no"/>minus tamen non posset esse pluralitas hominum nisi
+            es<lb ed="#V" n="82" break="no"/>sent plures formae humanae, &amp; sic dealijs. Sicut autem
+            supe<lb ed="#V" n="83" break="no"/>rius est ostensum actus non ponitur in genere moris nisi
+            <lb ed="#V" n="84"/>propter voluntatem scilicet secundum quod est a voluntate
+            <lb ed="#V" n="85"/>elicitus vel imperatus, &amp; ideo secundum voluntatis vnitatem est
+            <lb ed="#V" n="86"/>sumendum iudicium de vnitate eius quod in genere
+            mo<lb ed="#V" n="87" break="no"/>ris esse dicitur. Vnde contingit aliquid quod est vnum in
+            <lb ed="#V" n="88"/>genere naturae consideratum, vt vnum motum continuum
+            <lb ed="#V" n="89"/>esse plures secundum quod ad genus moris retorquetur si voluntas
+            <lb ed="#V" n="90"/>in actu varietur, vt quando bona intentione quis incepit,
+            <lb ed="#V" n="91"/>&amp; male terminat. Et econtrario contingit esse plures
+            a<lb ed="#V" n="92" break="no"/>ctus secundum quod ad genus naturae referuntur, qui tamen
+            <lb ed="#V" n="93"/>sunt vnum secundum quod in genere moris considerantur,
+            <lb ed="#V" n="94"/>vt patet in eo qui furatur, quia omnes actus eius qui ad finem
+            <lb ed="#V" n="95"/>furtiordinantur peccatum sunt, cum mala intentione fiant,
+            <lb ed="#V" n="96"/>qui possunt esse valde multi, &amp; non omnes computantur vt vnum
+            <lb ed="#V" n="97"/>peccatum, quia non habent rationem peccati nisi secundum quod per vnam
+            <lb ed="#V" n="98"/>voluntatem in vnum peruersum finem ordinantur. Sic ergo
+            di<lb ed="#V" n="99" break="no"/>stinguere oportet in proposito, quia cum quaeritur, vtrum
+            vo<lb ed="#V" n="100" break="no"/>luntas &amp; actus exterior sint diuersa pctam, aut intelligitur
+            <lb ed="#V" n="101"/>de voluntate coniuncta actui interiori, aut de voluntate
+            <lb ed="#V" n="102"/>praecedente. Si de coniuncta, sic oportet quod peccatum vnum sit
+            <lb ed="#V" n="103"/>voluntas interior &amp; actus exterior, quia non multiplicatur
+            <lb ed="#V" n="104"/>actus voluntatis. Si autem de voluntate separata, sic est aliquod
+            <lb ed="#V" n="105"/>peccatum, quia actus voluntatis multiplicatur. Quando enim explet
+            <lb ed="#V" n="106"/>actum exteriorem, etiam actum voluntatis iterat. Et oportet quod
+            <lb ed="#V" n="107"/>sint duo peccata non propter diuersitatem actus interioris
+            <lb ed="#V" n="108"/>&amp; exterioris, sed propter diuersitatem duorum actuum
+            in<lb ed="#V" n="109" break="no"/>teriorum voluntatis. Haec ille.
+          </p>
+          <p xml:id="capsco-b2il5d-d1e261">
+            Item prima secundae. q. 20. ar. 3. sic
+            <lb ed="#V" n="110"/>dicit. Actus interior voluntatis &amp; actus exterior prout
+            con<lb ed="#V" n="111" break="no"/>siderantur in genere moris sunt vnus actus. Contingit autem
+            <lb ed="#V" n="112"/>quandoque actum qui est vnus subiecto habere plures rationes
+            bonita<lb ed="#V" n="113" break="no"/>tis vel malitiae, &amp; quandoque vnam tantum. Sic ergo dicendum est quod
+            <lb ed="#V" n="114"/>quandoque est eadem bonitas vel malitia interioris actus &amp;
+            exte<lb ed="#V" n="115" break="no"/>rioris, &amp; quandoque alia &amp; alia. Sicut enim iam dictum est, praedictae duae
+            <lb ed="#V" n="116"/>bonitates vel malitiaesclcet interioris actus &amp; exterioris
+            adinui<lb ed="#V" n="117" break="no"/>cem ordinantur, contingit autem in his quae ad aliud
+            ordinan<lb ed="#V" n="118" break="no"/>tur, quod aliquid est bonum ex hoc solo quod ad illud ordinatur,
+            <lb ed="#V" n="119"/>sicut potio amara ex hoc solo est bona quod est sanatiua,
+            <lb ed="#V" n="120"/>vnde non est alia bonitas sanitatis &amp; potionis, sed vna &amp; eadem.
+            <lb ed="#V" n="121"/>Quandoque vero illud quod ad aliud ordinatur habet in se aliquam
+            <lb ed="#V" n="122"/>rationem boni etiam praeter relationem ad aliud bonum, sicut
+            medici<lb ed="#V" n="123" break="no"/>na saporosa habet rationem delectabilis praeter hoc quod est
+            sa<lb ed="#V" n="124" break="no"/>natiua, sic ergo dicendum est, quod quandoque actus exterior dicitur
+            bo<lb ed="#V" n="125" break="no"/>nus vel malus solum ex fine, &amp; tunc est omnino eadem bonitas
+            <lb ed="#V" n="126"/>vel malitia voluntatis, quae per se respicit finem, &amp; actus
+            ex<lb ed="#V" n="127" break="no"/>terioris qui respicit finem mediante actu voluntatis.
+            Quan<lb ed="#V" n="128" break="no"/>do autem actus exterior habet bonitatem vel malitiam
+            <lb ed="#V" n="129"/>secundum se scilicet secundum materiam vel
+            circunstan<lb ed="#V" n="130" break="no"/>tias, tunc bonitas actus exterioris est vna, &amp; bonitas
+            voluu<lb ed="#V" n="131" break="no"/>tatis quae est ex fine est alia, ita tamen quod bonita finis ex
+            vo<lb ed="#V" n="132" break="no"/>luntate redundat in actum exteriorem, &amp; bonitas materiae
+            <lb ed="#V" n="133"/>&amp; circunstantiarum redundat in actum voluntatis, sicut
+            <lb ed="#V" n="134"/>iam dictum est Haec ille.
+          </p>
+          <p xml:id="capsco-b2il5d-d1e318">
+            Item in solutione tertij
+            argumen<lb ed="#V" n="135" break="no"/>ti sic dicit. Quando aliquid ex vno deriuatur in alterum
+            <lb ed="#V" n="136"/>sicut ex causa agente vniuoca, tunc aliud est quod est in
+            <lb ed="#V" n="137"/>vtroque, sicut cum calidum calefacit, alius numero est
+            ca<lb ed="#V" n="138" break="no"/>lor calefacientis, &amp; calor calefacti, licet sit idem in spee,
+            <lb ed="#V" n="139"/>sed quando aliquid deriuatur ab vno in alterum secundum
+            <lb ed="#V" n="140"/>analogiam vel proportionem, tunc est tantum vnum
+            nu<lb ed="#V" n="141" break="no"/>mero, sicut a sano quod est in corpore animalis deriuatur sanum
+            <lb ed="#V" n="142"/>ad medicinam, &amp; vrinam, nec est alia sanitas medicinae &amp;
+            <lb ed="#V" n="143"/>vrinae quam sanitas animalis, quam medicina facit, &amp; vrina
+            si<lb ed="#V" n="144" break="no"/>gnificat, &amp; hoc modo a bonitate voluntatis deriuatur
+            bo<pb ed="#V" n="570"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>nitas actus exterioris, &amp; econtra scilicet secundum
+            ordi<lb ed="#V" n="2" break="no"/>nen vnius ad alterum. Haec ille.
+          </p>
+          <p xml:id="capsco-b2il5d-d1e349">
+            Ex quibus potest sic
+            argui<lb ed="#V" n="3" break="no"/>Quecunque sunt vnum in genere moris habent eandem
+            boni<lb ed="#V" n="4" break="no"/>tatem &amp; malitiam, sed actus voluntatis coniunctus actui
+            <lb ed="#V" n="5"/>exteriori, &amp; ipse actus exterior sunt vnum in genere
+            mo<lb ed="#V" n="6" break="no"/>ris, igitur &amp;c. Tunc sic. Quicunque actus habent eandem
+            ma<lb ed="#V" n="7" break="no"/>litiam in numero sunt idem peccatum, &amp; non plura, sed actus
+            <lb ed="#V" n="8"/>interior &amp; exterior sunt huiusmodi igitur &amp;c. Secunda
+            <lb ed="#V" n="9"/>conclusio. Actus exterior aliquam addit bonitatem vel
+            mali<lb ed="#V" n="10" break="no"/>tiam super actum interiorem praecisae sumptum scilicet illam quam hebnt
+            <lb ed="#V" n="11"/>ex termino proximo, aliquam autem non addit scilicet illam quam hebt
+            <lb ed="#V" n="12"/>actus interior ex fine, nunquam vero addit paenam aut pemium
+            <lb ed="#V" n="13"/>essentiale actui voluntatis, si sit in se completus. Hanc ponit
+            <lb ed="#V" n="14"/>Sanctus Thomas secundo sen. dist. 40. q. 1. ar. 3. vbi sic. Actus inquit
+            ex<lb ed="#V" n="15" break="no"/>terior &amp; actus interior voluntatis hoc modo comparantur
+            <lb ed="#V" n="16"/>adinuicem quod vterque quodam modo est alteri causa bonitatis,
+            <lb ed="#V" n="17"/>&amp; vterque quantum in se est quandam bonitatem hebtam quam dat
+            <lb ed="#V" n="18"/>alteri. Actus enim exterior bonitatem habet ex
+            circunstantia<lb ed="#V" n="19" break="no"/>rum commensuratione secundum quam proportionatus est ad
+            fi<lb ed="#V" n="20" break="no"/>nen homnins consequendum, &amp; quia actus exterior comparatur
+            <lb ed="#V" n="21"/>ad voluntatem sicut obiectum, inde est quod hanc voluntatem
+            <lb ed="#V" n="22"/>actus interior voluntatis ab exteriori habet, non quidem ex
+            <lb ed="#V" n="23"/>eo secundum quod est exercitus, sed secundum quod est intentus &amp; volitus,
+            <lb ed="#V" n="24"/>quia secundum quod est exercitus seruat actum voluntatis, sed
+            quae<lb ed="#V" n="25" break="no"/>dam ratio bonitatis consistit in actu interiori voluntatis secundum
+            <lb ed="#V" n="26"/>se secundum quod voluntas est dicnmdeoa suorum actuum, secundum quam bonitatem
+            <lb ed="#V" n="27"/>actus habet rationem meriti vel laudabilis, &amp; haec bonitas ex
+            <lb ed="#V" n="28"/>interiori actu in exteriorem actum procedit. Loquendo ergo
+            <lb ed="#V" n="29"/>de illa bonitate quam voluntas praebet actui exteriori, actus
+            <lb ed="#V" n="30"/>exterior nihil bonitatis addit, dummon voluntas aequaliter
+            <lb ed="#V" n="31"/>intenta sit. Hoc pro tanto dico, quia quidam actus sunt
+            de<lb ed="#V" n="32" break="no"/>lectabiles, in quibus voluntas non potest esse ita intensa
+            an<lb ed="#V" n="33" break="no"/>te actum sicut in actu, vt patet in actu fornicationis. Vnde
+            <lb ed="#V" n="34"/>non aequaliter demeretur qui vult fornicari, &amp; qui actu
+            for<lb ed="#V" n="35" break="no"/>nicatur, quia voluntas non potest esse adeo perfecta ante
+            a<lb ed="#V" n="36" break="no"/>ctum, sicut est in actu. Quidam vero actus sunt difficiles, in
+            <lb ed="#V" n="37"/>quibus voluntas remittitur in actu, &amp; in istis voluntas
+            poteoe<lb ed="#V" n="38" break="no"/>esse magis perfecta ante actum quam in actu. Si autem loquamur
+            <lb ed="#V" n="39"/>de bonitate actus quam actus exterior secundum se habet, sic actus
+            <lb ed="#V" n="40"/>exterior complet interiorem in bonitate vel malitia, sicut
+            <lb ed="#V" n="41"/>terminus motus complet motum. Comparatur enim ad
+            volun<lb ed="#V" n="42" break="no"/>tatem vt obiectum. Et quia ad praemium essentiale
+            ordina<lb ed="#V" n="43" break="no"/>tur actus per primam bonitatem quam habet a voluntate
+            <lb ed="#V" n="44"/>prout liberaliter redditur &amp; ex amore, ideo exterior nihil
+            <lb ed="#V" n="45"/>adiungit ad praemium essentiale. Tantum enim meretur qui
+            <lb ed="#V" n="46"/>habet perfectam voluntatem faciendi aliquod bonum quam
+            <lb ed="#V" n="47"/>si faceret illud, &amp; si facit vnum actum quam si faceret
+            mul<lb ed="#V" n="48" break="no"/>tos voluntate aequaliter manente. Ad praemium autem
+            acciden<lb ed="#V" n="49" break="no"/>tale ordinatur per bonitate, quae est ipsius actus exterioris
+            <lb ed="#V" n="50"/>secundum se, &amp; ideo actus exterior adiungit aliquid accidentale,
+            <lb ed="#V" n="51"/>verbi gratia. Martyr inquantum exterius patitur paenam, hebt
+            <lb ed="#V" n="52"/>victoriam de aduersarijs fidei, &amp; ex hoc sibi aureola
+            debe<lb ed="#V" n="53" break="no"/>tur. Similiter etiam aliquis ex hoc quod in actum exteriorem
+            fre<lb ed="#V" n="54" break="no"/>quenter exit magis habilitatur ad bonum, &amp; ex hoc
+            serua<lb ed="#V" n="55" break="no"/>tur quod in charitate crescit. Similiter etiam per actum
+            ex<lb ed="#V" n="56" break="no"/>teriorem punitur magis quam per voluntatem tantum, &amp;
+            <lb ed="#V" n="57"/>ideo actus exterior adiungit in satisfactione, &amp; similiter in
+            <lb ed="#V" n="58"/>alijs omnibus, quae consequuntur actum exteriorem vt &amp;
+            <lb ed="#V" n="59"/>secundum quod est exercitus. Haec ille.
+          </p>
+          <p xml:id="capsco-b2il5d-d1e476">
+            Item prima
+            secun<lb ed="#V" n="60" break="no"/>dae q. 20. arti. 4. sic dicit. Si loquimur de bonitate exterioris
+            <lb ed="#V" n="61"/>actus quam habet ex voluntate finis, tunc actus exterior
+            <lb ed="#V" n="62"/>nihil addit ad bonitatem interioris nisi contingat ipsam
+            <lb ed="#V" n="63"/>voluntatem secundum se fieri meliorem in bonis, vel
+            pe<lb ed="#V" n="64" break="no"/>iorem in malis. Quod quidem videtur posse contingere
+            <lb ed="#V" n="65"/>tripliciter. Vnomodo secundum numerum, puta cum
+            ali<lb ed="#V" n="66" break="no"/>quis vult aliquid facere bono fine vel malo, &amp; tunc
+            qui<lb ed="#V" n="67" break="no"/>dem non facit, postmodum autem vult &amp; facit. Tunc enim
+            du<lb ed="#V" n="68" break="no"/>plicatur actus voluntatis, &amp; sit duplex bonum vel duplex
+            ma<lb ed="#V" n="69" break="no"/>lum. Aliomodo quantum ad extensionem, puta cum aliquis
+            <lb ed="#V" n="70"/>vult aliquid facere bono fine, vel malo, semper propter
+            <lb ed="#V" n="71"/>aliquod impedimentum desistit, alius autem continuat
+            <lb ed="#V" n="72"/>motum voluntatis quousque opere perficiat. Manifestum
+            <lb ed="#V" n="73"/>est quod huotmodo voluntas est diuturnior in bono vel in malo,
+            <lb ed="#V" n="74"/>&amp; secundum hoc est peior vel melior. Alio modo secundum intensionem. Sunt
+            <lb ed="#V" n="75"/>enim quidam actus exteriores qui inquantum sunt
+            dele<cb ed="#V" n="b"/><lb ed="#V" n="76" break="no"/>ctabiles vel paenosi nati sunt intendere voluntatem vel
+            re<lb ed="#V" n="77" break="no"/>mittere. Constat autem quod quanto voluntas intensius
+            ope<lb ed="#V" n="78" break="no"/>ratur vel intendit bonum vel malum tanto est melior vel
+            <lb ed="#V" n="79"/>peior. Si autem loquimur de bonitate actus exterioris,
+            <lb ed="#V" n="80"/>quam habet secundum materiam, &amp; debitas circunstantias sic
+            con<lb ed="#V" n="81" break="no"/>paratur ad voluntatem vt terminus &amp; finis, &amp; hoc modo
+            <lb ed="#V" n="82"/>addit ad bonitatem vel malitiam voluntatis, quia omnis
+            <lb ed="#V" n="83"/>inclinatio vel motus perficitur in hoc quod consequitur
+            <lb ed="#V" n="84"/>finem, vel attingit terminum, vnde non est perfecta
+            volun<lb ed="#V" n="85" break="no"/>tas nisi sit talis quae opportunitate data operetur. Si vero
+            po<lb ed="#V" n="86" break="no"/>sibilitas desit voluntate existente perfecta :vt operetur si
+            <lb ed="#V" n="87"/>posset, defectus perfectionis qui est ex actu exteriori est
+            <lb ed="#V" n="88"/>simpliciter inuoluntarius. Inuoluntarium autem sicut non
+            <lb ed="#V" n="89"/>meretur paenam vel praemium in operando bonum aut
+            ma<lb ed="#V" n="90" break="no"/>lum, ita non tollit aliquid de praemio vel de paena, si
+            homo<lb ed="#V" n="91" break="no"/>inuoluntarie simpliciter deficiat ad faciendum bonum vel
+            <lb ed="#V" n="92"/>malum. Haec ille.
+          </p>
+          <p xml:id="capsco-b2il5d-d1e551">
+            Ex quibus arguitur sic. Et primo
+            pro<lb ed="#V" n="93" break="no"/>secunda parte conclusionis, bonitas vel malitia actus
+            inte<lb ed="#V" n="94" break="no"/>rioris in nullo dependens ab actu exteriori aequaliter inest
+            <lb ed="#V" n="95"/>actui voluntatis non posito actu exteriori, sicut posito
+            cae<lb ed="#V" n="96" break="no"/>teris paribus ex parte actus voluntatis, sed bonitas vel
+            mali<lb ed="#V" n="97" break="no"/>tia actus interioris quem habet ex fine, in nullo dependet ex
+            <lb ed="#V" n="98"/>actu exteriori, igitur talis bonitas vel malitia aequaliter
+            <lb ed="#V" n="99"/>inest actui interioriin absentia exterioris sicut in praesentia
+            <lb ed="#V" n="100"/>illius, &amp; sic patet secunda pars conclusionis. Pro prima
+            ve<lb ed="#V" n="101" break="no"/>ro arguitur sic. Nullus motus non attingeus terminum est
+            <lb ed="#V" n="102"/>aequalis bonitatis vel malitiae cum motu attingente
+            termi<lb ed="#V" n="103" break="no"/>num quo ad bonitatem vel malitiam quae sibi accidit ex
+            <lb ed="#V" n="104"/>praesentia termini, sed actus voluntatis se habet ad actum
+            <lb ed="#V" n="105"/>exteriorem vt motus ad terminum a quo accipit aliquid
+            <lb ed="#V" n="106"/>bonitatis vel malitiae, igitur plus habet de tali bonitate vel
+            <lb ed="#V" n="107"/>malitia in praesentia actus exterioris qua in eius absentia.
+            <lb ed="#V" n="108"/>Pro tertia parte arguitur sic. Quod est simpliciter
+            inuo<lb ed="#V" n="109" break="no"/>luntarium non tollit voluntati completae aliquid de paena
+            <lb ed="#V" n="110"/>vel praemio essentiali, sed absentia actus exterioris est
+            in<lb ed="#V" n="111" break="no"/>uoluntaria in habente voluntatem completam ad agendum.
+            <lb ed="#V" n="112"/>igitur talis absentia non tollit aliquid de paena vel de
+            prae<lb ed="#V" n="113" break="no"/>mio essentiali. Et in hoc primus articulus terminatur.
+          </p>
+        </div>
+        <div xml:id="capsco-b2il5d-Dd1e600">
+          <head xml:id="capsco-b2il5d-Hd1e602">Articulus 2</head>
+          <p xml:id="capsco-b2il5d-d1e604">
+            <lb ed="#V" n="114"/><milestone ed="#V" unit="p" rend="initial"/> Vantum ad secundum articulum arguitur contra
+            <lb ed="#V" n="115"/>conclusiones. Et quidem contra primam arguitGreg
+            <lb ed="#V" n="116"/>de ari. probando quod actus interior &amp; exterior sint duo
+            <lb ed="#V" n="117"/>peccata. Arguit igitur sic. Operatio exterior est peccatum,
+            <lb ed="#V" n="118"/>puta furtum. homicidium, adulterium, mendacium, &amp; non
+            <lb ed="#V" n="119"/>est illud peccatum quod dicitur voluntas mala quam
+            con<lb ed="#V" n="120" break="no"/>comitatur, sicut loqui falsum cum intentione fallendi non
+            <lb ed="#V" n="121"/>est velle loqui falsum cum intentione fallendi, nec
+            tracta<lb ed="#V" n="122" break="no"/>re rem alienam inuito domino, est velle tractare rem
+            alie<lb ed="#V" n="123" break="no"/>nam &amp;c. &amp; ita de alijs. Et constat quod tale &amp; tale velle sunt
+            <lb ed="#V" n="124"/>peccata, igitur velle quod est peccatum, &amp; agere quod
+            ip<lb ed="#V" n="125" break="no"/>sum concomitatur sunt plura &amp; distincta peccata, cuius
+            <lb ed="#V" n="126"/>oppositum dicit conclusio.
+          </p>
+          <p xml:id="capsco-b2il5d-d1e636">
+            Contra secundam
+            conclusio<lb ed="#V" n="127" break="no"/>nem arguunt multi Scotistae Primo, quia glosa decreti de
+            <lb ed="#V" n="128"/>paeni. dis. prima ca. sicut, exponens praeallegatum verbum
+            <lb ed="#V" n="129"/>Augustinus de lib. arbi. Non minus reus est &amp;c. dicit. Re vera
+            ma<lb ed="#V" n="130" break="no"/>gis est reus, si opus adhibeatur, sed hoc quo ad
+            sufficien<lb ed="#V" n="131" break="no"/>tiam aeterni interius accipe, vel non minus idest
+            nihilomi<lb ed="#V" n="132" break="no"/>nus est reus, non quin plus peccet, si opus prosequatur
+            <lb ed="#V" n="133"/>Quod probat ex hoc quod prohibitum est malam
+            volun<lb ed="#V" n="134" break="no"/>tatem in opus procedere. Secundo, quia illa conclusio
+            vi<lb ed="#V" n="135" break="no"/>detur esse contra determinationem ecclesiae damnantis
+            er<lb ed="#V" n="136" break="no"/>rores Petri abavlardi. Inter illius enim articulos
+            damna<lb ed="#V" n="137" break="no"/>tos dicitur esse vnus, quo sic inquiebat. Nos vero dicimus
+            <lb ed="#V" n="138"/>quod sola voluntas a Deo aeternaliter remuneratur siue
+            <lb ed="#V" n="139"/>ad bonum, siue ad malum, nec propter opera peior vel
+            <lb ed="#V" n="140"/>melior efficitur hoc, nisi forte dum operatur in aliquo
+            <lb ed="#V" n="141"/>eius voluntas augeatur. Ex cuius sententiae damnatione
+            vi<lb ed="#V" n="142" break="no"/>detur esse tenendum, quod non sola voluntas
+            remunera<lb ed="#V" n="143" break="no"/>tur, &amp; quod hoc propter opera exteriora efficitur peior vel
+            <lb ed="#V" n="144"/>melior.
+          </p>
+          <p xml:id="capsco-b2il5d-d1e678">
+            Tertio arguitur sic ratione. Si vera sit conclusio non
+            <lb ed="#V" n="145"/>plus mereri videtur apud Deum volens sustinere martyrium
+            <lb ed="#V" n="146"/>pro Christo &amp; actualiter sustinens, quam alius aequali
+            vo<lb ed="#V" n="147" break="no"/>luntate volens sustinere, non tamen actu sustinens Quod non
+            <lb ed="#V" n="148"/>est verum, quia pro actu martyrij datur aureola secundum
+            docto<lb ed="#V" n="149" break="no"/>res.
+          </p>
+          <p xml:id="capsco-b2il5d-d1e691">
+            Item velle baptizari vel aliud sacramentum recipere, aeque
+            <lb ed="#V" n="150"/>bonum &amp; vtile foret homini sicut velle, &amp; etiam cum hoc baptizari.
+            <pb ed="#V" n="571"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>Item qui vellet percutere vel occidere clericum, tantum
+            pec<lb ed="#V" n="2" break="no"/>caret, quantum alius, qui non solum vellet, sed etiam
+            occi<lb ed="#V" n="3" break="no"/>deret, quod est falsum. Tum quia occidens est vere
+            homici<lb ed="#V" n="4" break="no"/>da, alius vero non. Tum quia iste incurrit excommunicatio
+            <lb ed="#V" n="5"/>nem vel irregularitatem, quas paenas alius non incurrit, &amp;
+            <lb ed="#V" n="6"/>quascunque paenas alter pro voluntate occidendi
+            incur<lb ed="#V" n="7" break="no"/>rit vel meretur, incurrit iste &amp; meretur: Hoc autem non
+            <lb ed="#V" n="8"/>esset iustum nisi ipse plus peccaret, &amp; maioris paenae ipse
+            <lb ed="#V" n="9"/>dignus esset.
+          </p>
+          <p xml:id="capsco-b2il5d-d1e721">
+            <lb ed="#V" n="10"/><milestone ed="#V" unit="p" rend="indent"/> Quarto quia sequitur quod si duo homines volentes
+            <lb ed="#V" n="11"/>quendam occidere sagittarentur in vico alicuius ciuitatis,
+            <lb ed="#V" n="12"/>aequaliter adhibita, vel aequaliter neglecta cautela hincinde
+            <lb ed="#V" n="13"/>de laedendo aliquem, &amp; vnus superuenientem occideret,
+            al<lb ed="#V" n="14" break="no"/>ter nullum, quia nullus occurreret, tantum peccaret ille
+            <lb ed="#V" n="15"/>qui neminem laesit, quantum alius qui superuenientem
+            ho<lb ed="#V" n="16" break="no"/>minem interfecit, quod non videtur dicendum.
+          </p>
+          <p xml:id="capsco-b2il5d-d1e740">
+            Quinto quia
+            <lb ed="#V" n="17"/>cuilibet peccato paena debetur, ergo duob.s peccatis maior
+            <lb ed="#V" n="18"/>poena debetur quam vni illorum tantum ex ipsis. Ex
+            oppo<lb ed="#V" n="19" break="no"/>sito enim consequentis clare videtur sequi oppositum
+            an<lb ed="#V" n="20" break="no"/>tecedentis, ergo pro vtroque scilicet voluntate &amp; actu sequente cum
+            <lb ed="#V" n="21"/>sint duo peccata, maior paena debetur peccanti, ac per hoc
+            <lb ed="#V" n="22"/>plus demeretur. Sexto. quia Augutinus decimotertio de trinitate
+            <lb ed="#V" n="23"/>5. capitulo. dicit. Mala voluntate sola quilibet miser
+            effici<lb ed="#V" n="24" break="no"/>tur, sed miserior potestate, qua desiderium malae
+            volunta<lb ed="#V" n="25" break="no"/>tis impletur, &amp; sic male volendo miser est, minus tamen esset
+            <lb ed="#V" n="26"/>si nihil eorum quae perperam voluit habere potuisset. Sed
+            <lb ed="#V" n="27"/>istud vt arguit Scotus non potest intelligi de miseria
+            poe<lb ed="#V" n="28" break="no"/>nae, quia desiderans &amp; non potens habere quod
+            dende<lb ed="#V" n="29" break="no"/>rat plus habet de poena quam ille cuius desiderium
+            im<lb ed="#V" n="30" break="no"/>pletur, igitur intelligitur de miseria culpae, quae praefuit. in
+            <lb ed="#V" n="31"/>actu interiori malo. Contra eandem arguit Scotus per
+            ratio<lb ed="#V" n="32" break="no"/>nem. Et primo supponit, quod bonitas actus moralis est
+            inte<lb ed="#V" n="33" break="no"/>gritas eorum, quae secundum rectam rationem operantis
+            <lb ed="#V" n="34"/>dictantur debere conuenire ipsi actui. Tunc sic arguit primo
+            <lb ed="#V" n="35"/>vbi est alia &amp; alia integritas, ibi erit alia &amp; alia moralis
+            bo<lb ed="#V" n="36" break="no"/>nitas, sed alia est integritas eorum, quae secundum dictamen
+            <lb ed="#V" n="37"/>rectae rationis debent conuenire actuiinteriori, &amp; eorum quae
+            <lb ed="#V" n="38"/>actui exteriori:. igitur alia bonitas moralis &amp; per consequens
+            <lb ed="#V" n="39"/>in malis alia malitia moralis, &amp; hoc sine priuatiue tantum
+            <lb ed="#V" n="40"/>siue contrarie, quia aliqua disconuenientia repugnant illis
+            <lb ed="#V" n="41"/>quae debent conuenire, igitur &amp;c. probatio minoris, quia
+            re<lb ed="#V" n="42" break="no"/>cta ratio non dictat debere actui conuenire, quod est
+            im<lb ed="#V" n="43" break="no"/>possibile sibi conuenire, non autem actui interiori est
+            pos<lb ed="#V" n="44" break="no"/>sibile conuenire illud, quod actui exteriori conuenit, vel ptestr
+            <lb ed="#V" n="45"/>conuenire &amp; hoc intelligendo de vtroque actu secundum
+            <lb ed="#V" n="46"/>suum esse reale, &amp; de eo quod sibi conuenit secundum
+            ta<lb ed="#V" n="47" break="no"/>le esse, licet actui exteriori, quatenus volitus est aliquo
+            mo<lb ed="#V" n="48" break="no"/>do possit conuenire denominatiue, denominatione quadam
+            <lb ed="#V" n="49"/>id quod conuenit actui interiori. Secundo, quia actus
+            inte<lb ed="#V" n="50" break="no"/>rior &amp; exterior sunt duae entitates, ergo distinctae bonitates,
+            <lb ed="#V" n="51"/>cum bonitas non distinguatur ab eo quod est bonum
+            pri<lb ed="#V" n="52" break="no"/>mo. 1. cum bonitasactus non distinguatur ab actu cuius
+            <lb ed="#V" n="53"/>est bonitas non plus quam veritas a vero seu a
+            propositio<lb ed="#V" n="54" break="no"/>ne vel signo alio, quod primo dicitur verum. Distinctae
+            igi<lb ed="#V" n="55" break="no"/>tur sunt bonitates morales vel malitiae actus interioris &amp;
+            <lb ed="#V" n="56"/>exterioris. sed duae bonitates meliores sunt in circunstantiis
+            <lb ed="#V" n="57"/>quam alia illarum solum, &amp; sic de malitiis, igitur meliores
+            <lb ed="#V" n="58"/>sunt moraliter actus interior &amp; exterior simul quam
+            inte<lb ed="#V" n="59" break="no"/>rior. Et hoc est etiam quod tangit Scotus, in deductione
+            <lb ed="#V" n="60"/>praecedentis argumenti. Potentiae enim operatiuae secundum
+            <lb ed="#V" n="61"/>eum actus interioris &amp; exterioris non sunt capaces actuum eiusdem
+            <lb ed="#V" n="62"/>rationis, ergo alterius rationis ea actus exterior &amp; interior,
+            <lb ed="#V" n="63"/>&amp; per consequens bonitas huius distinguitur a bonitate
+            il<lb ed="#V" n="64" break="no"/>lius, siue eius bonitas sit actus, seu eius integritas, de qua
+            su<lb ed="#V" n="65" break="no"/>perius tactum est. tertio quia frustra videretur poni actus
+            <lb ed="#V" n="66"/>exterior, quod falsum est quia per solos actus interiores
+            <lb ed="#V" n="67"/>non sufficienter subueniretur pauperibus, nec frustra fuit
+            <lb ed="#V" n="68"/>mortuus Christus &amp; passus, &amp; tenet consequentia, ex quo
+            <lb ed="#V" n="69"/>per actus exteriores non crescit meritum nec demeritum.
+          </p>
+          <p xml:id="capsco-b2il5d-d1e857">
+            <lb ed="#V" n="70"/>Quarto quia secundum sanctos Christi lanceatio erat
+            no<lb ed="#V" n="71" break="no"/>bis meritoria, &amp; secundum eos inde sumpserunt efficaciam
+            <lb ed="#V" n="72"/>noua sacramenta, puta baptismus ex aqua, &amp; eucharistia
+            <lb ed="#V" n="73"/>ex sanguine quae profluxerunt de latere saluatoris dormic
+            <lb ed="#V" n="74"/>tis, &amp; tamen nulla tunc fuit interior volitio meritoria, quia
+            <lb ed="#V" n="75"/>nec tunc fuit anima saluatoris in statu merendi, nec ibi etiam
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="76"/>sicut fit in alijs actibus communiter actus interior
+            intendi<lb ed="#V" n="77" break="no"/>tur vel melioratur seu peioratur ex praesentia vel
+            positio<lb ed="#V" n="78" break="no"/>ne actus exterioris, igitur quicquid accrescebat meriti erat
+            <lb ed="#V" n="79"/>per additionem actus exterioris ad actus interiores qui
+            <lb ed="#V" n="80"/>praefuerant. Quinto. Omissio actus interioris &amp; exterioris
+            <lb ed="#V" n="81"/>simul peior est &amp; grauior quam alterius tantum, ergo &amp;
+            <lb ed="#V" n="82"/>positio amborum simul melior est quam interiorum
+            tan<lb ed="#V" n="83" break="no"/>tum: consequentia patet per illam regulam topicam. Illud
+            <lb ed="#V" n="84"/>est melius cuius oppositum est peius. Et patet per
+            exempla<lb ed="#V" n="85" break="no"/>quia enim Dei volitio est optima, ideo eius odium est
+            pes<lb ed="#V" n="86" break="no"/>sima volitio. Assumptum probatur exemplo. Petrus est enim
+            <lb ed="#V" n="87"/>pauperem in necessitate positum nec interius diligere, nec
+            <lb ed="#V" n="88"/>exterius subuenire, quam eum non diligerere, &amp; tamen
+            si<lb ed="#V" n="89" break="no"/>bi subuenire. Peius etiam est nec bene facere exterius, nec
+            <lb ed="#V" n="90"/>velle bene facere, quam alterum solum, igitur &amp;c. Sexto
+            <lb ed="#V" n="91"/>Duobus aequalibus in culpa &amp; poena sibi debita infligi in
+            <lb ed="#V" n="92"/>purga. &amp; dum viuerent aequaliter disponentibus de bonis
+            <lb ed="#V" n="93"/>temporalibus pro animabus suis tribuendis, &amp; sic
+            morien<lb ed="#V" n="94" break="no"/>tibus si pro vno fiunt eseemosynae &amp; procurentur orationes &amp;
+            <lb ed="#V" n="95"/>missae de bonis eius relictis per fideles executores, &amp; non
+            <lb ed="#V" n="96"/>pro alio, tunc primus citius liberatur quam secundus.
+            Alio<lb ed="#V" n="97" break="no"/>quin supersluerent suffragia pro mortuis, &amp; tamen per
+            om<lb ed="#V" n="98" break="no"/>nes actus suos interiores aequaliter liberari meruerunt,
+            igi<lb ed="#V" n="99" break="no"/>tur opera illa exteriora addita, addunt accelerationem ex
+            <lb ed="#V" n="100"/>peditionis a poena, &amp; per consequens faciunt ad augmentum
+            <lb ed="#V" n="101"/>gloriae saltem extensiue per durationem a parte ante.
+            Septi<lb ed="#V" n="102" break="no"/>mo. Mentiri est graue peccatum ex hoc quod mendacium
+            <lb ed="#V" n="103"/>tale est, sed illa grauitas non est tantum ex actu interiori
+            <lb ed="#V" n="104"/>quam exteriori simul, quia mendacium non potest esse sine
+            <lb ed="#V" n="105"/>actu exteriori, cum sit falsa vocis significatio cum
+            intentio<lb ed="#V" n="106" break="no"/>ne fallendi, igitur ex actu exteriori aggrauatur peccatum
+            <lb ed="#V" n="107"/>super actum interiorem.
+          </p>
+          <p xml:id="capsco-b2il5d-d1e944">
+            Octauo quia secundum
+            Grego<lb ed="#V" n="108" break="no"/>rium. vigesimoquarto moralium. Hoc inquit seuiatam vel
+            <lb ed="#V" n="109"/>vasa eius habere crebro proprium soletur, quod ad
+            iniqui<lb ed="#V" n="110" break="no"/>tatis suae cumulum ea quae nequiter appetunt, expetunt
+            ex<lb ed="#V" n="111" break="no"/>plere posse. Cum autem fortasse infirmantur electi atque
+            <lb ed="#V" n="112"/>in desiderijs illicitis ruunt, hoc plurimumque diuino
+            mu<lb ed="#V" n="113" break="no"/>nere. in actu retinetur quod voluntatis miseriae nullos
+            effe<lb ed="#V" n="114" break="no"/>ctus inueniunt. Ex hoc arguitur ad propositum Nono quia
+            <lb ed="#V" n="115"/>Cassianus in libro Collatonum, quaedam inquit vitia
+            con<lb ed="#V" n="116" break="no"/>sumari non possunt sine actu corporali vt castrimargia &amp;
+            <lb ed="#V" n="117"/>fornicatio, quaedam autem possunt consumari sine vlla
+            ac<lb ed="#V" n="118" break="no"/>tione corporis, vt superbia. Haec ille.
+          </p>
+          <p xml:id="capsco-b2il5d-d1e970">
+            Decimo quia
+            quan<lb ed="#V" n="119" break="no"/>tumcunque in principio missae quis vellet celebrare, &amp;
+            ver<lb ed="#V" n="120" break="no"/>ba sacramentalia proferre, nisi proferat illa, non consecra.
+            <lb ed="#V" n="121"/>bit, &amp; si vnus alius cum actu voluntatis remissiori verba
+            <lb ed="#V" n="122"/>debita proferret, consecraret. Plus igitur valent velle
+            pro<lb ed="#V" n="123" break="no"/>ferre verba &amp; proferre, quam velle tantum illa
+            profer<lb ed="#V" n="124" break="no"/>re omnibus aliis existentibus paribus, igitur similiter in
+            <lb ed="#V" n="125"/>proposito.
+          </p>
+          <p xml:id="capsco-b2il5d-d1e988">
+            <lb ed="#V" n="126"/><milestone ed="#V" unit="p" rend="indent"/> Vndecimo quia vadens ex proposito ad Sanctum Iacobum
+            <lb ed="#V" n="127"/>&amp; iter suum continuans, sed volitionem &amp; propositum po
+            <lb ed="#V" n="128"/>distractionem varians &amp; interrumpens, aut meretur
+            ali<lb ed="#V" n="129" break="no"/>quid per ambulationem suam dum totaliter distrahitur,
+            <lb ed="#V" n="130"/>&amp; habetur intentum, quia illud quod ibi additur de
+            meri<lb ed="#V" n="131" break="no"/>to, non prouenit ex nouo merito per actus interiores, si
+            <lb ed="#V" n="132"/>non, igitur talis per tantum &amp; totum laborem quem agit
+            <lb ed="#V" n="133"/>sic distractus nihil meretur, quod videtur inconueniens
+            <lb ed="#V" n="134"/>Duodecimo. Non minus vt videtur actus exterior
+            addi<lb ed="#V" n="135" break="no"/>tus interiori absolute meritorio addit meritum quam
+            ex<lb ed="#V" n="136" break="no"/>terior additus interiori conditionaliter addit meritum,
+            <lb ed="#V" n="137"/>sed in secundo casu crescit meritum per actum exteriorem
+            <lb ed="#V" n="138"/>vt pote siquis vellet vt quicunque de nouo intraret
+            eccle<lb ed="#V" n="139" break="no"/>siam ibi exaudiretur, sicut Salomon &amp; multi sancti, vt
+            Ca<lb ed="#V" n="140" break="no"/>therina, vt si Christus orasset, exauditus fuisset, quod si
+            cor<lb ed="#V" n="141" break="no"/>pus suum mortuum laceraretur, tale bonum proueniret
+            <lb ed="#V" n="142"/>fidelibus suis: igitur pari ratione actus exterior additus
+            in<lb ed="#V" n="143" break="no"/>teriori absolute meritorii, idest non dependenter ex
+            tali<lb ed="#V" n="144" break="no"/>bus conditionibus addit meritum. Decimotertio. Nam
+            <lb ed="#V" n="145"/>extra de haereticis, ad abolendam, excommunicatur
+            quili<lb ed="#V" n="146" break="no"/>bet qui aliter sentit de articulis fidei, &amp; de praeceptis
+            de<lb ed="#V" n="147" break="no"/>calogi, quam sentiat Romana ecclesia, sed ecclesia
+            Ro<lb ed="#V" n="148" break="no"/>mana sentit quod impossibile est hominem saluari sine
+            <lb ed="#V" n="149"/>fide: ista autem positio euacuat necessitatem fidei igitur &amp;c
+            <lb ed="#V" n="150"/>Assumptum patet, quia ponatur quod sint duo homines
+            <pb ed="#V" n="572"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>voluntarii ad credendum aliquem articulum, alter credit
+            <lb ed="#V" n="2"/>&amp; alter impeditur ab actu, dicere igitur quod ille qui non
+            <lb ed="#V" n="3"/>credit tantum meretur sicut alter credens est destruere
+            ne<lb ed="#V" n="4" break="no"/>cessitatem fidei, sed hoc videtur illa opinio dicere,
+            igi<lb ed="#V" n="5" break="no"/>tur &amp;c.
+          </p>
+          <p xml:id="capsco-b2il5d-d1e1062">
+            Item videtur quod illa opinio aliter sentit de
+            prae<lb ed="#V" n="6" break="no"/>ceptis decalogi quam sentiat Romana ecclesia quia
+            pona<lb ed="#V" n="7" break="no"/>tur quod duo essent aequalis voluntatis ad idolatrandum.
+            <lb ed="#V" n="8"/>vnus impeditur ab actu exteriori, &amp; alter non, sed facit
+            ido<lb ed="#V" n="9" break="no"/>latriam: dicere igitur quod ille tantum peccet vt iste, est
+            ali<lb ed="#V" n="10" break="no"/>ter sentire de primo praecepto decalogi. 1. quod non
+            opor<lb ed="#V" n="11" break="no"/>tuit illud praeceptum fuisse datum. decimoquarto. Quia
+            Chri<lb ed="#V" n="12" break="no"/>stus a conceptione voluit redimere genus humanum. Si
+            <lb ed="#V" n="13"/>igitur illa voluntas sufficit, frustra ponebatur illa
+            redem<lb ed="#V" n="14" break="no"/>ptio, si non, hoc est contra opinionem. Contra eandem
+            ar<lb ed="#V" n="15" break="no"/>guit Aureolus. Primo suppono inquit quod bonitas
+            mora<lb ed="#V" n="16" break="no"/>lis pensatur ex fine. Tunc arguo sic. Illud quod habet
+            spe<lb ed="#V" n="17" break="no"/>cialem &amp; propriam rationem &amp; modum tendendi in finem,
+            <lb ed="#V" n="18"/>habet propriam bonitatem moralem. Hoc patet
+            praesup<lb ed="#V" n="19" break="no"/>posito quod actus dicitur moralis ex fine, &amp; bonus
+            morali<lb ed="#V" n="20" break="no"/>ter in ordine ad finem. Igitur qui habent alium modum
+            at<lb ed="#V" n="21" break="no"/>tingendi finem necessario habent aliam &amp; aliam bonitatem
+            <lb ed="#V" n="22"/>moralem, &amp; idem dico per oppositum de malitia, sed actus
+            <lb ed="#V" n="23"/>exterior habet alium &amp; alium modum attingendi finem,
+            <lb ed="#V" n="24"/>quod probatur inducendo. Nam actus fortitudinis in
+            effe<lb ed="#V" n="25" break="no"/>ctu positus procurat &amp; attingit bonum reipublicae &amp;
+            ciui<lb ed="#V" n="26" break="no"/>tatis, quod non attingit actus interior quantumcunque
+            ef<lb ed="#V" n="27" break="no"/>ficax. Sic etiam de martyrio, cuius finis est approbatio &amp;
+            te<lb ed="#V" n="28" break="no"/>stificatio veritatis fidei christianae. Et apparet quod aliter
+            at<lb ed="#V" n="29" break="no"/>tingitur iste finis quo ad extrinsecos per actum exteriorem
+            <lb ed="#V" n="30"/>positum quam per solum interiorem. Similiter etiam in
+            ac<lb ed="#V" n="31" break="no"/>tibus malis idem patet. Magis enim offendit rempublicam &amp;
+            <lb ed="#V" n="32"/>damnificat qui de facto perpetra t nomicidium quam qui
+            <lb ed="#V" n="33"/>tantum perpetrat consensu &amp; electione interiori. Secundo
+            <lb ed="#V" n="34"/>arguit, quia esse morale est esse voluntarium, sed actus
+            effi<lb ed="#V" n="35" break="no"/>cax interior &amp; exterior sunt plura voluntaria. Habensienim
+            <lb ed="#V" n="36"/>actum interiorem habet vnum voluntarium, habens
+            au<lb ed="#V" n="37" break="no"/>tem cum hoc actum exteriorem habet aliud voluntarium
+            <lb ed="#V" n="38"/>igitur &amp;c.
+          </p>
+          <p xml:id="capsco-b2il5d-d1e1136">
+            Tertio sic. Bonitas actus moralis consistit
+            intrin<lb ed="#V" n="39" break="no"/>sece in integritate propriarum circunstantiarum debitarum
+            <lb ed="#V" n="40"/>inesse ipsi actui. Tunc sic. Illi actus qui habent alias &amp; alias
+            <lb ed="#V" n="41"/>intrinsecas circunstantias, habent aliam &amp; aliam bonitatem
+            <lb ed="#V" n="42"/>ex concursu propriarum circunstantiarum, sed actus
+            exte<lb ed="#V" n="43" break="no"/>rior habet alias &amp; alias circunstantias dictatas a ratione
+            de<lb ed="#V" n="44" break="no"/>bere inesse ei alias a circunstantiis quas recta ratio dictat
+            <lb ed="#V" n="45"/>debere inesse tantum actui interiori:igitur &amp;c. Maior patet
+            <lb ed="#V" n="46"/>&amp;xe secundo Ethi. Minor patet per experientiam &amp; patet ex
+            <lb ed="#V" n="47"/>hoc quia actus exterior habet alium finem &amp; alio modo
+            at<lb ed="#V" n="48" break="no"/>tingit finem, qui est circunstantia principalis. Et in hoc
+            se<lb ed="#V" n="49" break="no"/>cundus articulus terminetur.
+          </p>
+        </div>
+        <div xml:id="capsco-b2il5d-Dd1e1163">
+          <head xml:id="capsco-b2il5d-Hd1e1165">Articulus 3</head>
+          <p xml:id="capsco-b2il5d-d1e1167">
+            <lb ed="#V" n="50"/><milestone ed="#V" unit="p" rend="initial"/> QVantum ad tertium articulum respondetur
+            obiec<lb ed="#V" n="51" break="no"/>tionibus praelibatis. Ideo ad primum contra primam
+            <lb ed="#V" n="52"/>conclusionem dicitur quod minor est falsa, qua dicitur quod
+            <lb ed="#V" n="53"/>actus exterior non est illud peccatum quod est actus
+            inte<lb ed="#V" n="54" break="no"/>rior, licet enim sit alius actus, non tamen est aliud
+            pecca<lb ed="#V" n="55" break="no"/>tum, sed idem. Vnde Sanctus Thomas de malo quaestione
+            <lb ed="#V" n="56"/>secunda articulo secundo in solutione vndecimi sic dicit.
+            <lb ed="#V" n="57"/>Omne quod comparatur ad alterum vt ratio eius, se habet
+            <lb ed="#V" n="58"/>ad ipsum vt forma ad materiam, vnde ex duobus fit vnum
+            <lb ed="#V" n="59"/>sicut ex materia &amp; forma, &amp; propter hoc color &amp;
+            lumen<lb ed="#V" n="60" break="no"/>sunt vnum visibile, quia color est visibilis propter lumen,
+            <lb ed="#V" n="61"/>&amp; similiter cum actus exterior habeat rationem peccati ab
+            <lb ed="#V" n="62"/>actu voluntatis, idem peccatum est actus voluntatis, &amp;
+            ac<lb ed="#V" n="63" break="no"/>tus exterior coniunctus. Haec ille.
+          </p>
+          <p xml:id="capsco-b2il5d-d1e1201">
+            Item secundo senten.
+            di<lb ed="#V" n="64" break="no"/>stinctione. quadragesimasecunda quaestione prima
+            articulo<lb ed="#V" n="65" break="no"/>primo arguit sic quarto loco. Multiplicato superiori
+            multi<lb ed="#V" n="66" break="no"/>plicatur inferius. vnus enim homo non est plura animalia,
+            <lb ed="#V" n="67"/>sed actus est superior ad peccatum, quia peccatum nihil
+            <lb ed="#V" n="68"/>aliud est quam actus quidam inordinatus. cum ergo actus
+            <lb ed="#V" n="69"/>voluntatis &amp; actus exterior sint diuersi actus, quia a
+            diuer<lb ed="#V" n="70" break="no"/>sis potentiis procedunt, videtur quod non sit vnum
+            pecca<lb ed="#V" n="71" break="no"/>tum actus voluntatis &amp; actus exterior. Ecce argumentum.
+            <lb ed="#V" n="72"/>Sequitur responsio. Dicendum inquit quod actus
+            simplici<lb ed="#V" n="73" break="no"/>ter acceptus non est genus peccati nisi secundum quod
+            <lb ed="#V" n="74"/>sub voluntate cadit, &amp; ideo vbi non multiplicatur actus
+            <lb ed="#V" n="75"/>voluntatis, non multiplicatur peccatum. Haec ille.
+          </p>
+          <p xml:id="capsco-b2il5d-d1e1230">
+            Ex
+            qui<cb ed="#V" n="b"/><lb ed="#V" n="76" break="no"/>bus patet, quod illa minor est falsa, licet modus arguendi
+            <lb ed="#V" n="77"/>non valeat. Iste tamen valeret, actus exterior secundum se
+            <lb ed="#V" n="78"/>praecise sumptus est peccatum, &amp; non est illud peccatum,
+            <lb ed="#V" n="79"/>quod est actus interior: igitur sunt duo peccata, sed tunc
+            <lb ed="#V" n="80"/>maior negaretur, quia actus exterior secundum se praecise
+            <lb ed="#V" n="81"/>sumptus non habet rationem peccati, nisi prout
+            informa<lb ed="#V" n="82" break="no"/>tur actu interiori, &amp; ideo dum praescindit ab illo, non est
+            <lb ed="#V" n="83"/>aliud peccatum, nec idem.
+          </p>
+          <p xml:id="capsco-b2il5d-d1e1251">
+            Ad primum contra secundam
+            <lb ed="#V" n="84"/>conclusionem respondit Gregorius de Arimino quod
+            il<lb ed="#V" n="85" break="no"/>la glosa secundum quod dicunt multi theologi videtur
+            di<lb ed="#V" n="86" break="no"/>recte contradicere textui, ideo non est standum glosae. Vel
+            <lb ed="#V" n="87"/>si glosam velimus recipere, potest dici secundo quod
+            ma<lb ed="#V" n="88" break="no"/>gis reus est extensiue, quia pluribus peccatis peccat. Et
+            <lb ed="#V" n="89"/>hanc intentionem videtur innuere probatio, quae ibidem
+            <lb ed="#V" n="90"/>adducitur de prohibitione actus exterioris. Vel etiam
+            po<lb ed="#V" n="91" break="no"/>test intelligi intensiue propter intensiorem voluntatem.
+            <lb ed="#V" n="92"/>Intensior enim voluntas est quae exit in opus quam non
+            <lb ed="#V" n="93"/>exiens, vbi vtraque potest exire: in quo casu tantummodo
+            <lb ed="#V" n="94"/>forte loquitur glosa. Vbi autem aeque intensa sit voluntas
+            <lb ed="#V" n="95"/>si actus exterior non sequitur propter impedimentum
+            po<lb ed="#V" n="96" break="no"/>sitiuum, aut priuatiuum, non minus erit reus, quam si
+            nul<lb ed="#V" n="97" break="no"/>lo interueniente impedimento actus exterior subsecutus
+            <lb ed="#V" n="98"/>fuisset. Haec ille. Quae omnia stare possunt, praeter illud
+            <lb ed="#V" n="99"/>quod dicit, quod pluribus peccatis peccat ille qui peccat
+            <lb ed="#V" n="100"/>actu exteriori &amp; interiori, quam ille qui peccat solo
+            inte<lb ed="#V" n="101" break="no"/>riori, hoc enim falsum est, &amp; contra primam
+            conclusio<lb ed="#V" n="102" break="no"/>nem, nisi intelligatur vt dictum fuit. Potest etiam dici
+            <lb ed="#V" n="103"/>quod si aliquis primo velit tantummodo facere actum
+            ex<lb ed="#V" n="104" break="no"/>teriorem, sed non tunc facit, &amp; postea volens faciat, ibi sunt
+            <lb ed="#V" n="105"/>duo peccata, quia iteratur actus voluntatis, vt prius
+            di<lb ed="#V" n="106" break="no"/>ctum fuit.
+          </p>
+          <p xml:id="capsco-b2il5d-d1e1304">
+            Ad secundum sic respondit. Non puto inquit
+            <lb ed="#V" n="107"/>omnia illa verba sic posita, vt arguendo recitata sunt, fuisse
+            <lb ed="#V" n="108"/>Petri abavlardi. Et causa est quia innullo libro
+            epistola<lb ed="#V" n="109" break="no"/>rum beati Bernardi talem texturam verborum reperi, vbi
+            <lb ed="#V" n="110"/>recitantur articuli collecti ex dictis illius, sed in pluribus
+            <lb ed="#V" n="111"/>libris &amp; omnibus quos vsque nunc per me vel alium
+            legi<lb ed="#V" n="112" break="no"/>habetur praecise sic quod propter opera nihil melior, nec
+            <lb ed="#V" n="113"/>peior efficiatur homo. Et est articulus decimustertius
+            suo<lb ed="#V" n="114" break="no"/>rum, sic autem acceptum istum articulum, quis non
+            vi<lb ed="#V" n="115" break="no"/>deat esse merito condem nandumDebent enim Haec
+            ver<lb ed="#V" n="116" break="no"/>ba sic allegata intelligi, quod siue homo furetur siue
+            adul<lb ed="#V" n="117" break="no"/>teretur, non inde fit peior quam si ista non committeret, &amp;
+            <lb ed="#V" n="118"/>si Deum honoret, &amp; subueniat proximo propter Deum,
+            <lb ed="#V" n="119"/>aut alia quaelibet bona nobis a Deo praecepta exerceat,
+            <lb ed="#V" n="120"/>non fit propter hoc melior, quam si illa non ageret, qui
+            sen<lb ed="#V" n="121" break="no"/>sus vtique falsus est &amp; erroneus. Nam secundum hoc
+            se<lb ed="#V" n="122" break="no"/>quitur quod nec ex opere exteriori, nec ex voluntate, aut
+            <lb ed="#V" n="123"/>alio actu interiori homo sit melior vel peior quam sine illo,
+            <lb ed="#V" n="124"/>foret, &amp; quod per nullum mereatur, aut demereatur, &amp; ita
+            <lb ed="#V" n="125"/>nullum sit hominis peccatum vel meritum, &amp; quod talis
+            <lb ed="#V" n="126"/>fuerit sensus illius, satis aperit alius eius articulus, qui est
+            <lb ed="#V" n="127"/>decimusnonus &amp; vltimus, &amp; ponit cum hoc tenore, quod
+            <lb ed="#V" n="128"/>neque opus, neque voluntas, neque concupiscentia, neque
+            <lb ed="#V" n="129"/>delectatio, quae mouet eam peccatum sit nec, debemus eam
+            <lb ed="#V" n="130"/>velle extingui.
+          </p>
+          <p xml:id="capsco-b2il5d-d1e1359">
+            Ex quibus patet quod determinatio ecclesiae
+            il<lb ed="#V" n="131" break="no"/>lum condemnantis in nullo est contraria superius dictis
+            <lb ed="#V" n="132"/>Haec ille &amp; bene, licet posset dici quod Petrus abavlardi
+            <lb ed="#V" n="133"/>intelligebat quod nec propter opera coniuncta actui
+            vo<lb ed="#V" n="134" break="no"/>luntatis, nec propter opera non coniuncta, quis efficitur
+            <lb ed="#V" n="135"/>melior vel peior, qui sensus est erroneus. Dicere autem
+            <lb ed="#V" n="136"/>quod propter opera exteriora non coniuncta actui
+            volun<lb ed="#V" n="137" break="no"/>tatis, nec vsui rationis quis non efficitur melior vel peior,
+            <lb ed="#V" n="138"/>non est erroneum, sed verum quia opera exteriora
+            secun<lb ed="#V" n="139" break="no"/>dum se considerata, &amp; nullo modo voluntaria, nec sunt
+            <lb ed="#V" n="140"/>bona, nec mala moraliter. Vnde Sanctus Thomas de malo
+            <lb ed="#V" n="141"/>quaestione secunda articulo secundo in decimotertio loco
+            <lb ed="#V" n="142"/>arguit sic. Ansel.s dicit in libro de conceptu virginali
+            lo<lb ed="#V" n="143" break="no"/>quens de actibus. In horum essentia nulla consistit
+            iusti<lb ed="#V" n="144" break="no"/>tia: ergo eadem ratione nec iniustitia, &amp; sic peccatum in
+            <lb ed="#V" n="145"/>actu exteriori non consistit. Ecce argumentum, sequitur
+            re<lb ed="#V" n="146" break="no"/>sponsio. Dicendum inquit quod in essentia actuum
+            exte<lb ed="#V" n="147" break="no"/>riorum dicitur nulla consistere iustitia, quia actus
+            exterio<lb ed="#V" n="148" break="no"/>res non pertinent ad genus moris, nisi secundum quod
+            <lb ed="#V" n="149"/>sunt voluntarii. Haec
+            ille<lb ed="#V" n="150" break="no"/>Ad tertium dicit Gregorius. Quantum inquit ad illud
+            <pb ed="#V" n="573"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>quod dicitur ibi de martyrio dicendum videtur quod vbi
+            <lb ed="#V" n="2"/>casus esset talis quod actus interior esset aequae intensus, &amp;
+            <lb ed="#V" n="3"/>aeque bene circunstantionatus &amp; generaliter aeque bonus
+            <lb ed="#V" n="4"/>intensiue &amp; extensiue sine actu exteriori, sicutesset si
+            conco<lb ed="#V" n="5" break="no"/>mitaretur actus exterior, non minus mereretur quis ex
+            ta<lb ed="#V" n="6" break="no"/>li voluntate praecise, quam si cum ea martyrii poenam actu
+            <lb ed="#V" n="7"/>pateretur, difficile tamen esset talem casum reperire. Nam
+            <lb ed="#V" n="8"/>ut dicit Hugo.s voluntas ex actu suo augetur, &amp; maior
+            fer<lb ed="#V" n="9" break="no"/>uor videtur requiri &amp; concurrere in actuali experientia &amp;
+            <lb ed="#V" n="10"/>sustinentia poenae illatae actu quam imaginatae vel conceptae
+            <lb ed="#V" n="11"/>tantummodo. Vbi tamen detur casus vt praemissum est
+            di<lb ed="#V" n="12" break="no"/>cendum videtur, vt dictum est. Ad quod facit illud quod
+            <lb ed="#V" n="13"/>de beato Martino cantat ecclesia. O sanctissima anima, quam
+            <lb ed="#V" n="14"/>&amp; si gladius persecutoris non abstulit, palmam tamen
+            mar<lb ed="#V" n="15" break="no"/>tyrij non amisit. Quantum vero ad secundam partem de
+            <lb ed="#V" n="16"/>sacramentis, neganda est consequentia, quia licet non plus
+            <lb ed="#V" n="17"/>mereatur ex actu exteriori, ex re tamen operata scilicet
+            sacramen<lb ed="#V" n="18" break="no"/>to confertur ei gratia, &amp; per consequens est sibi melius,
+            <lb ed="#V" n="19"/>sicut &amp; puero recipienti sacramentum licet ipse nullum
+            a<lb ed="#V" n="20" break="no"/>gat actum meritorium, bonum est sacramentum recipere
+            <lb ed="#V" n="21"/>propter efficaciam ipsius sacramenti in ipso Similiter etiam
+            <lb ed="#V" n="22"/>dicendum quod actus sustinens martyrium, etiam si non plus
+            <lb ed="#V" n="23"/>mereatur propter opus exterius, recipit tamen aureolam,
+            <lb ed="#V" n="24"/>ac per hoc melius est sibi &amp; vtilius velle &amp; sustinere quam
+            for<lb ed="#V" n="25" break="no"/>te velle praecise. Quantum ad tertiam partem conceditur
+            <lb ed="#V" n="26"/>consequens. Et ad primam probationem in oppositum
+            di<lb ed="#V" n="27" break="no"/>cendum est, quod vterque est homicida voluntatis
+            homici<lb ed="#V" n="28" break="no"/>dio, licet alter sit homicida tantum illo modo, &amp; alter illo
+            <lb ed="#V" n="29"/>modo, &amp; homicidio actus exterioris iuxta distinctionem
+            <lb ed="#V" n="30"/>glosae super illud Romas primo. Repletos omni iniquitate, &amp;
+            <lb ed="#V" n="31"/>sequitur homicida contentione &amp;c. Et quamuis alter sit
+            <lb ed="#V" n="32"/>bomecidua homicidio actuali, non tamen sequitur, quod
+            <lb ed="#V" n="33"/>plus demereatur quam reliquus si caetera sint paria, nec
+            op<lb ed="#V" n="34" break="no"/>positum probatur. Quod autem additur de
+            excommunica<lb ed="#V" n="35" break="no"/>tione, &amp; aliis poenis non arguit intentum, quia plerunque
+            <lb ed="#V" n="36"/>tales poenae infliguntur pro minoribus peccatis, &amp; non
+            pro<lb ed="#V" n="37" break="no"/>maioribus, sicut patet, quia clericum verberans incurrit
+            ex<lb ed="#V" n="38" break="no"/>communicationem &amp; tamen interficiens mille homines
+            <lb ed="#V" n="39"/>laicos non propterea excommunicatur, &amp; cum
+            nul<lb ed="#V" n="40" break="no"/>li dubium sit eum multo plus &amp; grauius peccare, ac
+            <lb ed="#V" n="41"/>demereri apud Deum.
+          </p>
+          <p xml:id="capsco-b2il5d-d1e1498">
+            Vnde ex talibus poenis quae
+            Eccle<lb ed="#V" n="42" break="no"/>siastico iudicio, vel etiam seculari infliguntur peccantibus
+            <lb ed="#V" n="43"/>non potest argui maius demeritum apud Deum. Haec
+            ta<lb ed="#V" n="44" break="no"/>men infliguntur iniuste, cum ille vtique talium poenarum
+            <lb ed="#V" n="45"/>sit dignus, immo maiorum quae diuino iudicio
+            reseruan<lb ed="#V" n="46" break="no"/>tur, sicut etiam poena aliorum criminum, quae hic non iudi
+            <lb ed="#V" n="47"/>cialiter puniuntur. Haec Gregorius, &amp; bene per omnia
+            ex<lb ed="#V" n="48" break="no"/>cepto primo in quo nullam facit distinctionem de
+            prae<lb ed="#V" n="49" break="no"/>mio essentiali &amp; accidentali. Ideo quo ad hoc dicendum
+            <lb ed="#V" n="50"/>est, vt dicit Sanctus Thomas in probatione conclusionis. Et
+            <lb ed="#V" n="51"/>simile dicit de malo. q. 2. ar. 2. in solutio. 8. vbi sic ait. Si
+            quae<lb ed="#V" n="52" break="no"/>ratur inquit vtrum tantum peccet qui sola voluntate
+            pec<lb ed="#V" n="53" break="no"/>cat, quantum qui peccat voluntate &amp; actu.
+          </p>
+          <p xml:id="capsco-b2il5d-d1e1527">
+            Dicendum quod
+            <lb ed="#V" n="54"/>potest dupliciter contingere. Vno modo ita quod sit
+            aequa<lb ed="#V" n="55" break="no"/>litas ex parte voluntatis. Alio modo ita quod non sit
+            aequali<lb ed="#V" n="56" break="no"/>tas. Contingit autem inaequalitatem voluntatis esse
+            tripli<lb ed="#V" n="57" break="no"/>citer. Vno modo secundum numerum, puta si aliquis vno
+            <lb ed="#V" n="58"/>motu voluntatis vult peccare, &amp; cum non habeat
+            opportu<lb ed="#V" n="59" break="no"/>nitatem transit motus voluntatis: in alio autem qui primo
+            <lb ed="#V" n="60"/>habet motum voluntatis postmodum opportunitatem habens
+            <lb ed="#V" n="61"/>iterat actum voluntatis, &amp; sic est in eo duplex mala
+            volun<lb ed="#V" n="62" break="no"/>tas. vna sine actu, alia cum actu. Alio modo potest attendi
+            inae<lb ed="#V" n="63" break="no"/>qualitas quantum ad motum. Puta si vnus habens
+            volun<lb ed="#V" n="64" break="no"/>tatem peccandi, sciens se non habere opportunitatem
+            desi<lb ed="#V" n="65" break="no"/>stit a tali motu voluntatis, alius autem sciens se habere
+            oppor<lb ed="#V" n="66" break="no"/>tunitatem &amp; facultatem peccandi continuat motum
+            volun<lb ed="#V" n="67" break="no"/>tatis quousque ad actum perueniat.
+          </p>
+          <p xml:id="capsco-b2il5d-d1e1560">
+            Tertio modo
+            contin<lb ed="#V" n="68" break="no"/>git esse inaequalitatem voluntatis quantum ad
+            intensio<lb ed="#V" n="69" break="no"/>nem. Sunt enim aliqui actus peccati delectabiles, in
+            qui<lb ed="#V" n="70" break="no"/>bus voluntas augetur, quasi remoto freno rationis, qui
+            <lb ed="#V" n="71"/>ante actum aliqualiter remurmurabat. Qualitercun que
+            <lb ed="#V" n="72"/>autem sit inaequalitas voluntatis, erit &amp; inaequalitas
+            pecca<lb ed="#V" n="73" break="no"/>ti. Si autem sit omnino aequalitas ex parte voluntatis, sic
+            di<lb ed="#V" n="74" break="no"/>stinguendum est in peccato sicut &amp; in merito. Quia enim
+            <lb ed="#V" n="75"/>habet voluntatem dandi eleemosynam, &amp; non dat, quia non
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="76"/>habet facultatem, tantundem meretur quatum si daret, per
+            <lb ed="#V" n="77"/>comparationem ad praemium essentiale, quod est gaudium
+            <lb ed="#V" n="78"/>de Deo. Hoc enim praemium respondet charitati, quae ad
+            <lb ed="#V" n="79"/>voluntatem pertinet, sed per comparationem ad
+            acciden<lb ed="#V" n="80" break="no"/>tale praemium, quod est gaudium de quocunque bono
+            crea<lb ed="#V" n="81" break="no"/>to magis meretur qui non solum vult dare, sed dat,
+            gaude<lb ed="#V" n="82" break="no"/>bit enim non solum quia voluit dare, sed quia dedit, &amp; de
+            <lb ed="#V" n="83"/>omnibus bonis quae ex illa datione prouenerunt. Et
+            simili<lb ed="#V" n="84" break="no"/>ter si consideretur quantitas demeriti per compationem
+            <lb ed="#V" n="85"/>ad poenam essentialem, quae consistit inseparatione a Deo,
+            <lb ed="#V" n="86"/>&amp; dolore exinde proueniente, non minus demeretur quam
+            <lb ed="#V" n="87"/>sola voluntate quam qui voluntate &amp; actu peccat, quia haec
+            <lb ed="#V" n="88"/>poena est poena contemptus Dei, qui respicit voluntatem,
+            <lb ed="#V" n="89"/>sed quantum ad poenam secundariam, quae est dolor de
+            <lb ed="#V" n="90"/>quocunque alio malo, sic magis demeretur qui voluntate
+            <lb ed="#V" n="91"/>&amp; actu peccat quam qui sola voluntate. Habebit enim
+            ali<lb ed="#V" n="92" break="no"/>quem dolorem, non solum de eo quod male voluit, sed etiam
+            <lb ed="#V" n="93"/>de eo quod male fecit, &amp; de omnibus malis, quae de eius
+            ma<lb ed="#V" n="94" break="no"/>lefacto prouenerunt.
+          </p>
+          <p xml:id="capsco-b2il5d-d1e1623">
+            Vnde &amp; paenitens qui poenam futuram
+            <lb ed="#V" n="95"/>paenitendo praeuenit de omnibus talibus dolet. Quia
+            ergo<lb ed="#V" n="96" break="no"/>dicitur quod quantum additum quanto facit maius
+            intelligen<lb ed="#V" n="97" break="no"/>dum est vbi vtrunque dicitur quantum secundum
+            eanden<lb ed="#V" n="98" break="no"/>rationem, sed vbi vnum est ratio alteri quod sit quantum hoc
+            <lb ed="#V" n="99"/>non oportet, sicut lignum est longum, linea erit longa, sed
+            <lb ed="#V" n="100"/>non oportet quod lignum cum linea, sit longius quam
+            li<lb ed="#V" n="101" break="no"/>nea, quia linea est ratio longitudinis ligno, sicut etiam
+            di<lb ed="#V" n="102" break="no"/>ctum est quod actus exterior habet rationem culpae ab actu
+            <lb ed="#V" n="103"/>voluntatis. Quia vero dicitur quantum intendis, tantum facis
+            <lb ed="#V" n="104"/>habet locum in malis, quia si aliquis intendat peccare
+            morta<lb ed="#V" n="105" break="no"/>liter, etiam si committit actum qui de genere suo est peccatum
+            <lb ed="#V" n="106"/>veniale vel nullum, mortaliter peccat, quia conscientia
+            er<lb ed="#V" n="107" break="no"/>ronea ligat. Si vero aliquis intendat opus meritorium
+            face<lb ed="#V" n="108" break="no"/>re committens aliquid quod de genere suo est peccatum
+            <lb ed="#V" n="109"/>mortale, non meretur, quia conscientia erronea non
+            excu<lb ed="#V" n="110" break="no"/>sat, si tamen sub intentione comprehendatur non solum
+            <lb ed="#V" n="111"/>intentio finis, sed voluntas operis, sic verum est in bono, &amp;
+            <lb ed="#V" n="112"/>in malo, quod quantum aliquis intendit tantum facit.
+            Qui<lb ed="#V" n="113" break="no"/>enim vult occidere sanctos vt obsequium praestet Deo, aut
+            <lb ed="#V" n="114"/>qui vult facere furtum, vt det eleemosynam, videtur
+            qui<lb ed="#V" n="115" break="no"/>dem habere intentionem bonam, sed voluntatem malam.
+            <lb ed="#V" n="116"/>Et propter hoc si sub intentione etiam voluntas
+            compre<lb ed="#V" n="117" break="no"/>hendatur, vt totum intentio nominetur, erit etiam
+            inten<lb ed="#V" n="118" break="no"/>tio mala. Haec ille.
+          </p>
+          <p xml:id="capsco-b2il5d-d1e1679">
+            Ad quartam respondet Gregorius
+            con<lb ed="#V" n="119" break="no"/>cedendo totum consequens quod infertur, sed dicit quod
+            <lb ed="#V" n="120"/>argumentum non videtur, plenarie ad propositum. Nam
+            <lb ed="#V" n="121"/>vterque sagittans habet non solum actum interiorem, sed
+            <lb ed="#V" n="122"/>etiam exteriorem, nec alter habet proprie actum aliquem,
+            <lb ed="#V" n="123"/>cui similem non habeat reliquus. Vnde si ambo morerentur
+            <lb ed="#V" n="124"/>antequam sagitta perueniret ad aliquem quem vulneraret
+            <lb ed="#V" n="125"/>non diceretur dissimiliter aegisse alter ab altero, quamuis
+            <lb ed="#V" n="126"/>euentus fuerit dissimilis. Haec ille &amp; concordat cum Sancto
+            <lb ed="#V" n="127"/>Thomas prima. 2. q. 20. art. sexto.
+          </p>
+          <p xml:id="capsco-b2il5d-d1e1701">
+            Ad quintum negatur minor
+            <lb ed="#V" n="128"/>vt patet ex prima conclusio. Ad sextum respondet Adam
+            <lb ed="#V" n="129"/>godam. quarto sen. q. 1. quod verum est, quod ita dicit ibi
+            bea<lb ed="#V" n="130" break="no"/>tus Auguus Et iterum velle inquit quod non decet miserum
+            <lb ed="#V" n="131"/>est, nec tam miserum vt velle adipisci quod non oporteat
+            <lb ed="#V" n="132"/>sed dico quod istud non obstat praedictis. Ille enim qui
+            adi<lb ed="#V" n="133" break="no"/>piscitur quae male voluit, habet vt communiter dissimiles
+            <lb ed="#V" n="134"/>actus interiores vel similes acceptandi vel
+            complacendi<lb ed="#V" n="135" break="no"/>alios quam prius, vel priores interiores vel similes replica
+            <lb ed="#V" n="136"/>tos libere, &amp; forte efficaciores quam prius. Et per illos
+            in<lb ed="#V" n="137" break="no"/>teriores nouiter causatos vel libere continuatos augeret
+            <lb ed="#V" n="138"/>talis demeritum suum, non autem per aliquid additum ex
+            <lb ed="#V" n="139"/>precisa additione actus exterioris, nisi forte quatenus
+            ex<lb ed="#V" n="140" break="no"/>positione actus exterioris potest haberi &amp; habet libere
+            quos<lb ed="#V" n="141" break="no"/>dam interiores actus malos experimentales quos sine
+            exte<lb ed="#V" n="142" break="no"/>riori nullatenus habere naturaliter potuisset. Alia etiam
+            ra<lb ed="#V" n="143" break="no"/>tio est quare adipiscens est miserior etiam miseria peccati,
+            <lb ed="#V" n="144"/>quam tangit beatus Gregorius Vigesimoquarto
+            mora<lb ed="#V" n="145" break="no"/>lium quasi in principio. Vbi immediate post auctoritatem
+            <lb ed="#V" n="146"/>superius allegatam argumento Decimoquarto subdit. Quia
+            <lb ed="#V" n="147"/>eorum votis valida contrarietas nascitur plerunque ex
+            ip<lb ed="#V" n="148" break="no"/>sa impossibilitate corriguntur, sed impossibilitas
+            adipi<lb ed="#V" n="149" break="no"/>scendi est occasio mutandi malam voluntatem in bonam.
+            <lb ed="#V" n="150"/>sicut etiam ibidem sequitur: igitur possibilitas
+            adipiscendi<pb ed="#V" n="574"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>est causa vel occasio perseuerandi in malitia &amp; per
+            conse<lb ed="#V" n="2" break="no"/>quens miseriae augmentandae. Alia causa est, quia vt dicit
+            <lb ed="#V" n="3"/>quaedam auctoritas. Expertis viciorum illecebris, difficilius
+            <lb ed="#V" n="4"/>caremus quam incognitis, minorisque laboris est
+            incogni<lb ed="#V" n="5" break="no"/>tam carnis cauere voluptatem quam reiicere cognitam.
+            <lb ed="#V" n="6"/>Difficultari autem ad malum, miseria est Quarta causa
+            po<lb ed="#V" n="7" break="no"/>test reddi, quia ex actibus exterioribus habituatur
+            appeti<lb ed="#V" n="8" break="no"/>tus sensitiuus, &amp; vires animae ad similia. Habituari autem
+            <lb ed="#V" n="9"/>ad malum miseria est. Assumptum patet per Isidorum
+            <lb ed="#V" n="10"/>libus de numero. vbi dicit, quod ex suggestione praua
+            cogi<lb ed="#V" n="11" break="no"/>tatio praua erumpit. Praua autem cogitatio delectationem
+            <lb ed="#V" n="12"/>parit, delectatio consensum, &amp; consensus actionem actio
+            <lb ed="#V" n="13"/>consuetudinem consuetudo necessitatem, &amp; istud
+            confir<lb ed="#V" n="14" break="no"/>matur per istud quod dicit Augustius octauo confessionum
+            <lb ed="#V" n="15"/>Ex voluntate inquit peruersa facta est libido &amp; dum serni
+            <lb ed="#V" n="16"/>tur libidini, facta est consuetudo, &amp; dum consuetudini non
+            <lb ed="#V" n="17"/>resistitur, facta est necessitas, sed non est propter dicta
+            di<lb ed="#V" n="18" break="no"/>cendum quod actus exteriores addant ad meritum super
+            <lb ed="#V" n="19"/>omnes interiores ita quod propter vtrosque simul sit
+            ho<lb ed="#V" n="20" break="no"/>mo maiori poena dignus quam propter omnes interiores
+            <lb ed="#V" n="21"/>simul, sed bene quod posteriores interiores alio modo
+            ad<lb ed="#V" n="22" break="no"/>dunt super aliquos praecedentes. Haec ille in forma. Et
+            con<lb ed="#V" n="23" break="no"/>cordat Sancto Thomas secundo senten. distinct. 40. quaest,
+            pri<lb ed="#V" n="24" break="no"/>ma articu. tertio prout fuit recitatum in probatione
+            secur<lb ed="#V" n="25" break="no"/>dae conclusionis, scilicet quod aliquis ex hoc quod in actum
+            <lb ed="#V" n="26"/>exteriorem frequenter exit, habilitatur ad bonum &amp;c. Et
+            si<lb ed="#V" n="27" break="no"/>militer quomodo per actum exteriorem additur ad praemium
+            <lb ed="#V" n="28"/>accidentale, vel ad paenam accidentalem.
+          </p>
+          <p xml:id="capsco-b2il5d-d1e1816">
+            Ad primum Scotus
+            <lb ed="#V" n="29"/>contra secundam dicit Adam quod illa descriptio non est
+            <lb ed="#V" n="30"/>vniuersaliter adaequate vera, alias essent simul in anima
+            ac<lb ed="#V" n="31" break="no"/>tus moraliter boni in infiniti specie distinctae, vel volitio
+            <lb ed="#V" n="32"/>illa non esset moraliter bona qua vltimo volo dare eleemo
+            <lb ed="#V" n="33"/>sinam indigenti propter Deum loco &amp; tempore
+            opportu<lb ed="#V" n="34" break="no"/>no, &amp; sic de aliis circunstantiis dictatis debere tali
+            dationi<lb ed="#V" n="35" break="no"/>eleemosinae conuenire, cum illa volitio non sit cogitata,
+            <lb ed="#V" n="36"/>nec volita, vel saltem non oporteat eam cogitari. Verum
+            <lb ed="#V" n="37"/>est autem quod ad completam bonitatem actus moralis
+            <lb ed="#V" n="38"/>oportet illa integre haberi quae secundum rectam
+            ratio<lb ed="#V" n="39" break="no"/>nem dictantur requiri vel coexigi, sed nec oportet illam
+            <lb ed="#V" n="40"/>collectionem esse bonitatem illius actus, nec etiam sola illa
+            <lb ed="#V" n="41"/>sufficiunt, quia ipsum dictamen &amp; etiam conformis
+            ele<lb ed="#V" n="42" break="no"/>ctio sequens r equi runtur ad hoc vt actus executionis sit
+            <lb ed="#V" n="43"/>moraliter bonus, &amp; tamen illa non oportet dictari sibi
+            de<lb ed="#V" n="44" break="no"/>bere conuenire, nec etiam conformiter eligi in volitione
+            <lb ed="#V" n="45"/>executionis dictatae, quia aliter oporteret ibi haberi dicta.
+            <lb ed="#V" n="46"/>mina actualia, &amp; conformes esectiones specifice distinctas
+            <lb ed="#V" n="47"/>actualiter infinitas, sic patet igitur de maiore. Minor autem
+            <lb ed="#V" n="48"/>vera est, sed non ad mentem argumenti. Est enim alia
+            inte<lb ed="#V" n="49" break="no"/>gritas hic &amp; ibi, sed non totaliter alia, quoniam tota
+            inte<lb ed="#V" n="50" break="no"/>gri tas requisita ad bonitatem actus exterioris est actus
+            in<lb ed="#V" n="51" break="no"/>terior, &amp; non econtra. Et vt planius dicam ad punctum,
+            <lb ed="#V" n="52"/>dico quod ipse actus interior bonus, vel multi simul tales
+            <lb ed="#V" n="53"/>est totalis &amp; totaliter bonitas actus exterioris boni
+            mora<lb ed="#V" n="54" break="no"/>lis &amp; meritoria essentialis. Vterque enim est bonus eadem
+            <lb ed="#V" n="55"/>bonitate, sicut tam vrina quam animal est sana eadem
+            sani<lb ed="#V" n="56" break="no"/>tate, &amp; tam homo quam opus suum humane factum sunt
+            <lb ed="#V" n="57"/>humana eadem humanitate vel rationabilitate. Actus enim
+            <lb ed="#V" n="58"/>exterior non dicitur bonus moraliter vel meritorius
+            ni<lb ed="#V" n="59" break="no"/>si ex denominatione ab actu interiori. Verum est autem
+            <lb ed="#V" n="60"/>quod alia est entitas, &amp; naturalis bonitas huius actus, &amp;
+            il<lb ed="#V" n="61" break="no"/>lius, sed non est hoc ad propositum, nec aliud probatur.
+            <lb ed="#V" n="62"/>Haec ille.
+          </p>
+          <p xml:id="capsco-b2il5d-d1e1892">
+            Et satis concordat cum Sancto Thomas prima
+            se<lb ed="#V" n="63" break="no"/>cundae quaest. 20. articu tertio, vt recitatum fuit in
+            proba<lb ed="#V" n="64" break="no"/>tione primae conclusionis, nisi pro quanto dicit, quod
+            ac<lb ed="#V" n="65" break="no"/>tus exterior nullam habet bonitatem secundum se nisi ab
+            <lb ed="#V" n="66"/>actu interiori, vel ad ipsum actum interiorem. Oppositum
+            <lb ed="#V" n="67"/>enim hoc dicit Sanctus Thomas Ideo oportet addere quod
+            <lb ed="#V" n="68"/>dato quod actus exterior habeat secundum se aliquam
+            bo<lb ed="#V" n="69" break="no"/>nitatem quam non habet ab actu interiori, &amp; econtra,
+            ta<lb ed="#V" n="70" break="no"/>men bonitas vnius redundat in alterum, ita quod
+            quacun<lb ed="#V" n="71" break="no"/>quae bonitate est bonus actus exterior formaliter, eadem
+            <lb ed="#V" n="72"/>est bonus actus interior denominatiue, &amp; econtra. Vlterius
+            <lb ed="#V" n="73"/>dicitus quod actus exterior licet habeat secundum se
+            ali<lb ed="#V" n="74" break="no"/>quam bonitatem aut prauitatem, illa tamen non est
+            mora<lb ed="#V" n="75" break="no"/>lis, nisi per actum voluntatis, ideo nec est secundum se
+            cul<cb ed="#V" n="b"/><lb ed="#V" n="76" break="no"/>pa, aut meritum. De hoc Sanctus Thomas de malo quaest.
+            se<lb ed="#V" n="77" break="no"/>cunda articu. secundo arguit sic sexto loco. Nullus actus
+            <lb ed="#V" n="78"/>imputatur alicui ad peccatum qui nullo modo est in
+            volun<lb ed="#V" n="79" break="no"/>tate eius vel potestate, vnde si aliquis accipiat manum
+            ali<lb ed="#V" n="80" break="no"/>cuius hominis contra eius voluntatem, &amp; cum ea
+            interfi<lb ed="#V" n="81" break="no"/>ciat hominem, peccatum homicidii non imputatur
+            homi<lb ed="#V" n="82" break="no"/>ni, cuius manus percutit, sed ei qui vtitur manu. Exeriora
+            <lb ed="#V" n="83"/>autem membra nullomodo possunt resistere imperio
+            vo<lb ed="#V" n="84" break="no"/>luntatis, non ergo in actibus exteriorum membrorum
+            con<lb ed="#V" n="85" break="no"/>sistit peccatum, sed in actu voluntatis, quae vtitur membris
+            <lb ed="#V" n="86"/>Ecce argumentum sequitur responsio. Dicendum inquit
+            <lb ed="#V" n="87"/>quod illius actus cuius manu aliquis vteretur ad occiden
+            <lb ed="#V" n="88"/>dum esset quidem actus inordinatus, sed non haberet
+            ra<lb ed="#V" n="89" break="no"/>tionem culpae, nisi per comparationem ad illum, qui vtitur
+            <lb ed="#V" n="90"/>alterius manu, similiter actus exterioris membri habet
+            de<lb ed="#V" n="91" break="no"/>formitatem, sed non habet rationem culpae nisi per hoc
+            <lb ed="#V" n="92"/>quod est a voluntate. Vnde si essent duae personae voluntas
+            <lb ed="#V" n="93"/>&amp; manus non peccaret sed voluntas peccaret, non solum
+            <lb ed="#V" n="94"/>per actum proprium, qui est velle, sed etiam per actum
+            ma<lb ed="#V" n="95" break="no"/>nus, qua vtitur, nunc autem vnus homo est cuius vterque
+            <lb ed="#V" n="96"/>est actus &amp; pro vtroque ponitur. Haec ille.
+          </p>
+          <p xml:id="capsco-b2il5d-d1e1969">
+            Ad secundum
+            di<lb ed="#V" n="97" break="no"/>cit Adam sicut ad praecedens. Verum inquit est quod ibi
+            <lb ed="#V" n="98"/>sunt distincte botioitates naturales &amp; non morales intrinsece,
+            <lb ed="#V" n="99"/>actus interio ris &amp; exterioris. Nam de bonitate moralis
+            ac<lb ed="#V" n="100" break="no"/>tus exterioris dicendum est, quod distinguitur ab ipso, quia
+            <lb ed="#V" n="101"/>moralis bonitas eius est actus interior ad vnum modum
+            <lb ed="#V" n="102"/>ponendi. Hic enim intendo cum Hugone dicere, quod non
+            <lb ed="#V" n="103"/>distincta poena punietur in futurum a Deo actus exterior
+            <lb ed="#V" n="104"/>a poena qua punietur actus interiores simul sumpti. Haec
+            il<lb ed="#V" n="105" break="no"/>le, &amp; bene. Dum tamen intelligatur de poena essentiali, qua
+            <lb ed="#V" n="106"/>loquendo de poena accidentali falsum est, vt prius visum
+            <lb ed="#V" n="107"/>fuit.
+          </p>
+          <p xml:id="capsco-b2il5d-d1e1995">
+            Ad illud quod tangitur ibidem, quod est confirmatio
+            <lb ed="#V" n="108"/>ex deductione Scoti dicitur quod licet actus interior &amp;
+            exte<lb ed="#V" n="109" break="no"/>rior sint alterius rationis nihil prohibet eos denominari
+            <lb ed="#V" n="110"/>bonos aut malos ex eadem bonitate vel malitia, sicut
+            ea<lb ed="#V" n="111" break="no"/>dem sanitate dicitur animal sanum, &amp; vina sana. Ad
+            ter<lb ed="#V" n="112" break="no"/>tium dicit Adam quod huius responsio patet ex
+            responsio<lb ed="#V" n="113" break="no"/>ne sexti quia actus exteriores sunt necessarii, sicut
+            elemo<lb ed="#V" n="114" break="no"/>sinae datio ad releuationem indigentiae pauperis, &amp; mors
+            <lb ed="#V" n="115"/>Christi &amp; passio ad excitanda corda hominum ad eius
+            dile<lb ed="#V" n="116" break="no"/>ctionem, &amp; huiusmodi. Sed hoc non est ad propositum,
+            <lb ed="#V" n="117"/>quia hic inquiritur, vtrum opera exteriora addant meritum
+            <lb ed="#V" n="118"/>ipsi operanti super omnes actus interiores quo ad gradum
+            <lb ed="#V" n="119"/>vltimae beatitudinis consequendae. Haec ille. Concordat
+            Sa<lb ed="#V" n="120" break="no"/>ctus Thomas secundo senten. distin. 40. quaest. prima articulo
+            <lb ed="#V" n="121"/>tertio in solutione sexti, vbi sic ait. Voluntas tendit in actum
+            <lb ed="#V" n="122"/>exteriorem sicut in omnibus. Vnde si adsit facultas
+            ope<lb ed="#V" n="123" break="no"/>randi non posset esse voluntas perfecta, nisi operaretur.
+            <lb ed="#V" n="124"/>Et ideo non est superfluum facere, quia sine actione nec
+            <lb ed="#V" n="125"/>ipsa voluntas bona esset. Et praeterea actus exterior in
+            prae<lb ed="#V" n="126" break="no"/>cepto cadit, &amp; iterum ad praemium accidentale confert
+            <lb ed="#V" n="127"/>Item in solutione septimi sic dicit. Qui dicit bonitatem
+            il<lb ed="#V" n="128" break="no"/>lam secundum quam actus exterior vitae aeternae
+            merito<lb ed="#V" n="129" break="no"/>rius est totum ex voluntate gratia informata habet
+            secun<lb ed="#V" n="130" break="no"/>dum quod voluntarius est, &amp; ideo non oportet quod
+            su<lb ed="#V" n="131" break="no"/>pra bonitatem perfectae voluntatis aliquid addat ad
+            meri<lb ed="#V" n="132" break="no"/>ritum essentiale vitae aeternae ptinens. Haec ille.
+          </p>
+          <p xml:id="capsco-b2il5d-d1e2053">
+            Ad quartum
+            <lb ed="#V" n="133"/>dicit Adam, quod probabiliter dici potest, quod illa
+            lancea<lb ed="#V" n="134" break="no"/>tio non addit meritum respectu suae beatitudinis a Christi
+            hu<lb ed="#V" n="135" break="no"/>militate qua Deus vult praemium bonis actibus: animae Christi
+            <lb ed="#V" n="136"/>debitum. Verum est tamen quod illam Deus potuit acceptare ad
+            quae<lb ed="#V" n="137" break="no"/>cunque bona sibi placebat. Meruit etiam multa sibi secundum
+            innote<lb ed="#V" n="138" break="no"/>scentiam. Meruit etiam nobis uirtutem quorundam sacramentorum tanquam
+            <lb ed="#V" n="139"/>conditio, qua Christus forte meruerat illam vtilitatem viuens, ita scilicet
+            <lb ed="#V" n="140"/>quod aliqua meruerat nobis forsan Christus conditionaliter, si
+            lan<lb ed="#V" n="141" break="no"/>cearetur, non quod lanceatio corporis mortui esset pars meriti
+            <lb ed="#V" n="142"/>sed ex illa peendebat forte pecedens aliqua, volitio
+            conditiona<lb ed="#V" n="143" break="no"/>lis ad hoc quod esset meritum talium habendorum, vel non meruit nisi
+            <lb ed="#V" n="144"/>erga ptundum dulcedinem humanae deuotionis mucrone illius
+            <lb ed="#V" n="145"/>lanceae latus &amp; cor domini sui, persequentis, sed haec nihil sunt
+            con<lb ed="#V" n="146" break="no"/>tra dicta. Haec ille.
+          </p>
+          <p xml:id="capsco-b2il5d-d1e2086">
+            Apparet mihi quod Sanctus Thomas diceret quod nec
+            lan<lb ed="#V" n="147" break="no"/>ceatio, nec etiam mors Christi proprie loquendo meruit sibi nec
+            no<lb ed="#V" n="148" break="no"/>bis, tamen tam mors quam laceatio, quam resurrectio, quod ascensio opata
+            <lb ed="#V" n="149"/>sunt ad nostram salutem per modum efficientiae &amp; exemplaritatis. Vnde
+            <lb ed="#V" n="150"/>in 3. parte. q. 50. art. 6. sic dicit. De morte xptui possumus
+            lo<pb ed="#V" n="575"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>qui dupliciter, vnomodo secundumquod estin fieri, alio
+            mo<lb ed="#V" n="2" break="no"/>do secundum quod est in facto esse. Dic tur autem mors
+            <lb ed="#V" n="3"/>esse in fieri quando aliquis per aliquam passionem
+            natura<lb ed="#V" n="4" break="no"/>lem vel violentam tendit in mortem, &amp; hoc modo idem est
+            <lb ed="#V" n="5"/>loqui de morte Christi, &amp; de passione ipsius, &amp; ita secundum
+            <lb ed="#V" n="6"/>hunc modum mors Christi est causa nostrae salutis per
+            mo<lb ed="#V" n="7" break="no"/>dum meriti secundum illud quod supra de passione dictum
+            <lb ed="#V" n="8"/>est, sed in facto esse mors consideratur secundum quod iam facta est
+            <lb ed="#V" n="9"/>separatio corporis &amp; animae, &amp; sic nunc loquimur de
+            mor<lb ed="#V" n="10" break="no"/>te Christi. Hoc autem modo mors Christi non potest esse
+            <lb ed="#V" n="11"/>causa nostrae salutis per modum meriti, sed solum per
+            mo<lb ed="#V" n="12" break="no"/>dum efficientiae inquantum scilicet nec per mortem diuinitas est
+            se<lb ed="#V" n="13" break="no"/>parata a carne, &amp; ideo quicquid contingit circa carnem
+            Chri<lb ed="#V" n="14" break="no"/>sti anima separata fuit nobis salutiferum virtute
+            diuinita<lb ed="#V" n="15" break="no"/>tis vnitae. Haec ille.
+          </p>
+          <p xml:id="capsco-b2il5d-d1e2132">
+            Item in solutione secundi argu. sic dicit.
+            <lb ed="#V" n="16"/>Mors Christi secundum quod consideratur in facto esse,
+            <lb ed="#V" n="17"/>&amp; si non fuerit operata ad salutem nostram per modum
+            <lb ed="#V" n="18"/>meriti, fuit tamen operata per modum efficientiae. Haec ille
+            <lb ed="#V" n="19"/>Simile dicit de Christi sepultura. q. 51 art. 1. in solu. secundi
+            <lb ed="#V" n="20"/>argumenti.
+          </p>
+          <p xml:id="capsco-b2il5d-d1e2145">
+            Ad quintum sic dicit Adam. Omissio actus
+            exte<lb ed="#V" n="21" break="no"/>rioris &amp; interioris omnis quod haberetur habitu exteriori, non
+            <lb ed="#V" n="22"/>est peior in ratione demeriti quam omissio interioris
+            tan<lb ed="#V" n="23" break="no"/>tum, dum modo posset interior aequaliter haberi sine
+            exte<lb ed="#V" n="24" break="no"/>riori sicut cum eo. Probatio autem assumpti diuertit a
+            pro<lb ed="#V" n="25" break="no"/>posito, quia nullus potest pauperi libere vel meritorie
+            sub<lb ed="#V" n="26" break="no"/>uenire, nisi velit ei subuenire, siue diligat eum, siue non,
+            vel<lb ed="#V" n="27" break="no"/>le autem pauper isubuenire est actus interior, qui est ad
+            p<lb ed="#V" n="28" break="no"/>positum, &amp; ille est quo posito &amp; efficaci non est in
+            potesta<lb ed="#V" n="29" break="no"/>te sic volentis, quin subueniat, si possit. Vlterius dicendum
+            <lb ed="#V" n="30"/>est quod illa exterior subuentio non addit meritum dignum,
+            <lb ed="#V" n="31"/>praecisa additione praemii super actus interiores subueniem
+            <lb ed="#V" n="32"/>tes. Forte tamen in subueniendo intenditur eius actus
+            in<lb ed="#V" n="33" break="no"/>ter. or bonus, vel habetur nouus interior meritorius per
+            <lb ed="#V" n="34"/>quem crescit meritum talis personae. Haec ille, &amp; satis bene
+            <lb ed="#V" n="35"/>dicit dum tamen intelligatur quod actus exterior non
+            ad<lb ed="#V" n="36" break="no"/>dit ad praemium essentiale, sed ad accidentale.
+          </p>
+          <p xml:id="capsco-b2il5d-d1e2182">
+            Ad sextum
+            <lb ed="#V" n="37"/>sic dicit Adam Concedo inquit quod in illo casu vnus
+            ci<lb ed="#V" n="38" break="no"/>tius liberaretur idem quam alius, quia vltra hoc quod
+            vter<lb ed="#V" n="39" break="no"/>que meruit quo ad praemium beatitudinis vitae aeternae &amp;
+            <lb ed="#V" n="40"/>huiusmodi absolute meruit conditionaliter, quod si talia
+            <lb ed="#V" n="41"/>suffragia fierent pro eo valerent sibi ad expeditionem &amp;
+            li<lb ed="#V" n="42" break="no"/>berationem per consequens accelerandam temporaliter,
+            <lb ed="#V" n="43"/>illa suffragia tunc sunt positio conditionis sub qua liberari
+            <lb ed="#V" n="44"/>meruit, &amp; ideo liberatur. Non sic alius, quia conditio sub
+            <lb ed="#V" n="45"/>quo meruit, non ponitur. Dicedum est etiam quod in illo
+            casu<lb ed="#V" n="46" break="no"/>adduntur actus interiores boni, &amp; orationes, &amp; oblatio
+            sa<lb ed="#V" n="47" break="no"/>cramentalis, quas non nego addere meritum boni
+            tempo<lb ed="#V" n="48" break="no"/>ralis, &amp; iuuari ad praemium aeternum mediantibus adiuto
+            <lb ed="#V" n="49"/>riis aliorum, &amp; deuotionibus amicorum. Haec ille.
+          </p>
+          <p xml:id="capsco-b2il5d-d1e2213">
+            Simile
+            <lb ed="#V" n="50"/>dicit Sanctus Thomas secundo sententiarum dis. quadragesima
+            <lb ed="#V" n="51"/>quaestio. prima arti. tertio sic arguit quinto loco. Si actus
+            <lb ed="#V" n="52"/>exterior adiicit aliquid bonitatis supra bonitatem actus
+            in<lb ed="#V" n="53" break="no"/>terioris, ergo quanto actus exterior maior fuerit tanto
+            ho<lb ed="#V" n="54" break="no"/>mo magis merebitur sed hoc est falsum, quod patet ex
+            sen<lb ed="#V" n="55" break="no"/>tentia domini quam de vidua mittente duo aera in
+            gazofi<lb ed="#V" n="56" break="no"/>latium dedit Lucae. 21. ergo actus exterior non addit super
+            <lb ed="#V" n="57"/>interiorem. Ecce argumentum. Sequitur responsio.
+            Dicen<lb ed="#V" n="58" break="no"/>dum inquit quod illa plus aliis misisse dicitur, quia
+            effica<lb ed="#V" n="59" break="no"/>ciori voluntate illud dedit, vnde magis merebatur apud
+            <lb ed="#V" n="60"/>Deum de praemio essentiali, quam illi qui maiora munera
+            <lb ed="#V" n="61"/>minori deuotione dabant, sed quantum ad praemium
+            acci<lb ed="#V" n="62" break="no"/>dentale illi poterant plus mereri, secundum quod per
+            ma<lb ed="#V" n="63" break="no"/>iora munera plus satisfaciebant, vel etiam ministros
+            tampli<lb ed="#V" n="64" break="no"/>plus ad orandum pro se prouocabant, vel quicquid
+            huius<lb ed="#V" n="65" break="no"/>modi est quod ad actum exteriorem secundum se sequitur
+            <lb ed="#V" n="66"/>Haec ille. Similia dicit in speciali &amp; magis ad propositum
+            <lb ed="#V" n="67"/>quarto sen. distin. 45. q. secunda. 0 Vbi agit de valore suffra
+            <lb ed="#V" n="68"/>giorum diffuse.
+          </p>
+          <p xml:id="capsco-b2il5d-d1e2258">
+            Ad septimum dicit Adam quod licet in
+            ac<lb ed="#V" n="69" break="no"/>tu interiori non sit mendacium, est tamen electio &amp; volitio
+            <lb ed="#V" n="70"/>mendacii, &amp; acceptatio, &amp; libera complacentia in
+            menda<lb ed="#V" n="71" break="no"/>cio, quae sunt ita demeritoria, sicut ipsa cum appositione
+            ex<lb ed="#V" n="72" break="no"/>terioris mendacii superadditi. Haec ille, &amp; bene.
+          </p>
+          <p xml:id="capsco-b2il5d-d1e2269">
+            Ad octauum
+            <lb ed="#V" n="73"/>&amp; nonum dicit respondendum esse sicut ad sextum Scoti
+            <lb ed="#V" n="74"/>starum. Ad Decimum dicit quod consecratio
+            sacramenta<lb ed="#V" n="75" break="no"/>lis non sit virtute meriti operantis, cum vere consecret qui
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="76"/>peccat mortaliter consecrando, sed ratione operis operati
+            <lb ed="#V" n="77"/>virtute faederis initi a Deo cum ecclesia militante. Haec ille.
+            <lb ed="#V" n="78"/>Et concordat cum Sancto. Thomas quarto sen. distinc. 13. q.
+            <lb ed="#V" n="79"/>2. 9.
+          </p>
+          <p xml:id="capsco-b2il5d-d1e2289">
+            Ad vndecimum dicit Adam quod consequens quod
+            <lb ed="#V" n="80"/>infertur concedi potest, nisi sequatur aliquis actus
+            compla<lb ed="#V" n="81" break="no"/>centiae &amp; approbationis laboris talis sui corporis &amp;
+            com<lb ed="#V" n="82" break="no"/>pletionis itineris sui assumpti voluntarie, quales forte actus
+            <lb ed="#V" n="83"/>interiores non haberent sic in complacentia, nisi
+            comple<lb ed="#V" n="84" break="no"/>to itinere suo. Haec ille. Mihi videtur quod omnia quae
+            dicit<lb ed="#V" n="85" break="no"/>possunt stare loquendo de merito praemii essentialis, secus
+            <lb ed="#V" n="86"/>est de merito praemii accidentalis.
+          </p>
+          <p xml:id="capsco-b2il5d-d1e2307">
+            Ad illud enim addit
+            ac<lb ed="#V" n="87" break="no"/>tus exterior, vt supra dictum est. Nec oportet quod actus
+            <lb ed="#V" n="88"/>interior semper assistat exteriori actualiter. Sufficit enim
+            <lb ed="#V" n="89"/>quod astiterit in principio actualiter, &amp; quod postea
+            assi<lb ed="#V" n="90" break="no"/>stat virtualiter, vt alias dictum fuit.
+          </p>
+          <p xml:id="capsco-b2il5d-d1e2318">
+            Ad duodecimum negat
+            <lb ed="#V" n="91"/>minorem. Non enim ibi crescit meritum per positionem
+            <lb ed="#V" n="92"/>conditionis, immo actus praecedens non esset meritorius
+            il<lb ed="#V" n="93" break="no"/>lius quod datur, nisi prius posita conditione. Tamen nullus
+            <lb ed="#V" n="94"/>orans conditionaliter tantum meretur praemium
+            beatitu<lb ed="#V" n="95" break="no"/>dinis aeternae, sed absolute, siue aliquis mereatur actu
+            con<lb ed="#V" n="96" break="no"/>ditionali, siue actu absoluto. Haec ille, &amp; bene. Ad Decimum
+            <lb ed="#V" n="97"/>tertium dicit, quod ista opinio non erat necessitatem fidei
+            <lb ed="#V" n="98"/>requisite ad salutem, quae est fides infusa communis
+            paruu<lb ed="#V" n="99" break="no"/>lis &amp; adultis saluandis, nec etiam in adultis fidei
+            acquisi<lb ed="#V" n="100" break="no"/>tae:&amp; cum probatur per casum dicitur quod ille qui
+            effica<lb ed="#V" n="101" break="no"/>citer vult &amp; optat credere aliquem articulum, &amp; non
+            po<lb ed="#V" n="102" break="no"/>test plene, quia aliqua turbatio melancolica vel passio vel
+            <lb ed="#V" n="103"/>sophisma impedit eum, est in statu bono, si aliud non
+            ob<lb ed="#V" n="104" break="no"/>stat propter desiderium credendi, &amp; potest esse, quod ex
+            il<lb ed="#V" n="105" break="no"/>la voluntate credendi &amp; ex displicentia rebellionis quam
+            <lb ed="#V" n="106"/>inuite sustinet ad contrarium, plus mereatur quam vnus
+            <lb ed="#V" n="107"/>alius qui tentatione huiusmodi non vexatur, sed quiete
+            si<lb ed="#V" n="108" break="no"/>cut debet credit. Ex quo enim vellet efficaciter quantum
+            <lb ed="#V" n="109"/>posset habere credulitatem, &amp; nititur quantum potest,
+            pro<lb ed="#V" n="110" break="no"/>eo quod non potest perficere non damnabitur, quia
+            secun<lb ed="#V" n="111" break="no"/>dum Augunus hoc est summae insaniae dicere aliquem peccare
+            <lb ed="#V" n="112"/>vel damnari aro eo quod non facu, quod facere non
+            po<lb ed="#V" n="113" break="no"/>test. Immo si arguens vellet omnino habere de
+            necessi<lb ed="#V" n="114" break="no"/>tate salutis esse vltra voluntatem perfectam credendi,
+            vlte<lb ed="#V" n="115" break="no"/>rius habere ipsum quietum credere, non bene in hoc
+            senti<lb ed="#V" n="116" break="no"/>ret, immo contra compostellanum, &amp; alios decretistas. D
+            <lb ed="#V" n="117"/>ces, plus meretur ille qui quiete credit, quam qui vellet &amp;
+            <lb ed="#V" n="118"/>non facit dicendum quod potest esse vt sic &amp; potest esse nec, &amp; quando
+            con<lb ed="#V" n="119" break="no"/>tinget quod sic, hoc erit propter actus voluntatis simul
+            col<lb ed="#V" n="120" break="no"/>lectos meliores ex vna parte quam ex a lia.
+          </p>
+          <p xml:id="capsco-b2il5d-d1e2386">
+            Ad illud quod
+            <lb ed="#V" n="121"/>additur de idolatria sufficit dicere, quod ille qui de
+            fa<lb ed="#V" n="122" break="no"/>cto conmitteret idolatriam, non grauius peccaret ex facto
+            <lb ed="#V" n="123"/>exteriori, quam ipsemet ex omnibus interioribus suis solis
+            <lb ed="#V" n="124"/>tunc habitis apud Deum caeteris paribus, sed cum hoc stat
+            <lb ed="#V" n="125"/>quod ille qui non actu idolatriam exterius exercet habet
+            ta<lb ed="#V" n="126" break="no"/>men voluntatem committendi, aliquotiens minus peccet
+            <lb ed="#V" n="127"/>quia non forte habet tot malas volitiones, vel non ita
+            inten<lb ed="#V" n="128" break="no"/>sas, nec tales voluntarias complacentias in facto suo, sicut
+            <lb ed="#V" n="129"/>primus, sed omnibus paribus praeter operationem
+            exterio<lb ed="#V" n="130" break="no"/>rem quam posset facere forte vnus furiosus, non ponerem
+            <lb ed="#V" n="131"/>tales disperes in culpa. Verumtamen vix esset possibile, quin
+            <lb ed="#V" n="132"/>ex actu exteriori, vel in ipso actu cresceret interior
+            opera<lb ed="#V" n="133" break="no"/>tio, vel quin alia operatio interior habeatur. Haec ille, &amp;
+            <lb ed="#V" n="134"/>bene, nisi quod illud quod dicit de volente credere, &amp; non
+            <lb ed="#V" n="135"/>valente videtur repugnare dictis Sancti Thomae de
+            verita<lb ed="#V" n="136" break="no"/>te quaestione decimaquarta articulo vndecimo. Arguit
+            <lb ed="#V" n="137"/>enim sic primo loco. Illud non est ponendum quo posito
+            <lb ed="#V" n="138"/>sequitur inconueniens, sed si ponamus quod sit
+            necessa<lb ed="#V" n="139" break="no"/>rium ad salutem aliquid explicite credere, sequitur
+            incon<lb ed="#V" n="140" break="no"/>ueniens, possibile est enim aliquem nutriri in siluis, vel
+            in<lb ed="#V" n="141" break="no"/>ter lupos, &amp; talis non potest aliquid fidei explicite credere
+            <lb ed="#V" n="142"/>vel cognoscere, &amp; sic erit aliquis homo qui de necessitate
+            <lb ed="#V" n="143"/>damnabitur, quod est inconueniens. Ecce argumentum
+            se<lb ed="#V" n="144" break="no"/>quitur responsio. Dicendum inquit, quod non semper
+            in<lb ed="#V" n="145" break="no"/>conueniens posito quod quilibet teneatur aliquid de fide
+            <lb ed="#V" n="146"/>explicite credere etiam si in siluis vel inter bruta animalia
+            <lb ed="#V" n="147"/>nutriatur, hoc enim ad diuinam prouidentiam pertinet vt cuilibet
+            <lb ed="#V" n="148"/>prouideat de necessarii ad salutem, dummodo ex parte eius
+            <lb ed="#V" n="149"/>non impedientur, si enim aliquis totaliter ductum naturalis rationis sequare
+            <lb ed="#V" n="150"/>tur cum appetitu boni &amp; fuga mali, certissime est tenendum
+            <pb ed="#V" n="576"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>quod Deus ei per internam spirationem reuelaret ea quae
+            <lb ed="#V" n="2"/>ad salutem sunt necessaria, vel aliquem fidei praedicatorem
+            <lb ed="#V" n="3"/>ad eum dirigeret, sicut misit Petrum ad Cornelium actuum
+            <lb ed="#V" n="4"/>x.
+          </p>
+          <p xml:id="capsco-b2il5d-d1e2468">
+            Item in solutione secundi sic dicit. Quamuis non sit in
+            po<lb ed="#V" n="5" break="no"/>testate nostra cognoscere ea quae sunt fidei ex nobis ipsis, si
+            <lb ed="#V" n="6"/>tamen nos fecerimus quod in nobis est vt scilicet ductum
+            <lb ed="#V" n="7"/>rationis naturalis sequamur, Deus non deficiet nobis ab eo
+            <lb ed="#V" n="8"/>quod nobis est necessarium. Haec ille.
+          </p>
+          <p xml:id="capsco-b2il5d-d1e2479">
+            Ex quibus patet, quod
+            <lb ed="#V" n="9"/>casus positus in argumento non debet admitti. Ad
+            duode<lb ed="#V" n="10" break="no"/>cimuniquartum dicit Adam quodsecundum aliquos passio
+            <lb ed="#V" n="11"/>Christi requirebatur per modum precii, non meriti, quia
+            <lb ed="#V" n="12"/>ianua aperiebatur quando precium soluebatur. Haec ille.
+          </p>
+          <p xml:id="capsco-b2il5d-d1e2490">
+            <lb ed="#V" n="13"/>Cui concordat Sanctus Thomas in tertia parte quaest. 48. art.
+            <lb ed="#V" n="14"/>primo in solutione secundi, vbi sic dicit. Christus a
+            princi<lb ed="#V" n="15" break="no"/>pio conceptionis suae meruit nobis salutem aeternam, sed
+            <lb ed="#V" n="16"/>ex parte nostra erant quaedam impedimenta quibus
+            impe<lb ed="#V" n="17" break="no"/>diebamur consequi effectum praecedentium meritorum,
+            <lb ed="#V" n="18"/>vnde ad remouendum illa impedimenta, oportuit Christum pati.
+            <lb ed="#V" n="19"/>Haec ille.
+          </p>
+          <p xml:id="capsco-b2il5d-d1e2508">
+            Et redit in id quod superius dictum est scilicet quod
+            <lb ed="#V" n="20"/>actus exterior valet ad praemium accidentale. Veruntamen
+            <lb ed="#V" n="21"/>sicut superius patet ex dictis Adae nec istud argums nec
+            plu<lb ed="#V" n="22" break="no"/>ra praecedentia concludunt aliquid contra nos, quia
+            con<lb ed="#V" n="23" break="no"/>clusio nostra solum loquitur de merito &amp; praemio actus
+            re<lb ed="#V" n="24" break="no"/>dundante directe in principium actus, &amp; non de vtilitatibus
+            <lb ed="#V" n="25"/>redundantibus in alia supposita.
+          </p>
+          <p xml:id="capsco-b2il5d-d1e2524">
+            Ad primum Aureoli
+            dici<lb ed="#V" n="26" break="no"/>tur, quod bonitas moralis actus humani pensatur ex fine,
+            <lb ed="#V" n="27"/>non qualitercunque, sed ex fine prout est volitus. Nam
+            da<lb ed="#V" n="28" break="no"/>to quod actus attigeret bonum finem, non ideo esset
+            mo<lb ed="#V" n="29" break="no"/>raliter bonus, nisi finis esset volitus. Tunc ad argumentum
+            <lb ed="#V" n="30"/>dicitur, quod maior est falsa de illis actibus quorum, vnus
+            <lb ed="#V" n="31"/>est volitio alterius, &amp; ponit alium inesse morali. Ad
+            secun<lb ed="#V" n="32" break="no"/>dum dicitur quod actus interior &amp; exterior non sunt
+            plu<lb ed="#V" n="33" break="no"/>ra voluntaria formaliter, cum actus interior sit solum
+            vo<lb ed="#V" n="34" break="no"/>luntarius formaliter, actus vero exterior sit voluntarius
+            so<lb ed="#V" n="35" break="no"/>lum denominatiue, ideo non habetur quod sint plura
+            pec<lb ed="#V" n="36" break="no"/>cata formaliter, sed quod sunt duo actus, quorum vnus est
+            <lb ed="#V" n="37"/>peccatum formaliter, &amp; alius est peccatum solum
+            denomi<lb ed="#V" n="38" break="no"/>natiue, vel quod ambo constituunt vnum integrum
+            pecca<lb ed="#V" n="39" break="no"/>tum.
+          </p>
+          <p xml:id="capsco-b2il5d-d1e2557">
+            Ad tertium dicitur, quod bonitas moralis actus non
+            <lb ed="#V" n="40"/>consistit in quibuscunque circunstantiis, nec in collatione
+            <lb ed="#V" n="41"/>aut integritate circunstantiarum, nisi pro quanto sunt
+            vo<lb ed="#V" n="42" break="no"/>litae. Tunc ad formam argumenti dicitur sicut ad primum,
+            <lb ed="#V" n="43"/>quod maior est falsa de illis actibus quorum vnus est
+            mo<lb ed="#V" n="44" break="no"/>ralitas alterius, &amp; ponit alium inesse morali, sicuti est de
+            a<lb ed="#V" n="45" break="no"/>ctu interiori et exteriori sibi correspondenti. Ad
+            argumen<lb ed="#V" n="46" break="no"/>tum principale pro parte affirmatiua quasi respondet
+            San<lb ed="#V" n="47" break="no"/>ctus Thomas secundo sententiarum distin. 42. quaest. prima
+            <lb ed="#V" n="48"/>arti. primo in solutione primi dicens, quod in hoc praecepto,
+            <lb ed="#V" n="49"/>non concupisces rem proximi, non prohibetur illa
+            volun<lb ed="#V" n="50" break="no"/>tas furandi, quae est coniuncta actui: sed illa quae est
+            separa<lb ed="#V" n="51" break="no"/>ta ab actu qui etiam sine actu habet quandam
+            turpemtio<lb ed="#V" n="52" break="no"/>cunditatem. Illa autem quae coniuncta est actui prohibetur
+            <lb ed="#V" n="53"/>illo praecepto quo furtum prohibetur, quia nihil cadit sub
+            <lb ed="#V" n="54"/>praecepto vel prohibitione nisi secundum quod est voluntarium.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

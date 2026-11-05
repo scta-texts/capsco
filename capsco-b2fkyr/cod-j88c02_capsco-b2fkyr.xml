@@ -1,0 +1,649 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 2, Distinctio 38, Quaestio 1</title>
+        <author ref="#JohannesCapreolus">Johannes Capreolus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 2, Distinctio 38, Quaestio 1</title>
+          <date when="2026-11-04">Nov 4, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-j88c02">Venice, 1589, v. 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-04" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="546"/>
+        <cb ed="#V" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="capsco-b2fkyr"><!-- l2d38q1 -->
+        <head xml:id="capsco-b2fkyr-Hd1e101">Quaestio 1</head>
+        <head xml:id="capsco-b2fkyr-Hd1e103" type="question-title">Utrum bonitas actus voluntatis sit ex fine</head>
+        <p xml:id="capsco-b2fkyr-d1e106">
+          <lb ed="#V" n="102"/>DISTINCTIO XXXVIII
+          <lb ed="#V" n="103"/>QVAESTIO I
+          <lb ed="#V" n="104"/>Vtrum bonitas actus voluntatis sit ex fine
+        </p>
+        <p xml:id="capsco-b2fkyr-d1e115">
+          <lb ed="#V" n="105"/><milestone ed="#V" unit="p" rend="initial"/> CIRCA trigesimamoctauam
+          distinctio<lb ed="#V" n="106" break="no"/>nem secundi sententiarum quaeritur.
+          <lb ed="#V" n="107"/>Vtrum bonitas actus voluntatis sit ex
+          <lb ed="#V" n="108"/>fine.
+        </p>
+        <p xml:id="capsco-b2fkyr-d1e127">
+          Videtur quod sic, quia motus
+          re<lb ed="#V" n="109" break="no"/>cipit speciem ab ordine &amp; a termino,
+          <lb ed="#V" n="110"/>sed terminus actus voluntatis est finis
+        </p>
+        <p xml:id="capsco-b2fkyr-d1e135">
+          <lb ed="#V" n="111"/>igitur &amp; caetera.
+        </p>
+        <p xml:id="capsco-b2fkyr-d1e140">
+          <lb ed="#V" n="112"/><milestone ed="#V" unit="p" rend="indent"/> In contrarium arguitur, quia euangelizare bonum est,
+          <lb ed="#V" n="113"/>&amp; manducare bonum est, &amp; tamen euangelizare
+          pro<lb ed="#V" n="114" break="no"/>pter manducare non est bonum.
+        </p>
+        <p xml:id="capsco-b2fkyr-d1e150">
+          <lb ed="#V" n="115"/><milestone ed="#V" unit="p" rend="indent"/> In hac quaestione sunt tres articuli. In primo ponentur
+          <lb ed="#V" n="116"/>conclusiones. In secundo obiectiones. In tertio
+          solu<lb ed="#V" n="117" break="no"/>tiones
+        </p>
+        <div xml:id="capsco-b2fkyr-Dd1e160">
+          <head xml:id="capsco-b2fkyr-Hd1e162">Articulus 1</head>
+          <p xml:id="capsco-b2fkyr-d1e164">
+            <lb ed="#V" n="118"/><milestone ed="#V" unit="p" rend="initial"/> Vantum ad primum articulum sit haec conclusio. Ad
+            <lb ed="#V" n="119"/>bonitatem actus voluntatis requiritur appetitus
+            re<lb ed="#V" n="120" break="no"/>cti finis, non tamen sufficit. Hanc ponit Sanctus Thomas 2.
+            senten<lb ed="#V" n="121" break="no"/>distin. 38. q. 1. artic. 5. vbi sic dicit. Actus voluntatis potest
+            <lb ed="#V" n="122"/>ferri in finem dupliciter, vel immediate in ipsum vt in finem,
+            <lb ed="#V" n="123"/>&amp; sic manifeste actus voluntatis bonitatem &amp; malitiam ex
+            <lb ed="#V" n="124"/>fine habet, quia velle bonum finem est bonum, &amp; velle
+            ma<lb ed="#V" n="125" break="no"/>lum finem est malum. Bonitas enim finis non dependet
+            vl<lb ed="#V" n="126" break="no"/>terius ex aliquo alio, sicut bonitas eius quod est ad finem
+            <lb ed="#V" n="127"/>dependet ex fine, &amp; talis actus proprie dicitur voluntas
+            fi<lb ed="#V" n="128" break="no"/>nis, vt velle beatitudinem. Alio modo fertur actus in finem
+            <lb ed="#V" n="129"/>mediante eo quod est ad finem, &amp; hoc proprie dicitur
+            in<lb ed="#V" n="130" break="no"/>tendere finem. Et tunc distinguendum est, quia in malis
+            <lb ed="#V" n="131"/>absolute dicendum est, quod actus habet malitiam ex fine,
+            <lb ed="#V" n="132"/>quia si finis intentus est malus, &amp; voluntas est mala,
+            quan<lb ed="#V" n="133" break="no"/>tumcunque sit bonum id quod ad talem finem ordinatur,
+            <lb ed="#V" n="134"/>eo quod vnus particularis defectus sufficit ad malitiam. In
+            <lb ed="#V" n="135"/>bonis autem distinguendum, quia aut loquimur de fine
+            vo<lb ed="#V" n="136" break="no"/>lentis, aut de fine actus voluntatis. Et dicitur finis
+            volen<lb ed="#V" n="137" break="no"/>tis quem volens sibi praestituit, &amp; tunc non sequitur si finis
+            <lb ed="#V" n="138"/>sit bonus, quod voluntas sit bona, quia potest esse id quod
+            <lb ed="#V" n="139"/>est volitum malum, &amp; vnum tantum sufficit ad malitiam
+            <lb ed="#V" n="140"/>voluntatis, siue finis sit malus, siue volitum sit malum, &amp;
+            <lb ed="#V" n="141"/>quamuis vno modo idem sit actus voluntatis qui fertur in
+            <lb ed="#V" n="142"/>finem, &amp; in id quod est ad finem, tamen intentio nominat
+            <lb ed="#V" n="143"/>illum actum secundum ordinem ad obiectum proximum
+            <lb ed="#V" n="144"/>quod in finem ordinatur, &amp; ideo in tali casu voluntas est
+            <lb ed="#V" n="145"/>mala, sed intentio bona. Finis autem actus dicitur ad quem
+            <pb ed="#V" n="547"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>actus est proportionatus, &amp; ita etiam si finis est bonus, &amp;
+            <lb ed="#V" n="2"/>actus bonus, quia actus malus non est proportionatus ad
+            <lb ed="#V" n="3"/>finem bonum. Vt dicit Philosophus in 6. Ethicor. de his
+            <lb ed="#V" n="4"/>qui per malos actus bonos fines consequi intendunt, quod
+            <lb ed="#V" n="5"/>quaerunt sortiri finem inconuenienti medio. Sicut enim
+            <lb ed="#V" n="6"/>non quaelibet materia est disposita ad quamlibet formam,
+            <lb ed="#V" n="7"/>nec quodlibet instrumentum ad quemlibet effectum, nec
+            <lb ed="#V" n="8"/>quodlibet medium ad quamlibet conclusionem, ita nec
+            <lb ed="#V" n="9"/>quilibet actus ad quemlibet finem. Haec ille.
+          </p>
+          <p xml:id="capsco-b2fkyr-d1e252">
+            Item prima
+            <lb ed="#V" n="10"/>secundae. q. 19. artic. 7. sic dicit. Intentio dupliciter potest se
+            <lb ed="#V" n="11"/>habere ad voluntatem. Vno modo vt praecedens. Alio
+            mo<lb ed="#V" n="12" break="no"/>do vt concomitans. Praecedit quidem causaliter intentio
+            <lb ed="#V" n="13"/>voluntatem, quando aliquid volumus propter intentionem
+            <lb ed="#V" n="14"/>alicuius finis, &amp; tunc ordo ad finem consideretur vt ratio
+            <lb ed="#V" n="15"/>quaedam bonitatis ipsius voliti, puta cum quis vult
+            ieiuna<lb ed="#V" n="16" break="no"/>re propter Deum, habet enim ieiunium rationem boni ex
+            <lb ed="#V" n="17"/>hoc ipso quod fit propter Deum. Vnde cum bonitas
+            volun<lb ed="#V" n="18" break="no"/>tatis dependeat ex bonitate voliti, necesse est quod
+            depen<lb ed="#V" n="19" break="no"/>deat ex intentione finis. Consequitur autem intentio
+            vo<lb ed="#V" n="20" break="no"/>luntatem quando accedit voluntati praeexistenti, puta si
+            <lb ed="#V" n="21"/>aliquis velit aliquid facere, &amp; postea referat illud in Deum.
+            <lb ed="#V" n="22"/>Et tunc primae voluntatis bonitas non dependet ex
+            inten<lb ed="#V" n="23" break="no"/>tione sequenti, nisi quatenus reiteratur actus voluntatis
+            cu<lb ed="#V" n="24" break="no"/>sequenti intentione. Haec ille.
+          </p>
+          <p xml:id="capsco-b2fkyr-d1e287">
+            Item in solutione secundi
+            <lb ed="#V" n="25"/>sic dicit. Voluntas non potest dici bona si intentio sit
+            ma<lb ed="#V" n="26" break="no"/>la, quae est causa volendi. Qui enim vult dare elemosynam
+            <lb ed="#V" n="27"/>propter inanem gloriam consequendam, vult id quod est
+            <lb ed="#V" n="28"/>de se bonum sub ratione mali, &amp; ideo prout est volitum ab
+            <lb ed="#V" n="29"/>ipso, est malum, vnde voluntas eius est mala. Sed si
+            inten<lb ed="#V" n="30" break="no"/>tio sit consequens, tunc voluntas potuit esse bona, &amp; per
+            <lb ed="#V" n="31"/>intentionem sequentem non damnatur actus ille
+            volunta<lb ed="#V" n="32" break="no"/>tis qui praecessit, sed actus voluntatis qui reiteratur. Haec
+            <lb ed="#V" n="33"/>ille.
+          </p>
+          <p xml:id="capsco-b2fkyr-d1e309">
+            Item in solutione tertij sic dicit. Malum contingit ex
+            <lb ed="#V" n="34"/>singulis defectibilibus, bonum vero ex integra causa.
+            Vn<lb ed="#V" n="35" break="no"/>de siue voluntas sit eius quod est secundum se malum, &amp;
+            <lb ed="#V" n="36"/>sub ratione boni, siue sit boni sub ratione boni, semper
+            vo<lb ed="#V" n="37" break="no"/>luntas erit mala, sed ad hoc quod sit voluntas bona
+            requiri<lb ed="#V" n="38" break="no"/>tur quod sit boni, &amp; sub ratione boni, idest quod velit bonum
+            <lb ed="#V" n="39"/>&amp; propter bonum. Haec ille.
+          </p>
+          <p xml:id="capsco-b2fkyr-d1e326">
+            Ex quibus arguitur pro
+            vtra<lb ed="#V" n="40" break="no"/>que parte conclusionis. Et quidem pro prima arguitur sic
+            <lb ed="#V" n="41"/>Ad rectitudinem &amp; bonitatem volitionis seu voluntatis
+            <lb ed="#V" n="42"/>requiritur bonitas totius obiecti voliti, sed bonitas finis vel
+            <lb ed="#V" n="43"/>est totum obiectum volitum, vel est pars bonitatis totius
+            <lb ed="#V" n="44"/>obiecti voliti, quia omnis actus voluntatis, vel habet solum
+            <lb ed="#V" n="45"/>finem pro obiecto, vel id quod est ad finem sub ratione
+            fi<lb ed="#V" n="46" break="no"/>nis: igitur &amp;c. Pro secunda arguitur sic. Illud non sufficit
+            <lb ed="#V" n="47"/>ad bonitatem actus voluntatis quod potest stare cum actu
+            <lb ed="#V" n="48"/>vitioso, sed appetitus recti finis est homini, vt patet de
+            vo<lb ed="#V" n="49" break="no"/>lente furari, vt det elemosynam: igitur &amp;c. Et in hoc
+            pri<lb ed="#V" n="50" break="no"/>mus articulus terminatur.
+          </p>
+        </div>
+        <div xml:id="capsco-b2fkyr-Dd1e353">
+          <head xml:id="capsco-b2fkyr-Hd1e355">Articulus 2</head>
+          <p xml:id="capsco-b2fkyr-d1e357">
+            <lb ed="#V" n="51"/><milestone ed="#V" unit="p" rend="initial"/> Vantum ad secundum articulum arguitur contra
+            con<lb ed="#V" n="52" break="no"/>clusionem probando, quod ad bonitatem
+            volunta<lb ed="#V" n="53" break="no"/>tis no requiratur duplex bonitas, scilicet finis &amp; eius quod
+            <lb ed="#V" n="54"/>est ad finem, immo quod aliqua volitio sit bona, dato quod
+            ca<lb ed="#V" n="55" break="no"/>reat secunda bonitate. Primo quia Augtini2. de Trinit.s cap. 6.
+            <lb ed="#V" n="56"/>dicit. Rectae autem sunt voluntates omnes sibimet
+            religa<lb ed="#V" n="57" break="no"/>tae, si bona est illa qua referuntur, cunctae sunt bonae, si autem
+            <lb ed="#V" n="58"/>praua est prauae sunt omnes. Haec ille.
+          </p>
+          <p xml:id="capsco-b2fkyr-d1e378">
+            Secundo, quia in
+            ca<lb ed="#V" n="59" break="no"/>su licitum est &amp; bonum odire Deum, aut blasphemare,
+            ne<lb ed="#V" n="60" break="no"/>incurratur maius malum: igitur bonitas finis in casu
+            suffi<lb ed="#V" n="61" break="no"/>cit, licet id quod appetitur propter finem sit malum.
+            Con<lb ed="#V" n="62" break="no"/>sequentia nota est, &amp; antecedens probatur. Nam aliquis
+            si<lb ed="#V" n="63" break="no"/>ne culpa sua praecedente potest sic a diabolo decipi vt sibi
+            <lb ed="#V" n="64"/>videatur omnino, quod nisi blasphemet aut odiat Deum
+            <lb ed="#V" n="65"/>necessario plus peccabit. Iste tunc secundum iudicium
+            re<lb ed="#V" n="66" break="no"/>ctissimae rationis tenetur blasphemare Deum vel odire,
+            ne<lb ed="#V" n="67" break="no"/>incidat in maius peccatum, quoniam secundum
+            commu<lb ed="#V" n="68" break="no"/>nem animi conceptionem, de duobus malis minus malum
+            <lb ed="#V" n="69"/>eligendum est. Cuius causa est, quia in bonis est
+            econ<lb ed="#V" n="70" break="no"/>trario, scilicet quod maius bonum magis est eligendum.
+          </p>
+          <p xml:id="capsco-b2fkyr-d1e407">
+            <lb ed="#V" n="71"/>Confirmatur hoc auctoritate Gregorij 12. Moralium
+            su<lb ed="#V" n="72" break="no"/>per illud Iob. 40. Nerui testiculorum eius perplexi sunt.
+            <lb ed="#V" n="73"/>dicentis. Nerui testiculorum leuiatham perplexi sunt, quia
+            <lb ed="#V" n="74"/>suggestionum eius argumenta implicatis innexionibus
+            alli<lb ed="#V" n="75" break="no"/>gantur, vt plerosque ita peccare faciant, quatinus si fortasse
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="76"/>peccatum fugere appetant, hoc sine alio peccati laqueo non
+            <lb ed="#V" n="77"/>euadant, &amp; culpam faciat dum vitant, ac nequaquam se ab
+            <lb ed="#V" n="78"/>vna valeant soluere, nisi in aliam sentiant se ligari. Et ponit
+            <lb ed="#V" n="79"/>ibidem plura exempla quorum vnum est de eo qui iurauit
+            <lb ed="#V" n="80"/>celare secreta alterius, qui post iuramentum indicat se velle
+            <lb ed="#V" n="81"/>committere homicidium, quod ille iuratus non valet
+            impe<lb ed="#V" n="82" break="no"/>dire nisi prodendo secretum. Hic sic perplexus est, quod
+            <lb ed="#V" n="83"/>nisi prodiderit, reus videatur homicidij. Si prodiderit
+            per<lb ed="#V" n="84" break="no"/>iurij.
+          </p>
+          <p xml:id="capsco-b2fkyr-d1e442">
+            Secundum est de aliquo qui promisit obedientiam
+            ali<lb ed="#V" n="85" break="no"/>cui praelato, qui postea praecipit ei facere quod non licet. Hic
+            <lb ed="#V" n="86"/>etiam sic perplexus est, quod si faciat illud quod iubetur
+            pec<lb ed="#V" n="87" break="no"/>cet, si non faciat, inobedientiam incurrere videatur. Et
+            secun<lb ed="#V" n="88" break="no"/>dum hunc casum ponatur quod ille praelatus praecipiat
+            si<lb ed="#V" n="89" break="no"/>bi quod blasphemet Deum aut odiat, &amp; iudicet iste quod
+            <lb ed="#V" n="90"/>talis actus contra Deum sit minus malus, quia est ibi
+            tan<lb ed="#V" n="91" break="no"/>tum vnum peccatum, &amp; contra Deum tantum, &amp; multum
+            <lb ed="#V" n="92"/>excusatum propter praeceptum praelati, credatque quod non
+            <lb ed="#V" n="93"/>obedire praelato sit maius malum, quia contra praelatum
+            <lb ed="#V" n="94"/>suum &amp; contra Deum, cuius vices gerit, &amp; quod sit violare
+            <lb ed="#V" n="95"/>iuramentum, &amp; apostatare a voto. In hoc casu videtur quod
+            <lb ed="#V" n="96"/>iste tenetur &amp; debet blasphemare, &amp; per consequens non
+            <lb ed="#V" n="97"/>peccabit. Vnde Gregorius post verba allegata docens quid in
+            <lb ed="#V" n="98"/>talibus casibus sit agendum ait. Est tamen quod ad
+            destruen<lb ed="#V" n="99" break="no"/>das eius versutias vtiliter fiat, vt cum mens inter minora &amp;
+            <lb ed="#V" n="100"/>maxima peccata constringitur, si omnino nullus sine
+            pec<lb ed="#V" n="101" break="no"/>cato euadendi aditus patet, minora semper eligantur, quia
+            <lb ed="#V" n="102"/>&amp; qui murorum ambitu ne fugiat vndique clauditur, ibi se
+            <lb ed="#V" n="103"/>in fugam praecipitat vbi murus breuior inuenitur.
+          </p>
+          <p xml:id="capsco-b2fkyr-d1e487">
+            Confir<lb ed="#V" n="104" break="no"/>matur, quia ad hoc facit illud capit. Duo mala, quod
+            poni<lb ed="#V" n="105" break="no"/>tur in decretis dist. 13. &amp; est sumptum ex concilio Toletano. 8.
+            <lb ed="#V" n="106"/>Et similiter illud quod ponitur in principio distinctionis,
+            <lb ed="#V" n="107"/>scilicet quod aduersus naturale ius nulla dispensatio
+            ad<lb ed="#V" n="108" break="no"/>mittitur nisi forte duo mala ita ingerat vt alterum necesse
+            <lb ed="#V" n="109"/>sit eligi.
+          </p>
+          <p xml:id="capsco-b2fkyr-d1e503">
+            Nec valet si dicatur quod in tali casu etiam
+            pec<lb ed="#V" n="110" break="no"/>cat, quia facit minus peccatum, sicut dicunt auctoritates
+            al<lb ed="#V" n="111" break="no"/>legatae, quia nullus faciendo quod debet peccat, talis autem
+            <lb ed="#V" n="112"/>facit quod debet. Nullus etiam faciendo secundum
+            iudi<lb ed="#V" n="113" break="no"/>cium rectissimum &amp; commune Sanctorum &amp; canonis &amp;
+            <lb ed="#V" n="114"/>concilij generalis peccat, iste autem sic facit. Hoc etiam
+            vi<lb ed="#V" n="115" break="no"/>detur contra Gregorius vbi prius dicentem. Cum in dubijs
+            <lb ed="#V" n="116"/>astringimur, vtiliter minimis subdimur, ne in magnis sine
+            <lb ed="#V" n="117"/>venia peccemus. Augustinus quoque in libro de mendacio idem
+            <lb ed="#V" n="118"/>sentire videtur. Vnde post longam disputationem inquit
+            <lb ed="#V" n="119"/>cap. 18. Ita igitur concludendum est vt quaecunque aliena
+            <lb ed="#V" n="120"/>peccata exceptis his quae immundum faciunt in quem
+            com<lb ed="#V" n="121" break="no"/>mittuntur euitet quis &amp; peccatis suis neque pro se neque
+            <lb ed="#V" n="122"/>pro quoquam, sed ea sufferat potius fortiter &amp; patientienter.
+            <lb ed="#V" n="123"/>Illa vero quae ita committuntur in hominem vt eum faciant
+            <lb ed="#V" n="124"/>immundum etiam peccatis nostris euitare debemus, ac
+            per<lb ed="#V" n="125" break="no"/>hoc nec peccata dicenda sunt quae propria fiunt vt illa
+            im<lb ed="#V" n="126" break="no"/>mundicia euitetur. Quicquid enim ita fit, vt nisi fieret
+            iu<lb ed="#V" n="127" break="no"/>ste repraehenderetur, non est peccatum, nullumque
+            pecca<lb ed="#V" n="128" break="no"/>tum esset quicquid propter peccata talia factum esset.
+            Pro<lb ed="#V" n="129" break="no"/>pter haec igitur vitanda quisquis mentitus fuerit non
+            pec<lb ed="#V" n="130" break="no"/>cat.
+          </p>
+          <p xml:id="capsco-b2fkyr-d1e551">
+            Item infra cap. 37. dicit quod interdum mentiendo
+            facien<lb ed="#V" n="131" break="no"/>dum est quod oderis, vt quod amplius detestandum est
+            de<lb ed="#V" n="132" break="no"/>uitetur. Et capitulo sequenti ait. Quae sanctitatis
+            religio<lb ed="#V" n="133" break="no"/>nisque causa seruantur, cum haec violare voluerint etiam
+            <lb ed="#V" n="134"/>peccatis minoribus non tantum iniurijs aliorum, si
+            condi<lb ed="#V" n="135" break="no"/>tio proponitur &amp; facultas detur redigenda sunt, &amp; tuncia
+            <lb ed="#V" n="136"/>desinunt esse peccata quae propter vitanda grauiora
+            susci<lb ed="#V" n="137" break="no"/>piuntur.
+          </p>
+          <p xml:id="capsco-b2fkyr-d1e569">
+            Item Beda vt allegatur in decretis 22. q. 4. siquid,
+            <lb ed="#V" n="138"/>ait. Si quid nos incautius iurasse contigerit, quod
+            obser<lb ed="#V" n="139" break="no"/>uatum peiorem vergat in exitum, libere illud salubri
+            con<lb ed="#V" n="140" break="no"/>silio vitandum esse nouerimus, ac magis instante
+            necessi<lb ed="#V" n="141" break="no"/>tate poenitendum quam pro vitando periurio in aliud
+            cri<lb ed="#V" n="142" break="no"/>men grauius esse diuertendum &amp; caetera. Hoc etiam
+            pro<lb ed="#V" n="143" break="no"/>batur ratione. Nam quicunque eligit minus malum, vt
+            fu<lb ed="#V" n="144" break="no"/>giat maius malum, non vult facere minus malum, sed
+            fu<lb ed="#V" n="145" break="no"/>gere maius malum, sicut &amp; Anselmus de casu diaboli capitulo
+            <lb ed="#V" n="146"/>decimotertio dicit, quod qui vult aliquid propter
+            beatitu<lb ed="#V" n="147" break="no"/>nem, non vult aliud quam beatitudinem: quare talis
+            nul<lb ed="#V" n="148" break="no"/>lum peccatum incurrit. Ex praedictis sequitur quod
+            inten<lb ed="#V" n="149" break="no"/>tio recti finis excusat a peccato. Et in hoc secundus
+            arti<lb ed="#V" n="150" break="no"/>culus terminatur
+          </p>
+        </div>
+        <div xml:id="capsco-b2fkyr-Dd1e601">
+          <head xml:id="capsco-b2fkyr-Hd1e603">Articulus 3</head>
+          <p xml:id="capsco-b2fkyr-d1e605">
+            <pb ed="#V" n="548"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/><milestone ed="#V" unit="p" rend="initial"/> Vantum ad tertium articulum respondendum est
+            <lb ed="#V" n="2"/>obiectionibus supradictis. Et quidem ad primum
+            di<lb ed="#V" n="3" break="no"/>cit Gregorius de Arimino quod sicut declarat alia auctoritas
+            <lb ed="#V" n="4"/>Augustius in libro contra mendacium. Illud dictum
+            intelli<lb ed="#V" n="5" break="no"/>gendum est de his voluntatibus, quarum obiecta non sunt
+            <lb ed="#V" n="6"/>per se peccata, ideo non est contra nos, illa autem
+            auctori<lb ed="#V" n="7" break="no"/>tas recitatur a magistro in hac distinct. 38. quae sic habet. Io
+            <lb ed="#V" n="8"/>terest inquit multum qua causa, quo fine, qua intentione
+            <lb ed="#V" n="9"/>quid fiat, sed ea quae constat esse peccata nullo causae
+            bonae<lb ed="#V" n="10" break="no"/>obtentu, nullo quasi bono fine, nulla velut
+            bonaintentio<lb ed="#V" n="11" break="no"/>ne facienda sunt &amp;c.
+          </p>
+          <p xml:id="capsco-b2fkyr-d1e637">
+            Ad secundum dicit quod si detur talis
+            <lb ed="#V" n="12"/>casus ille nequaquam tenetur blasphemare, nec odire Deum
+            <lb ed="#V" n="13"/>immo tenetur non blasphemare, non odire, quia nullus
+            te<lb ed="#V" n="14" break="no"/>netur se conformare erroneae conscientiae. Vnde circa hoc
+            <lb ed="#V" n="15"/>ponit quinque propositiones, prima est quod nullo casu
+            <lb ed="#V" n="16"/>quis erronee iudicans aliquid esse a se agendum vel non
+            a<lb ed="#V" n="17" break="no"/>gendum debet se tali iudicio conformare.
+          </p>
+          <p xml:id="capsco-b2fkyr-d1e653">
+            Secunda est quod
+            <lb ed="#V" n="18"/>nullus debet agere contra talem conscientiam erroneam,
+            <lb ed="#V" n="19"/>seu contra suum dictamen rationis. Tertia est quod
+            quili<lb ed="#V" n="20" break="no"/>ber debet non agere contra rationem seu conscientiam
+            <lb ed="#V" n="21"/>suam erroneam.
+          </p>
+          <p xml:id="capsco-b2fkyr-d1e664">
+            Quarta est quod quilibet debet non
+            age<lb ed="#V" n="22" break="no"/>re secundum conscientiam suam seu rationem erroneam.
+            <lb ed="#V" n="23"/>Quinta est quod talis conscientia est de ponenda &amp; stante
+            <lb ed="#V" n="24"/>ea non debet aliquid fieri secundum eam, nec contra eam.
+            <lb ed="#V" n="25"/>Tunc ad probationem in oppositum cum dicitur quod
+            se<lb ed="#V" n="26" break="no"/>cundum communem animi conceptionem &amp;c. dicit quod
+            <lb ed="#V" n="27"/>ista propositio qua dicitur, quod de duobus malis &amp;c si
+            su<lb ed="#V" n="28" break="no"/>matur in sua proprietate, non solum ipsa non est
+            commu<lb ed="#V" n="29" break="no"/>nis animi conceptio, sed est simpliciter falsa loquendo
+            sem<lb ed="#V" n="30" break="no"/>per de malo culpae, quoniam de talibus duobus malis
+            neu<lb ed="#V" n="31" break="no"/>trum est eligendum, quia vtrunque est malum &amp; per
+            con<lb ed="#V" n="32" break="no"/>sequens nec plus, nec minus eligendum, sed bene verum
+            <lb ed="#V" n="33"/>est quod de duobus malis minus malum est minus
+            fugien<lb ed="#V" n="34" break="no"/>dum, &amp; maius est magis fugiendum. Et in hoc sensu seu
+            lo<lb ed="#V" n="35" break="no"/>co huius vtuntur illi qui recte intelligiunt. improprie,
+            scili<lb ed="#V" n="36" break="no"/>cet illud quod est minus fugiendum dicentes esse
+            eligen<lb ed="#V" n="37" break="no"/>dum in comparatione peioris magis fugiendi sicut &amp;
+            fre<lb ed="#V" n="38" break="no"/>quenter docet Auguus in libro contra mendacium cap. 17.
+            <lb ed="#V" n="39"/>Vbi praemisso casu quod aliquis esset in tali necessitate
+            con<lb ed="#V" n="40" break="no"/>stitutus quod oporteret eum sacrificare idolo, vel stuprum
+            <lb ed="#V" n="41"/>perpeti quaerit sic. Debuit ne igitur quispiam stuprum
+            per<lb ed="#V" n="42" break="no"/>peti potius quam thurificare. Et respondet, si quaeris quid
+            <lb ed="#V" n="43"/>debuit, neutrum debuit. Si enim dixero aliquid horum de
+            <lb ed="#V" n="44"/>buisse, aliquid horum adprobabo cum improbem
+            vtrun<lb ed="#V" n="45" break="no"/>que, sed si quaeritur quid eorum potius debuit euitare, qui
+            <lb ed="#V" n="46"/>vtrunque non potuit, sed alterum potuit. Respondebo suum
+            <lb ed="#V" n="47"/>peccatum potius quam alienum, &amp; leuius potius suum quam
+            <lb ed="#V" n="48"/>grauius alienum. Probatio autem seu redditio causae, qua
+            <lb ed="#V" n="49"/>adducit arguens qua dicitur quod in bonis est econtrario,
+            <lb ed="#V" n="50"/>licet quod maius bonum est magis eligendum, nulla est,
+            <lb ed="#V" n="51"/>quia non sequitur. Maius bonum est magis eligendum,
+            igi<lb ed="#V" n="52" break="no"/>tur minus malum est magis eligendum, sed bene sequitur
+            <lb ed="#V" n="53"/>igitur minus bonum est magis eligendum. Et consimiliter
+            <lb ed="#V" n="54"/>sequitur, maius malum est magis fugiendum, igitur minus
+            <lb ed="#V" n="55"/>malum est minus fugiendum. Si dicatur contra, iste debet
+            <lb ed="#V" n="56"/>non blasphemare, vt tu concedis, igitur debet agere contra
+            <lb ed="#V" n="57"/>suam conscientiam. Hoc autem est falsum &amp; repugnans
+            se<lb ed="#V" n="58" break="no"/>cundae propositioni supra positae. Probatur consequentia,
+            <lb ed="#V" n="59"/>quia sequitur. Iste non blasphemat, igitur agit contra
+            con<lb ed="#V" n="60" break="no"/>scientiam Respondetur negando primam consequentiam
+            <lb ed="#V" n="61"/>quia ex illius concesso non sequiturquod debeat agere
+            con<lb ed="#V" n="62" break="no"/>tra suam concientiam, quia ipse non debet habere talem
+            <lb ed="#V" n="63"/>conscientiam.
+          </p>
+          <p xml:id="capsco-b2fkyr-d1e759">
+            Si autem deberet habere illam, ipsae vtique
+            <lb ed="#V" n="64"/>deberet agere contra conscientiam. Neque valet probatio
+            <lb ed="#V" n="65"/>quia illa consequentia non est simplex sed vt nunc tantum
+            <lb ed="#V" n="66"/>modo non est vniuersaliter verum quod qui debet
+            antece<lb ed="#V" n="67" break="no"/>dens, debeat consequens. Verbi gratia, si praelatus praecipiat
+            <lb ed="#V" n="68"/>subdito suo vt furetur, aut aliud peccatum commitat,
+            ad<lb ed="#V" n="69" break="no"/>huc ipse praelatus tenetur non furari &amp; sequitur, istae
+            prae<lb ed="#V" n="70" break="no"/>latus non furantur. igitur agit contra illud quod praecipit
+            al<lb ed="#V" n="71" break="no"/>teri, &amp; tamen non vere diceretur quod ipse debet agere
+            con<lb ed="#V" n="72" break="no"/>tra illud, quod praecipit alteri, quia non debet tale
+            praece<lb ed="#V" n="73" break="no"/>ptum facere alteri, quamuis verum sit quod oppositum
+            <lb ed="#V" n="74"/>eius quod ipse praecipit oportet facere. Et ita dicendum est
+            <lb ed="#V" n="75"/>in proposito, quod oppositum eius quod isti homini
+            dic<cb ed="#V" n="b"/><lb ed="#V" n="76" break="no"/>tat sua conscientia debet ipse facere, non tamen solum,
+            ne<lb ed="#V" n="77" break="no"/>que verum est quod debet facere contra suam conscientia
+            <lb ed="#V" n="78"/>Ad auctoritatem Gregorii dicitur quouod sicut cuilibet
+            be<lb ed="#V" n="79" break="no"/>ne consideranti apparet, ipsa concludit oppositum illius
+            <lb ed="#V" n="80"/>quod arguens intendit concludere, quod patet ex eo quod
+            <lb ed="#V" n="81"/>dicit. Ita plerique peccare faciunt quatinus si fortasse
+            pec<lb ed="#V" n="82" break="no"/>catum fugere appetant, hoc sine alio peccati laqueo non
+            <lb ed="#V" n="83"/>euadant, &amp; culpam faciant, dum vitant.
+          </p>
+          <p xml:id="capsco-b2fkyr-d1e806">
+            Ex quo patet, quod
+            <lb ed="#V" n="84"/>ita perplexus si blasphemabit, peccabit. Nec consilium quod
+            <lb ed="#V" n="85"/>ipse dat, est contra hoc, quia non solum vtiliter consulitur
+            <lb ed="#V" n="86"/>homini quod agat bonum &amp; vitet malum, sed etiam quod
+            <lb ed="#V" n="87"/>si non possit vitare, &amp; de duobus peccatis in alterum
+            opor<lb ed="#V" n="88" break="no"/>teat eum labi, vitet quod est maius malum, ex hoc
+            quodam<lb ed="#V" n="89" break="no"/>modo dicitur eligere minus malum, &amp; hoc facit ipse, quod
+            <lb ed="#V" n="90"/>patet, quia ait. Si omnino nullus sine peccato euadendi
+            pa<lb ed="#V" n="91" break="no"/>tet aditus, semper minora eligantur. Ex quo etiam
+            confir<lb ed="#V" n="92" break="no"/>matur propositum, quia si illo casu posito ille non
+            pecca<lb ed="#V" n="93" break="no"/>ret, iam sine peccato vitaret peccatum cuius oppositum
+            <lb ed="#V" n="94"/>supponitur. Et similiter dicendum est de consilio supra
+            al<lb ed="#V" n="95" break="no"/>legato. Ad aliud quod allegatur de dispositione iuris
+            natu<lb ed="#V" n="96" break="no"/>ralis.
+          </p>
+          <p xml:id="capsco-b2fkyr-d1e837">
+            Dicendum quod illud dictum quod vtique est Gratia
+            <lb ed="#V" n="97"/>ni propter illam exceptionem, falsum est, nec ipse in hoc
+            <lb ed="#V" n="98"/>est sequendus, sed reprehendendus, sicut ibidem
+            reprehen<lb ed="#V" n="99" break="no"/>dit eum glosator suus, &amp; bene dicens eum male casum per
+            <lb ed="#V" n="100"/>plexitatis, excepisse. Cum vlterius probatur quod
+            blas<lb ed="#V" n="101" break="no"/>phemans in tali casu non peccat, quia facit quod debet.
+          </p>
+          <p xml:id="capsco-b2fkyr-d1e850">
+            <lb ed="#V" n="102"/>Dicendum est quod falsum est, immo facit illud quod non
+            <lb ed="#V" n="103"/>tantummodo non debet facere, immo quod etiam debet
+            <lb ed="#V" n="104"/>non facere, vt ex dictis patet. Cum autem additur quod
+            <lb ed="#V" n="105"/>nullus faciendo secundum iudicium rectissimum sanctorum
+            <lb ed="#V" n="106"/>&amp; canonum &amp; concilii peccat. Dicitur hoc verum esse do
+            <lb ed="#V" n="107"/>iudicio quo absolute iudicant hoc esse faciendum, non
+            <lb ed="#V" n="108"/>est autem vniuersaliter verum de iudicio conditionaliter
+            <lb ed="#V" n="109"/>iudicante, nam certum est, quod omnes sancti &amp; generaliter
+            <lb ed="#V" n="110"/>omnes prudentes viri iudicarent &amp; consulerent, quod
+            si<lb ed="#V" n="111" break="no"/>quis non posset vel nollet vitare vtrunque duorum inaequa
+            <lb ed="#V" n="112"/>lium peccatorum, sed malitia vel infirmitate in alterum sit
+            <lb ed="#V" n="113"/>casurus, cadat in id quod minus peccatum est, &amp; tamen
+            con<lb ed="#V" n="114" break="no"/>stat quod talis faciendo illud peccaret, licet minus, nunc
+            <lb ed="#V" n="115"/>autem certum est quod tali homini sic perplexo nullus
+            san<lb ed="#V" n="116" break="no"/>ctus, nec aliquis nisi nequam &amp; impius, aut stultus
+            con<lb ed="#V" n="117" break="no"/>suleret, quod Deum blasphemaret vel odiret, sed consule
+            <lb ed="#V" n="118"/>ret, quod talem conscientiam erroneam deponeret, &amp;
+            abii<lb ed="#V" n="119" break="no"/>ceret. Quia si ille nollet, aut non posset, tunc iudicaret
+            mi<lb ed="#V" n="120" break="no"/>nus malum esse illi, vt ageret peccatum minus quam vt
+            age<lb ed="#V" n="121" break="no"/>ret maius.
+          </p>
+          <p xml:id="capsco-b2fkyr-d1e896">
+            Praeterea esto quod daretur arguenti quod in
+            ta<lb ed="#V" n="122" break="no"/>li casu perplexionis debeat quis agere quod minus malum
+            <lb ed="#V" n="123"/>est, &amp; sic faciendo non peccat, non apparet quo pacto
+            se<lb ed="#V" n="124" break="no"/>quatur, quod ipse debeat Deum blasphemare: non enim
+            se<lb ed="#V" n="125" break="no"/>quitur hoc, nisi Deum blasphemare sit minus peccatum
+            <lb ed="#V" n="126"/>quam contra conscientiam Deum non blasphemare, quod
+            <lb ed="#V" n="127"/>nec ego vellem dicere, nec ipse probauit, &amp; tamen
+            debuis<lb ed="#V" n="128" break="no"/>set, cum sui propositi sit probare, quod Deum
+            blasphema<lb ed="#V" n="129" break="no"/>re vel odire non sit per se malum, &amp; quod aliquando
+            pos<lb ed="#V" n="130" break="no"/>sit bene fieri. Secundo dicitur quod casus positus assumit
+            <lb ed="#V" n="131"/>vnum falsum, vt videtur, videlicet quod in talem errorem, quo
+            <lb ed="#V" n="132"/>aestimatur Deum esse blasphemandum vel odiendum quis
+            <lb ed="#V" n="133"/>habens vsum liberi arbitrii &amp; potens peccare qualis esset
+            <lb ed="#V" n="134"/>taliter perplexus, incideret sine culpa, cum ipsemet error
+            <lb ed="#V" n="135"/>de quo agitur esset vtique quaedam culpa, si enim non
+            es<lb ed="#V" n="136" break="no"/>set culpa quis alius error diceretur culpastem ille error
+            es<lb ed="#V" n="137" break="no"/>set actus infidelitatis. quem constat esse peccatum. Item
+            ta<lb ed="#V" n="138" break="no"/>lis error saltem esset poena peccati originalis, &amp; non
+            excu<lb ed="#V" n="139" break="no"/>saret omnino a peccato.
+          </p>
+          <p xml:id="capsco-b2fkyr-d1e938">
+            Ad auctoritatem Augustini allegatam
+            <lb ed="#V" n="140"/>dicendum, quod illa uerba non scribit Augustinus vt propriam
+            <lb ed="#V" n="141"/>sententiam &amp; opinionem promens, sed tanquam vnam
+            <lb ed="#V" n="142"/>opinionem aliorum, quam ibi retulit disputatiue tantum
+            <lb ed="#V" n="143"/>modo prosequens, quod patet quia tractacturus hanc
+            quae<lb ed="#V" n="144" break="no"/>stionem Vtrum videlicet aliquando, sit mentiendum
+            men<lb ed="#V" n="145" break="no"/>dacio officioso, in principio libri ea proposita statim
+            in<lb ed="#V" n="146" break="no"/>quit. Quam quaestionem cum solicite pertractabimus, vt
+            <lb ed="#V" n="147"/>quaeramus cum quaerentibus, vtrum autem aliquid
+            inue<lb ed="#V" n="148" break="no"/>niamus, nihil nobis tenere affirmantibus lectori bene
+            atten<lb ed="#V" n="149" break="no"/>denti satis indicabit ipsa pertractatio, &amp; ad extremum, cum
+            <lb ed="#V" n="150"/>sententiam nostram velut certior indago comprehendit
+            <pb ed="#V" n="549"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>Item quia in extrema parte libri, scilicet capitulo ante
+            pe<lb ed="#V" n="2" break="no"/>nultimo ex disputatione praemissa expresse concludit, quod
+            <lb ed="#V" n="3"/>non est mentiendum pro vitanda impudicitia corporali,
+            <lb ed="#V" n="4"/>quae de his est quae commissa in hominem faciunt eum
+            im<lb ed="#V" n="5" break="no"/>mundum, cuius oppositum continent verba per
+            arguen<lb ed="#V" n="6" break="no"/>tem allegata, vt patet. Et generaliter nunquam in aliquo
+            <lb ed="#V" n="7"/>casu esse aliquo genere mendacii mentiendum statim
+            con<lb ed="#V" n="8" break="no"/>cludit dicens. Elucet itaque omnibus discussis nihil ad illa
+            <lb ed="#V" n="9"/>testimonia scripturarum monerei, nisi nunquam omnino
+            <lb ed="#V" n="10"/>esse mentiendum &amp; consequenter recapitulando causas
+            <lb ed="#V" n="11"/>praetactas in disputando discurrendoque per omnia
+            gene<lb ed="#V" n="12" break="no"/>ra mendaciorum determinat conclusiue nullo vnquam
+            ge<lb ed="#V" n="13" break="no"/>nere mendacii esse mentiendum.
+          </p>
+          <p xml:id="capsco-b2fkyr-d1e998">
+            Ex quo patet, quod in
+            il<lb ed="#V" n="14" break="no"/>lis verbis allegatis non prodit suam intentionem vel
+            senten<lb ed="#V" n="15" break="no"/>tiam, vn de nec sunt tanquam illius auctoritas alleganda.
+            <lb ed="#V" n="16"/>Ad dictum Bedae dicendum est quod in nullo est contra,
+            <lb ed="#V" n="17"/>eo quod non obseruando illud super quo datum est tale
+            <lb ed="#V" n="18"/>iuramentum non committit periurium, sicut dicit glosa
+            <lb ed="#V" n="19"/>decreti in dist. allegata, &amp; Sanctus Thomas secunda, secundae
+            <lb ed="#V" n="20"/>quaest. 48. artic. secundo. Immo secundum eum periurium
+            <lb ed="#V" n="21"/>fuit quando incaute iuratum est. Ad probationem quae
+            vl<lb ed="#V" n="22" break="no"/>timo adducitur quod quicunque eligit minus malum &amp;c.
+            <lb ed="#V" n="23"/>Hic dico. Primo quod si haec deductio esset rata, oporteret
+            <lb ed="#V" n="24"/>concedere neminem peccare, quicquid ipse faceret propter
+            <lb ed="#V" n="25"/>maius malum vitandum quod nullatenus est dicendum
+            <lb ed="#V" n="26"/>Immo vt dicit Augustinus libro contra mendacium cap. 37.
+            ta<lb ed="#V" n="27" break="no"/>lis opinio vniuersam vitae probitatem subuertit, oportet ea
+            <lb ed="#V" n="28"/>concedere quod aliquando sint facienda mala vt eueniant
+            <lb ed="#V" n="29"/>bona, nam non minus videtur esse bona intentio eius qui
+            <lb ed="#V" n="30"/>intendit prouentum boni, quam qui intendit fugam inali,
+            <lb ed="#V" n="31"/>&amp; tamen istud est contra sententiam Apostoli Ro. tertio.
+            <lb ed="#V" n="32"/>&amp; Augustius contra mendacium capitulo secundo Dicitur
+            <lb ed="#V" n="33"/>vlterius quod cum dicitur quod talis non vult facere
+            mi<lb ed="#V" n="34" break="no"/>nus malum, si ly vult capiatur in sua generali
+            significatio<lb ed="#V" n="35" break="no"/>ne secundum quod vniuersaliter motus virtutis volitiuae,
+            <lb ed="#V" n="36"/>quae non est nolitio dicitur volitio, patet quod istud
+            di<lb ed="#V" n="37" break="no"/>ctum implicat contradictionem.
+          </p>
+          <p xml:id="capsco-b2fkyr-d1e1053">
+            Si autem accipiatur pro
+            ta<lb ed="#V" n="38" break="no"/>li motu non quolibet, sed eo quo appetitur aliquid vt finis
+            <lb ed="#V" n="39"/>&amp; propter se, qui etiam appropriate secundum vsum
+            mul<lb ed="#V" n="40" break="no"/>torum doctorum &amp; Anselmus vbi allegatur, vocatur
+            volun<lb ed="#V" n="41" break="no"/>tas, is vero quo quid propter aliud appetitur magis solet
+            di<lb ed="#V" n="42" break="no"/>ci electio. potest illud dictum concedi, sed nunquam iuuat
+            <lb ed="#V" n="43"/>arguentem, quia esto quod talis non velit facere minus
+            <lb ed="#V" n="44"/>malum ad sensum praedictum, quia scilicet non finaliter &amp;
+            <lb ed="#V" n="45"/>propter se eligit tamen facere minus malum, quae electio
+            pra<lb ed="#V" n="46" break="no"/>ua est, ac per hoc etiam ipse incurrit peccatum, non enim
+            <lb ed="#V" n="47"/>solum agit contra rectam rationem, qui finaliter malum
+            <lb ed="#V" n="48"/>intendit, sed etiam qui bonum intendens malum eligit
+            <lb ed="#V" n="49"/>vel operatur, seu quod debet non operari &amp; non eligere
+            <lb ed="#V" n="50"/>nam ad bonitatem operationis non sufficit operari
+            pro<lb ed="#V" n="51" break="no"/>pter quod est operandum, sed etiam requiritur vt fiat quod
+            <lb ed="#V" n="52"/>fiendum est. Haec Gregorius &amp; bene, &amp; conformiter dictis
+            San<lb ed="#V" n="53" break="no"/>cti Thomas in multis locis, vnde de malo. quaestione secunda
+            <lb ed="#V" n="54"/>articulo quarto in solutione secundi sic dicit. Id quod
+            con<lb ed="#V" n="55" break="no"/>sequitur speciem alicuius semper inest ei. Cum ergo actus
+            <lb ed="#V" n="56"/>hominis speciem consequatur ex ratione obiecti secundum
+            <lb ed="#V" n="57"/>quam est bonus vel malus actus, sic specificatus in bono
+            <lb ed="#V" n="58"/>nunquam potest esse malus, nec specificatus in malo,
+            vn<lb ed="#V" n="59" break="no"/>quam potest esse bonus. Conuenit tamen actui secundum
+            <lb ed="#V" n="60"/>se bono adiungi aliquem alium actum malum secundum
+            <lb ed="#V" n="61"/>aliquem ordinem, &amp; secundum illum actum malum
+            bo<lb ed="#V" n="62" break="no"/>nus aliquando dicitur male fieri, non quod in seipso, sit
+            ma<lb ed="#V" n="63" break="no"/>lus, sicut dare elemosynam pauperi vel diligere Deum est
+            <lb ed="#V" n="64"/>actus secundum se bonus, sed referre actum huiusmodi ad
+            <lb ed="#V" n="65"/>aliquem finem inordinatum scilicet cupiditatis aut
+            ina<lb ed="#V" n="66" break="no"/>nis gloriae, est quidam alius actus malus, qui tamen duo
+            ac<lb ed="#V" n="67" break="no"/>tus quodam ordine in vnum rediguntur, bonum autem,
+            <lb ed="#V" n="68"/>vt dicit Dionysius, est ex tota &amp; integra causa malum
+            au<lb ed="#V" n="69" break="no"/>tem ex singulis defectibus. Et ideo quicquid horum sit
+            ma<lb ed="#V" n="70" break="no"/>lum siue actus siue ordinatio actus in finem totum
+            iudica<lb ed="#V" n="71" break="no"/>tur malum. Non autem totum iudicatur bonum nisi
+            vtrun<lb ed="#V" n="72" break="no"/>que fuerit bonum, sicut nec iudicatur homo pulcher, nisi
+            <lb ed="#V" n="73"/>fuerint omnia membra eius decora turpis autem
+            iudica<lb ed="#V" n="74" break="no"/>tur etiam si vnum eius membrum erit deformae. Et inde est
+            <lb ed="#V" n="75"/>quod actus malus non potest bene fieri.
+          </p>
+          <p xml:id="capsco-b2fkyr-d1e1138">
+            Ex quo enim actus
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="76"/>malus est non potest esse integrum bonum. Sed actus
+            bo<lb ed="#V" n="77" break="no"/>nus potest male fieri, quia non requiritur, quod sit
+            integrum<lb ed="#V" n="78" break="no"/>malum, sed sufficit quod sit particulariter malum. Haec ille
+            <lb ed="#V" n="79"/>Item 1. 2. q. 18. art. 4. In actione humana quadruplex
+            bo<lb ed="#V" n="80" break="no"/>nitas potest considerari, vna quidem secundundum genus
+            <lb ed="#V" n="81"/>prout scilicet est actio, quia quantum habet de entitate &amp;
+            actio<lb ed="#V" n="82" break="no"/>ne, tantum habet de bonitate. Alia vero secundum speciem
+            <lb ed="#V" n="83"/>quae accipitur secundum obiectum conueniens. Tertia
+            se<lb ed="#V" n="84" break="no"/>cundum circunstantias quae sunt accidentia quaedam.
+            Quat<lb ed="#V" n="85" break="no"/>ta autem secundum finem quasi secundum habitudinem
+            <lb ed="#V" n="86"/>ad causam bonitatis. Et post in solutione tertii dicit sic.
+            Ni<lb ed="#V" n="87" break="no"/>hil prohibet actioni habenti vnam praedictarum bonitatum
+            <lb ed="#V" n="88"/>deesse aliam. &amp; secundum hoc contingit actionem quae est
+            <lb ed="#V" n="89"/>bona secundum suam speciem, vel secundum
+            circunstan<lb ed="#V" n="90" break="no"/>tias ordinari ad finem malum, &amp; econtra, non tamen est
+            ac<lb ed="#V" n="91" break="no"/>tio bona simpliciter nisi omnes bonitates concurrant, quia
+            <lb ed="#V" n="92"/>quisquis singularis defectus causat malum, bonum autem
+            <lb ed="#V" n="93"/>causatur ex causa integra, vt dicit Diony. 4. cap. de diuinis
+            <lb ed="#V" n="94"/>no. Haec ille.
+          </p>
+          <p xml:id="capsco-b2fkyr-d1e1184">
+            Item 2. 2. q. 110. art. 3. vbi quaerit, vtrum omne
+            <lb ed="#V" n="95"/>mendacium sit peccatum sic dicit. Illud quod est secundum
+            <lb ed="#V" n="96"/>se malum ex genere nullo modo potest esse bonum &amp;
+            lici<lb ed="#V" n="97" break="no"/>tum, quia ad hoc quod aliquid sit bonum requiritur quod
+            <lb ed="#V" n="98"/>omnia recte concurrant. bonum enim est ex integra causa
+            <lb ed="#V" n="99"/>&amp;c. Et in multis aliis locis similia dicit. De perplexitate
+            au<lb ed="#V" n="100" break="no"/>tem vtrum sit aliquid, vel nihil Sanctus Thomas prima. 2. q. 19. art. 6. in
+            <lb ed="#V" n="101"/>solutione tertii. Sicut dicit in syllogisticis vno
+            inconuenien<lb ed="#V" n="102" break="no"/>ti dato necesse est alia sequi, ita in moralibus vno
+            inconue<lb ed="#V" n="103" break="no"/>nienti posito, alia ex necessitate sequuntur, sicut supposito
+            <lb ed="#V" n="104"/>quod aliquis quaerat inanem gloriam siue propter inanem
+            <lb ed="#V" n="105"/>gloriam faciat quod facere tenetur siue dimittat, peccabit
+            <lb ed="#V" n="106"/>Nec tamen est perplexus, quia potest intentionem malam
+            <lb ed="#V" n="107"/>dimittere. Et similiter supposito errore rationis vel consciem
+            <lb ed="#V" n="108"/>tiae qui procedit ex ignorantia non excusante, necesse est
+            <lb ed="#V" n="109"/>quod sequatur malum in voluntate, nec tamen est
+            homo<lb ed="#V" n="110" break="no"/>perplexus, quia potest ab errore recedere, cum ignorantia
+            <lb ed="#V" n="111"/>sit vincibilis &amp; voluntaria. Haec ille.
+          </p>
+          <p xml:id="capsco-b2fkyr-d1e1223">
+            Item secundo
+            senten<lb ed="#V" n="112" break="no"/>tiarum dist. 39. q. 3. art. 3. in solutione quinti sic dicit.
+            Simpli<lb ed="#V" n="113" break="no"/>citer nullus est perplexus absolute loquendo, sed
+            quodam<lb ed="#V" n="114" break="no"/>modo posito non est inconueniens illo stante aliquem
+            per<lb ed="#V" n="115" break="no"/>plexum fore, sicut intentione mala stante siue fiat actus,
+            <lb ed="#V" n="116"/>qui est in praecepto siue non fiat, peccatum incurritur:
+            simi<lb ed="#V" n="117" break="no"/>liter etiam stante erronea conscientia, quicquid fiat
+            pecca<lb ed="#V" n="118" break="no"/>tum non vitatur. Sed potest homo conscientiam erroneam
+            <lb ed="#V" n="119"/>sicut &amp; intentionem prauam deponere, &amp; ideo non est
+            sim<lb ed="#V" n="120" break="no"/>pliciter perplexus. Haec ille.
+          </p>
+          <p xml:id="capsco-b2fkyr-d1e1245">
+            Idem omnino dicit de veritate
+            <lb ed="#V" n="121"/>q. 17. art. 4. in sol. 8. ibidem etiam ponit, quomodo error
+            con<lb ed="#V" n="122" break="no"/>scientiae non excusat a peccato, immo quandoque est
+            pecca<lb ed="#V" n="123" break="no"/>tum. Vnde in solutione. sic ait. Hic error non est peccatum
+            <lb ed="#V" n="124"/>cum contingit ex ignorantia facti. Si autem ex gnorantia
+            <lb ed="#V" n="125"/>iuris, peccatum est sicut &amp; ipsa ignorantia peccatum est. Et
+            <lb ed="#V" n="126"/>de his dicetur in sequenti quaestione.
+          </p>
+          <p xml:id="capsco-b2fkyr-d1e1262">
+            Ad argumentum. q. in
+            <lb ed="#V" n="127"/>principio dicitur quod terminus actus voluntatis est suum
+            <lb ed="#V" n="128"/>obiectum. In ipsum enim tendit voluntas, nec in finem
+            ten<lb ed="#V" n="129" break="no"/>dit nisi vt cadit sub ratione obiecti. Haec est responsio
+            Du<lb ed="#V" n="130" break="no"/>randi &amp; bona.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

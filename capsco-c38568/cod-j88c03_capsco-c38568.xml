@@ -1,0 +1,552 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 3, Distinctio 10, Quaestio 1</title>
+        <author ref="#JohannesCapreolus">Johannes Capreolus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 3, Distinctio 10, Quaestio 1</title>
+          <date when="2026-11-04">Nov 4, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-j88c03">Venice, 1589, v. 3</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-04" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="82"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="capsco-c38568"><!-- l3d10q1 -->
+        <head xml:id="capsco-c38568-Hd1e101">Quaestio 1</head>
+        <head xml:id="capsco-c38568-Hd1e103" type="question-title">Utrum Christus secundum quod homo sit persona divina</head>
+        <p xml:id="capsco-c38568-d1e106">
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="74"/>DISTINCTIO. X.
+          <lb ed="#V" n="75"/>QVAESTIO. VNICA.
+          <lb ed="#V" n="76"/>Vtrum Christus secundum quod homo sit persona diuina
+        </p>
+        <p xml:id="capsco-c38568-d1e117">
+          <lb ed="#V" n="77"/><milestone ed="#V" unit="p" rend="initial"/> CIRCA decimam dist. tertii senten.
+          <lb ed="#V" n="78"/>quaeritur. Vtrum Christus secundum
+          <lb ed="#V" n="79"/>quod homo sit Deus vel persona diuina
+        </p>
+        <p xml:id="capsco-c38568-d1e127">
+          <lb ed="#V" n="80"/>Et arguitur quod sic: Christus secundum quod
+          ho<lb ed="#V" n="81" break="no"/>mo est persona, &amp; non alia quam
+          diui<lb ed="#V" n="82" break="no"/>na, ergo Christus secundum quod
+          homo<lb ed="#V" n="83" break="no"/>est psona diuina. Prima pars antecedem.
+          <lb ed="#V" n="84"/>tis patet. Quia Christus secundum quod homo est
+          substan<lb ed="#V" n="85" break="no"/>tia rationalis naturae, non autem substantia vniuersalis:
+          er<lb ed="#V" n="86" break="no"/>go substantia indiuidua, sed nihil aliud est persona quam
+          <lb ed="#V" n="87"/>rationalis naturae indiuidua substantia, vt dicit Boe. in libus
+          <lb ed="#V" n="88"/>de duabus naturis: ergo Christus secundum quod homo
+          <lb ed="#V" n="89"/>est persona.
+        </p>
+        <p xml:id="capsco-c38568-d1e152">
+          <lb ed="#V" n="90"/>In oppositum arguitur sic. Christus secundum quod homo
+          <lb ed="#V" n="91"/>non est persona aeterna, si ergo secundum quod homo sit
+          per<lb ed="#V" n="92" break="no"/>sona, sequeretur quod in Christo sint duae personae vna
+          tempo<lb ed="#V" n="93" break="no"/>ralis, &amp; alia aeterna quod est erroneum.
+        </p>
+        <p xml:id="capsco-c38568-d1e163">
+          <lb ed="#V" n="94"/><milestone ed="#V" unit="p" rend="indent"/> In hac quaestione sunt tres articuli. In primo ponuntur
+          <lb ed="#V" n="95"/>conclusiones. In secundo obiectiones. In tertio
+          so<lb ed="#V" n="96" break="no"/>lutiones.
+        </p>
+        <div xml:id="capsco-c38568-Dd1e173">
+          <head xml:id="capsco-c38568-Hd1e175">Articulus 1</head>
+          <p xml:id="capsco-c38568-d1e177">
+            <lb ed="#V" n="97"/><milestone ed="#V" unit="p" rend="initial"/> Quantum ad primum articulum sit prima conclusio.
+            <lb ed="#V" n="98"/>Ista propositio, Christus secundum quod est homo est
+            <lb ed="#V" n="99"/>Deus, est vera in vno sensu, &amp; falsa in alio, magis tamen est
+            <lb ed="#V" n="100"/>neganda quam concedenda. Hanc ponit Sanus Thomas
+            ter<lb ed="#V" n="101" break="no"/>tia parte. q. 16. ar. 11. vbi sic dicit. Iste terminus homo in
+            re<lb ed="#V" n="102" break="no"/>duplicatione positus potest dupliciter accipi. Vno modo
+            quam<lb ed="#V" n="103" break="no"/>tum ad naturam, &amp; sic non est verum, quod Christus secundum quod
+            ho<lb ed="#V" n="104" break="no"/>mo sit Deus, quia humana natura est distincta a diuina secundum
+            <lb ed="#V" n="105"/>differentiam naturae. Alio modo potest accipi ratione
+            sup<lb ed="#V" n="106" break="no"/>positi, &amp; sic cum suppositum naturae humanae in Christo sit
+            <lb ed="#V" n="107"/>persona filij Dei, cui per se conuenit esse Deum, verum est,
+            <lb ed="#V" n="108"/>quod Christus secundum quod homo sit Deus, quia tamen terminus in
+            redu<lb ed="#V" n="109" break="no"/>plicatione positus magis proprie tenetur pro natura quam
+            <lb ed="#V" n="110"/>pro supposito, ideo magis est ista neganda, Christus secundum quo
+            <lb ed="#V" n="111"/>homo est Deus, quam sit affirmanda. Haec ille.
+          </p>
+          <p xml:id="capsco-c38568-d1e213">
+            Ex quibus
+            <lb ed="#V" n="112"/>potest formari talis ratio. Illa propositio est in vno sensu
+            ve<lb ed="#V" n="113" break="no"/>ra, &amp; in alio falsa, quae potest quandoque designare, quod natura
+            <lb ed="#V" n="114"/>humana fit natura diuina, &amp; quandoque quod suppositum
+            hu<lb ed="#V" n="115" break="no"/>manum sit suppositum diuinum, sed sic est de ista, Christus
+            <lb ed="#V" n="116"/>secundum quod homo est Deus, igitur &amp;c.
+          </p>
+          <p xml:id="capsco-c38568-d1e226">
+            Item. Illa
+            proposi<lb ed="#V" n="117" break="no"/>tio magis est neganda quam affirmanda, quae magis
+            decli<lb ed="#V" n="118" break="no"/>nat ad sensum falsum quam ad verum, sed ista est
+            huiusmo<lb ed="#V" n="119" break="no"/>di, igitur &amp;c. Eandem ponit tertio sen. dist. 10. q. prima ar. 1.
+            <lb ed="#V" n="120"/>quaestiuncula prima, vbi sic dicit. Id quod in aliqua
+            propo<lb ed="#V" n="121" break="no"/>sitione reduplicatur cum hoc quod dico, secundum quod est illud, per
+            <lb ed="#V" n="122"/>quod praedicatum conuenit subiecto, vnde oportet quod
+            ali<lb ed="#V" n="123" break="no"/>quo modo sit idem cum subiecto, &amp; aliquo modo idem cum
+            <lb ed="#V" n="124"/>praedicato, sicut medius terminus in syllogismo
+            affirmati<lb ed="#V" n="125" break="no"/>uo, ad praedicatum quidem habet comparationem, sicut ad
+            <lb ed="#V" n="126"/>quod per se consequitur ad ipsum. Nil enim conuenit
+            alicui<lb ed="#V" n="127" break="no"/>secundum quod est animal nisi illud animali conueniat per se secundum
+            quen<lb ed="#V" n="128" break="no"/>cunque modum dicendi per se. Ad subiectum autem comparatur sicut
+            <lb ed="#V" n="129"/>id quod in subiecto aliquo modo includitur includitur autem in
+            <lb ed="#V" n="130"/>subiecto ipsa substantia subiecti &amp; antecedentia sicut causae,
+            <lb ed="#V" n="131"/>&amp; consequentia sicut accidentia, substantia autem subiecti est
+            <lb ed="#V" n="132"/>ipsum subiectum &amp; natura eius, &amp; ratione omnium istorum potest
+            <lb ed="#V" n="133"/>aliquid attribui Christo, &amp; cuilibet homini si enim aliquid attribuitur
+            <lb ed="#V" n="134"/>homini ratione principorum praecedentium, sic dicimus quantum ad causam
+            <lb ed="#V" n="135"/>materialem, quod homo secundum quod est compositum ex contrarijs est
+            corrupti<lb ed="#V" n="136" break="no"/>bilis. Quantum ad causam formalem dicimus, quod homo secundum
+            <lb ed="#V" n="137"/>quod habet animam rationalem est ad imaginem Dei. Quantum vero
+            <lb ed="#V" n="138"/>ad causam efficientem dicimus quod Petrus secundum quod natus
+            <lb ed="#V" n="139"/>est de tali patre est eius haeres. Quantum autem ad finalem
+            <lb ed="#V" n="140"/>dicimus, quod homo secundum quod est ad beatitudinem
+            ordi<lb ed="#V" n="141" break="no"/>natus, oportet quod sit immortalis quo ad animam. S autem
+            <lb ed="#V" n="142"/>attribuatur aliquid homini ratione accidentium sic
+            dici<lb ed="#V" n="143" break="no"/>mus quod homo secundum quod est coloratus est visibilis. Si autem
+            <lb ed="#V" n="144"/>attribuitur aliquid homini ratione ipsius suppositi, sic dici
+            <pb ed="#V" n="83"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>mus quod sortes secundum quod sortes est indiuiduum. Si autem
+            ratio<lb ed="#V" n="2" break="no"/>ne naturae, sic dicimus quod homo secundum quod homo est animal,
+            se<lb ed="#V" n="3" break="no"/>cundum hoc ergo dicendum, quod cum dicitur, Christus secundum
+            <lb ed="#V" n="4"/>quod homo est Deus, ly homo potest replicari ratione humanae
+            <lb ed="#V" n="5"/>naturae, &amp; sic est falsa, quia naturae, humanae non per se
+            co<lb ed="#V" n="6" break="no"/>petit inquantum talis natura, vt diuinae naturae vniatur. Si
+            <lb ed="#V" n="7"/>autem replicatur ratione suppositi, cum suppositum humanae
+            <lb ed="#V" n="8"/>naturae in Christo sit suppositum aeternum cui per se
+            conue<lb ed="#V" n="9" break="no"/>nit esse Deum, erit vera. Quia tamen hoc nomen homo non
+            im<lb ed="#V" n="10" break="no"/>portat aliquod determinatum suppositum humanae
+            natu<lb ed="#V" n="11" break="no"/>rae nisi per demonstrationem adiunctam, &amp; solum cuidam
+            <lb ed="#V" n="12"/>supposito humanae naturae determinato conueniat per se
+            <lb ed="#V" n="13"/>esse Deum, ideo nisi aliquid addatur vel intelligatur non est
+            <lb ed="#V" n="14"/>simpliciter concedenda, Christus secundum quod homo est Deus
+            <lb ed="#V" n="15"/>Haec ille.
+          </p>
+          <p xml:id="capsco-c38568-d1e326">
+            Secunda conclusio. Ista propositio, Deus secundum quod
+            ho<lb ed="#V" n="16" break="no"/>mo est persona, vel hypostasis, vel suppositum, vel res naturae
+            <lb ed="#V" n="17"/>in vno sensu est falsa, &amp; in alio vera. Hanc ponit Sanctus Thomas 3.
+            <lb ed="#V" n="18"/>parte. q. 16. ar. 12. vbi sic dicit. Iste terminus homo in
+            redu<lb ed="#V" n="19" break="no"/>plicatione positus potest accipi vel ratione suppositi, vel
+            ro<lb ed="#V" n="20" break="no"/>ne naturae. Cum ergo dicitur Christus secundum quod homo est persona,
+            <lb ed="#V" n="21"/>si accipiatur ratione suppositi manifestum est, quod Christus
+            <lb ed="#V" n="22"/>secundum quod homo est persona, quia suppositum humanae
+            na<lb ed="#V" n="23" break="no"/>turae non est aliud quam persona filij Dei. Si autem accipiatur
+            <lb ed="#V" n="24"/>ratione naturae, sic potest intelligi dupliciter. Vno modo quod
+            intel<lb ed="#V" n="25" break="no"/>ligatur, quod naturae humanae competat esse in aliqua persona
+            <lb ed="#V" n="26"/>&amp; hoc etiam modo verum est, omne enim quod subsistit in
+            na<lb ed="#V" n="27" break="no"/>tura humana est persona. Alio modo potest intelligi, vt
+            hu<lb ed="#V" n="28" break="no"/>manae naturae in Christo propria personalitas debeatur
+            cau<lb ed="#V" n="29" break="no"/>sata ex principijs humanae naturae, &amp; sic Christus secundum
+            <lb ed="#V" n="30"/>quod homo non est persona, quia humana natura non est per
+            <lb ed="#V" n="31"/>se seorsum existens a diuina natura, quod requirit ratio
+            per<lb ed="#V" n="32" break="no"/>sonae. Haec ille.
+          </p>
+          <p xml:id="capsco-c38568-d1e366">
+            Item ibidem in solu. tertij. sic dicit. Sicut
+            per<lb ed="#V" n="33" break="no"/>sona significat quoddam completum &amp; per se subsistens in
+            <lb ed="#V" n="34"/>natura rationali, ita hypostasis, &amp; suppositum, &amp; res naturae
+            <lb ed="#V" n="35"/>in genere substantiae significant quoddam per se subsistens
+            <lb ed="#V" n="36"/>vnde sicut humana natura non est persona seorsum a
+            per<lb ed="#V" n="37" break="no"/>sona filij, ita etiam non est per se hypostasis, vel suppositum
+            <lb ed="#V" n="38"/>vel res naturae, &amp; ideo in sensu in quo negatur ista,
+            Chri<lb ed="#V" n="39" break="no"/>stus secundum quod homo est persona, oportet etiam negari
+            <lb ed="#V" n="40"/>omnes alias. Haec ille.
+          </p>
+          <p xml:id="capsco-c38568-d1e386">
+            Ex quibus potest formari duplex
+            ra<lb ed="#V" n="41" break="no"/>tio pro secunda parte conclusionis. Prima talis, est Omne
+            <lb ed="#V" n="42"/>suppositum humanum est persona, &amp; omnis natura
+            huma<lb ed="#V" n="43" break="no"/>na est in aliqua persona, sed haec propositio, Christus
+            secu<lb ed="#V" n="44" break="no"/>dum quod homo est persona, habet quandoque illos duos
+            sen<lb ed="#V" n="45" break="no"/>sus: ergo in talibus sensibus est vera. Secunda talis est.
+            Hu<lb ed="#V" n="46" break="no"/>mana natura in Christo non habet propriam
+            personalita<lb ed="#V" n="47" break="no"/>tem distinctam a personalitate filij Dei, sed haec propositio
+            <lb ed="#V" n="48"/>Christus secundum quod homo est persona, habet quandoque
+            <lb ed="#V" n="49"/>sensum illi oppositum: ergo in tali sensu est fallacia, sicut
+            <lb ed="#V" n="50"/>arguitur de ista, &amp; ita de aliis. Eandem conclusionem tenet
+            <lb ed="#V" n="51"/>tertio sen. dist. praesenti. q. i. ar. 2. quaestiunculis prima,
+            secun<lb ed="#V" n="52" break="no"/>da, &amp; tertia.
+          </p>
+          <p xml:id="capsco-c38568-d1e415">
+            Tertia conclusio. Quaelibet istarum est
+            simpli<lb ed="#V" n="53" break="no"/>citer concedenda, Christus secundum quod iste homo est Deus
+            <lb ed="#V" n="54"/>Christus secundum quod iste homo est persona. Primam
+            po<lb ed="#V" n="55" break="no"/>nit Sanctus Thomas 3. sen. dist. 10 q. prima ar. i. quaestiuncula 2. vbi sic
+            <lb ed="#V" n="56"/>dicit. Ad hoc quod aliqua praedicatio sit per se, non oportet quod
+            <lb ed="#V" n="57"/>praedicatum per se conueniat subiecto secundum omne,
+            <lb ed="#V" n="58"/>quod in nomine subiecti implicatur, sed sufficit si aliquid
+            <lb ed="#V" n="59"/>eorum per se sibi conueniat, sicut ratiocinari per se
+            conue<lb ed="#V" n="60" break="no"/>nit homini non secundum quod habet corpus, sed inquantum
+            <lb ed="#V" n="61"/>habet animam, vnde haec est per se, homo ratiocinatur. Cum
+            <lb ed="#V" n="62"/>autem dicitur, iste homo, demonstrato Christo, includit ex
+            <lb ed="#V" n="63"/>vi demonstrationis determinatum suppositum humanae
+            na<lb ed="#V" n="64" break="no"/>turae, quod est suppositum aeternum secundum secundam
+            <lb ed="#V" n="65"/>opinionem cui supposito per se conuenit esse Deum, vnde haec est
+            <lb ed="#V" n="66"/>per se secundam opinionem iste homo est Deus. Et quia
+            <lb ed="#V" n="67"/>ad veritatem huius locutionis non exigitur, nisi quod
+            prae<lb ed="#V" n="68" break="no"/>dicatum conueniat ei, quod reduplicatur, ideo haec est
+            ve<lb ed="#V" n="69" break="no"/>ra, Christus secundum quod iste homo est Deus. Haec ille.
+          </p>
+          <p xml:id="capsco-c38568-d1e454">
+            <lb ed="#V" n="70"/>Item aliam propositionem scilicet Christus secundum quod
+            <lb ed="#V" n="71"/>iste homo est persona, ponit 3. sen. dist. 10. q. i. ar. 2.
+            quaestiun<lb ed="#V" n="72" break="no"/>cula prima, vbi sic dicit. In Christo non est nisi vna persona
+            <lb ed="#V" n="73"/>quae est aeterna. nullum autem aeternum conuenit Christo
+            secu<lb ed="#V" n="74" break="no"/>dum quod homo proprie loquendo, vnde haec non est vera
+            <lb ed="#V" n="75"/>Christus secundum quod homo est persona, nisi reduplicetur
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="76"/>suppositum hominis, vt dicatur, Christus secundum quod iste
+            <lb ed="#V" n="77"/>homo est persona, hoc enim verum est. Haec ille.
+          </p>
+          <p xml:id="capsco-c38568-d1e476">
+            Similia
+            po<lb ed="#V" n="78" break="no"/>nit tertia parte. q. 16. ar. 11. in solu. tertij vbi sic dicit. Cum
+            di<lb ed="#V" n="79" break="no"/>citur, iste homo, pronomen demonstratiuum trahit hoc
+            no<lb ed="#V" n="80" break="no"/>men homo ad suppositum, &amp; ideo haec est magis vera,
+            Chri<lb ed="#V" n="81" break="no"/>stus secundum quod iste homo est Deus, quam ista Christus
+            se<lb ed="#V" n="82" break="no"/>cundum quod homo est Deus. Haec ille.
+          </p>
+          <p xml:id="capsco-c38568-d1e489">
+            Ex quibus potest
+            for<lb ed="#V" n="83" break="no"/>mari talis ratio. Ad veritatem propositionis reduplicatiuae
+            <lb ed="#V" n="84"/>sufficit, quod praedicatum per se conueniat ei, quod
+            reduplica<lb ed="#V" n="85" break="no"/>tur, subiecto autem principali conueniat simpliciter, sed haec
+            <lb ed="#V" n="86"/>propositio, Christus secundum quod iste homo est Deus, est
+            <lb ed="#V" n="87"/>reduplicatiua, &amp; eius praedicatum per se conuenit huic,
+            <lb ed="#V" n="88"/>quod dico, iste homo, quod reduplicatur, igitur ipsa est
+            ve<lb ed="#V" n="89" break="no"/>ra. Et in hoc primus articulus terminatur.
+          </p>
+        </div>
+        <div xml:id="capsco-c38568-Dd1e508">
+          <head xml:id="capsco-c38568-Hd1e510">Articulus 2</head>
+          <p xml:id="capsco-c38568-d1e512">
+            <lb ed="#V" n="90"/><milestone ed="#V" unit="p" rend="initial"/> Quantum ad secundum articulum obijciendum est
+            con<lb ed="#V" n="91" break="no"/>tra conclusiones, specialiter contra tertiam contra
+            <lb ed="#V" n="92"/>quam arguit Durandus. Primo. Quia hoc pronomen iste non
+            <lb ed="#V" n="93"/>demonstrat suppositum aeternum, nisi quatenus
+            importa<lb ed="#V" n="94" break="no"/>tur nomine hominis; ergo sic demonstrat ibi, sicut
+            impor<lb ed="#V" n="95" break="no"/>tatur in nomine hominis, sed ibi ratione implicationis
+            im<lb ed="#V" n="96" break="no"/>portatur formaliter, &amp; non materialiter, hoc est non
+            secun<lb ed="#V" n="97" break="no"/>dum se, sed vt est habens talem naturam, quae sit ratio
+            con<lb ed="#V" n="98" break="no"/>uenientiae praedicati cum subiecto ergo sic demonstratur:
+            <lb ed="#V" n="99"/>ergo non verificatur propositio, nisi natura nomine hominis
+            <lb ed="#V" n="100"/>importata sit ratio, quare esse Deum conueniat Christo,
+            <lb ed="#V" n="101"/>non autem est sic, igitur &amp;c. Ad probationem minoris
+            prae<lb ed="#V" n="102" break="no"/>mittit, quod implicatio secundum quod proprie sumitur
+            impor<lb ed="#V" n="103" break="no"/>tat causam inhaerentiae praedicati ad subiectum proximam,
+            <lb ed="#V" n="104"/>vel remotam. Sed considerandum est, vt dicit, quod terminus
+            <lb ed="#V" n="105"/>concretus positus in praedicato, vel in quacunque
+            implicatio<lb ed="#V" n="106" break="no"/>ne circa subiectum tenetur formaliter pro natura, &amp; non
+            <lb ed="#V" n="107"/>materialiter pro supposito, non quod terminus concretus
+            vn<lb ed="#V" n="108" break="no"/>quam supponat formaliter pro natura in recto ex quacunque
+            <lb ed="#V" n="109"/>parte ponatur, quia tunc talis propositio esset falsa, vt si
+            di<lb ed="#V" n="110" break="no"/>catur, sortes est homo, vel secundum quod homo est
+            rationa<lb ed="#V" n="111" break="no"/>lis, tunc enim esset sensus, quod sortes esset natura humana, vel quod
+            <lb ed="#V" n="112"/>sortes secundum quod est natura humana esset rationalis, sed
+            <lb ed="#V" n="113"/>pro tanto dicitur teneri formaliter ex parte praedicati, vel
+            <lb ed="#V" n="114"/>implicationis magis quam ex parte subiecti, quia quando
+            <lb ed="#V" n="115"/>terminus concretus ponitur ex parte subiecti magis
+            acci<lb ed="#V" n="116" break="no"/>pitur secundum quod est aliquid in se secundum id quod est habens
+            <lb ed="#V" n="117"/>aliquam naturam, vt si dicatur, album currit, album magis
+            <lb ed="#V" n="118"/>stat ibi pro eo, quod est aliquid in se subsistens, quam secundum
+            <lb ed="#V" n="119"/>quod est habens talem naturam scilicet albedinem, quamuis non
+            pos<lb ed="#V" n="120" break="no"/>sit verificari propositio, nisi currenti insit albedo, tamen albedo
+            <lb ed="#V" n="121"/>non est causa, quare cursus insit forti, vel cuicunque
+            supposi<lb ed="#V" n="122" break="no"/>to currenti, vnde &amp; non album potest currere. Sed quando
+            <lb ed="#V" n="123"/>ponitur ex parte praedicati, vel cum implicatione, vt
+            dicen<lb ed="#V" n="124" break="no"/>do homo est albus, vel sortes secundum quod est albus disgregat
+            <lb ed="#V" n="125"/>ibi praedicatum non conuenit subiecto, nisi vt est habens
+            ta<lb ed="#V" n="126" break="no"/>lem naturam, ita quod quando implicatio est vera, ipsa est
+            cau<lb ed="#V" n="127" break="no"/>sa quare praedicatum est in subiecto. Ex quibus patet quod
+            quae<lb ed="#V" n="128" break="no"/>libet harum est simpliciter falsa, Christus secundum quod homo est
+            per<lb ed="#V" n="129" break="no"/>sona, &amp; Christus secundum quod hic homo est persona, quia implicatio
+            <lb ed="#V" n="130"/>importat causam inhaerentiae praedicati ad subiectum
+            quan<lb ed="#V" n="131" break="no"/>tum ad naturam per terminum implicationis importatam
+            <lb ed="#V" n="132"/>nunc ita est quod natura importata per hoc nomen homo, vel
+            <lb ed="#V" n="133"/>iste homo non est causa remota, vel propinqua, quare Christo
+            <lb ed="#V" n="134"/>competat esse personam: ergo quaelibet harum est falsa Christus
+            <lb ed="#V" n="135"/>secundum quod homo est persona, Christus secundum quod iste homo
+            <lb ed="#V" n="136"/>est persona.
+          </p>
+          <p xml:id="capsco-c38568-d1e617">
+            Secundo arguit dicens. Quia non valet illud,
+            <lb ed="#V" n="137"/>quod dicit nostra conclusio scilicet quod non oportet
+            praedi<lb ed="#V" n="138" break="no"/>catum conuenire subiecto ratione omnium quae implicatur,
+            <lb ed="#V" n="139"/>sed solum ratione vnius, quia cum dicitur, Christus
+            inquan<lb ed="#V" n="140" break="no"/>tum iste homo, pronomen demonstratiuum non est pars
+            im<lb ed="#V" n="141" break="no"/>plicationis sed demonstratio eius, &amp; ideo oportet quod
+            propo<lb ed="#V" n="142" break="no"/>sitio verificetur ratione alicuius formaliter importati
+            no<lb ed="#V" n="143" break="no"/>mine hominis. quod non est in proposito. Tertio. Quia
+            qua<lb ed="#V" n="144" break="no"/>uis non oportet praedicatum inesse subiecto ratione
+            cuius<lb ed="#V" n="145" break="no"/>libet implicati absolute, tamen si implicatio cadit sub
+            re<lb ed="#V" n="146" break="no"/>duplicatione dicente causam, oportet quod praedicatum
+            in<lb ed="#V" n="147" break="no"/>sit subiecto ratione omnium implicatorum, vt in omnibus
+            <lb ed="#V" n="148"/>patet, vnde sicut haec est vera, iste homo est persona,
+            demon<lb ed="#V" n="149" break="no"/>strato Christo ita, &amp; haec homo est persona, non solum pro
+            <lb ed="#V" n="150"/>hominibus puris, sed pro Christo: ergo similiter si ista est falsa,
+            <pb ed="#V" n="84"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>Christus secundum quod homo est persona, eadem
+            ratio<lb ed="#V" n="2" break="no"/>ne haec est falsa, Christus secundum quod iste homo est
+            <lb ed="#V" n="3"/>persona. Haec ille. Et in hoc secundus articulus terminatur.
+          </p>
+        </div>
+        <div xml:id="capsco-c38568-Dd1e662">
+          <head xml:id="capsco-c38568-Hd1e664">Articulus 3</head>
+          <p xml:id="capsco-c38568-d1e666">
+            <lb ed="#V" n="4"/><milestone ed="#V" unit="p" rend="initial"/> Vantum ad tertium articulum respondendum est
+            o<lb ed="#V" n="5" break="no"/>biectionibus supradictis. Et ad primam quidem
+            dici<lb ed="#V" n="6" break="no"/>tur primo, quod supposito, sed non concesso, quod hoc pronomen
+            <lb ed="#V" n="7"/>iste non demonstret suppositum aeternum, nisi ex
+            additio<lb ed="#V" n="8" break="no"/>ne huius nominis homo, non tamen sequitur, quod illo eodem
+            <lb ed="#V" n="9"/>modo demonstret suppositum aeternum, sicut importatur
+            <lb ed="#V" n="10"/>per hoc nomen homo in absentia pronominis, sicut in hac
+            <lb ed="#V" n="11"/>reduplicatiua, Christus secundum quod homo est persona, in
+            <lb ed="#V" n="12"/>qua tenetur formaliter, immo oportet, quod hoc
+            pronomen<lb ed="#V" n="13" break="no"/>aliter demonstret, &amp; hoc nomen homo aliter importet
+            sup<lb ed="#V" n="14" break="no"/>positum, puta magis materialiter quam formaliter, cuius
+            <lb ed="#V" n="15"/>ratio est, quia cum pronomina significent puram
+            substan<lb ed="#V" n="16" break="no"/>tiam sine qualitate, idest suppositum sine expressione
+            quod<lb ed="#V" n="17" break="no"/>ditatis, ideo eorum additio ad nomina concreta trahit illa
+            <lb ed="#V" n="18"/>ad standum pro suppositis potius quam pro quidditate, &amp;
+            <lb ed="#V" n="19"/>magis materialiter quam formaliter quantumcunque
+            re<lb ed="#V" n="20" break="no"/>duplicatio cadat super aggregatum ex pronomine
+            demon<lb ed="#V" n="21" break="no"/>stratiuo &amp; nomine concreto. De hoc Sanctus Thomas tertia parte
+            <lb ed="#V" n="22"/>quaest. 16. art. 10. sic dicit. Nomen sumptum cum
+            reduplica<lb ed="#V" n="23" break="no"/>tione magis proprie tenetur pro natura quam pro
+            suppo<lb ed="#V" n="24" break="no"/>sito, sumitur enim in vi, praedicati, quod tenetur formaliter
+            <lb ed="#V" n="25"/>idem enim est dictu, Christus secundum quod homo, ac si
+            di<lb ed="#V" n="26" break="no"/>ceretur, Christus secundum quod est homo &amp; ideo est magis
+            <lb ed="#V" n="27"/>concedenda quam neganda, Christus secundum quod
+            homo<lb ed="#V" n="28" break="no"/>est creatura. Si tamen adderetur aliquid, per quod
+            trahere<lb ed="#V" n="29" break="no"/>tur ad suppositum, esset propositio magis neganda quam
+            <lb ed="#V" n="30"/>concedenda, puta si diceretur, Christus secundum quod hic
+            <lb ed="#V" n="31"/>homo est creatura. Haec ille.
+          </p>
+          <p xml:id="capsco-c38568-d1e730">
+            Ex quibus patet, quod
+            pronomen<lb ed="#V" n="32" break="no"/>demonstratiuum additum nomini concreto siue in
+            praedi<lb ed="#V" n="33" break="no"/>cato, siue in reduplicatione retrahit illud, ne teneatur
+            for<lb ed="#V" n="34" break="no"/>maliter, seu pro natura, sed facit illud stare materialiter,
+            <lb ed="#V" n="35"/>seu pro supposito. Dicitur secundo, quod dato quod
+            redupli<lb ed="#V" n="36" break="no"/>catio cadens super pronomen demonstratiuum
+            singulari<lb ed="#V" n="37" break="no"/>zans nomen concretum faceret illud complexum stare
+            for<lb ed="#V" n="38" break="no"/>maliter, non tamen sequitur, sed est fallacia consequentis,
+            <lb ed="#V" n="39"/>quod stet pro forma specifica. Sufficit enim quod stet pro natura
+            <lb ed="#V" n="40"/>indiuidui singularizata, vel pro proprietate constitutiua
+            <lb ed="#V" n="41"/>indiuidui. Et si illo modo stet in ista, Christus secundum
+            <lb ed="#V" n="42"/>quod iste homo est Deus vel persona, propositio vera est. Nam
+            <lb ed="#V" n="43"/>sensus est iste, quod Christus ex eo, ex quo habet proprietatem
+            <lb ed="#V" n="44"/>personalem constitutiuam huius suppositi, quod est
+            huma<lb ed="#V" n="45" break="no"/>num habet istam singularem personalitatem, est persona, vel
+            <lb ed="#V" n="46"/>Deus. Et iste sensus est verus, quia totum hoc habet,
+            Chri<lb ed="#V" n="47" break="no"/>stus ex aeterna filiatione, quae est realiter diuina essentia, &amp;
+            <lb ed="#V" n="48"/>quicunque habet istam filiationem, necessario est Deus vel
+            <lb ed="#V" n="49"/>persona, quicunque taliter suppositat humanam naturam
+            <lb ed="#V" n="50"/>sicut Christus suppositat, necessario est Deus &amp; persona,
+            <lb ed="#V" n="51"/>&amp; in quocunque supposito natura humana
+            suppositare<lb ed="#V" n="52" break="no"/>tur, puta quod vniretur taliter primo principio, illud est De.
+            <lb ed="#V" n="53"/>Dicitur tertio, quod dato quod ad veritatem propositionis
+            redu<lb ed="#V" n="54" break="no"/>plicatiuae requireretur, quod illud quod implicatur, vel
+            redu<lb ed="#V" n="55" break="no"/>plicatur sit ratio inhaerentiae praedicati ad subiectum, non
+            <lb ed="#V" n="56"/>tamen oportet quod sit causa vel ratio talis inhaerentiae
+            secur<lb ed="#V" n="57" break="no"/>dum quodlibet sui, vt dicit 3. conclusio. Et ideo dato quod
+            <lb ed="#V" n="58"/>hoc complexum, iste homo, teneatur formaliter in ista,
+            Chr¬<lb ed="#V" n="59" break="no"/>stus secundum quod iste homo est Deus, non tamen oportet,
+            <lb ed="#V" n="60"/>quod omnis forma importata per hoc complexum sit
+            cau<lb ed="#V" n="61" break="no"/>sa talis inhaerentiae, puta forma importata per ly iste, qui est
+            <lb ed="#V" n="62"/>proprietas aeterna constitutiua personae filij Dei, &amp;
+            huma<lb ed="#V" n="63" break="no"/>nitas importata per ly homo, &amp; sic patet, quod argumentum
+            <lb ed="#V" n="64"/>non procedit propter tria falsa, quae assumit. Et licet ista
+            <lb ed="#V" n="65"/>responsio sufficiat ad hominem quantum ad duo dicta
+            vl<lb ed="#V" n="66" break="no"/>tima, videtur tamen quod standum est in primo dicto
+            re<lb ed="#V" n="67" break="no"/>sponsionis, scilicet quod nec ly homo, nec ly iste homo
+            tene<lb ed="#V" n="68" break="no"/>tur in illa reduplicatiua formaliter, sed materialiter per
+            sup<lb ed="#V" n="69" break="no"/>posito aeterno subsistente in duabus naturis, &amp; non
+            forma<lb ed="#V" n="70" break="no"/>liter, &amp; praecise pro aliqua illarum. De hoc, scilicet Thomas 3.
+            <lb ed="#V" n="71"/>sen. dis. 10. q. 1. art. 1. quaestiuncula 2. sic arguit. Christus
+            se<lb ed="#V" n="72" break="no"/>cundum quod Deus caret matre, sic igitur secundum quod
+            <lb ed="#V" n="73"/>iste homo est Deus, ergo secundum quod iste homo caret
+            ma<lb ed="#V" n="74" break="no"/>tre. Ecce argumentum. Sequitur responsio. Cum inquit
+            <lb ed="#V" n="75"/>dicitur, iste homo, demonstratur suppositum duarum
+            na<cb ed="#V" n="b"/><lb ed="#V" n="76" break="no"/>turarum, quarum vtraque caderet in diffinitione eius
+            <lb ed="#V" n="77"/>si diffiniri posset, &amp; ideo ea quae sunt vtriusque naturae
+            <lb ed="#V" n="78"/>per se ei conueniunt, &amp; ideo Christus secundum quod
+            <lb ed="#V" n="79"/>iste homo est Deus, &amp; secundum quod iste homo est
+            ho<lb ed="#V" n="80" break="no"/>mo, &amp; similis est ratio de illis, quae consequuntur ad
+            alter<lb ed="#V" n="81" break="no"/>utram naturarum, vnde secundum quod iste homo est habens
+            <lb ed="#V" n="82"/>matrem, &amp; carens matre, nec vnum excludit aliud, cum non
+            <lb ed="#V" n="83"/>sint opposita, quia non secundum idem conueniunt. Haec
+            <lb ed="#V" n="84"/>ille.
+          </p>
+          <p xml:id="capsco-c38568-d1e849">
+            Item arguit sic. Omne quod praedicatur de altero
+            secun<lb ed="#V" n="85" break="no"/>dum quod aliquid oportet quod sit diffinitio, vel pars
+            diffinitio<lb ed="#V" n="86" break="no"/>nis, aut per accidens illius secundum quod praedicatur,
+            si<lb ed="#V" n="87" break="no"/>cut cum dicitur, Petrus secundum quod homo est animal
+            ra<lb ed="#V" n="88" break="no"/>tionale mortale, vel secundum quod homo est risibilis, sed Deus
+            <lb ed="#V" n="89"/>nullo istorum modorum se habet ad hunc hominem,
+            ergo<lb ed="#V" n="90" break="no"/>haec est falsa, Christus secundum quod hic homo est Deus.
+            Ec<lb ed="#V" n="91" break="no"/>ce argumentum. Sequitur responsio. Sicut(inquit) aliquid
+            <lb ed="#V" n="92"/>est de diffinitione speciei, quod non est de diffinitione
+            ge<lb ed="#V" n="93" break="no"/>neris, ita aliquid esset de diffinitione indiuidui si
+            diffinire<lb ed="#V" n="94" break="no"/>tur, quod non est de diffinitione speciei, sicut pars materiae,
+            <lb ed="#V" n="95"/>vt dicit Philosophus 7. meta. Vnde licet Deus non sit pars
+            <lb ed="#V" n="96"/>diffinitionis hominis, esset tamen pars diffinitionis huius
+            <lb ed="#V" n="97"/>hominis Christi, si diffiniri posset ratione verbi, vnde
+            pa<lb ed="#V" n="98" break="no"/>tet quod est per se.
+          </p>
+          <p xml:id="capsco-c38568-d1e882">
+            Item arguit sic. Remoto eo secundum quod
+            a<lb ed="#V" n="99" break="no"/>liquid alicui conuenit, vlterius ei non conuenit, sed
+            remo<lb ed="#V" n="100" break="no"/>to a Christo, quod sit hic homo, adhuc conuenit ei esse
+            <lb ed="#V" n="101"/>Deum, quia ab aeterno fuit Deus, non autem ab aeterno
+            fui<lb ed="#V" n="102" break="no"/>hic homo, ergo Christus secundum quod iste homo non
+            <lb ed="#V" n="103"/>est Deus. Ecce argumentum. Sequitur responsio.
+          </p>
+          <p xml:id="capsco-c38568-d1e896">
+            Dicendum
+            <lb ed="#V" n="104"/>quod remoto a Christo toto hoc, quod importatur cum
+            <lb ed="#V" n="105"/>dico, iste homo, non conuenit ei esse Deum, quia ibi
+            incln<lb ed="#V" n="106" break="no"/>ditur natura diuina &amp; humana, sed remota altera, scilicet
+            <lb ed="#V" n="107"/>humana natura, sequitur quod filius Dei non possit dici iste
+            <lb ed="#V" n="108"/>homo, ratione tamen illius naturae, scilicet humanae non
+            <lb ed="#V" n="109"/>verificatur praedicta locutio, &amp; est simile, sicut si dicatur,
+            <lb ed="#V" n="110"/>Petrus inquantum homo sentit, quia remoto rationali
+            per<lb ed="#V" n="111" break="no"/>intellectum, non erit homo, &amp; erit sentiens, vt dicitur in lib
+            <lb ed="#V" n="112"/>de causis. Haec ille.
+          </p>
+          <p xml:id="capsco-c38568-d1e918">
+            Ex quibus patet manifeste, quod in
+            di<lb ed="#V" n="113" break="no"/>cta reduplicatiua non oportet quod ly iste homo teneatur
+            <lb ed="#V" n="114"/>formaliter pro natura humana praecise, nec pro diuina
+            prae<lb ed="#V" n="115" break="no"/>cise, sed materialiter per supposito includente duas naturas,
+            <lb ed="#V" n="116"/>&amp; quodammodo constituto ex duabus naturis.
+          </p>
+          <p xml:id="capsco-c38568-d1e929">
+            Item in
+            <lb ed="#V" n="117"/>hoc argumento quoddam falsum assumitur fundamentum,
+            <lb ed="#V" n="118"/>scilicet quod totum aggregatum &amp; complexum ex termino
+            <lb ed="#V" n="119"/>communi, &amp; pro nomine demonstratiuo eodem modo
+            <lb ed="#V" n="120"/>supponat, sicut supponeret terminus communis sine
+            tali<lb ed="#V" n="121" break="no"/>pronomine sumptus, quod est falsum, vt patet omni
+            logi<lb ed="#V" n="122" break="no"/>co.
+          </p>
+          <p xml:id="capsco-c38568-d1e945">
+            Item aliud falsum, scilicet quod hoc pronomen iste non
+            <lb ed="#V" n="123"/>habet quod demonstret suppositum aeternum, nisi ratione
+            <lb ed="#V" n="124"/>huius termini homo, hic enim falsum est, quia sine
+            tali<lb ed="#V" n="125" break="no"/>additione potest filium Dei, immo quamlibet diuinam
+            per<lb ed="#V" n="126" break="no"/>sonam demonstrare ad placitum loquentis, immo per
+            op<lb ed="#V" n="127" break="no"/>positum hic terminus homo non habet quod supponat
+            discre<lb ed="#V" n="128" break="no"/>te pro filio Dei, nisi ex additione pronominis, sicut nec
+            <lb ed="#V" n="129"/>pro aliquo alio homine.
+          </p>
+          <p xml:id="capsco-c38568-d1e963">
+            Ad secundum patet responsio
+            per<lb ed="#V" n="130" break="no"/>praedicta. Quia non ualet consequentia, quia licet ly homo
+            <lb ed="#V" n="131"/>implicetur &amp; reduplicetur, non tamen oportet quod illa
+            redu<lb ed="#V" n="132" break="no"/>plicatio sit ratione naturae, nec ratione alicuius importati
+            <lb ed="#V" n="133"/>formaliter per hoc, quod dico homo, sed sufficit, quod fiat
+            ra<lb ed="#V" n="134" break="no"/>tione alicuius importati per hoc complexum, vel alteram
+            <lb ed="#V" n="135"/>eius partem, iste homo, sic autem est in proposito. Ad
+            ter<lb ed="#V" n="136" break="no"/>tium negatur antecedens. Nec ualet probatio, quia licet
+            <lb ed="#V" n="137"/>ad veritatem reduplicatiuae exigatur, quod praedicatum
+            verifi<lb ed="#V" n="138" break="no"/>cetur de qualibet parte complexi reduplicati, sicut arguens
+            <lb ed="#V" n="139"/>bene probat, non tamen oportet, quod de qualibet verificetur,
+            <lb ed="#V" n="140"/>cum hoc quod dico secundum quod, vel quod talis
+            praedi<lb ed="#V" n="141" break="no"/>catio sit per se aliquo modo perseitatis, sicut licet ad
+            veri<lb ed="#V" n="142" break="no"/>tatem huius reduplicatiuae, sortes secundum quod homo
+            <lb ed="#V" n="143"/>albus est visibilis, requiratur veritas harum duarum
+            propo<lb ed="#V" n="144" break="no"/>sitionum, homo est visibilis, album est visibile, non tamen
+            <lb ed="#V" n="145"/>oportet, quod vtraque sit per se, nec quod istae duae sint
+            ve<lb ed="#V" n="146" break="no"/>rae, sortes secundum quod homo est visibilis, sortes
+            secun<lb ed="#V" n="147" break="no"/>dum quod albus est visibilis, sufficit enim veritas vnius
+            <lb ed="#V" n="148"/>illarum. Sic in proposito, quaelibet istarum est vera, iste est
+            <lb ed="#V" n="149"/>persona, homo est persona, sed prima tantummodo est per
+            <lb ed="#V" n="150"/>se. De hoc Sanctus Thomas 3. sen. dist. 10. arti. 2.
+            quaestiuncula<pb ed="#V" n="85"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>prima in secundo loco arguit sic. Quod conuenit alicui
+            se<lb ed="#V" n="2" break="no"/>cundum quod homo conuenit omni homini secundum quod
+            <lb ed="#V" n="3"/>homo, sed petrus secundum quod homo est persona, ergo
+            <lb ed="#V" n="4"/>&amp; Christus. Ecce argumentum. Sequitur responsio.
+            Dicen<lb ed="#V" n="5" break="no"/>dum(inquit) quod nec Petrus inquantum homo est
+            perso<lb ed="#V" n="6" break="no"/>na, sed inquantum iste homo, quia haec non est per se,
+            ho<lb ed="#V" n="7" break="no"/>mo est persona, sed haec, iste homo est persona.
+          </p>
+          <p xml:id="capsco-c38568-d1e1028">
+            Item in secum
+            <lb ed="#V" n="8"/>da quaestiuncula, in solu. primi, sic dicit. Christus secundum
+            <lb ed="#V" n="9"/>quod homo est aliquid non tamen sequitur, ergo secundum
+            <lb ed="#V" n="10"/>quod homo est aliquid vniuersale, vel particulare, quia
+            ho<lb ed="#V" n="11" break="no"/>mini accidit vniuersale, vel particulare, vnde haec est per
+            ac<lb ed="#V" n="12" break="no"/>cidens, homo est aliquid particulare, haec autem est per se,
+            <lb ed="#V" n="13"/>iste homo est aliquid particulare, vnde Christus non est
+            ali<lb ed="#V" n="14" break="no"/>quid particulare secundum quod homo, sed secundum quod
+            <lb ed="#V" n="15"/>iste homo. Haec ille.
+          </p>
+          <p xml:id="capsco-c38568-d1e1049">
+            Ad argumentum pro parte
+            affirmati<lb ed="#V" n="16" break="no"/>ua q. respondet Sanctus Thomas tertio sententiarum
+            praesen<lb ed="#V" n="17" break="no"/>ti dist. q. 1. ar. 2. quaestiuncula prima in solutione primi sic
+            <lb ed="#V" n="18"/>dicens. Christus secundum quod homo est substantia
+            ratio<lb ed="#V" n="19" break="no"/>nalis naturae, sed secundum quod iste homo indiuidua
+            sub<lb ed="#V" n="20" break="no"/>stantia rationalis naturae, vnde secundum quod iste homo
+            <lb ed="#V" n="21"/>est Deus. In tertia vero parte. q. 16. ar. 12. in solutione
+            secun<lb ed="#V" n="22" break="no"/>di sic dicit. Substantia indiuidua, quae ponitur in
+            diffinitio<lb ed="#V" n="23" break="no"/>ne personae importat substantiam completam per se
+            subsi<lb ed="#V" n="24" break="no"/>stentem separatam ab aliis, alioquin manus hominis
+            pos<lb ed="#V" n="25" break="no"/>set dici psona, cum sit substantia quaedam indiuidua, quia
+            <lb ed="#V" n="26"/>tamen est substantia indiuidua, sicut in alio existens non
+            <lb ed="#V" n="27"/>potest dici persona, &amp; eadem ratione nec natura humana
+            <lb ed="#V" n="28"/>in Christo, quae tamen potest dici indiuiduum vel
+            singula<lb ed="#V" n="29" break="no"/>re quoddam. Et haec de. q. sufficiant. De qua benedictus
+            <lb ed="#V" n="30"/>Deus Amen.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

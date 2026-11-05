@@ -1,0 +1,902 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 1, Distinctio 8, Quaestio 3</title>
+        <author ref="#JohannesCapreolus">Johannes Capreolus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 1, Distinctio 8, Quaestio 3</title>
+          <date when="2026-11-04">Nov 4, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-j88c01">Venice, 1589, v. 1</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-04" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="222"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="capsco-a1vbjx"><!-- l1d8q3 -->
+        <head xml:id="capsco-a1vbjx-Hd1e101">Quaestio 3</head>
+        <head xml:id="capsco-a1vbjx-Hd1e103" type="question-title">Utrum aliqua creatura sit immutabilis</head>
+        <p xml:id="capsco-a1vbjx-d1e106">
+          <pb ed="#V" n="222"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>QVAESTIO III.
+          <lb ed="#V" n="2"/>Vtrum aliqua creatura sit immutabilis.
+        </p>
+        <p xml:id="capsco-a1vbjx-d1e117">
+          <lb ed="#V" n="3"/><milestone ed="#V" unit="p" rend="initial"/> Terum circa octauam distinctionem
+          quae<lb ed="#V" n="4" break="no"/>ritur. Vtrum aliqua creatura sit
+          immu<lb ed="#V" n="5" break="no"/>tabilis.
+        </p>
+        <p xml:id="capsco-a1vbjx-d1e127">
+          Et arguitur quod sic. Illud est
+          <lb ed="#V" n="6"/>immutabile quod potest esse subiectum
+          <lb ed="#V" n="7"/>motus, aut mutationis, sed aliqua
+          crea<lb ed="#V" n="8" break="no"/>tura est huiusmodi, puta creatio, quae
+          <lb ed="#V" n="9"/>non est subiectum motus, aut
+          mutatio<lb ed="#V" n="10" break="no"/>nis, nec etiam terminus, vt patet 5.
+          Phy<lb ed="#V" n="11" break="no"/>sicorum, vbi dicitur, quod motus non est motus, nec
+          mu<lb ed="#V" n="12" break="no"/>tationis est mutatio. ergo est aliqua creatura, quae
+          muta<lb ed="#V" n="13" break="no"/>ri non potest:
+        </p>
+        <p xml:id="capsco-a1vbjx-d1e148">
+          <lb ed="#V" n="14"/><milestone ed="#V" unit="p" rend="indent"/> In oppositum arguitur sic, ait enim Apostolus primae ad
+          <lb ed="#V" n="15"/>Thimo. vlt. quod solus Deus habet immortalitatem, sed
+          <lb ed="#V" n="16"/>omnis mutatio est aliqua mortalitas. ergo solus Deus
+          ha<lb ed="#V" n="17" break="no"/>bet immutabilitatem.
+        </p>
+        <div xml:id="capsco-a1vbjx-Dd1e160">
+          <head xml:id="capsco-a1vbjx-Hd1e162">Articulus 1</head>
+        <p xml:id="capsco-a1vbjx-d1e164">
+          <lb ed="#V" n="18"/><milestone ed="#V" unit="p" rend="indent"/> In hac quaestione erit vnicus articulus, pro quo sit
+          pri<lb ed="#V" n="19" break="no"/>ma conclusio. quod omnis creatura est mutabilis per
+          po<lb ed="#V" n="20" break="no"/>tentiam, quae est in alio ab ea, probatur sic. Omnes
+          crea<lb ed="#V" n="21" break="no"/>turae antequam essent non erant possibiles per potentiam
+          <lb ed="#V" n="22"/>aliquam creatam, cum nihil creatum sit aeternum, sed per
+          <lb ed="#V" n="23"/>solam diuinam potentiam inquantum diuina virtus
+          pote<lb ed="#V" n="24" break="no"/>rat eas producere, sicut autem ex voluntate Dei dependet,
+          <lb ed="#V" n="25"/>quod res in esse produxit, ita ex voluntate eius dependet,
+          <lb ed="#V" n="26"/>quod res in esse conseruat, non enim aliter res in esse
+          con<lb ed="#V" n="27" break="no"/>seruat quam semper eis esse dando: vnde si suam actionem
+          <lb ed="#V" n="28"/>eis subtraheret, omnia ad nihilum redigerentur, vt pater
+          <lb ed="#V" n="29"/>per Augustinus quarto super Genus ad literam, sicut igitur
+          an<lb ed="#V" n="30" break="no"/>tequam res essent in potentia creatoris fuit, vt res essent,
+          <lb ed="#V" n="31"/>sic in potentia eius est vt non sint, sic igitur per potentiam,
+          <lb ed="#V" n="32"/>quae est in alio, scilicet Deo sunt mutabiles inquantum ab
+          <lb ed="#V" n="33"/>ipso ex nihilo potuerunt produci in esse, &amp; de esse possunt
+          <lb ed="#V" n="34"/>reduci in non esse. Istam conclusionem in forma cum
+          pro<lb ed="#V" n="35" break="no"/>batione etiam in forma ponit Sanctus Doctor prima parte q. 9.
+          <lb ed="#V" n="36"/>art. 2.
+        </p>
+        <p xml:id="capsco-a1vbjx-d1e209">
+          Eandem conclusionem ponit primo sent. dist. 8. q. 3.
+          <lb ed="#V" n="37"/>artic. 2. &amp; probat eam sic. Motus quocunque modo
+          dica<lb ed="#V" n="38" break="no"/>tur sequitur potentiam, cum igitur omnis creatura habeat
+          <lb ed="#V" n="39"/>aliquid de potentia. quia solus Deus est actus purus,
+          opor<lb ed="#V" n="40" break="no"/>tet omnes creaturas esse mutabiles, &amp; solum Deum
+          immu<lb ed="#V" n="41" break="no"/>tabilem esse. Est autem considerare duplicem
+          possibilita<lb ed="#V" n="42" break="no"/>tem in creatura, vnam secundum illud, quod creatura
+          ha<lb ed="#V" n="43" break="no"/>bet, alteram secundum illud, quod nata est habere. Prima
+          <lb ed="#V" n="44"/>consequitur creaturam secundum quod habet esse ab alio,
+          <lb ed="#V" n="45"/>omne enim quod esse suum habet ab alio, non est per se
+          <lb ed="#V" n="46"/>necesse esse, vt probat Auicenna: vnde quantum est in se
+          <lb ed="#V" n="47"/>est possibile, &amp; illa possibilitas dicit dependentiam ad
+          il<lb ed="#V" n="48" break="no"/>lud, a quo est. Et haec possibilitas est duplex. Quaedam
+          secun<lb ed="#V" n="49" break="no"/>dum dependentiam totius esse ad illud, a quo est res
+          secun<lb ed="#V" n="50" break="no"/>dum totum esse, &amp; huiusmodi est Deus, &amp; hanc
+          dependen<lb ed="#V" n="51" break="no"/>tiam siue possibilitatem consequitur mutabilitas quaedam,
+          <lb ed="#V" n="52"/>quae est vertibilitas in nihil secundum Damasce. Et post
+          <lb ed="#V" n="53"/>pauca subdit. Est etiam quaedam dependentia siue
+          possibi<lb ed="#V" n="54" break="no"/>litas rei secundum partem sui esse, scilicet formam
+          praesup<lb ed="#V" n="55" break="no"/>posita materia, vel eo quod est in loco materiae, &amp; hac
+          pos<lb ed="#V" n="56" break="no"/>sibilitatem sequitur mutatio variabilitatis, ex eo quod
+          il<lb ed="#V" n="57" break="no"/>lud, quod habet ab alio, potest amittere quantum est in se,
+          <lb ed="#V" n="58"/>nisi forte impediatur ex immutabilitate diuinae
+          volunta<lb ed="#V" n="59" break="no"/>tis, &amp; hoc modo Sancti in gloria sunt immutabiles in esse
+          <lb ed="#V" n="60"/>gloriae: secunda autem possibilitas consequitur creaturam
+          <lb ed="#V" n="61"/>secundum quod non est perfecta simpliciter, secundum
+          <lb ed="#V" n="62"/>hoc enim semper est possibilis ad receptionem, vnde
+          se<lb ed="#V" n="63" break="no"/>cundum hoc etiam dicitur omnis creatura mutabilis,
+          ac<lb ed="#V" n="64" break="no"/>cipiendo large mutationem secundum quod omne
+          reci<lb ed="#V" n="65" break="no"/>pere dicitur pati quoddam &amp; moueri, sicut dicit
+          Philoso<lb ed="#V" n="66" break="no"/>phus 3. de Anima intelligere quoddam pati esse. Haec ille.
+        </p>
+        <p xml:id="capsco-a1vbjx-d1e277">
+          <lb ed="#V" n="67"/>Ex quo patet quod omnis creatura est mutabilis per
+          po<lb ed="#V" n="68" break="no"/>tentiam Dei. Eandem sententiam tenet de veritate. q. 5.
+          <lb ed="#V" n="69"/>artic. 2. ad sextum. Cuncta (inquit) quae Deus in esse
+          pro<lb ed="#V" n="70" break="no"/>duxit, potest etiam reducere in non esse, cum ad hoc quod
+          <lb ed="#V" n="71"/>creaturae subsistant, oportet quod semper in eis Deus
+          ope<lb ed="#V" n="72" break="no"/>retur, vt Augustnus dicit super Genus ad literam, non per
+          mo<lb ed="#V" n="73" break="no"/>quin, quo domus fit ab artifice, sed per modum, quo
+          illu<cb ed="#V" n="b"/><lb ed="#V" n="74" break="no"/>minatio aeris est a sole: vnde ex hoc ipso quod non
+          prae<lb ed="#V" n="75" break="no"/>baeret esse creaturae, quod in eius voluntate est constitutum,
+          <lb ed="#V" n="76"/>in nihilum creatura redigeretur. Haec ille Eandem
+          con<lb ed="#V" n="77" break="no"/>clusionem tenet de potentia Dei. q. 5. artic. 1. 2. 3. &amp; 4. Iu
+          <lb ed="#V" n="78"/>primo enim articulo probat auctoritatibus Apostoli Augustini
+          <lb ed="#V" n="79"/>Gregorii &amp; libri de causis. Item multis rationibus quod
+          diui<lb ed="#V" n="80" break="no"/>na operatione cessante omnes res eodem momento in
+          ni<lb ed="#V" n="81" break="no"/>hilum deciderent. In secundo, quod contradictionem
+          im<lb ed="#V" n="82" break="no"/>plicat Deum aliquid posse producere, quod eius
+          conser<lb ed="#V" n="83" break="no"/>uatione non egeret. In tertio quod non est impossibile,
+          <lb ed="#V" n="84"/>immo possibile Deum reducere omnes creaturas ad non
+          <lb ed="#V" n="85"/>esse. Idem ponit tertio contra Genti. cap. 75. Item libro
+          <lb ed="#V" n="86"/>3. ca. 39.
+        </p>
+        <p xml:id="capsco-a1vbjx-d1e324">
+          Secunda conclusio est. Non omnis creatura est
+          <lb ed="#V" n="87"/>mutabilis in non esse per potentiam, quae sit in ea. Probat
+          <lb ed="#V" n="88"/>sic. Istam conclusionem Sanct. Doctor prima parte. q. 9. art. 2.
+          <lb ed="#V" n="89"/>In aliquibus creaturis illud, quod est in eis potentiale non
+          <lb ed="#V" n="90"/>potest stare cum non esse illarum creaturarum. igitur in
+          <lb ed="#V" n="91"/>eis non est potentia ad non esse, tenet consequentia: quia
+          <lb ed="#V" n="92"/>in corporibus inferioribus est mutabilitas etiam secundum
+          <lb ed="#V" n="93"/>esse substantiale: quia materia eorum potest esse cum
+          priua<lb ed="#V" n="94" break="no"/>tione formae substantialis illorum, &amp; etiam quantum ad
+          <lb ed="#V" n="95"/>esse accidentale si subiectum compatiatur secum
+          priuatio<lb ed="#V" n="96" break="no"/>nem accidentis, sicut hoc subiectum homo compatitur
+          <lb ed="#V" n="97"/>non album, &amp; ideo potest mutari de albo in non album.
+          <lb ed="#V" n="98"/>Si vero sit tale accidens, quod consequatur principia
+          essen<lb ed="#V" n="99" break="no"/>rialia subiecti, priuatio illius accidentis non potest stare
+          <lb ed="#V" n="100"/>cum subiecto, vnde subiectum non potest mutari
+          secun<lb ed="#V" n="101" break="no"/>dum accidens illud, sicut nix non potest fieri nigra. Haec
+          <lb ed="#V" n="102"/>ille. Ex quibus vult concludere quod causa mutabilitatis
+          <lb ed="#V" n="103"/>secundum esse in quolibet taliter mutabili est: quia illud
+          <lb ed="#V" n="104"/>quod est potentiale in illa, potest stare cum opposito illius
+          <lb ed="#V" n="105"/>quod est actuale in ea scilicet per quod est in actu, sicut
+          exempli<lb ed="#V" n="106" break="no"/>ficauit tam de mutabili secundum esse substantiale, quam
+          <lb ed="#V" n="107"/>de mutabili secundum esse accidentale. ergo per
+          opposi<lb ed="#V" n="108" break="no"/>tum si in aliquo effectu, eius esse potentiale non potest
+          sta<lb ed="#V" n="109" break="no"/>re cum opposito illius, per quod est in actu, tale non habet
+          <lb ed="#V" n="110"/>potentiam in se, qua possit mutari secundum esse
+          substan<lb ed="#V" n="111" break="no"/>tiale, &amp; sic patet consequentia secundum eum, sed
+          antece<lb ed="#V" n="112" break="no"/>dens probat primo de corpore coelesti. In corporibus
+          (in<lb ed="#V" n="113" break="no"/>quit) coelestibus materia non compatitur secum
+          priuatio<lb ed="#V" n="114" break="no"/>nem formae: quia forma perficit totam capacitatem
+          ma<lb ed="#V" n="115" break="no"/>teriae &amp; potentialitatem, &amp; ideo non sunt mutabilia
+          secun<lb ed="#V" n="116" break="no"/>dum esse substantiale, sed secundum esse localem: quia
+          su<lb ed="#V" n="117" break="no"/>biectum compatitur secum priuationem huius vel illius
+          <lb ed="#V" n="118"/>loci. Haec ille.
+        </p>
+        <p xml:id="capsco-a1vbjx-d1e397">
+          Secundo, probat hoc idem de Angelis.
+          Sub<lb ed="#V" n="119" break="no"/>stantiae (inquit) incorporeae: quia sunt ipsae essentiae
+          subsi<lb ed="#V" n="120" break="no"/>stentes, quae tamen se habent ad esse ipsarum sicut potentia
+          <lb ed="#V" n="121"/>ad actum, non compatiuntur secum priuationem huius
+          <lb ed="#V" n="122"/>actus: quia esse consequitur formam, &amp; nihil
+          corrumpi<lb ed="#V" n="123" break="no"/>tur ni per hoc quod amittit formam: vnde in ipsa forma
+          <lb ed="#V" n="124"/>non est potentia ad non esse, &amp; ideo huiusmodi substantiae
+          <lb ed="#V" n="125"/>sunt immutabiles &amp; inuariabiles secundum esse. Et hoc
+          <lb ed="#V" n="126"/>est quod dicit Dionysius 10. cap. de diuinis nominibus quod
+          <lb ed="#V" n="127"/>substantiae intellectuales creatae sunt nudae a generatione,
+          <lb ed="#V" n="128"/>&amp; ab omni variatione, sicut incorporales &amp; immateriales.
+          <lb ed="#V" n="129"/>Haec ille in forma. Eandem conclutonem tenet prima
+          par<lb ed="#V" n="130" break="no"/>te. q. 50. artic. 5. vbi sic ait. Impossibile (inquit) est quod
+          sub<lb ed="#V" n="131" break="no"/>stantia angeli sit corruptibilis, quod enim conuenit alicui
+          <lb ed="#V" n="132"/>secundum se, nunquam potest ab eo separari, ab eo enim
+          cui<lb ed="#V" n="133" break="no"/>conuenit per aliud potest separari separato eo secundum
+          <lb ed="#V" n="134"/>quod ei conueniebat, rotunditas enim a circulo separari
+          <lb ed="#V" n="135"/>non potest: quia conuenit ei secundum seipsum: sed aereus
+          <lb ed="#V" n="136"/>circulus potest amittere rotunditatem per hoc, quod
+          figu<lb ed="#V" n="137" break="no"/>ra circularis separatur ab aere, esse autem per se competit
+          <lb ed="#V" n="138"/>formae, vnumquodque enim est ens actu secundum quod
+          ha<lb ed="#V" n="139" break="no"/>bet formam, materia vero est actu ens per formam,
+          compo<lb ed="#V" n="140" break="no"/>situm igitur ex materia &amp; forma desinit esse actu per hoc,
+          <lb ed="#V" n="141"/>quod forma separatur a materia, sed si ipsa forma subsistat
+          <lb ed="#V" n="142"/>in suo esse sicut est in angelis, non potest amittere esse. Haec
+          <lb ed="#V" n="143"/>ille.
+        </p>
+        <p xml:id="capsco-a1vbjx-d1e454">
+          Eandem conclusionem tenet secundo contra Gentiles
+          <lb ed="#V" n="144"/>cap. 55. vbi probat multis rationibus quod omnis
+          substan<lb ed="#V" n="145" break="no"/>tia intellectualis est incorruptibilis. Et medium primae
+          <lb ed="#V" n="146"/>rationis est. Quia vbi non est compositio formae cum
+          ma<lb ed="#V" n="147" break="no"/>teria non potest esse separatio formae a materia, per quam
+          <lb ed="#V" n="148"/>separationem solum sit corruptio, manente enim forma
+          <pb ed="#V" n="223"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>manet esse. Medium vero secundae rationis: quia
+          substan<lb ed="#V" n="2" break="no"/>tia, quae est forma non potest priuari esse, sicut nec
+          circu<lb ed="#V" n="3" break="no"/>lus rotunditate. Medium vero tertiae, quod in omni
+          cor<lb ed="#V" n="4" break="no"/>ruptione remoto actu remanet potentia. St igitur in
+          An<lb ed="#V" n="5" break="no"/>gelis ita esset, tunc essentia, quae est potentia remaneret
+          <lb ed="#V" n="6"/>perdito esse, quod est actus, &amp; sic essentia esset post eius
+          <lb ed="#V" n="7"/>corruptionem. Medium vero quartae rationis est: quia
+          vbi<lb ed="#V" n="8" break="no"/>cunque est compositio potentiae, &amp; actus, illud quod
+          te<lb ed="#V" n="9" break="no"/>net locum potentiae seu primi subiecti est incorruptibile.
+          <lb ed="#V" n="10"/>sed in angelis illud quod tenet locum potentiae est ipsa
+          es<lb ed="#V" n="11" break="no"/>sentia completa, quae sic est proprium susceptiuum, &amp;
+          po<lb ed="#V" n="12" break="no"/>tentia appropriata ad esse, quod nullo modo ad oppositum,
+          <lb ed="#V" n="13"/>sicut quod est potentia appropriata ad frigus, nullo
+          mo<lb ed="#V" n="14" break="no"/>do est potentia ad calorem. Medium vero quintae rationis
+          <lb ed="#V" n="15"/>est: quia solum corpus proprie corrumpitur: quia solum
+          <lb ed="#V" n="16"/>proprie mouetur. Medium vero sextae rationis est: quia
+          <lb ed="#V" n="17"/>substantia intellectualis non proprie potest pati, nec
+          reci<lb ed="#V" n="18" break="no"/>pere nisi intellectualiter. Medium autem septimae rationis
+          <lb ed="#V" n="19"/>est: quia intellectus non potest corrumpi propria
+          corru<lb ed="#V" n="20" break="no"/>ptione sicut nec sensus, nec ad corruptionem subiecti sui,
+          <lb ed="#V" n="21"/>sicut corrumpitur sensus, nec propter excellentiam sui
+          ob<lb ed="#V" n="22" break="no"/>iecti. Medium octauae rationis est: quia sicut intelligibile
+          <lb ed="#V" n="23"/>inquantum huiusmodi est incorruptibile, ita intellectus
+          <lb ed="#V" n="24"/>inquantum huiusmodi, cum perfectio &amp; perfectibile sint
+          <lb ed="#V" n="25"/>vnius generis. Medium vero nonae rationis est: quia esse
+          <lb ed="#V" n="26"/>substantiae intellectualis est supra tempus, &amp; per
+          conse<lb ed="#V" n="27" break="no"/>quens non subiacet corruptioni. Medium vero decimae
+          <lb ed="#V" n="28"/>rationis est: quia impossibile est naturale desiderium esse
+          <lb ed="#V" n="29"/>frustra in angelis, cum igitur omnes substantiae
+          intellectua<lb ed="#V" n="30" break="no"/>les naturali desiderio appetant esse perpetuum,
+          impossi<lb ed="#V" n="31" break="no"/>bile est quod esse deficiant. Medium vero vltimae rationis
+          <lb ed="#V" n="32"/>est tale, quaecunque (inquit) incipiunt esse, &amp; desiderant
+          <lb ed="#V" n="33"/>per eandem potentiam habent vtrunque, eadem enim
+          po<lb ed="#V" n="34" break="no"/>tentia est ad esse, &amp; non esse, sed substantiae intellectuales
+          <lb ed="#V" n="35"/>non potuerunt incipere esse nisi per potentiam primi
+          agen<lb ed="#V" n="36" break="no"/>tis, non enim sunt ex materia, quae potuerit praefuisse, igitur nec
+          <lb ed="#V" n="37"/>est aliqua potentia ad non esse eorum, nisi in primo
+          agen<lb ed="#V" n="38" break="no"/>te secundum quod potest eis non influere. Haec ille.
+        </p>
+        <p xml:id="capsco-a1vbjx-d1e554">
+          Ean<lb ed="#V" n="39" break="no"/>dem conclusionem tenet eodem libus cap. 39. ait enim sic.
+          <lb ed="#V" n="40"/>Licet omnia ex Dei voluntate dependeant sicut ex prima
+          <lb ed="#V" n="41"/>causa, quae operando necessitatem non habet nisi ex sui
+          <lb ed="#V" n="42"/>propositi suppositione, non tamen propter hoc absoluta
+          <lb ed="#V" n="43"/>necessitas a rebus excluditur, vt sit necessarium nos fateri
+          <lb ed="#V" n="44"/>omnia contingentia esse, quod posset alicui videri ex hoc,
+          <lb ed="#V" n="45"/>quod a causa non de necessitate absoluta fluxerunt, cum
+          <lb ed="#V" n="46"/>soleat in rebus esse contingens effectus, qui non ex causa
+          <lb ed="#V" n="47"/>sua de necessitate procedit, sunt enim quaedam in rebus
+          <lb ed="#V" n="48"/>creatis: quae simpliciter &amp; absolute necesse est esse, in
+          qui<lb ed="#V" n="49" break="no"/>bus non est potentialitas ad non esse, quaedam autem res
+          <lb ed="#V" n="50"/>sic sunt a Deo in esse productae, vt earum natura sit in
+          po<lb ed="#V" n="51" break="no"/>tentia ad non esse, quod quidem contingit ex hoc, quod
+          <lb ed="#V" n="52"/>materia est in eis in potentia ad aliam formam. Illae igitur
+          <lb ed="#V" n="53"/>res, in quibus non est materia, vel si est non est possibilis
+          <lb ed="#V" n="54"/>ad aliam formam, non habent potentiam ad non esse, eas
+          <lb ed="#V" n="55"/>igitur absolute &amp; simpliciter necesse est esse. Si autem
+          di<lb ed="#V" n="56" break="no"/>catur quod ea, quae sunt ex nihilo quantum est de se in
+          ni<lb ed="#V" n="57" break="no"/>hilum tendunt, &amp; sic omnibus creaturis inest potentia ad
+          <lb ed="#V" n="58"/>non esse, manifestum est hoc non sequi, dicuntur enim res
+          <lb ed="#V" n="59"/>creatae eodem modo in nihilum tendere quo sunt ex
+          nihi<lb ed="#V" n="60" break="no"/>lo, quod quidem non est nisi secundum potentiam
+          agen<lb ed="#V" n="61" break="no"/>tis, sic igitur in rebus creatis non inest potentia ad non
+          es<lb ed="#V" n="62" break="no"/>se, sed creatori inest potentia, vt eis det esse, vel desinat eis
+          <lb ed="#V" n="63"/>esse induere, cum non ex necessitate naturae agat ad rerum
+          <lb ed="#V" n="64"/>productionem, sed ex voluntate. Haec ille in forma. Et post
+          <lb ed="#V" n="65"/>pauca subdit.
+        </p>
+        <p xml:id="capsco-a1vbjx-d1e615">
+          Sciendum (inquit) est itaque, quod si rerum
+          <lb ed="#V" n="66"/>creatarum vniuersitas consideretur prout sunt a primo
+          <lb ed="#V" n="67"/>principio inueniuntur dependere ex voluntate, non ex
+          ne<lb ed="#V" n="68" break="no"/>cessitate principii, nisi ex necessitate suppositionis sicut
+          <lb ed="#V" n="69"/>dictum est. Si vero comparentur ad principia prima, &amp;
+          <lb ed="#V" n="70"/>proxima, inueniuntur habere necessitatem absolutam,
+          ni<lb ed="#V" n="71" break="no"/>hil enim prohibet aliqua principia ex necessitate produci,
+          <lb ed="#V" n="72"/>quibus tamen positis de necessitate sequitur talis effectus,
+          <lb ed="#V" n="73"/>sicut mors animalis &amp; huiusmodi necessitatem absolutam
+          <lb ed="#V" n="74"/>habet propter hoc quod iam ex contrariis est compositum,
+          <lb ed="#V" n="75"/>quamuis ipsum ex contrariis componi non fuisset
+          nece<cb ed="#V" n="b"/><lb ed="#V" n="76" break="no"/>sarium absolute. Similiter autem quod tales naturae rerum a
+          <lb ed="#V" n="77"/>Deo producerentur voluntarium fuit, quod eis sic
+          statu<lb ed="#V" n="78" break="no"/>tis aliquid proueniat vel existat, absolutam necessitatem
+          <lb ed="#V" n="79"/>habet. Haec ille. Et paulo ante dicit. Esse autem necesse
+          sim<lb ed="#V" n="80" break="no"/>pliciter non repugnat ad rationem esse creati, nihil enim
+          <lb ed="#V" n="81"/>prohibet esse necesse, quod tamen suae necessitatis causam
+          <lb ed="#V" n="82"/>habet, sicut conclusiones demonstrationum, nihil igitur
+          <lb ed="#V" n="83"/>prohibet quasdam res sic esse productas a Deo, vt tamen
+          <lb ed="#V" n="84"/>eas esse sit necesse simpliciter, immo hoc diuinae
+          perfectio<lb ed="#V" n="85" break="no"/>ni attestatur. Haec ille. Eandem conclusionem
+          sententiali<lb ed="#V" n="86" break="no"/>ter tenet de veritate. q. 5. artic. 1.
+        </p>
+        <p xml:id="capsco-a1vbjx-d1e664">
+          Ad sextum vbi si¬ ait.
+          Ge<lb ed="#V" n="87" break="no"/>neratio &amp; corruptio possunt accipi dupliciter. Vnomodo
+          <lb ed="#V" n="88"/>secundum quod generatio &amp; corruptio sunt ex ente
+          con<lb ed="#V" n="89" break="no"/>trario &amp; in ens contrarium, &amp; hoc modo potentia ad
+          ge<lb ed="#V" n="90" break="no"/>nerationem, &amp; corruptionem inest alicui secudum quod
+          <lb ed="#V" n="91"/>eius natura est in potentia ad contrarias formas, &amp; hoc
+          <lb ed="#V" n="92"/>modo corpora coelestia &amp; substantiae spirituales neque ad
+          <lb ed="#V" n="93"/>generationem, neque ad corruptionem potentiam habent.
+          <lb ed="#V" n="94"/>Alio modo haec communiter dicuntur pro quolibet exitu
+          <lb ed="#V" n="95"/>rerum in esse, &amp; pro quolibet transitu in non esse, &amp; sic etiam
+          <lb ed="#V" n="96"/>creatio per quam aliquid ex nihilo ad esse deducitur,
+          ge<lb ed="#V" n="97" break="no"/>neratio dicitur, &amp; ipsa rei annihilatio dicitur corruptio,
+          <lb ed="#V" n="98"/>dicitur autem aliquid habere potentiam ad generationem
+          <lb ed="#V" n="99"/>per hunc modum, per hoc quod est potentia in agente ad
+          <lb ed="#V" n="100"/>productionem ipsius, &amp; similiter dicitur aliquid habere
+          <lb ed="#V" n="101"/>potentiam ad corruptionem: quia in agente est potentia,
+          <lb ed="#V" n="102"/>vt deducat illud in non esse, &amp; secundum hoc omnis
+          crea<lb ed="#V" n="103" break="no"/>tura habet potentiam ad corruptionem. Haec ille.
+        </p>
+        <p xml:id="capsco-a1vbjx-d1e703">
+          Ex quo
+          <lb ed="#V" n="104"/>patet, quod aliquid isto secundo modo dicitur posse
+          cor<lb ed="#V" n="105" break="no"/>rumpi, quia potentia est in agente, qua potest duci in non
+          <lb ed="#V" n="106"/>esse, non ex hoc quod potentia talis proprie sit in illo.
+          Ean<lb ed="#V" n="107" break="no"/>dem conclusionem expressius ponit de potentia Dei. q. 5.
+          <lb ed="#V" n="108"/>art. 3. vbi dicit. Quia Commentator ponit 11. Metaphysi.
+          <lb ed="#V" n="109"/>commento. 41. &amp; in lib. de substantia orbis, quod quaedam
+          <lb ed="#V" n="110"/>res creatae sunt, in quarum natura non est possibilitas ad
+          <lb ed="#V" n="111"/>non esse: quia quod in sua natura habet possibilitatem ad
+          <lb ed="#V" n="112"/>non esse, non potest ab extrinseco acquirere
+          sempiternita<lb ed="#V" n="113" break="no"/>tem, scilicet sempiternam naturam, &amp; haec quidem positio
+          <lb ed="#V" n="114"/>videtur rationabilior, potentia enim ad esse, &amp; non esse
+          <lb ed="#V" n="115"/>non conuenit alicui nisi ratione materiae, quae est pura
+          po<lb ed="#V" n="116" break="no"/>tentia, materia etiam cum non possit esse sine forma, non
+          <lb ed="#V" n="117"/>potest esse in potentia ad non esse, nisi quatenus existens sub
+          <lb ed="#V" n="118"/>vna forma est in potentia ad aliam formam. Dupliciter
+          <lb ed="#V" n="119"/>igitur potest contingere quod in natura alicuius rei non
+          <lb ed="#V" n="120"/>sit potentia ad non esse. vno quidem modo per hoc quod
+          <lb ed="#V" n="121"/>res illa est forma tantum subsistens in esse suo, sicut
+          sub<lb ed="#V" n="122" break="no"/>stantiae incorporeae, quae sunt penitus immateriales. si enim
+          <lb ed="#V" n="123"/>forma ex hoc quod inest materiae est principium essendi
+          <lb ed="#V" n="124"/>in rebus, non est nisi per separationem formae a materia,
+          <lb ed="#V" n="125"/>vbi ipsa forma in esse suo subsistit, nullo modo esse
+          pote<lb ed="#V" n="126" break="no"/>rit, sicut nec potest a seipso separari. Alio modo per hoc quod
+          <lb ed="#V" n="127"/>in materia non sit potentia ad aliam formam, sed tota
+          ma<lb ed="#V" n="128" break="no"/>teriae possibilitas ad vnam formam terminetur, sicut est in
+          <lb ed="#V" n="129"/>corporibus coelestibus, in quibus non est formarum
+          con<lb ed="#V" n="130" break="no"/>trarietas. Illae igitur solae res in sua natura possibilitatem
+          <lb ed="#V" n="131"/>habent ad non esse, in quibus est materia contrarietati
+          su<lb ed="#V" n="132" break="no"/>biecta, aliis vero rebus secundum suam naturam
+          compe<lb ed="#V" n="133" break="no"/>tit necessitas essendi, possibilitate non essendi ab earum
+          <lb ed="#V" n="134"/>natura sublata, nec tamen per hoc remouetur quin
+          neces<lb ed="#V" n="135" break="no"/>sitas essendi sit eis a Deo: quia vnum necessarium causa
+          al<lb ed="#V" n="136" break="no"/>terius esse potest, vt dicitur 5. Metaphysic. Ipsius enim naturae
+          <lb ed="#V" n="137"/>creatae, cui competit sempiternitas, causa est Deus. Haec
+          <lb ed="#V" n="138"/>ille. Et sic patet conclusio secundum eum.
+        </p>
+        <p xml:id="capsco-a1vbjx-d1e782">
+          Sciendum
+          ta<lb ed="#V" n="139" break="no"/>men quod ista conclusio, scilicet aliquam creaturam
+          sim<lb ed="#V" n="140" break="no"/>pliciter &amp; absolute necesse est esse, potest malum sensum
+          <lb ed="#V" n="141"/>generare in cordibus aliquorum, licet Sanctus Thomas bonum, &amp;
+          <lb ed="#V" n="142"/>catholicum sensum in ea habuerit. ipsam tamen non
+          assen<lb ed="#V" n="143" break="no"/>tio &amp; ex causa, sensum tamen Sancti Doctoris firmiter teneo,
+          <lb ed="#V" n="144"/>quem secunda conclusio expresse declarat, non enim aliud
+          <lb ed="#V" n="145"/>intendit nisi quod aliqua creatura non est mutabilis per
+          <lb ed="#V" n="146"/>potentiam quae sit in ea.
+        </p>
+        <p xml:id="capsco-a1vbjx-d1e802">
+          Tertia conclusio est ista. Nulla
+          <lb ed="#V" n="147"/>creatura habet in se potentiam, per quam possit cedere in
+          <lb ed="#V" n="148"/>nihilum. Probatur sic secundum Sanct.s Doctorem de
+          poten<lb ed="#V" n="149" break="no"/>tia Dei vbi supra. Omnis res creata aut est forma subsistens
+          <lb ed="#V" n="150"/>aut composita ex materia &amp; forma: si sit forma subsistens,
+          <pb ed="#V" n="224"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>iam declaratum est, quod non habet potentiam ad hoc quod
+          <lb ed="#V" n="2"/>cedat in nihilum. Si sit composita ex materia &amp; forma, aut
+          <lb ed="#V" n="3"/>sua materia est in potentia ad aliam formam aut non. Si
+          <lb ed="#V" n="4"/>secundo modo sicut corpus coeleste, dictum est iterum quod
+          <lb ed="#V" n="5"/>non habet potentiam ad non esse. Si primo modo, tunc
+          li<lb ed="#V" n="6" break="no"/>cet talis res habeat potentiam ad non esse, non tamen ad
+          <lb ed="#V" n="7"/>hoc quod cedat in nihilum. Quod sic patet secundum
+          eun<lb ed="#V" n="8" break="no"/>dem ibidem. In illis (inquit) rebus, in quibus est
+          possibili<lb ed="#V" n="9" break="no"/>tas ad non esse, materia permanet. Formae vero sicut ex
+          po<lb ed="#V" n="10" break="no"/>tentia materiae educuntur in actum in rerum generatione,
+          <lb ed="#V" n="11"/>ita in corruptione de actu reducuntur in hoc, quod sint in
+          <lb ed="#V" n="12"/>potentia. Vnde relinquitur quod in tota natura creata non
+          <lb ed="#V" n="13"/>est aliqua potentia, per quam aliquid sit possibile cedere
+          <lb ed="#V" n="14"/>in nihilum. Haec ille in forma.
+        </p>
+        <p xml:id="capsco-a1vbjx-d1e848">
+          Eandem conclusionem
+          te<lb ed="#V" n="15" break="no"/>net prima parte. q. 104. arti. 4. vbi sic ait. Creaturae vel sunt
+          <lb ed="#V" n="16"/>immateriales, &amp; sic in eis non est potentia ad non esse, vel
+          <lb ed="#V" n="17"/>sunt materiales, &amp; sic saltem semper remanent secundum
+          <lb ed="#V" n="18"/>materiam, quae incorruptibilis est, vtpote subiectum
+          gene<lb ed="#V" n="19" break="no"/>rationis existens. Haec ille.
+        </p>
+        <p xml:id="capsco-a1vbjx-d1e861">
+          Et si arguatur de accidentibus,
+          <lb ed="#V" n="20"/>quae non habent materiam partem sui, &amp; tamen
+          quando<lb ed="#V" n="21" break="no"/>que desinunt esse, &amp; sic videntur annihilari. Respondet
+          <lb ed="#V" n="22"/>ibidem ad tertium, quod formae, &amp; accidentia non sunt
+          <lb ed="#V" n="23"/>entia completa, cum non subsistant: quia quodlibet eorum
+          <lb ed="#V" n="24"/>est aliquid entis, sic enim ens dicitur: quia eo aliquid est,
+          <lb ed="#V" n="25"/>&amp; tamen eo modo quo sunt, non omnino in nihilum
+          redi<lb ed="#V" n="26" break="no"/>guntur, non quia aliqua pars eorum remanet, sed tamen
+          <lb ed="#V" n="27"/>remanent in potentia materiae vel subiecti. Haec ille.
+        </p>
+        <p xml:id="capsco-a1vbjx-d1e881">
+          Idem
+          <lb ed="#V" n="28"/>dicit de potentia Dei q. 15. artic. 4. ad 9. Et si obiiciatur de
+          <lb ed="#V" n="29"/>gratia &amp; charitate, quae desinunt esse, &amp; tamen nec earum
+          <lb ed="#V" n="30"/>remanet aliqua pars, nec remanent in potentia materiae,
+          <lb ed="#V" n="31"/>vel subiecti, de quo possint educi. Respondet ipse in de
+          vir<lb ed="#V" n="32" break="no"/>tutibus q. de charitate, quae est secunda quaestio illius libri
+          <lb ed="#V" n="33"/>art. 12. ad 21. ait enim sic. Charitas proprie loquendo non
+          <lb ed="#V" n="34"/>corrumpitur, sed subiectum desinit participare charitatem:
+          <lb ed="#V" n="35"/>vnde non proprie dicitur quod charitas corrumpatur in
+          <lb ed="#V" n="36"/>aliquid vel in nihilum. Haec ille.
+        </p>
+        <p xml:id="capsco-a1vbjx-d1e903">
+          Quarta conclusio est haec.
+          <lb ed="#V" n="37"/>Omnis creatura subsistens est mutabilis secundum esse
+          ac<lb ed="#V" n="38" break="no"/>cidentale per potentiam, quae est in ipsa, probatur
+          conclu<lb ed="#V" n="39" break="no"/>sio. quantum ad omnia corporalia patet: quia possunt
+          mu<lb ed="#V" n="40" break="no"/>tari localiter, patet etiam de substantiis incorporeis: quia
+          <lb ed="#V" n="41"/>habent potentiam ad hoc quod mutentur secundum
+          lo<lb ed="#V" n="42" break="no"/>cum, &amp; secundum electionem, vt ponit Sanctus Thomas prima
+          par<lb ed="#V" n="43" break="no"/>te. q. 9. arti. 2. Et primo sententiarum vbi supra.
+        </p>
+        <p xml:id="capsco-a1vbjx-d1e922">
+          Sed contra
+          <lb ed="#V" n="44"/>secundam conclusionem arguit Aureolus in secunda. q.
+          hu<lb ed="#V" n="45" break="no"/>ius distinctionis multipliciter. Primo sic. Quod in se est
+          im<lb ed="#V" n="46" break="no"/>possibile, nulli potentiae est possibile, alioquin
+          impossibi<lb ed="#V" n="47" break="no"/>le fieret possibile, sed si substantiae abstractae non sunt
+          pos<lb ed="#V" n="48" break="no"/>sibiles non esse in se, sequitur quod sint impossibiles non
+          <lb ed="#V" n="49"/>esse in se, aequipollent enim non possibile, &amp; impossibile.
+          <lb ed="#V" n="50"/>non ergo substantiae abstractae per nullam potentiam erunt
+          <lb ed="#V" n="51"/>possibiles non esse, &amp; per consequens annihilari non
+          pos<lb ed="#V" n="52" break="no"/>sunt, quod repugnat fidei veritati. Et confirmatur. Quia
+          <lb ed="#V" n="53"/>Commentator expresse dicit primo coeli &amp; mundi.
+          com<lb ed="#V" n="54" break="no"/>men. 124. quod concessum est ab omnibus &amp; per se notum,
+          <lb ed="#V" n="55"/>impossibile in se esse impossibile secundum extrinsecum.
+        </p>
+        <p xml:id="capsco-a1vbjx-d1e951">
+          <lb ed="#V" n="56"/>Secundo sic. Omne contentum sub aliquo clauditur
+          secun<lb ed="#V" n="57" break="no"/>dum se, &amp; absolute sub aliqua differentiarum diuidentium
+          <lb ed="#V" n="58"/>illud, sub quo continetur, sicut homo continetur sub
+          ratio<lb ed="#V" n="59" break="no"/>nali, &amp; omnis species animalis continetur sub rationali
+          <lb ed="#V" n="60"/>vel irrationali. Sed Auicenna dicit primo Metaphysic. quod
+          <lb ed="#V" n="61"/>ens diuiditur per necesse esse &amp; possibile, constat autem
+          <lb ed="#V" n="62"/>quod substantiae separatae non continentur sub necesse
+          es<lb ed="#V" n="63" break="no"/>se. Tum quia ipse probat ibi, quod non est nisi vnum
+          ne<lb ed="#V" n="64" break="no"/>cesse esse. Tum quia demonstrat ibidem, quod necesse
+          es<lb ed="#V" n="65" break="no"/>se non habet causam sui esse, sicut habent substantiae
+          sepa<lb ed="#V" n="66" break="no"/>ratae. Tum quia quod est necesse esse in se, per nullam
+          po<lb ed="#V" n="67" break="no"/>tentiam immutari potest: quia enim forte sedente
+          neces<lb ed="#V" n="68" break="no"/>sarium est sortem sedere, Deus non potest oppositum
+          face<lb ed="#V" n="69" break="no"/>re, &amp; simile est de omni necessario. Tum quia Deus vnum
+          <lb ed="#V" n="70"/>contradictorium in aliud mutare non potest, necessarium
+          <lb ed="#V" n="71"/>autem, &amp; possibile non esse sunt contradictoria, facit autem
+          <lb ed="#V" n="72"/>Deus intelligentias abstractas non esse, &amp; ita non erunt
+          <lb ed="#V" n="73"/>necesse esse. ergo substantiae abstractae in se &amp; absolute
+          con<lb ed="#V" n="74" break="no"/>sideratae continentur sub possibili esse &amp; non esse. Tertio
+          <lb ed="#V" n="75"/>sic. Haec est diffinitio possibilis, quam ponit Algazel quod
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="76"/>possibile est illud quod ex alio habet esse, &amp; eo non
+          exi<lb ed="#V" n="77" break="no"/>stente non habet esse. Ex quo colligitur, quod ratio
+          diffi<lb ed="#V" n="78" break="no"/>nitiua possibilis abstrahit ab esse &amp; non esse, nec
+          determi<lb ed="#V" n="79" break="no"/>nat sibi esse, quae omnia competunt substantiis separatis
+          se<lb ed="#V" n="80" break="no"/>cundum se &amp; absolute consideratis: vnde potest sic argui,
+          <lb ed="#V" n="81"/>Quod inest alicui secundum suam diffinitiuam rationem
+          <lb ed="#V" n="82"/>etiam omni alio circunscripto inest. igitur secundum se,
+          <lb ed="#V" n="83"/>&amp; absolute sed posse esse &amp; non esse inest substantiis
+          intel<lb ed="#V" n="84" break="no"/>lectualibus abstractis secundum quidditatiuam rationem,
+          <lb ed="#V" n="85"/>quae est indifferens ad esse, &amp; non esse. ergo possibilitas
+          in<lb ed="#V" n="86" break="no"/>est eis ex se, &amp; non per respectum ad potentiam agentis
+          <lb ed="#V" n="87"/>primi.
+        </p>
+        <p xml:id="capsco-a1vbjx-d1e1025">
+          Quarto sic. Sicut est de aliis necessariis, sic est de
+          <lb ed="#V" n="88"/>esse necessario, sed aliae proprietates necessariae per diuinam
+          <lb ed="#V" n="89"/>potentiam tolli non possunt, non enim potest triangulus
+          <lb ed="#V" n="90"/>amittere tres angulos, nec diameter fieri
+          commensurabi<lb ed="#V" n="91" break="no"/>lis per diuinam potentiam, constat autem quod esse
+          sub<lb ed="#V" n="92" break="no"/>stantiarum abstractarum tolli potest &amp; annihilari, non sunt
+          <lb ed="#V" n="93"/>necesse in essendo, immo possibiles esse &amp; non esse
+          quan<lb ed="#V" n="94" break="no"/>tum est ex se. Quinto sic. Sicut se habet possibile
+          comple<lb ed="#V" n="95" break="no"/>xum ad compositum, sic possibile incomplexum ad
+          sim<lb ed="#V" n="96" break="no"/>plicem entitatem: possibile enim, &amp; impossibile sunt
+          con<lb ed="#V" n="97" break="no"/>ditiones alicuius complexi, vt sortem currere est
+          possibi<lb ed="#V" n="98" break="no"/>le &amp; incomplexum, sortes enim est quoddam possibile. Et
+          <lb ed="#V" n="99"/>confirmatur per hoc quod necessarium non solum
+          consi<lb ed="#V" n="100" break="no"/>stit incomplexione vt hominem esse animal est necessarium,
+          <lb ed="#V" n="101"/>immo in incomplexo, Deus enim est quoddam
+          necessa<lb ed="#V" n="102" break="no"/>rium incomplexum, constat autem quod possibile
+          com<lb ed="#V" n="103" break="no"/>plexum dicitur absolute, &amp; in se non per respectum ad
+          ali<lb ed="#V" n="104" break="no"/>quid agens, non enim est possibile sortem currere propter
+          <lb ed="#V" n="105"/>potentiam cadentem super cursum, sed quia in se
+          possibi<lb ed="#V" n="106" break="no"/>le est. ergo possibile incomplexum &amp; huiusmodi omnis
+          <lb ed="#V" n="107"/>creatura non dicetur potentialis propter aliquam
+          poten<lb ed="#V" n="108" break="no"/>tiam possibilem cadentem super ipsum. immo in se, &amp;
+          ab<lb ed="#V" n="109" break="no"/>solute, &amp; ita substantiae abstractae in se consideratae sunt
+          <lb ed="#V" n="110"/>possibiles non esse.
+        </p>
+        <p xml:id="capsco-a1vbjx-d1e1077">
+          Sexto sic. De quacunque re simplici
+          <lb ed="#V" n="111"/>possunt formari duo conceptus habentes connexionem
+          con<lb ed="#V" n="112" break="no"/>tingentem non necessariam, illud tale dicitur contingens
+          <lb ed="#V" n="113"/>in ordine ad illam complexionem, per oppositum enim si
+          <lb ed="#V" n="114"/>formentur conceptus, quorum complexio est necessaria,
+          <lb ed="#V" n="115"/>illud est necessarium, vt patet, quod quia de sorte
+          forma<lb ed="#V" n="116" break="no"/>tur conceptus animalis &amp; substantiae, conceptus autem
+          ani<lb ed="#V" n="117" break="no"/>malis &amp; substantiae necessario conuertuntur, &amp; ideo
+          for<lb ed="#V" n="118" break="no"/>tem est necesse esse in ordine ad hominem &amp; animal. Ista
+          <lb ed="#V" n="119"/>quippe necessaria est, sortes est homo &amp; sortes est animal,
+          <lb ed="#V" n="120"/>sed constat quod cum sit conceptus essentiae, &amp; iterum
+          for<lb ed="#V" n="121" break="no"/>mae fluentis siue operationis, &amp; actus qui est conceptus
+          es<lb ed="#V" n="122" break="no"/>se, inter istos autem duos conceptus non est connexio
+          ne<lb ed="#V" n="123" break="no"/>cessaria, immo contingens, essentia enim cuiuslibet
+          creatu<lb ed="#V" n="124" break="no"/>rae contingenter respicit esse &amp; non esse. ergo nihil est dictum
+          <lb ed="#V" n="125"/>quin omnes creaturae, &amp; substantiae separatae in seipsis sint
+          <lb ed="#V" n="126"/>possibiles esse &amp; non esse ac defectibiles.
+        </p>
+        <p xml:id="capsco-a1vbjx-d1e1114">
+          Septimo sic. Quod
+          <lb ed="#V" n="127"/>inest alicui ex conditione suae naturae, inest sibi absolute, nec
+          <lb ed="#V" n="128"/>per comparationem ad aliquod agens, sed Augustinus dicit de
+          <lb ed="#V" n="129"/>fide ad Petrum. cap. 10. Quia naturas a Deo factas ad
+          de<lb ed="#V" n="130" break="no"/>fectum ducit natura originis. Et in lib. de vera religione
+          <lb ed="#V" n="131"/>ait. Quia creaturae mutabiles sunt: quia non summae sunt,
+          <lb ed="#V" n="132"/>&amp; determinat quod omne quod incipit finitur secundum
+          <lb ed="#V" n="133"/>naturam. ergo absolute &amp; secundum se substantiae
+          abstra<lb ed="#V" n="134" break="no"/>ctae sunt defectibiles &amp; possibiles non esse.
+        </p>
+        <p xml:id="capsco-a1vbjx-d1e1134">
+          Octauo sic. Aut
+          <lb ed="#V" n="135"/>substantiae abstractae a Deo manutenentur: quia sunt
+          de<lb ed="#V" n="136" break="no"/>fectibiles in se, aut quia non sunt defectibiles in se. Non
+          <lb ed="#V" n="137"/>potest dici secundum, quod enim non est defectibile in se
+          <lb ed="#V" n="138"/>non indiget manutenente, cum possit permanere per se.
+          <lb ed="#V" n="139"/>ergo necesse est, quod detur primum, scilicet quod sint
+          <lb ed="#V" n="140"/>defectibiles in seipsis, &amp; per consequens possibiles non
+          es<lb ed="#V" n="141" break="no"/>se. sic ergo impossibile est poni, quod substantiae separatae
+          <lb ed="#V" n="142"/>sint necessariae, aut incommutabiles in esse substantiali
+          <lb ed="#V" n="143"/>quantum est ex se, &amp; quod sint solum mutabiles per
+          poten<lb ed="#V" n="144" break="no"/>tiam Dei agentis, nisi haec esset natura earum intrinsece
+          <lb ed="#V" n="145"/>Deus ipsas annihilare non posset: vnde necesse est, quod
+          <lb ed="#V" n="146"/>natura earum non det eis quod sint semper, sed quod sint
+          <lb ed="#V" n="147"/>aliquando, &amp; aliquando non, secundum voluntatem Dei
+          <lb ed="#V" n="148"/>producentis: ita quod voluntas non dat quod sint
+          possi<lb ed="#V" n="149" break="no"/>biles, sed quia natura earum est talis, vt docet Philosophus
+          <lb ed="#V" n="150"/>primo coeli &amp; mundi. Haec sunt argumenta eius in forma.
+        </p>
+        <p xml:id="capsco-a1vbjx-d1e1172">
+          <pb ed="#V" n="225"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/><milestone ed="#V" unit="p" rend="indent"/> Pro quorum responsione praemitto, quod possibile &amp;
+          im<lb ed="#V" n="2" break="no"/>possibile dicuntur tripliciter. Vno modo secundum aliquam
+          po<lb ed="#V" n="3" break="no"/>tentiam actiuam vel passiuam sicut dicitur homini
+          possi<lb ed="#V" n="4" break="no"/>bile ambulare secundum potentiam gressiuam. volare vero
+          im<lb ed="#V" n="5" break="no"/>possibile. Alio modo non secundum aliquam potentiam,
+          <lb ed="#V" n="6"/>sed secundum seipsum, sicut dicimus, possibile illud, quod non
+          <lb ed="#V" n="7"/>est impossibile esse, &amp; illud dicimus impossibile quod
+          ne<lb ed="#V" n="8" break="no"/>cesse est non esse. Tertio modo dicitur possibile secundum
+          poten<lb ed="#V" n="9" break="no"/>tiam mathematicam, quae est in geometricis prout dicitur
+          <lb ed="#V" n="10"/>linea potentia commensurabilis: quia quadratum eius est
+          <lb ed="#V" n="11"/>commensurabile. Hoc autem possibili praetermisso circa alia
+          <lb ed="#V" n="12"/>duo considerandum est, quod imposs: bile quod dicitur
+          secun<lb ed="#V" n="13" break="no"/>dum nullam potentiam, sed secundum se primum dicitur
+          ratio<lb ed="#V" n="14" break="no"/>ne discohaerentiae terminorum, omnis autem terminorum
+          di<lb ed="#V" n="15" break="no"/>scoh aerentia est ratione alicuius oppositionis. In omni autem
+          <lb ed="#V" n="16"/>oppositione includitur affirmatio &amp; negatio, vt probatur,
+          <lb ed="#V" n="17"/>10. Meta. Vnde in omni tali impossibili causatur
+          affirma<lb ed="#V" n="18" break="no"/>tionem &amp; negationem esse simul, hoc autem nullius actiuae
+          <lb ed="#V" n="19"/>potentiae est: quia actio potentiae actiuae semper
+          termina<lb ed="#V" n="20" break="no"/>tur ad esse, &amp; si enim aliquando fit per actionem non esse, vt
+          <lb ed="#V" n="21"/>in corruptione patet, tamen hoc non est nisi inquantum esse
+          <lb ed="#V" n="22"/>vnius non compatitur esse alterius, sicut esse calidi non
+          com<lb ed="#V" n="23" break="no"/>patitur esse frigidi, &amp; ideo calor ex principali intentione
+          <lb ed="#V" n="24"/>generat calidum, sed si cotrumpat frigidum, hoc est ex
+          con<lb ed="#V" n="25" break="no"/>sequenti. hoc autem quod est affirmationem &amp; negationem esse
+          <lb ed="#V" n="26"/>simul rationem entis habere non potest, nec etiam non entis: quia
+          <lb ed="#V" n="27"/>esse tollit non esse, &amp; non esse tollit esse: vnde nec
+          princi<lb ed="#V" n="28" break="no"/>paliter, nec ex consequenti potest esse terminus alicuius
+          po<lb ed="#V" n="29" break="no"/>tentiae actiuae. Impossibile vero quod dicitur secundum aliquam
+          <lb ed="#V" n="30"/>potentiam potest dupliciter attendi. Vno modo propter
+          de<lb ed="#V" n="31" break="no"/>fectum potentiae ex seipsa: quia videlicet ad illum effectum
+          <lb ed="#V" n="32"/>non potest se extendere, vtpote quando non potest agens naturale
+          <lb ed="#V" n="33"/>transmutare aliquam materiam. Alio modo peropoer aliquod
+          <lb ed="#V" n="34"/>extrinsecum, vtpote cum potentia alicuius impeditur, vel
+          <lb ed="#V" n="35"/>ligatur. Sic ergo aliquid dicitur impossibile fieri
+          triplici<lb ed="#V" n="36" break="no"/>ter. Vno modopp defectum potentiae actiuae, siue in
+          trans<lb ed="#V" n="37" break="no"/>mutando materiam, siue in quocunque alio. Alio modo
+          <lb ed="#V" n="38"/>propter aliquod resistens vel impediens. Tertio modo peroper
+          <lb ed="#V" n="39"/>hoc quod illud quod dicitur impossibile fieri non potest esse
+          ter<lb ed="#V" n="40" break="no"/>minus actionis. Ista distinctio in forma est Sancti Doctoris de
+          po<lb ed="#V" n="41" break="no"/>tentia Dei. q. 1. artic. 3.
+        </p>
+        <p xml:id="capsco-a1vbjx-d1e1269">
+          Item. q. 3. arti. 14. Eandem ponit quo
+          <lb ed="#V" n="42"/>ad duo prima mebra prima parte. q. 25. art. 3. Dicit enim
+          Ali<lb ed="#V" n="43" break="no"/>quid dicitur possibile dupliciter. Vnomodo p respectum
+          <lb ed="#V" n="44"/>ad aliquam potentiam. Secundo modo aliquid dicitur
+          <lb ed="#V" n="45"/>possibile absolute ex habitudine terminorum: quia
+          prae<lb ed="#V" n="46" break="no"/>d catum non repugnat subiecto, &amp; dicit quod eodem modo
+          <lb ed="#V" n="47"/>est duplex impossibile oppositum duplici possibili. Idem
+          <lb ed="#V" n="48"/>ponit. q. 46. ar. 1.
+        </p>
+        <p xml:id="capsco-a1vbjx-d1e1287">
+          Ad primum. Item primo sen. dis. 42. ar. 3.
+          <lb ed="#V" n="49"/>Secundo praemitto, quod iudicium de possibili &amp; impossibili
+          <lb ed="#V" n="50"/>potest dupliciter considerari. vno modo ex parte
+          iudican<lb ed="#V" n="51" break="no"/>tium. aliomodo ex parte eius, de quo iudicatur. Quantum
+          <lb ed="#V" n="52"/>ad primum sciendum, quod si sunt duae scientiae, quarum vna
+          <lb ed="#V" n="53"/>considerat causas altiores, &amp; alia minus altas, iudicium in
+          <lb ed="#V" n="54"/>vtraque non eodem modo sumetur, sed secundum causas, quas
+          <lb ed="#V" n="55"/>vtraque considerat, vt patet in medico &amp; astrologo, quorum
+          <lb ed="#V" n="56"/>astrologus considerat causas supremas, medicus autem
+          cau<lb ed="#V" n="57" break="no"/>sas proximas: vnde medicus dabit iudicium de sanitate,
+          <lb ed="#V" n="58"/>vel morte infi mi secundum causas proximas, 1. secundum
+          virtu<lb ed="#V" n="59" break="no"/>tem naturae, astrologus autem secundum causas remotas scilicet
+          secun<lb ed="#V" n="60" break="no"/>dum proportionem siderum. Eodem modo est in
+          propo<lb ed="#V" n="61" break="no"/>sito. Est enim duplex sapientia scilicet mundana, quae dicitur
+          Dhilo<lb ed="#V" n="62" break="no"/>sophia, quae considerat causas inferiores scilicet creatas, &amp; secundum
+          <lb ed="#V" n="63"/>eas indicat, &amp; diuina quae dicitur theologia, quae
+          conside<lb ed="#V" n="64" break="no"/>rat causas superiores. 1. diuinas secundum quas indicat. Dicuntur
+          <lb ed="#V" n="65"/>autem causae superiores diuina attributa, vt sapientia,
+          boni<lb ed="#V" n="66" break="no"/>tas, voluntas diuina &amp; humtmsodi. tunc sic loquendo de
+          possibi<lb ed="#V" n="67" break="no"/>li &amp; impossibili per respectum ad aliquam potentiam
+          ali<lb ed="#V" n="68" break="no"/>quis effectus possibilis vel impossibilis iudicatur a
+          theolo<lb ed="#V" n="69" break="no"/>go secundum causas superiores, secundum autemiudicium Philosophi
+          di<lb ed="#V" n="70" break="no"/>citur possibilis vel impossibilis secundum causas inferiores. Si
+          au<lb ed="#V" n="71" break="no"/>tem consideretur istud iudicium quantum ad naturam eius,
+          <lb ed="#V" n="72"/>de quo iudicatur, sic patet quod effectus debent iudicari
+          pos<lb ed="#V" n="73" break="no"/>sibiles vel impossibiles secundum causas proximas, &amp;
+          de<lb ed="#V" n="74" break="no"/>terminatas quas praecipue defectus imitantur, &amp; ideo secundum
+          <lb ed="#V" n="75"/>eas praecipue iudicium de affectibus sumitur, quod patet
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="76"/>per simile de potentia passiua: nam materia non dicitur
+          <lb ed="#V" n="77"/>proprie loquendo in potentia ad aliquid, quae est remota,
+          <lb ed="#V" n="78"/>sicut terra ad scyphum, sed quae est propinqua vno
+          moto<lb ed="#V" n="79" break="no"/>re potens exire in actum, vt patet per Philosophum..
+          Me<lb ed="#V" n="80" break="no"/>taphysic sicut aurum est potentia scyphus sola arte
+          educen<lb ed="#V" n="81" break="no"/>te in actum, &amp; similiter effectus inquantum est ex sui
+          natu<lb ed="#V" n="82" break="no"/>ra non nisi a propinquis causis possibiles vel impossibiles
+          <lb ed="#V" n="83"/>dicuntur. Istam distinctionem in forma ponit Sanctus Thomas de
+          <lb ed="#V" n="84"/>potentia Dei. q. 1. art. 4. &amp; primo sen. dist. 42. arti 3.
+        </p>
+        <p xml:id="capsco-a1vbjx-d1e1370">
+          Tertio
+          <lb ed="#V" n="85"/>praemitto, quod necessitas multipliciter dicitur, necesse enim est
+          <lb ed="#V" n="86"/>quod non potest non esse, quod quidem conuenit alicui vno
+          <lb ed="#V" n="87"/>modo ex principio intrinseco, &amp; hoc siue materiali, sicut
+          <lb ed="#V" n="88"/>dicimus quod omne compositum ex contrariis necesse est
+          cor<lb ed="#V" n="89" break="no"/>rumpi, siue formali, sicut dicimus quod necessarium est
+          trian<lb ed="#V" n="90" break="no"/>gulum habere tres angulos aequales duobus rectis, &amp; haec
+          <lb ed="#V" n="91"/>nec eietitas est naturalis &amp; absoluta. Alio modo conuenit
+          <lb ed="#V" n="92"/>alicui quod non possit non esse ex aliquo extrinseco, vel
+          <lb ed="#V" n="93"/>fine, vel agente. Fine quidem sicut cum aliquis sine hoc non
+          <lb ed="#V" n="94"/>potest consequi aliquem finem, vt cibus dicitur necessarius
+          <lb ed="#V" n="95"/>ad vitam, &amp; equus ad iter, &amp; haec vocatur necessitas finis,
+          <lb ed="#V" n="96"/>quae interdum etiam dicitur vtilitas, ex agente autem hoc
+          <lb ed="#V" n="97"/>alicui conuenit, sicut cum aliquis cogitur ex aliquo
+          agen<lb ed="#V" n="98" break="no"/>te, ita quod non possit contrarium agere, &amp; haec vocatur
+          ne<lb ed="#V" n="99" break="no"/>cessitas coactionis. Hanc distinctionem ponit Sanctus Doctor
+          pri<lb ed="#V" n="100" break="no"/>ma parte. q. 82. artic. 1.
+        </p>
+        <p xml:id="capsco-a1vbjx-d1e1407">
+          Item 1. sent. dist. 6. q. 1. artic. 1. Item
+          <lb ed="#V" n="101"/>2. sen. dis. 29. q. 1. arti. 1. Item 4 sen. dis. 7. q. 1. ar. 1. quaestiun. 2.
+          <lb ed="#V" n="102"/>Idem de veritate. q. 22. art. 5. &amp; q. 23. art. 4. ad primum. Item
+          <lb ed="#V" n="103"/>contra Gentiles lib. 1. c. 19. Quarto praemitto, quod necessarium
+          <lb ed="#V" n="104"/>absolute dicitur aliquid dupliciter. Vno modo quia est necessarium
+          <lb ed="#V" n="105"/>p illud, quod in essentia sua est, siue illud sit ipsa essent. a,
+          si<lb ed="#V" n="106" break="no"/>cut insimplicibus, siue illud sit materia vel forma, &amp; isto
+          <lb ed="#V" n="107"/>modo accipit Sanctus Doctor necessarium absolute, &amp; mpliciter
+          <lb ed="#V" n="108"/>1. sent. distin. 6. q. 1. artic. 1. vbi dat dictam deseriptionem
+          <lb ed="#V" n="109"/>necessarii absolute. Item secundo sent. dist. 29. q. 1. artic. 1.
+          <lb ed="#V" n="110"/>vbi dicit, quod necessitas absoluta est illa, quae est ex
+          prio<lb ed="#V" n="111" break="no"/>ribus causis vt ex materiali vel formali. Item secundo
+          con<lb ed="#V" n="112" break="no"/>tra Gentiles. capitulo. 29. Item prima parte. q. 82. artic. 1.
+          <lb ed="#V" n="113"/>Alio modo dicitur aliquid necessarium absolute, &amp;
+          sim<lb ed="#V" n="114" break="no"/>pliciter propter habitudinem adinuicem terminorum, quae
+          <lb ed="#V" n="115"/>in aliqua propositione ponuntur, sicut hominem esse
+          ani<lb ed="#V" n="116" break="no"/>mal, &amp; omne totum est maius sua parte, &amp; isto modo
+          acci<lb ed="#V" n="117" break="no"/>pit necessarium Sanctus Doctor. de veritate. q. 23. artic. 4.
+        </p>
+        <p xml:id="capsco-a1vbjx-d1e1446">
+          <lb ed="#V" n="118"/>Ad primum, &amp; prima parte. q. 19. artic. 3. vbi ait.
+          Necessa<lb ed="#V" n="119" break="no"/>rium absolute iudicatur ex habitudine terminorum,
+          vtpo<lb ed="#V" n="120" break="no"/>te, quia praedicatum est in diffinitione subiecti, sicut
+          ne<lb ed="#V" n="121" break="no"/>cessarium est hoiem esse animal, vel quia subiectum est de
+          <lb ed="#V" n="122"/>ratione praedicati, sicut hoc est necessarium, numerum esse
+          pa<lb ed="#V" n="123" break="no"/>rem vel imparem. Haec ille.
+        </p>
+        <p xml:id="capsco-a1vbjx-d1e1463">
+          Ex quibus distinctionibus
+          vide<lb ed="#V" n="124" break="no"/>tur sequi primo. quod substantiam separatam non esse est vno
+          <lb ed="#V" n="125"/>modo possibile, &amp; alio modo non. Est inquam possibile
+          <lb ed="#V" n="126"/>secundo modo primae dist. quia scilicet non implicat
+          contradi<lb ed="#V" n="127" break="no"/>ctionem.
+        </p>
+        <p xml:id="capsco-a1vbjx-d1e1474">
+          Item est possibile secundum iudicium theologi, quia scilicet
+          <lb ed="#V" n="128"/>per potentiam causae superioris, vt fuit dictum in 2. dist. non
+          <lb ed="#V" n="129"/>est autem possibile secundo modo secundae dist. quantum ad
+          na<lb ed="#V" n="130" break="no"/>turam substantiae, ita quod in eis natura sit potentia ad non esse,
+          <lb ed="#V" n="131"/>non etiam est possibile secundum iudicium Philosophi, qui iudicat
+          <lb ed="#V" n="132"/>secundum causas inferiores, &amp; isto modo loquutus est Sanctus Doctor
+          <lb ed="#V" n="133"/>contra Genti. &amp; in multis aliis locis. Secundo sequitur, quod
+          <lb ed="#V" n="134"/>substantiam separatam non esse est impossibile vno
+          mo<lb ed="#V" n="135" break="no"/>do. &amp; alio modo non non est inquam impossibile
+          quasi<lb ed="#V" n="136" break="no"/>contradictionem implicans, nec per respectum ad
+          poten<lb ed="#V" n="137" break="no"/>tiam secundum quam iudicat theologus, sed est impossibile secundum
+          <lb ed="#V" n="138"/>naturam &amp; secundum iudicium Philosophi. Tertio sequitur, quod
+          <lb ed="#V" n="139"/>substantiam separatam esse est necessarium absolute, &amp;
+          sim<lb ed="#V" n="140" break="no"/>pliciter vno modo &amp; non alio modo. Est inquam necessarium
+          <lb ed="#V" n="141"/>primo modo quartae dist. sed non secundo modo eiusdem
+          <lb ed="#V" n="142"/>dist. quia licet sit necessarium isto modo: quia scilicet angelus est
+          for<lb ed="#V" n="143" break="no"/>ma subsistens, quae est propria potentia &amp; receptaculum
+          <lb ed="#V" n="144"/>ipsius esse existentiae, ita quod ea posita ponitur esse, tamen
+          <lb ed="#V" n="145"/>hoc complexum, substantia separata est vel actu existit, non
+          <lb ed="#V" n="146"/>est tale quod habeat necessariam habitudinem terminorum,
+          <lb ed="#V" n="147"/>ita quod vnum sit de ratione alterius, &amp; ideo non est illo
+          mo<lb ed="#V" n="148" break="no"/>do necessarium, quomodo est necessarium Deuin esse,
+          <lb ed="#V" n="149"/>vel hominem esse animal, vel triangulum habere &amp;c.
+        </p>
+        <p xml:id="capsco-a1vbjx-d1e1524">
+          <lb ed="#V" n="150"/><milestone ed="#V" unit="p" rend="indent"/> Quarto sequitur, quod ista propositio, substantia separata
+          <pb ed="#V" n="226"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>habet simpliciter &amp; absolute necesse esse, vno modo est
+          hae<lb ed="#V" n="2" break="no"/>retica. alio modo est vera &amp; catholica, sed quia ille sensus,
+          <lb ed="#V" n="3"/>quem habet dum est vera est magis Physicus quam
+          theolo<lb ed="#V" n="4" break="no"/>gicus, ideo theologi non libenter eam recipiunt: quia
+          sen<lb ed="#V" n="5" break="no"/>sum posset erroneum generare, sed tamen patet
+          quomo<lb ed="#V" n="6" break="no"/>do Sanctus Doctor sensum catholicum habuit in positione eius
+          <lb ed="#V" n="7"/>contra Genti. disputans, qui illo modo necessarium
+          acci<lb ed="#V" n="8" break="no"/>piunt, quo ipse vtitur. Tunc ad primum istorum
+          argumen<lb ed="#V" n="9" break="no"/>torum Aureoli dicitur distinguendo maiorem. Potest enim
+          <lb ed="#V" n="10"/>habere istum sensum, quod illud quod est impossibile in se, hoc
+          <lb ed="#V" n="11"/>est ex discohaerentia terminorum nulli est possibile, &amp; sic
+          <lb ed="#V" n="12"/>conceditur maior, sed minor sumpta sub maiore ad illum
+          <lb ed="#V" n="13"/>sensum negatur, potest autem habere alium sensum scilicet quod
+          il<lb ed="#V" n="14" break="no"/>lud quod est impossibile in se, hoc est secundum naturam rei vel
+          <lb ed="#V" n="15"/>causas proximas &amp; inferiores nulli est possibile, &amp; sic est
+          <lb ed="#V" n="16"/>maior falsa &amp; minor vera, vt patet per secundum
+          correla<lb ed="#V" n="17" break="no"/>rium.
+        </p>
+        <p xml:id="capsco-a1vbjx-d1e1571">
+          Ad confirmationem dicitur eodem modo. Ad secundum
+          <lb ed="#V" n="18"/>dicitur, quod substantiae separatae sunt necessariae eo modo quo
+          <lb ed="#V" n="19"/>dictum est in tertio &amp; quarto correlariis. Et ad primam
+          <lb ed="#V" n="20"/>probationem in oppositum dicitur secundum Sanctum Thomam de
+          poten<lb ed="#V" n="21" break="no"/>tia Dei q. 5. arti. 3. quod Auicenna fuit illius opinionis, sed
+          opi<lb ed="#V" n="22" break="no"/>nio Commentatoris in 11. Metaphysic. commento. 41. est
+          <lb ed="#V" n="23"/>in oppositum, &amp; videtur esse rationabilior Sancto Doctori. ideo
+          <lb ed="#V" n="24"/>dicitur, quod licet non sit nisi vnum necesse esse, quod habet
+          <lb ed="#V" n="25"/>necessitatem a se, tamen non est inconueniens esse alia, quae
+          <lb ed="#V" n="26"/>habent necessitatem essendi ab alio, vt dictum fuit in
+          se<lb ed="#V" n="27" break="no"/>cunda conclusione.
+        </p>
+        <p xml:id="capsco-a1vbjx-d1e1595">
+          Ad secundam probationem dicitur,
+          <lb ed="#V" n="28"/>quod Auicenna hoc non demonstrauit nisi ad sensum, qui
+          di<lb ed="#V" n="29" break="no"/>ctus est, si aliquid tamen demonstret.
+        </p>
+        <p xml:id="capsco-a1vbjx-d1e1602">
+          Ad tertiam dicitur,
+          <lb ed="#V" n="30"/>quod illud quod est necessarium secundo modo vltimae
+          distin<lb ed="#V" n="31" break="no"/>ctionis nullo modo potest mutari etiam a Deo, sed si sit
+          neces<lb ed="#V" n="32" break="no"/>sarium primo modo solum, non est inconueniens, vt patet
+          <lb ed="#V" n="33"/>per primam conclusionem.
+        </p>
+        <p xml:id="capsco-a1vbjx-d1e1614">
+          Ad quartam dicitur, quod
+          neces<lb ed="#V" n="34" break="no"/>se esse &amp; possibile non esse vno modo contradicunt, &amp; alio
+          <lb ed="#V" n="35"/>modo non, capiendo enim necesse esse secundo modo
+          distin<lb ed="#V" n="36" break="no"/>ctionis vltimae, tunc contradicit huic quod est possibile non
+          <lb ed="#V" n="37"/>esse, sed capiendo necesse esse primo modo illius
+          distinctio<lb ed="#V" n="38" break="no"/>nis, vel secundo modo penultimae distinctionis non
+          con<lb ed="#V" n="39" break="no"/>tradicunt semper, vt per praedictas distinctiones patet. Ad
+          <lb ed="#V" n="40"/>tertium argumentum principale dicitur dupliciter. Primo
+          <lb ed="#V" n="41"/>quod Algazel fuit insecutor Auicennae, vt patet per Dominum
+          <lb ed="#V" n="42"/>Albertum in multis locis, &amp; ipsi eius libri testantur scicet
+          Alga<lb ed="#V" n="43" break="no"/>zelis, &amp; ideo dicitur quod ipse fuit illius opinionis, cuius
+          op<lb ed="#V" n="44" break="no"/>posita est verissimilior, vt dicit Sanctus Doctor. Aliter dicitur quod
+          <lb ed="#V" n="45"/>argumentum solum probat, quod substantia separata est de
+          <lb ed="#V" n="46"/>se possibilis esse, &amp; hoc conceditur. Sanctus Thomenim concedit
+          <lb ed="#V" n="47"/>vbique quod omnis creatura, quia habet esse a Deo est
+          poten<lb ed="#V" n="48" break="no"/>tialis ad esse, nec est suum esse, sed illud quod est in
+          poten<lb ed="#V" n="49" break="no"/>tia ad esse non oportet, quod sit in potentia ad non esse, ac per
+          <lb ed="#V" n="50"/>hoc tali possibili non repugnat necesse esse loquendo de
+          <lb ed="#V" n="51"/>necessario absolutissime dicto, de quo procedunt rationes
+          <lb ed="#V" n="52"/>Auicennae, &amp; est necessarium logicum oppositum, scilicet
+          <lb ed="#V" n="53"/>possibili non esse, vnde necessarium absolute logicum est
+          <lb ed="#V" n="54"/>cui repugnat ex terminis non esse, sed necessarium Meta.
+          <lb ed="#V" n="55"/>est quod non habet in se potentiam ad non esse. Aliter
+          di<lb ed="#V" n="56" break="no"/>citur quod ipse diffinit ibi possibile logicum, quod scilicet 8ancts Doctor
+          <lb ed="#V" n="57"/>vocat possibile simpliciter.
+        </p>
+        <p xml:id="capsco-a1vbjx-d1e1669">
+          Ad quartum dicitur, quod alio
+          mo<lb ed="#V" n="58" break="no"/>do substantia separata est necesse esse quam illa de quibus
+          <lb ed="#V" n="59"/>arguens loquitur, vt patet in vltima distinctione: quia
+          ta<lb ed="#V" n="60" break="no"/>lia complexa sunt necessaria simpliciter, &amp; absolute
+          logi<lb ed="#V" n="61" break="no"/>ce loquendo, non solum Metaphysice, sed substantia
+          sepa<lb ed="#V" n="62" break="no"/>rata solummodo est necesse esse absolute Metaphysic. Ad
+          <lb ed="#V" n="63"/>quintum dicitur, quod fundamentum illius argumenti
+          expres<lb ed="#V" n="64" break="no"/>se est contra Philosophum 5. Metaphysi. commento. 4. vbi
+          <lb ed="#V" n="65"/>ponit distinctionem primam, quam arguens nititur
+          de<lb ed="#V" n="66" break="no"/>struere, &amp; ideo praeterea minor est falsa, quia mundum
+          <lb ed="#V" n="67"/>esse fuit possibile per potentiam Dei ante mundi
+          creatio<lb ed="#V" n="68" break="no"/>nem, licet mundum esse sit complexum. Item maior istius
+          <lb ed="#V" n="69"/>argumenti nullam habet apparentiam, secus enim est de
+          com<lb ed="#V" n="70" break="no"/>plexo quod non est directe terminus actionis alicuius
+          po<lb ed="#V" n="71" break="no"/>tentiae, &amp; secus est de incomplexo.
+        </p>
+        <p xml:id="capsco-a1vbjx-d1e1702">
+          Ad sextum dicitur, quod
+          <lb ed="#V" n="72"/>solum probat, quod substantia separata non habeat necesse esse
+          <lb ed="#V" n="73"/>secundo modo vltimae distinctionis, &amp; hoc conceditur,
+          <lb ed="#V" n="74"/>si enim intendat excludere aliam necessitatem negatur maior
+          ar<lb ed="#V" n="75" break="no"/>gumenti.
+        </p>
+        <p xml:id="capsco-a1vbjx-d1e1713">
+          Ad septimum conceditur maior, sed ad minorem
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="76"/>dicitur, quod Augustinus intelligit, quod quia creaturae natura est ex
+          ni<lb ed="#V" n="77" break="no"/>hilo, potest redigi in nihilum, vtrunque tamen est per potentiam
+          <lb ed="#V" n="78"/>creatoris, &amp; non creaturae, vt dictum est in secunda
+          conclu<lb ed="#V" n="79" break="no"/>sione, sed intelligit quod natura creaturae cuiuslibet habet
+          po<lb ed="#V" n="80" break="no"/>tentiam ad non esse. Eodem modo dicitur ad secundam
+          <lb ed="#V" n="81"/>auctoritatem.
+        </p>
+        <p xml:id="capsco-a1vbjx-d1e1731">
+          Ad octauum dicitur, quod substantiae separatae
+          <lb ed="#V" n="82"/>manutenentur a Deo, &amp; indigent manutenentia licet sint
+          <lb ed="#V" n="83"/>indefectibiles in se, hoc est per potentiam intrinsecam. Et
+          <lb ed="#V" n="84"/>cum dicitur: quia quod non est defectibile in se &amp;c. Dico
+          <lb ed="#V" n="85"/>quod aliquid esse indefectibile in se dicitur dupliciter. Vno
+          <lb ed="#V" n="86"/>modo quia ipsum deficere implicat contradictionem, sicut
+          <lb ed="#V" n="87"/>Deus est isto modo indefectibilis, &amp; tale non indiget
+          ma<lb ed="#V" n="88" break="no"/>nutenente Alio modo quia in se non habet principium
+          <lb ed="#V" n="89"/>deficiendi, licet ab extra sit causa potens ipsum facere
+          defi<lb ed="#V" n="90" break="no"/>cere, &amp; isto modo substantiae separatae sunt indefectibiles,
+          <lb ed="#V" n="91"/>sed taliter indefectibile indiget alio conseruante non
+          for<lb ed="#V" n="92" break="no"/>maliter sed effectiue. Et huius causa est: quia
+          indefectibi<lb ed="#V" n="93" break="no"/>le primo modo est proprie &amp; principalissime
+          indefectibi<lb ed="#V" n="94" break="no"/>le, &amp; ideo oportet, quod omne indeficiens sit indeficiens
+          <lb ed="#V" n="95"/>per participationem &amp; actionem eius. Sicut igitur
+          cessan<lb ed="#V" n="96" break="no"/>te actione causae efficientis, quae agit per motum in ipso
+          in<lb ed="#V" n="97" break="no"/>stanti cessat fieri rerum generatarum, ita cessante actione
+          <lb ed="#V" n="98"/>agcutis incorporei cessat ipsum esse rerum ab eo
+          creata<lb ed="#V" n="99" break="no"/>rum sicut ait Sanctus Doctor de potentia Dei q. 5. art. 1. &amp; sic patet
+          <lb ed="#V" n="100"/>quid dicendum ad argumenta. Nunc restat dicere ad
+          ra<lb ed="#V" n="101" break="no"/>tionem factam in pede quaestionis. Cum enim dicitur. Illud est
+          <lb ed="#V" n="102"/>&amp;c. Dicendum quod secundum Sanctum Thomam prima parte. q. 9. art. 2. ad
+          ter<lb ed="#V" n="103" break="no"/>tium. Formae dicuntur :nuariabiles: quia non possunt esse
+          <lb ed="#V" n="104"/>subiectum variationis, subiiciuntur tamen variationi inquantum
+          <lb ed="#V" n="105"/>subiectum secundum eas variatur. Vnde patet quod secundum quod sunt sic
+          va<lb ed="#V" n="106" break="no"/>riantur, non enim dicuntur entia quasi sint subiectum essendi, sed
+          <lb ed="#V" n="107"/>quia eis est aliquid. Haec ille in forma. Et eodem modo de
+          <lb ed="#V" n="108"/>motu &amp; mutatione. Et de ista quotdone haec dicta sufficiant,
+        </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

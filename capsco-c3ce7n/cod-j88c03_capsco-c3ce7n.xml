@@ -1,0 +1,951 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 3, Distinctio 15, Quaestio 1</title>
+        <author ref="#JohannesCapreolus">Johannes Capreolus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 3, Distinctio 15, Quaestio 1</title>
+          <date when="2026-11-04">Nov 4, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-j88c03">Venice, 1589, v. 3</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-04" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="134"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="capsco-c3ce7n"><!-- l3d15q1 -->
+        <head xml:id="capsco-c3ce7n-Hd1e101">Quaestio 1</head>
+        <head xml:id="capsco-c3ce7n-Hd1e103" type="question-title">Utrum ex omni potentia anima Christi praeservare appetitum sensitivum a dolore sensibili potuerit</head>
+        <p xml:id="capsco-c3ce7n-d1e106">
+          <pb ed="#V" n="134"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>DISTINCTIO. XV.
+          <lb ed="#V" n="2"/>QVAESTIO. VNICA.
+          <lb ed="#V" n="3"/>Vtrum ex omni potentia anima Christi
+          praeser<lb ed="#V" n="4" break="no"/>uare appetitum sensitiuum a dolore
+          <lb ed="#V" n="5"/>sensibili potuerit.
+        </p>
+        <p xml:id="capsco-c3ce7n-d1e124">
+          <lb ed="#V" n="6"/><milestone ed="#V" unit="p" rend="initial"/> CIRCA quintamdecimam
+          distinctio<lb ed="#V" n="7" break="no"/>nem tertij sententiarum quaeritur.
+          <lb ed="#V" n="8"/>Vtrum anima Christi ex sua
+          omnipo<lb ed="#V" n="9" break="no"/>tentia respectu proprij corporis
+          appe<lb ed="#V" n="10" break="no"/>titum sensitiuum a dolore sensibili
+          <lb ed="#V" n="11"/>praeseruare potuerit.
+        </p>
+        <p xml:id="capsco-c3ce7n-d1e141">
+          Et arguitur quod
+          <lb ed="#V" n="12"/>sic. Nam dicit Damasce. tertio libus quod
+          <lb ed="#V" n="13"/>omnia naturalia in Christo fuerunt voluntaria, volens enim
+          <lb ed="#V" n="14"/>esuriuit, volens sitiuit, volens timuit, volens mortuus est,
+          <lb ed="#V" n="15"/>sed ex hoc dicitur omnipotens, quia omnia illa quaecunque
+          <lb ed="#V" n="16"/>voluit fecit, ergo videtur, quod anima Christi habuit
+          om<lb ed="#V" n="17" break="no"/>nipotentiam respectu naturalium operationum proprij
+          <lb ed="#V" n="18"/>corporis, &amp; omnium passionum appetitus sensitiui.
+        </p>
+        <p xml:id="capsco-c3ce7n-d1e160">
+          <lb ed="#V" n="19"/><milestone ed="#V" unit="p" rend="indent"/> IN oppositum arguitur. Quia dicitur ad Hebre. quod
+          de<lb ed="#V" n="20" break="no"/>buit per omnia fratribus assimilari, &amp; praecipue in his qui
+          <lb ed="#V" n="21"/>pertinent ad conditionem humanae naturae, sed ad
+          condi<lb ed="#V" n="22" break="no"/>tionem humanae naturae pertinet, quod valetudo
+          corpo<lb ed="#V" n="23" break="no"/>ris, &amp; eius nutritio, &amp; augmentum, &amp; passiones appetitus
+          <lb ed="#V" n="24"/>sensitiui imperio rationis seu voluntatis non subdantur,
+          <lb ed="#V" n="25"/>quia naturalia soli Deo, qui est auctor naturae subduntur, et.
+          <lb ed="#V" n="26"/>go nec in Christo subdebantur. Non ergo anima
+          Christi<lb ed="#V" n="27" break="no"/>fuit omnipotens respectu proprij corporis, nec potuit illud
+          <lb ed="#V" n="28"/>ab omni dolore praeseruare.
+        </p>
+        <p xml:id="capsco-c3ce7n-d1e185">
+          <lb ed="#V" n="29"/><milestone ed="#V" unit="p" rend="indent"/> IN hac quaestione sunt tres articuli. In primo
+          ponen<lb ed="#V" n="30" break="no"/>tur conclusiones. In secundo obiectiones. In tertio
+          so<lb ed="#V" n="31" break="no"/>lutiones.
+        </p>
+        <div xml:id="capsco-c3ce7n-Dd1e195">
+          <head xml:id="capsco-c3ce7n-Hd1e197">Articulus 1</head>
+          <p xml:id="capsco-c3ce7n-d1e199">
+            <lb ed="#V" n="32"/><milestone ed="#V" unit="p" rend="initial"/> QVantum ad primum articulum sit prima conclusio.
+            <lb ed="#V" n="33"/>Anima Christi non habuit omnipotentiam
+            simplici<lb ed="#V" n="34" break="no"/>ter, nec respectu immutationis creaturarum, nec respectu
+            <lb ed="#V" n="35"/>proprii corporis. Huius conclusionis primam partem
+            po<lb ed="#V" n="36" break="no"/>nit Sanctus Thomas tertia parte q. 13. ar. 1. vbi sic dicit. In
+            mi<lb ed="#V" n="37" break="no"/>nisterio incarnationis ita vnio facta est in persona, quod
+            ta<lb ed="#V" n="38" break="no"/>men remansit distinctio naturarum, vtraque scilicet natura
+            reti<lb ed="#V" n="39" break="no"/>nente id, quod sibi est proprium. Potentia autem actiua
+            cu<lb ed="#V" n="40" break="no"/>iuslibet rei sequitur formam ipsius, quae est principium
+            age<lb ed="#V" n="41" break="no"/>di. Forma autem vel est ipsa natura rei sicut in simplicibus
+            <lb ed="#V" n="42"/>vel est constituens ipsam rei naturam, sicut in his quae sunt
+            <lb ed="#V" n="43"/>composita ex materia &amp; forma, vnde manifestum est, quod
+            <lb ed="#V" n="44"/>potentia actiua cuiuslibet rei consequitur naturam ipsius,
+            <lb ed="#V" n="45"/>&amp; per hunc modum omnipotentia consequitur, vel
+            conse<lb ed="#V" n="46" break="no"/>quenter se habet ad naturam diuinam, quia natura diuina
+            <lb ed="#V" n="47"/>est ipsum esse Dei incircumscriptum, vt patet per
+            Dyoni<lb ed="#V" n="48" break="no"/>sium cap. de diuinis no. Inde est quod habet potentiam
+            a<lb ed="#V" n="49" break="no"/>ctiuam respectu omnium, quae possuut habere rationem
+            en<lb ed="#V" n="50" break="no"/>tis, quod est habere omnipotentiam, sicut etiam quaelibet
+            <lb ed="#V" n="51"/>alia res habet potentiam actiuam respectu eorum, ad quae
+            <lb ed="#V" n="52"/>se extendit perfectio suae naturae sicut calidum ad
+            calefacien<lb ed="#V" n="53" break="no"/>dum, cum igitur anima Christi sit pars humanae naturae
+            im<lb ed="#V" n="54" break="no"/>possibile est, quod habeat omnipotentiam. Haec ille.
+          </p>
+          <p xml:id="capsco-c3ce7n-d1e252">
+            Ex
+            qui<lb ed="#V" n="55" break="no"/>bus potest formari talis ratio. Illud quod conuertibiliter
+            <lb ed="#V" n="56"/>&amp; adaequate consequitur diuinam naturam, non potest
+            con<lb ed="#V" n="57" break="no"/>uenire alicui naturae creatae, sed omnipotentia simpliciter
+            <lb ed="#V" n="58"/>dicta est huiusmodi, igitur &amp;c. Secundam vero partem
+            con<lb ed="#V" n="59" break="no"/>clusionis probat ibidem articulo secundo vbi sic dicit. Hic
+            <lb ed="#V" n="60"/>opus est duplici distinctione, quarum prima est ex parte
+            trans<lb ed="#V" n="61" break="no"/>mutationis creaturarum, quae triplex est, vna quidem est
+            na<lb ed="#V" n="62" break="no"/>turalis, quae scilicet sit a proprio agente secundum ordinem
+            natu<lb ed="#V" n="63" break="no"/>rae. Alia vero est miraculosa, quae fit ab agente
+            supernatu<lb ed="#V" n="64" break="no"/>rali supra consuetum ordinem, &amp; cursum naturae, sicut
+            resu<lb ed="#V" n="65" break="no"/>scitatio mortuorum. Tertia autem est secundum quod
+            <lb ed="#V" n="66"/>omnis creatura vertibilis est in nihil. Secunda autem
+            distin<lb ed="#V" n="67" break="no"/>ctio est accipienda ex parte animae Christi, qui potest
+            dupsi<lb ed="#V" n="68" break="no"/>citer considerari. Vno modo secundum propriam naturam
+            <lb ed="#V" n="69"/>&amp; virtutem, siue naturalem, siue gratuitam. Alio modo
+            p<lb ed="#V" n="70" break="no"/>ut est instrumentum verbi Dei sibi personaliter vniti. Si
+            er<cb ed="#V" n="b"/><lb ed="#V" n="71" break="no"/>go loquamur de anima Christi secundum propriam
+            natu<lb ed="#V" n="72" break="no"/>ram &amp; virtutem siue naturalem, siue gratuitam, sic dicitur
+            <lb ed="#V" n="73"/>quod potentiam habuit ad illos effectus faciendos, qui sunt
+            <lb ed="#V" n="74"/>animae conuenientes, puta ad gubernandum corpus, &amp; ad
+            <lb ed="#V" n="75"/>disponendum actus humanos, &amp; etiam ad illuminandum
+            <lb ed="#V" n="76"/>per gratiae &amp; scientiae plenitudinem omnes rationales
+            crea<lb ed="#V" n="77" break="no"/>turas ab eius perfectione deficientes per modum quo hoc
+            <lb ed="#V" n="78"/>est conueniens creaturae rationali. Si autem loquamur de
+            <lb ed="#V" n="79"/>anima Christi secundum quod est instrumentum verbi
+            si<lb ed="#V" n="80" break="no"/>bi vniti, sic habet virtutem instrumentalem ad omnes
+            im<lb ed="#V" n="81" break="no"/>mutationes miraculosas faciendas ordinabiles ad
+            incarna<lb ed="#V" n="82" break="no"/>tionis finem, qui est instaurare omnia, siue quae in coelis,
+            si<lb ed="#V" n="83" break="no"/>ue quae in terris sunt, immutationes vero creaturarum secum
+            <lb ed="#V" n="84"/>dum quod sunt vertibiles in nihil correspondent creationi
+            <lb ed="#V" n="85"/>rerum, prout scilicet producuntur de nihilo, &amp; ideo sicut
+            so<lb ed="#V" n="86" break="no"/>lus Deus potest creare, ita solus potest creaturam in nihilum
+            <lb ed="#V" n="87"/>redigere, qui etiam solus eas in esse conseruat, ne in nihilum
+            <lb ed="#V" n="88"/>decidant. Sic ergo dicendum est, quod anima Christi non
+            <lb ed="#V" n="89"/>habet omnipotentiam respectu immutationis creaturarum.
+            <lb ed="#V" n="90"/>Haec ille.
+          </p>
+          <p xml:id="capsco-c3ce7n-d1e334">
+            Ex quibus potest formari talis ratio. Illud quod
+            <lb ed="#V" n="91"/>non habet potentiam creandi, aut annihilandi creaturas,
+            <lb ed="#V" n="92"/>nec eas miraculose immutare, nisi praecise instrumentaliter
+            <lb ed="#V" n="93"/>&amp; duntaxat quantum pertinet ad finem incarnationis, non
+            <lb ed="#V" n="94"/>habet omnipotentiam respectu immutationis creaturarum.
+            <lb ed="#V" n="95"/>sed anima Christi est huiusmodi:igitur. Tertiam vero
+            par<lb ed="#V" n="96" break="no"/>tem conclusionis probat ibidem articulo tertio dicens:
+            Ani<lb ed="#V" n="97" break="no"/>ma Christi potest dupliciter considerari. Vno modo
+            secun<lb ed="#V" n="98" break="no"/>dum propriam naturam &amp; virtutem, &amp; hoc modo sicut non
+            <lb ed="#V" n="99"/>poterat immutare corpora exteriora supra cursum &amp;
+            ordi<lb ed="#V" n="100" break="no"/>nem naturae, ita etiam non poterat immutare proprium
+            <lb ed="#V" n="101"/>corpus a sua naturali dispositione, quia anima Christi secum
+            <lb ed="#V" n="102"/>dum propriam naturam habet determinatam
+            proportio<lb ed="#V" n="103" break="no"/>nem ad suum corpus. Alio modo potest considerari anima
+            <lb ed="#V" n="104"/>Christi secundum quod est instrumentum vnitum verbo
+            <lb ed="#V" n="105"/>Dei in persona, &amp; sic subdebatur totaliter eius potestati
+            <lb ed="#V" n="106"/>omnis dispositio proprij corporis, quia tamen virtus
+            actio<lb ed="#V" n="107" break="no"/>nis non proprie attribuitur instrumento, sed principali
+            a<lb ed="#V" n="108" break="no"/>genti, ideo talis omnipotentia magis attribuitur ipsi
+            verbo<lb ed="#V" n="109" break="no"/>Dei quam animae Christi. Haec ille.
+          </p>
+          <p xml:id="capsco-c3ce7n-d1e378">
+            Ex quibus arguitur sic
+            <lb ed="#V" n="110"/>Illud quod nec ex propria virtute naturali, aut gratuita, sed
+            <lb ed="#V" n="111"/>solum ex quadam virtute, aut motione instrumentali
+            po<lb ed="#V" n="112" break="no"/>test proprium corpus a sua dispositione omnifariam
+            immu<lb ed="#V" n="113" break="no"/>tare, non habet proprie omnipotentiam respectu
+            proprij<lb ed="#V" n="114" break="no"/>corporis, anima Christi est huiusmodi, igitur &amp;c. Secunda
+            <lb ed="#V" n="115"/>conclusio. In Christo fuit vere &amp; proprie dolor sensibilis
+            <lb ed="#V" n="116"/>Hanc probat Sanctus Thomas tertia parte quaestione 15.
+            arti<lb ed="#V" n="117" break="no"/>culo quinto vbi sic dicit. Ad veritatem doloris sensibilis
+            re<lb ed="#V" n="118" break="no"/>quiritur laesio corporis, &amp; sensus laesionis, corpus autem
+            Chri<lb ed="#V" n="119" break="no"/>sti laedi poterat, quia erat passibile &amp; mortale nec defuit
+            ei<lb ed="#V" n="120" break="no"/>sensus laesionis, cum anima Christi perfecte haberet omnes
+            <lb ed="#V" n="121"/>potentias naturales, vnde nulli dubium esse debet quin in
+            <lb ed="#V" n="122"/>Christo fuerit verus dolor. Haec ille.
+          </p>
+          <p xml:id="capsco-c3ce7n-d1e410">
+            Item prima secundae
+            <lb ed="#V" n="123"/>quaestione vigesimaquinta articulo primo sic dicit. Sicut ad
+            <lb ed="#V" n="124"/>delectationem duo requiruntur scilicet coniunctio boni &amp; perceptio
+            hu<lb ed="#V" n="125" break="no"/>ius coniunctionis, ita etiam ad dolorem duo requirunturscilicet comuniunctio
+            <lb ed="#V" n="126"/>alicuius mali, quod ea ratione malum est, qua priuat aliquod
+            bo<lb ed="#V" n="127" break="no"/>num, &amp; perceptio huiusmodi coniunctionis. Quicquid
+            au<lb ed="#V" n="128" break="no"/>tem coniungitur, si non habeat respectu eius, cui
+            coniungi<lb ed="#V" n="129" break="no"/>tur, rationem boni vel mali non potest causare delectationem
+            <lb ed="#V" n="130"/>vel dolorem. Ex quu patet, quod aliquid sua ratione
+            boni<lb ed="#V" n="131" break="no"/>uel mali est obiectum delectationis vel doloris, bonum
+            au<lb ed="#V" n="132" break="no"/>tem vel malum inquantum huiusmodi sunt obiecta
+            appe<lb ed="#V" n="133" break="no"/>titus, unde patet quod delectatio &amp; dolor ad appetitum
+            p<lb ed="#V" n="134" break="no"/>tinent. Haec ille.
+          </p>
+          <p xml:id="capsco-c3ce7n-d1e439">
+            Item tertio sententiarum dist. 15. q. 2. art. 2
+            <lb ed="#V" n="135"/>qu. prima sic dicit. Sicut delectatio sensibilis causatur ex
+            con<lb ed="#V" n="136" break="no"/>iunctione conuenientis secundum sensum, ita dolor
+            sensibi<lb ed="#V" n="137" break="no"/>lis causatur ex coniunctione eius, quod non est conueniens
+            <lb ed="#V" n="138"/>sensui, sed inter alios sensus solus tactus est discretiuus
+            eo<lb ed="#V" n="139" break="no"/>rum, ex quibus consistit temperamentum corporis, unde
+            il<lb ed="#V" n="140" break="no"/>lud quod est conueniens secundum tactum, est conueniens
+            <lb ed="#V" n="141"/>ipsi temperamento corporis. Et propter hoc completa
+            de<lb ed="#V" n="142" break="no"/>lectatio sensibilis est in sola perceptione tactus. Et
+            simili<lb ed="#V" n="143" break="no"/>ter illud, quod est disconueniens tactui, est contrarium
+            tem<lb ed="#V" n="144" break="no"/>peramento corporis. Et ideo dicit philosophus secundo de
+            <lb ed="#V" n="145"/>anima, quod corrumpentia tactum corrumpunt animal,
+            <pb ed="#V" n="135"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>non autem corrumpentia auditus nisi simul contingat ex
+            <lb ed="#V" n="2"/>accidenti tactum corrumpi, &amp; ideo in solo tactu est dolor,
+            <lb ed="#V" n="3"/>qui accidit ex laesione temperamenti corporis. Vnde cum
+            <lb ed="#V" n="4"/>in corpore Christi fuerit vera laesio, quia fuit diuisio
+            conti<lb ed="#V" n="5" break="no"/>nui per clauos, &amp; fuerit ibi verus tactus, de necesitate
+            opor<lb ed="#V" n="6" break="no"/>tet dicere, quod fuit ibi verus dolor. Haec ille.
+          </p>
+          <p xml:id="capsco-c3ce7n-d1e483">
+            Ex dictis
+            pa<lb ed="#V" n="7" break="no"/>tet responsio ad conclusionem, quia Christus virtute
+            diui<lb ed="#V" n="8" break="no"/>nitatis principaliter &amp; animae suae instrumentaliter potuit
+            <lb ed="#V" n="9"/>corpus suum &amp; omnes potentias animae ab omni si voluisset
+            <lb ed="#V" n="10"/>dolore praeseruare, sed noluit hoc facere &amp; in hoc primus
+            <lb ed="#V" n="11"/>articulus terminatur.
+          </p>
+        </div>
+        <div xml:id="capsco-c3ce7n-Dd1e497">
+          <head xml:id="capsco-c3ce7n-Hd1e499">Articulus 2</head>
+          <p xml:id="capsco-c3ce7n-d1e501">
+            <lb ed="#V" n="12"/><milestone ed="#V" unit="p" rend="initial"/> Quantum ad secundum articulum arguendum est
+            con<lb ed="#V" n="13" break="no"/>tra conclusiones. Et quidem contra primam arguit
+            <lb ed="#V" n="14"/>Durandus probando quod anima non habuit aliquam
+            poten<lb ed="#V" n="15" break="no"/>tiam supernaturalem transmutandi corpus proprium, aut
+            <lb ed="#V" n="16"/>alienum miraculose, quia omnis potentia supernaturalis
+            <lb ed="#V" n="17"/>data Christo vel percipiebat corpus eius ad actus
+            corpora<lb ed="#V" n="18" break="no"/>les, vel animam ad actus solum animae, vel ad actus
+            corpo<lb ed="#V" n="19" break="no"/>ris mediantibus actibus animae, non enim potest dici, quod
+            <lb ed="#V" n="20"/>perfectio animae sit immediate ad actus corporis, cum
+            eius<lb ed="#V" n="21" break="no"/>dem sit potentia, cuius est actus. Nulla autem potentia
+            vide<lb ed="#V" n="22" break="no"/>tur data fuisse Christo quo ad corpus ad supradictos actus
+            <lb ed="#V" n="23"/>quia Christus per defectus corporis, quos assumpsit,
+            mani<lb ed="#V" n="24" break="no"/>festauit se esse verum hominem, sicut per miracula
+            manife<lb ed="#V" n="25" break="no"/>stauit se esse verum Deum, igitur omnia alia mirabilia quae
+            <lb ed="#V" n="26"/>fecit tribuenda sunt virtuti diuinae sicut omnes defectus
+            <lb ed="#V" n="27"/>quos habuit referendi sunt ad corpus, &amp; sic loquitur
+            ipse<lb ed="#V" n="28" break="no"/>met Christus de miraculis Ioan. quinto dicens. Pater meus
+            <lb ed="#V" n="29"/>vsque modo operatur, &amp; ego operor. &amp; Ioann. decimo.
+            O<lb ed="#V" n="30" break="no"/>pera quae ego facio in nomine patris mei, ipsa testimonium
+            <lb ed="#V" n="31"/>perhibet de me. Illud inquam testimonium quod sequitur
+            <lb ed="#V" n="32"/>Pater &amp; ego vnum sumus infra eodem capitulo dicit. Si non
+            <lb ed="#V" n="33"/>vultis mihi credere, operibus credite, vt cognoscatis quia
+            <lb ed="#V" n="34"/>ego in patre, &amp; pater in me est. Et Ioan. decimoquarto
+            di<lb ed="#V" n="35" break="no"/>citur. Pater in me manens ipse facit opera. Ex quibus
+            cla<lb ed="#V" n="36" break="no"/>re patet, quod Christus faciebat miracula &amp; caetera opera
+            <lb ed="#V" n="37"/>quae sunt supra cursum naturae per virtutem diuinam, per
+            <lb ed="#V" n="38"/>quam est vnum cum patre, &amp; non est per aliquam virtutem
+            <lb ed="#V" n="39"/>creatam sibi datam supernaturaliter perficientem ipsum
+            <lb ed="#V" n="40"/>ad huiusmodi actus. In Christo autem fuit aliquod donum
+            <lb ed="#V" n="41"/>supernaturale, immo plura perficientia animam eius ad
+            a<lb ed="#V" n="42" break="no"/>ctus proprios, qui sunt recte intelligere, &amp; bene velle, &amp; ad
+            <lb ed="#V" n="43"/>actus corporales meritorios ex interioribus actibus
+            impe<lb ed="#V" n="44" break="no"/>ratos. Ad actus autem supernaturales, puta ad
+            transmutan<lb ed="#V" n="45" break="no"/>dum creaturam praeter ordinem naturae nequaquam
+            pro<lb ed="#V" n="46" break="no"/>pter eandem rationem, quae prius facta est, quia illa quae
+            <lb ed="#V" n="47"/>Christus fecit supra homines, fecit ad ostensionem suae
+            di<lb ed="#V" n="48" break="no"/>uinitatis. Et ideo in ipso inquantum homo non fuit aliqua
+            <lb ed="#V" n="49"/>virtus ad faciendum aliquid exterius supra humanum
+            mo<lb ed="#V" n="50" break="no"/>dum quanquam ad actus interiores perficientes personam
+            <lb ed="#V" n="51"/>in se habuit multa, dona supra homines. Haec ille in forma.
+          </p>
+          <p xml:id="capsco-c3ce7n-d1e591">
+            <lb ed="#V" n="52"/>Contra secundam conclusionem arguit Scotus probando,
+            <lb ed="#V" n="53"/>quod ad rationem doloris non requirantur duo scilicet
+            im<lb ed="#V" n="54" break="no"/>mutatio corruptiua, vel offensiua dispositionis
+            conuenien<lb ed="#V" n="55" break="no"/>tis naturae, &amp; secundo apprehensio huius immutationis.
+            Vi<lb ed="#V" n="56" break="no"/>detur inquit quod prima radix nulla sit, quia sicut secundum
+            <lb ed="#V" n="57"/>te in dolore est immutatio corruptiua dispositionis
+            conue<lb ed="#V" n="58" break="no"/>nientis naturae, ita in delectatione est immutatio inductiua
+            <lb ed="#V" n="59"/>vel saluatiua dispositionis conuenientis. Illa autem
+            im<lb ed="#V" n="60" break="no"/>mutatio nulla videtur esse, quia quaero ad quem terminum
+            <lb ed="#V" n="61"/>est. Non ad ipsam sensationem, quia praecedit eam sicut
+            pri<lb ed="#V" n="62" break="no"/>ma radix secundam, &amp; multo minus est ad sensationem
+            se<lb ed="#V" n="63" break="no"/>quentem passionem, quia illa sequitur vtranque radicem,
+            <lb ed="#V" n="64"/>igitur ipsa est ad vtranque dispositionem vt ad proximum
+            <lb ed="#V" n="65"/>terminum, qui praecessit naturaliter omnem actum tam
+            sen<lb ed="#V" n="66" break="no"/>sus quam potentiae delectantis vel tristantis, sed nihil tale
+            <lb ed="#V" n="67"/>videtur esse necessarium ad delectationem, quia nihil
+            prae<lb ed="#V" n="68" break="no"/>cessit ista ambo, nisi forte species obiecti, sed si species
+            prae<lb ed="#V" n="69" break="no"/>fuisset in virtute fantastice conseruante species, nihil
+            mi<lb ed="#V" n="70" break="no"/>nus posset esse conseruatio, &amp; omnis radix necessaria ad
+            de<lb ed="#V" n="71" break="no"/>lectationem deberet tunc conseruari. Si etiam sensatio
+            fie<lb ed="#V" n="72" break="no"/>ret, non minus posset esse operatio delectabilis, quia non
+            <lb ed="#V" n="73"/>minus esset operatio perfecta, quam secundum philosophum
+            <lb ed="#V" n="74"/>decimo Eth. sequitur necesario delectatio.
+          </p>
+          <p xml:id="capsco-c3ce7n-d1e643">
+            Secundo arguit
+            <lb ed="#V" n="75"/>Quia secunda radix videtur quod sufficiat sine prima, quia
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="76"/>licet organum sit corpus naturale, &amp; ideo passibile passione
+            na<lb ed="#V" n="77" break="no"/>turali, tamen inquantum organum est mixtum, sic quod est in
+            <lb ed="#V" n="78"/>media proportione sensibilium, hoc modo natum est
+            im<lb ed="#V" n="79" break="no"/>mutari mutatione intentionali ab obiecto inquantum
+            sensi<lb ed="#V" n="80" break="no"/>bile, &amp; hoc modo aliquod obiectum est sibi conueniens, &amp;
+            <lb ed="#V" n="81"/>aliud disconueniens, &amp; per consequens aliquod delectans
+            <lb ed="#V" n="82"/>bilibus quia licet asensibilibus eorum inducat dispositionem saluans naturam
+            <lb ed="#V" n="83"/>indiuidui, tamen ipsa affligunt intentionaliter, si sint
+            disconue<lb ed="#V" n="84" break="no"/>nientia sibi vel organo sensus, sicut de amara potione de qua
+            <lb ed="#V" n="85"/>dolet gustus, licet sit salubris infirmo. Solus enim tactus
+            <lb ed="#V" n="86"/>datus est animali a natura, vt per ipsum percipiat
+            corrupti<lb ed="#V" n="87" break="no"/>ua naturae, &amp; ea fugiat. Et ibi concomitatur disconueniens
+            <lb ed="#V" n="88"/>sensui vt sensus, &amp; disconueniens naturae, &amp; sic
+            concomitan<lb ed="#V" n="89" break="no"/>tur istae duae immutationes alterius rationis. Et posset illa
+            <lb ed="#V" n="90"/>quae est sensibilis in sensum esse sine alia &amp; econtra, &amp; ita
+            pos<lb ed="#V" n="91" break="no"/>set esse conuenientia in vno, &amp; disconuenientia in alio, &amp;
+            <lb ed="#V" n="92"/>ita esset dolor sine prima radice. Tertio. Quia cum dicitur
+            <lb ed="#V" n="93"/>quod ad delectationem vel dolorem non solum sufficit
+            ap<lb ed="#V" n="94" break="no"/>prehendere obiectum, sed cum hoc percipere
+            conuenien<lb ed="#V" n="95" break="no"/>tiam vel disconuenientiam, hoc non videtur valere. Tum
+            <lb ed="#V" n="96"/>quia non videtur quod vnius potentiae sit nisi vnus actus
+            <lb ed="#V" n="97"/>perfectus simul, igitur sensus circa obiectum suum non sunt
+            <lb ed="#V" n="98"/>ponendi simul duo actus, licet idem, vt perfectus possit
+            di<lb ed="#V" n="99" break="no"/>ci perceptio, &amp; vt imperfectus apprehensio. Tum quia
+            nul<lb ed="#V" n="100" break="no"/>lius sensus potest istas relationes percipere, sed tantum
+            ali<lb ed="#V" n="101" break="no"/>qua absoluta. Similiter si ponantur ista esse obiecta alterius
+            <lb ed="#V" n="102"/>potentiae ab apprehensiua, videtur quod oportet ponere
+            <lb ed="#V" n="103"/>duos sensus visus, &amp; duos auditus, &amp; sic de singulis, quorum
+            <lb ed="#V" n="104"/>alter percipiat colorem vel sonum, &amp; alter percipiat illas
+            in<lb ed="#V" n="105" break="no"/>tentiones circunstantes, quia secundum prima obiecta
+            di<lb ed="#V" n="106" break="no"/>stinguuntur potentiae. Quarto. Quia sicut absolutum
+            calo<lb ed="#V" n="107" break="no"/>ris est ratio agendi in lignum, &amp; non relatio
+            approximatio<lb ed="#V" n="108" break="no"/>nis fundata super illud absolutum, licet approximatio sit
+            <lb ed="#V" n="109"/>causa sine qua non, ita videtur quod conuenientia vel
+            discon<lb ed="#V" n="110" break="no"/>uenientia non est ratio causandi delectationem aut
+            tristi<lb ed="#V" n="111" break="no"/>ciam, sed solum absolutum, in quo illa relatio fundatur.
+            <lb ed="#V" n="112"/>&amp; aliquod affligens, ergo licet circunscribatur omnis actio
+            <lb ed="#V" n="113"/>prior ista actione intentionali ab obiecto si ista sit alicuius
+            <lb ed="#V" n="114"/>obiecti disconuenientis organo, vt organum est, in sensu
+            se<lb ed="#V" n="115" break="no"/>quitur dolor. Et hoc videtur manifeste in quibusdam
+            sensi<lb ed="#V" n="116" break="no"/>Haec Scotus. Et in hoc primus articulus terminatur.
+          </p>
+        </div>
+        <div xml:id="capsco-c3ce7n-Dd1e740">
+          <head xml:id="capsco-c3ce7n-Hd1e742">Articulus 3</head>
+          <p xml:id="capsco-c3ce7n-d1e744">
+            <lb ed="#V" n="117"/><milestone ed="#V" unit="p" rend="initial"/> Quantum ad tertium articulum respondendum est
+            ob<lb ed="#V" n="118" break="no"/>iectionibus supradictis. Et quidem ad dicta
+            Duran<lb ed="#V" n="119" break="no"/>di contra primam conclusionem dicitur, quod tota sua
+            de<lb ed="#V" n="120" break="no"/>ductio stat in hoc quod per nullam virtutem creatam possunt
+            fie<lb ed="#V" n="121" break="no"/>ri miracula, sed sola diuina virtute, ideo de hoc videndum
+            <lb ed="#V" n="122"/>est. Nam Sanctus Thomas de potentia Dei quaestione sexta
+            ar<lb ed="#V" n="123" break="no"/>ticulo quarto vbi quaerit. Vtrum boni angeli vel homines
+            <lb ed="#V" n="124"/>per aliquod donum gratiae possint facere miracula, sic
+            di<lb ed="#V" n="125" break="no"/>cit. Angeli supra potestatem naturalem, quam habent agendi
+            <lb ed="#V" n="126"/>possunt aliquid per donum gratiae inquantum sunt diuinae
+            <lb ed="#V" n="127"/>virtutis ministri. Et potest dici quod ad miracula operanda
+            <lb ed="#V" n="128"/>angeli tripliciter operantur. Vno modo precibus
+            impetran<lb ed="#V" n="129" break="no"/>do, qui modus &amp; angelis &amp; hominibus potest esse
+            commu<lb ed="#V" n="130" break="no"/>nis. Alius modus est secundum quod angeli materiam
+            di<lb ed="#V" n="131" break="no"/>sponunt sua naturali virtute ad hoc quod miraculum fiat,
+            <lb ed="#V" n="132"/>sicut dicitur quod in resurrectione colligent pulueres
+            mor<lb ed="#V" n="133" break="no"/>tuorum, qui diuina virtute reducentur ad vitam. Sed hic
+            <lb ed="#V" n="134"/>modus proprius est angelis, nam spiritus humani dum sunt
+            <lb ed="#V" n="135"/>corporibus uniti in exteriora operari non possunt, nisi
+            cor<lb ed="#V" n="136" break="no"/>pore mediante, ad quod sunt naturaliter quodammodo
+            <lb ed="#V" n="137"/>alligati. Tertius modus est, quod operantur etiam aliquid
+            <lb ed="#V" n="138"/>coagendo. Quem quidem modum Augustinus sub dubio
+            relin<lb ed="#V" n="139" break="no"/>quit in uigesimosecundo de ciuitate Dei sic dices. Siue enim
+            <lb ed="#V" n="140"/>Deus ipse per se ipsum miro modo siue per suos ministros
+            <lb ed="#V" n="141"/>etiam faciat per martyrum spiritus, siue per homines adhuc
+            <lb ed="#V" n="142"/>in corpore constitutos, siue omnia ista per angelos quibus
+            <lb ed="#V" n="143"/>inuisibiliter imperat operatur, vt quae per martyres fieri
+            di<lb ed="#V" n="144" break="no"/>cuntur eis orantibus tantum &amp; impetrantibus, non etiam
+            <lb ed="#V" n="145"/>operantibus, siue alijs modis, qui nullo modo
+            comprehen<lb ed="#V" n="146" break="no"/>di a mortalibus possunt, tamen attestantur haec miracula
+            <lb ed="#V" n="147"/>fidei, in qua carnis in aeternum resurrectio praedicatur. Sed
+            <lb ed="#V" n="148"/>Gregorius in secundo dialogorum hanc quaestionem
+            determi<lb ed="#V" n="149" break="no"/>nare uidetur dicens. Quia sancti homines etiam in carne
+            ui<lb ed="#V" n="150" break="no"/>uentes non solum orando &amp; impetrando, sed etiam
+            pote<pb ed="#V" n="136"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>statiue ac per hoc cooperando miracula faciunt, quod
+            pro<lb ed="#V" n="2" break="no"/>bat &amp; ratione, &amp; exemplis. Ratione quidem, quia si
+            homini<lb ed="#V" n="3" break="no"/>bus data est potestas filios Dei fieri, non est mirum si ex
+            po<lb ed="#V" n="4" break="no"/>testate mira facere possunt. Exemplis autem, quia Petrus
+            <lb ed="#V" n="5"/>ananiam &amp; Saphiram mentientes morti increpando
+            tradi<lb ed="#V" n="6" break="no"/>dit nullo oratione praemissa, vt habetur actuum quinto:
+            bea<lb ed="#V" n="7" break="no"/>tus etiam Benedictus dum ad brachia cuiusdam rustici
+            li<lb ed="#V" n="8" break="no"/>gati oculos deslexisset, tanta se celeritate caeperunt illigat
+            <lb ed="#V" n="9"/>brachiis lora dissoluere, vt dissolui tam concite nulla
+            homi<lb ed="#V" n="10" break="no"/>num festinatione potuissent, vnde concludit quod sancti
+            <lb ed="#V" n="11"/>quandoque faciunt miracula orando, &amp; quandoque ex
+            po<lb ed="#V" n="12" break="no"/>testate. Qualiter autem hoc esse possit, considerandum est.
+            <lb ed="#V" n="13"/>Constat autem quod Deus solo imperio miracula
+            opera<lb ed="#V" n="14" break="no"/>tur. Videmus autem quod imperium diuinum ad inferiores
+            <lb ed="#V" n="15"/>rationales spiritus scilicet humanos mediantibus
+            superio<lb ed="#V" n="16" break="no"/>ribus scilicet angelis peruenit vt in legis veteris latione apparet.
+            <lb ed="#V" n="17"/>Et per hunc modum per spiritus angelicos vel humanos
+            im<lb ed="#V" n="18" break="no"/>perium diuinum ad corporales creaturas peruenire potest,
+            <lb ed="#V" n="19"/>vt per eos quodam modo naturae praesentetur diuinum
+            prae<lb ed="#V" n="20" break="no"/>ceptum. Et sic agunt quodammodo spiritus humani vel
+            an<lb ed="#V" n="21" break="no"/>gelici vt instrumenta diuinae virtutis ad miraculi
+            perfectio<lb ed="#V" n="22" break="no"/>nem, non quasi aliqua virtute habitualiter in eis manente
+            na<lb ed="#V" n="23" break="no"/>turali vel gratuita in actum miraculi possit, quia sic
+            quan<lb ed="#V" n="24" break="no"/>docunque vellent, miracula facere possent, quod tamen
+            Gre<lb ed="#V" n="25" break="no"/>gorius secundo dialogorum non esse testatur. Et probat
+            pr<lb ed="#V" n="26" break="no"/>exemplum pauli, qui stimulum a se remoueri petijt, nec
+            im<lb ed="#V" n="27" break="no"/>petrauit, &amp; per exemptum Benedicti qui detentus fuit
+            con<lb ed="#V" n="28" break="no"/>tra suam voluntatem per pluuiam sororis precibus
+            impe<lb ed="#V" n="29" break="no"/>tratam. Sed virtus ad cooperandum Deo in miraculis in
+            <lb ed="#V" n="30"/>sanctis intelligi potest ad modum formarum imperfectarum,
+            <lb ed="#V" n="31"/>quae intentiones vocantur, quae non permanent nisi ad
+            prae<lb ed="#V" n="32" break="no"/>sentiam agentis principalis sicut lumen in aere, &amp; motus
+            <lb ed="#V" n="33"/>in instrumento. Et talis virtus potest intelligi donum
+            gra<lb ed="#V" n="34" break="no"/>tiae gratis datae, quae est gratia virtutum vel curationum, vt
+            <lb ed="#V" n="35"/>sic haec gratia, quae datur ad operandum supernaturaliter,
+            <lb ed="#V" n="36"/>sit similis gratiae prophetiae, quae datur ad supernaturaliter
+            <lb ed="#V" n="37"/>cognoscendum, per quam propheta non potest
+            quando<lb ed="#V" n="38" break="no"/>cunque vult prophetare, sed solum cum spiritus prophetiae
+            <lb ed="#V" n="39"/>cor eius tangit, vt probat Gregorius prima omelia super
+            Eze<lb ed="#V" n="40" break="no"/>chiel. Nec est mirum si per hunc modum spirituali
+            creatu<lb ed="#V" n="41" break="no"/>ra Deus instrumentaliter vtitur ad faciendum mirabiles
+            ef<lb ed="#V" n="42" break="no"/>fectus in creatura corporali, cum etiam creatura
+            corporali<lb ed="#V" n="43" break="no"/>vtatur instrumentaliter ad spirituum iustificationem, vt
+            pa<lb ed="#V" n="44" break="no"/>tet in sacramentis, &amp; per hoc patet responsio ad obiecta.
+            <lb ed="#V" n="45"/>Nam verum est quod solus Deus miracula facit per
+            aucto<lb ed="#V" n="46" break="no"/>ritatem, verum est etiam quod potestatem mirabilia
+            facien<lb ed="#V" n="47" break="no"/>di creaturae communicat secundum capacitatem
+            creatu<lb ed="#V" n="48" break="no"/>rae, &amp; diuinae sapientiae ordinem, ita quod creatura per gratiam
+            <lb ed="#V" n="49"/>miraculo ministerialiter cooperetur. Haec ille.
+          </p>
+          <p xml:id="capsco-c3ce7n-d1e930">
+            Et simile
+            po<lb ed="#V" n="50" break="no"/>nit secunda secundae quaestione 177. articulo primo. Item
+            <lb ed="#V" n="51"/>tertia parte quaest. 43. articulo secundo vbi sic dicit. Vera
+            <lb ed="#V" n="52"/>miracula sola diuina virtute fieri possunt, quia solus Deus
+            <lb ed="#V" n="53"/>potest mutare naturae ordinem quod pertinet ad rationem
+            <lb ed="#V" n="54"/>miraculi. Vnde Leo papa dicit in epistola ad Flauianum, quod
+            <lb ed="#V" n="55"/>cum in Christo sint duae naturae, vna earum est scilicet
+            diui<lb ed="#V" n="56" break="no"/>na, quae fulget miraculis, altera scilicet humana, quae
+            succum<lb ed="#V" n="57" break="no"/>bit iniurijs, &amp; tamen vna earum agit cum
+            communicatio<lb ed="#V" n="58" break="no"/>ne alterius, inquantum scilicet humana natura est
+            instru<lb ed="#V" n="59" break="no"/>mentum diuinae actionis, &amp; actio humana virtutem
+            acce<lb ed="#V" n="60" break="no"/>pit a natura diuina. Haec ille.
+          </p>
+          <p xml:id="capsco-c3ce7n-d1e956">
+            Item quaestione decimanona.
+            <lb ed="#V" n="61"/>articulo primo dicit. Vbicunque mouens &amp; motum habent
+            <lb ed="#V" n="62"/>diuersas formas seu virtutes operatiuas, ibi oportet quod
+            <lb ed="#V" n="63"/>sit alia propria operatio mouentis, &amp; alia propria operatio
+            <lb ed="#V" n="64"/>moti, licet motum participet operationem mouentis, &amp;
+            mo<lb ed="#V" n="65" break="no"/>uens vtatur operatione moti, &amp; sic vtrunque agit cum
+            com<lb ed="#V" n="66" break="no"/>munione alterius. Sic igitur in Christo humana natura
+            ha<lb ed="#V" n="67" break="no"/>bet propriam formam &amp; virtutem, per quam operatur, &amp;
+            si<lb ed="#V" n="68" break="no"/>militer diuina. Vnde &amp; humana natura habet propriam
+            <lb ed="#V" n="69"/>operationem distinctam ab operatione diuina &amp;
+            econuer<lb ed="#V" n="70" break="no"/>so, &amp; tamen diuina natura vtitur operatione humanae
+            natu<lb ed="#V" n="71" break="no"/>rae sicut operatione sui instrumenti. Et similiter humana
+            <lb ed="#V" n="72"/>natura participat operationem diuinae naturae, sicut
+            instru<lb ed="#V" n="73" break="no"/>mentum participat operationem principalis agentis. Et hoc
+            <lb ed="#V" n="74"/>est quod dicit Leo Papa in epistola ad Flauianum. Agit
+            v<lb ed="#V" n="75" break="no"/>traque forma scilicet tam natura diuina quam humana
+            ir<cb ed="#V" n="b"/><lb ed="#V" n="76" break="no"/>Christo cum alterius communione, quod sibi proprium est
+            <lb ed="#V" n="77"/>verbo scilicet operante, quod verbi est, &amp; carne exequente
+            <lb ed="#V" n="78"/>quod carnis est. Haec ille.
+          </p>
+          <p xml:id="capsco-c3ce7n-d1e999">
+            Item ibidem in solutione primi sic
+            <lb ed="#V" n="79"/>d. cit. Dionysius ponit in Christo operationem theandricam
+            <lb ed="#V" n="80"/>idest diuinam virilem, vel diuinam humanam, non per
+            ali<lb ed="#V" n="81" break="no"/>quam confusionem operationum seu virtutum vtriusque
+            <lb ed="#V" n="82"/>naturae, sed per hoc quod diuina operatio eius vtitur
+            huma<lb ed="#V" n="83" break="no"/>na, &amp; humana eius operatio participat virtutem diuinae
+            o<lb ed="#V" n="84" break="no"/>perationis. Vnde sicut ipse ait in quadam epistola. Super
+            ho<lb ed="#V" n="85" break="no"/>minem operabatur ea, quae sunt hominis, quod monstra
+            <lb ed="#V" n="86"/>virgo supernaturaliter concipiens, &amp; aqua terrenorum
+            pe<lb ed="#V" n="87" break="no"/>dum subsistens grauitati. Manifestum est quod concipi est
+            <lb ed="#V" n="88"/>humanae naturae, &amp; similiter ambulare, sed vtrunque fuit in
+            <lb ed="#V" n="89"/>Christo supernaturaliter, &amp; similiter diuina operabatur
+            hu<lb ed="#V" n="90" break="no"/>manitus, sicut cum sanauit laeprosum tangendo. Haec ille.
+          </p>
+          <p xml:id="capsco-c3ce7n-d1e1029">
+            <lb ed="#V" n="91"/>Ex quibus manifeste pateret, quod anima habuit virtutem
+            <lb ed="#V" n="92"/>instrumentalem ad cooperandum miraculis factis diuina
+            <lb ed="#V" n="93"/>uirtute tanquam principali agente. Et tunc ad formam
+            ar<lb ed="#V" n="94" break="no"/>gumenti Durandi dicitur, quod Christo &amp; quo ad corpus
+            <lb ed="#V" n="95"/>&amp; quo ad animam fuit data virtus &amp; potentia, quam
+            ar<lb ed="#V" n="96" break="no"/>guens negat. Nec ualet sua probatio propter multa. Primo
+            <lb ed="#V" n="97"/>quia falsum est quod dicit Christum ideo praecise secisse miracula
+            <lb ed="#V" n="98"/>propter duo, primo quidem ad hoc ut ostenderet se esse
+            <lb ed="#V" n="99"/>Deum. Vnde Sanctus Thomas tertia parte q. 43. articulo
+            pri<lb ed="#V" n="100" break="no"/>mo sic dicit Diuinitus conceditur homini facere
+            miracula<lb ed="#V" n="101" break="no"/>ad confirmandam ueritatem quam aliquis docet, quia enim
+            <lb ed="#V" n="102"/>ea quae sunt fidei humanam rationem excedunt, non
+            pos<lb ed="#V" n="103" break="no"/>sunt per humanas rationes probari, sed oportet quod
+            pro<lb ed="#V" n="104" break="no"/>bentur per actum diuinae uirtutis, ut dum aliquis facit
+            ope<lb ed="#V" n="105" break="no"/>ra, quae solus Deus potest facere, credantur ea quae dicit esse
+            <lb ed="#V" n="106"/>a Deo. Sicut cum aliquis defert litteras annulo regis
+            sigilla<lb ed="#V" n="107" break="no"/>tas, creditur ex uoluntate regis processisse quod in illis
+            lit<lb ed="#V" n="108" break="no"/>teris continetur. Secundo ad ostendendum praesentiam dei
+            <lb ed="#V" n="109"/>in homine per gratiam, scilicet ut dum homo facit opera
+            <lb ed="#V" n="110"/>Dei, credatur Deus habitare in homine per gratiam. Vnde
+            <lb ed="#V" n="111"/>dicitur Gal. 3. Qui tribuit uobis scriptum, &amp; operatur
+            uir<lb ed="#V" n="112" break="no"/>tutes in uobis. Vtrunque autem circa Christum erat
+            homi<lb ed="#V" n="113" break="no"/>nibus manifestandum, scilicet quod Deus esset in eo per
+            <lb ed="#V" n="114"/>gratiam non adoptionis sed unionis, &amp; quod eius
+            superna<lb ed="#V" n="115" break="no"/>turalis doctrina esset a Deo. &amp; ideo conuenientissimum fuit,
+            <lb ed="#V" n="116"/>ut miracula faceret. Haec ille.
+          </p>
+          <p xml:id="capsco-c3ce7n-d1e1088">
+            Ex quibus patet, quod
+            Chri<lb ed="#V" n="117" break="no"/>stus non solum fecit miracula ad ostendendum se esse Deum
+            <lb ed="#V" n="118"/>immo ad confirmandum suam doctrinam, sicut &amp; fecerunt
+            <lb ed="#V" n="119"/>apostoli. Secundo non ualet argumentum, quia
+            consequen<lb ed="#V" n="120" break="no"/>tia principalis nil penitus ualet scilicet haec, Christus fecit
+            <lb ed="#V" n="121"/>miracula ad ostensionem suae diuinitatis, ergo sola diuina
+            <lb ed="#V" n="122"/>uirtute fecit miracula, &amp; nullo modo uirtute uel potentia
+            <lb ed="#V" n="123"/>creata, cuius ratio est quia facere miracula uirtute propria
+            <lb ed="#V" n="124"/>principaliter, &amp; conferre instrumento suo uirtutem
+            coope<lb ed="#V" n="125" break="no"/>randi in miraculis non minuit sed auget argumentum, &amp;
+            <lb ed="#V" n="126"/>ostensionem diuinitatis potissime attentis tribus, quae
+            con<lb ed="#V" n="127" break="no"/>currebant in Christi miraculis. De quibus Sanctus Thomas
+            <lb ed="#V" n="128"/>tertia parte quaest. 43. articulo quarto sic dicit. Miracula quae
+            <lb ed="#V" n="129"/>Christus fecit sufficientia erant ad manifestandum
+            diuini<lb ed="#V" n="130" break="no"/>tatem ipsius secundum tria. Primo quidem secundum
+            spe<lb ed="#V" n="131" break="no"/>ciem operum, quae transcendebant omnem potestatem
+            crea<lb ed="#V" n="132" break="no"/>tae uirtutis, &amp; ideo non poterant fieri nisi uirtute diuina. Et
+            <lb ed="#V" n="133"/>propter hoc caecus illuminatus dicebat To. nono. A
+            seculo<lb ed="#V" n="134" break="no"/>non est auditum, quia aperuit quis oculos caeci nati, nisi esset
+            <lb ed="#V" n="135"/>hic homo a Deo non poterat facere quicquam. Secundo per
+            <lb ed="#V" n="136"/>propter modum faciendi miracula, quia scilicet quasi propria
+            pote<lb ed="#V" n="137" break="no"/>state miracula faciebat, non autem orando sicut alij, unde
+            <lb ed="#V" n="138"/>dicitur Lucae sexto quod uirtus de illo exibat, &amp; sanabat
+            <lb ed="#V" n="139"/>omnes. Per quod ostenditur sicut Cirillus dicit, quod non
+            <lb ed="#V" n="140"/>accipiebat alienam uirtutem, sed cum esset naturaliter Deus
+            <lb ed="#V" n="141"/>propriam uirtutem super infirmos ostendebat, &amp; propter
+            <lb ed="#V" n="142"/>hoc innunerabilia miracula faciebat. Vnde super illud Mat.
+            <lb ed="#V" n="143"/>octauo Eijciebat spiritus uerbo, &amp; omnes male habentes
+            cu<lb ed="#V" n="144" break="no"/>rauit, dicit Chrisostomus. Intende quantam multitdinem curatam
+            <lb ed="#V" n="145"/>tr anscurrunt euangelistae non unumquemque curatum
+            <lb ed="#V" n="146"/>enarrantes, sed uno uerbo pelagus ineffabile miraculorum
+            <lb ed="#V" n="147"/>inducentes. Et in hoc ostendebatur quod haberet uirtutem
+            <lb ed="#V" n="148"/>aequalem patri secundum illud lo. quinto. Quodcunque
+            pa<lb ed="#V" n="149" break="no"/>ter facit hoc &amp; filius similiter facit. Et ibidem. Sicut pater
+            <lb ed="#V" n="150"/>suscitat mortuos &amp; uiuificat, sic &amp; filius quos uult uiuificat
+            <pb ed="#V" n="137"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>Tertio ex ipsa doctrina, qua se Deum dicebat, quae nisi
+            ve<lb ed="#V" n="2" break="no"/>ra non esset, non confirmaretur miraculis diuina virtute
+            fa<lb ed="#V" n="3" break="no"/>ctis, &amp; ideo dicitur. Marci primo. Quae nam doctrina haec
+            <lb ed="#V" n="4"/>noua, quia in potestate spiritibus imperat &amp; obediunt
+            ei<lb ed="#V" n="5" break="no"/>Hec ille. Ex quibus patet, quod cum Christus faceret
+            ope<lb ed="#V" n="6" break="no"/>ra quae a nulla virtute creata poterant fieri tanquam a
+            pri<lb ed="#V" n="7" break="no"/>mo &amp; principali principio, &amp; talia faceret non praecise
+            oran<lb ed="#V" n="8" break="no"/>do, sed praecipiendo, &amp; assereret se Deum, &amp; primum
+            prin<lb ed="#V" n="9" break="no"/>cipium esse ipse sufficienter ostendebat se Deum esse, licet
+            <lb ed="#V" n="10"/>vteretur operatione humana in miraculis faciendis, quia
+            <lb ed="#V" n="11"/>miracula talia non arguunt instrumentum, sed principale
+            <lb ed="#V" n="12"/>agens scilicet suppositum esse Deum. Et haec sufficiant, ad
+            <lb ed="#V" n="13"/>obiecta Durandi. Veruntamen sciendum est quod Sanctus
+            <lb ed="#V" n="14"/>Thomas 3. sent. dist. 16. q. 1. art. 3. tenet cum Durando per
+            om<lb ed="#V" n="15" break="no"/>nia in hac materia, sed in summa corrigit ea quae dixerat in
+            <lb ed="#V" n="16"/>scripto iuuenis existens. Sicut &amp; multa alia quae dixerat in
+            <lb ed="#V" n="17"/>eodem tertio, postea diligentius discussa correxit, vt patet
+            <lb ed="#V" n="18"/>conferenti dicta eius hic &amp; ibi.
+          </p>
+          <p xml:id="capsco-c3ce7n-d1e1208">
+            Ad argumenta Scoti contra
+            <lb ed="#V" n="19"/>secundam conclusionem nunc dicendum est, praemittendo
+            <lb ed="#V" n="20"/>quod argumenta sua non procedunt directe contra
+            San<lb ed="#V" n="21" break="no"/>ctum Thomas sed contra Henricum de gandauo, qui suo
+            vn<lb ed="#V" n="22" break="no"/>decimo quolibet q. 8. vtitur illo modo loquendi, quem Scotus
+            <lb ed="#V" n="23"/>recitat, &amp; ponit illas duas radices praeuias delectationi vel
+            <lb ed="#V" n="24"/>tristitiae. Tamen inquantum possunt procedere contra
+            San<lb ed="#V" n="25" break="no"/>ctum Thomas dicitur ad primum quod ad dolorem sensibilem
+            <lb ed="#V" n="26"/>vel ad rationem doloris sensibilis necessario requiritur
+            con<lb ed="#V" n="27" break="no"/>iunctio disconuenientis secundum sensum, &amp; perceptio
+            hu<lb ed="#V" n="28" break="no"/>ius coniunctionis, vel laesio corporis, &amp; sensus laesionis. Et
+            <lb ed="#V" n="29"/>si contra hoc arguens velit arguere, inquirat quae sit illa
+            con<lb ed="#V" n="30" break="no"/>iunctio disconuenientis in dolore, &amp; quae sit coniunctio
+            con<lb ed="#V" n="31" break="no"/>uenientis in delectatione, quam coniunctionem vocat
+            pri<lb ed="#V" n="32" break="no"/>mam radicem delectationis. Dicitur quod prima radix
+            dele<lb ed="#V" n="33" break="no"/>ctationis. est coniunctio terminata non solum ad speciem
+            <lb ed="#V" n="34"/>praecedentem sensationem, nec solum ad sensationem
+            cau<lb ed="#V" n="35" break="no"/>satam ex tali specie, sed ad aliquod bonum sensibile
+            conue<lb ed="#V" n="36" break="no"/>niens secundum sensum, puta cibum, aut potum, aut
+            huius<lb ed="#V" n="37" break="no"/>modi. Et hoc siue fiat coniunctio ad illud in re, vel in spe,
+            <lb ed="#V" n="38"/>vel in memoria, sicut ostendit philosophus 8. Ethi. De hoc
+            <lb ed="#V" n="39"/>Sanctus Thomas prima secunda q. 32. art. 3. sic dicit.
+            Delecta<lb ed="#V" n="40" break="no"/>tio causatur ex coniunctione boni conuenientis secundum
+            <lb ed="#V" n="41"/>quod sentitur vel qualitercunque percipitur. Est autem
+            prae<lb ed="#V" n="42" break="no"/>sens aliquid nobis dupliciter. Vno modo secundum
+            cogni<lb ed="#V" n="43" break="no"/>tionem prout scilicet cognitum est in cognoscente secundum
+            <lb ed="#V" n="44"/>suam similitudinem. Alio modo secundum rem, prout
+            scili<lb ed="#V" n="45" break="no"/>cet vnum alteri realiter coniungitur, vel actu vel potentia
+            <lb ed="#V" n="46"/>secundum quemcunque coniunctionis modum. Et quia
+            ma<lb ed="#V" n="47" break="no"/>ior est coniunctio secundum rem quam secundum
+            similitu<lb ed="#V" n="48" break="no"/>dinem, quae est coniunctio cognitionis. Iterumque maior est
+            <lb ed="#V" n="49"/>coniunctio rei ad rem in actu quam in potentia, ideo
+            maxi<lb ed="#V" n="50" break="no"/>ma delectatio est quae fit per sensum, qui requirit praesentiam
+            <lb ed="#V" n="51"/>rei sensibilis. Secundum autem gradum tenet delectatio spei,
+            <lb ed="#V" n="52"/>in qua non solum est coniunctio delectabilis secundum
+            ap<lb ed="#V" n="53" break="no"/>prehensionem, sed etiam secundum facultatem vel
+            potesta<lb ed="#V" n="54" break="no"/>tem adipiscendi bonum, quod delectat. Tertium autem
+            gra<lb ed="#V" n="55" break="no"/>dum tenet delectatio memoriae, quae habet solum
+            coniun<lb ed="#V" n="56" break="no"/>ctionem apprehensionis. Haec ille.
+          </p>
+          <p xml:id="capsco-c3ce7n-d1e1293">
+            Item in solutione primi
+            <lb ed="#V" n="57"/>sic dicit Spes &amp; memoria sunt quidem eorum, quae sunt
+            <lb ed="#V" n="58"/>simpliciter absentia, quae tamen sunt secundum quid
+            prae<lb ed="#V" n="59" break="no"/>sentia scilicet vel secundum solam apprehensionem, vel secundum
+            <lb ed="#V" n="60"/>apprehensionem &amp; facultatem ad minus aestimatam. Haec
+            <lb ed="#V" n="61"/>ille. Ex quibus patet qualis coniunctio est prima radix
+            dele<lb ed="#V" n="62" break="no"/>ctationis. Simister quid dicendum est de prima radice
+            do<lb ed="#V" n="63" break="no"/>loris, aut tristitiae. Cum autem arguens subdit quod sola
+            spe<lb ed="#V" n="64" break="no"/>cies &amp; sensatio sufficit ad delectationem vel tristitiam aut
+            <lb ed="#V" n="65"/>dolorem patet quid sit dicendum, quia nullum istorum est
+            <lb ed="#V" n="66"/>sufficiens causa in se, sed solum ex parte sui obiecti
+            inquan<lb ed="#V" n="67" break="no"/>tum facit illud esse aliquo modo praesens.
+          </p>
+          <p xml:id="capsco-c3ce7n-d1e1319">
+            Ad secundum
+            pa<lb ed="#V" n="68" break="no"/>tet per idem. Negandum est enim antecedens scilicet quod ad
+            de<lb ed="#V" n="69" break="no"/>lectationem vel dolorem sufficiat sensatio conuenientis,
+            <lb ed="#V" n="70"/>aut disconuenientis sine qualicunque coniunctione eius ad
+            <lb ed="#V" n="71"/>delectantem, vel ad dolentem. Et ad suam probationem
+            di<lb ed="#V" n="72" break="no"/>citur, quod licet circunscribatur omnis actio praecedens
+            <lb ed="#V" n="73"/>immutationem organi sensibilis inquantum organum est,
+            <lb ed="#V" n="74"/>dum tamen organum sensus intentionaliter immiutetur,
+            po<lb ed="#V" n="75" break="no"/>test sequi delectatio, vel tristitia, aut dolor. Tamen nihil est
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="76"/>contra nos, quia qualitercunque immutetur sensus a
+            con<lb ed="#V" n="77" break="no"/>ue nienti, aut disconuenienti, semper est ibi qualiscunque
+            <lb ed="#V" n="78"/>coniunctio conuenientis, aut disconuenientis prius
+            natu<lb ed="#V" n="79" break="no"/>ra praecedens sensationem &amp; delectationem vt prius dictum
+            <lb ed="#V" n="80"/>est. Quod autem sola disconuenientia intentionalis possit
+            <lb ed="#V" n="81"/>causttre dolorem concedit &amp; probat Sanctus Thomas 4. sent.
+            <lb ed="#V" n="82"/>dist. 44. q. 3. art. primo quaestiuncula tertia in solutione
+            secun<lb ed="#V" n="83" break="no"/>di vbi sic dicit. Non oportet quod quia corpora damnatorum
+            <lb ed="#V" n="84"/>ab igne inferni per aliquam corruptionem non laeduntur
+            <lb ed="#V" n="85"/>quod propter hoc ab igne inferni non affligantur, quia sed
+            <lb ed="#V" n="86"/>sibile non solum est natum delectare vel affligere sensum
+            se<lb ed="#V" n="87" break="no"/>cundum quod agit actione naturae confortando vel
+            corru<lb ed="#V" n="88" break="no"/>pendo organum, sed etiam secundum quod agit actione
+            <lb ed="#V" n="89"/>spirituali, quia quando sensibile est in debita proportione
+            <lb ed="#V" n="90"/>ad sensibilitatem delectat, econtrario autem quando se
+            ha<lb ed="#V" n="91" break="no"/>bet in superabundantia vel defectu. Vnde &amp; colores medij
+            <lb ed="#V" n="92"/>&amp; voces consonantes delectant, superabundantes autem
+            or<lb ed="#V" n="93" break="no"/>fendunt visum vel auditum. Haec ille.
+          </p>
+          <p xml:id="capsco-c3ce7n-d1e1380">
+            Et sic patet quod
+            ar<lb ed="#V" n="94" break="no"/>gumentum si quid probat, contra Henricum procedit, &amp;
+            <lb ed="#V" n="95"/>non contra beatum Thoma. Veruntamen sicut dictum est
+            <lb ed="#V" n="96"/>in probatione conclusionis, dolor sensibilis proprie
+            sum<lb ed="#V" n="97" break="no"/>ptus consequitur sensationem disconuenientis secundum
+            <lb ed="#V" n="98"/>tactum potius quam sensationes sensibilium
+            disconuenien<lb ed="#V" n="99" break="no"/>tium aliis sensibus. De hoc Sanctus Thomas prima secundae
+            <lb ed="#V" n="100"/>q. 35. art. 2. sic dicit. Delectatio &amp; dolor ex duplici
+            apprehen<lb ed="#V" n="101" break="no"/>sione causari possunt scilicet apprehensione sensus exterioris, &amp;
+            <lb ed="#V" n="102"/>ex apprehensione rationis interioris siue imaginationis.
+            In<lb ed="#V" n="103" break="no"/>terior autem apprehensio ad plura se extendit quam
+            exte<lb ed="#V" n="104" break="no"/>rior, eo quod quaecunque cadunt sub exteriori
+            apprehensio<lb ed="#V" n="105" break="no"/>ne, cadunt sub interiori, sed non econtra. Sola igitur illa
+            de<lb ed="#V" n="106" break="no"/>lectatio quae ex interiori apprehensione causatur, gaudium
+            <lb ed="#V" n="107"/>nominatur. Et similiter solus ille dolor, qui ex
+            apprehensio<lb ed="#V" n="108" break="no"/>ne interiori causatur nominatur tristitia. Et sicut illa
+            delecta<lb ed="#V" n="109" break="no"/>tio quae ex apprehensione exteriori causatur, delectatio
+            qu<lb ed="#V" n="110" break="no"/>dem nominatur, non autem gaudium, ita ille dolor, qui ex
+            <lb ed="#V" n="111"/>exteriori apprehensione causatur, nominatur quidem
+            do<lb ed="#V" n="112" break="no"/>lor non autem tristitia. Sicut igitur tristitia est quaedam
+            spe<lb ed="#V" n="113" break="no"/>cies doloris, sic gaudium delectationis. Haec ille.
+          </p>
+          <p xml:id="capsco-c3ce7n-d1e1427">
+            Item ibidem
+            <lb ed="#V" n="114"/>in solutione tertij sic dicit. Sensibilia tactus sunt dolorosa
+            <lb ed="#V" n="115"/>non solum inquantum sunt improportionata virtuti
+            appre<lb ed="#V" n="116" break="no"/>hensiuae, sed etiam inquantum contrariantur naturae, aliorum
+            <lb ed="#V" n="117"/>vero sensuum sensibilia possunt esse improportionata
+            virtu<lb ed="#V" n="118" break="no"/>ti apprehensiue, non tamen contrariantur naturae, nisi in
+            or<lb ed="#V" n="119" break="no"/>dine ad sensibilia tactus. Vnde solus homo, qui est animal
+            <lb ed="#V" n="120"/>perfectum in cognitione, delectatur in sensibilibus aliorum
+            <lb ed="#V" n="121"/>sensuum secundum se ipsa. Alia vero animalia non delectam
+            <lb ed="#V" n="122"/>tur in eis nisi secundum quod referuntur ad sensibilia
+            ta<lb ed="#V" n="123" break="no"/>ctus, vt dicitur tertio Ethi. Et ideo de sensibilibus aliorum
+            <lb ed="#V" n="124"/>sensuum non dicitur esse dolor secundum quod
+            contraria<lb ed="#V" n="125" break="no"/>tur delectationi naturali, sed magis tristitia, quae
+            contraria<lb ed="#V" n="126" break="no"/>tur gaudio animali. Si igitur dolor accipiatur pro
+            corpora<lb ed="#V" n="127" break="no"/>li dolore quod vsitatius est, dolor ex opposito diuiditur
+            <lb ed="#V" n="128"/>contra tristitiam secundum distinctionem interioris &amp;
+            <lb ed="#V" n="129"/>exterioris apprehensionis, licet quantum ad obiecta
+            <lb ed="#V" n="130"/>tristitia ad plura se extendat quam dolor corporalis. Si
+            <lb ed="#V" n="131"/>vero dolor accipiatur communiter, sic dolor est genus
+            <lb ed="#V" n="132"/>tristitiae, vt dictum est. Haec ille.
+          </p>
+          <p xml:id="capsco-c3ce7n-d1e1471">
+            Item de veritate. quaestio. 26.
+            <lb ed="#V" n="133"/>art. 3. in solutione nona sic dicit. Tristitia &amp; dolor hoc
+            mo<lb ed="#V" n="134" break="no"/>do differunt, quod tristitia est passio animalis incipiens scilicet in
+            ap<lb ed="#V" n="135" break="no"/>prehensione nocumenti &amp; consummata in operatione
+            ap<lb ed="#V" n="136" break="no"/>petitus, &amp; vlterius in transmutatione corporis, sed dolor est
+            <lb ed="#V" n="137"/>secundum passionem corporalem. Vnde Augustinus dicit
+            <lb ed="#V" n="138"/>14. de ciuitate Dei, quod dolor vsitatius dicitur in
+            corpori<lb ed="#V" n="139" break="no"/>bus, &amp; ideo incipit a laesione corporis, &amp; terminatur in
+            ap<lb ed="#V" n="140" break="no"/>prehensione sensus tactus, propter quod dolor est in sensu
+            <lb ed="#V" n="141"/>tactus vt in apprehendente.
+          </p>
+          <p xml:id="capsco-c3ce7n-d1e1493">
+            Item tertio sent. di. 15. q. 2. ar. 3.
+            <lb ed="#V" n="142"/>quaestiuncula secunda sic dicit. In dolore &amp; tristitia duo
+            in<lb ed="#V" n="143" break="no"/>ueniuntur scilicet contrarietas contristantis &amp; dolorem
+            inferen<lb ed="#V" n="144" break="no"/>tis ad contristatum &amp; dolentem, &amp; perceptio eius. et
+            quan<lb ed="#V" n="145" break="no"/>tum ad haec duo tripliciter ditrerunt. Primo quantum ad
+            con<lb ed="#V" n="146" break="no"/>trarietatem, quae quidem in dolore attenditur quantum
+            <lb ed="#V" n="147"/>ad ipsam naturam dolentis, quae per laesiuum corrumpitur,
+            <lb ed="#V" n="148"/>sed in tristitia quantum.d repugnantiam appetitus ad
+            ali<lb ed="#V" n="149" break="no"/>quid, quod quis odit. Secundo quantum ad perceptionem,
+            <lb ed="#V" n="150"/>quae quidem in dolore semper est secundum sensum tactus
+            <pb ed="#V" n="138"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>in tristitia autem secundum apprehensionem interiorem.
+            <lb ed="#V" n="2"/>Tertio quantum ad ordinem istorum duorum, quia dolor
+            <lb ed="#V" n="3"/>incipit in laesione, &amp; terminatur in perceptione sensus, ibi
+            <lb ed="#V" n="4"/>enim completur ratio doloris, sed ratio tristitiae incipit in
+            <lb ed="#V" n="5"/>apprehensione, terminatur in affectione. Vnde dolor est in
+            <lb ed="#V" n="6"/>sensu sicut in subiecto, sed tristitia est in appetitu. Ex quo
+            <lb ed="#V" n="7"/>patet, quod tristitia est passio animalis, sed dolor magis est
+            <lb ed="#V" n="8"/>passio corporalis. Quandoque tamen tristitia large
+            loquen<lb ed="#V" n="9" break="no"/>do dicitur dolor, vnde Augustinus distinguit dolorem animae
+            <lb ed="#V" n="10"/>secundum se, qui proprie dicitur tristitia, &amp; dolorem animae
+            <lb ed="#V" n="11"/>per corpus, qui proprie dicitur dolor. Haec ille.
+          </p>
+          <p xml:id="capsco-c3ce7n-d1e1543">
+            Sciendum
+            ta<lb ed="#V" n="12" break="no"/>men quod hoc quod dicit dolorem esse subiectiue in
+            sensu<lb ed="#V" n="13" break="no"/>videtur corrigere prima secundae q. 3v. ar. 1. vbi sic dicit.
+            Si<lb ed="#V" n="14" break="no"/>cut ad delectationem duo requiruntur scilicet coniunctio boni
+            <lb ed="#V" n="15"/>&amp; perceptio huius coniunctionis sicut supra recitatum fuit
+            <lb ed="#V" n="16"/>in secunda conclusione. Idem ibidem in solutione primi sic
+            <lb ed="#V" n="17"/>dicit. dolor dicitur esse corporis, quia causa doloris est in
+            <lb ed="#V" n="18"/>corpore, puta cum patimur aliquid nociuum corpori, sed
+            <lb ed="#V" n="19"/>motus doloris semper est in anima, nam corpus non potest
+            <lb ed="#V" n="20"/>dolere nisi dolente anima, vt dicit Augustinus Haec ille.
+          </p>
+          <p xml:id="capsco-c3ce7n-d1e1565">
+            Item in
+            <lb ed="#V" n="21"/>solutione secundi sic dicit. Dolor dicitur esse sensus, non qua
+            <lb ed="#V" n="22"/>sit actus sensitiuae virtutis, sed quia requiritur ad dolorem
+            <lb ed="#V" n="23"/>corporalem sicut ad delectationem. Haec ille. Ex quibus
+            pa<lb ed="#V" n="24" break="no"/>tet, quod dolor est passio subiectiue existens in appetitu
+            sen<lb ed="#V" n="25" break="no"/>sitiuo, &amp; quod proprie loquendo consequitur
+            nocu<lb ed="#V" n="26" break="no"/>mentum corporis, &amp; eius perceptionem, &amp;
+            consequen<lb ed="#V" n="27" break="no"/>ter consequitur sensum tactus, vt patet ex dictis. Ad
+            ter<lb ed="#V" n="28" break="no"/>tium dicitur, quod directe procedit contra Henricum potius
+            <lb ed="#V" n="29"/>quam contra nos tamen inquantum potest tangere
+            secun<lb ed="#V" n="30" break="no"/>dam conclusionem. dicitur negando minorem, quia sicut
+            <lb ed="#V" n="31"/>dicit Henricus dolor non solum praesupponit
+            apprehensio<lb ed="#V" n="32" break="no"/>nem obiecti immo perceptionem disconuenientis. Hoc etiam
+            <lb ed="#V" n="33"/>concedit Sanctus Thomas vt patet in secunda conclusione.
+            <lb ed="#V" n="34"/>Tunc ad primam improbationem huius dicti dicitur, quod
+            <lb ed="#V" n="35"/>ille duae cognitiones non sunt actus vnius potentiae vel
+            sen<lb ed="#V" n="36" break="no"/>sus, sed diuersarum, quia vnus est actus sensus exterioris,
+            a<lb ed="#V" n="37" break="no"/>lius vero sensus interioris. Et de hoc Sanctus Thomas prima
+            <lb ed="#V" n="38"/>parte. q. 78. ar. 4. sic dicit. Si animal moueretur solum
+            pro<lb ed="#V" n="39" break="no"/>pter delectabile &amp; contristabile secundum sensum, non
+            es<lb ed="#V" n="40" break="no"/>set necessarium ponere in animali nisi apprehensionem
+            for<lb ed="#V" n="41" break="no"/>marum, quas percipit sensus, in quibus aut delectatur aut
+            <lb ed="#V" n="42"/>horret, sed necessarium est animali, vt quaerat aut fugiat
+            ali<lb ed="#V" n="43" break="no"/>qua, non solum quia sunt conuenientia vel non
+            conuenien<lb ed="#V" n="44" break="no"/>tia ad sentiendum, sed etiam propter alias commoditates
+            <lb ed="#V" n="45"/>&amp; vtilitates, siue nocumenta. Sicut ouis videns lupum fugit
+            <lb ed="#V" n="46"/>non propter indecentiam coloris aut figurae, sed quasi
+            ini<lb ed="#V" n="47" break="no"/>micum naturae &amp; similiter auis colligit paleam, non quia
+            <lb ed="#V" n="48"/>delectet sensum, sed quia est vtilis ad nidificandum.
+            Necessa<lb ed="#V" n="49" break="no"/>rium est ergo animali, quod percipiat huiusmodi
+            intentio<lb ed="#V" n="50" break="no"/>nes, quas non percipit sensus exterior, &amp; huius perceptionis
+            <lb ed="#V" n="51"/>oportet esse aliud principium, cum perceptio formarum
+            sen<lb ed="#V" n="52" break="no"/>sibilium sit ex immutatione sensibilis, non autem perceptio
+            <lb ed="#V" n="53"/>intentionum praedictarum. Sic ergo ad receptionem
+            forma<lb ed="#V" n="54" break="no"/>rum sensibilium ordinatur sensus proprius &amp; communis.
+            <lb ed="#V" n="55"/>Ad harum autem formarum tentionem seu
+            conseruatio<lb ed="#V" n="56" break="no"/>nem ordinatur fantasia siue imaginatio, quasi thesaurus
+            <lb ed="#V" n="57"/>quidam formarum per sensum acceptarum. Ad
+            apprehen<lb ed="#V" n="58" break="no"/>dendum autem intentiones quae per sensum non
+            accipiun<lb ed="#V" n="59" break="no"/>tur ordinatur aestimatiua. Ad conseruandum autem eas
+            me<lb ed="#V" n="60" break="no"/>moria vel vis memoratiua, quae est thesaurus quidam
+            hu<lb ed="#V" n="61" break="no"/>iusmodi intentionum. Cuius signum est, quia principium
+            <lb ed="#V" n="62"/>memorandi fit animalibus ex aliqua huiusmodi
+            intentio<lb ed="#V" n="63" break="no"/>ne puta quod est nociuum, vel conueniens, &amp; ipsa ratio
+            prae<lb ed="#V" n="64" break="no"/>teriti quam attendit memoria inter huius intentiones
+            com<lb ed="#V" n="65" break="no"/>putatur. Considerandum est autem quod quantum ad
+            for<lb ed="#V" n="66" break="no"/>mas sensibiles non est differentia inter homines &amp; alia.
+            ani<lb ed="#V" n="67" break="no"/>malia. Similiter enim immutantur a sensibus exterioribus,
+            <lb ed="#V" n="68"/>sed quantum ad praedictas intentiones est differentia. Nam
+            <lb ed="#V" n="69"/>alia animalia percipiunt huiusmodi intentiones solum
+            na<lb ed="#V" n="70" break="no"/>turali quodam instinctu, homo autem etiam per quandam
+            <lb ed="#V" n="71"/>collationem. Et ideo quae in alijs animalibus dicitur
+            aestima<lb ed="#V" n="72" break="no"/>tiua naturalis, in homine dicitur cogitatiua, quae per
+            colla<lb ed="#V" n="73" break="no"/>tionem quandam huiusmodi intentiones adinuenit. Vnde
+            <lb ed="#V" n="74"/>etiam dicitur ratio particularis, cui medici assignant
+            deter<lb ed="#V" n="75" break="no"/>minatum organum scilicet mediam partem capitis. Est enim
+            col<cb ed="#V" n="b"/><lb ed="#V" n="76" break="no"/>latiua intentionum indiuidualium, sicut ratio collatiua est
+            <lb ed="#V" n="77"/>intentionum vniuersalium. Haec ille. Ex quibus patet quae
+            <lb ed="#V" n="78"/>potentia apprehendit obiectum sensibile, &amp; quae percipit
+            <lb ed="#V" n="79"/>intentionem conuenientis vel disconuenientis, ad quae
+            se<lb ed="#V" n="80" break="no"/>quitur passio doloris corporalis.
+          </p>
+          <p xml:id="capsco-c3ce7n-d1e1699">
+            Ad secundam
+            improbatio<lb ed="#V" n="81" break="no"/>nem dicitur, quod quicquid sit de sensibus exterioribus,
+            ta<lb ed="#V" n="82" break="no"/>men sensus interior, qui dicitur extimatiua vel cogititiu:
+            <lb ed="#V" n="83"/>potest cognoscere multas intentiones relatiuas,
+            cuiusmo<lb ed="#V" n="84" break="no"/>modi sunt amicus, inimicus, conueniens, disconueniens,
+            <lb ed="#V" n="85"/>bonum nociuum, &amp; hoc quantum ad quia est licet non
+            <lb ed="#V" n="86"/>quantum ad quid est. Et de hoc Sanctus Thomas 3. sent. dist.
+            <lb ed="#V" n="87"/>26. q. prima arti. primo in solutione quarti sic dicit. Sicut
+            ani<lb ed="#V" n="88" break="no"/>malia cognoscunt rationem conuenientis &amp; nociui non
+            <lb ed="#V" n="89"/>per inquisitionem rationis, vt homo, sed per instinctum
+            na<lb ed="#V" n="90" break="no"/>turae, quae dicitur aestimatio, ita cognoscunt aliquid quod
+            fu<lb ed="#V" n="91" break="no"/>turum est sine hoc quod cognoscant rationem suturi, non
+            <lb ed="#V" n="92"/>conferendo praesens ad futurum sed instinctu naturali
+            se<lb ed="#V" n="93" break="no"/>cundum quod aguntur ad aliquid agendum, vel ex
+            impul<lb ed="#V" n="94" break="no"/>su naturae interioris, sicut quando agunt aliquid ad praecauem
+            <lb ed="#V" n="95"/>dum de futuris, quae dependent ex motu coeli quasi ex eo
+            <lb ed="#V" n="96"/>impulsa &amp;c. Haec ille.
+          </p>
+          <p xml:id="capsco-c3ce7n-d1e1737">
+            Item prima secundae quaestione 16. ar.
+            <lb ed="#V" n="97"/>quarto in solutione secundi sic dicit. Bruta animalia habent
+            <lb ed="#V" n="98"/>instinctum naturalem diuina ratione eis inditum, per quem
+            <lb ed="#V" n="99"/>habent motus interiores &amp; exteriores similes motibus
+            ra<lb ed="#V" n="100" break="no"/>tionis. Haec ille Simile ponit q. 40. art. tertio &amp; multis aliti
+            <lb ed="#V" n="101"/>locis. Cum autem arguens dicit, quod si intentiones sunt
+            <lb ed="#V" n="102"/>obiecta alterius potentiae, oportet ponere duos visus &amp;
+            <lb ed="#V" n="103"/>duos auditus &amp;c. patet quod consequentia non valet, quia
+            <lb ed="#V" n="104"/>huiusmodi intentiones percipiuntur per sensum
+            interio<lb ed="#V" n="105" break="no"/>rem, vt supra dictum est, &amp; hoc loquendo de couenienti &amp;
+            <lb ed="#V" n="106"/>nociuo naturae ipsius animalis. Vtrum autem conueniens
+            <lb ed="#V" n="107"/>&amp; disconueniens ipsi sensui exteriori secundum se, puta
+            vi<lb ed="#V" n="108" break="no"/>sui, vel conuenientia vel disconuenientia cognoscantur
+            so<lb ed="#V" n="109" break="no"/>lo sensu interiori, an etiam ipso sensu exteriori dubium esse
+            <lb ed="#V" n="110"/>potest. Videtur tamen dicendum, quod solo sensu interiori,
+            <lb ed="#V" n="111"/>quia licet sensus exterior delectetur in obiecto sibi
+            propor<lb ed="#V" n="112" break="no"/>tionato, &amp; contristetur in sibi improportionato, non tamen
+            <lb ed="#V" n="113"/>oportet quod cognoscat huiusmodi intentiones, quia talis
+            <lb ed="#V" n="114"/>delectatio potius est naturalis quam animalis, ideo non
+            re<lb ed="#V" n="115" break="no"/>quirit praecognitionem huiusmodi intentionum. De hoc
+            San<lb ed="#V" n="116" break="no"/>ctus Thomas prima parte q. 80. articu. primo in solutione
+            ter<lb ed="#V" n="117" break="no"/>tij sic dicit. Vnaquaeque potentia animae est quaedam forma
+            <lb ed="#V" n="118"/>seu natura &amp; habet naturalem inclinationem in aliquid.
+            Vn<lb ed="#V" n="119" break="no"/>de vnaquaeque appetit obiectum sibi conueniens
+            naturali<lb ed="#V" n="120" break="no"/>appetitu, supra quem est appetitus animalis consequens
+            ap<lb ed="#V" n="121" break="no"/>prehensionem, quo appetitur aliquid non ea ratione, qua
+            <lb ed="#V" n="122"/>est conueniens ad actum illius vel illius potentiae, vtpote
+            <lb ed="#V" n="123"/>visio ad videndum, &amp; auditio ad audiendum, sed quia est
+            <lb ed="#V" n="124"/>simpliciter conueniens animali. Haec ille.
+          </p>
+          <p xml:id="capsco-c3ce7n-d1e1800">
+            Item de veritate,
+            <lb ed="#V" n="125"/>quaestione vigesimasecunda articulo tertio in solutione 5.
+            <lb ed="#V" n="126"/>sic dicit. Vnaquaeque potentia appetit suum obiectum
+            ape<lb ed="#V" n="127" break="no"/>titu naturali, sed appetitus naturalis ad specialem potentiam
+            <lb ed="#V" n="128"/>animae pertinet. Et quia appetitus naturalis est
+            determina<lb ed="#V" n="129" break="no"/>tus ad vnum, animal autem sequitur apprehensionem, inde
+            <lb ed="#V" n="130"/>est quod singulae potentiae appetunt bonum determinatum,
+            <lb ed="#V" n="131"/>sed vis appetitiua appetit quodcunque bonum
+            apprehen<lb ed="#V" n="132" break="no"/>sum. Haec ille.
+          </p>
+          <p xml:id="capsco-c3ce7n-d1e1820">
+            Veruntamen non apparet mihi magnum
+            in<lb ed="#V" n="133" break="no"/>conueniens si diceretur, quod potentiae apprehensiuae
+            sensi<lb ed="#V" n="134" break="no"/>tiue exteriores vno &amp; eodem actu apprehundant suum per
+            <lb ed="#V" n="135"/>prium, &amp; per se obiectum, &amp; aliquid ad hoc per se consequens
+            <lb ed="#V" n="136"/>puta conuenientiam, aut disconuenientiam obiecti ad
+            po<lb ed="#V" n="137" break="no"/>tentiam, sicut apprehendunt obiectum proprium &amp;
+            sensibi<lb ed="#V" n="138" break="no"/>le commune, puta magnitudinem distantiam, numerum,
+            <lb ed="#V" n="139"/>motum figuram, &amp; huiusmodi. Nec ex hoc potest argui
+            du<lb ed="#V" n="140" break="no"/>plicitas potentiae, sed solum posset argui ex duplicitate
+            pri<lb ed="#V" n="141" break="no"/>mi, &amp; per se obiecti &amp;c.
+          </p>
+          <p xml:id="capsco-c3ce7n-d1e1842">
+            Ad quartum dicitur, quod
+            similitu<lb ed="#V" n="142" break="no"/>do nihil valet, quia distantia vel propinquitas sunt relatiua
+            <lb ed="#V" n="143"/>secundum esse, bonum autem &amp; malum sunt relatiua
+            secun<lb ed="#V" n="144" break="no"/>dum dici. Et idem est conuenienti &amp; discouenienti, vt sunt
+            <lb ed="#V" n="145"/>obiecta passionum. Conceditur tamen quod nec hic, nec
+            <lb ed="#V" n="146"/>ibi relatio est principalis ratio causandi delectationem
+            aut<lb ed="#V" n="147" break="no"/>tristitiam, sed absolutum sub tali relatione, nec ipsa relatio
+            <lb ed="#V" n="148"/>est solum causa sine qua non, immo causa vel concausa per
+            <lb ed="#V" n="149"/>quam potissime, quia sicut dictum est, talis respectus, aut
+            <lb ed="#V" n="150"/>relatio non facit relatiuum secundum esse, sed secundum
+            <pb ed="#V" n="139"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>di ci. Item aduertendum est quod de relatione aut respectu
+            <lb ed="#V" n="2"/>possumus dupliciter loqui. Vno modo quantum ad
+            habitu<lb ed="#V" n="3" break="no"/>dinem ad aliquid extrinsecum a suo fundamento, puta ad
+            <lb ed="#V" n="4"/>terminum &amp; quantum ad hoc non potest inquantum
+            hu<lb ed="#V" n="5" break="no"/>iusmodi esse principium alicuius motionis vel actionis, nec
+            <lb ed="#V" n="6"/>principale, nec secundarium. Alio modo potest
+            considera<lb ed="#V" n="7" break="no"/>ri quantum ad esse, quod habet in subiecto vel fundamento
+            <lb ed="#V" n="8"/>suo, &amp; isto modo relatio si sit realis potest esse
+            comprinci<lb ed="#V" n="9" break="no"/>pium vel concausa alicuius motionis vel actionis, ad minus
+            <lb ed="#V" n="10"/>potest esse comprincipium mouendi sensum. aut rationem
+            <lb ed="#V" n="11"/>ad sui cognitionem, &amp; causandi speciem intelligibilem, vel
+            <lb ed="#V" n="12"/>sensibilem. Et consimiliter potest esse comprincipium
+            mo<lb ed="#V" n="13" break="no"/>uendi appetitum sensitiuum aut intellectiuum, quia in
+            mo<lb ed="#V" n="14" break="no"/>tionibus istarum potentiarum vitalium, videlicet cognitiuarum
+            <lb ed="#V" n="15"/>appetitiuarum non requiritur ita grossa realitas sicut in
+            a<lb ed="#V" n="16" break="no"/>lijs motoribus potentiarum non vitalium, puta in
+            calefacti<lb ed="#V" n="17" break="no"/>uo, frigefactiuo, &amp; similibus.
+          </p>
+          <p xml:id="capsco-c3ce7n-d1e1905">
+            Ad argumentum pro parte
+            af<lb ed="#V" n="18" break="no"/>firmatiua conclusionis respondit Sanctus Thomas tertia
+            par<lb ed="#V" n="19" break="no"/>te quaestio. decimatertia articulo tertio in solutione primi
+            <lb ed="#V" n="20"/>dicens. Quia verbum Damascen.s intelligendum est
+            quan<lb ed="#V" n="21" break="no"/>tum ad voluntatem diuinam Christi, quia sicut ipse dicit
+            <lb ed="#V" n="22"/>capitulo praecedenti beneplacito diuinae voluntatis
+            permit<lb ed="#V" n="23" break="no"/>tebatur carni pati &amp; operari, quae erant sibi propria. Haec
+            il<lb ed="#V" n="24" break="no"/>le. Et haec de quaestione sufficiant. De qua Benedictus.
+            <lb ed="#V" n="25"/>Deus Amen.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

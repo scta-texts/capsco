@@ -1,0 +1,1385 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 3, Distinctio 6, Quaestio 1</title>
+        <author ref="#JohannesCapreolus">Johannes Capreolus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 3, Distinctio 6, Quaestio 1</title>
+          <date when="2026-11-04">Nov 4, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-j88c03">Venice, 1589, v. 3</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-04" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="65"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="capsco-c35lj2"><!-- l3d6q1 -->
+        <head xml:id="capsco-c35lj2-Hd1e101">Quaestio 1</head>
+        <head xml:id="capsco-c35lj2-Hd1e103" type="question-title">Utrum in Christo sint plura esse</head>
+        <p xml:id="capsco-c35lj2-d1e106">
+          <lb ed="#V" n="27"/>DISTINCTIO. VI
+          <lb ed="#V" n="28"/>QVAESTIO VNICA
+        </p>
+        <p xml:id="capsco-c35lj2-d1e113">
+          <lb ed="#V" n="29"/><milestone ed="#V" unit="p" rend="initial"/> CIRCA sextam distinctionem tertij
+          sen<lb ed="#V" n="30" break="no"/>tentiarum quaeritur. Vtrum in Christo
+          <lb ed="#V" n="31"/>sint plura esse.
+        </p>
+        <p xml:id="capsco-c35lj2-d1e123">
+          Et arguitur quod sic. Nam in
+          <lb ed="#V" n="32"/>Christo anima dat esse corpori, cum sit
+          <lb ed="#V" n="33"/>forma eius, sed non dat sibi esse diuinum,
+          <lb ed="#V" n="34"/>cum sit increatum: ergo in Christo est
+          <lb ed="#V" n="35"/>aliud esse praeter esse diuinum, &amp; sic in Christo non est
+          tan<lb ed="#V" n="36" break="no"/>tum vnum esse, sed plura.
+        </p>
+        <p xml:id="capsco-c35lj2-d1e137">
+          <lb ed="#V" n="37"/><milestone ed="#V" unit="p" rend="indent"/> In oppositum arguitur sic. Vnumquodque sicut dicitur
+          <lb ed="#V" n="38"/>ens, dicitur vnum, quia ens &amp; vnum conuertuntur, si
+          er<lb ed="#V" n="39" break="no"/>go in Christo essent duo esse, &amp; non tantum vnum,
+          Chri<lb ed="#V" n="40" break="no"/>stus erit duo, &amp; non vnum, quod est falsum.
+        </p>
+        <p xml:id="capsco-c35lj2-d1e149">
+          <lb ed="#V" n="41"/><milestone ed="#V" unit="p" rend="indent"/> I hac quodione sunt tres articuli. In primo ponuntur
+          con<lb ed="#V" n="42" break="no"/>clusiones. In secundo obiectiones. In tertio solutiones.
+        </p>
+        <div xml:id="capsco-c35lj2-Dd1e157">
+          <head xml:id="capsco-c35lj2-Hd1e159">Articulus 1</head>
+          <p xml:id="capsco-c35lj2-d1e161">
+            <lb ed="#V" n="43"/><milestone ed="#V" unit="p" rend="initial"/> QVantum ad primum articulum sit prima conclusio.
+            <lb ed="#V" n="44"/>In Christo non sunt duo esse substantialia actualis
+            exi<lb ed="#V" n="45" break="no"/>stentiae. Hanc ponit Sanctus Thomas 3. parte q. 17. artic. 2. vb
+            <lb ed="#V" n="46"/>sic dicit. Quia in Christo sunt duae naturae &amp; vna
+            hyposta<lb ed="#V" n="47" break="no"/>sis, necesse est quod ea quae ad naturam pertinent in Christo
+            <lb ed="#V" n="48"/>sint duo, quae autem pertinent ad hypostasim in Christo
+            <lb ed="#V" n="49"/>sint vnum tantum. Esse autem pertinet ad hypostasim, &amp;
+            <lb ed="#V" n="50"/>ad naturam. Ad hypostasim quidem sicut ad id, quod
+            ha<lb ed="#V" n="51" break="no"/>bet esse. Ad naturam autem sicut ad id, quo aliquid
+            habe¬<lb ed="#V" n="52" break="no"/>esse, natura enim significatur per modum formae, quae dicitur
+            <lb ed="#V" n="53"/>ens, ex eo quod ea aliquid est, sicut albedine est aliquid album,
+            <lb ed="#V" n="54"/>&amp; humanitate est aliquis homo. Est autem considerandum,
+            <lb ed="#V" n="55"/>quod si aliqua forma, vel natura est, quae non pertineat ad esse
+            <lb ed="#V" n="56"/>personale hypostasis subsistentis, illud esse non dicitur esse
+            <lb ed="#V" n="57"/>illius personae simpliciter, sed secundum quid, sicut esse
+            al<lb ed="#V" n="58" break="no"/>bum est esse sortis, non inquantum est sortes, sed inquantum
+            <lb ed="#V" n="59"/>est albus. Et huomodi esse nihil prohibet multiplicari in vna
+            <lb ed="#V" n="60"/>hypostasi, vel persona. Aliud enim est esse, quo Sortes est
+            <lb ed="#V" n="61"/>albus, &amp; quo sortes est musicus, sed illud esse quod
+            perti<lb ed="#V" n="62" break="no"/>net ad hypostasim vel personam secundum se impossibile
+            <lb ed="#V" n="63"/>est in vna hypostasi, vel persona multiplicari, quia
+            impossi<lb ed="#V" n="64" break="no"/>bile est quod vnius rei sit nisi vnicum esse. Si igitur humana
+            na<lb ed="#V" n="65" break="no"/>tura adueniret filio Dei, non hypostatice vel personaliter,
+            <lb ed="#V" n="66"/>sed tantum accidentaliter sicut quidam posuerunt, oportet
+            <lb ed="#V" n="67"/>ponere in Christo duo esse. Vnum quidem secundum quod est Deus,
+            <lb ed="#V" n="68"/>aliud autem secundum quod est homo, sicut in sorte ponitur
+            <lb ed="#V" n="69"/>aliud esse secundum quod est al bus, &amp; aliud secundum quod
+            <lb ed="#V" n="70"/>est homo. Quia esse album non pertinet ad esse personale
+            <lb ed="#V" n="71"/>sortis, esse autem capitatum, &amp; esse croporeum, &amp; esse
+            ani<cb ed="#V" n="b"/><lb ed="#V" n="72" break="no"/>matum totum pertinet ad vnam personam sortis, &amp; ideo
+            <lb ed="#V" n="73"/>ex omnibus his non fit in sorte nisi vnum esse. Et si
+            contin<lb ed="#V" n="74" break="no"/>geret quod post constitutionem sortis aduenirent sorti
+            ma<lb ed="#V" n="75" break="no"/>nus, vel pedes, vel oculi, sicut accidit in caeco nato, ex his non
+            <lb ed="#V" n="76"/>accresceret sorti aliud esse, sed solum relatio quaedam ad
+            <lb ed="#V" n="77"/>huiusmodi, quia scilicet diceretur esse non solum secundum
+            <lb ed="#V" n="78"/>ea, quae prius habebat, sed etiam secundum ea quae
+            postmo<lb ed="#V" n="79" break="no"/>dum aduenerunt sibi. Sic igitur cum humana natura
+            con<lb ed="#V" n="80" break="no"/>iungatur cum filio Dei hypostatice, vel personaliter, &amp; non
+            <lb ed="#V" n="81"/>accidentaliter, consequens est quod secundum humanam
+            na<lb ed="#V" n="82" break="no"/>turam non adueniat sibi nouum esse personale, sed solum
+            <lb ed="#V" n="83"/>noua habitudo esse personalis praeexistentis ad naturam
+            <lb ed="#V" n="84"/>humanam, vt scilicet illa persona iam dicatur subsistere non
+            <lb ed="#V" n="85"/>solum secundum diuinam naturam, sed etiam secundum
+            <lb ed="#V" n="86"/>humanam. Haec ille.
+          </p>
+          <p xml:id="capsco-c35lj2-d1e261">
+            Item 3. sent. dist. 6. q. 2. artic. 2. sic dicit.
+            <lb ed="#V" n="87"/>Secundum Philosophum 5. Met. esse dicitur duob. modis,
+            <lb ed="#V" n="88"/>vno modo secundum quod significat veritatem propositionis
+            <lb ed="#V" n="89"/>secundum quod est copula, &amp; sic vt Commentator dicit ibidem,
+            <lb ed="#V" n="90"/>ens est praedicatum accidentale, &amp; hoc esse non est in re, sed
+            <lb ed="#V" n="91"/>in mente, quae coniungit praedicatum cum subiecto, vt dicit
+            <lb ed="#V" n="92"/>Philosophus 6. Metaphy. vnde de hoc esse non est quaestio
+            <lb ed="#V" n="93"/>hic. Alio modo dicitur ens, quod pertinet ad naturam
+            re<lb ed="#V" n="94" break="no"/>secundum quod diuiditur secundum decem genera. Et hoc
+            <lb ed="#V" n="95"/>quidem esse est in re, &amp; est actus resultans ex principijs rei,
+            <lb ed="#V" n="96"/>sicut lucere est actus lucentis. Aliquando tamen sumitur
+            <lb ed="#V" n="97"/>esse pro essentia, secundum quam res est. 1i. pro quidditate,
+            <lb ed="#V" n="98"/>quia per actus consueuerunt significari eorum principia, vt
+            <lb ed="#V" n="99"/>potentiae vel habitus. Loquendo igitur de esse secundum quod
+            <lb ed="#V" n="100"/>est actus entis, sic dico quod secundum secundam opinionem
+            <lb ed="#V" n="101"/>oportet ponere vnum esse tantum, secundum autem alias
+            <lb ed="#V" n="102"/>duas oportet ponere duo esse, esse enim subsistentis est, quod
+            <lb ed="#V" n="103"/>habet esse tanquam eius quod est, quamuis sit naturae, vel
+            <lb ed="#V" n="104"/>formae tanquam eius quo est, vnde nec natura rei, nec
+            par<lb ed="#V" n="105" break="no"/>tes eius, dicuntur proprie esse, si esse praedicto modo
+            acci<lb ed="#V" n="106" break="no"/>piatur. Similiter autem nec accidentia, sed suppositum
+            com<lb ed="#V" n="107" break="no"/>pletum est omnia illa. Vnde etiam Philosophus dicit
+            se<lb ed="#V" n="108" break="no"/>ptimo Metaphysicae, quod accidens magis proprie est
+            en<lb ed="#V" n="109" break="no"/>tis quam ens. Prima ergo opinio quia ponit duo
+            subsisten<lb ed="#V" n="110" break="no"/>tia, ponit duo esse substantialia. Similiter opinio tertia,
+            <lb ed="#V" n="111"/>quia ponit quod partes humanae naturae adueniunt diuinae
+            <lb ed="#V" n="112"/>personae accidentaliter, ponit duo esse, vnum substantiale,
+            <lb ed="#V" n="113"/>&amp; aliud accidentale. Secunda vero opinio, quia ponit vnum
+            <lb ed="#V" n="114"/>subsistens, &amp; humanitatem non aduenire accidentaliter
+            di<lb ed="#V" n="115" break="no"/>uinae personae, oportet quod ponat vnum esse, impossibile
+            <lb ed="#V" n="116"/>enim est, quod vnum aliquid habeat duo esse
+            substantia<lb ed="#V" n="117" break="no"/>lia, quia vnum fundatur super ens, vnde si sint plura esse,
+            <lb ed="#V" n="118"/>secundum quae aliquid dicitur ens simpliciter,
+            impossibi<lb ed="#V" n="119" break="no"/>le est quod dicatur vnum. Sed non est inconueniens, quod
+            <lb ed="#V" n="120"/>esse vnius subsistentis sit per respectum ad multa, sicut esse
+            <lb ed="#V" n="121"/>Petri est vnum, habens tamen respectum ad diuersa
+            prin<lb ed="#V" n="122" break="no"/>cipia ipsum constituentia. Et similiter suo modo esse
+            Chri<lb ed="#V" n="123" break="no"/>sti vnum habet duos respectus, vnum ad naturam diuinam,
+            <lb ed="#V" n="124"/>aliud ad naturam humanam. Haec ille. Ex quibus potest
+            <lb ed="#V" n="125"/>formari talis ratio. Nihil vere &amp; proprie vnum habet duo
+            <lb ed="#V" n="126"/>esse substantialia, quibus actualiter existit, sed Christus est
+            <lb ed="#V" n="127"/>vere &amp; proprie vnum ens, &amp; vna substantia: igitur &amp; caet.
+          </p>
+          <p xml:id="capsco-c35lj2-d1e352">
+            <lb ed="#V" n="128"/><milestone ed="#V" unit="p" rend="indent"/> Secunda conclusio est. In Christo sunt multa esse
+            secun<lb ed="#V" n="129" break="no"/>dum quid &amp; accidentalia. Hanc ponit Sanctus Thomas
+            quo<lb ed="#V" n="130" break="no"/>libet nono, artic. 3. vbi sic dicit. Esse dicitur dupliciter,
+            va<lb ed="#V" n="131" break="no"/>patet per Philosophum quinto Metaphysicae, &amp; in quadam
+            <lb ed="#V" n="132"/>glosa super principium loan. Vno modo secundum quod
+            <lb ed="#V" n="133"/>est copula verbalis significans compositionem cuiuslibet
+            <lb ed="#V" n="134"/>enunciabilis, quam anima facit. Vnde hoc esse non est
+            ali<lb ed="#V" n="135" break="no"/>quid in rerum natura, &amp; sic esse attribuitur omni eo, de quo
+            <lb ed="#V" n="136"/>propositio potest formari, siue sit ens, siue priuatio entis,
+            <lb ed="#V" n="137"/>dicimus enim caecitatem esse. Alio modo dicitur esse actus
+            <lb ed="#V" n="138"/>entis inquantum est ens, id est quo denominatur aliquid
+            <lb ed="#V" n="139"/>ens actu in rerum natura, &amp; sic esse non attribuitur nisi
+            <lb ed="#V" n="140"/>ipsis rebus, quae in decem generibus continentur, vnde
+            <lb ed="#V" n="141"/>ens a tali esse dictum per decem genera diuiditur. Sed
+            <lb ed="#V" n="142"/>hoc esse attribuitur alicui rei dupliciter.
+          </p>
+          <p xml:id="capsco-c35lj2-d1e388">
+            <lb ed="#V" n="143"/><milestone ed="#V" unit="p" rend="indent"/> Vno modo sicut ei, quod vere, &amp; proprie habet esse
+            <lb ed="#V" n="144"/>vel est, &amp; sic attribuitur soli substantiae per se subsistenti,
+            <lb ed="#V" n="145"/>vnde quod vere est dicitur substantia primo
+            Physico<lb ed="#V" n="146" break="no"/>rum, omnibus vero quae non per se subsistunt, sed in alio
+            <pb ed="#V" n="66"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>&amp; cum alio, siue sint accidentia, siue formae substantiales,
+            <lb ed="#V" n="2"/>aut quaelibet partes non habent esse, ita quod ipsa vere sint, sed
+            <lb ed="#V" n="3"/>attribuitur eis esse alio modo, idest vt quo aliquid est, sicut
+            <lb ed="#V" n="4"/>albedo dicitur esse, non quia ipsa in esse subsistat, sed quia ea
+            <lb ed="#V" n="5"/>aliquid habet esse album, esse ergo vere &amp; proprie non
+            attri<lb ed="#V" n="6" break="no"/>buitur nisi rei subsistenti. Huic autem attribuitur esse
+            du<lb ed="#V" n="7" break="no"/>plex, vnum scilicet esse quod resultat ex his, ex quibus eius vnitas
+            <lb ed="#V" n="8"/>integratur, quod est primum esse substantiale suppositi, aliud
+            <lb ed="#V" n="9"/>autem esse est supposito attributum praeter ea, quae integrant
+            <lb ed="#V" n="10"/>ipsum, quod est esse superadditum cilicetaccidentale, vt esse album
+            <lb ed="#V" n="11"/>attribuitur Sorti, cum dicitur, Sortes est albus, quia ergo in
+            <lb ed="#V" n="12"/>Christo ponimus vnam rem subsistentem, ad cuius
+            integri<lb ed="#V" n="13" break="no"/>tatem concurrit etiam ipsa humanitas, quia vnum
+            supposi<lb ed="#V" n="14" break="no"/>tum est vtriusque naturae, ideo oportet dicere, quod esse
+            sub<lb ed="#V" n="15" break="no"/>stantiale, quod proprie attribuitur supposito in Christo, est
+            <lb ed="#V" n="16"/>vnum tantum, habet autem vnitatem ex supposito, &amp; non
+            <lb ed="#V" n="17"/>ex naturis. Si tamen ponatur humanitas a diuinitate
+            separa<lb ed="#V" n="18" break="no"/>ri, tunc humanitas suum esse habebit aliud ab esse diuino,
+            <lb ed="#V" n="19"/>non enim impediebat, quin haberet proprium esse, nisi hoc
+            <lb ed="#V" n="20"/>quod non erat per se subsistens, sicut si archa esset quoddam
+            <lb ed="#V" n="21"/>indiuiduum naturale, ipsa tota non haberet nisi vnum esse,
+            <lb ed="#V" n="22"/>quaelibet tamen partium ab archa separata haberet proprium
+            <lb ed="#V" n="23"/>esse. Et sic patet quod secundum secundam opinionem
+            opor<lb ed="#V" n="24" break="no"/>tet dicere, quod in Christo est vnum esse substantiale secundum
+            <lb ed="#V" n="25"/>quod proprie est suppositum, quamuis sit multiplex esse
+            ac<lb ed="#V" n="26" break="no"/>dentale. Haec ille.
+          </p>
+          <p xml:id="capsco-c35lj2-d1e462">
+            Ex quibus potest formari talis ratio. In
+            <lb ed="#V" n="27"/>quocunque supposito sunt plures formae accidentales in
+            eo<lb ed="#V" n="28" break="no"/>dem sunt multa esse accidentalia &amp; secundum quid, sed
+            sup<lb ed="#V" n="29" break="no"/>positum verbi est huiusmodi: igitur &amp;c. Et in hoc primus
+            <lb ed="#V" n="30"/>articulus terminatur.
+          </p>
+        </div>
+        <div xml:id="capsco-c35lj2-Dd1e474">
+          <head xml:id="capsco-c35lj2-Hd1e476">Articulus 2</head>
+          <p xml:id="capsco-c35lj2-d1e478">
+            <lb ed="#V" n="31"/><milestone ed="#V" unit="p" rend="initial"/> Vantum ad secundum articulum arguitur contra
+            con<lb ed="#V" n="32" break="no"/>clusiones, &amp; quidem contra primam arguit Scot
+            pro<lb ed="#V" n="33" break="no"/>bando, quod in Christo sit aliud esse existentiae ab esse
+            aeter<lb ed="#V" n="34" break="no"/>no. Primo. Quia terminus generationis est esse existentiae,
+            <lb ed="#V" n="35"/>vel aliquid habens tale esse ex 5. Physic. Nam terminus
+            ge<lb ed="#V" n="36" break="no"/>nerationis est aliquod esse per generationem acquisitum, sed
+            <lb ed="#V" n="37"/>filius Dei vere generatur ex matre temporaliter secundum
+            <lb ed="#V" n="38"/>Damastlibus 3. cap. 53. ergo illius generationis terminus est
+            ali<lb ed="#V" n="39" break="no"/>quid habens esse existentiae, non autem esse increatum, quia
+            <lb ed="#V" n="40"/>illud non fuit effectum per generationem temporalem:
+            igi<lb ed="#V" n="41" break="no"/>tum aliud esse.
+          </p>
+          <p xml:id="capsco-c35lj2-d1e505">
+            Secundo sic. Nam viuere viuentibus est esse
+            <lb ed="#V" n="42"/>2. de anima, sed in Christo fuit alia vita ab increata, aliter non
+            <lb ed="#V" n="43"/>esset vere mortuus, mors enim est priuatio vitae, sed vita
+            in<lb ed="#V" n="44" break="no"/>creata priuari non potuit, &amp; ita fuit in eo aliud viuere.
+            Ter<lb ed="#V" n="45" break="no"/>tio. Anima Christi creabatur, creatio autem terminatur ad
+            <lb ed="#V" n="46"/>aliquod actualiter existens: ergo fuit aliqua existentia
+            actua<lb ed="#V" n="47" break="no"/>lis animae inquantum terminans creationem, sed non
+            in<lb ed="#V" n="48" break="no"/>creata: ergo creata, vel saltem alia ab increata. Quarto.
+            Il<lb ed="#V" n="49" break="no"/>lam naturam, quam verbum personauit, tota Trinitas
+            pro<lb ed="#V" n="50" break="no"/>ducit in ratione causae efficientis &amp; conseruantis, sed
+            cau<lb ed="#V" n="51" break="no"/>salitas causae efficientis &amp; conseruantis non terminatur, nisi
+            <lb ed="#V" n="52"/>ad aliquod existere, &amp; non increatum: ergo ad existere
+            crea<lb ed="#V" n="53" break="no"/>tum. Quinto. Si natura humana dimitteretur a verbo, non
+            <lb ed="#V" n="54"/>oporteret sibi acquiri aliquod esse per generationem, nec
+            <lb ed="#V" n="55"/>per creationem, &amp; tamen ipsa dimissa, ex quo dimissa est,
+            <lb ed="#V" n="56"/>non est annihilata, nec ens in potentia tantum, vt anima
+            An<lb ed="#V" n="57" break="no"/>tichristi ante creationem: ergo haberet aliquod esse in actu,
+            <lb ed="#V" n="58"/>&amp; non nouum, quia per nullam mutationem: ergo illud
+            <lb ed="#V" n="59"/>quod modo habet. Sexto. Natura humana posset assumi a
+            <lb ed="#V" n="60"/>verbo, &amp; illa non potest manere eadem, nisi maneat sua
+            exi<lb ed="#V" n="61" break="no"/>stentia secundum te: igitur &amp; caet. Septimo. Fundamentum
+            <lb ed="#V" n="62"/>relationis naturaliter praecedit relationem, &amp; secundum esse
+            <lb ed="#V" n="63"/>actuale praecedit rationem relationis actualis, sed vnio ista
+            <lb ed="#V" n="64"/>fuit relatio actualis: igitur eius fundamentum praecessit
+            na<lb ed="#V" n="65" break="no"/>turaliter secundum esse actuale, sed illud fundamentum erat
+            <lb ed="#V" n="66"/>ipsa natura totalis: igitur &amp;c.
+          </p>
+          <p xml:id="capsco-c35lj2-d1e562">
+            Confirmatur. Quia prius
+            na<lb ed="#V" n="67" break="no"/>tura anima perficit corpus quam natura esset nata assumi, &amp;
+            <lb ed="#V" n="68"/>in illo priori forma fuit actus materiae, &amp; consequenter
+            da<lb ed="#V" n="69" break="no"/>bat sibi esse, quod non corrumpebatur per assumptionem.
+          </p>
+          <p xml:id="capsco-c35lj2-d1e571">
+            <lb ed="#V" n="70"/>Octauo arguitur contra rationem opins tuae. Si verbum
+            ha<lb ed="#V" n="71" break="no"/>bet tantum modo respectum rationis ad naturam
+            assum<lb ed="#V" n="72" break="no"/>ptam, cum per respectum rationis nullum suppositum
+            dica<lb ed="#V" n="73" break="no"/>tur esse formaliter aliquid: ergo verbum inquantum est
+            ho<lb ed="#V" n="74" break="no"/>mo non esset formaliter aliquid, consequens est contra illud
+            <lb ed="#V" n="75"/>capitulum de haereticis, cum Christus &amp;c. Nono. Quia pars
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="76"/>adueniens toti, ideo non dat esse, sed recipit, quia perficitur
+            <lb ed="#V" n="77"/>a forma totius, quia si remaneret distincta sicut prius, non
+            <lb ed="#V" n="78"/>reciperet esse totius, sed haberet esse proprium, vel nullum,
+            <lb ed="#V" n="79"/>sed natura humana vnita verbo non informatur verbo, sed
+            <lb ed="#V" n="80"/>manet simpliciter distincta: igitur, vel nullum esse habet,
+            <lb ed="#V" n="81"/>vel habet esse proprium. Ad idem arguit Aureolus 1. Quia
+            <lb ed="#V" n="82"/>esse est actus essentiae, ita quod actuat essentiam, modo esse
+            <lb ed="#V" n="83"/>diuinum non actuat aliquam naturam creatam, humanitas
+            <lb ed="#V" n="84"/>vero est potentialis essentia respectu sui esse, &amp; illud non
+            <lb ed="#V" n="85"/>amittit per assumptionem.
+          </p>
+          <p xml:id="capsco-c35lj2-d1e611">
+            Secundo. Quia tunc
+            humani<lb ed="#V" n="86" break="no"/>tas non posset assumi ab vno diuino supposito, quin
+            assume<lb ed="#V" n="87" break="no"/>retur ab omnibus cum in omnibus tribus personis non sit
+            <lb ed="#V" n="88"/>nisi vnicum esse. Ad idem arguitur ab alijs, quorum
+            argu<lb ed="#V" n="89" break="no"/>menta recita Durandus &amp; primo sic. Vnitas, vel pluralitas
+            <lb ed="#V" n="90"/>ipsius esse in Christo, aut attenditur secundum suppositum,
+            <lb ed="#V" n="91"/>aut secundnm naturas. Si secundum naturas, cum plures
+            <lb ed="#V" n="92"/>naturae sint in Christo: ergo &amp; plura esse. Si secundum
+            sup<lb ed="#V" n="93" break="no"/>positum. Contra. Quia si vnitas suppositi arguit vnitatem
+            <lb ed="#V" n="94"/>esse, tunc pluralitas suppositorum argueret pluralitatem
+            <lb ed="#V" n="95"/>ipsorum esse, consequens est falsum, quia tres personae
+            di<lb ed="#V" n="96" break="no"/>uinae, cum sint tria supposita non habent, nisi vnicum esse
+            exi<lb ed="#V" n="97" break="no"/>stentiae propter vnitatem essentiae: ergo vnitas, vel
+            plurali<lb ed="#V" n="98" break="no"/>tas ipsorum esse non attenditur secundum vnitatem, vel
+            <lb ed="#V" n="99"/>pluralitatem suppositi, sed secundum naturam.
+          </p>
+          <p xml:id="capsco-c35lj2-d1e644">
+            Secundo.
+            <lb ed="#V" n="100"/>Quia agere supponit esse, &amp; est suppositi sicut &amp; esse, sed
+            <lb ed="#V" n="101"/>in Christo non obstante vnitate suppositi praeter agere
+            diui<lb ed="#V" n="102" break="no"/>num est agere humanum: ergo in Christo praeter esse
+            diui<lb ed="#V" n="103" break="no"/>num est aliud esse humanum, &amp; sic plura esse. Tertio. Quia
+            <lb ed="#V" n="104"/>si natura humana, quae est in Christo, sibi derelinqueretur,
+            <lb ed="#V" n="105"/>constat quod haberet proprium esse existentiae aliud ab
+            es<lb ed="#V" n="106" break="no"/>se diuino: aut ergo illud, qnod habebat in diuino
+            supposi<lb ed="#V" n="107" break="no"/>to, aut aliud. Si idem habetur propositum, scilicet quod in
+            <lb ed="#V" n="108"/>Christo praeter esse diuinum est aliud esse. Si aliud. Contra.
+            <lb ed="#V" n="109"/>Illud, quod amittit totum esse simpliciter, quod prius habuit,
+            <lb ed="#V" n="110"/>&amp; acquirit totaliter nouum esse, quod prius non habuit,
+            ta<lb ed="#V" n="111" break="no"/>le est vere corruptum, &amp; vere generatum, sed si humana
+            na<lb ed="#V" n="112" break="no"/>tura sibi derelinqueretur, amitteret totum esse simpliciter,
+            <lb ed="#V" n="113"/>quod habuit, si in Christo solum est vnum &amp; idem esse,
+            sci<lb ed="#V" n="114" break="no"/>licet diuinum, &amp; acquireret totaliter nouum esse, quod prius
+            <lb ed="#V" n="115"/>non habuit: ergo vere prius corrumperetur, &amp; prius
+            gene<lb ed="#V" n="116" break="no"/>raretur, &amp; sic non esset eadem numero, quae prius, quod est
+            <lb ed="#V" n="117"/>inconueniens. Minor patet, sed probatur maior, quia sicut
+            <lb ed="#V" n="118"/>illud corrumpitur secundum quid, quod amittit aliquod
+            es<lb ed="#V" n="119" break="no"/>se, &amp; non totum, sicut cum aqua calida infrigidatur, vel
+            econ<lb ed="#V" n="120" break="no"/>tra, sic illud corrumpitur simpliciter, quod amittit totum
+            <lb ed="#V" n="121"/>esse simpliciter, quod prius habuit. Et iterum. Essentia non
+            <lb ed="#V" n="122"/>potest manere, vel conseruari sine esse quacunque virtute:
+            <lb ed="#V" n="123"/>natura ergo humana amittendo totum esse, quod prius
+            ha<lb ed="#V" n="124" break="no"/>buit, aut est corrupta per amissionem primi esse, aut non,
+            <lb ed="#V" n="125"/>sed requiritur, quod sic amittat esse praecedens, quod
+            nul<lb ed="#V" n="126" break="no"/>lo modo recuperet aliud. Si primum detur, habetur
+            propo<lb ed="#V" n="127" break="no"/>situm. Si detur secundum. Contra. Essentia amittens
+            om<lb ed="#V" n="128" break="no"/>ne esse &amp; nullum recuperans vere adnihilatur, quia natura
+            <lb ed="#V" n="129"/>nunquam potest manere sine aliquo esse, vt dictum est: si
+            er<lb ed="#V" n="130" break="no"/>go essentia non corrumpitur, nisi amittendo totum suum
+            <lb ed="#V" n="131"/>esse, &amp; nullum recuperando, nunquam poterit esse
+            corru<lb ed="#V" n="132" break="no"/>ptio sine adnihilatione, immo non differt vnum ab alio, quod
+            <lb ed="#V" n="133"/>est falsum.
+          </p>
+          <p xml:id="capsco-c35lj2-d1e720">
+            Quarto. Quia omnis generatio terminatur ad
+            <lb ed="#V" n="134"/>esse, &amp; omnis corruptio ad non esse, sed Christus
+            secun<lb ed="#V" n="135" break="no"/>dum humanam naturam vere fuit genitus &amp; mortuus:
+            er<lb ed="#V" n="136" break="no"/>go secundum eam habuit aliquod esse, quod per
+            generatio<lb ed="#V" n="137" break="no"/>nem acquisiuit, &amp; quod per mortem amisit. Illud autem non
+            <lb ed="#V" n="138"/>fuit esse diuinum, quia illud nunquam amisit: ergo
+            prae<lb ed="#V" n="139" break="no"/>ter esse diuinum fuit in Christo aliquod esse creatum. Si
+            <lb ed="#V" n="140"/>vero dicatur, quod per generationem temporalem
+            Christi<lb ed="#V" n="141" break="no"/>acquisitum fuit Christo esse diuinum non secundum se, quia
+            <lb ed="#V" n="142"/>illud prius habuit, sed quia natura humana nouam
+            relatio<lb ed="#V" n="143" break="no"/>nem habuit ad ipsum. Contra. Quia illud per generationem
+            <lb ed="#V" n="144"/>acquiritur, quod per corruptionem amittitur, sed esse
+            diui<lb ed="#V" n="145" break="no"/>num, vel relatio ad ipsum non est amissa per corruptionem:
+            <lb ed="#V" n="146"/>ergo nec acquisita per generationem. Et sic ex hac
+            opinio<lb ed="#V" n="147" break="no"/>ne sequitur, quod Christus non fuit vere natus, nec vere
+            <lb ed="#V" n="148"/>mortuus: igitur &amp; caetera. Arguit ad idem etiam Durandus.
+            <lb ed="#V" n="149"/>vbi supra, &amp; primo sic. Quia melius competit naturae
+            hu<lb ed="#V" n="150" break="no"/>manae in Christo habere proprium esse praeter esse suppositi
+            <pb ed="#V" n="67"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>criam comneta¬ accidenti habere proprium esse in subiecto
+            <lb ed="#V" n="2"/>praeter esse subiecti, sed accidens habet proprium esse in
+            su<lb ed="#V" n="3" break="no"/>biecto praeter esse subiecti: ergo natura humana in Christo
+            <lb ed="#V" n="4"/>habuit proprium esse praeter esse diuini suppositi. Probatur
+            <lb ed="#V" n="5"/>minor. Quia si accidens non haberet in subiecto aliud esse
+            <lb ed="#V" n="6"/>subiecti, tunc non posset a subiecto separari, nisi
+            corrumpe<lb ed="#V" n="7" break="no"/>retur, eo quod amitteret totum esse, quod prius habuisset. Hoc
+            <lb ed="#V" n="8"/>autem falsum est, vt patet in Sacramento altaris: igitur &amp;c.
+          </p>
+          <p xml:id="capsco-c35lj2-d1e781">
+            <lb ed="#V" n="9"/>Secundo. Quia intimius sequitur esse ad essentiam, quam
+            age<lb ed="#V" n="10" break="no"/>re ad potentiam, sed in Christo multiplicantur agere ad
+            mul<lb ed="#V" n="11" break="no"/>tiplicationem potentiarum: ergo in ipso multiplicatur esse
+            <lb ed="#V" n="12"/>secundum multiplicationem essentiarum. Tertio. Quia plus
+            <lb ed="#V" n="13"/>dependet quantitas, &amp; omnia accidentia corruptibilia, vel
+            <lb ed="#V" n="14"/>communia ab esse quam dependeat color a quantitate, sed
+            <lb ed="#V" n="15"/>color non posset remanere in substantia remota quantitate:
+            <lb ed="#V" n="16"/>ergo nec quantitas, nec aliquod accidens posset remanere in
+            <lb ed="#V" n="17"/>natura humana amoto esse, quod intimius sequitur ad ipsam quam
+            <lb ed="#V" n="18"/>quodcunque aliud, cum igitur in natura humana in Christo
+            <lb ed="#V" n="19"/>existente fuerit quantitas, &amp; reliqua accidentia, necessarium
+            <lb ed="#V" n="20"/>est, quod in ipsa fuerit proprium esse, quod praeexigitur ad
+            om<lb ed="#V" n="21" break="no"/>nia illa. Arguit etiam ad idem Ioan. de Neapoli primo sic.
+            <lb ed="#V" n="22"/>Quia secundum Damastlibus 3. quod non est assumptibile, non
+            <lb ed="#V" n="23"/>est curabile, sed quicquid est in homine, est curabile, cum
+            to<lb ed="#V" n="24" break="no"/>tus homo fuerit creatus quantum ad totam suam realitate:
+            <lb ed="#V" n="25"/>ergo tota hominis realitas fuit assnmpta &amp; sic assumpsit
+            es<lb ed="#V" n="26" break="no"/>se humanum creatum. Hanc rationem tangit Damascenus libr. 3.
+            <lb ed="#V" n="27"/>cap. 1. vbi dicit, quod inassumptibile enim &amp; increabile assumit.
+            <lb ed="#V" n="28"/>igitur totum hominem, &amp; quod huius est optimum, vt toti
+            sa<lb ed="#V" n="29" break="no"/>lutem gongratificet. Secundo, quia in conueniens est
+            subtra<lb ed="#V" n="30" break="no"/>here Christote, qui est perfectus homo, vt dicitur in
+            symbolo<lb ed="#V" n="31" break="no"/>Athanastcus maximam hominis perfectionem, sed hoc est esse.
+            Per<lb ed="#V" n="32" break="no"/>fectio enim substantialis maior est omni accidentali, cum sit eius
+            <lb ed="#V" n="33"/>finis, inter perfectiones autem substantiales maior est esse quam
+            <lb ed="#V" n="34"/>essentia, cum sit eius actus: igitur &amp;c.
+          </p>
+          <p xml:id="capsco-c35lj2-d1e840">
+            Confirmatur ratio per
+            <lb ed="#V" n="35"/>quoddam dictum Damasij Papae in quadam Epistola, quae
+            <lb ed="#V" n="36"/>habetur in histo. tripartita lib. 9. titu. 15. vbi dicitur sic. Hunc
+            <lb ed="#V" n="37"/>scilicet Christum si quis in diuinitate siue humanitate minus
+            <lb ed="#V" n="38"/>aliquid dixerit habuisse, plenus diaboli spiritu, diaboli
+            Ge<lb ed="#V" n="39" break="no"/>hennae semetipsum filium demonstrabit. Et Damastces libr. 3.
+            <lb ed="#V" n="40"/>cap. 18. sic dicit. Deum perfectum &amp; hominem perfectum
+            di<lb ed="#V" n="41" break="no"/>centes Christum, omnino omnia dabimus, &amp; quae patris
+            na<lb ed="#V" n="42" break="no"/>turalia, &amp; quae matris naturalia. Tertio. Quia prius ordine
+            <lb ed="#V" n="43"/>naturae humana natura fuit perfecta quantum ad omnia sua
+            <lb ed="#V" n="44"/>naturalia, &amp; proprietates actuales, vel accidentales quam
+            as<lb ed="#V" n="45" break="no"/>sumpta, alias fuisset assumpta imperfecta, sed sic accepta
+            in<lb ed="#V" n="46" break="no"/>cludit esse, quia proprietates accidentales &amp; actuales non
+            in<lb ed="#V" n="47" break="no"/>sunt nisi existenti: igitur &amp;c. Quarto Quia natura
+            substan<lb ed="#V" n="48" break="no"/>tialis est perfectior omni accidentali, sed accidentalis habet
+            <lb ed="#V" n="49"/>proprium esse, non solum quando est per se, vt in Sacramento, sed
+            <lb ed="#V" n="50"/>etiam quando est in supposito alterius naturae: igitur &amp;
+            na<lb ed="#V" n="51" break="no"/>tura substantialis humana existens in supposito verbi habet
+            <lb ed="#V" n="52"/>proprium esse. Probatur minor. Illud quod praeexistit
+            for<lb ed="#V" n="53" break="no"/>mae accidentali in eodem subiecto, non potest formaliter
+            per<lb ed="#V" n="54" break="no"/>ficere formam accidentalem, praeexistens enim in eodem se hebtem
+            <lb ed="#V" n="55"/>per modum informati &amp; non informantis, vt patet de
+            quan<lb ed="#V" n="56" break="no"/>titate respectu qualitatis, &amp; de substantia respectu
+            quantita<lb ed="#V" n="57" break="no"/>tis, sed existere substantiae praeexistit omni formae
+            accidentali<lb ed="#V" n="58" break="no"/>saltem ordine naturae &amp; intellectus, omnis enim forma
+            acciden<lb ed="#V" n="59" break="no"/>talis inest. existenti: igitur existere substantiae non potest
+            forma<lb ed="#V" n="60" break="no"/>maliter perficere formam accidentalem quamcunque, esse autem
+            <lb ed="#V" n="61"/>comparatur ad essentiam, vt actus ad potentiam, &amp; perfectio
+            <lb ed="#V" n="62"/>ad perfectibile, vtpote ipsam existentem denominans:igitur
+            <lb ed="#V" n="63"/>forma accidentalis habet in subiecto proprium esse praeter
+            <lb ed="#V" n="64"/>esse subiecti. Quinto. Quia quantitas in Sacramento existit per idem
+            <lb ed="#V" n="65"/>formaliter, per quod existebat quanmdod erat in substantia panis:
+            ergo<lb ed="#V" n="66" break="no"/>econuerso natura humana per idem existit in Christo, per quod
+            <lb ed="#V" n="67"/>existeret, si esset per se, &amp; sic non per esse verbi, consequentia
+            <lb ed="#V" n="68"/>patet. Quia sicut quantitas naturaliter est in supposito
+            alte<lb ed="#V" n="69" break="no"/>rius naturae, &amp; miraculose est per se, sic est in proposito
+            econ<lb ed="#V" n="70" break="no"/>uerso, antecedens probatur, quia quantitas est in Sacramento, &amp;
+            <lb ed="#V" n="71"/>non potest dici quod careat omni esse, cum realiter existat in
+            re<lb ed="#V" n="72" break="no"/>rum natura. Nec potest dici, quod existat per esse substantiae, per
+            <lb ed="#V" n="73"/>quod erat ante, quia substantia non manet, &amp; esse substantiae
+            <lb ed="#V" n="74"/>inseparabilius consequitur ipsam substantiam quam quaecunque
+            <lb ed="#V" n="75"/>proprietas suum subiectum. Nec potest dici, quod existat per aliud
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="76"/>esse de nouo sibi adueniens, quia sequeretur, quod esset aliud
+            <lb ed="#V" n="77"/>ens, si haberet aliud esse. Relinquitur ergo quartum
+            mem<lb ed="#V" n="78" break="no"/>brum, quia nullum aliud posset darisclce quod quantitas existat
+            p<lb ed="#V" n="79" break="no"/>aliquod esse perficiens ipsam formaliter, aliud ab esse
+            sub<lb ed="#V" n="80" break="no"/>stantiae, quod habebat etiam quando inerat substantiae
+            pa<lb ed="#V" n="81" break="no"/>nis, &amp; pari ratione humana natura existens in supposito
+            ver<lb ed="#V" n="82" break="no"/>bi habet proprium esse, praeter esse verbi. Haec ille. Et in
+            <lb ed="#V" n="83"/>hoc secundus articulus terminatur.
+          </p>
+        </div>
+        <div xml:id="capsco-c35lj2-Dd1e952">
+          <head xml:id="capsco-c35lj2-Hd1e954">Articulus 3</head>
+          <p xml:id="capsco-c35lj2-d1e956">
+            <lb ed="#V" n="84"/><milestone ed="#V" unit="p" rend="initial"/> Vantum ad tertium articulum restat obiectionibus
+            re<lb ed="#V" n="85" break="no"/>spondere, &amp; idcirco dico quod ad primum Scoti
+            respon<lb ed="#V" n="86" break="no"/>dit dudum Sanctus Thomas 9. quolibus artic. 3. ad tertium, vbi
+            <lb ed="#V" n="87"/>sic arguit. Generatio est mutatio ad esse, sed in Christo est
+            <lb ed="#V" n="88"/>quaedam generatio temporalis, de qua Matthaei primo.
+            Chri<lb ed="#V" n="89" break="no"/>sti autem generatio sic erat, quae non potest terminari ad esse
+            aeter<lb ed="#V" n="90" break="no"/>num: ergo terminatur ad aliquod esse temporale &amp; creatum:
+            <lb ed="#V" n="91"/>ergo in Christo est duplex esse, cum in ipso sit manifeste esse
+            <lb ed="#V" n="92"/>increatum. Ecce argumentum. Sequitur responsio.
+            Dicen<lb ed="#V" n="93" break="no"/>dum (inquit) quod generatio temporalis terminatur ad esse
+            sup<lb ed="#V" n="94" break="no"/>positi aeterni, non vt per eam esse simpliciter incipiat, sed quod
+            <lb ed="#V" n="95"/>incipiat esse suppositum humanae naturae. Haec ille.
+          </p>
+          <p xml:id="capsco-c35lj2-d1e986">
+            Ex
+            qui<lb ed="#V" n="96" break="no"/>bus patet in forma responsio ad argumentum Scoti, quia
+            <lb ed="#V" n="97"/>falsum assumit scilicet quod esse diuinum non possit esse terminus
+            tem<lb ed="#V" n="98" break="no"/>poralis generationis. Nec valet probatio quia non est
+            gene<lb ed="#V" n="99" break="no"/>raliter verum, quod omnis generatio terminetur ad aliquod
+            es<lb ed="#V" n="100" break="no"/>se nouum &amp; nouiter productum, sicut patet in generatione
+            <lb ed="#V" n="101"/>nouae carnis in homine, &amp; in suscitatione Lazari, in quibus
+            <lb ed="#V" n="102"/>nullum esse actualis existentiae nouiter creatur, producitur,
+            <lb ed="#V" n="103"/>aut generatur, sed solum aliquid nouiter trahitur ad esse
+            <lb ed="#V" n="104"/>actualis existentiae praeexistens, conceditur tamen quod in
+            <lb ed="#V" n="105"/>omni generatione substantiali acquiritur nouum esse
+            essen<lb ed="#V" n="106" break="no"/>tiae. Hanc solutionem extense ponit Bernardus de
+            Gauna<lb ed="#V" n="107" break="no"/>co in impugnationibus Godofredi 4. quolibet. quaestio. 1. vb
+            <lb ed="#V" n="108"/>Godofredus sic arguit. Omnis natiuitas terminatur ad
+            es<lb ed="#V" n="109" break="no"/>se, sed in Christo ponimus duas natiuitates: ergo duo esse
+            <lb ed="#V" n="110"/>existentiae. Ecce argumentum eius, sequitur responsio Bernardi
+            <lb ed="#V" n="111"/>cum inquit. Dicit arguens, quod omnis natiuitas terminatur
+            <lb ed="#V" n="112"/>ad esse.
+          </p>
+          <p xml:id="capsco-c35lj2-d1e1025">
+            Dicendum est, quod verum est inquantum per se
+            termi<lb ed="#V" n="113" break="no"/>natur ad suppositum, vt patet 7. Metaphys. Si ergo in
+            Chri<lb ed="#V" n="114" break="no"/>sto praeter duas natiuitates ponamus duplex esse, oportet
+            <lb ed="#V" n="115"/>nos in eo ponere duo supposita. Vnde dicendum quod
+            vtra<lb ed="#V" n="116" break="no"/>que natiuitas sicut terminatur per se ad vnum suppositum,
+            <lb ed="#V" n="117"/>ita ad vnum existere, sed diuina terminatur ad illud
+            suppo<lb ed="#V" n="118" break="no"/>situm inquantum communicatur ei diuina natura, humana
+            <lb ed="#V" n="119"/>autem natiuitas terminatur ad illud inquantum
+            communi<lb ed="#V" n="120" break="no"/>catur ei natura humana. Vtraque enim natura
+            communi<lb ed="#V" n="121" break="no"/>catur illi supposito, cum sit suppositum duarum naturarum.
+            <lb ed="#V" n="122"/>Haec ille.
+          </p>
+          <p xml:id="capsco-c35lj2-d1e1049">
+            Ad secundum respondit Sanctus Thomas in praedicto
+            quoli<lb ed="#V" n="123" break="no"/>bet in solutione primi, quod est tale. Viuere secundum
+            Phi<lb ed="#V" n="124" break="no"/>losophum in 2. de anima, viuentibus est esse, sed in Christo
+            <lb ed="#V" n="125"/>non est tantum vnum viuere, cum sit in eo &amp; vita creata, qua
+            <lb ed="#V" n="126"/>viuit corpus per animam, &amp; vita increata, qua viuit verbum
+            <lb ed="#V" n="127"/>per seipsum: ergo neque in Christo est tantum vnum esse.
+            <lb ed="#V" n="128"/>Ecce argumentum. Sequitur responsio. Dicendum (inquit, )
+            <lb ed="#V" n="129"/>viuere dicit esse quoddam specificatum per speciale essendi
+            <lb ed="#V" n="130"/>principium, &amp; ideo diuersitas vitae consequitur diuersitatem
+            <lb ed="#V" n="131"/>principiorum viuendi, sed esse magis respicit ad suppositum
+            <lb ed="#V" n="132"/>subsistens. Haec ille.
+          </p>
+          <p xml:id="capsco-c35lj2-d1e1074">
+            Ad hoc etiam argumentum soluit
+            Ber<lb ed="#V" n="133" break="no"/>nard. deGannaco vbi supra. Viuere (inquit) si accipiatur
+            <lb ed="#V" n="134"/>pro esse simpliciter, vnum est in Christo, cum debeatur
+            sup<lb ed="#V" n="135" break="no"/>posito sicut &amp; esse, licet illud viuere habeat relationem ad
+            <lb ed="#V" n="136"/>vitam diuinam &amp; humanam. Si autem viuere accipiatur
+            se<lb ed="#V" n="137" break="no"/>cundum quod est actus vitae, &amp; non pro esse simpliciter, sic
+            dicen<lb ed="#V" n="138" break="no"/>dum est, quod duo viuere sunt in Christo, idest duo actus vitae,
+            <lb ed="#V" n="139"/>sicut duae scientiae, &amp; duae voluntates scilicet diuina &amp; humana, sed
+            <lb ed="#V" n="140"/>hoc non tollit vnitatem esse simpliciter, licet tollat vnitatem
+            <lb ed="#V" n="141"/>essentiae. Ponit etiam pluralitatem esse accidentalium in
+            Chri<lb ed="#V" n="142" break="no"/>sto, quae bene ponimus in eo secundum quid, vt esse album &amp;
+            <lb ed="#V" n="143"/>esse quantum, &amp; sic de alij, quae supponunt simpliciter existere,
+            <lb ed="#V" n="144"/>&amp; tamen addunt sua propria existere secundum quid, &amp; de talibus
+            nul<lb ed="#V" n="145" break="no"/>lus negat, quin sint plura in Christo. Sed cum formae
+            acci<lb ed="#V" n="146" break="no"/>dentales in Christo habeant sua propria &amp; distincta existere
+            <lb ed="#V" n="147"/>sicut in alijs hominibus, quare etiam natura non dat suum
+            <lb ed="#V" n="148"/>esse proprium &amp; distinctum ab existere diuino?
+          </p>
+          <p xml:id="capsco-c35lj2-d1e1111">
+            Dicendum
+            <lb ed="#V" n="149"/>quod hoc ideo est, quia formae accidentales habent in
+            Chri<lb ed="#V" n="150" break="no"/>sto quicquid habent in alijs, scilicet subiectum in actu, &amp; ideo
+            <pb ed="#V" n="68"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>faciunt in eo quicquid faciunt in alijs. Sed natura humana
+            <lb ed="#V" n="2"/>in Christo non habet, quod habet in alijs, quia in aliis habet
+            <lb ed="#V" n="3"/>suppositum proprium, &amp; distinctum ab omni alio, &amp; ideo
+            <lb ed="#V" n="4"/>dat sibi esse simpliciter, sed in Christo non habet proprium
+            <lb ed="#V" n="5"/>suppositum distinctum a diuino, sed ipsa trahitur ad
+            suppo<lb ed="#V" n="6" break="no"/>situm diuinum, &amp; ideo non dat sibi esse simpliciter. Haec Berus
+            <lb ed="#V" n="7"/>&amp; bene. Sed responsio Sanctus Thomas est compendiosior, quae stat in
+            <lb ed="#V" n="8"/>hoc, quod in Christo dicitur duplex viuere, non propter
+            du<lb ed="#V" n="9" break="no"/>plex esse, sed propter duplex principium viuendi, ad quod
+            <lb ed="#V" n="10"/>viuere habet respectum, non quidem quod esse suppositi diuini,
+            <lb ed="#V" n="11"/>vel eius viuere realiter principietur ab aliquo principio a se
+            <lb ed="#V" n="12"/>realiter distincto, sed solum secundum modum intelligendi. Ad
+            ter<lb ed="#V" n="13" break="no"/>tium dicitur, quod creatio animae Christi terminabatur ad esse
+            <lb ed="#V" n="14"/>essentiae ipsius animae Christi, quod est distinctum ab esse
+            di<lb ed="#V" n="15" break="no"/>uino.
+          </p>
+          <p xml:id="capsco-c35lj2-d1e1155">
+            Item terminabatur ad esse existentiae diuini
+            supposi<lb ed="#V" n="16" break="no"/>ti illo modo, quo prius dictum est, non quidem, quod illud esse
+            <lb ed="#V" n="17"/>nouiter crearetur, sed quia suppositum diuinum quantum ad
+            <lb ed="#V" n="18"/>suum esse nouum respectum acquisiuit, quia non nouiter fuit
+            <lb ed="#V" n="19"/>animatum, sicut &amp; nouiter humanatum &amp; incarnatum. Et
+            <lb ed="#V" n="20"/>quia illud esse nouiter extendebat se ad aliquid ad quod non
+            <lb ed="#V" n="21"/>prius, &amp; nouo modo specificabatur, quia poterat dici
+            Chri<lb ed="#V" n="22" break="no"/>stus habere non solum esse diuinum, immo esse animatum, esse
+            <lb ed="#V" n="23"/>corporeum, esse humanum. Ad hoc propositum Berus vbi
+            su<lb ed="#V" n="24" break="no"/>pra, sic dicit. Esse existentiae simpliciter est esse, quod
+            debe<lb ed="#V" n="25" break="no"/>tur supposito sicut enti, naturae autem vel formae sicut
+            prin<lb ed="#V" n="26" break="no"/>cipio, vnde eius est existere sinipliciter, cuius est esse
+            simplici<lb ed="#V" n="27" break="no"/>ter. Solius autem suppositi est esse simpliciter in actu: ergo
+            <lb ed="#V" n="28"/>solius suppositi est existere simpliciter. Et ideo cum in Christo
+            <lb ed="#V" n="29"/>non ponamus nisi vnum suppositum, non possumus ponere
+            <lb ed="#V" n="30"/>in eo, nisi vnum esse existentiae simpliciter. Quod quidem
+            <lb ed="#V" n="31"/>habet respectum ad naturam diuinam &amp; humanam, &amp; secundum
+            <lb ed="#V" n="32"/>hoc illud esse dicitur diuinum &amp; humanum. Vnde potest
+            dici<lb ed="#V" n="33" break="no"/>quod Christus habet esse humanum, licet hoc idem esse sit idem
+            <lb ed="#V" n="34"/>quod diuinum, quia vnum est. Plura autem essentiae bene
+            <lb ed="#V" n="35"/>ponimus in Christo. Haec ille.
+          </p>
+          <p xml:id="capsco-c35lj2-d1e1201">
+            Item idem post pauca. Esse
+            <lb ed="#V" n="36"/>dicitur actualitas formae non vt habeat esse per se, immo sic
+            <lb ed="#V" n="37"/>esse est actualitas suppositi, sed per se esse est actualitas
+            for<lb ed="#V" n="38" break="no"/>mae, vt principij, quia ista actualitas est in supposito a
+            for<lb ed="#V" n="39" break="no"/>ma sicut a principio. Et quia in Christo forma humana non
+            <lb ed="#V" n="40"/>habet suppositum distinctum a diuino supposito, sed
+            inniti<lb ed="#V" n="41" break="no"/>tur diuino supposito, ideo non dat aliud esse existentiae
+            sim<lb ed="#V" n="42" break="no"/>pliciter ab esse diuino, licet det aliud esse essentiae.
+          </p>
+          <p xml:id="capsco-c35lj2-d1e1219">
+            Item
+            <lb ed="#V" n="43"/>paulopost. Existere simpliciter non conuenit formae
+            substan<lb ed="#V" n="44" break="no"/>tiali, nec accidentali, sed supposito tantum, sed existere per
+            <lb ed="#V" n="45"/>accidens conuenit formae substantiali, inquantum est pars
+            <lb ed="#V" n="46"/>suppositi, quod perse existit, sicut &amp; generari per se
+            con<lb ed="#V" n="47" break="no"/>uenit supposito, per accidens formae substantiali.
+            Acci<lb ed="#V" n="48" break="no"/>dentibus autem conuenit existere eo modo, quo sunt
+            en<lb ed="#V" n="49" break="no"/>tia, scilicet secundum quid, vnde aliud existere habet vnum
+            <lb ed="#V" n="50"/>accidens in subiecto, &amp; aliud, aliud, quae omnia
+            illaexiste<lb ed="#V" n="51" break="no"/>re fundantur in vno existere simpliciter, quod est suppositi.
+            <lb ed="#V" n="52"/>Vnde dicendum quod natura humana in Christo habet
+            exi<lb ed="#V" n="53" break="no"/>stere non per se, quia nec tale existere habet in Petro. quod scilicet sit
+            <lb ed="#V" n="54"/>ipsius naturae humanae, vt formaliter consideratur, sed sic
+            <lb ed="#V" n="55"/>esse est Petri, vt suppositi, ipsius autem naturae humanae. q.
+            <lb ed="#V" n="56"/>per accidens. Ita in Christo est vnum existere simpliciter.,
+            <lb ed="#V" n="57"/>quod est suppositi diuini, &amp; per accidens naturae humanae,
+            <lb ed="#V" n="58"/>licet per se illud existere sit naturae diuinae, quia diuina
+            natu<lb ed="#V" n="59" break="no"/>ra est suum existere, sicut &amp; suum esse: natura autem
+            huma<lb ed="#V" n="60" break="no"/>na non. Et ideo non est quaerendum existere simpliciter
+            na<lb ed="#V" n="61" break="no"/>turae humanae in Christo, sed suppositi, cum nec in alijs
+            ho<lb ed="#V" n="62" break="no"/>minibus natura habeat simpliciter existere, sed suppositum
+            <lb ed="#V" n="63"/>suum. Sed in hoc tamen est differentia, quia in Christo
+            na<lb ed="#V" n="64" break="no"/>tura humana innititur alteri supposito, quod tamen
+            effici<lb ed="#V" n="65" break="no"/>tur humanum ex vnione naturae humanae ad ipsum, ita quod
+            <lb ed="#V" n="66"/>non habet ibi suppositum proprium distinctum a supposito
+            <lb ed="#V" n="67"/>diuino, in alijs autem habet proprium suppositum. Haec ille
+            <lb ed="#V" n="68"/>Ex quibus patet, quod nec naturae humanae, nec animae
+            huma<lb ed="#V" n="69" break="no"/>nae dum est coniuncta, debetur proprie existere, sed
+            supposi<lb ed="#V" n="70" break="no"/>to, in quo sunt debetur tale esse per se &amp; primo. Formis
+            au<lb ed="#V" n="71" break="no"/>tem q. per accidens &amp; secundario. Et ideo non oportet, quod
+            <lb ed="#V" n="72"/>creatio animae Christi terminetur ad aliquod esse existentiae
+            <lb ed="#V" n="73"/>per se, &amp; seorsum correspondens ipsi animae, sed ad esse
+            sup<lb ed="#V" n="74" break="no"/>positi diuini. Nec est inconueniens aliquam nonam
+            produ<lb ed="#V" n="75" break="no"/>ctionem terminari ad esse antiquum, sicut dictum est in
+            so<cb ed="#V" n="b"/><lb ed="#V" n="76" break="no"/>lutione primi. Nec est de ratione productionis, quod per
+            ip<lb ed="#V" n="77" break="no"/>sam aliquod nouum esse producatur. Sufficit enim
+            commu<lb ed="#V" n="78" break="no"/>nicatio esse sine eius productione, sicut etiam in
+            indiuidua<lb ed="#V" n="79" break="no"/>rum personarum productione nullum esse actualis
+            existen<lb ed="#V" n="80" break="no"/>tiae producitur. In creatione ergo animae Christi esse
+            diui<lb ed="#V" n="81" break="no"/>num communicatur ipsi animae, &amp; non producitur &amp;c. Ad
+            <lb ed="#V" n="82"/>quartum patet solutio per praedicta, conceditur enim quod
+            <lb ed="#V" n="83"/>productio &amp; conseruatio naturae assumptae a verbo
+            termina<lb ed="#V" n="84" break="no"/>tur ad esse diuinum, quod tamen non producitur, nec
+            con<lb ed="#V" n="85" break="no"/>seruatur, sed efficitur esse humanum, &amp; communicatur
+            na<lb ed="#V" n="86" break="no"/>turae humanae. De qua communicatione dicit Beatus Thomas
+            <lb ed="#V" n="87"/>3. sent. distin. 6. q. 2. art. 3.
+          </p>
+          <p xml:id="capsco-c35lj2-d1e1320">
+            Ad rationem totius duo pertinent,
+            <lb ed="#V" n="88"/>vnum scilicet quod esse totius compositi pertineat ad omnes partes,
+            <lb ed="#V" n="89"/>quia partes non habent proprium esse, sed sunt per esse
+            to<lb ed="#V" n="90" break="no"/>tius, aliud est quod partes componentes causent esse totius.
+            Se<lb ed="#V" n="91" break="no"/>cundum autem primam &amp; tertiam opinionem neutrum
+            ho<lb ed="#V" n="92" break="no"/>rum inuenitur in Christo, qua opinio prima dicit, quod hic
+            <lb ed="#V" n="93"/>homo habet suum esse proprium, vnde esse diuinae personae
+            <lb ed="#V" n="94"/>ad ipsum non pertinet. Similiter tertia opinio dicit, quod est
+            <lb ed="#V" n="95"/>esse superadditum ad esse diuinae personae accidentaliter,
+            vn<lb ed="#V" n="96" break="no"/>de anima &amp; corpus non dicuntur partes per se, sicut nec
+            ac<lb ed="#V" n="97" break="no"/>cidentia subiecti, vnde neutra ponit personam verbi
+            compo<lb ed="#V" n="98" break="no"/>sitam. Sed secunda ponit vnum esse in Christo, vnde esse
+            di<lb ed="#V" n="99" break="no"/>uinae personae pertinet ad vtranque naturam, non tamen
+            il<lb ed="#V" n="100" break="no"/>lud esse causatur ex coniunctione naturarum, sicut esse
+            com<lb ed="#V" n="101" break="no"/>positi causatur ex coniunctione componentium. Vnde
+            secun<lb ed="#V" n="102" break="no"/>dum hanc opinionem persona Christi post incarnationem
+            <lb ed="#V" n="103"/>potest dici aliquo modo composita, inquantum saluatur ibi
+            <lb ed="#V" n="104"/>aliqua conditio compositi, non tamen est ibi vera ratio
+            com<lb ed="#V" n="105" break="no"/>no sitionis, quia deficit altera conditio &amp;c. Haec ille. Ex
+            qui<lb ed="#V" n="106" break="no"/>bus patet, quomodo esse diuinae personae communicatur
+            na<lb ed="#V" n="107" break="no"/>turae humanae assumptae. Item eadem quaestio. artic. 2. in
+            so<lb ed="#V" n="108" break="no"/>lutione primi argumenti sic dicit. Forma facit esse, non ita
+            <lb ed="#V" n="109"/>quod illud esse sit materiae, vel formae, sed subsistentis.
+            Quan<lb ed="#V" n="110" break="no"/>do igitur compositum ex materia &amp; forma est per se
+            subsi<lb ed="#V" n="111" break="no"/>stens, acquiritur ex illa forma illi composito esse absolutum
+            <lb ed="#V" n="112"/>per se. Quando autem non est per se subsistens, non
+            acqui<lb ed="#V" n="113" break="no"/>ritur per formam esse illi composito, sed subsistenti, cui hoc
+            <lb ed="#V" n="114"/>adiungitur acquiritur respectus secundum esse ad hoc, quod
+            <lb ed="#V" n="115"/>ei additur, sicut &amp;c. vt allegatum est in praecedenti
+            quaestio<lb ed="#V" n="116" break="no"/>ne soluendo ad secundum contra secundam conclusionem.
+          </p>
+          <p xml:id="capsco-c35lj2-d1e1386">
+            <lb ed="#V" n="117"/>Ad quintum dicitur, quod si natura assumpta dimittetur a verbo
+            <lb ed="#V" n="118"/>existens in rerum natura, oporteret sibi dari nouum esse actualis
+            <lb ed="#V" n="119"/>existentiae, vel potius ipsa daret proprio supposito tale esse,
+            <lb ed="#V" n="120"/>&amp; ideo negatur assumptum argumenti. Et de hoc dictum est
+            <lb ed="#V" n="121"/>in probatione secundae conclusionis. Item Sanctus Thomas 2. senten.
+            <lb ed="#V" n="122"/>distin. 5. q. 3. artic. 3. in solutione tertij sic dicit. Separatio dat
+            <lb ed="#V" n="123"/>vtrique partium totalitatem, &amp; in continuis dat etiam
+            vtri<lb ed="#V" n="124" break="no"/>que esse actu, vnde quia supposito, quod verbum hominem
+            de<lb ed="#V" n="125" break="no"/>poneret, subsisteret homo ille per se in natura rationali ex
+            <lb ed="#V" n="126"/>hoc ipso acciperet rationem personae. Haec ille. Ex quo patet,
+            <lb ed="#V" n="127"/>quod in tali casu natura humana heret aliud esse, non primo, sed
+            <lb ed="#V" n="128"/>secundario ab esse, quod nunc habet. De hoc Berus vbi supra.
+            <lb ed="#V" n="129"/>Si humanitas Christi sibi dimitteretur, tunc ipsa existeret
+            per<lb ed="#V" n="130" break="no"/>modum suppositi, &amp; fieret suppositum, &amp; sic ipsa haberet,
+            <lb ed="#V" n="131"/>tunc existere illius suppositi, quod esset pure humanum,
+            si<lb ed="#V" n="132" break="no"/>cut modo habet suppositi sui, quod est diuinum, &amp; humanum,
+            <lb ed="#V" n="133"/>vnde non acquireretur sibi proprium existere, vel subsistere,
+            <lb ed="#V" n="134"/>sed supposito per se, &amp; humanitati ex consequenti. Haec ille.
+          </p>
+          <p xml:id="capsco-c35lj2-d1e1428">
+            <lb ed="#V" n="135"/>Ad sextum negatur minor, nam rami inserti &amp; praecisi non
+            <lb ed="#V" n="136"/>est eadem existentia, &amp; tamen idem est ramus. Item pars
+            <lb ed="#V" n="137"/>in toto &amp; separata a toto est eadem, &amp; tamen non habet
+            ean<lb ed="#V" n="138" break="no"/>dem existentiam, vt patet per praedicta.
+          </p>
+          <p xml:id="capsco-c35lj2-d1e1439">
+            Ad septimum
+            conce<lb ed="#V" n="139" break="no"/>ditur totum consequens scilicet quod natura vnita praecedit, non
+            qui<lb ed="#V" n="140" break="no"/>dem duratione, sed naturali proprietate relationem vnionis
+            <lb ed="#V" n="141"/>sui ad verbum secundum esse actuale, quia vt superius dictum fuit,
+            <lb ed="#V" n="142"/>talis relatio consequitur actionem, per quam ex
+            humanita<lb ed="#V" n="143" break="no"/>te, &amp; verbo aliquo modo fit vnum, ita quod vnitas &amp; indiuisio
+            <lb ed="#V" n="144"/>eorum praecedit illam relationem secundum esse actuale, non
+            <lb ed="#V" n="145"/>tamen sequitur, quod illud esse actuale sit creatum, ideo
+            argu<lb ed="#V" n="146" break="no"/>mentum nil concludit contra nos.
+          </p>
+          <p xml:id="capsco-c35lj2-d1e1459">
+            Ad confirmationem
+            ne<lb ed="#V" n="147" break="no"/>gatur minor, tamen quia imaginatur prioritatem naturae
+            ha<lb ed="#V" n="148" break="no"/>bere diuersa signa, vel instantia, in quorum vno sit causa,
+            <lb ed="#V" n="149"/>&amp; non eius effectus, quae imaginatio falsa est, quia tale prius
+            <lb ed="#V" n="150"/>non est prius in quo sed a quo: secundo quia assumit aliud
+            <pb ed="#V" n="69"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>falsum, scilicet quod quandocunque forma, vel anima est actus
+            <lb ed="#V" n="2"/>materiae, det sibi esse actualis existentiae, quod falsum est, nisi
+            <lb ed="#V" n="3"/>quando constituunt proprium suppositum, &amp; de hoc
+            habi<lb ed="#V" n="4" break="no"/>tum fuit in probatione primae conclusionis, &amp; in solutione
+            <lb ed="#V" n="5"/>quarti argumenti. De hoc Sanctus Thomas tertia parte quaestio. 17.
+            <lb ed="#V" n="6"/>artic. 2. in solut. quarti sic dicit. Anima in Christo dat esse
+            <lb ed="#V" n="7"/>corpori inquantum facit ipsum actu animatum, quod est
+            <lb ed="#V" n="8"/>dare ei complementum naturae &amp; speciei, sed si intelligatur
+            <lb ed="#V" n="9"/>corpus perfectum per animam absque hypostasi habente
+            <lb ed="#V" n="10"/>vtrunque, hoc totum compositum ex anima, &amp; corpore,
+            <lb ed="#V" n="11"/>prout signatur nomine humanitatis, non signatur, vt quod
+            <lb ed="#V" n="12"/>est, sed vt quo aliquod est. Et ideo ipsum esse est personae
+            sub<lb ed="#V" n="13" break="no"/>sistentis secundum quod habet habitudinem ad talem
+            na<lb ed="#V" n="14" break="no"/>turam, cuius habitudinis causa est anima inquantum
+            per<lb ed="#V" n="15" break="no"/>ficit humanam naturam insormando corpus. Haec ille.
+          </p>
+          <p xml:id="capsco-c35lj2-d1e1507">
+            <lb ed="#V" n="16"/><milestone ed="#V" unit="p" rend="indent"/> Item quaestio. 33. artic. 3. sic dicit. Proprie dicimus Deum
+            <lb ed="#V" n="17"/>factum hominem, non autem proprie dicimus quod homo
+            fa<lb ed="#V" n="18" break="no"/>ctus sit Deus, quia scilicet Deus assumpsit sibi id, quod est
+            homi<lb ed="#V" n="19" break="no"/>nis, non autem praeextitit id, quod est hominis quasi per se
+            <lb ed="#V" n="20"/>subsistens, antequam a verbo assumeretur. Si autem caro
+            <lb ed="#V" n="21"/>Christi fuisset concepta antequam susciperetur a verbo,
+            ha<lb ed="#V" n="22" break="no"/>buisset aliquando aliquam hypostasim praeter hypostasim
+            <lb ed="#V" n="23"/>verbi Dei, quod est contra rationem incarnationis,
+            secun<lb ed="#V" n="24" break="no"/>dum quam ponimus verbum Dei esse vnitum humanae
+            na<lb ed="#V" n="25" break="no"/>turae, &amp; omnibus partibus eius in vnitate hypostasis, nec
+            <lb ed="#V" n="26"/>fuit conueniens, quod hypostasim praeexistentem humanae
+            <lb ed="#V" n="27"/>naturae, vel alicuius partis eius verbum Dei sua
+            assumptio<lb ed="#V" n="28" break="no"/>ne destrueret, &amp; ideo contra fidem est dicere, quod caro
+            Chri<lb ed="#V" n="29" break="no"/>sti prius fuerit concepta, &amp; post modum a verbo Dei
+            assum<lb ed="#V" n="30" break="no"/>pta. Haec ille.
+          </p>
+          <p xml:id="capsco-c35lj2-d1e1543">
+            Ex quibus patet, quod erroneum est
+            pone<lb ed="#V" n="31" break="no"/>re naturam humanam in aliquo signo habuisse esse actualis
+            <lb ed="#V" n="32"/>existentiae ante sui assumptionem, quia tunc pro illo signo
+            <lb ed="#V" n="33"/>habuisset proprium suppositum, quia subsisteret in illo
+            si<lb ed="#V" n="34" break="no"/>gno cum esset, &amp; non in alio esset, sed per se esset. Ad
+            octa<lb ed="#V" n="35" break="no"/>uum dicitur, quod positio nostra non tenet quod verbum
+            <lb ed="#V" n="36"/>habeat tantummodo respectum ad naturam assumptam,
+            <lb ed="#V" n="37"/>immo vt alias visum est, respectus ille sequitur vnitatem &amp;
+            <lb ed="#V" n="38"/>indiuisionem duarum naturam in Christo in esse
+            persona<lb ed="#V" n="39" break="no"/>li, ideo argumentum non est contra nos, immo est contra
+            <lb ed="#V" n="40"/>factorem suum, quia ipse ponit aliquem modum vnitatis
+            <lb ed="#V" n="41"/>inter personam verbi, &amp; naturam humanam, nisi per
+            quen<lb ed="#V" n="42" break="no"/>dam respectum dependentiae, &amp; non ponit indiuisionem in
+            <lb ed="#V" n="43"/>quocunque esse, modo sicut arguit Sanctus Thomas 3. sent. dist. 6.
+            <lb ed="#V" n="44"/>quaestio. 2. artic. 11. Quaecunque differunt secundum esse,
+            <lb ed="#V" n="45"/>vnum eorum non praedicatur de altero, sed Deus est
+            ho<lb ed="#V" n="46" break="no"/>mo, &amp; econtra: ergo est vnum esse Dei &amp; hominis.
+          </p>
+          <p xml:id="capsco-c35lj2-d1e1581">
+            Item
+            <lb ed="#V" n="47"/>omne quod habet per se esse, est subsistens, si ergo in
+            Chri<lb ed="#V" n="48" break="no"/>sto est duplex esse, sunt ibi duo subsistentia, &amp; duae
+            hyposta<lb ed="#V" n="49" break="no"/>ses, hypostasis autem non praedicatur de hypostasi a se
+            di<lb ed="#V" n="50" break="no"/>stincta, &amp; sic ista est falsa, Deus est homo. Quia autem
+            di<lb ed="#V" n="51" break="no"/>uinum esse communicetur naturae assumptae saepius dictum
+            <lb ed="#V" n="52"/>est.
+          </p>
+          <p xml:id="capsco-c35lj2-d1e1597">
+            Item praeter loca superius allegata hoc ponit in
+            prae<lb ed="#V" n="53" break="no"/>senti distinct. art. statim allegato. Item distin. 13. quaestio. 3.
+            <lb ed="#V" n="54"/>artic. 1. vbi dicit, quod persona vnitur naturae immediate
+            <lb ed="#V" n="55"/>quantum ad esse. Item tertia parte quaestio. 6. artic. 6. sic
+            di<lb ed="#V" n="56" break="no"/>cit. Gratia vnionis est ipsum esse personale, quod gratis
+            <lb ed="#V" n="57"/>datur humanae naturae in persona verbi, quod quidem est
+            <lb ed="#V" n="58"/>terminus assumptionis.
+          </p>
+          <p xml:id="capsco-c35lj2-d1e1613">
+            Ad nonum respondit Bernarus de
+            <lb ed="#V" n="59"/>Gannaco vbi supra. Nam Godofrus facit istud argumentum
+            <lb ed="#V" n="60"/>quasi in forma dicens, quod exemplum Sancti Thomas
+            addu<lb ed="#V" n="61" break="no"/>ctum de aduentu noui pedis, vel manus non valet, quia
+            for<lb ed="#V" n="62" break="no"/>ma totius formaliter informat pedem aduenientem, &amp; quia
+            <lb ed="#V" n="63"/>a forma est esse, ideo non habet aliud esse quam esse, quod
+            <lb ed="#V" n="64"/>praecedebat. Sed non sic est hic, quia diuinitas diuini
+            sup<lb ed="#V" n="65" break="no"/>positi non informat formaliter naturam humanam. Haec
+            <lb ed="#V" n="66"/>sunt verba Godofredi. Ad quod respondit Bernar. quod
+            <lb ed="#V" n="67"/>inquantum dicit arguens, quod diuinitas non informat
+            na<lb ed="#V" n="68" break="no"/>turam humanam in Christo.
+          </p>
+          <p xml:id="capsco-c35lj2-d1e1637">
+            Dicendum quod non
+            opor<lb ed="#V" n="69" break="no"/>tet, quod informet naturam humanam, quia ipsius non est
+            <lb ed="#V" n="70"/>exemplar simpliciter, sed sufficit, quod diuinitas informet
+            <lb ed="#V" n="71"/>suppositum naturae humanae. Et hoc est verum loquendo
+            <lb ed="#V" n="72"/>secundum rationem, quia diuinitas se habet vt forma
+            re<lb ed="#V" n="73" break="no"/>spectu suppositi, licet sit idem realiter quod suppositum
+            di<lb ed="#V" n="74" break="no"/>uinum. Ex hoc ergo quod diuinitas sic informat
+            suppo<lb ed="#V" n="75" break="no"/>situm diuinum, quod est idem cum supposito naturae
+            hu<cb ed="#V" n="b"/><lb ed="#V" n="76" break="no"/>manae in Christo, sequitur quod natura humana, quae non
+            <lb ed="#V" n="77"/>habet existere, nisi sui suppositi, non habeat aliud esse ab
+            <lb ed="#V" n="78"/>esse quod diuinitas dat supposito. Et ideo natura humana
+            <lb ed="#V" n="79"/>assumitur ad idem esse, sicut pes ad esse compositi, vnde
+            <lb ed="#V" n="80"/>exemplum bonum est. Haec Bernar. Ex quibus patet
+            solu<lb ed="#V" n="81" break="no"/>tio ad argumentum, quia non oportet, quod verbum
+            infor<lb ed="#V" n="82" break="no"/>met humanam naturam ad hoc, quod humana natura
+            tra<lb ed="#V" n="83" break="no"/>hatur ad esse verbi. Sufficit enim quod sit suppositum eius,
+            <lb ed="#V" n="84"/>quia nec animal informat pedem, cum pes trahitur ad esse
+            <lb ed="#V" n="85"/>animalis, sed quia forma dans esse animali informat
+            sup<lb ed="#V" n="86" break="no"/>positum pedis, ideo dat ex consequenti esse ipsi pedi. Ad
+            <lb ed="#V" n="87"/>primum Aureotaes negatur antecedens in forma, quia esse non
+            <lb ed="#V" n="88"/>est actus essentiae, sicut illius quod formaliter existit, sed
+            si<lb ed="#V" n="89" break="no"/>cut illius, quo aliquid formaliter existit. Et ideo nec actuat
+            <lb ed="#V" n="90"/>essentiam primo, sed suppositum essentiae, sed secundario
+            <lb ed="#V" n="91"/>actuat essentiam, inquantum suppositum, cui debetur
+            exi<lb ed="#V" n="92" break="no"/>stere, existit in tali natura.
+          </p>
+          <p xml:id="capsco-c35lj2-d1e1693">
+            Item falsum est cum dicitur, quod
+            <lb ed="#V" n="93"/>humanitas in Christo potentialis est respectu sui esse. De
+            <lb ed="#V" n="94"/>hoc Bernars vbi supra. Natura humana in Christo habet
+            <lb ed="#V" n="95"/>esse, quale debetur formae in supposito, non autem
+            debetur<lb ed="#V" n="96" break="no"/>formae substantiali in supposito per se esse, sed ipsi
+            suppo<lb ed="#V" n="97" break="no"/>sito, &amp; ex consequenti formae, &amp; quasi per accidens, &amp; sic
+            <lb ed="#V" n="98"/>omnino est in Christo. Vnde dicendum quod humana
+            na<lb ed="#V" n="99" break="no"/>tura habet esse in Christo formaliter, sicut in alijs, id est
+            es<lb ed="#V" n="100" break="no"/>se suppositi. Ex consequenti ipsa etiam dat esse supposito
+            <lb ed="#V" n="101"/>scilicet esse essentiae, &amp; facit illud suppositum esse
+            formali<lb ed="#V" n="102" break="no"/>ter hominem &amp; animal, &amp; sic de alijs, quae sunt essentialia
+            <lb ed="#V" n="103"/>homini. Sed quod dicit, quod omnis forma humana
+            infor<lb ed="#V" n="104" break="no"/>mans materiam oportet quod det esse.
+          </p>
+          <p xml:id="capsco-c35lj2-d1e1722">
+            Dicendum est, quod
+            <lb ed="#V" n="105"/>quando forma humana sic informat materiam, quod
+            suppo<lb ed="#V" n="106" break="no"/>nit aliquid, quod habeat esse simpliciter, sicut est in alijs a
+            <lb ed="#V" n="107"/>Christo, tunc ipsa dat esse simpliciter, quod tamen non est
+            <lb ed="#V" n="108"/>ipsius, sed suppositi, sed in Christo aliqualiter natura
+            hu<lb ed="#V" n="109" break="no"/>mana degenerat in actiuis secundum Damasc. quia
+            adue<lb ed="#V" n="110" break="no"/>nit supposito habenti esse simpliciter, &amp; ideo non dat sibi
+            <lb ed="#V" n="111"/>esse simpliciter, sed esse hoc, id est humanum. Sicut etiam
+            <lb ed="#V" n="112"/>forma accidentalis, quia aduenit habenti esse simpliciter
+            <lb ed="#V" n="113"/>non dat esse simpliciter, sed esse hoc, scilicet accidentale
+            es<lb ed="#V" n="114" break="no"/>se. Hoc tamen esse quod dat humana natura, licet
+            adue<lb ed="#V" n="115" break="no"/>niat enti in actu, non est accidentale, id est quod sit in
+            ge<lb ed="#V" n="116" break="no"/>nere accidentis, sicut album esse, quod dat albedo Christo,
+            <lb ed="#V" n="117"/>sed est in genere substantiae per reductionem sicut &amp; ipsa,
+            <lb ed="#V" n="118"/>esse enim quod humana natura dat Christo facit Christum
+            <lb ed="#V" n="119"/>per se esse in genere substantiae &amp; animalis &amp; corporis. Nec
+            <lb ed="#V" n="120"/>est intelligendum, quod illud esse humanum, quod
+            forma<lb ed="#V" n="121" break="no"/>liter dat natura humana, sit aliud ab esse simpliciter
+            diuini<lb ed="#V" n="122" break="no"/>suppositi, immo est idem simpliciter, sed secundum quod
+            <lb ed="#V" n="123"/>illud esse simpliciter, quod est diuinum, refertur ad
+            natu<lb ed="#V" n="124" break="no"/>ram humanam, vt sibi vnitam, vel magis supposito, cuius
+            <lb ed="#V" n="125"/>proprie est esse, secundum hoc dicitur humanum. Non
+            er<lb ed="#V" n="126" break="no"/>go natura humana in Christo dat esse simpliciter, quia
+            il<lb ed="#V" n="127" break="no"/>lud est aeternum, sed trahitur ad illud esse simpliciter, &amp;
+            ip<lb ed="#V" n="128" break="no"/>sa facit formaliter illud esse diuinum, esse humanum. In
+            <lb ed="#V" n="129"/>alijs autem a Christo facit vtrunque, quia &amp; dat esse
+            sim<lb ed="#V" n="130" break="no"/>pliciter, &amp; illud esse simpliciter, facit formaliter esse
+            huma<lb ed="#V" n="131" break="no"/>num, sed in Christo facit tantum vnum, quia aduenit enti
+            <lb ed="#V" n="132"/>simpliciter. Haec ille.
+          </p>
+          <p xml:id="capsco-c35lj2-d1e1786">
+            Ad secundum respondit Sanctus Thomas
+            <lb ed="#V" n="133"/>3. sent. distinct. 6. quaestio. 2. artic. 2. vbi arguit sic. Vnum est
+            <lb ed="#V" n="134"/>esse filij Dei &amp; patris, si ergo vnum esse est huius hominis,
+            <lb ed="#V" n="135"/>&amp; filij Dei, vnum erit esse filij hominis &amp; Dei Patris, sed
+            <lb ed="#V" n="136"/>nulla est maior vnio quam ea, quae est aliquorum secundum
+            <lb ed="#V" n="137"/>esse vnum, ergo humanitas est vnita Deo Patri. Ecce
+            argu<lb ed="#V" n="138" break="no"/>mentum, sequitur responsio. Dicendum est inquit, quod aliud
+            <lb ed="#V" n="139"/>est de Deo, &amp; de alijs omnibus rebus, quia in Deo essentia
+            <lb ed="#V" n="140"/>subsistens est, vnde sibi secundum se debetur esse, immo
+            ip<lb ed="#V" n="141" break="no"/>sa est suum esse subsistens, vnde essentia a persona non
+            dif<lb ed="#V" n="142" break="no"/>fert secundum rem, &amp; ideo esse essentiae est etiam esse
+            per<lb ed="#V" n="143" break="no"/>sonae, &amp; tamen persona &amp; essentia ratione differunt.
+            Quam<lb ed="#V" n="144" break="no"/>uis igitur vnum sit esse, tamen potest considerari, vel
+            pro<lb ed="#V" n="145" break="no"/>ut est essentiae, &amp; sic non vnitur sibi humanitas in esse
+            diui<lb ed="#V" n="146" break="no"/>no, vnde non vnitur patri, vel potest considerari
+            secun<lb ed="#V" n="147" break="no"/>dum quod est personae, &amp; sic vnitur in esse diuino. Haec
+            <lb ed="#V" n="148"/>ille. Ex quibus patet solutio ad argumentum, quia prima
+            <lb ed="#V" n="149"/>consequentia ibidem facta non valet, nec sua probatio
+            si<lb ed="#V" n="150" break="no"/>militer.
+          </p>
+          <p xml:id="capsco-c35lj2-d1e1828">
+            Ad tertium dicitur, quod vnitas ipsius esse in
+            Chni<pb ed="#V" n="70"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>sto attenditur secundum suppositum, quia vnum
+            suppo<lb ed="#V" n="2" break="no"/>tum non potest habere plura esse simpliciter. Et ad huius
+            <lb ed="#V" n="3"/>improbationem negatur consequentia ibi facta, quia non
+            <lb ed="#V" n="4"/>oportet, quod si vnitas suppositi arguit vnitatem esse, quod
+            <lb ed="#V" n="5"/>similiter pluralitas suppositorum arguat pluralitatem esse,
+            <lb ed="#V" n="6"/>maxime vbi plura supposita relatiua identificantur in vna
+            <lb ed="#V" n="7"/>essentia absoluta, quae est suum esse. Vnde ad hoc
+            argumen<lb ed="#V" n="8" break="no"/>tum soluit Sanctus Thomas tertia parte quaestio. 17. artic. 2.
+            <lb ed="#V" n="9"/>vbi arguit sic. In trinitate quamuis sint tres personae, est
+            ta<lb ed="#V" n="10" break="no"/>men vnum esse propter vnitatem naturae, sed in Christo sunt
+            <lb ed="#V" n="11"/>duae naturae, quamuis sit vna persona: ergo in Christo non
+            <lb ed="#V" n="12"/>est tantum vnum esse, sed duo. Ecce argumentum,
+            sequi<lb ed="#V" n="13" break="no"/>tur responsio. Dicendum (inquit) quod quia persona
+            di<lb ed="#V" n="14" break="no"/>uina est idem cum natura, in personis diuinis non est aliud
+            <lb ed="#V" n="15"/>esse, praeter esse naturae, &amp; ideo tres personae non habent nisi
+            <lb ed="#V" n="16"/>vnum esse. Haberent autem triplex esse, si in eis esset aliud
+            <lb ed="#V" n="17"/>esse naturae, &amp; aliud esse personae. Haec ille.
+          </p>
+          <p xml:id="capsco-c35lj2-d1e1870">
+            Ex quibus
+            pa<lb ed="#V" n="18" break="no"/>tet, quod tria supposita possunt habere idem esse
+            simplici<lb ed="#V" n="19" break="no"/>ter, si sint eadem essentia, sed vnum suppositum non potest
+            <lb ed="#V" n="20"/>habere duo esse simpliciter, quia ex hoc sequeretur ipsum
+            <lb ed="#V" n="21"/>esse duo entia absoluta. Et quod hoc argumentum sit
+            So<lb ed="#V" n="22" break="no"/>phisticum patet. Nam si forma arguendi valeret,
+            aequali<lb ed="#V" n="23" break="no"/>ter concluderet, quod in Christo sint duo esse per se
+            subsi<lb ed="#V" n="24" break="no"/>stentiae, sicut duo esse actualis existentiae. Quod tamen
+            ne<lb ed="#V" n="25" break="no"/>gat arguens, quod patet arguendo sic, sicut ipse arguit.
+            Plu<lb ed="#V" n="26" break="no"/>ralitas per se subsistentiae, vel attenditur in Christo &amp; caeter.
+            <lb ed="#V" n="27"/>Nil aliud mutando in argumento, nisi loco esse ponendo
+            <lb ed="#V" n="28"/>esse per esse subsistentiae, quia sicut consequens, ad quod
+            <lb ed="#V" n="29"/>ipse deducit, scilicet quod esse actualis existentiae sit
+            multi<lb ed="#V" n="30" break="no"/>plex in diuinis personis, est inconueniens, ita &amp; multo
+            for<lb ed="#V" n="31" break="no"/>tius, quod in eis sint multa esse per se subsistentiae. Causa
+            au<lb ed="#V" n="32" break="no"/>tem quare neutrum argumentum valet est, quia diuinae
+            per<lb ed="#V" n="33" break="no"/>sonae sunt relatiuae. Esse vero simpliciter est absolutum, &amp;
+            <lb ed="#V" n="34"/>potissime esse diuinarum personarum, quod non est aliud
+            <lb ed="#V" n="35"/>quam esse diuinae naturae, modo rationi magis consonum
+            <lb ed="#V" n="36"/>est, quod in vno absoluto fundentur plures relationes, quam
+            <lb ed="#V" n="37"/>quod plura esse absoluta realiter distincta, &amp; per se
+            subsi<lb ed="#V" n="38" break="no"/>stentia conueniant, vel fundentur in vno supposito
+            relati<lb ed="#V" n="39" break="no"/>uo.
+          </p>
+          <p xml:id="capsco-c35lj2-d1e1920">
+            Ad quartum dicitur quod si argumentum valeret, non
+            <lb ed="#V" n="40"/>solum probaret, quod in Christo sunt duo esse, immo quod
+            <lb ed="#V" n="41"/>in illo sunt duo supposita, quia agere sicut supponit esse,
+            <lb ed="#V" n="42"/>ita &amp; suppositum, &amp; ideo sicut ex pluralitate actionum
+            ar<lb ed="#V" n="43" break="no"/>guitur duplex esse, ita &amp; duplex suppositum, quod est
+            fal<lb ed="#V" n="44" break="no"/>sum, &amp; erroneum. Ideoque dicitur, quod argumentum
+            <lb ed="#V" n="45"/>neutrum praedictorum concludit, quia licet agere
+            suppo<lb ed="#V" n="46" break="no"/>nat esse &amp; suppositum, non tamen sicut adaequatum
+            prin<lb ed="#V" n="47" break="no"/>cipium, sed talis adaequatio est inter operationem in
+            gene<lb ed="#V" n="48" break="no"/>re, vel specie sumptam, &amp; formam, vel naturam, quae est
+            <lb ed="#V" n="49"/>principium quo talis actionis. Idem enim suppositum, &amp;
+            <lb ed="#V" n="50"/>per idem esse existentiae potest esse principium operationum
+            <lb ed="#V" n="51"/>genere distinctarum, dum tamen habeat formas efficiuas
+            <lb ed="#V" n="52"/>talium operationum genere distinctas, &amp; dantes diuersa
+            <lb ed="#V" n="53"/>esse essentiae. Vnde ad hoc argumentum. q. in forma
+            respon<lb ed="#V" n="54" break="no"/>det Sanctus Thomas 9. quolibet vbi sic arguit. Sicut esse est
+            suppo<lb ed="#V" n="55" break="no"/>siti, ita &amp; operatio, si vnitas suppositi non facit, quin in
+            Chri<lb ed="#V" n="56" break="no"/>sto sint multae operationes: ergo non facit quod in
+            Chri<lb ed="#V" n="57" break="no"/>sto sit tantum vnum esse. Ecce argumentum sequitur
+            respon<lb ed="#V" n="58" break="no"/>sio. Dicendum (inquit) quod operatio suppositi non est
+            <lb ed="#V" n="59"/>de integritate vnitatis eius, sed sequitur eius vnitatem, nam
+            <lb ed="#V" n="60"/>vnius suppositi inuenimus multas operationes secundum
+            <lb ed="#V" n="61"/>diuersa operationum principia, quae supposito insunt,
+            si<lb ed="#V" n="62" break="no"/>cut homo aliud operatur lingua &amp; manu, sed esse est id, in
+            <lb ed="#V" n="63"/>quo fundatur vnitas suppositi, vnde esse multiplex
+            praeiudi<lb ed="#V" n="64" break="no"/>cat vnitati. Haec ille.
+          </p>
+          <p xml:id="capsco-c35lj2-d1e1977">
+            Ad quintum patet responsio per
+            di<lb ed="#V" n="65" break="no"/>cta. Dicitur enim, quod si natura humana dimitteretur a
+            <lb ed="#V" n="66"/>verbo, tunc ipsa haberet aliud suppositum quam modo
+            ha<lb ed="#V" n="67" break="no"/>beat, &amp; per consequens aliud esse actualis existentiae
+            habe<lb ed="#V" n="68" break="no"/>ret sibi correspondens secundario &amp; ex consequenti. Et
+            <lb ed="#V" n="69"/>ad huius improbationem dicitur primo, quod si maior
+            in<lb ed="#V" n="70" break="no"/>telligatur de esse essentiae vera est. Si autem intelligatur de
+            <lb ed="#V" n="71"/>esse actualis existentiae, tunc distinguitur, quia amissio
+            ta<lb ed="#V" n="72" break="no"/>lis esse potest dupliciter contingere, vno modo propter
+            de<lb ed="#V" n="73" break="no"/>perditionem antiquae formae, &amp; aduentum nouae formae,
+            pri<lb ed="#V" n="74" break="no"/>mum motum physicum, quae est alteratio, &amp; illud, quod sic
+            <lb ed="#V" n="75"/>perdit totaliter esse praecedens vere corrumpitur. Alio
+            mo<cb ed="#V" n="b"/><lb ed="#V" n="76" break="no"/>do propter tractum ad aliud completius, &amp; perfectius sine
+            <lb ed="#V" n="77"/>quacunque deperditione principiorum essendi, sed per
+            so<lb ed="#V" n="78" break="no"/>lum impedimentum principiorum, ne essent esse, &amp; ne exeant
+            <lb ed="#V" n="79"/>in actum essendi, sicut contingit cum ramus inseritur
+            ar<lb ed="#V" n="80" break="no"/>bori, vel gutta aquae additur amphorae, &amp; sic illud quod
+            ta<lb ed="#V" n="81" break="no"/>liter amittit esse praecedens, non oportet quod vere
+            cor<lb ed="#V" n="82" break="no"/>rumpatur, &amp; sicut distinctum est de corruptione, ita potest
+            <lb ed="#V" n="83"/>distingui de generatione. Nunquam enim est vera
+            genera<lb ed="#V" n="84" break="no"/>tio propter solam acquisitionem noui esse actualis
+            existen<lb ed="#V" n="85" break="no"/>tiae, nisi illa acquisitio fiat propter acquisitionem alicuius
+            <lb ed="#V" n="86"/>principij essendi potissime propter formam, quia quod sic
+            <lb ed="#V" n="87"/>acquirit esse sine alteratione prima quasi. nihil nouum
+            ac<lb ed="#V" n="88" break="no"/>quirit, cum illud prius haberet in potentia summe
+            pro<lb ed="#V" n="89" break="no"/>xima, quia prius habuisset esse, quod modo habet, nisi
+            prin<lb ed="#V" n="90" break="no"/>cipium essendi habuisset impedimentum, ita quod non erat
+            <lb ed="#V" n="91"/>in potentia ad hoc esse, nisi accidentali &amp; non essentiali,
+            si<lb ed="#V" n="92" break="no"/>cut dicimus de graui posito sursum 8. Physic. De hoc satis
+            <lb ed="#V" n="93"/>dictum fuit secundo sent. distinct. 15. vbi tractabatur de
+            plu<lb ed="#V" n="94" break="no"/>ralitate formarum. Et adducta sunt ibi dicta Sancti Thomae
+            <lb ed="#V" n="95"/>in tractatu. de natura materiae, de quibus hic aliqua
+            refe<lb ed="#V" n="96" break="no"/>ram. Inquit enim in illo tracta. circa finem. Triplex est
+            po<lb ed="#V" n="97" break="no"/>tentia, in qua aliquid dicitur esse, scilicet potentia materiae,
+            <lb ed="#V" n="98"/>in qua nihil est de illo, quod de potentia educendum est.
+          </p>
+          <p xml:id="capsco-c35lj2-d1e2054">
+            <lb ed="#V" n="99"/>Secunda est potentia mixti, vel materiae, quae est in
+            altera<lb ed="#V" n="100" break="no"/>tione, in qua licet non sit essentia formae inducendae, est
+            ta<lb ed="#V" n="101" break="no"/>men virtus. Tertia est potentia totius, secundum quam
+            <lb ed="#V" n="102"/>partes sunt in toto, quae est maxime actui propinqua
+            secun<lb ed="#V" n="103" break="no"/>dum Philosophum. Vnde in eis nihil est, sicut agens ad
+            <lb ed="#V" n="104"/>actum proprium, sicut est quaedo harmonia est perfecta,
+            ne<lb ed="#V" n="105" break="no"/>cessario erunt essentiae formarum proprie sua esse. Hoc
+            au<lb ed="#V" n="106" break="no"/>tem facilius scietur si gradus, &amp; ordo rerum materialium
+            <lb ed="#V" n="107"/>diligenter discutiatur.
+          </p>
+          <p xml:id="capsco-c35lj2-d1e2077">
+            Sciendum est igitur, quod
+            commu<lb ed="#V" n="108" break="no"/>nissimus vnitatis modus repertus in rebus materialibus est
+            <lb ed="#V" n="109"/>vnitas continuitatis. In omnibus enim rebus materialibus
+            <lb ed="#V" n="110"/>haec vnitas reperitur, primum nanque accidens, quod
+            se<lb ed="#V" n="111" break="no"/>quitur materiam est quantitas. Super hanc autem
+            vnita<lb ed="#V" n="112" break="no"/>tem in diuersis rebus reperitur vnitas suae formae propriae,
+            <lb ed="#V" n="113"/>in quibusdam autem magis, in quibusdam vero minus
+            per<lb ed="#V" n="114" break="no"/>fecte, vt habetur 15. Meta. vnitas autem continuitatis, vel
+            <lb ed="#V" n="115"/>quantitatis in re reperta maxime potentialis inuenitur, quia
+            <lb ed="#V" n="116"/>omne continuum est vnum actu, &amp; multiplex in potentia,
+            <lb ed="#V" n="117"/>sicut lineae partes non sunt aliqua duo in actu, sed sunt vnum
+            <lb ed="#V" n="118"/>actu, ipsa, scilicet linea, sunt vero duo in potentia. Et
+            fa<lb ed="#V" n="119" break="no"/>cta diuisione fiunt duo actu, sola enim diuisio facit in
+            con<lb ed="#V" n="120" break="no"/>tinuis esse actu, vnde in diuisione lineae non inducitur
+            ali<lb ed="#V" n="121" break="no"/>quid noui in ipsis diuisis, sed essentia lineae eadem, quae prius
+            <lb ed="#V" n="122"/>erat actu vna, &amp; multiplex in potentia, per diuisionem
+            fa<lb ed="#V" n="123" break="no"/>cta est multa in actu. Est tamen haec similitudo cuiusdam
+            <lb ed="#V" n="124"/>corruptionis, quia actus prior, qui erat totius ablatus est,
+            <lb ed="#V" n="125"/>&amp; potentia ducta est ad actum posteriorem per solam
+            di<lb ed="#V" n="126" break="no"/>uisionem. Consimile penitus reperitur in lapide &amp; in igne,
+            <lb ed="#V" n="127"/>&amp; in omnibus generabilibus, &amp; corruptibilibus
+            inanima<lb ed="#V" n="128" break="no"/>tis. Forma enim totius in eis, per quam habent vnitatem
+            <lb ed="#V" n="129"/>quandam suae naturae super vnitatem quantitatis secundum
+            <lb ed="#V" n="130"/>totam rationem formae est in qualibet parte talium rerum,
+            <lb ed="#V" n="131"/>vnde facta diuisione manet essentia eiusdem formae in
+            par<lb ed="#V" n="132" break="no"/>tibus abinuicem diuisis, quaelibet enim pars ignis est ignis,
+            <lb ed="#V" n="133"/>&amp; quaelibet pars lapidis est lapis. Est tamen in istis
+            diuisio<lb ed="#V" n="134" break="no"/>nibus quaedam similitudo corruptionis &amp; generationis, non
+            <lb ed="#V" n="135"/>quod nouae formae per talem diuisionem inducantur, sed
+            <lb ed="#V" n="136"/>quia esse siue actus prior aufertur per ipsam diuisionem, &amp;
+            <lb ed="#V" n="137"/>potentia ducitur ad actum proprium. Super haec autem
+            <lb ed="#V" n="138"/>sunt animata imperfecta, vt plantae, &amp; quaedam imperfecta
+            <lb ed="#V" n="139"/>animalia, vt sunt anulosa, &amp; in ipsis iterum idem
+            inueni<lb ed="#V" n="140" break="no"/>tur, quia cum auellitur ramus ab arbore non aduenit
+            no<lb ed="#V" n="141" break="no"/>ua forma vegetabilis, sed eadem essentia, quae vna erat in
+            <lb ed="#V" n="142"/>arbore, tota etiam actu vna, simul erat multiplex in
+            poten<lb ed="#V" n="143" break="no"/>tia, &amp; per diuisionem nouum esse perdit, &amp; alius, &amp; alius
+            <lb ed="#V" n="144"/>actus sequutus est. Similiter in animalibus anulosis est
+            ani<lb ed="#V" n="145" break="no"/>ma actu vna, sed est multiplex in potentia accidentali,
+            vn<lb ed="#V" n="146" break="no"/>de facta diuisione, &amp; remoto actu priori, &amp; vnitate actus
+            <lb ed="#V" n="147"/>sunt multa in actu. Et sic facile est videre quomodo
+            essen<lb ed="#V" n="148" break="no"/>tia alicuius formae est in potentia accidentali ad esse, quod
+            <lb ed="#V" n="149"/>tamen nondum habet, &amp; hoc totum contingit propter
+            im<lb ed="#V" n="150" break="no"/>perfectionem talium formarum, quia cum sint sub vno
+            <pb ed="#V" n="71"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>actu, si mul sunt sub potentia multiplici respectu
+            diuerso<lb ed="#V" n="2" break="no"/>rum esse, quae acquiruntur sine aliqua corruptione in suis
+            <lb ed="#V" n="3"/>essentijs, sed sola diuisione facta. In animalibus vero
+            per<lb ed="#V" n="4" break="no"/>fectis, &amp; praecipue in homine, forma quae est vna in actu non
+            <lb ed="#V" n="5"/>est multiplex in potentia, vt per diuisionem constituatur
+            <lb ed="#V" n="6"/>eadem essentia sub diuersis esse, &amp; diuersis actibus, cum
+            ani<lb ed="#V" n="7" break="no"/>ma hominis non diuidatur per se, nec per accidens, vnde
+            <lb ed="#V" n="8"/>cum in homine sit vnitas continuitatis cuiusdam, quae
+            ma<lb ed="#V" n="9" break="no"/>nifesta est tam in carne, &amp; osse quam in alijs membris, quae
+            <lb ed="#V" n="10"/>sibi coniunguntur propter naturam ipsam continuitatis,
+            <lb ed="#V" n="11"/>necessario erit in eo aliqua alia essentia formae, quae per
+            so<lb ed="#V" n="12" break="no"/>lam diuisionem a toto habeat esse actu &amp; caet. Haec ille.
+          </p>
+          <p xml:id="capsco-c35lj2-d1e2203">
+            Et
+            <lb ed="#V" n="13"/>frequenter in eodem tract. dicit eandem essentiam formae
+            <lb ed="#V" n="14"/>successiuae habere diuersa esse sine quacunque generatione
+            <lb ed="#V" n="15"/>&amp; corruptione, non ergo acquisitio noui esse simpliciter,
+            <lb ed="#V" n="16"/>aut secundum quid inducit generationem simpliciter, aut
+            <lb ed="#V" n="17"/>secundum quid, nisi concurrat acquisitio nouae formae, &amp;
+            <lb ed="#V" n="18"/>principium essendi.
+          </p>
+          <p xml:id="capsco-c35lj2-d1e2219">
+            Ad sextum dicitur quod responsio ibi
+            <lb ed="#V" n="19"/>data bona est, vt patuit in solutione primorum quinque
+            <lb ed="#V" n="20"/>argumentorum Scoti. Tunc ad improbationem
+            respon<lb ed="#V" n="21" break="no"/>sionis negatur minor. Nam licet per mortem Christi non
+            <lb ed="#V" n="22"/>fuerit amissa vnio animae ad verbum, nec vnio carnis ad
+            ip<lb ed="#V" n="23" break="no"/>sum, fuit tamen amissa vnio tertiae entitatis, quae dicitur
+            hu<lb ed="#V" n="24" break="no"/>manitas. Sed arguens in hoc fallitur, quia negat totum
+            di<lb ed="#V" n="25" break="no"/>stingui a partibus, vt alias patuit. Addendum est autem
+            <lb ed="#V" n="26"/>illi responsioni, quod humana natura in natiuitate vel
+            mor<lb ed="#V" n="27" break="no"/>te Christi, non solum acquisiuit, vel amisit relationem
+            vnio<lb ed="#V" n="28" break="no"/>nis ad esse diuinum, immo praeter hoc acquiuisit vel amisit
+            <lb ed="#V" n="29"/>immediate ipsum esse personale verbi, &amp; vnitatem, &amp;
+            indi<lb ed="#V" n="30" break="no"/>uisionem ad illud, vt alias dictum fuit.
+          </p>
+          <p xml:id="capsco-c35lj2-d1e2248">
+            Ad septimum
+            re<lb ed="#V" n="31" break="no"/>spondit Bernar.s de Gannaco vbi supra. Nam hoc
+            argumen<lb ed="#V" n="32" break="no"/>tum est Godofredi. Et ideo responsio huius posita est in
+            so<lb ed="#V" n="33" break="no"/>lut. secundi Scotus recitando dicta Bernardi. Et addit Bernardus
+            <lb ed="#V" n="34"/>contra (iodofr. dicentem quod non minus dat natura
+            hu<lb ed="#V" n="35" break="no"/>mana in Christo quam naturae accidentales
+            superuenien<lb ed="#V" n="36" break="no"/>tes &amp; caet. Potest inquit Bernardus concedi, quod plus dat
+            <lb ed="#V" n="37"/>quantum ad esse essentiae, quia dat esse in genere
+            substan<lb ed="#V" n="38" break="no"/>tiae. Formae autem accidentales, quae sunt in Christo non
+            <lb ed="#V" n="39"/>dant esse simpliciter, sed accidentale. Item potest
+            conce<lb ed="#V" n="40" break="no"/>di quod minus dat, quia non dat esse simpliciter, cum illud
+            <lb ed="#V" n="41"/>praeexistat, nec secundum quid, cum non sit forma
+            acciden<lb ed="#V" n="42" break="no"/>talis, formae autem accidentales dant ei esse secundum quid,
+            <lb ed="#V" n="43"/>&amp; causa huius diuersitatis visa est. Haec ille.
+          </p>
+          <p xml:id="capsco-c35lj2-d1e2279">
+            Ad octauum
+            <lb ed="#V" n="44"/>dicitur sicut ad quartum negatur, enim antecedens, vbi
+            es<lb ed="#V" n="45" break="no"/>sentia est impedita &amp; non potentia, sicut est in Christo. Ad
+            <lb ed="#V" n="46"/>essentiam nanque non sequitur esse, nisi constituat
+            suppo<lb ed="#V" n="47" break="no"/>situm. In Christo autem natura humana non constituit
+            <lb ed="#V" n="48"/>suppositum, quia trahitur ad aliquid perfectius, &amp; de hoc
+            <lb ed="#V" n="49"/>multa dicta sunt prius.
+          </p>
+          <p xml:id="capsco-c35lj2-d1e2295">
+            Ad nonum dicitur, quod si maior
+            <lb ed="#V" n="50"/>intelligatur de proprio esse creato, quod naturaliter natum
+            <lb ed="#V" n="51"/>est sequi humanitatem, falsa est, quia accidentia
+            corpora<lb ed="#V" n="52" break="no"/>lia possunt sequi humanitatem non solum quando dat
+            sup<lb ed="#V" n="53" break="no"/>posito proprium esse, immo quando nullum esse dat. Si
+            <lb ed="#V" n="54"/>vero intelligatur maior generaliter de quocunque esse,
+            ni<lb ed="#V" n="55" break="no"/>hil concludit argumentum, quia nos concedimus, quod
+            <lb ed="#V" n="56"/>humanitas in Christo habet esse diuinum personale. De
+            <lb ed="#V" n="57"/>hoc Sanctus Thomas in tract. de natura materiae multa dicit alibi
+            <lb ed="#V" n="58"/>recitata, cum de pluralitate formarum in homine
+            loquere<lb ed="#V" n="59" break="no"/>mur secundo sent. vnde inter caetera dicit. Possibile est
+            po<lb ed="#V" n="60" break="no"/>nere essentia alicuius formae in homine sine hoc quod eam
+            <lb ed="#V" n="61"/>sequatur aliquod esse substantiale &amp; caet. Item plus dicit.
+            <lb ed="#V" n="62"/>No repugnat intelligere ponere essentiam formae, ad quam
+            <lb ed="#V" n="63"/>dependeat quantitas secundum orginem, sine tamen esse
+            <lb ed="#V" n="64"/>quod se habeat ad illam formam, vt principiatum ad suum
+            <lb ed="#V" n="65"/>principium &amp; caet. Et multa similia dicit ibidem. Ad
+            pri<lb ed="#V" n="66" break="no"/>mum. I0an. de Neapoli patet responsio ex praecedenti
+            quae<lb ed="#V" n="67" break="no"/>stio. Damascen. enim in verbis illis loquitur de homine
+            <lb ed="#V" n="68"/>quo ad naturam hominis, &amp; partes eius, &amp; naturales eius
+            <lb ed="#V" n="69"/>proprietates. Nam quodlibet tale assumpsit, &amp; curauit,
+            <lb ed="#V" n="70"/>sed esse actualis existentiae simpliciter non est de numero
+            <lb ed="#V" n="71"/>dictorum, quia nec est natura humana, nec pars eius, nec
+            <lb ed="#V" n="72"/>aliquid sibi proprium, nec quid necessario consequens eam.
+          </p>
+          <p xml:id="capsco-c35lj2-d1e2348">
+            <lb ed="#V" n="73"/><milestone ed="#V" unit="p" rend="indent"/> Item istud argumentum est contra arguentem, &amp;
+            quem<lb ed="#V" n="74" break="no"/>cunquae catholicum tenentem in Christo non esse duo
+            sup<lb ed="#V" n="75" break="no"/>posita, &amp; eo modo quo ipse respondebit, nos
+            respondebi<cb ed="#V" n="b"/><lb ed="#V" n="76" break="no"/>mus. Nam sicut ipsi arguunt, nos arguemus sic. Quicquid
+            <lb ed="#V" n="77"/>Deus plantauit in natura humana, illud assumpsit, sed
+            per<lb ed="#V" n="78" break="no"/>sonalitatem, &amp; hypostasim per se subsistentem plantauit in
+            <lb ed="#V" n="79"/>natura humana, igitur omnia ista assumpsit, consequens est
+            <lb ed="#V" n="80"/>erroneum. Nec valet si dicatur, quod in hoc processu est
+            <lb ed="#V" n="81"/>fallacia figurae dictionis mutando vnum praedicamentum
+            <lb ed="#V" n="82"/>in aliud. Hoc inquam non valet, quia similiter dicam, quod
+            <lb ed="#V" n="83"/>ita est in argumento, quod facit contra nos, quia sub
+            ly<lb ed="#V" n="84" break="no"/>quicquid, quod est distributiuum pro natura, &amp; eius
+            prin<lb ed="#V" n="85" break="no"/>cipijs subsumitur esse, quod neutrum praedictorum eit,
+            im<lb ed="#V" n="86" break="no"/>mo est accidens omni naturae creatae, vt superius dictum
+            <lb ed="#V" n="87"/>est.
+          </p>
+          <p xml:id="capsco-c35lj2-d1e2385">
+            Ad secundum patet per idem. Quia idem
+            argumen<lb ed="#V" n="88" break="no"/>tum potest fieri de personalitate, &amp; de per se subsistentia
+            <lb ed="#V" n="89"/>humana, quarum neutram verbum assumpsit. Dico igitur
+            <lb ed="#V" n="90"/>quod perfectio hominis est duplex, vna quae est propria
+            hu<lb ed="#V" n="91" break="no"/>manae naturae prout distinguitur a quacunque alia natura,
+            <lb ed="#V" n="92"/>sicut esse risibilem, rationalem &amp;c. &amp; talem perfectionem
+            <lb ed="#V" n="93"/>subtrahere humanae naturae in Christo inconueniens est.
+            <lb ed="#V" n="94"/>Alia vero perfectio conuenit homini inquantum
+            conue<lb ed="#V" n="95" break="no"/>nit cum alijs naturis, sicut personalitas, suppositatio,
+            sub<lb ed="#V" n="96" break="no"/>sistentia, &amp; talem perfectionem subtrahere naturae humanae
+            <lb ed="#V" n="97"/>in Christo cum additione superioris perfectionis non est
+            <lb ed="#V" n="98"/>inconueniens, quia dignius est personari, &amp; suppositari
+            di<lb ed="#V" n="99" break="no"/>uina personalitate, &amp; diuina subsistentia quam humana.
+            <lb ed="#V" n="100"/>Vel aliter dici potest conformiter ad superiora, quod sicut
+            <lb ed="#V" n="101"/>Christus suscepit humanam naturam, non autem hyposta.
+            <lb ed="#V" n="102"/>sim, aut personam, ita nec assumpsit illa, quae sunt propria
+            <lb ed="#V" n="103"/>hypostasi, vel personae, cuiusmodi est subsistere per se non
+            <lb ed="#V" n="104"/>in alio esse.
+          </p>
+          <p xml:id="capsco-c35lj2-d1e2424">
+            Item cum dicitur, quod summa perfectio
+            ho<lb ed="#V" n="105" break="no"/>minis est esse, falsum est, secundum hoc enim sequeretur,
+            <lb ed="#V" n="106"/>quod esse esset vltima hominis beatitudo, aut faelicitas, quod
+            <lb ed="#V" n="107"/>falsum est. Nec valet probatio, quia perfectio accidentalis
+            <lb ed="#V" n="108"/>vno modo est melior perfectione substantiali, sicut gratia
+            <lb ed="#V" n="109"/>&amp; gloria quam natura. Et de hoc Sanctus Thomas prima
+            <lb ed="#V" n="110"/>parte quaestio. 5. artic. 1. sic dicit. Licet bonum, &amp; ens sint
+            <lb ed="#V" n="111"/>vnum secundum rem, quia tamen differunt secundum
+            ra<lb ed="#V" n="112" break="no"/>tionem non eodem modo dicitur aliquid ens simpliciter,
+            <lb ed="#V" n="113"/>&amp; bonum simpliciter. Nam cum ens dicat proprie esse in
+            <lb ed="#V" n="114"/>actu, actus autem habet proprie ordinem ad potentiam,
+            se<lb ed="#V" n="115" break="no"/>cundum hoc aliquid dicitur ens simpliciter, secundum quod
+            <lb ed="#V" n="116"/>primo discernitur ab eo, quod est in potentia tantum, hoc
+            <lb ed="#V" n="117"/>autem est esse substantiale vniuscuiusque rei. Vnde per suum
+            <lb ed="#V" n="118"/>esse substantiale dicitur vnumquodque ens simpliciter, per
+            <lb ed="#V" n="119"/>actus autem superadditos dicitur aliquid esse secundum
+            <lb ed="#V" n="120"/>quid, sicut esse album significat esse secundum quid, non enim
+            <lb ed="#V" n="121"/>esse album aufert esse in potentia simpliciter, cum adueniat
+            <lb ed="#V" n="122"/>rei iam praeexistenti in actu. Sed bonum dicit rationem
+            <lb ed="#V" n="123"/>perfecti, quod est appetibile, &amp; per consequens dicit
+            ra<lb ed="#V" n="124" break="no"/>tionem vltimi. Vnde illud quod est vltimo perfectum
+            di<lb ed="#V" n="125" break="no"/>citur bonum simpliciter, quod autem non habet vltimam
+            <lb ed="#V" n="126"/>perfectionem, quam debet habere quamuis habeat aliquam
+            <lb ed="#V" n="127"/>perfectionem inquantum est actu, non tamen dicitur
+            per<lb ed="#V" n="128" break="no"/>fectum simpliciter, nec bonum simpliciter, sed secundum
+            <lb ed="#V" n="129"/>quid. Sic igitur secundum primum esse, quod est
+            substan<lb ed="#V" n="130" break="no"/>tiale, dicitur aliquis ens simpliciter, &amp; bonum secundum
+            <lb ed="#V" n="131"/>quid, id est inquantum ens, secundum vero vltimum actum
+            <lb ed="#V" n="132"/>dicitur aliquid ens secundum quid, &amp; bonum simpliciter.
+            <lb ed="#V" n="133"/>Haec ille.
+          </p>
+          <p xml:id="capsco-c35lj2-d1e2489">
+            Ex quibus patet, quod esse substantiale non est
+            <lb ed="#V" n="134"/>maxima perfectio hominis, immo quasi minima. Et
+            quic<lb ed="#V" n="135" break="no"/>quid sit de hoc, tamen esse simpliciter, cum sit proprium
+            <lb ed="#V" n="136"/>suppositum, repugnat vnioni &amp; assumptioni ad aliud
+            sup<lb ed="#V" n="137" break="no"/>positum.
+          </p>
+          <p xml:id="capsco-c35lj2-d1e2500">
+            Ad tertium patet responsio per dicta. Ad
+            ar<lb ed="#V" n="138" break="no"/>gumentum &amp; eius confirmationem, quia si argumentum
+            <lb ed="#V" n="139"/>procederet non solum probaret, quod natura humana prius
+            <lb ed="#V" n="140"/>natura habuit esse quam assumeretur, immo quod prius,
+            <lb ed="#V" n="141"/>nam fuit suppositata proprio supposito, quia pro illo
+            prio<lb ed="#V" n="142" break="no"/>ri ipsa habuit esse per se subsistens, cum suum esse nulli
+            in<lb ed="#V" n="143" break="no"/>niteretur, nec esset in supposito alieno, nec in alio vt in
+            su<lb ed="#V" n="144" break="no"/>biecto, quod sufficit ad rationem suppositi. Dico igitur
+            <lb ed="#V" n="145"/>ad argumentum, quod natura humana pro nullo signo
+            du<lb ed="#V" n="146" break="no"/>rationis, vel naturae fuit prius perfecta quam assumpta,
+            <lb ed="#V" n="147"/>sed simul fuit perfecta, &amp; assumpta, nec valet
+            consequen<lb ed="#V" n="148" break="no"/>tia ibidem facta: ergo fuit assumpta imperfecte, quia vt
+            di<lb ed="#V" n="149" break="no"/>ctum est pro nullo priori ante sui assumptionem fuit, nec
+            <lb ed="#V" n="150"/>perfecta nec imperfecta, quia primum instans suae
+            creatio<pb ed="#V" n="72"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>nis fuit primum instans suae perfectionis, &amp; suae
+            assumptio<lb ed="#V" n="2" break="no"/>nis, vnde fictio est imaginari talia signa naturae, vt superius
+            <lb ed="#V" n="3"/>dictum est. Si autem quaeritur nunquid prius natura
+            hu<lb ed="#V" n="4" break="no"/>mana natura fuit perfecta quam assumpta. Dicitur quod
+            <lb ed="#V" n="5"/>non, immo econtra prius natura fuit vnita quam perfecta,
+            <lb ed="#V" n="6"/>potissime loquendo de accidentali perfectione,
+            cuiusmo<lb ed="#V" n="7" break="no"/>di est esse, &amp; accidentia quae sunt extra rationem essentiae,
+            <lb ed="#V" n="8"/>&amp; humanae naturae, secus est de perfectione essentiali, aut
+            <lb ed="#V" n="9"/>de propria passione essentiae. Quod patet in simili. Sanctus Thomas
+            <lb ed="#V" n="10"/>enim tertia parte quaestio. 7. artic. 13. quaerit similem
+            quae<lb ed="#V" n="11" break="no"/>stionem, scilicet vtrum gratia habitualis in Christo
+            sequa<lb ed="#V" n="12" break="no"/>tur vnionem. Et respondit sic. Vnio humanae naturae ad
+            <lb ed="#V" n="13"/>diuinam, quam supra diximus esse ipsam vnionis gratiam,
+            <lb ed="#V" n="14"/>praecedit gratiam habitualem in Christo non ordine
+            tem<lb ed="#V" n="15" break="no"/>poris, sed naturae, &amp; intellectus, &amp; hoc triplici ratione,
+          </p>
+          <p xml:id="capsco-c35lj2-d1e2565">
+            <lb ed="#V" n="16"/><milestone ed="#V" unit="p" rend="indent"/> Primo quidem secundum ordinem principiorum
+            vtriu<lb ed="#V" n="17" break="no"/>que. Principium enim vnionis est persona filij assumens
+            <lb ed="#V" n="18"/>naturam humanam, quae secundum hoc dicitur esse missa
+            <lb ed="#V" n="19"/>in mundum, quod naturam humanam assumpsit. Principium
+            <lb ed="#V" n="20"/>autem gratiae habitualis, quae cum charitate datur, est
+            Spi<lb ed="#V" n="21" break="no"/>ritus sanctus qui secundum hoc dicitur mitti, quod per charitatem
+            <lb ed="#V" n="22"/>mentem inhabitat. Missio autem filij secundum ordinem
+            <lb ed="#V" n="23"/>naturae est prior missione Spiritus sancti sicut ordine
+            na<lb ed="#V" n="24" break="no"/>turae Spiritussanctus procedit a patre &amp; a filio dilecto,
+            vn<lb ed="#V" n="25" break="no"/>de &amp; vnio personalis, secundum quam intelligitur missio
+            <lb ed="#V" n="26"/>filij, est prior ordine naturae gratia habituali, secundum
+            <lb ed="#V" n="27"/>quam intelligitur missio Spiritussancti. Secundo
+            accipi<lb ed="#V" n="28" break="no"/>tur ratio huius ordinis ex habitudine gratiae ad suam
+            cau<lb ed="#V" n="29" break="no"/>sam. Gratia enim causatur in homine ex praesentia
+            deita<lb ed="#V" n="30" break="no"/>tis, sicut lumen in aere ex praesentia solis, praesentia autem
+            <lb ed="#V" n="31"/>Dei in Christo intelligitur secundum vnionem humanae
+            <lb ed="#V" n="32"/>naturae ad diuinam personam. Vnde gratia habitualis
+            Chri<lb ed="#V" n="33" break="no"/>sti intelligitur vt consequens vnionem hanc sicut splendor
+            <lb ed="#V" n="34"/>solem. Tertio ratio huius ordinis accipi potest ex fine
+            gra<lb ed="#V" n="35" break="no"/>tiae. Ordinatur enim ad bene agendum, actiones autem sunt
+            <lb ed="#V" n="36"/>suppositorum &amp; indiuiduorum, vnde actio &amp; per
+            conse<lb ed="#V" n="37" break="no"/>quens gratia ad ipsam ordinans praesupponit hypostasim
+            <lb ed="#V" n="38"/>operantem, hypostasis autem non praesupponitur in
+            natu<lb ed="#V" n="39" break="no"/>ra humana ante vnionem, vt ex supra dictis patet. Et ideo
+            <lb ed="#V" n="40"/>gratia vnionis secundum intellectum praecedit gratiam
+            ha<lb ed="#V" n="41" break="no"/>bitualem. Haec ille.
+          </p>
+          <p xml:id="capsco-c35lj2-d1e2626">
+            Sicut autem ipse dicit de gratia
+            habi<lb ed="#V" n="42" break="no"/>tuali, ita dico de omni accidentali perfectione naturae
+            hu<lb ed="#V" n="43" break="no"/>manae potissime respiciente suppositum existens simpliciter
+            <lb ed="#V" n="44"/>propter tertiam rationem. Similiter propter secundam,
+            <lb ed="#V" n="45"/>quia vnio personalis est causa omnium perfectionum
+            na<lb ed="#V" n="46" break="no"/>turae humanae, &amp; sic praecedit quamlibet perfectionem,
+            si<lb ed="#V" n="47" break="no"/>cut causa suum effectum, non tamen oportet ibi
+            somnia<lb ed="#V" n="48" break="no"/>re signa naturae.
+          </p>
+          <p xml:id="capsco-c35lj2-d1e2644">
+            Item ibidem in solutione secundi sic
+            di<lb ed="#V" n="49" break="no"/>cit. Sicut dispositio in via generationis praecedit
+            perfectio<lb ed="#V" n="50" break="no"/>nem, ad quam disponit, in his quae successiue perficiuntur,
+            <lb ed="#V" n="51"/>ita naturaliter perfectionem sequitur, quam iam aliquis
+            <lb ed="#V" n="52"/>assequutus est, sicut calor qui fuit dispositio ad formam
+            <lb ed="#V" n="53"/>ignis est effectus profsuens a forma ignis iam praeexistentis.
+            <lb ed="#V" n="54"/>Humana autem natura in Christo vnita est personae verbi
+            <lb ed="#V" n="55"/>a principio sine successione, vnde gratia habitualis non
+            in<lb ed="#V" n="56" break="no"/>telligitur, vt praecedens vnionem, sed vt consequens eam,
+            <lb ed="#V" n="57"/>sicut quaedam proprietas naturalis, vnde &amp; Augustinus dicit
+            <lb ed="#V" n="58"/>in Enchiridion, quod gratia est quodammodo Christo
+            ho<lb ed="#V" n="59" break="no"/>mini naturalis. Haec ille. Ex quibus patet, quod
+            perfectio<lb ed="#V" n="60" break="no"/>nes non solum gratuitae, verum etiam naturales humanae
+            <lb ed="#V" n="61"/>naturae sequuntur ordine naturae vnionem humanae
+            natu<lb ed="#V" n="62" break="no"/>rae ad verbum.
+          </p>
+          <p xml:id="capsco-c35lj2-d1e2677">
+            Ad quartum patet responsio ex dictis
+            Ber<lb ed="#V" n="63" break="no"/>nard. de Gannaco superius recitatis in solutione secundi
+            <lb ed="#V" n="64"/>Scoti.
+          </p>
+          <p xml:id="capsco-c35lj2-d1e2684">
+            Ad quintum negatur consequentia principalis.
+            Cu<lb ed="#V" n="65" break="no"/>ius ratio est, quia natura humana in Christo se habet per
+            <lb ed="#V" n="66"/>modum partis, vel formae &amp; naturae substantialis, constat
+            <lb ed="#V" n="67"/>autem quod nunquam pars, aut forma substantialis, aut
+            na<lb ed="#V" n="68" break="no"/>tura existit per esse proprium, sed solum per esse totius, aut
+            <lb ed="#V" n="69"/>compositi, vel suppositi, secus est de accidentibus. Et quod
+            <lb ed="#V" n="70"/>dicitur, quod natura humana habet se in Christo per
+            mo<lb ed="#V" n="71" break="no"/>dum accidentis, parum valet, quia vt dicit Sanctus Thomas
+            <lb ed="#V" n="72"/>tertia parte quaestio. 2. artic. 6. in solutione secundi. Illud
+            <lb ed="#V" n="73"/>quod aduenit post esse completum, accidentaliter aduenit
+            <lb ed="#V" n="74"/>nisi trahatur in communionem illius esse completi sicut in
+            <lb ed="#V" n="75"/>resurrectione corpus adueniet animae praeexistenti, non
+            ta<cb ed="#V" n="b"/><lb ed="#V" n="76" break="no"/>men accidentaliter, quia ad idem esse assumetur, vt scilicet
+            <lb ed="#V" n="77"/>corpus habeat esse vitale per animam, non sic est de
+            albe<lb ed="#V" n="78" break="no"/>dine, quia aliud esse est albi, &amp; aliud est esse hominis, cui
+            <lb ed="#V" n="79"/>aduenit albedo. Verbum autem Dei ab aeterno esse
+            com<lb ed="#V" n="80" break="no"/>pletum habuit secundum hypostasim, siue personam, ex
+            <lb ed="#V" n="81"/>tempore autem aduenit ei natura humana quasi assumpta
+            <lb ed="#V" n="82"/>ad vnum esse, non prout est naturae, sicut corpus assumitur
+            <lb ed="#V" n="83"/>ad esse animae, sed ad vnum esse prout est hypostasis, vel
+            <lb ed="#V" n="84"/>personae, &amp; ideo humana natura non vnitur accidentaliter
+            <lb ed="#V" n="85"/>filio Dei. Haec ille.
+          </p>
+          <p xml:id="capsco-c35lj2-d1e2733">
+            Ex quibus patet, quod humana
+            natu<lb ed="#V" n="86" break="no"/>ra non habet in Christo illum modum accidentalitatis,
+            <lb ed="#V" n="87"/>quem arguens putat. De praedictis Bernard.s vbi supra sic
+            <lb ed="#V" n="88"/>dicit. Quando substantia separatur ab accidentibus in
+            Eu<lb ed="#V" n="89" break="no"/>charistia non acquiritur eis nouum existere, sed illud
+            exi<lb ed="#V" n="90" break="no"/>stere, quod habebant in alio quando separata sunt, habent
+            <lb ed="#V" n="91"/>per se virtute diuina, ita vt existere, quod prius habebant,
+            <lb ed="#V" n="92"/>fiat existere simpliciter quantum ad modum essendi,
+            scili<lb ed="#V" n="93" break="no"/>cet non essendo in alio, quod facit virtus diuina. Non
+            er<lb ed="#V" n="94" break="no"/>go datur eis nouum existere, sed nouus modus essendi, qui
+            <lb ed="#V" n="95"/>modus essendi per se potest vocari subsistere. Si autem
+            na<lb ed="#V" n="96" break="no"/>tura aliqua praeexistens in aliquo supposito vt pes, vniretur
+            <lb ed="#V" n="97"/>alii per diuinam virtutem, tunc suum subsistere fieret in
+            exi<lb ed="#V" n="98" break="no"/>stere, ita quod tunc assumeretur ad existere simpliciter
+            il<lb ed="#V" n="99" break="no"/>lius suppositi, cui vniretur. Nec tamen haberet aliud
+            exi<lb ed="#V" n="100" break="no"/>stere quam existere illius suppositi, quia non est aliud
+            exi<lb ed="#V" n="101" break="no"/>stere totius &amp; partis, quia existere totius est existere partium
+            <lb ed="#V" n="102"/>ex consequenti eo modo, quo partes existunt in toto. Haec
+            <lb ed="#V" n="103"/>ille.
+          </p>
+          <p xml:id="capsco-c35lj2-d1e2775">
+            Ad argumentum pro quaestione patet responsio per
+            <lb ed="#V" n="104"/>praedicta. Et haec de quaestione sufficiant. De qua
+            benedi<lb ed="#V" n="105" break="no"/>ctus Deus. Amen,
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

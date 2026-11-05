@@ -1,0 +1,1274 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 2, Distinctio 33, Quaestio 1</title>
+        <author ref="#JohannesCapreolus">Johannes Capreolus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 2, Distinctio 33, Quaestio 1</title>
+          <date when="2026-11-04">Nov 4, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-j88c02">Venice, 1589, v. 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-04" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="507"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="capsco-b28kn5"><!-- l2d33q1 -->
+        <head xml:id="capsco-b28kn5-Hd1e101">Quaestio 1</head>
+        <head xml:id="capsco-b28kn5-Hd1e103" type="question-title">Utrum peccato originali debeatur poena sensibilis</head>
+        <p xml:id="capsco-b28kn5-d1e106">
+          <lb ed="#V" n="45"/>DISTINCTIO XXXIII.
+          <lb ed="#V" n="46"/>QVAESTIO I.
+          <lb ed="#V" n="47"/>Vtrum peccato originali debeatur poena sensibilis.
+        </p>
+        <p xml:id="capsco-b28kn5-d1e115">
+          <lb ed="#V" n="48"/><milestone ed="#V" unit="p" rend="initial"/> CIRCA trigesimam tertiam
+          distinctio<lb ed="#V" n="49" break="no"/>nem 2. sent. quaeritur. Vtrum peccato
+          <lb ed="#V" n="50"/>originali debeatur poena sensibilis,
+        </p>
+        <p xml:id="capsco-b28kn5-d1e125">
+          &amp;
+          <lb ed="#V" n="51"/>videtur quod sic. Nam Augustinus dicit. de
+          fi<lb ed="#V" n="52" break="no"/>de ad petrum. Firmissime tene &amp;
+          nul<lb ed="#V" n="53" break="no"/>latenus dubites paruulos qui sine
+          sacra<lb ed="#V" n="54" break="no"/>mento baptismatis de hoc seculo
+          tran<lb ed="#V" n="55" break="no"/>seunt aeterno supplicio puniendos, sed supplicium poenam
+          <lb ed="#V" n="56"/>sensibilem nominat: ergo paruuli qui pro solo originali
+          pu<lb ed="#V" n="57" break="no"/>nientur, poenam sensibilem sustinebunt.
+        </p>
+        <p xml:id="capsco-b28kn5-d1e144">
+          <lb ed="#V" n="58"/><milestone ed="#V" unit="p" rend="indent"/> IN oppositum arg. sic. quia Augustinus dicit poenam
+          paruulo<lb ed="#V" n="59" break="no"/>rum qui originali tantum tenentur omnium esse mitissi
+          <lb ed="#V" n="60"/>mam, sed hoc non esset si sensibili poena torquerentur, quia
+          <lb ed="#V" n="61"/>poena ignis inferni est grauissima. ergo paenam sensibilem
+          <lb ed="#V" n="62"/>non sustinebunt
+        </p>
+        <p xml:id="capsco-b28kn5-d1e158">
+          <lb ed="#V" n="63"/><milestone ed="#V" unit="p" rend="indent"/> In hac quaestione erunt tres articuli. In primo
+          ponen<lb ed="#V" n="64" break="no"/>tur conclusiones. In secundo obiectiones. In tertio
+          so<lb ed="#V" n="65" break="no"/>lutiones.
+        </p>
+        <div xml:id="capsco-b28kn5-Dd1e168">
+          <head xml:id="capsco-b28kn5-Hd1e170">Articulus 1</head>
+          <p xml:id="capsco-b28kn5-d1e172">
+            <lb ed="#V" n="66"/><milestone ed="#V" unit="p" rend="initial"/> Vantum ad primum articulum sit haec prima
+            con<lb ed="#V" n="67" break="no"/>clusio Priuatio diuinae visionis est propria &amp; sola
+            pae<lb ed="#V" n="68" break="no"/>na peccati originalis post mortem, loquendo de paenis
+            for<lb ed="#V" n="69" break="no"/>maliter inexistentibus, aut inhaerentibus personae. Quod
+            di<cb ed="#V" n="b"/><lb ed="#V" n="70" break="no"/>co propter carceralem paruulorum inclusionem, quae licet
+            <lb ed="#V" n="71"/>sit poena, est tamen extrinseca, non autem intrinseca, nec
+            <lb ed="#V" n="72"/>intrinsecam causans. Hanc conclusionem ponit Sanctus Thomas
+            <lb ed="#V" n="73"/>secundo sen. dis. 33. q. 2. ar. primo, vbi sic dicit. Poena debet
+            <lb ed="#V" n="74"/>esse proportionata culpae secundum illud Isa. 27. In
+            men<lb ed="#V" n="75" break="no"/>sura contra mensuram cum abiecta fuerit iudicabis eam.
+            <lb ed="#V" n="76"/>Defectus autem qui per originem traducitur rationem
+            <lb ed="#V" n="77"/>culpae habens non est per corruptionem, vel subtractionem
+            <lb ed="#V" n="78"/>alicuius boni quod naturam humanam consequitur ex
+            <lb ed="#V" n="79"/>suis principiis, sed per subtractionem alicuius quod
+            natu<lb ed="#V" n="80" break="no"/>rae superadditum erat: nec ista culpa ad istum hominem
+            p<lb ed="#V" n="81" break="no"/>tinet, nisi secundum quod talem naturam habet, quae hoc
+            <lb ed="#V" n="82"/>bono quod in ea natum erat esse, &amp; possibile conseruari
+            <lb ed="#V" n="83"/>destituta est. Et ideo nulla alia poena sibi debetur nisi
+            pri<lb ed="#V" n="84" break="no"/>uatio illius finis ad quem donum subtractum ordinabat,
+            <lb ed="#V" n="85"/>ad quod per se natura humana pertingere non potest. Hoc
+            <lb ed="#V" n="86"/>autem est diuina visio, &amp; ideo carentia huius visionis est
+            p<lb ed="#V" n="87" break="no"/>pria &amp; sola poena peccati originalis post mortem. Si enim
+            <lb ed="#V" n="88"/>aliqua poena sensibilis pro peccato originali post mortem
+            <lb ed="#V" n="89"/>infligeretut, puniretur iste non secundum hoc quod
+            cul<lb ed="#V" n="90" break="no"/>pam habuit, quia paena sensibilis pertinet ad hoc, quod est
+            <lb ed="#V" n="91"/>personae proprium, est, quia per passionem huius
+            particu<lb ed="#V" n="92" break="no"/>laris talis poena est. Vnde sicut culpa non fuit per eius
+            ope<lb ed="#V" n="93" break="no"/>rationem, ita nec paena per pasionem eius esse debet, sed
+            <lb ed="#V" n="94"/>solum per defectum illius, ad quod natura de se insufficiens
+            <lb ed="#V" n="95"/>erat. In aliis autem perfectionibus vel bonitatibus, quae
+            hu<lb ed="#V" n="96" break="no"/>manam naturam consequuntur ex solis principiis nullum
+            <lb ed="#V" n="97"/>detrimentum sustinebunt damnati pro peccato
+            originali<lb ed="#V" n="98" break="no"/>Haec ille.
+          </p>
+          <p xml:id="capsco-b28kn5-d1e248">
+            Item de malo. q. 5. aric 2. sic dicit. Sicut
+            commu<lb ed="#V" n="99" break="no"/>niter dicitur peccato originali non debetur poena sensus,
+            <lb ed="#V" n="100"/>sed poena damni solum scilicet carentia diuinae visionis. Et hoc
+            <lb ed="#V" n="101"/>videtur esse rationabile propter tria. Primo quidem, quia
+            <lb ed="#V" n="102"/>quaelibet persona est alicuius naturae suppositum, &amp; ideo
+            <lb ed="#V" n="103"/>ad ea quae sunt naturae per se immediate ordinatur, ad ea
+            <lb ed="#V" n="104"/>vero quae sunt supra naturam ordinatur mediante natura
+            <lb ed="#V" n="105"/>Quia igitur aliqua persona detrimentum aliquod patiatur
+            <lb ed="#V" n="106"/>in his, quae su at supra naturam, potest contingere vel ex
+            vi<lb ed="#V" n="107" break="no"/>tio naturae, vel ex vitio personae. Quia autem detrimentum
+            <lb ed="#V" n="108"/>patiatur in his, quae sunt naturae hoc non videtur posse com
+            <lb ed="#V" n="109"/>tingere, nisi propter vicium personae. Vt autem ex
+            praemis<lb ed="#V" n="110" break="no"/>sis patet, peccatum originale est vicium naturae, peccatum
+            <lb ed="#V" n="111"/>autem actuale est vitium personae. Gratia autem &amp; diuina
+            <lb ed="#V" n="112"/>visio sunt supra naturam, &amp; ideo priuatio gratiae &amp;
+            caren<lb ed="#V" n="113" break="no"/>tia visionis diuinae debetur alicui personae non solum
+            pro<lb ed="#V" n="114" break="no"/>pter peccatum actuale, sed etiam propter originale. Paena autem
+            <lb ed="#V" n="115"/>sensus opponitur integritati naturae, &amp; bonae eius habitu
+            <lb ed="#V" n="116"/>dini, &amp; ideo poena sensus non debetur alicui nisi propter
+            <lb ed="#V" n="117"/>peccatum actuale secundo, quia paena proportionatur
+            cul<lb ed="#V" n="118" break="no"/>sio ab incommutabili bono, &amp; conuersio ad bonum
+            com<lb ed="#V" n="119" break="no"/>mutabile debetur &amp; poena scilicet carentia diuinae visionis
+            cor<lb ed="#V" n="120" break="no"/>respondens auersioni, &amp; poena sensus correspondens
+            con<lb ed="#V" n="121" break="no"/>uersioni. Sed in peccato originali non est conuersio, sed
+            so<lb ed="#V" n="122" break="no"/>la auersio vel aliquid auersioni correspondens scilicet destitutio
+            <lb ed="#V" n="123"/>animae a iustitia originali, &amp; ideo peccato originali non
+            de<lb ed="#V" n="124" break="no"/>betur paena sensus, sed solum poena daani scilicecarentia diuinae
+            <lb ed="#V" n="125"/>visionis 3. quia paena sensus nunquam debetur habituali
+            dispo<lb ed="#V" n="126" break="no"/>sitioni, non enim quis punitur ex hoc quod est habilis ad furandum
+            <lb ed="#V" n="127"/>sed ex hoc quod actu furatur. Sed habituali priuationi absque
+            <lb ed="#V" n="128"/>oi actu debetur aliquod damnum, puta qui non hebnt sciam
+            lite<lb ed="#V" n="129" break="no"/>rarum, ex hoc ipso indignus ea pomotione a epalem dignitatem.
+            <lb ed="#V" n="130"/>In peccato autem originali inuenitur quaedam concupiscentia per
+            <lb ed="#V" n="131"/>modum habitualis dispositionis, quae paruulum facit habile ad
+            <lb ed="#V" n="132"/>concupiscendum, vt Augustinus dicit. Adultum autem facit actum
+            concu<lb ed="#V" n="133" break="no"/>piscentem. Et ideo paruulo defuncto cum originali non
+            de<lb ed="#V" n="134" break="no"/>betur poena sensus, sed solu poena damniscilicet quia non est
+            ido<lb ed="#V" n="135" break="no"/>neus perduci ad visionem diuinam propter priuationem originalis
+            <lb ed="#V" n="136"/>iustitiae. Haec ille.
+          </p>
+          <p xml:id="capsco-b28kn5-d1e333">
+            Ex quibus quadrupliciter arguitur
+            pro<lb ed="#V" n="137" break="no"/>conclusione primo sic. Pctom naturali &amp; non psonau debet
+            pae<lb ed="#V" n="138" break="no"/>na naturae, no psonae, sed pctaumemnm originale est petamd naturale
+            <lb ed="#V" n="139"/>non personale, priuatio vero diuinae visionis est paena naturalis,
+            pae<lb ed="#V" n="140" break="no"/>na vero sensus est paena personalis, igitur peccato originali debet
+            <lb ed="#V" n="141"/>prima paena, non autem secunda. secundo arguitur sic. Nullus debet
+            pa<lb ed="#V" n="142" break="no"/>ti detrimentum in his quae sunt naturae vel proprie naturalia, sic quod non
+            <lb ed="#V" n="143"/>supernaturalia, nisi propter peccatum personale, sed paena sensus est
+            <pb ed="#V" n="508"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>detrimentum eorum, quae sunt naturae, igitur soli peccato
+            <lb ed="#V" n="2"/>personali debetur. tertio sic Poena sensus non debetur
+            pec<lb ed="#V" n="3" break="no"/>cato. in quo nulla est actualis conuersio ad bonum comuta
+            <lb ed="#V" n="4"/>bile, sed in peccato originali nulla est talis conuersio igitur
+            <lb ed="#V" n="5"/>&amp;c. quarto sic. Habituali dispositioni non debetur poena
+            <lb ed="#V" n="6"/>sensus, peccatum originale non ponit aliud quam habitualem
+            <lb ed="#V" n="7"/>dispositionem: igitur &amp;c.
+          </p>
+          <p xml:id="capsco-b28kn5-d1e370">
+            Secunda conclusio. Decedentes
+            <lb ed="#V" n="8"/>cum solo peccato originali non patiuntur vllam
+            afflictio<lb ed="#V" n="9" break="no"/>nem doloris interioris. Hanc ponit Sanctus Thomas de malo. q. 5. ar. 3.
+            <lb ed="#V" n="10"/>vbi sic dicit. Aliqui posuerunt, quod pueri sentient aliquem
+            do<lb ed="#V" n="11" break="no"/>lorem vel affsictionem interiorem ex carentia diuinae
+            visio<lb ed="#V" n="12" break="no"/>nis, licet iste dolor non habeat in eis rationem vermis
+            con<lb ed="#V" n="13" break="no"/>scientiae, quia non sunt sibi conscii quod in eorum potestate fuerit
+            <lb ed="#V" n="14"/>culpam originalem vitare, sed nulla ratio videtur esse quod
+            subtraha<lb ed="#V" n="15" break="no"/>tur ab eis exterior poena sensus si attribuitur eis interior
+            af<lb ed="#V" n="16" break="no"/>flictio, quae est multo magis poenalis, &amp; magis opponitur
+            <lb ed="#V" n="17"/>mitissimae poenae, quam Augutinus eis attribuit. Et ideo aliis videtur,
+            <lb ed="#V" n="18"/>&amp; melius, quod nullam afflictionem etiam interiorem sentiant. Et
+            hu<lb ed="#V" n="19" break="no"/>ius rationem aliqui diuersimode assignant. Quidam enim dicunt
+            <lb ed="#V" n="20"/>quod animae puerorum cum originali decedentium sunt in tantis
+            te<lb ed="#V" n="21" break="no"/>nebris ignorantiae constitutae quod nesciunt se ad
+            beatitudi<lb ed="#V" n="22" break="no"/>nem esse factas nec aliquid circa hoc cogitant. Et ideo nullam
+            <lb ed="#V" n="23"/>de hoc patiuntur afflictionem, sed hoc non videtur dici
+            con<lb ed="#V" n="24" break="no"/>uenienter. Primo quidem, quia cum in pueris non sit
+            pec<lb ed="#V" n="25" break="no"/>catum actuale, quod est proprie peccatum personale, non
+            <lb ed="#V" n="26"/>debetur eis, ut aliquod detrimentum patiantur in
+            naturali<lb ed="#V" n="27" break="no"/>bus bonis secundum rationem supra assignatam. Est autem naturale animae
+            <lb ed="#V" n="28"/>separatae vt non minus, sed magis vigeat in cognitione quam
+            <lb ed="#V" n="29"/>animae quae sunt hic, &amp; ideo non est probabile quod tantam
+            igno<lb ed="#V" n="30" break="no"/>rantiam patiantur. 2. Quia secundum hoc illi qui sunt damnati in
+            <lb ed="#V" n="31"/>inferno melioris cognitionis essent quantum ad
+            nobilio<lb ed="#V" n="32" break="no"/>rem sui partem scilicet intellectum in minoribus tenebris
+            igno<lb ed="#V" n="33" break="no"/>rantiae constituti. Et nullus est, vt Augustinus dicit, qui non
+            mal<lb ed="#V" n="34" break="no"/>let dolorem pati cum sana mente quam gaudere insanus. Et
+            <lb ed="#V" n="35"/>ideo alii assignant causam huius, quod non affliguntur ex
+            dis<lb ed="#V" n="36" break="no"/>spositione voluntatis ipsorum. Non enim post mortem mutatur
+            <lb ed="#V" n="37"/>in anima dispositio voluntatis neque in bonum neque in
+            ma<lb ed="#V" n="38" break="no"/>lum, vnde cum pueri ante vsum rationis non habeant actum
+            <lb ed="#V" n="39"/>inordinatum voluntatis, neque etiam post mortem
+            habe<lb ed="#V" n="40" break="no"/>bunt. Non est autem absque inordinatione voluntatis quod aliquis
+            <lb ed="#V" n="41"/>doleat se non habere id quod nunquam potuit adipisci, sicut
+            <lb ed="#V" n="42"/>inordinatum esset si aliquis rusticus doleat de hoc quod non
+            <lb ed="#V" n="43"/>esset regnum adeptus. Quia igitur pueri post mortem sciuntem
+            <lb ed="#V" n="44"/>se non potuisse illam gloriam adipisci, ex eius carentia non
+            <lb ed="#V" n="45"/>dolebunt. Possumus tamen vtrunque coniungentes mediam
+            <lb ed="#V" n="46"/>viam tenere, vt dicamus quod animae puerorum naturali
+            qua<lb ed="#V" n="47" break="no"/>dam cognitione vigent, qualis debetur animae separatae secundum suam
+            <lb ed="#V" n="48"/>naturam, sed carent supernaturali cognitione quae hic in
+            <lb ed="#V" n="49"/>nobis per fidem plantatur, eo quod nec hic fidem habuerunt in
+            <lb ed="#V" n="50"/>actu, nec sacramentum fidei susceperunt. Pertinet autem ad
+            cogni<lb ed="#V" n="51" break="no"/>tionem naturalem quod anima se sciat propter beatitudinem creata, &amp;
+            <lb ed="#V" n="52"/>quod beatitudo consistat in adeptione boni perfecti, sed quod
+            il<lb ed="#V" n="53" break="no"/>lud bonum perfectum ad quod homo factus est sit illa gloria, quam
+            <lb ed="#V" n="54"/>sancti possident, est supra cognitionem naturalem. Vnde
+            Apo<lb ed="#V" n="55" break="no"/>stolus dicit prima cor. 2. quod nec oculus vidit nec auris
+            audi<lb ed="#V" n="56" break="no"/>uit, &amp; in cor hominis non ascendit, quae praeparauit Deus
+            <lb ed="#V" n="57"/>diligentibus se. Et postea subdit. Nobis autem reuelauit deus
+            <lb ed="#V" n="58"/>per spaeur suum quae quidem reuelatio ad fidem pertinet, &amp;
+            <lb ed="#V" n="59"/>ideo se priuari tali bono animae puerorum non cognoscunt,
+            <lb ed="#V" n="60"/>&amp; peropor hoc non dolent, sed hoc quod per naturam habent
+            <lb ed="#V" n="61"/>absque dolore possident. Haec ille.
+          </p>
+          <p xml:id="capsco-b28kn5-d1e491">
+            Item. 2. sen. di. 33. q. 2. ar. 2.
+            <lb ed="#V" n="62"/>sic dicit. Circa hoc est triplex opinio, quidam enim dicunt
+            <lb ed="#V" n="63"/>quod pueri nullum dolorem sustinebunt, quia ratio in eis adeo
+            <lb ed="#V" n="64"/>obtenebrata erit, vt non cognoscant se amisisse quod
+            ami<lb ed="#V" n="65" break="no"/>serunt. Quod probabile non videtur vt anima de onere
+            cor<lb ed="#V" n="66" break="no"/>ruptionis absoluta non cognoscat ea quae saltem ratione in
+            <lb ed="#V" n="67"/>uestigari possunt, etiam multo plura, &amp; ideo dicunt alii quod in
+            <lb ed="#V" n="68"/>eis est perfecta cognitio eorum, quae naturali cognitioni
+            <lb ed="#V" n="69"/>subiacent, &amp; cognoscent Deum, &amp; se esse priuatos eius
+            vi<lb ed="#V" n="70" break="no"/>sione. Et ex hoc aliquem dolorem sentient, tamen mitigabitur
+            <lb ed="#V" n="71"/>eorum dolor inquantum non propria voluntateculpam
+            in<lb ed="#V" n="72" break="no"/>currerunt pro qua damnati sunt. Hoc etiam probabile non
+            <lb ed="#V" n="73"/>videtur, quia talis dolor de priuatione tanti boni paruus
+            <lb ed="#V" n="74"/>esse non posset, &amp; praecipue sine spe reparationis, vnde
+            <lb ed="#V" n="75"/>eorum poena non esset mitissima. Et praeterea omnino eadem
+            ratio<cb ed="#V" n="b"/><lb ed="#V" n="76" break="no"/>ne qua dolore sensibili exterius affligente non punientur,
+            <lb ed="#V" n="77"/>etiam dolorem interiorem non sentient, quia dolor poenae
+            de<lb ed="#V" n="78" break="no"/>lectationi culpae correspondet, vnde remota delectatione
+            <lb ed="#V" n="79"/>a culpa originali, omnis dolor ab eius paena excludetur. Et
+            <lb ed="#V" n="80"/>ideo alii dicunt quod cognitionem perfectam habebunt
+            <lb ed="#V" n="81"/>eorum quae naturali cognitioni subiacent, &amp; cognoscent
+            <lb ed="#V" n="82"/>se priuatos esse vita aeterna, &amp; causam quare ab ea
+            exclusi<lb ed="#V" n="83" break="no"/>sunt, nec tamen ex aliquo modo affliguntur, quod qualiter
+            <lb ed="#V" n="84"/>esse possit videndum est.
+          </p>
+          <p xml:id="capsco-b28kn5-d1e545">
+            Sciendum ergo quod ex hoc quod
+            <lb ed="#V" n="85"/>aliquis caret eo, quod suam proportionem excedit, non af
+            <lb ed="#V" n="86"/>ssigitur si sit rectae rationis, sed tantum ex hoc quod caret
+            <lb ed="#V" n="87"/>eo, ad quod aliquo modo pportionatus fuit. Sicut nullus
+            <lb ed="#V" n="88"/>homo sapiens affligitur de hoc quod non pteut volare, vel qua
+            <lb ed="#V" n="89"/>non est rex vel imperator, cum non sit sibi debitum.
+            Affli<lb ed="#V" n="90" break="no"/>geretur autem si priuatus esset eo, ad quod habendum
+            ali<lb ed="#V" n="91" break="no"/>quo modo aptitudinem habuit. Dico ergo quod omnis
+            <lb ed="#V" n="92"/>homo habens vsum liberi arbitrii proportionatus est ad
+            con<lb ed="#V" n="93" break="no"/>sequendum vitam aeternam, quia potest se ad gratiam
+            praepa<lb ed="#V" n="94" break="no"/>rare, per quam vitam aeternam merebitur. Et ideo si ab hoc
+            <lb ed="#V" n="95"/>deficiunt, maximus dolor erit eis, quia amittunt illud quod
+            <lb ed="#V" n="96"/>suum fore possibile fuit. Pueri autem nunquam fuerunt
+            <lb ed="#V" n="97"/>proportionati ad hoc, quod vitam aeternam haberent, qua
+            <lb ed="#V" n="98"/>nec eis debebatur ex principiis naturae, cum omnem facultatem
+            <lb ed="#V" n="99"/>naturae excedat, nec actus. proprios habere potuerunt
+            qui<lb ed="#V" n="100" break="no"/>bus tantum bonum consequerentur, &amp; ideo omnino nihil
+            do<lb ed="#V" n="101" break="no"/>lebunt de carentia visionis diuinae, immo magis gaudebunt
+            <lb ed="#V" n="102"/>de hoc quod participabunt multum de diuina bonitate in
+            <lb ed="#V" n="103"/>perfectionibus naturalibus. Nec potest dici, quod fuerunt
+            pro<lb ed="#V" n="104" break="no"/>portionati ad vitam aeternam consequendam, quauis non pe
+            ac<lb ed="#V" n="105" break="no"/>tionem suam, tamen per actionem aliorum circa eos, quia potuerunt
+            <lb ed="#V" n="106"/>ab aliis baptizari, sicut &amp; multi pueri eiusdem conditionis
+            <lb ed="#V" n="107"/>baptizati sunt, &amp; vitam aeternam consecuti. Hoc enim est super
+            <lb ed="#V" n="108"/>excedentis gratiae, vt aliquis sine actu proprio praemietur,
+            <lb ed="#V" n="109"/>vnde defectus talis gratiae non magis tristitiam causat in
+            <lb ed="#V" n="110"/>pueris decedentibus non baptizatis quam in sapientibus hoc
+            <lb ed="#V" n="111"/>quod multae gratiae eis non fiunt, quae in aliis similibus factae
+            <lb ed="#V" n="112"/>sunt. Haec ille.
+          </p>
+          <p xml:id="capsco-b28kn5-d1e608">
+            Ex quibus potest formari triplex ratio pro
+            con<lb ed="#V" n="113" break="no"/>clusione. Prima talis est. Nullus interius affligitur de hoc,
+            <lb ed="#V" n="114"/>de quo non cogitat, sed paruuli decedentes cum originali
+            so<lb ed="#V" n="115" break="no"/>lo non cogitabunt de visione Dei, nec de priuatione talis
+            <lb ed="#V" n="116"/>visionis, igitur de hoc non affligentur. secunda talis est.
+            <lb ed="#V" n="117"/>Nullus in rationis rectitudine constitutus affligitur, nec
+            <lb ed="#V" n="118"/>tristatur, quia caret eo, ad quod nunquam fuit
+            proportiona<lb ed="#V" n="119" break="no"/>tus, sed tales paruuli vtuntur recta ratione. Et dato quod
+            <lb ed="#V" n="120"/>cogitent &amp; sciant se priuatos vel exclusos a Dei visione,
+            <lb ed="#V" n="121"/>sciunt se nunquam ad illam fuisse proportionatos: igitur de
+            <lb ed="#V" n="122"/>hoc non tristantur. Et in hoc primus arti. terminatur.
+          </p>
+        </div>
+        <div xml:id="capsco-b28kn5-Dd1e633">
+          <head xml:id="capsco-b28kn5-Hd1e635">Articulus 2</head>
+          <p xml:id="capsco-b28kn5-d1e637">
+            <lb ed="#V" n="123"/><milestone ed="#V" unit="p" rend="initial"/> QVantum ad secundum articulum arguitur contra
+            prae<lb ed="#V" n="124" break="no"/>dicta. Et quidem contra primam conclusionem
+            ar<lb ed="#V" n="125" break="no"/>guit Gregorius de arimino dicens quod illius conclusionis
+            op<lb ed="#V" n="126" break="no"/>positum sensit Augusenus quod probat primo ex eius
+            auctorita<lb ed="#V" n="127" break="no"/>te communiter allegata de fide ad petrum c. 27.
+            Firmissi<lb ed="#V" n="128" break="no"/>me inquit tene &amp; nullatenus dubites, non solum homines
+            <lb ed="#V" n="129"/>iam ratione vtentes, verum etiam paruulos qui siue in
+            vte<lb ed="#V" n="130" break="no"/>ris matrum viuere incipiunt, &amp; moriuntur, siue iam de
+            ma<lb ed="#V" n="131" break="no"/>tribus nati sunt, si sine sacramento baptismatis, quod datur
+            <lb ed="#V" n="132"/>in nomine patris &amp; filii &amp; spiritussancti de hoc seculo
+            tran<lb ed="#V" n="133" break="no"/>seunt, ignis aeterni supplicio puniendos, quia &amp; si
+            pecca<lb ed="#V" n="134" break="no"/>tum propriae actionis non habuerunt, originalis tamen
+            pec<lb ed="#V" n="135" break="no"/>cati damnationem carnali conceptione traxerant. Constat
+            <lb ed="#V" n="136"/>autem quod supplicium ignis aeterni poena illa est inferni
+            <lb ed="#V" n="137"/>quae dicitur paena sensus, &amp; de qua praesens currit quaestio.
+            <lb ed="#V" n="138"/>Sed ad hanc rationem inquit dicitur dupliciter. Primo quidem
+            <lb ed="#V" n="139"/>quod Augustinus hic locutus est excessiue, vt se maxime
+            elonga<lb ed="#V" n="140" break="no"/>ret a sententia haereticorum, qui in paruulis negabant
+            om<lb ed="#V" n="141" break="no"/>nem culpam, &amp; per consequens omnem poenam. Ideo multum
+            <lb ed="#V" n="142"/>inquit attendendum est contra quos sancti loquantur, vt
+            ha<lb ed="#V" n="143" break="no"/>beatur eorum intentio. Sed responsio nullatenus stare potest.
+            <lb ed="#V" n="144"/>Primo quidem, quia cum falsitas falsitate excludi non debeat
+            <lb ed="#V" n="145"/>nec vbi vera fides defenditur sit docendus error, vel falsa
+            <lb ed="#V" n="146"/>sententia asserenda, non est putandum, quod Augustinus eximius
+            <lb ed="#V" n="147"/>extirpator errorum, &amp; veridicus fidei defensator propter
+            quem<lb ed="#V" n="148" break="no"/>cunque excludendum errorem dixisset firmiter credendum
+            es<lb ed="#V" n="149" break="no"/>se pueros ignis supplicio puniendos esse, si hoc falsum, aut
+            <lb ed="#V" n="150"/>non rectae fidei consonum aestimasset secundo qua in, illo lib
+            <pb ed="#V" n="509"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>Augunus contra nullum errorem specialiter loquitur, sed
+            <lb ed="#V" n="2"/>communiter totius catholicae fidei canones tradit
+            cuili<lb ed="#V" n="3" break="no"/>bet praemittens. Firmissime tene &amp; nullatenus dubites,
+            <lb ed="#V" n="4"/>&amp; de omnibus in vltimo capitulo dicti libri ait. Haec 40.
+            <lb ed="#V" n="5"/>capitula ad regulam verae fidei firmissime pertinentia
+            fide<lb ed="#V" n="6" break="no"/>liter crede, fortiter tene, veraciter patienterque defende, &amp;
+            <lb ed="#V" n="7"/>si quem contraria his dogmatizare cognoueris, tanquam
+            <lb ed="#V" n="8"/>haereticum abijce. Ita enim ista quae posuimus fidei
+            catho<lb ed="#V" n="9" break="no"/>licae congruunt, vt si quis non solum omnibus, sed etiam
+            <lb ed="#V" n="10"/>singulis voluerit contraire, in eo quod singulis eorum
+            <lb ed="#V" n="11"/>contumaciter repugnatur, &amp; his contraria docere non
+            <lb ed="#V" n="12"/>dubitat, haereticus, &amp; fidei christianae inimicus, atque ex
+            <lb ed="#V" n="13"/>hoc omnibus catholicis anathematizandus appareat. Haec
+            <lb ed="#V" n="14"/>ille. Non autem debet in mentem alicuius theologi
+            ca<lb ed="#V" n="15" break="no"/>dere quod inter tales regulas fidei Augustinus posuisset aliquid
+            <lb ed="#V" n="16"/>falsum secundum significationem, quam primo facit
+            com<lb ed="#V" n="17" break="no"/>muniter apud omnes, sicut in proposito sequeretur, si
+            di<lb ed="#V" n="18" break="no"/>cta responsio esset vera.
+          </p>
+          <p xml:id="capsco-b28kn5-d1e745">
+            Confirmatur. Quia cum
+            hu<lb ed="#V" n="19" break="no"/>ius regulae oppositum nullibi inueniatur ab ecclesia
+            deter<lb ed="#V" n="20" break="no"/>minatum, nec in sacra scriptura praedicatum, qua
+            pote<lb ed="#V" n="21" break="no"/>state tu dicis eum fuisse hoc non proprie &amp; vere, sed
+            ex<lb ed="#V" n="22" break="no"/>cessiue locutum. Dicet alius similiter in alijs regulis
+            ibi<lb ed="#V" n="23" break="no"/>dem per eundem positis fuisse locutum excessiue, &amp; non
+            <lb ed="#V" n="24"/>vt sonant illas esse tenendas. Sed sic dicendo non est
+            du<lb ed="#V" n="25" break="no"/>bium intuenti diligenter quod in multos quis laberetur
+            <lb ed="#V" n="26"/>errores. Ideo secundo &amp; communius aliter respondetur
+            <lb ed="#V" n="27"/>scilicet quod Augustinus ibidem nomine ignis generaliter
+            <lb ed="#V" n="28"/>omnem poenam significauit, vnde per ignis aeterni
+            suppli<lb ed="#V" n="29" break="no"/>cium eternam poenam non sensus sed poenam damni
+            in<lb ed="#V" n="30" break="no"/>tellexit. Sed haec responsio etiam non videtur posse stare
+            <lb ed="#V" n="31"/>Tum quia non est verisimile quod fidei regulas sub
+            meta<lb ed="#V" n="32" break="no"/>phoris tradidisset, &amp; maxime vnam solam. Quaelibet
+            au<lb ed="#V" n="33" break="no"/>tem alia ibi tradita proprie accipienda esse videtur. Tum
+            <lb ed="#V" n="34"/>quia in eodem ilbro ca. tertio simul &amp; semel exprimit
+            pae<lb ed="#V" n="35" break="no"/>nam talium puerorum, &amp; daemonum, &amp; adultorum
+            dam<lb ed="#V" n="36" break="no"/>natorum in chriminibus morientium, vnde ait. Qualitas
+            <lb ed="#V" n="37"/>malae vitae ab infidelitate incipit quae ab originalis
+            peccati<lb ed="#V" n="38" break="no"/>reatu initium sumit, in quo quisquis ita viuere incipit, vt
+            <lb ed="#V" n="39"/>ante finiatur vita quam ab eius obligatione soluatur, si
+            <lb ed="#V" n="40"/>vnius diei vel vnius horae spacio anima illa vixerit in
+            cor<lb ed="#V" n="41" break="no"/>pore necesse est eam cum eodem corpore interminabilia
+            <lb ed="#V" n="42"/>gehennae supplicia sustinere, vbi diabolus cum angelis
+            <lb ed="#V" n="43"/>suis in aeternum arsurus est, &amp; sequitur vbi cum eo
+            for<lb ed="#V" n="44" break="no"/>nicarij &amp; idolis seruientes &amp;c. Si ante huius vitae
+            termi<lb ed="#V" n="45" break="no"/>numm a vijs suis malis conuersi non fuerint, aeternis
+            igni<lb ed="#V" n="46" break="no"/>bus comburentur. Cum igitur nullus per supplicia
+            ge<lb ed="#V" n="47" break="no"/>haennae, vbi diabolus arsurus est, aut per ignes quibus
+            con<lb ed="#V" n="48" break="no"/>burentur alij damnati intelligat communiter paenam
+            quam<lb ed="#V" n="49" break="no"/>libet, sed determinate poenam ignis infernalis non
+            vide<lb ed="#V" n="50" break="no"/>tur secundum mentem Augustini incedi, si per supplicia
+            <lb ed="#V" n="51"/>gehennae inferenda talibus pueris, paena damni
+            tantum<lb ed="#V" n="52" break="no"/>modo intelligatur.
+          </p>
+          <p xml:id="capsco-b28kn5-d1e821">
+            Confirmatur. Quia pariter alius
+            pos<lb ed="#V" n="53" break="no"/>set dicere quod ex illis verbis non posset haberi quod
+            dia<lb ed="#V" n="54" break="no"/>bolus, aut alij patiantur paenam sensus, quod nullus
+            dice<lb ed="#V" n="55" break="no"/>ret. Et patet assumpta, quia similiter de omnibus loquitur
+            <lb ed="#V" n="56"/>Augustiu.
+          </p>
+          <p xml:id="capsco-b28kn5-d1e832">
+            Secundo principaliter ostenditur Augustinum fuisse
+            <lb ed="#V" n="57"/>praedictae sententiae, eo quod in phypons responsione quinta
+            con<lb ed="#V" n="58" break="no"/>tra Pelagium dicentem, quod infantes decedentes sine
+            sacra<lb ed="#V" n="59" break="no"/>mento baptismatis non intrant regnum caelorum, habent
+            <lb ed="#V" n="60"/>tamen vitam aeternam sine omni paena, hac sola excepta, quod non
+            <lb ed="#V" n="61"/>sunt in patria, ex textu euangelij probat, quod si tales non
+            ob<lb ed="#V" n="62" break="no"/>tinent regnum caelorum, vt fatebatur Pelagius, &amp; verum est,
+            <lb ed="#V" n="63"/>consequens est vt mittatur cruciandi in ignem aeternum,
+            vn<lb ed="#V" n="64" break="no"/>de ait sic. Primum enim locum fides catholicorum regnum
+            <lb ed="#V" n="65"/>credit esse caelorum, vnde non baptizatus excipitur.
+            secun<lb ed="#V" n="66" break="no"/>dum gehennae est, vbi cum apostata vel a fide Christi
+            alie<lb ed="#V" n="67" break="no"/>nus aeterna supplicia experietur, tertium penitus ignoramus,
+            <lb ed="#V" n="68"/>immo nec esse scripturis sacris inuenimus. Finge
+            Pelagia<lb ed="#V" n="69" break="no"/>ne locum ex officina peruersi dogmatis tui vbi alieni a
+            gra<lb ed="#V" n="70" break="no"/>tia Christi vitam requiei &amp; gloriae possidere paruuli
+            pos<lb ed="#V" n="71" break="no"/>sunt. Dextera iusti sedentis iudicis, &amp; sinistra regnum est
+            <lb ed="#V" n="72"/>&amp; gehaenna, vita &amp; mors, iusti sunt &amp; iniqui. In dextera
+            igi<lb ed="#V" n="73" break="no"/>tur sunt iusti constituti in sinistra operarij iniquitatis. In
+            <lb ed="#V" n="74"/>regno requies baptismatorum, in gehaenna paena
+            incredu<lb ed="#V" n="75" break="no"/>lorum. Vita ad laetitiam gloriae, mors ad fletum &amp; stridorem
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="76"/>dentium, iusti in regno patris simul cum Christo, iniqui
+            <lb ed="#V" n="77"/>igne perpetuo parato diabolo &amp; angelis eius. Et
+            imme<lb ed="#V" n="78" break="no"/>diate subdit. Quia ista non significant diuisiones multorum
+            <lb ed="#V" n="79"/>locorum, sed tantum duorum scilicet regnum caelorum, quo
+            re<lb ed="#V" n="80" break="no"/>feruntur dextera, vita iusti, gloria &amp;c. &amp; gehaennae, quo
+            refe<lb ed="#V" n="81" break="no"/>runtur sinistra, mors, iniustitia &amp; quaecunque mala tormenta
+            <lb ed="#V" n="82"/>vbi inquit mors, quae secunda dicitur nisi finiatur, sed cruciatu
+            <lb ed="#V" n="83"/>durabilis erit. Et tunc arguit. Qui ergo baptizatus non est
+            <lb ed="#V" n="84"/>in his, quae sunt regni caelorum non potest repariri, &amp; si non
+            <lb ed="#V" n="85"/>ibi, quia vere non ibi, putas ne Pelagiane, iam sentis vbi q.
+            <lb ed="#V" n="86"/>d. aperte videre debes quod reperitur in gehaenna. Ex his patet
+            <lb ed="#V" n="87"/>manifeste propositum. Tum quia primo dicit, quod alienus a
+            <lb ed="#V" n="88"/>fide Christi supplicia experietur aeterna. Experientia autem
+            <lb ed="#V" n="89"/>supplicij sine cruciatu &amp; paena sensus non intelliguntur. Tum
+            <lb ed="#V" n="90"/>quia secundum eum quilibet est in regno coelorum vel
+            <lb ed="#V" n="91"/>in gehaenna, per quam mors secunda cruciatu durabilis
+            sem<lb ed="#V" n="92" break="no"/>per, &amp; vbi fletus &amp; stridor dentium intelligitur, vbi
+            conclu<lb ed="#V" n="93" break="no"/>dit esse infantes non baptizatos.
+          </p>
+          <p xml:id="capsco-b28kn5-d1e918">
+            Tertio quia in sermone
+            <lb ed="#V" n="94"/>de baptismo paruulorum contra Pelagium, &amp; in 13. de
+            ver<lb ed="#V" n="95" break="no"/>bis apostoli ex eodem praemisso sundamento concludit.
+            <lb ed="#V" n="96"/>Venturus est inquit dominus &amp; iudicaturus de viuis &amp;
+            <lb ed="#V" n="97"/>mortuis, sicut euangelium loquitur duas partes facturus
+            <lb ed="#V" n="98"/>est dexteram &amp; sinistram. Sinistris dicturus. Ite in ignem
+            aeter<lb ed="#V" n="99" break="no"/>num qui paratus est diabolo &amp; angelis eius. Dextris
+            dictu<lb ed="#V" n="100" break="no"/>rus. Venite benedicti patris mei, regnum percipite, quod
+            <lb ed="#V" n="101"/>paratum est vobis ab origine mundi. Hac regnum
+            no<lb ed="#V" n="102" break="no"/>minat, hac cum diabolo damnationem, nullus relictus est
+            <lb ed="#V" n="103"/>locus medius vbi ponere queas infantes. Et subdit. Si
+            er<lb ed="#V" n="104" break="no"/>go dextera erit, &amp; sinistra, &amp; nullum medium locum in
+            <lb ed="#V" n="105"/>euangelio nouimus, qui non in dextera, proculdubio
+            <lb ed="#V" n="106"/>in sinistra: ergo qui non inregnum, proculdubio in ignem
+            <lb ed="#V" n="107"/>aeternum. Et si dicatur quod huiusmodi infantes erunt
+            <lb ed="#V" n="108"/>proculdubio in igne infernali, &amp; tamen non patientur ab
+            <lb ed="#V" n="109"/>illo, hoc in consequentibus videtur Augustinus excludere ex
+            ver<lb ed="#V" n="110" break="no"/>bo Christi quo quid per regnum, &amp; quid per ignem
+            intel<lb ed="#V" n="111" break="no"/>ligeret declarauit. Vnde de ipso Christo subdit Augutnus
+            extre<lb ed="#V" n="112" break="no"/>ma sententia, vt doceret quid sit regnum &amp; quid ignis,
+            aeter<lb ed="#V" n="113" break="no"/>nus. Tunc(inquit) abibunt isti in combustionem aeternam,
+            <lb ed="#V" n="114"/>iusti autem in vitam aeternam. Ex hoc patet, quod illi quibus
+            <lb ed="#V" n="115"/>dicetur. Ite in ignem aeternum, patientur conbustionem ignis
+            <lb ed="#V" n="116"/>aeternam. Et hoc confirmari videtur per rationem, quaua vna eadenque
+            <lb ed="#V" n="117"/>sententia omnes damnati iudicabuntur ad ignem aeternum, inter
+            <lb ed="#V" n="118"/>quos infantes huiusmodi concludentur, nec etiam aliam snuiam
+            <lb ed="#V" n="119"/>legimus dandam de eis spalem. Constat autem quod ceteri siue
+            an<lb ed="#V" n="120" break="no"/>geli siue homines damnati non solum ex illa sententia intelliguntur
+            iu<lb ed="#V" n="121" break="no"/>dicari ad illum ignem, qui sint in ipso tantummodo
+            locali<lb ed="#V" n="122" break="no"/>ter continendi, sed quia sunt ab ipso veraciter cruciandi, igitur
+            <lb ed="#V" n="123"/>ita videtur sentiendum de praedicta sententia quo ad infantes damnatos.
+            <lb ed="#V" n="124"/>Pro hoc facit etiam illud quod idem Augustinus scribit in epistola ad
+            <lb ed="#V" n="125"/>Consensium in illa epistola quantum ad oculos. Illi( inquit)
+            <lb ed="#V" n="126"/>qui ad iudicium cesurrecturi sunt, non comutabuntur in illa
+            <lb ed="#V" n="127"/>incorruptelam, quam nec doloris corruptionem pati potest. Illa nanque
+            <lb ed="#V" n="128"/>fidelium est atque sanctorum, isti vero perpetua corruptione
+            <lb ed="#V" n="129"/>cruciabuntur, quia ignis eorum non extinguetur, &amp; vermis eorum
+            <lb ed="#V" n="130"/>non morietur. Constat quod tales infantes de numero eorum
+            <lb ed="#V" n="131"/>sunt qui ad iudicium sunt resurrecturi.
+          </p>
+          <p xml:id="capsco-b28kn5-d1e1003">
+            Praeterea. Sicut tu de
+            <lb ed="#V" n="132"/>ipsis pueris quanquam ad inclusionem localem tantum modo illud
+            ver<lb ed="#V" n="133" break="no"/>bum Christi intelligeres, sic alius de ceterie damnatis forsitan
+            <lb ed="#V" n="134"/>exponeret. Nec ex scriptura sacra, vt videtur posset dictum eius
+            <lb ed="#V" n="135"/>plusquam tuum improbari. Ex his vt videtur patet Augustinum sensisse,
+            <lb ed="#V" n="136"/>&amp; ex intentione contra Pelagianos probasse quod huiusmodi
+            <lb ed="#V" n="137"/>infantes paenam ignis, &amp; cruciatum patientur, &amp; non tantumon
+            pae<lb ed="#V" n="138" break="no"/>nam damni, quae est tantummon carentia diuinae visionis.
+          </p>
+          <p xml:id="capsco-b28kn5-d1e1021">
+            Confir<lb ed="#V" n="139" break="no"/>matur quia talem opinionem in prallegato sermone post
+            ver<lb ed="#V" n="140" break="no"/>ba recitata videtur attribuere Pelagio, vnde ait. Videris enim tibi
+            mi<lb ed="#V" n="141" break="no"/>sericors, quia non ei scilicet infanti non baptizato aufers vitam.
+            <lb ed="#V" n="142"/>Damnas tamen quem separas a regno caelorum, damnas non
+            percu<lb ed="#V" n="143" break="no"/>tis eum. sed in exilium mittis. Nam qui exulant, viuunt, si
+            sa<lb ed="#V" n="144" break="no"/>ni sunt in doloribus corporis non sunt, non torquentur, non
+            <lb ed="#V" n="145"/>carceris tenebris affigunitur, haec illis sola paena est non esse
+            <lb ed="#V" n="146"/>in patria.
+          </p>
+          <p xml:id="capsco-b28kn5-d1e1041">
+            Praeterea. Quia nullibi legi Augustinum dicentem,
+            <lb ed="#V" n="147"/>quod ipsi non patiantur paenam ignis, aut paenam sensus, aut tantummodo
+            <lb ed="#V" n="148"/>puniantur paena illa damni. Nec etiam vidi ab aliquo allegatum, quod
+            <lb ed="#V" n="149"/>alicubi dixerit aliquam talem sententiam, vnde satis videtur mihi eum
+            <lb ed="#V" n="150"/>fuisse alterius sniae.
+          </p>
+          <p xml:id="capsco-b28kn5-d1e1052">
+            Nec valet quod tenentes oppositum
+            <pb ed="#V" n="510"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>inducunt pro se auctoritatem Augustini in Ench. in principio. q. ad
+            <lb ed="#V" n="2"/>oppositum allegatam. Illa enim auctoritas non concludit oppositum
+            <lb ed="#V" n="3"/>quia valde bene stant simul quod tales paruuli patiantur poena
+            <lb ed="#V" n="4"/>sensibilem, &amp; quod eorum paena sensibilis. sit mitissima respectu
+            <lb ed="#V" n="5"/>penarum illorum qui actualiter peccauerunt. Et pro certo
+            <lb ed="#V" n="6"/>si diligenter inspiciatur intentio Auutnus videtur esse ad
+            oppo<lb ed="#V" n="7" break="no"/>situm illius, quod intenditur per arg. &amp; pro principali proposito
+            <lb ed="#V" n="8"/>Vnde in principio immediate praecedentis capituli ait Augustinus
+            Qui<lb ed="#V" n="9" break="no"/>cunque ab illa perditionis massa quae facta est per hominem
+            pri<lb ed="#V" n="10" break="no"/>mum non liberatur p vnum mediatorem Dei &amp; hominum
+            re<lb ed="#V" n="11" break="no"/>surgent quidem &amp; ipsi vnusquisque in carne sua, sed vt cum
+            <lb ed="#V" n="12"/>diabolo &amp; angelis suis puniatur. Et paulo post dicit. Nec
+            mo<lb ed="#V" n="13" break="no"/>ueat inquit quo in eis corpus incorruptibile, si dolere
+            po<lb ed="#V" n="14" break="no"/>terit, aut quomodo corruptibile, si mori non poterit. Non est enim
+            ve<lb ed="#V" n="15" break="no"/>ra vita nisi vbi feliciter viuitur, nec vera incorruptio, nisi
+            <lb ed="#V" n="16"/>vbi salus nullo dolore corrumpitur. Vbi autem infelix mori
+            <lb ed="#V" n="17"/>non finitur, &amp; vt ita dicam mors ipsa non moritur, vbi dolor
+            <lb ed="#V" n="18"/>perpetuus non interimit, sed afligit, ipsa corruptio non
+            fi<lb ed="#V" n="19" break="no"/>nitut. Ex his patet eum velle, quod quilibet non liberatus a
+            mal<lb ed="#V" n="20" break="no"/>sa perditionis quales constat esse infantes, de quibus est
+            ser<lb ed="#V" n="21" break="no"/>mo, resurget cum carne, vt in illa dolores patiatur, &amp; per
+            con<lb ed="#V" n="22" break="no"/>sequens quilibet talis habebit poenam sensibilem, inter quos
+            <lb ed="#V" n="23"/>tamen mitissimam dicit fore paenam eorum qui solum originale
+            <lb ed="#V" n="24"/>habueruntQuarto principaliter Quia huius mentis videtur
+            <lb ed="#V" n="25"/>esse beatus Gregorius 9. moralium super illo verbo Iob. 9.
+            Multipli<lb ed="#V" n="26" break="no"/>cauit vulnera mea etiam sine causa dicens. Nonnulli enim prius a
+            prae<lb ed="#V" n="27" break="no"/>senti lucae subtrahuntur quam ad proserenda bona mala
+            <lb ed="#V" n="28"/>ue merita vitae actiuae perueniant, quos quia a culpa originis
+            <lb ed="#V" n="29"/>salutis sacramenta non liberant, &amp; hic ex proprio nil
+            ege<lb ed="#V" n="30" break="no"/>runte, &amp; illuc ad tormenta pueniunt. Tormentum autem proprie
+            <lb ed="#V" n="31"/>cruciatus, &amp; poena sensibilis dicitur.
+          </p>
+          <p xml:id="capsco-b28kn5-d1e1126">
+            Item immediate prius dicit.
+            <lb ed="#V" n="32"/>Quibus vnum vulnus est corruptibiles nasci, aliud carnaliter
+            <lb ed="#V" n="33"/>mori. Sed quia post mortem quoque aeterna mors sequitur
+            occul<lb ed="#V" n="34" break="no"/>to eis iustoque iudicio, etiam sine causa vulnera multiplicantur, quod
+            <lb ed="#V" n="35"/>petormenta percipiunt, qui nihil ex propria voluntate
+            pecca<lb ed="#V" n="36" break="no"/>uerunt. Vnde posset etiam satis fortis ratio formari ad propositum,
+            <lb ed="#V" n="37"/>vt videtur quoniam si nullam aliam poenam quam damni praecise tales
+            infan<lb ed="#V" n="38" break="no"/>tes post mortem paterent, sequitur quod multo melius esset eis post
+            <lb ed="#V" n="39"/>mortem eorum, &amp; finalem damnationem quam fuerit in vita ista.
+            Pa<lb ed="#V" n="40" break="no"/>tet quia in ista vita multas poenas sensibiles &amp; cruciatus
+            <lb ed="#V" n="41"/>patiuntur, &amp; cum hoc carent diuina visione. Post eorum autem
+            dan<lb ed="#V" n="42" break="no"/>nationem nullam poenam sentient, sed tamenumon visione diuina
+            <lb ed="#V" n="43"/>carebunt secundum opinionem ista. Sed consequens videtur falsum,
+            <lb ed="#V" n="44"/>nam omnium damnatorum videtur esse peior futura conditio post
+            fi<lb ed="#V" n="45" break="no"/>nale iudicium, &amp; hoc etiam videtur probare in speciali quantam
+            <lb ed="#V" n="46"/>ad propositum textus allegatus iuxta expositionem Gregorii
+            <lb ed="#V" n="47"/>cum dicitur. Multiplicauit vulnera mea sine causa. Non enim
+            multi<lb ed="#V" n="48" break="no"/>plicarentur, sed minuerentur, potius si nullam poenam praeter illam
+            <lb ed="#V" n="49"/>carentiam diuinae visionis herent.
+          </p>
+          <p xml:id="capsco-b28kn5-d1e1169">
+            Quinto quia opinio tenens
+            <lb ed="#V" n="50"/>oppositum non habet per se aliquam rationem cogentem, nec
+            aucto<lb ed="#V" n="51" break="no"/>ritatem. Non quidem rationem, quia potissima ratio quam inducunt pro
+            <lb ed="#V" n="52"/>sua opinione videtur esse haec. Quia tales nullam fuerunt ex
+            <lb ed="#V" n="53"/>perti delectationem actualis culpae: igitur nullam debent
+            pati<lb ed="#V" n="54" break="no"/>tristitiam poenae. Consequentiam probat quia vt scribitur
+            ex<lb ed="#V" n="55" break="no"/>tra de baptismo &amp; eius effectu. ca. maiores, actualis
+            peccati<lb ed="#V" n="56" break="no"/>poena est cruciatus perpetuus gehennae. Non ergo debetur
+            <lb ed="#V" n="57"/>illis qui non actualiter peccauerunt, quod confirmant
+            <lb ed="#V" n="58"/>per illud Apoc. 8. Quantum glorificauit se &amp; in delitiis suis
+            <lb ed="#V" n="59"/>fuit, tantum date illi tormentum &amp; luctum. Vbi secundum
+            propor<lb ed="#V" n="60" break="no"/>tionem actualis delectationis inordinatae ostendit esse
+            pro<lb ed="#V" n="61" break="no"/>portionem tormenti &amp; poenae sensualis infligendae, igitur
+            <lb ed="#V" n="62"/>vbi nulla actualis mala delectatio praecessit, aut ptefuit,
+            nul<lb ed="#V" n="63" break="no"/>la sensualis poena secuta est. Haec est talium ratio. Sed haec ratio
+            <lb ed="#V" n="64"/>non concludit, prima enim consequentia non valet, quia non
+            <lb ed="#V" n="65"/>solum culpae actuali debetur tristitia poenae sensibilis, sed etiam
+            <lb ed="#V" n="66"/>culpae originali, quod notauit Augustinus de fide ad petrum in
+            aucto<lb ed="#V" n="67" break="no"/>ritate superius allegata cum ait. Quia &amp; si peccatum
+            pro<lb ed="#V" n="68" break="no"/>prie actionis non habuerunt. Hoc etiam notauit beatus Gregorius
+            <lb ed="#V" n="69"/>statim post verba allegata exponens illud &amp; sine causa dicens.
+            <lb ed="#V" n="70"/>Qui itaque nullum proprium adiungens ex solo originis
+            rea<lb ed="#V" n="71" break="no"/>tu pmitur, quid in illo extremo examine quantum ad
+            hu<lb ed="#V" n="72" break="no"/>mani sensus aestimationem, nisi sine causa vulneratur:Sed
+            <lb ed="#V" n="73"/>tamen sub districtione diuina iustum est, vt propago
+            morta<lb ed="#V" n="74" break="no"/>lis velut infructuosa arbor etiam in ramis seruet amaritudinem
+            <lb ed="#V" n="75"/>quam traxit ex radice. Vulneratio autem, vt patet pro poena
+            sen<cb ed="#V" n="b"/><lb ed="#V" n="76" break="no"/>sibili capitur. Et quamuis secundum humanam aestimationem non
+            de<lb ed="#V" n="77" break="no"/>beretur ei qui nullum propriae actionis potamm habuit secundum
+            tam<lb ed="#V" n="78" break="no"/>dei ocultam iustitiam debetur ei qui originalem culpam
+            contra<lb ed="#V" n="79" break="no"/>xit. Auctoritas autem decretalis non probat consequentiam,
+            <lb ed="#V" n="80"/>quia illa non dicit, quod solius culpae actualis. poenae sit
+            <lb ed="#V" n="81"/>cruciatus gehennae. Et per idem patet ad auctoritatem Apoc.
+            <lb ed="#V" n="82"/>quia cum illa sententia stat, quod etiam aliis, qui non
+            glorificaue<lb ed="#V" n="83" break="no"/>runt se in delitijs, detur tormentum &amp; luctus. Et sic patet, quod
+            <lb ed="#V" n="84"/>ratio quam inducunt non cogit. Similiter nec aliqua
+            aucto<lb ed="#V" n="85" break="no"/>ritas est pro illa opinione quia non inducunt aliquam
+            au<lb ed="#V" n="86" break="no"/>ctoritatem proprie ad propositum, nisi illam augustini in
+            <lb ed="#V" n="87"/>ench. de qua supra fuit sermo. Et vlterius quandam
+            decre<lb ed="#V" n="88" break="no"/>talem extra de baptismo &amp; eius effectu ca. maiores, vbi
+            scri<lb ed="#V" n="89" break="no"/>bitur quod paena originalis peccati est carentia diuinae
+            visio<lb ed="#V" n="90" break="no"/>nis, actualis vero peccati gehennae ppetuus cruciatus. Sed
+            <lb ed="#V" n="91"/>nulla istarum auctoritatum cogit, non quidem prima, vt
+            <lb ed="#V" n="92"/>supra dictum est, nec similiter secunda. Nam decretalis non
+            <lb ed="#V" n="93"/>dicit quod sola carentia diuinae visionis sit poena
+            origina<lb ed="#V" n="94" break="no"/>lis peccati, nec etiam, vt dixi, ait quod solius actualis
+            pec<lb ed="#V" n="95" break="no"/>cati cruciatus gehennae sit poena, quorum vtrunque vel
+            al<lb ed="#V" n="96" break="no"/>terum dicendum erit, &amp; sufficerent ad probandum
+            propo<lb ed="#V" n="97" break="no"/>situm illius opinionis.
+          </p>
+          <p xml:id="capsco-b28kn5-d1e1277">
+            Item quod tales exclusiue non sint
+            intel<lb ed="#V" n="98" break="no"/>ligendae ex illa decretali patet. Tum ex glo. ibidem quae
+            di<lb ed="#V" n="99" break="no"/>cit. Paruuli, qui sine baptis. decedunt, in tenebris manent de
+            <lb ed="#V" n="100"/>consecrat. distin. 4. nulla praeter, &amp; poena illa mitissima est
+            <lb ed="#V" n="101"/>omnium de consecrat. dis. 4. de generante, &amp; tamen
+            sem<lb ed="#V" n="102" break="no"/>piterno igne punientur diit. eadem firmissime. Et est
+            aucto<lb ed="#V" n="103" break="no"/>ritas Augusnus superius allegata. Ecce quod praeter tenebras
+            po<lb ed="#V" n="104" break="no"/>nit poenam ignis. Tum etiam quia ad propositum quod
+            <lb ed="#V" n="105"/>vult probare dicta decretalis, neutra illarum exclusiuarum
+            <lb ed="#V" n="106"/>est opportuna. Vult enim pbare quod dormienti vel
+            amen<lb ed="#V" n="107" break="no"/>ti non dimittitur per baptismum peccatum originale,
+            si<lb ed="#V" n="108" break="no"/>cut dimittitur paruuli, &amp; supponit quo in talibus sit etiam
+            <lb ed="#V" n="109"/>actuale peccatum. Probat autem hoc quod poena
+            peccati<lb ed="#V" n="110" break="no"/>originalis est carentia visionis Dei actualis vero peccati
+            go<lb ed="#V" n="111" break="no"/>hennae perpetuae cruciatus. Vnde si primum dimitteretur
+            <lb ed="#V" n="112"/>alicui alio non dimisso, talis non careret visione dei propter
+            <lb ed="#V" n="113"/>peccatum iam dimissum, &amp; cruciaretur in gehenna
+            perpe<lb ed="#V" n="114" break="no"/>tuo propter reatum criminis actualis. Sed haec tanquam
+            <lb ed="#V" n="115"/>incompossibilia sese non compatiuntur, immo mutuo ad
+            <lb ed="#V" n="116"/>uersantur. Haec autem decretalis. Patet autem quod tota
+            <lb ed="#V" n="117"/>ista argumentatio stat, etiam si praeter carentiam diuinae
+            ui<lb ed="#V" n="118" break="no"/>sionis sit alia poena originalis peccati. Nam adhuc cum
+            di<lb ed="#V" n="119" break="no"/>mitteretur originale, eximeretur iste a poena talis carentiae.
+          </p>
+          <p xml:id="capsco-b28kn5-d1e1327">
+            <lb ed="#V" n="120"/>Praeterea Constat quod peccati actualis non solus
+            crucia<lb ed="#V" n="121" break="no"/>tus gehennae est pena, sed etiam carentia diuinae visionis.
+            <lb ed="#V" n="122"/>Vnde christianus, qui nullum habet originale, si decedat
+            <lb ed="#V" n="123"/>cum reatu actualis mortalis semper carebit dei uisione.
+            Si<lb ed="#V" n="124" break="no"/>cut igitur ex hoc quod dicit decretalis quod poena
+            actua<lb ed="#V" n="125" break="no"/>lis peccati est gehennae cruciatus, non tollitur, quin eius
+            <lb ed="#V" n="126"/>poena sit etiam carentia diuinae uisionis, sic nec ex hoc quod
+            <lb ed="#V" n="127"/>ait quod poena originalis peccati est carentia diuinae
+            visio<lb ed="#V" n="128" break="no"/>nis excluditur, quin eius poena sit etiam cruciatus
+            gehen<lb ed="#V" n="129" break="no"/>nae. Haec sunt argumenta Gregorii Contra secundam
+            conclu<lb ed="#V" n="130" break="no"/>sionem arguit Durandus vel saltem contra eius probationes.
+            Pri<lb ed="#V" n="131" break="no"/>mo nanque arguit quod probatio conclusionis adducta de 2
+            <lb ed="#V" n="132"/>sen. non valeat quia licet pueri non baptizati non habuerintim
+            <lb ed="#V" n="133"/>se aptitudinem, aut pportionem ad consecutionem gloriae, tamen
+            <lb ed="#V" n="134"/>habuerunt eam in sua radice scilicet in 1. parente. Et ideo sicut filius
+            mi<lb ed="#V" n="135" break="no"/>litis, cui gratis collatum esset imperium per se &amp; pro tota sua
+            po<lb ed="#V" n="136" break="no"/>steritate doleret, si ob culpam patris priuaretur iure
+            im<lb ed="#V" n="137" break="no"/>perii, ita vder quod pueri non baptizati doleant si sciant se ex
+            cul<lb ed="#V" n="138" break="no"/>pa primi parentis esse priuatos visione diuinae essentiae, ad quam
+            <lb ed="#V" n="139"/>puenissent, nisi culpa patris ipediuisset. Haec ille.
+          </p>
+          <p xml:id="capsco-b28kn5-d1e1373">
+            Et propr hoc
+            <lb ed="#V" n="140"/>arg. recedit a probatione. Sanctus Thomas quam ponit. 2. sen. &amp; tenet se cum
+            <lb ed="#V" n="141"/>pbatione adducta ex dictis. Sanctus Thomas de malo. q. 5. 2. loco
+            ar<lb ed="#V" n="142" break="no"/>guit contra se, &amp; contra illam probationem. Sanctus Thomas quia vt communiter
+            tene<lb ed="#V" n="143" break="no"/>tur in generali iudicio omnes videbunt dei iudicium esse iustum
+            pro<lb ed="#V" n="144" break="no"/>eo quod pcam singulorum omnibus apparebunt. Cum igitur decedentes cum
+            <lb ed="#V" n="145"/>solo originali peccato resurgat, &amp; ad iudicium pertineant, videtur quod
+            <lb ed="#V" n="146"/>tunc cognoscat bonos praemiari visione diuina peroper sua
+            me<lb ed="#V" n="147" break="no"/>rita, se autem priuari eadem visione propter suum demeritum vel
+            pro<lb ed="#V" n="148" break="no"/>pter demeritum primi parentis. Quare ergo tunc non dolebunt
+            <lb ed="#V" n="149"/>quando hoc cognoscent, quauis mo possint non dolere, quia forte
+            <lb ed="#V" n="150"/>hoc non cognoscunt. Et in hoc secundus articulus terminatur.
+          </p>
+        </div>
+        <div xml:id="capsco-b28kn5-Dd1e1400">
+          <head xml:id="capsco-b28kn5-Hd1e1402">Articulus 3</head>
+          <p xml:id="capsco-b28kn5-d1e1404">
+            <pb ed="#V" n="511"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/><milestone ed="#V" unit="p" rend="initial"/> QVantum ad tertium articulum respondendum est
+            ob<lb ed="#V" n="2" break="no"/>iectionibus praelibatis. Ideo ad primum contra primam
+            <lb ed="#V" n="3"/>conclusionem dicitur, quod beatus Thomas respondet ad illud de
+            ma<lb ed="#V" n="4" break="no"/>lo. q. 5. ar. 2. in sol. primi sic dicens. Nomine tormenti &amp;
+            suppli<lb ed="#V" n="5" break="no"/>cii &amp; gehennae &amp; cruciatus, vel si quid simile in dictis
+            san<lb ed="#V" n="6" break="no"/>ctorum inueniatur est large accipiendum pro poena, vt ponatur
+            <lb ed="#V" n="7"/>species pro genere. Ideo autem sancti tali modo loquendi vsi sunt vt
+            <lb ed="#V" n="8"/>detestabilem redderent errorem. Pelagianorum qui asserebant
+            <lb ed="#V" n="9"/>in paruulis nullum esse peccatum, nec eis aliquam poenam
+            de<lb ed="#V" n="10" break="no"/>beri. Haec ille. Ex quibus patet quod de mente sancti Thomae sunt ambae
+            <lb ed="#V" n="11"/>solutiones quas arguens recitat. Ideo respondendum est ad
+            im<lb ed="#V" n="12" break="no"/>probationem illarum, &amp; quidem ad improbationem primam
+            pri<lb ed="#V" n="13" break="no"/>mae solutionis dicitur quod Augustinus taliter loquendo, &amp; alii
+            san<lb ed="#V" n="14" break="no"/>cti non excludunt falsitatem falsitate, nec docent errorem ad de
+            <lb ed="#V" n="15"/>sendendaem veram fidem, quia dictum eorum sane intellectum verum
+            <lb ed="#V" n="16"/>est.
+            
+          </p>
+          <p xml:id="capsco-b28kn5-d1e1447">
+            Ad secundam improbationem dictae responsionis dicitur, quod
+            <lb ed="#V" n="17"/>Auustnus licet in dicto li. de fide ad Petrum nullum errorem in
+            spali<lb ed="#V" n="18" break="no"/>nonet, tamen omnia quae ibidem dicit ponit ad excludendum
+            erro<lb ed="#V" n="19" break="no"/>res illos potissime qui sua circatempa pullulabant, cuiusmomn
+            <lb ed="#V" n="20"/>erat error Pelagianorum.
+            
+          </p>
+          <p xml:id="capsco-b28kn5-d1e1458">
+            Ad illud autem quod adducitur
+            <lb ed="#V" n="21"/>de dicto Augsti in fine illius libri dicitur quod responsio ista
+            no<lb ed="#V" n="22" break="no"/>dogmatizat aliquid contrarium illis. 40. capitulis, nec
+            alicui<lb ed="#V" n="23" break="no"/>illorum sed exponit dicta Augustius in illis, quia etiam dicta Christi
+            li<lb ed="#V" n="24" break="no"/>cet exponere.
+            
+          </p>
+          <p xml:id="capsco-b28kn5-d1e1469">
+            Ad confirmationem ibidem factam dicitur, quod
+            li<lb ed="#V" n="25" break="no"/>cet ecclesia non determinet expresse oppositum illius
+            regulae<lb ed="#V" n="26" break="no"/>beati Augustinus nec sacra scriptura publice praedicet oppositum
+            <lb ed="#V" n="27"/>tamen ex dictis sacrae scripturae &amp; doctorum ecclesiae
+            appa<lb ed="#V" n="28" break="no"/>ret, quod dicta sancti Augustinus &amp; aliorum sanctorum in hac
+            mate<lb ed="#V" n="29" break="no"/>ria sunt intelligenda modo quo dcamen est, quod apparet
+            mul<lb ed="#V" n="30" break="no"/>tipliciter. Primo quidem quia Christus vbicunque loquitur de
+            <lb ed="#V" n="31"/>poena sensus reprobis inferenda, semper praemittit aliquid
+            <lb ed="#V" n="32"/>pertinens ad eorum culpas actuales omissiuas aut
+            commissi<lb ed="#V" n="33" break="no"/>uas, sicut patet Mathei. 25. vbi dicit quod eis dicetur, ite male
+            <lb ed="#V" n="34"/>dicti in ignem aeternum &amp;c. qui omiserunt exercitium operum
+            <lb ed="#V" n="35"/>misericordiae, &amp; similiter Math. 13. Sic erit in consummatic
+            <lb ed="#V" n="36"/>ne seculi, mittet filius hominis angelos suos &amp; colligent de
+            <lb ed="#V" n="37"/>regno eius omnia scandala, &amp; eos qui faciunt iniquitatem
+            <lb ed="#V" n="38"/>&amp; mittent eos in caminum ignis.
+            
+          </p>
+          <p xml:id="capsco-b28kn5-d1e1503">
+            Item omnes euangelistae alii
+            si<lb ed="#V" n="39" break="no"/>milia dicunt. Paulus vero 2. cor. 5. sic dicit. Qmes nos
+            manrfe<lb ed="#V" n="40" break="no"/>stari oportet ante tribunal Christi, vt referat vnusquisque
+            <lb ed="#V" n="41"/>propria corporis prout gessit, siue bonum siue malum &amp;c.
+            <lb ed="#V" n="42"/>Vbi videtur manifeste dicere peomia positiua &amp; poenas
+            posi<lb ed="#V" n="43" break="no"/>tiuas inferendas &amp; reddendas meritis vel demeritis
+            actua<lb ed="#V" n="44" break="no"/>libus, nec vnquam in doctrina alicuius apostoli contineri
+            <lb ed="#V" n="45"/>poenam positiuam infligendam eis qui nullum actuale de
+            <lb ed="#V" n="46"/>meritum gesserunt, sed solo peccato originali tenentur. Io
+            <lb ed="#V" n="47"/>se quoque Augustinus in plerisque locis testatur deum illis solis
+            red<lb ed="#V" n="48" break="no"/>diturum damnationem aeternam qui spontanea delicta
+            in<lb ed="#V" n="49" break="no"/>currerunt. Vnde &amp; recitatur in decretis. 23. q. 4. in ca.
+            nabu<lb ed="#V" n="50" break="no"/>cho. Vasis irae nunquam deus aeternum redderet interitum, si non
+            <lb ed="#V" n="51"/>spontaneum inueniretur homo habere peccatum. Et quod
+            loqua<lb ed="#V" n="52" break="no"/>tur de peccatis actualibus patet per illa quae ibidem
+            prae<lb ed="#V" n="53" break="no"/>mittuntur, &amp; subduntur. Similiter ad primam
+            improbatio<lb ed="#V" n="54" break="no"/>nem secundae responsionis dicitur. quod non est mirum, si
+            <lb ed="#V" n="55"/>Augustinus in regulis fidei aliquas locutiones metaphoricas
+            in<lb ed="#V" n="56" break="no"/>terserat, cum Christus in doctrina fidei parabolice
+            loque<lb ed="#V" n="57" break="no"/>retur, &amp; attento quod Augustinus rhetor &amp; rethoricae doctor
+            fue<lb ed="#V" n="58" break="no"/>rat, cuius scientiae modus est typice &amp; figuratiue loqui Nec
+            <lb ed="#V" n="59"/>solum in regula quae allegatur, immo in aliis eiusdem
+            libri<lb ed="#V" n="60" break="no"/>simili modo loquendi vtitur, vt patet aduertenti. Ad secum
+            <lb ed="#V" n="61"/>dam improbatione dictae responsionis dicitur quod sicut
+            <lb ed="#V" n="62"/>dicit beatus Thomas vbi supra allegatus est per omnia illa
+            voca<lb ed="#V" n="63" break="no"/>bula supplicium, &amp; ignem intelligunt sancti in materia
+            prae<lb ed="#V" n="64" break="no"/>senti poenam large, non autem specialiter poenam sensibilem.
+            Vn<lb ed="#V" n="65" break="no"/>de &amp; Sanctus Thomas 2. sen. di. praesenti. q. 2. ar. 1. in sol. primi
+            expo<lb ed="#V" n="66" break="no"/>nens auctoritatem Augutinus in primo argumento al legatam sic
+            <lb ed="#V" n="67"/>dicit. Supplicium non nominat in illa auctoritate paenam
+            <lb ed="#V" n="68"/>sensibilem, sed solum penam damni, quae est carentia diuinae
+            <lb ed="#V" n="69"/>visionis Sicut etiam &amp; nomine ignis frequenter in
+            scriptu<lb ed="#V" n="70" break="no"/>ra quaelibet poena signari consueuit. Haec ille.
+            
+          </p>
+          <p xml:id="capsco-b28kn5-d1e1575">
+            Quia autem
+            <lb ed="#V" n="71"/>beatus Augustinus in dicto lib. de fide ad petrum aliquando
+            figura<lb ed="#V" n="72" break="no"/>tiue sit locutus patet in multis locis, potissime vbi dicit.
+            <lb ed="#V" n="73"/>Aeternum quopope ac sine initio est quodfilius de natura patris
+            na<lb ed="#V" n="74" break="no"/>tus extitit, &amp; aeternum est ac sine initio est quod spiritus de
+            patri<lb ed="#V" n="75" break="no"/>natura filiique procedit.
+            
+          </p>
+          <p xml:id="capsco-b28kn5-d1e1588">
+            Item vbi dicit aliud est genuisse
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="76"/>quam natum esse. Item vbi dicit. Sic ergo Christum dei
+            fi<lb ed="#V" n="77" break="no"/>lium. 1. vna ex trinitate personam Deum verum crede, vt
+            <lb ed="#V" n="78"/>diuinitatem eius de natura patris natam esse non dubites
+            <lb ed="#V" n="79"/>Item vbi dicit sic. Verbum caro factum est, vt vna persona
+            <lb ed="#V" n="80"/>esset cum carne sua vnigenitus ac sempiternus Deus.
+            
+          </p>
+          <p xml:id="capsco-b28kn5-d1e1604">
+            Item
+            <lb ed="#V" n="81"/>vbi dicit. Iesus Christus quod creator est, commune habet cum patre
+            <lb ed="#V" n="82"/>naturaliter &amp; spiritu sancto, quod autem creatus est, solus heet
+            <lb ed="#V" n="83"/>personaliter in seipso. Item vbi dicit iste qui in se vno totum
+            <lb ed="#V" n="84"/>exhibuit, quod est necessarium ad redemptioni nostrae
+            scie<lb ed="#V" n="85" break="no"/>bat effectum, idem sacerdos &amp; sacrificium, idem deus &amp;
+            ten<lb ed="#V" n="86" break="no"/>plum.
+            
+          </p>
+          <p xml:id="capsco-b28kn5-d1e1620">
+            Item vbi dicit. Non facit rem viuentem nisi res viuens.
+            <lb ed="#V" n="87"/>Item vbi dicit. Neque illa corpora vnius naturae sunt cum
+            <lb ed="#V" n="88"/>deo, quibus singulis singulos brutos atque irrationales
+            spiri<lb ed="#V" n="89" break="no"/>tus, quibus eadem corpora, quae viuificarent ac sentificarent
+            <lb ed="#V" n="90"/>inseruit, sic nec ipsi bruti spiritus &amp;c.
+            
+          </p>
+          <p xml:id="capsco-b28kn5-d1e1631">
+            Item vbi dicit
+            Ange<lb ed="#V" n="91" break="no"/>li vero &amp; homines pro eo quod rationales facti sunt,
+            aeter<lb ed="#V" n="92" break="no"/>nitatis ac habitudinis donum in ipsa naturae spiritualis
+            crea<lb ed="#V" n="93" break="no"/>tione diuinitus acceperunt, &amp; innumerabilia taliain eodem
+            <lb ed="#V" n="94"/>libus dicit vera quidem sed tropice dicta expositione
+            indigen<lb ed="#V" n="95" break="no"/>tia.
+            
+          </p>
+          <p xml:id="capsco-b28kn5-d1e1645">
+            Item quod auctoritas Augutinus contra istam secundam
+            re<lb ed="#V" n="96" break="no"/>sponsionem de eodem libus accepta non intelligenda sit
+            ce<lb ed="#V" n="97" break="no"/>paruulis apparet, quia post verba in arguendo allegata
+            sub<lb ed="#V" n="98" break="no"/>dit quasi ex ponendo praedicta omnis enim homo qui in hoc
+            <lb ed="#V" n="99"/>seculo vsque ad finem iniquitatum delectatione, &amp; cordis
+            <lb ed="#V" n="100"/>obduratione permanserit, sicut hic eum noxia criminum
+            <lb ed="#V" n="101"/>delectatio tenuit, sic eum sine fine noxia paena tenebit &amp;c.
+            <lb ed="#V" n="102"/>Ecce quod dicit noxia poena idest sensibilis. Ex quo etiam
+            <lb ed="#V" n="103"/>patet, quod illa auctoritas non loquitur de vita vegetatiua
+            <lb ed="#V" n="104"/>aut sensitiua, sed de operibus rationis, quorum assuetudo
+            <lb ed="#V" n="105"/>dicitur vita actiua, vita contemplatiua, vita voluptuosa.
+            <lb ed="#V" n="106"/>Constat autem quod paruuli, de quibus est sermo, tali vita
+            <lb ed="#V" n="107"/>nunquam vixeretur per diem aut horam, vnde arguens in
+            <lb ed="#V" n="108"/>conuenienter applicat auctoritatem ad propositum. Ad
+            <lb ed="#V" n="109"/>confirinationem dicitur quod illa auctoritas non
+            loqui<lb ed="#V" n="110" break="no"/>tur de pueris, sicut de adultis, &amp; de omnibus, quia non
+            lo<lb ed="#V" n="111" break="no"/>quitur nisi de perseuerantibus in qualitate malae vitae,
+            acci<lb ed="#V" n="112" break="no"/>piendo vitam pro operatione. Talem autem vitam
+            habe<lb ed="#V" n="113" break="no"/>runt daemones &amp; homines in peccato mortali actuali
+            de<lb ed="#V" n="114" break="no"/>cedentes, non autem paruuli, de quibus nunc loquimur.
+            
+          </p>
+          <p xml:id="capsco-b28kn5-d1e1689">
+            <lb ed="#V" n="115"/>Ad secundum principale dicitur primo, quod ex dictis Au.
+            <lb ed="#V" n="116"/>contra Pela. concluditur, quod receptaculum talium
+            par<lb ed="#V" n="117" break="no"/>uulorum erit vna pars inferni tenebrosa &amp; igni infernali
+            <lb ed="#V" n="118"/>vicina. Huius autem loci detentionem &amp; inclusionem
+            Au<lb ed="#V" n="119" break="no"/>gus dicit &amp; nominat ignem aeternum supplicium cruciatum
+            <lb ed="#V" n="120"/>cum adiunctione poenae damni. dicitur secundo, quod si
+            <lb ed="#V" n="121"/>Augustinus ex intentione proponebat loqui de poena sensinili, &amp;
+            <lb ed="#V" n="122"/>non solum de poena damni cum inclusione infernalis loci,
+            mo<lb ed="#V" n="123" break="no"/>quo dictum est tunc oportet dicere, quod non loquitur de
+            <lb ed="#V" n="124"/>paruulis quobuslibet, sed tamuemumon de paruulis non baptizatis,
+            <lb ed="#V" n="125"/>qui non ita paruuli fuerint quin vsum rationis habuerint, &amp;
+            <lb ed="#V" n="126"/>credere si vellent potuerint, sed ex contemptu vel
+            negligen<lb ed="#V" n="127" break="no"/>tia a fide Christi alieni fuerunt, quod videtur quia dicit ad
+            <lb ed="#V" n="128"/>gnem gehennae, quem secundum locum nominat mittendos esse
+            aposta<lb ed="#V" n="129" break="no"/>tas &amp; incredulos &amp; a fide Christi alienos. Non autem loquitur
+            <lb ed="#V" n="130"/>de paruulis, qui nunquam vsum rationis humanae habuerunt,
+            <lb ed="#V" n="131"/>nec vllum actuale poauer commisserunt, quia illi non propriae
+            <lb ed="#V" n="132"/>dicuntur iniqui de quibus solum loquitur Augustinus vt patet ex verbis
+            <lb ed="#V" n="133"/>illis, cum dicit. Iusti in regno patris simul cum Christo, iniqud
+            <lb ed="#V" n="134"/>in igne aeterno parato diabolo &amp; angelis eius.
+            
+          </p>
+          <p xml:id="capsco-b28kn5-d1e1735">
+            Ad tertium
+            <lb ed="#V" n="135"/>principale patet ex solu. secundi. Na per talia verba
+            intelli<lb ed="#V" n="136" break="no"/>git generaliter omnem poenam, seu damni, seu sensus, vel
+            intelli<lb ed="#V" n="137" break="no"/>git inclusionem infernalem, vel loquitur de paruulis habentibus
+            <lb ed="#V" n="138"/>aliquantulum vsum rationis, quod satis patet ex argumento eius
+            <lb ed="#V" n="139"/>paruuli qui nullo modo habuerunt vsum rationi,, uon erunt
+            pro<lb ed="#V" n="140" break="no"/>prie loquendo in die iudicu a dextris iudicis nec a sinistris
+            <lb ed="#V" n="141"/>Quia enim non a dextris, notum est quia non erunt de operibus
+            mise<lb ed="#V" n="142" break="no"/>ricordiae laudabiles. Quia etiam nec a sinistris patet quia eis
+            nul<lb ed="#V" n="143" break="no"/>lo modo possunt adaptari vituperationes aut rephensiones, aut
+            <lb ed="#V" n="144"/>alia verba, quae Christus dicturus est secundum euangelium illis, qui
+            dicun<lb ed="#V" n="145" break="no"/>tur futuri in sinistra. Tum quia glossa per Sanctum Thomam Mathei. 25.
+            al<lb ed="#V" n="146" break="no"/>legatae ostendunt sufficienter, quod esse in dextris vel a dextris
+            <lb ed="#V" n="147"/>est habere bona opera, esse vero in nnistra vel a sinistris est
+            <lb ed="#V" n="148"/>habere mala opera, quorum neutrum habuerunt, qui nunquam
+            <lb ed="#V" n="149"/>vsum rationis habuerunt. Tum, quia secundum Gregorium vt ibidem allegat
+            <lb ed="#V" n="150"/>beatus Thomas 1. la quae legitur Chrritus dicturus
+            con<pb ed="#V" n="512"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>stitutis ad sinistram suam non omnibus damnandis, sed
+            <lb ed="#V" n="2"/>tantummodo fidelibus damnandis, &amp; non illis qui nunquam fidem
+            <lb ed="#V" n="3"/>habuerunt proponentur. Ex quibus patet, quod illud argu. non
+            <lb ed="#V" n="4"/>concludit contra nos, nec pro auctore suo. Ad
+            improbatio<lb ed="#V" n="5" break="no"/>nem responsionis ibidem datae dicitur primo, quod illa responsio verum
+            <lb ed="#V" n="6"/>dicit in hoc, quod paruuli cum solo originali decedentes erunt
+            <lb ed="#V" n="7"/>in igne infernali, prout ly in dicit inclusionem vel
+            circun<lb ed="#V" n="8" break="no"/>dationem paruulorum a tali igne, vel vicinitatem ad talem
+            <lb ed="#V" n="9"/>ignem, sed responsio illa diminuta est poper duo. Primo quia
+            <lb ed="#V" n="10"/>non dicit aliquid de intentione aut arrestatione paruulorum
+            <lb ed="#V" n="11"/>in locis corporalibus.
+            
+          </p>
+          <p xml:id="capsco-b28kn5-d1e1798">
+            Secundo quia nihil dicit de poena
+            dam<lb ed="#V" n="12" break="no"/>ni &amp; carentia diuinae visionis, sed pfecta raeiosio est, quod tales
+            <lb ed="#V" n="13"/>paruuli nullam aliam poenam a Deo inflictam in alio subiecto ex
+            <lb ed="#V" n="14"/>perientur, nec post, nec ante iudicium, nisi hanc, quod primo
+            care<lb ed="#V" n="15" break="no"/>bunt perpetuo diuina visione. Secundo quod loco. vilissimo
+            <lb ed="#V" n="16"/>eorum detentiuo &amp; alligatiuo detrudentur. Tertio quod
+            vilis<lb ed="#V" n="17" break="no"/>simae societati vel vicinitati damnatorum angelorum &amp; hominum
+            <lb ed="#V" n="18"/>vicinabuntur, &amp; si quid aliud pertinens ad praedcam dici potest
+            <lb ed="#V" n="19"/>Tunc ad primam improbationem huius responsionis dicitur, quod secundum
+            <lb ed="#V" n="20"/>praedicta, illa sententia qua dicitur. Ite in ignem aeternum, non
+            conue<lb ed="#V" n="21" break="no"/>nit paruulis nullum habentibus vsum rationis, si proprie vadamus ad
+            <lb ed="#V" n="22"/>expositiones illius textus, vt patet legenti glosas sanctorum, quas
+            <lb ed="#V" n="23"/>Sanctus Thomas ibidem adducit.
+            
+          </p>
+          <p xml:id="capsco-b28kn5-d1e1827">
+            Ad primam confirmationem ibidem
+            addu<lb ed="#V" n="24" break="no"/>ctam dicitur, quod secundum sanctos iudicandorum in finali iudicio
+            mul<lb ed="#V" n="25" break="no"/>ti erunt ordine s, &amp; per consequens multiplex snia, sicut
+            ha<lb ed="#V" n="26" break="no"/>bet tractari. 4. sen. di. 46. q. vnica. Vlterius quia aliter adiudi
+            <lb ed="#V" n="27"/>cabuntur igni perpetuo daemones, &amp; aliter homines. Constat enim
+            <lb ed="#V" n="28"/>quod ille ignis aliter affliget daemones, quia solum quo ad
+            intelle<lb ed="#V" n="29" break="no"/>ctum &amp; voluntatem &amp; potentias abstractas &amp; immateriales.
+            <lb ed="#V" n="30"/>Aliter vero homines, quia quo ad omnes potentias communes toti
+            compo<lb ed="#V" n="31" break="no"/>sito, &amp; quo ad proprias soli animae. Item aliter affliget hominem
+            v<lb ed="#V" n="32" break="no"/>num quam alium secundum diuersitatem demeritorum horum &amp; illorum,
+            <lb ed="#V" n="33"/>qua propter nullum inconueniens est si aliter puniat
+            paruu<lb ed="#V" n="34" break="no"/>los &amp; adultos, igitur &amp;c.
+            
+          </p>
+          <p xml:id="capsco-b28kn5-d1e1853">
+            Ad illud vero quod adducitur de Augustino
+            <lb ed="#V" n="35"/>in exempla ad Consensium ritospondet Sanctus Thomas de malo. q.
+            <lb ed="#V" n="36"/>5. ar. 2. in sol. quinti. vbi sic dicit. In statu futurae vitae ignis
+            <lb ed="#V" n="37"/>&amp; alia huiusmodi actiua non agunt in animas aut in
+            corpora<lb ed="#V" n="38" break="no"/>homnium secundum necessitatem naturae, sed magis secundum
+            or<lb ed="#V" n="39" break="no"/>dinem diuinae iustitiae, quia ille status est respitiendus pro
+            me<lb ed="#V" n="40" break="no"/>ritis. Vnde cum diuina iustitia non exigat, quod pueris, qui
+            <lb ed="#V" n="41"/>cum solo originali peccato decedunt paena sensus debeatur,
+            <lb ed="#V" n="42"/>nihil ab hutdodo actiuis patientur. Haec ille. Ex quibus patet, quod
+            <lb ed="#V" n="43"/>paruuli quamuis resurgant ad damnationem &amp; iudicium non tamen
+            <lb ed="#V" n="44"/>poena sensibili cruciabuntur in corpore, licet corpora
+            eo<lb ed="#V" n="45" break="no"/>rum non sint dotata dote immortalitatis aut
+            impassibili<lb ed="#V" n="46" break="no"/>tatis. Dictum autem Augustini intelligitur de illis, qui resurrecturi sunt
+            <lb ed="#V" n="47"/>ad iudicium condenationis, vituperatiue, exprobatiue, &amp;
+            meri<lb ed="#V" n="48" break="no"/>tis actualibus retributiue, a quo iudicio tales paruuli erunt
+            <lb ed="#V" n="49"/>immunes.
+            
+          </p>
+          <p xml:id="capsco-b28kn5-d1e1889">
+            Ad illud praeterea, quod ibidem additur, dicitur quod non
+            <lb ed="#V" n="50"/>est simile de paruulis, qui solo originali obnoxii, sunt &amp; de
+            <lb ed="#V" n="51"/>adultis qui originalia superaddiderunt, quia sacra
+            scriptu<lb ed="#V" n="52" break="no"/>ra nullibi comminatur paenam sensus nisi male facientibus
+            cuius<lb ed="#V" n="53" break="no"/>modi non sunt tales pueri, immo nullibi scriptura in
+            do<lb ed="#V" n="54" break="no"/>ctrina Christi aut apostolorum dicit aliquid de paena talium
+            <lb ed="#V" n="55"/>paruulorum expresse. licet ex dictis scripturae concludi
+            pos<lb ed="#V" n="56" break="no"/>sit eos priuandos diuina visione propter carentiam gratiae &amp;
+            <lb ed="#V" n="57"/>sacramentorum.
+            
+          </p>
+          <p xml:id="capsco-b28kn5-d1e1909">
+            Ad confirmationem ibidem factam dicitur, quod
+            <lb ed="#V" n="58"/>secundum quod patet ex verbis Augustini Pelagius non ponebat pueros
+            ta<lb ed="#V" n="59" break="no"/>les includi carceribus tenebrosis, sicut nos ponimus, ideo a.
+            <lb ed="#V" n="60"/>Pelagio longe sumus. Ad aliud praeterea, quod ibi aducitur
+            <lb ed="#V" n="61"/>dicitur, quod verbis Augustini &amp; aliorum sanctorum habetur, quod
+            <lb ed="#V" n="62"/>sola propria voluntas ardet in inferno. Vnde cum in
+            pue<lb ed="#V" n="63" break="no"/>ris cum solo originali decedentibus propria voluntas illo modo
+            <lb ed="#V" n="64"/>quo sonat in malum, non fuerit consequens est, quod paenam
+            <lb ed="#V" n="65"/>ignis sensibilem non experientur. Ad hoc facit, quod supra
+            al<lb ed="#V" n="66" break="no"/>legatum est de canone. Vasis irae. Cum autem vlterius arguens
+            <lb ed="#V" n="67"/>dicit, quod auctoritas Augutinus allegata de Enche. non
+            conclu<lb ed="#V" n="68" break="no"/>dit propositum, dicitur quod immo, quia si paruulus cum
+            <lb ed="#V" n="69"/>solo originali decedens patitur paenam sensibilem, accipio vnum
+            <lb ed="#V" n="70"/>adultum qui liberatus ab originali quo ad culpam &amp; reatum
+            <lb ed="#V" n="71"/>punitur post mortem in inferno pro solis actualibus etiam paena
+            <lb ed="#V" n="72"/>sensibili sicut ille paruulus. Constat quod inter paenam
+            paruu<lb ed="#V" n="73" break="no"/>li &amp; paenam adulti erit aliqua pportio sic, verbi gratia, quod
+            <lb ed="#V" n="74"/>paena adulti sit. 2. graduum, &amp; paena paruuli sit solum vnius
+            <lb ed="#V" n="75"/>tunc poterit accipi alius adultus qui decuplo minus quam
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="76"/>primus peccauerit actualiter, quo secundo minus decuplo
+            pu<lb ed="#V" n="77" break="no"/>nietur quam primus. Ex quo sequitur, quod iste secundus
+            <lb ed="#V" n="78"/>adultus non plus punietur paena sensibili quam paruulus
+            <lb ed="#V" n="79"/>decedens cum solo originali, immo sequitur, quod possibile
+            <lb ed="#V" n="80"/>erit dare aliquem adultum, qui propter sola peccata actualia mitius
+            <lb ed="#V" n="81"/>in centuplo, vel quacunque pportione volueris, punietur
+            pae<lb ed="#V" n="82" break="no"/>na sensibili quam paruulus, quod est contra Augustinus &amp; in se
+            absur<lb ed="#V" n="83" break="no"/>dum.
+            
+          </p>
+          <p xml:id="capsco-b28kn5-d1e1970">
+            Ad auctoritatem Augustinus quam allegat contra nos. Dicitur
+            <lb ed="#V" n="84"/>primo, quod ex illa solum hiur, quod quilibet non liberatus de
+            <lb ed="#V" n="85"/>massa perditionis punietur cum diabolo, quod conceditur,
+            <lb ed="#V" n="86"/>non tamen quod paenam sensibilem patiatur, sicut patitur aut patietur
+            <lb ed="#V" n="87"/>diabolus. Dicitur 2. quod 2. pars auctoritatis, in qua fit mentio
+            <lb ed="#V" n="88"/>de dolore carnis non debet extendi ad eos qui fuerunt in
+            mas<lb ed="#V" n="89" break="no"/>sa perditionis tantummodo ratione peccati originalis, sed ad eos, qui
+            <lb ed="#V" n="90"/>in tali massa fuerunt ratione peccati originalis &amp; actualis
+            <lb ed="#V" n="91"/>simul, modo paruuli, de quibus est sermo, fuerunt in illa massa
+            <lb ed="#V" n="92"/>primo modo, non autem 2. modo.
+            
+          </p>
+          <p xml:id="capsco-b28kn5-d1e1992">
+            Ad quartum principale respondet
+            <lb ed="#V" n="93"/>Sanctus Thomas de malo. q. 5. ar. 2. in so. primi eo modo quo responsum est ad
+            <lb ed="#V" n="94"/>primum principale. d. quod nomen tormenti, supplicii
+            gehen<lb ed="#V" n="95" break="no"/>niae, &amp; cruciatus, vel si quid simile in dictis sanctorum
+            inue<lb ed="#V" n="96" break="no"/>niatur, est large accipiendum pro paena, vt ponatur species per
+            <lb ed="#V" n="97"/>ganeoe.
+            
+          </p>
+          <p xml:id="capsco-b28kn5-d1e2005">
+            Ad rationem at, quam arguens ibidem innuit, respondet Sanctus Thomas
+            <lb ed="#V" n="98"/>in forma. 2. sen. di. 33. q. 2. ar. 1. in sol. tertii. vbi. sic arguit.
+            Pec<lb ed="#V" n="99" break="no"/>cata grauius puniuntur post hanc vitam quam in vita ista,
+            vbi<lb ed="#V" n="100" break="no"/>est locus misericordiae, sed in hac vita respondet
+            pecca<lb ed="#V" n="101" break="no"/>to originali paena sensibilis. Pueri enim qui solum originale
+            ha<lb ed="#V" n="102" break="no"/>bent, multas paenas sensibiles sustinent, nec iniuste, ergo post
+            <lb ed="#V" n="103"/>hac vitam paena sensibilis debetur originali. Ecce arg. Sequitur
+            <lb ed="#V" n="104"/>responsio. Dicendum inquit quod non est eadem ratio
+            paena<lb ed="#V" n="105" break="no"/>sensibili ante mortem &amp; post mortem, quia ante mortem
+            <lb ed="#V" n="106"/>paena sensibilis consequitur virtutem naturae agentis, siue
+            <lb ed="#V" n="107"/>sit paena sensibilis exterior, siue interior, vt febris vel aliquid
+            <lb ed="#V" n="108"/>huiusmodi. Sed post mortem nihil aget virtute naturae, sed
+            <lb ed="#V" n="109"/>secundum ordinem diuinae iustitiae tantum, sicut in animam
+            sepa<lb ed="#V" n="110" break="no"/>ratam, in qua constat, quod iguis naturaliter agere non
+            <lb ed="#V" n="111"/>potest, siue etiam in corpus post resurrectionem, quia tunc
+            <lb ed="#V" n="112"/>omnis actio naturalis cessabit cessante motu primi
+            mobi<lb ed="#V" n="113" break="no"/>lis, qui est causa omnis motus &amp; alterationis corporalis.
+            <lb ed="#V" n="114"/>Haec ille.
+            
+          </p>
+          <p xml:id="capsco-b28kn5-d1e2044">
+            Item de malo. q. 6. ar. 4. in sol. 5. ar. sic dicit. Post
+            mor<lb ed="#V" n="115" break="no"/>tem non est status proficiendi ad virtutem vel deficiendi
+            per<lb ed="#V" n="116" break="no"/>peccatum, sed recipiendi pro meritis. Vnde omnes defectus
+            <lb ed="#V" n="117"/>qui sunt post mortem taxantur pro culpa, non autm
+            ordi<lb ed="#V" n="118" break="no"/>nantur ad profectum ad virtutem vel euitationem
+            peccati<lb ed="#V" n="119" break="no"/>Et inde est, quod pueris post mortem non debetur
+            paena<lb ed="#V" n="120" break="no"/>sensus. Haec ille Vbi sciendum, quod secundum eum in
+            <lb ed="#V" n="121"/>corpore illius articuli duplex paenarum genus est, quaedamscilicet
+            <lb ed="#V" n="122"/>taxata pro culpa, alia vero concomitans, sicut videmus, quod
+            <lb ed="#V" n="123"/>iudex pro aliquo crimine facit aliquem hominem
+            excaeca<lb ed="#V" n="124" break="no"/>ri. Sed ad caecitatem eius consequuntur multa
+            incommo<lb ed="#V" n="125" break="no"/>da, puta quod mendicat, &amp; alia huiusmodi, sed ipsa caecitas
+            <lb ed="#V" n="126"/>est paena taxata pro peccato, ad hoc enim intendit iudex vt
+            pec<lb ed="#V" n="127" break="no"/>cantem priuet visu, sed defectus consequentes non
+            ponde<lb ed="#V" n="128" break="no"/>tat. Similiter potest dici in proposito, nam homini in
+            pri<lb ed="#V" n="129" break="no"/>mordio suae conditionis fuerat a deo datum quoddam
+            au<lb ed="#V" n="130" break="no"/>xilium originalis iustitiae, per quod praeseruabatur ab omnibus
+            <lb ed="#V" n="131"/>huiusmodi defectibus quo quidem auxilio priuata est tota
+            <lb ed="#V" n="132"/>natura humana propter peccatum primi parentis, ad cuius.
+            <lb ed="#V" n="133"/>auxilii priuationem consequuntur diuersa incommoda, quae
+            <lb ed="#V" n="134"/>diuersimode inueniuntur in diuersis, licet habeant
+            aequali<lb ed="#V" n="135" break="no"/>ter culpam originalis peccati. Hoc tamen interesse videtur inter
+            <lb ed="#V" n="136"/>deum punientem, &amp; hominem iudicem, quod homo iudex
+            <lb ed="#V" n="137"/>non potest praeuidere euentus sequentes, vnde nec eos potest
+            pondera<lb ed="#V" n="138" break="no"/>re, dum infert paenam pro culpa, propter quod rationabiliter
+            <lb ed="#V" n="139"/>incommodorum inaequalitas eius iustitiae non duo rogat, sed deus
+            <lb ed="#V" n="140"/>omnes euentus futuros praenouit, vnde videretur ad eius
+            iniu<lb ed="#V" n="141" break="no"/>stitiam pertinere, si aequaliter subiacentibus culpae, inaequaliter
+            <lb ed="#V" n="142"/>huiusmodi incommoda proueniant. Sed dicendum quod huiusmodi
+            diuer<lb ed="#V" n="143" break="no"/>sitas, quam circa hos defectus accidit est a deo puisa &amp;
+            ordina<lb ed="#V" n="144" break="no"/>ta, non quidem propter aliqua merita in alia vita exsntia, vt
+            <lb ed="#V" n="145"/>quidam dixerunt, sed quandoque quidem propter aliqua peccata
+            paren<lb ed="#V" n="146" break="no"/>tum. Cum enim filius sit aliquid patris secundum corpus, quod ab eo
+            tra<lb ed="#V" n="147" break="no"/>hit, non autem secundum animam, quae immediate a deo creatur non est
+            inco<lb ed="#V" n="148" break="no"/>uenies, quod per peccatum patris filius corporaliter puniatur licet non
+            <lb ed="#V" n="149"/>paena spirituali, quae pertineat ad animam, sicut &amp; homo punitur in aliis
+            <lb ed="#V" n="150"/>rebus suis. Quandoque vero ordinantur huiusmodi defectus non
+            <pb ed="#V" n="513"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>vt poena alicuius peccati, sed vt remedium contra
+            pecca<lb ed="#V" n="2" break="no"/>tum sequens, vel propter profectum virtutis, aut eius qui
+            pa<lb ed="#V" n="3" break="no"/>titur, aut alterius, sicut dominus dicit. I0. 9. de caeco nato
+            <lb ed="#V" n="4"/>Neque hic peccauit, neque parentes eius, sed vt manifestentur
+            <lb ed="#V" n="5"/>opera Dei in illo, quod expediens erat ad humanam
+            salu<lb ed="#V" n="6" break="no"/>tem, sed hoc ipsum, quod homo talis conditionis est, vt ei
+            sub<lb ed="#V" n="7" break="no"/>ueniatur, vel ad vitandum peccatum, vel ad profectum
+            virtu<lb ed="#V" n="8" break="no"/>tis, per huiusmodi incommoda, siue defectus, ad infirmitatem
+            <lb ed="#V" n="9"/>humanae naturae pertinet, quae ex peccato primi parentis
+            <lb ed="#V" n="10"/>deriuatur, sicut quod corpus hominis sit sic dispositum, quod ad
+            <lb ed="#V" n="11"/>eum sanandum indigeat sectione, ad eius infirmitatem
+            p<lb ed="#V" n="12" break="no"/>tineat, &amp; ideo omnes isti defectus respondent peccato
+            origina<lb ed="#V" n="13" break="no"/>li, vt poena concomitans. Haec ille.
+            
+          </p>
+          <p xml:id="capsco-b28kn5-d1e2158">
+            Ex quibus patet, quod secundum
+            <lb ed="#V" n="14"/>eum non est inconueniens, quod paruulus cum originali
+            so<lb ed="#V" n="15" break="no"/>lo decedens grauius &amp; multiplicius hic puniatur quam post
+            <lb ed="#V" n="16"/>mortem, loquendo de paenis concomitantibus vel
+            consequen<lb ed="#V" n="17" break="no"/>tibus, licet in hoc seculo non grauius puniatur, loquendo
+            <lb ed="#V" n="18"/>de poena directe taxata peccato originali. Poena enim directe
+            <lb ed="#V" n="19"/>taxata peccato originali est in praesenti subtractio gratiae
+            <lb ed="#V" n="20"/>gratum facientis, vel originalis iustitiae, &amp; illius diuini &amp;
+            su<lb ed="#V" n="21" break="no"/>pernaturalis auxilii, in futuro vero poena eius est priuatio
+            <lb ed="#V" n="22"/>diuinae visionis, &amp; carceralis inclusio. Ad dictum vero Gregorii
+            <lb ed="#V" n="23"/>dicitur, quod talibus paruulis fiagella post mortem
+            multiplica<lb ed="#V" n="24" break="no"/>tur. Tum qua priuatio diuinae visionis in morte vel
+            postmot<lb ed="#V" n="25" break="no"/>tem est eis poena, quae dum viuerent, non erat eis poena,
+            <lb ed="#V" n="26"/>quia nondum erat tempus Deum videndi, quia etiam Adam
+            <lb ed="#V" n="27"/>in statu innocentiae non videbat Deum, nec tamen hoc erat
+            <lb ed="#V" n="28"/>sibi poena. Tum secundo, quia post mortem carceraliter
+            in<lb ed="#V" n="29" break="no"/>cluduntur. Tum tertio quia tunc omni spe remedii priuantur &amp;
+            <lb ed="#V" n="30"/>possibilitate euadendi peccatum &amp; poenam, &amp; adipiscendi
+            gra<lb ed="#V" n="31" break="no"/>tiam &amp; gloriam.
+            
+          </p>
+          <p xml:id="capsco-b28kn5-d1e2200">
+            Ad quintum dicitur, quod opinio nostra habet
+            pro<lb ed="#V" n="32" break="no"/>se rationem &amp; multiplicem auctoritatem, rationem quidem no solum
+            il<lb ed="#V" n="33" break="no"/>lam, quam arguens recitat sed multas alias, vt patet legenti
+            do<lb ed="#V" n="34" break="no"/>ctores cum hoc etiam illam quam arguens recitat male
+            sol<lb ed="#V" n="35" break="no"/>uit. Consequentia enim prima optima est, quia vt deductum est in
+            <lb ed="#V" n="36"/>fine solutionis tertii, si originali deberetur poena sensibilis
+            <lb ed="#V" n="37"/>posset casus contingere, quod aliquis pro mortali actuali mitius
+            <lb ed="#V" n="38"/>affligeretur poena senubili, quam paruulus pro solo
+            origi<lb ed="#V" n="39" break="no"/>nali, quod est contra Augustinum &amp; omnem rationem. Ad dicta vero Augustini
+            <lb ed="#V" n="40"/>&amp; Gregorii saepe dictum est, qualiter intelligenda sint.
+            Simili<lb ed="#V" n="41" break="no"/>ter opinio nostra habet pro se auctoritatem Christi, &amp;
+            euangeli<lb ed="#V" n="42" break="no"/>starum, &amp; apostoloorum, &amp; sanctorum doctorum, &amp; aliorum
+            appro<lb ed="#V" n="43" break="no"/>batorum, qui bene intellexerunt verba Augustinus Vtrum autem verba
+            il<lb ed="#V" n="44" break="no"/>lius decretalis sufficienter probent conclusionem nostram,
+            <lb ed="#V" n="45"/>non est multum curandum, cum prima facie videtur mens Papae
+            <lb ed="#V" n="46"/>fuisse, quod poena originalis peccati est sola priuatio diuinae
+            <lb ed="#V" n="47"/>visionis. S enim intendebat, quod tali peccato sensibilis paena
+            debe<lb ed="#V" n="48" break="no"/>retur simul cum priuatione diuinae uisionis, tunc non
+            distin<lb ed="#V" n="49" break="no"/>xisset inter paena originalis peccati &amp; actualis, quia secundum hoc
+            <lb ed="#V" n="50"/>vtrique deberetur paena vnius generis &amp; speciei nec valet quod
+            <lb ed="#V" n="51"/>dicit arguens, quod peccato originali debetur priuatio
+            diui<lb ed="#V" n="52" break="no"/>nae visionis, peccato vero actuali debetur vtraque poena.
+            scili<lb ed="#V" n="53" break="no"/>damni &amp; sensus. De glosa vero illius decretalis non
+            mul<lb ed="#V" n="54" break="no"/>tum curandum est, quia ille glosator multa falsa dicit, &amp; in illo
+            <lb ed="#V" n="55"/>passu contradixit textui, nisi forte glosa eius exponat sic
+            di<lb ed="#V" n="56" break="no"/>cta Augustns ex quibus extrahitur.
+            
+          </p>
+          <p xml:id="capsco-b28kn5-d1e2257">
+            Ad primum contra secundam
+            <lb ed="#V" n="57"/>conclusionem dicitur, quod illa ratio fundatur in hoc principio
+            <lb ed="#V" n="58"/>quod homo sanae mentis &amp; vtens sola recta ratione dolere potest de hoc
+            <lb ed="#V" n="59"/>quod priuatur bono, ad quod licet non habuerit in se
+            aptitu<lb ed="#V" n="60" break="no"/>dinem, aut proportionem, aut ius habendi, tamen habuit in sua
+            <lb ed="#V" n="61"/>radice, puta in aliquo suorum praedecessorum modo quo ibidem
+            <lb ed="#V" n="62"/>explicatur. Si enim in alio principio fundetur argumentum
+            co<lb ed="#V" n="63" break="no"/>lorem non habent, &amp; ideo dicitur ad hoc, quod principium illud falsum
+            <lb ed="#V" n="64"/>est in multis casibus quorum vnus est, quando constat totaliter
+            priua<lb ed="#V" n="65" break="no"/>to suam priuationem esse iustam. Nullus enim vtens recta ratione
+            do<lb ed="#V" n="66" break="no"/>let interiori dolore de hoc, quod apprehendit &amp; iudicat esse
+            <lb ed="#V" n="67"/>iustum, dignum, &amp; rationabiliter factum. Secundus est, quando constat
+            <lb ed="#V" n="68"/>taliter priuato sola recta ratioue vtenti, talem priuationem
+            <lb ed="#V" n="69"/>nullo modo sua propria voluntate inductam, nec per suam
+            vo<lb ed="#V" n="70" break="no"/>luntatem vllo modo potuisse impediri. Tertius est, quando constat
+            <lb ed="#V" n="71"/>taliter priuato sola recta ratione vtens suum displicere fore
+            pe<lb ed="#V" n="72" break="no"/>nitus inutile, inhonestum, indelectabile, suum vero non
+            displi<lb ed="#V" n="73" break="no"/>cere vel approbare, aut saltem patienter tale damnum pati esse
+            ho<lb ed="#V" n="74" break="no"/>nestum, vtile, aut delectabile. Haec autem concurrunt in talibus
+            <lb ed="#V" n="75"/>paruulis post hanc vitam Vtutur enim sola recta ratione, sciunt
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="76"/>insuper vt pro nunc supponitur, suam penam iustam esse, sciunt
+            <lb ed="#V" n="77"/>eam, nec proprio demerito inductam, nec vllo modo se potuisse
+            <lb ed="#V" n="78"/>illa impedire, nec se vllo modo causam illius fuisse, sciunt denique
+            <lb ed="#V" n="79"/>displicentiam illius poenae nullo modo eis conuenire
+            patien<lb ed="#V" n="80" break="no"/>tiam vero in tali poena esse laudabilem. Et ideo nimirum si de
+            <lb ed="#V" n="81"/>tali poena nullatenus affliguntur, nullo modo dolent nullo
+            <lb ed="#V" n="82"/>modo impatienter, sed patientissime tolerant, attento quod
+            <lb ed="#V" n="83"/>multas diuinae bonitatis perfectiones participant. Ista
+            so<lb ed="#V" n="84" break="no"/>lutio fundatur in dictis Sancti Thomae 2. sen. vbi supra scilicet dist. 33.
+            <lb ed="#V" n="85"/>q. 2. ar. 2. vbi sic arguit. Si pueri non baptizati post mortem
+            <lb ed="#V" n="86"/>haberent dolorem interiorem, aut dolerent de poena, aut
+            <lb ed="#V" n="87"/>de culpa, si de culpa, cum a culpa illa vlterius emundari non
+            <lb ed="#V" n="88"/>possint, dolor ille erit in desperationem inducens, sed talis.
+            <lb ed="#V" n="89"/>dolor in damnatis est conscientiae vermis:igitur pueri vermem
+            <lb ed="#V" n="90"/>conscientiae habebunt, &amp; sic non esset eorum paena mitissima
+            <lb ed="#V" n="91"/>cuius opositum dicitur in litera. Si autem dolerent de paena,
+            <lb ed="#V" n="92"/>ergo cum paena eorum iuste a deo sit voluntas eorum diuinae
+            <lb ed="#V" n="93"/>iustitiae obuiaret, &amp; sic actualiter deformis esset, quod non
+            <lb ed="#V" n="94"/>conceditur, igitur nullum dolorem interiorem senticnt Praeterea
+            <lb ed="#V" n="95"/>recta ratio non patitur, vt aliquis perturberur de eo, quod in
+            <lb ed="#V" n="96"/>ipso non fuit vt vitaretur, propter quod Seneca probat, quod in
+            sa<lb ed="#V" n="97" break="no"/>piente non cadit perturbatio, sed in pueris est recta ratio
+            <lb ed="#V" n="98"/>nullo peccato actuali obligata, igitur non cadit
+            perturba<lb ed="#V" n="99" break="no"/>tio, sed in pueris est recta ratio nullo peccato actuali
+            obli<lb ed="#V" n="100" break="no"/>gata, igitur non perturbabuntur de hoc, quod talem paenam
+            su<lb ed="#V" n="101" break="no"/>stinent, quam vitare nullo modo potuerunt. Haec ille. Ex quo
+            <lb ed="#V" n="102"/>patet ad arg.
+            
+          </p>
+          <p xml:id="capsco-b28kn5-d1e2361">
+            Ad secundum arg. respondet Durandus pro se &amp; pro
+            no<lb ed="#V" n="103" break="no"/>bis in hunc modum. Iudicium inquit erit de peccatis comissis
+            <lb ed="#V" n="104"/>quae non sunt in pueris decedentibus in peton originali.
+            Vn<lb ed="#V" n="105" break="no"/>de sicut illi, qui essent nati in puris naturalibus absque
+            pcoeo<lb ed="#V" n="106" break="no"/>originali, &amp; sic decederent, non pertinerent proprie ad
+            iu<lb ed="#V" n="107" break="no"/>dicium, carerent tamen visione diuina, quae non datur nisi
+            ha<lb ed="#V" n="108" break="no"/>bentibus gratiam Christi, sic pueri decedentes in originali, qui
+            <lb ed="#V" n="109"/>non commiserunt aliquod actuale peccatum non pertinebunt
+            <lb ed="#V" n="110"/>proprie ad iudicium, carebunt tamen uisione diuina, quia non
+            <lb ed="#V" n="111"/>fuerunt regenerati per gratiam Christi. Nec oportet, quod
+            co<lb ed="#V" n="112" break="no"/>gnoscant se esse priuatos gratia, &amp; per consequens visione
+            <lb ed="#V" n="113"/>diuina propter peccatum primi parentis, cum talis cognitio
+            perti<lb ed="#V" n="114" break="no"/>neat ad fidem, &amp; in ipsis ponatur esse sola cognitio
+            natu<lb ed="#V" n="115" break="no"/>ralis, propter quod non oportet, quodoleant de carentia
+            di<lb ed="#V" n="116" break="no"/>uinae visionis, quam ignorant. Cum enim sint perfecti in
+            cognitio<lb ed="#V" n="117" break="no"/>ne naturali sciunt quod cognitio naturalis non extendit se nisi
+            <lb ed="#V" n="118"/>ad illud, quod ipsi cognoscunt, vel dato quod in iudicio
+            co<lb ed="#V" n="119" break="no"/>gnoscerent, quod boni qui per gratiam, &amp; bonum opus proprium
+            <lb ed="#V" n="120"/>aliquid meruerunt, habebunt pro praemio aliquod donum
+            su<lb ed="#V" n="121" break="no"/>pernaturale, quo ipsi carebunt, ex hoc tamen nullum dolorem
+            habe<lb ed="#V" n="122" break="no"/>bunt quia in ipsis non erit aliqua obliquitas voluntatis, ita vt
+            <lb ed="#V" n="123"/>irroionabiliter doleant de quocunque. Dolerent autem irrationabilite
+            <lb ed="#V" n="124"/>de carentia visionis diuinae, quae non datur nisi per gratiam
+            Chri<lb ed="#V" n="125" break="no"/>sti quam ipsi non habuerunt, nec haeae meruerunt, nec oportet
+            <lb ed="#V" n="126"/>quod sciant se priuatos gratia &amp; gloria propter peccatum primi parentis.
+            <lb ed="#V" n="127"/>Haec ille in forma. Ista responsio videtur mihi improbabilis quo ad
+            <lb ed="#V" n="128"/>aliqua. Primo in hoc quod dicit, quod tales paruuli non
+            pti<lb ed="#V" n="129" break="no"/>neant ad iudicium proprie. Hoc enim non consonat dictis Sancti Thomae
+            <lb ed="#V" n="130"/>4. sen. di. 47. q. 1. ar. 3. q. 1. vbi determinat, quod omnes homines in
+            <lb ed="#V" n="131"/>iudicio comparebunt, non solum adulti, immo puuli. Vnde in
+            so<lb ed="#V" n="132" break="no"/>lu. tertii, sic dicit. Pueri ante pfectam aetatem decedentes in
+            iu<lb ed="#V" n="133" break="no"/>dicio comparebunt, non ut iudicentur, sed vt videant gloriam
+            iu<lb ed="#V" n="134" break="no"/>dicis.
+            
+          </p>
+          <p xml:id="capsco-b28kn5-d1e2433">
+            Item. 4. sen. di. 43. q. 1. ar 5. quaestiuncula. 2. dicitsic. In
+            vl<lb ed="#V" n="135" break="no"/>timo &amp; communi iudicio oportet, quod diuina iustitia omnibus
+            eui<lb ed="#V" n="136" break="no"/>denter appareat, quae nunc in plerisque latet. Sententia autem
+            condem<lb ed="#V" n="137" break="no"/>nans vel praemians iusta esse non potest, nisi secundum merita vel
+            demeri<lb ed="#V" n="138" break="no"/>ta proferatur, &amp; ideo sicut oportet, quod iudex &amp; assessor
+            iu<lb ed="#V" n="139" break="no"/>dicis merita causae cognoscant, ad hoc quod iustam sententiam
+            pro<lb ed="#V" n="140" break="no"/>ferant, ita oportet ad hoc quod iusta sententia appareat, quod
+            <lb ed="#V" n="141"/>omnibus sententiam cognoscentibus merita innotescant. Vnde quia sicut
+            cui<lb ed="#V" n="142" break="no"/>libet nota erit sua praemiatio &amp; sua damnatio, ita omnibus aliis
+            inno<lb ed="#V" n="143" break="no"/>tescet, oportet quod sicut quilibet sua merita vel demerita
+            <lb ed="#V" n="144"/>reducet ad memoriam, ita etiam aliena eius cognitioni subiaceant.
+            <lb ed="#V" n="145"/>Haec ille.
+            
+          </p>
+          <p xml:id="capsco-b28kn5-d1e2459">
+            Ex quo patet, quod secundum eum pueri in iudicio
+            compare<lb ed="#V" n="146" break="no"/>bunt, &amp; sua &amp; aliena bona vel mala, merita &amp; praemia
+            cogno<lb ed="#V" n="147" break="no"/>scent. Videbunt igitur &amp; cognoscent peccata &amp; demerita Adae
+            <lb ed="#V" n="148"/>&amp; Euae. &amp; suam propriam damnationem, &amp; causam suae damnationis
+            <lb ed="#V" n="149"/>ex Adae peton. Patet igitur, quod improbabile ea dicere, quod
+            ta<lb ed="#V" n="150" break="no"/>les pueri in iudicio non compareat.
+            
+          </p>
+          <p xml:id="capsco-b28kn5-d1e2473">
+            Item quod in iudicio non
+            cogno<pb ed="#V" n="514"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>scant peccata primorum parentum &amp; poenam ex illis
+            secu<lb ed="#V" n="2" break="no"/>tam. Item quod non cognoscant propriam damnationem
+            <lb ed="#V" n="3"/>nec causam suae propriae damnationis. Teneo igitur
+            pro<lb ed="#V" n="4" break="no"/>bationem adductam pro conclusione ex secundo sen.
+            reli<lb ed="#V" n="5" break="no"/>cta ea, quae adducta est, ex conclusionibus de malo, quia
+            <lb ed="#V" n="6"/>prima videtur securior, &amp; dictis sanctorum concordior
+            <lb ed="#V" n="7"/>quam secunda.
+            
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

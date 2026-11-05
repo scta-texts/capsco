@@ -1,0 +1,1222 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 3, Distinctio 11, Quaestio 1</title>
+        <author ref="#JohannesCapreolus">Johannes Capreolus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 3, Distinctio 11, Quaestio 1</title>
+          <date when="2026-11-04">Nov 4, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-j88c03">Venice, 1589, v. 3</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-04" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="85"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="capsco-c38afd"><!-- l3d11q1 -->
+        <head xml:id="capsco-c38afd-Hd1e101">Quaestio 1</head>
+        <head xml:id="capsco-c38afd-Hd1e103" type="question-title">Utrum haec copulativa, Christus incepit esse et Christus est creatura, sit concedenda</head>
+        <p xml:id="capsco-c38afd-d1e106">
+          <lb ed="#V" n="31"/>DISTINCTIO. XI.
+          <lb ed="#V" n="32"/>QVAESTIO. VNICA.
+          <lb ed="#V" n="33"/>Vtrum haec copulatiua, Christus incepit esse, &amp;
+          <lb ed="#V" n="34"/>Christus est creatura, sit
+          con<lb ed="#V" n="35" break="no"/>cedenda
+        </p>
+        <p xml:id="capsco-c38afd-d1e119">
+          <lb ed="#V" n="36"/><milestone ed="#V" unit="p" rend="initial"/> CIRCA vndecimam distinctionem
+          <lb ed="#V" n="37"/>tertij sententiarum. Quaeritur. Vtrum
+          <lb ed="#V" n="38"/>ista copulatiua sit concedenda sine
+          quo<lb ed="#V" n="39" break="no"/>cunque addito. Christus incepit esse,
+          <lb ed="#V" n="40"/>&amp; Christus est creatura.
+        </p>
+        <p xml:id="capsco-c38afd-d1e133">
+          Et arguitur quod
+          <lb ed="#V" n="41"/>sic quia quaelibet eius pars siue additio
+          <lb ed="#V" n="42"/>est vera. Antecedens probatur pro
+          pri<lb ed="#V" n="43" break="no"/>mo quo ad primam partem sic. Christus incepit esse
+          homo<lb ed="#V" n="44" break="no"/>sed esse hominem est esse simpliciter: ergo Christus incepit
+          <lb ed="#V" n="45"/>esse simpliciter. Pro secunda parte autem sic. Principalior
+          <lb ed="#V" n="46"/>pars hominis est anima quam corpus sed ratione corporis,
+          <lb ed="#V" n="47"/>quod traxit de virgine, dicitur esse simpliciter natus de
+          vir<lb ed="#V" n="48" break="no"/>gine, ergo ratione animae quae creata est a Deo debet dici
+          <lb ed="#V" n="49"/>simpliciter creatus, &amp; quod sit creatura.
+        </p>
+        <p xml:id="capsco-c38afd-d1e156">
+          <lb ed="#V" n="50"/><milestone ed="#V" unit="p" rend="indent"/> In oppositum arguitur. Et primo quod prima pars sit
+          <lb ed="#V" n="51"/>falsa quia dicitur ad Haebs vltimo. Iesus Christus heri
+          <lb ed="#V" n="52"/>&amp; hodie ipse &amp; in secula. Secundo arguitur quod secunda
+          <lb ed="#V" n="53"/>pars sit falsa. Quia dicit Ambrosius primo trini. Nunquid
+          <lb ed="#V" n="54"/>dico factus est Christus nunquid mandato creatus est
+          <lb ed="#V" n="55"/>Christus quasi dicat non, &amp; subdit. Quomodo autem
+          crea<lb ed="#V" n="56" break="no"/>tura in Deo esse potest, etenim Deus naturae simplicis est
+          <lb ed="#V" n="57"/>non coniunctae: ergo haec non est concedenda. Christus
+          <lb ed="#V" n="58"/>est creatura.
+        </p>
+        <p xml:id="capsco-c38afd-d1e179">
+          <lb ed="#V" n="59"/><milestone ed="#V" unit="p" rend="indent"/> In hac quaestione erunt tres articuli. In primo ponentur
+          <lb ed="#V" n="60"/>conclusiones. In secundo obiectiones. In tertio
+          solu<lb ed="#V" n="61" break="no"/>tiones
+        </p>
+        <div xml:id="capsco-c38afd-Dd1e189">
+          <head xml:id="capsco-c38afd-Hd1e191">Articulus 1</head>
+          <p xml:id="capsco-c38afd-d1e193">
+            <lb ed="#V" n="62"/><milestone ed="#V" unit="p" rend="initial"/> QVantum ad primum articulum sit prima conclusio
+            <lb ed="#V" n="63"/>Non est absolute, &amp; sine determinatione, dicendum,
+            <lb ed="#V" n="64"/>quod Christus est creatura. Hanc ponit Sanctus Thomas
+            <lb ed="#V" n="65"/>tertia parte q. 16. art. 8. dicens. Sicut dicit Hiero. ex verbis
+            <lb ed="#V" n="66"/>inordinate prolatis incurritur haeresis, vnde cum haereticum
+            <lb ed="#V" n="67"/>nec nomina debemus habere communia, ne eorum errori
+            <lb ed="#V" n="68"/>fauere videamur. Arriani autem haeretici Christum
+            dixe<lb ed="#V" n="69" break="no"/>runt esse creaturam, &amp; minorem patre non solum ratione
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="70"/>humanae naturae, sed etiam ratione diuinae naturae, &amp; ideo
+            <lb ed="#V" n="71"/>non est absolute dicendum, quod Christus sit creatura, vel
+            <lb ed="#V" n="72"/>minor patre, sed cum determinatione scilicet secundum
+            <lb ed="#V" n="73"/>naturam humanam. Ea vero de quibus suspicari non
+            po<lb ed="#V" n="74" break="no"/>test, quod diuinae personae conueniant secundum seipsam,
+            <lb ed="#V" n="75"/>possunt simpliciter dici de Christo ratione naturae
+            huma<lb ed="#V" n="76" break="no"/>nae, sicut simpliciter dicimus Christum esse passum,
+            mor<lb ed="#V" n="77" break="no"/>tuum &amp; sepultum, sicut etiam in rebus corporalibus, &amp;
+            hu<lb ed="#V" n="78" break="no"/>manis ea quae in dubitationem venire possunt, an
+            conue<lb ed="#V" n="79" break="no"/>niant toti vel parti si insunt alicui parti, non attribuimus
+            <lb ed="#V" n="80"/>toti simpliciter idest sine determintaioue, non enim dicimus
+            <lb ed="#V" n="81"/>quod Ethiops est albus, sed quod est albus secundum
+            dete<lb ed="#V" n="82" break="no"/>dicimus autem sine determinatione quod est crispus, quia
+            <lb ed="#V" n="83"/>hoc non potest ei conuenire nisi secundum capillos. Haec
+            <lb ed="#V" n="84"/>ille Item tertio sententiarum dist. 11. q. 1. ar. 2. sic dicit.
+            Crea<lb ed="#V" n="85" break="no"/>tio proprie respicit esse rei, vnde in libro de causis dicitur,
+            <lb ed="#V" n="86"/>quod esse est per creationem, alia vero per informationem
+            <lb ed="#V" n="87"/>esse autem simpliciter &amp; per se est suppositi subsistentis
+            <lb ed="#V" n="88"/>Alia vero dicuntur esse inquantum suppositum in eis
+            subsi<lb ed="#V" n="89" break="no"/>stit, vel essentialiter sicut forma &amp; materia, &amp; sic natura
+            ip<lb ed="#V" n="90" break="no"/>sa dicitur esse, vel accidentaliter sicut accidentia esse
+            dicun<lb ed="#V" n="91" break="no"/>tur. Esse ergo simpliciter dictum de supposito significat esse
+            <lb ed="#V" n="92"/>personale ipsius, esse vero secundum quod conuenit
+            parti<lb ed="#V" n="93" break="no"/>vel accidenti non dicitur simpliciter de supposito, sed
+            sup<lb ed="#V" n="94" break="no"/>positum dicitur esse in eo. Vnde cum dico. Christus est
+            si<lb ed="#V" n="95" break="no"/>gnificatur esse ipsius suppositi, non autem esse ipsius
+            nata<lb ed="#V" n="96" break="no"/>rae, vel accidentis, aut partis, cum autem fiat vnio naturarum
+            <lb ed="#V" n="97"/>in esse suppositi iuxta secundam opi. esse secundum quod
+            <lb ed="#V" n="98"/>Christus simpliciter esse dicitur est esse increatum, vnde
+            <lb ed="#V" n="99"/>non potest dici creatura non tantum ad vitandum
+            erro<lb ed="#V" n="100" break="no"/>rem Arrij, vt quidam dicunt, sed etiam ad vitandum
+            <lb ed="#V" n="101"/>falsitatem. Potest tamen dici quod aliquid creatum est in
+            <lb ed="#V" n="102"/>Christo scilicet natura humana, quia esse quamuis sit vnum,
+            <lb ed="#V" n="103"/>tamen habet respectum ad naturam humanam, &amp; ad
+            par<lb ed="#V" n="104" break="no"/>tes eius, secundum quas natura humana dicitur esse in
+            Chr<lb ed="#V" n="105" break="no"/>sto, vel partes, aut accidentia eius, vnde sicut esse
+            aliquomo<lb ed="#V" n="106" break="no"/>do pertinet ad naturam, &amp; ad partes, &amp; accidentia eius, ita
+            <lb ed="#V" n="107"/>&amp; creatio. Haec ille.
+          </p>
+          <p xml:id="capsco-c38afd-d1e298">
+            Ex quibus potest formari talis ratio uperd
+            <lb ed="#V" n="108"/>conclusione. Illa propositio non est absolute concedenda,
+            <lb ed="#V" n="109"/>nec asserenda, quae potest esse occasio erroris, &amp; fauet
+            mo<lb ed="#V" n="110" break="no"/>do loquendi Haereticorum, sed ista propositio Christus es
+            <lb ed="#V" n="111"/>creatura est huiusmodi, igitur &amp;c.
+          </p>
+          <p xml:id="capsco-c38afd-d1e309">
+            Item arguitur sic. Illud
+            <lb ed="#V" n="112"/>non est creatura quod simpliciter subsistit per esse
+            increa<lb ed="#V" n="113" break="no"/>tum, nec habet aliud esse simpliciter praeterc esse
+            increa<lb ed="#V" n="114" break="no"/>tum, sed Christus est huiusmodi, igitur &amp;c. Secunda
+            conclu<lb ed="#V" n="115" break="no"/>sio. Ista propositio non est absolute concedenda, Christus
+            <lb ed="#V" n="116"/>incepit esse. Hanc ponit Sanctus Thomas 3. parte. q. 16. art. 9.
+            <lb ed="#V" n="117"/>vbi sic dicit. Non est dicendum, quod ille homo
+            demonstra<lb ed="#V" n="118" break="no"/>to Christo incepit esse si nihil addatur, &amp; hoc duplici
+            ratio<lb ed="#V" n="119" break="no"/>ne. Primo quidem. Quia locutio est simpliciter falsa
+            secun<lb ed="#V" n="120" break="no"/>dum sententiam catholicae fidei, qua ponimus in
+            Christe<lb ed="#V" n="121" break="no"/>vnum suppositum, &amp; vnam hypostasim, sicut &amp; vnam
+            per<lb ed="#V" n="122" break="no"/>sonam, secundum hoc enim oportet, quo in hoc, quod
+            dici<lb ed="#V" n="123" break="no"/>tur, iste homo demonstrato Christo designetur
+            suppo<lb ed="#V" n="124" break="no"/>situm aeternum cuius aeternitati repugnat incipere esse,
+            vn<lb ed="#V" n="125" break="no"/>de haec est falsa, hic homo incepit esse. Nec obstat quod
+            inci<lb ed="#V" n="126" break="no"/>pere esse conuenit humanae naturae, quae significatur per hoc
+            <lb ed="#V" n="127"/>nomen homo, quia terminus in subiecto positus non
+            te<lb ed="#V" n="128" break="no"/>netur formaliter pro natura, sed magis materialiter
+            pro<lb ed="#V" n="129" break="no"/>supposito. Secundo. Quia etiam si esset vera, non tamen
+            es<lb ed="#V" n="130" break="no"/>set ea vtendum absque determinatione ad vitandum
+            haere<lb ed="#V" n="131" break="no"/>sim Arrij, qui sicut psonae filij Dei attribuit, quod esset
+            crea<lb ed="#V" n="132" break="no"/>tura, &amp; quod esset minor patre, ita attribuit quod esse
+            ince<lb ed="#V" n="133" break="no"/>ceperit dicens, quod erat quando non erat. Haec ille.
+          </p>
+          <p xml:id="capsco-c38afd-d1e359">
+            Item
+            <lb ed="#V" n="134"/>tertio sententiarum di. 12. q. 1. art. 1. sic dicit. Quidam
+            distin<lb ed="#V" n="135" break="no"/>guunt istam, iste homo incepit esse, ex hoc quod hoc
+            pro<lb ed="#V" n="136" break="no"/>nomen iste potest denotare personam verbi, vel singulare
+            <lb ed="#V" n="137"/>hominis. Et primo modo est falsa, secundo modo est uera
+            <lb ed="#V" n="138"/>Sed hoc non valet, quia cum dicitur, iste homo, hoc pronc
+            <lb ed="#V" n="139"/>men iste non potest demonstrare nisi id quod supponitur
+            <lb ed="#V" n="140"/>per hoc nomen homo, suppositum autem per hoc nomen
+            <lb ed="#V" n="141"/>homo, non est aliud quam persona verbi secundum
+            secun<lb ed="#V" n="142" break="no"/>dam opi. vnde secundum eam non potest stare, quia
+            quam<lb ed="#V" n="143" break="no"/>uis ponat in Christo esse aliquod singulare praeter
+            perso<lb ed="#V" n="144" break="no"/>nam verbi scilicet humanam naturam, tamen illud sin.
+            <pb ed="#V" n="86"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>gulare non supponitur per hoc nomen homo nec
+            praedica<lb ed="#V" n="2" break="no"/>tur de Christo. Et ideo patet, quod distinctio secundum
+            pri<lb ed="#V" n="3" break="no"/>mam opi. est bona, sed non secundum secundam, &amp; ideo
+            <lb ed="#V" n="4"/>hac omissa, Quidam dicunt quod hoc verbum incipit
+            po<lb ed="#V" n="5" break="no"/>test notare inceptionem respectu suppositi simpliciter, &amp;
+            <lb ed="#V" n="6"/>sic est falsa, quia suppositum est aeternum, vel respectu
+            sup<lb ed="#V" n="7" break="no"/>positi ratione formae significatae, &amp; sic est vera. Et ponunt
+            <lb ed="#V" n="8"/>exemplum de hac scutum album incipit esse hodie,
+            suppo<lb ed="#V" n="9" break="no"/>sito quod scutum heri factum hodie dealbetur. Sed hoc
+            <lb ed="#V" n="10"/>dictum non videtur habere efficaciam propter duo.
+            Pri<lb ed="#V" n="11" break="no"/>mo. Quia &amp; si natura humana habeat aliquid simile
+            acci<lb ed="#V" n="12" break="no"/>denti in Christo, tamen hoc nomen homo non est
+            adie<lb ed="#V" n="13" break="no"/>ctiuum sed substantiuum, etiam si natura humana esset
+            <lb ed="#V" n="14"/>pure accidentaliter adueniens, &amp; in talibus plus facit
+            mo<lb ed="#V" n="15" break="no"/>dus significandi, quam proprietas rei significatae. Secundo
+            <lb ed="#V" n="16"/>Quia dato quod esset adiectiuum, oporteret quod
+            prae<lb ed="#V" n="17" break="no"/>dicatum conueniret ei, quod copulatur vel supponitur per
+            no<lb ed="#V" n="18" break="no"/>men positum in subiecto, vel ratione sui vel ratione
+            alicu<lb ed="#V" n="19" break="no"/>ius, quod est in eo. Illa autem praedicata, quae nata sunt
+            <lb ed="#V" n="20"/>couenire ipsi supposito, non praedicatur de eo ratione
+            ali<lb ed="#V" n="21" break="no"/>cuius, quod est in eo simpliciter, neque secundum partem,
+            <lb ed="#V" n="22"/>neque secundum accidens, aut naturam: nisi ei secundum
+            <lb ed="#V" n="23"/>se conueniant, quia tunc sequeretur, quod affirmatio 6
+            <lb ed="#V" n="24"/>negatio verificarentur de eodem, si ratione alicuius
+            exi<lb ed="#V" n="25" break="no"/>stentis in ipso de eo verificaretur aliquid, quod ratione
+            <lb ed="#V" n="26"/>sui vere de eo negatur, &amp; hoc patet in proposito. Ei enim
+            <lb ed="#V" n="27"/>quod supponitur cum dicitur, iste homo, conuenit esse
+            <lb ed="#V" n="28"/>semper, vnde de eo non potest verificari negatio, vt
+            dica<lb ed="#V" n="29" break="no"/>tur, non fuit semper simpliciter loquendo, &amp; per
+            conse<lb ed="#V" n="30" break="no"/>quens nec aliquid quod dictam negationem importet,
+            si<lb ed="#V" n="31" break="no"/>cut verbum incipiendi. Vnde dicendum est, quod haec
+            sim<lb ed="#V" n="32" break="no"/>pliciter est falsa, iste homo incaepit esse, &amp; est secundum quid
+            <lb ed="#V" n="33"/>vera scilicet cum determinatione humanae naturae, sicut &amp;
+            <lb ed="#V" n="34"/>haec, iste homo est creatura, est falsa, nisi determinatio
+            ad<lb ed="#V" n="35" break="no"/>datur, &amp; tunc etiam est tropica, vt supra dixit magister.
+            <lb ed="#V" n="36"/>Vnde hic non intendit eam distinguere tanquam
+            multipli<lb ed="#V" n="37" break="no"/>cem: sed dicere, quomodo potest esse vera vel falsa. Haec
+            il<lb ed="#V" n="38" break="no"/>le. Ex quibus potest formari ratio pro conclusione. Nullum
+            <lb ed="#V" n="39"/>suppositum aeternum incaepit esse, sed iste homo
+            demon<lb ed="#V" n="40" break="no"/>strato Christo, seu Christus est suppositum aeternum,
+            igi<lb ed="#V" n="41" break="no"/>tur non incaepit esse, &amp; per consequens, cum haec
+            proposi<lb ed="#V" n="42" break="no"/>tio, Christus incepit esse, significet quod suppositum
+            diui<lb ed="#V" n="43" break="no"/>num incepit esse, falsa est &amp; neganda.
+          </p>
+          <p xml:id="capsco-c38afd-d1e484">
+            Tertia conclusio.
+            Quae<lb ed="#V" n="44" break="no"/>libet istarum est concedenda &amp; asserenda. Christus
+            secun<lb ed="#V" n="45" break="no"/>dum quod homo incepit esse, Christus secundum quod
+            ho<lb ed="#V" n="46" break="no"/>mo est creatura. Hanc ponit Sanctus Thomas 3. parte q. 16.
+            <lb ed="#V" n="47"/>art. 10. vbi sic dicit. Cum dicitur Christus secundum quod
+            <lb ed="#V" n="48"/>homo, hoc nomen homo potest sumi in reduplicatione,
+            <lb ed="#V" n="49"/>vel ratione suppositi, vel ratione naturae. Si quidem
+            resu<lb ed="#V" n="50" break="no"/>matur ratione suppositi, cum suppositum humanae naturae
+            <lb ed="#V" n="51"/>in Christo sit aeternum &amp; increatum, haec erit falsa, Christus
+            <lb ed="#V" n="52"/>secundum quod homo est creatura, si vero resumatur ratione
+            hu<lb ed="#V" n="53" break="no"/>manae naturae, sic est vera, quia ratione humanae naturae siue
+            <lb ed="#V" n="54"/>secundum humanam naturam conuenit sibi omne creatum.
+          </p>
+          <p xml:id="capsco-c38afd-d1e510">
+            <lb ed="#V" n="55"/>Sciendum tamen quod nomen sic resumptum in
+            reduplica<lb ed="#V" n="56" break="no"/>tione magis proprie tenetur pro natura quam pro suppost
+            <lb ed="#V" n="57"/>to. Resumitur enim in vi praedicati, quod tenetur
+            formali<lb ed="#V" n="58" break="no"/>ter, idem enim est dictu, Christus secundum quod homo, ac si
+            di<lb ed="#V" n="59" break="no"/>ceretur Christus secundum quod est homo. Et ideo haec
+            <lb ed="#V" n="60"/>est magis concedenda quam neganda, Christus secundum
+            <lb ed="#V" n="61"/>quod est homo est creatura, si tamen adderetur aliquid, per
+            <lb ed="#V" n="62"/>quod traheretur ad suppositum, esset propositio magis
+            ne<lb ed="#V" n="63" break="no"/>ganda quam concedenda, puta si diceretur, Christus
+            secun<lb ed="#V" n="64" break="no"/>dum quod hic homo est creatura. Haec ille.
+          </p>
+          <p xml:id="capsco-c38afd-d1e534">
+            Item tertio
+            sen<lb ed="#V" n="65" break="no"/>tentiarum di. 11. q. 1. ar. 3. sic dicit. Natura humana se habet
+            <lb ed="#V" n="66"/>ad personam compositam Christi sicut pars, quamuis pars
+            <lb ed="#V" n="67"/>proprie dici non possit, sicut nec proprie persona
+            compo<lb ed="#V" n="68" break="no"/>sita, pars autem aliquando habet aliquam dispositionem,
+            <lb ed="#V" n="69"/>quae nata est conuenire toti, aliquando autem habet aliquam
+            <lb ed="#V" n="70"/>quae non est nata conuenire toti, sicut albedo, quae inest
+            ca<lb ed="#V" n="71" break="no"/>pillis, potest etiam toti conuenire, crispitudo autem ita
+            con<lb ed="#V" n="72" break="no"/>uenit capillis, quod nullo modo toti vel alicui alteri
+            parti<lb ed="#V" n="73" break="no"/>ergo secundum dispositiones illas, quae insunt tantum
+            par<lb ed="#V" n="74" break="no"/>ti denominatur totum simpliciter, &amp; proprie per
+            disposi<lb ed="#V" n="75" break="no"/>tionem partis nullo addito, sicut dicitur homo crispus, sed
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="76"/>quantum ad illas dispositiones, quae natae sunt &amp; toti &amp;
+            pti<lb ed="#V" n="77" break="no"/>conuenire, non denominatur totum a parte simpliciter, sed
+            addi<lb ed="#V" n="78" break="no"/>ta parte vt cum dicitur homo albus secundum capillos,
+            <lb ed="#V" n="79"/>nec hoc proprie, sed figuratiue per sinecdochem, patet quod
+            <lb ed="#V" n="80"/>cum creatio &amp; naturae &amp; personae nata sic conuenire, sicut
+            <lb ed="#V" n="81"/>&amp; esse vtrique aliquo modo conuenit, non tamen potest
+            di<lb ed="#V" n="82" break="no"/>ci de Christo, quod sit creatura, quia humana natura
+            <lb ed="#V" n="83"/>creata est nisi fiat additio, vt dicatura secundum hominem
+            <lb ed="#V" n="84"/>vel secundum quod homo, &amp; tunc est tropica vel
+            figurati<lb ed="#V" n="85" break="no"/>ua, vt magister dicit, sicut &amp; haec, ethiops est albus
+            secun<lb ed="#V" n="86" break="no"/>dum dentes. Haec ille.
+          </p>
+          <p xml:id="capsco-c38afd-d1e586">
+            Ex quibus potest sic argui pro
+            conclu<lb ed="#V" n="87" break="no"/>sione. Omne totum potest denominari ex dispositione
+            su<lb ed="#V" n="88" break="no"/>parti, addita illa parte, sed Christus nominat quoddam
+            <lb ed="#V" n="89"/>suppositum se habens ad naturam sibi vnitam quasi totum
+            <lb ed="#V" n="90"/>ad partem, ergo potest denominari ex dispositione partis
+            <lb ed="#V" n="91"/>pars autem vere &amp; realiter dicitur creata &amp; noua, seu
+            ha<lb ed="#V" n="92" break="no"/>bens inceptionem, ergo &amp; veraciter potest dici Christus
+            <lb ed="#V" n="93"/>cratus vel creatura, &amp; incepisse secundum humanitatem.
+            <lb ed="#V" n="94"/>Et in hoc primus articulus terminatur.
+          </p>
+        </div>
+        <div xml:id="capsco-c38afd-Dd1e607">
+          <head xml:id="capsco-c38afd-Hd1e609">Articulus 2</head>
+          <p xml:id="capsco-c38afd-d1e611">
+            <lb ed="#V" n="95"/><milestone ed="#V" unit="p" rend="initial"/> Vantum ad secundum articulum arguendum est
+            con<lb ed="#V" n="96" break="no"/>tra conclusiones. Vnde contra primam arcuitsco.
+            p<lb ed="#V" n="97" break="no"/>bando, quod haec sit concedenda, Christus est creatura.
+            Pr<lb ed="#V" n="98" break="no"/>mo. Quia plus non repugnat illi naturae esse post non esse,
+            <lb ed="#V" n="99"/>quam non esse post esse, vel incipere esse vel etiam desinere
+            <lb ed="#V" n="100"/>esse, quia vtrunque repugnat aeternitati, sed Christus
+            dici<lb ed="#V" n="101" break="no"/>tur mortuus, cum tamen mortuum esse dicat non esse post
+            <lb ed="#V" n="102"/>esse quia non viuere post viuere, &amp; uiuere viuentibus est
+            es<lb ed="#V" n="103" break="no"/>se secundum philosophum secundo de anima. Secundo.
+            <lb ed="#V" n="104"/>Quia mortale &amp; immortale ita repugnat formaliter, sicut
+            <lb ed="#V" n="105"/>creatum &amp; increatum, &amp; tamen ambo prima dicuntur de
+            <lb ed="#V" n="106"/>Christo. sertio Ita repugnat formaliter naturae humanae
+            <lb ed="#V" n="107"/>esse creatorem vel aeternum, sicut repugnat aeterno
+            incipe<lb ed="#V" n="108" break="no"/>re, ergo aeque negabitur Christum esse creatorem propter
+            <lb ed="#V" n="109"/>repugnantiam ad naturam humanam, sicut cretura
+            pro<lb ed="#V" n="110" break="no"/>pter repugnantiam ad naturam diuinam. Quarto.
+            Qui<lb ed="#V" n="111" break="no"/>Damas. ca. quarto dicit, quod Christus est creatus &amp;
+            increa<lb ed="#V" n="112" break="no"/>tus, partibilis &amp; impartibilis, &amp; per eundem conceditur
+            <lb ed="#V" n="113"/>Dei creatura. Quinto. Quia Auguius de sermone domini in
+            <lb ed="#V" n="114"/>monte voluit esse creaturam, qui est creator. Sexto. Quia
+            <lb ed="#V" n="115"/>Hieronymus super illud ephe. Ipsius factura sumus dicit.
+            Mul<lb ed="#V" n="116" break="no"/>ti timore trepidant, ne Christum dicere creatura
+            compel<lb ed="#V" n="117" break="no"/>lantur, nos autem proclamamus non esse periculum
+            dice<lb ed="#V" n="118" break="no"/>re Christum esse creaturam. Haec Scotus. Arguit Durandus etiam.
+            <lb ed="#V" n="119"/>Quia generari est fieri, &amp; generari simpliciter est fieri
+            sim<lb ed="#V" n="120" break="no"/>pliciter quia determinatur ad esse simpliciter &amp; tamen
+            ra<lb ed="#V" n="121" break="no"/>tione humanae naturae conuenit supposito diuino esse
+            geni<lb ed="#V" n="122" break="no"/>tum absolute, &amp; sine aliqua determinatione, &amp; ita
+            simplici<lb ed="#V" n="123" break="no"/>ter, vt nunc loquimur, haec enim recipitur tanquam vera
+            fi<lb ed="#V" n="124" break="no"/>lius Dei, vel Chistus est genitus de virgine, nec oportet
+            ad<lb ed="#V" n="125" break="no"/>dere inquantum homo, ergo similiter potest dici creatus
+            <lb ed="#V" n="126"/>vel creatura absolute, nec oportet addere inquantum
+            ho<lb ed="#V" n="127" break="no"/>mo. Et si dicitur, quod ista non verificatur, Christus est
+            na<lb ed="#V" n="128" break="no"/>tus de matre, nisi cum hac determinatione inquantum
+            ho<lb ed="#V" n="129" break="no"/>mo expressa vel intellecta, pari ratione potest dici, quod
+            il<lb ed="#V" n="130" break="no"/>la Christus est creatura, potest verificari sub eadem
+            deter<lb ed="#V" n="131" break="no"/>minatione non expressa, sed tantum intellecta. Secundo
+            ar<lb ed="#V" n="132" break="no"/>guit contra rationem adductam de tertio sententiarum
+            di<lb ed="#V" n="133" break="no"/>cens. Quia esse simpliciter non est solum esse suppositale, sed
+            <lb ed="#V" n="134"/>omne esse substantiale, quia omnis substantia completa est
+            <lb ed="#V" n="135"/>ens simpliciter ideo sicut in Christo est duplex substantia
+            <lb ed="#V" n="136"/>diuina scilicet &amp; humana, sic &amp; duplex esse, secundum
+            quo<lb ed="#V" n="137" break="no"/>rum quodlibet potest dici simpliciter genitus &amp; natus, &amp;
+            <lb ed="#V" n="138"/>pari ratione secundum alterum potest dici creatus, nisi aliud
+            <lb ed="#V" n="139"/>obsistat.
+          </p>
+          <p xml:id="capsco-c38afd-d1e712">
+            Tertio arguit contra illud, quod dicit conclusio de
+            <lb ed="#V" n="140"/>tertia parte. Quia sicut creari natum est conuenire
+            supposi<lb ed="#V" n="141" break="no"/>to &amp; naturae, ita &amp; nasci vel generari sed hoc non obstante
+            <lb ed="#V" n="142"/>filius Dei, vel Christus dicitur absolute genitus, vel natus
+            <lb ed="#V" n="143"/>de virgine, nec oportet addere inquantum homo, ergo
+            ea<lb ed="#V" n="144" break="no"/>dem ratione poterit dici creatus absolute sine aliqua
+            deter<lb ed="#V" n="145" break="no"/>minatione propter humanam naturam; quae in principijs
+            <lb ed="#V" n="146"/>suis est a Deo secundum creationem, &amp; secundum se
+            habi<lb ed="#V" n="147" break="no"/>ta a matre per generationem vel natiuitatem. Quarto
+            ar<lb ed="#V" n="148" break="no"/>guit. Quia humana natura est pars suppositi diuini alio
+            mo<lb ed="#V" n="149" break="no"/>do quam sint illae partes, de quibus exemplificatur, quia
+            il<lb ed="#V" n="150" break="no"/>lae partes non praedicantur de toto substantialiter &amp; in quod.
+            <pb ed="#V" n="87"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>Non enim bene dicitur, homo est Deus, vel capillus:
+            respi<lb ed="#V" n="2" break="no"/>ciunt etiam totum diminute, &amp; ideo non est mirum, si
+            pro<lb ed="#V" n="3" break="no"/>prietates earum non denominent simpliciter &amp; absolute
+            <lb ed="#V" n="4"/>suum totum, sed humana natura in Christo praedicatur de
+            <lb ed="#V" n="5"/>supposito aliquomodo in quid &amp; substantialiter, dicimus
+            <lb ed="#V" n="6"/>enim quod filius Dei est homo, &amp; similiter respicit totum
+            <lb ed="#V" n="7"/>suppositum indifferenter &amp; perfecte, &amp; ideo proprietates
+            <lb ed="#V" n="8"/>eius magis possunt perfecte denominare suppositum
+            abso<lb ed="#V" n="9" break="no"/>lute.
+          </p>
+          <p xml:id="capsco-c38afd-d1e762">
+            Quinto arguit contra quoddam dictum Sancti Thomae
+            <lb ed="#V" n="10"/>dicens. Quia cum conceditur ista propositio, Christus
+            se<lb ed="#V" n="11" break="no"/>cundum quod homo est creatura, ly secundum quod non
+            <lb ed="#V" n="12"/>est nota perseitatis, sed deteerminatio explicans modum
+            im<lb ed="#V" n="13" break="no"/>perfectum. Hoc inquit Durandus non videtur sufficienter
+            di<lb ed="#V" n="14" break="no"/>ctum, quia natura humana est causa, &amp; ratio quare
+            supposi<lb ed="#V" n="15" break="no"/>to diuino possit inesse creatio, nec imperfecte conueniunt
+            <lb ed="#V" n="16"/>Christo, quae conueniunt ei ratione humanae naturae, vt
+            na<lb ed="#V" n="17" break="no"/>sci, mori praedicare, &amp; huiusmodi, sicut imperfecte
+            conue<lb ed="#V" n="18" break="no"/>nit albedo homini ratione dentis. Haec ille.
+          </p>
+          <p xml:id="capsco-c38afd-d1e784">
+            Contra
+            secun<lb ed="#V" n="19" break="no"/>dam conclusionem arguit Scotus probando, quod haec
+            pro<lb ed="#V" n="20" break="no"/>positio sit simpliciter concedenda, Christus incepit esse
+            <lb ed="#V" n="21"/>Quia cum Christus importet vnum totum quasi per
+            acci<lb ed="#V" n="22" break="no"/>deus scilicet verbum hominem secundum Damascenum
+            praedica<lb ed="#V" n="23" break="no"/>tum scilicet inceptio potest verificari de subiecto ratione
+            <lb ed="#V" n="24"/>totalitatis suae vel ratione vnius partis quaecunque sit illa,
+            <lb ed="#V" n="25"/>sicut cum dicitur sortes albus incipit esse, subiectum potest
+            <lb ed="#V" n="26"/>accipi dupliciter respectu praedicati, vel pro toto ente per
+            <lb ed="#V" n="27"/>accidens, siue pro albedine, vt dicatur incipere, quia albedo
+            <lb ed="#V" n="28"/>incipit esse, vel quia subiectum incipit esse, sicut igitur
+            Chri<lb ed="#V" n="29" break="no"/>stus secundum humanitatem est mortuus, &amp; ideo
+            concedi<lb ed="#V" n="30" break="no"/>tur quod Christus est mortuus, ita si secundum
+            humanita<lb ed="#V" n="31" break="no"/>tem incipit esse, ita quod hoc praedicatum possit vere
+            enun<lb ed="#V" n="32" break="no"/>ciari de subiecto ratione illius partis subiecti, videtur quod
+            <lb ed="#V" n="33"/>possit simpliciter nunciari de illo. Restat ergo videre vtrum
+            in<lb ed="#V" n="34" break="no"/>cipere esse dicat inceptionem secundum primum esse eius de
+            <lb ed="#V" n="35"/>quo dicitur vel secundum quodcunque simpliciter esse
+            il<lb ed="#V" n="36" break="no"/>lius, quia si primo modo falsa est sicut est ista, Christus
+            crea<lb ed="#V" n="37" break="no"/>tur. Si secundo modo cum quodlibet esse substantiae sit esse
+            <lb ed="#V" n="38"/>simpliciter, &amp; Christus inceperit esse secundum esse
+            huma<lb ed="#V" n="39" break="no"/>num, quod est substantiae, videtur quodincepit esse
+            simplici<lb ed="#V" n="40" break="no"/>ter. Secundum autem videtur magis esse de virtute
+            sermo<lb ed="#V" n="41" break="no"/>nis, quia sicut esse secundum enunciat esse simpliciter, &amp; non
+            <lb ed="#V" n="42"/>ex vi sermonis primum esse eius, de quo dicitur si subiectum
+            <lb ed="#V" n="43"/>habet plura esse sicut Christus, ita &amp; incipere
+            determina<lb ed="#V" n="44" break="no"/>tum per secundum esse videtur dicere inceptionem in esse
+            <lb ed="#V" n="45"/>simpliciter, non autem in primo esse illius subiecti
+            simplici<lb ed="#V" n="46" break="no"/>ter: ergo de virtute sermonis posset concedi, quod Christus
+            <lb ed="#V" n="47"/>secundum quod importat hoc, quod est verbum, homo
+            in<lb ed="#V" n="48" break="no"/>cepit esse, hoc est habet aliquod esse simpliciter, quod prius
+            <lb ed="#V" n="49"/>non habuit, licet hoc non sit primum esse Christi. Hoc
+            mo<lb ed="#V" n="50" break="no"/>do etiam posset ista concedi, iste homo incepit esse, non
+            ta<lb ed="#V" n="51" break="no"/>men nude, quia de subiecto demonstrante suppositum in
+            <lb ed="#V" n="52"/>natura diuina non debet concedi inceptio, sicut quod filius
+            <lb ed="#V" n="53"/>Dei incepit esse. Haec Scotus. Arguit Durandus etiam contra eandem.
+            <lb ed="#V" n="54"/>Quia si ista simpliciter neganda sit, Christus vel iste
+            homo<lb ed="#V" n="55" break="no"/>incepit esse, hoc potissime secundum te videtur, quia per
+            <lb ed="#V" n="56"/>istam videtur, quod inceptio conueniat Christo non solum
+            <lb ed="#V" n="57"/>ratione naturae humanae, sed ratione ipsius suppositi, quia
+            <lb ed="#V" n="58"/>terminus positus in subiecto non tenetur formaliter
+            pro<lb ed="#V" n="59" break="no"/>natura, sed magis materialiter pro supposito, &amp; ideo
+            ra<lb ed="#V" n="60" break="no"/>tione naturae humanae non inceptio Christo
+            compete<lb ed="#V" n="61" break="no"/>re quamuis nomine Christi vel hominis importetur
+            natu<lb ed="#V" n="62" break="no"/>ra humana, quia quando haec nomina potest ponuntur ex
+            <lb ed="#V" n="63"/>parte subiecti non stant pro natura, sed pro supposito. Sed
+            <lb ed="#V" n="64"/>istud non valet, quia pro tanto terminus in subiecto positus
+            <lb ed="#V" n="65"/>dicitur materialiter teneri pro supposito, &amp; non formaliter
+            <lb ed="#V" n="66"/>pro natura, quia aliquid potest verificari de eo non ratione
+            <lb ed="#V" n="67"/>naturae per ipsum importatae, vt si dicatur, album disputat,
+            <lb ed="#V" n="68"/>per hoc tamen non excluditur, quin termino posito in
+            su<lb ed="#V" n="69" break="no"/>biecto, multa possint conuenire ratione naturae per
+            termi<lb ed="#V" n="70" break="no"/>num importatae, vt si dicatur album disgregat, vel homo est
+            <lb ed="#V" n="71"/>rationalis. Et eodem modo licet iste terminus, Christus, vel
+            <lb ed="#V" n="72"/>iste, homo a parte subiecti positus stet pro supposito, &amp; non
+            <lb ed="#V" n="73"/>formaliter pro natura humana quia aliqua possunt ei
+            con<lb ed="#V" n="74" break="no"/>uenire non ratione humanae naturae, vt infinitas virtutis, &amp;
+            <lb ed="#V" n="75"/>huiusmodi, tamen per hoc non excluditur, quin ratione
+            hu<cb ed="#V" n="b"/><lb ed="#V" n="76" break="no"/>manae naturae possint ei multa conuenire vt incipere esse,
+            <lb ed="#V" n="77"/>nisi aliud obsistat.
+          </p>
+          <p xml:id="capsco-c38afd-d1e917">
+            Secundo. Quia si hoc negaretur, hoc esset
+            <lb ed="#V" n="78"/>secundum aliquos, quia proprietas humanae naturae, quae
+            <lb ed="#V" n="79"/>excludit a Christo proprietatem naturae diuinae, non
+            potest<lb ed="#V" n="80" break="no"/>ei absolute conuenire, sed incipere esse est huiusmodi, quia
+            <lb ed="#V" n="81"/>includit non semper fuisse, proprietas autem diuinae
+            natu<lb ed="#V" n="82" break="no"/>rae est semper fuisse, &amp; sic incipere esse excludit a Christo
+            <lb ed="#V" n="83"/>proprietatem diuinae naturae &amp;c. Sed hoc non videtur
+            vale<lb ed="#V" n="84" break="no"/>re, quia quamuis ponendo in Christo solum vnum esse
+            inci<lb ed="#V" n="85" break="no"/>pere esse excludat semper fuisse secundum quodcunque
+            es<lb ed="#V" n="86" break="no"/>se, ex quo non ponitur nisi vnum, tamen ponendo in
+            Chri<lb ed="#V" n="87" break="no"/>sto plura esse sicut oportet aliquomodo ponere incipere
+            es<lb ed="#V" n="88" break="no"/>se secundum vnum esse non excludit semper fuisse, nisi
+            secun<lb ed="#V" n="89" break="no"/>dum illud tantum, &amp; hoc est verum in Christo, quia dato
+            <lb ed="#V" n="90"/>quod inceperit esse secundum naturam humanam, &amp; non
+            <lb ed="#V" n="91"/>semper fuerit secundum illud esse, per hoc tamen non
+            ex<lb ed="#V" n="92" break="no"/>cluditur, quin semper fuerit secundum aliud scilicet secundum
+            <lb ed="#V" n="93"/>esse diuinum &amp; sic proprietates humanae naturae non
+            exclu<lb ed="#V" n="94" break="no"/>dunt proprietatem diuinae naturae. Non enim sic est de
+            in<lb ed="#V" n="95" break="no"/>cipere esse, sicut de creari, quia creari est produci nullo
+            pe<lb ed="#V" n="96" break="no"/>nitus supposito ex parte eius quod dicitur creari, incipere
+            <lb ed="#V" n="97"/>autem esse est de nouo accipere esse quod prius non
+            habe<lb ed="#V" n="98" break="no"/>bat, quamuis forsitan haberet aliud esse.
+          </p>
+          <p xml:id="capsco-c38afd-d1e965">
+            Tertio. Quia
+            nul<lb ed="#V" n="99" break="no"/>lum inconueniens videtur concedere illam cum
+            distin<lb ed="#V" n="100" break="no"/>ctione. Cuius ratio est, quia quamuis esse dicatur
+            multipli<lb ed="#V" n="101" break="no"/>citer, tamen illa multiplicitas terminatur per adiuncta non
+            <lb ed="#V" n="102"/>solum ex parte praedicati vt dicendo homo incipit esse
+            al<lb ed="#V" n="103" break="no"/>bus, vbi non accipitur esse pro esse simpliciter, sed pro esse
+            <lb ed="#V" n="104"/>tali, immo etiam per illud quod ponitur ex parte subiecti,
+            <lb ed="#V" n="105"/>vt dicendo, albedo incipit, esse, hoc enim verificatur non per
+            <lb ed="#V" n="106"/>esse simpliciter, quia tale esse non competit albedini, sed qpr
+            <lb ed="#V" n="107"/>esse secundum, quid, quod competit accidentibus, &amp; illud
+            <lb ed="#V" n="108"/>aut est de virtute sermonis, vt sic accipiatur esse in
+            praedica<lb ed="#V" n="109" break="no"/>to, sicut congruit subiecto, vel saltem ex vsu loquendi. Quum
+            <lb ed="#V" n="110"/>ergo ex parte subiecti ponitur terminus concretus
+            impor<lb ed="#V" n="111" break="no"/>tans suppositum &amp; naturam, &amp; per illam naturam
+            consti<lb ed="#V" n="112" break="no"/>tuitur suppositum, tunc si ei attribuatur esse, oportet quod
+            <lb ed="#V" n="113"/>intelligatur de esse suppositi &amp; naturae, quia per aliam
+            natu<lb ed="#V" n="114" break="no"/>ram non est suppositum illud nec habet allud esse
+            supposi<lb ed="#V" n="115" break="no"/>ti quam illud quod congruit ei ratione naturae. Si vero non
+            <lb ed="#V" n="116"/>constituatur per naturam importatam per terminum in
+            su<lb ed="#V" n="117" break="no"/>biccto positum, vt cum dicitur, album est, uel cum in
+            subie<lb ed="#V" n="118" break="no"/>cto ponitur duplex terminus, vnus importans naturam,
+            ped<lb ed="#V" n="119" break="no"/>quam suppositum constituitur, alius vero non, sed quandam
+            <lb ed="#V" n="120"/>aliam sicut dicendo, homo albus est, vel incepit esse, tunc
+            <lb ed="#V" n="121"/>non est loquendum simpliciter, sed cum quadam
+            distinctio<lb ed="#V" n="122" break="no"/>ne scilicet an incipere esse referatur ad suppositum
+            secun<lb ed="#V" n="123" break="no"/>dum se &amp; naturam constituentem ipsum, vel ad ipsum
+            ra<lb ed="#V" n="124" break="no"/>tione alterius naturae, verbi gratia si quaeritur, an homo
+            al<lb ed="#V" n="125" break="no"/>ve incepit esse, supposito quod homo qui fuit prius,
+            po<lb ed="#V" n="126" break="no"/>stea factus est albus, non erit respondendum absolute, sed
+            <lb ed="#V" n="127"/>dicendum quod si incipere esse referatur ad hominem,
+            fal<lb ed="#V" n="128" break="no"/>sum est, si uero ad hominem inquantum albus, vera est. Et
+            <lb ed="#V" n="129"/>causa huius distinctionis est, quia esse positum in
+            praedica<lb ed="#V" n="130" break="no"/>to accipitur secundum vsum loquendi prout congruit
+            su<lb ed="#V" n="131" break="no"/>biecto, propter quod vbi diuersa implicantur in subiecto,
+            <lb ed="#V" n="132"/>quibus diuersimode conuenit esse, opus est praedicta
+            distin<lb ed="#V" n="133" break="no"/>ctione. Modo in proposito nostro cum dicitur, Christus
+            <lb ed="#V" n="134"/>incepit esse per terminum in subiecto positum importatur
+            <lb ed="#V" n="135"/>suppositum diuinum, &amp; natura humana, per quam non
+            con<lb ed="#V" n="136" break="no"/>stituitur, &amp; similiter cum dicitur, iste homo. Non autem sic
+            <lb ed="#V" n="137"/>est cum dicitur, filius Dei, quia per hoc nomen non
+            impor<lb ed="#V" n="138" break="no"/>tatur nisi suppositum diuinum cum constituentibus ipsum,
+            <lb ed="#V" n="139"/>&amp; ideo si dicatur filius Dei incepit esse, falsa est, quia
+            intelli<lb ed="#V" n="140" break="no"/>gitur de esse, quod conuenit supposito ratione sui &amp;
+            con<lb ed="#V" n="141" break="no"/>stituentium ipsum, quod nunquam esse incipit, sed cum
+            di<lb ed="#V" n="142" break="no"/>citur, Christus, veliste homo incipit esse, distinguendum
+            <lb ed="#V" n="143"/>est, quia aut refertur ad suppositum ratione suppositi, &amp;
+            <lb ed="#V" n="144"/>tunc est falsa, aut ratione humanae naturae, &amp; tunc est
+            ve<lb ed="#V" n="145" break="no"/>ra. Haec Durandus. Et in hoc secundus articulus
+            termi<lb ed="#V" n="146" break="no"/>natur.
+          </p>
+        </div>
+        <div xml:id="capsco-c38afd-Dd1e1073">
+          <head xml:id="capsco-c38afd-Hd1e1075">Articulus 3</head>
+          <p xml:id="capsco-c38afd-d1e1077">
+            <lb ed="#V" n="147"/><milestone ed="#V" unit="p" rend="initial"/> QVantum ad tertium articulum respondendum est
+            ob<lb ed="#V" n="148" break="no"/>iectionibus supradictis. Et ideo ad primum contra
+            pri<lb ed="#V" n="149" break="no"/>mam conclusionem negatur minor scilicet quod Christus
+            ha<lb ed="#V" n="150" break="no"/>buerit non esse simpliciter post esse quia in Christo non est,
+            <pb ed="#V" n="88"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>nec fuit nisi vnicum esse simpliciter, quod est aeternum, vt
+            <lb ed="#V" n="2"/>patet ex praecedentibus. Et ad probationem dicitur, quod
+            Chri<lb ed="#V" n="3" break="no"/>stus in morte sua non perdidit esse simpliciter, sed esse
+            ho<lb ed="#V" n="4" break="no"/>minem. Et cum dicitur quod Christus habuit non viuere
+            <lb ed="#V" n="5"/>post viuere &amp;c. negatur, quia, Christus semper habuit
+            viue<lb ed="#V" n="6" break="no"/>re, licet non semper habuerit viuere humanum, immo in
+            <lb ed="#V" n="7"/>istis consequentijs est fallacia consequentis arguendo a
+            ne<lb ed="#V" n="8" break="no"/>gatione inferiorum ad negationem superiorum, vt sic
+            dicen<lb ed="#V" n="9" break="no"/>do Christus in morte habuit non esse hominem igitur
+            ha<lb ed="#V" n="10" break="no"/>buit non esse vel non vixit vita humana, igitur non vixit
+            vi<lb ed="#V" n="11" break="no"/>ta. Sicut enim ex assumptione naturae humanae non aduenit
+            <lb ed="#V" n="12"/>filio Dei aliquod nouum esse simpliciter, se d noua
+            habitu<lb ed="#V" n="13" break="no"/>do esse personalis praeexistentis ad naturam humanam, vt scilicet
+            <lb ed="#V" n="14"/>persona illa iam dicatur subsistere non solum
+            secundun<lb ed="#V" n="15" break="no"/>naturam diuinam, sed etiam secundum humanam vt ponit
+            <lb ed="#V" n="16"/>Sanct. Thomas tertia parte. q. 17. ar. 2. &amp; 3. senten. dist. 8. q. 1. ar.
+            <lb ed="#V" n="17"/>4. quaestiuncula prima in solu. secundi. vbi sic dicit.
+            Quam<lb ed="#V" n="18" break="no"/>uis in Christo sit vnum esse, tamen secundum illud habet
+            <lb ed="#V" n="19"/>respectum ad duas naturas, &amp; ita natiuitas est duplex secum
+            <lb ed="#V" n="20"/>dum duplicem respectum, qui acquiritur personae ad quas
+            <lb ed="#V" n="21"/>naturas acceptas per generationem. Haec ille.
+          </p>
+          <p xml:id="capsco-c38afd-d1e1139">
+            Sic
+            proportio<lb ed="#V" n="22" break="no"/>naliter dicendum est, quod Christus in morte non perdidit
+            <lb ed="#V" n="23"/>aliquod esse simpliciter, quod prius haberet, sed esse eius
+            aeter<lb ed="#V" n="24" break="no"/>num desiit habere respectum ad aliquid ad quod prius
+            ha<lb ed="#V" n="25" break="no"/>buit respectum scilicet ad humanitatem, licet quaelibet pars
+            hu<lb ed="#V" n="26" break="no"/>manitatis remanserit vnita personae diuinae. Et simpliciter
+            <lb ed="#V" n="27"/>si viuere dicat esse simpliciter cum habitudine ad
+            princi<lb ed="#V" n="28" break="no"/>pium viuendi, puta naturam humanam &amp; diuinam, tunc in
+            <lb ed="#V" n="29"/>Christo fuit duplex viuere, non quidem propter duplex
+            es<lb ed="#V" n="30" break="no"/>se, sed propter duplicem habitudinem ad principium
+            viuen<lb ed="#V" n="31" break="no"/>di, &amp; sic quia in morte desiit vnus illorum, ideo desiit vnum
+            <lb ed="#V" n="32"/>viuere. eshumanum non desinente aliquo esse simpliciter.
+          </p>
+          <p xml:id="capsco-c38afd-d1e1165">
+            <lb ed="#V" n="33"/>Ad secundum dicitur, quod non est simile de creato &amp;
+            in<lb ed="#V" n="34" break="no"/>creato &amp; de mortali, &amp; immortali, quia mori potius
+            conce<lb ed="#V" n="35" break="no"/>ditur de Christo quam creari, cuius ratio est, quia sicut
+            di<lb ed="#V" n="36" break="no"/>cit Sanct. Thomas 3. sententiarum dist. 21. q. 1. ar. 3. in
+            solutio<lb ed="#V" n="37" break="no"/>ne secundi. Nomen creaturae non magis se habet, ad naturam
+            <lb ed="#V" n="38"/>quam ad suppositum vel personam, &amp; ideo non potest
+            di<lb ed="#V" n="39" break="no"/>ci simpliciter ratione naturae, praecipue cum creatio
+            respi<lb ed="#V" n="40" break="no"/>ciat esse, quod magis videtur ad personam quam ad naturam
+            <lb ed="#V" n="41"/>pertinere. Haec ille.
+          </p>
+          <p xml:id="capsco-c38afd-d1e1187">
+            Et post in solu. 5. sic dicit. Ea quae sunt
+            <lb ed="#V" n="42"/>partis tantum, &amp; parti nata conuenire dicuntur de toto
+            ra<lb ed="#V" n="43" break="no"/>tione partis, sicut homo dicitur crispus propter capillos, &amp;
+            <lb ed="#V" n="44"/>ita mors, quae est conditio corporis, potest praedicari de
+            perso<lb ed="#V" n="45" break="no"/>na. Haec ille.
+          </p>
+          <p xml:id="capsco-c38afd-d1e1199">
+            Ex quibus patet, quod mori praedicatur de
+            Chri<lb ed="#V" n="46" break="no"/>sto sine additione, qua tale praedicatum est proprietas
+            par<lb ed="#V" n="47" break="no"/>tis scilicet corporis, creari autem est tale praedicatum, quod ita
+            na<lb ed="#V" n="48" break="no"/>tum est conuenire toti sicut parti, ideo vnum conceditur
+            <lb ed="#V" n="49"/>de Chri sto ratione naturae humanae, non autem aliud de
+            <lb ed="#V" n="50"/>hoc diffuse loquitur. 3. nono.
+          </p>
+          <p xml:id="capsco-c38afd-d1e1212">
+            Item tertio sententiarum di.
+            <lb ed="#V" n="51"/>12. q. 1. ar. 4. sic dicit. Natura &amp; suppositum naturae in
+            qui<lb ed="#V" n="52" break="no"/>busdam differunt re, &amp; ratione sicut in compositis in,
+            qui<lb ed="#V" n="53" break="no"/>busdam autem ratione &amp; non re sicut in diuinis, sed
+            differen<lb ed="#V" n="54" break="no"/>tia quae est secundum rationem est differentia oppositionis
+            <lb ed="#V" n="55"/>quia natura &amp; suppositum habent intentiones oppositas,
+            <lb ed="#V" n="56"/>&amp; ideo ea quae pertinent ad rationem naturae nullo modo
+            <lb ed="#V" n="57"/>praedicantur de supposito nec in abstracto, nec in concreto
+            <lb ed="#V" n="58"/>neque in diuinis, neque in humanis, sicut pater non dicitur
+            <lb ed="#V" n="59"/>commune tribus, nec petrus dicitur forma totius.
+            Differen<lb ed="#V" n="60" break="no"/>tia autem quae est secundum rem, non est oppositionis, sed
+            <lb ed="#V" n="61"/>est sicut principii formalis ad formatum, &amp; ideo illa quae
+            <lb ed="#V" n="62"/>secundum rem ad naturam pertinent, possunt praedicari de
+            <lb ed="#V" n="63"/>supposito, sicut natura praedicatur scilicetin concreto. Quia autem
+            <lb ed="#V" n="64"/>vnio facta est in supposito, vt scilicet idem sit suppositum
+            huma<lb ed="#V" n="65" break="no"/>nae naturae &amp; diuinae, ideo de illo supposito possunt
+            praedi<lb ed="#V" n="66" break="no"/>cari ea, quae consequuntur secundum rem vtranque naturam
+            <lb ed="#V" n="67"/>sicut &amp; ipsae naturae de ipso praedicantur. Quia enim diuina
+            <lb ed="#V" n="68"/>natura praedicatur de filio Dei in abstracto &amp; in concreto,
+            <lb ed="#V" n="69"/>ideo &amp; proprietates eius possunt vtroque modo praedicari
+            <lb ed="#V" n="70"/>de ipso quia vero natura humana praedicatur in concreto
+            <lb ed="#V" n="71"/>tantum, ideo proprietates naturae humanae in concreto
+            tan<lb ed="#V" n="72" break="no"/>tum praedicantur, nec differt vtrum fiat praedicatio
+            secun<lb ed="#V" n="73" break="no"/>dum nomen, quod significat diuinam naturam vt verbum,
+            <lb ed="#V" n="74"/>vel humanam vt Iesus, vel vtranque, prout significat
+            Chri<lb ed="#V" n="75" break="no"/>stus, quia per omnia supponitur idem suppositum, sed
+            ta<cb ed="#V" n="b"/><lb ed="#V" n="76" break="no"/>men hoc suppositum non constituitur per naturam
+            huma<lb ed="#V" n="77" break="no"/>nam, sed natura humana aduenit ei iam ab aeterno
+            praeexi<lb ed="#V" n="78" break="no"/>stenti in alia natura. Vnde duo singulariter inueniuntur in
+            <lb ed="#V" n="79"/>compositione naturae humanae ad istud suppositum scilicet quod
+            <lb ed="#V" n="80"/>vnitur ei, &amp; quod se habet ad ipsum per modum partis,
+            se<lb ed="#V" n="81" break="no"/>cundum quod illud suppositum in duabus naturis
+            subsi<lb ed="#V" n="82" break="no"/>stit. Et ideo a praedicta generalitate excluduntur ea, quae
+            im<lb ed="#V" n="83" break="no"/>portant vnionem, &amp; iterum quae nata sunt de se conuenire
+            <lb ed="#V" n="84"/>naturae &amp; personae, quae non possunt praedicari de
+            supposi<lb ed="#V" n="85" break="no"/>to, nisi cum additione, sicut ea quae sunt partis de toto Haec
+            <lb ed="#V" n="86"/>ille.
+          </p>
+          <p xml:id="capsco-c38afd-d1e1294">
+            Item eadem, q. ar. 2. in solutione 4. sic dicit. Totum
+            de<lb ed="#V" n="87" break="no"/>nominatur a proprietate partis quando illa proprietas
+            nul<lb ed="#V" n="88" break="no"/>lo modo nata est conuenire, nisi illi parti, sicut crispitudo
+            ca<lb ed="#V" n="89" break="no"/>pillis, &amp; claudicatio pedi, sed creatio non tantum naturae,
+            <lb ed="#V" n="90"/>sed etiam personae nata est conuenire, &amp; etiam personae, &amp;
+            <lb ed="#V" n="91"/>supposito magis proprie, &amp; ideo non potest dici de
+            supposi<lb ed="#V" n="92" break="no"/>to quod sit creatum, quia natura est creata. Et per hoc
+            pa<lb ed="#V" n="93" break="no"/>tet solutio ad quintum. Quia nasci de matre non est natum
+            <lb ed="#V" n="94"/>conuenire supposito hominis nisi per hoc quod corpus
+            tra<lb ed="#V" n="95" break="no"/>ducitur a matre vnde non habet repugnantiam
+            temporali<lb ed="#V" n="96" break="no"/>ter nasci ad aeternaliter nasci, quia vnum naturam humanam
+            <lb ed="#V" n="97"/>respicit &amp; alterum naturam diuinam, quarum vnam habet
+            <lb ed="#V" n="98"/>Christus a patre aeternaliter, alteram a matre temporaliter,
+            <lb ed="#V" n="99"/>sed creatum &amp; increatum vtrunque potest respicere
+            suppo<lb ed="#V" n="100" break="no"/>situm ratione esse, quod est suppositi. Haec ille. Sicut autem
+            <lb ed="#V" n="101"/>ille dicit de nasci temporaliter, ita dicendum est de mori.
+          </p>
+          <p xml:id="capsco-c38afd-d1e1329">
+            <lb ed="#V" n="102"/>Ad tertium negatur consequentia. Quia Christus aliter se
+            <lb ed="#V" n="103"/>habet ad naturam diuinam quam ad humanam, vnde hoc
+            <lb ed="#V" n="104"/>argumentum quasi in forma soluit Sanct. Thomas 3. senten.
+            <lb ed="#V" n="105"/>distin. 12. q. 1. ar. 1. vbi arguit sic. Iste homo demonstrat
+            sup<lb ed="#V" n="106" break="no"/>positum vtriusque naturae diuinae scilicet &amp; humanae, sed ratione
+            <lb ed="#V" n="107"/>diuinae naturae potest dici, iste homo fuit semper, ergo cum
+            <lb ed="#V" n="108"/>incipere conueniat humanae naturae, sicut esse ab aeterno
+            di<lb ed="#V" n="109" break="no"/>uinae, ratione humanae naturae potest dici, iste homo incipit
+            <lb ed="#V" n="110"/>esse. Ecce argumentum, quod est simile argumento Scoti
+            se<lb ed="#V" n="111" break="no"/>quitur responsio. Dicendum inquit, quod quamuis illud
+            <lb ed="#V" n="112"/>suppositum sit vtriusque naturae suppositum, tamen
+            quan<lb ed="#V" n="113" break="no"/>tum ad aliqua se habet aliter ad naturam diuinam quam
+            <lb ed="#V" n="114"/>ad humanam, quia est idem re cum natura diuina, &amp;
+            consti<lb ed="#V" n="115" break="no"/>tutum in esse per ipsam secundum modum intelligendi,
+            <lb ed="#V" n="116"/>vnde quandocunque fuit natura diuina, fuit ipsum
+            supposi<lb ed="#V" n="117" break="no"/>tum, non autem ita se habet ad naturam humanam, &amp; ideo non
+            <lb ed="#V" n="118"/>oportet, quod incipiente humana natura, ipsum incipiat.
+            <lb ed="#V" n="119"/>Haec ille. Similiter in proposito dico, quod licet
+            natu<lb ed="#V" n="120" break="no"/>rae humanae repugnet esse creatorem, non tamen repugnat
+            <lb ed="#V" n="121"/>supposito eius, quod potest esse aliud ab ea, sed creari non
+            <lb ed="#V" n="122"/>solum repugnat naturae diuinae immo cuilibet suo
+            supposi<lb ed="#V" n="123" break="no"/>to, quia semper est idem cum ea, nec potest ab ea realiter
+            di<lb ed="#V" n="124" break="no"/>stingui.
+          </p>
+          <p xml:id="capsco-c38afd-d1e1381">
+            Ad quartum respondit. Sanct. Thomas 3. parte q. 16.
+            <lb ed="#V" n="125"/>ar. S8 in solutione secundi, vbi sic dicit. Omnes proprietates
+            <lb ed="#V" n="126"/>naturae humanae possunt aliqualiter dici de Christo, sicut
+            <lb ed="#V" n="127"/>&amp; diuinae, vnde Damascenus dicit in 3. li. Quia Christus qui Deus
+            <lb ed="#V" n="128"/>&amp; homo dicitur creabilis est &amp; increabilis &amp; impartibilis,
+            <lb ed="#V" n="129"/>sed tamen illa quae dubitationem habent circa alterutram
+            <lb ed="#V" n="130"/>naturam non sunt dicenda absque determinatione, vnde
+            <lb ed="#V" n="131"/>&amp; ipse postea alibi subdit. Ipsa vna hypostasis scilicet Christi &amp;
+            <lb ed="#V" n="132"/>increata est diuinitate &amp; creata est humanitate, sicut &amp;
+            econ<lb ed="#V" n="133" break="no"/>uerso non esset dicendum sine determinatione.
+            Chri<lb ed="#V" n="134" break="no"/>stus est incorporeus vel impassibilis ad euitandum errorem
+            <lb ed="#V" n="135"/>manichei, qui posuit Christum verum corpus non
+            habuis<lb ed="#V" n="136" break="no"/>se, nec vere passum esse, sed dicendum est cum
+            determina<lb ed="#V" n="137" break="no"/>tione, quod Christus secundum diuinitatem est
+            incorpo<lb ed="#V" n="138" break="no"/>reus &amp; est impassibilis. Haec ille.
+          </p>
+          <p xml:id="capsco-c38afd-d1e1414">
+            Ad quintum dicitur, sicut
+            <lb ed="#V" n="139"/>dicit Sanct. Thomas ibidem in solutione primi. Aliquando
+            <lb ed="#V" n="140"/>sancti doctores causa breuitatis determinatione omissa
+            no<lb ed="#V" n="141" break="no"/>minatione creaturae vtuntur circa Christum, est tamen in
+            <lb ed="#V" n="142"/>eorum dictis subintelligenda. Haec ille.
+          </p>
+          <p xml:id="capsco-c38afd-d1e1426">
+            Ad sextum dicitur,
+            <lb ed="#V" n="143"/>sicut ad praecedens, vnde Sanct. Thomas 3. sent. dist. 12. q. 1.
+            ar<lb ed="#V" n="144" break="no"/>ti. 1. in solutione primi, sic dicit. Talia &amp; similia verba
+            intel<lb ed="#V" n="145" break="no"/>ligenda sunt cum determinatione, vt magister dicit in
+            litte<lb ed="#V" n="146" break="no"/>ra, quamuis illa determinatio causa breuitatis
+            intermitta<lb ed="#V" n="147" break="no"/>tur. Haec ille.
+          </p>
+          <p xml:id="capsco-c38afd-d1e1439">
+            Ad septimum Durandus dicitur secundum Sanctum
+            <lb ed="#V" n="148"/>Thomas tertia parte q. 16. art. 8. in solu. 3. quod est tale.
+            Prin<lb ed="#V" n="149" break="no"/>cipalior pars hominis est anima quam corpus sed Christus
+            <lb ed="#V" n="150"/>ratione corporis, quod traxit de virgine, dicitur simpliciter
+            <pb ed="#V" n="89"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>esse natus de virgine, ergo ratione animae, quae creata est a
+            <lb ed="#V" n="2"/>Deo, debet simpliciter dici, quod Christus sit creatura,
+            Ec<lb ed="#V" n="3" break="no"/>ce argumentum sequitur respotesio. Dicendum inquit, quod
+            <lb ed="#V" n="4"/>de natiuitate ex virgine nulla dubitatio potest esse quod
+            conue<lb ed="#V" n="5" break="no"/>niat personae filij Dei, sicut potest esse de creatione, &amp; ideo
+            <lb ed="#V" n="6"/>non est similis ratio vtrobique. Haec ille.
+          </p>
+          <p xml:id="capsco-c38afd-d1e1465">
+            In tertio autem
+            <lb ed="#V" n="7"/>sent. 11. q. 1. ar. 2. in solu. 5. respondit, quod nasci ex matre non
+            <lb ed="#V" n="8"/>est natum conuenire supposito hominis nisi per hoc, quod
+            <lb ed="#V" n="9"/>corpus traducitur ex matre &amp;c. vt recitatum est in
+            solutio<lb ed="#V" n="10" break="no"/>secundi. Potest etiam dici quod ista simpliciter, sine
+            addi<lb ed="#V" n="11" break="no"/>tione loquendo est falsa, Christus vel filius Dei factus est,
+            si<lb ed="#V" n="12" break="no"/>cut &amp; ista, Christus creatus est. De hoc Sanct. Thomas tertio
+            <lb ed="#V" n="13"/>sen. dist. 7. q. 2. art. 1. sic dicit. Cum dicitur, Deus factus est
+            <lb ed="#V" n="14"/>homo, hoc participium factus, potest se tripliciter habere
+            <lb ed="#V" n="15"/>in locutione ista, vno modo quod feratur ad totam
+            propo<lb ed="#V" n="16" break="no"/>sitionem, vt sit sensus est factum, quod Deus sit homo, &amp; sic
+            <lb ed="#V" n="17"/>est vera, quamuis hic intellectus non possit haberi secundum
+            <lb ed="#V" n="18"/>proprietatem locutionis. Tum quia non est de illis, quae
+            ha<lb ed="#V" n="19" break="no"/>bent determinare compositionem, sicut necessarium &amp;
+            con<lb ed="#V" n="20" break="no"/>tingens. Tum quia cum sit adiectiuum masculini generis
+            re<lb ed="#V" n="21" break="no"/>quirit substantiuum. Secundo dictum participium potest
+            <lb ed="#V" n="22"/>determinare alterum extremum compositionis absolute,
+            <lb ed="#V" n="23"/>&amp; sic siue determinet praedicatum, siue subiectum, locutio
+            <lb ed="#V" n="24"/>est falsa. Omnis enim determinatio potest praedicari de
+            de<lb ed="#V" n="25" break="no"/>terminato, haec autem est falsa, Deus factus est, &amp; similiter
+            <lb ed="#V" n="26"/>ista, ille homo, demonstrato Christo, factus est, nisi aliud
+            <lb ed="#V" n="27"/>addatur, quia supponit suppositum aeternum iuxta secundam
+            <lb ed="#V" n="28"/>opi. Tertio modo participium potest determinare
+            subie<lb ed="#V" n="29" break="no"/>ctum in comparatione ad praedicatum, &amp; sic locutio vera
+            <lb ed="#V" n="30"/>est secundum omnes opinio. Et non obstat, quod videtur
+            <lb ed="#V" n="31"/>ponere fieri circa Deum, quia hoc fieri, quod participium
+            <lb ed="#V" n="32"/>importat, non est nisi fieri rationis, quia vnio qua Deus
+            dici<lb ed="#V" n="33" break="no"/>tur esse homo, est quidem secundum rem in natura
+            huma<lb ed="#V" n="34" break="no"/>na, sed secundum rationem in Deo, sicut sunt aliae
+            relatio<lb ed="#V" n="35" break="no"/>nes, quae dicuntur de Deo ex tempore, &amp; quia non dicitur
+            <lb ed="#V" n="36"/>factus homo, nisi quia relatio vnionis de nouo aduenit ei
+            <lb ed="#V" n="37"/>postquam non fuit, ideo sicut relatio illa non ponit
+            ali<lb ed="#V" n="38" break="no"/>quam rem nouam in Deo, sed dicitur tantum secundum
+            ra<lb ed="#V" n="39" break="no"/>tionem intelligentis, ita etiam &amp; factus homo non
+            impor<lb ed="#V" n="40" break="no"/>tat circa Deum nisi fieri rationis, sicut etiam cum dicitur.
+            <lb ed="#V" n="41"/>Domine refugium factus est nobis. Haec ille.
+          </p>
+          <p xml:id="capsco-c38afd-d1e1543">
+            Ex quibus.
+            pa<lb ed="#V" n="42" break="no"/>ter, quod ista simpliciter non debet concedi. Christus
+            fa<lb ed="#V" n="43" break="no"/>ctus est. Tunc ad probationem illius, quia generari
+            simplici<lb ed="#V" n="44" break="no"/>ter est fieri simpliciter &amp;c. respondit Sanctus Thomas tertia
+            par<lb ed="#V" n="45" break="no"/>te. q. 16. ar. 6. in solutione primi, vbi arguit sic. Cum
+            homo<lb ed="#V" n="46" break="no"/>significet substantiam, fieri hominem est fieri simpliciter,
+            <lb ed="#V" n="47"/>sed haec est fa. sa, Deus factus est simpliciter, ergo haec est
+            fal<lb ed="#V" n="48" break="no"/>sa, Deus factus est homo. Ecce argumentum. Sequitur
+            re<lb ed="#V" n="49" break="no"/>sponsio. Dicendum inquit, quod fieri hominem est fieri
+            <lb ed="#V" n="50"/>hinpliciter in omnibus his, in quibus humana natura
+            inci<lb ed="#V" n="51" break="no"/>pit esse i supposito creato de nouo, sed Deus dicitur factus
+            <lb ed="#V" n="52"/>homo ex coquod natura humana incepit esse 1¬
+            supposi<lb ed="#V" n="53" break="no"/>to quiuae naturae ab aeterno praeexistente, &amp; ideo Deum
+            fie<lb ed="#V" n="54" break="no"/>ri hominem non est Deum fieri simpliciter. Haec ille.
+          </p>
+          <p xml:id="capsco-c38afd-d1e1574">
+            Ex
+            qu<lb ed="#V" n="55" break="no"/>bus apparet, quod non omne generari simpliciter, est fieri
+            <lb ed="#V" n="56"/>simpliciter, nisi per talem generationem aliquod nouum
+            <lb ed="#V" n="57"/>suppositum constituatur, sed non sic est in proposito, quia
+            <lb ed="#V" n="58"/>temporalis Christi generatio potest dici generatio
+            simplici<lb ed="#V" n="59" break="no"/>ter, quia per eam acquiritur noua natura substantialis, sed
+            <lb ed="#V" n="60"/>non potest dici factio simpliciter, quia per eam nullum
+            no<lb ed="#V" n="61" break="no"/>uum esse acquiritur, simp.iciter: nec aliquod nouum
+            suppo<lb ed="#V" n="62" break="no"/>situm constitur.
+          </p>
+          <p xml:id="capsco-c38afd-d1e1594">
+            Ad secundum dicitur primo, quod esse
+            substan<lb ed="#V" n="63" break="no"/>tiale actualis existentiae non debetur nisi soli supposito, vt
+            <lb ed="#V" n="64"/>quod est ens actu in rerum natura, partibus autem aut
+            na<lb ed="#V" n="65" break="no"/>turis non debetur tale esse, nisi vt quo, secus est de esse
+            essen<lb ed="#V" n="66" break="no"/>tiae. Dus citur secundo quod in Christo non est nisi vnum esse
+            a<lb ed="#V" n="67" break="no"/>ctualis existentiae substantiale, vt alias vsum fuit Dicitur. 3.
+            <lb ed="#V" n="68"/>quod non omnis substantia completa est ens simpliciter
+            per<lb ed="#V" n="69" break="no"/>propnum esse nisi subsistat, &amp; de istis multa visa sunt
+            distin<lb ed="#V" n="70" break="no"/>ctione sexta.
+          </p>
+          <p xml:id="capsco-c38afd-d1e1615">
+            Ad tertium responsum est in solutione primi,
+            <lb ed="#V" n="71"/>vbi adductum est dictum Sancti Thomae de tertio sent. dist.
+            <lb ed="#V" n="72"/>11. q. 1. ar. 2. in solutione. 5. vbi sic dicit. Nasci ex matre non
+            <lb ed="#V" n="73"/>est natum conuenire supposito hominis, nisi per hoc quod
+            <lb ed="#V" n="74"/>corpus traducitur &amp;c. vt prius. Ex quibus patet, quod
+            nasci<lb ed="#V" n="75" break="no"/>ver generari aliter respicit naturam quam creatio, quia
+            ter<cb ed="#V" n="b"/><lb ed="#V" n="76" break="no"/>minus creationis proprie est esse, quod respicit suppositum
+            <lb ed="#V" n="77"/>terminus autem natiuitatis est ipsa forma vel natura.
+            <lb ed="#V" n="78"/>De hoc Sanctus Thomas tertia parte. q. 35. art. 1. sic dicit.
+            Na<lb ed="#V" n="79" break="no"/>tiuitas potest alicui attribui dupliciter vno modo sicut
+            sub<lb ed="#V" n="80" break="no"/>iecto, alio modo sicut termino. Sicut subiecto quidem
+            at<lb ed="#V" n="81" break="no"/>tribuitur ei quod nascitur, hoc autem proprie est
+            hyposta<lb ed="#V" n="82" break="no"/>sis. non natura. Cum enim nasci sit quoddam generari, sicut
+            <lb ed="#V" n="83"/>generatur aliquid ad hoc quod sit, ita nascitur aliquid ad
+            <lb ed="#V" n="84"/>hoc quod sit esse autem proprie rei subsistentis est, nam
+            p<lb ed="#V" n="85" break="no"/>forma quae non subsistit, dicitur esse solum, quia ea aliquid
+            <lb ed="#V" n="86"/>est, persona autem vel hypostasis significatur per modum
+            <lb ed="#V" n="87"/>subsistentis. Natura autem significatur per modum
+            <lb ed="#V" n="88"/>formae, in qua aliquid subsistit, &amp; ideo natiuitas tanquam
+            <lb ed="#V" n="89"/>proprio subiecto nascendi attribuitur personae vel
+            hyposta<lb ed="#V" n="90" break="no"/>si, non naturae, sed sicut termino attribuitur naturae,
+            termi<lb ed="#V" n="91" break="no"/>nus enim generationis &amp; cuiuslibet natiuitatis est forma.
+            <lb ed="#V" n="92"/>Natura autem per modum formae significatur, vnde
+            natiui<lb ed="#V" n="93" break="no"/>tas dicitur via in naturam, vt patet per philosophum
+            secun<lb ed="#V" n="94" break="no"/>do physicorum. Terminatur autem naturae intentio ad
+            for<lb ed="#V" n="95" break="no"/>mam seu naturam speciei. Haec ille.
+          </p>
+          <p xml:id="capsco-c38afd-d1e1673">
+            Ex quibus apparet, quod
+            si<lb ed="#V" n="96" break="no"/>cet tam creari quam generari sit ipsius suppositi vt quod,
+            ta<lb ed="#V" n="97" break="no"/>men nasci &amp; generari non conuenit supposito nisi ratione
+            <lb ed="#V" n="98"/>naturae, creari vero ratione ipsius esse, &amp; quia Christus
+            nul<lb ed="#V" n="99" break="no"/>lum nouum esse existentiae accepit in sua incarnatione,
+            ac<lb ed="#V" n="100" break="no"/>cepit autem nouam naturam, ideo potest absolute &amp;
+            sim<lb ed="#V" n="101" break="no"/>pliciter dici natus temporaliter ex matre, non autem
+            crea<lb ed="#V" n="102" break="no"/>tus, vt saepe dictum est, ipsa autem humanitas assumpta
+            crea<lb ed="#V" n="103" break="no"/>ta est, non autem proprie nata.
+          </p>
+          <p xml:id="capsco-c38afd-d1e1693">
+            Ad quartum dicitur, quod
+            <lb ed="#V" n="104"/>licet natura humana aliter sit pars suppositi diuini quam
+            <lb ed="#V" n="105"/>Deus vel capillus sit pars hominis, tamen non oportet quod
+            <lb ed="#V" n="106"/>denominet suppositum diuinum absolute, sed cum
+            deter<lb ed="#V" n="107" break="no"/>minatione, sicut dictum est in solutione quarti, &amp; hoc est
+            <lb ed="#V" n="108"/>verum potissime quantum ad illas conditiones, quae non
+            <lb ed="#V" n="109"/>sunt de ratione humanae naturae, nec sibi propriae,
+            cuiusmo<lb ed="#V" n="110" break="no"/>di est creari Vnde Sanctus Thomas tertio sententiarum dis¬.
+            <lb ed="#V" n="111"/>11. q. 1. ar. 2. arguit sic. De quocunque praedicatur inferius &amp;
+            <lb ed="#V" n="112"/>superius, sed creatura est genus ad hominem: ergo cum
+            ho<lb ed="#V" n="113" break="no"/>mo praedicetur de Christo praedicabitur creatura. Ecce
+            ar<lb ed="#V" n="114" break="no"/>gumentum. Sequitur responsio. Dicendum inquit, quod
+            crea<lb ed="#V" n="115" break="no"/>tura non est superius ad hominem, quia creatio magis
+            re<lb ed="#V" n="116" break="no"/>spicit esse quam naturam, esse autem non est genus, nec
+            in<lb ed="#V" n="117" break="no"/>cluditur in significatione alicuius generis, vt Auics dicitCum
+            <lb ed="#V" n="118"/>ea quae sunt in vno genere non conueniant in vno esse, sed
+            <lb ed="#V" n="119"/>in natura communi. Haec ille. Dicitur vlterius, quod
+            quan<lb ed="#V" n="120" break="no"/>tumcunque humanitas praedicetur de Christo in
+            concre<lb ed="#V" n="121" break="no"/>to potius quam Deus de homine tamen in hoc conueniunt
+            <lb ed="#V" n="122"/>quod sicut deus non habet proprium esse distinctum ab
+            es<lb ed="#V" n="123" break="no"/>se hominis, ita nec humana natura attulit nouum esse
+            Chri<lb ed="#V" n="124" break="no"/>sto ratione cuius possit dici creatus, nec constituit diuinum
+            <lb ed="#V" n="125"/>suppositum, nec esse suppositi dependet ab illa de hoc
+            San<lb ed="#V" n="126" break="no"/>ctus Thomas tettio sent. dist, 6. q. 2. ar. 3. sic dicit.
+          </p>
+          <p xml:id="capsco-c38afd-d1e1745">
+            Ad rationem
+            <lb ed="#V" n="127"/>totius duo pertinent, vnum scilicet quod esse totius compositi
+            per<lb ed="#V" n="128" break="no"/>tinet ad omnes partes, quia partes non habent proprium
+            <lb ed="#V" n="129"/>esse, sed sunt per esse totius, aliud est quod partes
+            componen<lb ed="#V" n="130" break="no"/>tes causant esse totius. Secundum autem primam &amp; tertia
+            <lb ed="#V" n="131"/>opinionem neutrum horum inuenitur in Christo, quia
+            opi<lb ed="#V" n="132" break="no"/>nio prima dicit, quod hic homo habet suum esse proprium
+            <lb ed="#V" n="133"/>vnde esse diuinae personae ad ipsum non pertinet. Similiter
+            <lb ed="#V" n="134"/>tertia opinio dicit, quod est esse superadditum ad esse
+            diui<lb ed="#V" n="135" break="no"/>nae personae accidentaliter. Vnde anima &amp; corpus non
+            dicun<lb ed="#V" n="136" break="no"/>tur partes per se, sicut nec accidentia subiecti, vnde neutra
+            <lb ed="#V" n="137"/>ponit personam verbi compositam. Sed 2. ponit vnum esse in
+            <lb ed="#V" n="138"/>Christo, vnde esse diuinae personae pertinet ad vtranque
+            na<lb ed="#V" n="139" break="no"/>turam, non tamen illud esse causatur ex coniunctione
+            natura<lb ed="#V" n="140" break="no"/>rum, sicut esse compositi causatur ex coniunctione
+            compo<lb ed="#V" n="141" break="no"/>nentium. vnde secundum hanc opinionem persona
+            Chri<lb ed="#V" n="142" break="no"/>sti post incarnationem potest dici aliquomodo
+            composi<lb ed="#V" n="143" break="no"/>tum inquantum saluatur ibi aliqua conditio
+            compositi<lb ed="#V" n="144" break="no"/>non tamen est ibi vera ratio compositionis, quia deficit
+            al<lb ed="#V" n="145" break="no"/>tera conditio, vnde etiam non est in vsu modernorum
+            tenen<lb ed="#V" n="146" break="no"/>tium hanc opinionem, quod dicant personam compositam.
+            <lb ed="#V" n="147"/>Nec dicendum est quod dicatut composita solum
+            secun<lb ed="#V" n="148" break="no"/>dum expositionem nominis, quasi cum alio posita, quia sic
+            <lb ed="#V" n="149"/>prima &amp; tertia opinio ponerent personam compositam
+            si<lb ed="#V" n="150" break="no"/>cut secunda. Haec ille.
+          </p>
+          <p xml:id="capsco-c38afd-d1e1800">
+            Item in solutione secundi sic dicit
+            <pb ed="#V" n="90"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>Persona non dicitur composita quasi esse suum sit ex
+            mul<lb ed="#V" n="2" break="no"/>tis constitutum, hoc enim est contra rationem aeterni, sed
+            <lb ed="#V" n="3"/>quia ad multa in solutione quarti sic dicit. Quamuis
+            com<lb ed="#V" n="4" break="no"/>positio quantum ad aliquid saluetur in incarnatione
+            ver<lb ed="#V" n="5" break="no"/>bi, nullo modo tamen est ibi ratio partis. Diuinitas enim
+            <lb ed="#V" n="6"/>pars esse non potest propter imperfectionem quae est de
+            ra<lb ed="#V" n="7" break="no"/>tione partis. Humana autem natura similiter non potest
+            <lb ed="#V" n="8"/>esse pars, quia compartem non habet, vel etiam quia non
+            <lb ed="#V" n="9"/>causat esse personae, quae dicitur esse composita. Et ideo
+            ma<lb ed="#V" n="10" break="no"/>gister dicit in sequenti distinctione, quod inexplicabilis
+            <lb ed="#V" n="11"/>est illa compositio, quae non est partium, ratio autem
+            dici<lb ed="#V" n="12" break="no"/>tur a magistris vnio exigitiua, quia tot compraehenduntur
+            <lb ed="#V" n="13"/>in persona quot exiguntur ad opus redemptionis vt sit
+            <lb ed="#V" n="14"/>Deus qui posset, &amp; homo qui deberet satisfacere. Haec ille.
+          </p>
+          <p xml:id="capsco-c38afd-d1e1837">
+            <lb ed="#V" n="15"/>Ex quibus apparet, quod humanitas improprie dicitur pars
+            <lb ed="#V" n="16"/>Christi, &amp; quomodo non habet proprium esse aliud ab
+            es<lb ed="#V" n="17" break="no"/>se suppositi aeterni. Item praeter omnia praedicta patet, quod
+            <lb ed="#V" n="18"/>dato quod esset proprijssime pars, non tamen oportet quod
+            <lb ed="#V" n="19"/>ex eius creatione suppositum dicatur creatum, quia
+            pro<lb ed="#V" n="20" break="no"/>prietas partis non denominat totum absolute, quando
+            ta<lb ed="#V" n="21" break="no"/>lis proprietas potest conuenire toti &amp; parti, &amp; immo
+            per<lb ed="#V" n="22" break="no"/>fectius toti quam parti.
+          </p>
+          <p xml:id="capsco-c38afd-d1e1858">
+            Ad quintum sciendum, quod Sanctus Thomas
+            <lb ed="#V" n="23"/>3. sen. dis. 11. q. 1. art. 3. arguit sic. Secundum quod dicit magister in
+            <lb ed="#V" n="24"/>litera. haec est tropica loquutio, Christus ea creatura, ergo si
+            <lb ed="#V" n="25"/>Christus secundum quod homo sit creatura, haec etiam erit
+            impropria<lb ed="#V" n="26" break="no"/>Christus est homo, quod est falsum. Ecce argumentum.
+            Se<lb ed="#V" n="27" break="no"/>quitur responsio. Quando inquit cum reduplicatione est
+            <lb ed="#V" n="28"/>propria praedicatio, tunc praedicatum per se conuenit ei, quod
+            <lb ed="#V" n="29"/>reduplicatur, sicut Christus secundum quod homo est animal,
+            <lb ed="#V" n="30"/>haec enim est per se &amp; propria, homo est animal, &amp; ideo
+            si<lb ed="#V" n="31" break="no"/>mili modo praedicatum &amp; reduplicatio de subiecto
+            prae<lb ed="#V" n="32" break="no"/>dicantur. Haec autem reduplicatio non est nota per se
+            prae<lb ed="#V" n="33" break="no"/>dicationis, haec enim non est propria, hic homo scilicet
+            <lb ed="#V" n="34"/>Christus est creatura, nec etiam est per se, quia creatura
+            <lb ed="#V" n="35"/>non est superius ad hominem significans quid est
+            ho<lb ed="#V" n="36" break="no"/>mo, &amp; ideo non oportet, quod si creatura improprie dicatur
+            <lb ed="#V" n="37"/>de Christo, quod etiam ipse improprie dicatur homo. Haec
+            il<lb ed="#V" n="38" break="no"/>le. Et contra hoc arguit praesens argumentum. Ad quod
+            <lb ed="#V" n="39"/>dicitur, quod non omnia quae conueniunt Christo cum
+            deter<lb ed="#V" n="40" break="no"/>minatione ratione naturae humanae. conueniunt ei
+            perfe<lb ed="#V" n="41" break="no"/>cte Sicut enim supra dictum est in solutione secundi Scotus
+            <lb ed="#V" n="42"/>aliqua praedicata possunt dici de Christo simpliciter &amp;
+            <lb ed="#V" n="43"/>absolute ratione naturae humanae, &amp; illa dicuntur perfecte
+            <lb ed="#V" n="44"/>&amp; proprie de illo, cuius est praedicare, nasci mori, &amp;c.
+            ali<lb ed="#V" n="45" break="no"/>qua vero dicuntur de Christo ratione naturae humanae
+            no<lb ed="#V" n="46" break="no"/>simpliciter, sed cum determinatione, &amp; talia non est
+            incon<lb ed="#V" n="47" break="no"/>ueniens dici de Christo imperfecte &amp; improprie, ita vt
+            im<lb ed="#V" n="48" break="no"/>perfectum se teneat quo ad modum nostrum loquendi.
+            <lb ed="#V" n="49"/>Ad argu. Scoti contra secundam conclusionem dicitur
+            pri<lb ed="#V" n="50" break="no"/>mo, quod hoc nomen Christus non importat ens per accidens,
+            <lb ed="#V" n="51"/>neque vnum per accidens, neque totum per accidens, sed
+            <lb ed="#V" n="52"/>vnum per se, quia duas naturas vnitas in vno supposito non
+            <lb ed="#V" n="53"/>quidem accidentaliter. Vnde Sanctus Thomas 3. sen. dis. 6. q. 2. arti. 1.
+            <lb ed="#V" n="54"/>Christus inquit non posset dici aliqua nisi essent in eo duo
+            <lb ed="#V" n="55"/>supposita naturarum, quod negat secunda opinio, &amp;
+            simi<lb ed="#V" n="56" break="no"/>liter. 3. &amp; ideo vtraque opinio dicit, quod Christus est vnum
+            <lb ed="#V" n="57"/>sed secunda dicit, quod est vnum per se, tertia vero quod est
+            <lb ed="#V" n="58"/>vnum per accidens, sicut homo albus. Haec ille.
+          </p>
+          <p xml:id="capsco-c38afd-d1e1939">
+            Et constat
+            <lb ed="#V" n="59"/>quod 3. opinio est haeretica, vt ostendit Sanctus Thomas 3. par. q. 2. ar.
+            <lb ed="#V" n="60"/>6. Item. 3. sen. q. 3. ar. 2. sic dicit. Quamuis hoc quod est
+            ac<lb ed="#V" n="61" break="no"/>cidens in se possit esse aliquomon suquia alicui, vt color
+            albe<lb ed="#V" n="62" break="no"/>dini, tamen quod est in se substantia, non potest esse accidens
+            <lb ed="#V" n="63"/>alicuius, quamuis coniunctio vnius substantiae ad aliam
+            pos<lb ed="#V" n="64" break="no"/>sit esse accidens, vt sic vna substantia alteri accidentaliter
+            ad<lb ed="#V" n="65" break="no"/>uenire dicatur, sicut vestis homini, sed hoc non potest esse,
+            <lb ed="#V" n="66"/>nisi dupliciter, vel quod coniungatur ei secundum
+            conta<lb ed="#V" n="67" break="no"/>ctum, sicut vestis homini, vel sicut dolium vino, aut sicut
+            <lb ed="#V" n="68"/>mobile motori, sicut Angelus coniungitur corpori quod
+            <lb ed="#V" n="69"/>assumit, &amp; cum contactus non sit nisi corporum, oportet
+            <lb ed="#V" n="70"/>dicere quod humana natura non potest aduenire diuinae
+            <lb ed="#V" n="71"/>personae nisi sicut motor mobili, vt dicatur Christus hoc
+            <lb ed="#V" n="72"/>modo assumpsisse humanam naturam, sicut Angelus
+            assu<lb ed="#V" n="73" break="no"/>mit corpus, vt oculo mortalium videatur, sicut dicitur in
+            <lb ed="#V" n="74"/>litera, &amp; sicut Spiritussanctus visus est in columba. Haec
+            au<lb ed="#V" n="75" break="no"/>tem assumptio non vere facit praedicari assumptum de
+            as<cb ed="#V" n="b"/><lb ed="#V" n="76" break="no"/>sumente, neque proprietates assumpti vere transfert in
+            as<lb ed="#V" n="77" break="no"/>sumentem, non enim Angelus assumens corpus ad
+            homi<lb ed="#V" n="78" break="no"/>nis similitudinem vere est homo, neque vere habet aliquas
+            <lb ed="#V" n="79"/>proprietates hominis neque Spiritussanctus potest dici
+            mi<lb ed="#V" n="80" break="no"/>nor seipso propter speciem columbae, in qua apparuit, vt
+            <lb ed="#V" n="81"/>dicit Auutinu. Vnde patet, quod haec opinio non potest dicere
+            <lb ed="#V" n="82"/>quod filius Dei vere sit homo, vel vere sit passus. Et ideo cum
+            <lb ed="#V" n="83"/>neget veritatem articulorum, condemnata est quasi
+            haere<lb ed="#V" n="84" break="no"/>tica, tamen etiam quantum ad hanc positionem procedit
+            <lb ed="#V" n="85"/>ab eodem fonte cum prima scilicet ex hoc, quod natura
+            <lb ed="#V" n="86"/>humana non assumeretur ad esse diuinae personae. Vnde
+            pri<lb ed="#V" n="87" break="no"/>ma ponebat, quod assumptum habebat esse per se, in quo
+            <lb ed="#V" n="88"/>subsistebat, haec autem tertia ponit, quod non subsistit
+            as<lb ed="#V" n="89" break="no"/>sumptum, nec persona in eo, sed est esse accidentale
+            super<lb ed="#V" n="90" break="no"/>additum. Haec ille.
+          </p>
+          <p xml:id="capsco-c38afd-d1e2012">
+            Item in solutione secundi sic dicit.
+            Qua<lb ed="#V" n="91" break="no"/>uis humana natura adueniat filio Dei post esse completum,
+            <lb ed="#V" n="92"/>non tamen est accidentaliter adueniens, quia trahitur ad
+            <lb ed="#V" n="93"/>vnionem in illo esse sicut corpus adueniet animae in
+            resur<lb ed="#V" n="94" break="no"/>rectione. Haec ille.
+          </p>
+          <p xml:id="capsco-c38afd-d1e2023">
+            Et similia dicit, vt allegatum est. 3. part.
+            <lb ed="#V" n="95"/>q. 2. arti. 6. in solutio. secundi. Dico 2. quod posito, sed non
+            <lb ed="#V" n="96"/>concesso, quod hoc nomen Christus importaret totum
+            <lb ed="#V" n="97"/>per accidens, hoc est duas naturas, quarum vna non est de
+            <lb ed="#V" n="98"/>ratione alterius, hoc non obstante nunquam supponit
+            pro<lb ed="#V" n="99" break="no"/>natura humana, neque pro tali aggregato ex duabus
+            natu<lb ed="#V" n="100" break="no"/>ris diuina scilicet &amp; humana, sed semper pro supposito
+            ae<lb ed="#V" n="101" break="no"/>terno. De hoc Sanctus Thomas 3. sen. dist. 6. q. 1. ar. 3. sic dicit. In
+            quoli<lb ed="#V" n="102" break="no"/>bet nomine est duo considerare scilicet illud a quo
+            impo<lb ed="#V" n="103" break="no"/>nitur nomen, quod dicitur qualitas nominis, &amp; illud
+            cui<lb ed="#V" n="104" break="no"/>imponitur, quod dicitur substantia nominis, &amp; nomen
+            pro<lb ed="#V" n="105" break="no"/>prie loquendo dicitur significare formam siue qualitatem, a
+            <lb ed="#V" n="106"/>qua nomen imponitur, dicitur vero supponere pro eo
+            cui<lb ed="#V" n="107" break="no"/>imponitur. Prima ergo opinio dicit, quod hoc nomen
+            ho<lb ed="#V" n="108" break="no"/>mo &amp; quantum ad significatum, &amp; quantum ad
+            supposi<lb ed="#V" n="109" break="no"/>tum non dicit nisi constitutum ex duabus substantijs, quia
+            <lb ed="#V" n="110"/>hoc constitutum ex duabus substantijs est hypostasis
+            sub<lb ed="#V" n="111" break="no"/>sistens, pro qua potest fieri suppositio huius nominis
+            ho<lb ed="#V" n="112" break="no"/>mo. Secunda vero opinio quia dicit quod constitutum ex
+            <lb ed="#V" n="113"/>duabus substantijs tantum non est hypostasis
+            subsisten<lb ed="#V" n="114" break="no"/>sed natura in qua subsistit verbum Dei, vnde non potest
+            <lb ed="#V" n="115"/>ponere quod constitutum ex duabus substantijs tantum
+            <lb ed="#V" n="116"/>sit suppositum, cui nomen imponitur, sed forma a qua
+            im<lb ed="#V" n="117" break="no"/>ponitur scilicet humanitas, id vero cui imponitur quod
+            <lb ed="#V" n="118"/>est subsistens in natura humana, est persona verbi, &amp; ideo
+            <lb ed="#V" n="119"/>hoc nomen homo comprehendit tres substantias scilicet
+            <lb ed="#V" n="120"/>duas ex parte significati, tertiam vero ex parte suppositi.
+            <lb ed="#V" n="121"/>Haec ille.
+          </p>
+          <p xml:id="capsco-c38afd-d1e2084">
+            Item articulo secundo in solutione quarti sic
+            di<lb ed="#V" n="122" break="no"/>cit. Homo significat humanam naturam, &amp; supponit
+            pro<lb ed="#V" n="123" break="no"/>supposito subsistente in illa natura, quorum vnum est ex
+            <lb ed="#V" n="124"/>parte assumpti, alterum ex parte assumentis. Item dis. 11. q.
+            <lb ed="#V" n="125"/>1. ar. 4. vt recitatum est in solutione secundi Scoti contra
+            pri<lb ed="#V" n="126" break="no"/>mum. Haec autem nomina, verbum Iesus Christus
+            suppo<lb ed="#V" n="127" break="no"/>nunt pro supposito aeterno. Et aduertendum est, quod ens
+            <lb ed="#V" n="128"/>per accidens non dicitut aliquid ex eo solum, quod
+            signi<lb ed="#V" n="129" break="no"/>ficat duas naturas, vt res duorum praedicamentorum, sed
+            <lb ed="#V" n="130"/>illud solum dicitur ens per accidens, quod est compositum
+            <lb ed="#V" n="131"/>ex talibus duobus, &amp; eius natura supponit pro tali
+            aggre<lb ed="#V" n="132" break="no"/>gato vel composito. Dicitur tertio quod ista propositio,
+            <lb ed="#V" n="133"/>album incipit esse, non potest de virtute sermonis illo
+            mo<lb ed="#V" n="134" break="no"/>do distingui, quem ponit arguens, quia iste terminus album
+            <lb ed="#V" n="135"/>licet significet albedinem, nunquam tamen potest pro illa
+            <lb ed="#V" n="136"/>supponere, sed communiter supponit pro subiecto
+            albedi<lb ed="#V" n="137" break="no"/>nis, &amp; ideo ex sola inceptione albedinis non potest
+            conclu<lb ed="#V" n="138" break="no"/>di, quod ista sit concedenda, album incipit esse sed forte quod
+            <lb ed="#V" n="139"/>ista est vera, aliquid incipit esse album. Dicitur quarto, quod
+            <lb ed="#V" n="140"/>non est simile iudicium de istis, Christus est mortuus, &amp;
+            <lb ed="#V" n="141"/>Christus incepit esse, vt prius dictum fuit. Et de hoc in suo
+            <lb ed="#V" n="142"/>simili dicit Sanctus Thomas 3. sen. dis. 12. q. 1. ar. 1. vbi arguit sic. Nasci
+            <lb ed="#V" n="143"/>temporaliter est mutari de non esse ad esse: sed iste
+            ho<lb ed="#V" n="144" break="no"/>mo est natus in tempore. ergo est mutatus de non esse in
+            <lb ed="#V" n="145"/>esse, sed omne tale incipit esse: ergo iste homo incipit esse
+            <lb ed="#V" n="146"/>Ecce argumentum. Sequitur solutio. Dicendum inquit quod
+            <lb ed="#V" n="147"/>nasci temporaliter ex matre non est natum conuenire
+            sup<lb ed="#V" n="148" break="no"/>posito, nisi ratione corporis, &amp; ideo ratione eius
+            verifica<lb ed="#V" n="149" break="no"/>tur simpliciter de supposito, sed incipere esse non potest
+            <lb ed="#V" n="150"/>verificari de eo ratione corporis simpliciter, sed cum
+            de<pb ed="#V" n="91"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>ter minatione, &amp; ideo haec est vera simpliciter iste homo est
+            <lb ed="#V" n="2"/>natus temporaliter, non tamen ista, iste homo incepit esse,
+            <lb ed="#V" n="3"/>sed haec est vera secundum quid. Haec ille.
+          </p>
+          <p xml:id="capsco-c38afd-d1e2158">
+            Dicitur quinto,
+            <lb ed="#V" n="4"/>quod in Christo non fuit aliquod esse actualis existentiae,
+            <lb ed="#V" n="5"/>substantiale, quo Christus essentialiter existeret, nisi esse
+            ae<lb ed="#V" n="6" break="no"/>ternum diuini suppositi, vt saepe dictum fuit in solutione
+            <lb ed="#V" n="7"/>argumentorum contra primam conclusionem. Dicitur
+            sex<lb ed="#V" n="8" break="no"/>to, quod nullum subsistens potest dici simpliciter, &amp;
+            absolu<lb ed="#V" n="9" break="no"/>te incipere ex hoc, quod aduenit ei aliquod esse post suum
+            <lb ed="#V" n="10"/>esse substantiale. quo primo est extra nihil vel ens in
+            poten<lb ed="#V" n="11" break="no"/>tia.
+          </p>
+          <p xml:id="capsco-c38afd-d1e2179">
+            Nec valet probatio in oppositum, quia supponit. 5. Falsa
+            <lb ed="#V" n="12"/>Primum ed, quod aliquod esse simpliciter aut, substantiale
+            <lb ed="#V" n="13"/>adueniat alicui post suum primuen esse, huius oppositum
+            <lb ed="#V" n="14"/>alias visum est ex dictis Sancti Thomas tertia parte. q. 17. art.
+            <lb ed="#V" n="15"/>secundo vbi sic dicit. Illud esse quod pertinet ad ipsam
+            hy<lb ed="#V" n="16" break="no"/>postaum vel personam secundum se impossibile est in vna
+            <lb ed="#V" n="17"/>persona vel hypostasi multiplicari, quia impossibile est quod
+            <lb ed="#V" n="18"/>vnius rei sit nisi vnum esse. Haec ille.
+          </p>
+          <p xml:id="capsco-c38afd-d1e2197">
+            Item prima parte. q. 5.
+            ar<lb ed="#V" n="19" break="no"/>ticulo primo. Cum ens inquit dicat proprie esse in actu,
+            a<lb ed="#V" n="20" break="no"/>ctus autem habet ordinem ad potentiam secundum hoc
+            <lb ed="#V" n="21"/>simpliciter aliquid dicitur ens, secundum quod primo
+            di<lb ed="#V" n="22" break="no"/>scernitur ab eo, quod est in potentia tantum hoc autem est
+            <lb ed="#V" n="23"/>esse substantiale vniuscuiusque rei, vnde per suum esse
+            sub<lb ed="#V" n="24" break="no"/>stantiale dicitur vnumquodque ens simpliciter, per actus
+            au<lb ed="#V" n="25" break="no"/>tem superadditos dicitur aliquid esse secundum quid &amp;c.
+            <lb ed="#V" n="26"/>Secundum se sum quod assumit est quod esse secundum
+            <lb ed="#V" n="27"/>non enunciat ex vi sermonis primum esse rei, sed sufficit quod
+            <lb ed="#V" n="28"/>enunciet aliquod esse simpliciter. Huius enim falsitas
+            appa<lb ed="#V" n="29" break="no"/>ret ex praedictis, quia nullius rei est duplex esse simpliciter
+            <lb ed="#V" n="30"/>scilicet primum ce secundum, sed omne esse simpliciter
+            cu<lb ed="#V" n="31" break="no"/>cuiuslibet rei est primum esse eius. Tertium falsum
+            descen<lb ed="#V" n="32" break="no"/>dens ex praecedenti est, quod incipere determinatum per
+            es<lb ed="#V" n="33" break="no"/>se secundum potest de virtute sermonis dicere inceptionem
+            <lb ed="#V" n="34"/>in esse simpliciter secundario, &amp; non in primario esse illius
+            <lb ed="#V" n="35"/>subiecti, hoc enim supponit vnius rei esse duo esse
+            simplici<lb ed="#V" n="36" break="no"/>ter, quod saepe negatum fuit. Quartum falsum est, quod
+            Chri<lb ed="#V" n="37" break="no"/>stus vel verbum homo habet nunc aliquod esse simpliciter
+            <lb ed="#V" n="38"/>quod ante incarnationem non habuit de hoc satis dictum
+            <lb ed="#V" n="39"/>fuit prius. quintum falsum est, quod ista magis est
+            conce<lb ed="#V" n="40" break="no"/>denda, iste homo incaepit esse quam ista, filius Dei incaepit
+            <lb ed="#V" n="41"/>esse, cuius falsitas apparet, quia subiecta vtrarum que
+            pro<lb ed="#V" n="42" break="no"/>eodem omnino supponunt, &amp; ideo quicquid verificatur
+            <lb ed="#V" n="43"/>de subiecto vnius verificatur de subiecto alterius, &amp;
+            quic<lb ed="#V" n="44" break="no"/>quid negatur de vno vere, negatur de subiecto alterius
+            ve<lb ed="#V" n="45" break="no"/>re. Et haec sufficiant pro argumento Scoti.
+          </p>
+          <p xml:id="capsco-c38afd-d1e2258">
+            Ad primum
+            Du<lb ed="#V" n="46" break="no"/>randi dicitur, quod ratio quam recitat bona est, &amp; est
+            san<lb ed="#V" n="47" break="no"/>cti Thomae in multis locis tam in summa quam in scriptis, vt
+            <lb ed="#V" n="48"/>tertia parte. q. 16. ar. 7. in solu. quarti. Nec valet improbatio
+            <lb ed="#V" n="49"/>cum dicitur, quod pro tanto terminus positus in subiecto
+            <lb ed="#V" n="50"/>dicitur tenerimmaterialiter, quia &amp;c. Dicitur enim primo,
+            <lb ed="#V" n="51"/>quod ad sensum Sanctus Thomas ideo subiectum dicitur teneri
+            ma<lb ed="#V" n="52" break="no"/>terialiter, &amp; non formaliter, quia scilicet supponit non
+            pro<lb ed="#V" n="53" break="no"/>forma significata per nomen, sed pro illo quod est quasi
+            ma<lb ed="#V" n="54" break="no"/>teria formae scilicet pro supposito formae, vt cum dico,
+            al<lb ed="#V" n="55" break="no"/>bum currit, ly album non supponit pro albedine, sed
+            pro<lb ed="#V" n="56" break="no"/>materia vel subiecto albedinis, non quidem vt est suppositum
+            <lb ed="#V" n="57"/>formae importatae per nomen, sed vt est aliquid in se, quod
+            <lb ed="#V" n="58"/>potest supponi huic vel illi formae substantiali vel
+            acciden<lb ed="#V" n="59" break="no"/>tali indifferenter, licet non repugnet sibi aliquid
+            attribui<lb ed="#V" n="60" break="no"/>ratione, quam nomen importat, sed hoc accidit sibi, vt est
+            <lb ed="#V" n="61"/>subiectum, &amp; ideo dicitur quod subiectum non appellat
+            <lb ed="#V" n="62"/>suam formam, sed praedicatum. Dicitur secundo quod quia
+            <lb ed="#V" n="63"/>hoc praedicatum, quod est incipiens esse, non verificatur
+            si<lb ed="#V" n="64" break="no"/>ne additione de pronomine demonstrante illud, pro quo
+            <lb ed="#V" n="65"/>supponit hoc nomen Christus scilicet personam aeternam,
+            <lb ed="#V" n="66"/>ideo nec potest sine addito verificari de hoc nomine
+            Chri<lb ed="#V" n="67" break="no"/>stus. Dicitur tertio quod licet multa praedicata possint
+            ve<lb ed="#V" n="68" break="no"/>rae praedicari de aliquo subiecto ratione formae significatae
+            <lb ed="#V" n="69"/>per subiectum, &amp; non ratione illius pro quo supponit, vt
+            <lb ed="#V" n="70"/>cum dicitur album disgregat, hoc tamen non valet in
+            pro<lb ed="#V" n="71" break="no"/>posito propter duo. primo quia disgregare est tale
+            praedica<lb ed="#V" n="72" break="no"/>tum, quod non est natum conuenire cuicunque supposito
+            <lb ed="#V" n="73"/>ex ea parte, qua suppositum est, sed solum ratione albedinis
+            <lb ed="#V" n="74"/>significatae per subiectum, &amp; inhaerentis supposito sicut est
+            <lb ed="#V" n="75"/>de ly incipere esse. Secundo, quia ly disgregare non est tale
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="76"/>praedicatum, quod includat in suo principali significato
+            ne<lb ed="#V" n="77" break="no"/>gationem alicuius, quod de per se conueniat supposito
+            al<lb ed="#V" n="78" break="no"/>bedinis, secus est de hoc praedicato incipere esse, quod
+            in<lb ed="#V" n="79" break="no"/>cludit negationem alicuius, quod de per se conuenit
+            suppo<lb ed="#V" n="80" break="no"/>sito naturae humanae in Christo scilicet non semper fuisse.
+            <lb ed="#V" n="81"/>Et de istis diffuse dictum est in probatione secundae
+            con<lb ed="#V" n="82" break="no"/>clusionis.
+          </p>
+          <p xml:id="capsco-c38afd-d1e2343">
+            Ad secundum negatur minor reprobans rationem
+            <lb ed="#V" n="83"/>assignatam pro secunda conclusione. Et ad eius probationem
+            <lb ed="#V" n="84"/>dicitur primo, quod assumit falsum fundamentum, scilicet quod
+            <lb ed="#V" n="85"/>in Christo sint plura esse substantialia, vel plura esse
+            simpli<lb ed="#V" n="86" break="no"/>citer. Dicitur secundo, quod dato quod in Christo essent
+            <lb ed="#V" n="87"/>plura talia esse, non propter hoc posset, aut deberet
+            con<lb ed="#V" n="88" break="no"/>cedi absolute &amp; sine additione, quod Christus incepit
+            es<lb ed="#V" n="89" break="no"/>se, nec quod Christus non semper fuit, immo quando
+            argui<lb ed="#V" n="90" break="no"/>tur sic. Christus non semper fuit secundum a. esse, ergo Christus non
+            <lb ed="#V" n="91"/>semper fuit, est fallacia consequentis talis ac tanta, ac si
+            ar<lb ed="#V" n="92" break="no"/>gueretur sic. Christus non semper fuit homo, ergo semper
+            <lb ed="#V" n="93"/>fuit ens, &amp; sic in aliis similibus fatuis consequentiis, in
+            qui<lb ed="#V" n="94" break="no"/>bus arguitur a negatione inferioris ad negationem
+            superio<lb ed="#V" n="95" break="no"/>ris. Dicitur tertio, quod vana est differentia, quae datur
+            ibi<lb ed="#V" n="96" break="no"/>dem inter incipere &amp; creari quo ad hoc quod dicit, quod
+            <lb ed="#V" n="97"/>non est de ratione inceptionis quod illud, quod incipit
+            es<lb ed="#V" n="98" break="no"/>se nunquam prius fuit simpliciter, constat enim hoc esse
+            con<lb ed="#V" n="99" break="no"/>tra omnes logicos recte vtentes hoc vocabulo, incipit. Et etiam
+            <lb ed="#V" n="100"/>contra impositionem, &amp; deriuationem &amp; etymologiam
+            vo<lb ed="#V" n="101" break="no"/>cabuli, nam incipere idem est, quod initium capere, &amp; ideo
+            <lb ed="#V" n="102"/>arguens in hoc est proteruus.
+          </p>
+          <p xml:id="capsco-c38afd-d1e2389">
+            Ad tertium dicendum, quod
+            <lb ed="#V" n="103"/>omnia quae ibi dicuntur procedunt ex defectu verae &amp; bonae
+            <lb ed="#V" n="104"/>logicae, quia secundum veram logicam, nunquam ista
+            pro<lb ed="#V" n="105" break="no"/>positio, album incipit esse, nec ista, homo albus incipit esse,
+            <lb ed="#V" n="106"/>potest aut debet illo modo distingui, quem arguens fingit.
+            <lb ed="#V" n="107"/>Cum enim subiectum vtriusque supponat pro vera
+            substan<lb ed="#V" n="108" break="no"/>tia, nunquam inceptio verificabitur de tali subiecto nisi
+            pro<lb ed="#V" n="109" break="no"/>inceptione alicuius substantiae, quantumcunque incipiat de
+            <lb ed="#V" n="110"/>nouo aliquod accidens, &amp; ideo tota deductio penitus
+            nihil<lb ed="#V" n="111" break="no"/>valet. ad argumentum factum pro parte affirmatiua
+            conclu<lb ed="#V" n="112" break="no"/>sionis respondit Sanctus Thomas vnde ad probationem
+            pri<lb ed="#V" n="113" break="no"/>mae partis antecedentis eiusdem respondit tertio. q. 16. art.
+            <lb ed="#V" n="114"/>nono in solutione secundi argumenti vbi sic dicit. Cum
+            <lb ed="#V" n="115"/>hoc verbo incipit non sequitur argumentum ab inferiori
+            <lb ed="#V" n="116"/>ad superius, non enim sequitur hoc incepit esse album,
+            ergo<lb ed="#V" n="117" break="no"/>incepit esse coloratum, &amp; hoc ideo quia incipere importat
+            <lb ed="#V" n="118"/>nunc esse, &amp; non prius. Non autem sequitur, hoc non erat
+            <lb ed="#V" n="119"/>prius album, ergo non erat prius coloratum, esse autem
+            sim<lb ed="#V" n="120" break="no"/>pliciter est superius ad esse hominem, vnde non sequitur
+            Chri<lb ed="#V" n="121" break="no"/>stus incepit esse homo, ergo incepit esse. Haec ille. Ad
+            pro<lb ed="#V" n="122" break="no"/>bationem vero secundae partis respondit idem ibidem arti.
+            <lb ed="#V" n="123"/>octauo in solutione tertij arg. vbi sic dicit, Dicendum, quod
+            <lb ed="#V" n="124"/>de natiuitate ex virgine nulla potest esse dubitatio quod
+            con<lb ed="#V" n="125" break="no"/>ueniat personae filij Dei, sicut potest esse de creatione, &amp; idod
+            <lb ed="#V" n="126"/>non est similis ratio vtrobique. Haec ille. Similiter dicit.
+            Na<lb ed="#V" n="127" break="no"/>sci ex matre non est natum conuenire supposito hominis,
+            <lb ed="#V" n="128"/>nisi per hoc, quod corpus traducatur ex matre &amp;c. sicut
+            <lb ed="#V" n="129"/>prius fuit recitatum. Et haec de quaestione sufficiant. De qua
+            <lb ed="#V" n="130"/>benedictus Deus. Amen.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

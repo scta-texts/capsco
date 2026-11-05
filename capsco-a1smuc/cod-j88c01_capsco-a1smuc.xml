@@ -1,0 +1,1871 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 1, Distinctio 7, Quaestio 2</title>
+        <author ref="#JohannesCapreolus">Johannes Capreolus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 1, Distinctio 7, Quaestio 2</title>
+          <date when="2026-11-04">Nov 4, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-j88c01">Venice, 1589, v. 1</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-04" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="175"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="capsco-a1smuc"><!-- l1d7q2 -->
+        <head xml:id="capsco-a1smuc-Hd1e101">Quaestio 2</head>
+        <head xml:id="capsco-a1smuc-Hd1e103" type="question-title">Utrum in divinis possint esse plures filii</head>
+        <p xml:id="capsco-a1smuc-d1e106">
+          <lb ed="#V" n="18"/>QVAESTIO II.
+          <lb ed="#V" n="19"/>Vtrum in diuinis possint esse plures filij.
+        </p>
+        <p xml:id="capsco-a1smuc-d1e113">
+          <lb ed="#V" n="20"/><milestone ed="#V" unit="p" rend="initial"/> E CVDO quaeritur iuxta eandem
+          <lb ed="#V" n="21"/>distinctionem. Vtrum in diuinis
+          pos<lb ed="#V" n="22" break="no"/>sint esse plures filij.
+        </p>
+        <p xml:id="capsco-a1smuc-d1e123">
+          Et arguitur quod
+          <lb ed="#V" n="23"/>sic. Deus pater est potentior ad
+          gene<lb ed="#V" n="24" break="no"/>randum quam pater creatus sed vnus
+          <lb ed="#V" n="25"/>homo potest generare plures filios.
+          er<lb ed="#V" n="26" break="no"/>gos &amp; Deus, praecipue cum potentia
+          <lb ed="#V" n="27"/>patris vno filio generato non diminuatur.
+        </p>
+        <p xml:id="capsco-a1smuc-d1e137">
+          <lb ed="#V" n="28"/><milestone ed="#V" unit="p" rend="indent"/> In oppositum arguitur. In diuinis non differt esse &amp;
+          pos<lb ed="#V" n="29" break="no"/>se, si igitur in diuinis possunt esse plures filij, iam de
+          fa<lb ed="#V" n="30" break="no"/>cto essent ibi plures, &amp; ita essent plures personae in diuinis
+          <lb ed="#V" n="31"/>quam tres.
+        </p>
+        <p xml:id="capsco-a1smuc-d1e149">
+          <lb ed="#V" n="32"/><milestone ed="#V" unit="p" rend="indent"/> Inhac quaestione erunt duo articuli. In quorum primo
+          <lb ed="#V" n="33"/>ponentur aliquae conclusiones. Secundo mouebuntur
+          <lb ed="#V" n="34"/>dubitationes.
+        </p>
+        <div xml:id="capsco-a1smuc-Dd1e159">
+          <head xml:id="capsco-a1smuc-Hd1e161">Articulus 1</head>
+          <p xml:id="capsco-a1smuc-d1e163">
+            <lb ed="#V" n="35"/><milestone ed="#V" unit="p" rend="initial"/> Quantum ad primum sit haec prima conclusio. In
+            di<lb ed="#V" n="36" break="no"/>uinis non possunt esse plures filij, probatur. tum
+            <lb ed="#V" n="37"/>quia quicquid potest esse, actu est necesse esse. tum
+            <lb ed="#V" n="38"/>quia quicquid potest esse Deus, est actu Deus &amp;c. Nec est
+            <lb ed="#V" n="39"/>de ista conclusione aliqua dubitatio apud catholicos,
+            om<lb ed="#V" n="40" break="no"/>nes enim concorditer ponunt, quod in diuinis non possunt
+            <lb ed="#V" n="41"/>esse plures filij, nec plures patres, nec plures Spiritus
+            san<lb ed="#V" n="42" break="no"/>cti, licet dubium sit vnde oritur repugnantia, quod aliqua
+            <lb ed="#V" n="43"/>relatio, puta filiatio, aut paternitas secundum numerum
+            <lb ed="#V" n="44"/>plurificari non potest.
+          </p>
+          <p xml:id="capsco-a1smuc-d1e188">
+            Secunda conclusio. Secundum
+            men<lb ed="#V" n="45" break="no"/>tem sancti Thomas huius impossibilitas resoluitur in
+            diui<lb ed="#V" n="46" break="no"/>nam immaterialitatem, vt in causam. Hanc enim
+            conclu<lb ed="#V" n="47" break="no"/>sionem ponit ipse prima parte. q. 41. artic. 6. vbi ponit
+            qua<lb ed="#V" n="48" break="no"/>tuor rationes: quarum prima est talis. Plures (inquit)
+            fi<lb ed="#V" n="49" break="no"/>liationes in diuinis esse non possent, nisi secundum
+            mate<lb ed="#V" n="50" break="no"/>rialem eorum distinctionem, formae enim vnius speciei non
+            <lb ed="#V" n="51"/>multiplicantur secundum numerum, nisi secundum
+            mate<lb ed="#V" n="52" break="no"/>riam, quae in diuinis non est, vnde in diuinis non potest
+            es<lb ed="#V" n="53" break="no"/>se nisi tantum vna filiatio subsistens, sicut albedo subsistens
+            <lb ed="#V" n="54"/>non posset esse nisi vna. Item 1 sent. dist. 7. q. 2. artic. 2.
+            assi<lb ed="#V" n="55" break="no"/>gnat eandem rationem. Impossibile (inquit )est, quod filiatio
+            <lb ed="#V" n="56"/>in diuinis multiplicetur secundum numerum, quia talis
+            mul<lb ed="#V" n="57" break="no"/>tiplicatio esset materialis, vnde in Deo non potest esse
+            nisi<lb ed="#V" n="58" break="no"/>vna filiatio &amp; vna filiatione non constituitur nisi vnus filius,
+            <lb ed="#V" n="59"/>&amp; ita in diuinis non possunt esse plures filij, nec plures
+            pa<lb ed="#V" n="60" break="no"/>tres. Item de potentia Dei. q. 9. artic. 9. ad primum sic ait.
+            <lb ed="#V" n="61"/>Nihil vnum secundum speciem existens, secundum
+            nume<lb ed="#V" n="62" break="no"/>rum potest multiplicari nisi ratione materiae, &amp; hac
+            ratio<lb ed="#V" n="63" break="no"/>ne in diuinis non potest esse nisi vna essentia &amp; filiatio, quia
+            <lb ed="#V" n="64"/>diuina essentia est immaterialis omnino, si autem essent
+            plu<lb ed="#V" n="65" break="no"/>res filij in diuinis, oporteret etiam esse plures filiationes, &amp;
+            <lb ed="#V" n="66"/>ita oporteret eas secundum materiam subiectam
+            multipli<lb ed="#V" n="67" break="no"/>cari, quod diuinae immaterialitati non conuenit. Haec ille.
+          </p>
+          <p xml:id="capsco-a1smuc-d1e240">
+            <lb ed="#V" n="68"/>Tertia conclusio est. Etiam secundum mentem sancti
+            Do<lb ed="#V" n="69" break="no"/>ctoris huiusmodi impossibilitas resoluitur vt in causam in
+            <lb ed="#V" n="70"/>perfectionem diuinam, tam ex parte processionum, quam
+            <lb ed="#V" n="71"/>ex parte procedentium. Vnde prima parte vbi supra ponit
+            <lb ed="#V" n="72"/>secundo loco talem rationem dicens. Secunda (inquit)
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="73"/>ratio sumitur ex parte processionum, quia Deus intelligit
+            <lb ed="#V" n="74"/>omnia, &amp; vult vno simplici actu, ideo non potest esse nisi
+            <lb ed="#V" n="75"/>vna persona procedens per modum verbi qui est filius &amp;
+            <lb ed="#V" n="76"/>vna tantum per modum amoris, qui est Spiritus Sanctus.
+            <lb ed="#V" n="77"/>Haec ille. Tertia ratio vero quam ibidem ponit talis est.
+            <lb ed="#V" n="78"/>Ex hoc (inquit) est perfectus filius, quia tota diuina
+            filia<lb ed="#V" n="79" break="no"/>tio in eo continetur, ex quo est, quod est tantum vnus filius.
+            <lb ed="#V" n="80"/>Similiter ibidem dicendum est de Spiritu sancto. Haec ille.
+            <lb ed="#V" n="81"/>Hanc vltimam rationem similiter ponit 1. sent. vbi supra.
+            <lb ed="#V" n="82"/>Hoc ipsum( inquit) pertinet ad perfectionem filij, quia
+            ni<lb ed="#V" n="83" break="no"/>hil de filiatione est extra ipsum in diuinis, vnde est
+            perfe<lb ed="#V" n="84" break="no"/>cte filius. Patet ergo quomodo ex diuina perfectione
+            pro<lb ed="#V" n="85" break="no"/>cedit impossibilitas plurificationis relationum vnius
+            ratio<lb ed="#V" n="86" break="no"/>nis secundum numerum, quia enim Deus perfectissime
+            in<lb ed="#V" n="87" break="no"/>telligit, ideo vnico actu simplicissimo omnia intelligit, vnico
+            <lb ed="#V" n="88"/>autem actu intellectus non producit nisi vnicum verbum.
+            <lb ed="#V" n="89"/>Et similiter quia filius in diuinis est pfectissime filius, ideo
+            <lb ed="#V" n="90"/>non se habet vt participans filiationem, immo est ipsa
+            quid<lb ed="#V" n="91" break="no"/>ditas filiationis diuinae subsistens. Ex quo sequitur, quod
+            <lb ed="#V" n="92"/>nihil de diuina filiatione potest esse extra illam, si enim
+            ali<lb ed="#V" n="93" break="no"/>quid de diuina filiatione esset extra illam, iam posset
+            ima<lb ed="#V" n="94" break="no"/>ginari perfectior filiatio, scilicet vna, quae continet
+            perfe<lb ed="#V" n="95" break="no"/>ctionem primae filiationis &amp; secundae.
+          </p>
+          <p xml:id="capsco-a1smuc-d1e305">
+            Quarta conclusio est.
+            <lb ed="#V" n="96"/>Etiam secundum mentem Sancti Thomas huiusmodi
+            impos<lb ed="#V" n="97" break="no"/>sibilitas resoluitur in modum naturalis processionis, vt in
+            <lb ed="#V" n="98"/>causam. Nam ipse prima parte vbi supra quarto loco
+            assi<lb ed="#V" n="99" break="no"/>gnat talem rationem. Personae (inquit) procedunt
+            natu<lb ed="#V" n="100" break="no"/>raliter, &amp; natura determinatur ad vnum.
+          </p>
+          <p xml:id="capsco-a1smuc-d1e319">
+            Item de
+            poten<lb ed="#V" n="101" break="no"/>tia Dei vbi supra, sic dicit. Filius dicitur aliquis ex hoc quod
+            <lb ed="#V" n="102"/>naturaliter procedit, natura autem ad vnum se habet
+            de<lb ed="#V" n="103" break="no"/>terminate, nisi per accidens ex aliquo materiali plura
+            pro<lb ed="#V" n="104" break="no"/>ueniant propter materiae diuitonem, &amp; ideo quia ibi est
+            <lb ed="#V" n="105"/>omnino immaterialis natura, oportet filium vnum esse
+            tan<lb ed="#V" n="106" break="no"/>tum. Haec ille.
+          </p>
+          <p xml:id="capsco-a1smuc-d1e335">
+            Item q. 2. arti. 4. Potest (inquit) aliqua
+            spe<lb ed="#V" n="107" break="no"/>cialis ratio assignari, quare pater tantum vnum filium
+            gi<lb ed="#V" n="108" break="no"/>gnere possit: natura enim ad vnum determinatur, vnde
+            <lb ed="#V" n="109"/>cum pater natura generaret filium non potest esse nisi vnus
+            <lb ed="#V" n="110"/>filius a patre genitus. Nec potest dici quod sunt plures
+            nu<lb ed="#V" n="111" break="no"/>mero in eadem specie existentes, sicut apud nos accidit,
+            <lb ed="#V" n="112"/>cum non sit ibi materia, quae est principium distinctionis
+            <lb ed="#V" n="113"/>secundum numerum in eadem specie. Haec ille.
+          </p>
+          <p xml:id="capsco-a1smuc-d1e353">
+            Quinta
+            <lb ed="#V" n="114"/>conclusio est. Etiam huiusmodi impossibilitas secundum
+            <lb ed="#V" n="115"/>mentem dicti Doctoris resoluitur vt in causam, in modum
+            <lb ed="#V" n="116"/>quo diuinae personae constituuntur, &amp; abinuicem
+            persona<lb ed="#V" n="117" break="no"/>liter distinguuntur, vnde in de potentia Dei. q. 2. articu. 1.
+            <lb ed="#V" n="118"/>decimum sic ait. Quia enim in diuinis (inquit) alius filius
+            <lb ed="#V" n="119"/>esse non potest contingit, quia ipsa filiatio est proprietas
+            <lb ed="#V" n="120"/>personalis ipsius, &amp; hoc quo vt ita dicam indiuiduatur,
+            <lb ed="#V" n="121"/>cuilibet autem indiuiduo principia indiuiduantia propria
+            <lb ed="#V" n="122"/>sunt sibi soli, alias sequeretur, quod persona vel indiuiduum
+            <lb ed="#V" n="123"/>esset communicabile ratione. Haec ille.
+          </p>
+          <p xml:id="capsco-a1smuc-d1e377">
+            Et ad tertium
+            ibi<lb ed="#V" n="124" break="no"/>dem sic. Ipsa relatio filiationis in filio tenet locum omnium
+            <lb ed="#V" n="125"/>principiorum indiuiduantium in rebus creatis, propter
+            <lb ed="#V" n="126"/>quod dicitur proprietas personalis, ipsa autem natura
+            di<lb ed="#V" n="127" break="no"/>uina tenet locum naturae speciei.
+          </p>
+          <p xml:id="capsco-a1smuc-d1e388">
+            Item eadem q. articu. 4.
+            <lb ed="#V" n="128"/>Non est (inquit) in diuinis aliquid quo filius distinguatur
+            <lb ed="#V" n="129"/>ab alijs personis, nisi sola relatio filiationis, quae est eius
+            <lb ed="#V" n="130"/>proprietas personalis, &amp; qua filius non solum est filius, sed
+            <lb ed="#V" n="131"/>est hoc suppositum vel persona haec. Impossibile est
+            au<lb ed="#V" n="132" break="no"/>tem illud quo aliquod suppositum est hoc in pluribus
+            in<lb ed="#V" n="133" break="no"/>ueniri, quia sic ipsum suppositum esset communicabile,
+            <lb ed="#V" n="134"/>quod est contra rationem suppositi indiuidui, &amp; personae,
+            <lb ed="#V" n="135"/>vnde nullo modo potest esse alius filius in diuinis quam
+            <lb ed="#V" n="136"/>vnus, non enim potest dici, quod vna filiatio constituat
+            <lb ed="#V" n="137"/>hunc filium, &amp; alia alium, quia cum filiationes ratione non
+            <lb ed="#V" n="138"/>differant, oporteret, quod si materia vel quocunque
+            sup<lb ed="#V" n="139" break="no"/>posito distinguerentur, quod esset in diuinis materia, aut
+            <lb ed="#V" n="140"/>aliud distinguens quam relatio.
+          </p>
+          <p xml:id="capsco-a1smuc-d1e419">
+            Item q. 9. artic. 9. ad
+            pri<lb ed="#V" n="141" break="no"/>mum. Illud (inquit) per quod aliquid indiuiduatur &amp;
+            ef<lb ed="#V" n="142" break="no"/>ficitur incommunicabile, impossibile est pluribus esse
+            com<lb ed="#V" n="143" break="no"/>mune illud enim, per quod Sortes est hoc aliquid, non
+            po<lb ed="#V" n="144" break="no"/>test intelligi pluribus inesse, vnde si filiatio in diuinis
+            plu<lb ed="#V" n="145" break="no"/>ribus conueniret non esset filiatio constituens
+            incommu<lb ed="#V" n="146" break="no"/>nicabilem filij personam, &amp; ita oportet quod filius
+            indiui<lb ed="#V" n="147" break="no"/>dua persona constitueretur per aliquid absolutum, quod
+            <pb ed="#V" n="176"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>vnitati diuinae essentiae non conuenit. Haec ille. Et in hoc
+            <lb ed="#V" n="2"/>primus articulus terminatur.
+          </p>
+        </div>
+        <div xml:id="capsco-a1smuc-Dd1e446">
+          <head xml:id="capsco-a1smuc-Hd1e448">Articulus 2</head>
+          <p xml:id="capsco-a1smuc-d1e450">
+            <lb ed="#V" n="3"/><milestone ed="#V" unit="p" rend="initial"/> Quantum ad secundum articulum mouenda sunt
+            du<lb ed="#V" n="4" break="no"/>bia quorundam contra istam positionem. Et
+            qui<lb ed="#V" n="5" break="no"/>dem contra secundam conclusionem arguit
+            Au<lb ed="#V" n="6" break="no"/>reolus probando illam esse multipliciter defectiuam.
+            Pri<lb ed="#V" n="7" break="no"/>mo inquit iste modus deficit, quia dicit omnem
+            plurifica<lb ed="#V" n="8" break="no"/>tionem secundum numerum fieri propter materiam
+            quan<lb ed="#V" n="9" break="no"/>tam, accipiendo materiam pro parte compositi
+            essentia<lb ed="#V" n="10" break="no"/>li existente in potentia. Illud enim quod potest concipi
+            <lb ed="#V" n="11"/>conceptu vniuersali non est principium indiuiduationis,
+            <lb ed="#V" n="12"/>sed materia potest intelligi conceptu vniuersali etiam
+            ma<lb ed="#V" n="13" break="no"/>teria quanta. In conceptu enim hominis intelligitur
+            cor<lb ed="#V" n="14" break="no"/>pus organicum, quod includit materiam quantam: ergo
+            <lb ed="#V" n="15"/>materia quanta non est causa indiuiduationis, &amp; per
+            con<lb ed="#V" n="16" break="no"/>sequens nec plurificationis.
+          </p>
+          <p xml:id="capsco-a1smuc-d1e484">
+            Secundo sic. Ablata causa
+            au<lb ed="#V" n="17" break="no"/>fertur effectus, &amp; maxime si sit causa praecisa, sed nulla
+            ma<lb ed="#V" n="18" break="no"/>teria existente adhuc ipsae animae separatae numeraliter
+            di<lb ed="#V" n="19" break="no"/>stinguuntur, non ergo esset causa numerationis animarum
+            <lb ed="#V" n="20"/>materia quanta. Et si dicatur, quod remanet habitudo ad
+            <lb ed="#V" n="21"/>corpora, non valet, nunquam enim effectus inest alicui
+            pro<lb ed="#V" n="22" break="no"/>pter habitudinem ad causam, alioquin nix esset alba
+            pro<lb ed="#V" n="23" break="no"/>pter solam habitudinem ad albedinem, esto quod non
+            par<lb ed="#V" n="24" break="no"/>ticiparet eam in actu, &amp; similiter lignum esset calidum
+            pro<lb ed="#V" n="25" break="no"/>pter solam habitudinem ad calorem, sed constat, quod
+            <lb ed="#V" n="26"/>animae separatae sunt in actu indiuiduae, &amp; numeraliter
+            di<lb ed="#V" n="27" break="no"/>stinctae: ergo causa indiuiduationis non est sola habitudo
+            <lb ed="#V" n="28"/>ad materias distinctas.
+          </p>
+          <p xml:id="capsco-a1smuc-d1e513">
+            Tertio sic. Philosophus dicit 4.
+            Me<lb ed="#V" n="29" break="no"/>taphysicae, quod idem est dicere aliquis homo, &amp; vnus
+            ho<lb ed="#V" n="30" break="no"/>mo, &amp; iste homo, sed constat, quod non est homo per
+            ma<lb ed="#V" n="31" break="no"/>teriam quantam: ergo nec iste homo. Quarto sic. Coeli
+            di<lb ed="#V" n="32" break="no"/>stinguuntur numero secundum Commentatorem primi
+            <lb ed="#V" n="33"/>coeli &amp; mundi, sed caeli non habent materiam vt idem
+            po<lb ed="#V" n="34" break="no"/>nit ibidem. Et non est dubium, quod Philosophus fuit
+            il<lb ed="#V" n="35" break="no"/>lius sententiae: ergo non omnis numeralis distinctio est per
+            <lb ed="#V" n="36"/>materiam quantitati subiectam, nec illa fuit mens
+            Philoso<lb ed="#V" n="37" break="no"/>phi, sed quae fuerit mens Philosophi dicit arguens in
+            pro<lb ed="#V" n="38" break="no"/>posito alio, scilicet dist. 3. primi, quod cum Aristoteles dicit, quod
+            <lb ed="#V" n="39"/>forma abstracta a materia vltima abstractione, non potest
+            <lb ed="#V" n="40"/>plurificari. 12. Metaphysicae, per formam intelligit rationem
+            <lb ed="#V" n="41"/>specificam &amp; naturam, materia autem accipitur ibidem
+            <lb ed="#V" n="42"/>non pro parte compositi, sed pro quocunque addito ad
+            <lb ed="#V" n="43"/>specificam rationem, &amp; potest distingui quintus modus
+            <lb ed="#V" n="44"/>talis materiae, additur enim conceptui specifico
+            quando<lb ed="#V" n="45" break="no"/>que situs &amp; quantitas cuiusmodi situs est passio, &amp; sic
+            con<lb ed="#V" n="46" break="no"/>surgit conceptus indiuidui signati dicendo, hic homo,
+            <lb ed="#V" n="47"/>vel ille homo. Aliquando vero additur multitudo
+            acciden<lb ed="#V" n="48" break="no"/>tium propriorum, &amp; sic consurgit conceptus indiuidui
+            si<lb ed="#V" n="49" break="no"/>mul totius de quo loquitur Philosophus 7. Metaphysicae,
+            <lb ed="#V" n="50"/>vt dum concipitur Sortes cum sua propria figura &amp;
+            colo<lb ed="#V" n="51" break="no"/>re &amp; caeteris accidentibus, quae appellantur partes
+            mate<lb ed="#V" n="52" break="no"/>riae non formae 7. Metaphysi. quia scilicet non sunt de
+            con<lb ed="#V" n="53" break="no"/>ceptu specifico. Aliquando autem additur particularitas
+            <lb ed="#V" n="54"/>incerta absque omni significatione &amp; determinatione, &amp;
+            <lb ed="#V" n="55"/>sic consurgit conceptus indiuidui vagi, vt cum concipitur,
+            <lb ed="#V" n="56"/>quidam homo vel quidam angelus. Aliquando autem
+            ad<lb ed="#V" n="57" break="no"/>ditur particularitas certa &amp; determinata, non tamen situs
+            <lb ed="#V" n="58"/>seu quantitas vel signatio, &amp; tunc consurgit conceptus
+            in<lb ed="#V" n="59" break="no"/>diuidui abstracti, qualis est Gabriel, vel Michael, quod
+            <lb ed="#V" n="60"/>non est indiuiduum signatum vel demonstrabile
+            conci<lb ed="#V" n="61" break="no"/>piendo hunc angelum vel illum, quia tunc necessario
+            situa<lb ed="#V" n="62" break="no"/>retur hic vel illic, Angelus autem non potest esse
+            subiec<lb ed="#V" n="63" break="no"/>tum situs. Aliquando autem additur ad conceptum
+            spe<lb ed="#V" n="64" break="no"/>cificum aliquod accidens commune omnibus indiuiduis,
+            <lb ed="#V" n="65"/>sed proprium speciei, vt cum dicitur, homo risibilis, aut
+            <lb ed="#V" n="66"/>aliquid huiusmodi. Potest etiam addi sibi accidens
+            inten<lb ed="#V" n="67" break="no"/>tionale, vt si concipiatur homo inquantum species, vel vt
+            <lb ed="#V" n="68"/>praedicabilis de pluribus. Secundum hoc ergo de homine
+            <lb ed="#V" n="69"/>possunt esse sex conceptus. Primus quidem indiuidui
+            si<lb ed="#V" n="70" break="no"/>gnati, vt cum concipimus hunc hominem. Secundus
+            ve<lb ed="#V" n="71" break="no"/>ro indiuidui simul totius, vt cum concipimus hunc
+            homi<lb ed="#V" n="72" break="no"/>nem cum talibus carnibus &amp; ossibus. Tertius vero
+            indiui<lb ed="#V" n="73" break="no"/>dui vagi, vt dum concipimus quendam hominem.
+            Quar<lb ed="#V" n="74" break="no"/>tus vero indiuidui abstracti a situ &amp; omnibus
+            accidenti<lb ed="#V" n="75" break="no"/>bus, vt cum concipimus Sortem secundum suam
+            realita<cb ed="#V" n="b"/><lb ed="#V" n="76" break="no"/>tem, quae subiiciter omnibus accidentibus, illa nanque est
+            <lb ed="#V" n="77"/>propria non communis. Quintus autem congregati ex
+            ra<lb ed="#V" n="78" break="no"/>tione specifica &amp; accidentibus eius, vt dum concipimus
+            <lb ed="#V" n="79"/>hominem cum figuris &amp; qualitatibus sibi debitis in
+            com<lb ed="#V" n="80" break="no"/>muni, aut dum concipitur homo inquantum est species.
+            <lb ed="#V" n="81"/>Sextus est abstractissimus, qui est conceptus formae
+            simpli<lb ed="#V" n="82" break="no"/>citer &amp; quidditatiuus, vt dum concipimus hominem
+            sim<lb ed="#V" n="83" break="no"/>pliciter abstrahendo ab istis omnibus, &amp; forma taliter
+            ab<lb ed="#V" n="84" break="no"/>stracta si esset in re secundum illam denudationem, quam
+            <lb ed="#V" n="85"/>habet in intellectu concipiente illo sexto modo plurificari
+            <lb ed="#V" n="86"/>non posset: sic ergo intelligendum est, quod forma
+            abstra<lb ed="#V" n="87" break="no"/>cta a materia plurificari non potest, &amp; propositio sic
+            intel<lb ed="#V" n="88" break="no"/>lecta est per se nota: non autem intelligendo abstractione
+            <lb ed="#V" n="89"/>a materia, quae est pars compositi.
+          </p>
+          <p xml:id="capsco-a1smuc-d1e649">
+            Secundo dicit illam
+            po<lb ed="#V" n="90" break="no"/>sitionem deficere in hoc quod ait ex hoc filiationem non
+            <lb ed="#V" n="91"/>posse plurificari in Deo, scilicet ex immaterialitate,
+            secun<lb ed="#V" n="92" break="no"/>dum hoc enim plus repugnabit filio in diuinis plurificari,
+            <lb ed="#V" n="93"/>quam Michaeli vel cuilibet angelo, qui secundum te
+            plu<lb ed="#V" n="94" break="no"/>rificari non potest, quia est forma abstracta, sed hoc est
+            ab<lb ed="#V" n="95" break="no"/>surdum, quoniam in angelis saltem est ratio generis &amp;
+            spe<lb ed="#V" n="96" break="no"/>cici, quamuis non sit nisi vnum indiuiduum in vna specie
+            <lb ed="#V" n="97"/>secundum te, constat autem quod a filiatione non potest
+            <lb ed="#V" n="98"/>abstrahi conceptus specificus aut generis, quia non est
+            ge<lb ed="#V" n="99" break="no"/>nus aut species in diuinis: ergo ratio illa non est causa
+            il<lb ed="#V" n="100" break="no"/>lius implurificabilitatis quam habet filiatio. Secundo. Quia
+            <lb ed="#V" n="101"/>effectus proprius debet reduci in causam propriam, sed non
+            <lb ed="#V" n="102"/>plurificari, proprium est filio, &amp; Spiritui sancto tali modo,
+            <lb ed="#V" n="103"/>quod non competit alicui creato, nulla nanque creatura
+            <lb ed="#V" n="104"/>sic est multiplicabilis, sicut diuinae relationes: ergo non
+            de<lb ed="#V" n="105" break="no"/>buit assignari pro causa abstractio, quae communis est
+            crea<lb ed="#V" n="106" break="no"/>turis.
+          </p>
+          <p xml:id="capsco-a1smuc-d1e689">
+            Tertio loco dicit istam positionem deficere. Quoniam
+            <lb ed="#V" n="107"/>dici posset, quod huiusmodi filiationes non essent in eodem
+            <lb ed="#V" n="108"/>subiecto, non enim essentia est subiectum proprietatum,
+            <lb ed="#V" n="109"/>sed suppositum: ergo quot erunt filij, tot erunt subiecta, &amp;
+            <lb ed="#V" n="110"/>sic filiationes distingui poterunt penes illa. Secundo. Quia
+            <lb ed="#V" n="111"/>plures paternitates sunt in eodem forte ad plures filios, &amp;
+            <lb ed="#V" n="112"/>plures similitudines in eodem albo ad plura coalba, sed
+            <lb ed="#V" n="113"/>istae sunt eiusdem rationis &amp; solo numero differentes:
+            igi<lb ed="#V" n="114" break="no"/>tur ex hac ratione non tollitur, quin plures filiationes
+            po<lb ed="#V" n="115" break="no"/>ni possint in Deo. Tertio. Tales filiationes plures essent
+            in<lb ed="#V" n="116" break="no"/>ter alios &amp; alios terminos, &amp; ita haberent quo
+            distingue<lb ed="#V" n="117" break="no"/>renter adinuicem, esto quod non per subiecta: ergo non
+            <lb ed="#V" n="118"/>apparet, quod illa ratio sufficiat. Pro hoc arguit Scotus 5.
+            <lb ed="#V" n="119"/>Metaphys. probando, quod multa accidentia vnius speciei
+            <lb ed="#V" n="120"/>possunt esse in eodem subiecto.
+          </p>
+          <p xml:id="capsco-a1smuc-d1e722">
+            Primo principaliter. Quia
+            <lb ed="#V" n="121"/>in eadem parte diaphani sunt plura lumina creata ex
+            di<lb ed="#V" n="122" break="no"/>uersis luminosis. Si dicatur quod non sunt plura lumina,
+            <lb ed="#V" n="123"/>sed ex illis fit vnum. Contra. Ibi sunt diuersa agentia,
+            scili<lb ed="#V" n="124" break="no"/>cet plura luminosa: ergo plures actiones &amp; plures effectus.
+          </p>
+          <p xml:id="capsco-a1smuc-d1e733">
+            <lb ed="#V" n="125"/>Secundo. Quia plures species eiusdem rationis sunt in
+            ocu<lb ed="#V" n="126" break="no"/>lo &amp; in fantasia. Dicetur quod non sunt in eadem parte oculi.
+            <lb ed="#V" n="127"/>Contra. Viso vno albo si in eodem situ ponitur aliud album
+            <lb ed="#V" n="128"/>ibi essent duae species albedinis in eadem parte oculi. Nec
+            <lb ed="#V" n="129"/>valet, si dicatur, quod non erunt ibi duae species, sed
+            prae<lb ed="#V" n="130" break="no"/>cedens augetur: hoc inquam non valet, quia si primo
+            vi<lb ed="#V" n="131" break="no"/>detur album intensum, &amp; post album remissum, si species
+            <lb ed="#V" n="132"/>illius albi remissi augeat praecedentem. tunc species
+            reprae<lb ed="#V" n="133" break="no"/>sentans album remissum erit intensior quam species
+            reprae<lb ed="#V" n="134" break="no"/>sentans album intensum, quod est contra sensum. Item.
+            <lb ed="#V" n="135"/>Accidens intentionale abstrahit a situ &amp; dimensione
+            secun<lb ed="#V" n="136" break="no"/>dum se, &amp; ab actione expellenti siue contraria, sed ex
+            tali<lb ed="#V" n="137" break="no"/>bus videtur causari repugnantia duorum in eodem
+            subie<lb ed="#V" n="138" break="no"/>cto.
+          </p>
+          <p xml:id="capsco-a1smuc-d1e766">
+            Tertio principaliter. Quia idem pater numero habet
+            <lb ed="#V" n="139"/>plures filiationes, cum relatio numeretur numeratione
+            ter<lb ed="#V" n="140" break="no"/>mini. Si dicatur, quod est eadem paternitas qua refertur
+            <lb ed="#V" n="141"/>ad plures filios. Contra. Quia tunc corrupto vno filio
+            ma<lb ed="#V" n="142" break="no"/>neret illa eadem relatio in numero qua referebatur: ergo
+            <lb ed="#V" n="143"/>maneret terminus, quod est contra positionem, vel
+            mane<lb ed="#V" n="144" break="no"/>ret relatio destructo termino, vel eadem relatio maneret
+            <lb ed="#V" n="145"/>&amp; non maneret. Item eadem ratione paternitas fortis &amp;
+            <lb ed="#V" n="146"/>Platonis possent terminari ad eundem filium, ita quod
+            ha<lb ed="#V" n="147" break="no"/>berent eundem filium: probatur, quia secundum te eadem
+            <lb ed="#V" n="148"/>paternitas numero terminatur ad diuersos filios. igitur a
+            <lb ed="#V" n="149"/>simili eadem filiatio terminari potest ad plures patres.
+          </p>
+          <p xml:id="capsco-a1smuc-d1e792">
+            Quar<lb ed="#V" n="150" break="no"/>to principaliter. Idem subiectum in numero est in potentia
+            <pb ed="#V" n="177"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>ad plures albedines succedentes diuersis temporibus, ergo
+            <lb ed="#V" n="2"/>habet simul diuersas potentias ad illas albedines. Si
+            dica<lb ed="#V" n="3" break="no"/>tur, quod est eadem potentia in numero. Contra. Quia tunc
+            <lb ed="#V" n="4"/>cum vna albedo corrumperetur alia non corrupta,
+            simili<lb ed="#V" n="5" break="no"/>ter potentia, &amp; tunc idem numero manet &amp; non manet.
+            Pro<lb ed="#V" n="6" break="no"/>hoc etiam arguit Adam in secundo multipliciter. Primo.
+            <lb ed="#V" n="7"/>Quia duo lumina simul coextenduntin in medio. Cuius
+            <lb ed="#V" n="8"/>probatio est, quia posita vna candela tantum in domo de
+            <lb ed="#V" n="9"/>nocte illuminatur domus remissius, quam si plures
+            ponan<lb ed="#V" n="10" break="no"/>tur, &amp; vna de illis subtracta, postquam positae fuerint, patet
+            <lb ed="#V" n="11"/>sensibiliter quod lumen remittitur, &amp; cum candela apponitur,
+            <lb ed="#V" n="12"/>dato quod sint in omnibus similes non corrumpit lumina priora,
+            <lb ed="#V" n="13"/>nec prioris candelae, nec etiam ipsius subtractio est totius
+            <lb ed="#V" n="14"/>luminis vel omnium luminum corruptio.
+          </p>
+          <p xml:id="capsco-a1smuc-d1e831">
+            Item dum sunt
+            <lb ed="#V" n="15"/>simul ista luminaria in diuersis partibus domus si ponatur
+            <lb ed="#V" n="16"/>obstaculum in medio domus, quaelibet candela habebit
+            vm<lb ed="#V" n="17" break="no"/>bram sua ex opposito talis obstaculi directe, &amp; tamen alia
+            can<lb ed="#V" n="18" break="no"/>dela ibidem illuminabit, &amp; tamen sensibiliter patet in tali
+            ca<lb ed="#V" n="19" break="no"/>su, quod lumen est in loco cuiuslibet istarum vmbrarum
+            re<lb ed="#V" n="20" break="no"/>missius quam in illa parte domus, cuius causam non est
+            pos<lb ed="#V" n="21" break="no"/>sibile assignare vbique &amp; bonam, nisi quod licet tota vmbra
+            <lb ed="#V" n="22"/>illuminetur ab aliqua vel aliquibus istarum candelarum,
+            <lb ed="#V" n="23"/>non tamen ab ista, cuius vmbra ibi producitur per
+            obsta<lb ed="#V" n="24" break="no"/>culum, &amp; ideo fit ibi lumen remissius quam vbilumina
+            <lb ed="#V" n="25"/>omnium simul concurrunt: ergo vbi sic concurrunt in
+            a<lb ed="#V" n="26" break="no"/>gendo, ibi sunt plura lumina creata quam alibi.
+          </p>
+          <p xml:id="capsco-a1smuc-d1e861">
+            Item Sol
+            <lb ed="#V" n="27"/>per accessum suum continuum, vel etiam candela facit plus
+            <lb ed="#V" n="28"/>de lumine in parte, ad quam sic continue accedit quam
+            <lb ed="#V" n="29"/>prius fuerit, &amp; hoc non facit corrumpendo totum
+            lumen<lb ed="#V" n="30" break="no"/>praecedens, nec sine productione noui luminis: ergo sunt
+            <lb ed="#V" n="31"/>ibi plura lumina, &amp; qua ratione duo lumina simul
+            coexten<lb ed="#V" n="32" break="no"/>duntur in medio, pari ratione &amp; duo calores in
+            calefacti<lb ed="#V" n="33" break="no"/>bili, &amp; sic de alijs. Secundo. Quia simul potest homo
+            intel<lb ed="#V" n="34" break="no"/>ligere sortem &amp; Platonem, &amp; non vnica intellectione
+            indi<lb ed="#V" n="35" break="no"/>uidualiter &amp; distincte naturaliter ante compositionem &amp;
+            <lb ed="#V" n="36"/>diuisionem: igitur duabus: assumptum patet, quia homo
+            po<lb ed="#V" n="37" break="no"/>test habere de ipsis tales notitias simul quod sciat vel
+            cre<lb ed="#V" n="38" break="no"/>dat sortem distingui a platone virtute talium simplicium
+            <lb ed="#V" n="39"/>notitiarum.
+          </p>
+          <p xml:id="capsco-a1smuc-d1e892">
+            Tertio. Quia notitia sensitiua non est
+            vniuer<lb ed="#V" n="40" break="no"/>salis. igitur tantum vnius repraesentatiua: igitur quando
+            vi<lb ed="#V" n="41" break="no"/>dentur duo alba, sunt in potentia visiua simul duae visiones,
+            <lb ed="#V" n="42"/>&amp; hoc aliunde patet, quia licet ponatur aliquod
+            obstacu<lb ed="#V" n="43" break="no"/>lum inter oculuin &amp; vnum illorum, non propter hoc
+            defi<lb ed="#V" n="44" break="no"/>cit aliud videre. Quarto. Quia recipio aliquem hominem
+            <lb ed="#V" n="45"/>diligentem quos homines duobus actibus diligendi, ex istis
+            <lb ed="#V" n="46"/>duobus actibus generantur duo habitus inclinantes ad
+            di<lb ed="#V" n="47" break="no"/>lectionem huius &amp; istius, quod sint duo patet, quia potest perdere
+            <lb ed="#V" n="48"/>inclinationem ad diligendum vnum istorum stante
+            inclina<lb ed="#V" n="49" break="no"/>tione diligendi alterum: ergo quando inclina tur ad
+            distin<lb ed="#V" n="50" break="no"/>cte diligendum vtrunque habet distinctos habitus. Quinto.
+            <lb ed="#V" n="51"/>Quia vnus oculus potest videre alium sibi similem, sed hoc
+            <lb ed="#V" n="52"/>fieri non potest, nisi simul in medio esset species vtriusque
+            ocu<lb ed="#V" n="53" break="no"/>li, eodem modo quando omnes parietes domus sunt
+            vni<lb ed="#V" n="54" break="no"/>formiter albi, vel quilibet eorum causabit in medio
+            spe<lb ed="#V" n="55" break="no"/>ciem sui, &amp; tunc multa indiuidua vnius speciei simul erunt,
+            <lb ed="#V" n="56"/>vel nullus, &amp; hoc non, quia oculus in medio positus potest
+            na<lb ed="#V" n="57" break="no"/>turaliter videre quemcunque istorum, &amp; hoc non fit
+            natu<lb ed="#V" n="58" break="no"/>raliter sine specie rei visibilis recepta in oculis &amp; sic pari
+            ra<lb ed="#V" n="59" break="no"/>tione causantur ibi species in aere interposito. Sexto. Quia
+            <lb ed="#V" n="60"/>in speculo posito in tali medio patet per experientiam, quod
+            <lb ed="#V" n="61"/>quilibet istorum parietum essentialiter repraesentatur:
+            igi<lb ed="#V" n="62" break="no"/>tur &amp;c. Septimo. Quia lumen refexum secundum numerum est
+            <lb ed="#V" n="63"/>aliud a lumine incidente, quia homo quandoque potest
+            inspi<lb ed="#V" n="64" break="no"/>cere solem per lineam reflexam a speculo, quandoque non
+            <lb ed="#V" n="65"/>potest per lineas incidentes: igitur lumen incidens &amp; lumen
+            <lb ed="#V" n="66"/>ressexum sunt diuersa lumina, quia aliter aeque fortiter
+            im<lb ed="#V" n="67" break="no"/>mutarent hominem ad videndum solem, quod patet esse
+            <lb ed="#V" n="68"/>falsum, cum vnum sit bene tolerabile, &amp; aliud intolerabile
+            <lb ed="#V" n="69"/>oculo quandoque.
+          </p>
+          <p xml:id="capsco-a1smuc-d1e960">
+            Confirmatur. Quia in casu interponi
+            <lb ed="#V" n="70"/>potest obstaculum inter solem &amp; oculum, &amp; tamen non
+            interpo<lb ed="#V" n="71" break="no"/>ni inter solem &amp; speculum, &amp; per consequens ibi non
+            vide<lb ed="#V" n="72" break="no"/>bitur sol per lumen incidens, sed solum per reflexum, &amp; tamen
+            <lb ed="#V" n="73"/>illa duo lumina non sunt diuersarum specierum.
+          </p>
+          <p xml:id="capsco-a1smuc-d1e971">
+            Confirma<lb ed="#V" n="74" break="no"/>tur iterum. Quia lumen reflexum est debilius incidente, vt
+            <lb ed="#V" n="75"/>docet experientia, &amp; innuitur secundo de niarigitur sunt
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="76"/>distincta, &amp; tamen in aliqua parte medij concurrunt, ex quibus
+            <lb ed="#V" n="77"/>concludit, quod nulla est repugnantia, multa accidentia
+            eius<lb ed="#V" n="78" break="no"/>dem speciei esse simul in eodem subiecto adaequato. Hugo
+            <lb ed="#V" n="79"/>de Castro similiter arguit. Quia sub vna specie possunt
+            es<lb ed="#V" n="80" break="no"/>se plura indiuidua non distincta per materiam, neque per
+            <lb ed="#V" n="81"/>subiectum, quia angelus potest modo habere intellectionem de
+            <lb ed="#V" n="82"/>lapide, &amp; hac intellectione de istente, potest iterum
+            habe<lb ed="#V" n="83" break="no"/>re intellectionem de eodem lapide, istae duae intellectiones
+            <lb ed="#V" n="84"/>sunt eiusdem rationis, vt patet, quia obiectum est eiusdem
+            <lb ed="#V" n="85"/>rationis, nec distinguuntur per materiam, nec per subiectum,
+            <lb ed="#V" n="86"/>nec per obiectum, vt patet: ergo aliqua solo numero
+            distin<lb ed="#V" n="87" break="no"/>guuntur, quae non distinguuntur nec per materiam, nec per
+            <lb ed="#V" n="88"/>subiectum, nec per quantitatem, &amp; per consequens oportet
+            <lb ed="#V" n="89"/>quod seipsis formaliter &amp; intrinsece distinguantur. Dicetur
+            <lb ed="#V" n="90"/>forte, quod istae duae intellectiones differunt ex tempore
+            con<lb ed="#V" n="91" break="no"/>notato, scilicet ex eo, quod sibi succedunt in coexistentia
+            <lb ed="#V" n="92"/>ad aliam &amp; aliam partem temporis. Sed ex hoc videtur
+            ha<lb ed="#V" n="93" break="no"/>beri propositum, scilicet quod saltem in quadam
+            succes<lb ed="#V" n="94" break="no"/>sione in separatis a materia possunt esse plura sub eadem
+            <lb ed="#V" n="95"/>specie distincta solo numero differentia, &amp; per consequens
+            <lb ed="#V" n="96"/>cum coexistentiae eorum non repugnent, nec opponantur
+            <lb ed="#V" n="97"/>inter se, possunt simul manere, &amp; esse Deo conseruante.
+            <lb ed="#V" n="98"/>Quarto loco dicit Aureolus istam positionem deficere,
+            <lb ed="#V" n="99"/>quia expresse est contra tres articulos Parisijs
+            excommu<lb ed="#V" n="100" break="no"/>nicatos. Primum quidem qui dicit, quod quia
+            intelligen<lb ed="#V" n="101" break="no"/>tiae non habent materiam, ex hoc Deus non posset plures
+            <lb ed="#V" n="102"/>eiusdem speciei facere, error. Secundum vero qui dicit, quod
+            <lb ed="#V" n="103"/>Deus non potest multiplicare indiuidua sub vna
+            speciei<lb ed="#V" n="104" break="no"/>ne materia, error. Tertium vero qui ait, quod formae non
+            <lb ed="#V" n="105"/>recipiant diuisionem nisi per materiam, error, nisi
+            intelli<lb ed="#V" n="106" break="no"/>gatur de formis eductis de potentia materiae. Haec ille.
+          </p>
+          <p xml:id="capsco-a1smuc-d1e1047">
+            <lb ed="#V" n="107"/><milestone ed="#V" unit="p" rend="indent"/> Contra omnes istas conclusiones &amp; signanter contra
+            pri<lb ed="#V" n="108" break="no"/>mam potest argui probando, quod in diuinis possint esse
+            <lb ed="#V" n="109"/>plures filij. Arguitur enim sic. Omni potentiae
+            producti<lb ed="#V" n="110" break="no"/>uae correspondet aliquod productibile, sed in filio est
+            po<lb ed="#V" n="111" break="no"/>tentia generatiua, vt dicit Augustnus scilicet quod filius non
+            <lb ed="#V" n="112"/>genuit, non quia non potuit, sed quia non oportuit. Et
+            ite<lb ed="#V" n="113" break="no"/>rum argumentum Henrici est, quod pater esset potentior
+            <lb ed="#V" n="114"/>filio, si filius non potest generare: ergo videtur, quod
+            po<lb ed="#V" n="115" break="no"/>tentiae generatiuae existenti in filio correspondeat aliquod
+            <lb ed="#V" n="116"/>generabile, &amp; per consequens alius filius.
+          </p>
+          <p xml:id="capsco-a1smuc-d1e1072">
+            Secundo sic. In
+            <lb ed="#V" n="117"/>omni perfecta intellectione debet emanare verbum, sed
+            <lb ed="#V" n="118"/>filius &amp; Spiritus Sanctus aeque perfecte intelligunt sicut
+            pa<lb ed="#V" n="119" break="no"/>ter: ergo filius intelligendo producet verbum, &amp; per
+            con<lb ed="#V" n="120" break="no"/>sequens erunt ibi plures filij, &amp; plura verba in diuinis.
+            Ter<lb ed="#V" n="121" break="no"/>tio. Et infinita bonitat patris procedit quod
+            communi<lb ed="#V" n="122" break="no"/>cet seipsum filium producendo, sed aeque bonus est filius
+            <lb ed="#V" n="123"/>sicut pater: ergo videtur quod communicet se
+            producen<lb ed="#V" n="124" break="no"/>do filium, &amp; similiter Spiritum Sanctum aliam personam
+            <lb ed="#V" n="125"/>producendo. Quarto. Non propter aliud videtur, quod
+            <lb ed="#V" n="126"/>non sint plures filij in diuinis, nisi quatenus distingui non
+            <lb ed="#V" n="127"/>possent, sed hoc non impedit, quia si essent plures, adhuc
+            <lb ed="#V" n="128"/>distinguerentur, semper enim praecedens distingueretur a
+            <lb ed="#V" n="129"/>subsequente per cooppositam relationem originis, puta per
+            <lb ed="#V" n="130"/>generare &amp; generari. Vlterius etiam distingueretur a
+            pri<lb ed="#V" n="131" break="no"/>mo patre, quia esset tantummodo genitus, pater vero
+            pri<lb ed="#V" n="132" break="no"/>mus tantummodo generans, medij autem essent
+            generan<lb ed="#V" n="133" break="no"/>tes &amp; geniti, ergo non apparet, quare non possunt esse
+            plu<lb ed="#V" n="134" break="no"/>res filij in diuinis. Quinto. Quia posse generare est aliqua
+            <lb ed="#V" n="135"/>dignitas patris, immo etiam genuisse filium Deum est
+            di<lb ed="#V" n="136" break="no"/>gnitas, sed dignitas omnis est filio Dei attribuenda: ergo
+            <lb ed="#V" n="137"/>ipse potest generare, immo generat filium sibi aequalem.
+            <lb ed="#V" n="138"/>Sexto. Philosophus dicit 4. Metheororum, quod perfectum est
+            <lb ed="#V" n="139"/>vnumquoque, quod potest sibi simile generare, sed constat,
+            <lb ed="#V" n="140"/>quod filius est summae perfectus: ergo potest sibi simile
+            ge<lb ed="#V" n="141" break="no"/>nerare. Septimo. Cum Deus sit infinitus simpliciter debet
+            <lb ed="#V" n="142"/>habere omnem modum infinitatis, sed infinitas numerabilis
+            <lb ed="#V" n="143"/>est quidam modus infinitatis sicut &amp; infinitas perfectionis:
+            <lb ed="#V" n="144"/>ergo sicut in Deo est infinitas perfectionis, ita debet esse
+            <lb ed="#V" n="145"/>in eo infinitas numeralis, &amp; sic in eo erunt infiniti filij.
+          </p>
+          <p xml:id="capsco-a1smuc-d1e1138">
+            <lb ed="#V" n="146"/><milestone ed="#V" unit="p" rend="indent"/> Ad primum contra secundam conclusionem dicitur, quod
+            <lb ed="#V" n="147"/>arguens false imponit Sancto Doctori ipsum
+            sensiss<lb ed="#V" n="148" break="no"/>omnem plurificationem indiuiduorum vnius speciei
+            fieri<lb ed="#V" n="149" break="no"/>immediate per materiam quantitati subiectam, hoc enim
+            <lb ed="#V" n="150"/>Sanctus Thomas nunquam sensit, cum ipse ponat 2. contra Gentil. c. 75
+            <pb ed="#V" n="178"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>quod species intelligibiles indiuiduantur per subiectum,
+            <lb ed="#V" n="2"/>quod est intellectus possibilis, sicut &amp; omnes aliae formae.
+            <lb ed="#V" n="3"/>Ibidem etiam vult quod scientia indiuiduatur per subiectum,
+            <lb ed="#V" n="4"/>&amp; ideo scientia magistri &amp; discipuli non sunt eadem
+            nu<lb ed="#V" n="5" break="no"/>mero, sed diuersae. Ex quo patet quod cum dicit, formas
+            <lb ed="#V" n="6"/>vnius speciei non distingui numero, nisi per materiam,
+            lar<lb ed="#V" n="7" break="no"/>ge accipit materiam pro omni subiecto vel susceptiuo, &amp;
+            <lb ed="#V" n="8"/>non solum pro materia quantitati subiecta. Veruntamen
+            <lb ed="#V" n="9"/>dico, quod mens eius fuit, quod forma substantialis non
+            <lb ed="#V" n="10"/>plurificatur immediate secundum numerum infra eandem
+            <lb ed="#V" n="11"/>speciem, nisi per materiam quantitati subiectam, non
+            quam<lb ed="#V" n="12" break="no"/>libet, sed signatam, vnde in de veritate. q. 2. artic. 6. ad
+            pri<lb ed="#V" n="13" break="no"/>mum dicit. Tam materia (inquit) intelligibilis, quae
+            scili<lb ed="#V" n="14" break="no"/>cet consideratur in natura concipi, quam materia
+            sensibi<lb ed="#V" n="15" break="no"/>lis, scilicet naturalis dupliciter accipitur, scilicet vt
+            signa<lb ed="#V" n="16" break="no"/>ta, &amp; vt non signata, &amp; dico signatam secundum quod
+            consi<lb ed="#V" n="17" break="no"/>deratur cum determinatione harum dimensionum vel
+            il<lb ed="#V" n="18" break="no"/>larum, non signatam autem secundum quod consideratur sine
+            <lb ed="#V" n="19"/>determinatione dimensionum. Secundum hoc ergo
+            scien<lb ed="#V" n="20" break="no"/>dum est, quod materia signata est principium indiuiduationis, a
+            <lb ed="#V" n="21"/>qua abstrahit omnis intellectus secundum quod dicitur
+            abstra<lb ed="#V" n="22" break="no"/>here ab hic &amp; nunc. Haec ille.
+          </p>
+          <p xml:id="capsco-a1smuc-d1e1204">
+            Vnde ad istud dubium quasi
+            <lb ed="#V" n="23"/>in forma videtur soluere in tractatu de principio
+            indiui<lb ed="#V" n="24" break="no"/>duationis qui incipit. Quoniam duae sunt potentiaetait enim sic
+            <lb ed="#V" n="25"/>in fine illius postquam dixerat quod &amp; materia &amp; quantitas
+            <lb ed="#V" n="26"/>sunt principia indiuiduationis. Potest (inquit) hic obijci,
+            <lb ed="#V" n="27"/>materia communis est de natura sua sicut forma, cum possit
+            <lb ed="#V" n="28"/>vna sub pluribus esse, vnde haec communitas sua videtur
+            im<lb ed="#V" n="29" break="no"/>pedire eam, ne sit principium indiuiduationis. Sed
+            scien<lb ed="#V" n="30" break="no"/>dum quod impossibile est formam vniri materiae, quin sit
+            <lb ed="#V" n="31"/>particularis, &amp; quin sequatur quantitas determinata, per
+            <lb ed="#V" n="32"/>quem modum materia non est vltra communicabilis
+            ali<lb ed="#V" n="33" break="no"/>cui alteri formae, quia haec quantitas cum alia forma
+            repe<lb ed="#V" n="34" break="no"/>riri non potest cum eadem determinatione, ideo materia
+            <lb ed="#V" n="35"/>non est communicabilis secundum eandem rationem sicut
+            <lb ed="#V" n="36"/>forma. Ratio enim materiae sub forma aliqua est alia a
+            ra<lb ed="#V" n="37" break="no"/>tione sua sub alia forma, quia ratio sua certificatur per
+            de<lb ed="#V" n="38" break="no"/>terminationem quantitatis, quae in diuersa proportione &amp;
+            <lb ed="#V" n="39"/>mensione requiritur ad alias &amp; alias formas, essentia tamen
+            <lb ed="#V" n="40"/>materiae non diuersificatur sub diuersis formis, sicut sua
+            ra<lb ed="#V" n="41" break="no"/>tio. Ratio enim materiae non est vna &amp; communis, sicut
+            <lb ed="#V" n="42"/>sua essentia, sed diuersa ratio est, &amp; ideo communitas
+            ma<lb ed="#V" n="43" break="no"/>teriae secundum essentiam tantum, &amp; non secundum
+            ean<lb ed="#V" n="44" break="no"/>dem rationem non impedit materiam esse primum
+            princi<lb ed="#V" n="45" break="no"/>pium indiuiduationis. Haec ille.
+          </p>
+          <p xml:id="capsco-a1smuc-d1e1256">
+            Ex quibus patet, quod
+            mate<lb ed="#V" n="46" break="no"/>ria quae est principium indiuiduationis &amp; distinctionis
+            se<lb ed="#V" n="47" break="no"/>cundum numerum infra eandem speciem non potest
+            con<lb ed="#V" n="48" break="no"/>cipi conceptu communi, sicut arguens supponit, &amp; ad
+            pro<lb ed="#V" n="49" break="no"/>bationem quae ibi adducitur. Quia in ratione hominis
+            in<lb ed="#V" n="50" break="no"/>cluditur corpus organicum &amp;c. Dicitur quod materia signata
+            <lb ed="#V" n="51"/>si concipiatur secundum quod est in se nunquam potest concipi
+            <lb ed="#V" n="52"/>in communi plus quam sortes, potest tamen concipi
+            conceptu<lb ed="#V" n="53" break="no"/>comni non explicante ipsam secundum quod in se est, sed in
+            ha<lb ed="#V" n="54" break="no"/>bitudine quadam generali ad formam aliquam, &amp; non
+            so<lb ed="#V" n="55" break="no"/>lum contingit ista deceptio in hoc, de quo loquimur,
+            im<lb ed="#V" n="56" break="no"/>mo in multis alijs, &amp; praesertim de formis a materia
+            sepa<lb ed="#V" n="57" break="no"/>ratis. Secundum enim quod ait Sanctus Thomas prima parte. q. 13.
+            <lb ed="#V" n="58"/>arti. 9. Formae quae non indiuiduantur per aliquod
+            suppo<lb ed="#V" n="59" break="no"/>situm, sed per seipsas. quia scilicet sunt formae subsistentes, si
+            intel<lb ed="#V" n="60" break="no"/>ligantur secundum quod sunt in seipsis non possunt communicari nec
+            <lb ed="#V" n="61"/>re nec ratione, sed forte secundum similitudinem tantum,
+            <lb ed="#V" n="62"/>sicut dictum est de indiuiduis: aliquis enim metaphorice potest
+            <lb ed="#V" n="63"/>dici Achilles secundum quod aliquid participat de
+            proprieta<lb ed="#V" n="64" break="no"/>tibus Achillis, sed quia formas si mplices subsistentes non
+            <lb ed="#V" n="65"/>possumus intelligere secundum quod sunt, sed intelligimus eas
+            <lb ed="#V" n="66"/>per modum rerum compositarum habentium formas in
+            ma<lb ed="#V" n="67" break="no"/>terijs, ideo imponimus eis nomina concreta signantia naturam
+            <lb ed="#V" n="68"/>in aliquo supposito, &amp; sic sunt concabiles secundum rationem.
+            For<lb ed="#V" n="69" break="no"/>ma enim in supposito singulari existens, per quod indiuiduatur,
+            <lb ed="#V" n="70"/>communis est secundum rem, vt humanitas, vel secundum rationem,
+            <lb ed="#V" n="71"/>vt natura solis. Haec ille.
+          </p>
+          <p xml:id="capsco-a1smuc-d1e1315">
+            Vbi intendit, quod nihil quod ex se
+            in<lb ed="#V" n="72" break="no"/>diuiduum est, &amp; inconicabile, si intelligatur secundum quod in se est,
+            <lb ed="#V" n="73"/>intelligitur vniuersaliter, immo omne nomen impositum ad
+            <lb ed="#V" n="74"/>signandum aliquod tale secundum quod in se incomnicabile est
+            <lb ed="#V" n="75"/>re &amp; ratione, sicut nomen sortis vt sortes est, sic in proposito,
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="76"/>quia materia signata certis dimensionibus incomnicabilis est.
+            <lb ed="#V" n="77"/>Vlterius nec ipsa potest intelligi conceptu communi, nec
+            signifi<lb ed="#V" n="78" break="no"/>cari nomine communi, si intelligatur vel significetur vt in se est,
+            <lb ed="#V" n="79"/>quia autem materiam secundum se non cognossmus, sed in
+            habi<lb ed="#V" n="80" break="no"/>tudine ad actum vel formam, ideo improprie ipsam
+            intelli<lb ed="#V" n="81" break="no"/>gimus &amp; significamus nomine communi, puta hoc quod dico
+            cor<lb ed="#V" n="82" break="no"/>pus organicum, quod dat intelligere subiectum formae
+            ta<lb ed="#V" n="83" break="no"/>liter figuratum, &amp; habens membra conuenientia ad
+            exer<lb ed="#V" n="84" break="no"/>cendum opera vitae, hoc enim non est intelligere materiam
+            <lb ed="#V" n="85"/>signatam vt in se est haec, sed in quadam generali
+            habitu<lb ed="#V" n="86" break="no"/>dine ad formam, &amp; hoc sufficit pro responsione primi,
+            <lb ed="#V" n="87"/>quia minor est falsa.
+          </p>
+          <p xml:id="capsco-a1smuc-d1e1354">
+            Ad secundum dicitur, quo d
+            proce<lb ed="#V" n="88" break="no"/>dit ex falso intellectu, ac si Sanctus Thomas ponat quod
+            ma<lb ed="#V" n="89" break="no"/>teria sit formale distinctiuum formarum vnius speciei, vel
+            <lb ed="#V" n="90"/>habitudo aliqua, seu relatio ad materiam, hoc enim
+            San<lb ed="#V" n="91" break="no"/>ctus Thomas non intelligit, sed solum, quod materia est
+            <lb ed="#V" n="92"/>vnum de necessario requiitis ad initiandum
+            indiuiquatio<lb ed="#V" n="93" break="no"/>nem formarum &amp; distinctionem earum secundum
+            nume<lb ed="#V" n="94" break="no"/>rum, loquendo de formis receptibilibus in materia,
+            for<lb ed="#V" n="95" break="no"/>male vero indiniduatiuum &amp; distinctiuum formarum vnius
+            <lb ed="#V" n="96"/>speciei est commensuratio ad diuersa susceptiua, quam
+            com<lb ed="#V" n="97" break="no"/>mensurationem credo intelligit acquisitam in materia, &amp;
+            <lb ed="#V" n="98"/>quod ista sit mens patet ex illis, quae ponit secundo contra
+            <lb ed="#V" n="99"/>Gentiles cap. 79. Quaecunque (inquit) oportet esse simul
+            <lb ed="#V" n="100"/>proportionata &amp; coaptata simul recipiunt multitudinem,
+            <lb ed="#V" n="101"/>vnitatem, vnumquodque ex sua causa, si igitur esse vnius
+            <lb ed="#V" n="102"/>dependeat ab altero, vnitas vel multiplicatio eius etiam
+            <lb ed="#V" n="103"/>ex illo dependet alioquin ex alia causa intrinseca. Formam
+            <lb ed="#V" n="104"/>autem &amp; materiam semper oportet ad inuicem esse
+            propor<lb ed="#V" n="105" break="no"/>tionata, &amp; quasi naturaliter coaptata quia proprius actus
+            <lb ed="#V" n="106"/>in propria materia nt, vnde semper oportet quod materia
+            <lb ed="#V" n="107"/>&amp; forma consequantur se inuicem in multitudine &amp;
+            vni<lb ed="#V" n="108" break="no"/>tate, si igitur esse formae dependeat a materia,
+            multiplica<lb ed="#V" n="109" break="no"/>tio ipsius a materia dependet, &amp; similiter vnitas, sin autem
+            <lb ed="#V" n="110"/>erit quidem necessarium multiplicari formam secundum
+            <lb ed="#V" n="111"/>multiplicationem materiae, idest simul cum materia in
+            pro<lb ed="#V" n="112" break="no"/>portione ipsius, non autem ita quod dependeat vnitas vel
+            <lb ed="#V" n="113"/>multitudo ipsius formae a materia, ostensum est autem, quod
+            <lb ed="#V" n="114"/>anima humana est forma secundum suum esse a materia
+            no<lb ed="#V" n="115" break="no"/>dependens. Vnde sequitur quod multiplicantur quidem
+            <lb ed="#V" n="116"/>animae secundum quod multiplicantur corpora, non tamen
+            <lb ed="#V" n="117"/>multiplicatio corporum erit causa multiplicationis
+            ani<lb ed="#V" n="118" break="no"/>marum, &amp; ideo non oportet quod destructis corporibus cesset
+            <lb ed="#V" n="119"/>pluralitas animarum. Haec ille.
+          </p>
+          <p xml:id="capsco-a1smuc-d1e1426">
+            Istud autem declarat
+            am<lb ed="#V" n="120" break="no"/>plius primo senten. dist. q. 5. artic. 2 ad sextum. In anima
+            <lb ed="#V" n="121"/>(inquit) non est aliquid quo ipsa indiuiduetur, &amp; hoc
+            in<lb ed="#V" n="122" break="no"/>tellexerunt qui negauerunt eam esse hoc aliquid, &amp; non quod
+            <lb ed="#V" n="123"/>non habeat esse per se absolutum, &amp; dico quod non
+            indiuidua<lb ed="#V" n="124" break="no"/>tur nisi ex corpore, vnde impossibilis est error ponentium
+            <lb ed="#V" n="125"/>animas prius creatas &amp; post incorporatas, quia non
+            effi<lb ed="#V" n="126" break="no"/>ciuntur plures, nisi secundum quod infunduntur pluribus
+            cor<lb ed="#V" n="127" break="no"/>poribus, sed quamuis indiuiduatio animarum dependeat
+            <lb ed="#V" n="128"/>a corpore quantum ad suum principium non tamen quantum
+            <lb ed="#V" n="129"/>ad suum finem, ita quodsclicet cessantibus corporibus cesset
+            indi<lb ed="#V" n="130" break="no"/>uiduatio animarum. Cuius ratio est, quia cum omnis perfectio
+            <lb ed="#V" n="131"/>infundatur materiae secundum sua capacitatem, natura
+            ani<lb ed="#V" n="132" break="no"/>mae infunditur diuersis corporibus non secundum eandem
+            <lb ed="#V" n="133"/>nobilitatem &amp; puritatem, vnde in vnoquoque corpore
+            ha<lb ed="#V" n="134" break="no"/>bebit esse terminatum secundum mensuram corporis, hoc autem
+            <lb ed="#V" n="135"/>esse terminatum quamuis acquiratur animae in corpore,
+            <lb ed="#V" n="136"/>nec tamen ex corpore, nec per dependentiam ad corpus,
+            <lb ed="#V" n="137"/>vnde remotis corporibus adhuc remanebit vnicuique
+            ani<lb ed="#V" n="138" break="no"/>mae esse suum terminatum secundum affectiones vel
+            dispo<lb ed="#V" n="139" break="no"/>sitiones, quae consecutae sunt eam, prout fuit perfectio talis
+            <lb ed="#V" n="140"/>corporis, &amp; haec est solutio Auicendus &amp; potest manifestari per
+            <lb ed="#V" n="141"/>exemplum sensibile. Si enim aliquid vnum non retinens
+            figu<lb ed="#V" n="142" break="no"/>ram distinguatur per diuersa vasa sicut aqua, quando vasa
+            <lb ed="#V" n="143"/>remouebuntur non manebunt proprie figurae distinctae, sed
+            <lb ed="#V" n="144"/>remanebit vna tantum aqua, &amp; ita est de formis
+            materiali<lb ed="#V" n="145" break="no"/>bus, quae non retinent esse per se, si autem sit aliquid
+            reci<lb ed="#V" n="146" break="no"/>piens figuram, quod distinguatur secundum diuersas
+            fi<lb ed="#V" n="147" break="no"/>guras, vel diuersa instrumenta, etiam remotis illis
+            remane<lb ed="#V" n="148" break="no"/>bit distinctio figurarum, vt patet in cera, &amp; ita est de anima
+            <lb ed="#V" n="149"/>quae retinet esse suum post corporis destructionem quod
+            ma<lb ed="#V" n="150" break="no"/>net in ipsa esse indiuiduatum &amp; eutinctum. Haec ille in
+            forma<pb ed="#V" n="179"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>Et secundo contra Gentiles vbi supra. Multitudo
+            anima<lb ed="#V" n="2" break="no"/>rum a corporibus separatarum consequitur quidem
+            diuer<lb ed="#V" n="3" break="no"/>sitatem formarum secundum substantiam, quia alia est
+            sub<lb ed="#V" n="4" break="no"/>stantia huius animae &amp; alia illius, non tamen ista diuersitas
+            <lb ed="#V" n="5"/>procedit ex diuersitate principiorum essentialium ipsius
+            <lb ed="#V" n="6"/>animae nec est secundum diuersam rationem animae, sed
+            <lb ed="#V" n="7"/>est secundum diuersam commensurationem animarum ad
+            <lb ed="#V" n="8"/>corpora, haec enim anima est commensurata isti corpori,
+            <lb ed="#V" n="9"/>&amp; illa alteri &amp; non isti, &amp; sic de omnibus, huiusmodi
+            au<lb ed="#V" n="10" break="no"/>tem commensurationes remanent in animabus etiam
+            per<lb ed="#V" n="11" break="no"/>cumptibus corporibus, sicut &amp; ipsae substantiae earum
+            ma<lb ed="#V" n="12" break="no"/>nent quasi a corporibus secundum esse non dependentes,
+            <lb ed="#V" n="13"/>sunt enim animae secundum suas substantias formae
+            corpo<lb ed="#V" n="14" break="no"/>rum, alias accidentaliter corporibus vnirentur, &amp; sic
+            ex<lb ed="#V" n="15" break="no"/>anima &amp; corpore non fieret vnum per se, sed vnum per
+            ac<lb ed="#V" n="16" break="no"/>cidens. Inquantum autem formae sunt, oportet eas esse
+            <lb ed="#V" n="17"/>corporibus commensuratas, vnde patet quod ipsae diuersae
+            <lb ed="#V" n="18"/>commensurationes manent in animabus separatis, &amp; per
+            <lb ed="#V" n="19"/>consequens pluralitas. Haec ille.
+          </p>
+          <p xml:id="capsco-a1smuc-d1e1540">
+            Ex quibus omnibus
+            pa<lb ed="#V" n="20" break="no"/>tet, quod formale distinctiuum animae ab anima in eadem
+            <lb ed="#V" n="21"/>specie &amp; formale indiuiduatiuum est commensuratio eius
+            <lb ed="#V" n="22"/>ad tale corpus, &amp; ita quod illa commensuratio dicit mihi
+            <lb ed="#V" n="23"/>esse &amp; actualitatem, qua anima formaliter est tali corpori
+            <lb ed="#V" n="24"/>coaptata, &amp; illud est quo anima formaliter indiuiduatur,
+            <lb ed="#V" n="25"/>&amp; illud non indiuiduatur vlterius per aliquid aliud, sed est
+            <lb ed="#V" n="26"/>ratio indiuiduandi formam, corpus autem vel materia
+            <lb ed="#V" n="27"/>non indiuiduat animam formaliter, sed potius tanquam
+            <lb ed="#V" n="28"/>subiectum necessario requisitum ad hoc, quod anima
+            reci<lb ed="#V" n="29" break="no"/>piat indiuiduationem, non autem ad hoc, quod sit
+            indiui<lb ed="#V" n="30" break="no"/>dua.
+          </p>
+          <p xml:id="capsco-a1smuc-d1e1566">
+            Ad tertium dicitur, quod idem est dicere, vnus
+            ho<lb ed="#V" n="31" break="no"/>mo &amp; aliquis homo, &amp; iste homo, ad hunc sensum, quod
+            <lb ed="#V" n="32"/>illa tria dicuntur de eadem re, &amp; se consequuntur
+            quan<lb ed="#V" n="33" break="no"/>tum ad existentiam, &amp; quantum ad generationem &amp;
+            cor<lb ed="#V" n="34" break="no"/>ruptionem, sed non est idem dicere homo, &amp; iste homo,
+            <lb ed="#V" n="35"/>sic quod per idem formaliter sortes sit homo, &amp; iste homo,
+            <lb ed="#V" n="36"/>vnde Sanctus Thomas prima parte quaest. 11. artic. 3. dicit. Per aliud
+            <lb ed="#V" n="37"/>sortes est homo, &amp; per aliud iste homo: illud enim vnde
+            <lb ed="#V" n="38"/>sortes est homo potest multis conuenire, sed illud vnde
+            <lb ed="#V" n="39"/>est hic homo, non potest conuenire nisi vni tantum. Haec
+            <lb ed="#V" n="40"/>ille. Per quid autem sortes sit hic homo ostendit ipse
+            in<lb ed="#V" n="41" break="no"/>multis locis manifestando quid sit principium
+            indiuidua<lb ed="#V" n="42" break="no"/>tionis, vnde tertia parte. quaest. 77. artic. 2. dicit. De
+            ratio<lb ed="#V" n="43" break="no"/>ne indiuidui est, quod non possit esse in pluribus, quod
+            qui<lb ed="#V" n="44" break="no"/>dem dupliciter contingit. Vno modo, quia non est natum
+            <lb ed="#V" n="45"/>esse in aliquo, &amp; hoc modo formae immateriales separatae
+            <lb ed="#V" n="46"/>per se subsistentes sunt etiam per seipsas indiuiduatae. Alio
+            <lb ed="#V" n="47"/>modo ex eo quod forma substantialis vel accidentalis est
+            <lb ed="#V" n="48"/>quidem nata in aliquo esse, non tamen in pluribus, sicut
+            <lb ed="#V" n="49"/>haec albedo, quae est in corpore.
+          </p>
+          <p xml:id="capsco-a1smuc-d1e1610">
+            <lb ed="#V" n="50"/><milestone ed="#V" unit="p" rend="indent"/> Quantum ad primum, materia est principium
+            indiui<lb ed="#V" n="51" break="no"/>duationis omnibus formis inhaerentibus, quia cum
+            huius<lb ed="#V" n="52" break="no"/>modi formae quantum est de se natae sint esse in aliquo sicut
+            <lb ed="#V" n="53"/>in subiecto, ex quo aliqua earum recipitur in materia, quae
+            <lb ed="#V" n="54"/>non est in alio, nec ipsa forma sic existens potest in alio esse.
+            <lb ed="#V" n="55"/>Quia tum autem ad secundum dicendum est, quod
+            prin<lb ed="#V" n="56" break="no"/>cipium indiuiduationis est quantitas dimensiua, ex hoc
+            <lb ed="#V" n="57"/>enim aliquid natum est esse in vno solo, quod illud est in
+            <lb ed="#V" n="58"/>se indiuisum, &amp; ab omnibus alijs diuisum. Diuisio autem
+            <lb ed="#V" n="59"/>accidit substantiae ratione quantitatis, vt dicitur 1.
+            Physi<lb ed="#V" n="60" break="no"/>corum, &amp; ideo quantitas dimensiua est quoddam
+            indiui<lb ed="#V" n="61" break="no"/>duationis principium formis inquantum, scilicet diuersae
+            <lb ed="#V" n="62"/>formae numero sunt in diuersis partibus materiae, vnde
+            ip<lb ed="#V" n="63" break="no"/>sa quantitas dimensiua secundum se habet quandam
+            diui<lb ed="#V" n="64" break="no"/>sionem, ita quod possumus imaginari plures lineas eiusdem
+            <lb ed="#V" n="65"/>speciei differentes positione, quae cadit in ratione
+            quanti<lb ed="#V" n="66" break="no"/>tatis huiusmodi, conuenit enim dimensioni, quod sit
+            quan<lb ed="#V" n="67" break="no"/>titas positionem habens. Haec ille.
+          </p>
+          <p xml:id="capsco-a1smuc-d1e1653">
+            <lb ed="#V" n="68"/><milestone ed="#V" unit="p" rend="indent"/> Idem ponit quarto sententiarum. distinctione
+            decima<lb ed="#V" n="69" break="no"/>secunda, quaestione prima articulo primo, quaestiuncula
+            <lb ed="#V" n="70"/>tertia ad tertium, vbi sic ait. Duo sunt de ratione
+            indiui<lb ed="#V" n="71" break="no"/>dui, scilicet quod sit ens actu in se, vel in alio, &amp; quod sit
+            <lb ed="#V" n="72"/>diuisum ab alijs, quae sunt vel esse possunt in eadem specie
+            <lb ed="#V" n="73"/>in se indiuisum existens, &amp; ideo primum indiuiduationis
+            <lb ed="#V" n="74"/>principium est materia, qua acquiritur esse in actu
+            cuili<lb ed="#V" n="75" break="no"/>bet tali formae siue substantiali siue accidentali, &amp;
+            secun<cb ed="#V" n="b"/><lb ed="#V" n="76" break="no"/>darium principium indiuiduationis est dimensio, quia ex
+            <lb ed="#V" n="77"/>ipsa habet materia quod indiuiduetur, vnde in carentibus
+            <lb ed="#V" n="78"/>dimensione impossibile est esse aliam diuisionem nisi per
+            <lb ed="#V" n="79"/>formam, quae facit diuersitatem speciei, &amp; propter hoc in
+            <lb ed="#V" n="80"/>Angelis sunt tot species quot indiuidua, quia cum sint
+            for<lb ed="#V" n="81" break="no"/>mae subsistentes ex seipsis habent esse in actu &amp;
+            distinctio<lb ed="#V" n="82" break="no"/>nem, &amp; ideo non indigent ad sui indiuiduationem neque
+            <lb ed="#V" n="83"/>materia neque dimensione. Si autem quantitas siue
+            ma<lb ed="#V" n="84" break="no"/>teria haberet esse in actu per se, haberet indiuiduationem,
+            <lb ed="#V" n="85"/>quia per se haberet illam diuisionem secundum quam
+            di<lb ed="#V" n="86" break="no"/>uiditur materia, &amp; sic vna pars differret ab alia non specie,
+            <lb ed="#V" n="87"/>sed numero secundum ordinem qui attenditur in situ
+            par<lb ed="#V" n="88" break="no"/>tium, &amp; similiter vna linea differret ab alia numero, dum
+            <lb ed="#V" n="89"/>tamen acciperentur in diuerso situ. Haec ille.
+          </p>
+          <p xml:id="capsco-a1smuc-d1e1705">
+            Ex quibus
+            <lb ed="#V" n="90"/>patet quod aliud est illud, quo sortes est hic homo vel
+            in<lb ed="#V" n="91" break="no"/>diuiduum, &amp; aliud illud, per quod est homo, vnde Aristoteles
+            <lb ed="#V" n="92"/>in illo loco non intendebat, quin per aliud sortes sit iste
+            <lb ed="#V" n="93"/>homo quam vnus homo, vel aliquis homo, vel ens homo,
+            <lb ed="#V" n="94"/>ita quod indiuiduatio nihil addat ad vnitatem vel
+            entita<lb ed="#V" n="95" break="no"/>tem, sed econtra intendit, quod vnitas rei, vel eius entitas
+            <lb ed="#V" n="96"/>nihil addunt ad indiuiduum singulare, licet econtra aliud
+            <lb ed="#V" n="97"/>sit principium indiuiduationis quam entitatis vel vnitatis
+            <lb ed="#V" n="98"/>rei, quidditas enim hominis est ens &amp; vna non per aliud
+            <lb ed="#V" n="99"/>additum, sed ad hoc quod indiuiduetur requiritur aliquid
+            <lb ed="#V" n="100"/>extra quidditatem.
+          </p>
+          <p xml:id="capsco-a1smuc-d1e1731">
+            Ad quartum diceret Sanctus Thomas
+            <lb ed="#V" n="101"/>quod in coelo est materia, licet sit alterius rationis quam
+            <lb ed="#V" n="102"/>materia horum inferiorum, hoc enim ipse ponit expresse
+            <lb ed="#V" n="103"/>prima parte. quaestio. 66. articu. 2. vbi etiam negat dictum
+            <lb ed="#V" n="104"/>Auerroys. Item in scripto super 8. Physicorum in 1. cap.
+            <lb ed="#V" n="105"/>Quia autem necesse est impartibile &amp;c. Auerroys inquit
+            di<lb ed="#V" n="106" break="no"/>cit corpus coeleste non esse compositum ex materia &amp;
+            for<lb ed="#V" n="107" break="no"/>ma quasi potentia &amp; actu, sed dicit ipsum esse vt actu
+            exi<lb ed="#V" n="108" break="no"/>stentem. Et formam eius dicit animam ipsius, ita tamen
+            <lb ed="#V" n="109"/>quod non constituatur in esse per formam, sed solum in
+            <lb ed="#V" n="110"/>moueri, &amp; sic dicit in eo non esse potentiam ad non esse,
+            <lb ed="#V" n="111"/>sed solum ad esse, sicut dicit Philosophus 12. Metaphysic.
+            <lb ed="#V" n="112"/>&amp; hoc veritati repugnat &amp; intentioni Aristotelis. Veritati
+            <lb ed="#V" n="113"/>quidem multipliciter. Primo quia dicit corpus coeleste
+            <lb ed="#V" n="114"/>non esse compositum ex materia &amp; forma, hoc enim
+            om<lb ed="#V" n="115" break="no"/>nino est impossibile, manifestum est enim corpus coeleste
+            <lb ed="#V" n="116"/>esse aliquid actu, alioquin non moueretur, quod enim est
+            <lb ed="#V" n="117"/>in potentia tantum non est subiectum motus vt in quinto
+            <lb ed="#V" n="118"/>habitum est, oportet autem omne quod est actu vel esse
+            for<lb ed="#V" n="119" break="no"/>mam subsistentem, sicut sunt formae separatae, vel habere
+            <lb ed="#V" n="120"/>formam in alio, quod quidem se habet ad formam, sicut
+            <lb ed="#V" n="121"/>materia, &amp; sicut potentia ad actum, non autem potest
+            di<lb ed="#V" n="122" break="no"/>ci quod corpus coeleste sit forma subsistens, quia sic esset
+            <lb ed="#V" n="123"/>intellectum in actu non cadens sub sensu, nec sub
+            qualita<lb ed="#V" n="124" break="no"/>te, relinquitur ergo quod est compositum ex materia &amp;
+            <lb ed="#V" n="125"/>forma, &amp; potentia &amp; actu, &amp; sic est in ipso quodammodo
+            <lb ed="#V" n="126"/>potentia ad esse. Haec ille.
+          </p>
+          <p xml:id="capsco-a1smuc-d1e1791">
+            Et idem ponit secundo
+            senten<lb ed="#V" n="127" break="no"/>distinctione decimasecunda quaestione prima articulo
+            pri<lb ed="#V" n="128" break="no"/>mo &amp; in multis alijs locis, &amp; ita fuit mens Philosophi, vt
+            <lb ed="#V" n="129"/>patet legenti dicta ipsius. Nam Aristoteles 12. Metaphysic.
+            <lb ed="#V" n="130"/>particula duodecima, secundum signationem
+            Commenta<lb ed="#V" n="131" break="no"/>toris sic ait in principio. Et omnia quae transmutantur
+            ha<lb ed="#V" n="132" break="no"/>bent materiam, sed diuersam. Omnia igitur aeterna quae sunt
+            <lb ed="#V" n="133"/>non generabilia, &amp; mouentur secundum translationem
+            ha<lb ed="#V" n="134" break="no"/>bent materiam, sed non generatam, sed ex vbi ad vbi. Haec
+            <lb ed="#V" n="135"/>ille. Super quo verbo dicit Commentator. Et si omnia quae
+            <lb ed="#V" n="136"/>transmutantur habent materiam sicut dicimus, sed
+            natu<lb ed="#V" n="137" break="no"/>rae materiarum diuersificantur secundum modos naturae
+            <lb ed="#V" n="138"/>translationis, materia autem generabilium est in potentia,
+            <lb ed="#V" n="139"/>translatorum autem in actu, cum translatum sit aliquid
+            <lb ed="#V" n="140"/>actu, &amp; ideo cum illud quod est translatum non fuerit
+            ge<lb ed="#V" n="141" break="no"/>nerabile nec corruptibile non habebit materiam, quam
+            ha<lb ed="#V" n="142" break="no"/>bet generabile &amp; corruptibile, &amp; est illa quae est in
+            poten<lb ed="#V" n="143" break="no"/>tia, &amp; omnia enim aeterna, quae non sunt generabilia, si
+            mouen<lb ed="#V" n="144" break="no"/>tur motu secundum translationem habent materiam, sed non
+            mate<lb ed="#V" n="145" break="no"/>riam generabilium, sed materiam eorum, quae mouentur de vbi
+            <lb ed="#V" n="146"/>ad vbi. Et ex hoc videtur corpus coeleste non habere
+            poten<lb ed="#V" n="147" break="no"/>tiam diuisibilem secundum diuisionem corporis scilicet formam
+            materia<lb ed="#V" n="148" break="no"/>lem, nam si ita esset, esset in eo materia quae est in potentia,
+            <lb ed="#V" n="149"/>&amp; iam declaratum est, quod nullum aeternum habet potentiam
+            <lb ed="#V" n="150"/>vt corrumpatur, in primo caeli &amp; mundi. Auicenna autem
+            <pb ed="#V" n="180"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>errauit in hoc, quod dicit, quod materia, quae est in
+            poten<lb ed="#V" n="2" break="no"/>tia, existit in omnibus corporibus. Haec ille Commentator
+            <lb ed="#V" n="3"/>in forma.
+          </p>
+          <p xml:id="capsco-a1smuc-d1e1856">
+            Ex quo patet, quod solum negat in coelo
+            mate<lb ed="#V" n="4" break="no"/>riam, quae sit in potentia ad formam quam non habet, sed
+            <lb ed="#V" n="5"/>solum ad vbi, licet forte alibi dicat oppositum. Cum autem
+            <lb ed="#V" n="6"/>arguens dicit. quod mens Philosophi ponentis illam
+            pro<lb ed="#V" n="7" break="no"/>positionem, scilicet omnis forma abstracta a materia est
+            <lb ed="#V" n="8"/>implurificabilis secundum numerum, fuit loqui de
+            abstra<lb ed="#V" n="9" break="no"/>ctione a materia, non prout materia est pars compositi, sed
+            <lb ed="#V" n="10"/>prout generaliter materia nominat omne additum
+            natu<lb ed="#V" n="11" break="no"/>rae specificae. Mirum est vnde venit ista mirabilis glosa
+            tex<lb ed="#V" n="12" break="no"/>tum destruens, quod apparet: nam Commentator
+            deci<lb ed="#V" n="13" break="no"/>mosecundo Metaphys. comen. 49. sic ait. Quod est vnum
+            <lb ed="#V" n="14"/>in specie &amp; plura in numero habet materiam, sed
+            declara<lb ed="#V" n="15" break="no"/>tum est quod principium coeli non habet materiam. Haec
+            <lb ed="#V" n="16"/>sunt verba eius.
+          </p>
+          <p xml:id="capsco-a1smuc-d1e1887">
+            Ex quo patet quod illa materia est causa
+            <lb ed="#V" n="17"/>plurificabilitatis indiuiduorum in eadem specie secundum
+            <lb ed="#V" n="18"/>mentem Commentatoris &amp; Aristoteles quam probauerunt
+            <lb ed="#V" n="19"/>nullo modo esse in primo motore, vel in principio coeli.
+            <lb ed="#V" n="20"/>In tota vero serie libri Metaphysicae nusquam reperitur quod
+            <lb ed="#V" n="21"/>Philosophus aut Commentator probent in primo
+            princi<lb ed="#V" n="22" break="no"/>pio non esse materiam, nisi loquendo de materia, per quam
+            <lb ed="#V" n="23"/>aliquid est in potentia ad esse vel non esse, aut ad vbi vel ad
+            <lb ed="#V" n="24"/>formam, &amp; ideo si talis distinctio de materia sit de mente
+            <lb ed="#V" n="25"/>Aristoteles cum ipse nusquam probet materiam talibus
+            mo<lb ed="#V" n="26" break="no"/>dis acceptam non esse in primo principio, non sufficienter
+            <lb ed="#V" n="27"/>probat primum principium non plurificari secundum
+            nu<lb ed="#V" n="28" break="no"/>merum, vnde particula 31. 12. Metaphysicae, vbi probat
+            ma<lb ed="#V" n="29" break="no"/>teriam non esse in primo principio, loquitur in haec verba.
+            <lb ed="#V" n="30"/>Quoniam( inquit) quod est in potentia possibile est vt non
+            <lb ed="#V" n="31"/>sit ens, necesse igitur est vt tale principium sit substantia,
+            <lb ed="#V" n="32"/>quae est actio, &amp; etiam vt istae substantiae sint entitates extra
+            <lb ed="#V" n="33"/>materiam, cum necesse sit vt sint aeternae. Haec Aristotele vbi
+            <lb ed="#V" n="34"/>Commentator recitat &amp; approbat commentum
+            Alexan<lb ed="#V" n="35" break="no"/>dri super eodem loco dicentis. Si primum principium
+            fue<lb ed="#V" n="36" break="no"/>rit in potentia substantia, possibile est vt non sit ens
+            sim<lb ed="#V" n="37" break="no"/>pliciter, id est quod corrumpatur in aliqua hora, hoc
+            qui<lb ed="#V" n="38" break="no"/>dem determinatum est in naturalibus, quod omne illud,
+            <lb ed="#V" n="39"/>cuius substantiae admiscetur potentia, est generabile &amp;
+            cor<lb ed="#V" n="40" break="no"/>ruptibile, si fuerit in potentia motor in loco, possibile est
+            <lb ed="#V" n="41"/>vt non moueat.
+          </p>
+          <p xml:id="capsco-a1smuc-d1e1944">
+            Vnde necesse est, vt isti motori non
+            admi<lb ed="#V" n="42" break="no"/>sceatur potentia omnino, neque in substantia, neque in
+            ali<lb ed="#V" n="43" break="no"/>quo modorum potentiae, &amp; hoc intendebat Aristeles cum
+            di<lb ed="#V" n="44" break="no"/>cit. Necesse est igitur vt talis substantia sit actio, quia
+            cau<lb ed="#V" n="45" break="no"/>sa potentiae in rebus, in quibus est potentia, est materia, vt
+            <lb ed="#V" n="46"/>dictum est in naturalibus, &amp; quia istae substantiae sunt
+            mo<lb ed="#V" n="47" break="no"/>uentes sine aliqua potentia, necesse est vt sint sine omni
+            ina<lb ed="#V" n="48" break="no"/>teria, cum necesse est vt sint aeternae, omne enim aeternum
+            <lb ed="#V" n="49"/>est actio pura, &amp; omne quod est actio pura non habet
+            po<lb ed="#V" n="50" break="no"/>tentiam. Haec Commentator. Ex quo patet quam materiam
+            <lb ed="#V" n="51"/>negat in primo motore &amp; in substantijs separatis, non enim
+            <lb ed="#V" n="52"/>per materiam intelligit omnem rationem accidentalem
+            <lb ed="#V" n="53"/>quidditati, quia cum mouere coelum sit quid accidentale
+            <lb ed="#V" n="54"/>rationi quidditatiuae substantiae separatae, iam talis
+            substan<lb ed="#V" n="55" break="no"/>tia non careret materia, cuius oppositum intendit
+            proba<lb ed="#V" n="56" break="no"/>re, sed potius per materiam intelligit illud, de quo in
+            natu<lb ed="#V" n="57" break="no"/>ralibus locutus est, vt patet per expositionem commenti,
+            <lb ed="#V" n="58"/>tum quia licet Aristeles in 12. Metaphys. distinguat de duplici
+            <lb ed="#V" n="59"/>materia, scilicet de materia generabili, &amp; de materia quae
+            <lb ed="#V" n="60"/>est potentia ad vbi, praesertim particula decima, vt supra
+            <lb ed="#V" n="61"/>extitit allegatum, veruntamen nunquam in toto illo libro
+            <lb ed="#V" n="62"/>sit mentio de tali acceptionemateriae, quam iste imponit
+            <lb ed="#V" n="63"/>Arisotele Et ergo videtur quod sua glosa potius dicenda est fictio
+            <lb ed="#V" n="64"/>quam expositio salua pace. Et ex abundanti, quod Philosophus
+            lo<lb ed="#V" n="65" break="no"/>quitur de materia subiecta quantitati, patet, nam 3.
+            Meta<lb ed="#V" n="66" break="no"/>physicae particula 11. secundum signationem
+            Commenta<lb ed="#V" n="67" break="no"/>toris Ariteles dicit ita. Omne diuisibile diuiditur aut
+            secun<lb ed="#V" n="68" break="no"/>dum quantitatem, aut secundum formam. Et quod diuiditur
+            <lb ed="#V" n="69"/>secundum quantitatem est ante illud quod diuiditur secundum
+            <lb ed="#V" n="70"/>formam &amp; genera diuiduntur secundum formam, &amp; forma
+            <lb ed="#V" n="71"/>diuiditur secundum quantitatem: erit igitur vnum praedicabile
+            <lb ed="#V" n="72"/>postremum magis vnum quam aliud, homo enim non est
+            <lb ed="#V" n="73"/>genus cuilibet homini vnum. Haec Arisoteles vbi Auerroys
+            com<lb ed="#V" n="74" break="no"/>mento 11. dicit in principio commenti, quod Arisoteles ibi
+            inqui<lb ed="#V" n="75" break="no"/>rit, an specialissima magis sit dicenda esse principium quam
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="76"/>genus. Et arguit Aristote quod species magis debeat dici
+            princ<lb ed="#V" n="77" break="no"/>nium, vnde verba Commenta se nt haec. Illud quod
+            diui<lb ed="#V" n="78" break="no"/>ditur secundum formam &amp; est primum genus, diuiditur in
+            <lb ed="#V" n="79"/>aliquid quod est vnum secundum formam, &amp; vnum
+            secun<lb ed="#V" n="80" break="no"/>dum formam prouenit diuisio in eo ad vnum secundum
+            <lb ed="#V" n="81"/>quantitatem, &amp; ideo illud quod est diuisibile secundum
+            quantita<lb ed="#V" n="82" break="no"/>tem est magis vnum quam illud quod est diuisibile
+            secun<lb ed="#V" n="83" break="no"/>dum formam, &amp; cum ita sit, illud quod est minoris
+            diuer<lb ed="#V" n="84" break="no"/>sitatis est propinquius naturae vnius, quod est causa
+            multi<lb ed="#V" n="85" break="no"/>tudinis, quod est igitur minoris diuersitati, est prius illo
+            <lb ed="#V" n="86"/>quod est pluris diuisibilitatis, species igitur vltima est prior
+            <lb ed="#V" n="87"/>omnibus superioribus, verbi gratia, homo qui diuiditur
+            <lb ed="#V" n="88"/>in homines indiuisibiles non in species. Haec Commentator.
+          </p>
+          <p xml:id="capsco-a1smuc-d1e2051">
+            <lb ed="#V" n="89"/>Item 7. Metaphys. commen. 35. dicit sic. Omnia
+            diuidun<lb ed="#V" n="90" break="no"/>tur in suas partes secundum quantitatem diuisione rerum
+            <lb ed="#V" n="91"/>per suas materias, idest diuisione speciei in indiuidua. Haec
+            <lb ed="#V" n="92"/>ille. Ex quo clare patet, quod diuisio speciei in indiuidua
+            <lb ed="#V" n="93"/>est per quantitatem &amp; materiam secundum
+            Commentato<lb ed="#V" n="94" break="no"/>rem. Ex quibus dictis tam Philosophi quam
+            Commenta<lb ed="#V" n="95" break="no"/>toris patet manifeste, quod omnis diuisio vel distinctio est
+            <lb ed="#V" n="96"/>aut per quantitatem, aut per formam &amp; quod distinctio
+            <lb ed="#V" n="97"/>per formam competit solum generi, &amp; constituit diuersus
+            <lb ed="#V" n="98"/>species, diui o per quantitatem conuenit speciei, &amp;
+            consti<lb ed="#V" n="99" break="no"/>tuit multa indiuidua. Ex quo vlterius apparet, quod
+            di<lb ed="#V" n="100" break="no"/>uisio formae substantialis in multa indiuidua, non sit nisi
+            <lb ed="#V" n="101"/>per materiam quantitati subiectam, quantitas enim non
+            re<lb ed="#V" n="102" break="no"/>cipitur in substantia, quae caret materia. Primo. Contra
+            <lb ed="#V" n="103"/>glo. istius sic dicentem de materia arguo praesertim contra
+            <lb ed="#V" n="104"/>tertium membrum suae distinctionis vbi ponit, quod
+            natu<lb ed="#V" n="105" break="no"/>ra specifica substantiae separatae, puta Gabrielis, aut
+            Michae<lb ed="#V" n="106" break="no"/>lis indiuiduatur per materiam quam dicit non esse alteram
+            <lb ed="#V" n="107"/>partem compositi, sed potius particularitatem certam &amp;
+            <lb ed="#V" n="108"/>determinatam sine situ &amp; quantitate aut signatione.
+            Quae<lb ed="#V" n="109" break="no"/>ro enim quid intelligit arguens per talem particularitatem,
+            <lb ed="#V" n="110"/>aut enim intelligit quidditatem puram, aut aliquod
+            acci<lb ed="#V" n="111" break="no"/>dens reale illius quidditatis distinctum ab ea realiter, aut
+            <lb ed="#V" n="112"/>aliquid distinctum a quidditate secundum rationem, sed
+            <lb ed="#V" n="113"/>idem illi secundum rem, aut aliquam negationem
+            conse<lb ed="#V" n="114" break="no"/>quentem illam quidditatem. Non potest dare primam viam,
+            <lb ed="#V" n="115"/>quia quidditas accidit sibiipsi, nec potest dici materia
+            sui<lb ed="#V" n="116" break="no"/>ipsius, &amp; iterum si particularitas dicat quidditatem
+            tan<lb ed="#V" n="117" break="no"/>tum, quot erunt tales particularitates tot erunt
+            quiddita<lb ed="#V" n="118" break="no"/>tes, &amp; omnia quae differunt tali particularitate differunt
+            <lb ed="#V" n="119"/>quidditate specifica, &amp; tunc habetur propositum quod
+            nun<lb ed="#V" n="120" break="no"/>quam sub eadem natura specifica erunt plura indiuidua
+            in<lb ed="#V" n="121" break="no"/>separara a materia, quia omnia talia differunt secundum sua
+            quiddita<lb ed="#V" n="122" break="no"/>tem tanquam formali distincto. Nec similiter potest dare
+            se<lb ed="#V" n="123" break="no"/>cundam viam, quia omne accidens praeter quantitatem
+            indiui<lb ed="#V" n="124" break="no"/>duatur per subiectum, immo nunquam indiuiduat suum
+            sub<lb ed="#V" n="125" break="no"/>iectum, sed prius natura subiectum est indiuiduatum quam
+            <lb ed="#V" n="126"/>tale accidens in eo recipiatur. Nec aliquod tale accidens
+            <lb ed="#V" n="127"/>habet plus rationem indiuiduatiui, quam natura
+            specifica<lb ed="#V" n="128" break="no"/>Gabrielis, cum nullam dicat maiorem
+            incommunicabilita<lb ed="#V" n="129" break="no"/>tem, aut indistinctionem quam forma Gabrielis. Nec potest
+            <lb ed="#V" n="130"/>dare tertiam viam, tum quia in primo principio per illum
+            <lb ed="#V" n="131"/>modum erit materia, quia primum principium habet in se
+            <lb ed="#V" n="132"/>multa quae distinguuntur a sua quidditate secundum rationem,
+            li<lb ed="#V" n="133" break="no"/>cet sint eadem illi secundum rem secundum mentem
+            Commentato<lb ed="#V" n="134" break="no"/>ris. 12. Metaphys. commen. 39. tum quia illud
+            indiuiduati<lb ed="#V" n="135" break="no"/>uum, quod taliter accidit quid ditati, vel est quid relatiuum
+            <lb ed="#V" n="136"/>siue relatio, &amp; tunc talis natura non poterit indiuiduari,
+            <lb ed="#V" n="137"/>nisi ponatur eius correlatiuum, sicut est in diuinis personis
+            <lb ed="#V" n="138"/>vel est quid absolutum, &amp; tunc vel est eius rationis cum alio
+            <lb ed="#V" n="139"/>absoluto, quod est indiuiduatiuum alterius Angeli eiusdem
+            <lb ed="#V" n="140"/>speciei aut alterius. Si primo modo, tunc illud nullo
+            mo<lb ed="#V" n="141" break="no"/>do potest esse ratio indiuiduandi naturam specificam plus
+            <lb ed="#V" n="142"/>quam econtra, cum vtrunque sit pluribus concabile. Si
+            se<lb ed="#V" n="143" break="no"/>cundo modo, tunc talis natura non est specifica, immo
+            po<lb ed="#V" n="144" break="no"/>tius genus, cum ipsa diuidatur essentialiter in plura
+            diuersa<lb ed="#V" n="145" break="no"/>rum rationum scilicet in diuersas formas absolutas alterius
+            ratio<lb ed="#V" n="146" break="no"/>nis. Nec potest dare quartam viam, tum quia in primo
+            prin<lb ed="#V" n="147" break="no"/>cipio erit materia secundum illum modum, nam diuinam
+            <lb ed="#V" n="148"/>quidditatem consequuntur multae negationes, vtpote
+            in<lb ed="#V" n="149" break="no"/>corruptibilitas, infinitas, insuperabilitas, tum quia talis
+            <lb ed="#V" n="150"/>negatio si consequitur quidditatem erit vniformis in
+            om<pb ed="#V" n="181"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>nibus indiuiduis, &amp; sic non erit ratio
+            incommunizabilita<lb ed="#V" n="2" break="no"/>tis cum ipsa communicetur. Si autem consequitur aliquod
+            <lb ed="#V" n="3"/>accidens quidditati, non potest indiuiduare quidditatem,
+            <lb ed="#V" n="4"/>quia prius natura quidditas erit indiuidua quam suum
+            ac<lb ed="#V" n="5" break="no"/>cidens, &amp; consequenter prius quam illa negatio, &amp; sic
+            pa<lb ed="#V" n="6" break="no"/>tet quod non apparet modus intelligendi materiam, quae
+            <lb ed="#V" n="7"/>indiuiduat substantias separatas.
+          </p>
+          <p xml:id="capsco-a1smuc-d1e2205">
+            <lb ed="#V" n="8"/><milestone ed="#V" unit="p" rend="indent"/> Ad argumenta secundo loco inducta dicitur. Ad
+            pri<lb ed="#V" n="9" break="no"/>mum quod consequentia ibidem facta nulla est: nam non
+            <lb ed="#V" n="10"/>solum assignat Sanctus Thomas causam
+            implurificabilita<lb ed="#V" n="11" break="no"/>tis filiationis diuinae carentiam materiae, quae causa
+            com<lb ed="#V" n="12" break="no"/>munis est etiam creatis, sed multas alias assignat, vt patet
+            <lb ed="#V" n="13"/>in conclusionibus: immo est fallacia consequentis. At guit
+            <lb ed="#V" n="14"/>enim sic latenter. Quod est causa cur Michael est
+            impluri<lb ed="#V" n="15" break="no"/>ficabilis, est causa cur filius Dei esssimplurificabilis: ergo
+            <lb ed="#V" n="16"/>quod non est causa implurificabilitatis Michaelis, non est
+            <lb ed="#V" n="17"/>causa implurificabilitatis filij Dei, qui enim assignat
+            ali<lb ed="#V" n="18" break="no"/>quam causam communem implurificabilitatis Angeli &amp;
+            <lb ed="#V" n="19"/>verbi, non ideo negat aliam esse causam
+            implurificabilita<lb ed="#V" n="20" break="no"/>tis verbi quam Angeli, sic in proposito Sanctus Thomas ex
+            <lb ed="#V" n="21"/>similitudine creaturarum ducit nos ad aliqualiter
+            perci<lb ed="#V" n="22" break="no"/>piendum, cur filius Dei sit implurificabilis, non tamen
+            ne<lb ed="#V" n="23" break="no"/>gat aliam causam illius implurificabilitatis esse, quamuis
+            <lb ed="#V" n="24"/>eam non ponat, &amp; ideo non illud sequitur quod arguens
+            <lb ed="#V" n="25"/>infert, quod non plus repugnet filio Dei plurificabilitas
+            <lb ed="#V" n="26"/>quam Angelo, licet vterque sit forma quaedam abstracta
+            <lb ed="#V" n="27"/>tamen maior abstractio est in filio quam in Gabriele:
+            vbi<lb ed="#V" n="28" break="no"/>est quaedam concretio esse cum essentia, esse enim
+            Gabrie<lb ed="#V" n="29" break="no"/>lis non subsistit, &amp; ideo quia in Angelo differt quidditas
+            <lb ed="#V" n="30"/>&amp; esse, potest ab ipso abstrahi conceptus vniuersalis
+            spe<lb ed="#V" n="31" break="no"/>cificus vel genericus, quia vero in filio Dei non differt
+            es<lb ed="#V" n="32" break="no"/>se &amp; quod est, ideo in diuinis non est vniuersale vllo
+            mo<lb ed="#V" n="33" break="no"/>do, veruntamen quia tam filiatio diuina quam natura
+            Ga<lb ed="#V" n="34" break="no"/>brielis subsistunt, ideo nullum eorum potest solo numero
+            <lb ed="#V" n="35"/>plurificari.
+          </p>
+          <p xml:id="capsco-a1smuc-d1e2270">
+            Ad secundum patet per idem. Iam enim de
+            <lb ed="#V" n="36"/>facto Sanctus Thomas assignat multas speciales rationes
+            <lb ed="#V" n="37"/>implurificabilitatis diuinae filiationis, praesertim illam, quia
+            <lb ed="#V" n="38"/>filiatio in diuinis est proprietas personalis &amp; tenens locum
+            <lb ed="#V" n="39"/>principij indiuiduationis, quod tamen non inuenitur in
+            <lb ed="#V" n="40"/>creatis, scilicet quod relatio constituat personam &amp;
+            distin<lb ed="#V" n="41" break="no"/>guat eam ab alijs personis eiusdem naturae.
+          </p>
+          <p xml:id="capsco-a1smuc-d1e2286">
+            <lb ed="#V" n="42"/><milestone ed="#V" unit="p" rend="indent"/> Sciendum tamen, quod licet filiatio teneat principii
+            vi<lb ed="#V" n="43" break="no"/>cem indiuiduantis, tamen secundum quod dicit Sanctus
+            <lb ed="#V" n="44"/>Thomas primo sententiarum. distinctione septima
+            quaestio<lb ed="#V" n="45" break="no"/>ne prima articulo secundo ad tertium. In hoc est
+            differen<lb ed="#V" n="46" break="no"/>tia, quia in creaturis natura communis in vnoquoque
+            de<lb ed="#V" n="47" break="no"/>terminatur &amp; contrahitur secundum proprietates in illo
+            <lb ed="#V" n="48"/>inuentas, diuina autem natura non contrahitur neque
+            de<lb ed="#V" n="49" break="no"/>terminatur per proprietates suppositorum, tamen natura
+            <lb ed="#V" n="50"/>diuina in patre est proprietas patris, &amp; in filio est
+            proprie<lb ed="#V" n="51" break="no"/>tas filij, ideo autem non contrahitur, quia proprietas non
+            <lb ed="#V" n="52"/>est aliud a diuina essentia, vt adueniat sibi quasi dispositio
+            <lb ed="#V" n="53"/>contrahens, ideo etiam non determinatur, nec
+            distingui<lb ed="#V" n="54" break="no"/>tur, quia relatio non distinguitur secundum illud quod est,
+            <lb ed="#V" n="55"/>&amp; secundum illud tantum comparatur ad essentiam, quae
+            <lb ed="#V" n="56"/>est idem re, sed secundum quod ad alterum est, &amp; sic
+            re<lb ed="#V" n="57" break="no"/>spicit personam &amp; distinguit eam. Haec ille.
+          </p>
+          <p xml:id="capsco-a1smuc-d1e2324">
+            Aliam
+            diffe<lb ed="#V" n="58" break="no"/>rentiam assignat de potentia Dei. quaestione nona
+            articu<lb ed="#V" n="59" break="no"/>lo quinto ad decimumtertium, dicit enim. In creaturis
+            <lb ed="#V" n="60"/>principia indiuiduantia duo habent, quorum vnum est
+            <lb ed="#V" n="61"/>quod sunt principium subsistendi, natura enim communis
+            <lb ed="#V" n="62"/>de se non subsistit nisi in singularibus. Aliud est quod per
+            <lb ed="#V" n="63"/>principia indiuiduantia supposita naturae communis
+            ad<lb ed="#V" n="64" break="no"/>inuicem distinguuntur. In diuinis autem proprietates
+            <lb ed="#V" n="65"/>personales hoc solum habent quod supposita diuinae
+            natu<lb ed="#V" n="66" break="no"/>rae abinuicem distinguuntur, non autem sunt principia
+            sub<lb ed="#V" n="67" break="no"/>sistendi diuinae essentiae, ipsa enim diuina essentia est
+            secun<lb ed="#V" n="68" break="no"/>dum se subsistens. Haec ille.
+          </p>
+          <p xml:id="capsco-a1smuc-d1e2350">
+            Ex quibus patet quomodo
+            <lb ed="#V" n="69"/>alium modum implurificabilitatis &amp; indiuiduationis
+            po<lb ed="#V" n="70" break="no"/>nit Sanctus Thomas in diuinis, quam in creatis, si tamen
+            <lb ed="#V" n="71"/>proprie dicatur indiuiduum in diuinis, non enim
+            conue<lb ed="#V" n="72" break="no"/>nit Deo secundum quod principium eius est materia, sed
+            <lb ed="#V" n="73"/>solum secundum quod importat incommunicabilitatem,
+            <lb ed="#V" n="74"/>vt idem dicit prima parte. q. 29. artic. 3. ad tertium. Ad ea
+            <lb ed="#V" n="75"/>quae tertio loco inducit arguens respondetur.
+          </p>
+          <p xml:id="capsco-a1smuc-d1e2368">
+            Ad primum
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="76"/>quidem quod distinctio suppositorum non sufficeret ad
+            cau<lb ed="#V" n="77" break="no"/>sandum distinctionem filiationis, vel alterius formae, nisi
+            <lb ed="#V" n="78"/>essent supposita materialia vel distincta esse habentia, alias
+            <lb ed="#V" n="79"/>diuina essentia in patre &amp; filio numeraliter
+            distingueren<lb ed="#V" n="80" break="no"/>tur, &amp; spiratio in patre &amp; filio, oporteret etiam quod
+            ipsa<lb ed="#V" n="81" break="no"/>supposita filiationis essent prius distincta per aliqua
+            abso<lb ed="#V" n="82" break="no"/>luta, &amp; sic quod non compatitur diuina simplicitas vt in
+            <lb ed="#V" n="83"/>quinta conclusione recitatum est. Ratio huius
+            consequen<lb ed="#V" n="84" break="no"/>tiae est, quia si filiatio reciperetur in multis suppositis ipsa
+            <lb ed="#V" n="85"/>non posset esse ratio constitutiua, nec habere vicem
+            diffe<lb ed="#V" n="86" break="no"/>rentiae indiuidualis. Huic solutioni conformiter loquitur
+            <lb ed="#V" n="87"/>Egidius secundo quolibet. quaestione octaua dicens. Non
+            <lb ed="#V" n="88"/>est verisimile, vt scilicet sicut in rebus materialibus
+            pluri<lb ed="#V" n="89" break="no"/>ficantur indiuidua in eadem specie, quia recipitur eadem
+            <lb ed="#V" n="90"/>forma in diuersis partibus materiae, ita in immaterialibus
+            <lb ed="#V" n="91"/>sit multiplicatio, quia eadem forma recipitur in diuersis
+            <lb ed="#V" n="92"/>suppositis. Non est (inquit) simile de supposito &amp;
+            mate<lb ed="#V" n="93" break="no"/>ria: nam materia restringit formam, si enim forma de se
+            <lb ed="#V" n="94"/>non multiplicatur, nisi restricta per esse, quia materia
+            re<lb ed="#V" n="95" break="no"/>stringit eam, poterit multiplicari per materiam, suppositum
+            <lb ed="#V" n="96"/>autem non restringit ipsam, nisi quatenus habet materiam
+            <lb ed="#V" n="97"/>sui partem, sed si sit suppositum immateriale, habebit
+            per<lb ed="#V" n="98" break="no"/>fectionem, &amp; totale esse secundum exigentiam suae
+            for<lb ed="#V" n="99" break="no"/>mae, videtur enim implicare contradictionem quod forma
+            <lb ed="#V" n="100"/>specifica multiplicetur secundum se. Haec ille in forma.
+            <lb ed="#V" n="101"/>Ad istam etiam soluit instantiam Bernardus de Gannaco
+            <lb ed="#V" n="102"/>in impugnationibus Henrici, quolibet secundo. q.. vbi
+            di<lb ed="#V" n="103" break="no"/>cit quod aliter se habet forma immaterialis ad suppositum.
+            <lb ed="#V" n="104"/>&amp; aliter forma materialis ad materiam, quia forma
+            imma<lb ed="#V" n="105" break="no"/>terialis sic est in suo supposito, quod est tota essentia. sed
+            for<lb ed="#V" n="106" break="no"/>ma materialis distinguitur realiter &amp; essentialiter a
+            mate<lb ed="#V" n="107" break="no"/>ria. Si enim argueus soluendo ad argumentum Sancti Thomae
+            <lb ed="#V" n="108"/>intendat quod aduersarius diceret filiationem sic esse in
+            <lb ed="#V" n="109"/>multis suppositis vel subiectis, sicut accidens in subiecto,
+            <lb ed="#V" n="110"/>vel sic quod non sit illud in quo est, patet manifeste
+            nulli<lb ed="#V" n="111" break="no"/>tas solutionis, quia illa poneret compositionem in diuinis,
+            <lb ed="#V" n="112"/>ponendo in eodem supposito aliqua realiter distincta,
+            sci<lb ed="#V" n="113" break="no"/>licet relationem, &amp; illud in quo est, si autem ponat
+            filia<lb ed="#V" n="114" break="no"/>tionem esse in multis, &amp; tamen ipsam esse suppositum in
+            <lb ed="#V" n="115"/>quo est, tunc ipsa nullo modo constituet suppositum, cum
+            <lb ed="#V" n="116"/>sit communicabilis. Sequitur etiam quod idem erit ratio
+            <lb ed="#V" n="117"/>conuenientiae &amp; distinctionis, scilicet filiatio, nisi detur quod
+            <lb ed="#V" n="118"/>illa supposita distinguantur per absoluta. Si dicatur quod
+            <lb ed="#V" n="119"/>non est inconueniens idem esse rationem conuenientiae
+            se<lb ed="#V" n="120" break="no"/>cundum speciem &amp; rationem distinctionis secundum
+            nu<lb ed="#V" n="121" break="no"/>merum, non valet, quia tunc natura specifica erit
+            princi<lb ed="#V" n="122" break="no"/>pium distinguendi, &amp; quaecunque distinguuntur suis
+            na<lb ed="#V" n="123" break="no"/>turis specificis non solum numeraliter, immo specifice
+            di<lb ed="#V" n="124" break="no"/>stinguuntur sicut quaecunque distinguuntur sua essentia
+            di<lb ed="#V" n="125" break="no"/>stinguuntur essentialiter, &amp; ideo non conceditur, quod
+            perso<lb ed="#V" n="126" break="no"/>nae diuinae distinguantur sua essentia, ita quod essentia sit
+            <lb ed="#V" n="127"/>quo distinguuntur, vel formale distinctiuum personarum.
+            <lb ed="#V" n="128"/>Contra etiam illam imaginationem, quae proteruiendo
+            di<lb ed="#V" n="129" break="no"/>ceret, naturam specificam omnino immaterialem,
+            plurifica<lb ed="#V" n="130" break="no"/>ri secundum indiuidua per supposita vel rationem
+            suppo<lb ed="#V" n="131" break="no"/>siti, quam talis natura non habet a se, sed ab agente
+            argui<lb ed="#V" n="132" break="no"/>tur secundum Bernardum de Gannaco vbi supra.
+          </p>
+          <p xml:id="capsco-a1smuc-d1e2496">
+            Tum quia
+            <lb ed="#V" n="133"/>illud in quo conueniunt plura supposita non est ratio
+            di<lb ed="#V" n="134" break="no"/>stinctionis eorum, quia illud quod distinguit vnum ab alio
+            <lb ed="#V" n="135"/>sic est in vno eorum, quod non est in alio, sicut patet in
+            duo<lb ed="#V" n="136" break="no"/>bus quantis, quae distinguuntur a solo situ numeraliter, &amp;
+            <lb ed="#V" n="137"/>per consequens terminis suis distinctis. In duobus enim
+            <lb ed="#V" n="138"/>quantis sunt necessario duo situs &amp; duo termini distincti,
+            <lb ed="#V" n="139"/>puta in duobus corporibus duae superficies, sed ratio
+            sup<lb ed="#V" n="140" break="no"/>positi, ita est in vno supposito sicut in alio: igitur non est
+            <lb ed="#V" n="141"/>causa distinctionis suppositorum in eadem specie. Tum
+            <lb ed="#V" n="142"/>secundo, quia commune non contrahitur nisi per aliquid
+            <lb ed="#V" n="143"/>contrahens, sed ratio suppositi est communis duobus
+            sup<lb ed="#V" n="144" break="no"/>positis: ergo non contrahitur ad aliquod eorum nisi per
+            <lb ed="#V" n="145"/>aliquid contrahens, hoc autem oportet esse aliquid
+            diui<lb ed="#V" n="146" break="no"/>dens rationem suppositi, vel speciei, quod erit causa
+            sup<lb ed="#V" n="147" break="no"/>positorum in eadem specie, &amp; non ipsa ratio suppositi.
+          </p>
+          <p xml:id="capsco-a1smuc-d1e2532">
+            <lb ed="#V" n="148"/><milestone ed="#V" unit="p" rend="indent"/> Tum tertio, quia nihil est ratio distinctionis
+            aliquo<lb ed="#V" n="149" break="no"/>rum, nisi ratione alicuius oppositionis, cum oppositio
+            <lb ed="#V" n="150"/>etiam supposita diuina distinguat, vt oppositio relatiua, &amp;
+            <pb ed="#V" n="182"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>ideo in rebus materialibus possunt esse plura indiuidua in
+            <lb ed="#V" n="2"/>vna specie ratione quantitatis diuidentis materiam, quae
+            <lb ed="#V" n="3"/>semper est in oppositis sitibus, vt diuisa est, duae enim
+            quan<lb ed="#V" n="4" break="no"/>titates per naturam non possunt esse in eodem situ, vnde
+            <lb ed="#V" n="5"/>hic &amp; ibi sunt differentiae situs, &amp; similiter ante &amp; retro, &amp;
+            <lb ed="#V" n="6"/>sic de alijs, sed in oppositis immaterialibus si essent vnius
+            <lb ed="#V" n="7"/>specici, non esset aliqua oppositio nisi forte
+            contradictio<lb ed="#V" n="8" break="no"/>nis, quia scilicet vnum non est aliud, hoc autem non
+            po<lb ed="#V" n="9" break="no"/>test esse principium distinctionis suppositorum, quia
+            sup<lb ed="#V" n="10" break="no"/>ponit supposita esse, quorum vnum non est aliud: ergo
+            <lb ed="#V" n="11"/>cum nulla alia oppositio sit inter illa, nec etiam secundum
+            <lb ed="#V" n="12"/>rationem suppositi nisi contradictionis, quia vnum
+            suppo<lb ed="#V" n="13" break="no"/>situm non est aliud, non possunt esse supposita plura
+            sub<lb ed="#V" n="14" break="no"/>tali specie, nec possunt distingui per rationem suppositi.
+            <lb ed="#V" n="15"/>Tum quarto, quia dicere quod hoc suppositum est hoc &amp;
+            <lb ed="#V" n="16"/>non illud, non est proprie contradictio, quia contradictio
+            <lb ed="#V" n="17"/>est proprie respectu vnius &amp; eiusdem, non autem respectu
+            <lb ed="#V" n="18"/>diuersorum, vnde esse &amp; non esse respectu vnius suppositi
+            <lb ed="#V" n="19"/>non contradicunt, &amp; non esse hoc &amp; non esse illud, sed
+            so<lb ed="#V" n="20" break="no"/>lum disparantur, vnde ista duo sunt simul, hoc suppositum
+            <lb ed="#V" n="21"/>est hoc, &amp; hoc suppositum non est illud, contradictoria
+            <lb ed="#V" n="22"/>autem nunquam sunt simul: ergo inter duo supposita vnius
+            <lb ed="#V" n="23"/>speciei non potest esse vera oppositio contradictionis, &amp;
+            <lb ed="#V" n="24"/>per consequens nihil est, per quod supposita abstrahentia
+            <lb ed="#V" n="25"/>a positione &amp; situ possint differre nisi ponantur differre per
+            <lb ed="#V" n="26"/>relationes originis, sicut in diuinis personis.
+          </p>
+          <p xml:id="capsco-a1smuc-d1e2603">
+            <lb ed="#V" n="27"/><milestone ed="#V" unit="p" rend="indent"/> Ad secundum dicitur, quod assumit falsa multa, scilicet
+            <lb ed="#V" n="28"/>quod idem homo habeat in se multas paternitates
+            secun<lb ed="#V" n="29" break="no"/>dum multos filios, vel idem album habeat plures
+            similitu<lb ed="#V" n="30" break="no"/>dines ad alia coalba, vnde Sanctus Thomas tertia parte.
+            <lb ed="#V" n="31"/>quaestione trigesimanona, articulo quinto, sic ait. Vnitas
+            <lb ed="#V" n="32"/>relationis vel eius pluralitas non attenditur secundum
+            ter<lb ed="#V" n="33" break="no"/>minos, sed secundum causam vel subiectum, si enim
+            secun<lb ed="#V" n="34" break="no"/>dum terminos attenderetur, oportet quod quaelibet
+            ho<lb ed="#V" n="35" break="no"/>mo haberet in se duas filiationes, vnam scilicet qua
+            refer<lb ed="#V" n="36" break="no"/>tur ad patrem, &amp; aliam qua refertur ad matrem, sed recte
+            <lb ed="#V" n="37"/>consideranti apparet eadem relatione vnumquemque
+            re<lb ed="#V" n="38" break="no"/>ferri ad suum patrem &amp; ad suam matrem propter
+            vnita<lb ed="#V" n="39" break="no"/>tem causae. Eadem enim natiuitate homo nascitur de
+            pa<lb ed="#V" n="40" break="no"/>tre &amp; matre, vnde eadem relatione ad vtrunque refertur,
+            <lb ed="#V" n="41"/>&amp; eadem ratione de magistro qui docet multos
+            discipu<lb ed="#V" n="42" break="no"/>los eadem doctrina, &amp; de Domino qui gubernat multos
+            <lb ed="#V" n="43"/>subiectos eadem potestate.
+          </p>
+          <p xml:id="capsco-a1smuc-d1e2643">
+            <lb ed="#V" n="44"/><milestone ed="#V" unit="p" rend="indent"/> Si vero sint diuersae causae specie differentes, ex
+            conse<lb ed="#V" n="45" break="no"/>quenti videntur relationes specie differre, vnde nihil
+            pro<lb ed="#V" n="46" break="no"/>hibet plures tales relationes eidem inesse, sicut si aliquis est
+            <lb ed="#V" n="47"/>aliquorum magister in Grammatica, &amp; aliorum in
+            Logi<lb ed="#V" n="48" break="no"/>ca, alia est ratio magisterij vtriusque, &amp; ideo diuersis
+            rela<lb ed="#V" n="49" break="no"/>tionibus vnus &amp; idem homo potest esse magister, vel
+            di<lb ed="#V" n="50" break="no"/>uersorum, vel eorundem secundum doctrinas diuersas,
+            <lb ed="#V" n="51"/>contingit autem quandoque quod aliquis habet relationem
+            <lb ed="#V" n="52"/>ad plures secundum diuersas causas eiusdem speciei, sicut
+            <lb ed="#V" n="53"/>cum aliquis potest esse pater diuersorum filiorum
+            secun<lb ed="#V" n="54" break="no"/>dum diuersos generationis actus, vnde paternitas non
+            po<lb ed="#V" n="55" break="no"/>test specie differre, cum actus generationum sint idem, &amp;
+            <lb ed="#V" n="56"/>quia plures formae vnius speciei non possunt simul inesse
+            ei<lb ed="#V" n="57" break="no"/>dem subiecto, non est possibile, quod sint plures
+            paterni<lb ed="#V" n="58" break="no"/>tates in eo qui est pater plurimorum filiorum
+            generatio<lb ed="#V" n="59" break="no"/>ne naturali, secus de illo qui est pater vnius generatione
+            <lb ed="#V" n="60"/>naturali, &amp; alterius per adoptionem. Haec ille in forma.
+            <lb ed="#V" n="61"/>Et statim in responsione ad tertium dicit. Sicut contingit
+            <lb ed="#V" n="62"/>quod in vno extremorum relatio sit quoddam ens, in alio
+            <lb ed="#V" n="63"/>autem non sit ens sed ratio tantum, sicut dicit Philosophus
+            <lb ed="#V" n="64"/>quinto Metaphys. de scientia &amp; scibili, ita etiam contingit
+            <lb ed="#V" n="65"/>quod ex parte vnius extremi sunt multae relationes, sicut
+            <lb ed="#V" n="66"/>in hominibus ex parte parentum inuenitur duplex relatio:
+            <lb ed="#V" n="67"/>vna paternitatis, alia maternitatis, quae sunt differentes
+            <lb ed="#V" n="68"/>propter hoc quod alia ratione pater, &amp; alia ratione mater
+            <lb ed="#V" n="69"/>est principium generationis, ex parte autem prolis est vna
+            <lb ed="#V" n="70"/>solum filiatio secundum rem, sed duplex secundum
+            ratio<lb ed="#V" n="71" break="no"/>nem inquantum correspondet vtrique relationi parentum
+            <lb ed="#V" n="72"/>secundum duos respectus intellectos. Haec ille.
+          </p>
+          <p xml:id="capsco-a1smuc-d1e2709">
+            <lb ed="#V" n="73"/><milestone ed="#V" unit="p" rend="indent"/> Idem ponit tertio sentent. distinctione octaua
+            quaestio<lb ed="#V" n="74" break="no"/>ne prima articulo quinto. Item quolibet octauo.
+            quaestio<lb ed="#V" n="75" break="no"/>ne prima articulo primo. Ex quibus patet falsitas eorum
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="76"/>quae arguens assumit, scilicet quod in eodem patre sint multae
+            <lb ed="#V" n="77"/>paternitates, &amp; quod in eodem albo sint multae
+            similitu<lb ed="#V" n="78" break="no"/>dines.
+          </p>
+          <p xml:id="capsco-a1smuc-d1e2728">
+            Ad tertium dicitur, quod illa fuga non valet, non
+            <lb ed="#V" n="79"/>enim possent in diuinis esse plures filiationes inter
+            diuer<lb ed="#V" n="80" break="no"/>sos terminos, si quaelibet filiatio subsisteret, &amp; esset vera,
+            <lb ed="#V" n="81"/>&amp; naturalis filiatio, duas enim filiationes vnius rationis
+            <lb ed="#V" n="82"/>subsistere implicat contradictionem, quia essent vnius
+            ra<lb ed="#V" n="83" break="no"/>tionis, &amp; non essent vnius rationis, vt supra deductum fuit.
+            <lb ed="#V" n="84"/>Si autem illae filiationes non subsistant faciunt
+            composi<lb ed="#V" n="85" break="no"/>tionem cum illo, in quo sunt, si sint reales, quod diuinae
+            <lb ed="#V" n="86"/>simplicitati derogat, &amp; sic patet quod nec inter eosdem,
+            <lb ed="#V" n="87"/>nec inter diuersos terminos possunt esse in diuinis multae
+            <lb ed="#V" n="88"/>filiationes naturales.
+          </p>
+          <p xml:id="capsco-a1smuc-d1e2752">
+            <lb ed="#V" n="89"/><milestone ed="#V" unit="p" rend="indent"/> Ad argumentum Scoti negatur antecedens, dicitur enim
+            <lb ed="#V" n="90"/>quod in nulla parte medij coextenduntur plura lumina
+            <lb ed="#V" n="91"/>simul in eodem subiecto adaequato. Et ad probationes
+            di<lb ed="#V" n="92" break="no"/>citur, quod licet ibi sint plura agentia, tamen concurrunt
+            <lb ed="#V" n="93"/>in vice vnius perfecti agentis: sicut plures homines ad
+            v<lb ed="#V" n="94" break="no"/>num tractum nauis, &amp; ideo non est inconueniens: sit ibi
+            <lb ed="#V" n="95"/>vnica actio ex parte passi, licet habeat habitudinem ad
+            plu<lb ed="#V" n="96" break="no"/>rata quibus exit.
+          </p>
+          <p xml:id="capsco-a1smuc-d1e2774">
+            <lb ed="#V" n="97"/><milestone ed="#V" unit="p" rend="indent"/> Ad secundum dicitur eodem modo, quod plures
+            spe<lb ed="#V" n="98" break="no"/>cies eiusdem rationis non coextenduntur in eadem
+            adae<lb ed="#V" n="99" break="no"/>quata parte organi. Et ad improbationem dico, quod ille
+            <lb ed="#V" n="100"/>casus non est per naturam possibilis, sed illo posito per
+            <lb ed="#V" n="101"/>miraculum, scilicet quod duo oua omnino similia
+            pone<lb ed="#V" n="102" break="no"/>ret Deus in eodem situ, tunc alterum illorum moueret
+            vi<lb ed="#V" n="103" break="no"/>sum tantummodo, sicut Deus vellet, vel ambo causarent
+            <lb ed="#V" n="104"/>vnicam speciem in oculo intensiorem tamen quam si
+            tan<lb ed="#V" n="105" break="no"/>tum ab altero causaretur.
+          </p>
+          <p xml:id="capsco-a1smuc-d1e2797">
+            <lb ed="#V" n="106"/><milestone ed="#V" unit="p" rend="indent"/> Et similiter si vnum album prius causasset in oculo suam
+            <lb ed="#V" n="107"/>speciem, &amp; postea album aliud omnino simile primo
+            po<lb ed="#V" n="108" break="no"/>neretur a Deo in eodem situ cum primo, tunc species a
+            pri<lb ed="#V" n="109" break="no"/>mo causata intenderetur per secundum obiectum. Nec
+            va<lb ed="#V" n="110" break="no"/>let improbatio, dico enim quod non esset inconueniens si
+            <lb ed="#V" n="111"/>album intensum simul cum remisso causant intensiorem
+            <lb ed="#V" n="112"/>speciem quam album intensum se solo causasset, sicut esset
+            <lb ed="#V" n="113"/>in proposito vbi primo per speciem remissam videretur
+            <lb ed="#V" n="114"/>intense album, &amp; postea per speciem intennorem
+            videre<lb ed="#V" n="115" break="no"/>tur non solum intense album, immo remisse album.
+            Cre<lb ed="#V" n="116" break="no"/>do tamen quod si illa alba essent omnino similia in
+            caete<lb ed="#V" n="117" break="no"/>ris praeter intensionem &amp; remissionem, puta in situ figura
+            <lb ed="#V" n="118"/>&amp; huiusmodi, quod per illam speciem non possent
+            distin<lb ed="#V" n="119" break="no"/>ctiue cognosci illa duo alba per sensum, vnde extra illum
+            <lb ed="#V" n="120"/>casum, nunquam duo indiuidua vnius speciei sensibilia
+            <lb ed="#V" n="121"/>habent species vnius rationis in eodem organo, quia licet
+            <lb ed="#V" n="122"/>duo oua quantumcunquesimilia causent species
+            albedi<lb ed="#V" n="123" break="no"/>nis duas in oculo, tamen quia illa sunt in diuerso situ,
+            spe<lb ed="#V" n="124" break="no"/>cies illorum non solum repraesentant illa inquantum sunt
+            <lb ed="#V" n="125"/>alba, immo repraesentant figuram &amp; situm &amp; huiusmodi
+            <lb ed="#V" n="126"/>multa, non enim imaginandum est, quod in oculo alia sit
+            <lb ed="#V" n="127"/>species doloris, &amp; alia species quantitatis &amp; huiusmodi,
+            <lb ed="#V" n="128"/>sed eadem species omnia talia repraesentat, &amp; ideo
+            nun<lb ed="#V" n="129" break="no"/>quam duorum indiuiduorum vnius speciei species in
+            or<lb ed="#V" n="130" break="no"/>ganis sensuum sunt vnius rationis. Cum etiam addit
+            ar<lb ed="#V" n="131" break="no"/>guens, quod huiusmodi accidentia abstrahunt &amp;c.
+            nega<lb ed="#V" n="132" break="no"/>tur, quinimmo species in organis sensuum sunt extensae per
+            <lb ed="#V" n="133"/>accidens &amp; situatae &amp; repraesentant situm, &amp; alia
+            acciden<lb ed="#V" n="134" break="no"/>tia rei. Similiter dico quod non omnis repugnantia
+            duo<lb ed="#V" n="135" break="no"/>rum accidentium in eodem subiecto venit ex actione
+            con<lb ed="#V" n="136" break="no"/>traria, aut propter situs &amp; componentem. Sed sicut dicit
+            <lb ed="#V" n="137"/>Sanctus Thomas de veritate. quaestione octaua, articulo
+            <lb ed="#V" n="138"/>decimoquarto. Formae vnius generis respiciunt vnam
+            po<lb ed="#V" n="139" break="no"/>tentiam, &amp; ideo non possunt simul esse in eodem subiecto
+            <lb ed="#V" n="140"/>in actu perfecto, oporteret enim eandem potentiam ad
+            <lb ed="#V" n="141"/>diuersos actus terminari, quod est impossibile, sicut &amp;
+            v<lb ed="#V" n="142" break="no"/>nam lineam ex vna parte terminari ad diuersa puncta, &amp;
+            <lb ed="#V" n="143"/>ratio concludit quod plures species intelligibiles non
+            pos<lb ed="#V" n="144" break="no"/>sunt esse simul in eodem intellectu in actu perfecto, sed
+            <lb ed="#V" n="145"/>bene in habitu.
+          </p>
+          <p xml:id="capsco-a1smuc-d1e2887">
+            <lb ed="#V" n="146"/><milestone ed="#V" unit="p" rend="indent"/> Et similiter quia formae vnius generis simul esse possunt
+            <lb ed="#V" n="147"/>in actu medio inter potentiam &amp; actum completum, ideo
+            <lb ed="#V" n="148"/>concedit ibidem ad octauum, quod species albi &amp; nigri
+            pos<lb ed="#V" n="149" break="no"/>sunt simul esse in medio, quia non sunt in eo nisi in fieri, &amp;
+            <lb ed="#V" n="150"/>sicut in medio deferente.
+          </p>
+          <p xml:id="capsco-a1smuc-d1e2901">
+            Ad tertium dicitur, quod idem
+            <pb ed="#V" n="183"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>pater non habet ad multos filios ni i vnicam iclationem
+            <lb ed="#V" n="2"/>realem. Nec valet prima probatio, quia relatio realis non
+            <lb ed="#V" n="3"/>numeratur ad solam numerationem termini, alias tot
+            simi<lb ed="#V" n="4" break="no"/>litudines essent in ouo albo quot sunt coalba in mundo.
+            <lb ed="#V" n="5"/>Et ad huius improbationem dicitur, quod destructo
+            ter<lb ed="#V" n="6" break="no"/>mino de per se non remanet eadem relatio in numero, sed
+            <lb ed="#V" n="7"/>non destruitur destructo termino per accideus, ideo quia
+            <lb ed="#V" n="8"/>paternitatis praedictae terminus de pe accidens est hic filius,
+            <lb ed="#V" n="9"/>non oportet paternitatem corrumpi vel cessare cessante
+            il<lb ed="#V" n="10" break="no"/>lo filio: nam per se terminus illius relationis paternae est
+            <lb ed="#V" n="11"/>filius ab eo genitus inquantum huiusmodi, non autem
+            in<lb ed="#V" n="12" break="no"/>quantum hic vel ille, &amp; ideo remanente aliquo filio ab eo
+            <lb ed="#V" n="13"/>genito semper remanet eadem paternitas: dum tamen non
+            <lb ed="#V" n="14"/>fiat interpolatio temporis, quod dico, quia si ille pater
+            ha<lb ed="#V" n="15" break="no"/>bet hodie filium vnicum &amp; ille moriatur, &amp; antequam
+            ha<lb ed="#V" n="16" break="no"/>beat filium alium intercidat tempus cessauit prima
+            pater<lb ed="#V" n="17" break="no"/>nitas &amp; consurgit alia paternitas adueniente nouo filio.
+          </p>
+          <p xml:id="capsco-a1smuc-d1e2945">
+            <lb ed="#V" n="18"/><milestone ed="#V" unit="p" rend="indent"/> Nec iterum valet alia improbatio, quia non est simile de
+            <lb ed="#V" n="19"/>duabus paternitatibus respectu vnius filii, &amp; duobus filijs
+            <lb ed="#V" n="20"/>respectu vnius paternitatis, quia vnicus filius non potest
+            <lb ed="#V" n="21"/>capere esse a duobus patribus, sicut duo filij ab eodem
+            pa<lb ed="#V" n="22" break="no"/>tre, concedo tamen, quod duabus relationibus
+            existenti<lb ed="#V" n="23" break="no"/>bus in patre &amp; matre correspondet vnica filiatio in filio,
+            <lb ed="#V" n="24"/>vt supra dictum est.
+          </p>
+          <p xml:id="capsco-a1smuc-d1e2964">
+            <lb ed="#V" n="25"/><milestone ed="#V" unit="p" rend="indent"/> Ad quartum dicitur quod potentia subiecti eadem est
+            <lb ed="#V" n="26"/>ad omnes formas non solum vnius speciei, immo vnius
+            <lb ed="#V" n="27"/>generis. Et ad huius improbationem dico quod
+            corru<lb ed="#V" n="28" break="no"/>pta albedine non corrumpitur potentia ad illam, vnde
+            San<lb ed="#V" n="29" break="no"/>ctus Thomas prima parte. quaestio. 104. articulo quarto ad
+            <lb ed="#V" n="30"/>quartum dicit sic. Formae &amp; accidentia non sunt entia
+            com<lb ed="#V" n="31" break="no"/>pleta, cum non subsistant, sed quodlibet eorum est aliquid
+            <lb ed="#V" n="32"/>est, &amp; tamen eo modo quo accidentia sunt, non in nihilum
+            <lb ed="#V" n="33"/>rediguntur, non quia aliqua pars eorum remaneat, sed
+            <lb ed="#V" n="34"/>quia remanent in potentia materiae vel subiecti. Haec ille.
+            <lb ed="#V" n="35"/>Ex quo patet quod cum albedo semper remaneat in
+            po<lb ed="#V" n="36" break="no"/>tentia materiae vel subiecti, quod potentia ad eam non
+            ces<lb ed="#V" n="37" break="no"/>sat esse.
+          </p>
+          <p xml:id="capsco-a1smuc-d1e2997">
+            Ad primum Adae negatur antecedens. Et ad
+            pro<lb ed="#V" n="38" break="no"/>bationem primam dico, quod ex pluralitate candelarum
+            <lb ed="#V" n="39"/>sequitur lumen intensius in medio, non autem pluralitas
+            <lb ed="#V" n="40"/>luminum, quia intensio non fit ex additione luminis ad
+            lu<lb ed="#V" n="41" break="no"/>men, sed ex eductione subiecti de potentia vel actu
+            imper<lb ed="#V" n="42" break="no"/>fecto ad actum perfectum. Secunda similiter probatio
+            <lb ed="#V" n="43"/>concludit, quod illa pars medij, quae ab vno solo lucido
+            <lb ed="#V" n="44"/>illuminatur, &amp; quae est vmbrosa habet lumen remissius, &amp;
+            <lb ed="#V" n="45"/>aliae partes habent lumen intensius, sed non quod ibi sint
+            <lb ed="#V" n="46"/>pauciora lumina &amp; ibi plura. Tertia similiter probat quod
+            <lb ed="#V" n="47"/>lucidum accedens ad illuminabile intendit lumen, non
+            ta<lb ed="#V" n="48" break="no"/>men quod causet ibi aliquod aliud lumen cum primo.
+          </p>
+          <p xml:id="capsco-a1smuc-d1e3023">
+            <lb ed="#V" n="49"/><milestone ed="#V" unit="p" rend="indent"/> Ad secundum dico, quod supponit duo falsa. Primum
+            <lb ed="#V" n="50"/>est quod intellectus possibilis intelligat directe singulare,
+            <lb ed="#V" n="51"/>vt hoc vel illud, hoc conuenit virtuti cognitiuae, quae
+            dici<lb ed="#V" n="52" break="no"/>tur intellectus passiuus. Secunda est, quod dato illo
+            sup<lb ed="#V" n="53" break="no"/>posito credit arguens, quod dum intelligitur Sortes
+            di<lb ed="#V" n="54" break="no"/>stinctus a Platone hoc fiat duobus actibus. Cuius
+            falsita<lb ed="#V" n="55" break="no"/>tem ostendit Sanctus Thomas prima parte. quaestio. 85.
+            ar<lb ed="#V" n="56" break="no"/>ticulo quarto ad quartum. Dicendum (inquit) quod
+            quan<lb ed="#V" n="57" break="no"/>do intellectus intelligit differentiam vel comparationem
+            <lb ed="#V" n="58"/>vnius ad alterum, cognoscit vtrunque differentium vel
+            com<lb ed="#V" n="59" break="no"/>paratorum sub ratione ipsius comparationis vel
+            differen<lb ed="#V" n="60" break="no"/>tiae, sicut cognoscit partes sub ratione totius. Haec ille.
+          </p>
+          <p xml:id="capsco-a1smuc-d1e3053">
+            Ibi<lb ed="#V" n="61" break="no"/>dem etiam ponit quod quicunque intellectus potest
+            intel<lb ed="#V" n="62" break="no"/>ligere multa sub vna specie potest simul plura intelligere,
+            <lb ed="#V" n="63"/>quicunque vero intellectus per diuersas species intelligit
+            <lb ed="#V" n="64"/>non simul multa intelligit. Ex quo patet, quod ille qui
+            in<lb ed="#V" n="65" break="no"/>telligit sortem &amp;. Platonem vt distinctos, non intelligit eos
+            <lb ed="#V" n="66"/>per diuersas species intelligibiles, nec per diuersas
+            opera<lb ed="#V" n="67" break="no"/>tiones, sed per vnam, cuius obiectum principale est
+            distin<lb ed="#V" n="68" break="no"/>ctio sortis a Platone, vel comparatio eorum ad inuicem.
+            <lb ed="#V" n="69"/>Tertio deficit, quia dato quod diuersis actibus
+            intellige<lb ed="#V" n="70" break="no"/>rentur, tamen illi actus non essent vnius rationis, dico enim
+            <lb ed="#V" n="71"/>quod licet actus quo cognoscitur sortes vt homo est, &amp; actus
+            <lb ed="#V" n="72"/>quo cognoscitur Plato vt homo est sint vnius rationis, quia
+            <lb ed="#V" n="73"/>illorum obiectum est vnum, scilicet homo inquantum
+            hu<lb ed="#V" n="74" break="no"/>iusmodi: tamen actus quo cognoscitur sortes vt sortes, q&amp;.
+            <lb ed="#V" n="75"/>Plato vt Plato est, sunt diuersarum rationum: nam
+            obie<cb ed="#V" n="b"/><lb ed="#V" n="76" break="no"/>ctum est alterius rationis, si enim sortes diffiniatur vt
+            Sor<lb ed="#V" n="77" break="no"/>tes est alia ratio dabitur quam de Platone vt Plato est,
+            obie<lb ed="#V" n="78" break="no"/>dum autem formale diuersificatum actum diuersificat
+            se<lb ed="#V" n="79" break="no"/>cundum rationem.
+          </p>
+          <p xml:id="capsco-a1smuc-d1e3098">
+            Ad tertium dico, quod visus potest
+            <lb ed="#V" n="80"/>multa videre vt vnum sunt in quodam toto integrali vel
+            <lb ed="#V" n="81"/>codllectiuo, &amp; tunc informabitur vnica specie simplici, vel
+            <lb ed="#V" n="82"/>sorte composita ex multis vnitis quoquo modo, &amp; non erit
+            <lb ed="#V" n="83"/>ibi nisi vnicus actus, &amp; idem dico de intellectu, vnde
+            San<lb ed="#V" n="84" break="no"/>ctus Thomas prima parte. quaest. vbi supra ad secundum
+            <lb ed="#V" n="85"/>dicit. Partes possunt intelligi dupliciter. Vno modo sub
+            <lb ed="#V" n="86"/>quadam confusione prout sunt in toto, quae cognoscuntur
+            <lb ed="#V" n="87"/>per vnam formam totius corporis, &amp; sic simul
+            cognoscun<lb ed="#V" n="88" break="no"/>tur. Alio modo cognitione distincta, quod quaelibet
+            co<lb ed="#V" n="89" break="no"/>gnoscatur per suam speciem, &amp; sic non simul intelliguntur.
+            <lb ed="#V" n="90"/>Haec ille. Dico ergo quod quando videtur multitudo
+            al<lb ed="#V" n="91" break="no"/>borum, illa visio est vnica in vno oculo per vnam speciem
+            <lb ed="#V" n="92"/>totius multitudinis, &amp; si ponatur obstaculum in medio,
+            <lb ed="#V" n="93"/>tunc prima species, quae totam multitudinem
+            repraesenta<lb ed="#V" n="94" break="no"/>bat deficit &amp; causatur alia noua species, quae solum partem
+            <lb ed="#V" n="95"/>illius multitudinis repraesentat, nec vnquam sunt ibi duae
+            <lb ed="#V" n="96"/>visiones. Et cum dicitur, quod illa visio non est
+            vniuersa<lb ed="#V" n="97" break="no"/>lis, dico quod non oportet quod sit vniuersalis, quia non
+            <lb ed="#V" n="98"/>repraesentat multa vt sunt vnum secundum rationem, sed
+            <lb ed="#V" n="99"/>vt sunt partes totius integralis, &amp; hoc non sufficit ad
+            ratio<lb ed="#V" n="100" break="no"/>nem vniuersalis.
+          </p>
+          <p xml:id="capsco-a1smuc-d1e3146">
+            Ad quartum dico, quod actus vel
+            habi<lb ed="#V" n="101" break="no"/>tus quo diligitur sortes vt sortes est, est alterius speciei ab
+            <lb ed="#V" n="102"/>actu vel habitu quo diligitur Plato vt Plato est. Ad
+            quin<lb ed="#V" n="103" break="no"/>tum dicitur, quod species huius oculi, vt hic oculus est,
+            pu<lb ed="#V" n="104" break="no"/>ta oculus talis coloris, magnitudinis, situs &amp; huiusmodi,
+            <lb ed="#V" n="105"/>&amp; tantae distantiae alterius rationis est a specie vel
+            similitu<lb ed="#V" n="106" break="no"/>dine alterius oculi, vt ille oculus est, &amp; ideo tales species
+            <lb ed="#V" n="107"/>nihil prohibet esse in eodem subiecto in fieri &amp; in actu
+            in<lb ed="#V" n="108" break="no"/>completo. Eodem modo dico de speciebus parietum
+            do<lb ed="#V" n="109" break="no"/>mus alborum, vel alterius vnici coloris: nam illa species
+            <lb ed="#V" n="110"/>non solum repraesentat colorem parietis, quia si sic illae
+            mul<lb ed="#V" n="111" break="no"/>tae species essent vnius rationis.
+          </p>
+          <p xml:id="capsco-a1smuc-d1e3172">
+            Ad sextum patet per idem.
+            <lb ed="#V" n="112"/>Ad septimum dico, quod species solis causata in oculo per
+            <lb ed="#V" n="113"/>speciem ressexam a speculo est multum alterius speciei,
+            <lb ed="#V" n="114"/>quam species solis causata in oculo per lineam incidentem.
+            <lb ed="#V" n="115"/>Cuius causa est, quia prima non solum repraesentat solem,
+            <lb ed="#V" n="116"/>immo speculum &amp; multa alia, secunda vero non nisi
+            so<lb ed="#V" n="117" break="no"/>lem &amp; accidentia visu sensibilia in sole. Et per hoc patet
+            <lb ed="#V" n="118"/>ad primam confirmationem.
+          </p>
+          <p xml:id="capsco-a1smuc-d1e3191">
+            <lb ed="#V" n="119"/><milestone ed="#V" unit="p" rend="indent"/> Ad secundam vero dicitur, quod lumen incidens &amp;
+            re<lb ed="#V" n="120" break="no"/>flexum non sunt diuersa lumina, sicut species solis
+            inci<lb ed="#V" n="121" break="no"/>dens in speculum, &amp; ressexa a speculo in oculum sunt
+            di<lb ed="#V" n="122" break="no"/>stinctae, sed idem radius habet rationem incidentis &amp;
+            re<lb ed="#V" n="123" break="no"/>flexi per respectum ad diuersas causas, vt enim causatur a
+            <lb ed="#V" n="124"/>sole directe dicitur incidens, vt autem intenditur ab
+            ob<lb ed="#V" n="125" break="no"/>staculo luminis, quod dicitur lumen reflectere dicitur
+            re<lb ed="#V" n="126" break="no"/>flexus. Et consimiliter dico de calore incidente &amp; reflexo
+            <lb ed="#V" n="127"/>a pariete versus manum, vnde idem calor est in numero,
+            <lb ed="#V" n="128"/>qui primo causabatur ab igne in aere, &amp; postea de lapide
+            <lb ed="#V" n="129"/>calefacto intenditur, vnde ille calor vt causatur ab igne
+            di<lb ed="#V" n="130" break="no"/>citur rectus, vt autem a lapide intenditur dicitur renexus.
+          </p>
+          <p xml:id="capsco-a1smuc-d1e3221">
+            <lb ed="#V" n="131"/><milestone ed="#V" unit="p" rend="indent"/> Et cum dicitur, quod lumen Solis incidens est
+            intole<lb ed="#V" n="132" break="no"/>rabile, &amp; refsexu est diu tolerabile, dicitur quod aeque
+            in<lb ed="#V" n="133" break="no"/>tolerabile est vnum sicut aliud in illo puncto, in quo
+            inci<lb ed="#V" n="134" break="no"/>pit reflexio, quia ibi est summa intensio luminis, similiter
+            <lb ed="#V" n="135"/>aeque tolerabile est vnum sicut aliud in alijs punctis, vnde
+            <lb ed="#V" n="136"/>idem est lumen, sed in vno puncto est intolerabile, puta
+            <lb ed="#V" n="137"/>si lumen procedens directe a Sole ad oculum reflectatur
+            <lb ed="#V" n="138"/>ab oculo. Quod autem additur de obstaculo, dico quod
+            <lb ed="#V" n="139"/>argumentum probat quod &amp; aliquod lumen est reflexum
+            <lb ed="#V" n="140"/>ad aliquid, in quod non incidit, scilicet in oculum, sed cum
+            <lb ed="#V" n="141"/>hoc stat, quod illud met lumen est incidens &amp; reflexum
+            <lb ed="#V" n="142"/>respectu alterius, scilicet speculi, quia incidit in parietem
+            <lb ed="#V" n="143"/>&amp; reflectitur a speculo. Reffectere enim non est aliud quam
+            <lb ed="#V" n="144"/>lumen ab alio causatum intendere, vnde ex hoc quod
+            sol<lb ed="#V" n="145" break="no"/>illuminat speculum, speculum intendit lumen a Sole
+            cau<lb ed="#V" n="146" break="no"/>satum extra speculum, sicut lapis intendit calorem, vnde
+            <lb ed="#V" n="147"/>Sanctus Thomas secundo sententiarum. distinctione
+            de<lb ed="#V" n="148" break="no"/>cimatertia, articulo tertio ad quintum, &amp; prima parte.
+            <lb ed="#V" n="149"/>quaestione sexagesimaseptima, articulo secundo ad tertium
+            <lb ed="#V" n="150"/>dicit, quod refiexio, reuerberatio, secatio non attribuuntur
+            <pb ed="#V" n="184"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>lumini nisi metaphorice, &amp; omnia possent atttribui colori.
+          </p>
+          <p xml:id="capsco-a1smuc-d1e3274">
+            <lb ed="#V" n="2"/>Ad argumentum aliorum, scilicet Hugonis de Cauro
+            re<lb ed="#V" n="3" break="no"/>spondetur negando quod assumit, &amp; ad probationem de
+            <lb ed="#V" n="4"/>intellectionibus angeli &amp;c. dicitur quod supponit falsum
+            <lb ed="#V" n="5"/>scilicet quod formae, quarum vna non est, sed fuit &amp; alia est,
+            <lb ed="#V" n="6"/>habeant realem distinctionem ad inuicem, entis enim ad
+            <lb ed="#V" n="7"/>non ens nulla est habitudo realis, &amp; ideo cum positio
+            no<lb ed="#V" n="8" break="no"/>stra intelligat quod nullae formae vnius speciei sunt realiter
+            <lb ed="#V" n="9"/>differentes numero, nisi per subiectum ex quo vel in quo
+            <lb ed="#V" n="10"/>actu vel potentia non arguit contra nos. Et cum tunc
+            in<lb ed="#V" n="11" break="no"/>fert quod si illae duae intellectiones vnius speciei
+            respicien<lb ed="#V" n="12" break="no"/>tes vnum Philosophum possunt esse successiuae: ergo per
+            <lb ed="#V" n="13"/>potentiam Dei possunt esse simul: negatur consequentia
+            <lb ed="#V" n="14"/>quia implicatur contradictio in consequente, quia tales
+            es<lb ed="#V" n="15" break="no"/>sent distinctae sine distinctiuo, &amp; sic essent distinctae, &amp; non
+            <lb ed="#V" n="16"/>essent distinctae, non enim distinguerenter per suas essentias,
+            <lb ed="#V" n="17"/>nec per sua subiecta, nec per aliud scilicet per coexistentiam
+            <lb ed="#V" n="18"/>ad diuersas durationes. Ad ea quae quarto loco
+            inducun<lb ed="#V" n="19" break="no"/>tur respondetur, quod ista positio non est contra
+            quemcun<lb ed="#V" n="20" break="no"/>que articulum, vel potius nullo articulo condemnato
+            Pa<lb ed="#V" n="21" break="no"/>risijs cedit vllatenus in fauorem. Nam primus articulus
+            <lb ed="#V" n="22"/>qui allegatur debet sic intelligi, quod error est dicere, quod
+            <lb ed="#V" n="23"/>quia intelligentiae non habent materiam, scilicet ex qua,
+            <lb ed="#V" n="24"/>ideo Deus non potest facere plures intelligentias vnius
+            spe<lb ed="#V" n="25" break="no"/>ciei, non est autem error, immo veritas dicere, quod quia
+            <lb ed="#V" n="26"/>intelligentiae non habent materiam in qua nec ex qua, nec
+            <lb ed="#V" n="27"/>aliquid loco materiae, scilicet subiectum actu, nec
+            poten<lb ed="#V" n="28" break="no"/>tia, ideo impossibile est plures illarum esse vnius speciei
+            <lb ed="#V" n="29"/>formae enim plures in actu, quae non habent materiam
+            nul<lb ed="#V" n="30" break="no"/>lo modo, scilicet in qua nec ex qua nec actu nec potentia
+            <lb ed="#V" n="31"/>sunt specie vel genere diuersae. Secundus articulus sic
+            in<lb ed="#V" n="32" break="no"/>telligitur, quod scilicet error est dicere, quod Deus non possit
+            <lb ed="#V" n="33"/>multiplicare indiuidua sub vna specie sine materia ex qua,
+            <lb ed="#V" n="34"/>quia animae intellectiuae sunt plures, &amp; tamen non habent
+            <lb ed="#V" n="35"/>materiam ex qua. Similiter est error, quod Deus non
+            pos<lb ed="#V" n="36" break="no"/>sit multiplicare id est facere esse multas formas vnius
+            spe<lb ed="#V" n="37" break="no"/>ciei sine materia in qua in actu.
+          </p>
+          <p xml:id="capsco-a1smuc-d1e3355">
+            Item error est, quod
+            mate<lb ed="#V" n="38" break="no"/>ria quae est pars compositi requiratur ad hoc quod formae
+            <lb ed="#V" n="39"/>vnius speciei sint actu multae, vt patet de cogitationibus
+            <lb ed="#V" n="40"/>animarum separatarum, &amp; de speciebus intelligibilibus in
+            <lb ed="#V" n="41"/>cis, sed non est error, immo veritas quod impossibile est
+            <lb ed="#V" n="42"/>formas vnius speciei esse plures in actu, quin tales formae
+            <lb ed="#V" n="43"/>habeant materiam, aut aliquid loco materiae in qua vel in
+            <lb ed="#V" n="44"/>actu vel in potentia. Tertius denique articulus sic
+            intelli<lb ed="#V" n="45" break="no"/>gendus est, quod erroneum est dicere, quod formae non
+            <lb ed="#V" n="46"/>eductae de potentia materiae non recipiunt diuisionem nisi
+            <lb ed="#V" n="47"/>per materiam substantialem ex qua, vel materiam in qua
+            <lb ed="#V" n="48"/>in actu habitam, sed veritas nullatenus errori obnoxia est,
+            <lb ed="#V" n="49"/>quod formae vnius speciei nullatenus recipiunt
+            distinctio<lb ed="#V" n="50" break="no"/>nem numeralem nisi per subiectum, aut materiam ex qua
+            <lb ed="#V" n="51"/>vel in qua, quam habent actu vel in potentia, quasi scilicet
+            ta<lb ed="#V" n="52" break="no"/>les formae commensuratae sunt, &amp; naturaliter coaptatae
+            di<lb ed="#V" n="53" break="no"/>uersis materijs quas possunt informare, licet actu non
+            in<lb ed="#V" n="54" break="no"/>forment.
+          </p>
+          <p xml:id="capsco-a1smuc-d1e3394">
+            Vnde breuiter vt apparet, illi articuli videntur
+            <lb ed="#V" n="55"/>positi contra Auerroystas, &amp; contra quandam opinionem
+            <lb ed="#V" n="56"/>ponentem, quod ad hoc quod formae vnius speciei sint actu
+            <lb ed="#V" n="57"/>plures, &amp; distinctae numero requiritur, quod habeant
+            actua<lb ed="#V" n="58" break="no"/>liter materiam ex qua, sicut posuit opinio tenens animam
+            <lb ed="#V" n="59"/>intellectiuam componi ex materia &amp; forma, vt recitat
+            San<lb ed="#V" n="60" break="no"/>ctus Thomas saepe, quia aliter non posset indiuiduari, vt
+            di<lb ed="#V" n="61" break="no"/>cebat, vel requiritur secundum Auerroystas, quod actu
+            ha<lb ed="#V" n="62" break="no"/>beant materiam in qua, scilicet quam informent, &amp;
+            vtrun<lb ed="#V" n="63" break="no"/>que istorum falsum est, &amp; in articulis illis condemnatum,
+            <lb ed="#V" n="64"/>nam formae non eductae de potentia materiae, vel subiecti
+            <lb ed="#V" n="65"/>possunt esse actu plures, &amp; tamen non habent actu vllam
+            <lb ed="#V" n="66"/>materiam nec in qua, nec ex qua, scilicet dum sunt a
+            cor<lb ed="#V" n="67" break="no"/>poribus exutae, sed quia formae eductae de potentia
+            mate<lb ed="#V" n="68" break="no"/>riae non sunt separabiles ab omni subiecto remanente
+            illa<lb ed="#V" n="69" break="no"/>rum indiniduatione praeter quantitatem, ideo dicit
+            arti<lb ed="#V" n="70" break="no"/>culus, quod formae tales si sint vnius speciei non recipiunt
+            <lb ed="#V" n="71"/>diuisionem, nisi per materiam, scilicet in qua sunt actu
+            ac<lb ed="#V" n="72" break="no"/>cipiendo materiam pro omni subiecto. Et sic patet quid
+            <lb ed="#V" n="73"/>sit dicendum ad articulos. Haec tamen sine assertione
+            te<lb ed="#V" n="74" break="no"/>meraria sint dicta.
+          </p>
+          <p xml:id="capsco-a1smuc-d1e3440">
+            Ad primum contra sequentes
+            conclu<lb ed="#V" n="75" break="no"/>siones dicitur, quod potentia generandi potest sumi
+            tri<cb ed="#V" n="b"/><lb ed="#V" n="76" break="no"/>pliciter secundum quod ponit Sanctus Thomas de
+            poten<lb ed="#V" n="77" break="no"/>tia Dei. quaestione secunda articulo quarto ad
+            decimum<lb ed="#V" n="78" break="no"/>quintum. Vno modo prout est gerundiuum verbi actiui,
+            <lb ed="#V" n="79"/>&amp; sic ille habet potentiam generandi qui habet potentiam
+            <lb ed="#V" n="80"/>ad hoc vt generet. Alio modo prout est gerundiuum
+            ver<lb ed="#V" n="81" break="no"/>bi passiui, &amp; sic ille habet potentiam generandi qui habet
+            <lb ed="#V" n="82"/>potentiam ad hoc vt generetur. Tertio modo prout est
+            <lb ed="#V" n="83"/>gerundiuum verbi impersonalis, &amp; sic ille dicitur habere
+            <lb ed="#V" n="84"/>potentiam generandi qui habet illam potentiam qua ab
+            <lb ed="#V" n="85"/>aliquo generatur. Potentia generandi primo modo non
+            <lb ed="#V" n="86"/>conuenit filio, sed bene sumpta secundo &amp; tertio modis.
+            <lb ed="#V" n="87"/>Eandem ponit distinctionem primo sentent. distinctione
+            <lb ed="#V" n="88"/>septima, quaestione secunda, articulo primo. Et addit ibi
+            <lb ed="#V" n="89"/>ad secundum respondendo, quod potentia generandi
+            pri<lb ed="#V" n="90" break="no"/>mo modo exponendo dicit essentiam cum paternitate, sed
+            <lb ed="#V" n="91"/>alijs modis dicit essentiam &amp; non paternitatem. Patet
+            igi<lb ed="#V" n="92" break="no"/>tur quod minor argumenti est falsa, quae ponit, quod in
+            fi<lb ed="#V" n="93" break="no"/>lio est potentia generandi productiua, tunc enim esset in
+            <lb ed="#V" n="94"/>eo potentia generandi primo modo dicta, scilicet essentia
+            <lb ed="#V" n="95"/>cum paternitate. Et ad probationem ex dicto Augustnus
+            di<lb ed="#V" n="96" break="no"/>co quod concesso quod filius habeat omnem potentiam
+            <lb ed="#V" n="97"/>quam pater habet, non tamen sequitur quod habeat
+            po<lb ed="#V" n="98" break="no"/>tentiam generandi, sed est fallacia figurae dictionis. Et
+            si<lb ed="#V" n="99" break="no"/>militer ad dictum Henrici vel eius argumentum dicitur,
+            <lb ed="#V" n="100"/>quod ista consequentia non valet, pater potest generare,
+            <lb ed="#V" n="101"/>&amp; filius non potest generare, igitur pater est potentior
+            fi<lb ed="#V" n="102" break="no"/>lio, vel igitur habet aliquam potentiam, quam non habet
+            <lb ed="#V" n="103"/>filius, &amp; causa est, quia arguitur de ad aliquid ad ipsum
+            <lb ed="#V" n="104"/>aliquid, &amp; a negatione potentiae sub tali modo ad
+            negatio<lb ed="#V" n="105" break="no"/>nem eius simpliciter. Cum enim dicitur potentia
+            gene<lb ed="#V" n="106" break="no"/>randi, vel posse generare non importatur absolute
+            poten<lb ed="#V" n="107" break="no"/>tia, sed cum respectu, vt alias dictum fuit.
+          </p>
+          <p xml:id="capsco-a1smuc-d1e3516">
+            Ad secundum
+            <lb ed="#V" n="108"/>dicitur, vel argumentum supponit falsum, vel modus
+            ar<lb ed="#V" n="109" break="no"/>guendi non valet, si enim mtelligatur, quod filius habeat
+            <lb ed="#V" n="110"/>aliquam intellectionem qua intelligit, ab illa qua pater
+            in<lb ed="#V" n="111" break="no"/>telligit, falsum supponit. S autem hoc non supponitur, sed
+            <lb ed="#V" n="112"/>potius concesso quod in diuinis non sit nisi vnica intell
+            e<lb ed="#V" n="113" break="no"/>ctio, &amp; tunc arguitur sic. In omni intellectione perfecta
+            <lb ed="#V" n="114"/>procedit aliquod verbum, sed filius habet intellectionem
+            <lb ed="#V" n="115"/>perfectam, &amp; aeque perfecte sicut pater: ergo sicut pater
+            <lb ed="#V" n="116"/>ex hoc, quod intelligit producit verbum, ita filius ex hoc,
+            <lb ed="#V" n="117"/>quod intelligit gignit verbum, &amp; tunc dico quod modus
+            <lb ed="#V" n="118"/>arguendi non valet, dato enim quod in omni perfecta
+            intel<lb ed="#V" n="119" break="no"/>lectione emanet verbum, non tamen a quocunque
+            intelli<lb ed="#V" n="120" break="no"/>gente per illam intellectionem perfecte, sed solum ab illo,
+            <lb ed="#V" n="121"/>qui per illam intelligit, &amp; habet relationem dicentis. Hoc
+            <lb ed="#V" n="122"/>autem soli patri conuenit in diuinis. Et si quaeratur cur
+            <lb ed="#V" n="123"/>non conuenit talis relatio filio Dei, dico quod illa relatio
+            <lb ed="#V" n="124"/>dicentis, quam pater habet, non potest filio conuenire
+            ea<lb ed="#V" n="125" break="no"/>dem numero, quia opposita relatio sibi conuenit, scilicet
+            <lb ed="#V" n="126"/>relatio dicti &amp; verbi, nec alia secundum numerum, quia
+            <lb ed="#V" n="127"/>non potest ibidem talis relatio plurificari. Similiter nec
+            <lb ed="#V" n="128"/>Spiritui sancto potest conuenire relatio dicentis alia in
+            nu<lb ed="#V" n="129" break="no"/>mero ab illa, quam pater habet eadem ratione, nec eadem
+            <lb ed="#V" n="130"/>relatio in numero, quia Spiritus Sanctus procedit a
+            ver<lb ed="#V" n="131" break="no"/>bo, non autem potest habere relationem dicentis eandem
+            <lb ed="#V" n="132"/>quam habet pater nisi produceret verbum patris, &amp; sic
+            <lb ed="#V" n="133"/>productorem suum produceret. De hac solutione
+            loqui<lb ed="#V" n="134" break="no"/>tur Sanctus Thomas quarto contra Gentiles capitulo
+            de<lb ed="#V" n="135" break="no"/>cimotertio. Verbum (inquit) Dei est Deus, sed non est
+            <lb ed="#V" n="136"/>alius Deus a Deo, cuius est verbum, sed vnus omnino hoc
+            <lb ed="#V" n="137"/>solo ab eo distinctum, quod ab eo est, vt verbum
+            proce<lb ed="#V" n="138" break="no"/>dens. Sicut autem verbum non est alius Deus, ita nec est
+            <lb ed="#V" n="139"/>alius intellectus, nec aliud intelligere, vnde nec ad
+            ver<lb ed="#V" n="140" break="no"/>bum Patris &amp; Filij necessario sequitur, quod sit verbum
+            <lb ed="#V" n="141"/>suiipsius, sed quod verbum seipsum intelligit: nam in hoc
+            <lb ed="#V" n="142"/>solo verbum a dicente distinguitur quod est ab ipso,
+            om<lb ed="#V" n="143" break="no"/>nia ergo alia communiter attribuenda sunt Deo dicenti,
+            <lb ed="#V" n="144"/>qui est pater, &amp; verbo quod est filius, propter hoc quod
+            ver<lb ed="#V" n="145" break="no"/>bum est Deus, sed hoc solum, vt ab eo sit verbum,
+            attri<lb ed="#V" n="146" break="no"/>buendum est proprie patri, &amp; hoc quod est esse a Deo
+            di<lb ed="#V" n="147" break="no"/>cente attribuendum est proprie filio. Ex quo etiam patet,
+            <lb ed="#V" n="148"/>quod filius non est impotens, &amp; si generare non possit
+            fi<lb ed="#V" n="149" break="no"/>lium, natura eadem potentia est patris &amp; filij, sicut &amp;
+            ea<lb ed="#V" n="150" break="no"/>dem diuinitas, cum generatio indiuinis sit intelligibilis
+            <pb ed="#V" n="185"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>verbi conceptio secundum, scilicet quod Deus intelligit
+            <lb ed="#V" n="2"/>seipsum, oportet quod potentia ad generandum in Deo
+            <lb ed="#V" n="3"/>sit sicut potentia ad intelligendum seipsum, &amp; cum
+            intel<lb ed="#V" n="4" break="no"/>ligere seipsum in Deo sit vnum &amp; simplex, oportet
+            poten<lb ed="#V" n="5" break="no"/>tiam intelligendi seipsum, quae non est aliud quam suus
+            <lb ed="#V" n="6"/>actus, esse vnam tantum, ex eadem ergo potentia est, quod
+            <lb ed="#V" n="7"/>pater generet, &amp; quod filius generetur, nullam ergo
+            po<lb ed="#V" n="8" break="no"/>tentiam habet pater, quam non habeat filius, sed pater
+            ha<lb ed="#V" n="9" break="no"/>bet ad generare generatiuam potentiam, filius autem ad
+            <lb ed="#V" n="10"/>generari, quae sola relatione differunt. Haec ille. Eodem
+            mo<lb ed="#V" n="11" break="no"/>do, sed breui soluit in summa scilicet prima parte. q. 34. artic. 1.
+          </p>
+          <p xml:id="capsco-a1smuc-d1e3640">
+            <lb ed="#V" n="12"/>Ad quartum vbi sic soluit ad istud argumentum dicens.
+            <lb ed="#V" n="13"/>Eo modo (inquit) conuenit filio, quo sit intelligens, quo
+            <lb ed="#V" n="14"/>conuenit ei esse Deum, est autem filius Deus genitus, non
+            <lb ed="#V" n="15"/>autem Deus generans, vnde est quidem intelligens non,
+            <lb ed="#V" n="16"/>vt producens verbum, sed vt verbum procedens, prout in
+            <lb ed="#V" n="17"/>Deo secundum rem non differt verbum ab intellectu
+            diui<lb ed="#V" n="18" break="no"/>no, sed relatione distinguitur a principio verbi. Haec ille.
+            <lb ed="#V" n="19"/>Ex quibus omnibus habetur sententia solutionis superius
+            <lb ed="#V" n="20"/>positae.
+          </p>
+          <p xml:id="capsco-a1smuc-d1e3662">
+            Ad tertium respondet Sanctus Thomas prima parte
+            <lb ed="#V" n="21"/>q. 30. art. 2. ad quartum vbi facta dicta ratione sic
+            respon<lb ed="#V" n="22" break="no"/>det. Illa (inquit) ratio procederet si Spiritus Sanctus aliam
+            <lb ed="#V" n="23"/>numero bonitatem haberet a bonitate patris, oporteret enim
+            <lb ed="#V" n="24"/>quod sicut pater per suam bonitatem producit personam
+            <lb ed="#V" n="25"/>diuinam, quod ita, &amp; Spiritus Sanctus, sed vna &amp; eadem
+            <lb ed="#V" n="26"/>bonitas est patris, &amp; filii, &amp; Spiritus Sancti, nec est
+            distin<lb ed="#V" n="27" break="no"/>ctio nisi per relationes personarum, vnde bonitas
+            conue<lb ed="#V" n="28" break="no"/>nit Spiritui Sancto quasi habita ab alio, patri autem sicut a
+            <lb ed="#V" n="29"/>quo communicatur alteri, oppositio autem relationis non
+            <lb ed="#V" n="30"/>permittit, vt cum relatione Spiritus Sancti sit relatio
+            prin<lb ed="#V" n="31" break="no"/>cipii respectu diuinae personae: quia ipse procedit ab aliis
+            <lb ed="#V" n="32"/>personis, quae in Deo esse possunt. Haec ille.
+          </p>
+          <p xml:id="capsco-a1smuc-d1e3691">
+            Et intendit quod
+            <lb ed="#V" n="33"/>Spiritus Sanctus non potest esse principium sui, nec patris,
+            <lb ed="#V" n="34"/>aut filii, quia habet relationem oppositam relationi
+            spiran<lb ed="#V" n="35" break="no"/>tis, &amp; quae conuenit patri &amp; filio, scilicet relationem
+            pro<lb ed="#V" n="36" break="no"/>ducti ab eis, &amp; ita non potest habere relationem
+            produ<lb ed="#V" n="37" break="no"/>centis respectu eorum. Similiter nec respectu sui, constat
+            <lb ed="#V" n="38"/>enim quod non producit seipsum, nec respectu alterius
+            <lb ed="#V" n="39"/>personae, quae sit quarta in diuinis : quia non habet aliam
+            <lb ed="#V" n="40"/>bonitatem vel dilectionem in numero a dilectione vel
+            bo<lb ed="#V" n="41" break="no"/>nitate patris, &amp; filii, vnica autem dilectione procedit
+            vni<lb ed="#V" n="42" break="no"/>cus amor spiratus. Patet ergo, quod quia pater habet
+            infi<lb ed="#V" n="43" break="no"/>nitam bonitatem tali modo, scilicet vt a quo
+            communica<lb ed="#V" n="44" break="no"/>tur aliis per actionem intellectus, &amp; voluntatis, ideo
+            intel<lb ed="#V" n="45" break="no"/>ligendo gignit verbum, &amp; diligendo spirat amorem: quia
+            <lb ed="#V" n="46"/>vero filius habet infinitam bonitatem, vt a quo
+            commu<lb ed="#V" n="47" break="no"/>nicatur alteri per actionem voluntatis, non per actionem
+            <lb ed="#V" n="48"/>intellectus, ideo non gignit verbum, sed tamen spirat
+            amo<lb ed="#V" n="49" break="no"/>rem, quia vero Spiritus Sanctus habet eandem bonitatem,
+            <lb ed="#V" n="50"/>non vt a quo communicatur alteri, sed sicut habita ab aliis,
+            <lb ed="#V" n="51"/>ideo licet intelligat &amp; diligat nullam personam producit.
+          </p>
+          <p xml:id="capsco-a1smuc-d1e3735">
+            <lb ed="#V" n="52"/>Ad quartum dicitur, quod minor est falsa. Si enim essent
+            <lb ed="#V" n="53"/>in diuinis plures filii oporteret ibi esse plures filiationes, &amp;
+            <lb ed="#V" n="54"/>consequenter ille non essent subsistentes, ac per hoc in Deo
+            <lb ed="#V" n="55"/>esset compositio.
+          </p>
+          <p xml:id="capsco-a1smuc-d1e3746">
+            Ad quintum dicitur, quod argumentum
+            <lb ed="#V" n="56"/>peccat secundum fallaciam figurae dictionis, vt saepe dictum
+            <lb ed="#V" n="57"/>est, cum enim sic arguitur. Omnis dignitas diuina est in
+            <lb ed="#V" n="58"/>qualibet persona, sed generare est aliqua dignitas diuina.
+            <lb ed="#V" n="59"/>ergo generare est in qualibet persona: quia ibi mutatur
+            <lb ed="#V" n="60"/>quid in ad aliquid: quia generare dicit actionem diuinam
+            <lb ed="#V" n="61"/>cum relatione paternitatis. Simile habetur prima parte. q.
+            <lb ed="#V" n="62"/>42. artic. 4.
+          </p>
+          <p xml:id="capsco-a1smuc-d1e3765">
+            Ad secundum. Ad sextum dico quod posse
+            ge<lb ed="#V" n="63" break="no"/>nerare sibi simile est perfectio quaedam quantum ad
+            poten<lb ed="#V" n="64" break="no"/>tiam, quam importat, non autem quantum ad relationem,
+            <lb ed="#V" n="65"/>quam includit, &amp; quo ad primum conuenit filio, non
+            au<lb ed="#V" n="66" break="no"/>tem quo ad secundum.
+          </p>
+          <p xml:id="capsco-a1smuc-d1e3776">
+            Ad septimum dicitur, quod
+            infini<lb ed="#V" n="67" break="no"/>tas numeralis nullam dicit perfectionem, cum proueniat
+            <lb ed="#V" n="68"/>ex parte materiae, &amp; dicat quid potentiale, ideo non est
+            at<lb ed="#V" n="69" break="no"/>tribuenda Deo numeralis infinitas sicut perfectionalis. Ad
+            <lb ed="#V" n="70"/>argumentum factum in pede quaestionis respondetur, quod
+            <lb ed="#V" n="71"/>non est simile de patre naturali, &amp; de patre Deo : quia
+            fi<lb ed="#V" n="72" break="no"/>liatio opposita paternitati alterius potest diuidi, non autem
+            <lb ed="#V" n="73"/>filiatio diuina, cum non possit habere aliquod
+            distincti<lb ed="#V" n="74" break="no"/>uum illius secundum numerum. Et haec de quaestione
+            <lb ed="#V" n="75"/>praesenti &amp;caet.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

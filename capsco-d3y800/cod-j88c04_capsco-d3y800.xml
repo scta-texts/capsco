@@ -1,0 +1,926 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 4, Distinctio 25, Quaestio 1</title>
+        <author ref="#JohannesCapreolus">Johannes Capreolus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 4, Distinctio 25, Quaestio 1</title>
+          <date when="2026-11-04">Nov 4, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-j88c04">Venice, 1589, v. 4</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-04" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="268"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="capsco-d3y800"><!-- l4d25q1 -->
+        <head xml:id="capsco-d3y800-Hd1e101">Quaestio 1</head>
+        <head xml:id="capsco-d3y800-Hd1e103" type="question-title">Utrum Episcopatus sit ordo</head>
+        <p xml:id="capsco-d3y800-d1e106">
+          <lb ed="#V" n="34"/>DISTINCTIO. XXV
+          <lb ed="#V" n="35"/>QVAESTIO I.
+          <lb ed="#V" n="36"/>Vtrum Episcopatus sit ordo.
+        </p>
+        <p xml:id="capsco-d3y800-d1e115">
+          <lb ed="#V" n="37"/><milestone ed="#V" unit="p" rend="initial"/> CIRCA vigesimam quintam
+          distin<lb ed="#V" n="38" break="no"/>ctionem quarti sententiarum &amp; finem
+          <lb ed="#V" n="39"/>praecedentis quaeritur: Vtrum
+          Episco<lb ed="#V" n="40" break="no"/>patus sit ordo.
+        </p>
+        <p xml:id="capsco-d3y800-d1e127">
+          Et arguitur quod non
+          <lb ed="#V" n="41"/>quia vnus ordo non dependet a
+          praece<lb ed="#V" n="42" break="no"/>denti quantum ad necessitatem
+          sacra<lb ed="#V" n="43" break="no"/>menti, sed Episcopalis potestas
+          depen<lb ed="#V" n="44" break="no"/>det a sacerdotali, quia nullus potest
+          re<lb ed="#V" n="45" break="no"/>cipere Episcopalem nisi prius habeat sacerdotalem, ergo
+          <lb ed="#V" n="46"/>Episcopatus non est ordo.
+        </p>
+        <p xml:id="capsco-d3y800-d1e144">
+          <lb ed="#V" n="47"/><milestone ed="#V" unit="p" rend="indent"/> IN oppositum arguitur quia ordo nihil aliud est quam
+          <lb ed="#V" n="48"/>quidam potestatis gradus in spiritualibus dispensandis,
+          <lb ed="#V" n="49"/>sed Episcopi possunt dispensare aliqua sacramenta quae non
+          <lb ed="#V" n="50"/>possunt dispensare sacerdotes, sicut confirmationem &amp;
+          or<lb ed="#V" n="51" break="no"/>dinem, ergo Episcopatus est ordo.
+        </p>
+        <p xml:id="capsco-d3y800-d1e158">
+          <lb ed="#V" n="52"/><milestone ed="#V" unit="p" rend="indent"/> In hac quaestione sunt tres articuli. In primo ponentur
+          <lb ed="#V" n="53"/>conclusiones. In secundo obiectiones. In tertio
+          solu<lb ed="#V" n="54" break="no"/>tiones.
+        </p>
+        <div xml:id="capsco-d3y800-Dd1e168">
+          <head xml:id="capsco-d3y800-Hd1e170">Articulus 1</head>
+          <p xml:id="capsco-d3y800-d1e172">
+            <lb ed="#V" n="55"/><milestone ed="#V" unit="p" rend="initial"/> QVantum ad primum articulum sit prima conclusio.
+            <lb ed="#V" n="56"/>Episcopalis potestas quo ad aliqua est superior
+            pote<lb ed="#V" n="57" break="no"/>state sacerdotis non Episcopi. Hanc ponit Sanctus Thomas
+            <lb ed="#V" n="58"/>24. dist. huius q. 3. art. 2. in solutione primae quaestiunculae,
+            <lb ed="#V" n="59"/>vbi sic dicit. Sacerdos habet duos actus, vnum principalem
+            <lb ed="#V" n="60"/>scilicet consecrare verum corpus Christi, alium
+            secunda<lb ed="#V" n="61" break="no"/>riuni scilicet praeparare populum ad susceptionem huius
+            sacra<lb ed="#V" n="62" break="no"/>menti, vt prius dictum est. Quantum autem ad primum
+            ac<lb ed="#V" n="63" break="no"/>tum, actus sacerdotis non dependet ab aliqua superiori
+            po<lb ed="#V" n="64" break="no"/>testate nisi diuina sen quantum ad secundum dependet ab
+            <lb ed="#V" n="65"/>aliqua superiori potestate etiam humana, omnis enim
+            pote<lb ed="#V" n="66" break="no"/>stas quae non potest exire in actum nisi praesuppositis
+            qui<lb ed="#V" n="67" break="no"/>busdam ordinationibus dependet ab illa potestate quae
+            il<lb ed="#V" n="68" break="no"/>las ordinationes facit, sacerdos autem non potest soluere
+            <lb ed="#V" n="69"/>nec ligare nisi praesupposita praelationis iurisdictione qua
+            <lb ed="#V" n="70"/>sibssuodautur illi quos absoluit, potest autem consecrare
+            <lb ed="#V" n="71"/>quamlibet materiam a Christo determinatam, nec aliud
+            re<lb ed="#V" n="72" break="no"/>quuritur quantum est de necessitate sacramenti, quamuis
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="73"/>ex quadam congruitate praesupponatur actus Episcopalis
+            <lb ed="#V" n="74"/>in consecratione altaris &amp; veshium &amp; huiusmodi, &amp; ita
+            pa<lb ed="#V" n="75" break="no"/>tet quod oportet esse supra sacerdotalem potestatem,
+            Epi<lb ed="#V" n="76" break="no"/>scopalem, quantum ad actum saecundarium sacerdotis, non
+            <lb ed="#V" n="77"/>autem quantum ad primum. Haec ille ex quibus potest fod
+            <lb ed="#V" n="78"/>mari duplex ratio pro duplici parte conclusionis, &amp;
+            qui<lb ed="#V" n="79" break="no"/>dem pro prima, scilicet quod Episcopalis potestas non sit
+            <lb ed="#V" n="80"/>superior potestate simplicis sacerdotis quo ad primum &amp;
+            <lb ed="#V" n="81"/>principalem actum sacerdotis, probatur sic. Potestas
+            sacer<lb ed="#V" n="82" break="no"/>dotalis potest exire in suum principalem actum non
+            suppo<lb ed="#V" n="83" break="no"/>sito aliquo actu potestatis Episcopalis, ergo quo ad hoc
+            po<lb ed="#V" n="84" break="no"/>testas sacerdotalis non est inferior potestate Episcopali nec
+            po<lb ed="#V" n="85" break="no"/>testas Enpturalis est ea superior. Quo ad secundam partem
+            conclusio<lb ed="#V" n="86" break="no"/>nis, scilicet quod potestas Episcopalis sit superior potestate
+            sim<lb ed="#V" n="87" break="no"/>plicis sacerdotis quo ad actum secundarium eius arguitur
+            <lb ed="#V" n="88"/>sic. Potestas quae non potest exire in actum suum
+            secunda<lb ed="#V" n="89" break="no"/>rium nisi praesupposita ordinatione vel actione alterius
+            po<lb ed="#V" n="90" break="no"/>testatis est tali potestate inferior quo ad hoc, sed potestas
+            <lb ed="#V" n="91"/>sacerdotalis illo modo se habet ad potestatem Episcopalem,
+            <lb ed="#V" n="92"/>ergo &amp;c. secunda conclusio. Episcopatus est ordo
+            accipien<lb ed="#V" n="93" break="no"/>do ordinem large prout ordo dicitur tam de sacramento quam
+            <lb ed="#V" n="94"/>de officio non sacramento, non autem proprie &amp; strctie
+            pro<lb ed="#V" n="95" break="no"/>ut ordo est sacramentum. Hanc ponit Sanctus Thomas vbi
+            <lb ed="#V" n="96"/>supra in solutione secundae quaestiunculae dicens. ordo
+            po<lb ed="#V" n="97" break="no"/>test accipi dupliciter, vno modo secundum quod est
+            sacra<lb ed="#V" n="98" break="no"/>mentum, sic ordinatur omnis ordo ad Eucharistiae
+            sacra<lb ed="#V" n="99" break="no"/>mentum, vnde cum Episcopus non habeat superiorem
+            pou<lb ed="#V" n="100" break="no"/>testatem sacerdote, quantum ad hoc Episcopatus non erit
+            <lb ed="#V" n="101"/>ordo: alio modo potest considerari ordo secundum quod
+            <lb ed="#V" n="102"/>est officium quoddam respectu quaruncunque actionum
+            <lb ed="#V" n="103"/>sacrarum, &amp; sic cum Episcopus habeat potestatem in
+            actio<lb ed="#V" n="104" break="no"/>nibus Hierarchicis respectu corporis mystici supra
+            sacer<lb ed="#V" n="105" break="no"/>dotem, Episcopatus est ordo. Haec ille.
+          </p>
+          <p xml:id="capsco-d3y800-d1e288">
+            Item ibidem in
+            solu<lb ed="#V" n="106" break="no"/>lutione secundi sic dicit. Ordo prout est sacramentum
+            im<lb ed="#V" n="107" break="no"/>primens characterem ordinatur spiritualiter ad
+            Euchari<lb ed="#V" n="108" break="no"/>stiae sacramentum in quo ipse Christus continetur quia
+            p<lb ed="#V" n="109" break="no"/>characterem ipsi Christo configuramur, &amp; ideo licet detur
+            <lb ed="#V" n="110"/>aliqua potestas spiritualiter Episcopo in sui promotione
+            re<lb ed="#V" n="111" break="no"/>spectu aliquorum sacramentorum, non tamen illa potestas
+            <lb ed="#V" n="112"/>habet rationem characteris &amp; propter hoc Episcopatus non
+            <lb ed="#V" n="113"/>est ordo secundum quod ordo est quoddam sacramentum
+            <lb ed="#V" n="114"/>Haec ille.
+          </p>
+          <p xml:id="capsco-d3y800-d1e310">
+            Ex quibus potest formari ratio pro vtraque parte
+            <lb ed="#V" n="115"/>conclusionis, pro prima arguitur sic, omne officium habens
+            <lb ed="#V" n="116"/>potestatem exercendi sacras actiones &amp; conferendi aliqua
+            <lb ed="#V" n="117"/>sacramenta quam non habent carentes tali officio, est ordo
+            <lb ed="#V" n="118"/>communiter dictus, sed Episcopatus est huiusmodi, ergo
+            <lb ed="#V" n="119"/>&amp;c. Pro secunda arguitur sic. Ordo prout est sacramentum
+            <lb ed="#V" n="120"/>importat potestatem ordinatam ad Eucharistiae
+            sacramen<lb ed="#V" n="121" break="no"/>tum, sed talem potestatem non importat Episcopatus
+            supe<lb ed="#V" n="122" break="no"/>riorem sacerdotio. e go non est ordo qui sit vere &amp; proprie
+            <lb ed="#V" n="123"/>vel stricte loquendo sacramentum. Et in hoc primus
+            ar<lb ed="#V" n="124" break="no"/>ticulusterminatur.
+          </p>
+        </div>
+        <div xml:id="capsco-d3y800-Dd1e335">
+          <head xml:id="capsco-d3y800-Hd1e337">Articulus 2</head>
+          <p xml:id="capsco-d3y800-d1e339">
+            <lb ed="#V" n="125"/><milestone ed="#V" unit="p" rend="initial"/> Vantumad secundum articulum arguitur contra
+            con<lb ed="#V" n="126" break="no"/>clusiones. Et quidem contra primam sunt multae
+            au<lb ed="#V" n="127" break="no"/>ctoritates Hiero. qu. videtur sensisse quod summa potestas
+            <lb ed="#V" n="128"/>consecrationis siue ordinis erat potestas sacerdotalis, ita quod
+            <lb ed="#V" n="129"/>omnis sacerdos quantum est de potestate sacerdotali potest
+            <lb ed="#V" n="130"/>omnia sacramenta ministrare, confirmationem, omnes
+            or<lb ed="#V" n="131" break="no"/>dines, omnes benedictiones, &amp; omnes consecrationes
+            face<lb ed="#V" n="132" break="no"/>re, sed propter periculum scismatis fuit ordinatum vt
+            sacer<lb ed="#V" n="133" break="no"/>dotes vnum ex ipsis eligerent qui diceretur Episcopus,
+            id<lb ed="#V" n="134" break="no"/>est super alios intendens, cui obedirent, &amp; cui reseruatum
+            <lb ed="#V" n="135"/>est ordines facere &amp; huiusmodi, quae non faciunt nisi
+            soli<lb ed="#V" n="136" break="no"/>Episcopi: &amp; quod Episcopus est maior sacerdote quantum
+            <lb ed="#V" n="137"/>ad ptatem iurisdictionis, sed non quo ad ptantem ordinis vel
+            <lb ed="#V" n="138"/>consecrationis, sed sunt pares quamuis ex ordinatione
+            Ec<lb ed="#V" n="139" break="no"/>clesiae aliqua sint reseruata Epuis &amp; prohibita presbyteris,
+            <lb ed="#V" n="140"/>quae quidem dicta Hiero. hameur in decretis dis. 93. c. legimus ir
+            <lb ed="#V" n="141"/>Esaia &amp;c. Sed quia dicta opinio non plus est contra Sanctus Thomas
+            <lb ed="#V" n="142"/>quam contra omnes alios doctores, &amp; rationes eius sufficienter
+            sol<lb ed="#V" n="143" break="no"/>uit Durandus &amp; Peas &amp; dicta Hiero. conuenienter exponunt
+            <lb ed="#V" n="144"/>ideo eas non recito de praesenti.
+          </p>
+          <p xml:id="capsco-d3y800-d1e386">
+            Contra secundam conclusionem
+            <lb ed="#V" n="145"/>&amp; eius probationem arguit Durandus dicens, quod quicquid sit
+            <lb ed="#V" n="146"/>de conclusione, ratio tamen istorum non concludit bene secundum
+            me<lb ed="#V" n="147" break="no"/>tem eorum. Cum enim dicunt quod sacramentum importat habitudinem
+            <pb ed="#V" n="269"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>ad sacramentum Eucharistiae, si intelligatur in
+            consecran<lb ed="#V" n="2" break="no"/>do tantum, contra eos est quia minores ordines nullam
+            ta<lb ed="#V" n="3" break="no"/>lem habitudinem habent &amp; tamen secundum eos sunt
+            sacra<lb ed="#V" n="4" break="no"/>menta. Si autem intelligatur haec habitudo in consecrando
+            <lb ed="#V" n="5"/>vel disponendo ad consccrationem seu consecrati
+            susceptia<lb ed="#V" n="6" break="no"/>nem, iterum est contra eos, quia potestas sicut minorum
+            or<lb ed="#V" n="7" break="no"/>dinuns est ad disponendum populum ad sacramenti
+            Eu<lb ed="#V" n="8" break="no"/>charistiae susceptione, sic potestas Episcopalis est ad ordinandum
+            mini<lb ed="#V" n="9" break="no"/>strum ad eiusdem consecrationem vel confectionem, sicut
+            er<lb ed="#V" n="10" break="no"/>go propinquiorem &amp; nobiliorem habitudinem ad sacramentum
+            <lb ed="#V" n="11"/>Eucharistiae hetem consecrans quam recipiens, sic nobiliorem &amp;
+            <lb ed="#V" n="12"/>propinquiorem habitudinem hebtem ad illud sacramentum potestas
+            <lb ed="#V" n="13"/>Episcopalis quam potestas minorum ordinum, ergo si minores
+            or<lb ed="#V" n="14" break="no"/>dinessunt sacramenta secundum istos, sequitur quod ordinatio E
+            pisco<lb ed="#V" n="15" break="no"/>palis fortiori ratione erit sacramentum. Secundo, quia sicut
+            <lb ed="#V" n="16"/>consecratio panis &amp; vini constituunt vnum sacramentum
+            <lb ed="#V" n="17"/>tanquam partes eius integrales, sic ordinatio sacerdotis
+            sim<lb ed="#V" n="18" break="no"/>plicis &amp; ordinatio summi sacerdotis. 1. epui constituunt vnum
+            <lb ed="#V" n="19"/>completum sacramentum sacerdotij, cum enim perfectum sit
+            <lb ed="#V" n="20"/>quod potest facere simile sibi illud sacerdotium non est
+            com<lb ed="#V" n="21" break="no"/>pletum per quod sacerdos non recipit ptantem ordinandi alium
+            <lb ed="#V" n="22"/>in sacerdotem, &amp; tale est sacerdotium simplex, sacerdotium autem
+            <lb ed="#V" n="23"/>summum. 1. Episcopatus est perfectum sacerdotium, quia p
+            <lb ed="#V" n="24"/>ipsum recipitur potestas ordinandi alium in sacerdotem summum
+            <lb ed="#V" n="25"/>vel simplicem, &amp; sic ordinatio simplicis sacerdotis &amp;
+            ordi<lb ed="#V" n="26" break="no"/>natio Episcopalis constituunt vnum sacramentum perfectum.
+          </p>
+          <p xml:id="capsco-d3y800-d1e456">
+            <lb ed="#V" n="27"/>Tertio quia ordo non est aliud nisi gradus ptantis vel
+            mini<lb ed="#V" n="28" break="no"/>sterij in spiritualibus dispensandis, sed Episcopi possunt
+            di<lb ed="#V" n="29" break="no"/>spensare aliqua sacramenta quae non possunt dispensari per
+            <lb ed="#V" n="30"/>simplices sacerdotes, sicut confirmationem &amp; ordinem
+            sa<lb ed="#V" n="31" break="no"/>crum, ergo Episcopatus est ordo &amp; sacramentum. Ad
+            <lb ed="#V" n="32"/>idem arguitur ab alijs, primo quia satis videretur mirabile,
+            <lb ed="#V" n="33"/>quod ordinatio acolithi qui debet portare candelabrum
+            <lb ed="#V" n="34"/>vrceolum aquam &amp; vinum esset sacramentum &amp; ordinatio
+            <lb ed="#V" n="35"/>Epralis ad quam vel a qua dependet totus ordo
+            Ecclesiasti<lb ed="#V" n="36" break="no"/>cus non esset sacramentum.
+          </p>
+          <p xml:id="capsco-d3y800-d1e480">
+            Secundo quia Episcopatus est
+            <lb ed="#V" n="37"/>a Deo institutus, &amp; cum signo sensibili consecrationis
+            da<lb ed="#V" n="38" break="no"/>tur, &amp; ex opere operato confert gratiam vt videtur multo
+            <lb ed="#V" n="39"/>magis quam alij ordines quia Deus non deficit in necessarijs,
+            <lb ed="#V" n="40"/>&amp; ipse Episcopus plus indiget quam quicunque alius, ergo
+            <lb ed="#V" n="41"/>videtur quod Episcopatus sit verum sacramentum habens omnia
+            <lb ed="#V" n="42"/>quae requiruntur ad essentiam sacramenti. Contra eandem
+            <lb ed="#V" n="43"/>conclusionem &amp; contra primam in simul arguit Aureolus
+            <lb ed="#V" n="44"/>probando quod Episcopatus non sit alius ordo distinctus a
+            sa<lb ed="#V" n="45" break="no"/>cerdotio, quia aut esset ordo superior sacerdote aut inferior
+            <lb ed="#V" n="46"/>sed nec sic, nec sic, ergo nullo modo, probatur minor, quia
+            <lb ed="#V" n="47"/>quod non fit inferior patet, quia inferius prius sumitur &amp;
+            prae<lb ed="#V" n="48" break="no"/>supponitur ordini superiori, sed consecratio in Episcopum non
+            <lb ed="#V" n="49"/>praesupponitur ordinationi in sacerdotium sed magis
+            econ<lb ed="#V" n="50" break="no"/>tra, ergo. Quia etiam non sit superior patet, quia nullum actum
+            <lb ed="#V" n="51"/>superiorem habet vt distinguitur contra sacerdotium,
+            pa<lb ed="#V" n="52" break="no"/>tet, quia actus Episcopi vt differt a sacerdotio est ordinare
+            <lb ed="#V" n="53"/>actus vero sacerdotis vt differt ab Episcopo est conficere
+            <lb ed="#V" n="54"/>corpus Christi, constat autem quod conficere corpus
+            Chri<lb ed="#V" n="55" break="no"/>sti est actus melior &amp; dignior quam ordinare, ergo &amp;c.
+            Di<lb ed="#V" n="56" break="no"/>cetur forte quod gradus episcopalis est dignior eo quod
+            inclu<lb ed="#V" n="57" break="no"/>dit ordinem sacerdotalem, &amp; vltra hoc addit aliquid aliud
+            <lb ed="#V" n="58"/>quod est sibi proprium, &amp; ambo sunt digniota simul, quam
+            <lb ed="#V" n="59"/>alterum per se. Contra quia hic non comparatur Eptratus ad
+            <lb ed="#V" n="60"/>sacerdotium quantum ad illud quod ambo includunt, sed
+            <lb ed="#V" n="61"/>praecise quantum ad illud quo vnum differt ab alio, licet
+            er<lb ed="#V" n="62" break="no"/>go fimnatus posset dici ordo non tamen distinctus a
+            sacerdo<lb ed="#V" n="63" break="no"/>tio, quia non ordinatur ad actum superiorem actu
+            sacerdo<lb ed="#V" n="64" break="no"/>tis, nec ad inferiorem, nec aequalem. Quia enim non ad
+            superio<lb ed="#V" n="65" break="no"/>rem nec inferiorem probatum est. Quia autem non ad
+            aequa<lb ed="#V" n="66" break="no"/>lem patet. Tum quia conficere &amp; ordinare non sunt actus
+            <lb ed="#V" n="67"/>aequales. Tum quia in ordine hierarchico non possunt esse
+            <lb ed="#V" n="68"/>duo aequalia.
+          </p>
+          <p xml:id="capsco-d3y800-d1e553">
+            Secundo sic. Gradus Episcopalis &amp; sacerdotium non
+            <lb ed="#V" n="69"/>sunt distinctae potestates, ergo nec distincti ordines, antecedens
+            <lb ed="#V" n="70"/>patet, quia quandocunque aliqua forma sic se habet quod ei debentur
+            <lb ed="#V" n="71"/>multi actus, si alter eorum impeditur, &amp; postea contingat
+            re<lb ed="#V" n="72" break="no"/>moueri impediens, non causatur noua forma, nec in prima
+            for<lb ed="#V" n="73" break="no"/>ma aliud variatur, nisi quod remouetur impediens prioris
+            for<lb ed="#V" n="74" break="no"/>mae, exemplum est, quia in habente animam rationalem vbi quandoque
+            <lb ed="#V" n="75"/>impeditur actus rationis, &amp; postea remouetur impedimentum
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="76"/>non datur noua anima vel forma, sed tamen remouetur illud quod
+            <lb ed="#V" n="77"/>prius impediebat animam rationalem, ne exiret in actum
+            ratio<lb ed="#V" n="78" break="no"/>nis, sed ordinare in sacerdotem est actus comns sacerdoti inquam
+            <lb ed="#V" n="79"/>tum sacerdos est, &amp; tamen est actus impeditus in eo,
+            proba<lb ed="#V" n="80" break="no"/>tur, quia nemo dat quod non habet, sicut in naturalibus
+            <lb ed="#V" n="81"/>vbi forma transfundit seipsam ergo sacerdotis est
+            ordina<lb ed="#V" n="82" break="no"/>re in sacerdotem, sed hoc pertinet ad sacerdotem qui habet illam
+            <lb ed="#V" n="83"/>formam potentem transfundere se ipsam, vnde papa non
+            <lb ed="#V" n="84"/>posset ordines committere non sacerdoti, posset autem
+            con<lb ed="#V" n="85" break="no"/>mittere cuicunque sacerdoti, ergo videtur quod conferre ordines sit
+            <lb ed="#V" n="86"/>pertinens ad sacerdotem.
+          </p>
+          <p xml:id="capsco-d3y800-d1e597">
+            Confirmatur, quia pone quod
+            ali<lb ed="#V" n="87" break="no"/>quis sit sacerdos omni alio circunscripto papa potest ei
+            commit<lb ed="#V" n="88" break="no"/>tere ordines, pone autem omnia alia &amp; circunscribe sacerdotium,
+            <lb ed="#V" n="89"/>non poterit ei Papa committere ptantem ordinandi, hoc
+            vi<lb ed="#V" n="90" break="no"/>satis probabile, quia omnis forma ex quo est in actu videtur quod possit
+            <lb ed="#V" n="91"/>se concare in eadem speer, ergo quicunque sacerdos poterit
+            ordi<lb ed="#V" n="92" break="no"/>nes celebrare, ergo si potestas illa non sit impedita sicut est de
+            <lb ed="#V" n="93"/>facto, &amp; impedimentum remoueatur, per hoc quod fit episcopus
+            <lb ed="#V" n="94"/>non datur ei noua potestas, sed tmmmon pristina potestas prius
+            impe<lb ed="#V" n="95" break="no"/>dita expeditur impedimento remoto, &amp; reductio illius
+            po<lb ed="#V" n="96" break="no"/>testatis ad vsum dicitur ampliatio potestatis. Haec
+            Aureo<lb ed="#V" n="97" break="no"/>lus in forma. Et in hoc secundus articulus terminatur.
+          </p>
+        </div>
+        <div xml:id="capsco-d3y800-Dd1e624">
+          <head xml:id="capsco-d3y800-Hd1e626">Articulus 3</head>
+          <p xml:id="capsco-d3y800-d1e628">
+            <lb ed="#V" n="98"/><milestone ed="#V" unit="p" rend="initial"/> QVantum ad tertium articulum respondendum est
+            <lb ed="#V" n="99"/>obiectionibus supradictis. Et quidem ad primum
+            Duran<lb ed="#V" n="100" break="no"/>di contra secundam conclusionem dicitur quod diuisio ibi posita est
+            <lb ed="#V" n="101"/>insufficiens, quia sacramentum ordinis importat habitudinem ad
+            Eu<lb ed="#V" n="102" break="no"/>charistiae sacramentum non in consecrando tantum, sed sub
+            disiunctio<lb ed="#V" n="103" break="no"/>ne, vel in consecrando Eucharistiam, vel in ministrando
+            con<lb ed="#V" n="104" break="no"/>secranti vel celebranti actualiter: cum autem dicit arguens
+            <lb ed="#V" n="105"/>quod hoc est contra nos, falsum est, nec valet sua probatio, qua
+            <lb ed="#V" n="106"/>ptans minorum ordinum est ad ministrandum actualiter con
+            <lb ed="#V" n="107"/>secranti, non autemptans Episcopalis, quia illa non ordinatur
+            pro<lb ed="#V" n="108" break="no"/>xime ad actualem consecrationem, sed ad corpus mysticum,
+            <lb ed="#V" n="109"/>confirmandum, vel ordinandum, vel benedicendum, vel
+            ali<lb ed="#V" n="110" break="no"/>quo modo regendum, &amp; licet consecrans Eucharistiam
+            propin<lb ed="#V" n="111" break="no"/>quiorem &amp; nobiliorem habitudinem habeat ad Eucharistiam quo
+            <lb ed="#V" n="112"/>populus recipiens eam, non sequitur quod potestas Epalis
+            propin<lb ed="#V" n="113" break="no"/>quius ordinetur ad Eucharistiam, quia est ad ordinandum
+            <lb ed="#V" n="114"/>ministrum ad consecrandum Eucharistiam, quam potestas minorum
+            <lb ed="#V" n="115"/>ordinum quae est ad disponendum populum ad
+            Enchari<lb ed="#V" n="116" break="no"/>stiae susceptionem, cuius ratio est quia potestas Episcopalis non est ad
+            or<lb ed="#V" n="117" break="no"/>dinandum sacerdotem ut est actu consecrans vel absoluens
+            <lb ed="#V" n="118"/>vel inungens infirmum, ptas autem minorum ordinum est ad
+            <lb ed="#V" n="119"/>disponendum populum vt est actu comncans vel suscipiens
+            <lb ed="#V" n="120"/>Eucharistiam, nec proprie ordinatur ad populum vt
+            popu<lb ed="#V" n="121" break="no"/>lus est, sed vt communicans, &amp; ideo minores ordines sunt sacramenta non
+            <lb ed="#V" n="122"/>autem Ehbatus proprie loquendo, &amp; si patet quod diuisio quam
+            propo<lb ed="#V" n="123" break="no"/>nit arg. in principio insufficiens. est. Veruntamen ad istud
+            argu<lb ed="#V" n="124" break="no"/>aliter respondet Petrus de Palude dicens quod illa pertinent ad sacramentum per se &amp;
+            <lb ed="#V" n="125"/>directe per quae efficitur, &amp; per quae virtus efficiens in
+            operan<lb ed="#V" n="126" break="no"/>do iuuat, non autem illa per quae virtus illa acquiritur, sicut non potest
+            <lb ed="#V" n="127"/>dare extremam vnctionem nisi sacerdos, nec potest esse sacerdos
+            <lb ed="#V" n="128"/>nisi sit ab Epuo ordinatus, sed supposito quod sit ordinatus ad
+            <lb ed="#V" n="129"/>inungendum non plus requiritur episcopus, sed requiritur oleum
+            sancti<lb ed="#V" n="130" break="no"/>ficatum, &amp; verba, &amp; quod in multis locis fiat &amp; huotmodio. Vnde ad
+            <lb ed="#V" n="131"/>vnitatem sacramenti concurrunt illa quae ad executionem
+            mini<lb ed="#V" n="132" break="no"/>stri requiruntur, non autem ea quae constituunt ministrum, &amp; sic
+            il<lb ed="#V" n="133" break="no"/>lud in proposito. Vnde non est simile quod episcopus nullum actum
+            <lb ed="#V" n="134"/>exercet vt episcopus est ad hoc quod sacerdos celebret, licet prius
+            exer<lb ed="#V" n="135" break="no"/>cuerit, &amp; in ipso, &amp; in instrumentis &amp; ministris eius, sed sex
+            ordi<lb ed="#V" n="136" break="no"/>nes presbytero subministrant in actu illo, unde prout est
+            or<lb ed="#V" n="137" break="no"/>do est sacramentum in comparatione ad eucharistiam sed
+            or<lb ed="#V" n="138" break="no"/>dines sunt sacramentum, non autem epatus, alias esset dignior qua
+            <lb ed="#V" n="139"/>sacerdos, ratio huius, cum sit causa aequiuoca, non est autem
+            respe<lb ed="#V" n="140" break="no"/>ctu eius dignior, quia nullus actus hierarchicus est isto
+            di<lb ed="#V" n="141" break="no"/>gnior qui debetur sacerdoti in ratione sacerdotij. Haec Petrus &amp;
+            <lb ed="#V" n="142"/>subdit. Ad sacramentum dicitur pertinere non illud quod dat
+            vir<lb ed="#V" n="143" break="no"/>tutem actiuam faciendi, alias episcopatus esset de sacramento
+            confirma<lb ed="#V" n="144" break="no"/>tionis, sicut de sacramento ordinis, quia ita confert unum sicut
+            <lb ed="#V" n="145"/>reliquum, &amp; de sacramento pniae, &amp; extremae vnctionis, quia
+            <lb ed="#V" n="146"/>ita ordinat ministrum illorum sicut eucharistiae, vnde epatus
+            <lb ed="#V" n="147"/>non est ordo, quia confert ordinem, nec sacerdotinm est
+            eu<lb ed="#V" n="148" break="no"/>charistia, quia eam conficit, sed ea qua subseruiendo concurrunt.
+            <lb ed="#V" n="149"/>sed prout ordo dicit gradum superioritatis &amp; spiritualem
+            <lb ed="#V" n="150"/>ptantem entnatus est ordo. Haec Pe. &amp; bene.
+          </p>
+          <p xml:id="capsco-d3y800-d1e746">
+            Ad secundum dicitur quod
+            si<pb ed="#V" n="270"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>militudo ibidem adducta non valet, quia consecratio panis
+            <lb ed="#V" n="2"/>&amp; consecratio vini sunt sacramentum vnitate pfectionis
+            peroper<lb ed="#V" n="3" break="no"/>vnitatem finis ad quem ordinantur, vt dictum fuit in praecedenti quaestione
+            <lb ed="#V" n="4"/>ne, sed sacerdotium &amp; Epatus non ordinantur ad vnum &amp; eundem
+            <lb ed="#V" n="5"/>finem, sed ad diuersos scilicet sacerdotium ad corpus Christi verum,
+            <lb ed="#V" n="6"/>Epnatus autem ad corpus Christi mysticum ideo non est simile.
+            <lb ed="#V" n="7"/>Cum autem dicitur quod perfectum est quod potest sibi simile facere
+            <lb ed="#V" n="8"/>&amp;c. Non est ad propositum, quia propositio illa locum
+            hant<lb ed="#V" n="9" break="no"/>duntaxat in formis eductis de potentia materiae, quod
+            pa<lb ed="#V" n="10" break="no"/>tet, nam nec anima rationalis, nec angelus, nec gratia nec
+            cha<lb ed="#V" n="11" break="no"/>ritas possunt sibi similia facere, quantumcunque sint perfe
+            <lb ed="#V" n="12"/>&amp;a.
+          </p>
+          <p xml:id="capsco-d3y800-d1e777">
+            Tum quia si sacerdotium simplex &amp; Epatus constituunt
+            <lb ed="#V" n="13"/>vnum perfectum sacramentum sacerdotij quod dicitur
+            sum<lb ed="#V" n="14" break="no"/>mum sacerdotium, per quod aliquis potest sibi simile
+            face<lb ed="#V" n="15" break="no"/>re, quaeritur de illo aggregato sacerdotio ex talibus partibus
+            <lb ed="#V" n="16"/>etherogeneis, ex qua parte, vel cuius partis virtute excedit
+            <lb ed="#V" n="17"/>imperfectum vel est perfectius sacramentum quam simplex
+            <lb ed="#V" n="18"/>sacerdotium. Non potest dici quod ratione characteris
+            sacer<lb ed="#V" n="19" break="no"/>dotij simplicis, quia idem non excedit seipsum, nec ratione
+            <lb ed="#V" n="20"/>ptantis quam Epatus superaddit simplici sacerdotio, quia
+            <lb ed="#V" n="21"/>ptans illa imperfectior est charactere sacerdotali, cum sit
+            or<lb ed="#V" n="22" break="no"/>dinata ad actum imperfectiorem. Si dicatur quod ratione totius
+            <lb ed="#V" n="23"/>aggregati, hoc non valet propr duo, primo quia imperfectum
+            <lb ed="#V" n="24"/>additum perfectiori per modum aggregationis non
+            consti<lb ed="#V" n="25" break="no"/>tuit perfectius intensiue quam prius, sed solum extensiue. 2.
+            <lb ed="#V" n="26"/>quia posito quod illud aggregatum sit quodammodo
+            perfe<lb ed="#V" n="27" break="no"/>ctius quam prius esset character simplicis sacerdotij, non
+            <lb ed="#V" n="28"/>sequitur quod illud sit sacramentum, nec quod quaelibet eius
+            <lb ed="#V" n="29"/>pars pertineat ad sacramentum ordinis nec quod sit
+            perfe<lb ed="#V" n="30" break="no"/>ctius sacramentum, sed perfectior potestas, non enim omnis
+            <lb ed="#V" n="31"/>ptans conferendi sacramentum est sacramentum, aut
+            perti<lb ed="#V" n="32" break="no"/>nens ad cscetcramentum intrinsece tanquam pars
+            sacramen<lb ed="#V" n="33" break="no"/>ti, sicut patet de potestate baptizandi vel contrahendi
+            matri<lb ed="#V" n="34" break="no"/>monium, &amp; de hoc dictum est in probatione. 2. conclusionis
+            <lb ed="#V" n="35"/>quo potestas Episcopalis non habet rationem characteris, quia non
+            <lb ed="#V" n="36"/>ordinatur specialiter ad eucharistiae sacramentum.
+          </p>
+          <p xml:id="capsco-d3y800-d1e832">
+            De hoc. Petrus. Qui<lb ed="#V" n="37" break="no"/>dam dicunt quod episcopatus characterem imprimit, quia
+            potesta<lb ed="#V" n="38" break="no"/>tem faciendi aliquid absolute. Sed verius dici potest quod per
+            <lb ed="#V" n="39"/>episcopatum ampliatur character sacerdotalis vt sit vnus &amp;
+            <lb ed="#V" n="40"/>idem, &amp; ideo non imprimit characterem, sed impressum intendit
+            <lb ed="#V" n="41"/>ad aliud, &amp; haec est necessitas quare supponit sacerdotalem,
+            <lb ed="#V" n="42"/>quia non est aliquid aliud, sed eius intensio &amp; perfectio, alias
+            <lb ed="#V" n="43"/>sicut vnus ordo non de necessitate praesupponit alium, sic
+            <lb ed="#V" n="44"/>nec Episcopalis dignitas sacerdotalem supponeret. Potest
+            er<lb ed="#V" n="45" break="no"/>go dici quod Episcopatus est ordo, sed non est distinctus a
+            sa<lb ed="#V" n="46" break="no"/>cerdoti &amp;, &amp; est sacramentum, sed non distinctum a
+            sacra<lb ed="#V" n="47" break="no"/>mento ordinis &amp; imprimit characterem, sed non alium
+            si<lb ed="#V" n="48" break="no"/>cut &amp; acolithus accipiendo candelabrum accipit ptantem ad
+            <lb ed="#V" n="49"/>vnum actum, &amp; per consequens characterem qui est potestas
+            <lb ed="#V" n="50"/>agendi, &amp; recipiendo vrceum cum aqua manu accipit
+            pote<lb ed="#V" n="51" break="no"/>statem ad alium actum &amp; per consequens characterem, sed
+            <lb ed="#V" n="52"/>quia vnius &amp; eiusdem est vterque actus vna est potestas, &amp; per
+            con<lb ed="#V" n="53" break="no"/>sequems character habens hos duos actus subordinatos. Et
+            <lb ed="#V" n="54"/>similiter in subdiacono idem est character, &amp; idem ordo.
+            <lb ed="#V" n="55"/>Et dicitur sacramentum cum accipit potestatem legendi
+            epi<lb ed="#V" n="56" break="no"/>stolam, &amp; calicem ministrandum altari &amp; similiter
+            sacerdo<lb ed="#V" n="57" break="no"/>tium cum accipit potestatem celebrandi &amp; absoluendi vt
+            di<lb ed="#V" n="58" break="no"/>ctum est, omnia haec sunt inter se vnus ordo, vnus character, &amp;
+            <lb ed="#V" n="59"/>vna pars sacramenti ordinis.
+          </p>
+          <p xml:id="capsco-d3y800-d1e885">
+            Dicitur autem character imprimi
+            <lb ed="#V" n="60"/>in illo quod est principalius, siue quia illud est prius &amp; per
+            se<lb ed="#V" n="61" break="no"/>quentia non imprimitur nouus, sed ampliatur prius
+            impres<lb ed="#V" n="62" break="no"/>sus, siue quia illud est principalius. Et licet per primum quo
+            <lb ed="#V" n="63"/>dicitur accipite potestatem &amp;c. imprimatur character in
+            quoli<lb ed="#V" n="64" break="no"/>bet ordine, &amp; per consequentia non imprimatur, sed
+            intenda<lb ed="#V" n="65" break="no"/>tur, tamen a pricipaliori denoiatur, sunt ergo septem ordines, sed
+            <lb ed="#V" n="66"/>septimus scilicet sacerdotium continet duplicem potestatem in generali scilicet
+            <lb ed="#V" n="67"/>sacerdotalem proprie dictam, &amp; episcopalem. Et propter
+            <lb ed="#V" n="68"/>hoc aliquando vocantur episcopi presbyteri, &amp;
+            econuer<lb ed="#V" n="69" break="no"/>so, sicut differrent diaconi &amp; leuite, si diaconus
+            importa<lb ed="#V" n="70" break="no"/>ret potestatem legendi euangelium tantum leuita
+            potesta<lb ed="#V" n="71" break="no"/>tem dispensandi sanguinem vel ministrandi, &amp; nihil aliud
+            <lb ed="#V" n="72"/>&amp; per hoc dicitur episcopatus non esse ordo in relatione ad
+            <lb ed="#V" n="73"/>corpus Christi verum, quia scilicet non est distinctus a secerdotio
+            <lb ed="#V" n="74"/>Haec Petrus.
+          </p>
+          <p xml:id="capsco-d3y800-d1e920">
+            Et addit vlterius quod probabiliter potest dici quod si
+            epi<lb ed="#V" n="75" break="no"/>scopatus esset distinctus a sacerdotio esset quid minus, &amp;
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="76"/>posset fieri episcopus qui non esset sacerdos, sicut sacerdos (
+            <lb ed="#V" n="77"/>non esset diaconus, quia vnus character est ab alio
+            distin<lb ed="#V" n="78" break="no"/>ctus, nunc autem non sic est, sed sicut habitus scientiae aliquando
+            <lb ed="#V" n="79"/>augetur non intensiue respectu eiusdem conclusionis, sed extem
+            <lb ed="#V" n="80"/>siue respectu alterius, puta quia de eodem obiecto sub eadt
+            <lb ed="#V" n="81"/>ratione formali per nouum exercitium acquirit homo noticiam
+            no<lb ed="#V" n="82" break="no"/>uae conclusionis, tunc intenditur habitus scientiae, non sic quod
+            pos<lb ed="#V" n="83" break="no"/>sit limpidius speculari illud quod prius obscurius &amp;
+            prom<lb ed="#V" n="84" break="no"/>ptius, quia ponitur quod non plus frequentauerit conclusionem
+            <lb ed="#V" n="85"/>prius notam, sed per illum habitum per quem prius non poterat
+            <lb ed="#V" n="86"/>considerare prompte nisi vnam conclusionem quam solum
+            fre<lb ed="#V" n="87" break="no"/>quentauerat, nunc potest aequaliter considerare secundam, quam
+            <lb ed="#V" n="88"/>sic prius non poterat, ita character sacerdotalis qui prius non
+            <lb ed="#V" n="89"/>poterat ordinare vel confirmare, sed tamenmon inungere
+            confi<lb ed="#V" n="90" break="no"/>cere, &amp; absoluere non potest plus conficere quam prius
+            pos<lb ed="#V" n="91" break="no"/>set, sed ordinare &amp; confirmare quod prius non poterat, ita
+            <lb ed="#V" n="92"/>quod est alia ordinatio episcopalis, &amp; alia sacerdotalis, &amp;
+            ta<lb ed="#V" n="93" break="no"/>lis character imprimitur per primam, &amp; perficitur per secum
+            <lb ed="#V" n="94"/>dam.
+          </p>
+          <p xml:id="capsco-d3y800-d1e968">
+            Sed ocurrit dubium cum intensio potentiae non faciat
+            <lb ed="#V" n="95"/>eam posse quod prius non poterat, sed tantum intensius
+            pos<lb ed="#V" n="96" break="no"/>se quod prius poterat, quomodo episcopus potest id quod
+            sacer<lb ed="#V" n="97" break="no"/>dos non poterat, &amp; quare non plus potest conficere quam
+            <lb ed="#V" n="98"/>ille si habet characterem intensiorem: Et dicendum quod
+            quan<lb ed="#V" n="99" break="no"/>do effectus non est de se intensibilis, virtus intensa non plus
+            <lb ed="#V" n="100"/>potest in illum quam remissa, sicut aliquando virtus visiua potest
+            <lb ed="#V" n="101"/>videre aliquid quando est fortis quod non poterat quando
+            <lb ed="#V" n="102"/>erat debilis, quia quanto est fortior tanto ad plura se
+            exten<lb ed="#V" n="103" break="no"/>dit, sic ergo character sacerdotalis. 1. &amp; principaliter est ad
+            <lb ed="#V" n="104"/>consecrandum corpus Christi, ita quod consecrare est eius
+            <lb ed="#V" n="105"/>actus, sed quando extenditur, tunc potest plura consecrare, quia non
+            <lb ed="#V" n="106"/>solum corpus Christi, sed hominem, &amp; alia, sed non potest plus
+            <lb ed="#V" n="107"/>conficere quam ante, qua effectus ille non est intensibilis. Quia autem
+            <lb ed="#V" n="108"/>consecratio episcopalis non possit intendere characterem
+            sa<lb ed="#V" n="109" break="no"/>cerdotalem cum possit eum de nouo generare, cum alias forma
+            <lb ed="#V" n="110"/>per illud intendatur per quod generatur, est ex diuina
+            ordina<lb ed="#V" n="111" break="no"/>tione, quam sic contulit virtutem istis consecrationibus cum non aliter
+            <lb ed="#V" n="112"/>agendo, sicut si traditio vini acolitho praecederet traditionem
+            <lb ed="#V" n="113"/>candelabri, nihil ageret. sed illa praesupposita eius effectum
+            <lb ed="#V" n="114"/>auget. Haec Peas &amp; male quo ad multa.
+          </p>
+          <p xml:id="capsco-d3y800-d1e1014">
+            Primo quia ponit
+            ptam<lb ed="#V" n="115" break="no"/>tem episcopalem non distingui a charactere sacerdotali, nisi
+            si<lb ed="#V" n="116" break="no"/>cut formam intensam a seipsa remissa. Hoc enim est contra Sanctus
+            <lb ed="#V" n="117"/>Thomas vt patet ex dictis eius allegatis pro 2. conclusione. Et
+            vl<lb ed="#V" n="118" break="no"/>terius est in se falsum &amp; improbabile, quia vbi est sola
+            inten<lb ed="#V" n="119" break="no"/>sio formae vel potentiae actiuae sine additione cuiuscunque
+            <lb ed="#V" n="120"/>noui absoluti intrinseci vel extrinseci ad priorem formam quod
+            <lb ed="#V" n="121"/>dicitur intendi, forma taliter intensa non potest in actum
+            <lb ed="#V" n="122"/>vel effectum alterius specie quam prius posset. Cuius oppositum
+            <lb ed="#V" n="123"/>est in proposito de ptate epiicopali respectu characteris
+            sa<lb ed="#V" n="124" break="no"/>cerdotalis prius habiti.
+          </p>
+          <p xml:id="capsco-d3y800-d1e1038">
+            2. qua nec valet similitudo de
+            augmen<lb ed="#V" n="125" break="no"/>to hitus scientifici respectu nouarum conclusionum, quia falsum
+            <lb ed="#V" n="126"/>supponit scilicet quod tale augmentum extensiuum possit fieri illo modo
+            si<lb ed="#V" n="127" break="no"/>ne acquisitione alicuius noui absoluti, puta vel nouarum
+            spee<lb ed="#V" n="128" break="no"/>rum intelligibilium aut nouorum conceptuum aut nouorum
+            <lb ed="#V" n="129"/>syllogisinorum, aut superadditione noui luminis
+            supernatu<lb ed="#V" n="130" break="no"/>ralis, aut nouorum fantasmatum, vel noua combinatione
+            prae<lb ed="#V" n="131" break="no"/>cedentium aut noua sensatione exteriori. Ideo illud quod
+            di<lb ed="#V" n="132" break="no"/>citur de augmento habitus scientifici per solos nouos
+            respe<lb ed="#V" n="133" break="no"/>ctus cum sit in se falsum, nullo modo iuuat ad saluandum
+            intensio<lb ed="#V" n="134" break="no"/>nem characteris sacerdotalis per consecrationem episcopalem
+            si<lb ed="#V" n="135" break="no"/>ne additione cuiuscunque noui absoluti, sed videtur mera fictio.
+          </p>
+          <p xml:id="capsco-d3y800-d1e1064">
+            <lb ed="#V" n="136"/>3. quia ponit episcopatum esse sacramentum non tamen
+            distin<lb ed="#V" n="137" break="no"/>ctum a sacerdotio. Hoc enim discordat a Sanctus Thomas &amp; veritate, quia
+            <lb ed="#V" n="138"/>vel intelligit ista duo esse vnum sacramentum, quia secundum est idem
+            <lb ed="#V" n="139"/>quod primum, vel quia primum &amp; secundum sunt partes vnius
+            sacra<lb ed="#V" n="140" break="no"/>meti completi. Si 1. modo, manifeste dicit falsum, qua materia &amp;
+            <lb ed="#V" n="141"/>forma vnius differunt numero vel speer a materia &amp; forma
+            al<lb ed="#V" n="142" break="no"/>terius, &amp; posito vno non ponitur aliud. Si 2. modo, hoc non valet
+            <lb ed="#V" n="143"/>quia illa duo non ordinantur directe ad vnum finem, sed ad
+            di<lb ed="#V" n="144" break="no"/>uersos. Similiter quia illud tertium ex ambobus resultans nullum
+            <lb ed="#V" n="145"/>actum heetem perfectiorem actu consecrationis qui competit
+            simpli<lb ed="#V" n="146" break="no"/>ci sacerdotio, &amp; sic non videtur perfectius sacerdotio
+            inten<lb ed="#V" n="147" break="no"/>siue, sed solum extensiue. Similiter quia character sacerdotalis
+            <lb ed="#V" n="148"/>nullo modo concurrit ad effectum superadditae potestatis episcopalis
+            <lb ed="#V" n="149"/>nec uirtute sacramenti, nec ex naturali concomitantia, nec
+            econ<lb ed="#V" n="150" break="no"/>tra potestas 2. concurrit ad effectum primae aliquo modo. Et ulterius
+            <pb ed="#V" n="271"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>quia Petrus intelligit primo modo, non secundo modo dicta
+            <lb ed="#V" n="2"/>sua. Nec obstat quod Episcopus dicitur summus sacerdos, quia
+            <lb ed="#V" n="3"/>hoc non dicitur ex hoc quod habeat superius aut perfectius
+            sa<lb ed="#V" n="4" break="no"/>cramentum quam simplex sacerdos, sed ideo quia habet
+            superio<lb ed="#V" n="5" break="no"/>rem potestatem non solum iurisdictionis, sed ordinis &amp;
+            conse<lb ed="#V" n="6" break="no"/>crationis.
+          </p>
+          <p xml:id="capsco-d3y800-d1e1117">
+            Ad tertium dicitur quod argumentum non aliud
+            conclu<lb ed="#V" n="7" break="no"/>dit nisi quod Episcopatus sit ordo, &amp; hoc conceditur. Non tamen
+            <lb ed="#V" n="8"/>quod talis ordo sit sacramentum, quia nec potest esse sacramentum
+            su<lb ed="#V" n="9" break="no"/>perius sacerdotio, nec inferius, nec aequale, vt arguit
+            Aureo<lb ed="#V" n="10" break="no"/>lus, ad quod facit solutio sequentis, quia Papatus non est
+            sa<lb ed="#V" n="11" break="no"/>cramentum, &amp; tamen Papa potestatem singularem habet tam in
+            <lb ed="#V" n="12"/>sacramentalibus quam in sacramentis dispensandis prae
+            caete<lb ed="#V" n="13" break="no"/>ris Episcopis, ideo non valet argumentum.
+          </p>
+          <p xml:id="capsco-d3y800-d1e1135">
+            Ad primum
+            re<lb ed="#V" n="14" break="no"/>spondet Petrus quod consequentia non valet, quia totus ordo
+            ec<lb ed="#V" n="15" break="no"/>clesiasticus plus dependet a papatu quam ab episcopatu, de
+            <lb ed="#V" n="16"/>quo tamen bene constat quod non est sacramentum distinctum ab
+            <lb ed="#V" n="17"/>episcopatu, quia Christus elegit Petrum in Papam prae
+            cae<lb ed="#V" n="18" break="no"/>teris, nec propter hoc nouam sanctificationem sibi tribuit,
+            <lb ed="#V" n="19"/>vnde etiam episcopus in Papam electus non aliter consecratur.
+            <lb ed="#V" n="20"/>Haec Petrus &amp; bene.
+          </p>
+          <p xml:id="capsco-d3y800-d1e1153">
+            Ad secundum dicit Petrus quod potest dici quod
+            <lb ed="#V" n="21"/>episcopatus esset sacramentum, non tamen distinctum a sacramento
+            or<lb ed="#V" n="22" break="no"/>dinis, &amp; specialiter sacerdotij, quia cum vnum sacramentum non
+            <lb ed="#V" n="23"/>supponat aliud, nisi solum baptismum, licet vna pars sacramenti
+            <lb ed="#V" n="24"/>supponat aliam, sicut confessio contritionem, &amp; satisfactio
+            <lb ed="#V" n="25"/>confessionem, episcopatus supponit presbvteratum, ideo
+            <lb ed="#V" n="26"/>non est aliud sacramentum. Haec ille.
+          </p>
+          <p xml:id="capsco-d3y800-d1e1169">
+            Conformiter ad praecedentia
+            <lb ed="#V" n="27"/>dicta sua. Sed hoc videtur esse contra Sanctus Thomas ideo dicitur aliter, quod
+            li<lb ed="#V" n="28" break="no"/>cet in episcopali consecratione confcratur gratia ex opere
+            <lb ed="#V" n="29"/>operato, non tamen habet rationem sacramenti vere &amp; proprie dicti,
+            <lb ed="#V" n="30"/>quia scilicet non habet completam rationem alicuius speciei sacramenti.
+            <lb ed="#V" n="31"/>Et quidem de sacramento baptismi confirmationis, poenitentiae,
+            <lb ed="#V" n="32"/>eucharistiae, extremae vnctionis &amp; matrimonij constat. De
+            <lb ed="#V" n="33"/>sacramento vero ordinis patet quod non habet perfectam
+            ra<lb ed="#V" n="34" break="no"/>tionem illius sacramenti, quia non ordinatur ad eucharistiae sacramentum,
+            <lb ed="#V" n="35"/>sed ad corpus Christi mysticum. Non ergo vere &amp; proprie
+            <lb ed="#V" n="36"/>sacramentum, sed officium vel potestas superueniens sacramento ordinis,
+            <lb ed="#V" n="37"/>&amp; eius characteri, &amp; complementum eius quo ad actum
+            se<lb ed="#V" n="38" break="no"/>cundarium sacerdotijs, &amp; perfectio accidentalis, &amp; per
+            ac<lb ed="#V" n="39" break="no"/>cidens non per se consequens character est sacerdotij. sicut
+            <lb ed="#V" n="40"/>species intelligibilis vel habitus scientificus superadditur
+            <lb ed="#V" n="41"/>potentiae intellectiuae, vel habitus moralis potentiae
+            appeti<lb ed="#V" n="42" break="no"/>tiuae, licet similitudo non currat per omnia, quia ibi est
+            po<lb ed="#V" n="43" break="no"/>testas, hic habitus solum. Si autem quis contendat episcopatum
+            <lb ed="#V" n="44"/>esse vere sacramentum, hoc erit aequiuoce vel analogice, &amp;
+            <lb ed="#V" n="45"/>non vniuoce cum caeteris ordinibus. Et forte hoc intellexit
+            <lb ed="#V" n="46"/>Sanctus Thomas Quia autem non oporteat omnem consecrationem
+            <lb ed="#V" n="47"/>in qua gratia confertur ex opere operato esse vere &amp; proprie
+            <lb ed="#V" n="48"/>sacramentum testatur Sanctus Thomas 2. distinct. huius quaestio. 1.
+            <lb ed="#V" n="49"/>artic. 2. in solutione noni argumenti dicens. Ad quamlibet
+            <lb ed="#V" n="50"/>eminentiam status datur aliqua sanctificatio, cum sit ibi
+            ne<lb ed="#V" n="51" break="no"/>cessarium speciale auxilium gratiae, sicut in
+            consecratio<lb ed="#V" n="52" break="no"/>ne regum monachorum &amp; monialium, &amp; ideo sunt
+            actio<lb ed="#V" n="53" break="no"/>nes hiararchice, &amp; propter hoc Dionysius determinat de
+            <lb ed="#V" n="54"/>eis, non tamen habet rationem sacramenti, sed solum illa
+            <lb ed="#V" n="55"/>eminentia status per quam homo efficitur sacramentorum
+            <lb ed="#V" n="56"/>dispensator. Haec ille.
+          </p>
+          <p xml:id="capsco-d3y800-d1e1237">
+            Et intellige de dispensatione
+            sacra<lb ed="#V" n="57" break="no"/>menti eucharistiae, quia potestas dispensandi alia
+            sacramen<lb ed="#V" n="58" break="no"/>ia vt praescindit a potestate dispensandi eucharistiam
+            confi<lb ed="#V" n="59" break="no"/>ciendo vel ministrando conficienti non sufficit ad
+            ratio<lb ed="#V" n="60" break="no"/>nem sacramenti. Nihil enim est sacramentum nisi habeat
+            <lb ed="#V" n="61"/>ordinem ad eucharistiam, vt ostendit Sanctus Thomas
+            ter<lb ed="#V" n="62" break="no"/>tia parte. quaestio. 65. artic. 3. vbi sic dicit. Omnia alia
+            sacra<lb ed="#V" n="63" break="no"/>menta ordinantur ad eucharistiam sicut ad finem,
+            manife<lb ed="#V" n="64" break="no"/>stum est enim quod sacramentum ordinis ordiuatur ad
+            eu<lb ed="#V" n="65" break="no"/>charistiae consecrationem, sacramentum vero baptismi
+            or<lb ed="#V" n="66" break="no"/>dinatur ad eucharistiae receptionem, in quo etiam perficitur
+            <lb ed="#V" n="67"/>aliquis per confirmationem, vt vereatur subtrahere a
+            tali<lb ed="#V" n="68" break="no"/>sacramento, per poenitentiam etiam &amp; extremam
+            vnctio<lb ed="#V" n="69" break="no"/>nem praeparatur homo ad digne suscipiendum corpus
+            Chri<lb ed="#V" n="70" break="no"/>sti, matrimonium vero significatiue attingit hoc
+            sacramen<lb ed="#V" n="71" break="no"/>tum inquantum significat coniunctionem Christi &amp;
+            eccle<lb ed="#V" n="72" break="no"/>siae, cuius vnitas per sacramentum eucharistiae figuratur.
+            Vn<lb ed="#V" n="73" break="no"/>de Apostns dicit Ephes. 5. Sacramentum hoc magnum est, ego
+            <lb ed="#V" n="74"/>autem dico in Christo &amp; ecclesia. Haec ille.
+          </p>
+          <p xml:id="capsco-d3y800-d1e1279">
+            Item multum ad
+            pro<lb ed="#V" n="75" break="no"/>positum. 4. dist. 36. q. 1. art. 5. in solu. 2. sic dicit. In consecratione
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="76"/>virginum, sicut &amp; in vnctione regum, &amp; in alijs huiusmodi
+            <lb ed="#V" n="77"/>benedictionibus gratia datur, nisi sit impedimentum ex
+            par<lb ed="#V" n="78" break="no"/>te suscipientis, sed tamen huiusmodi non dicuntur sacramenta
+            <lb ed="#V" n="79"/>quia non sunt instituta ad curationem morbi peccati,
+            sicu<lb ed="#V" n="80" break="no"/>alia sacramenta. Haec ille.
+          </p>
+          <p xml:id="capsco-d3y800-d1e1298">
+            Et similiter potest dici de
+            conse<lb ed="#V" n="81" break="no"/>cratione Episcopali, quod licet in ea gratia conferatur, non tamen
+            <lb ed="#V" n="82"/>est sacramentum, quia non ordinatur ad curationem
+            morbi<lb ed="#V" n="83" break="no"/>peccati. Sed tunc insurgit dubium quomodo in
+            consecra<lb ed="#V" n="84" break="no"/>tione virginum &amp; alijs benedictionibus confertur gratia ex
+            <lb ed="#V" n="85"/>opere operato, cum non sint a Christo instituta, sed ab
+            ec<lb ed="#V" n="86" break="no"/>clesia quae non potuit talibus consecrationibus conferre
+            vir<lb ed="#V" n="87" break="no"/>tutem causandi gratiam, quia hoc pertinet ad potestatem
+            <lb ed="#V" n="88"/>excellentiae quae soli Christo competit. Dicitur quod
+            huiusmo<lb ed="#V" n="89" break="no"/>di consecrationes quae non sunt sacramenta, &amp; si non sint
+            in<lb ed="#V" n="90" break="no"/>stitutae immediate a Christo, tamen ecclesia illas instituit
+            consi<lb ed="#V" n="91" break="no"/>lio &amp; instinctu Spiritus sancti, &amp; hoc sufficit ad hoc quod in eis
+            <lb ed="#V" n="92"/>conferatur gratia, non quidem ab illis, sicut a causa
+            instru<lb ed="#V" n="93" break="no"/>mentaliter agente per aliquam virtutem eis existentem,
+            si<lb ed="#V" n="94" break="no"/>cut faciunt sacramenta, sed sunt causa, sine qua no¬
+            col<lb ed="#V" n="95" break="no"/>lationis gratiae, &amp; dispositionis ad eam, sicut dictum fuit
+            <lb ed="#V" n="96"/>superius de circuncisione. Veruntamen consecratio
+            Epi<lb ed="#V" n="97" break="no"/>scopalis ab ipso Christo instituta creditur.
+          </p>
+          <p xml:id="capsco-d3y800-d1e1337">
+            Ad primum
+            Au<lb ed="#V" n="98" break="no"/>reoli contra ambas conclusiones dicitur, quod ordo
+            Episcopa<lb ed="#V" n="99" break="no"/>lis vt praescindit a sacerdotio, &amp; non includit illud, &amp;
+            quan<lb ed="#V" n="100" break="no"/>tum ad illud quod superaddit sacerdotio simplici, est inferior
+            <lb ed="#V" n="101"/>ordine sacerdotali quo ad potestatem ordinis, licet sit
+            supe<lb ed="#V" n="102" break="no"/>rior quo ad potestatem iurisdictionis, quia ad digniorem
+            <lb ed="#V" n="103"/>actum ordinatur sacerdotium inquantum Episcopatus. Et
+            <lb ed="#V" n="104"/>similiter est inferior per respectum ad corpus Christi verum,
+            <lb ed="#V" n="105"/>licet sit superior per respectum ad corpus Christi mysticum.
+            <lb ed="#V" n="106"/>vt patet in probatione primae conclusionis, &amp; inde est quod
+            <lb ed="#V" n="107"/>potestas Episcopalis non habet rationem characteris, sicut
+            <lb ed="#V" n="108"/>potestas sacerdotalis, vt dictum est in probatione secundae
+            <lb ed="#V" n="109"/>conclusionis. Tunc ad probationem quod non sit
+            inferior<lb ed="#V" n="110" break="no"/>dicitur, quod ordo inferior si sit sacramentum prius
+            sumi<lb ed="#V" n="111" break="no"/>tur quam superior, &amp; praesupponitur superiori de
+            necessi<lb ed="#V" n="112" break="no"/>tate praecepti, licet non de necessitate sacramenti, sed ordo
+            <lb ed="#V" n="113"/>inferior qui non est sacramentum, sed officium quoddam
+            <lb ed="#V" n="114"/>respectu quarumcunque actionum hierarchicarum potest
+            <lb ed="#V" n="115"/>sumi post superiorem ordinem qui est sacramentum. Et
+            <lb ed="#V" n="116"/>sic est in proposito, quia Episcopatus non est ordo qui sit
+            <lb ed="#V" n="117"/>sacramentum, sed ordo qui est officium. Exemplum huius
+            <lb ed="#V" n="118"/>est, quia communiter prius efficitur quis sacerdos quam
+            <lb ed="#V" n="119"/>magister in Theologia, &amp; tamen constat quod magisterium
+            <lb ed="#V" n="120"/>est indignius quam sacerdotium. Causa autem quare
+            Epi<lb ed="#V" n="121" break="no"/>scopatus praesupponit sacerdotium est eadem cum causa
+            <lb ed="#V" n="122"/>quare potestas soluendi &amp; ligandi praesupponit potestatem
+            <lb ed="#V" n="123"/>consecrandi &amp; conficiendi corpus Christi verum, quia
+            sci<lb ed="#V" n="124" break="no"/>licet omnis gratia &amp; remissio in corpore Christi mystico
+            <lb ed="#V" n="125"/>ex capite suo prouenit ei, sicut dicit Beatus Thomas 18.
+            di<lb ed="#V" n="126" break="no"/>stin. huius quaestio. 1. artic. 1. quaestio. 2. in solutione primi
+            ar<lb ed="#V" n="127" break="no"/>gumenti, vt alias recitatum est in praecedenti distinctione. Et
+            <lb ed="#V" n="128"/>ideo sicut potestas soluendi praesupponit potestatem
+            consi<lb ed="#V" n="129" break="no"/>ciendi, ita potestas Episcopi supra corpus Christi
+            mysti<lb ed="#V" n="130" break="no"/>cum praesupponit potestatem supra corpus Christi verum
+            <lb ed="#V" n="131"/>quantum ad ea quae sunt ordinis, licet non quo ad illa quae
+            <lb ed="#V" n="132"/>sunt iurisdictionis. Alia causa potest esse, quia Episcopus
+            <lb ed="#V" n="133"/>Christum perfecte repraesentat qui fuit sacerdos &amp;
+            Episco<lb ed="#V" n="134" break="no"/>pus. De hoc Sanctus Thomas 4. huius distin. 24. quaestio. 3
+            <lb ed="#V" n="135"/>artic. 2. quaestio. 1. in solutione tertij sic dicit. Sicut omnium
+            <lb ed="#V" n="136"/>rerum naturalium perfectiones praeexistunt exemplariter
+            <lb ed="#V" n="137"/>in Deo, ita Christus fuit exemplar omnium officiorum
+            Ec<lb ed="#V" n="138" break="no"/>clesiastico. Vnde vnusquisque minister ecclesiae quantum ad
+            ali<lb ed="#V" n="139" break="no"/>quid gerit typum Christi, &amp; tamen ille est superior qui secundum
+            ma<lb ed="#V" n="140" break="no"/>iorem perfectionem Christum repraesentat, sacerdos autem
+            <lb ed="#V" n="141"/>repraesentat Christum quantum ad hoc quod per seipsum
+            ali<lb ed="#V" n="142" break="no"/>quod ministerium impleuit, sed Episcopus in eo quod alios
+            mi<lb ed="#V" n="143" break="no"/>nistros instituit &amp; ecclesiam fundauit. Vnde ad Epu
+            perti<lb ed="#V" n="144" break="no"/>net mancipare aliquid diuinis obsequijs, quasi cultum
+            diui<lb ed="#V" n="145" break="no"/>num ad similitudinem Christi instituens. Et propter hoc Episcopus
+            <lb ed="#V" n="146"/>specialiter sponsus ecclesiae dicitur sicut Christus. Haec ille.
+          </p>
+          <p xml:id="capsco-d3y800-d1e1446">
+            Ad
+            <lb ed="#V" n="147"/>secundum negatur primum antecedens. Et ad eius probationem negat
+            <lb ed="#V" n="148"/>minor, quia ordinare aliquem in sacerdotem non est actus cois
+            <lb ed="#V" n="149"/>sacerdotis inquantum sacerdos est, ita quod potestas sacerdotalis sit
+            <lb ed="#V" n="150"/>potentia vel virtus aut forma productiua formae eiusdem.
+            <pb ed="#V" n="272"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>speciei, si non sit impedita, vt arguens fingit.
+          </p>
+          <p xml:id="capsco-d3y800-d1e1464">
+            Nec valet sua
+            <lb ed="#V" n="2"/>prima probatio, quia falsum est, quod quaelibet forma actiua
+            <lb ed="#V" n="3"/>non impedita possit transfundere seipsam, sicut patet de
+            in<lb ed="#V" n="4" break="no"/>tellectu agente, &amp; de voluntate, &amp; eorum habitibus. Omnes
+            <lb ed="#V" n="5"/>enim tales formae sunt principia agendi, non tamen
+            produ<lb ed="#V" n="6" break="no"/>cendi formam eiusdem speciei. Idem patet de anima
+            ratio<lb ed="#V" n="7" break="no"/>nali, &amp; de angelo, praesertim illa propositio falsa est de
+            vir<lb ed="#V" n="8" break="no"/>tutibus instrumentalibus sacramentalibus. Nam
+            confirma<lb ed="#V" n="9" break="no"/>tus per suum characterem non potest alium confirmare, nec
+            <lb ed="#V" n="10"/>subdiaconus, nec diaconus virtute suorum characterum
+            <lb ed="#V" n="11"/>siue pluri possunt alium sibi assimilare. Nec sacerdos
+            po<lb ed="#V" n="12" break="no"/>test virtute sui characteris dare sacerdotium mulieri, quae
+            <lb ed="#V" n="13"/>tamen est passum eiusdem rationis &amp; speciei cum ipso. Et
+            <lb ed="#V" n="14"/>ratio est, quia agens instrumentale non sortitur effectum
+            <lb ed="#V" n="15"/>nisi motum a principali. Nunc autem Deus non mouet
+            <lb ed="#V" n="16"/>ordinatos ad communicandum suum characterem, sed ad
+            <lb ed="#V" n="17"/>alios effectus, mouet autem Episcopum ad
+            communican<lb ed="#V" n="18" break="no"/>dum ordinis potestatem, cuius rationem ponit Sanctus Thomas
+            di<lb ed="#V" n="19" break="no"/>stin. 25. q. 1. artic. 1. Potestas inquit Episcopalis se habet ad
+            <lb ed="#V" n="20"/>potestatem ordinum inferorum sicut politica quae coniectat
+            <lb ed="#V" n="21"/>bonum commune, ad artes inferiores &amp; virtutes quae
+            con<lb ed="#V" n="22" break="no"/>iectant bonum aliquod speciale, politica autem vt dicitur
+            <lb ed="#V" n="23"/>1. Ethi. ponit. legem inferioribus artibus scilicet quis quid debeat
+            <lb ed="#V" n="24"/>exercere, &amp; quantum, &amp; qualiter, &amp; ideo ad Episcopum
+            perti<lb ed="#V" n="25" break="no"/>net in omnibus diuinis ministerijs aliquos collocare. Vnde
+            <lb ed="#V" n="26"/>ipse solus confirmat, quia confirmati in quodam officio
+            co<lb ed="#V" n="27" break="no"/>fitendi fidem constituuntur. Ideo etiam solus Episcopus
+            <lb ed="#V" n="28"/>virgines benedicit quae figuram gerunt Ecclesiae Christo
+            de<lb ed="#V" n="29" break="no"/>sponsatae, cuius cura ipsi principaliter committitur. Ipse etiam
+            <lb ed="#V" n="30"/>in ministerijs ordinum ordinandos consecrat, &amp; vasa
+            qui<lb ed="#V" n="31" break="no"/>bus vti debet eis determinat sua consecratione, sicut etiam
+            offi<lb ed="#V" n="32" break="no"/>cia secularia in ciuitatibus distribuuntur ab eo qui habet
+            <lb ed="#V" n="33"/>excellentiorem potestatem sicut a Rege. Haec ille.
+          </p>
+          <p xml:id="capsco-d3y800-d1e1536">
+            Ex
+            qui<lb ed="#V" n="34" break="no"/>bus patet quod imaginatio arguentis de concatione characteris
+            <lb ed="#V" n="35"/>non valet. Vlterius illud quod dicit quod character sacerdotij
+            <lb ed="#V" n="36"/>in sacerdote simplici est impeditus, ne possit exire in actum
+            <lb ed="#V" n="37"/>seconicare, non valet, quia non apparet quale fit illud
+            impe<lb ed="#V" n="38" break="no"/>dimentum, vtrum sit positiuum vel priuatiuum, vtrum
+            ab<lb ed="#V" n="39" break="no"/>solutum vel respectiuum. Nec vbi sit subiectiue, vtrum in
+            <lb ed="#V" n="40"/>subiecto ipsius characteris sacerdotalis, aut in alio, &amp; vtrum
+            <lb ed="#V" n="41"/>sit in ipso sacerdote, vel extra illum, nec a quo causetur
+            ta<lb ed="#V" n="42" break="no"/>le impedimentum a Deo vel ab homine. Si dicatur quod
+            tale<lb ed="#V" n="43" break="no"/>impedimentum est prohibitio Dei vel ecclesiae, hoc non
+            va<lb ed="#V" n="44" break="no"/>let, quia haeretici scismatici &amp; degradati, dum tamen sint rite
+            or<lb ed="#V" n="45" break="no"/>dinati, &amp; acceperint potestatem Episcopalem, possunt
+            ordi<lb ed="#V" n="46" break="no"/>nare non obstante prohibitione Dei &amp; Ecclesiae, &amp; ita esset
+            <lb ed="#V" n="47"/>in proposito si potestas Episcopalis nullum absolutum
+            ad<lb ed="#V" n="48" break="no"/>deret supra characterem simplicis sacerdotij. De hoc Sanctus Thomas
+            <lb ed="#V" n="49"/>dist. 25. huius q. 1. arti. 2. sic dicit. Quidam dixerunt quod
+            haere<lb ed="#V" n="50" break="no"/>tici quandiu ab Ecclesia tolerantur habent potestatem
+            or<lb ed="#V" n="51" break="no"/>dines conferendi, non autempostquam fuerint ab Ecclesia
+            prae<lb ed="#V" n="52" break="no"/>cisi, &amp; similiter nec degradati, &amp; alij huiusmodi. Et haec est
+            <lb ed="#V" n="53"/>prima opinio. Sed hoc non potest stare, quia omnis
+            pote<lb ed="#V" n="54" break="no"/>stas quae datur cum aliqua consecratione nullo casu
+            contin<lb ed="#V" n="55" break="no"/>genti tolli potest, sicut nec ipsa consecratio annullari, quia
+            <lb ed="#V" n="56"/>etiam altare vel chrisma semel consecrata perpetuo
+            conse<lb ed="#V" n="57" break="no"/>crata manent. Vnde cum potestas Episcopalis cum quadam
+            <lb ed="#V" n="58"/>consecratione detur, oportet quod perpetuo maneat
+            quantun<lb ed="#V" n="59" break="no"/>cunque aliquis peccet vel ab Ecclesia praescindatur. Et ideo
+            <lb ed="#V" n="60"/>alij dixerunt quod praecisi ab ecclesia qui in ecclesia potestatem
+            <lb ed="#V" n="61"/>episcopalem habuerunt retinent potestatem ordinandi, &amp;
+            <lb ed="#V" n="62"/>promouendi, sed promoti ab eis hoc non habent. Et haec
+            <lb ed="#V" n="63"/>est quarta opinio. Sed hoc etiam non potest esse, quia si illi
+            <lb ed="#V" n="64"/>qui fuerunt in ecclesia promoti retinent potestatem quam
+            <lb ed="#V" n="65"/>acceperunt, oportet quod exequendo potestatem suam veram
+            <lb ed="#V" n="66"/>consecrationem faciunt, &amp; ideo vere tribuunt omnem
+            po<lb ed="#V" n="67" break="no"/>testatem quae cum consecratione datur, &amp; sic ordinati ab
+            <lb ed="#V" n="68"/>eis vel promoti habent eandem potestatem quam &amp; ipsi. Et
+            <lb ed="#V" n="69"/>ideo alij dixerunt quod praecisi ab ecclesia possunt ordines
+            con<lb ed="#V" n="70" break="no"/>ferre &amp; alia sacramenta, dummodo formam debitam &amp;
+            in<lb ed="#V" n="71" break="no"/>tentionem seruent, &amp; quantum ad primum effectum qui est
+            <lb ed="#V" n="72"/>collatio sacramenti, &amp; quantum ad vltimum qui est
+            colla<lb ed="#V" n="73" break="no"/>tio gratiae, &amp; haec est secunda opinio. Sed hoc etiam non
+            <lb ed="#V" n="74"/>potest stare, quia ex hoc ipso quod aliquis ab haeretico praeciso
+            <lb ed="#V" n="75"/>ab ecclesia in sacramentis communicat, peccat, &amp; ita fictus
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="76"/>accedit &amp; gratiam consequi non potest nisi forte in
+            baptis<lb ed="#V" n="77" break="no"/>mo in articulo necessitatis. Et ideo alij dicunt quod vera
+            sa<lb ed="#V" n="78" break="no"/>cramenta conferunt, sed cum eis gratiam non dant, non
+            <lb ed="#V" n="79"/>propter inefficaciam sacramentorum, sed propter peccata
+            <lb ed="#V" n="80"/>recipientium ab eis sacramenta contra prohibitionem
+            Ec<lb ed="#V" n="81" break="no"/>clesiae. Et haec est tertia opinio quae vera est. Haec ille.
+          </p>
+          <p xml:id="capsco-d3y800-d1e1645">
+            Ex
+            <lb ed="#V" n="82"/>quibus patet quod vbi est sufficiens potestas conferendi
+            ordi<lb ed="#V" n="83" break="no"/>nes, nulla prohibitio ecclesia nec aliquod peccatum potest
+            <lb ed="#V" n="84"/>illam impedire ne exeat in actum. Item fictio est dicere quod
+            <lb ed="#V" n="85"/>Episcopus in sua consecratione nullam nouam potestatem
+            <lb ed="#V" n="86"/>accipiat, nec intensionem vel augmentationem
+            praeceden<lb ed="#V" n="87" break="no"/>tis, sed solam remotionem impedimenti prioris potestatis,
+            <lb ed="#V" n="88"/>Hoc enim est contra formam verborum suae
+            consecratio<lb ed="#V" n="89" break="no"/>nis in quibus nulla sit mentio de tali remotione
+            impedimen<lb ed="#V" n="90" break="no"/>ti, &amp; fit mentio de collatione potestatis. De hoc Sanctus Thomas
+            di<lb ed="#V" n="91" break="no"/>stin. 25. q. 1. artic. 2. in solut. 2. sic dicit. In promotione
+            Epi<lb ed="#V" n="92" break="no"/>scopi datur sibi potestas quae perpetuo manet, quamuis
+            di<lb ed="#V" n="93" break="no"/>ci non possit character, quia per eam non ordinatur homo
+            <lb ed="#V" n="94"/>directe ad Deum, sed ad corpus Christi mysticum. Et
+            ta<lb ed="#V" n="95" break="no"/>men inde ebiliter manet sicut character, quia per
+            consecra<lb ed="#V" n="96" break="no"/>tionem datur. Haec ille.
+          </p>
+          <p xml:id="capsco-d3y800-d1e1681">
+            Ad confirmationem &amp; quaedam
+            <lb ed="#V" n="97"/>quae ibi saepe repetit, scilicet quod Papa potest committere
+            <lb ed="#V" n="98"/>omni sacerdoti collationem ordinum, dicitur quod si
+            in<lb ed="#V" n="99" break="no"/>tendat loqui de collatione maiorum ordinum, falsum est
+            <lb ed="#V" n="100"/>&amp; erroneum, &amp; contra determinationem ecclesiae. Vnde
+            San<lb ed="#V" n="101" break="no"/>ctus Thomas distin. 25. huius. q. 1. artic. 1. in solutione tertij
+            <lb ed="#V" n="102"/>sic dicit. Papa qui habet plenitudinem pontificalis
+            potesta<lb ed="#V" n="103" break="no"/>tis potest committere non Episcopo ea quae ad
+            Episcopa<lb ed="#V" n="104" break="no"/>lem dignitatem pertinent, dum tamen illa non habeant
+            im<lb ed="#V" n="105" break="no"/>mediatam relationem ad corpus Christi verum. Et ideo ex
+            <lb ed="#V" n="106"/>eius commissione aliquis sacerdos simplex potest conferre
+            <lb ed="#V" n="107"/>minores ordines, &amp; confirmare. Non autem aliquis non
+            <lb ed="#V" n="108"/>sacerdos, nec iterum sacerdos maiores ordines, qui habent
+            <lb ed="#V" n="109"/>immediatam relationem ad corpus Christi verum, supra
+            <lb ed="#V" n="110"/>quod consecrandum Papa non habet maiorem potestatem
+            <lb ed="#V" n="111"/>quam simplex sacerdos. Haec ille.
+          </p>
+          <p xml:id="capsco-d3y800-d1e1716">
+            Item Petrus de Palude.
+            <lb ed="#V" n="112"/>Cum decretalis dicat, quod si sacerdos simplex confirmet
+            <lb ed="#V" n="113"/>non subest veritas in sacramento de consuetud. cap.
+            quan<lb ed="#V" n="114" break="no"/>to periculosum est dicere quod non sit potestas spiritualis
+            <lb ed="#V" n="115"/>consecrationis in Episcopo alia quam in sacerdote.
+          </p>
+          <p xml:id="capsco-d3y800-d1e1727">
+            Praete<lb ed="#V" n="116" break="no"/>rea dicunt iura quod ea quae sunt ordinis &amp; consecrationis
+            <lb ed="#V" n="117"/>non potest committere Papa nisi Episcopis, de
+            consecra<lb ed="#V" n="118" break="no"/>tione ecclesiae, vel al. cap. aqua, quae si essent solum ordinis
+            <lb ed="#V" n="119"/>presbyteralis posset committere presbyteris sicut soluere
+            <lb ed="#V" n="120"/>&amp; ligare: ergo aliqua sunt propria consecrationis &amp;
+            ordi<lb ed="#V" n="121" break="no"/>nis Episcopalis supra sacerdotem. Haec ille cum multis alijs
+            <lb ed="#V" n="122"/>facientibus ad propositum distin. 24. quaestio. 5.
+          </p>
+          <p xml:id="capsco-d3y800-d1e1745">
+            Item
+            distin<lb ed="#V" n="123" break="no"/>ctio. 25. quaestio. 1. sic dicit. Solus Episcopus iure suo potest
+            <lb ed="#V" n="124"/>ordines conferre, praecipue maiores, quia non minus est in
+            <lb ed="#V" n="125"/>exercitu ducem praeponere quam milites ascribere, sed ad
+            <lb ed="#V" n="126"/>solum Episcopum in exercitu Ecclesiae militantis pertinet
+            <lb ed="#V" n="127"/>milites ascribere per sacramentum confirmationis: ergo
+            <lb ed="#V" n="128"/>multo fortius ad ipsum solum pertinet in ecclesia
+            praepone<lb ed="#V" n="129" break="no"/>re duces quod fit per sacramentum ordinis praecipue per
+            ma<lb ed="#V" n="130" break="no"/>iores ordines. Sed Papa potest committere simplici
+            sacer<lb ed="#V" n="131" break="no"/>doti confirmationem &amp; minores ordines, quia ministrum
+            <lb ed="#V" n="132"/>conferendi ordines summos Christus determinauit
+            sum<lb ed="#V" n="133" break="no"/>mum sacerdotem, scilicet Episcopum, quem ministrum
+            Pa<lb ed="#V" n="134" break="no"/>pa non potest mutare, ministrum vero confirmationis &amp;
+            <lb ed="#V" n="135"/>minorum ordinum Christus posuit sacerdotem, quem
+            ec<lb ed="#V" n="136" break="no"/>clesia determinaret, quia nec erat aliquis confirmandus ab
+            <lb ed="#V" n="137"/>homine quousque primi confirmatores essent confirmati
+            <lb ed="#V" n="138"/>a Spiritu sancto. Nec minoribus ordinibus in primitiua
+            ec<lb ed="#V" n="139" break="no"/>clesia vtebantur. Et licet hoc sit petere principium, tamen
+            <lb ed="#V" n="140"/>ex consuetudine ecclesiae Romanae quae ista committit, &amp;
+            <lb ed="#V" n="141"/>non illa, potest conuinci quod ita fuit. Et certum est quod
+            <lb ed="#V" n="142"/>non potest hoc committere, quia omne per accidens
+            redu<lb ed="#V" n="143" break="no"/>citur ad per se, vnde oportet quod omne agens agat vel in
+            vir<lb ed="#V" n="144" break="no"/>tute sua vel alterius. Et quia per se Episcopi est ordinare vel
+            <lb ed="#V" n="145"/>confirmare, inde est quod si ordinans vel confirmans non est
+            Epi<lb ed="#V" n="146" break="no"/>scopus, oportet quod sit in virtute veri Episcopi. Vnde si electus
+            <lb ed="#V" n="147"/>in Papam non sit verus Episcopus non potest hoc
+            commit<lb ed="#V" n="148" break="no"/>tere &amp;c. Haec ille cum multis alijs ad propositum
+            facien<lb ed="#V" n="149" break="no"/>tibus. Denique illud fundamentum quod vltimo recitat
+            <lb ed="#V" n="150"/>arguens, licet ex praedictis pateat esse insolidum, tamen ex
+            <pb ed="#V" n="273"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>abundanti ad ostendendum eius ruinam recito dictum Sancti Thomae
+            <lb ed="#V" n="2"/>vbi supra, scilicet dist. 25. q. 1. art. 1. in solutione quinti.
+            Ar<lb ed="#V" n="3" break="no"/>guit enim sic quinto loco. Plus distat sacerdos a diacono
+            <lb ed="#V" n="4"/>quam Episcopus ab Episcopo, sed Episcopus potest
+            conse<lb ed="#V" n="5" break="no"/>crare Episcopum: ergo sacerdos potest promouere diaconum.
+            <lb ed="#V" n="6"/>Ecce argumentum. Sequitur responsio. Dicendum inquit
+            <lb ed="#V" n="7"/>quod ad conmunicandum alteri quod quis habet non exigitur
+            <lb ed="#V" n="8"/>solum propinquitas, sed completio potestatis. Et quia
+            sacer<lb ed="#V" n="9" break="no"/>dos non habet completam potestatem in hierarchicis
+            offi<lb ed="#V" n="10" break="no"/>cijs sicut Episcopus, ideo non sequitur quod possit diacones
+            fa<lb ed="#V" n="11" break="no"/>cere, quamuis ille ordo sit sibi propinquus. Haec ille. Ex
+            qui<lb ed="#V" n="12" break="no"/>bus habetur causa quare character sacerdotij non potest
+            com<lb ed="#V" n="13" break="no"/>municare seipsum, nec sacerdos simplex potest ordinare
+            sa<lb ed="#V" n="14" break="no"/>cerdotem, nec diaconum.
+          </p>
+          <p xml:id="capsco-d3y800-d1e1843">
+            Ad argumentum contra
+            conclu<lb ed="#V" n="15" break="no"/>sionem, &amp; ad illud quod est pro conclusione patet
+            respon<lb ed="#V" n="16" break="no"/>sio per praedicta. Et haec de quaestione sufficiant. De qua
+            <lb ed="#V" n="17"/>benedictus Deus, Amen.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

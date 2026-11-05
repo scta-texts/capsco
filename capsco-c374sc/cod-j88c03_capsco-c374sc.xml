@@ -1,0 +1,1263 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 3, Distinctiones 7 et 8, Quaestio 1</title>
+        <author ref="#JohannesCapreolus">Johannes Capreolus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 3, Distinctiones 7 et 8, Quaestio 1</title>
+          <date when="2026-11-04">Nov 4, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-j88c03">Venice, 1589, v. 3</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-04" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="72"/>
+        <cb ed="#V" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="capsco-c374sc"><!-- l3d7et8q1 -->
+        <head xml:id="capsco-c374sc-Hd1e101">Quaestio 1</head>
+        <head xml:id="capsco-c374sc-Hd1e103" type="question-title">Utrum in Christo sint duae filiationes</head>
+        <p xml:id="capsco-c374sc-d1e106">
+          <lb ed="#V" n="106"/>DISTINCTIO. VII Et VIII.
+          <lb ed="#V" n="107"/>QVAESTIO I.
+          <lb ed="#V" n="108"/>Vtrum in Christo sint duae filiationes.
+        </p>
+        <p xml:id="capsco-c374sc-d1e115">
+          <lb ed="#V" n="109"/><milestone ed="#V" unit="p" rend="initial"/> CIRCA septimam, &amp; octauam
+          distin<lb ed="#V" n="110" break="no"/>ctionem tertij sent. quaeritur. Vtrum
+          <lb ed="#V" n="111"/>in Christo sint duae filiationes.
+        </p>
+        <p xml:id="capsco-c374sc-d1e125">
+          Et
+          vide<lb ed="#V" n="112" break="no"/>tur quod sic. Quia filiatio qua quis
+          di<lb ed="#V" n="113" break="no"/>citur filius alicuius, vt patris, vel
+          ma<lb ed="#V" n="114" break="no"/>tris dependet aliqualiter ab eo, quia
+          es<lb ed="#V" n="115" break="no"/>se relationis est ad aliud aliqualiter se
+          <lb ed="#V" n="116"/>habere, vnde &amp; interempto vno relatiuorum, interimitur
+          <lb ed="#V" n="117"/>&amp; reliquum, sed filiatio aeterna, qua Christus est filius Dei
+          <lb ed="#V" n="118"/>patris non dependet a matre, quia nullum aeternum
+          depen<lb ed="#V" n="119" break="no"/>det a temporali, ergo Christus non est filius matris
+          filiatio<lb ed="#V" n="120" break="no"/>ne aeterna, aut ergo nullo modo est filius eius, quod est
+          fal<lb ed="#V" n="121" break="no"/>sum, aut oportet quod sit filius eius quadam alia filiatione
+          tem<lb ed="#V" n="122" break="no"/>porali, ergo sunt in Christo duae filiationes.
+          <lb ed="#V" n="123"/>I oppositum arguitur. Quia sicut dicit Damascen. lib
+          <lb ed="#V" n="124"/>tertio. Ea quae sunt naturae multiplicantur in Christo,
+          <lb ed="#V" n="125"/>non autem ea quae sunt personae, sed filiatio maxime
+          per<lb ed="#V" n="126" break="no"/>tinet ad personam, est enim proprietas personalis, ergo in
+          <lb ed="#V" n="127"/>Christo est tantum vna filiatio.
+        </p>
+        <p xml:id="capsco-c374sc-d1e163">
+          <lb ed="#V" n="128"/><milestone ed="#V" unit="p" rend="indent"/> hac quaestione sunt tres articuli. In primo ponentur
+          <lb ed="#V" n="129"/>conclusiones. In secundo obiectiones. In tertio
+          solu<lb ed="#V" n="130" break="no"/>tiones.
+        </p>
+        <div xml:id="capsco-c374sc-Dd1e173">
+          <head xml:id="capsco-c374sc-Hd1e175">Articulus 1</head>
+          <p xml:id="capsco-c374sc-d1e177">
+            <lb ed="#V" n="131"/><milestone ed="#V" unit="p" rend="initial"/> Quantum ad primum articulum sit prima conclusio.
+            <lb ed="#V" n="132"/>In Christo non est nisi vnica filiatio realis. Hanc
+            po<lb ed="#V" n="133" break="no"/>nit Sanctus Thomas tertia parte quaestio. 35. articulo quinto
+            <lb ed="#V" n="134"/>vbi sic dicit. Circa hoc (inquit) sunt diuersae opiniones.
+            <lb ed="#V" n="135"/>Quidam enim attendentes ad causam filiationis, quae est
+            <lb ed="#V" n="136"/>natiuitas, ponunt in Christo duas filiationes, sicut &amp; duas
+            <lb ed="#V" n="137"/>natiuitates. Alij vero attendentes ad subiectum
+            filiatio<lb ed="#V" n="138" break="no"/>nis, quod est persona, vel hypostasis, ponunt in Christo
+            <lb ed="#V" n="139"/>tantum vnam filiationem, sicut &amp; vnam hypostasim, vel
+            <lb ed="#V" n="140"/>personam, vnitas enim relationis, vel eius pluralitas non
+            <lb ed="#V" n="141"/>attenditur secundum terminos, sed secundum causam vel
+            <lb ed="#V" n="142"/>subiectum, si enim secundum terminos attenderetur,
+            opor<lb ed="#V" n="143" break="no"/>teret, quod quilibet homo haberet in se duas filiationes
+            <lb ed="#V" n="144"/>vnam qua referretur ad patrem, &amp; aliam qua referretur ad
+            <lb ed="#V" n="145"/>matrem, sed recte consideranti apparet eadem relatione
+            <pb ed="#V" n="73"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>vnumquemque referri ad suum patrem, &amp; matrem propter
+            <lb ed="#V" n="2"/>vnitatem causae. Eadem enim natiuitate homo nascitur ex
+            <lb ed="#V" n="3"/>patre &amp; matre, vnde eadem relatione ad vtrunque
+            refer<lb ed="#V" n="4" break="no"/>tur Et eadem ratio est de magistro, qui docet multos
+            di<lb ed="#V" n="5" break="no"/>scipulos eadem doctrina, &amp; de Domino qui gubernat
+            di<lb ed="#V" n="6" break="no"/>uersos subiectos eadem potestate. Si vero sint diuersae
+            cau<lb ed="#V" n="7" break="no"/>sae specie differentes, ex consequenti videntur relationes
+            spe<lb ed="#V" n="8" break="no"/>cie differre, vnde nihil prohibet plures tales relationes
+            ei<lb ed="#V" n="9" break="no"/>dem inesse. Sicut si aliquis est aliquorum magister in
+            gram<lb ed="#V" n="10" break="no"/>matica, &amp; aliorum in logica, alia est ratio vtriusque
+            magi<lb ed="#V" n="11" break="no"/>sterij, &amp; ideo diuersis relationibus vnus, &amp; idem homo
+            po<lb ed="#V" n="12" break="no"/>test esse magister, vel diuersorum, vel eorundem secundum
+            <lb ed="#V" n="13"/>diuersas doctrinas. Conuenit autem quandoque, quod
+            ali<lb ed="#V" n="14" break="no"/>quis habeat relationem ad plures secundum diuersas
+            cau<lb ed="#V" n="15" break="no"/>sas eiusdem tamen speciei, sicut cum aliquis est pater
+            diuer<lb ed="#V" n="16" break="no"/>sorum filiorum secundum diuersos actus generationis.
+          </p>
+          <p xml:id="capsco-c374sc-d1e252">
+            <lb ed="#V" n="17"/>Vnde paternitas non potest differre specie, cum actus
+            ge<lb ed="#V" n="18" break="no"/>nerationum sint idem specie, &amp; quia plures formae eiusdem
+            <lb ed="#V" n="19"/>speciei, non possunt simul inesse eidem subiecto, non est
+            <lb ed="#V" n="20"/>possibile quod sint plures paternitates in eo, qui est pater
+            <lb ed="#V" n="21"/>plurium filiorum generatione naturali. Si autem aliquis
+            <lb ed="#V" n="22"/>sit pater plurium, vnius generatione naturali, &amp;
+            alteriu<lb ed="#V" n="23" break="no"/>per adoptionem, tunc sic habet in se plures paternitates.
+            <lb ed="#V" n="24"/>Manifestum autem est, quod non vna &amp; eadem natiuitate
+            <lb ed="#V" n="25"/>Christus est natus ex patre ab aeterno, &amp; ex matre ex
+            tem<lb ed="#V" n="26" break="no"/>pore, nec natiuitas est vnius speciei, vnde quantum ad hoc
+            <lb ed="#V" n="27"/>oporteret dicere in Christo esse diuersas filiationes, vnam
+            <lb ed="#V" n="28"/>temporalem, &amp; aliam aeternam. Sed quia subiectum
+            filia<lb ed="#V" n="29" break="no"/>tionis non est natura, aut pars naturae, sed solum persona,
+            <lb ed="#V" n="30"/>vel hypostasis, in Christo autem non est persona, vel
+            hypo<lb ed="#V" n="31" break="no"/>stasis nisi aeterna, non potest in Christo esse aliqua filiatio,
+            <lb ed="#V" n="32"/>nisi quae sit in hypostasi aeterna. Omnis autem relatio, quae
+            <lb ed="#V" n="33"/>ex tempore de Deo dicitur, non ponit in ipso Deo aeterno
+            <lb ed="#V" n="34"/>aliquid secundum rem, sed secundum rationem tantum, &amp;
+            <lb ed="#V" n="35"/>ideo relatio, qua Christus refertur ad matrem, non potest
+            <lb ed="#V" n="36"/>esse realis, sed secundum rationem tantum. Et sic quantum
+            <lb ed="#V" n="37"/>ad aliquid vtraque opinio dicit verum. Nam si
+            attenda<lb ed="#V" n="38" break="no"/>mus ad causas, vel ad perfectas rationes filiationis,
+            opor<lb ed="#V" n="39" break="no"/>tet dicere duas filiationes secundum dualitatem
+            natiuita<lb ed="#V" n="40" break="no"/>tum. Si autem attendamus ad subiectum filiationis, quod
+            <lb ed="#V" n="41"/>non potest esse nisi suppositum aeternum, non potest esse in
+            <lb ed="#V" n="42"/>Christo realiter nisi vna filiatio. Dicitur tamen relatiue
+            fi<lb ed="#V" n="43" break="no"/>lius ad matrem relatione, quae comntelligitur relationi, qua
+            <lb ed="#V" n="44"/>mater refertur ad filium. Sicut Deus dicitur Dominus
+            rela<lb ed="#V" n="45" break="no"/>tiue ad creaturam, relatione quae cointelligitur relationi
+            <lb ed="#V" n="46"/>reali, qua creatura subijcitur Deo. Et quamuis relatio
+            do<lb ed="#V" n="47" break="no"/>minij non sit realis in Deo, tamen realiter dicitur
+            Domi<lb ed="#V" n="48" break="no"/>nus ex reali subiectione creaturae ad ipsum. Et similiter
+            <lb ed="#V" n="49"/>Christus dicitur realiter filius Virginis Matris ex reali
+            re<lb ed="#V" n="50" break="no"/>latione maternitatis ad Christum. Haec ille.
+          </p>
+          <p xml:id="capsco-c374sc-d1e328">
+            Ex quibus
+            po<lb ed="#V" n="51" break="no"/>est formari talis ratio. In illo est tantum vnica filiatio, quod
+            <lb ed="#V" n="52"/>habet vnam, &amp; non est capax alterius, sed Christus est
+            hu<lb ed="#V" n="53" break="no"/>iusmodi: igitur: maior, &amp; minor patent ex dictis. Vnde hanc
+            <lb ed="#V" n="54"/>innuit Sanctus Thomas ibidem in solutione primi dicens.
+            <lb ed="#V" n="55"/>Natiuitas temporalis causaret quidem in Christo
+            tempo<lb ed="#V" n="56" break="no"/>ralem filiationem realem, si esset ibi subiectum huius
+            filia<lb ed="#V" n="57" break="no"/>tionis capax, quod quidem esse non potest. Ipsum enim
+            sup<lb ed="#V" n="58" break="no"/>positum aeternum non potest esse susceptiuum relationis
+            <lb ed="#V" n="59"/>temporalis. Nec etiam potest dici quod sit susceptiuum
+            fi<lb ed="#V" n="60" break="no"/>liationis temporalis ratione humanae naturae, sicut est
+            su<lb ed="#V" n="61" break="no"/>sceptiuum temporalis natiuitatis, quia oporteret naturam
+            <lb ed="#V" n="62"/>humanam aliqualiter esse subiectam filiationi, sicut est
+            ali<lb ed="#V" n="63" break="no"/>qualiter subiecta natiuitati. Cum enim Ethiops dicitur
+            al<lb ed="#V" n="64" break="no"/>bus ratione dentis, oportet quod dens Ethiopis sit
+            subie<lb ed="#V" n="65" break="no"/>ctum albedinis. Natura autem humana nullo modo
+            po<lb ed="#V" n="66" break="no"/>test esse subiectum filiationis, quia haec relatio directe
+            re<lb ed="#V" n="67" break="no"/>spicit personam. Haec ille. Simile ponit 3. sent. distinct. 8.
+            <lb ed="#V" n="68"/>quaestio. prima, arti. 5. Item nono quolibet articulo quarto.
+          </p>
+          <p xml:id="capsco-c374sc-d1e370">
+            <lb ed="#V" n="69"/><milestone ed="#V" unit="p" rend="indent"/> Secunda conclusio. Licet Christus non referatur ad
+            ma<lb ed="#V" n="70" break="no"/>trem aliqua reali filiatione, refertur tamen ad ipsam aliqua
+            <lb ed="#V" n="71"/>alia reali relatione. Hanc ponit Sanctus Thomas in
+            praedi<lb ed="#V" n="72" break="no"/>cto quolibet, articulo quarto, sic dicens. In hoc differt ad
+            <lb ed="#V" n="73"/>aliquid ab alijs generibus, quod alia genera ex propria
+            ra<lb ed="#V" n="74" break="no"/>tione sui habent, quod aliquid sint, sicut quantitas ex hoc
+            <lb ed="#V" n="75"/>ipso, quod est quantitas, aliquid ponit, &amp; similiter de alijs.
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="76"/>Sed ad aliquid ex propria sui generis ratione non habet, quod
+            <lb ed="#V" n="77"/>ponat aliquid, sed ad aliquid. Vnde inueniuntur quaedam
+            <lb ed="#V" n="78"/>ad aliquid, quae nihil sunt in rerum natura, sed in ratione,
+            <lb ed="#V" n="79"/>quod in alijs generibus non conuenit. Et quamuis ad
+            ali<lb ed="#V" n="80" break="no"/>quid ex ratione sui generis non habeat, quod aliquid
+            po<lb ed="#V" n="81" break="no"/>nat, non tamen etiam habet ex ipsa generis ratione, quod
+            ni<lb ed="#V" n="82" break="no"/>hil ponat, quia sic nulla relatio esset aliquid in rerum
+            natu<lb ed="#V" n="83" break="no"/>ra, vnde ad aliquid non esset vnum de decem generibus,
+            <lb ed="#V" n="84"/>Habet autem relatio quod sit aliquid reale ex eo quod
+            rela<lb ed="#V" n="85" break="no"/>tionem causat. Cum enim in aliquo inuenitur aliquid
+            rea<lb ed="#V" n="86" break="no"/>le, per quod ad alterum dependeat, &amp; comparetur, tunc
+            <lb ed="#V" n="87"/>dicitur realiter comparari, vel dependere, vel referri, sicut
+            <lb ed="#V" n="88"/>aequalitas ponitur relatio realis ex virtute quantitatis, quae
+            <lb ed="#V" n="89"/>aequalitatem causat. Quia vero ex eodem res habet esse, &amp;
+            <lb ed="#V" n="90"/>vnitatem, ideo vnitas realis relationis pensanda est ex ipso
+            <lb ed="#V" n="91"/>relationis fundamento, vel causa, vt quia vna quantitas
+            <lb ed="#V" n="92"/>est, per quam pluribus sum aequalis, in me non est nisi vna
+            <lb ed="#V" n="93"/>relatio realis aequalitatis habens respectus ad plures.
+            Simili<lb ed="#V" n="94" break="no"/>ter quia vna natiuitate ex matre, &amp; patre sum genitus, vna
+            <lb ed="#V" n="95"/>filiatione reali dicor filius vtriusque, quamuis
+            multiplicen<lb ed="#V" n="96" break="no"/>tur respectus. Sed in Christo non possumus dicere vnam
+            <lb ed="#V" n="97"/>causam esse filiationis secundum quod refertur ad patrem
+            <lb ed="#V" n="98"/>&amp; ad matrem, cum sint duae natiuitates penitus disparatae,
+            <lb ed="#V" n="99"/>vnde si esset aliquid, quod filiationem temporalem posset
+            re<lb ed="#V" n="100" break="no"/>cipere quasi subiectum, oporteret ponere in Christo
+            plure<lb ed="#V" n="101" break="no"/>filiationes. Nunc autem filiatio, quae non potest habere
+            pro<lb ed="#V" n="102" break="no"/>subiecto nisi ipsum suppositum, in Christo autem non est
+            <lb ed="#V" n="103"/>nisi suppositum aeternum, quod quidem non potest esse
+            su<lb ed="#V" n="104" break="no"/>biectum alicuius relationis temporalis. Quaecunque enim
+            <lb ed="#V" n="105"/>relationes temporales de Deo dicuntur, sunt relationes
+            ra<lb ed="#V" n="106" break="no"/>tionis, &amp; non rei. Vnde filiatio qua Christus refertur ad
+            <lb ed="#V" n="107"/>matrem, non est realis relatio, sed rationis tantum, sicut &amp;
+            <lb ed="#V" n="108"/>caeterae quae de Deo dicuntur ad creaturas. Non enim
+            po<lb ed="#V" n="109" break="no"/>test dici, quod subiectum filiationis sit suppositum aeternum
+            <lb ed="#V" n="110"/>ratione humanae naturae, vel alicuius partis suae, sicut
+            dici<lb ed="#V" n="111" break="no"/>tur subiectum mortis, vel alicuius passionis, quia sic
+            huma<lb ed="#V" n="112" break="no"/>na natura ipsa, vel pars eius esset primum subiectum
+            filia<lb ed="#V" n="113" break="no"/>tionis, &amp; denominaretur per ipsam, sicut contingit de aliis
+            <lb ed="#V" n="114"/>accidentibus, quae attribuuntur Christo ratione humanae
+            <lb ed="#V" n="115"/>naturae. Filiatio vero nunquam denominat nisi ipsum
+            sup<lb ed="#V" n="116" break="no"/>positum, nec potest aliud pro subiecto habere. Nihil tamen
+            <lb ed="#V" n="117"/>prohibet aliquas relationes reales, inesse Christo ad
+            virgi<lb ed="#V" n="118" break="no"/>nem, sicut cum dicimus corpus Christi esse originatum a
+            <lb ed="#V" n="119"/>virgine, sed ista relatio non habet rationem filiationis, nisi
+            <lb ed="#V" n="120"/>poneremus secundum primam opinionem, scilicet
+            suppo<lb ed="#V" n="121" break="no"/>situm creatum aliud esse in Christo ab increato. Haec ille.
+          </p>
+          <p xml:id="capsco-c374sc-d1e492">
+            <lb ed="#V" n="122"/>Ex quibus potest formari talis ratio. Posito sufficienti
+            su<lb ed="#V" n="123" break="no"/>sceptiuo, &amp; sufficienti fundamento &amp; termino, &amp; omni
+            cau<lb ed="#V" n="124" break="no"/>sa alicuius realis relationis, ponitur talis realis relatio, sed
+            <lb ed="#V" n="125"/>in Christo est sufficiens causa multarum relationum
+            rea<lb ed="#V" n="126" break="no"/>lium, tam sundatiua quam susceptiua: igitur &amp; caet. Minor
+            <lb ed="#V" n="127"/>patet. Quia in Christo est, vel fuit realiter generatio
+            passi<lb ed="#V" n="128" break="no"/>ua, &amp; natiuitas passiua, quae fundat relationem producti
+            <lb ed="#V" n="129"/>ad producens, &amp; originati ad originans. In ipso est etiam
+            <lb ed="#V" n="130"/>sufficiens susceptiuum, scilicet corpus humanum, &amp; eius
+            <lb ed="#V" n="131"/>partes, &amp; haec omnia in comparatione ad matrem, igitur
+            <lb ed="#V" n="132"/>Christus habet realem relationem ad matrem. Et in hoc
+            <lb ed="#V" n="133"/>primus articulus terminatur.
+          </p>
+        </div>
+        <div xml:id="capsco-c374sc-Dd1e522">
+          <head xml:id="capsco-c374sc-Hd1e524">Articulus 2</head>
+          <p xml:id="capsco-c374sc-d1e526">
+            <lb ed="#V" n="134"/><milestone ed="#V" unit="p" rend="initial"/> Vantum ad secundum articulum arguendum est
+            con<lb ed="#V" n="135" break="no"/>tra conclusiones. Vnde contra primam arguit
+            Sco<lb ed="#V" n="136" break="no"/>tus probando, quod in Christo sint duae reales
+            filia<lb ed="#V" n="137" break="no"/>tiones. Primo sic. Quia si hoc negaretur, hoc esset quia
+            li<lb ed="#V" n="138" break="no"/>cet fundamentum plurificetur, non tamen suppositum,
+            cu<lb ed="#V" n="139" break="no"/>ius proprie est filiatio.
+          </p>
+          <p xml:id="capsco-c374sc-d1e543">
+            Sed contra. Si filiatio tantum est
+            <lb ed="#V" n="140"/>personae, ita quod non possit plurificari non plurificato
+            sup<lb ed="#V" n="141" break="no"/>posito, licet fundamentum piurificetur, aut hoc contingit
+            <lb ed="#V" n="142"/>vt relatio absolute, aut vt talis originis relatio, non primo
+            <lb ed="#V" n="143"/>modo, quia tunc si Christus fuisset albus, non fuisset
+            reali<lb ed="#V" n="144" break="no"/>ter similis alicui alteri albo, nec fuisset realiter aequalis
+            al<lb ed="#V" n="145" break="no"/>teri habenti tantam quantitatem quantam ipse, tunc etiam
+            <lb ed="#V" n="146"/>in suppositis creatis relationes non possent
+            multiplicari<lb ed="#V" n="147" break="no"/>propter fundamenta. Si secundo modo hoc est falsum,
+            <lb ed="#V" n="148"/>quia non plus repugnat relationi originis plurificari in
+            eo<lb ed="#V" n="149" break="no"/>dem supposito quam ipsam originem, quae quasi praecedit
+            <lb ed="#V" n="150"/>relationem, vt proxima ratio fundamenti, sed origines
+            plu<pb ed="#V" n="74"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>rificantur in eodem supposito secundum Damascen. lib. 3.
+            <lb ed="#V" n="2"/>capit. 53. Duas inquit generationes Christi veneramur.
+          </p>
+          <p xml:id="capsco-c374sc-d1e576">
+            <lb ed="#V" n="3"/><milestone ed="#V" unit="p" rend="indent"/> Secundo. Nam pater aeternus, &amp; si sit vnum suppositum,
+            <lb ed="#V" n="4"/>tamen habet duas relationes originis videlicet ad filium, &amp;
+            Spi<lb ed="#V" n="5" break="no"/>ritumsanctum, &amp; ita super vnum, &amp; idem suppositum
+            fundan<lb ed="#V" n="6" break="no"/>tur duae relationes actiuae, &amp; super idem fundamentum:
+            er<lb ed="#V" n="7" break="no"/>go multo magis super duo fundamenta accepta possunt
+            fun<lb ed="#V" n="8" break="no"/>dari duae relationes originis passiuae
+          </p>
+          <p xml:id="capsco-c374sc-d1e593">
+            <lb ed="#V" n="9"/><milestone ed="#V" unit="p" rend="indent"/> Tertio. Christus habet duas operationes secundum
+            Da<lb ed="#V" n="10" break="no"/>mascen. relatio autem non magis respicit suppositum quam
+            <lb ed="#V" n="11"/>operatio, quia suppositi est operari. Ex quo arguitur ad
+            <lb ed="#V" n="12"/>propositum. Quia sicut Christus naturaliter operabatur
+            <lb ed="#V" n="13"/>quibusdam operationibus naturae humanae, ita si genuisset
+            <lb ed="#V" n="14"/>duos filios realiter habuisset in se duas paternitates ad illos
+            <lb ed="#V" n="15"/>propter duas generationes actiuas: ergo modo propter
+            <lb ed="#V" n="16"/>duas generationes passiuas habet duas filiationes.
+          </p>
+          <p xml:id="capsco-c374sc-d1e615">
+            <lb ed="#V" n="17"/><milestone ed="#V" unit="p" rend="indent"/> Quarto. Quia quod competit Christo praecise
+            secun<lb ed="#V" n="18" break="no"/>dum rationem personalitatis aeternae non dicitur de illo
+            in<lb ed="#V" n="19" break="no"/>quantum homo, sicut haec est falsa, Christus inquantum
+            <lb ed="#V" n="20"/>homo est persona: ergo &amp; haec, Christus inquantum
+            ho<lb ed="#V" n="21" break="no"/>mo est filius, si filiatio dicitur de Deo solum secundum
+            ra<lb ed="#V" n="22" break="no"/>tionem, vel relationem personalitatis aeternae. Quinto.
+            <lb ed="#V" n="23"/>Quia distinctio priorum naturaliter concludit
+            distinctio<lb ed="#V" n="24" break="no"/>nem posteriorum, sed non tantum suppositum naturaliter
+            <lb ed="#V" n="25"/>praecedit relationem, sed etiam fundamentum: ergo
+            mul<lb ed="#V" n="26" break="no"/>tiplicato fundamento multiplicatur relatio. Et ita in
+            pro<lb ed="#V" n="27" break="no"/>posito cum sint duo fundamenta, duae erunt relationes.
+          </p>
+          <p xml:id="capsco-c374sc-d1e642">
+            <lb ed="#V" n="28"/><milestone ed="#V" unit="p" rend="indent"/> Sexto. Filiatio est habitudo naturaliter producti similis
+            <lb ed="#V" n="29"/>suo producenti in natura intellectuali. Istae particulae
+            pa<lb ed="#V" n="30" break="no"/>tent, quia sicut paternitas est habitudo producentis, ita
+            fi<lb ed="#V" n="31" break="no"/>liatio est habitudo producti. Naturaliter etiam additur, quia
+            <lb ed="#V" n="32"/>propter defectum huius particule Spiritus sanctus non est
+            <lb ed="#V" n="33"/>filius. Similis producenti additur, quia propter hoc vermis
+            <lb ed="#V" n="34"/>non est filius hominis. In natura intellectuali additur, quia
+            <lb ed="#V" n="35"/>ideo ignis non est filius ignis, nec planta plantae, nec brutum
+            <lb ed="#V" n="36"/>bruti proprie, quod si contendas brutum esse filium bruti,
+            <lb ed="#V" n="37"/>tunc filiatio est habitudo producti naturaliter similis
+            pro<lb ed="#V" n="38" break="no"/>ducenti in natura intellectuali, vel sensitiua. In ista autem
+            <lb ed="#V" n="39"/>descriptione nihil primo, &amp; per se respicit suppositum nisi
+            <lb ed="#V" n="40"/>ratione productionis passiuae, quia omnia alia addita
+            respi<lb ed="#V" n="41" break="no"/>ciunt naturam in producente, vel in producto, vel in
+            vtro<lb ed="#V" n="42" break="no"/>que, filiatio ergo ratione nullius determinat sibi vt sit
+            sup<lb ed="#V" n="43" break="no"/>positum magis quam generatio passiua, sed generatio
+            pas<lb ed="#V" n="44" break="no"/>siua multiplicatur ad multiplicationem naturarum
+            actua<lb ed="#V" n="45" break="no"/>liter existentium acceptarum per ipsas generationes, vt
+            pa<lb ed="#V" n="46" break="no"/>tet per Damasc. libro tertio, cap. 53. Quia Christi sunt duae
+            <lb ed="#V" n="47"/>generationes: ergo filiatio plurificatur ad plurificationem
+            <lb ed="#V" n="48"/>illarum. Septimo. Quia ad duos terminos non potest esse
+            <lb ed="#V" n="49"/>eadem relatio, quia tunc idem simul esset, &amp; non esset.
+          </p>
+          <p xml:id="capsco-c374sc-d1e693">
+            <lb ed="#V" n="50"/><milestone ed="#V" unit="p" rend="indent"/> Octauo. Quia quaecunque proprietas personalis diuina
+            <lb ed="#V" n="51"/>aeque non respicit aliquod creatum pro termino: ergo sicut
+            <lb ed="#V" n="52"/>paternitas aeterna non potest esse relatio, qua pater dicitur
+            <lb ed="#V" n="53"/>esse pater temporalis, ita nec filiatio aeterna. Nono. Quia
+            <lb ed="#V" n="54"/>si mater genuisset purum hominem, fuisset vere mater, &amp;
+            <lb ed="#V" n="55"/>ille verae filius filiatione reali, sed non minus egit modo,
+            <lb ed="#V" n="56"/>quam egisset tunc, nec Christus, vt homo minus realiter
+            ac<lb ed="#V" n="57" break="no"/>cepit naturam ab ipsa, quam alius accepisset: ergo ex
+            na<lb ed="#V" n="58" break="no"/>tura extremorum est modo in Christo aliqua noua filiatio
+            <lb ed="#V" n="59"/>realis. Haec Scotus in forma. Arguit etiam Aureotels Quia
+            <lb ed="#V" n="60"/>licet effectus aliquando referatur ad causam sine hoc, quod
+            <lb ed="#V" n="61"/>causa referatur ad effectum, nunquam tamen inuenitur
+            <lb ed="#V" n="62"/>econtra quod causa referatur ad effectum, &amp; effectus non
+            <lb ed="#V" n="63"/>referatur ad causam, sed Virgo Maria realiter refertur ad
+            <lb ed="#V" n="64"/>Christum sicut causa ad effectum: igitur &amp; econtra.
+          </p>
+          <p xml:id="capsco-c374sc-d1e729">
+            <lb ed="#V" n="65"/><milestone ed="#V" unit="p" rend="indent"/> Secundo sic. In Christo sunt duae natiuitates, &amp; duae
+            ge<lb ed="#V" n="66" break="no"/>nerationes passiuae: ergo &amp; duae reales filiationes.
+            Proba<lb ed="#V" n="67" break="no"/>tur consequentia, quia natiuitas, &amp; generatio passiua &amp;
+            fi<lb ed="#V" n="68" break="no"/>liatio idem sunt realiter, quod probatur ex loco a
+            coniu<lb ed="#V" n="69" break="no"/>gatis, quia idem est esse natum, &amp; esse genitum, &amp; esse
+            fi<lb ed="#V" n="70" break="no"/>lium, &amp; idem est genitrix, &amp; mater. Et sicut filius dicitur
+            <lb ed="#V" n="71"/>generatione filius, ita gencratus dicitur generatione
+            ge<lb ed="#V" n="72" break="no"/>neratus, vnde filiatio non est nisi generatio passiua, vt
+            tran<lb ed="#V" n="73" break="no"/>sijt in praeteritum. Et ideo non potest dici quod filiatio
+            <lb ed="#V" n="74"/>fundetur super generationem passiuam. Confirmatur.
+            <lb ed="#V" n="75"/>Quia sicut negatur ista, Christus est duo filii, ita negatur
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="76"/>ista, Christus est duo nati, vel duo geniti, &amp; tamen certum
+            <lb ed="#V" n="77"/>est quod in Christo sunt duae natiuitates, &amp; duae
+            generatio<lb ed="#V" n="78" break="no"/>nes passiuae. Tertio. Quia non propter aliud negatur quod
+            <lb ed="#V" n="79"/>in Christo sint duae filiationes, nisi quia non conceditur
+            <lb ed="#V" n="80"/>quod Christus sit duo filij, sed hoc non impedit, quia
+            si<lb ed="#V" n="81" break="no"/>cut Christus non est plures quales propter plures
+            qualita<lb ed="#V" n="82" break="no"/>tes, nec plures scientes propter plures scientias, cum tamen
+            <lb ed="#V" n="83"/>habeat omnes scientias, ita licet in eo sint plures
+            filiatio<lb ed="#V" n="84" break="no"/>nes reales, non tamen propter hoc oportet concedere quod
+            <lb ed="#V" n="85"/>sint plures filij. Quarto. Quia suppositum non est
+            imme<lb ed="#V" n="86" break="no"/>diatum fundamentum relationis sicut tu supponis, licet
+            <lb ed="#V" n="87"/>enim natura non sit genitum, sed suppositum, tamen
+            na<lb ed="#V" n="88" break="no"/>tura est fundamentum relationis, sicut est illud, a quo
+            pro<lb ed="#V" n="89" break="no"/>fluit actio, &amp; passio, &amp; tamen actiones &amp; passiones
+            dicun<lb ed="#V" n="90" break="no"/>tur esse suppositorum, vnde licet actio, &amp; passio, &amp; relatio
+            <lb ed="#V" n="91"/>denominent suppositum, tamen sundantur in natura
+            tan<lb ed="#V" n="92" break="no"/>quam in fundamento, &amp; principio a quo profluitur, &amp;
+            <lb ed="#V" n="93"/>ideo multiplicantur ad multiplicationem naturae.
+          </p>
+          <p xml:id="capsco-c374sc-d1e798">
+            <lb ed="#V" n="94"/><milestone ed="#V" unit="p" rend="indent"/> Quinto. Vt dicit, opinio nostra ponit quod per eandem
+            <lb ed="#V" n="95"/>relationem aliquid potest referri ad plures terminos. Sed
+            <lb ed="#V" n="96"/>hoc est impossibile, quod probatur. Tum primo quia
+            <lb ed="#V" n="97"/>quandocunque aliquid est de conceptu quidditatiuo
+            ali<lb ed="#V" n="98" break="no"/>cuius, multiplicato illo multiplicatur &amp; ille conceptus, &amp;
+            <lb ed="#V" n="99"/>per consequens illud, cuius est ille conceptus quidditatiuus,
+            <lb ed="#V" n="100"/>sed terminus est de conceptu quidditatiuo relationis:
+            igi<lb ed="#V" n="101" break="no"/>tur &amp; caet. Sed forte dices, quod relatio habet quidditatem
+            <lb ed="#V" n="102"/>ex termino su, sed ex fundamento suo habet entitatem:
+            <lb ed="#V" n="103"/>ideo manente eodem fundamento, manet eadem entitas,
+            <lb ed="#V" n="104"/>licet termini multiplicentur. Sed hoc nihil est, quia ab
+            eo<lb ed="#V" n="105" break="no"/>dem habet res entitatem, &amp; essentiam, cum habeat esse
+            pe<lb ed="#V" n="106" break="no"/>suam quidditatem. Tum secundo, quia tertio Physicorum
+            <lb ed="#V" n="107"/>dicitur, quod eadem est via intra duos terminos, &amp; ratio
+            <lb ed="#V" n="108"/>est secundum Commentatorem, quia intermedium sumit
+            <lb ed="#V" n="109"/>vnitatem ex terminis tunc sic. Quod est impossibile
+            cir<lb ed="#V" n="110" break="no"/>ca viam realem, est impossibile circa viam rationis, sed
+            im<lb ed="#V" n="111" break="no"/>possibile est quod via realis sit inter plures terminos, nisi
+            <lb ed="#V" n="112"/>inter duos: igitur.
+          </p>
+          <p xml:id="capsco-c374sc-d1e843">
+            Confirmatur. Quia sicut se habet
+            ha<lb ed="#V" n="113" break="no"/>bitudo secundum rem, ita secundum rationem, modo
+            im<lb ed="#V" n="114" break="no"/>possibile est quod intellectus intelligat aliquam
+            habitudi<lb ed="#V" n="115" break="no"/>nem secundum rationem respectu plurium terminorum,
+            <lb ed="#V" n="116"/>quin statim intelligat illam multiplicari. Tum tertio, quia
+            <lb ed="#V" n="117"/>paternitate vna corrupta in patre per mortem vnius filij,
+            <lb ed="#V" n="118"/>adhuc manet in alia respectu alterius filij, igitur sunt ibi
+            <lb ed="#V" n="119"/>plures paternitates &amp; filiationes. Tum quarto. Quia
+            im<lb ed="#V" n="120" break="no"/>possibile est quod aliquid fiat de non dependente
+            depen<lb ed="#V" n="121" break="no"/>dens, nisi facta aliqua mutatione circa ipsum, modo
+            pater<lb ed="#V" n="122" break="no"/>nitas vnius personae respectu filij quem habet, coexigit
+            il<lb ed="#V" n="123" break="no"/>lum filium, sed quando fit paternitas alterius filij, coexigit
+            <lb ed="#V" n="124"/>filium alium, &amp; ideo consequenter pater dependet ad illam,
+            <lb ed="#V" n="125"/>ad quam prius non dependebat. Et sic est facta mutatio
+            <lb ed="#V" n="126"/>circa ipsum, vel circa ipsam paternitatem, quae modo
+            exi<lb ed="#V" n="127" break="no"/>git illum filium alium, quem prius non exigebat, &amp; sic est
+            <lb ed="#V" n="128"/>alia coexigentia, &amp; alia paternitas. Sexto. Arguit dicens.
+            <lb ed="#V" n="129"/>Quia opinio nostra ponit, quod paternitas fundatur super
+            <lb ed="#V" n="130"/>aliquo derelicto ex generatione in patre, sed vt dicit, hoc
+            <lb ed="#V" n="131"/>non valet, quia non apparet quid sit illud derelictum. Non
+            <lb ed="#V" n="132"/>enim potest dici, quod sit aliqua res absoluta, quia illa
+            pos<lb ed="#V" n="133" break="no"/>set corrumpi saltem diuina virtute manente filio, &amp; sic
+            cor<lb ed="#V" n="134" break="no"/>rumperetur paternitas manente filio &amp; patre. Hoc etiam
+            <lb ed="#V" n="135"/>est contra Philosophum, qui dicit 5. Metaphysic. quod
+            hu<lb ed="#V" n="136" break="no"/>ius respectus fundatur super potentiam.
+          </p>
+          <p xml:id="capsco-c374sc-d1e899">
+            <lb ed="#V" n="137"/><milestone ed="#V" unit="p" rend="indent"/> Nec potest dici, quod illud derelictum sit respectus.
+            <lb ed="#V" n="138"/>Tum quia ille multiplicaretur sicut generatio, &amp; habetur
+            <lb ed="#V" n="139"/>intentum. Tum quia vnus respectus non est fundamentum
+            <lb ed="#V" n="140"/>alterius. Arguit etiam Duran. primo. Quia realis relatio
+            <lb ed="#V" n="141"/>non potest aduenire alicui sine reali mutatione facta
+            secun<lb ed="#V" n="142" break="no"/>dum aliquod absolutum in ipso, vel in altero, sed si
+            huma<lb ed="#V" n="143" break="no"/>na natura a filio Dei assumpta sibi dimitteretur, in ipsa
+            es<lb ed="#V" n="144" break="no"/>set realis relatio ad matrem, statim enim esset persona, &amp;
+            <lb ed="#V" n="145"/>tamen nihil absolutum adueniret ibi nec filio Dei: ergo
+            <lb ed="#V" n="146"/>oportet quod nunc ratione ipsius sit in filio realis relatio
+            <lb ed="#V" n="147"/>ad matrem, &amp; constat quod est realis relatio ad patrem,
+            er<lb ed="#V" n="148" break="no"/>go duae. Secundo. Quia aequalis dependentia est in
+            Chri<lb ed="#V" n="149" break="no"/>sto ad matrem ratione naturae assumptae, sicut in alijs
+            fi<lb ed="#V" n="150" break="no"/>lijs, sed propter talem dependentiam in alijs ponitur
+            rea<pb ed="#V" n="75"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>lis filiatio: ergo &amp; in Christo poni debet. Tertio. Quia
+            vni<lb ed="#V" n="2" break="no"/>tatem filiationis in Christo non potest arguere nisi vnitas
+            <lb ed="#V" n="3"/>suppositi, vel eius aeternitas. Non vnitas suppositi, quia
+            <lb ed="#V" n="4"/>hoc esset, vel quatenus filiatio esset relatio, vel quatenus
+            es<lb ed="#V" n="5" break="no"/>set talis relatio, cuius denominatio soli supposito conuenit,
+            <lb ed="#V" n="6"/>non quatenus est relatio, quia in eodem supposito vi
+            de<lb ed="#V" n="7" break="no"/>mus multas relationes reales, nec quatenus denominat
+            so<lb ed="#V" n="8" break="no"/>lum suppositum, quia sicut esse filium conuenit soli
+            suppo<lb ed="#V" n="9" break="no"/>sito, sic &amp; actiones sunt suppositorum, sed plures
+            actio<lb ed="#V" n="10" break="no"/>nes reales sunt in Christo non obstante vnitate suppositi:
+            <lb ed="#V" n="11"/>ergo plures relationes, &amp; filiationes reales possunt esse in
+            <lb ed="#V" n="12"/>ipso. Nec etiam aeternitas obsistit pluralitati filiationum
+            <lb ed="#V" n="13"/>realium, quia non minus repugnat supposito aeterno, quod
+            <lb ed="#V" n="14"/>de nouo adueniat ei accidens reale absolutum quam realis
+            <lb ed="#V" n="15"/>respectus, sed Christo ratione naturae assumptae
+            compe<lb ed="#V" n="16" break="no"/>tunt de nouo, vel ex tempore multa accidentia realia
+            abso<lb ed="#V" n="17" break="no"/>luta sicut esse quantum, esse album, &amp; sic de alijs: ergo
+            po<lb ed="#V" n="18" break="no"/>test ei aduenire mediante natura respectus realis.
+          </p>
+          <p xml:id="capsco-c374sc-d1e974">
+            <lb ed="#V" n="19"/><milestone ed="#V" unit="p" rend="indent"/> Quarto. Quia quamuis inueniamus in ordine rerum,
+            <lb ed="#V" n="20"/>quod causa non realiter referatur ad effectum nisi effectus
+            <lb ed="#V" n="21"/>realiter referatur ad causam, vt patet de relatione Dei ad
+            <lb ed="#V" n="22"/>creaturam, nunquam tamen inuenimus, quod causa
+            reali<lb ed="#V" n="23" break="no"/>ter referatur ad effectum, &amp; effectus referatur solum
+            secun<lb ed="#V" n="24" break="no"/>dum rationem, sed Christus secundum humanam
+            natu<lb ed="#V" n="25" break="no"/>ram se habet ad matrem, vt effectus ad causam cum ergo
+            <lb ed="#V" n="26"/>in matre sit realis maternitas, per quam refertur ad filium,
+            <lb ed="#V" n="27"/>necesse est quod in filio sit realis filiatio, per quam
+            refera<lb ed="#V" n="28" break="no"/>tur ad matrem. Quinto. Quia plurificato reali
+            fundamen<lb ed="#V" n="29" break="no"/>to relationis, necesse est relationem realiter plurificari, sed
+            <lb ed="#V" n="30"/>reale fundamentum filiationis est natiuitas, vel natura per
+            <lb ed="#V" n="31"/>natiuitatem accepta: ergo cum ista realiter plurificentur
+            <lb ed="#V" n="32"/>in Christo, in ipso enim est duplex realis natiuitas, &amp;
+            du<lb ed="#V" n="33" break="no"/>plex natura per duplicem natiuitatem accepta, videtur quod
+            <lb ed="#V" n="34"/>in Christo sit duplex realis filiatio: ergo &amp; caet. Ad hoc
+            ta<lb ed="#V" n="35" break="no"/>men dicunt quidam quod fundamentum fiutationis non
+            <lb ed="#V" n="36"/>est natiuitas actiue siue passiue assumpta, quia illa
+            transeuo<lb ed="#V" n="37" break="no"/>te manet filiatio, nec natura per natiuitatem accepta, sed
+            <lb ed="#V" n="38"/>quoddam derelictum in supposito consequens ad
+            natiui<lb ed="#V" n="39" break="no"/>tatem, &amp; naturam per eam acceptam. Et illud dicunt esse
+            <lb ed="#V" n="40"/>quandam subiectionem, siue quandam seruitutem filiorum
+            <lb ed="#V" n="41"/>vel filialem correspondentem cuidam iuri in patre, ita quod
+            <lb ed="#V" n="42"/>generatio, vel natiuitas est causa paternitatis, vel
+            materni<lb ed="#V" n="43" break="no"/>tatis filiationis, sed non est immediatum fundamentum, sed
+            <lb ed="#V" n="44"/>illud est in patre &amp; matre eius quoddam derelictum ex
+            ge<lb ed="#V" n="45" break="no"/>neratione actiua, &amp; in filio quaedam seruitus, seu subiectio
+            <lb ed="#V" n="46"/>derelicta ex natiuitate passiua. Et tale ius seu subiectio vel
+            <lb ed="#V" n="47"/>seruitus fundatur immediate in supposito subsistente
+            secun<lb ed="#V" n="48" break="no"/>dum quod subsistens est, quia habere ius siue possidere aliud,
+            <lb ed="#V" n="49"/>vt sibi subiectum est solius suppositi, vt primi &amp;
+            immedia<lb ed="#V" n="50" break="no"/>ti subiecti. Et similiter possideri siue esse obligatum
+            tali<lb ed="#V" n="51" break="no"/>seruitute, quamuis talia insint supposito ex aliquo actu
+            prae<lb ed="#V" n="52" break="no"/>cedente. Et quia tale ius siue seruitus immediate
+            funda<lb ed="#V" n="53" break="no"/>tur in supposito, non multiplicatur nisi ex
+            multiplicatio<lb ed="#V" n="54" break="no"/>ne suppositi, nec per consequens filiatio, quia talem
+            ser<lb ed="#V" n="55" break="no"/>uitutem habet pro immediato fundamento. Sed ista
+            re<lb ed="#V" n="56" break="no"/>sponsio non valet, quia secundum Philosophum 5.
+            Meta<lb ed="#V" n="57" break="no"/>physic. pater dicitur pater filij, quia hac fecit, ille autem
+            <lb ed="#V" n="58"/>passus est: ergo &amp; paternitas ipsa, &amp; filiatio fundantur
+            su<lb ed="#V" n="59" break="no"/>per actionem. Nec obstat quod generatio actiua, &amp; passiua
+            <lb ed="#V" n="60"/>transeunt, filiatio autem &amp; paternitas non transeunt, quia
+            <lb ed="#V" n="61"/>in creaturis paternitas, &amp; filiatio sunt solum quaedam
+            rea<lb ed="#V" n="62" break="no"/>les denominationes consurgentes ex generatione actiua, &amp;
+            <lb ed="#V" n="63"/>passiua secundum praeteritum, pater enim est, quia genuit,
+            <lb ed="#V" n="64"/>&amp; filius quia genitus fuit, &amp; ideo quandiu verum est
+            dice<lb ed="#V" n="65" break="no"/>re, quod ille genuit, &amp; iste genitus est, verum est dicere,
+            <lb ed="#V" n="66"/>quod iste est pater, &amp; ille est filius.
+          </p>
+          <p xml:id="capsco-c374sc-d1e1082">
+            Item. In diuinis est
+            <lb ed="#V" n="67"/>realis paternitas &amp; filiatio, &amp; tamen in eis non est in patre
+            <lb ed="#V" n="68"/>respectu filij tale ius, nec in filio talis subiectio: ergo
+            fal<lb ed="#V" n="69" break="no"/>sum est &amp; erroneum, quod paternitas &amp; filiatio fundentur
+            <lb ed="#V" n="70"/>super tale ius, &amp; subiectionem.
+          </p>
+          <p xml:id="capsco-c374sc-d1e1093">
+            Item. Tale ius &amp; talis
+            su<lb ed="#V" n="71" break="no"/>biectio, aut sunt res, aut ratio, si ratio non possunt esse
+            fun<lb ed="#V" n="72" break="no"/>damentum realis paternitatis, &amp; filiationis. Si res, aut
+            ab<lb ed="#V" n="73" break="no"/>soluta, aut relatiua. Si absoluta, da eam. Nec poteris
+            da<lb ed="#V" n="74" break="no"/>re nisi naturam per generationem acceptam, &amp; tunc
+            habe<lb ed="#V" n="75" break="no"/>bitur propositum. Si respectus, cum subiectio in filio, &amp;
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="76"/>ius quod respondit ei in patre, magis pertineant ad mores
+            <lb ed="#V" n="77"/>quam ad naturam, paternitas autem &amp; filiatio pertineant
+            <lb ed="#V" n="78"/>ad esse naturae, quod praecedit esse morale, patet quod
+            pa<lb ed="#V" n="79" break="no"/>ternitas, &amp; filiatio praecedunt taletius, &amp; talem sub
+            ectio<lb ed="#V" n="80" break="no"/>nem, sicut ea quae sunt naturae, praecedunt ea quae sunt
+            mo<lb ed="#V" n="81" break="no"/>ris. Et cum prius non fundetur in poferiori, sed magis
+            <lb ed="#V" n="82"/>econtra, absurdum est dicere, quod paternitas, &amp; filiatio
+            <lb ed="#V" n="83"/>fundentur super illo iure &amp; subiectione.
+          </p>
+          <p xml:id="capsco-c374sc-d1e1126">
+            Confirmatur.
+            <lb ed="#V" n="84"/>Quia paternitas, &amp; filiatio sunt in brutis sicut &amp; in
+            homi<lb ed="#V" n="85" break="no"/>nibus, &amp; tamen ibi non est tale ius, nec talis subiectio, &amp;
+            <lb ed="#V" n="86"/>ideo inconsueta adinuentio fuit, quod paternitas &amp; filiatio
+            <lb ed="#V" n="87"/>fundentur super tale ius, &amp; talem subiectionem. Nec
+            ob<lb ed="#V" n="88" break="no"/>stat quod dicitur, quod natura potest dici genita, nata, vel
+            <lb ed="#V" n="89"/>serua, nunquam tamen dicitur filia. Quia hoc non est
+            <lb ed="#V" n="90"/>propter hoc, quod filiatio immediatius in sit supposito,
+            <lb ed="#V" n="91"/>quam naturae, sed quia filius, &amp; filiatio magis accedunt ad
+            <lb ed="#V" n="92"/>naturam substantiui quam esse natum, vel genitum, quae
+            <lb ed="#V" n="93"/>pure denominatiue accipiuntur. Nam si denominatiue
+            ac<lb ed="#V" n="94" break="no"/>cipiamus filiatum, aeque proprie posset dici natura filiata,
+            <lb ed="#V" n="95"/>si hoc vsus haberet, sicut dicitur nata, vel genita.
+          </p>
+          <p xml:id="capsco-c374sc-d1e1155">
+            <lb ed="#V" n="96"/><milestone ed="#V" unit="p" rend="indent"/> Sexto, arguit sic. Vbicunque producens &amp; productum
+            <lb ed="#V" n="97"/>incidunt in eundem ordinem, &amp; maxime in idem secundum
+            <lb ed="#V" n="98"/>speciem, si vnum refertur realiter &amp; reliquum, sed Christus
+            <lb ed="#V" n="99"/>secundum naturam humanam, &amp; Beata Virgo incidunt in
+            <lb ed="#V" n="100"/>eundem naturae ordinem: ergo si maternitas est relatio
+            rea<lb ed="#V" n="101" break="no"/>lis in matre, necesse est quod filiatio sit realis in filio. Haec
+            <lb ed="#V" n="102"/>Durandus. Et istae sunt potiores rationes, quae fiunt contra
+            <lb ed="#V" n="103"/>primam conclusionem. Ideo in hoc primus articulus
+            ter<lb ed="#V" n="104" break="no"/>minatur.
+          </p>
+        </div>
+        <div xml:id="capsco-c374sc-Dd1e1179">
+          <head xml:id="capsco-c374sc-Hd1e1181">Articulus 3</head>
+          <p xml:id="capsco-c374sc-d1e1183">
+            <lb ed="#V" n="105"/><milestone ed="#V" unit="p" rend="initial"/> QVantum ad tertium articulum respondendum est
+            ob<lb ed="#V" n="106" break="no"/>ectionibus supradicus, idcirco ad primum Scoti
+            di<lb ed="#V" n="107" break="no"/>citur, quod causa cur in Christo non possunt esse
+            <lb ed="#V" n="108"/>duae filiationes reales non est illa, quam arguens ibidem
+            re<lb ed="#V" n="109" break="no"/>citat praecisa &amp; principalis, scilicet quia in Christo non sunt
+            <lb ed="#V" n="110"/>plura supposita, sed potissima causa est, quia illud
+            suppo<lb ed="#V" n="111" break="no"/>situm Christi vnicum non est capax realis filiationis
+            tem<lb ed="#V" n="112" break="no"/>poralis, nec quo ad diuinitatem, nec quo ad
+            humanita<lb ed="#V" n="113" break="no"/>tem, quia neutra illarum naturarum in ipso potest esse
+            su<lb ed="#V" n="114" break="no"/>biectum filiationis. Dato enim quod illud suppositum
+            es<lb ed="#V" n="115" break="no"/>set capax talis filiationis, vnitas suppositi non obstaret quin
+            <lb ed="#V" n="116"/>posset habere duas filiationes secundum diuersa
+            fundamen<lb ed="#V" n="117" break="no"/>ta, sicut si aliquis sit filius vnius patris per naturalem
+            ori<lb ed="#V" n="118" break="no"/>ginem, &amp; alterius per adoptionem, vel aliquis sit
+            discipu<lb ed="#V" n="119" break="no"/>lus vnius secundum vnam doctrinam, &amp; alterius secundum
+            <lb ed="#V" n="120"/>aliam, &amp; ideo prima consequentia ibi facta neganda est,
+            <lb ed="#V" n="121"/>quia illa non est praecisa causa conclusionis, licet sit pars
+            <lb ed="#V" n="122"/>causae, praesertim quo ad hoc, quod dicit, quod nihil est
+            su<lb ed="#V" n="123" break="no"/>biectum filiationis nisi suppositum.
+          </p>
+          <p xml:id="capsco-c374sc-d1e1228">
+            <lb ed="#V" n="124"/><milestone ed="#V" unit="p" rend="indent"/> Et cum hoc vltimum improbatur. Dicitur quod
+            filia<lb ed="#V" n="125" break="no"/>tio habet hoc non inquantum relatio, sed inquantum
+            ta<lb ed="#V" n="126" break="no"/>lis relatio. Nec valet huius improbatio, quia solum
+            con<lb ed="#V" n="127" break="no"/>cludit, quod in eodem supposito possunt esse duae, vel
+            plu<lb ed="#V" n="128" break="no"/>res relationes originis, quod concedit nostra secunda
+            con<lb ed="#V" n="129" break="no"/>clusio, sed hoc non est ad propositum, sed est fallacia
+            con<lb ed="#V" n="130" break="no"/>sequentis, quia non om ris relatio originis, vel fundata in
+            <lb ed="#V" n="131"/>origine passiua est filiatio, vt patet ex primo artic &amp;
+            se<lb ed="#V" n="132" break="no"/>cunda conclusione. Et ideo concludere duplicem
+            filiatio<lb ed="#V" n="133" break="no"/>nem ex duplici relatione originis est sophisticum, vt
+            vide<lb ed="#V" n="134" break="no"/>tur.
+          </p>
+          <p xml:id="capsco-c374sc-d1e1255">
+            Ad secundum dicitur, quod peccat sicut praecedens
+            <lb ed="#V" n="135"/>secundum non causam. Conceditur enim quod vnitas
+            <lb ed="#V" n="136"/>suppositi praecise non prohibet duas relationes originis
+            <lb ed="#V" n="137"/>actiue, vel passiue esse in eodem supposito, sed incapacitas
+            <lb ed="#V" n="138"/>suppositi respectu talis relationis. Dicitur secundo quod
+            <lb ed="#V" n="139"/>in Christo sunt duae relationes originis passiue, tamen
+            vni<lb ed="#V" n="140" break="no"/>ca illarum est filiatio, &amp; sic argumentum est sophisma
+            con<lb ed="#V" n="141" break="no"/>sequentis.
+          </p>
+          <p xml:id="capsco-c374sc-d1e1273">
+            Ad tertium dicitur, quod secunda propositio
+            <lb ed="#V" n="142"/>ibi assumpta est fa. sa, scilicet quod filiatio non magis
+            respi<lb ed="#V" n="143" break="no"/>cit suppositum quam actio, vel operatio, quia licet
+            vtrun<lb ed="#V" n="144" break="no"/>que istorum tantummodo conueniat supposito vt quod,
+            <lb ed="#V" n="145"/>quia solum suppositum agit &amp; dicitur filius, tamen in hoc
+            <lb ed="#V" n="146"/>est differentia duplex. Prima quia proprium &amp; adaequatum
+            <lb ed="#V" n="147"/>subiectum actionis, ve operationis non semper est
+            suppo<lb ed="#V" n="148" break="no"/>situm, immo potest esse pars integralis, vel essentialis, vel
+            <lb ed="#V" n="149"/>potentialis suppositi, vt patet de operatione, qua aliquis
+            <lb ed="#V" n="150"/>seribit vel percutit, cuius subiectum proximum &amp;
+            adaequa<pb ed="#V" n="76"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>tum est manus.
+          </p>
+          <p xml:id="capsco-c374sc-d1e1300">
+            Item. Proprium subiectum intellectionis.
+            <lb ed="#V" n="2"/>&amp; volitionis est intellectus &amp; voluntas, vel anima, secus est
+            <lb ed="#V" n="3"/>de filiatione, cuius subiectum semper est suppositum.
+            Se<lb ed="#V" n="4" break="no"/>cunda differentia est, quia licet actio principaliter
+            attribui<lb ed="#V" n="5" break="no"/>tur tantum supposito, tamen quandoque licet minus
+            prin<lb ed="#V" n="6" break="no"/>cipaliter, &amp; instrumentaliter attribuitur parti, sicut quod
+            <lb ed="#V" n="7"/>oculus videt, lingua loquitur, voluntas vult, secus est de
+            <lb ed="#V" n="8"/>filiatione, quae nec principaliter nec instrumentaliter, nec
+            <lb ed="#V" n="9"/>secundario dicitur filia, vel filius. Et sic patet quod non
+            <lb ed="#V" n="10"/>est simile de filiatione, &amp; operatione. Dicitur secundo, quod
+            <lb ed="#V" n="11"/>si Christus naturali generatione genuisset duos, vel mille
+            <lb ed="#V" n="12"/>filios, nullam realem paternitatem ex hoc acquisisset ad
+            il<lb ed="#V" n="13" break="no"/>los, quia Christus paternitatis non est capax, nec quo ad
+            <lb ed="#V" n="14"/>personam aeternam, quae nullam habet realem relationem
+            <lb ed="#V" n="15"/>ad creaturas, nec esse potest subiectum accidentium. Nec
+            <lb ed="#V" n="16"/>quo ad naturam humanam, quia solum suppositum est
+            im<lb ed="#V" n="17" break="no"/>mediatum subiectum paternitatis &amp; filiationis, vt dictum
+            <lb ed="#V" n="18"/>est, vnde hoc argumentum peccat sicut duo praecedentia
+            <lb ed="#V" n="19"/>secundum non causam vt causam.
+          </p>
+          <p xml:id="capsco-c374sc-d1e1342">
+            Item concessa
+            conclu<lb ed="#V" n="20" break="no"/>sione huius argumenti, non concluditur contra nos, quia
+            <lb ed="#V" n="21"/>concedimus in Christo duas filiationes, non tamen ambas
+            <lb ed="#V" n="22"/>reales. Concedimus insuper in Christo realem respectum
+            <lb ed="#V" n="23"/>ad patrem, &amp; realem respectum ad matrem, sed respectus
+            <lb ed="#V" n="24"/>non est proprie filiatio &amp; caet.
+          </p>
+          <p xml:id="capsco-c374sc-d1e1355">
+            Ad quartum dicitur, quod
+            <lb ed="#V" n="25"/>in nullo est contra nos, quia nos non dicimus, quod
+            Chri<lb ed="#V" n="26" break="no"/>stus tantummodo dicatur filius secundum relationem, vel
+            <lb ed="#V" n="27"/>ratione aeternae personalitatis, vel secundum aeternam
+            fi<lb ed="#V" n="28" break="no"/>liationem, qua refertur ad patrem, immo dicimus quod est
+            ve<lb ed="#V" n="29" break="no"/>raciter filius alia filiatione temporali, qua refertur ad
+            ma<lb ed="#V" n="30" break="no"/>trem, sed illa non est relatio realis, sed rationis tantum, quo
+            <lb ed="#V" n="31"/>non obstante, ipse est realiter filius Virginis Mariae. Tum
+            <lb ed="#V" n="32"/>quia mater habet ad ipsum relationem realem
+            maternita<lb ed="#V" n="33" break="no"/>tis. Tum quia ipse realiter terminat per reale
+            fundamen<lb ed="#V" n="34" break="no"/>tum, &amp; suppositum illam maternitatem. De praedictis
+            San<lb ed="#V" n="35" break="no"/>ctus Thomas tertij sententiarum, distinctio. octaua, quaestio.
+            <lb ed="#V" n="36"/>prima, articulo quinto, in solutione primi sic dicit.
+            Na<lb ed="#V" n="37" break="no"/>tiuitas temporalis, siue generatio passiua Christi est
+            quae<lb ed="#V" n="38" break="no"/>dam passio, quae secundum rem fundatur in natura
+            huma<lb ed="#V" n="39" break="no"/>na, &amp; ex hoc nominatur natus sicut &amp; homo, sed
+            filiatio<lb ed="#V" n="40" break="no"/>nis suppositum non potest esse natura, cum sit eius quod
+            <lb ed="#V" n="41"/>habet complementum speciei &amp; esse, &amp; ideo duae
+            natiuita<lb ed="#V" n="42" break="no"/>tes causant quasi duas filiationes, sed vnam secundum rem,
+            <lb ed="#V" n="43"/>&amp; alteram secundum rationem tantum. Haec ille.
+          </p>
+          <p xml:id="capsco-c374sc-d1e1399">
+            Item in
+            so<lb ed="#V" n="44" break="no"/>lutione secundi sic dicit. Ex hoc quod filius Dei refertur ad
+            <lb ed="#V" n="45"/>matrem, non oportet quod habeat aliam filiationem
+            secun<lb ed="#V" n="46" break="no"/>dum rem, sed alium respectum rationis. Item in solutione
+            <lb ed="#V" n="47"/>tertij sic dicit. Maternitas posita ponit alium respectum in
+            <lb ed="#V" n="48"/>Christo, &amp; remota mouet illum, sed non oportet quod
+            po<lb ed="#V" n="49" break="no"/>nat aliam filiationem realem.
+          </p>
+          <p xml:id="capsco-c374sc-d1e1415">
+            Item in solutione sexta
+            di<lb ed="#V" n="50" break="no"/>cit. Si pater carnem assumpsisset de Virgine esset filius
+            virgi<lb ed="#V" n="51" break="no"/>nis, non quidem per aliquam realem filiationem, cuius
+            sup<lb ed="#V" n="52" break="no"/>positum aeternum esset subiectum, sed per respectum
+            ratio<lb ed="#V" n="53" break="no"/>nis tantum. Haec ille.
+          </p>
+          <p xml:id="capsco-c374sc-d1e1426">
+            Ex quibus patet, quod non est eius mens,
+            <lb ed="#V" n="54"/>dicere, quod Christus per filiationem aeternam referatur
+            <lb ed="#V" n="55"/>ad matrem, sed per aliam filiationem non realem. Ad
+            quin<lb ed="#V" n="56" break="no"/>tum patet responsio per statim dicta, quia solum concludit,
+            <lb ed="#V" n="57"/>quod Christus alium respectum habet ad patrem, &amp; alium
+            <lb ed="#V" n="58"/>ad matrem, quod conceditur, sed non concludit quod vterque
+            <lb ed="#V" n="59"/>sit realis filiatio. Vnde hoc argumentum facit in
+            forma<lb ed="#V" n="60" break="no"/>Sanctus Thomas vbi supra primo loco articuli.
+            Multiplica<lb ed="#V" n="61" break="no"/>ta causa multiplicatur effectus, sed natiuitas est causa
+            filia<lb ed="#V" n="62" break="no"/>tionis &amp; caet. Et respondit sicut statim allegatum est.
+          </p>
+          <p xml:id="capsco-c374sc-d1e1449">
+            Item
+            <lb ed="#V" n="63"/>tertia parte quaestio. 35. artic. 5. in primo loco facit illud
+            ar<lb ed="#V" n="64" break="no"/>gumentum, &amp; respondit sic. Natiuitas temporalis causaret
+            <lb ed="#V" n="65"/>quidem in Christo temporalem filiationem realem si esset
+            <lb ed="#V" n="66"/>ibi subiectum huius filiationis capax &amp;c. vt allegatum fuit
+            <lb ed="#V" n="67"/>in probatione primae conclusionis.
+          </p>
+          <p xml:id="capsco-c374sc-d1e1462">
+            Item ibidem in
+            solu<lb ed="#V" n="68" break="no"/>tione tertia sic dicit. In Christo est tantum vna filiatio
+            rea<lb ed="#V" n="69" break="no"/>lis, quae respicit patrem aeternum, est tamen ibi alius
+            respe<lb ed="#V" n="70" break="no"/>ctus temporalis, qui respicit matrem temporalem. Haec
+            <lb ed="#V" n="71"/>ille.
+          </p>
+          <p xml:id="capsco-c374sc-d1e1473">
+            Ad sextum dicitur primo, quod illa descriptio
+            filia<lb ed="#V" n="72" break="no"/>tionis est defectuosa, quia oportet addere, quod tale
+            produ<lb ed="#V" n="73" break="no"/>dum, quod est subiectum talis habitudinis sit subsistens,
+            <lb ed="#V" n="74"/>alias humanitas Christi esset filius virginis, quia habet ad
+            <lb ed="#V" n="75"/>illam talem habitudinem, qualis ibi describitur. Dicitur
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="76"/>secundo, quod filiatio magis respicit suppositum quam
+            ge<lb ed="#V" n="77" break="no"/>neratio passiua, quia subiectum proximum passionis potest
+            <lb ed="#V" n="78"/>esse natura, vel pars naturae, sicut dictum fuit in secunda
+            <lb ed="#V" n="79"/>conclusione, licet etiam suppositum aeternum sit subiectum
+            <lb ed="#V" n="80"/>generationis ratione naturae assumptae. Et vlterius. Secus
+            <lb ed="#V" n="81"/>est de generatione &amp; de filiatione, quia generatio
+            significa<lb ed="#V" n="82" break="no"/>tur per modum cuiusdam motus &amp; passionis, motus autem
+            <lb ed="#V" n="83"/>diuersificatur ex terminis, &amp; habet ex eis realitatem, secus
+            <lb ed="#V" n="84"/>est de filiatione, quae significatur per modum relationis:
+            <lb ed="#V" n="85"/>vnde Sanctus Thomas tertij sent. vbi supra quarto loco arguit sic.
+            <lb ed="#V" n="86"/>Motus diuersificantur per terminos, sed sicut motus habet
+            <lb ed="#V" n="87"/>speciem a terminis, ita &amp; relatio: ergo cum Christus sit
+            fi<lb ed="#V" n="88" break="no"/>lius patris &amp; matris, oportet quod alia filiatione ad vtrunque
+            <lb ed="#V" n="89"/>referatur. Ecce argumentum. Sequitur responsio.
+            Dicen<lb ed="#V" n="90" break="no"/>dum (inquit) quod omnis motus est aliquid secundum rem,
+            <lb ed="#V" n="91"/>non autem omnis relatio, vnde quamuis ex terminis
+            mul<lb ed="#V" n="92" break="no"/>tiplicentur respectus relationis, non tamen oportet quod
+            <lb ed="#V" n="93"/>multiplicentur relationes secundum rem, sicut motus
+            mul<lb ed="#V" n="94" break="no"/>tiplicantur secundum rem ex diuersitate terminorum. Haec
+            <lb ed="#V" n="95"/>ille. Dicitur tertio quod argumentum non plus concludit, nisi
+            <lb ed="#V" n="96"/>quod Christus habet duas filiationes distinctas, sed non
+            con<lb ed="#V" n="97" break="no"/>cludit, quod vtraque sit realis.
+          </p>
+          <p xml:id="capsco-c374sc-d1e1534">
+            Ad septimum patet per
+            sta<lb ed="#V" n="98" break="no"/>tim dicta. Item Sanctus Thomas tertia parte quaestio. 35.
+            <lb ed="#V" n="99"/>artic. 5. sic arguit. Vnum relatiuorum ponitur in
+            diffinitio<lb ed="#V" n="100" break="no"/>ne alterius, ex quo patet quod vnum relatiuorum specificatur
+            <lb ed="#V" n="101"/>ex alio, sed vnum &amp; idem non potest esse in diuersis
+            specie<lb ed="#V" n="102" break="no"/>bus: ergo impossibile videtur, quod vna &amp; eadem relatio
+            <lb ed="#V" n="103"/>terminetur ad extrema omnino diuersa, sed Christus
+            dici<lb ed="#V" n="104" break="no"/>tur filius patris aeterni &amp; matris temporalis, qui sunt
+            omni<lb ed="#V" n="105" break="no"/>no diuersi: ergo videtur quod non possit eadem relatione
+            <lb ed="#V" n="106"/>dici filius patris &amp; matris, sunt ergo in Christo duae
+            filiatio<lb ed="#V" n="107" break="no"/>nes. Ecce argumentum sequitur responsio. Dicendum
+            <lb ed="#V" n="108"/>(inquit) quod vnum &amp; ens se consequuntur vt dicitur id
+            <lb ed="#V" n="109"/>quarto Metaphysi. &amp; ideo sicut contingit, quod in vno
+            ex<lb ed="#V" n="110" break="no"/>tremorum relatio sit quoddam ens, in alio autem non sit
+            <lb ed="#V" n="111"/>ens, sed ratio tantum, sicut de scientia, &amp; scibili dicit
+            Philo<lb ed="#V" n="112" break="no"/>sophus 5. Metaphysic. ita etiam contingit quod ex parte
+            <lb ed="#V" n="113"/>vnius extremi est vna relatio, ex parte autem alterius
+            ex<lb ed="#V" n="114" break="no"/>tremi sunt multae relationes, sicut in hominibus ex parte
+            <lb ed="#V" n="115"/>parentum inuenitur duplex relatio, vna paternitatis, alia
+            <lb ed="#V" n="116"/>maternitatis, quae sunt specie differentes propter hoc quod
+            <lb ed="#V" n="117"/>alia ratione pater, &amp; alia ratione mater est generationis
+            prin<lb ed="#V" n="118" break="no"/>cipium. Si vero essent plures eadem ratione principium
+            <lb ed="#V" n="119"/>vnius actionis, puta cum multi simul trahunt nauem, in
+            <lb ed="#V" n="120"/>omnibus esset vna &amp; eadem relatio. Ex parte autem
+            pro<lb ed="#V" n="121" break="no"/>lis est vna sola filiatio secundum rem, sed duplex secundum
+            <lb ed="#V" n="122"/>rationem inquantum correspondet vtrique relationi
+            paren<lb ed="#V" n="123" break="no"/>tum secundum duos respectus intellectos, &amp; sic etiam
+            quan<lb ed="#V" n="124" break="no"/>tum ad aliquid in Christo est tantum vna filiatio realis, quae
+            <lb ed="#V" n="125"/>respicit patrem aeternum, est tamen ibi alius respectus
+            tem<lb ed="#V" n="126" break="no"/>poralis, qui respicit matrem temporalem. Haec
+            ille<lb ed="#V" n="127" break="no"/>Ex quibus patet, quomodo eadem relatio potest esse ad
+            <lb ed="#V" n="128"/>diuersos terminos. Secundo, quomodo talis relatio est
+            <lb ed="#V" n="129"/>duplex secundum rationem.
+          </p>
+          <p xml:id="capsco-c374sc-d1e1606">
+            <lb ed="#V" n="130"/><milestone ed="#V" unit="p" rend="indent"/> Tertio, quomodo Christus alia filiatione refertur ad
+            pa<lb ed="#V" n="131" break="no"/>trem, &amp; alia ad matrem, &amp; non eadem. Quarto,
+            quomo<lb ed="#V" n="132" break="no"/>do non sequitur quod eadem relatio simul sit &amp; non sit, aut
+            <lb ed="#V" n="133"/>quod desinat &amp; maneat, sed solum quod eadem relatio
+            ma<lb ed="#V" n="134" break="no"/>neat quantum ad vnum respectum, &amp; desinat quo ad alium,
+            <lb ed="#V" n="135"/>sicut patet de filiatione illius, qui habet patrem &amp; caret
+            ma<lb ed="#V" n="136" break="no"/>tre aut econtra, &amp; de illo qui prius habuit duos fratres, &amp;
+            <lb ed="#V" n="137"/>modo non habet nisi vnum, vel prius fuit aequalis quatuor,
+            <lb ed="#V" n="138"/>&amp; modo est aequalis nisi tribus.
+          </p>
+          <p xml:id="capsco-c374sc-d1e1629">
+            <lb ed="#V" n="139"/><milestone ed="#V" unit="p" rend="indent"/> Ad octauum patet responsio per dicta ad quartum, &amp;
+            <lb ed="#V" n="140"/>similiter ad septimum.
+          </p>
+          <p xml:id="capsco-c374sc-d1e1638">
+            Ad nonum dicitur, quod peccat
+            <lb ed="#V" n="141"/>secundum non causam, vt causam, quia non ideo
+            nega<lb ed="#V" n="142" break="no"/>mus realem filiationem in Christo respectu matris, quia
+            <lb ed="#V" n="143"/>mater eius minus egerit in generatione illius quam aliae
+            <lb ed="#V" n="144"/>matres, nec quia filius Dei minus acceperit ab ea quam
+            fi<lb ed="#V" n="145" break="no"/>lij aliarum matrum de illis, quae pertinent ad naturam,
+            <lb ed="#V" n="146"/>sed ideo quia filij aliarum matrum sunt capaces talis
+            no<lb ed="#V" n="147" break="no"/>uae filiationis realis, non autem Christus. Vlterius quia
+            <lb ed="#V" n="148"/>ad generationem passiuam &amp; ad acceptionem naturae non
+            <lb ed="#V" n="149"/>sequitur filiatio realis, nisi quando talis natura constituit
+            <lb ed="#V" n="150"/>proprium suppositum, &amp; non innititur supposito per aliam
+            <pb ed="#V" n="77"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>naturam constituto. hoc autem est in alijs filijs, &amp; non in
+            <lb ed="#V" n="2"/>Christo quo ad naturam humanam.
+          </p>
+          <p xml:id="capsco-c374sc-d1e1671">
+            Ad primum Aureolus.
+            <lb ed="#V" n="3"/>dicitur, quod nihil concludit contra nos, concedimus enim
+            <lb ed="#V" n="4"/>quod in Christo est realis respectus ad matrem, sicut dicit
+            <lb ed="#V" n="5"/>secunda conclusio, sed ille non dicitur filiatio ratione iam
+            <lb ed="#V" n="6"/>dicta.
+          </p>
+          <p xml:id="capsco-c374sc-d1e1682">
+            Ad secundum Negatur consequentia prima, &amp; ad
+            <lb ed="#V" n="7"/>eius probationem negatur assumptum, vt per dicta ad
+            quar<lb ed="#V" n="8" break="no"/>tum Scotus patet, Natiuitas enim &amp; generatio passiua sunt
+            <lb ed="#V" n="9"/>passiones, &amp; q. quidam motus, non sic filiatio. Item. Si
+            na<lb ed="#V" n="10" break="no"/>tiuitas &amp; generatio passiua essent idem realiter quod
+            filia<lb ed="#V" n="11" break="no"/>tio, sequitur quod cessante natiuitate &amp; generatione
+            pas<lb ed="#V" n="12" break="no"/>siua cessaret filiatio, &amp; quod nullus potest dici filius, nisi
+            <lb ed="#V" n="13"/>pro illa mensura, qua nascitur aut generatur, quae omnia
+            <lb ed="#V" n="14"/>sunt absurda. Et ad probationem illius falsi assumpti
+            dici<lb ed="#V" n="15" break="no"/>tur, quod esse natum vel esse genitum potest sumi
+            duplici<lb ed="#V" n="16" break="no"/>ter. primo modo vt esse natum idem sit quod habere
+            na<lb ed="#V" n="17" break="no"/>tiuitatem actualem, &amp; esse genitum idem sit quod habere
+            <lb ed="#V" n="18"/>generationem actualem, &amp; sic accipiendo manifeste patet,
+            <lb ed="#V" n="19"/>quod non idem est esse filium, quod esse natum vel
+            geni<lb ed="#V" n="20" break="no"/>tum, quia homo. 5. annorum est filius, &amp; tamen protunc non
+            <lb ed="#V" n="21"/>habet generationem actualem, nec natiuitatem, quia nec
+            <lb ed="#V" n="22"/>natiuitas, nec generatio durat nisi per instans, aut per
+            par<lb ed="#V" n="23" break="no"/>uum tempus. Secundo modo potest summi vt esse natum
+            <lb ed="#V" n="24"/>vel genitum idem sit quod habuisse natiuitatem vel
+            gene<lb ed="#V" n="25" break="no"/>rationem, &amp; adhuc sic accipiendo non est idem esse natum,
+            <lb ed="#V" n="26"/>&amp; esse filium, quia de Abel vere dicitur, quod habuit
+            nati<lb ed="#V" n="27" break="no"/>uitatem &amp; generationem, &amp; tamen non vere dicitur, quod
+            <lb ed="#V" n="28"/>sit filius. Similiter de pupillo vel orphano vere dicitur quod
+            <lb ed="#V" n="29"/>habuit generationem &amp; natiuitatem, non tamen quod sit
+            <lb ed="#V" n="30"/>filius. Et sic patet quod quocunque modo sumatur esse
+            na<lb ed="#V" n="31" break="no"/>tum vel genitum non est idem quod esse filium, quia ista
+            <lb ed="#V" n="32"/>non conuertuntur, sed semper vnum est in plus quam aliud.
+          </p>
+          <p xml:id="capsco-c374sc-d1e1741">
+            <lb ed="#V" n="33"/>Item dato quod conuerterentur, non ideo arguitur, quod
+            <lb ed="#V" n="34"/>hoc sit illud, sicut patet de homine &amp; risibilitate. Vlterius
+            <lb ed="#V" n="35"/>cum dicit arguens, quod filiatio non est aliud quam
+            gene<lb ed="#V" n="36" break="no"/>ratio vt transit in praeteritum, aut intelligit quod filiatio
+            <lb ed="#V" n="37"/>est generatio quae fuit, sed non est, &amp; hoc implicat
+            contra<lb ed="#V" n="38" break="no"/>dictionem, quia tunc filiatio esset illud, quod est nihil, &amp; sic
+            <lb ed="#V" n="39"/>filiatio esset, &amp; non esset. Aut intelligit quod filiatio est
+            ge<lb ed="#V" n="40" break="no"/>neratio quae est, &amp; fuit, &amp; hoc est impossibile, quia
+            genera<lb ed="#V" n="41" break="no"/>tio non durat per tempus, &amp; vlterius, quia tunc in primo
+            <lb ed="#V" n="42"/>instanti, quo est generatio, non esset filiatio, quia tunc non
+            <lb ed="#V" n="43"/>est vera illa copulatiua, generatio est, &amp; generatio fuit, &amp;
+            <lb ed="#V" n="44"/>sic non apparet quomodo talia dicta possint sustineri. Si
+            <lb ed="#V" n="45"/>dicatur quod idem respectus primo dicitur esse generatio,
+            <lb ed="#V" n="46"/>&amp; post cessat esse generatio, sed dicitur filiatio.
+          </p>
+          <p xml:id="capsco-c374sc-d1e1774">
+            Non valet,
+            <lb ed="#V" n="47"/>quia tunc idem respectus nullo addito, nulloque remoto
+            <lb ed="#V" n="48"/>ad suum esse pertinente quandoque esset generatio, &amp;
+            quan<lb ed="#V" n="49" break="no"/>do que esset non generatio, nec generatio esset essentialiter
+            <lb ed="#V" n="50"/>mutatio, aut passio, aut inceptio Et multa alia
+            inconue<lb ed="#V" n="51" break="no"/>nientia sequerentur potissime loquendo de generatione
+            <lb ed="#V" n="52"/>in creaturis. secus est de diuina generatione. Ad
+            confirma<lb ed="#V" n="53" break="no"/>tionem dicitur, quod non ideo precise ista negatur in
+            Chri<lb ed="#V" n="54" break="no"/>sto sunt duae filiationes, quia infert istam, Christus est duo
+            <lb ed="#V" n="55"/>filij, sed propter aliam causam. ideo argumentum peccat
+            <lb ed="#V" n="56"/>secundum non causam vt causam. Verumtamen dicitur,
+            <lb ed="#V" n="57"/>quod ista potest concedi, in Christo sunt plura genita,
+            sci<lb ed="#V" n="58" break="no"/>licet verbum Dei est vnum genitum, &amp; humanitas est aliud
+            <lb ed="#V" n="59"/>genitum, saltem quasi terminus generationis &amp;
+            natiuita<lb ed="#V" n="60" break="no"/>tis, &amp; tamen nullo modo conceditur, quod in Christo sint
+            <lb ed="#V" n="61"/>multi filij.
+          </p>
+          <p xml:id="capsco-c374sc-d1e1809">
+            Ad tertium negatur assumptum vt patet per
+            sta<lb ed="#V" n="62" break="no"/>tim dicta, quia multae sunt aliae causae. Dicitur secundo,
+            <lb ed="#V" n="63"/>quod ista consequentia est bona in hac materia, in
+            Chri<lb ed="#V" n="64" break="no"/>sto sunt plures reales filiationes. ergo in Christo sunt
+            plu<lb ed="#V" n="65" break="no"/>ra supposita, quia cum in supposito Christi aeterno sit vna
+            <lb ed="#V" n="66"/>realis filiatio ab aeterno &amp; non plures. si sint ibi plures, hoc
+            <lb ed="#V" n="67"/>erit per aduentum nouae realis filiationis. Si autem illa
+            ad<lb ed="#V" n="68" break="no"/>ueniat, non potest recipi in supposito Christi aeterno, quia
+            <lb ed="#V" n="69"/>non est capax accidentium secundum se. Nec in
+            humani<lb ed="#V" n="70" break="no"/>tate sibi vnita, quia omne subiectum filiationis realis est
+            <lb ed="#V" n="71"/>suppositum. igitur recipitur in aliquo supposito distincto
+            <lb ed="#V" n="72"/>a supposito aeterno, &amp; sunt ibi duo supposita. Dicitur
+            ter<lb ed="#V" n="73" break="no"/>tio quod instantia contra praedictam consequentiam non
+            <lb ed="#V" n="74"/>valet. Nam nulla qualitas, nec aliquod accidens aliud a
+            <lb ed="#V" n="75"/>filiatione, quod sit in Christo, exigit pro proprio
+            suscepti<cb ed="#V" n="b"/><lb ed="#V" n="76" break="no"/>uo suppositum distinctum a suppositum aeterno, sicut
+            fa<lb ed="#V" n="77" break="no"/>cit temporalis realis filiatio.
+          </p>
+          <p xml:id="capsco-c374sc-d1e1848">
+            Ad quartum dicitur, quod
+            <lb ed="#V" n="78"/>nos non supponimus, quod suppositum sit immediatum
+            <lb ed="#V" n="79"/>fudamentum huius relationis, quae dicitur filiatio,
+            dici<lb ed="#V" n="80" break="no"/>mus tamen quod est eius proximum &amp; immediatum
+            subie<lb ed="#V" n="81" break="no"/>ctum, sicut licet qualitas sit fundamentum similitudinis,
+            <lb ed="#V" n="82"/>&amp; quantitas aequalitatis, tamen nec qualitas, nec
+            quanti<lb ed="#V" n="83" break="no"/>tas sunt subiectum talium relationum. Et quia diuinum
+            <lb ed="#V" n="84"/>suppositum nec secundum se, nec secundum aliquid
+            sibi<lb ed="#V" n="85" break="no"/>vnitum potest esse subiectum filiationis realis temporalis,
+            <lb ed="#V" n="86"/>ideo talis filiatio non est in eo. Cum vero vlterius dicitur,
+            <lb ed="#V" n="87"/>quod relatio multiplicatur ad multiplicationem naturae,
+            <lb ed="#V" n="88"/>&amp; patet per praedicta, quod hoc concesso. nihil concluditur
+            <lb ed="#V" n="89"/>contra nos, quia concedimus in Christo duas filiationes,
+            <lb ed="#V" n="90"/>non tamen vtranque realem. Quod si arguatur, quod
+            mul<lb ed="#V" n="91" break="no"/>tiplicato sundamento realiter multiplicantur respectus
+            rea<lb ed="#V" n="92" break="no"/>liter. Dicitur quod verum est vbi subiectum est capax
+            ta<lb ed="#V" n="93" break="no"/>lium. non sic est in proposito. De praedictis Sanctus Thomas
+            <lb ed="#V" n="94"/>tertio sententiarum distin. 8. quaest. prima, articu. quinto,
+            <lb ed="#V" n="95"/>sic dicit. Relatio non habet ex hoc quod ad alterum
+            dici<lb ed="#V" n="96" break="no"/>tur, quod sit aliquid in rerum natura, sed hoc habet ex eo
+            <lb ed="#V" n="97"/>quod relationem causat, quod est in re, quae ad alterum
+            <lb ed="#V" n="98"/>dicitur, &amp; quia ex eo res habet vnitatem &amp;
+            multiplicatio<lb ed="#V" n="99" break="no"/>nem, ex quo habet esse, ideo secundum id, in quo relatio
+            <lb ed="#V" n="100"/>fundatur, iudicandum est de ea, vtrum sit secundum rem
+            <lb ed="#V" n="101"/>vna vel plures. Sunt igitur quaedam relationes, quae
+            fun<lb ed="#V" n="102" break="no"/>dantur super quantitate, sicut aequalitas, quae fundatur
+            su<lb ed="#V" n="103" break="no"/>per vnum in quantitate, &amp; cum vnitas quantitatis non sit
+            <lb ed="#V" n="104"/>nisi vna in re vna, inde est quod per vnam aequalitatem est
+            <lb ed="#V" n="105"/>res aequalis omnibus, quibus dicitur aequalis, aliae vero
+            re<lb ed="#V" n="106" break="no"/>lationes fundantur super actione &amp; passione. Et in
+            isti<lb ed="#V" n="107" break="no"/>est considerandum quod vna passio respondit duabus
+            <lb ed="#V" n="108"/>actionibus, quando neutrum agens sufficit per se ad
+            actio<lb ed="#V" n="109" break="no"/>nem complendam, sicut est in eo, qui vna natiuitate
+            na<lb ed="#V" n="110" break="no"/>scitur ex patre &amp; matre. Vnde in patre &amp; matre sunt duae
+            <lb ed="#V" n="111"/>relationes secundum rem, sicut &amp; duae actiones, sed in
+            na<lb ed="#V" n="112" break="no"/>to est vna relatio secundum rem, secundum quam refertur
+            <lb ed="#V" n="113"/>ad patrem &amp; matrem sicut &amp; passio vna.
+          </p>
+          <p xml:id="capsco-c374sc-d1e1929">
+            Item
+            consideran<lb ed="#V" n="114" break="no"/>dum est, quod quaedam relationes non innascuntur ex
+            actio<lb ed="#V" n="115" break="no"/>nibus secundum quod sunt in actu, sed magis secundum
+            <lb ed="#V" n="116"/>quod fuerunt, sicut aliquis dicitur pater secundum quod
+            <lb ed="#V" n="117"/>ex actione est effectus consequutus. Et tales relationes
+            sun<lb ed="#V" n="118" break="no"/>dantur super id, quod ex actione in agente relinquitur,
+            si<lb ed="#V" n="119" break="no"/>ue sit dispositio, siue habitus, siue aliquod ius, seu potestas,
+            <lb ed="#V" n="120"/>vel quicquid huiusmodi, sed quia hoc quod relinquitur
+            <lb ed="#V" n="121"/>ex huomodi actionibus vnius speciei non potest esse nisi vnum,
+            <lb ed="#V" n="122"/>inde est quod relationes tales etiam secundum rem non
+            mul<lb ed="#V" n="123" break="no"/>tiplicantur secundum diuersas actiones, sed magis sunt vnum
+            <lb ed="#V" n="124"/>secundum id, quod ex actione relinquitur. Et propter hoc non
+            <lb ed="#V" n="125"/>sunt diuersae relationes secundum rem in patre vno, qui
+            ge<lb ed="#V" n="126" break="no"/>nerat plures filios, nec in vno magistro, qui docet plures
+            <lb ed="#V" n="127"/>discipulos. Si autem sint actiones plures secundum speciem,
+            <lb ed="#V" n="128"/>causant etiam plures relationes speciei differentes. Vnde cum
+            <lb ed="#V" n="129"/>Christus non per vnam generationem passiuam se habeat
+            <lb ed="#V" n="130"/>ad generationem actiuam patris, &amp; ad generationem
+            acti<lb ed="#V" n="131" break="no"/>uam matris, sed per aliam &amp; aliam, &amp; hae duae generationes
+            <lb ed="#V" n="132"/>non sint vnius generis, necdum vnius speciei, nil vt videtur
+            <lb ed="#V" n="133"/>impediret, quin in Christo possent esse duae filiationes secundum
+            <lb ed="#V" n="134"/>rem differentes, nisi immediatum susceptiuum filiationis
+            <lb ed="#V" n="135"/>esset suppositum, quod quidem secundum secundam opinionem
+            <lb ed="#V" n="136"/>non est nisi aeternum in Christo. Et quia ex nullo
+            tempo<lb ed="#V" n="137" break="no"/>rali aduenit rei aeternae aliqua relatio realis, sed rationis
+            <lb ed="#V" n="138"/>tantum, ideo filiatio quae consequitur Christum ex
+            genc<lb ed="#V" n="139" break="no"/>ratione temporali, non est realis, sed rationis tantum, &amp; tamen
+            <lb ed="#V" n="140"/>realiter filius est, sicut &amp; Deus est realiter dcmtens, ex hoc quod
+            <lb ed="#V" n="141"/>creatura realiter refertur ad ipsum. Vnde concedo quod in
+            <lb ed="#V" n="142"/>Christo non est nisi vna filiatio realis, qua refertur ad
+            pa<lb ed="#V" n="143" break="no"/>trem, &amp; respectus quidam rationis quo ad matrem
+            refer<lb ed="#V" n="144" break="no"/>tur: tamen prima opinio quae ponit duo supposita in
+            Chri<lb ed="#V" n="145" break="no"/>sto, posset ponere duas filiationes, nec tamen poneret duos
+            <lb ed="#V" n="146"/>filios masculine, sed duo filia neutrali, si latine diceretur.
+            <lb ed="#V" n="147"/>Haec ille. Ex quibus patet vnde venit vnitas vel
+            multitu<lb ed="#V" n="148" break="no"/>do relationum, &amp; filiationum, &amp; quando talis
+            multitu<lb ed="#V" n="149" break="no"/>do est realis, &amp; quando non.
+          </p>
+          <p xml:id="capsco-c374sc-d1e2010">
+            Ad quintum dicitur,
+            <lb ed="#V" n="150"/>quod positio nostra non ponit, quod in Christo vnica
+            <pb ed="#V" n="78"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>relatio terminetur ad plures terminos, nec quod
+            Chri<lb ed="#V" n="2" break="no"/>stus vnica filiatione aeterna referatur ad patrem &amp; matrem
+            <lb ed="#V" n="3"/>vt Scotus &amp; Aureotelus false imponunt Sancto Thomas sed
+            ve<lb ed="#V" n="4" break="no"/>rum est quod in alia materia est possibile, &amp; verum, quod
+            <lb ed="#V" n="5"/>idem referatur ad diuersos terminos vnica relatione
+            secun<lb ed="#V" n="6" break="no"/>dum rem, &amp; multiplici secundum rationem, sicut saepius
+            <lb ed="#V" n="7"/>superius dictum fuit. Sicut patet de filio respectu patris &amp;
+            <lb ed="#V" n="8"/>matris, &amp; de doctore respectu plurium discipulorum in
+            <lb ed="#V" n="9"/>eadem scientia, &amp; de albo &amp; bicubito respectu plurium
+            si<lb ed="#V" n="10" break="no"/>milium &amp; aequalium. Et ad primam huius
+            improbatio<lb ed="#V" n="11" break="no"/>nem dicitur, quod responsio ibi recitata bona est, sicut
+            pa<lb ed="#V" n="12" break="no"/>tet ex dictis ad quartum immediate praecedens.
+          </p>
+          <p xml:id="capsco-c374sc-d1e2045">
+            Nec valet
+            <lb ed="#V" n="13"/>replica contra illam responsionem, quia vt dictum fuit in
+            <lb ed="#V" n="14"/>probatione secundae conclusionis, realitas &amp; entitas in
+            re<lb ed="#V" n="15" break="no"/>rum natura aliter conuenit relationi quam alijs
+            praedica<lb ed="#V" n="16" break="no"/>mentis. Ipsa enim non habet ex sua ratione precisa
+            quid<lb ed="#V" n="17" break="no"/>ditatem naturalem, nec esse realem. De hoc satis dictum
+            <lb ed="#V" n="18"/>fuit primo sententiarum.
+          </p>
+          <p xml:id="capsco-c374sc-d1e2061">
+            Item de hoc Sanctus Thomas
+            <lb ed="#V" n="19"/>tertio sententiarum, vbi supra in secundo loco arguit sic.
+            <lb ed="#V" n="20"/>Relatiua sunt quorum esse est ad alterum se habere, sed esse
+            <lb ed="#V" n="21"/>filiationis aeternae non est ad matrem Christi se habere,
+            <lb ed="#V" n="22"/>ergo per eam non refertur ad matrem, sed aliqua
+            filiatio<lb ed="#V" n="23" break="no"/>ne refertur ad matrem. ergo in Christo sunt duae
+            filiatio<lb ed="#V" n="24" break="no"/>nes. Et respondet. Dictum, inquit, quod philosophus
+            <lb ed="#V" n="25"/>non accipit esse secundum quod dicitur actus entis, sic
+            <lb ed="#V" n="26"/>enim relatio non habet esse ex eo, ad quod dicitur, sed ex
+            <lb ed="#V" n="27"/>subiecto, sicut omnia alia accidentia, sed accipit esse
+            pro<lb ed="#V" n="28" break="no"/>quidditate vel ratione, quam significat diffinitio, non
+            au<lb ed="#V" n="29" break="no"/>tem relationis est ex respectu ad alterum &amp;c.
+          </p>
+          <p xml:id="capsco-c374sc-d1e2087">
+            Item nono
+            <lb ed="#V" n="30"/>quolibet. quaestio secunda, artic. 3. arguit sic. Filius est
+            rela<lb ed="#V" n="31" break="no"/>tiuum secundum esse, &amp; non secundum dici, sed
+            huiusmo<lb ed="#V" n="32" break="no"/>di relatiua secundum philosophum in praedicamentis sunt
+            <lb ed="#V" n="33"/>quorum esse est ad aliud se habere, ergo esse filiationis est
+            <lb ed="#V" n="34"/>esse respectus, quo refertur ad aliud, &amp; ita si sunt plures
+            <lb ed="#V" n="35"/>respectus, sunt plures filiationes. Eccerrgumentum.
+            Se<lb ed="#V" n="36" break="no"/>quitur responsio. Dictum, inquit, quod in illa descriptione
+            <lb ed="#V" n="37"/>philosophi esse ponitur pro ratione essendi secundum
+            <lb ed="#V" n="38"/>quod diffinitio dicitur oratio significans quid esse rei.
+            Vn<lb ed="#V" n="39" break="no"/>de non oportet quod relatio habeat esse realiter ex
+            respe<lb ed="#V" n="40" break="no"/>ctu, sed ex causa respectus, ex respectu vero habet
+            pro<lb ed="#V" n="41" break="no"/>priam rationem generis &amp; speciei. Haec ille.
+          </p>
+          <p xml:id="capsco-c374sc-d1e2117">
+            Ex quibus
+            pa<lb ed="#V" n="42" break="no"/>tet primo, quod nullum accidens habet ex sua
+            quiddita<lb ed="#V" n="43" break="no"/>te sufficiens principium suae realitatis, &amp; sui esse,
+            immo<lb ed="#V" n="44" break="no"/>principaliter causatur ex subiecto. secundo quod relatio
+            <lb ed="#V" n="45"/>nec ex sua quidditate, nec ex suo subiecto precise habet
+            <lb ed="#V" n="46"/>realitatem, nisi concurrat reale fundamentum, &amp; quaedam
+            <lb ed="#V" n="47"/>alia primo sententiarum dicta de quibus vide Sanctum
+            <lb ed="#V" n="48"/>Thomam de potentia Dei. quaest. secunda, articulo quinto.
+          </p>
+          <p xml:id="capsco-c374sc-d1e2135">
+            <lb ed="#V" n="49"/>Ad secundam improbationem illius, quod tenet nostra
+            po<lb ed="#V" n="50" break="no"/>sitio dicitur. quod inter duos terminos non potest esse
+            <lb ed="#V" n="51"/>multiplex via absoluta, &amp; ideo idem est motus, quem
+            cau<lb ed="#V" n="52" break="no"/>sat mouens &amp; recipit mobile, tamen inter illa sunt plures
+            <lb ed="#V" n="53"/>viae relatiue, sicut actio &amp; passio in esse reali, &amp; multo plus
+            <lb ed="#V" n="54"/>in esse rationis. Nec valet quod dicit arguens, quia sicut
+            <lb ed="#V" n="55"/>dictum fuit in solutione. 6. Scoti &amp; alibi plurificatis
+            ter<lb ed="#V" n="56" break="no"/>minis plurificantur respectus secundum rationem, non
+            <lb ed="#V" n="57"/>tamen semper secundum rem.
+          </p>
+          <p xml:id="capsco-c374sc-d1e2157">
+            Ad confirmationem
+            ne<lb ed="#V" n="58" break="no"/>gatur antecedens, quia aliunde relatio habet rationem
+            sui<lb ed="#V" n="59" break="no"/>generis vel speciei, &amp; aliunde realitatem, sicut dictum fuit
+            <lb ed="#V" n="60"/>superius. vnde plurificatio rationis per intellectum non
+            <lb ed="#V" n="61"/>infert plurificationem in re.
+          </p>
+          <p xml:id="capsco-c374sc-d1e2168">
+            Ad tertiam improbationem
+            <lb ed="#V" n="62"/>dicitur, quod in tali casu argumenti quandiu manet
+            ali<lb ed="#V" n="63" break="no"/>quis plurium filiorum vnius patris, paternitate vnius
+            spe<lb ed="#V" n="64" break="no"/>ciei non tollitur nec corrumpitur aliqua realis paternitas
+            <lb ed="#V" n="65"/>in patre, sed solum respectus eius ad hunc vel illum in esse
+            <lb ed="#V" n="66"/>rationis, donec omnes filiationes deficiant.
+          </p>
+          <p xml:id="capsco-c374sc-d1e2181">
+            Ad quartam
+            im<lb ed="#V" n="67" break="no"/>probationem dicitur, quod peccat per fallentiam
+            conse<lb ed="#V" n="68" break="no"/>quentis, quia licet in patre generante secundum filium fiat
+            <lb ed="#V" n="69"/>aliqua mutatio, tamen oportet quod illa mutatio fiat per
+            <lb ed="#V" n="70"/>acquisitionem alicuius nouae relationis realis, aut realis
+            <lb ed="#V" n="71"/>paternitatis. Sufficit enim quod mutetur in esse
+            reali<lb ed="#V" n="72" break="no"/>per aliquid absolutum, vel per aliquam nouam
+            actio<lb ed="#V" n="73" break="no"/>nem, &amp; in esse rationis mutetur acquirendo nouum
+            respe<lb ed="#V" n="74" break="no"/>ctum primae paternitati reali. Alias sequeretur quod dum
+            <lb ed="#V" n="75"/>generatur aliqua stilla vel gutta aqua pluuialis, omnes
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="76"/>guttae maris illi aequales in quantitate vel similes in
+            quali<lb ed="#V" n="77" break="no"/>tate acquirerent nouam relationem realem, &amp; multa alia
+            <lb ed="#V" n="78"/>inconuenientia. Sed nimirum si arguens talia adducit
+            <lb ed="#V" n="79"/>quia ipse primo sententiarum determinat nullam
+            relatio<lb ed="#V" n="80" break="no"/>nem esse ens reale.
+          </p>
+          <p xml:id="capsco-c374sc-d1e2216">
+            Ad sextum dicitur primo, quod
+            San<lb ed="#V" n="81" break="no"/>ctus Thomas hoc posuit tertio sententiarum, sicut
+            alle<lb ed="#V" n="82" break="no"/>gatum fuit in solutione. 4. Aureotes sed in summa nusquam
+            <lb ed="#V" n="83"/>ponit hoc, nec in quinto metaphysicae in c. de ad aliquid
+            <lb ed="#V" n="84"/>immo sic ibi dicit. Relatiuorum quae dicuntur secundum
+            <lb ed="#V" n="85"/>potentiam actiuam &amp; passiuam attenditur diuersitas
+            se<lb ed="#V" n="86" break="no"/>cundum diuersa tempora. Quaedam enim dicuntur
+            re<lb ed="#V" n="87" break="no"/>latiue secundum tempus praeteritum, sicut quod fecit ad
+            <lb ed="#V" n="88"/>id quod factum est, vt pater ad filium, quia hic genuit,
+            il<lb ed="#V" n="89" break="no"/>le genitus est, quae differunt secundum fecisse &amp; passum
+            <lb ed="#V" n="90"/>esse, quaedam vero secundum tempus futurum, sicut
+            sa<lb ed="#V" n="91" break="no"/>cturus refertur ad faciendum &amp;c.
+          </p>
+          <p xml:id="capsco-c374sc-d1e2243">
+            Item quarto
+            sententia<lb ed="#V" n="92" break="no"/>rum distinctione 41. quaestio. prima, artieulo primo.
+            quae<lb ed="#V" n="93" break="no"/>stiuncula secunda sic uicit. Relatio aliqua desinit esse
+            du<lb ed="#V" n="94" break="no"/>pliciter. vno modo ex corruptione subiecti. alio modo ex
+            <lb ed="#V" n="95"/>subtractione esse, sicut similitudo esse desinit quando
+            al<lb ed="#V" n="96" break="no"/>ter similium moritur, vel quando qualitas quae erat causa
+            <lb ed="#V" n="97"/>similitudinis subtrahitur. Sunt autem quaedam
+            relatio<lb ed="#V" n="98" break="no"/>nes quae habent pro causa actionem vel passionem, aut
+            <lb ed="#V" n="99"/>motum vt in quinto metaphysice dicitur, quarum
+            quae<lb ed="#V" n="100" break="no"/>dam causantur ex motu inquantum aliquid mouetur
+            <lb ed="#V" n="101"/>actu, sicut ipsa relatio, quae est mouentis &amp; moti.
+            Quae<lb ed="#V" n="102" break="no"/>dam autem inquantum habent aptitudinem ad motum,
+            <lb ed="#V" n="103"/>sicut motiuum &amp; mobile, dominus &amp; seruus. Quaedam
+            <lb ed="#V" n="104"/>autem ex hoc, quod aliquid prius motum est sicut pater,
+            <lb ed="#V" n="105"/>&amp; filius, non ex hoc, quod est generari nunc adinuicem
+            <lb ed="#V" n="106"/>dicuntur, sed ex hoc quod est generatum esse. Aptitudo
+            <lb ed="#V" n="107"/>autem ad motum &amp; ipsum moueri transit, sed motum
+            es<lb ed="#V" n="108" break="no"/>se perpetuum est, quia quod factum est nunquam desinit
+            <lb ed="#V" n="109"/>esse factum, &amp; ideo paternitas &amp; filiatio nunquam per
+            <lb ed="#V" n="110"/>subtractionem causae destruuntur, sed solum per
+            corru<lb ed="#V" n="111" break="no"/>ptionem subiecti per alterutrum extremorum. Et
+            simili<lb ed="#V" n="112" break="no"/>ter dicendum est de affinitate, quae causatur ex hoc quod
+            <lb ed="#V" n="113"/>aliqui coniuncti sunt, non ex hoc quod coniunguntur
+            <lb ed="#V" n="114"/>&amp;c. Similia dicit in multis alijs locis, scilicet quod
+            pater<lb ed="#V" n="115" break="no"/>nitas fundatur in actione praeterita, &amp; non in aliquo
+            prae<lb ed="#V" n="116" break="no"/>senti derelicto ex tali actione, &amp; ideo non est necesse in
+            <lb ed="#V" n="117"/>praesenti proposito illud dictum tertij sententiarum
+            su<lb ed="#V" n="118" break="no"/>stinere. Si quis tamen velit illud dictum sustinere,
+            po<lb ed="#V" n="119" break="no"/>test dicere ad hoc argumentum, quod id quod
+            relin<lb ed="#V" n="120" break="no"/>quitur ex generatione in patre, potest dici quaedam
+            au<lb ed="#V" n="121" break="no"/>ctoritas principij respectu filij, vel potestas, aut ius. Et
+            <lb ed="#V" n="122"/>ad huius improbationem primam dicitur, quod
+            conse<lb ed="#V" n="123" break="no"/>quentia non valet, quia licet generatio multiplicetur in
+            <lb ed="#V" n="124"/>Christo, non tamen subiectum relationis, immo nec est
+            <lb ed="#V" n="125"/>ibi subiectum capax temporalis filiationis, vt saepius
+            di<lb ed="#V" n="126" break="no"/>ctum fuit.
+          </p>
+          <p xml:id="capsco-c374sc-d1e2321">
+            Ad secundam improbationem dicitur, quod
+            <lb ed="#V" n="127"/>tenens hoc dictum habet dicere, quod ille respectus, in
+            <lb ed="#V" n="128"/>quo fundatur paternitas non est aliud realiter a
+            paterni<lb ed="#V" n="129" break="no"/>tate, sed solum secundum rationem. Relatio enim relicta
+            <lb ed="#V" n="130"/>a generatione actiua in patre potest considerari, vt in
+            ha<lb ed="#V" n="131" break="no"/>bitu, &amp; sic fundat, vel vt in actu, &amp; sic fundatur, vel
+            se<lb ed="#V" n="132" break="no"/>cundum modum loquendi venerabilis domini
+            Alberti<lb ed="#V" n="133" break="no"/>potest considerari vel concepta &amp; sic fundat, vel vt
+            exerci<lb ed="#V" n="134" break="no"/>ta, &amp; sic fundatur. Aliter quia potest considerari in
+            natu<lb ed="#V" n="135" break="no"/>ra accidentis, inhaerentis, &amp; quo ad suum inesse, &amp; sic
+            fun<lb ed="#V" n="136" break="no"/>dat, vel quo ad naturam relationis, &amp; ad aliquid, &amp;
+            <lb ed="#V" n="137"/>sic fundatur. Aliter, quia potest comparari ad suum
+            <lb ed="#V" n="138"/>subiectum, &amp; sic fundat, vel ad suum terminum, &amp;
+            <lb ed="#V" n="139"/>sic fundatur. Et multis alijs modis potest illud
+            di<lb ed="#V" n="140" break="no"/>ctum sustineri, licet non sit necesse illud sustineri, quia
+            <lb ed="#V" n="141"/>standum est semper in talibus vltimae determinationi, quae
+            <lb ed="#V" n="142"/>habetur in summa.
+          </p>
+          <p xml:id="capsco-c374sc-d1e2358">
+            Ad primum Durandus negatur minor,
+            <lb ed="#V" n="143"/>quia in casu illo licet non fieret realis mutatio circa
+            perso<lb ed="#V" n="144" break="no"/>nam verbi, fieret tamen realis mutatio circa naturam, quam
+            <lb ed="#V" n="145"/>deponeret, &amp; illa natura nouum esse, &amp; nouum
+            supposi<lb ed="#V" n="146" break="no"/>tum acciperet, vt alias dictum fuit.
+          </p>
+          <p xml:id="capsco-c374sc-d1e2369">
+            Ad secundum
+            ne<lb ed="#V" n="147" break="no"/>gatur minor, quia relatio filiationis non consurgit in
+            <lb ed="#V" n="148"/>alijs filijs, propter solam dependentiam filij ad
+            ma<lb ed="#V" n="149" break="no"/>trem, sed ideo quia natura accepta a matre
+            consti<lb ed="#V" n="150" break="no"/>tuit suppositum capax talis relationis, vel est in tali
+            sup<pb ed="#V" n="79"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>supposito, non sic autem est in Christo, quia humanitas,
+            <lb ed="#V" n="2"/>quam accipit a matre per generationem nullum
+            supposi<lb ed="#V" n="3" break="no"/>tum constituit.
+          </p>
+          <p xml:id="capsco-c374sc-d1e2389">
+            Ad tertium negatur maior, quia non
+            pro<lb ed="#V" n="4" break="no"/>pter aliquod illorum ibidem adductorum negatur
+            du<lb ed="#V" n="5" break="no"/>plex filiatio in Christo, sicut dictum est in solutione primi
+            <lb ed="#V" n="6"/>Scoti. Cum autem ibi adducitur, quod supposito aeterno
+            <lb ed="#V" n="7"/>adueniunt ex tempore accidentia absoluta &amp;c. Dicitur
+            <lb ed="#V" n="8"/>quod consequentia non valet, quia suppositum aeternum
+            <lb ed="#V" n="9"/>secundum se non est capax alicuius accidentis, nisi
+            pro<lb ed="#V" n="10" break="no"/>quanto natura sibi vnita capax est accidentis absoluti, non
+            <lb ed="#V" n="11"/>autem filiationis, licet multorum aliorum respectuum sit
+            <lb ed="#V" n="12"/>capax illo modo, quo ponit secunda conclusio, &amp; multae
+            <lb ed="#V" n="13"/>solutiones praecedentes.
+          </p>
+          <p xml:id="capsco-c374sc-d1e2413">
+            Ad quartum patet responsio per
+            <lb ed="#V" n="14"/>dicta ad primum Aureotiaus &amp; ad multa praecedentia, quia
+            <lb ed="#V" n="15"/>vltima consequentia peccat per fallaciam consequentis.
+            <lb ed="#V" n="16"/>Non enim omnis relatio realis geniti ad generans, vel
+            ori<lb ed="#V" n="17" break="no"/>ginati ad originans est filiatio.
+          </p>
+          <p xml:id="capsco-c374sc-d1e2425">
+            Ad quintum patet
+            respon<lb ed="#V" n="18" break="no"/>sio per dicta ad quartum &amp; quintum Scoti non enim
+            plu<lb ed="#V" n="19" break="no"/>rificatio causae efficientis arguit plurificationem effectus,
+            <lb ed="#V" n="20"/>nisi ad sit passum capax multiplicis formae, quod non
+            con<lb ed="#V" n="21" break="no"/>uenit in proposito, quia in Christo nihil est capax
+            filiatio<lb ed="#V" n="22" break="no"/>nis realis temporalis. De responsione ibidem data dicitur,
+            <lb ed="#V" n="23"/>quod non est necesse illam sustinere, sicut dictum est in
+            so<lb ed="#V" n="24" break="no"/>lutione. 6. Aureotles quia illam Sanctus Thomas posuit in
+            pri<lb ed="#V" n="25" break="no"/>mis operibus, non autem in vltimis, &amp; sic significat se non
+            <lb ed="#V" n="26"/>illam approbare. Si quis tamen vult eam sustinere, potest
+            <lb ed="#V" n="27"/>respondere iuxta praedicta in solutione. 6. Aureolus Vnde ad
+            <lb ed="#V" n="28"/>primam improbationem potest dicere, quod paternitas
+            <lb ed="#V" n="29"/>vno modo fundatur super generationem, scilicet
+            loquen<lb ed="#V" n="30" break="no"/>do de fundamento reali, quod est causa sundati super
+            ip<lb ed="#V" n="31" break="no"/>sum. alio modo fundatur super aliquid derelictum ex
+            ge<lb ed="#V" n="32" break="no"/>neratione illo modo, quo in vna &amp; eadem re multiplici
+            se<lb ed="#V" n="33" break="no"/>cundum rationem ratio posterior fundatur in ratione
+            <lb ed="#V" n="34"/>priore.
+          </p>
+          <p xml:id="capsco-c374sc-d1e2464">
+            Ad secundam improbationem dicitur, quod in
+            di<lb ed="#V" n="35" break="no"/>uinis pater habet auctoritatem respectu filij, &amp; dicitur
+            <lb ed="#V" n="36"/>principium eius, filius vero dicitur de principio, licet ibi
+            <lb ed="#V" n="37"/>non sit ius, nec subiectio.
+          </p>
+          <p xml:id="capsco-c374sc-d1e2473">
+            Ad tertiam improbationem
+            pa<lb ed="#V" n="38" break="no"/>tet per idem, quia non dicimus quod in diuinis sit ius aut
+            <lb ed="#V" n="39"/>subiectio, sed paternitas &amp; filiatio, quae possunt dici
+            fun<lb ed="#V" n="40" break="no"/>data in relatione principij, &amp; eius quod est de principio,
+            <lb ed="#V" n="41"/>sicut habetur primo sen. dist. 29.
+          </p>
+          <p xml:id="capsco-c374sc-d1e2484">
+            Ad confirmationem
+            pa<lb ed="#V" n="42" break="no"/>tet per praedicta, quia in brutis est principium &amp;
+            principia<lb ed="#V" n="43" break="no"/>tum, inter bruta nihilominus est ius naturale, vt ostendit
+            <lb ed="#V" n="44"/>Sanctus Thomas secunda secundae q. 57. artic. tertio. Cum
+            <lb ed="#V" n="45"/>autem dicit arguens de filia &amp; filiata, non valet, quia
+            neu<lb ed="#V" n="46" break="no"/>trum illorum dicitur de re non subsistente, quantumcunque
+            <lb ed="#V" n="47"/>sit nata vel genita, alias pes posset dici filius vel filiatus. Ad
+            <lb ed="#V" n="48"/>sextum dicitur quod peccat per fallaciam consequentis,
+            <lb ed="#V" n="49"/>quia licet in Christo sit realis relatio originis ad matrem,
+            <lb ed="#V" n="50"/>non tamen dicitur filiatio.
+          </p>
+          <p xml:id="capsco-c374sc-d1e2506">
+            Ad argumentum pro
+            quaestio<lb ed="#V" n="51" break="no"/>ne respondit Sanctus Thomas tertia parte. quaest. 35. art. 5.
+            <lb ed="#V" n="52"/>in solu. secundi dicens. Filiatio aeterna non dependet a
+            ma<lb ed="#V" n="53" break="no"/>tre temporali, sed huic filiationi aeternae cointelligitur
+            qui<lb ed="#V" n="54" break="no"/>dam respectus temporalis dependens a matre, secundum
+            <lb ed="#V" n="55"/>quem Christus dicitur filius matris. Haec ille. Et haec de
+            <lb ed="#V" n="56"/>quaestione sufficiant. De qua benedictus Deus. Amen.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

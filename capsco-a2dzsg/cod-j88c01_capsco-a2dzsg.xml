@@ -1,0 +1,625 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 1, Distinctio 25, Quaestio 1</title>
+        <author ref="#JohannesCapreolus">Johannes Capreolus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 1, Distinctio 25, Quaestio 1</title>
+          <date when="2026-11-04">Nov 4, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-j88c01">Venice, 1589, v. 1</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-04" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="371"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="capsco-a2dzsg"><!-- l1d25q1 -->
+        <head xml:id="capsco-a2dzsg-Hd1e101">Quaestio 1</head>
+        <head xml:id="capsco-a2dzsg-Hd1e103" type="question-title">Utrum persona in divinis dicat, quid commune tribus personis, quod in eis plurificetur</head>
+        <p xml:id="capsco-a2dzsg-d1e106">
+          <lb ed="#V" n="28"/>DISTINCTIO XXV
+          <lb ed="#V" n="29"/>QVAESTIO
+          <lb ed="#V" n="30"/>Vtrum persona in diuinis dicat, quid
+          com<lb ed="#V" n="31" break="no"/>muae tribus personis, quod in eis
+          <lb ed="#V" n="32"/>psurificetur.
+        </p>
+        <p xml:id="capsco-a2dzsg-d1e119">
+          <lb ed="#V" n="33"/><milestone ed="#V" unit="p" rend="initial"/> CIRCA vigesimam quintam
+          distin<lb ed="#V" n="34" break="no"/>ctionem quaeritur. Vtrum persona
+          di<lb ed="#V" n="35" break="no"/>cat in diuinis, quid commune tribus
+          <lb ed="#V" n="36"/>personis, quod plurificetur in eis.
+        </p>
+        <p xml:id="capsco-a2dzsg-d1e131">
+          Et
+          <lb ed="#V" n="37"/>arguitur quod non, quia si ratio
+          per<lb ed="#V" n="38" break="no"/>sonae esset communis tribus,
+          oporte<lb ed="#V" n="39" break="no"/>ret poni sextum praedicabile. nam
+          per<lb ed="#V" n="40" break="no"/>sona non esset genus, cum non habeat
+          <lb ed="#V" n="41"/>species, cum non habeat indiuidua, nec differentia, cum
+          <lb ed="#V" n="42"/>non constituat speciem, nec proprium, nec accidens, cum
+          <lb ed="#V" n="43"/>in Deo non sit accidens proprium aut commune, sed
+          con<lb ed="#V" n="44" break="no"/>sequens est falsum, &amp; contra Porphirium, qui solum
+          po<lb ed="#V" n="45" break="no"/>nit sex praedicabilia.
+          <lb ed="#V" n="46"/>I oppositum arguitur sic. Nam secundum
+          Augusti<lb ed="#V" n="47" break="no"/>Anum septimo, de trinitate. cum quaeritur quid tres,
+          re<lb ed="#V" n="48" break="no"/>sponsum est tres personae, quia commune est eis id, quod
+          <lb ed="#V" n="49"/>est persona &amp;c.
+        </p>
+        <p xml:id="capsco-a2dzsg-d1e163">
+          <lb ed="#V" n="50"/><milestone ed="#V" unit="p" rend="indent"/> In hac quaestione erunt duo articuli. In primo
+          ponen<lb ed="#V" n="51" break="no"/>tur conclusiones. In secundo mouebuntur
+          dubita<lb ed="#V" n="52" break="no"/>iones
+        </p>
+        <div xml:id="capsco-a2dzsg-Dd1e173">
+          <head xml:id="capsco-a2dzsg-Hd1e175">Articulus 1</head>
+          <p xml:id="capsco-a2dzsg-d1e177">
+            <lb ed="#V" n="53"/><milestone ed="#V" unit="p" rend="initial"/> Vantum ad primum sit prima conclusio. Persona de
+            <lb ed="#V" n="54"/>suo formali significato significat indiuiduum, vel
+            sup<lb ed="#V" n="55" break="no"/>pontum naturae rationalis. Istam conclusionem probat Sanctus
+            <lb ed="#V" n="56"/>Thomas 1. par. q. 29. art. 1. &amp; 2. Arti. primo exponit diffinitionem
+            <lb ed="#V" n="57"/>Boetij de libro de duabus naturis, quam dat de persona
+            <lb ed="#V" n="58"/>dicens. Persona est rationalis naturae indiuidua substantia
+            <lb ed="#V" n="59"/>dicit enim ibidem Sanctus Thomas quod ibi ly substantia stat pro prima
+            <lb ed="#V" n="60"/>substantia, &amp; pro secunda communiter, sed per ly
+            indiui<lb ed="#V" n="61" break="no"/>dua trahitur ad standum pro substantia prima, quae est
+            hy<lb ed="#V" n="62" break="no"/>postasis, &amp; per hoc remouetur anima separata, quae licet sit
+            <lb ed="#V" n="63"/>rationalis naturae substantia, tamen quia est pars humanae
+            <lb ed="#V" n="64"/>speciei, &amp; retinet naturam vnibilitatis, non potest dici
+            sub<lb ed="#V" n="65" break="no"/>stantia indiuidua, quae est hypostasis, vel substantia prima,
+            <lb ed="#V" n="66"/>sicut nec manus, nec pes, nec alia partium hominis, &amp; sic
+            <lb ed="#V" n="67"/>non competit ei diffinitio personae, neque nomen. vnde
+            si<lb ed="#V" n="68" break="no"/>cut dicit Sanctus Doctor prima parte. q. 75. articu. 2. ad
+            pri<lb ed="#V" n="69" break="no"/>mum. Quia hoc aliquid potest accipi dupliciter. Vno
+            mo<lb ed="#V" n="70" break="no"/>do pro quocunque subsistente, &amp; isto modo excludit
+            inhae<cb ed="#V" n="b"/><lb ed="#V" n="71" break="no"/>rentiam accidentis, &amp; formae materialis. Alio modo
+            proo<lb ed="#V" n="72" break="no"/>subsistente completo in natura alicuius speciei, &amp; isto
+            mo<lb ed="#V" n="73" break="no"/>do excludit etiam imperfectionem partis. vnde manus
+            pos<lb ed="#V" n="74" break="no"/>set dici hoc aliquid primo modo, sed non secundo modo.
+            <lb ed="#V" n="75"/>Sic ergo cum anima humana sit pars speciei humanae
+            po<lb ed="#V" n="76" break="no"/>test dici hoc aliquid primo modo, sed non secundo, sic enim
+            <lb ed="#V" n="77"/>compositum ex corpore, &amp; anima dicitur hoc aliquid.
+            <lb ed="#V" n="78"/>Haec ille.
+          </p>
+          <p xml:id="capsco-a2dzsg-d1e238">
+            Item arti. 3. ad secundum dicit. Non quaelibet
+            sub<lb ed="#V" n="79" break="no"/>stantia particularis est hypostasis, vel persona, sed quae
+            ha<lb ed="#V" n="80" break="no"/>bet completam natutam speciei. vnde manus, vel pes non
+            <lb ed="#V" n="81"/>potest dici hypostasis, vel persona, &amp; similiter nec anima,
+            <lb ed="#V" n="82"/>cum sit pars humanae speciei. Haec ille.
+          </p>
+          <p xml:id="capsco-a2dzsg-d1e249">
+            Sic ergo patet, quod in
+            <lb ed="#V" n="83"/>diffinitione personae ly indiuidua substantia stat pro
+            hy<lb ed="#V" n="84" break="no"/>postasi subsistenti, quae dicitur prima substantia, &amp; hoc
+            ali<lb ed="#V" n="85" break="no"/>quid, per quod etiam remouetur natura humana
+            assum<lb ed="#V" n="86" break="no"/>pta, quae non dicitur persona, quia non est indiuidua
+            sub<lb ed="#V" n="87" break="no"/>stantia, hoc est substantia prima. Et sic primum membrum
+            <lb ed="#V" n="88"/>diffinitionis.
+          </p>
+          <p xml:id="capsco-a2dzsg-d1e265">
+            <lb ed="#V" n="89"/><milestone ed="#V" unit="p" rend="indent"/> Natura autem, quae ponitur in diffinitione
+            perso<lb ed="#V" n="90" break="no"/>nae non sumitur pro generatione viuentis, quae potest
+            <lb ed="#V" n="91"/>dici natura, nec principio intrinseco motus aut quietis,
+            <lb ed="#V" n="92"/>quod etiam potest dici natura sed pro essentia completa,
+            <lb ed="#V" n="93"/>quam significat diffinitio rei. vnde conuenientius posuit
+            <lb ed="#V" n="94"/>Boetius in diffinitione illa nomen naturae, quam essentiae
+            <lb ed="#V" n="95"/>quia essentia sumitur ab esse, quod est communissimum
+            <lb ed="#V" n="96"/>sed natura a propria forma. Rationale autem ponitur in
+            <lb ed="#V" n="97"/>diffinitione naturae, non prout est differentia hominis, nec
+            <lb ed="#V" n="98"/>prout dicit rationem solum, quae discursum importat
+            con<lb ed="#V" n="99" break="no"/>sequentem intellectualem naturam. Sic ergo patet ex
+            diffi<lb ed="#V" n="100" break="no"/>nitione personae date a Boetio conclusionis propositae
+            ve<lb ed="#V" n="101" break="no"/>ritas.
+          </p>
+          <p xml:id="capsco-a2dzsg-d1e298">
+            Secunda conclusio. Nomen personae proprie dicitur
+            <lb ed="#V" n="102"/>de diuinis. Istam probat Sanctus Doctor prima parte. q. 20
+            <lb ed="#V" n="103"/>art. 3. Persona(inquit) significat illud, quod est
+            perfectissi<lb ed="#V" n="104" break="no"/>mum in tota natura, scilicet subsistens in natura
+            rationa<lb ed="#V" n="105" break="no"/>li, &amp; cum omne illud, quod est perfectionis sit Deo
+            attri<lb ed="#V" n="106" break="no"/>buendum, eo quod eius essentia continet in se omnem
+            p<lb ed="#V" n="107" break="no"/>fectionem, conueniens est, vt hoc nomen persona de Deo
+            <lb ed="#V" n="108"/>dicatur, non tamen eo modo quo dicitur de creaturis, sed
+            <lb ed="#V" n="109"/>excellentiori modo, sicut &amp;alia nomina quae creaturis a
+            no<lb ed="#V" n="110" break="no"/>bis imposita Deo attribuuntur. Haec ille.
+          </p>
+          <p xml:id="capsco-a2dzsg-d1e320">
+            Tertia conclusio.
+            <lb ed="#V" n="111"/>Hoc nomen persona de significato materiali significat in
+            <lb ed="#V" n="112"/>diuinis essentiam, &amp; relationem, &amp; vtrunque in recto, &amp;
+            <lb ed="#V" n="113"/>in obliquo. Istam conclusionem probat Sanctus Doctor prima
+            <lb ed="#V" n="114"/>parte. q. 29. art. 4. vbi sic ait. Aliquid(inquit) est de
+            significa<lb ed="#V" n="115" break="no"/>tione minus communis, quod tamen non est de
+            significa<lb ed="#V" n="116" break="no"/>tione magis communis, rationale enim includitur in
+            signifi<lb ed="#V" n="117" break="no"/>catione hominis, quod tamen non est de significatione animalis. Vnde
+            <lb ed="#V" n="118"/>aliud est, quaerere de significatione animalis, quod est homo, &amp;
+            <lb ed="#V" n="119"/>aliud de significatione animalis in communi, &amp; similiter
+            <lb ed="#V" n="120"/>aliud est quaerere de significatione huius nominis persona
+            <lb ed="#V" n="121"/>in communi, &amp; aliud de significatione personae diuinae,
+            p<lb ed="#V" n="122" break="no"/>sona enim in communi significat substantiam indiuiduam
+            <lb ed="#V" n="123"/>naturae rationalis, vt dictum est. Indiuiduum autem est,
+            <lb ed="#V" n="124"/>quod est in se indiuisum, vel indistinctum, ab aliis vero
+            di<lb ed="#V" n="125" break="no"/>stinctum. Persona igitur in quacunque natura significat
+            il<lb ed="#V" n="126" break="no"/>lud quod est distinctum in natura illa, sicut in natura
+            hu<lb ed="#V" n="127" break="no"/>mana significat has carnes, &amp; haec ossa, &amp; hanc animam,
+            <lb ed="#V" n="128"/>quae sunt principia indiuiduantia hominem, quae quidem
+            <lb ed="#V" n="129"/>licet non sint de significatione personae, sunt tamen de
+            si<lb ed="#V" n="130" break="no"/>gnificatione humanae personae. Distinctio autem in
+            diui<lb ed="#V" n="131" break="no"/>nis non fit nisi per relationes originis, relatio autem in
+            di<lb ed="#V" n="132" break="no"/>uinis non est sicut accidens inherens alicui subiecto, sed
+            <lb ed="#V" n="133"/>est ipsa diuina essentia. vnde est subsistens sicut, &amp; essentia
+            <lb ed="#V" n="134"/>diuina subsistit, sicut igitur diuinitas est Deus, ita
+            paterni<lb ed="#V" n="135" break="no"/>tas diuina est Deus pater qui est persona diuina, persona
+            <lb ed="#V" n="136"/>enim diuina significat relationem, vt subsistentem, hoc est
+            <lb ed="#V" n="137"/>significare relationem per modum substantiae, quae est
+            hy<lb ed="#V" n="138" break="no"/>postasis subsistens in natura diuina, &amp; secundum hoc
+            ve<lb ed="#V" n="139" break="no"/>rum est, quod hoc nomen persona significat relationem
+            <lb ed="#V" n="140"/>in recto, &amp; essentiam in obliquo, non tamen relationem
+            <lb ed="#V" n="141"/>inquantum est relatio, sed inquantum significatur per
+            <lb ed="#V" n="142"/>modum hypostasis. Similiter etiam significat
+            essen<lb ed="#V" n="143" break="no"/>tiam in recto, &amp; relationem in obliquo, inquantum
+            <lb ed="#V" n="144"/>essentia est idem, quod hypostasis, hypostasis autem
+            <lb ed="#V" n="145"/>significatur in diuinis, vt relatione distincta, &amp; similiter
+            <pb ed="#V" n="372"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>relatio per modum relationis significata cadit in ratione
+            <lb ed="#V" n="2"/>personae in oliquo, &amp; secundum hoc potest dici, quod
+            si<lb ed="#V" n="3" break="no"/>gnificatio huius nominis persona non erat percepta
+            an<lb ed="#V" n="4" break="no"/>te haereticorum calumniam, vnde non erat in vsu hoc
+            no<lb ed="#V" n="5" break="no"/>men persona nisi sicut vnum aliorum absolutorum, sed
+            <lb ed="#V" n="6"/>postea accommodatum est hoc nomen persona ad standum
+            <lb ed="#V" n="7"/>per relatiuo ex congruentia suae significationis, ut scilicet
+            <lb ed="#V" n="8"/>hoc, quod stat pro relatiuo non habeat solum ex vsu, sed
+            <lb ed="#V" n="9"/>etiam ex sua significatione. Haec ille.
+          </p>
+          <p xml:id="capsco-a2dzsg-d1e422">
+            <lb ed="#V" n="10"/><milestone ed="#V" unit="p" rend="indent"/> Item de potentia Dei. q. 9. articulo quarto, dicit. Hoc
+            <lb ed="#V" n="11"/>nomen persona (inquit) hoc habet commune cum
+            nomi<lb ed="#V" n="12" break="no"/>nibus absolutis in diuinis, quod de qualibet persona
+            prae<lb ed="#V" n="13" break="no"/>dicatur, &amp; secundum nomen ad aliud non refertur, cum
+            <lb ed="#V" n="14"/>nominibus vero relationem significantibus, quod
+            distin<lb ed="#V" n="15" break="no"/>guitur, &amp; pluraliter praedicatur, &amp; ideo videtur, quod
+            vtra<lb ed="#V" n="16" break="no"/>que significatio relatiui, &amp;absoluti pertineat ad personam
+            <lb ed="#V" n="17"/>qualiter autem vtraque significatio ad nomen personae
+            p<lb ed="#V" n="18" break="no"/>tineat diuersimode est a diuersis assignatum. Et post
+            mul<lb ed="#V" n="19" break="no"/>ta dicit. Ad euidentiam (inquit) huius quaestionis
+            scien<lb ed="#V" n="20" break="no"/>dum est, quod propria ratio nominis est, quam significat
+            <lb ed="#V" n="21"/>nomen secundum Philosophum 4. Metaphy. illud autem
+            <lb ed="#V" n="22"/>cui attribuitur nomen si sit recte sumptum sub re
+            significa<lb ed="#V" n="23" break="no"/>ta per nomen sicut determinatum sub indeterminato
+            di<lb ed="#V" n="24" break="no"/>citur supponi per nomen, si autem non sit recte sumptum
+            <lb ed="#V" n="25"/>sub re nominis, dicitur copulari per nomen, sicut hoc
+            no<lb ed="#V" n="26" break="no"/>men animal significat substantiam animatam sensibilem,
+            <lb ed="#V" n="27"/>&amp; album significat colorem disgregatiuum visus, homo
+            ve<lb ed="#V" n="28" break="no"/>ro recte sumitur sub ratione animalis sicut determinatum
+            <lb ed="#V" n="29"/>sub indeterminato, est enim homo substantia animata
+            sen<lb ed="#V" n="30" break="no"/>sibilis tali anima scilicet rationali, sub albo vero, quod est
+            <lb ed="#V" n="31"/>extra essentiam eius, non directe sumitur, vnde homo
+            sup<lb ed="#V" n="32" break="no"/>ponitur nomine animalis, copulatur vero nomine albi, &amp;
+            <lb ed="#V" n="33"/>quia inferius, quod supponitur per nomen commune se
+            <lb ed="#V" n="34"/>habet adcommune sicut determinatum ad indeterminatum
+            <lb ed="#V" n="35"/>illud, quod erat suppositum fit significatum
+            determinatio<lb ed="#V" n="36" break="no"/>ne addita ad commune, animal enim rationale significat
+            <lb ed="#V" n="37"/>hominem. Sed sciendum, quod aliquid significatur
+            dupli<lb ed="#V" n="38" break="no"/>citer. vno modo formaliter. alio modo materialiter.
+            Eor<lb ed="#V" n="39" break="no"/>maliter quidem significatur per nomen illud, ad quod
+            si<lb ed="#V" n="40" break="no"/>gnificandum nomen est principaliter impositum, quod est
+            <lb ed="#V" n="41"/>ratio nominis, sicut hoc nomen homo significat aliquid
+            <lb ed="#V" n="42"/>compositum ex corpore, &amp; anima rationali. Materialiter
+            <lb ed="#V" n="43"/>vero significatur per nomen illud, in quo talis ratio
+            salua<lb ed="#V" n="44" break="no"/>tur, sicut hoc nomen homo significat aliquid habens cor,
+            <lb ed="#V" n="45"/>&amp; cerebrum, &amp; huiusmodi partes sine quibus non potest esse
+            <lb ed="#V" n="46"/>corpus animatum anima rationali. secundum hoc ergo dicendum
+            <lb ed="#V" n="47"/>est, quod hoc nomen persona communiter sumptum nihil
+            a<lb ed="#V" n="48" break="no"/>liud significat, quam substantiam indiuiduam rationalis
+            na<lb ed="#V" n="49" break="no"/>turae, &amp; quia sub substantia indiuidua rationalis naturae
+            con<lb ed="#V" n="50" break="no"/>tinetur substantia indiuidua. 1. incommunicabilis, &amp; ab aliis
+            <lb ed="#V" n="51"/>distincta tam Dei, quam hominis &amp; quam angeli, oportet, quod
+            <lb ed="#V" n="52"/>persona diuina significet subsistens distinctum in natura
+            <lb ed="#V" n="53"/>diuina, sicut persona humana significat distinctum in
+            natu<lb ed="#V" n="54" break="no"/>ra humana, &amp; haec est formalis significatio tam personae
+            di<lb ed="#V" n="55" break="no"/>uinae, quam personae humanae. Sed quia distinctum
+            subsi<lb ed="#V" n="56" break="no"/>stens in natura humana non est nisi aliquid per
+            indiuidua<lb ed="#V" n="57" break="no"/>lem materiam indiuiduatum, &amp; ab aliis diuisum, vel
+            diuer<lb ed="#V" n="58" break="no"/>sum, ideo oportet, quod hoc sit materialiter significatum cum
+            <lb ed="#V" n="59"/>dicitur, persona humana. Distinctum vero incommunicabile
+            <lb ed="#V" n="60"/>in natura diuina non potest esse nisi relatio, quia omne
+            abso<lb ed="#V" n="61" break="no"/>lutum est commune, &amp; indistinctum in diuinis. Relatio
+            au<lb ed="#V" n="62" break="no"/>tem in Deo est idem secundum rem quod eius essentia, &amp; sicut
+            es<lb ed="#V" n="63" break="no"/>sentia in Deo idem est, quod habens essentiam, vt diuinitas, &amp;
+            <lb ed="#V" n="64"/>Deus, ita idem est relatio, &amp; quod per relationem refertur.
+          </p>
+          <p xml:id="capsco-a2dzsg-d1e545">
+            Vnde
+            <lb ed="#V" n="65"/>sequitur, quod idem relatio sit &amp;distinctum subsistens in
+            natu<lb ed="#V" n="66" break="no"/>ra diuina. Patet ergo, quod persona conter sumpta significat
+            <lb ed="#V" n="67"/>substantiam indiuiduam rationalis naturae. Persona vero diuina
+            <lb ed="#V" n="68"/>formali significatione signenat distinctum subsistens in
+            natu<lb ed="#V" n="69" break="no"/>ra diuina. Et quia hoc non potest esse nisi relatio, vel relatiuum
+            <lb ed="#V" n="70"/>ideo materiali significatione significat relationem, vel
+            rela<lb ed="#V" n="71" break="no"/>tiuum, &amp; propter hoc potest dici, quod significat relationem per
+            <lb ed="#V" n="72"/>modum substantiae, non quae est essentia, sed quae est
+            hypo<lb ed="#V" n="73" break="no"/>stasis, sicut &amp; relationem siganenat non vt relationem, sed vt
+            re<lb ed="#V" n="74" break="no"/>latum, i. vt significatur hoc nomine pater, non vt
+            significa<lb ed="#V" n="75" break="no"/>tur hoc nomine paternitas. Sic enim relatio signata includitur
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="76"/>oblique in significatione diuinae personae, quae nihil aliud
+            <lb ed="#V" n="77"/>est, quam distinctum relatione subsistensin diuina essentia.
+          </p>
+          <p xml:id="capsco-a2dzsg-d1e578">
+            <lb ed="#V" n="78"/>Quarta conclusio. Hoc nomen persona est cummune
+            diui<lb ed="#V" n="79" break="no"/>nis personis non secundum rem, sed secundum rationem. Istam ponit Sanct
+            <lb ed="#V" n="80"/>Doct. 1. sen. d. 25. q. 1. art. 3. vbi sic ait. Duplex(inquit) est
+            con<lb ed="#V" n="81" break="no"/>tas, silcetrei &amp; rationis, &amp; dico comnitatem rei, quando aliquid vnum,
+            <lb ed="#V" n="82"/>&amp; idem conuenit pluribus, &amp; talis communitas non est
+            ni<lb ed="#V" n="83" break="no"/>si in diuinis personis, nec aliqua talis communitas est in
+            tri<lb ed="#V" n="84" break="no"/>nitate nisi essentiae, &amp; eorum quae ad essentiam pertinent vt
+            <lb ed="#V" n="85"/>attributorum, &amp; operationum, &amp; negationum, &amp; relationum
+            es<lb ed="#V" n="86" break="no"/>sentialium. Comintas aut rationis est secundum quam persona dicitur comnius in
+            tri<lb ed="#V" n="87" break="no"/>nitate. Haec ille.
+          </p>
+          <p xml:id="capsco-a2dzsg-d1e602">
+            Et post pauca subdit. Contas rationis fundata
+            <lb ed="#V" n="88"/>in re est communitas personae, sicut dicimus, quod ratio
+            ani<lb ed="#V" n="89" break="no"/>malis est communis homini, &amp; asino. Sed ratio fundata in re est
+            <lb ed="#V" n="90"/>duplex, quia quaedam est communis sicut ratio animalis, &amp;
+            quae<lb ed="#V" n="91" break="no"/>dam est specialis, sicut ratio hominis, sic est etiam in diuinis,
+            <lb ed="#V" n="92"/>quia cum realiter sit ibi relatio, est ibi communis ratio relationis.
+            <lb ed="#V" n="93"/>Iterum cum ibi sit realiter paternitas, est ibi specialis ratio
+            <lb ed="#V" n="94"/>relationis. vnde relatio est cois paternitati, &amp; filiationi,
+            si<lb ed="#V" n="95" break="no"/>cut ratio communis rationibus specialibus, non tamen ex hoc sequitur,
+            <lb ed="#V" n="96"/>quod relatio sit uniuersale ad paternitatem, &amp; filiationem, qua
+            <lb ed="#V" n="97"/>omnem uniuersale est secundum aliud, &amp; aliud esse in suis inferioribus
+            <lb ed="#V" n="98"/>sed in diuinis non est nisi unum esse. vnde idem est esse
+            re<lb ed="#V" n="99" break="no"/>lationis in paternitate, &amp; filiatione, vnde communis ratio in diuinis
+            <lb ed="#V" n="100"/>non potest distingui per esse, sed solum per speciales rationes, &amp; inde
+            <lb ed="#V" n="101"/>est, quod nihil vnum secundum spalem rationem potest numero
+            multi<lb ed="#V" n="102" break="no"/>plicari in diuinis. ita dico de psona, quod persona in diuinis
+            si<lb ed="#V" n="103" break="no"/>gnificat conter rationem distincti subsistentis in tali natura,
+            <lb ed="#V" n="104"/>&amp; prtr signeiat rationem spanlem distincti speciali relatione
+            subsi<lb ed="#V" n="105" break="no"/>stentis in natura communi, &amp; similiter filius, &amp; inde est, quod persona
+            <lb ed="#V" n="106"/>secundum rem non est communis patri, &amp; filio, quia non est una
+            nume<lb ed="#V" n="107" break="no"/>ro persona vtriusque sicut una numero essentia, sed sicut
+            ha<lb ed="#V" n="108" break="no"/>bens rationem communem est commune habentibus rationes speciales, &amp;
+            pro<lb ed="#V" n="109" break="no"/>prias, quibus distinguuntur, nec tamen est uniuersale, quia non
+            <lb ed="#V" n="110"/>est secundum aliud, &amp; aliud esse in patre, &amp; filio. Haec ille. Idem
+            po<lb ed="#V" n="111" break="no"/>nit 1. par. q. 30. art. 4.
+          </p>
+          <p xml:id="capsco-a2dzsg-d1e658">
+            Quinta conclusio. Comnitas personae non
+            <lb ed="#V" n="112"/>est communitas generis, uel speciei, sed sicut indiuidui vagi. Ista
+            <lb ed="#V" n="113"/>probat Sanctus Th. 1. paribid. Nomina(inquit) generum, &amp;
+            spee<lb ed="#V" n="114" break="no"/>rum, vt homo, &amp; animal sunt imposita ad significanumum
+            <lb ed="#V" n="115"/>naturas cones, non autem intentiones naturarum eonium, qua
+            <lb ed="#V" n="116"/>signeantur his nominibus genus, spes, sed indiuiduum
+            ua<lb ed="#V" n="117" break="no"/>gum, ut aliquis homo signat naturam communem cum
+            determi<lb ed="#V" n="118" break="no"/>nato modo existendi, qui competit singularibus, ut si sit per se
+            <lb ed="#V" n="119"/>subsistens distinctum ab aliis, sed nomine singularis
+            desi<lb ed="#V" n="120" break="no"/>gnati significatur determinatum distinguens, sicut in nomine
+            <lb ed="#V" n="121"/>sortis haec caro, &amp; hoc os. Hoc tamen interest, quod aliquis
+            homo<lb ed="#V" n="122" break="no"/>signat indiuiduum ex parte naturae cum modo existendi, qui
+            <lb ed="#V" n="123"/>competit singularibus hoc autem nomen persona non est
+            imposi<lb ed="#V" n="124" break="no"/>tum ad signerandum indiuiduum ex parte naturae, sed ad
+            signi<lb ed="#V" n="125" break="no"/>ficandum rem subsistentem in tali natura. hoc autem est
+            cone<lb ed="#V" n="126" break="no"/>secundum rationem personis diuinis, vt vnaqueque earum subsistat in
+            <lb ed="#V" n="127"/>natura diuina distincta ab aliis. Haec ille. Idem ponit 1. sen.
+            <lb ed="#V" n="128"/>eod. art. q. sup. ad quartum. Quamuis (inquit) illud quod est
+            p<lb ed="#V" n="129" break="no"/>sona sit inconicabile, nihil tamen prohibet intentionem
+            perso<lb ed="#V" n="130" break="no"/>nae esse communem, sicut sortes est incommunicabilis, &amp; tamen ratio indiuidui
+            <lb ed="#V" n="131"/>est intentio cons, sicut econuerso intentio generis, vt
+            parti<lb ed="#V" n="132" break="no"/>cularis quando contrahitur ad hoc genus, similiter etiam ratio personae
+            <lb ed="#V" n="133"/>inquantum persona est, quamuis non nominet intentionem, tamen communis
+            <lb ed="#V" n="134"/>est, eo quod non dicit specialem rationem distinctionis, sed generalem, ut
+            ali<lb ed="#V" n="135" break="no"/>quis homo est aliquo modo commune prout non dicit hanc vel illam
+            ratio<lb ed="#V" n="136" break="no"/>nen indiuiduationis, sed tamen indiuiduationem in communi.
+            <lb ed="#V" n="137"/>Haec ille. Et haec de primo articulo dicta sufficiant.
+          </p>
+        </div>
+        <div xml:id="capsco-a2dzsg-Dd1e718">
+          <head xml:id="capsco-a2dzsg-Hd1e720">Articulus 2</head>
+          <p xml:id="capsco-a2dzsg-d1e722">
+            <lb ed="#V" n="138"/><milestone ed="#V" unit="p" rend="indent"/> QVantum ad secundum articulum arguit Aurinus contra c
+            <lb ed="#V" n="139"/>&amp;conclusiones, &amp; quidem contra tertiam in hoc quod ait,
+            <lb ed="#V" n="140"/>nomen personae significare in recto essentiam diuinaia
+            in<lb ed="#V" n="141" break="no"/>quantum est idem, quod hypostasis, relationem vero in obliquo.
+            <lb ed="#V" n="142"/>Illud enim quod signenatur in recto nomine hypostasis, uel
+            perso<lb ed="#V" n="143" break="no"/>nae explicatur p suam rationem, qua dicitur, quod persona, &amp; hypostasis
+            <lb ed="#V" n="144"/>est demum subsistens in aliqua natura, sed hoc nunquam competit
+            <lb ed="#V" n="145"/>essentiae etiam prout est idem quod persona, non enim verum est, quod
+            es<lb ed="#V" n="146" break="no"/>sentia sit distincta sicut nec genita, proprietates enim non
+            di<lb ed="#V" n="147" break="no"/>stinguunt essentiam, nec determinant secundum Damascenum. ergo essent
+            <lb ed="#V" n="148"/>tia prout est hypostasis, vel persona non signeatur in recto.
+          </p>
+          <p xml:id="capsco-a2dzsg-d1e749">
+            <lb ed="#V" n="149"/>Secundo ad idem sic. Nunquam constitutum signmenat in recto
+            consti<lb ed="#V" n="150" break="no"/>tuentia, sed essentia, &amp; relatio quantumcunque sit subsistens
+            re<pb ed="#V" n="373"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>spiciunt personam, sicut constituentia. ergo persona, siue
+            hy<lb ed="#V" n="2" break="no"/>postasis constituta nullum eorum significat in recto
+            quan<lb ed="#V" n="3" break="no"/>rumcunque sint idem, quod hypostasis, vel persona. Tertio
+            <lb ed="#V" n="4"/>sic. Illud quod significatur in recto uere plurificatur, cum
+            <lb ed="#V" n="5"/>dicitur tres personae, non enim plurificatur, quod dicitur
+            <lb ed="#V" n="6"/>in obliquo, sed quod significatur in recto, sed essentia
+            diui<lb ed="#V" n="7" break="no"/>na prout est idem, quod persona non plurificatur dicendo
+            <lb ed="#V" n="8"/>tres personas, sic enim est idem essentia cum persona, quod
+            <lb ed="#V" n="9"/>essentia non triplicatur, licet plurificetur persona. ergo
+            es<lb ed="#V" n="10" break="no"/>sentia prout est idem cum persona non significatur
+            nomi<lb ed="#V" n="11" break="no"/>ne personae in recto. Secundo loco arguit contra eandem
+            <lb ed="#V" n="12"/>in hoc, quod dicit personam significare relationem prout
+            <lb ed="#V" n="13"/>est subsistens, &amp; habet modum substantiae directae, &amp; in
+            re<lb ed="#V" n="14" break="no"/>cto, &amp; essentiam in oliquo, nullum enim constituens aliquid
+            <lb ed="#V" n="15"/>significatur per constitutum in recto, sed proprietas, vt
+            <lb ed="#V" n="16"/>subsistens constituit personam secundum sic ponentes.
+            er<lb ed="#V" n="17" break="no"/>go non significatur in recto nomine personae, sed quasi per
+            <lb ed="#V" n="18"/>modum partis in obliquo.
+          </p>
+          <p xml:id="capsco-a2dzsg-d1e797">
+            Secundo sic. Doctores isti
+            di<lb ed="#V" n="19" break="no"/>cunt in quaestionibus disputatis, quod persona diuina nec
+            <lb ed="#V" n="20"/>substantiam nec relationem significat formaliter, sed
+            subsi<lb ed="#V" n="21" break="no"/>stens diuinum distinctum, quodcunque sit illud, quo
+            distin<lb ed="#V" n="22" break="no"/>guitur, sed manifestum est, quod proprietas non est
+            distin<lb ed="#V" n="23" break="no"/>ctum subsistens in recto, non enim proprietas est, quod
+            di<lb ed="#V" n="24" break="no"/>stinguitur, sed quo fit distinctio. ergo relatio non
+            importa<lb ed="#V" n="25" break="no"/>tur nomine personae in recto.
+          </p>
+          <p xml:id="capsco-a2dzsg-d1e815">
+            Tertio sic. Aut relatio habens
+            <lb ed="#V" n="26"/>modum substantiae, &amp; subsistentis in natura diuina
+            accipi<lb ed="#V" n="27" break="no"/>tur quasi quid partiale respectu personae constituens ipsam
+            <lb ed="#V" n="28"/>vnam cum essentia, aut quasi quid totale constitutum. Si
+            <lb ed="#V" n="29"/>detur primum patet, quod nomine personae importabitur
+            <lb ed="#V" n="30"/>in obliquo, sicut constituens oblique clauditur in
+            consti<lb ed="#V" n="31" break="no"/>tuto. Si detur secundum manifestum est, quod tunc totum
+            <lb ed="#V" n="32"/>includit essentiam videlicet, &amp; relationem, &amp; ita nec
+            essen<lb ed="#V" n="33" break="no"/>tia, nec relatio est in recto, nec est dicere secundum istam
+            <lb ed="#V" n="34"/>acceptionem relationem, vt subsistentem nisi quoddam
+            <lb ed="#V" n="35"/>constitutum ea essentia, &amp; relatione. ergo in nullo verum
+            <lb ed="#V" n="36"/>est, quod relatio prout est quid partiale constituens
+            nomi<lb ed="#V" n="37" break="no"/>ne personae significetur in recto, sic ergo non est verum, quod
+            <lb ed="#V" n="38"/>conceptus personae claudat essentiam, vel relationem in
+            re<lb ed="#V" n="39" break="no"/>cto, quantumcunque vtrunque sit idem cum persona.
+            Ter<lb ed="#V" n="40" break="no"/>tio loco arguit contra vltimam conclusionem primo.
+            Il<lb ed="#V" n="41" break="no"/>lud quod diuiditur per vagum, &amp; signatum, &amp; simpliciter
+            <lb ed="#V" n="42"/>non claudit in sua ratione conditionem indiuidui vagi,
+            <lb ed="#V" n="43"/>quia tunc idem diuideretur in se &amp; in oppositum sibi,
+            vn<lb ed="#V" n="44" break="no"/>de quia homo concipitur aliquando simpliciter, vt cum
+            <lb ed="#V" n="45"/>diffinitur in sua communitate, aliquando vage, vt cum
+            di<lb ed="#V" n="46" break="no"/>citur, quidam vel aliquis homo, aliquando signate, vt cum
+            <lb ed="#V" n="47"/>dicitur, homo iste, vel ille, ideo nullus dicit, quod homo sit
+            in<lb ed="#V" n="48" break="no"/>diuiduum vagum, sed persona accipitur signate, dicendo
+            <lb ed="#V" n="49"/>hanc personam, aliquando vage, vt dicendo aliquam, vel quandam
+            <lb ed="#V" n="50"/>personam, aliquando simpliciter, vt dicendo personam. ergo non
+            <lb ed="#V" n="51"/>habet contatem indiuidui vagi, sicut nec homo. Secundo
+            <lb ed="#V" n="52"/>sic. Si persona sic esset communis tribus sicut indiuiduum
+            <lb ed="#V" n="53"/>vagum, ita esset communis sicut aliquis Deus, sed hoc non
+            <lb ed="#V" n="54"/>est verum, quia secundum hoc dici posset, quod pater, &amp; filius, &amp;
+            Spi<lb ed="#V" n="55" break="no"/>ritus sanctus sunt tres quidem dij, sicut dicimus, quod sunt
+            <lb ed="#V" n="56"/>tres quidem personae. igitur idem, quod prius.
+          </p>
+          <p xml:id="capsco-a2dzsg-d1e886">
+            Tertio sic.
+            <lb ed="#V" n="57"/>Quaerendum est quomodo accipitur ab istis indiuiduum,
+            <lb ed="#V" n="58"/>aut enim pro intentione. aut pro re substracta intentioni, sed
+            <lb ed="#V" n="59"/>non potest dici, quod persona significet indiuiduum vagum, si
+            <lb ed="#V" n="60"/>sumatur pro secunda intentione, quoniam isti dicunt, quod
+            p<lb ed="#V" n="61" break="no"/>sona non significat intentionem secundam, nec potest
+            dici<lb ed="#V" n="62" break="no"/>quod persona significet rem substractam tali intentioni. Tum
+            <lb ed="#V" n="63"/>quia huiusmodi substractum significatur per nomen
+            sub<lb ed="#V" n="64" break="no"/>stantiae speciei addito signo particulari, vtpote aliquis homo,
+            <lb ed="#V" n="65"/>vel quidam homo, non est autem idem patrem, &amp; filium,
+            <lb ed="#V" n="66"/>&amp; Spiritum sanctum esse personas, quod esse aliquos Deos
+            <lb ed="#V" n="67"/>Tum quia substractum vagationi huotmodi non est aliquid
+            de<lb ed="#V" n="68" break="no"/>terminatum, quia in omni natura accipi potest indiuiduum
+            <lb ed="#V" n="69"/>vagum, vt in qualitate aliquis color, &amp;in quantitate aliqua
+            <lb ed="#V" n="70"/>linea, &amp; sic de alijs, persona vero non inuenitur nisi in
+            de<lb ed="#V" n="71" break="no"/>terminata natura. Tum etiam quia non est vna ratio
+            substra<lb ed="#V" n="72" break="no"/>cta indiuiduo vago, quia in quibusdam est aliquis homo, &amp; in
+            <lb ed="#V" n="73"/>quibusdam est aliquis equus, &amp; sic de alijs, persona vero
+            ha<lb ed="#V" n="74" break="no"/>bet vnicam rationem diffinibilem, vt patet, ergo psona non
+            <lb ed="#V" n="75"/>habet communitatem indiuidui vagi. Haec ille in forma &amp;c.
+          </p>
+          <p xml:id="capsco-a2dzsg-d1e930">
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="76"/><milestone ed="#V" unit="p" rend="initial"/> Ad argumenta primo loco facta respondetur. Et
+            pri<lb ed="#V" n="77" break="no"/>mo ad primum dico, quod maior falsa est si intelligat
+            <lb ed="#V" n="78"/>de significato materiali personae diuinae, cuiusmodi est
+            es<lb ed="#V" n="79" break="no"/>sentia. Si autem loquatur de formali significato,
+            conce<lb ed="#V" n="80" break="no"/>ditur maior, &amp; minor, &amp; conclusio in eodem sensu, sed
+            ni<lb ed="#V" n="81" break="no"/>hil facit contra conclusionem, non enim intendit
+            conclu<lb ed="#V" n="82" break="no"/>sio, quod hoc nomen persona diuina de significato
+            for<lb ed="#V" n="83" break="no"/>mali significet essentiam, sed de significato materiali,
+            per<lb ed="#V" n="84" break="no"/>sona enim diuina significat de significato formali
+            distin<lb ed="#V" n="85" break="no"/>ctum subsistens in natura diuina, sed de significato
+            mate<lb ed="#V" n="86" break="no"/>riali significat relationem, quae est illud distinctum
+            subsi<lb ed="#V" n="87" break="no"/>stens, licet relatio non distinguatur, sed distinguat:
+            signifi<lb ed="#V" n="88" break="no"/>cat etiam eodem modo essentiam, quae est idem distinctum
+            <lb ed="#V" n="89"/>licet essentia non distinguat, nec distinguatur, sed tamen
+            <lb ed="#V" n="90"/>est eadem relationi distinguenti, &amp; eadem relatiuo
+            distin<lb ed="#V" n="91" break="no"/>cto. Ad secundum negatur maior loquendo de
+            signifi<lb ed="#V" n="92" break="no"/>cato materiali.
+          </p>
+          <p xml:id="capsco-a2dzsg-d1e973">
+            <lb ed="#V" n="93"/><milestone ed="#V" unit="p" rend="indent"/> Ad tertium conceditur maior, si loquatur de eo, quod
+            <lb ed="#V" n="94"/>significatur in recto significato formali, sed negatur si
+            ta<lb ed="#V" n="95" break="no"/>le quid significetur significato materiali praesertim
+            mate<lb ed="#V" n="96" break="no"/>riali remoto, relatio enim, vel relatiuum significatur
+            no<lb ed="#V" n="97" break="no"/>mine personae diuinae significato materiali proximo.
+            Ta<lb ed="#V" n="98" break="no"/>men quia diffinitio personae praedicatur de relatiuo
+            dicen<lb ed="#V" n="99" break="no"/>do, pater est distinctum subsistens in natura diuina, sed
+            es<lb ed="#V" n="100" break="no"/>sentia diuina significatur nomine personae significato
+            ma<lb ed="#V" n="101" break="no"/>teriali, &amp; remoto, quia nec exprimitur per diffinitionem
+            <lb ed="#V" n="102"/>personae diuinae in recto nec illa diffinitio praedicatur de
+            di<lb ed="#V" n="103" break="no"/>uina essentia, sed tamen illud relatiuum, de quo
+            praedica<lb ed="#V" n="104" break="no"/>tur diffinitio personae, scilicet pater, vel filius praedicatur
+            <lb ed="#V" n="105"/>de diuina essentia in recto.
+          </p>
+          <p xml:id="capsco-a2dzsg-d1e1005">
+            <lb ed="#V" n="106"/><milestone ed="#V" unit="p" rend="indent"/> Ad argumenta secundo loco inducta respondetur. Ad
+            <lb ed="#V" n="107"/>primum quidem negatur minor, quia maiorem concedo
+            <lb ed="#V" n="108"/>eo modo, quo exposui iam. Et cum dicit, quod
+            proprie<lb ed="#V" n="109" break="no"/>tas, vt subsistens &amp;c. negatur cum enim dico proprietas,
+            <lb ed="#V" n="110"/>vt subsistens idem est dicere, ac si dicerem relatio in
+            con<lb ed="#V" n="111" break="no"/>creto, id est significata eo modo, quo significatur cum
+            dici<lb ed="#V" n="112" break="no"/>tur pater. relatio enim significata sub nomine
+            paternita<lb ed="#V" n="113" break="no"/>tis non significatur, ut subsistens, nec vt quod est, sed vt
+            <lb ed="#V" n="114"/>quo aliquid est, sed dum significatur hoc nomine pater,
+            si<lb ed="#V" n="115" break="no"/>gnificatur, vt quod est, &amp; vt subsistens, taliter autem
+            signi<lb ed="#V" n="116" break="no"/>ficata, scilicet hoc nomine pater, non significatur, vt quid
+            <lb ed="#V" n="117"/>constitutiuum, sed vt constitutum, &amp; hypostasis. Non
+            ta<lb ed="#V" n="118" break="no"/>men intelligo, quod significatio, vel conceptio nostra
+            ali<lb ed="#V" n="119" break="no"/>quid faciat ad constitutionem personarum diuinarum, sed
+            <lb ed="#V" n="120"/>tamen relatio diuina non intelligitur constituens nisi
+            in<lb ed="#V" n="121" break="no"/>qnantum intelligitur in ratione formae, &amp; vt quo, &amp; ideo
+            <lb ed="#V" n="122"/>minor est falsa, nec videtur arguens intellexisse Sanctum
+            <lb ed="#V" n="123"/>Doctorem in quaestionibus disputatis, vbi allegat eum, patet
+            <lb ed="#V" n="124"/>enim quod ista est mens sua secundum, quod allegaui in
+            fi<lb ed="#V" n="125" break="no"/>ne probationis tertiae conclusionis.
+          </p>
+          <p xml:id="capsco-a2dzsg-d1e1052">
+            Ad secundum negatur
+            <lb ed="#V" n="126"/>minor. Dico enim quod relatio, vt subsistens est distincta &amp;c
+            <lb ed="#V" n="127"/>paternitas enim vt est pater, quod est eam esse subsistentem non
+            di<lb ed="#V" n="128" break="no"/>itinguit, sed est quid distinctum, posito enim quod capiatur in
+            ab<lb ed="#V" n="129" break="no"/>stracto, &amp; vt forma, &amp; quo ipsa, licet non significetur
+            no<lb ed="#V" n="130" break="no"/>mine personae formaliter, significatur tamen materialiter
+            <lb ed="#V" n="131"/>non proxime, sed remote modo praeexposito de essentia.
+          </p>
+          <p xml:id="capsco-a2dzsg-d1e1068">
+            <lb ed="#V" n="132"/><milestone ed="#V" unit="p" rend="indent"/> Ad tertium dico, quod relatio habens modum substantiae
+            <lb ed="#V" n="133"/>est relatio, vt est relatiuum, &amp; vt accipitur in concreto, &amp;
+            <lb ed="#V" n="134"/>ipsa ut sic est constitutum ex seipsa vt est forma, &amp; quo
+            ali<lb ed="#V" n="135" break="no"/>quid est, &amp; est quid totale. Et cum dicitur, quod ut sic
+            in<lb ed="#V" n="136" break="no"/>cludit essentiam, falsum est, non enim intelligo relationem
+            <lb ed="#V" n="137"/>vt subsistentem, intelligendo eam modo, quo iste dicit
+            sci<lb ed="#V" n="138" break="no"/>licet ut quid constitutum ex essentia, &amp; relatione, sed
+            intel<lb ed="#V" n="139" break="no"/>ligo eam, vt significatur nomine patris, &amp; posito, quod ita
+            <lb ed="#V" n="140"/>esset sicut dicit, adhuc relatio signisicabitur in recto non
+            <lb ed="#V" n="141"/>vt relatio, sed vt relatiuum, licet tale significari sit
+            materia<lb ed="#V" n="142" break="no"/>liter significari.
+          </p>
+          <p xml:id="capsco-a2dzsg-d1e1096">
+            Ad argumenta tertio loco facta
+            responde<lb ed="#V" n="143" break="no"/>tur. Et primo ad primum dico, quod secundum, quod
+            tan<lb ed="#V" n="144" break="no"/>git Sanctus Doctor prima parte. quaest. 30. articu. 4. duplex
+            <lb ed="#V" n="145"/>est indiuiduum vagum, quoddam est, quod formaliter
+            si<lb ed="#V" n="146" break="no"/>gnificat materiam, vel indiuiduum ex parte naturae cum
+            <lb ed="#V" n="147"/>determinato modo existendi qui singularibus competit,
+            <lb ed="#V" n="148"/>cuiusmodi est ly aliquis homo &amp;c. Aliud est indiuiduum
+            <lb ed="#V" n="149"/>vagum, quod formaliter significat indiuiduum ex parte
+            <lb ed="#V" n="150"/>modi existendi, vel existentiae, &amp; ex consequenti naturam, ut
+            <pb ed="#V" n="374"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>persona, quae significat formaliter, &amp; directe subsistens
+            di<lb ed="#V" n="2" break="no"/>stinctum in natura &amp;c. isto supposito dicitur ad maiorem,
+            <lb ed="#V" n="3"/>quod indiuiduum vagum primo modo, non sic potest
+            vlte<lb ed="#V" n="4" break="no"/>rius specificari per additionem, quia tale indiuiduum
+            si<lb ed="#V" n="5" break="no"/>gnificat naturam sub modo existendi, qui competit
+            indiui<lb ed="#V" n="6" break="no"/>duo, &amp; ille modus vage designatur communiter per
+            si<lb ed="#V" n="7" break="no"/>gnum particulare, vt dicendo, aliquis homo, aliquod
+            ani<lb ed="#V" n="8" break="no"/>mal, cui non vlterius potest superaddi aliud signum
+            deno<lb ed="#V" n="9" break="no"/>tans vlteriorem vagationem, sed indiuiduum vagum secum
+            <lb ed="#V" n="10"/>do modo designatur sine tali signo particulari aut
+            partici<lb ed="#V" n="11" break="no"/>patiuo. ideo sibi non repugnat vlterior designatio, vel
+            spe<lb ed="#V" n="12" break="no"/>cificatio talis modi per signum particulare. Et cum iste
+            <lb ed="#V" n="13"/>arguit, quia tunc idem diuidetur in se, &amp; in suum
+            opposi<lb ed="#V" n="14" break="no"/>tum, negatur consequentia, cum enim dico persona, &amp;
+            ali<lb ed="#V" n="15" break="no"/>qua persona, indiuiduum vagum, quod est persona, ibi non
+            <lb ed="#V" n="16"/>diuiditur in se &amp; in oppositum, sed primum indiuiduum,
+            <lb ed="#V" n="17"/>quod erat aliqualiter vagum, idest indeterminatum
+            effici<lb ed="#V" n="18" break="no"/>tur magis determinatum, quia modo indiuiduabilis
+            signi<lb ed="#V" n="19" break="no"/>ficabatur confuse, &amp; postea magis determinate, scilicet cum
+            <lb ed="#V" n="20"/>modus ille specificatur per ly aliquid, vel per ly ista
+            perso<lb ed="#V" n="21" break="no"/>na.
+          </p>
+          <p xml:id="capsco-a2dzsg-d1e1166">
+            Ad secundum negatur consequentia, non enim est
+            si<lb ed="#V" n="22" break="no"/>mile de hoc indiuiduo vago aliquis Deus, &amp; de isto
+            indiui<lb ed="#V" n="23" break="no"/>duo persona, quia primum significat indiuiduum ex parte
+            <lb ed="#V" n="24"/>naturae, &amp; ideo non plurificatur, quia natura non
+            plurifica<lb ed="#V" n="25" break="no"/>tur, sed aliud, scilicet persona significat indiuiduum ex
+            par<lb ed="#V" n="26" break="no"/>te modi existendi, qui competit indiuiduo, &amp; ille modus
+            <lb ed="#V" n="27"/>plurificatur in diuinis, scilicet indiuisio in se, &amp; diuisio ab
+            <lb ed="#V" n="28"/>alio, quaelibet enim persona habet suam indiuisionem in
+            <lb ed="#V" n="29"/>se, &amp; diuisionem ab alio, scilicet per negationem, &amp; ideo
+            <lb ed="#V" n="30"/>nimirum si tale indiuiduum plurificatur, vnde Sanctus
+            Do<lb ed="#V" n="31" break="no"/>ctor de potentia Dei. q. 9. articulo sexto. Cum hoc
+            nomen<lb ed="#V" n="32" break="no"/>persona sit substantiuum, apparet de forma ipsius
+            signifi<lb ed="#V" n="33" break="no"/>cata, vtrum possit plurificari, vel pluraliter praedicari,
+            for<lb ed="#V" n="34" break="no"/>ma autem significata nomine personae significatur
+            for<lb ed="#V" n="35" break="no"/>maliter incommunicabilitas siue indiuiduabilitas
+            subsi<lb ed="#V" n="36" break="no"/>stentis in natura, cum igitur formae facientes esse
+            distin<lb ed="#V" n="37" break="no"/>ctum, &amp; incommunicabile sint plures in diuinis, oportet,
+            <lb ed="#V" n="38"/>quod nomen personae pluraliter praedicetur.
+          </p>
+          <p xml:id="capsco-a2dzsg-d1e1205">
+            Ad tertium
+            <lb ed="#V" n="39"/>conceditur secundum membrum diuisionis. persona enim
+            <lb ed="#V" n="40"/>non significat intentionem, sed rem illi substractam in
+            na<lb ed="#V" n="41" break="no"/>tura intellectiua duntaxat secundum Sanctum Thomas
+            pri<lb ed="#V" n="42" break="no"/>mo sen. di. 25. q. 1. articulo primo. Et cum hoc improbatur
+            <lb ed="#V" n="43"/>dico ad primam probationem, quod aliter significatur res
+            <lb ed="#V" n="44"/>substracta intellectui singularitatis, vel indiuiduationis pr
+            <lb ed="#V" n="45"/>ly aliquis homo quam per hoc, quod dico persona, vt
+            saepe<lb ed="#V" n="46" break="no"/>dictum est.
+          </p>
+          <p xml:id="capsco-a2dzsg-d1e1225">
+            Ad secundam patet per idem, quod persona
+            <lb ed="#V" n="47"/>non significat indiuiduum ex parte naturae, sed ex parte
+            mo<lb ed="#V" n="48" break="no"/>di, licet de ratione personae sit natura rationalis in obliquo
+            <lb ed="#V" n="49"/>formaliter significata.
+          </p>
+          <p xml:id="capsco-a2dzsg-d1e1234">
+            Ad tertiam patet per idem, solum
+            <lb ed="#V" n="50"/>enim probat, quod persona non significet generaliter rem
+            <lb ed="#V" n="51"/>substractam indiuiduationi vage. hoc enim conceditur, sed non
+            <lb ed="#V" n="52"/>probat quin significet tale substractum in natura
+            intelle<lb ed="#V" n="53" break="no"/>ctiua. Et sic patet, quod non militat contra nos.
+          </p>
+          <p xml:id="capsco-a2dzsg-d1e1245">
+            <lb ed="#V" n="54"/><milestone ed="#V" unit="p" rend="indent"/> Ad argumentum in pede quaestionis patet per vltimam
+            <lb ed="#V" n="55"/>conclusionem.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

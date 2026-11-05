@@ -1,0 +1,619 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 3, Distinctio 9, Quaestio 1</title>
+        <author ref="#JohannesCapreolus">Johannes Capreolus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 3, Distinctio 9, Quaestio 1</title>
+          <date when="2026-11-04">Nov 4, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-j88c03">Venice, 1589, v. 3</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-04" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="79"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="capsco-c37jlf"><!-- l3d9q1 -->
+        <head xml:id="capsco-c37jlf-Hd1e101">Quaestio 1</head>
+        <head xml:id="capsco-c37jlf-Hd1e103" type="question-title">Utrum humanitas Christi sit adoranda adoratione latriae</head>
+        <p xml:id="capsco-c37jlf-d1e106">
+          <lb ed="#V" n="57"/>DISTINCTIO IX.
+          <lb ed="#V" n="58"/>QVAESTIO VNICA
+          <lb ed="#V" n="59"/>Vtrum humanitas Christi sit adoranda
+          ado<lb ed="#V" n="60" break="no"/>ratione latriae.
+        </p>
+        <p xml:id="capsco-c37jlf-d1e117">
+          <lb ed="#V" n="61"/><milestone ed="#V" unit="p" rend="initial"/> Circa nonam distinctionem tertij
+          senten<lb ed="#V" n="62" break="no"/>tiarum quaeritur. Vtrum humanitas
+          <lb ed="#V" n="63"/>Christi sit adoranda adoratione latriae.
+        </p>
+        <p xml:id="capsco-c37jlf-d1e127">
+          <lb ed="#V" n="64"/>Et arguitur quod non. Quia adoratio
+          <lb ed="#V" n="65"/>latriae debetur Deo in recognitionem
+          <lb ed="#V" n="66"/>maximi dominij secundum illud
+          Deu<lb ed="#V" n="67" break="no"/>tero. 20. Dominum Deum tuum adora
+          <lb ed="#V" n="68"/>bis &amp; illi soli seruies, sed Christus
+          se<lb ed="#V" n="69" break="no"/>cundum quod homo est minor patre. ergo humanitas eius
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="70"/>non est adoranda adoratione latriae.
+        </p>
+        <p xml:id="capsco-c37jlf-d1e148">
+          <lb ed="#V" n="71"/><milestone ed="#V" unit="p" rend="indent"/> In oppositum arguitur, quia dicit Damascenus lib. tertio.
+          Ado<lb ed="#V" n="72" break="no"/>ratur autem caro Christi, incarnato domini verbo non
+          <lb ed="#V" n="73"/>propter seipsam, sed propter vnitam ei hypostasim verbi
+          <lb ed="#V" n="74"/>Et super illud Psalmi, Adorate scabellum pedum eius.
+          <lb ed="#V" n="75"/>dicit glossa. Qui adorat corpus Christi non terram
+          intue<lb ed="#V" n="76" break="no"/>tur, sed illum potius, cuius scabellum est, in cuius
+          hono<lb ed="#V" n="77" break="no"/>re scabellum adorat, sed verbum incarnatum adoratur
+          <lb ed="#V" n="78"/>adoratione latriae ergo &amp; corpus eius seu humanitas.
+        </p>
+        <p xml:id="capsco-c37jlf-d1e169">
+          <lb ed="#V" n="79"/><milestone ed="#V" unit="p" rend="indent"/> In hac quaestione sunt tres articuli. In primo
+          ponen<lb ed="#V" n="80" break="no"/>tur conclusiones. In secundo obiectiones. In tertio
+          so<lb ed="#V" n="81" break="no"/>lutiones.
+        </p>
+        <div xml:id="capsco-c37jlf-Dd1e179">
+          <head xml:id="capsco-c37jlf-Hd1e181">Articulus 1</head>
+          <p xml:id="capsco-c37jlf-d1e183">
+            <lb ed="#V" n="82"/><milestone ed="#V" unit="p" rend="indent"/> Vantum ad primum articulum sit prima conclusio.
+            Hu<lb ed="#V" n="83" break="no"/>(manitas Christi adoranda est adoratione latriae, sed
+            <lb ed="#V" n="84"/>tamen ipsa non est ratio talis adorationis. Hanc ponit
+            San<lb ed="#V" n="85" break="no"/>ctus Thomas tertia parte. quaest. 25. artic. secundo, vbi sic
+            <lb ed="#V" n="86"/>dicit. Honor adorationis debetur propriae hypostasi
+            subsi<lb ed="#V" n="87" break="no"/>stenti, tamen ratio honoris potest esse aliquid non
+            subsi<lb ed="#V" n="88" break="no"/>stens, propter quod honoratur persona, cui inest. Ado.
+            <lb ed="#V" n="89"/>ratio ergo humanitatis Christi potest dupliciter intelligi.
+            <lb ed="#V" n="90"/>Vno modo vt sit eius sicut rei adoratae, &amp; sic adorare
+            car<lb ed="#V" n="91" break="no"/>nem Christi nihil aliud est quam adorare verbum
+            incar<lb ed="#V" n="92" break="no"/>natum, sicut adorare vestes regis nil aliud est quam
+            ado<lb ed="#V" n="93" break="no"/>rare regem vestitum, &amp; secundum hoc adoratio
+            humani<lb ed="#V" n="94" break="no"/>tatis Christi est adoratio latriae. Alio modo potest
+            intelli<lb ed="#V" n="95" break="no"/>gi adoratio humanitatis Christi illa, quae fit ratione
+            huma<lb ed="#V" n="96" break="no"/>nitatis Christi perfecte omni munere gratiarum, &amp; sic
+            <lb ed="#V" n="97"/>adoratio humanitatis Christi non est adoratio latriae, sed
+            <lb ed="#V" n="98"/>duliae, ita scilicet quod vna &amp; eadem persona Christi
+            ado<lb ed="#V" n="99" break="no"/>retur adoratione latriae propter suam diuinitatem, &amp;
+            ado<lb ed="#V" n="100" break="no"/>ratione duliae propter perfectionem humanitatis. Nec hoc
+            <lb ed="#V" n="101"/>est inconueniens, quia ipsi Deo patri debetur honor
+            la<lb ed="#V" n="102" break="no"/>triae propter diuinitatem, &amp; honor duliae propter
+            domi<lb ed="#V" n="103" break="no"/>nium, quo creaturas gubernat. Vnde super illud psalm.
+            <lb ed="#V" n="104"/>Domine Deus meus in te speraui. dicit glossa. Domine
+            <lb ed="#V" n="105"/>omnium propter potentiam tibi debetur dulia, Deus
+            om<lb ed="#V" n="106" break="no"/>nium tibi debetur latria propter creationem. Haec ille.
+          </p>
+          <p xml:id="capsco-c37jlf-d1e241">
+            <lb ed="#V" n="107"/>Ex quo potest formari talis ratio pro prima parte
+            conclu<lb ed="#V" n="108" break="no"/>sionis. Plus vnitur humanitas verbo incarnato quam
+            ve<lb ed="#V" n="109" break="no"/>stis regi induto, sed eadem adoratione adoratur vestis
+            re<lb ed="#V" n="110" break="no"/>gis, qua rex vestitus. ergo eadem adoratione adoratur
+            hu<lb ed="#V" n="111" break="no"/>manitas, qua verbum incarnatum. Constat autem quod
+            <lb ed="#V" n="112"/>illud adoratur adoratione latriae. igitur &amp;c. Pro secunda
+            <lb ed="#V" n="113"/>parte arguitur sic. Nihil est ratio vel causa adorationis
+            la<lb ed="#V" n="114" break="no"/>triae nisi primum principium, vel essentia primi
+            princi<lb ed="#V" n="115" break="no"/>pii, sed humanitas non est primum principium, nec
+            es<lb ed="#V" n="116" break="no"/>sentia primi principij, vt primum principium est. igitur
+            <lb ed="#V" n="117"/>ipsa non est ratio adorationis latriae. Eandem
+            conclusio<lb ed="#V" n="118" break="no"/>nem tenet tertio sententiarum distinctio. nona, quaestio.
+            pri<lb ed="#V" n="119" break="no"/>ma, articulo secundo, quaestiuncula prima.
+          </p>
+          <p xml:id="capsco-c37jlf-d1e272">
+            Item tertia
+            par<lb ed="#V" n="120" break="no"/>te, quaestio. vigesimaquinta, articulo primo ponit primam
+            <lb ed="#V" n="121"/>partem conclusionis dicens. In eo qui adorat possumus
+            <lb ed="#V" n="122"/>duo considerare, scilicet eum cui honor exhibetur, &amp;
+            cau<lb ed="#V" n="123" break="no"/>sam honoris, proprie autem honor exhibetur rei
+            subsi<lb ed="#V" n="124" break="no"/>stenti, non enim dicimus quod manus hominis
+            honore<lb ed="#V" n="125" break="no"/>tur, sed quod homo honoretur. Et si quandoque
+            con<lb ed="#V" n="126" break="no"/>tingat quod dicatur honorari pes vel manus alicui, hoc
+            <lb ed="#V" n="127"/>non dicitur ea ratione, quia huius partes secundum se
+            <lb ed="#V" n="128"/>honorentur, sed quia in istis partibus honoratur totum,
+            <lb ed="#V" n="129"/>per quem etiam modum homo potest honorari in
+            ali<lb ed="#V" n="130" break="no"/>quo exteriori, puta in veste, aut in imagine, aut in
+            nun<lb ed="#V" n="131" break="no"/>cio. Causa autem honoris est illud, ex quo ille qui
+            ho<lb ed="#V" n="132" break="no"/>noratur habet aliquam excellentiam, nam honor est
+            re<lb ed="#V" n="133" break="no"/>uerentia exhibita alicui propter sui excellentiam, &amp; ideo
+            <lb ed="#V" n="134"/>si in vno homine sunt plures causae honoris, puta
+            praela<lb ed="#V" n="135" break="no"/>tio, scientia, &amp; virtus, erit quidem illius hominis vnus
+            <lb ed="#V" n="136"/>honor ex parte eius, qui honoratur, plures tamen
+            secun<lb ed="#V" n="137" break="no"/>dum causas honoris, homo enim est qui honoratur, &amp;
+            <lb ed="#V" n="138"/>propter scientiam, &amp; propter, virtutem. Cum igitur in
+            <lb ed="#V" n="139"/>Christo tantum sit vna persona diuinae &amp; humanae
+            natu<lb ed="#V" n="140" break="no"/>rae, &amp; etiam vna hypostasis, &amp; vnum suppositum, est quidem
+            <lb ed="#V" n="141"/>vna eius adoratio, &amp; vnus honor ex parte eius qui
+            adora<lb ed="#V" n="142" break="no"/>tur, sed ex parte causae, qua adoratur possunt dici esse
+            plu<lb ed="#V" n="143" break="no"/>res adorationes, vt scilicet alio honore honoretur propter
+            sapien<lb ed="#V" n="144" break="no"/>tiam increatam, &amp; alio propter sapientiam creatam. Si autem
+            pone<pb ed="#V" n="80"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>rentur in Christo plures hypostases seu personae
+            sequere<lb ed="#V" n="2" break="no"/>tur quod simpliciter essent plures adcrationes, &amp; hoc est
+            <lb ed="#V" n="3"/>quod in sinodis reprobatur. Dicitur enim in capitulis
+            <lb ed="#V" n="4"/>Cyrilli Si quis audet dicere assumptum hominem
+            coado<lb ed="#V" n="5" break="no"/>rari oportere verbo Deo quasi alterum alteri. &amp; non magis
+            <lb ed="#V" n="6"/>vna adoratione honorificat Emanuellem secundum quod
+            <lb ed="#V" n="7"/>factum est caro verbum anathema sit.) Haec ille.
+          </p>
+          <p xml:id="capsco-c37jlf-d1e346">
+            Secunda
+            <lb ed="#V" n="8"/>conclusio. Imago Christi adoranda est adoratione latriae.
+            <lb ed="#V" n="9"/>Hanc ponit Sanctus Thomas tertia parte. q. 25. arti. 3. vbi sic
+            <lb ed="#V" n="10"/>dicit. (Sicut dicit philosophus in libro de memoria &amp;
+            re<lb ed="#V" n="11" break="no"/>miniscentia, duplex est motus animae in imaginem, vnus
+            <lb ed="#V" n="12"/>quidem in imaginem ipsam secundum quod est res
+            quae<lb ed="#V" n="13" break="no"/>dam. Alio modo in imaginem inquantum est imago
+            alte<lb ed="#V" n="14" break="no"/>rius. Et inter hos duos motus est differentia, quia primus
+            <lb ed="#V" n="15"/>motus, quo aliquid mouetur in imaginem pro vt est res
+            <lb ed="#V" n="16"/>quaedam, est alius a motu, qui est in rem, secundus autem
+            <lb ed="#V" n="17"/>motus, qui est in imaginem inquantum est imago, est vnus
+            <lb ed="#V" n="18"/>&amp; idem cum illo, qui est in rem. Sic igitur dictum est, quod
+            <lb ed="#V" n="19"/>imagini Christi inquantum est res quaedam, puta lignum
+            <lb ed="#V" n="20"/>sculptum, vel pictum, nulla reuerentia exhibetur, quia
+            re<lb ed="#V" n="21" break="no"/>uerentia non debetur nisi naturae rationali. relinquitur
+            er<lb ed="#V" n="22" break="no"/>go quod debeatur ei reuerentia solum inquantum est
+            ima<lb ed="#V" n="23" break="no"/>go. Et sic sequitur quod eadem reuerentia exhibeatur
+            ima<lb ed="#V" n="24" break="no"/>gini Christi, &amp; ipsi Christo. Cum igitur Christus adoretur
+            <lb ed="#V" n="25"/>adoratione latriae, consequens est, quod eius imago sit
+            <lb ed="#V" n="26"/>adoranda adoratione latriae. Haec ille.
+          </p>
+          <p xml:id="capsco-c37jlf-d1e391">
+            Et confirmatur
+            <lb ed="#V" n="27"/>per dictum Damasceni inducentis dictum Basilij dicentis.
+            <lb ed="#V" n="28"/>(Imaginis honor ad prothoripum peruenit. 1. exemplar.
+            <lb ed="#V" n="29"/>Eandem conclusionem ponit tertio sententiarum vbi
+            su<lb ed="#V" n="30" break="no"/>pra cum eadem probatione. Ex quibus potest formari
+            ta<lb ed="#V" n="31" break="no"/>lis ratio. Eadem reuerentia debetur imagini Christi
+            in<lb ed="#V" n="32" break="no"/>quantum est eius imago, &amp; ipsi Chrulo, &amp; econtra, sed
+            ipsi<lb ed="#V" n="33" break="no"/>Christo debetur reuerentia &amp; adoratio latriae igitur &amp; eius
+            <lb ed="#V" n="34"/>imagini.
+          </p>
+          <p xml:id="capsco-c37jlf-d1e411">
+            Tertia conclusio. Crux Christi est adoranda
+            ado<lb ed="#V" n="35" break="no"/>ratione latriae. Hanc ponit Sanctus Thomas tertia parte. q.
+            <lb ed="#V" n="36"/>25. art 4. vbi sic dicit. (Honor seu reuerentia non debetur
+            <lb ed="#V" n="37"/>nisi rationali naturae, creaturae autem insensibili non
+            debe<lb ed="#V" n="38" break="no"/>tur honor seu reuerentia, nisi ratione naturae rationalis.
+            <lb ed="#V" n="39"/>Et hoc dupliciter. Vno modo inquantum repraesentat
+            na<lb ed="#V" n="40" break="no"/>turam rationalem. Alio modo inquantum ei aliquo
+            mo<lb ed="#V" n="41" break="no"/>do coniungitur. Primo modo consueuerunt homines
+            ve<lb ed="#V" n="42" break="no"/>nerari regis imaginem. Secundo modo eius vestimentum.
+            <lb ed="#V" n="43"/>Vtrumque autem venerantur homines eadem
+            veneratio<lb ed="#V" n="44" break="no"/>ne, qua venerantur &amp; regem. Si ergo loquamur de ipsa
+            cru<lb ed="#V" n="45" break="no"/>ce, in qua Christus crucifixus est, vtroque modo est a nobis
+            <lb ed="#V" n="46"/>veneranda, vno modo inquantum scilicet repraesentat nobis
+            figu<lb ed="#V" n="47" break="no"/>ram Christi extensi in ea, alio modo ex contactu ad
+            mem<lb ed="#V" n="48" break="no"/>bra Christi, &amp; ex hoc, quod eius sanguine est perfusa,
+            vn<lb ed="#V" n="49" break="no"/>de vtroque modo adoratur eadem adoratione cum
+            Chri<lb ed="#V" n="50" break="no"/>sto scilicet adoratione latriae. Et propter hoc etiam crucem
+            allo<lb ed="#V" n="51" break="no"/>quimur &amp; deprecamur, quasi ipsum Christum crucifixum.
+            <lb ed="#V" n="52"/>Si vero loquamur de effigie crucis in quacunque alia
+            ma<lb ed="#V" n="53" break="no"/>teria, puta lapidis vel ligni, argenti vel auri, veneramur
+            cru<lb ed="#V" n="54" break="no"/>cem tantum vt imaginem Christi, quam veneramur
+            ado<lb ed="#V" n="55" break="no"/>ratione latriae.) Haec ille.
+          </p>
+          <p xml:id="capsco-c37jlf-d1e459">
+            Item tertio sententiarum vbi
+            su<lb ed="#V" n="56" break="no"/>pra quaestiuncula quarta sic dicit (Crux Christi ipsa, in qua
+            <lb ed="#V" n="57"/>Christus pependit, potest dupliciter considerari, vel
+            inquan<lb ed="#V" n="58" break="no"/>tum imago Crucifixi, &amp; sic adoratur eadem adoratione
+            <lb ed="#V" n="59"/>qua Crucifixus scilicetlatria, vnde eam alloquimur sicut
+            Cruci<lb ed="#V" n="60" break="no"/>fixum dicentes. O Crux aue spes vnica, vel inquantum est
+            <lb ed="#V" n="61"/>res quaedam, &amp; sic cum non pertineat ad personam verbi
+            <lb ed="#V" n="62"/>pars eius, non potest adorari eadem adoratione cum
+            ver<lb ed="#V" n="63" break="no"/>po, sed adoratur inquantum est res quaedam Christi
+            ratio<lb ed="#V" n="64" break="no"/>ne ipsius per dulia, sed aliae cruces adorantur nisi vt imago,
+            <lb ed="#V" n="65"/>&amp; ideo adorantur tantum latria. ) Haec ille.
+          </p>
+          <p xml:id="capsco-c37jlf-d1e483">
+            Ex quibus
+            po<lb ed="#V" n="66" break="no"/>test formari talis ratio. Quandocunque res inanimata vel
+            <lb ed="#V" n="67"/>insensibilis honoratur ratione alicuius naturae rationalis,
+            <lb ed="#V" n="68"/>tunc idem honor debetur vtrique: Crux Christi est
+            huius<lb ed="#V" n="69" break="no"/>modi. igitur adoranda est eadem adoratione qua Christus,
+            <lb ed="#V" n="70"/>sed Christus adoratur adoratione latriae. igitur &amp; Cruxus Et
+            <lb ed="#V" n="71"/>in hoc primus articulus terminatur.
+          </p>
+        </div>
+        <div xml:id="capsco-c37jlf-Dd1e500">
+          <head xml:id="capsco-c37jlf-Hd1e502">Articulus 2</head>
+          <p xml:id="capsco-c37jlf-d1e504">
+            <lb ed="#V" n="72"/><milestone ed="#V" unit="p" rend="initial"/> Quantum ad secundum articulum arguitur contra
+            <lb ed="#V" n="73"/>conclusiones. Et quidem contra primam arguit
+            Sco<lb ed="#V" n="74" break="no"/>tu. 1. obando, quod Christus sit adorandus adoratione l:
+            <lb ed="#V" n="75"/>triae ratione humanitatis, &amp; quod humanitas sit ratio talis
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="76"/>adorationis. Primo. Quia summum dominium non
+            con<lb ed="#V" n="77" break="no"/>sequitur immediate diuinam naturam, quia secundum
+            Au<lb ed="#V" n="78" break="no"/>gustinum Deus non fuit dominus creaturae nisi ex
+            tem<lb ed="#V" n="79" break="no"/>pte, sicut creatura fuit serua, summum ergo dominium
+            <lb ed="#V" n="80"/>est ratione creationis, per quam creatura accepit totum esse
+            <lb ed="#V" n="81"/>suum a Deo, sed tanta ratio dominij videtur Deo
+            compe<lb ed="#V" n="82" break="no"/>tere propter redemptionem sicut propter creationem.
+            igi<lb ed="#V" n="83" break="no"/>tur ita debetur cultus latriae redemptori vt redemptor
+            ra<lb ed="#V" n="84" break="no"/>tione redemptionis, sicut creatori ratione creationis.
+            As<lb ed="#V" n="85" break="no"/>sumptum de aequalitate dominij in creatore &amp;
+            redempto<lb ed="#V" n="86" break="no"/>re respectu creati &amp; redempti probatur multipliciter.
+            pri<lb ed="#V" n="87" break="no"/>mo per illud. Empti estis precio magno &amp;c. ergo sum
+            ser<lb ed="#V" n="88" break="no"/>uus eius, quia redemptus. Confirmatur per Gregorium. Nihil
+            <lb ed="#V" n="89"/>nasci profuit nisi redimi profuisset. tantum es go boni
+            co¬<lb ed="#V" n="90" break="no"/>fertur per redemptionem quantum per creationem. Quod
+            <lb ed="#V" n="91"/>confirmatur. Quia per redemptionem confertur bonum
+            <lb ed="#V" n="92"/>gratiae &amp; gloriae, sed per creationem tantum bonum
+            natu<lb ed="#V" n="93" break="no"/>rae Ex his ergo concluditur quod cum Christus fuerit
+            re<lb ed="#V" n="94" break="no"/>demptor secundum humanam naturam, quod secundum
+            <lb ed="#V" n="95"/>illam, vt secundum rationem adorandi, non absolute, sed
+            <lb ed="#V" n="96"/>vt ipsa fuit ratio redimi, debetur Christo adoratio, quae &amp;
+            <lb ed="#V" n="97"/>creatori. Haec Scotus.
+          </p>
+          <p xml:id="capsco-c37jlf-d1e566">
+            Contra secundam conclusionem
+            <lb ed="#V" n="98"/>arguit Tlenricus quarto quolibet quaestione secunda.
+            La<lb ed="#V" n="99" break="no"/>tria, inquit, nulla imago est adoranda, quia Deo nulla potest
+            <lb ed="#V" n="100"/>fieri imago dicente Damasceno libro primo capitulo
+            se<lb ed="#V" n="101" break="no"/>ptimo. Infigurabilis Dei quis potest facere imaginem. Et
+            <lb ed="#V" n="102"/>ideo in veteri testamento non erat vsus imaginum, nec in
+            <lb ed="#V" n="103"/>lege naturae, sed in lege gratiae postquam Deus factus est
+            <lb ed="#V" n="104"/>homo. Contra eandem arguit Durandus quod nulla imago
+            <lb ed="#V" n="105"/>sit adoranda adoratione latriae, quia quantumcunque sit
+            <lb ed="#V" n="106"/>vnus &amp; idem motus animae, quo fertur in imaginem vt
+            <lb ed="#V" n="107"/>imago &amp; in rem, nunquam tamen anima dicit imaginem
+            <lb ed="#V" n="108"/>inquantum est imago esse idem cum exemplari, neque
+            si<lb ed="#V" n="109" break="no"/>gnum inquantum signum esse idem cum signato, sed
+            sem<lb ed="#V" n="110" break="no"/>per est inter ista distinctio in re &amp; in conceptione animae,
+            <lb ed="#V" n="111"/>habitudo enim eorum adinuicem est relatiua, relatiui
+            au<lb ed="#V" n="112" break="no"/>tem esse est ad aliud esse, &amp; ideo quod attribuitur
+            exem<lb ed="#V" n="113" break="no"/>plar vel signato nunquam attribuendum est imagini vel
+            <lb ed="#V" n="114"/>signo, quantumcunque considerentur sub relatione
+            ima<lb ed="#V" n="115" break="no"/>ginis vel signi, &amp; ideo proprie loquendo nunquam
+            reue<lb ed="#V" n="116" break="no"/>rentia exemplaris vel signati debetur signo vel imagini.
+            <lb ed="#V" n="117"/>Ad idem arguit Halcot. in postilla super librum sapientiae
+            <lb ed="#V" n="118"/>lectione. 57. primo. Quia latria est honor soli Deo
+            debi<lb ed="#V" n="119" break="no"/>tus, sed nulla imago est Deus. ergo nulli imagini
+            de<lb ed="#V" n="120" break="no"/>betur talis honor. ergo contradictionem includit dicere,
+            <lb ed="#V" n="121"/>quod latria sit honor soli Deo debitus, &amp; tamen quod
+            de<lb ed="#V" n="122" break="no"/>betur Christo &amp; imagini. ergo idem honor debetur
+            lapi<lb ed="#V" n="123" break="no"/>di &amp; Christo, &amp; per consequens idem honor debetur Deo
+            <lb ed="#V" n="124"/>&amp; creaturae, quod non est dicendum. Quinto, quia qui
+            hono<lb ed="#V" n="125" break="no"/>rat aliquem honore latriae, confitetur illud esse Deum.
+            er<lb ed="#V" n="126" break="no"/>go si aliquis possit licite adorare imaginem cultu latriae,
+            <lb ed="#V" n="127"/>potest licite profiteri, protestari, &amp; confiteri aliud a Deo
+            <lb ed="#V" n="128"/>esse Deum.
+          </p>
+          <p xml:id="capsco-c37jlf-d1e636">
+            Contra tertiam conclusionem arguit
+            Duran<lb ed="#V" n="129" break="no"/>quo ad illud, quod adducitur de tertio sententiarum,
+            sci<lb ed="#V" n="130" break="no"/>licet quod ipsi cruci, in qua Christus pependit debeatur
+            <lb ed="#V" n="131"/>aliquis honor in se, vt est res quaedam Christi dicens. Quia
+            <lb ed="#V" n="132"/>istud non valet, quia illud quod non potest esse subiectum
+            <lb ed="#V" n="133"/>susceptiuum sanctitatis vel virtutis non potest esse
+            secun<lb ed="#V" n="134" break="no"/>dum se terminus adorations, sed lignum crucis, in qua
+            <lb ed="#V" n="135"/>Christus pependit, non est subiectum susceptiuum
+            sancti<lb ed="#V" n="136" break="no"/>tatis, aut virtutis. ergo secundum se non potest esse
+            termi<lb ed="#V" n="137" break="no"/>nus adorationis. Nunquam ergo cruci Christi debetur
+            <lb ed="#V" n="138"/>aliquis honor, nisi inquantum ducit in rememorationem
+            <lb ed="#V" n="139"/>Christi, quod facit figurata vel signata, aliae autem solum
+            <lb ed="#V" n="140"/>hoc faciunt ratione figurae. Haec ille. Et in hoc secundus
+            <lb ed="#V" n="141"/>articulus su. ficienter terininatur,
+          </p>
+        </div>
+        <div xml:id="capsco-c37jlf-Dd1e668">
+          <head xml:id="capsco-c37jlf-Hd1e670">Articulus 3</head>
+          <p xml:id="capsco-c37jlf-d1e672">
+            <lb ed="#V" n="142"/><milestone ed="#V" unit="p" rend="initial"/> Vantum ad tertium articulum restat praefatis
+            obie<lb ed="#V" n="143" break="no"/>Actionibus respondere. Et ideo ad argumenta
+            Scoti<lb ed="#V" n="144" break="no"/>contra primam conclusionem respondetur. Et ad
+            pri<lb ed="#V" n="145" break="no"/>mum quidem dicitur primo, quod summum dominium
+            <lb ed="#V" n="146"/>si accipiatur per relatione temporali ad creaturam Deo
+            <lb ed="#V" n="147"/>subiectam &amp; seruientem non consequitur immediate
+            di<lb ed="#V" n="148" break="no"/>uinam essentiam, nec etiam diuinam potentiam hoc
+            mo<lb ed="#V" n="149" break="no"/>do, quod ea sola posita sine quocunque extrinseco termino
+            <lb ed="#V" n="150"/>insurgat relatio dominij, sicut nec similitudo immediate
+            con<pb ed="#V" n="81"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>sequitur qualitatem illo modo, quia omnis relatio
+            requi<lb ed="#V" n="2" break="no"/>rit fundamentum &amp; terminum. Si autem arguens
+            intel<lb ed="#V" n="3" break="no"/>ligat, quod relatio dominij non consequitur diuinam
+            es<lb ed="#V" n="4" break="no"/>sentiam vel potentiam immediate, hoc modo quod
+            requi<lb ed="#V" n="5" break="no"/>rit aliquod fundamentum ex parte Dei praeter diuinam
+            es<lb ed="#V" n="6" break="no"/>sentiam, &amp; eius attributa, puta aliquod creatum, falsum
+            <lb ed="#V" n="7"/>est, nec dictum Augustini contra hoc militat, quia non ideo
+            <lb ed="#V" n="8"/>&amp;x tempore Deus habet relationem dominij ad creaturam,
+            <lb ed="#V" n="9"/>quia ex tempore habeat fundamentum illius relationis,
+            <lb ed="#V" n="10"/>sed ideo quia ex tempore, &amp; per creationem incipit
+            termi<lb ed="#V" n="11" break="no"/>nus illius relationis, licet fundamentum sit aeternum.
+            Di<lb ed="#V" n="12" break="no"/>citur secundo, quod prima facie videretur, quod non
+            tan<lb ed="#V" n="13" break="no"/>ta ratio dominij competit Deo respectu creaturae ratione
+            <lb ed="#V" n="14"/>redemptionis sicut ratione creationis. Tum quia opus
+            re<lb ed="#V" n="15" break="no"/>demptionis fundatur in opere creationis, non enim
+            redi<lb ed="#V" n="16" break="no"/>mitur nisi quod creatum est ad imaginem Dei. Tum quia
+            <lb ed="#V" n="17"/>opus redemptionis non consumatur nisi per creationem,
+            <lb ed="#V" n="18"/>quia gratia &amp; gloria sunt per creationem. Tum quia opus
+            <lb ed="#V" n="19"/>redemptionis non conseruatur nisi per creationem, quia
+            <lb ed="#V" n="20"/>creatio &amp; conseruatio sunt eadem actio in Deo, vt visum
+            <lb ed="#V" n="21"/>est in secundo. Tum quia opus creationis se extendit ad
+            <lb ed="#V" n="22"/>omnia quae sunt in creatura, non autem opus
+            1edemptio<lb ed="#V" n="23" break="no"/>nis ad omnia quae sunt in redempto. Tum quia opus
+            crea<lb ed="#V" n="24" break="no"/>tionis arguit primarium dominium, non autem opus
+            re<lb ed="#V" n="25" break="no"/>demptionis, vt praescindit ab opere creationis. Sed istis non
+            <lb ed="#V" n="26"/>obstantibus conceditur, quod tanta ratio dominij
+            com<lb ed="#V" n="27" break="no"/>petit redemptori, sicut creatori propter rationes, quas
+            ar<lb ed="#V" n="28" break="no"/>guens, adducit, quibus annuit Sanctus Thomas prima
+            secun<lb ed="#V" n="29" break="no"/>dae. q. 113. art. 9. vbi determinat secundum Augustinum quod
+            iusti<lb ed="#V" n="30" break="no"/>ficatio impij est maius opus, quam creatio coeli &amp; terrae,
+            <lb ed="#V" n="31"/>dicit enim sic. (Opus aliquod potest dicit magnum
+            dupli<lb ed="#V" n="32" break="no"/>citer. Vno modo ex parte modi agendi, &amp; sic maximum
+            es<lb ed="#V" n="33" break="no"/>opus creationis, in quo ex nihilo aliquid fit. Alio modo
+            po<lb ed="#V" n="34" break="no"/>test opus dici magnum propter magnitudinem eius quod
+            <lb ed="#V" n="35"/>fit, &amp; secundum hoc maius opus est iustificatio impij, quae
+            <lb ed="#V" n="36"/>terminatur ad bonum aeternum diuinae participationis,
+            <lb ed="#V" n="37"/>quam creatio coeli &amp; terrae, quae terminatur ad bonum
+            na<lb ed="#V" n="38" break="no"/>turae mutabilis, &amp; ideo Augustius cum dixisset, quod maius est,
+            <lb ed="#V" n="39"/>vt &amp;x impio fieret iustus quam creare caelum &amp; terram,
+            sub<lb ed="#V" n="40" break="no"/>iungit. Coelum enim &amp; terra transibit, praedestinatorum
+            <lb ed="#V" n="41"/>autem salus &amp; iustificatio permanebit. Haec ille.
+          </p>
+          <p xml:id="capsco-c37jlf-d1e786">
+            Item
+            ibi<lb ed="#V" n="42" break="no"/>dem in solut. secundi sic dicit. (Bonum vniuersi est maius
+            <lb ed="#V" n="43"/>quam bonum particulare vnius, si accipiatur in eodem
+            ge<lb ed="#V" n="44" break="no"/>nere vtrumque, sed bonum gratiae vnius est maius quam
+            <lb ed="#V" n="45"/>bonum naturae totius vniuersi. Haec ille.
+          </p>
+          <p xml:id="capsco-c37jlf-d1e797">
+            Similiter ponit
+            <lb ed="#V" n="46"/>quarto sen. dist. 17. q. 1. ar. 5. quaestiuncula prima. Ex quibus
+            <lb ed="#V" n="47"/>patet, quod opus creationis non maius est operae
+            redem<lb ed="#V" n="48" break="no"/>ptionis, si loquamur de creatione bonorum naturalium,
+            <lb ed="#V" n="49"/>immo minus, &amp; consequenter quod opus redemptionis
+            <lb ed="#V" n="50"/>cum suo effectu tantum, vel maius exigit &amp; infert
+            domi<lb ed="#V" n="51" break="no"/>nium quam opus creationis bonorum pure naturalium.
+            <lb ed="#V" n="52"/>Dicitur tertio, quod dato quod ista duo opera arguant
+            <lb ed="#V" n="53"/>essentia le dominium. argumentum nihil concludit contra
+            <lb ed="#V" n="54"/>nos, quia dicetur, quod sicut diuinitas est primum
+            princi<lb ed="#V" n="55" break="no"/>pium creationis, ita &amp; redemptionis &amp; non humanitas.
+            <lb ed="#V" n="56"/>de hoc Sanctus Thomas tertia parte. q. 48. art. 5. (Ad hoc, inquit,
+            <lb ed="#V" n="57"/>quod aliquis redimat duo requiruntut scilicet actus solu. &amp;
+            pre<lb ed="#V" n="58" break="no"/>cium solutum, si enim aliquis soluat pro redemptione
+            ali<lb ed="#V" n="59" break="no"/>cuius rei, precium quod non est suum, sed alterius, non
+            ip<lb ed="#V" n="60" break="no"/>se dicitur redimere principaliter, sed magis ille cuius est
+            <lb ed="#V" n="61"/>precium. Precium autem redemptionis nostrae est sanguis
+            <lb ed="#V" n="62"/>Christi, vel vita eius corporalis, quae est in sanguine, quem
+            <lb ed="#V" n="63"/>ipse Christus exsoluit, vnde vtrumque eorum ad Christum
+            <lb ed="#V" n="64"/>pertinet immediate inquantum est homo, sed ad totam
+            <lb ed="#V" n="65"/>Trinitatem sicut ad causam primam &amp; remotam, cuius erat
+            <lb ed="#V" n="66"/>&amp; ipsa vita Christi sicut primi actoris, &amp; a qua inspiratum
+            <lb ed="#V" n="67"/>fuit homini Christo, vt pateretur pro nobis, &amp; ideo esse
+            <lb ed="#V" n="68"/>immediate redemptorem est proprium Christi inquantum
+            <lb ed="#V" n="69"/>est homo, quamuis ipsa redemptio possit attribui toti
+            Tri<lb ed="#V" n="70" break="no"/>nitati, sicut primae causae.) Haec ille.
+          </p>
+          <p xml:id="capsco-c37jlf-d1e854">
+            Item ibidem primo
+            lo<lb ed="#V" n="71" break="no"/>co arguit sic. (Dicitur, inquit, in psal. Redemisti me
+            Domi<lb ed="#V" n="72" break="no"/>ne Deus veritatis, sed esse dominum Deum veritatis
+            con<lb ed="#V" n="73" break="no"/>uenit thori Trinitati, ergo non est proprium Christo.)
+            Ec<lb ed="#V" n="74" break="no"/>ce argumentum. Sequitur responsio. (Dicendum, inquit,
+            <lb ed="#V" n="75"/>quod glostces sic exponit. Tu domine Deus veritatis
+            redemi<cb ed="#V" n="b"/><lb ed="#V" n="76" break="no"/>sti me in Christo clamante in manus tuas commendo
+            spiri<lb ed="#V" n="77" break="no"/>tum meum, &amp; sic redemptio immediate pertinet ad
+            ho<lb ed="#V" n="78" break="no"/>minem Christum, principaliter autem ad Deum.
+          </p>
+          <p xml:id="capsco-c37jlf-d1e876">
+            Item
+            se<lb ed="#V" n="79" break="no"/>cundo loco arguit sic. (Ille dicitur redimere qui dat
+            pre<lb ed="#V" n="80" break="no"/>cium redemptionis, sed Deus pater dedit filium suum
+            re<lb ed="#V" n="81" break="no"/>demptorem pro peccatis nostris secundum illud psalm.
+            <lb ed="#V" n="82"/>Redemptionem misit dominus populo suo, vbi Gregorius
+            <lb ed="#V" n="83"/>glo. dicit idest Christum qui dat redemptionem captiuis,
+            <lb ed="#V" n="84"/>ergo non solum Christus, sed etiam Deus pater nos
+            re<lb ed="#V" n="85" break="no"/>demit. Ecce argumentum. Sequitur responsio.
+            (Dicen<lb ed="#V" n="86" break="no"/>dum, inquit, quod precium nostrae redemptionis
+            homo<lb ed="#V" n="87" break="no"/>Christus soluit immediate, sed de mandato patris sicut
+            <lb ed="#V" n="88"/>primordialis actoris. Haec ille.
+          </p>
+          <p xml:id="capsco-c37jlf-d1e900">
+            Ex quibus patet, quod
+            <lb ed="#V" n="89"/>sicut tota Trinitas est primum principium creationis, ita
+            <lb ed="#V" n="90"/>&amp; redemptionis, &amp; consequenter non humanitas, sed
+            di<lb ed="#V" n="91" break="no"/>uinitas hoc addito, quod nec humanitas, nec aliqua eius
+            <lb ed="#V" n="92"/>pars fuit sufficiens precium redemptionis, nisi ex vnione
+            <lb ed="#V" n="93"/>ad diuinitatem in persona verbi. De hoc Sanctus Thomas
+            <lb ed="#V" n="94"/>tertia parte. quaest. 48. articu. 6. sic dicit. (Duplex est
+            effi<lb ed="#V" n="95" break="no"/>ciens principale, &amp; instrumentale, efficiens quidem
+            prin<lb ed="#V" n="96" break="no"/>cipale humanae salutis Deus est, quia vero humanitas
+            Chri<lb ed="#V" n="97" break="no"/>sti est diuinitatis instrumentum, ex consequenti omnes
+            <lb ed="#V" n="98"/>actiones &amp; passiones Christi instrumentaliter operantur
+            <lb ed="#V" n="99"/>in virtute diuinitatis ad salutem humanam, &amp; secundum
+            <lb ed="#V" n="100"/>hoc passio Christi efficienter causat salutem humanam.
+            <lb ed="#V" n="101"/>Haec ille.
+          </p>
+          <p xml:id="capsco-c37jlf-d1e931">
+            Item ibidem in solutione ad primum sic dicit.
+            <lb ed="#V" n="102"/>(Passio Christi relata ad Christi carnem congruit
+            infir<lb ed="#V" n="103" break="no"/>mitati assumptae, relata vero ad diuinitatem consequitur
+            <lb ed="#V" n="104"/>ex ea virtutem infinitam secundum illud primae cor.
+            pri<lb ed="#V" n="105" break="no"/>mo, quod infirmum est Dei, fortius est hominibus, quia
+            <lb ed="#V" n="106"/>scilicet ipsa infirmitas Christi inquantum est Dei habet
+            <lb ed="#V" n="107"/>virtutem excedentem omnem virtutem humanam.
+          </p>
+          <p xml:id="capsco-c37jlf-d1e947">
+            Item
+            <lb ed="#V" n="108"/>in solutione secundi sic dicit. (Passio Christi licet sit
+            cor<lb ed="#V" n="109" break="no"/>poralis, habet tamen virtutem spiritualem ex diuinitate
+            <lb ed="#V" n="110"/>vnita &amp;c.) Ex quibus patet ad argumentum. Quia licet
+            <lb ed="#V" n="111"/>humanitas Christi operata sit ad nostram redemptionem,
+            <lb ed="#V" n="112"/>hoc tamen fecit vt agens instrumentale, &amp; secundarium, &amp;
+            <lb ed="#V" n="113"/>minus principale, &amp; non vt agens principale, aut
+            prima<lb ed="#V" n="114" break="no"/>rium, &amp; semper fuit vt quo, &amp; non vt quod. Et ideo non
+            <lb ed="#V" n="115"/>arguitur, quod humanitas fuerit ratio adorationis latriae,
+            <lb ed="#V" n="116"/>quia nihil est ratio talis adorationis, nisi sit primaria
+            ra<lb ed="#V" n="117" break="no"/>tio dominij &amp; creationis ac redemptionis, iustificationis
+            <lb ed="#V" n="118"/>ac glorificationis rerum.
+          </p>
+          <p xml:id="capsco-c37jlf-d1e973">
+            Ad primum contra secundam
+            <lb ed="#V" n="119"/>conclusionem respondit Berus de gannaco, quod
+            immo<lb ed="#V" n="120" break="no"/>imago Crucifixi inquantum repraesentat diuinum
+            suppo<lb ed="#V" n="121" break="no"/>situm Crucifixum adoranda est adoratione latriae.
+            (Cer<lb ed="#V" n="122" break="no"/>tum, inquit, est enim quod Deo debetur vera latria. Deus
+            <lb ed="#V" n="123"/>autem vere Crucifixus est, &amp; ideo quia non stat mens in
+            <lb ed="#V" n="124"/>imagine, vt est res, sed vt repraesentat Deum crucifixum,
+            <lb ed="#V" n="125"/>imago crucifixi debet adorari latria. Dei autem vt Deus
+            <lb ed="#V" n="126"/>non humanatus, non potest esse aliqua imago ipsum
+            re<lb ed="#V" n="127" break="no"/>praesentans perfecte, sed solum, vt effectus causam.) Haec
+            <lb ed="#V" n="128"/>ille.
+          </p>
+          <p xml:id="capsco-c37jlf-d1e997">
+            Ad argumentum Durandi dicitur primo, quod cum
+            <lb ed="#V" n="129"/>anima vel aliqua eius potentia fertur in imaginem, vt
+            ima<lb ed="#V" n="130" break="no"/>go est, licet non affirmet, quod imago est res, cuius est
+            <lb ed="#V" n="131"/>imago, non tamen oportet, quod quolibet tali actu
+            ne<lb ed="#V" n="132" break="no"/>get vnum ab alio, aut formet duos conceptus distinctos
+            <lb ed="#V" n="133"/>de illis, immo eodem conceptu potest vtrumque
+            concipe<lb ed="#V" n="134" break="no"/>re vnum in ordine ad aliud.
+          </p>
+          <p xml:id="capsco-c37jlf-d1e1014">
+            Nec valet ratio in
+            opposi<lb ed="#V" n="135" break="no"/>tum. Quia sicut illa, quae sunt vnum in re, potest
+            intelle<lb ed="#V" n="136" break="no"/>ctus diuersis conceptibus concipere, ita illa quae sunt
+            rea<lb ed="#V" n="137" break="no"/>liter distincta potest vnico conceptu concipere &amp; iudicare
+            <lb ed="#V" n="138"/>quomodo vnum illorum est ad aliud. licet non habeat
+            <lb ed="#V" n="139"/>semper duos conceptus totaliter distinctos, quorum
+            <lb ed="#V" n="140"/>vnus sit ad alium, potissime in relatiuis, quorum vnum
+            <lb ed="#V" n="141"/>clauditur in conceptu alterius. Dicitur secundo, quod
+            li<lb ed="#V" n="142" break="no"/>cet signum &amp; signatum, exemplar &amp; imago realiter,
+            sem<lb ed="#V" n="143" break="no"/>per, &amp; quandoque conceptibiliter distinguantur, tamen
+            <lb ed="#V" n="144"/>quandoque &amp; philosophi &amp; theologi ea, quae dicuntur
+            <lb ed="#V" n="145"/>de vno, attribuunt alteri, sicut dicit Sanctus Thomas de
+            <lb ed="#V" n="146"/>veritate. quaest. 4. artic. 8. vbi quaerit. Vtrum omne quod fa
+            <lb ed="#V" n="147"/>dum est sit vita in verbo, vnde ibidem sic dicit.
+            (Simili<lb ed="#V" n="148" break="no"/>tudo creaturae in verbo est vita eius, similiter etiam
+            simili<lb ed="#V" n="149" break="no"/>tudo creaturae est quodam modo ipsa creatura per modum illum
+            <lb ed="#V" n="150"/>quo dicitur, quod anima est quodammodo omnia, vnde ex hoc quod
+            similitu<pb ed="#V" n="82"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>do creaturae in verbo est productiua &amp; motiua creaturae in
+            <lb ed="#V" n="2"/>a propria natura existentis quodammodo contingit, vt
+            crea<lb ed="#V" n="3" break="no"/>tura seipsam moueat &amp; adesse perducat inquantum
+            scili<lb ed="#V" n="4" break="no"/>cet producitur in esse &amp; mouetur a sua similitudine in
+            ver<lb ed="#V" n="5" break="no"/>bo existente, &amp; ita similitudo creaturae in verbo est
+            quodan<lb ed="#V" n="6" break="no"/>modo vita creaturae. Haec ille.
+          </p>
+          <p xml:id="capsco-c37jlf-d1e1067">
+            Et in multis alijs locis dicit,
+            <lb ed="#V" n="7"/>quod ideo omnis creatura dicitur esse vita in Deo, quia
+            si<lb ed="#V" n="8" break="no"/>militudo &amp; idea creaturae est vita in Deo. Dicitur tertio quod
+            <lb ed="#V" n="9"/>reuerentia, quae exhibetur signato &amp; exemplato non debet
+            <lb ed="#V" n="10"/>exhiberi signo vel imagini seorsum a signato &amp;
+            exempla<lb ed="#V" n="11" break="no"/>to, nec vt est res quaedam distincta, sed inquantum est vnum
+            <lb ed="#V" n="12"/>cum exemplato &amp; signato, nec reuerentia sistit in imagine,
+            <lb ed="#V" n="13"/>sed tendit ad exemplar. vt sic adorare crucem sit adorare
+            <lb ed="#V" n="14"/>Christum Crucifixum, vt est propter nos crucifixum, ita quod
+            <lb ed="#V" n="15"/>Christus &amp; crux sint vnum totale obiectum adorationis,
+            <lb ed="#V" n="16"/>tamen talis adorationis ratio non est crux, sed diuinitas
+            <lb ed="#V" n="17"/>crucifixi.
+          </p>
+          <p xml:id="capsco-c37jlf-d1e1093">
+            Ad primum Holcot dicitur, quod latria est
+            ho<lb ed="#V" n="18" break="no"/>nor soli Deo debitus per se, sed de per accidens vel per aliud
+            <lb ed="#V" n="19"/>potest exhiberi alijs a Deo, &amp; hoc declarat Durandus dicens
+            <lb ed="#V" n="20"/>quod honor latriae, vel cuiuscunque alterius reuerentiae
+            po<lb ed="#V" n="21" break="no"/>test alicui exhiberi dupliciter scilicet per se, &amp; per accidens
+            <lb ed="#V" n="22"/>per se exhibetur ei, in quo est causa talis honoris, per
+            acci<lb ed="#V" n="23" break="no"/>dens autem exhibetur ei, in quo non est causa talis
+            hono<lb ed="#V" n="24" break="no"/>ris, sed habet aliquam habitudinem ad illud, in quo est
+            cau<lb ed="#V" n="25" break="no"/>sa. Potest autem aliquid habere habitudinem ad Deum,
+            cui<lb ed="#V" n="26" break="no"/>per se debetur honor latriae dupliciter. Vno modo, quia
+            in<lb ed="#V" n="27" break="no"/>cidit in idem secundum suppositum, sicut est humanitas
+            <lb ed="#V" n="28"/>Christi. Alio modo, quia non tendit in idem secundum
+            sup<lb ed="#V" n="29" break="no"/>positum, sed habet solam habitudinem extrinsecam ad
+            ip<lb ed="#V" n="30" break="no"/>sum, vt mater crux, &amp; imago &amp;c. Haec ille. Ex quibus patet
+            <lb ed="#V" n="31"/>ad argumentum.
+          </p>
+          <p xml:id="capsco-c37jlf-d1e1126">
+            <lb ed="#V" n="32"/><milestone ed="#V" unit="p" rend="indent"/> Ad secundum dicitur, quod consequens quod infertur
+            <lb ed="#V" n="33"/>ibi non est inconueniens scilicet quod idem honor debetur
+            <lb ed="#V" n="34"/>Deo &amp; creaturae sane intelligendo scilicet quod idem
+            ho<lb ed="#V" n="35" break="no"/>nor, qui debetur Deo per se, potest exhiberi creaturae per
+            <lb ed="#V" n="36"/>accidens, non vt seorsum a Deo tali adoratione adoretur,
+            <lb ed="#V" n="37"/>sed simul cum Deo, vnde Sanctus Thomas tertia parte. q. 25.
+            <lb ed="#V" n="38"/>ar. 3. in solutione secundi. Apostolus(inquit) prohibet
+            com<lb ed="#V" n="39" break="no"/>municare infructuosis operibus gentilium, communicare
+            <lb ed="#V" n="40"/>autem eorum operibus vtilibus non prohibet, adoratio
+            au<lb ed="#V" n="41" break="no"/>tem imaginum est inter infructuosa opera computanda
+            <lb ed="#V" n="42"/>quantum ad duo. Primo quidem quantum ad hoc, quod
+            <lb ed="#V" n="43"/>quidam eorum adorabant ipsas, vt quasdam res credentes
+            <lb ed="#V" n="44"/>in eis aliquid veri numinis esse propter responsa, quae
+            demo<lb ed="#V" n="45" break="no"/>nes in eis dabant, &amp; alios mirabiles effectus huiusmodi.
+            Se<lb ed="#V" n="46" break="no"/>cundo propter res, quarum erant imagines, statuebant enim
+            <lb ed="#V" n="47"/>imagines aliquibus creaturis, quas in eis veneratione latriae
+            <lb ed="#V" n="48"/>venerabantur. Nos autem adoramus adoratione latriae
+            <lb ed="#V" n="49"/>Imaginem Christi, qui est verus Deus non propter ipsam
+            <lb ed="#V" n="50"/>imaginem, sed propter rem, cuius est imago. Haec ille. Ad
+            <lb ed="#V" n="51"/>tertium dicitur, quod maior est vera si intelligatur de illo,
+            <lb ed="#V" n="52"/>quod perse adoratur latria, &amp; est ratio talis adorationis,
+            <lb ed="#V" n="53"/>falsa est autem nisi intelligatur de illo, cui exhibetur talis
+            <lb ed="#V" n="54"/>adoratio solum de per accidens, nec vt rationi adorationis
+            <lb ed="#V" n="55"/>modo creatura isto secundo modo adoratur veneratione
+            <lb ed="#V" n="56"/>latriae, &amp; non primo modo, vt dictum est.
+          </p>
+          <p xml:id="capsco-c37jlf-d1e1184">
+            <lb ed="#V" n="57"/><milestone ed="#V" unit="p" rend="indent"/> Ad argumentum contra tertiam conclusionem.
+            Con<lb ed="#V" n="58" break="no"/>ceditur totum argumentum, quia illud quod Sanctus Thomas
+            <lb ed="#V" n="59"/>dicit in tertio sen. videtur correxisse in tertia parte, vbi
+            ex<lb ed="#V" n="60" break="no"/>presse dicit, vt al legatum est in tertia conclusione, quod rei
+            <lb ed="#V" n="61"/>inanimatae, aut insensibili, vel irrationali non debetur alius
+            <lb ed="#V" n="62"/>honor seorsum ab honore, qui debetur naturae
+            ratio<lb ed="#V" n="63" break="no"/>nali, ratione cuius res irrationalis veneratur secundum idem.
+          </p>
+          <p xml:id="capsco-c37jlf-d1e1203">
+            <lb ed="#V" n="64"/>Ad argumentum pro parte negatiua. q. respondet
+            San<lb ed="#V" n="65" break="no"/>ctus Thomas tertia parte. q. 25. art. secundo in solu. 3. d1.
+          </p>
+          <p xml:id="capsco-c37jlf-d1e1211">
+            <lb ed="#V" n="66"/><milestone ed="#V" unit="p" rend="indent"/> Adoratio latriae non exhibetur
+            humanitati<lb ed="#V" n="67" break="no"/>Christi ratione sui ipsius, sed ratione
+            di<lb ed="#V" n="68" break="no"/>uinitatis cui vnitur, secundum quam
+            <lb ed="#V" n="69"/>Christus non est minor patre.
+            <lb ed="#V" n="70"/>Haec ille. Et haec de
+            quae<lb ed="#V" n="71" break="no"/>stione
+            suffi<lb ed="#V" n="72" break="no"/>ciant. De qua benedictus
+            <lb ed="#V" n="73"/>Deus Amen
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

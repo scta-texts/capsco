@@ -1,0 +1,737 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 1, Distinctio 4, Quaestio 1</title>
+        <author ref="#JohannesCapreolus">Johannes Capreolus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 1, Distinctio 4, Quaestio 1</title>
+          <date when="2026-11-04">Nov 4, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-j88c01">Venice, 1589, v. 1</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-04" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="137"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="capsco-a1olg0"><!-- l1d4q1 -->
+        <head xml:id="capsco-a1olg0-Hd1e101">Quaestio 1</head>
+        <head xml:id="capsco-a1olg0-Hd1e103" type="question-title">Utrum haec concedenda sit Deus genuit Deum</head>
+        <p xml:id="capsco-a1olg0-d1e106">
+          <lb ed="#V" n="29"/>DISTINCTIO IIII.
+          <lb ed="#V" n="30"/>QVAESTIO I.
+          <lb ed="#V" n="31"/>Vtrum haec concedenda sit Deus genuit Deum.
+        </p>
+        <p xml:id="capsco-a1olg0-d1e115">
+          <lb ed="#V" n="32"/><milestone ed="#V" unit="p" rend="initial"/> CIRCA distinctionem quartam
+          queri<lb ed="#V" n="33" break="no"/>tur. Vtrum ista sit concedenda, Deus
+          <lb ed="#V" n="34"/>genuit Deum.
+        </p>
+        <p xml:id="capsco-a1olg0-d1e125">
+          Et arguitur quod non,
+          <lb ed="#V" n="35"/>quia terminus in subiecto positus non
+          <lb ed="#V" n="36"/>restringitur per terminum positum in
+          <lb ed="#V" n="37"/>praedicato ratione significationis, sed
+          <lb ed="#V" n="38"/>solum ratione temporis consignificati,
+          <lb ed="#V" n="39"/>sed cum dico, Deus creat: hoc nomen
+          <lb ed="#V" n="40"/>Deus supponit pro essentia: ergo cum dicitur, Deus
+          ge<lb ed="#V" n="41" break="no"/>nerat Deum, non potest ille terminus Deus ratione
+          praedi<lb ed="#V" n="42" break="no"/>cati rationalis supponere pro persona, sed supponet pro
+          <lb ed="#V" n="43"/>essentia: sic autem supponendo conclusio est falsa, cum
+          <lb ed="#V" n="44"/>essentia non generet: ergo &amp;c.
+        </p>
+        <p xml:id="capsco-a1olg0-d1e150">
+          <lb ed="#V" n="45"/><milestone ed="#V" unit="p" rend="indent"/> In oppositum arguitur sic. Habens deitatem genuit
+          ha<lb ed="#V" n="46" break="no"/>bentem deitatem: ergo Deus genuit Deum:
+          consequen<lb ed="#V" n="47" break="no"/>tia tenet ab aequipollenti ad aequipollens, antecedens
+          pa<lb ed="#V" n="48" break="no"/>tet, quia pater habens deitatem genuit filium habentem
+          <lb ed="#V" n="49"/>deitatem.
+        </p>
+        <p xml:id="capsco-a1olg0-d1e164">
+          <lb ed="#V" n="50"/><milestone ed="#V" unit="p" rend="indent"/> In hac quaestione erunt tres articuli. In primo enim
+          vi<lb ed="#V" n="51" break="no"/>debitur de significato huius nominis Deus. In secundo
+          <lb ed="#V" n="52"/>de veritate huius, Deus non genuit Deum. In tertio de
+          ve<lb ed="#V" n="53" break="no"/>ritate huius, Deus genuit Deum.
+        </p>
+        <div xml:id="capsco-a1olg0-Dd1e176">
+          <head xml:id="capsco-a1olg0-Hd1e178">Articulus 1</head>
+          <p xml:id="capsco-a1olg0-d1e180">
+            <lb ed="#V" n="54"/><milestone ed="#V" unit="p" rend="initial"/> Quantum ad primum sit prima conclusio. Omne
+            no<lb ed="#V" n="55" break="no"/>men cuiuscunque sit praedicamenti significat
+            sub<lb ed="#V" n="56" break="no"/>stantiam cum qualitate. Hanc ponit Sanctus Thomas
+            pri<lb ed="#V" n="57" break="no"/>mo sent. dist. 22. q. 1. artic. 1. ad tertium. Cum (inquit)
+            di<lb ed="#V" n="58" break="no"/>citur quod nomen significat substantiam cum qualitate,
+            <lb ed="#V" n="59"/>non intelligitur qualitas &amp; substantia proprie secundum
+            <lb ed="#V" n="60"/>quod accipit logicus praedicamenta distinguens, sed
+            Gram<lb ed="#V" n="61" break="no"/>maticus accipit substantiam quantum ad modum
+            significa<lb ed="#V" n="62" break="no"/>candi, &amp; similiter qualitatem, &amp; ideo quia illud quod
+            si<lb ed="#V" n="63" break="no"/>gnificatur per nomen, significatur vt aliquid subsistens
+            se<lb ed="#V" n="64" break="no"/>cundum quod de eo potest aliquid praedicari, quamuis
+            se<lb ed="#V" n="65" break="no"/>cundum rem non sit subsistens, sicut albedo, dicitur quod
+            <lb ed="#V" n="66"/>significat substantiam ad differentiam verbi, quod non
+            si<lb ed="#V" n="67" break="no"/>gnificat aliquid vt subsistens, &amp; quia in quolibet nomine
+            <lb ed="#V" n="68"/>est considerare illud à quo nomen imponitur, quod est quasi
+            <lb ed="#V" n="69"/>principium cognoscendi, ideo quantum ad hoc habet
+            mo<lb ed="#V" n="70" break="no"/>dum qualitatis secundum quod qualitas vel forma est
+            prin<lb ed="#V" n="71" break="no"/>cipium cognoscendi rem, vnde secundum Philosophum.
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="72"/>5. Metaphy. forma substantialis dicitur qualitas, nec refert
+            <lb ed="#V" n="73"/>quantum ad significationem nominis vtrum principium
+            in<lb ed="#V" n="74" break="no"/>notescendi sit idem re cum eo quod nomine significatur,
+            <lb ed="#V" n="75"/>vt in abstractis, vel diuersum, vt in hoc nomine homo.
+            <lb ed="#V" n="76"/>Haec ille.
+          </p>
+          <p xml:id="capsco-a1olg0-d1e236">
+            Secunda conclusio est. Nullum nomen de
+            prae<lb ed="#V" n="77" break="no"/>dicamento accidentis significat substantiam prout eam
+            acci<lb ed="#V" n="78" break="no"/>pit logicus vel primus Philosophus, nisi forte ex
+            conse<lb ed="#V" n="79" break="no"/>quenti. Hanc ponit Sanctus Thomas super 5. Metaphys. cap.
+            <lb ed="#V" n="80"/>de ente, vbi sic dicit. Non est ( inquit) verum quod dicit
+            <lb ed="#V" n="81"/>Auicenna quod praedicata quae sunt in generibus accidentis
+            <lb ed="#V" n="82"/>principaliter significent substantiam &amp; posterius accidens,
+            <lb ed="#V" n="83"/>sicut hoc quod dico album vel musicum: nam album vt in
+            <lb ed="#V" n="84"/>praedicamentis dicitur, solam qualitatem significat,
+            consi<lb ed="#V" n="85" break="no"/>gnificat autem hoc nomen album subiectum ex
+            consequen<lb ed="#V" n="86" break="no"/>ti, inquantum significat albedinem per modum
+            acciden<lb ed="#V" n="87" break="no"/>tis, vnde oportet quod ex consequenti includat in sui
+            ra<lb ed="#V" n="88" break="no"/>tione subiectum: nam accidentis esse est inesse, albedo enim
+            <lb ed="#V" n="89"/>&amp; si significat accidens, non tamen per modum
+            acciden<lb ed="#V" n="90" break="no"/>tis, sed per modum substantiae, vnde nullo modo
+            consi<lb ed="#V" n="91" break="no"/>gnificat substantiam, si autem principaliter significaret
+            su<lb ed="#V" n="92" break="no"/>biectum: tunc praedicata accidentalia non ponerentur à
+            <lb ed="#V" n="93"/>Philosopho sub ente secundum se, sed sub ente secundum
+            <lb ed="#V" n="94"/>accidens: nam hoc totum quod est homo albus est ens
+            se<lb ed="#V" n="95" break="no"/>cundum accidens. Haec ille.
+          </p>
+          <p xml:id="capsco-a1olg0-d1e280">
+            Idem ponit 3. sent. distinct. 7.
+            <lb ed="#V" n="96"/>q. 1. artic. 1. ad quintum. Illud (inquit) quod est per se
+            sup<lb ed="#V" n="97" break="no"/>positum hominis non est pars significationis huius
+            nomi<lb ed="#V" n="98" break="no"/>nis album, album enim solam qualitatem significat, cum
+            <lb ed="#V" n="99"/>omne nomen significet vnum: ex albedine autem &amp;
+            subie<lb ed="#V" n="100" break="no"/>cto non fit vnum simpliciter, vnde hoc nomen album
+            co<lb ed="#V" n="101" break="no"/>pulat suum subiectum quasi extrinsecum. Haec ille.
+          </p>
+          <p xml:id="capsco-a1olg0-d1e296">
+            Idem
+            <lb ed="#V" n="102"/>ponit de potentia Dei. q. 9. artic. 4. vbi sic ait. Cum propria
+            <lb ed="#V" n="103"/>ratio nominis sit quam significat nomen: illud cui
+            attri<lb ed="#V" n="104" break="no"/>buitur nomen si sit recte sumptum sub re significata per
+            no<lb ed="#V" n="105" break="no"/>men, sicut determinatum sub indeterminato dicitur
+            sup<lb ed="#V" n="106" break="no"/>poni per nomen, si autem non sit recte sumptum sub re
+            no<lb ed="#V" n="107" break="no"/>minis dicitur copulari per nomen, sicut hoc nomen
+            ani<lb ed="#V" n="108" break="no"/>mal significat substantiam animatam sensibilem, &amp; album
+            <lb ed="#V" n="109"/>significat colorem disgregatiuum visus, homo vero recte
+            <lb ed="#V" n="110"/>sumitur sub ratione animalis, sicut determinatum sub
+            in<lb ed="#V" n="111" break="no"/>determinato, est enim homo substantia animata sensibilis
+            <lb ed="#V" n="112"/>tali anima, scilicet rationali, sub albo vero quod est extra
+            <lb ed="#V" n="113"/>essentiam eius non directe sumitur, vnde homo
+            supponi<lb ed="#V" n="114" break="no"/>tur nomine animalis, copulatur vero nomine albi. Haec
+            <lb ed="#V" n="115"/>ille.
+          </p>
+          <p xml:id="capsco-a1olg0-d1e330">
+            Tertia conclusio quod omne nomen supponit pro
+            sub<lb ed="#V" n="116" break="no"/>stantia &amp; proprie significat qualitatem loquendo vt
+            Gram<lb ed="#V" n="117" break="no"/>maticus loquitur de substantia &amp; qualitate. Hanc ponit
+            <lb ed="#V" n="118"/>Sanctus Thomas 3. sent. distin 6. q. 1. arti. 3. In quolibet enim
+            <lb ed="#V" n="119"/>nomine est duo considerare, scilicet illud à quo
+            imponi<lb ed="#V" n="120" break="no"/>tur nomen, quod dicitur qualitas nominis, &amp; illud cui
+            im<lb ed="#V" n="121" break="no"/>ponitur, quod est substantia nominis, nomen autem
+            pro<lb ed="#V" n="122" break="no"/>prie loquendo dicitur significare formam siue qualitatem
+            <lb ed="#V" n="123"/>à qua imponitur: dicitur autem supponere pro eo cui
+            im<lb ed="#V" n="124" break="no"/>ponitur. Haec ille.
+          </p>
+          <p xml:id="capsco-a1olg0-d1e352">
+            Ex quo patet, quod nomen licet significet
+            <lb ed="#V" n="125"/>substantiam cum qualitate: proprie tamen significat qualitatem
+            <lb ed="#V" n="126"/>hoc est formam à qua nomen imponitur, supponit vero pro
+            <lb ed="#V" n="127"/>substantia hoc est pro re cui imponitur tale nomen: illa
+            au<lb ed="#V" n="128" break="no"/>tem duo quandoque idem vt patet in abstractis, &amp; tunc
+            <lb ed="#V" n="129"/>nomen pro eo supponit quod significat, quandoque autem
+            <lb ed="#V" n="130"/>sunt diuersa vt patet in concretis significantibus res
+            mate<lb ed="#V" n="131" break="no"/>riales, vtpote lapis, &amp; tunc res pro alio supponit quam
+            si<lb ed="#V" n="132" break="no"/>gnificet, lapis enim significat naturam lapidis: supponit
+            <lb ed="#V" n="133"/>vero pro eo quod in tali natura subsistit. Quarta
+            conclu<lb ed="#V" n="134" break="no"/>sio est, quod significatum nominis est duplex, scilicet
+            for<lb ed="#V" n="135" break="no"/>male &amp; materiale. Hanc distinctionem ponit Sanctus Thomas de
+            <lb ed="#V" n="136"/>potentia Dei vbi supra. Sciendum (inquit) quod aliquid
+            <lb ed="#V" n="137"/>significatur dupliciter: vno modo formaliter, alio modo
+            <lb ed="#V" n="138"/>materialiter. Formaliter quidem significatur per nomen
+            <lb ed="#V" n="139"/>illud ad quod significandum nomen est principaliter
+            im<lb ed="#V" n="140" break="no"/>positum quod est ratio nominis, sicut hoc nomen homo
+            <lb ed="#V" n="141"/>significat aliquid compositum ex corpore &amp; anima
+            ratio<lb ed="#V" n="142" break="no"/>nali. Materialiter vero significatur per nomen illud in quo
+            <lb ed="#V" n="143"/>talis ratio saluatur, sicut hoc nomen homo significat
+            ali<lb ed="#V" n="144" break="no"/>quid habens cerebrum &amp; cor. Haec ille in forma. Ex
+            qui<lb ed="#V" n="145" break="no"/>bus patet quod loquendo de significato materiali nomen
+            <lb ed="#V" n="146"/>quandoque aliquid significat quod non significat de
+            signi<pb ed="#V" n="138"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>ficato formali.
+          </p>
+          <p xml:id="capsco-a1olg0-d1e407">
+            Quinta conclusio est, quod hoc
+            nomen<lb ed="#V" n="2" break="no"/>Deus &amp; quodlibet aliud concretum substantiale significat
+            <lb ed="#V" n="3"/>distincte quidditatem vel essentiam, indistincte autem
+            sup<lb ed="#V" n="4" break="no"/>posita illius naturae. Hanc ponit Sanctus Thomas primo sent.
+            <lb ed="#V" n="5"/>distinct. 4. quaest. 1. articu. 2. vbi sic dicit. Quidam dixerunt
+            <lb ed="#V" n="6"/>quod hoc nomen Deus significat essentiam, &amp; supponit
+            <lb ed="#V" n="7"/>essentiam quantum est de se, sed propter indifferentiam
+            es<lb ed="#V" n="8" break="no"/>sentiae &amp; personae in diuinis ex adiuncto notionali
+            trahi<lb ed="#V" n="9" break="no"/>tur ad supponendum pro persona. Alij dicunt quod hoc
+            <lb ed="#V" n="10"/>nomen Deus significat essentiam, &amp; supponit quantum est
+            <lb ed="#V" n="11"/>de se personam tamen indistincte, vnde potest supponere
+            <lb ed="#V" n="12"/>vnam tantum vel plures: vnam cum dicitur, Deus
+            gene<lb ed="#V" n="13" break="no"/>rat, plures vt cum dicitur, Deus est Trinitas, &amp; haec opinio
+            <lb ed="#V" n="14"/>verior est, quamuis enim vt dicitur in libro de causis
+            om<lb ed="#V" n="15" break="no"/>ne nomen deficiat a significatione diuini esse propter hoc
+            <lb ed="#V" n="16"/>quod nullum nomen simul significat aliquid perfectum &amp;
+            <lb ed="#V" n="17"/>simplex, quia abstracta non significant ens per se subsistens,
+            <lb ed="#V" n="18"/>&amp; concreta significant ens compositum, nihilominus
+            ta<lb ed="#V" n="19" break="no"/>men abijcientes illud quod imperfectionis est vtimur
+            vtris<lb ed="#V" n="20" break="no"/>que nominibus in diuinis, abstractis propter simplicitatem,
+            <lb ed="#V" n="21"/>concretis propter perfectionem, vnde hoc nomen Deus
+            <lb ed="#V" n="22"/>significat per modum perfecti &amp; subsistentis per se sicut hoc
+            <lb ed="#V" n="23"/>nomen homo, vnde sicut homo in se importat non tantum
+            <lb ed="#V" n="24"/>essentiam, sed etiam suppositum indistincte: alias non
+            prae<lb ed="#V" n="25" break="no"/>dicaretur de indiuiduis, ita &amp; hoc nomen Deus, &amp; ideo de
+            <lb ed="#V" n="26"/>se habet quod potest supponere pro persona, &amp; non habet
+            <lb ed="#V" n="27"/>quod supponat pro essentia ex modo significandi nominis,
+            <lb ed="#V" n="28"/>sed tantum ratione diuinae simplicitatis, in qua idem est
+            re<lb ed="#V" n="29" break="no"/>essentia &amp; suppositum. Haec ille.
+          </p>
+          <p xml:id="capsco-a1olg0-d1e470">
+            Ex quibus patet
+            quomo<lb ed="#V" n="30" break="no"/>do hoc nomen Deus significat tam essentiam quam
+            perso<lb ed="#V" n="31" break="no"/>nas. Nec est contra illa quae dicta sunt in tertia
+            conclusio<lb ed="#V" n="32" break="no"/>ne: ibi enim loquimur de significato formali, &amp; illo
+            mo<lb ed="#V" n="33" break="no"/>do diceretur quod hoc nomen Deus solum significat
+            essen<lb ed="#V" n="34" break="no"/>tiam, licet supponat per personis, in hac autem
+            conclusio<lb ed="#V" n="35" break="no"/>ne loquitur Sanctus Thomas generaliter de significato
+            nomi<lb ed="#V" n="36" break="no"/>nis, siue sit formale, siue materiale, &amp; ideo dicit talia
+            nomi<lb ed="#V" n="37" break="no"/>na significare similiter naturam, &amp; suppositum, qualitatem
+            <lb ed="#V" n="38"/>&amp; substantiam iuxta intellectum primae conclusionis. Sed
+            <lb ed="#V" n="39"/>contra ista arguit Aureolus probando quod concreta non
+            <lb ed="#V" n="40"/>solum significent distincte &amp; in actu naturam vel formam
+            <lb ed="#V" n="41"/>quae dicitur qualitas, &amp; primo sic. Quandocunque aliquod
+            <lb ed="#V" n="42"/>nomen significat rem aliquam, illa plurificata nomen
+            di<lb ed="#V" n="43" break="no"/>citur pluri ficari &amp; in plurali, &amp; illa non plurificata, nomen
+            <lb ed="#V" n="44"/>solum dicitur singulariter, sed plurificata forma, dum
+            ta<lb ed="#V" n="45" break="no"/>men maneat idem habens non dicitur nomen plurificari
+            <lb ed="#V" n="46"/>vt patet, quia in vno sciente possunt esse duae vel tres
+            scien<lb ed="#V" n="47" break="no"/>tiae, &amp; tamen non dicerentur duo scientes sed vnus sciens,
+            <lb ed="#V" n="48"/>&amp; in aere secundum aliquos sunt plura lumina, &amp; tamen
+            <lb ed="#V" n="49"/>non sunt plura illuminata, sed vnus aer illuminatus.
+            Simi<lb ed="#V" n="50" break="no"/>liter si essent duo homines habentes eandem numero
+            scien<lb ed="#V" n="51" break="no"/>tiam, non est dubium quod essent duo scientes, &amp; tamen
+            <lb ed="#V" n="52"/>vna scientia: ergo sciens non significat scientiam, nec
+            ali<lb ed="#V" n="53" break="no"/>quod concretum formam.
+          </p>
+          <p xml:id="capsco-a1olg0-d1e525">
+            Secundo arguit sic. Si scientia
+            <lb ed="#V" n="54"/>significaret scientem vel econtra, haec propositio esset
+            ve<lb ed="#V" n="55" break="no"/>ra, scientia est sciens, &amp; sciens est sua scientia, quod nullus
+            <lb ed="#V" n="56"/>dicit: ergo patet, quod concretum non significat solam
+            for<lb ed="#V" n="57" break="no"/>mam principaliter. Tertio sic, Philosophus dicit 6.
+            Meta<lb ed="#V" n="58" break="no"/>physicae, quod simum significat hoc in hoc. Et 7.
+            Metaphy<lb ed="#V" n="59" break="no"/>sicae dicit, quod nugatio est dicere, nasus simus &amp; quod in
+            <lb ed="#V" n="60"/>simo reperitur nasus: ergo concretum significat subiectum.
+          </p>
+          <p xml:id="capsco-a1olg0-d1e543">
+            <lb ed="#V" n="61"/>Ad primum istorum dicitur, quod maior est vera de
+            nomi<lb ed="#V" n="62" break="no"/>nibus substantiuis, Sanctus Thomas enim prima parte. q. 39.
+            <lb ed="#V" n="63"/>artic. 3. dicit. Singularitas &amp; pluralitas nominis
+            substanti<lb ed="#V" n="64" break="no"/>ui attenditur secundum formam significatam per nomen.
+            <lb ed="#V" n="65"/>Cuius rationem assignat, quia talia significant per modum
+            <lb ed="#V" n="66"/>substantiae, substantia autem sicut per se habet esse, ita per
+            <lb ed="#V" n="67"/>se habet pluralitatem &amp; vnitatem siue multitudinem.
+            Ac<lb ed="#V" n="68" break="no"/>cidentia autem sicut habent esse in subiecto, ita ex
+            subie<lb ed="#V" n="69" break="no"/>cto recipiunt vnitatem vel multitudinem, &amp; ideo quia
+            no<lb ed="#V" n="70" break="no"/>mina adiectiua significant per modum accidentis idem
+            <lb ed="#V" n="71"/>est, quod in eis attenditur singularitas vel pluralitas
+            secun<lb ed="#V" n="72" break="no"/>dum supposita. Haec ille.
+          </p>
+          <p xml:id="capsco-a1olg0-d1e573">
+            Idem ponit primo sen. distin. 29.
+            <lb ed="#V" n="73"/>q. 1. artic. 4. Et tertio sent. distinct. 1. q. 2. artic. 4. &amp; 5. Vnde
+            <lb ed="#V" n="74"/>artic. 4. in responsione ad sextum sic ait. Cum termini
+            sub<lb ed="#V" n="75" break="no"/>stantiui significentur vel consignificentur pluraliter ex
+            vni<cb ed="#V" n="b"/><lb ed="#V" n="76" break="no"/>tate vel pluritate formae significatae, si tres perso.1ae vnam
+            <lb ed="#V" n="77"/>naturam assumpsissent dicerentur vnus homo, sicut
+            pro<lb ed="#V" n="78" break="no"/>pter diuinam naturam dicuntur vnus Deus, &amp; sicut
+            dici<lb ed="#V" n="79" break="no"/>tur sola Trinitas est vnus solus verus Deus secundum
+            Au<lb ed="#V" n="80" break="no"/>gustus ita posset dici, quod iste solus homo est Pater &amp; Filius
+            <lb ed="#V" n="81"/>Spiritus sanctus, &amp; tunc iste terminus homo, supponeret
+            <lb ed="#V" n="82"/>rem naturae humanae sine distinctione trium personarum,
+            <lb ed="#V" n="83"/>sicut iste terminus Deus supponit in dicta locutione rem.
+            <lb ed="#V" n="84"/>naturae diuinae indistincte, &amp; haec est suppositio sua
+            natu<lb ed="#V" n="85" break="no"/>ralis, quali termini communis respectu trium personarum,.
+            <lb ed="#V" n="86"/>suppositio autem qua supponit pro patre vel filio est
+            acci<lb ed="#V" n="87" break="no"/>dentalis &amp; quasi termini discreti. Haec ille in forma. Articeues
+            <lb ed="#V" n="88"/>vero quinto ad secundum dicit. Quia si filius assumeret
+            <lb ed="#V" n="89"/>duas naturas secundum vnam, quarum diceretur Petrus
+            <lb ed="#V" n="90"/>&amp; secundum aliam Ioannes, tunc Petrus &amp; Ioannes non
+            <lb ed="#V" n="91"/>essent duo supposita, sed vnum, &amp; haec esset vera, Ioannes:
+            <lb ed="#V" n="92"/>est Petrus &amp; loannes, &amp; cum Petrus &amp; Ioannes non essent:
+            <lb ed="#V" n="93"/>vnus homo sed duo homines, singularitas &amp; pluralitas
+            ter<lb ed="#V" n="94" break="no"/>mini substantiui attenditur secundum vnitatem &amp;
+            plura<lb ed="#V" n="95" break="no"/>litatem naturae significatae per terminum, &amp; non secundam
+            <lb ed="#V" n="96"/>vnitatem vel pluralitatem suppositorum, quamuis enim
+            <lb ed="#V" n="97"/>Pater &amp; Filius &amp; Spiritus sanctus sint tria supposita, tamen
+            <lb ed="#V" n="98"/>propter vnitatem diuinae naturae quam significat hoc
+            no<lb ed="#V" n="99" break="no"/>men Deus dicuntur vnus Deus, ita ecotra quamuis
+            Ioan<lb ed="#V" n="100" break="no"/>nes &amp; Petrus essent vnum suppositum, tamen propter
+            plu<lb ed="#V" n="101" break="no"/>ralitatem naturarum assumptarum dicerentur duo
+            Ioan<lb ed="#V" n="102" break="no"/>nes sed diuersitas naturarum manente vnitate suppositi non
+            <lb ed="#V" n="103"/>impediret quin de se inuicem praedicarentur, qua
+            identi<lb ed="#V" n="104" break="no"/>tas suppositi sufficit ad veritatem praedicationis. Haec ille
+            <lb ed="#V" n="105"/>in forma. Quamuis autem tertia parte. q. 3. articu. 7. dicat
+            <lb ed="#V" n="106"/>quod nullum nomen ab aliqua fo: matimpontum dicitur
+            <lb ed="#V" n="107"/>pluraliter nisi propter pluralitatem suppositorum. Homo
+            <lb ed="#V" n="108"/>enim (inquit) qui est duobus vestimentis indutus non
+            di<lb ed="#V" n="109" break="no"/>citur duo vestiti, sed vnus vestitus duobus vestimentis, &amp;
+            <lb ed="#V" n="110"/>qui habet duas qualitates dicitur singulariter aliqualis
+            pro<lb ed="#V" n="111" break="no"/>pter duas qualitates. Quamuis inquam teneat, tamen ibi c
+            <lb ed="#V" n="112"/>&amp; vbicunque tenet quod nullum substantiuum recipit
+            vnita<lb ed="#V" n="113" break="no"/>tem a forma quam significat, videtur potius loqui de
+            adie<lb ed="#V" n="114" break="no"/>ctiuis quam de substantiuis. Tunc ad formam
+            argumenti<lb ed="#V" n="115" break="no"/>dicitur quod maior est falsa de nominibus adiectiuis, ad
+            <lb ed="#V" n="116"/>quorum plurificationem requiritur &amp; sufficit pluralitas
+            <lb ed="#V" n="117"/>suppositorum &amp; non formae gnificatae, secus est de
+            terini<lb ed="#V" n="118" break="no"/>nis substantiuis.
+          </p>
+          <p xml:id="capsco-a1olg0-d1e676">
+            Ad secundum negatur consequentia,
+            li<lb ed="#V" n="119" break="no"/>cet enim sciens significet scientiam non tamen supponit
+            pe<lb ed="#V" n="120" break="no"/>pro ea, &amp; ideo non potest de illa praedicari, sicut nec homo
+            <lb ed="#V" n="121"/>praedicatur de humanitate, licet eam significet, nam ad
+            ve<lb ed="#V" n="122" break="no"/>ritatem praedicationis non sufficit veritas siguficationis ex
+            <lb ed="#V" n="123"/>parte formae significatae, nisi cum hoc modus significandi
+            <lb ed="#V" n="124"/>esset omnino idem quod non est hic; quia licet album &amp;
+            al<lb ed="#V" n="125" break="no"/>bedo idem significent, tamen album copulat subiectum,
+            <lb ed="#V" n="126"/>l. gnisicat e.im albedinem in concretione ad illud &amp;
+            subie<lb ed="#V" n="127" break="no"/>ctum dicit in recto, &amp; ideo supponit pro illo &amp; non
+            pro<lb ed="#V" n="128" break="no"/>albedine, albedo autem significat eandem formam sine
+            ta<lb ed="#V" n="129" break="no"/>li concretione, sed per modum substantiae, vt dictum fuit
+            <lb ed="#V" n="130"/>supra, &amp; ideo album non praedicatur de albedine, nec
+            econ<lb ed="#V" n="131" break="no"/>tra.
+          </p>
+          <p xml:id="capsco-a1olg0-d1e707">
+            Ad tertium dico, quod secundum Sanctum Thomas de c
+            <lb ed="#V" n="132"/>veritate q. 1. articu. 4. formae sunt duplices, quaedam sunt
+            <lb ed="#V" n="133"/>quae nullam materiam sibi determinant, vt linea
+            superfi<lb ed="#V" n="134" break="no"/>ces, quaedam autem determinant sibi materiam specialem,
+            <lb ed="#V" n="135"/>vt simum, tunc dico quod nullum concretum vel
+            abstra<lb ed="#V" n="136" break="no"/>ctum accidentale de significato principali significat
+            subie<lb ed="#V" n="137" break="no"/>ctum, sed formam, vt dictum fuit, veruntamen quaedam
+            il<lb ed="#V" n="138" break="no"/>lorum dant intelligere suum subiectum ex consequenti,
+            <lb ed="#V" n="139"/>&amp; hoc vel sub ratione confusa, vt omnia concreta
+            acci<lb ed="#V" n="140" break="no"/>dentalia, quia significant formam in concreto, &amp; vt
+            adia<lb ed="#V" n="141" break="no"/>centem alteri, vel sub ratione determinata, vt illa quae
+            si<lb ed="#V" n="142" break="no"/>gnificant formam determinantem sibi materiam, sicut
+            r<lb ed="#V" n="143" break="no"/>mitas vel simum. Et sic patet ad argumenta.
+          </p>
+        </div>
+        <div xml:id="capsco-a1olg0-Dd1e737">
+          <head xml:id="capsco-a1olg0-Hd1e739">Articulus 2</head>
+          <p xml:id="capsco-a1olg0-d1e741">
+            <lb ed="#V" n="144"/><milestone ed="#V" unit="p" rend="initial"/> QVantum ad secundum articulum sit haec conclusio
+            <lb ed="#V" n="145"/>quod ista est falsa, Deus non generat Deum. Istam
+            <lb ed="#V" n="146"/>conclusionem tenet Sanctus Thomas prima parte.
+            <lb ed="#V" n="147"/>q. 39. artic. 4. ad tertium, vbi sic ait. Aliter se habet hoc
+            no<lb ed="#V" n="148" break="no"/>men Deus ad supponendum pro persona, &amp; aliter hoc
+            no<lb ed="#V" n="149" break="no"/>men homo. Quia enim natura significata per hoc nomen
+            <lb ed="#V" n="150"/>homo scilicet humanitas realiter diuiditur in diuersis
+            supposi<pb ed="#V" n="139"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>tis, per se supponit pro persona, etiam si nihil addatur quod
+            <lb ed="#V" n="2"/>determinet ipsum ad personam, quae est suppositum
+            distin<lb ed="#V" n="3" break="no"/>ctum, vnitas autem siue communitas humanae naturae non
+            <lb ed="#V" n="4"/>est secundum rem, sed solum secundum considerationem,
+            <lb ed="#V" n="5"/>vnde iste terminus homo non supponit pro natura
+            com<lb ed="#V" n="6" break="no"/>muni nisi propter exigentiam alicuius additi, vt cum
+            dici<lb ed="#V" n="7" break="no"/>tur homo est species, sed forma significata per hoc nomen
+            <lb ed="#V" n="8"/>Deus scilicet essentia diuina est vna &amp; communis
+            secun<lb ed="#V" n="9" break="no"/>dum rem, vnde per se supponit pro natura communi, sed
+            <lb ed="#V" n="10"/>ex adiuncto terminatur eius suppositio ad personam,
+            vn<lb ed="#V" n="11" break="no"/>de cum dicitur, Deus non generat, nihil additur quod
+            de<lb ed="#V" n="12" break="no"/>terminet hoc nomen ad personam filij, vnde datur
+            intelli<lb ed="#V" n="13" break="no"/>gi quod generatio repugnet diuinae naturae, sed si additur
+            <lb ed="#V" n="14"/>aliquod pertinens ad personam filij, vera esset locutio, vt
+            <lb ed="#V" n="15"/>si dicatur, Deus genitus non generat, vnde etiam non
+            se<lb ed="#V" n="16" break="no"/>quitur, est Deus generans, &amp; est Deus non generans nisi
+            <lb ed="#V" n="17"/>ponatur aliquid pertinens ad personas, vtputa si dicamus,
+            <lb ed="#V" n="18"/>pater est Deus generans, &amp; filius est Deus non generans.
+            <lb ed="#V" n="19"/>Haec ille.
+          </p>
+          <p xml:id="capsco-a1olg0-d1e803">
+            Et intendit vt mihi videtur quod in ista
+            proposi<lb ed="#V" n="20" break="no"/>tione, Deus non generat, ly Deus stat pro essentia, &amp; non
+            <lb ed="#V" n="21"/>pro aliqua persona determinate &amp; distincte, veruntamen
+            <lb ed="#V" n="22"/>non negat quin stet pro re diuinae naturae, dicit enim tertio
+            <lb ed="#V" n="23"/>sen. vbi supra allegatum est quod naturalis suppositio
+            hu<lb ed="#V" n="24" break="no"/>ius termini Deus est quando supponit rem naturae diuinae
+            <lb ed="#V" n="25"/>indistincte, res autem diuinae naturae est suppositum
+            natu<lb ed="#V" n="26" break="no"/>rae diuinae, vt patebit in sequenti quaestione. Ex quo patet
+            <lb ed="#V" n="27"/>quod hoc nomen Deus siue supponat determinate pro
+            pa<lb ed="#V" n="28" break="no"/>tre vel filio, siue non semper supponit rem naturae diuinae.
+            <lb ed="#V" n="29"/>In dicta ergo propositione stat pro essentia &amp; pro re
+            natu<lb ed="#V" n="30" break="no"/>rae diuinae indistincte, cum non trahatur ad standum
+            de<lb ed="#V" n="31" break="no"/>terminate pro hac, aut illa persona in speciali, &amp; ideo quia
+            <lb ed="#V" n="32"/>negatio sequens tantum valet respectu huius termini Deus
+            <lb ed="#V" n="33"/>stantis pro essentia diuina vel indistincte pro re naturae
+            di<lb ed="#V" n="34" break="no"/>uinae, quantum si praecederet, cum hic terminus Deus quo
+            <lb ed="#V" n="35"/>ad hoc habeat vicem termini singularis, vt ipse dicit primo
+            <lb ed="#V" n="36"/>sen. distin. 43. q. 1. artic. 2. ad tertium, ideo illa negatio negat
+            <lb ed="#V" n="37"/>actum generandi non solum a diuina essentia, quinimmo
+            <lb ed="#V" n="38"/>a re diuinae naturae inquantum huiusmodi. Ex quo
+            sequi<lb ed="#V" n="39" break="no"/>tur quod nulla res habens naturam diuinam potest
+            gene<lb ed="#V" n="40" break="no"/>rare, quod enim negatur ab aliquo inquantum tali
+            remo<lb ed="#V" n="41" break="no"/>uetur ab omni tali, immo sibi repugnat, &amp; quia hoc est
+            fal<lb ed="#V" n="42" break="no"/>sum, ideo illa propositio, Deus non generat, est falsa sicut
+            <lb ed="#V" n="43"/>ista, res diuinae naturae inquantum huiusmodi non generat.
+            <lb ed="#V" n="44"/>Vnde Sanctus Thomas primo sen. vbi dixi, hic terminus Deus
+            <lb ed="#V" n="45"/>in hoc conuenit cum terminis communibus, quod
+            praedi<lb ed="#V" n="46" break="no"/>catur de pluribus suppositis, sed in hoc conuenit cum
+            di<lb ed="#V" n="47" break="no"/>scretis quod non praedicatur in plurali quantumcunque
+            <lb ed="#V" n="48"/>supposita sint multa, non enim Pater &amp; Filius &amp; Spiritus
+            <lb ed="#V" n="49"/>sanctus sunt Dij, sed vnus Deus, &amp; ideo dicit quod ex hoc
+            <lb ed="#V" n="50"/>habet quod affirmatio &amp; negatio circa illam sunt
+            contra<lb ed="#V" n="51" break="no"/>dictoriae, vnde secundum Sanctum Thomas ibidem ita
+            con<lb ed="#V" n="52" break="no"/>tradicunt adinuicem istae, Deus generat, &amp; Deus non
+            ge<lb ed="#V" n="53" break="no"/>nerat, &amp; Deus non generat sicut istae, sortes currit &amp; sortes
+            <lb ed="#V" n="54"/>non currit.
+          </p>
+          <p xml:id="capsco-a1olg0-d1e881">
+            Sed contra praedicta arguit Aureolus in
+            prae<lb ed="#V" n="55" break="no"/>senti distinctione. Primo sic. Illa propositio est vera cuius
+            <lb ed="#V" n="56"/>aequipollens est vera, sed secundum te iste duae aequipollent,
+            <lb ed="#V" n="57"/>Deus non generat, &amp; essentia non generat, pro eo, quod
+            <lb ed="#V" n="58"/>Deus non supponit ibi pro persona secundum te, sed
+            pro<lb ed="#V" n="59" break="no"/>essentia, haec autem est vera, essentia non generat: ergo ista
+            <lb ed="#V" n="60"/>est vera, Deus non generat. Secundo sic. Praedicatum
+            af<lb ed="#V" n="61" break="no"/>sirmatum &amp; negatum reducuntur ad idem genus
+            secun<lb ed="#V" n="62" break="no"/>dum Augustnus 5. de Trinitate ait enim, quod non homo non
+            <lb ed="#V" n="63"/>aliud genus praedicamenti annunciat quam homo, sed
+            tan<lb ed="#V" n="64" break="no"/>tum illud negat, sed generare est aliquid pertinens ad
+            per<lb ed="#V" n="65" break="no"/>sonam, ergo &amp; non generare, &amp; per consequens
+            determi<lb ed="#V" n="66" break="no"/>nabit Deum, vt stet pro persona dicendo Deus non
+            gene<lb ed="#V" n="67" break="no"/>rat. Tertio sic. Deus non generat &amp; omnis Deus generat
+            <lb ed="#V" n="68"/>sunt contradictoriae, &amp; per consequens affirmatio &amp;
+            nega<lb ed="#V" n="69" break="no"/>tio de eodem, sed dicendo, omnis Deus generat
+            sopponit<lb ed="#V" n="70" break="no"/>pro persona: ergo dicendo, Deus non generat itabit
+            simi<lb ed="#V" n="71" break="no"/>liter pro persona. Quarto sic. Dicendo Deus non generat,
+            <lb ed="#V" n="72"/>aut ly Deus supponit pro diuina essentia, &amp; tunc est
+            pro<lb ed="#V" n="73" break="no"/>positio verissima, aut supponit pro determinata persona,
+            <lb ed="#V" n="74"/>puta pro filio, &amp; tunc etiam erit vera supponit pro aliqua
+            <lb ed="#V" n="75"/>persona indeterminate, &amp; tunc etiam erit vera: nam
+            inde<cb ed="#V" n="b"/><lb ed="#V" n="76" break="no"/>finita verificatur pro vna singulari: ergo pro quocunque
+            <lb ed="#V" n="77"/>supponat propositio erit vera. Quinta, quia non est verum,
+            <lb ed="#V" n="78"/>quod cuicunque naturae attribuitur negatio alicuius
+            prae<lb ed="#V" n="79" break="no"/>dicati denotetur repugnantia praedicati ad naturam.
+            Di<lb ed="#V" n="80" break="no"/>cendo enim homo non est albus non denotatur quod
+            al<lb ed="#V" n="81" break="no"/>bedo repugnet homini: ergo nec denotatur quod
+            genera<lb ed="#V" n="82" break="no"/>tio repugnet diuinae naturae dicendo, Deus non generat,
+            <lb ed="#V" n="83"/>vel essentia non generat: ergo falsum est, quod tu assignas
+            <lb ed="#V" n="84"/>pro causa negationis.
+          </p>
+          <p xml:id="capsco-a1olg0-d1e950">
+            Ad primum istorum negatur minor,
+            <lb ed="#V" n="85"/>non enim istae aequipollent secundum Sanctum
+            Thomam<lb ed="#V" n="86" break="no"/>Deus non generat, &amp; ista essentia diuina non generat, quia
+            <lb ed="#V" n="87"/>licet in prima ly, Deus, stet pro essentia, sicut in secunda,
+            <lb ed="#V" n="88"/>tamen in secunda stat pro essentia praecise nullo habito
+            re<lb ed="#V" n="89" break="no"/>spectu ad rem naturae diuinae, quae in illa natura subsistit, &amp;
+            <lb ed="#V" n="90"/>ideo solum negatur actus generandi ab essentia, &amp; non a
+            <lb ed="#V" n="91"/>supposito vel re illius naturae, ac per hoc est vera, sed in
+            pri<lb ed="#V" n="92" break="no"/>ma ly Deus stat pro essentia habito respectu ad supposita,
+            <lb ed="#V" n="93"/>sed indeterminate &amp; indistincte, &amp; hoc quia significat
+            es<lb ed="#V" n="94" break="no"/>sentiam concretiue, talia autem nomina significant aliquid
+            <lb ed="#V" n="95"/>sub sistens quantum est ex parte modi significandi, vt dictum
+            <lb ed="#V" n="96"/>est in primo articulo. Subsistens autem in diuina natura
+            <lb ed="#V" n="97"/>est suppositum, &amp; res naturae diuinae, &amp; ideo cum negatur
+            <lb ed="#V" n="98"/>actus generandi a Deo, negatur non solum ab essentia
+            di<lb ed="#V" n="99" break="no"/>uina, sed a re naturae diuinae, &amp; eius supposito, vt est talis
+            na<lb ed="#V" n="100" break="no"/>turae, &amp; ideo est falsa, quia generatio non negatur a
+            suppo<lb ed="#V" n="101" break="no"/>sito diuinae naturae, quia sic non conueniret patri: non
+            er<lb ed="#V" n="102" break="no"/>go aequipollent dictae duae propositiones, sed istae potius
+            <lb ed="#V" n="103"/>aequipollent, Deus non generat, &amp; nihil quod subsistit in
+            <lb ed="#V" n="104"/>diuina natura generat, quarum quaelibet est falsa. Ad
+            se<lb ed="#V" n="105" break="no"/>cundum conceditur maior, sed minor non bene
+            subsumi<lb ed="#V" n="106" break="no"/>tur, debebat enim subsumi quod generare pertinet ad tale
+            <lb ed="#V" n="107"/>genus vel tale, &amp; concludi quod non generare pertinet ad
+            <lb ed="#V" n="108"/>illud idem, &amp; arguens subsumit, quod generare est quid
+            <lb ed="#V" n="109"/>personale, &amp; ideo consequentia nulla est, non generare enim
+            <lb ed="#V" n="110"/>non est personale, cum aeque conueniat essentiae, sicut
+            per<lb ed="#V" n="111" break="no"/>sonae, immo non conuenit essentiae ratione personae, &amp; ideo
+            <lb ed="#V" n="112"/>argumentum non valet, nec concludit quod ly, non
+            gene<lb ed="#V" n="113" break="no"/>rare, determinet hoc nomen, Deus, ad standum pro aliqua
+            <lb ed="#V" n="114"/>persona determinata, praesertim quod illa negatio tenetur
+            <lb ed="#V" n="115"/>ibidem neganter &amp; tantundem valet ac si diceretur, non
+            <lb ed="#V" n="116"/>Deus generat, vbi patet quod non restringitur ly, Deus, ad
+            <lb ed="#V" n="117"/>standum pro aliqua persona determinata, quia ad illum
+            sen<lb ed="#V" n="118" break="no"/>sum negaret solum Sanctus Thomas quod ly Deus stet
+            pro<lb ed="#V" n="119" break="no"/>persona in hac, Deus non genuit.
+          </p>
+          <p xml:id="capsco-a1olg0-d1e1029">
+            Ad tertium conceditur
+            <lb ed="#V" n="120"/>conclusio, scilicet quod in ista Deus non generat ly, Deus,
+            <lb ed="#V" n="121"/>stat non solum pro essentia, sed pro quocunque diuino
+            sub<lb ed="#V" n="122" break="no"/>sistente siue sit essentia siue persona, cum enim dicit Sanctus Thomas
+            <lb ed="#V" n="123"/>quod in ea nihil ponitur quod determinet ly, Deus, ad standum
+            <lb ed="#V" n="124"/>pro persona filij, non intendit quod in illa propositione stet
+            <lb ed="#V" n="125"/>pro vlla persona, sed solum vult quod non stet distincte, &amp;
+            <lb ed="#V" n="126"/>in speciali pro aliqua persona determinata, sed pro
+            natu<lb ed="#V" n="127" break="no"/>ra diuina vt &amp; pro re naturae diuinae dictum fuit, hoc
+            no<lb ed="#V" n="128" break="no"/>men enim Deus de sua naturali suppositione stat pro
+            na<lb ed="#V" n="129" break="no"/>tura diuina, vt in habente vel pro subsistente in ea:
+            subie<lb ed="#V" n="130" break="no"/>ctum igitur dictae propositionis supponit indistincte
+            pro<lb ed="#V" n="131" break="no"/>re diuinae naturae, &amp; quia negatio intelligitur procedere
+            <lb ed="#V" n="132"/>totum negans, cum in singularibus non referat
+            negatio<lb ed="#V" n="133" break="no"/>nem praeponere vel postponere, ideo per eam designatur
+            <lb ed="#V" n="134"/>generationem nullo modo conuenire rei subsistenti in
+            na<lb ed="#V" n="135" break="no"/>tura diuina.
+          </p>
+          <p xml:id="capsco-a1olg0-d1e1066">
+            Ad quartum patet per dicta. In illa enim
+            pro<lb ed="#V" n="136" break="no"/>positione subiectum stat no solum pro essentia, nec
+            reitrin<lb ed="#V" n="137" break="no"/>gitur ad aliquam personam in speciali, sed indistincte
+            pro<lb ed="#V" n="138" break="no"/>quolibet in diuina natura subsistente. Et cum dicitur quod
+            <lb ed="#V" n="139"/>tunc est vera, quia indefinita &amp;c. dicitur quod illa
+            propo<lb ed="#V" n="140" break="no"/>sitio tantum valet acsi esset vniuersalis negatiua, idem enim
+            <lb ed="#V" n="141"/>est dicere, sortes non currit &amp; nihil quod est sortes currit,
+            <lb ed="#V" n="142"/>sic in proposito, Deus non generat, &amp; nihil quod est Deus
+            <lb ed="#V" n="143"/>generat.
+          </p>
+          <p xml:id="capsco-a1olg0-d1e1086">
+            Ad quintum dicitur, quod quandocunque nomen
+            <lb ed="#V" n="144"/>naturae supponit pro ipsa natura vel pro re talis naturae
+            in<lb ed="#V" n="145" break="no"/>quantum huiusmodi, &amp; no pro aliquo supposito
+            determi<lb ed="#V" n="146" break="no"/>nato illius naturae, tunc quicquid negatur ab illo
+            intelligi<lb ed="#V" n="147" break="no"/>tur negari a re naturae inquatum res talis naturae est ac per
+            <lb ed="#V" n="148"/>hoc sibi repugnare, quod enim ab aliquo remouetur
+            in<lb ed="#V" n="149" break="no"/>quantum tale est ei repugnat, cum enim dicitur, homo non
+            <lb ed="#V" n="150"/>est albus, n ly, homo, staret ibi pro natura humana praecise,
+            <pb ed="#V" n="140"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>vel pro subsistente in tali natura in communi non pro isto
+            <lb ed="#V" n="2"/>vel illo, tunc idem esset dicere, homo non est albus, &amp;
+            di<lb ed="#V" n="3" break="no"/>cere homo inquantum huiusmodi non est albus, sic autem
+            <lb ed="#V" n="4"/>est in opposito. Potest etiam aliter dici concedendo
+            ante<lb ed="#V" n="5" break="no"/>cedens &amp; negando consequentiam: nam licet de forma
+            il<lb ed="#V" n="6" break="no"/>la consequentia non valeat Deus non generat: ergo Deo
+            <lb ed="#V" n="7"/>repugnat generatio, tamen valet in ista materia: nam
+            in<lb ed="#V" n="8" break="no"/>diuinis ad intra quicquid non conuenit repugnat, quia
+            <lb ed="#V" n="9"/>quicquid potest ibi esse iam ibi est: ergo quicquid ibi non
+            <lb ed="#V" n="10"/>est non potest ibi esse, sed repugnat, generatio autem
+            diui<lb ed="#V" n="11" break="no"/>nae personae est ad intra, quapropter consequentia valuit in
+            <lb ed="#V" n="12"/>ista materia, &amp; si non in alia.
+          </p>
+        </div>
+        <div xml:id="capsco-a1olg0-Dd1e1135">
+          <head xml:id="capsco-a1olg0-Hd1e1137">Articulus 3</head>
+          <p xml:id="capsco-a1olg0-d1e1139">
+            <lb ed="#V" n="13"/><milestone ed="#V" unit="p" rend="initial"/> Quantum ad tertium articulum sit ista conclusio quod
+            <lb ed="#V" n="14"/>haec est vera, Deus genuit Deum, &amp; non solum
+            ve<lb ed="#V" n="15" break="no"/>ra, immo propria. Hanc declarat Sanctus Thomas
+            <lb ed="#V" n="16"/>prima parte q. 39. artic. 4. vbi ait. Quidam dixerunt quod
+            <lb ed="#V" n="17"/>hoc nomen Deus &amp; similia proprie secundum suam
+            natu<lb ed="#V" n="18" break="no"/>ram supponunt pro essentia, sed ex adiuncto notionali
+            tra<lb ed="#V" n="19" break="no"/>huntur ad supponendum pro persona, &amp; haec opinio
+            pro<lb ed="#V" n="20" break="no"/>cessisse videtur ex consideratione diuinae simplicitatis, quae
+            <lb ed="#V" n="21"/>requirit quod in Deo idem sit habens &amp; quod habetur, &amp;
+            <lb ed="#V" n="22"/>sic habens Deitatem quod significat hoc nomen Deus, est
+            <lb ed="#V" n="23"/>idem quod Deitas, sed in proprietatibus locutionum non
+            <lb ed="#V" n="24"/>tantum attendenda est res significata per nomen, sed etiam
+            <lb ed="#V" n="25"/>modus significandi, &amp; ideo quia hoc nomen Deus designat
+            <lb ed="#V" n="26"/>diuinam essentia, vt in habente ipsam, sicut hoc nomen
+            ho<lb ed="#V" n="27" break="no"/>mo humanitatem in supposito, alij melius dixerunt, quod
+            <lb ed="#V" n="28"/>scilicet hoc nomen Deus ex modo significandi habet, vt
+            <lb ed="#V" n="29"/>proprie possit supponere pro persona, sicut &amp; hoc nomen
+            <lb ed="#V" n="30"/>homo, quandoque igitur hoc nomen Deus supponit pro
+            <lb ed="#V" n="31"/>essentia, vt cum dicitur, Deus creat, quia hoc praedicatum
+            <lb ed="#V" n="32"/>conuenit subiecto ratione formae significatae, quae est Deitas,
+            <lb ed="#V" n="33"/>quandoque vero supponit personam vel vnam tantum, vt
+            <lb ed="#V" n="34"/>cum dicitur Deus generat, vel duas, vt cum dicitur Deus
+            <lb ed="#V" n="35"/>spirat, vel tres, vt cum dicitur. Regi saeculorum immortali
+            <lb ed="#V" n="36"/>inuisibili Deo, primae Thimot. vltimo. Haec ille.
+          </p>
+          <p xml:id="capsco-a1olg0-d1e1195">
+            Vult ergo
+            <lb ed="#V" n="37"/>dicere quod in ista, Deus generat Deum, subiectum
+            sup<lb ed="#V" n="38" break="no"/>ponit determinate pro persona patris secludendo essentiam
+            <lb ed="#V" n="39"/>ratione additi personalis, &amp; quia sic supponendo
+            proposi<lb ed="#V" n="40" break="no"/>tio est vera &amp; propria, sequitur quod proprie loquendo
+            il<lb ed="#V" n="41" break="no"/>la sit vera. Eandem conclusionem tenet primo sent. dist. 4.
+            <lb ed="#V" n="42"/>q. 1. arti. 1. Sed hanc conclusionem dicit Aureolus
+            defice<lb ed="#V" n="43" break="no"/>re in sua probatione tripliciter. Primo quidem in hoc quod
+            <lb ed="#V" n="44"/>dicit quod hoc nomen Deus non supponit pro persona
+            <lb ed="#V" n="45"/>cum dicitur, Deus creat, actiones nanque sunt
+            supposito<lb ed="#V" n="46" break="no"/>rum, sed creare est agere: ergo cum dicitur Deus creat stat
+            <lb ed="#V" n="47"/>ibi ly Deus pro suppositis &amp; personis.
+          </p>
+          <p xml:id="capsco-a1olg0-d1e1221">
+            Secundo ad idem
+            <lb ed="#V" n="48"/>non magis abstrahit creatio quam abstrahat intellectio
+            <lb ed="#V" n="49"/>beatorum, sed probatum inquit est quod intentio beatorum
+            <lb ed="#V" n="50"/>non potest praecise terminari ad essentiam tanquam ad
+            il<lb ed="#V" n="51" break="no"/>lud quod videtur, si necessario terminatur ad personam
+            <lb ed="#V" n="52"/>pro eo quod est res habens propriam veritatem, essentia
+            <lb ed="#V" n="53"/>vero non habet: ergo multo minus creatio poterit
+            praeci<lb ed="#V" n="54" break="no"/>se profluere ab essentia, sed fluet de necessitate a tribus
+            per<lb ed="#V" n="55" break="no"/>sonis quamuis per rationem formalem. Deficit iterum
+            se<lb ed="#V" n="56" break="no"/>cundum eum dicta probatio in eo quod ait, hoc nomen
+            <lb ed="#V" n="57"/>Deus supponere pro tribus personis cum dicitur. Regi
+            sae<lb ed="#V" n="58" break="no"/>culorum &amp;c. illi enim soli debetur honor qui creat, sed
+            <lb ed="#V" n="59"/>iste est Deus prout subsistit in tribus personis: ergo Deus
+            <lb ed="#V" n="60"/>qui creat supponit pro tribus &amp; non pro natura tantum,
+            <lb ed="#V" n="61"/>cuius oppositum tu primo loco dixisti, ita quod
+            secun<lb ed="#V" n="62" break="no"/>dum dictum videtur primo repugnare. Deficit tertio
+            in<lb ed="#V" n="63" break="no"/>quit dicta probatio in hoc quod dicit Deum nunc
+            suppo<lb ed="#V" n="64" break="no"/>nere pro essentia nunc pro persona, semper enim supponit
+            <lb ed="#V" n="65"/>pro persona: si enim aliquando non supponeret pro
+            perso<lb ed="#V" n="66" break="no"/>na, sed tantum pro natura, hoc esset maxime quando de
+            <lb ed="#V" n="67"/>Deo praedicaretur essentia vel aliquod essentiale, sed etiam
+            <lb ed="#V" n="68"/>tunc supponit pro persona, dicendo enim Deus est
+            essen<lb ed="#V" n="69" break="no"/>tia, vel Deus creat, aut intelligit, vel similia, sensus est quod
+            <lb ed="#V" n="70"/>habens deitatem est essentia diuina, &amp; quod personae quae
+            <lb ed="#V" n="71"/>sunt Deus sunt ipsamet essentialia: ergo Deus semper
+            sup<lb ed="#V" n="72" break="no"/>ponit pro persona vel personis. Et si dicatur quod non, cum
+            <lb ed="#V" n="73"/>dicitur tres personae sunt vnus Deus non sunt vna
+            perso<lb ed="#V" n="74" break="no"/>na, sed tantum vna essentia.
+          </p>
+          <p xml:id="capsco-a1olg0-d1e1282">
+            Dicendum inquit, quod tunc
+            <lb ed="#V" n="75"/>etiam supponit non tantum pro diuinitate, immo pro
+            ha<cb ed="#V" n="b"/><lb ed="#V" n="76" break="no"/>bente diuinitatem. Est enim sensus tres personae sunt vnus
+            <lb ed="#V" n="77"/>Deus, idest vnum sunt in habendo diuinitatem, licet sint
+            <lb ed="#V" n="78"/>tres habentes, nec est idem sensus, tres personae sunt vna
+            <lb ed="#V" n="79"/>deitas, &amp; tres personae sunt vnus Deus, ibi enim
+            praedica<lb ed="#V" n="80" break="no"/>tur absolute diuinitas, hic autem habens diuinitatem. Ad
+            <lb ed="#V" n="81"/>ea quae primo inducit respondetur quod false imponit Sancto
+            <lb ed="#V" n="82"/>Thomae quod ipse dixerit in ista, Deus creat, subiectum
+            sup<lb ed="#V" n="83" break="no"/>ponere pro essentia, ita quod nullo modo pro persona,
+            San<lb ed="#V" n="84" break="no"/>ctus Thomas enim primo sent. distin. 36. q. 1. artic. 1. ponit
+            <lb ed="#V" n="85"/>quod actus creandi conuenit diuinae naturae &amp; eius
+            suppo<lb ed="#V" n="86" break="no"/>sitis, non enim oportebat arguentem laborare ad
+            proban<lb ed="#V" n="87" break="no"/>dum quod creatio non potest praecise terminari ad
+            essen<lb ed="#V" n="88" break="no"/>tiam sine personis, cum Sanctus Thomas prima parte. q. 45.
+            <lb ed="#V" n="89"/>articul. 7. ad tertium dicat &amp; gratis concedat quod creare
+            <lb ed="#V" n="90"/>est commune toti Trinitati, &amp; sic patet resolutio ad
+            secun<lb ed="#V" n="91" break="no"/>dum.
+          </p>
+          <p xml:id="capsco-a1olg0-d1e1323">
+            Ad illud quod secundo loco proponit vbi vult
+            pro<lb ed="#V" n="92" break="no"/>bare contradictionem in dictis Sancti Thomae dicendum
+            iux<lb ed="#V" n="93" break="no"/>ta praemissa quod in ista, Deus creat subiectum stat pro
+            es<lb ed="#V" n="94" break="no"/>sentia, &amp; pro re habente diuinitatem, &amp; hoc distincte, sed
+            <lb ed="#V" n="95"/>pro personis stat indistincte, immo pro tota Trinitate, &amp;
+            <lb ed="#V" n="96"/>ideo non est contradictio dicere quod in hac, Deus creat,
+            <lb ed="#V" n="97"/>subiectum supponit distincte pro personis, &amp; dicere quod
+            <lb ed="#V" n="98"/>in hac, Regi saeculorum &amp;c. ly Deo stat pro tribus
+            perso<lb ed="#V" n="99" break="no"/>nis.
+          </p>
+          <p xml:id="capsco-a1olg0-d1e1343">
+            Ad illud quod tertio proponit dicitur similiter quod
+            <lb ed="#V" n="100"/>procedit ex malo intellectu dictorum Sancti Thomae non
+            <lb ed="#V" n="101"/>enim intendit Sanctus Thomas quod hoc nomen Deus
+            quando<lb ed="#V" n="102" break="no"/>que supponat pro essentia quin supponat pro persona
+            ibi<lb ed="#V" n="103" break="no"/>dem distincte vel indistincte, sed ad hunc sensum dicit, quod
+            <lb ed="#V" n="104"/>aliquando supponit pro persona aliquando pro essentia,
+            <lb ed="#V" n="105"/>quia scilicet quandoque supponit distincte pro isto &amp; non
+            <lb ed="#V" n="106"/>pro illo quandoque econtra, quandoque vero supponit pro
+            <lb ed="#V" n="107"/>persona sic quod non pro essentia, vt cum dicitur, Deus
+            <lb ed="#V" n="108"/>generat, nunquam tamen stat pro essentia quin implicite
+            <lb ed="#V" n="109"/>vel explicite stet pro persona, &amp; quod ista sit mens Sancti Thomae
+            <lb ed="#V" n="110"/>patet: nam si quandoque staret pro essentia, &amp; non pro
+            per<lb ed="#V" n="111" break="no"/>sona, maxime videretur esse in ista, Pater &amp; Filius sunt vnus
+            <lb ed="#V" n="112"/>Deus, vel in ista, Trinitas est vnus Deus, sed tamen
+            secun<lb ed="#V" n="113" break="no"/>dum mentem Sancti Thomae in vtraque istarum ly, Deus,
+            <lb ed="#V" n="114"/>stat implicite pro personis, quod patet. Nam prima parte.
+            <lb ed="#V" n="115"/>q. 36. artic. 4. dicit idem esse iudicium de istis, Pater &amp;
+            Fi<lb ed="#V" n="116" break="no"/>lius sunt vnus Deus, &amp; Pater &amp; Filius sunt vnum
+            princi<lb ed="#V" n="117" break="no"/>pium Spiritus sancti. Sicut enim Pater &amp; Filius sunt vnus
+            <lb ed="#V" n="118"/>Deus propter vnitatem formae significatae per hoc nomen
+            <lb ed="#V" n="119"/>Deus, ita sunt vnum principium Spiritus sancti propter
+            vni<lb ed="#V" n="120" break="no"/>tatem proprietatis importatae in nomine principij, &amp;
+            ta<lb ed="#V" n="121" break="no"/>men eodem articul. post pauca, scilicet respondendo ad
+            <lb ed="#V" n="122"/>quartum &amp; quintum dicit, quod in secunda propositione
+            <lb ed="#V" n="123"/>ly, principium, supponit confuse pro duabus personis
+            in<lb ed="#V" n="124" break="no"/>distincte: ergo eodem modo haberet dicere de prima
+            pro<lb ed="#V" n="125" break="no"/>positione, scilicet Pater &amp; Filius sunt vnus Deus quod ly,
+            <lb ed="#V" n="126"/>Deus, supponit pro duabus personis indistincte &amp; habet
+            <lb ed="#V" n="127"/>suppositionem confusam.
+          </p>
+          <p xml:id="capsco-a1olg0-d1e1406">
+            Item tertio sent. dist. 1. q. 2.
+            ar<lb ed="#V" n="128" break="no"/>tic. 4. in responsione ad sextum dicit, quod in ista, Trinitas
+            <lb ed="#V" n="129"/>est vnus solus verus Deus, ly Deus, supponit rem naturae
+            <lb ed="#V" n="130"/>diuinae indistincte. Rem autem naturae vocat suppositum
+            <lb ed="#V" n="131"/>eodem lib. 3. dist. 6. q. 1. artic. 1. Cum igitur in istis
+            propo<lb ed="#V" n="132" break="no"/>sitionibus, quae dictae sunt, scilicet Trinitas est vnus solus
+            <lb ed="#V" n="133"/>verus Deus, &amp; Pater &amp; Filius sunt vnus Deus ly, Deus,
+            <lb ed="#V" n="134"/>supponit pro essentia &amp; pro re illius naturae sequitur quod
+            <lb ed="#V" n="135"/>secundum eum nunquam supponit pro essentia quin
+            im<lb ed="#V" n="136" break="no"/>plicite vel explicite supponat pro persona, cum
+            huiusmo<lb ed="#V" n="137" break="no"/>di oppositum, maxime videretur sensisse in dictis
+            proposi<lb ed="#V" n="138" break="no"/>tionibus, quod tamen non fecit.
+          </p>
+          <p xml:id="capsco-a1olg0-d1e1432">
+            Ad argumentum in pede
+            <lb ed="#V" n="139"/>quaestionis factum dicitur, quod licet hoc nomen, Deus,
+            <lb ed="#V" n="140"/>significet essentiam, tamen quantum est de se supponit pro
+            <lb ed="#V" n="141"/>habente essentiam &amp; rem naturae, etiam non intellectus
+            <lb ed="#V" n="142"/>personis quas fides dicit, vnde potest supponere pro
+            perso<lb ed="#V" n="143" break="no"/>na etiam si ab alio non restringatur, &amp; quia supponit
+            per<lb ed="#V" n="144" break="no"/>sonam indistincte, ideo potest stare pro persona in
+            locu<lb ed="#V" n="145" break="no"/>tione pro qua reddit propositionem veram, vnde in hac
+            <lb ed="#V" n="146"/>locutione, Deus generat Deum, Deus in subiecto stat pro
+            <lb ed="#V" n="147"/>patre, in proposito pro filio. Istam solutionem ponit
+            San<lb ed="#V" n="148" break="no"/>ctus Thomas primo sent. vbi supra articulo primo ad
+            se<lb ed="#V" n="149" break="no"/>cundum. In summa autem scilicet prima parte. quaest. 39.
+            <lb ed="#V" n="150"/>articulo 4. ad secundum dicit, quod ista ratio solum
+            pro<pb ed="#V" n="141"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>cedit contra illos qui dicebant quod hoc nomen, Deus,
+            <lb ed="#V" n="2"/>non habet naturalem suppositionem pro persona, nos
+            au<lb ed="#V" n="3" break="no"/>tem qui oppositum ponimus non oportet ponere quid
+            re<lb ed="#V" n="4" break="no"/>stringat eum ad standum pro persona. Et haec de
+            quaestio<lb ed="#V" n="5" break="no"/>ne praedicta.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
